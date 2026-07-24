@@ -1,0 +1,93 @@
+{
+  "language": "ja",
+  "label": "Tiếng Nhật",
+  "groups": [
+    {
+      "id": "ja-shape-mimatsu",
+      "language": "ja",
+      "groupKind": "shape",
+      "reading": "未 · 末",
+      "note": "字形が似ている漢字: 未 và 末 chỉ khác nhau ở độ dài hai nét ngang trên cùng — 未 nét trên NGẮN hơn nét dưới, 末 nét trên DÀI hơn nét dưới. Âm On hoàn toàn khác nhau (み ≠ まつ).",
+      "roots": [
+        {
+          "id": "ja-shape-mimatsu-mi",
+          "character": "未",
+          "hanViet": "vị",
+          "meaningVn": "chưa (nét ngang trên NGẮN)",
+          "words": [
+            { "id": "ja-shape-mimatsu-mi-w1", "headword": "未来", "reading": "mirai", "meaningVn": "tương lai", "example": "明るい未来です。", "exampleVn": "Là tương lai tươi sáng." },
+            { "id": "ja-shape-mimatsu-mi-w2", "headword": "未満", "reading": "miman", "meaningVn": "chưa đủ, dưới mức", "example": "十八歳未満です。", "exampleVn": "Dưới 18 tuổi." }
+          ]
+        },
+        {
+          "id": "ja-shape-mimatsu-matsu",
+          "character": "末",
+          "hanViet": "mạt",
+          "meaningVn": "cuối, ngọn (nét ngang trên DÀI)",
+          "words": [
+            { "id": "ja-shape-mimatsu-matsu-w1", "headword": "末尾", "reading": "matsubi", "meaningVn": "phần cuối", "example": "文章の末尾です。", "exampleVn": "Là phần cuối bài văn." },
+            { "id": "ja-shape-mimatsu-matsu-w2", "headword": "期末", "reading": "kimatsu", "meaningVn": "cuối kỳ", "example": "期末試験です。", "exampleVn": "Là kỳ thi cuối kỳ." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-shape-shido",
+      "language": "ja",
+      "groupKind": "shape",
+      "reading": "士 · 土",
+      "note": "字形が似ている漢字: 士 và 土 chỉ khác nhau ở độ dài tương đối của hai nét ngang — 士 nét trên NGẮN nét dưới DÀI, 土 nét trên DÀI nét dưới NGẮN. Âm On khác nhau hoàn toàn (し ≠ ど).",
+      "roots": [
+        {
+          "id": "ja-shape-shido-shi",
+          "character": "士",
+          "hanViet": "sĩ",
+          "meaningVn": "người có học/binh sĩ (nét trên ngắn, nét dưới dài)",
+          "words": [
+            { "id": "ja-shape-shido-shi-w1", "headword": "兵士", "reading": "heishi", "meaningVn": "binh sĩ", "example": "勇敢な兵士です。", "exampleVn": "Là người binh sĩ dũng cảm." },
+            { "id": "ja-shape-shido-shi-w2", "headword": "博士", "reading": "hakase", "meaningVn": "tiến sĩ", "example": "博士号を取ります。", "exampleVn": "Lấy bằng tiến sĩ." }
+          ]
+        },
+        {
+          "id": "ja-shape-shido-do",
+          "character": "土",
+          "hanViet": "thổ",
+          "meaningVn": "đất (nét trên dài, nét dưới ngắn)",
+          "words": [
+            { "id": "ja-shape-shido-do-w1", "headword": "土地", "reading": "tochi", "meaningVn": "đất đai", "example": "広い土地です。", "exampleVn": "Là mảnh đất rộng." },
+            { "id": "ja-shape-shido-do-w2", "headword": "土曜日", "reading": "doyoubi", "meaningVn": "thứ Bảy", "example": "土曜日に会います。", "exampleVn": "Gặp nhau vào thứ Bảy." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-shape-senkan",
+      "language": "ja",
+      "groupKind": "shape",
+      "reading": "千 · 干",
+      "note": "字形が似ている漢字: 千 và 干 chỉ khác nhau ở nét PHẨY phía trên bên trái — 千 có thêm nét phẩy ngắn mà 干 không có. Âm On khác nhau hoàn toàn (せん ≠ かん).",
+      "roots": [
+        {
+          "id": "ja-shape-senkan-sen",
+          "character": "千",
+          "hanViet": "thiên",
+          "meaningVn": "nghìn (có thêm nét phẩy)",
+          "words": [
+            { "id": "ja-shape-senkan-sen-w1", "headword": "千円", "reading": "sen'en", "meaningVn": "một nghìn yên", "example": "千円札です。", "exampleVn": "Là tờ tiền một nghìn yên." },
+            { "id": "ja-shape-senkan-sen-w2", "headword": "千葉", "reading": "Chiba", "meaningVn": "Chiba (địa danh)", "example": "千葉に住んでいます。", "exampleVn": "Sống ở Chiba." }
+          ]
+        },
+        {
+          "id": "ja-shape-senkan-kan",
+          "character": "干",
+          "hanViet": "can",
+          "meaningVn": "khô, can dự (không có nét phẩy)",
+          "words": [
+            { "id": "ja-shape-senkan-kan-w1", "headword": "干渉", "reading": "kanshou", "meaningVn": "can thiệp", "example": "干渉しないでください。", "exampleVn": "Xin đừng can thiệp." },
+            { "id": "ja-shape-senkan-kan-w2", "headword": "若干", "reading": "jakkan", "meaningVn": "một ít, chút ít", "example": "若干の問題があります。", "exampleVn": "Có một số vấn đề nhỏ." }
+          ]
+        }
+      ]
+    }
+  ]
+}

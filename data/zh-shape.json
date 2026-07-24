@@ -1,0 +1,198 @@
+{
+  "language": "zh",
+  "label": "Tiếng Trung",
+  "groups": [
+    {
+      "id": "zh-shape-weimo",
+      "language": "zh",
+      "groupKind": "shape",
+      "reading": "未 · 末",
+      "note": "形近字 (hình cận tự): 未 và 末 chỉ khác nhau ở độ dài hai nét ngang trên cùng — 未 nét trên NGẮN hơn nét dưới, 末 nét trên DÀI hơn nét dưới. Đọc hoàn toàn khác nhau (wèi ≠ mò) và nghĩa không liên quan.",
+      "roots": [
+        {
+          "id": "zh-shape-weimo-wei",
+          "character": "未",
+          "hanViet": "vị",
+          "meaningVn": "chưa (nét ngang trên NGẮN)",
+          "words": [
+            { "id": "zh-shape-weimo-wei-w1", "headword": "未必", "reading": "wèibì", "meaningVn": "chưa chắc", "example": "未必是真的。", "exampleVn": "Chưa chắc là thật." },
+            { "id": "zh-shape-weimo-wei-w2", "headword": "未知", "reading": "wèizhī", "meaningVn": "chưa biết, unknown", "example": "未知的领域。", "exampleVn": "Lĩnh vực chưa biết đến." }
+          ]
+        },
+        {
+          "id": "zh-shape-weimo-mo",
+          "character": "末",
+          "hanViet": "mạt",
+          "meaningVn": "cuối, ngọn (nét ngang trên DÀI)",
+          "words": [
+            { "id": "zh-shape-weimo-mo-w1", "headword": "末尾", "reading": "mòwěi", "meaningVn": "phần cuối", "example": "文章末尾。", "exampleVn": "Phần cuối bài văn." },
+            { "id": "zh-shape-weimo-mo-w2", "headword": "周末", "reading": "zhōumò", "meaningVn": "cuối tuần", "example": "周末愉快。", "exampleVn": "Chúc cuối tuần vui vẻ." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-shape-shitu",
+      "language": "zh",
+      "groupKind": "shape",
+      "reading": "士 · 土",
+      "note": "形近字: 士 và 土 chỉ khác nhau ở độ dài tương đối của hai nét ngang — 士 nét trên NGẮN nét dưới DÀI, 土 nét trên DÀI nét dưới NGẮN (ngược lại với 士). Đọc khác nhau hoàn toàn (shì ≠ tǔ).",
+      "roots": [
+        {
+          "id": "zh-shape-shitu-shi",
+          "character": "士",
+          "hanViet": "sĩ",
+          "meaningVn": "người có học/binh sĩ (nét trên ngắn, nét dưới dài)",
+          "words": [
+            { "id": "zh-shape-shitu-shi-w1", "headword": "士兵", "reading": "shìbīng", "meaningVn": "binh sĩ", "example": "勇敢的士兵。", "exampleVn": "Người binh sĩ dũng cảm." },
+            { "id": "zh-shape-shitu-shi-w2", "headword": "博士", "reading": "bóshì", "meaningVn": "tiến sĩ", "example": "博士学位。", "exampleVn": "Học vị tiến sĩ." }
+          ]
+        },
+        {
+          "id": "zh-shape-shitu-tu",
+          "character": "土",
+          "hanViet": "thổ",
+          "meaningVn": "đất (nét trên dài, nét dưới ngắn)",
+          "words": [
+            { "id": "zh-shape-shitu-tu-w1", "headword": "土地", "reading": "tǔdì", "meaningVn": "đất đai", "example": "肥沃的土地。", "exampleVn": "Đất đai màu mỡ." },
+            { "id": "zh-shape-shitu-tu-w2", "headword": "泥土", "reading": "nítǔ", "meaningVn": "đất bùn", "example": "手上的泥土。", "exampleVn": "Đất bùn trên tay." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-shape-jiyisi",
+      "language": "zh",
+      "groupKind": "shape",
+      "reading": "己 · 已 · 巳",
+      "note": "形近字 kinh điển nhất: 己/已/巳 chỉ khác nhau ở độ HỞ của nét móc bên trong — 己 hở nhiều nhất (gần như mở hẳn), 已 hở vừa (chạm nhẹ), 巳 kín hoàn toàn (khép lại). Ba chữ đọc khác hẳn nhau (jǐ ≠ yǐ ≠ sì). 巳 khá hiếm trong tiếng Trung hiện đại, chủ yếu dùng trong lịch can chi (地支).",
+      "roots": [
+        {
+          "id": "zh-shape-jiyisi-ji",
+          "character": "己",
+          "hanViet": "kỷ",
+          "meaningVn": "bản thân (nét móc HỞ nhất)",
+          "words": [
+            { "id": "zh-shape-jiyisi-ji-w1", "headword": "自己", "reading": "zìjǐ", "meaningVn": "bản thân", "example": "相信自己。", "exampleVn": "Tin vào bản thân." },
+            { "id": "zh-shape-jiyisi-ji-w2", "headword": "知己", "reading": "zhījǐ", "meaningVn": "tri kỷ, bạn tri âm", "example": "人生知己难求。", "exampleVn": "Bạn tri kỷ khó tìm trong đời." }
+          ]
+        },
+        {
+          "id": "zh-shape-jiyisi-yi",
+          "character": "已",
+          "hanViet": "dĩ",
+          "meaningVn": "đã, rồi (nét móc hở VỪA)",
+          "words": [
+            { "id": "zh-shape-jiyisi-yi-w1", "headword": "已经", "reading": "yǐjīng", "meaningVn": "đã, đã rồi", "example": "已经完成了。", "exampleVn": "Đã hoàn thành rồi." },
+            { "id": "zh-shape-jiyisi-yi-w2", "headword": "而已", "reading": "éryǐ", "meaningVn": "mà thôi", "example": "开玩笑而已。", "exampleVn": "Chỉ là đùa thôi mà." }
+          ]
+        },
+        {
+          "id": "zh-shape-jiyisi-si",
+          "character": "巳",
+          "hanViet": "tị",
+          "meaningVn": "chi Tị (nét móc KÍN hoàn toàn, hiếm gặp)",
+          "words": [
+            { "id": "zh-shape-jiyisi-si-w1", "headword": "巳时", "reading": "sìshí", "meaningVn": "giờ Tị (9-11h sáng)", "example": "巳时出发。", "exampleVn": "Xuất phát vào giờ Tị." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-shape-riyue",
+      "language": "zh",
+      "groupKind": "shape",
+      "reading": "日 · 曰",
+      "note": "形近字: 日 (hình chữ nhật đứng, nét ngang giữa CHẠM 2 cạnh) và 曰 (hình chữ nhật DẸT hơn, nét ngang giữa KHÔNG chạm cạnh phải, để hở). 日 cực kỳ phổ biến; 曰 gần như chỉ xuất hiện trong cổ văn/thành ngữ.",
+      "roots": [
+        {
+          "id": "zh-shape-riyue-ri",
+          "character": "日",
+          "hanViet": "nhật",
+          "meaningVn": "mặt trời, ngày (thân chữ vuông hơn)",
+          "words": [
+            { "id": "zh-shape-riyue-ri-w1", "headword": "日子", "reading": "rìzi", "meaningVn": "ngày tháng", "example": "美好的日子。", "exampleVn": "Những ngày tháng tươi đẹp." },
+            { "id": "zh-shape-riyue-ri-w2", "headword": "日出", "reading": "rìchū", "meaningVn": "mặt trời mọc", "example": "看日出。", "exampleVn": "Ngắm mặt trời mọc." }
+          ]
+        },
+        {
+          "id": "zh-shape-riyue-yue",
+          "character": "曰",
+          "hanViet": "viết",
+          "meaningVn": "rằng, nói rằng (thân chữ dẹt hơn, cổ văn)",
+          "words": [
+            { "id": "zh-shape-riyue-yue-w1", "headword": "子曰", "reading": "zǐyuē", "meaningVn": "Khổng Tử nói rằng (cổ văn)", "example": "子曰：学而时习之。", "exampleVn": "Khổng Tử nói: học rồi thường ôn lại." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-shape-datai",
+      "language": "zh",
+      "groupKind": "shape",
+      "reading": "大 · 太 · 犬",
+      "note": "形近字: 大/太/犬 chỉ khác nhau ở số lượng và vị trí một CHẤM nhỏ — 大 không chấm, 太 có 1 chấm phía DƯỚI, 犬 có 1 chấm phía TRÊN BÊN PHẢI. Ba chữ đọc và nghĩa hoàn toàn khác nhau (dà ≠ tài ≠ quǎn).",
+      "roots": [
+        {
+          "id": "zh-shape-datai-da",
+          "character": "大",
+          "hanViet": "đại",
+          "meaningVn": "to lớn (không chấm)",
+          "words": [
+            { "id": "zh-shape-datai-da-w1", "headword": "大家", "reading": "dàjiā", "meaningVn": "mọi người", "example": "大家好。", "exampleVn": "Chào mọi người." },
+            { "id": "zh-shape-datai-da-w2", "headword": "大小", "reading": "dàxiǎo", "meaningVn": "kích cỡ", "example": "大小合适。", "exampleVn": "Kích cỡ vừa vặn." }
+          ]
+        },
+        {
+          "id": "zh-shape-datai-tai",
+          "character": "太",
+          "hanViet": "thái",
+          "meaningVn": "quá (1 chấm phía DƯỚI)",
+          "words": [
+            { "id": "zh-shape-datai-tai-w1", "headword": "太太", "reading": "tàitai", "meaningVn": "bà, vợ", "example": "王太太。", "exampleVn": "Bà Vương." },
+            { "id": "zh-shape-datai-tai-w2", "headword": "不太", "reading": "bù tài", "meaningVn": "không quá", "example": "不太好。", "exampleVn": "Không quá tốt." }
+          ]
+        },
+        {
+          "id": "zh-shape-datai-quan",
+          "character": "犬",
+          "hanViet": "khuyển",
+          "meaningVn": "chó (1 chấm phía TRÊN bên phải)",
+          "words": [
+            { "id": "zh-shape-datai-quan-w1", "headword": "猎犬", "reading": "lièquǎn", "meaningVn": "chó săn", "example": "训练猎犬。", "exampleVn": "Huấn luyện chó săn." },
+            { "id": "zh-shape-datai-quan-w2", "headword": "警犬", "reading": "jǐngquǎn", "meaningVn": "chó nghiệp vụ", "example": "警犬闻到了。", "exampleVn": "Chó nghiệp vụ đã đánh hơi thấy." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-shape-qiangan",
+      "language": "zh",
+      "groupKind": "shape",
+      "reading": "千 · 干",
+      "note": "形近字: 千 và 干 chỉ khác nhau ở nét PHẨY phía trên bên trái — 千 có thêm 1 nét phẩy ngắn mà 干 không có. Đọc khác nhau hoàn toàn (qiān ≠ gān).",
+      "roots": [
+        {
+          "id": "zh-shape-qiangan-qian",
+          "character": "千",
+          "hanViet": "thiên",
+          "meaningVn": "nghìn (có thêm nét phẩy)",
+          "words": [
+            { "id": "zh-shape-qiangan-qian-w1", "headword": "千金", "reading": "qiānjīn", "meaningVn": "ngàn vàng, con gái nhà giàu", "example": "千金小姐。", "exampleVn": "Tiểu thư nhà giàu." },
+            { "id": "zh-shape-qiangan-qian-w2", "headword": "千古", "reading": "qiāngǔ", "meaningVn": "ngàn xưa, muôn thuở", "example": "千古名句。", "exampleVn": "Câu nói nổi tiếng muôn thuở." }
+          ]
+        },
+        {
+          "id": "zh-shape-qiangan-gan",
+          "character": "干",
+          "hanViet": "can",
+          "meaningVn": "khô, làm (không có nét phẩy)",
+          "words": [
+            { "id": "zh-shape-qiangan-gan-w1", "headword": "干燥", "reading": "gānzào", "meaningVn": "khô ráo", "example": "天气干燥。", "exampleVn": "Thời tiết khô ráo." },
+            { "id": "zh-shape-qiangan-gan-w2", "headword": "干净", "reading": "gānjìng", "meaningVn": "sạch sẽ", "example": "房间干净。", "exampleVn": "Căn phòng sạch sẽ." }
+          ]
+        }
+      ]
+    }
+  ]
+}

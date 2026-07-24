@@ -1,0 +1,3176 @@
+{
+  "language": "ko",
+  "label": "Tiếng Hàn",
+  "groups": [
+    {
+      "id": "ko-mok",
+      "language": "ko",
+      "reading": "목 (mok)",
+      "note": "3 chữ Hán-Hàn đều đọc là \"목\" nhưng nghĩa khác nhau — giống mindmap 목(木) tham khảo trong thư mục ideas/.",
+      "roots": [
+        {
+          "id": "ko-mok-mok1",
+          "character": "木",
+          "hanViet": "mộc",
+          "meaningVn": "gỗ, cây",
+          "words": [
+            { "id": "ko-mok-mok1-w1", "headword": "목재", "reading": "mokjae", "meaningVn": "gỗ (nguyên liệu, mộc tài)", "example": "이 가구는 좋은 목재로 만들었어요.", "exampleVn": "Món đồ nội thất này được làm từ gỗ tốt." },
+            { "id": "ko-mok-mok1-w2", "headword": "목수", "reading": "moksu", "meaningVn": "thợ mộc", "example": "그는 30년 경력의 목수예요.", "exampleVn": "Anh ấy là thợ mộc có 30 năm kinh nghiệm." },
+            { "id": "ko-mok-mok1-w3", "headword": "목탄", "reading": "moktan", "meaningVn": "than củi (mộc thán)", "example": "목탄으로 그림을 그렸어요.", "exampleVn": "Tôi đã vẽ tranh bằng than củi." },
+            { "id": "ko-mok-mok1-w4", "headword": "목련", "reading": "mongnyeon", "meaningVn": "hoa mộc lan", "example": "봄이 되면 목련이 핀다.", "exampleVn": "Đến mùa xuân hoa mộc lan sẽ nở." }
+          ]
+        },
+        {
+          "id": "ko-mok-mok2",
+          "character": "目",
+          "hanViet": "mục",
+          "meaningVn": "mắt; mục (thứ tự)",
+          "words": [
+            { "id": "ko-mok-mok2-w1", "headword": "목적", "reading": "mokjeok", "meaningVn": "mục đích", "example": "이 여행의 목적이 뭐예요?", "exampleVn": "Mục đích của chuyến đi này là gì?" },
+            { "id": "ko-mok-mok2-w2", "headword": "목록", "reading": "mongnok", "meaningVn": "mục lục, danh mục", "example": "책 목록을 정리해 주세요.", "exampleVn": "Hãy sắp xếp lại danh mục sách." },
+            { "id": "ko-mok-mok2-w3", "headword": "목표", "reading": "mokpyo", "meaningVn": "mục tiêu", "example": "올해 목표를 세웠어요.", "exampleVn": "Tôi đã đặt mục tiêu cho năm nay." },
+            { "id": "ko-mok-mok2-w4", "headword": "주목", "reading": "jumok", "meaningVn": "chú mục, chú ý", "example": "모두 주목해 주세요.", "exampleVn": "Mọi người chú ý nhé." }
+          ]
+        },
+        {
+          "id": "ko-mok-mok3",
+          "character": "牧",
+          "hanViet": "mục",
+          "meaningVn": "chăn nuôi, chăn thả",
+          "words": [
+            { "id": "ko-mok-mok3-w1", "headword": "목장", "reading": "mokjang", "meaningVn": "nông trại, mục trường", "example": "제주도에는 목장이 많아요.", "exampleVn": "Ở đảo Jeju có nhiều nông trại." },
+            { "id": "ko-mok-mok3-w2", "headword": "목축", "reading": "mokchuk", "meaningVn": "chăn nuôi (mục súc)", "example": "이 지역은 목축업이 발달했어요.", "exampleVn": "Vùng này ngành chăn nuôi rất phát triển." },
+            { "id": "ko-mok-mok3-w3", "headword": "목동", "reading": "mokdong", "meaningVn": "mục đồng, người chăn cừu", "example": "목동이 양들을 데리고 산으로 갔어요.", "exampleVn": "Người mục đồng dẫn đàn cừu lên núi." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-sa",
+      "language": "ko",
+      "reading": "사 (sa)",
+      "note": "Nhóm chữ Hán-Hàn đọc \"사\" — rất nhiều nghĩa khác nhau, cực kỳ phổ biến trong từ vựng TOPIK.",
+      "roots": [
+        {
+          "id": "ko-sa-sa1",
+          "character": "事",
+          "hanViet": "sự",
+          "meaningVn": "việc, sự việc",
+          "words": [
+            { "id": "ko-sa-sa1-w1", "headword": "사건", "reading": "sageon", "meaningVn": "sự kiện, vụ việc", "example": "어제 큰 사건이 일어났어요.", "exampleVn": "Hôm qua đã xảy ra một sự kiện lớn." },
+            { "id": "ko-sa-sa1-w2", "headword": "사고", "reading": "sago", "meaningVn": "tai nạn (sự cố)", "example": "교통사고가 났어요.", "exampleVn": "Đã xảy ra tai nạn giao thông." },
+            { "id": "ko-sa-sa1-w3", "headword": "인사", "reading": "insa", "meaningVn": "chào hỏi (nhân sự)", "example": "처음 뵙겠습니다. 인사드립니다.", "exampleVn": "Rất vui được gặp bạn. Xin chào." },
+            { "id": "ko-sa-sa1-w4", "headword": "사실", "reading": "sasil", "meaningVn": "sự thật", "example": "그건 사실이 아니에요.", "exampleVn": "Đó không phải sự thật." }
+          ]
+        },
+        {
+          "id": "ko-sa-sa2",
+          "character": "社",
+          "hanViet": "xã",
+          "meaningVn": "hội, công ty",
+          "words": [
+            { "id": "ko-sa-sa2-w1", "headword": "회사", "reading": "hoesa", "meaningVn": "công ty", "example": "저는 무역 회사에서 일해요.", "exampleVn": "Tôi làm việc ở một công ty thương mại." },
+            { "id": "ko-sa-sa2-w2", "headword": "사회", "reading": "sahoe", "meaningVn": "xã hội", "example": "우리 사회는 빠르게 변하고 있어요.", "exampleVn": "Xã hội chúng ta đang thay đổi nhanh chóng." },
+            { "id": "ko-sa-sa2-w3", "headword": "사장", "reading": "sajang", "meaningVn": "giám đốc (xã trưởng)", "example": "우리 사장님은 친절해요.", "exampleVn": "Giám đốc công ty tôi rất tốt bụng." },
+            { "id": "ko-sa-sa2-w4", "headword": "입사", "reading": "ipsa", "meaningVn": "vào làm việc (nhập xã)", "example": "저는 작년에 입사했어요.", "exampleVn": "Tôi vào công ty làm việc từ năm ngoái." }
+          ]
+        },
+        {
+          "id": "ko-sa-sa3",
+          "character": "四",
+          "hanViet": "tứ",
+          "meaningVn": "số bốn",
+          "words": [
+            { "id": "ko-sa-sa3-w1", "headword": "사계절", "reading": "sagyejeol", "meaningVn": "bốn mùa (tứ quý)", "example": "한국은 사계절이 뚜렷해요.", "exampleVn": "Hàn Quốc có bốn mùa rõ rệt." },
+            { "id": "ko-sa-sa3-w2", "headword": "사각형", "reading": "sagakhyeong", "meaningVn": "hình tứ giác", "example": "이 종이는 사각형이에요.", "exampleVn": "Tờ giấy này có hình tứ giác." },
+            { "id": "ko-sa-sa3-w3", "headword": "사월", "reading": "sawol", "meaningVn": "tháng Tư", "example": "사월에 벚꽃이 펴요.", "exampleVn": "Tháng Tư hoa anh đào nở." },
+            { "id": "ko-sa-sa3-w4", "headword": "사촌", "reading": "sachon", "meaningVn": "anh chị em họ", "example": "제 사촌은 서울에 살아요.", "exampleVn": "Anh họ tôi sống ở Seoul." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-gong",
+      "language": "ko",
+      "reading": "공 (gong)",
+      "note": "4 chữ Hán-Hàn đều đọc là \"공\" nhưng nghĩa khác nhau — cụm đồng âm rất kinh điển, giống \"gōng\" trong tiếng Trung.",
+      "roots": [
+        {
+          "id": "ko-gong-gong1",
+          "character": "工",
+          "hanViet": "công",
+          "meaningVn": "công việc, thợ",
+          "words": [
+            { "id": "ko-gong-gong1-w1", "headword": "공장", "reading": "gongjang", "meaningVn": "nhà máy (công xưởng)", "example": "이 공장은 자동차를 만들어요.", "exampleVn": "Nhà máy này sản xuất ô tô." },
+            { "id": "ko-gong-gong1-w2", "headword": "공사", "reading": "gongsa", "meaningVn": "công trình, thi công (công sự)", "example": "길에서 공사를 하고 있어요.", "exampleVn": "Người ta đang thi công trên đường." },
+            { "id": "ko-gong-gong1-w3", "headword": "인공", "reading": "ingong", "meaningVn": "nhân tạo (nhân công)", "example": "이건 인공 지능이에요.", "exampleVn": "Đây là trí tuệ nhân tạo." }
+          ]
+        },
+        {
+          "id": "ko-gong-gong2",
+          "character": "公",
+          "hanViet": "công",
+          "meaningVn": "công cộng, công bằng",
+          "words": [
+            { "id": "ko-gong-gong2-w1", "headword": "공원", "reading": "gongwon", "meaningVn": "công viên", "example": "공원에서 산책해요.", "exampleVn": "Đi dạo trong công viên." },
+            { "id": "ko-gong-gong2-w2", "headword": "공평", "reading": "gongpyeong", "meaningVn": "công bằng", "example": "이건 공평하지 않아요.", "exampleVn": "Cái này không công bằng." },
+            { "id": "ko-gong-gong2-w3", "headword": "공공", "reading": "gonggong", "meaningVn": "công cộng", "example": "공공장소에서는 조용히 해주세요.", "exampleVn": "Ở nơi công cộng xin hãy giữ yên lặng." }
+          ]
+        },
+        {
+          "id": "ko-gong-gong3",
+          "character": "空",
+          "hanViet": "không",
+          "meaningVn": "trống rỗng, không trung",
+          "words": [
+            { "id": "ko-gong-gong3-w1", "headword": "공기", "reading": "gonggi", "meaningVn": "không khí", "example": "산 위의 공기가 맑아요.", "exampleVn": "Không khí trên núi trong lành." },
+            { "id": "ko-gong-gong3-w2", "headword": "공항", "reading": "gonghang", "meaningVn": "sân bay (không cảng)", "example": "공항까지 얼마나 걸려요?", "exampleVn": "Đến sân bay mất bao lâu?" },
+            { "id": "ko-gong-gong3-w3", "headword": "공백", "reading": "gongbaek", "meaningVn": "khoảng trống (không bạch)", "example": "이 문서에 공백이 많아요.", "exampleVn": "Tài liệu này có nhiều khoảng trống." }
+          ]
+        },
+        {
+          "id": "ko-gong-gong4",
+          "character": "功",
+          "hanViet": "công",
+          "meaningVn": "công lao, thành công",
+          "words": [
+            { "id": "ko-gong-gong4-w1", "headword": "성공", "reading": "seonggong", "meaningVn": "thành công", "example": "사업이 성공했어요.", "exampleVn": "Việc kinh doanh đã thành công." },
+            { "id": "ko-gong-gong4-w2", "headword": "공로", "reading": "gongno", "meaningVn": "công lao", "example": "그의 공로를 인정해요.", "exampleVn": "Công nhận công lao của anh ấy." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-jeong",
+      "language": "ko",
+      "reading": "정 (jeong)",
+      "note": "Rất nhiều chữ Hán-Hàn đọc \"정\" nhưng nghĩa khác nhau — cực kỳ phổ biến trong đời sống và tên người Hàn.",
+      "roots": [
+        {
+          "id": "ko-jeong-jeong1",
+          "character": "情",
+          "hanViet": "tình",
+          "meaningVn": "tình cảm",
+          "words": [
+            { "id": "ko-jeong-jeong1-w1", "headword": "감정", "reading": "gamjeong", "meaningVn": "cảm xúc, tình cảm", "example": "감정을 표현하는 게 어려워요.", "exampleVn": "Thật khó để bày tỏ cảm xúc." },
+            { "id": "ko-jeong-jeong1-w2", "headword": "사정", "reading": "sajeong", "meaningVn": "tình hình, hoàn cảnh (sự tình)", "example": "사정이 있어서 못 갔어요.", "exampleVn": "Vì có việc nên tôi không đi được." },
+            { "id": "ko-jeong-jeong1-w3", "headword": "우정", "reading": "ujeong", "meaningVn": "tình bạn (hữu tình)", "example": "우리의 우정은 영원해요.", "exampleVn": "Tình bạn của chúng ta là mãi mãi." }
+          ]
+        },
+        {
+          "id": "ko-jeong-jeong2",
+          "character": "正",
+          "hanViet": "chính",
+          "meaningVn": "đúng, chính xác",
+          "words": [
+            { "id": "ko-jeong-jeong2-w1", "headword": "정확", "reading": "jeonghwak", "meaningVn": "chính xác", "example": "정확한 답을 말해 주세요.", "exampleVn": "Hãy nói đáp án chính xác." },
+            { "id": "ko-jeong-jeong2-w2", "headword": "정직", "reading": "jeongjik", "meaningVn": "trung thực (chính trực)", "example": "그는 정직한 사람이에요.", "exampleVn": "Anh ấy là người trung thực." },
+            { "id": "ko-jeong-jeong2-w3", "headword": "수정", "reading": "sujeong", "meaningVn": "sửa chữa, tu chỉnh (tu chính)", "example": "이 문장을 수정해 주세요.", "exampleVn": "Hãy sửa câu này giúp tôi." }
+          ]
+        },
+        {
+          "id": "ko-jeong-jeong3",
+          "character": "定",
+          "hanViet": "định",
+          "meaningVn": "quyết định, cố định",
+          "words": [
+            { "id": "ko-jeong-jeong3-w1", "headword": "결정", "reading": "gyeoljeong", "meaningVn": "quyết định", "example": "결정을 내렸어요.", "exampleVn": "Tôi đã đưa ra quyết định." },
+            { "id": "ko-jeong-jeong3-w2", "headword": "예정", "reading": "yejeong", "meaningVn": "dự định", "example": "내일 떠날 예정이에요.", "exampleVn": "Dự định ngày mai sẽ đi." },
+            { "id": "ko-jeong-jeong3-w3", "headword": "안정", "reading": "anjeong", "meaningVn": "ổn định (an định)", "example": "마음이 안정됐어요.", "exampleVn": "Tâm trạng đã ổn định." }
+          ]
+        },
+        {
+          "id": "ko-jeong-jeong4",
+          "character": "政",
+          "hanViet": "chính",
+          "meaningVn": "chính trị",
+          "words": [
+            { "id": "ko-jeong-jeong4-w1", "headword": "정치", "reading": "jeongchi", "meaningVn": "chính trị", "example": "정치에 관심이 없어요.", "exampleVn": "Tôi không quan tâm đến chính trị." },
+            { "id": "ko-jeong-jeong4-w2", "headword": "정부", "reading": "jeongbu", "meaningVn": "chính phủ", "example": "정부가 새 정책을 발표했어요.", "exampleVn": "Chính phủ đã công bố chính sách mới." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-jeon",
+      "language": "ko",
+      "reading": "전 (jeon)",
+      "note": "Nhiều chữ Hán-Hàn đọc \"전\" nhưng nghĩa khác nhau — rất hay gặp trong từ vựng đời sống.",
+      "roots": [
+        {
+          "id": "ko-jeon-jeon1",
+          "character": "電",
+          "hanViet": "điện",
+          "meaningVn": "điện",
+          "words": [
+            { "id": "ko-jeon-jeon1-w1", "headword": "전화", "reading": "jeonhwa", "meaningVn": "điện thoại", "example": "전화번호가 뭐예요?", "exampleVn": "Số điện thoại của bạn là gì?" },
+            { "id": "ko-jeon-jeon1-w2", "headword": "전기", "reading": "jeongi", "meaningVn": "điện (năng lượng)", "example": "전기가 나갔어요.", "exampleVn": "Bị mất điện rồi." },
+            { "id": "ko-jeon-jeon1-w3", "headword": "전자", "reading": "jeonja", "meaningVn": "điện tử", "example": "저는 전자 제품을 좋아해요.", "exampleVn": "Tôi thích các sản phẩm điện tử." }
+          ]
+        },
+        {
+          "id": "ko-jeon-jeon2",
+          "character": "前",
+          "hanViet": "tiền",
+          "meaningVn": "trước",
+          "words": [
+            { "id": "ko-jeon-jeon2-w1", "headword": "오전", "reading": "ojeon", "meaningVn": "buổi sáng (ngọ tiền)", "example": "오전에 회의가 있어요.", "exampleVn": "Buổi sáng có cuộc họp." },
+            { "id": "ko-jeon-jeon2-w2", "headword": "이전", "reading": "ijeon", "meaningVn": "trước đây, trước đó", "example": "이전에 만난 적이 있어요.", "exampleVn": "Trước đây tôi từng gặp rồi." },
+            { "id": "ko-jeon-jeon2-w3", "headword": "전날", "reading": "jeonnal", "meaningVn": "ngày hôm trước", "example": "시험 전날 열심히 공부했어요.", "exampleVn": "Ngày trước hôm thi tôi học rất chăm chỉ." }
+          ]
+        },
+        {
+          "id": "ko-jeon-jeon3",
+          "character": "全",
+          "hanViet": "toàn",
+          "meaningVn": "toàn bộ, trọn vẹn",
+          "words": [
+            { "id": "ko-jeon-jeon3-w1", "headword": "전체", "reading": "jeonche", "meaningVn": "toàn thể, tất cả", "example": "전체 학생이 참석했어요.", "exampleVn": "Toàn bộ học sinh đã tham gia." },
+            { "id": "ko-jeon-jeon3-w2", "headword": "완전", "reading": "wanjeon", "meaningVn": "hoàn toàn", "example": "완전히 다 끝났어요.", "exampleVn": "Đã hoàn toàn xong rồi." },
+            { "id": "ko-jeon-jeon3-w3", "headword": "안전", "reading": "anjeon", "meaningVn": "an toàn", "example": "안전벨트를 매세요.", "exampleVn": "Hãy thắt dây an toàn." }
+          ]
+        },
+        {
+          "id": "ko-jeon-jeon4",
+          "character": "傳",
+          "hanViet": "truyền",
+          "meaningVn": "truyền đạt, truyền lại",
+          "words": [
+            { "id": "ko-jeon-jeon4-w1", "headword": "전통", "reading": "jeontong", "meaningVn": "truyền thống", "example": "이건 전통 음식이에요.", "exampleVn": "Đây là món ăn truyền thống." },
+            { "id": "ko-jeon-jeon4-w2", "headword": "전달", "reading": "jeondal", "meaningVn": "truyền đạt, chuyển giao", "example": "메시지를 전달해 주세요.", "exampleVn": "Hãy chuyển lời nhắn giúp tôi." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-su",
+      "language": "ko",
+      "reading": "수 (su)",
+      "note": "Rất nhiều chữ Hán-Hàn đọc \"수\" nhưng nghĩa khác nhau — nhóm đồng âm cực kỳ phổ biến trong TOPIK.",
+      "roots": [
+        {
+          "id": "ko-su-su1",
+          "character": "水",
+          "hanViet": "thủy",
+          "meaningVn": "nước",
+          "words": [
+            { "id": "ko-su-su1-w1", "headword": "수영", "reading": "suyeong", "meaningVn": "bơi lội (thủy vịnh)", "example": "저는 수영을 잘해요.", "exampleVn": "Tôi bơi giỏi." },
+            { "id": "ko-su-su1-w2", "headword": "홍수", "reading": "hongsu", "meaningVn": "lũ lụt (hồng thủy)", "example": "홍수로 다리가 무너졌어요.", "exampleVn": "Cầu bị sập do lũ lụt." },
+            { "id": "ko-su-su1-w3", "headword": "생수", "reading": "saengsu", "meaningVn": "nước suối, nước khoáng (sinh thủy)", "example": "생수 한 병 주세요.", "exampleVn": "Cho tôi một chai nước suối." }
+          ]
+        },
+        {
+          "id": "ko-su-su2",
+          "character": "手",
+          "hanViet": "thủ",
+          "meaningVn": "tay",
+          "words": [
+            { "id": "ko-su-su2-w1", "headword": "가수", "reading": "gasu", "meaningVn": "ca sĩ (ca thủ)", "example": "저 가수를 좋아해요.", "exampleVn": "Tôi thích ca sĩ đó." },
+            { "id": "ko-su-su2-w2", "headword": "선수", "reading": "seonsu", "meaningVn": "vận động viên (tuyển thủ)", "example": "그는 축구 선수예요.", "exampleVn": "Anh ấy là cầu thủ bóng đá." },
+            { "id": "ko-su-su2-w3", "headword": "박수", "reading": "baksu", "meaningVn": "vỗ tay", "example": "모두 박수를 쳤어요.", "exampleVn": "Mọi người đã vỗ tay." }
+          ]
+        },
+        {
+          "id": "ko-su-su3",
+          "character": "數",
+          "hanViet": "số",
+          "meaningVn": "con số",
+          "words": [
+            { "id": "ko-su-su3-w1", "headword": "숫자", "reading": "sutja", "meaningVn": "con số (số tự)", "example": "숫자를 잘 못 외워요.", "exampleVn": "Tôi khó nhớ số." },
+            { "id": "ko-su-su3-w2", "headword": "점수", "reading": "jeomsu", "meaningVn": "điểm số", "example": "시험 점수가 좋아요.", "exampleVn": "Điểm thi tốt." },
+            { "id": "ko-su-su3-w3", "headword": "횟수", "reading": "hoetsu", "meaningVn": "số lần", "example": "방문 횟수가 늘었어요.", "exampleVn": "Số lần ghé thăm đã tăng lên." }
+          ]
+        },
+        {
+          "id": "ko-su-su4",
+          "character": "修",
+          "hanViet": "tu",
+          "meaningVn": "tu dưỡng, sửa chữa",
+          "words": [
+            { "id": "ko-su-su4-w1", "headword": "수리", "reading": "suri", "meaningVn": "sửa chữa (tu lý)", "example": "자동차를 수리했어요.", "exampleVn": "Đã sửa xe ô tô." },
+            { "id": "ko-su-su4-w2", "headword": "수선", "reading": "suseon", "meaningVn": "sửa, vá đồ (tu thiện)", "example": "옷을 수선했어요.", "exampleVn": "Đã sửa (vá) quần áo." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-hwa",
+      "language": "ko",
+      "reading": "화 (hwa)",
+      "note": "Nhiều chữ Hán-Hàn đọc \"화\" nhưng nghĩa khác nhau — rất phổ biến trong từ vựng đời sống.",
+      "roots": [
+        {
+          "id": "ko-hwa-hwa1",
+          "character": "火",
+          "hanViet": "hỏa",
+          "meaningVn": "lửa",
+          "words": [
+            { "id": "ko-hwa-hwa1-w1", "headword": "화재", "reading": "hwajae", "meaningVn": "hỏa hoạn, cháy", "example": "어젯밤에 화재가 났어요.", "exampleVn": "Đêm qua đã xảy ra hỏa hoạn." },
+            { "id": "ko-hwa-hwa1-w2", "headword": "화산", "reading": "hwasan", "meaningVn": "núi lửa", "example": "제주도에는 화산이 있어요.", "exampleVn": "Ở đảo Jeju có núi lửa." },
+            { "id": "ko-hwa-hwa1-w3", "headword": "화요일", "reading": "hwayoil", "meaningVn": "thứ Ba (hỏa diệu nhật)", "example": "화요일에 만나요.", "exampleVn": "Gặp nhau vào thứ Ba nhé." }
+          ]
+        },
+        {
+          "id": "ko-hwa-hwa2",
+          "character": "話",
+          "hanViet": "thoại",
+          "meaningVn": "nói, lời nói",
+          "words": [
+            { "id": "ko-hwa-hwa2-w1", "headword": "대화", "reading": "daehwa", "meaningVn": "hội thoại, trò chuyện", "example": "우리는 오랫동안 대화했어요.", "exampleVn": "Chúng tôi đã trò chuyện rất lâu." },
+            { "id": "ko-hwa-hwa2-w2", "headword": "회화", "reading": "hoehwa", "meaningVn": "hội thoại (học ngoại ngữ)", "example": "영어 회화를 배우고 있어요.", "exampleVn": "Tôi đang học hội thoại tiếng Anh." },
+            { "id": "ko-hwa-hwa2-w3", "headword": "동화", "reading": "donghwa", "meaningVn": "truyện cổ tích (đồng thoại)", "example": "아이에게 동화책을 읽어줘요.", "exampleVn": "Đọc truyện cổ tích cho con nghe." }
+          ]
+        },
+        {
+          "id": "ko-hwa-hwa3",
+          "character": "花",
+          "hanViet": "hoa",
+          "meaningVn": "hoa",
+          "words": [
+            { "id": "ko-hwa-hwa3-w1", "headword": "화분", "reading": "hwabun", "meaningVn": "chậu hoa", "example": "화분에 물을 줬어요.", "exampleVn": "Đã tưới nước cho chậu hoa." },
+            { "id": "ko-hwa-hwa3-w2", "headword": "화려", "reading": "hwaryeo", "meaningVn": "rực rỡ, hoa lệ", "example": "그 옷은 정말 화려해요.", "exampleVn": "Bộ quần áo đó thật rực rỡ." },
+            { "id": "ko-hwa-hwa3-w3", "headword": "무궁화", "reading": "mugunghwa", "meaningVn": "hoa dâm bụt (quốc hoa Hàn Quốc)", "example": "무궁화는 한국의 국화예요.", "exampleVn": "Hoa mugunghwa là quốc hoa của Hàn Quốc." }
+          ]
+        },
+        {
+          "id": "ko-hwa-hwa4",
+          "character": "化",
+          "hanViet": "hóa",
+          "meaningVn": "biến đổi",
+          "words": [
+            { "id": "ko-hwa-hwa4-w1", "headword": "변화", "reading": "byeonhwa", "meaningVn": "biến hóa, thay đổi", "example": "날씨가 많이 변화했어요.", "exampleVn": "Thời tiết đã thay đổi nhiều." },
+            { "id": "ko-hwa-hwa4-w2", "headword": "문화", "reading": "munhwa", "meaningVn": "văn hóa", "example": "한국 문화에 관심이 많아요.", "exampleVn": "Tôi rất quan tâm đến văn hóa Hàn Quốc." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-mun",
+      "language": "ko",
+      "reading": "문 (mun)",
+      "note": "Nhiều chữ Hán-Hàn đọc \"문\" nhưng nghĩa khác nhau.",
+      "roots": [
+        {
+          "id": "ko-mun-mun1",
+          "character": "門",
+          "hanViet": "môn",
+          "meaningVn": "cửa",
+          "words": [
+            { "id": "ko-mun-mun1-w1", "headword": "대문", "reading": "daemun", "meaningVn": "cổng lớn, cổng chính", "example": "대문을 닫아 주세요.", "exampleVn": "Hãy đóng cổng lại giúp tôi." },
+            { "id": "ko-mun-mun1-w2", "headword": "정문", "reading": "jeongmun", "meaningVn": "cổng chính (chính môn)", "example": "학교 정문에서 만나요.", "exampleVn": "Gặp nhau ở cổng chính trường nhé." },
+            { "id": "ko-mun-mun1-w3", "headword": "창문", "reading": "changmun", "meaningVn": "cửa sổ (song môn)", "example": "창문을 열어 주세요.", "exampleVn": "Hãy mở cửa sổ giúp tôi." }
+          ]
+        },
+        {
+          "id": "ko-mun-mun2",
+          "character": "文",
+          "hanViet": "văn",
+          "meaningVn": "chữ viết, văn chương",
+          "words": [
+            { "id": "ko-mun-mun2-w1", "headword": "문법", "reading": "munbeop", "meaningVn": "ngữ pháp (văn pháp)", "example": "한국어 문법이 어려워요.", "exampleVn": "Ngữ pháp tiếng Hàn khó." },
+            { "id": "ko-mun-mun2-w2", "headword": "문장", "reading": "munjang", "meaningVn": "câu văn", "example": "이 문장을 번역해 주세요.", "exampleVn": "Hãy dịch câu này giúp tôi." },
+            { "id": "ko-mun-mun2-w3", "headword": "논문", "reading": "nonmun", "meaningVn": "luận văn", "example": "논문을 쓰고 있어요.", "exampleVn": "Tôi đang viết luận văn." }
+          ]
+        },
+        {
+          "id": "ko-mun-mun3",
+          "character": "問",
+          "hanViet": "vấn",
+          "meaningVn": "hỏi",
+          "words": [
+            { "id": "ko-mun-mun3-w1", "headword": "문제", "reading": "munje", "meaningVn": "vấn đề, câu hỏi", "example": "이 문제가 너무 어려워요.", "exampleVn": "Vấn đề này quá khó." },
+            { "id": "ko-mun-mun3-w2", "headword": "질문", "reading": "jilmun", "meaningVn": "câu hỏi, chất vấn", "example": "질문이 있어요.", "exampleVn": "Tôi có câu hỏi." },
+            { "id": "ko-mun-mun3-w3", "headword": "방문", "reading": "bangmun", "meaningVn": "thăm viếng (phỏng vấn)", "example": "내일 친구 집을 방문해요.", "exampleVn": "Ngày mai tôi đến thăm nhà bạn." }
+          ]
+        },
+        {
+          "id": "ko-mun-mun4",
+          "character": "聞",
+          "hanViet": "văn",
+          "meaningVn": "nghe",
+          "words": [
+            { "id": "ko-mun-mun4-w1", "headword": "신문", "reading": "sinmun", "meaningVn": "báo (tân văn)", "example": "아버지는 매일 신문을 읽어요.", "exampleVn": "Bố tôi đọc báo mỗi ngày." },
+            { "id": "ko-mun-mun4-w2", "headword": "소문", "reading": "somun", "meaningVn": "tin đồn", "example": "그 소문 들었어요?", "exampleVn": "Bạn nghe tin đồn đó chưa?" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-seong",
+      "language": "ko",
+      "reading": "성 (seong)",
+      "note": "Rất nhiều chữ Hán-Hàn đọc \"성\" nhưng nghĩa khác nhau — nhóm đồng âm giàu nhất, hay gặp trong tên người Hàn.",
+      "roots": [
+        {
+          "id": "ko-seong-seong1",
+          "character": "姓",
+          "hanViet": "tính",
+          "meaningVn": "họ (tên họ)",
+          "words": [
+            { "id": "ko-seong-seong1-w1", "headword": "성함", "reading": "seongham", "meaningVn": "họ tên (kính ngữ)", "example": "성함이 어떻게 되세요?", "exampleVn": "Xin hỏi quý danh của anh/chị?" },
+            { "id": "ko-seong-seong1-w2", "headword": "백성", "reading": "baekseong", "meaningVn": "dân chúng (bách tính)", "example": "옛날에 백성들은 힘들게 살았어요.", "exampleVn": "Ngày xưa dân chúng sống rất khổ cực." }
+          ]
+        },
+        {
+          "id": "ko-seong-seong2",
+          "character": "性",
+          "hanViet": "tính",
+          "meaningVn": "tính cách, bản chất",
+          "words": [
+            { "id": "ko-seong-seong2-w1", "headword": "성격", "reading": "seonggyeok", "meaningVn": "tính cách", "example": "그의 성격은 아주 좋아요.", "exampleVn": "Tính cách của anh ấy rất tốt." },
+            { "id": "ko-seong-seong2-w2", "headword": "여성", "reading": "yeoseong", "meaningVn": "phụ nữ (nữ tính)", "example": "이 옷은 여성용이에요.", "exampleVn": "Bộ quần áo này dành cho nữ." },
+            { "id": "ko-seong-seong2-w3", "headword": "가능성", "reading": "ganeungseong", "meaningVn": "khả năng (khả năng tính)", "example": "성공할 가능성이 높아요.", "exampleVn": "Khả năng thành công cao." }
+          ]
+        },
+        {
+          "id": "ko-seong-seong3",
+          "character": "成",
+          "hanViet": "thành",
+          "meaningVn": "trở thành, hoàn thành",
+          "words": [
+            { "id": "ko-seong-seong3-w1", "headword": "완성", "reading": "wanseong", "meaningVn": "hoàn thành", "example": "드디어 작품이 완성됐어요.", "exampleVn": "Cuối cùng tác phẩm đã hoàn thành." },
+            { "id": "ko-seong-seong3-w2", "headword": "찬성", "reading": "chanseong", "meaningVn": "tán thành", "example": "저는 그 의견에 찬성해요.", "exampleVn": "Tôi tán thành ý kiến đó." }
+          ]
+        },
+        {
+          "id": "ko-seong-seong4",
+          "character": "城",
+          "hanViet": "thành",
+          "meaningVn": "thành trì, thành phố",
+          "words": [
+            { "id": "ko-seong-seong4-w1", "headword": "성벽", "reading": "seongbyeok", "meaningVn": "tường thành", "example": "수원 화성은 아름다운 성벽이 있어요.", "exampleVn": "Thành Hwaseong Suwon có bức tường thành đẹp." },
+            { "id": "ko-seong-seong4-w2", "headword": "산성", "reading": "sanseong", "meaningVn": "sơn thành (thành trên núi)", "example": "남한산성은 유명한 관광지예요.", "exampleVn": "Sơn thành Namhan là điểm du lịch nổi tiếng." }
+          ]
+        },
+        {
+          "id": "ko-seong-seong5",
+          "character": "聲",
+          "hanViet": "thanh",
+          "meaningVn": "âm thanh",
+          "words": [
+            { "id": "ko-seong-seong5-w1", "headword": "음성", "reading": "eumseong", "meaningVn": "âm thanh, giọng nói", "example": "음성 메시지를 보냈어요.", "exampleVn": "Đã gửi tin nhắn thoại." },
+            { "id": "ko-seong-seong5-w2", "headword": "명성", "reading": "myeongseong", "meaningVn": "danh tiếng (danh thanh)", "example": "그는 명성이 높은 배우예요.", "exampleVn": "Anh ấy là diễn viên có danh tiếng cao." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-sin",
+      "language": "ko",
+      "reading": "신 (sin)",
+      "note": "Nhiều chữ Hán-Hàn đọc \"신\" nhưng nghĩa khác nhau — giống mindmap しん trong tiếng Nhật, một minh chứng đẹp cho việc âm Hán-Hàn/Hán-Nhật gần gũi nhau.",
+      "roots": [
+        {
+          "id": "ko-sin-sin1",
+          "character": "新",
+          "hanViet": "tân",
+          "meaningVn": "mới",
+          "words": [
+            { "id": "ko-sin-sin1-w1", "headword": "신입", "reading": "sinip", "meaningVn": "người mới (tân nhập)", "example": "신입 사원이에요.", "exampleVn": "Tôi là nhân viên mới." },
+            { "id": "ko-sin-sin1-w2", "headword": "신선", "reading": "sinseon", "meaningVn": "tươi mới", "example": "신선한 과일을 좋아해요.", "exampleVn": "Tôi thích trái cây tươi." },
+            { "id": "ko-sin-sin1-w3", "headword": "최신", "reading": "choesin", "meaningVn": "mới nhất", "example": "최신 스마트폰을 샀어요.", "exampleVn": "Đã mua điện thoại thông minh mới nhất." }
+          ]
+        },
+        {
+          "id": "ko-sin-sin2",
+          "character": "身",
+          "hanViet": "thân",
+          "meaningVn": "thân thể",
+          "words": [
+            { "id": "ko-sin-sin2-w1", "headword": "신체", "reading": "sinche", "meaningVn": "thân thể, cơ thể", "example": "신체 건강이 중요해요.", "exampleVn": "Sức khỏe thân thể quan trọng." },
+            { "id": "ko-sin-sin2-w2", "headword": "출신", "reading": "chulsin", "meaningVn": "xuất thân, quê quán", "example": "저는 서울 출신이에요.", "exampleVn": "Tôi xuất thân từ Seoul." }
+          ]
+        },
+        {
+          "id": "ko-sin-sin3",
+          "character": "信",
+          "hanViet": "tín",
+          "meaningVn": "tin tưởng",
+          "words": [
+            { "id": "ko-sin-sin3-w1", "headword": "신뢰", "reading": "sinloe", "meaningVn": "tin cậy, tín nhiệm", "example": "저는 그를 신뢰해요.", "exampleVn": "Tôi tin cậy anh ấy." },
+            { "id": "ko-sin-sin3-w2", "headword": "확신", "reading": "hwaksin", "meaningVn": "chắc chắn, xác tín", "example": "저는 확신이 있어요.", "exampleVn": "Tôi có sự chắc chắn." }
+          ]
+        },
+        {
+          "id": "ko-sin-sin4",
+          "character": "神",
+          "hanViet": "thần",
+          "meaningVn": "thần thánh, tinh thần",
+          "words": [
+            { "id": "ko-sin-sin4-w1", "headword": "정신", "reading": "jeongsin", "meaningVn": "tinh thần", "example": "정신을 차려요.", "exampleVn": "Hãy tỉnh táo lại (lấy lại tinh thần)." },
+            { "id": "ko-sin-sin4-w2", "headword": "신화", "reading": "sinhwa", "meaningVn": "thần thoại", "example": "그리스 신화를 좋아해요.", "exampleVn": "Tôi thích thần thoại Hy Lạp." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-sang",
+      "language": "ko",
+      "reading": "상 (sang)",
+      "note": "Nhiều chữ Hán-Hàn đọc \"상\" nhưng nghĩa khác nhau.",
+      "roots": [
+        {
+          "id": "ko-sang-sang1",
+          "character": "上",
+          "hanViet": "thượng",
+          "meaningVn": "trên, phía trên",
+          "words": [
+            { "id": "ko-sang-sang1-w1", "headword": "향상", "reading": "hyangsang", "meaningVn": "nâng cao, cải thiện (hướng thượng)", "example": "실력이 향상됐어요.", "exampleVn": "Trình độ đã được nâng cao." },
+            { "id": "ko-sang-sang1-w2", "headword": "세상", "reading": "sesang", "meaningVn": "thế gian, thế giới", "example": "세상은 넓어요.", "exampleVn": "Thế giới rất rộng lớn." },
+            { "id": "ko-sang-sang1-w3", "headword": "상의", "reading": "sangui", "meaningVn": "áo trên (thượng y)", "example": "상의를 입으세요.", "exampleVn": "Hãy mặc áo vào." }
+          ]
+        },
+        {
+          "id": "ko-sang-sang2",
+          "character": "商",
+          "hanViet": "thương",
+          "meaningVn": "buôn bán",
+          "words": [
+            { "id": "ko-sang-sang2-w1", "headword": "상품", "reading": "sangpum", "meaningVn": "sản phẩm, hàng hóa", "example": "이 상품이 인기가 많아요.", "exampleVn": "Sản phẩm này rất được ưa chuộng." },
+            { "id": "ko-sang-sang2-w2", "headword": "상인", "reading": "sangin", "meaningVn": "thương nhân", "example": "시장에는 상인들이 많아요.", "exampleVn": "Ở chợ có nhiều thương nhân." },
+            { "id": "ko-sang-sang2-w3", "headword": "상업", "reading": "sangeop", "meaningVn": "thương nghiệp", "example": "이 지역은 상업이 발달했어요.", "exampleVn": "Vùng này thương nghiệp phát triển." }
+          ]
+        },
+        {
+          "id": "ko-sang-sang3",
+          "character": "相",
+          "hanViet": "tương",
+          "meaningVn": "lẫn nhau",
+          "words": [
+            { "id": "ko-sang-sang3-w1", "headword": "상대", "reading": "sangdae", "meaningVn": "đối phương (tương đối)", "example": "상대의 말을 잘 들으세요.", "exampleVn": "Hãy lắng nghe kỹ lời của đối phương." },
+            { "id": "ko-sang-sang3-w2", "headword": "상담", "reading": "sangdam", "meaningVn": "tư vấn (tương đàm)", "example": "상담을 받고 싶어요.", "exampleVn": "Tôi muốn nhận tư vấn." }
+          ]
+        },
+        {
+          "id": "ko-sang-sang4",
+          "character": "想",
+          "hanViet": "tưởng",
+          "meaningVn": "suy nghĩ, tưởng tượng",
+          "words": [
+            { "id": "ko-sang-sang4-w1", "headword": "예상", "reading": "yesang", "meaningVn": "dự đoán, dự tưởng", "example": "예상보다 쉬웠어요.", "exampleVn": "Dễ hơn dự đoán." },
+            { "id": "ko-sang-sang4-w2", "headword": "감상", "reading": "gamsang", "meaningVn": "cảm nhận, thưởng thức (cảm tưởng)", "example": "영화 감상을 좋아해요.", "exampleVn": "Tôi thích thưởng thức phim." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ji",
+      "language": "ko",
+      "reading": "지 (ji)",
+      "note": "Nhiều chữ Hán-Hàn đọc \"지\" nhưng nghĩa khác nhau.",
+      "roots": [
+        {
+          "id": "ko-ji-ji1",
+          "character": "地",
+          "hanViet": "địa",
+          "meaningVn": "đất",
+          "words": [
+            { "id": "ko-ji-ji1-w1", "headword": "지도", "reading": "jido", "meaningVn": "bản đồ (địa đồ)", "example": "지도를 보고 길을 찾았어요.", "exampleVn": "Đã tìm đường nhờ xem bản đồ." },
+            { "id": "ko-ji-ji1-w2", "headword": "지역", "reading": "jiyeok", "meaningVn": "khu vực, địa phương", "example": "이 지역은 유명해요.", "exampleVn": "Khu vực này nổi tiếng." },
+            { "id": "ko-ji-ji1-w3", "headword": "지구", "reading": "jigu", "meaningVn": "trái đất, địa cầu", "example": "지구는 둥글어요.", "exampleVn": "Trái đất tròn." }
+          ]
+        },
+        {
+          "id": "ko-ji-ji2",
+          "character": "知",
+          "hanViet": "tri",
+          "meaningVn": "biết",
+          "words": [
+            { "id": "ko-ji-ji2-w1", "headword": "지식", "reading": "jisik", "meaningVn": "kiến thức (tri thức)", "example": "지식이 풍부해요.", "exampleVn": "Kiến thức phong phú." },
+            { "id": "ko-ji-ji2-w2", "headword": "통지", "reading": "tongji", "meaningVn": "thông báo (thông tri)", "example": "통지를 받았어요.", "exampleVn": "Đã nhận được thông báo." }
+          ]
+        },
+        {
+          "id": "ko-ji-ji3",
+          "character": "紙",
+          "hanViet": "chỉ",
+          "meaningVn": "giấy",
+          "words": [
+            { "id": "ko-ji-ji3-w1", "headword": "편지", "reading": "pyeonji", "meaningVn": "bức thư (phiến chỉ)", "example": "편지를 썼어요.", "exampleVn": "Đã viết một bức thư." },
+            { "id": "ko-ji-ji3-w2", "headword": "용지", "reading": "yongji", "meaningVn": "giấy dùng (dụng chỉ)", "example": "시험 용지를 나눠 줬어요.", "exampleVn": "Đã phát giấy thi." }
+          ]
+        },
+        {
+          "id": "ko-ji-ji4",
+          "character": "志",
+          "hanViet": "chí",
+          "meaningVn": "ý chí",
+          "words": [
+            { "id": "ko-ji-ji4-w1", "headword": "의지", "reading": "uiji", "meaningVn": "ý chí", "example": "의지가 강해요.", "exampleVn": "Ý chí mạnh mẽ." },
+            { "id": "ko-ji-ji4-w2", "headword": "잡지", "reading": "japji", "meaningVn": "tạp chí", "example": "잡지를 읽고 있어요.", "exampleVn": "Đang đọc tạp chí." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-gwan",
+      "language": "ko",
+      "reading": "관 (gwan)",
+      "note": "Nhiều chữ Hán-Hàn đọc \"관\" nhưng nghĩa khác nhau.",
+      "roots": [
+        {
+          "id": "ko-gwan-gwan1",
+          "character": "觀",
+          "hanViet": "quan",
+          "meaningVn": "xem, quan sát",
+          "words": [
+            { "id": "ko-gwan-gwan1-w1", "headword": "관광", "reading": "gwangwang", "meaningVn": "du lịch, tham quan", "example": "관광하러 왔어요.", "exampleVn": "Tôi đến để du lịch." },
+            { "id": "ko-gwan-gwan1-w2", "headword": "관점", "reading": "gwanjeom", "meaningVn": "quan điểm", "example": "다른 관점에서 봐요.", "exampleVn": "Nhìn từ góc độ khác." }
+          ]
+        },
+        {
+          "id": "ko-gwan-gwan2",
+          "character": "官",
+          "hanViet": "quan",
+          "meaningVn": "quan chức",
+          "words": [
+            { "id": "ko-gwan-gwan2-w1", "headword": "외교관", "reading": "oegyogwan", "meaningVn": "nhà ngoại giao", "example": "그는 외교관이에요.", "exampleVn": "Anh ấy là nhà ngoại giao." },
+            { "id": "ko-gwan-gwan2-w2", "headword": "관청", "reading": "gwancheong", "meaningVn": "cơ quan nhà nước (quan sảnh)", "example": "관청에 가서 서류를 냈어요.", "exampleVn": "Đã đến cơ quan nhà nước nộp giấy tờ." }
+          ]
+        },
+        {
+          "id": "ko-gwan-gwan3",
+          "character": "關",
+          "hanViet": "quan",
+          "meaningVn": "liên quan",
+          "words": [
+            { "id": "ko-gwan-gwan3-w1", "headword": "관계", "reading": "gwangye", "meaningVn": "quan hệ", "example": "두 사람은 친한 관계예요.", "exampleVn": "Hai người có quan hệ thân thiết." },
+            { "id": "ko-gwan-gwan3-w2", "headword": "관심", "reading": "gwansim", "meaningVn": "quan tâm", "example": "저는 음악에 관심이 많아요.", "exampleVn": "Tôi rất quan tâm đến âm nhạc." }
+          ]
+        },
+        {
+          "id": "ko-gwan-gwan4",
+          "character": "館",
+          "hanViet": "quán",
+          "meaningVn": "nhà, quán",
+          "words": [
+            { "id": "ko-gwan-gwan4-w1", "headword": "도서관", "reading": "doseogwan", "meaningVn": "thư viện", "example": "도서관에서 공부해요.", "exampleVn": "Học ở thư viện." },
+            { "id": "ko-gwan-gwan4-w2", "headword": "박물관", "reading": "bangmulgwan", "meaningVn": "bảo tàng", "example": "박물관에 가 봤어요.", "exampleVn": "Đã từng đi bảo tàng." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-gyeong",
+      "language": "ko",
+      "reading": "경 (gyeong)",
+      "note": "Rất nhiều chữ Hán-Hàn đọc \"경\" nhưng nghĩa khác nhau — nhóm đồng âm giàu, hay gặp trong từ vựng đời sống lẫn tin tức.",
+      "roots": [
+        {
+          "id": "ko-gyeong-gyeong1",
+          "character": "京",
+          "hanViet": "kinh",
+          "meaningVn": "kinh đô, thủ đô",
+          "words": [
+            { "id": "ko-gyeong-gyeong1-w1", "headword": "상경", "reading": "sanggyeong", "meaningVn": "lên thủ đô", "example": "대학 때문에 상경했어요.", "exampleVn": "Tôi lên thủ đô vì học đại học." },
+            { "id": "ko-gyeong-gyeong1-w2", "headword": "귀경", "reading": "gwigyeong", "meaningVn": "về lại thủ đô (quy kinh)", "example": "명절 후 귀경길이 막혀요.", "exampleVn": "Sau kỳ nghỉ lễ đường về thủ đô bị tắc." }
+          ]
+        },
+        {
+          "id": "ko-gyeong-gyeong2",
+          "character": "景",
+          "hanViet": "cảnh",
+          "meaningVn": "cảnh, phong cảnh",
+          "words": [
+            { "id": "ko-gyeong-gyeong2-w1", "headword": "경치", "reading": "gyeongchi", "meaningVn": "phong cảnh", "example": "경치가 아름다워요.", "exampleVn": "Phong cảnh đẹp." },
+            { "id": "ko-gyeong-gyeong2-w2", "headword": "배경", "reading": "baegyeong", "meaningVn": "bối cảnh", "example": "이 이야기의 배경은 조선시대예요.", "exampleVn": "Bối cảnh câu chuyện này là thời Joseon." },
+            { "id": "ko-gyeong-gyeong2-w3", "headword": "야경", "reading": "yagyeong", "meaningVn": "cảnh đêm", "example": "서울의 야경이 멋있어요.", "exampleVn": "Cảnh đêm Seoul rất đẹp." }
+          ]
+        },
+        {
+          "id": "ko-gyeong-gyeong3",
+          "character": "輕",
+          "hanViet": "khinh",
+          "meaningVn": "nhẹ",
+          "words": [
+            { "id": "ko-gyeong-gyeong3-w1", "headword": "경음악", "reading": "gyeongeumak", "meaningVn": "nhạc nhẹ (khinh âm nhạc)", "example": "경음악을 들으면 편안해요.", "exampleVn": "Nghe nhạc nhẹ thấy thư giãn." },
+            { "id": "ko-gyeong-gyeong3-w2", "headword": "경미", "reading": "gyeongmi", "meaningVn": "nhẹ, không đáng kể (khinh vi)", "example": "부상이 경미해요.", "exampleVn": "Vết thương nhẹ." }
+          ]
+        },
+        {
+          "id": "ko-gyeong-gyeong4",
+          "character": "競",
+          "hanViet": "cạnh",
+          "meaningVn": "cạnh tranh, thi đấu",
+          "words": [
+            { "id": "ko-gyeong-gyeong4-w1", "headword": "경쟁", "reading": "gyeongjaeng", "meaningVn": "cạnh tranh", "example": "경쟁이 심해요.", "exampleVn": "Cạnh tranh gay gắt." },
+            { "id": "ko-gyeong-gyeong4-w2", "headword": "경기", "reading": "gyeonggi", "meaningVn": "trận đấu, thi đấu (cạnh kỹ)", "example": "축구 경기를 봤어요.", "exampleVn": "Đã xem trận bóng đá." }
+          ]
+        },
+        {
+          "id": "ko-gyeong-gyeong5",
+          "character": "經",
+          "hanViet": "kinh",
+          "meaningVn": "trải qua, kinh tế",
+          "words": [
+            { "id": "ko-gyeong-gyeong5-w1", "headword": "경제", "reading": "gyeongje", "meaningVn": "kinh tế", "example": "경제가 어려워요.", "exampleVn": "Kinh tế khó khăn." },
+            { "id": "ko-gyeong-gyeong5-w2", "headword": "경험", "reading": "gyeongheom", "meaningVn": "kinh nghiệm", "example": "좋은 경험이었어요.", "exampleVn": "Đó là một kinh nghiệm tốt." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-si",
+      "language": "ko",
+      "reading": "시 (si)",
+      "note": "Nhiều chữ Hán-Hàn đọc \"시\" nhưng nghĩa khác nhau.",
+      "roots": [
+        {
+          "id": "ko-si-si1",
+          "character": "市",
+          "hanViet": "thị",
+          "meaningVn": "chợ, thành phố",
+          "words": [
+            { "id": "ko-si-si1-w1", "headword": "시장", "reading": "sijang", "meaningVn": "chợ, thị trường", "example": "시장에서 과일을 샀어요.", "exampleVn": "Đã mua trái cây ở chợ." },
+            { "id": "ko-si-si1-w2", "headword": "도시", "reading": "dosi", "meaningVn": "thành phố (đô thị)", "example": "서울은 큰 도시예요.", "exampleVn": "Seoul là thành phố lớn." },
+            { "id": "ko-si-si1-w3", "headword": "시내", "reading": "sinae", "meaningVn": "nội thành, trung tâm thành phố", "example": "시내에 갈까요?", "exampleVn": "Chúng ta đi vào trung tâm thành phố nhé?" }
+          ]
+        },
+        {
+          "id": "ko-si-si2",
+          "character": "時",
+          "hanViet": "thời",
+          "meaningVn": "thời gian",
+          "words": [
+            { "id": "ko-si-si2-w1", "headword": "시간", "reading": "sigan", "meaningVn": "thời gian", "example": "시간이 없어요.", "exampleVn": "Không có thời gian." },
+            { "id": "ko-si-si2-w2", "headword": "당시", "reading": "dangsi", "meaningVn": "lúc đó, đương thời", "example": "당시에는 힘들었어요.", "exampleVn": "Lúc đó rất khó khăn." },
+            { "id": "ko-si-si2-w3", "headword": "임시", "reading": "imsi", "meaningVn": "tạm thời", "example": "임시로 여기 살아요.", "exampleVn": "Tạm thời sống ở đây." }
+          ]
+        },
+        {
+          "id": "ko-si-si3",
+          "character": "始",
+          "hanViet": "thủy",
+          "meaningVn": "bắt đầu",
+          "words": [
+            { "id": "ko-si-si3-w1", "headword": "시작", "reading": "sijak", "meaningVn": "bắt đầu", "example": "수업이 시작됐어요.", "exampleVn": "Tiết học đã bắt đầu." },
+            { "id": "ko-si-si3-w2", "headword": "개시", "reading": "gaesi", "meaningVn": "khởi đầu, khai thủy", "example": "판매가 개시됐어요.", "exampleVn": "Đã bắt đầu bán hàng." }
+          ]
+        },
+        {
+          "id": "ko-si-si4",
+          "character": "試",
+          "hanViet": "thí",
+          "meaningVn": "thử",
+          "words": [
+            { "id": "ko-si-si4-w1", "headword": "시험", "reading": "siheom", "meaningVn": "kỳ thi", "example": "내일 시험이 있어요.", "exampleVn": "Ngày mai có kỳ thi." },
+            { "id": "ko-si-si4-w2", "headword": "시도", "reading": "sido", "meaningVn": "thử, nỗ lực (thí đồ)", "example": "새로운 시도를 해 봤어요.", "exampleVn": "Đã thử một điều mới." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-do",
+      "language": "ko",
+      "reading": "도 (do)",
+      "note": "Nhiều chữ Hán-Hàn đọc \"도\" nhưng nghĩa khác nhau.",
+      "roots": [
+        {
+          "id": "ko-do-do1",
+          "character": "道",
+          "hanViet": "đạo",
+          "meaningVn": "đường, đạo lý",
+          "words": [
+            { "id": "ko-do-do1-w1", "headword": "도로", "reading": "doro", "meaningVn": "đường (đạo lộ)", "example": "도로가 막혀요.", "exampleVn": "Đường bị tắc." },
+            { "id": "ko-do-do1-w2", "headword": "태권도", "reading": "taegwondo", "meaningVn": "taekwondo", "example": "태권도를 배워요.", "exampleVn": "Học taekwondo." }
+          ]
+        },
+        {
+          "id": "ko-do-do2",
+          "character": "圖",
+          "hanViet": "đồ",
+          "meaningVn": "hình vẽ, bản đồ",
+          "words": [
+            { "id": "ko-do-do2-w1", "headword": "의도", "reading": "uido", "meaningVn": "ý đồ, ý định", "example": "그의 의도를 모르겠어요.", "exampleVn": "Tôi không hiểu ý định của anh ấy." },
+            { "id": "ko-do-do2-w2", "headword": "도표", "reading": "dopyo", "meaningVn": "biểu đồ (đồ biểu)", "example": "도표를 보면 이해하기 쉬워요.", "exampleVn": "Nhìn biểu đồ sẽ dễ hiểu hơn." }
+          ]
+        },
+        {
+          "id": "ko-do-do3",
+          "character": "度",
+          "hanViet": "độ",
+          "meaningVn": "mức độ",
+          "words": [
+            { "id": "ko-do-do3-w1", "headword": "온도", "reading": "ondo", "meaningVn": "nhiệt độ", "example": "오늘 온도가 높아요.", "exampleVn": "Hôm nay nhiệt độ cao." },
+            { "id": "ko-do-do3-w2", "headword": "태도", "reading": "taedo", "meaningVn": "thái độ", "example": "그의 태도가 좋아요.", "exampleVn": "Thái độ của anh ấy tốt." },
+            { "id": "ko-do-do3-w3", "headword": "정도", "reading": "jeongdo", "meaningVn": "mức độ, chừng mực", "example": "어느 정도 이해했어요.", "exampleVn": "Đã hiểu ở một mức độ nào đó." }
+          ]
+        },
+        {
+          "id": "ko-do-do4",
+          "character": "到",
+          "hanViet": "đáo",
+          "meaningVn": "đến",
+          "words": [
+            { "id": "ko-do-do4-w1", "headword": "도착", "reading": "dochak", "meaningVn": "đến nơi (đáo trước)", "example": "기차가 도착했어요.", "exampleVn": "Tàu đã đến." },
+            { "id": "ko-do-do4-w2", "headword": "도달", "reading": "dodal", "meaningVn": "đạt đến (đáo đạt)", "example": "목표에 도달했어요.", "exampleVn": "Đã đạt đến mục tiêu." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-won",
+      "language": "ko",
+      "reading": "원 (won)",
+      "note": "Rất nhiều chữ Hán-Hàn đọc \"원\" nhưng nghĩa khác nhau — nhóm đồng âm giàu, và cũng là tên đơn vị tiền tệ Hàn Quốc.",
+      "roots": [
+        {
+          "id": "ko-won-won1",
+          "character": "園",
+          "hanViet": "viên",
+          "meaningVn": "vườn",
+          "words": [
+            { "id": "ko-won-won1-w1", "headword": "동물원", "reading": "dongmurwon", "meaningVn": "vườn thú (động vật viên)", "example": "동물원에 가고 싶어요.", "exampleVn": "Tôi muốn đi sở thú." },
+            { "id": "ko-won-won1-w2", "headword": "정원", "reading": "jeongwon", "meaningVn": "khu vườn (đình viên)", "example": "정원에 꽃이 많아요.", "exampleVn": "Trong vườn có nhiều hoa." }
+          ]
+        },
+        {
+          "id": "ko-won-won2",
+          "character": "院",
+          "hanViet": "viện",
+          "meaningVn": "viện",
+          "words": [
+            { "id": "ko-won-won2-w1", "headword": "병원", "reading": "byeongwon", "meaningVn": "bệnh viện", "example": "병원에 가야 해요.", "exampleVn": "Phải đến bệnh viện." },
+            { "id": "ko-won-won2-w2", "headword": "학원", "reading": "hagwon", "meaningVn": "trung tâm học thêm (học viện)", "example": "영어 학원에 다녀요.", "exampleVn": "Tôi đi học ở trung tâm tiếng Anh." }
+          ]
+        },
+        {
+          "id": "ko-won-won3",
+          "character": "原",
+          "hanViet": "nguyên",
+          "meaningVn": "ban đầu, nguyên nhân",
+          "words": [
+            { "id": "ko-won-won3-w1", "headword": "원인", "reading": "wonin", "meaningVn": "nguyên nhân", "example": "사고의 원인을 몰라요.", "exampleVn": "Không biết nguyên nhân tai nạn." },
+            { "id": "ko-won-won3-w2", "headword": "원래", "reading": "wollae", "meaningVn": "vốn dĩ, ban đầu (nguyên lai)", "example": "원래 그런 사람이에요.", "exampleVn": "Anh ấy vốn dĩ là người như vậy." }
+          ]
+        },
+        {
+          "id": "ko-won-won4",
+          "character": "願",
+          "hanViet": "nguyện",
+          "meaningVn": "mong muốn",
+          "words": [
+            { "id": "ko-won-won4-w1", "headword": "소원", "reading": "sowon", "meaningVn": "điều ước (sở nguyện)", "example": "소원을 빌었어요.", "exampleVn": "Đã cầu một điều ước." },
+            { "id": "ko-won-won4-w2", "headword": "지원", "reading": "jiwon", "meaningVn": "hỗ trợ, ứng tuyển", "example": "회사에 지원했어요.", "exampleVn": "Đã ứng tuyển vào công ty." }
+          ]
+        },
+        {
+          "id": "ko-won-won5",
+          "character": "元",
+          "hanViet": "nguyên",
+          "meaningVn": "gốc, đơn vị cơ bản",
+          "words": [
+            { "id": "ko-won-won5-w1", "headword": "차원", "reading": "chawon", "meaningVn": "chiều, khía cạnh (thứ nguyên)", "example": "다른 차원에서 생각해요.", "exampleVn": "Suy nghĩ từ một khía cạnh khác." },
+            { "id": "ko-won-won5-w2", "headword": "원조", "reading": "wonjo", "meaningVn": "nguyên bản, chính gốc", "example": "이 식당이 원조예요.", "exampleVn": "Nhà hàng này là chính gốc/nguyên bản." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-bu",
+      "language": "ko",
+      "reading": "부 (bu)",
+      "note": "Nhiều chữ Hán-Hàn đọc \"부\" nhưng nghĩa khác nhau.",
+      "roots": [
+        {
+          "id": "ko-bu-bu1",
+          "character": "部",
+          "hanViet": "bộ",
+          "meaningVn": "bộ phận",
+          "words": [
+            { "id": "ko-bu-bu1-w1", "headword": "부분", "reading": "bubun", "meaningVn": "bộ phận, phần", "example": "이 부분이 중요해요.", "exampleVn": "Phần này quan trọng." },
+            { "id": "ko-bu-bu1-w2", "headword": "전부", "reading": "jeonbu", "meaningVn": "toàn bộ", "example": "전부 다 먹었어요.", "exampleVn": "Đã ăn hết toàn bộ." }
+          ]
+        },
+        {
+          "id": "ko-bu-bu2",
+          "character": "富",
+          "hanViet": "phú",
+          "meaningVn": "giàu có",
+          "words": [
+            { "id": "ko-bu-bu2-w1", "headword": "부자", "reading": "buja", "meaningVn": "người giàu (phú giả)", "example": "그는 부자예요.", "exampleVn": "Anh ấy là người giàu." },
+            { "id": "ko-bu-bu2-w2", "headword": "풍부", "reading": "pungbu", "meaningVn": "phong phú", "example": "자원이 풍부해요.", "exampleVn": "Tài nguyên phong phú." }
+          ]
+        },
+        {
+          "id": "ko-bu-bu3",
+          "character": "父",
+          "hanViet": "phụ",
+          "meaningVn": "cha",
+          "words": [
+            { "id": "ko-bu-bu3-w1", "headword": "부모", "reading": "bumo", "meaningVn": "cha mẹ (phụ mẫu)", "example": "부모님을 사랑해요.", "exampleVn": "Yêu thương cha mẹ." },
+            { "id": "ko-bu-bu3-w2", "headword": "조부모", "reading": "jobumo", "meaningVn": "ông bà (tổ phụ mẫu)", "example": "조부모님과 함께 살아요.", "exampleVn": "Sống cùng ông bà." }
+          ]
+        },
+        {
+          "id": "ko-bu-bu4",
+          "character": "不",
+          "hanViet": "bất",
+          "meaningVn": "không, phủ định",
+          "words": [
+            { "id": "ko-bu-bu4-w1", "headword": "부족", "reading": "bujok", "meaningVn": "thiếu, không đủ (bất túc)", "example": "시간이 부족해요.", "exampleVn": "Thời gian không đủ." },
+            { "id": "ko-bu-bu4-w2", "headword": "부정", "reading": "bujeong", "meaningVn": "phủ định, tiêu cực", "example": "그는 부정적이에요.", "exampleVn": "Anh ấy có tính tiêu cực (phủ định)." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-jo",
+      "language": "ko",
+      "reading": "조 (jo)",
+      "note": "Rất nhiều chữ Hán-Hàn đọc \"조\" nhưng nghĩa khác nhau.",
+      "roots": [
+        {
+          "id": "ko-jo-jo1",
+          "character": "助",
+          "hanViet": "trợ",
+          "meaningVn": "giúp đỡ",
+          "words": [
+            { "id": "ko-jo-jo1-w1", "headword": "협조", "reading": "hyeopjo", "meaningVn": "hợp tác, giúp đỡ", "example": "협조해 주셔서 감사합니다.", "exampleVn": "Cảm ơn đã hợp tác." },
+            { "id": "ko-jo-jo1-w2", "headword": "조수", "reading": "josu", "meaningVn": "trợ lý (trợ thủ)", "example": "그는 제 조수예요.", "exampleVn": "Anh ấy là trợ lý của tôi." }
+          ]
+        },
+        {
+          "id": "ko-jo-jo2",
+          "character": "造",
+          "hanViet": "tạo",
+          "meaningVn": "tạo ra, chế tạo",
+          "words": [
+            { "id": "ko-jo-jo2-w1", "headword": "제조", "reading": "jejo", "meaningVn": "chế tạo", "example": "이 회사는 자동차를 제조해요.", "exampleVn": "Công ty này chế tạo ô tô." },
+            { "id": "ko-jo-jo2-w2", "headword": "구조", "reading": "gujo", "meaningVn": "cấu trúc, kết cấu (cấu tạo)", "example": "건물의 구조가 특이해요.", "exampleVn": "Kết cấu tòa nhà đặc biệt." }
+          ]
+        },
+        {
+          "id": "ko-jo-jo3",
+          "character": "調",
+          "hanViet": "điều",
+          "meaningVn": "điều chỉnh, điều tra",
+          "words": [
+            { "id": "ko-jo-jo3-w1", "headword": "조사", "reading": "josa", "meaningVn": "điều tra, khảo sát", "example": "설문 조사를 했어요.", "exampleVn": "Đã làm khảo sát." },
+            { "id": "ko-jo-jo3-w2", "headword": "강조", "reading": "gangjo", "meaningVn": "nhấn mạnh (cường điều)", "example": "이 점을 강조하고 싶어요.", "exampleVn": "Tôi muốn nhấn mạnh điểm này." }
+          ]
+        },
+        {
+          "id": "ko-jo-jo4",
+          "character": "早",
+          "hanViet": "tảo",
+          "meaningVn": "sớm",
+          "words": [
+            { "id": "ko-jo-jo4-w1", "headword": "조기", "reading": "jogi", "meaningVn": "giai đoạn sớm (tảo kỳ)", "example": "조기 교육이 중요해요.", "exampleVn": "Giáo dục sớm rất quan trọng." },
+            { "id": "ko-jo-jo4-w2", "headword": "조퇴", "reading": "jotoe", "meaningVn": "về sớm, tan sớm (tảo thoái)", "example": "아파서 조퇴했어요.", "exampleVn": "Vì bị bệnh nên tôi đã về sớm." }
+          ]
+        },
+        {
+          "id": "ko-jo-jo5",
+          "character": "祖",
+          "hanViet": "tổ",
+          "meaningVn": "tổ tiên",
+          "words": [
+            { "id": "ko-jo-jo5-w1", "headword": "조상", "reading": "josang", "meaningVn": "tổ tiên", "example": "조상을 존경해요.", "exampleVn": "Kính trọng tổ tiên." },
+            { "id": "ko-jo-jo5-w2", "headword": "조국", "reading": "joguk", "meaningVn": "tổ quốc", "example": "조국을 사랑해요.", "exampleVn": "Yêu tổ quốc." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-yu",
+      "language": "ko",
+      "reading": "유 (yu)",
+      "note": "Nhiều chữ Hán-Hàn đọc \"유\" nhưng nghĩa khác nhau.",
+      "roots": [
+        {
+          "id": "ko-yu-yu1",
+          "character": "有",
+          "hanViet": "hữu",
+          "meaningVn": "có",
+          "words": [
+            { "id": "ko-yu-yu1-w1", "headword": "유명", "reading": "yumyeong", "meaningVn": "nổi tiếng (hữu danh)", "example": "그는 유명한 가수예요.", "exampleVn": "Anh ấy là ca sĩ nổi tiếng." },
+            { "id": "ko-yu-yu1-w2", "headword": "소유", "reading": "soyu", "meaningVn": "sở hữu", "example": "이 차는 제 소유예요.", "exampleVn": "Chiếc xe này thuộc sở hữu của tôi." }
+          ]
+        },
+        {
+          "id": "ko-yu-yu2",
+          "character": "油",
+          "hanViet": "du",
+          "meaningVn": "dầu",
+          "words": [
+            { "id": "ko-yu-yu2-w1", "headword": "석유", "reading": "seogyu", "meaningVn": "dầu mỏ", "example": "석유 가격이 올랐어요.", "exampleVn": "Giá dầu mỏ tăng." },
+            { "id": "ko-yu-yu2-w2", "headword": "주유소", "reading": "juyuso", "meaningVn": "trạm xăng", "example": "주유소에서 기름을 넣었어요.", "exampleVn": "Đã đổ xăng ở trạm xăng." }
+          ]
+        },
+        {
+          "id": "ko-yu-yu3",
+          "character": "由",
+          "hanViet": "do",
+          "meaningVn": "lý do, từ",
+          "words": [
+            { "id": "ko-yu-yu3-w1", "headword": "이유", "reading": "iyu", "meaningVn": "lý do", "example": "이유를 설명해 주세요.", "exampleVn": "Hãy giải thích lý do." },
+            { "id": "ko-yu-yu3-w2", "headword": "자유", "reading": "jayu", "meaningVn": "tự do", "example": "자유를 원해요.", "exampleVn": "Muốn có tự do." }
+          ]
+        },
+        {
+          "id": "ko-yu-yu4",
+          "character": "幼",
+          "hanViet": "ấu",
+          "meaningVn": "trẻ nhỏ, non nớt",
+          "words": [
+            { "id": "ko-yu-yu4-w1", "headword": "유치원", "reading": "yuchiwon", "meaningVn": "trường mẫu giáo (ấu trĩ viên)", "example": "아이가 유치원에 다녀요.", "exampleVn": "Đứa trẻ đang học mẫu giáo." },
+            { "id": "ko-yu-yu4-w2", "headword": "유아", "reading": "yua", "meaningVn": "trẻ nhỏ (ấu nhi)", "example": "유아 교육이 중요해요.", "exampleVn": "Giáo dục trẻ nhỏ rất quan trọng." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-dae",
+      "language": "ko",
+      "reading": "대 (dae)",
+      "note": "Nhiều chữ Hán-Hàn đọc \"대\" nhưng nghĩa khác nhau.",
+      "roots": [
+        {
+          "id": "ko-dae-dae1",
+          "character": "大",
+          "hanViet": "đại",
+          "meaningVn": "to lớn",
+          "words": [
+            { "id": "ko-dae-dae1-w1", "headword": "대학", "reading": "daehak", "meaningVn": "đại học", "example": "대학에 다녀요.", "exampleVn": "Đang học đại học." },
+            { "id": "ko-dae-dae1-w2", "headword": "대부분", "reading": "daebubun", "meaningVn": "đại đa số, phần lớn", "example": "대부분 사람들이 동의해요.", "exampleVn": "Đa số mọi người đồng ý." }
+          ]
+        },
+        {
+          "id": "ko-dae-dae2",
+          "character": "代",
+          "hanViet": "đại",
+          "meaningVn": "thay thế, thế hệ",
+          "words": [
+            { "id": "ko-dae-dae2-w1", "headword": "시대", "reading": "sidae", "meaningVn": "thời đại", "example": "새로운 시대가 왔어요.", "exampleVn": "Thời đại mới đã đến." },
+            { "id": "ko-dae-dae2-w2", "headword": "대신", "reading": "daesin", "meaningVn": "thay thế, thay mặt (đại thân)", "example": "제가 대신 갈게요.", "exampleVn": "Tôi sẽ đi thay." }
+          ]
+        },
+        {
+          "id": "ko-dae-dae3",
+          "character": "對",
+          "hanViet": "đối",
+          "meaningVn": "đối diện, đối với",
+          "words": [
+            { "id": "ko-dae-dae3-w1", "headword": "대답", "reading": "daedap", "meaningVn": "trả lời (đối đáp)", "example": "질문에 대답했어요.", "exampleVn": "Đã trả lời câu hỏi." },
+            { "id": "ko-dae-dae3-w2", "headword": "반대", "reading": "bandae", "meaningVn": "phản đối", "example": "저는 반대해요.", "exampleVn": "Tôi phản đối." }
+          ]
+        },
+        {
+          "id": "ko-dae-dae4",
+          "character": "待",
+          "hanViet": "đãi",
+          "meaningVn": "đợi, đối đãi",
+          "words": [
+            { "id": "ko-dae-dae4-w1", "headword": "기대", "reading": "gidae", "meaningVn": "mong đợi, kỳ vọng", "example": "많이 기대돼요.", "exampleVn": "Rất mong đợi." },
+            { "id": "ko-dae-dae4-w2", "headword": "초대", "reading": "chodae", "meaningVn": "mời (chiêu đãi)", "example": "생일 파티에 초대했어요.", "exampleVn": "Đã mời đến tiệc sinh nhật." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-bang",
+      "language": "ko",
+      "reading": "방 (bang)",
+      "note": "Nhiều chữ Hán-Hàn đọc \"방\" nhưng nghĩa khác nhau.",
+      "roots": [
+        {
+          "id": "ko-bang-bang1",
+          "character": "房",
+          "hanViet": "phòng",
+          "meaningVn": "căn phòng",
+          "words": [
+            { "id": "ko-bang-bang1-w1", "headword": "문방구", "reading": "munbanggu", "meaningVn": "cửa hàng văn phòng phẩm", "example": "문방구에서 연필을 샀어요.", "exampleVn": "Đã mua bút chì ở cửa hàng văn phòng phẩm." },
+            { "id": "ko-bang-bang1-w2", "headword": "냉방", "reading": "naengbang", "meaningVn": "làm lạnh, điều hòa (lãnh phòng)", "example": "냉방이 잘 돼요.", "exampleVn": "Điều hòa/làm lạnh tốt." }
+          ]
+        },
+        {
+          "id": "ko-bang-bang2",
+          "character": "方",
+          "hanViet": "phương",
+          "meaningVn": "phương hướng, cách thức",
+          "words": [
+            { "id": "ko-bang-bang2-w1", "headword": "방법", "reading": "bangbeop", "meaningVn": "phương pháp", "example": "좋은 방법이 있어요.", "exampleVn": "Có phương pháp tốt." },
+            { "id": "ko-bang-bang2-w2", "headword": "지방", "reading": "jibang", "meaningVn": "địa phương", "example": "지방에서 왔어요.", "exampleVn": "Đến từ địa phương." }
+          ]
+        },
+        {
+          "id": "ko-bang-bang3",
+          "character": "放",
+          "hanViet": "phóng",
+          "meaningVn": "thả, phát ra",
+          "words": [
+            { "id": "ko-bang-bang3-w1", "headword": "방송", "reading": "bangsong", "meaningVn": "phát sóng, truyền hình", "example": "방송을 봤어요.", "exampleVn": "Đã xem chương trình truyền hình." },
+            { "id": "ko-bang-bang3-w2", "headword": "해방", "reading": "haebang", "meaningVn": "giải phóng", "example": "해방 후 많이 변했어요.", "exampleVn": "Sau giải phóng đã thay đổi nhiều." }
+          ]
+        },
+        {
+          "id": "ko-bang-bang4",
+          "character": "防",
+          "hanViet": "phòng",
+          "meaningVn": "phòng ngừa",
+          "words": [
+            { "id": "ko-bang-bang4-w1", "headword": "예방", "reading": "yebang", "meaningVn": "phòng ngừa, dự phòng", "example": "감기 예방을 위해 손을 씻어요.", "exampleVn": "Rửa tay để phòng ngừa cảm cúm." },
+            { "id": "ko-bang-bang4-w2", "headword": "소방서", "reading": "sobangso", "meaningVn": "trạm cứu hỏa (tiêu phòng thự)", "example": "소방서에 전화했어요.", "exampleVn": "Đã gọi điện cho trạm cứu hỏa." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-so",
+      "language": "ko",
+      "reading": "소 (so)",
+      "note": "Nhiều chữ Hán-Hàn đọc \"소\" nhưng nghĩa khác nhau.",
+      "roots": [
+        {
+          "id": "ko-so-so1",
+          "character": "小",
+          "hanViet": "tiểu",
+          "meaningVn": "nhỏ",
+          "words": [
+            { "id": "ko-so-so1-w1", "headword": "소형", "reading": "sohyeong", "meaningVn": "loại nhỏ, cỡ nhỏ", "example": "소형 자동차를 샀어요.", "exampleVn": "Đã mua ô tô cỡ nhỏ." },
+            { "id": "ko-so-so1-w2", "headword": "축소", "reading": "chukso", "meaningVn": "thu nhỏ", "example": "사진을 축소했어요.", "exampleVn": "Đã thu nhỏ ảnh." }
+          ]
+        },
+        {
+          "id": "ko-so-so2",
+          "character": "少",
+          "hanViet": "thiếu",
+          "meaningVn": "ít, trẻ",
+          "words": [
+            { "id": "ko-so-so2-w1", "headword": "소녀", "reading": "sonyeo", "meaningVn": "thiếu nữ", "example": "소녀가 노래를 불러요.", "exampleVn": "Cô bé hát." },
+            { "id": "ko-so-so2-w2", "headword": "감소", "reading": "gamso", "meaningVn": "giảm thiểu", "example": "인구가 감소했어요.", "exampleVn": "Dân số đã giảm." },
+            { "id": "ko-so-so2-w3", "headword": "다소", "reading": "daso", "meaningVn": "ít nhiều, đôi chút", "example": "다소 어려워요.", "exampleVn": "Hơi khó một chút." }
+          ]
+        },
+        {
+          "id": "ko-so-so3",
+          "character": "所",
+          "hanViet": "sở",
+          "meaningVn": "nơi chốn",
+          "words": [
+            { "id": "ko-so-so3-w1", "headword": "장소", "reading": "jangso", "meaningVn": "địa điểm", "example": "만날 장소를 정해요.", "exampleVn": "Hãy chọn địa điểm gặp mặt." },
+            { "id": "ko-so-so3-w2", "headword": "주소", "reading": "juso", "meaningVn": "địa chỉ (trú sở)", "example": "주소를 알려 주세요.", "exampleVn": "Hãy cho tôi biết địa chỉ." }
+          ]
+        },
+        {
+          "id": "ko-so-so4",
+          "character": "消",
+          "hanViet": "tiêu",
+          "meaningVn": "tiêu tan, tiêu hao",
+          "words": [
+            { "id": "ko-so-so4-w1", "headword": "소비", "reading": "sobi", "meaningVn": "tiêu dùng", "example": "소비가 늘었어요.", "exampleVn": "Tiêu dùng đã tăng." },
+            { "id": "ko-so-so4-w2", "headword": "취소", "reading": "chwiso", "meaningVn": "hủy bỏ", "example": "예약을 취소했어요.", "exampleVn": "Đã hủy đặt chỗ." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-se",
+      "language": "ko",
+      "reading": "세 (se)",
+      "note": "Nhiều chữ Hán-Hàn đọc \"세\" nhưng nghĩa khác nhau.",
+      "roots": [
+        {
+          "id": "ko-se-se1",
+          "character": "世",
+          "hanViet": "thế",
+          "meaningVn": "đời, thế giới",
+          "words": [
+            { "id": "ko-se-se1-w1", "headword": "세계", "reading": "segye", "meaningVn": "thế giới", "example": "세계 여행을 하고 싶어요.", "exampleVn": "Muốn đi du lịch thế giới." },
+            { "id": "ko-se-se1-w2", "headword": "세기", "reading": "segi", "meaningVn": "thế kỷ", "example": "21세기예요.", "exampleVn": "Là thế kỷ 21." }
+          ]
+        },
+        {
+          "id": "ko-se-se2",
+          "character": "稅",
+          "hanViet": "thuế",
+          "meaningVn": "thuế",
+          "words": [
+            { "id": "ko-se-se2-w1", "headword": "세금", "reading": "segeum", "meaningVn": "tiền thuế", "example": "세금을 냈어요.", "exampleVn": "Đã nộp thuế." },
+            { "id": "ko-se-se2-w2", "headword": "면세", "reading": "myeonse", "meaningVn": "miễn thuế", "example": "면세점에서 쇼핑했어요.", "exampleVn": "Đã mua sắm ở cửa hàng miễn thuế." }
+          ]
+        },
+        {
+          "id": "ko-se-se3",
+          "character": "勢",
+          "hanViet": "thế",
+          "meaningVn": "thế lực, xu thế",
+          "words": [
+            { "id": "ko-se-se3-w1", "headword": "자세", "reading": "jase", "meaningVn": "tư thế", "example": "자세를 바로 하세요.", "exampleVn": "Hãy ngồi đúng tư thế." },
+            { "id": "ko-se-se3-w2", "headword": "기세", "reading": "gise", "meaningVn": "khí thế", "example": "기세가 대단해요.", "exampleVn": "Khí thế mạnh mẽ." }
+          ]
+        },
+        {
+          "id": "ko-se-se4",
+          "character": "洗",
+          "hanViet": "tẩy",
+          "meaningVn": "rửa, giặt",
+          "words": [
+            { "id": "ko-se-se4-w1", "headword": "세수", "reading": "sesu", "meaningVn": "rửa mặt", "example": "아침에 세수해요.", "exampleVn": "Buổi sáng rửa mặt." },
+            { "id": "ko-se-se4-w2", "headword": "세탁", "reading": "setak", "meaningVn": "giặt giũ", "example": "세탁을 했어요.", "exampleVn": "Đã giặt đồ." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ban",
+      "language": "ko",
+      "reading": "반 (ban)",
+      "note": "Nhiều chữ Hán-Hàn đọc \"반\" nhưng nghĩa khác nhau.",
+      "roots": [
+        {
+          "id": "ko-ban-ban1",
+          "character": "半",
+          "hanViet": "bán",
+          "meaningVn": "một nửa",
+          "words": [
+            { "id": "ko-ban-ban1-w1", "headword": "절반", "reading": "jeolban", "meaningVn": "một nửa (chiết bán)", "example": "절반을 나눴어요.", "exampleVn": "Đã chia làm đôi." },
+            { "id": "ko-ban-ban1-w2", "headword": "반년", "reading": "bannyeon", "meaningVn": "nửa năm", "example": "반년 동안 살았어요.", "exampleVn": "Đã sống được nửa năm." }
+          ]
+        },
+        {
+          "id": "ko-ban-ban2",
+          "character": "班",
+          "hanViet": "ban",
+          "meaningVn": "lớp, nhóm",
+          "words": [
+            { "id": "ko-ban-ban2-w1", "headword": "반장", "reading": "banjang", "meaningVn": "lớp trưởng", "example": "저는 반장이에요.", "exampleVn": "Tôi là lớp trưởng." },
+            { "id": "ko-ban-ban2-w2", "headword": "양반", "reading": "yangban", "meaningVn": "quý tộc (lưỡng ban)", "example": "조선시대 양반들은 부유했어요.", "exampleVn": "Tầng lớp quý tộc thời Joseon giàu có." }
+          ]
+        },
+        {
+          "id": "ko-ban-ban3",
+          "character": "反",
+          "hanViet": "phản",
+          "meaningVn": "trái ngược, phản đối",
+          "words": [
+            { "id": "ko-ban-ban3-w1", "headword": "반응", "reading": "baneung", "meaningVn": "phản ứng", "example": "반응이 좋아요.", "exampleVn": "Phản ứng tốt." },
+            { "id": "ko-ban-ban3-w2", "headword": "반복", "reading": "banbok", "meaningVn": "lặp lại (phản phục)", "example": "반복해서 연습해요.", "exampleVn": "Luyện tập lặp đi lặp lại." }
+          ]
+        },
+        {
+          "id": "ko-ban-ban4",
+          "character": "般",
+          "hanViet": "bàn",
+          "meaningVn": "loại, kiểu, chung",
+          "words": [
+            { "id": "ko-ban-ban4-w1", "headword": "일반", "reading": "ilban", "meaningVn": "thông thường, phổ thông", "example": "일반 사람들은 몰라요.", "exampleVn": "Người bình thường không biết." },
+            { "id": "ko-ban-ban4-w2", "headword": "전반", "reading": "jeonban", "meaningVn": "toàn thể, nói chung", "example": "전반적으로 좋아요.", "exampleVn": "Nhìn chung là tốt." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-in",
+      "language": "ko",
+      "reading": "인 (in)",
+      "note": "Nhiều chữ Hán-Hàn đọc \"인\" nhưng nghĩa khác nhau.",
+      "roots": [
+        {
+          "id": "ko-in-in1",
+          "character": "人",
+          "hanViet": "nhân",
+          "meaningVn": "người",
+          "words": [
+            { "id": "ko-in-in1-w1", "headword": "인간", "reading": "ingan", "meaningVn": "con người", "example": "인간은 사회적 동물이에요.", "exampleVn": "Con người là động vật xã hội." },
+            { "id": "ko-in-in1-w2", "headword": "개인", "reading": "gaein", "meaningVn": "cá nhân", "example": "개인 정보를 보호해요.", "exampleVn": "Bảo vệ thông tin cá nhân." },
+            { "id": "ko-in-in1-w3", "headword": "외국인", "reading": "oegugin", "meaningVn": "người nước ngoài", "example": "외국인 친구가 있어요.", "exampleVn": "Tôi có bạn người nước ngoài." }
+          ]
+        },
+        {
+          "id": "ko-in-in2",
+          "character": "因",
+          "hanViet": "nhân",
+          "meaningVn": "nguyên nhân",
+          "words": [
+            { "id": "ko-in-in2-w1", "headword": "요인", "reading": "yoin", "meaningVn": "yếu tố, nguyên nhân", "example": "성공의 요인이 뭐예요?", "exampleVn": "Yếu tố thành công là gì?" },
+            { "id": "ko-in-in2-w2", "headword": "인과", "reading": "ingwa", "meaningVn": "nhân quả", "example": "인과 관계가 있어요.", "exampleVn": "Có mối quan hệ nhân quả." }
+          ]
+        },
+        {
+          "id": "ko-in-in3",
+          "character": "印",
+          "hanViet": "ấn",
+          "meaningVn": "dấu, in ấn",
+          "words": [
+            { "id": "ko-in-in3-w1", "headword": "인쇄", "reading": "inswae", "meaningVn": "in ấn", "example": "인쇄가 잘 됐어요.", "exampleVn": "In ấn tốt." },
+            { "id": "ko-in-in3-w2", "headword": "인상", "reading": "insang", "meaningVn": "ấn tượng", "example": "첫인상이 좋아요.", "exampleVn": "Ấn tượng đầu tiên tốt." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-jin",
+      "language": "ko",
+      "reading": "진 (jin)",
+      "note": "Nhiều chữ Hán-Hàn đọc \"진\" nhưng nghĩa khác nhau.",
+      "roots": [
+        {
+          "id": "ko-jin-jin1",
+          "character": "眞",
+          "hanViet": "chân",
+          "meaningVn": "thật",
+          "words": [
+            { "id": "ko-jin-jin1-w1", "headword": "진짜", "reading": "jinjja", "meaningVn": "thật, hàng thật", "example": "이건 진짜예요.", "exampleVn": "Cái này là thật." },
+            { "id": "ko-jin-jin1-w2", "headword": "진실", "reading": "jinsil", "meaningVn": "sự thật (chân thật)", "example": "진실을 말해 주세요.", "exampleVn": "Hãy nói sự thật." },
+            { "id": "ko-jin-jin1-w3", "headword": "진심", "reading": "jinsim", "meaningVn": "chân thành (chân tâm)", "example": "진심으로 감사해요.", "exampleVn": "Chân thành cảm ơn." }
+          ]
+        },
+        {
+          "id": "ko-jin-jin2",
+          "character": "進",
+          "hanViet": "tiến",
+          "meaningVn": "tiến lên",
+          "words": [
+            { "id": "ko-jin-jin2-w1", "headword": "진행", "reading": "jinhaeng", "meaningVn": "tiến hành", "example": "회의가 진행 중이에요.", "exampleVn": "Cuộc họp đang tiến hành." },
+            { "id": "ko-jin-jin2-w2", "headword": "승진", "reading": "seungjin", "meaningVn": "thăng chức (thăng tiến)", "example": "승진을 축하해요.", "exampleVn": "Chúc mừng thăng chức." }
+          ]
+        },
+        {
+          "id": "ko-jin-jin3",
+          "character": "陣",
+          "hanViet": "trận",
+          "meaningVn": "trận, đội hình",
+          "words": [
+            { "id": "ko-jin-jin3-w1", "headword": "진지", "reading": "jinji", "meaningVn": "trận địa, vị trí phòng thủ", "example": "군인들이 진지를 지켜요.", "exampleVn": "Binh lính giữ trận địa." },
+            { "id": "ko-jin-jin3-w2", "headword": "진통제", "reading": "jintongje", "meaningVn": "thuốc giảm đau", "example": "진통제를 먹었어요.", "exampleVn": "Đã uống thuốc giảm đau." }
+          ]
+        },
+        {
+          "id": "ko-jin-jin4",
+          "character": "珍",
+          "hanViet": "trân",
+          "meaningVn": "quý báu",
+          "words": [
+            { "id": "ko-jin-jin4-w1", "headword": "진귀", "reading": "jingwi", "meaningVn": "quý hiếm (trân quý)", "example": "진귀한 보물이에요.", "exampleVn": "Đó là báu vật quý hiếm." },
+            { "id": "ko-jin-jin4-w2", "headword": "진주", "reading": "jinju", "meaningVn": "ngọc trai (trân châu)", "example": "진주 목걸이를 샀어요.", "exampleVn": "Đã mua vòng cổ ngọc trai." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-geup",
+      "language": "ko",
+      "reading": "급 (geup)",
+      "note": "Nhiều chữ Hán-Hàn đọc \"급\" nhưng nghĩa khác nhau.",
+      "roots": [
+        {
+          "id": "ko-geup-geup1",
+          "character": "級",
+          "hanViet": "cấp",
+          "meaningVn": "cấp bậc",
+          "words": [
+            { "id": "ko-geup-geup1-w1", "headword": "등급", "reading": "deunggeup", "meaningVn": "đẳng cấp, hạng", "example": "등급이 높아요.", "exampleVn": "Hạng cao." },
+            { "id": "ko-geup-geup1-w2", "headword": "고급", "reading": "gogeup", "meaningVn": "cao cấp", "example": "고급 레스토랑이에요.", "exampleVn": "Đây là nhà hàng cao cấp." }
+          ]
+        },
+        {
+          "id": "ko-geup-geup2",
+          "character": "急",
+          "hanViet": "cấp",
+          "meaningVn": "gấp, khẩn cấp",
+          "words": [
+            { "id": "ko-geup-geup2-w1", "headword": "급행", "reading": "geuphaeng", "meaningVn": "tốc hành (cấp hành)", "example": "급행열차를 탔어요.", "exampleVn": "Đã đi tàu tốc hành." },
+            { "id": "ko-geup-geup2-w2", "headword": "응급실", "reading": "eunggeupsil", "meaningVn": "phòng cấp cứu", "example": "응급실에 갔어요.", "exampleVn": "Đã đến phòng cấp cứu." }
+          ]
+        },
+        {
+          "id": "ko-geup-geup3",
+          "character": "給",
+          "hanViet": "cấp",
+          "meaningVn": "cấp phát, cung cấp",
+          "words": [
+            { "id": "ko-geup-geup3-w1", "headword": "급여", "reading": "geubyeo", "meaningVn": "tiền lương (cấp dữ)", "example": "급여를 받았어요.", "exampleVn": "Đã nhận lương." },
+            { "id": "ko-geup-geup3-w2", "headword": "공급", "reading": "gonggeup", "meaningVn": "cung cấp", "example": "물을 공급해요.", "exampleVn": "Cung cấp nước." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-san",
+      "language": "ko",
+      "reading": "산 (san)",
+      "note": "Nhiều chữ Hán-Hàn đọc \"산\" nhưng nghĩa khác nhau.",
+      "roots": [
+        {
+          "id": "ko-san-san1",
+          "character": "山",
+          "hanViet": "sơn",
+          "meaningVn": "núi",
+          "words": [
+            { "id": "ko-san-san1-w1", "headword": "등산", "reading": "deungsan", "meaningVn": "leo núi", "example": "주말에 등산해요.", "exampleVn": "Cuối tuần đi leo núi." },
+            { "id": "ko-san-san1-w2", "headword": "산맥", "reading": "sanmaek", "meaningVn": "dãy núi (sơn mạch)", "example": "이 산맥은 길어요.", "exampleVn": "Dãy núi này dài." }
+          ]
+        },
+        {
+          "id": "ko-san-san2",
+          "character": "産",
+          "hanViet": "sản",
+          "meaningVn": "sản xuất, sinh đẻ",
+          "words": [
+            { "id": "ko-san-san2-w1", "headword": "생산", "reading": "saengsan", "meaningVn": "sản xuất", "example": "이 공장은 자동차를 생산해요.", "exampleVn": "Nhà máy này sản xuất ô tô." },
+            { "id": "ko-san-san2-w2", "headword": "재산", "reading": "jaesan", "meaningVn": "tài sản", "example": "그는 재산이 많아요.", "exampleVn": "Anh ấy có nhiều tài sản." }
+          ]
+        },
+        {
+          "id": "ko-san-san3",
+          "character": "算",
+          "hanViet": "toán",
+          "meaningVn": "tính toán",
+          "words": [
+            { "id": "ko-san-san3-w1", "headword": "계산", "reading": "gyesan", "meaningVn": "tính toán", "example": "계산이 복잡해요.", "exampleVn": "Tính toán phức tạp." },
+            { "id": "ko-san-san3-w2", "headword": "예산", "reading": "yesan", "meaningVn": "dự toán, ngân sách", "example": "예산이 부족해요.", "exampleVn": "Ngân sách không đủ." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-gang",
+      "language": "ko",
+      "reading": "강 (gang)",
+      "note": "Nhiều chữ Hán-Hàn đọc \"강\" nhưng nghĩa khác nhau.",
+      "roots": [
+        {
+          "id": "ko-gang-gang1",
+          "character": "江",
+          "hanViet": "giang",
+          "meaningVn": "sông",
+          "words": [
+            { "id": "ko-gang-gang1-w1", "headword": "한강", "reading": "hangang", "meaningVn": "sông Hán", "example": "한강에서 산책해요.", "exampleVn": "Đi dạo ở sông Hàn." },
+            { "id": "ko-gang-gang1-w2", "headword": "강변", "reading": "gangbyeon", "meaningVn": "bờ sông (giang biên)", "example": "강변을 걸었어요.", "exampleVn": "Đã đi bộ dọc bờ sông." }
+          ]
+        },
+        {
+          "id": "ko-gang-gang2",
+          "character": "強",
+          "hanViet": "cường",
+          "meaningVn": "mạnh",
+          "words": [
+            { "id": "ko-gang-gang2-w1", "headword": "강력", "reading": "gangnyeok", "meaningVn": "mạnh mẽ, cường lực", "example": "강력 접착제예요.", "exampleVn": "Đây là keo dán cực mạnh." },
+            { "id": "ko-gang-gang2-w2", "headword": "강국", "reading": "ganguk", "meaningVn": "cường quốc", "example": "경제 강국이에요.", "exampleVn": "Là cường quốc kinh tế." }
+          ]
+        },
+        {
+          "id": "ko-gang-gang3",
+          "character": "講",
+          "hanViet": "giảng",
+          "meaningVn": "giảng dạy",
+          "words": [
+            { "id": "ko-gang-gang3-w1", "headword": "강의", "reading": "gangui", "meaningVn": "bài giảng", "example": "강의를 들었어요.", "exampleVn": "Đã nghe bài giảng." },
+            { "id": "ko-gang-gang3-w2", "headword": "강사", "reading": "gangsa", "meaningVn": "giảng viên", "example": "그는 대학 강사예요.", "exampleVn": "Anh ấy là giảng viên đại học." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-sil",
+      "language": "ko",
+      "reading": "실 (sil)",
+      "note": "Nhiều chữ Hán-Hàn đọc \"실\" nhưng nghĩa khác nhau.",
+      "roots": [
+        {
+          "id": "ko-sil-sil1",
+          "character": "室",
+          "hanViet": "thất",
+          "meaningVn": "căn phòng",
+          "words": [
+            { "id": "ko-sil-sil1-w1", "headword": "교실", "reading": "gyosil", "meaningVn": "phòng học", "example": "교실에서 공부해요.", "exampleVn": "Học trong phòng học." },
+            { "id": "ko-sil-sil1-w2", "headword": "사무실", "reading": "samusil", "meaningVn": "văn phòng", "example": "사무실에서 일해요.", "exampleVn": "Làm việc ở văn phòng." }
+          ]
+        },
+        {
+          "id": "ko-sil-sil2",
+          "character": "實",
+          "hanViet": "thực",
+          "meaningVn": "thật, thực tế",
+          "words": [
+            { "id": "ko-sil-sil2-w1", "headword": "실제", "reading": "silje", "meaningVn": "thực tế", "example": "실제로 가 봤어요.", "exampleVn": "Đã thực sự đi rồi." },
+            { "id": "ko-sil-sil2-w2", "headword": "확실", "reading": "hwaksil", "meaningVn": "chắc chắn, xác thực", "example": "확실히 알아요.", "exampleVn": "Biết chắc chắn." }
+          ]
+        },
+        {
+          "id": "ko-sil-sil3",
+          "character": "失",
+          "hanViet": "thất",
+          "meaningVn": "mất, thất bại",
+          "words": [
+            { "id": "ko-sil-sil3-w1", "headword": "실수", "reading": "silsu", "meaningVn": "sai sót, sơ suất", "example": "실수를 했어요.", "exampleVn": "Đã phạm sai sót." },
+            { "id": "ko-sil-sil3-w2", "headword": "실패", "reading": "silpae", "meaningVn": "thất bại", "example": "실패는 성공의 어머니예요.", "exampleVn": "Thất bại là mẹ thành công." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-tong",
+      "language": "ko",
+      "reading": "통 (tong)",
+      "note": "Nhiều chữ Hán-Hàn đọc \"통\" nhưng nghĩa khác nhau.",
+      "roots": [
+        {
+          "id": "ko-tong-tong1",
+          "character": "通",
+          "hanViet": "thông",
+          "meaningVn": "thông qua, thông suốt",
+          "words": [
+            { "id": "ko-tong-tong1-w1", "headword": "교통", "reading": "gyotong", "meaningVn": "giao thông", "example": "교통이 복잡해요.", "exampleVn": "Giao thông phức tạp." },
+            { "id": "ko-tong-tong1-w2", "headword": "통역", "reading": "tongyeok", "meaningVn": "phiên dịch (thông dịch)", "example": "통역이 필요해요.", "exampleVn": "Cần phiên dịch." },
+            { "id": "ko-tong-tong1-w3", "headword": "소통", "reading": "sotong", "meaningVn": "giao tiếp, thông suốt", "example": "소통이 중요해요.", "exampleVn": "Giao tiếp rất quan trọng." }
+          ]
+        },
+        {
+          "id": "ko-tong-tong2",
+          "character": "痛",
+          "hanViet": "thống",
+          "meaningVn": "đau",
+          "words": [
+            { "id": "ko-tong-tong2-w1", "headword": "고통", "reading": "gotong", "meaningVn": "đau khổ", "example": "고통을 느껴요.", "exampleVn": "Cảm thấy đau khổ." },
+            { "id": "ko-tong-tong2-w2", "headword": "두통", "reading": "dutong", "meaningVn": "đau đầu", "example": "두통이 심해요.", "exampleVn": "Đau đầu dữ dội." }
+          ]
+        },
+        {
+          "id": "ko-tong-tong3",
+          "character": "統",
+          "hanViet": "thống",
+          "meaningVn": "thống nhất, cai quản",
+          "words": [
+            { "id": "ko-tong-tong3-w1", "headword": "대통령", "reading": "daetongnyeong", "meaningVn": "tổng thống", "example": "대통령을 뽑았어요.", "exampleVn": "Đã bầu tổng thống." },
+            { "id": "ko-tong-tong3-w2", "headword": "통일", "reading": "tongil", "meaningVn": "thống nhất", "example": "통일을 원해요.", "exampleVn": "Mong muốn thống nhất." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-cheong",
+      "language": "ko",
+      "reading": "청 (cheong)",
+      "note": "Nhiều chữ Hán-Hàn đọc \"청\" nhưng nghĩa khác nhau.",
+      "roots": [
+        {
+          "id": "ko-cheong-cheong1",
+          "character": "靑",
+          "hanViet": "thanh",
+          "meaningVn": "xanh, trẻ",
+          "words": [
+            { "id": "ko-cheong-cheong1-w1", "headword": "청소년", "reading": "cheongsonyeon", "meaningVn": "thanh thiếu niên", "example": "청소년을 위한 프로그램이에요.", "exampleVn": "Đây là chương trình dành cho thanh thiếu niên." },
+            { "id": "ko-cheong-cheong1-w2", "headword": "청춘", "reading": "cheongchun", "meaningVn": "tuổi thanh xuân", "example": "청춘은 짧아요.", "exampleVn": "Tuổi thanh xuân ngắn ngủi." }
+          ]
+        },
+        {
+          "id": "ko-cheong-cheong2",
+          "character": "淸",
+          "hanViet": "thanh",
+          "meaningVn": "trong sạch",
+          "words": [
+            { "id": "ko-cheong-cheong2-w1", "headword": "청소", "reading": "cheongso", "meaningVn": "dọn dẹp", "example": "방을 청소했어요.", "exampleVn": "Đã dọn dẹp phòng." },
+            { "id": "ko-cheong-cheong2-w2", "headword": "청결", "reading": "cheonggyeol", "meaningVn": "sạch sẽ (thanh khiết)", "example": "청결을 유지하세요.", "exampleVn": "Hãy giữ gìn sạch sẽ." }
+          ]
+        },
+        {
+          "id": "ko-cheong-cheong3",
+          "character": "請",
+          "hanViet": "thỉnh",
+          "meaningVn": "mời, yêu cầu",
+          "words": [
+            { "id": "ko-cheong-cheong3-w1", "headword": "신청", "reading": "sincheong", "meaningVn": "đăng ký", "example": "신청서를 냈어요.", "exampleVn": "Đã nộp đơn đăng ký." },
+            { "id": "ko-cheong-cheong3-w2", "headword": "초청", "reading": "chocheong", "meaningVn": "mời", "example": "초청을 받았어요.", "exampleVn": "Đã nhận được lời mời." }
+          ]
+        },
+        {
+          "id": "ko-cheong-cheong4",
+          "character": "廳",
+          "hanViet": "sảnh",
+          "meaningVn": "tòa nhà, cơ quan",
+          "words": [
+            { "id": "ko-cheong-cheong4-w1", "headword": "시청", "reading": "sicheong", "meaningVn": "tòa thị chính", "example": "시청에 가야 해요.", "exampleVn": "Phải đến tòa thị chính." },
+            { "id": "ko-cheong-cheong4-w2", "headword": "경찰청", "reading": "gyeongchalcheong", "meaningVn": "tổng cục cảnh sát", "example": "경찰청에 신고했어요.", "exampleVn": "Đã báo cáo với tổng cục cảnh sát." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-gyeol",
+      "language": "ko",
+      "reading": "결 (gyeol)",
+      "note": "Nhiều chữ Hán-Hàn đọc \"결\" nhưng nghĩa khác nhau.",
+      "roots": [
+        {
+          "id": "ko-gyeol-gyeol1",
+          "character": "決",
+          "hanViet": "quyết",
+          "meaningVn": "quyết định",
+          "words": [
+            { "id": "ko-gyeol-gyeol1-w1", "headword": "결심", "reading": "gyeolsim", "meaningVn": "quyết tâm", "example": "결심했어요.", "exampleVn": "Đã quyết tâm." },
+            { "id": "ko-gyeol-gyeol1-w2", "headword": "해결", "reading": "haegyeol", "meaningVn": "giải quyết", "example": "문제를 해결했어요.", "exampleVn": "Đã giải quyết vấn đề." }
+          ]
+        },
+        {
+          "id": "ko-gyeol-gyeol2",
+          "character": "結",
+          "hanViet": "kết",
+          "meaningVn": "kết nối, kết thúc",
+          "words": [
+            { "id": "ko-gyeol-gyeol2-w1", "headword": "결혼", "reading": "gyeolhon", "meaningVn": "kết hôn", "example": "결혼했어요.", "exampleVn": "Đã kết hôn." },
+            { "id": "ko-gyeol-gyeol2-w2", "headword": "결과", "reading": "gyeolgwa", "meaningVn": "kết quả", "example": "결과가 좋아요.", "exampleVn": "Kết quả tốt." }
+          ]
+        },
+        {
+          "id": "ko-gyeol-gyeol3",
+          "character": "潔",
+          "hanViet": "khiết",
+          "meaningVn": "trong sạch",
+          "words": [
+            { "id": "ko-gyeol-gyeol3-w1", "headword": "결백", "reading": "gyeolbaek", "meaningVn": "trong sạch, vô tội (khiết bạch)", "example": "그는 결백해요.", "exampleVn": "Anh ấy vô tội (trong sạch)." },
+            { "id": "ko-gyeol-gyeol3-w2", "headword": "간결", "reading": "gangyeol", "meaningVn": "ngắn gọn, súc tích", "example": "설명이 간결해요.", "exampleVn": "Giải thích ngắn gọn." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-gae",
+      "language": "ko",
+      "reading": "개 (gae)",
+      "note": "Nhiều chữ Hán-Hàn đọc \"개\" nhưng nghĩa khác nhau.",
+      "roots": [
+        {
+          "id": "ko-gae-gae1",
+          "character": "個",
+          "hanViet": "cá",
+          "meaningVn": "đơn vị đếm, cá thể",
+          "words": [
+            { "id": "ko-gae-gae1-w1", "headword": "개월", "reading": "gaewol", "meaningVn": "tháng (đơn vị đếm)", "example": "세 개월 동안 배웠어요.", "exampleVn": "Đã học trong ba tháng." },
+            { "id": "ko-gae-gae1-w2", "headword": "개성", "reading": "gaeseong", "meaningVn": "cá tính", "example": "개성이 강해요.", "exampleVn": "Cá tính mạnh." }
+          ]
+        },
+        {
+          "id": "ko-gae-gae2",
+          "character": "改",
+          "hanViet": "cải",
+          "meaningVn": "thay đổi, cải thiện",
+          "words": [
+            { "id": "ko-gae-gae2-w1", "headword": "개선", "reading": "gaeseon", "meaningVn": "cải thiện", "example": "상황이 개선됐어요.", "exampleVn": "Tình hình đã được cải thiện." },
+            { "id": "ko-gae-gae2-w2", "headword": "개혁", "reading": "gaehyeok", "meaningVn": "cải cách", "example": "개혁이 필요해요.", "exampleVn": "Cần cải cách." }
+          ]
+        },
+        {
+          "id": "ko-gae-gae3",
+          "character": "開",
+          "hanViet": "khai",
+          "meaningVn": "mở",
+          "words": [
+            { "id": "ko-gae-gae3-w1", "headword": "개학", "reading": "gaehak", "meaningVn": "khai giảng", "example": "다음 주에 개학해요.", "exampleVn": "Tuần sau khai giảng." },
+            { "id": "ko-gae-gae3-w2", "headword": "공개", "reading": "gonggae", "meaningVn": "công khai", "example": "정보를 공개했어요.", "exampleVn": "Đã công khai thông tin." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-pyeon",
+      "language": "ko",
+      "reading": "편 (pyeon)",
+      "note": "Nhiều chữ Hán-Hàn đọc \"편\" nhưng nghĩa khác nhau.",
+      "roots": [
+        {
+          "id": "ko-pyeon-pyeon1",
+          "character": "便",
+          "hanViet": "tiện",
+          "meaningVn": "tiện lợi",
+          "words": [
+            { "id": "ko-pyeon-pyeon1-w1", "headword": "편리", "reading": "pyeolli", "meaningVn": "tiện lợi", "example": "편리한 도구예요.", "exampleVn": "Đây là công cụ tiện lợi." },
+            { "id": "ko-pyeon-pyeon1-w2", "headword": "불편", "reading": "bulpyeon", "meaningVn": "bất tiện", "example": "불편해요.", "exampleVn": "Bất tiện." }
+          ]
+        },
+        {
+          "id": "ko-pyeon-pyeon2",
+          "character": "篇",
+          "hanViet": "thiên",
+          "meaningVn": "chương, thiên (văn bản)",
+          "words": [
+            { "id": "ko-pyeon-pyeon2-w1", "headword": "장편", "reading": "jangpyeon", "meaningVn": "trường thiên (tiểu thuyết dài)", "example": "장편 소설을 읽어요.", "exampleVn": "Đọc tiểu thuyết dài." },
+            { "id": "ko-pyeon-pyeon2-w2", "headword": "단편", "reading": "danpyeon", "meaningVn": "đoản thiên (truyện ngắn)", "example": "단편 영화를 봤어요.", "exampleVn": "Đã xem phim ngắn." }
+          ]
+        },
+        {
+          "id": "ko-pyeon-pyeon3",
+          "character": "片",
+          "hanViet": "phiến",
+          "meaningVn": "mảnh, miếng",
+          "words": [
+            { "id": "ko-pyeon-pyeon3-w1", "headword": "파편", "reading": "papyeon", "meaningVn": "mảnh vỡ", "example": "유리 파편이 있어요.", "exampleVn": "Có mảnh thủy tinh vỡ." },
+            { "id": "ko-pyeon-pyeon3-w2", "headword": "아편", "reading": "apyeon", "meaningVn": "thuốc phiện (nha phiến)", "example": "아편은 위험해요.", "exampleVn": "Thuốc phiện nguy hiểm." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-gi",
+      "language": "ko",
+      "reading": "기 (gi)",
+      "note": "Rất nhiều chữ Hán-Hàn đọc \"기\" nhưng nghĩa khác nhau — nhóm đồng âm giàu nhất còn lại.",
+      "roots": [
+        {
+          "id": "ko-gi-gi1",
+          "character": "氣",
+          "hanViet": "khí",
+          "meaningVn": "khí, tinh thần",
+          "words": [
+            { "id": "ko-gi-gi1-w1", "headword": "기분", "reading": "gibun", "meaningVn": "tâm trạng", "example": "기분이 좋아요.", "exampleVn": "Tâm trạng tốt." },
+            { "id": "ko-gi-gi1-w2", "headword": "인기", "reading": "ingi", "meaningVn": "nổi tiếng, được yêu thích", "example": "인기가 많아요.", "exampleVn": "Rất được yêu thích." }
+          ]
+        },
+        {
+          "id": "ko-gi-gi2",
+          "character": "記",
+          "hanViet": "ký",
+          "meaningVn": "ghi chép",
+          "words": [
+            { "id": "ko-gi-gi2-w1", "headword": "일기", "reading": "ilgi", "meaningVn": "nhật ký", "example": "일기를 써요.", "exampleVn": "Viết nhật ký." },
+            { "id": "ko-gi-gi2-w2", "headword": "기억", "reading": "gieok", "meaningVn": "ký ức, ghi nhớ", "example": "기억이 나요.", "exampleVn": "Nhớ ra rồi." }
+          ]
+        },
+        {
+          "id": "ko-gi-gi3",
+          "character": "期",
+          "hanViet": "kỳ",
+          "meaningVn": "thời kỳ",
+          "words": [
+            { "id": "ko-gi-gi3-w1", "headword": "기간", "reading": "gigan", "meaningVn": "thời gian, kỳ hạn", "example": "계약 기간이 끝났어요.", "exampleVn": "Thời hạn hợp đồng đã hết." },
+            { "id": "ko-gi-gi3-w2", "headword": "시기", "reading": "sigi", "meaningVn": "thời kỳ", "example": "지금이 좋은 시기예요.", "exampleVn": "Bây giờ là thời điểm tốt." }
+          ]
+        },
+        {
+          "id": "ko-gi-gi4",
+          "character": "機",
+          "hanViet": "cơ",
+          "meaningVn": "máy móc, cơ hội",
+          "words": [
+            { "id": "ko-gi-gi4-w1", "headword": "기회", "reading": "gihoe", "meaningVn": "cơ hội", "example": "좋은 기회예요.", "exampleVn": "Đây là cơ hội tốt." },
+            { "id": "ko-gi-gi4-w2", "headword": "비행기", "reading": "bihaenggi", "meaningVn": "máy bay (phi hành cơ)", "example": "비행기를 탔어요.", "exampleVn": "Đã đi máy bay." }
+          ]
+        },
+        {
+          "id": "ko-gi-gi5",
+          "character": "技",
+          "hanViet": "kỹ",
+          "meaningVn": "kỹ năng",
+          "words": [
+            { "id": "ko-gi-gi5-w1", "headword": "기술", "reading": "gisul", "meaningVn": "kỹ thuật", "example": "기술이 발전했어요.", "exampleVn": "Kỹ thuật đã phát triển." },
+            { "id": "ko-gi-gi5-w2", "headword": "특기", "reading": "teukgi", "meaningVn": "sở trường (đặc kỹ)", "example": "제 특기는 요리예요.", "exampleVn": "Sở trường của tôi là nấu ăn." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-byeong",
+      "language": "ko",
+      "reading": "병 (byeong)",
+      "note": "Nhiều chữ Hán-Hàn đọc \"병\" nhưng nghĩa khác nhau.",
+      "roots": [
+        {
+          "id": "ko-byeong-byeong1",
+          "character": "病",
+          "hanViet": "bệnh",
+          "meaningVn": "bệnh tật",
+          "words": [
+            { "id": "ko-byeong-byeong1-w1", "headword": "질병", "reading": "jilbyeong", "meaningVn": "bệnh tật", "example": "질병을 예방해요.", "exampleVn": "Phòng ngừa bệnh tật." },
+            { "id": "ko-byeong-byeong1-w2", "headword": "병문안", "reading": "byeongmunan", "meaningVn": "thăm bệnh", "example": "친구 병문안을 갔어요.", "exampleVn": "Đã đi thăm bệnh bạn." }
+          ]
+        },
+        {
+          "id": "ko-byeong-byeong2",
+          "character": "兵",
+          "hanViet": "binh",
+          "meaningVn": "lính, binh lính",
+          "words": [
+            { "id": "ko-byeong-byeong2-w1", "headword": "병사", "reading": "byeongsa", "meaningVn": "binh sĩ", "example": "병사들이 훈련해요.", "exampleVn": "Binh sĩ luyện tập." },
+            { "id": "ko-byeong-byeong2-w2", "headword": "병역", "reading": "byeongyeok", "meaningVn": "nghĩa vụ quân sự (binh dịch)", "example": "병역 의무가 있어요.", "exampleVn": "Có nghĩa vụ quân sự." }
+          ]
+        },
+        {
+          "id": "ko-byeong-byeong3",
+          "character": "瓶",
+          "hanViet": "bình",
+          "meaningVn": "chai, lọ",
+          "words": [
+            { "id": "ko-byeong-byeong3-w1", "headword": "물병", "reading": "mulbyeong", "meaningVn": "chai nước", "example": "물병을 가져왔어요.", "exampleVn": "Đã mang theo chai nước." },
+            { "id": "ko-byeong-byeong3-w2", "headword": "화병", "reading": "hwabyeong", "meaningVn": "bình hoa", "example": "화병에 꽃을 꽂았어요.", "exampleVn": "Đã cắm hoa vào bình." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-chang",
+      "language": "ko",
+      "reading": "창 (chang)",
+      "note": "Nhiều chữ Hán-Hàn đọc \"창\" nhưng nghĩa khác nhau.",
+      "roots": [
+        {
+          "id": "ko-chang-chang1",
+          "character": "窓",
+          "hanViet": "song",
+          "meaningVn": "cửa sổ",
+          "words": [
+            { "id": "ko-chang-chang1-w1", "headword": "창밖", "reading": "changbak", "meaningVn": "ngoài cửa sổ", "example": "창밖을 봐요.", "exampleVn": "Nhìn ra ngoài cửa sổ." },
+            { "id": "ko-chang-chang1-w2", "headword": "동창", "reading": "dongchang", "meaningVn": "bạn học cùng trường", "example": "대학 동창이에요.", "exampleVn": "Là bạn học đại học cùng khóa." }
+          ]
+        },
+        {
+          "id": "ko-chang-chang2",
+          "character": "創",
+          "hanViet": "sáng",
+          "meaningVn": "sáng tạo",
+          "words": [
+            { "id": "ko-chang-chang2-w1", "headword": "창조", "reading": "changjo", "meaningVn": "sáng tạo", "example": "창조적인 생각이에요.", "exampleVn": "Đó là suy nghĩ sáng tạo." },
+            { "id": "ko-chang-chang2-w2", "headword": "창업", "reading": "changeop", "meaningVn": "khởi nghiệp (sáng nghiệp)", "example": "창업을 준비해요.", "exampleVn": "Chuẩn bị khởi nghiệp." }
+          ]
+        },
+        {
+          "id": "ko-chang-chang3",
+          "character": "唱",
+          "hanViet": "xướng",
+          "meaningVn": "hát, xướng",
+          "words": [
+            { "id": "ko-chang-chang3-w1", "headword": "합창", "reading": "hapchang", "meaningVn": "hợp xướng", "example": "합창단에 들어갔어요.", "exampleVn": "Đã tham gia đội hợp xướng." },
+            { "id": "ko-chang-chang3-w2", "headword": "독창", "reading": "dokchang", "meaningVn": "đơn ca (độc xướng)", "example": "독창을 했어요.", "exampleVn": "Đã hát đơn ca." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-jeol",
+      "language": "ko",
+      "reading": "절 (jeol)",
+      "note": "Nhiều chữ Hán-Hàn đọc \"절\" nhưng nghĩa khác nhau.",
+      "roots": [
+        {
+          "id": "ko-jeol-jeol1",
+          "character": "節",
+          "hanViet": "tiết",
+          "meaningVn": "tiết, mùa, đoạn",
+          "words": [
+            { "id": "ko-jeol-jeol1-w1", "headword": "계절", "reading": "gyejeol", "meaningVn": "mùa", "example": "좋아하는 계절이 뭐예요?", "exampleVn": "Mùa bạn thích là gì?" },
+            { "id": "ko-jeol-jeol1-w2", "headword": "명절", "reading": "myeongjeol", "meaningVn": "ngày lễ, tết", "example": "명절에 가족이 모여요.", "exampleVn": "Ngày lễ gia đình sum họp." }
+          ]
+        },
+        {
+          "id": "ko-jeol-jeol2",
+          "character": "切",
+          "hanViet": "thiết",
+          "meaningVn": "cắt, tha thiết",
+          "words": [
+            { "id": "ko-jeol-jeol2-w1", "headword": "친절", "reading": "chinjeol", "meaningVn": "thân thiện, tử tế", "example": "친절하게 대해 주셨어요.", "exampleVn": "Đã đối xử tử tế." },
+            { "id": "ko-jeol-jeol2-w2", "headword": "적절", "reading": "jeokjeol", "meaningVn": "thích hợp", "example": "적절한 방법이에요.", "exampleVn": "Đó là phương pháp thích hợp." }
+          ]
+        },
+        {
+          "id": "ko-jeol-jeol3",
+          "character": "絶",
+          "hanViet": "tuyệt",
+          "meaningVn": "tuyệt đối, dứt",
+          "words": [
+            { "id": "ko-jeol-jeol3-w1", "headword": "절대", "reading": "jeoldae", "meaningVn": "tuyệt đối", "example": "절대 안 돼요.", "exampleVn": "Tuyệt đối không được." },
+            { "id": "ko-jeol-jeol3-w2", "headword": "거절", "reading": "geojeol", "meaningVn": "từ chối (cự tuyệt)", "example": "제안을 거절했어요.", "exampleVn": "Đã từ chối đề nghị." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-u",
+      "language": "ko",
+      "reading": "우 (u)",
+      "note": "Nhiều chữ Hán-Hàn đọc \"우\" nhưng nghĩa khác nhau.",
+      "roots": [
+        {
+          "id": "ko-u-u1",
+          "character": "雨",
+          "hanViet": "vũ",
+          "meaningVn": "mưa",
+          "words": [
+            { "id": "ko-u-u1-w1", "headword": "우산", "reading": "usan", "meaningVn": "ô, dù (vũ tán)", "example": "우산을 가져가세요.", "exampleVn": "Hãy mang theo ô." },
+            { "id": "ko-u-u1-w2", "headword": "폭우", "reading": "pogu", "meaningVn": "mưa bão, mưa lớn", "example": "폭우가 내려요.", "exampleVn": "Mưa lớn đang rơi." }
+          ]
+        },
+        {
+          "id": "ko-u-u2",
+          "character": "牛",
+          "hanViet": "ngưu",
+          "meaningVn": "bò",
+          "words": [
+            { "id": "ko-u-u2-w1", "headword": "우유", "reading": "uyu", "meaningVn": "sữa bò", "example": "우유를 마셔요.", "exampleVn": "Uống sữa." },
+            { "id": "ko-u-u2-w2", "headword": "한우", "reading": "hanu", "meaningVn": "bò Hàn Quốc", "example": "한우는 비싸요.", "exampleVn": "Bò Hàn Quốc đắt." }
+          ]
+        },
+        {
+          "id": "ko-u-u3",
+          "character": "郵",
+          "hanViet": "bưu",
+          "meaningVn": "bưu chính",
+          "words": [
+            { "id": "ko-u-u3-w1", "headword": "우체국", "reading": "ucheguk", "meaningVn": "bưu điện", "example": "우체국에 가요.", "exampleVn": "Đi đến bưu điện." },
+            { "id": "ko-u-u3-w2", "headword": "우편", "reading": "upyeon", "meaningVn": "bưu phẩm, thư từ", "example": "우편으로 보냈어요.", "exampleVn": "Đã gửi qua đường bưu điện." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ga",
+      "language": "ko",
+      "reading": "가 (ga)",
+      "note": "Nhiều chữ Hán-Hàn đọc \"가\" nhưng nghĩa khác nhau — chủ đề gia đình, âm nhạc, giá cả.",
+      "roots": [
+        {
+          "id": "ko-ga-ga1",
+          "character": "家",
+          "hanViet": "gia",
+          "meaningVn": "nhà, gia đình",
+          "words": [
+            { "id": "ko-ga-ga1-w1", "headword": "가족", "reading": "gajok", "meaningVn": "gia đình, gia tộc", "example": "우리 가족은 네 명이에요.", "exampleVn": "Gia đình tôi có 4 người." },
+            { "id": "ko-ga-ga1-w2", "headword": "가정", "reading": "gajeong", "meaningVn": "gia đình, hộ gia đình", "example": "행복한 가정을 꾸려요.", "exampleVn": "Xây dựng một gia đình hạnh phúc." },
+            { "id": "ko-ga-ga1-w3", "headword": "국가", "reading": "gukga", "meaningVn": "quốc gia", "example": "이 나라는 작은 국가예요.", "exampleVn": "Nước này là một quốc gia nhỏ." }
+          ]
+        },
+        {
+          "id": "ko-ga-ga2",
+          "character": "歌",
+          "hanViet": "ca",
+          "meaningVn": "hát, bài hát",
+          "words": [
+            { "id": "ko-ga-ga2-w1", "headword": "가요", "reading": "gayo", "meaningVn": "nhạc pop Hàn Quốc (ca dao)", "example": "한국 가요를 좋아해요.", "exampleVn": "Thích nhạc pop Hàn Quốc." },
+            { "id": "ko-ga-ga2-w2", "headword": "가사", "reading": "gasa", "meaningVn": "lời bài hát (ca từ)", "example": "가사가 아름다워요.", "exampleVn": "Lời bài hát đẹp." }
+          ]
+        },
+        {
+          "id": "ko-ga-ga3",
+          "character": "價",
+          "hanViet": "giá",
+          "meaningVn": "giá cả",
+          "words": [
+            { "id": "ko-ga-ga3-w1", "headword": "가격", "reading": "gagyeok", "meaningVn": "giá cả", "example": "가격이 비싸요.", "exampleVn": "Giá đắt." },
+            { "id": "ko-ga-ga3-w2", "headword": "정가", "reading": "jeongga", "meaningVn": "giá niêm yết (định giá)", "example": "정가로 팔아요.", "exampleVn": "Bán theo giá niêm yết." }
+          ]
+        },
+        {
+          "id": "ko-ga-ga4",
+          "character": "加",
+          "hanViet": "gia",
+          "meaningVn": "thêm vào",
+          "words": [
+            { "id": "ko-ga-ga4-w1", "headword": "참가", "reading": "chamga", "meaningVn": "tham gia", "example": "대회에 참가했어요.", "exampleVn": "Đã tham gia cuộc thi." },
+            { "id": "ko-ga-ga4-w2", "headword": "추가", "reading": "chuga", "meaningVn": "bổ sung thêm", "example": "메뉴를 추가했어요.", "exampleVn": "Đã thêm món vào thực đơn." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-yeong",
+      "language": "ko",
+      "reading": "영 (yeong)",
+      "note": "Nhiều chữ Hán-Hàn đọc \"영\" nhưng nghĩa khác nhau — chủ đề phim ảnh, ngoại ngữ.",
+      "roots": [
+        {
+          "id": "ko-yeong-yeong1",
+          "character": "映",
+          "hanViet": "ánh",
+          "meaningVn": "chiếu, phản chiếu",
+          "words": [
+            { "id": "ko-yeong-yeong1-w1", "headword": "영화", "reading": "yeonghwa", "meaningVn": "phim", "example": "영화를 봐요.", "exampleVn": "Xem phim." },
+            { "id": "ko-yeong-yeong1-w2", "headword": "상영", "reading": "sangyeong", "meaningVn": "chiếu phim", "example": "이 영화는 지금 상영 중이에요.", "exampleVn": "Phim này đang chiếu." }
+          ]
+        },
+        {
+          "id": "ko-yeong-yeong2",
+          "character": "英",
+          "hanViet": "anh",
+          "meaningVn": "tài giỏi, nước Anh",
+          "words": [
+            { "id": "ko-yeong-yeong2-w1", "headword": "영어", "reading": "yeongeo", "meaningVn": "tiếng Anh", "example": "영어를 배워요.", "exampleVn": "Học tiếng Anh." },
+            { "id": "ko-yeong-yeong2-w2", "headword": "영웅", "reading": "yeongung", "meaningVn": "anh hùng", "example": "그는 영웅이에요.", "exampleVn": "Anh ấy là anh hùng." }
+          ]
+        },
+        {
+          "id": "ko-yeong-yeong3",
+          "character": "永",
+          "hanViet": "vĩnh",
+          "meaningVn": "mãi mãi",
+          "words": [
+            { "id": "ko-yeong-yeong3-w1", "headword": "영원", "reading": "yeongwon", "meaningVn": "vĩnh viễn", "example": "영원히 사랑해요.", "exampleVn": "Yêu mãi mãi." },
+            { "id": "ko-yeong-yeong3-w2", "headword": "영구", "reading": "yeonggu", "meaningVn": "vĩnh cửu", "example": "영구 보관해요.", "exampleVn": "Lưu trữ vĩnh viễn." }
+          ]
+        },
+        {
+          "id": "ko-yeong-yeong4",
+          "character": "榮",
+          "hanViet": "vinh",
+          "meaningVn": "vinh quang",
+          "words": [
+            { "id": "ko-yeong-yeong4-w1", "headword": "영광", "reading": "yeonggwang", "meaningVn": "vinh quang, vinh dự", "example": "만나서 영광이에요.", "exampleVn": "Rất vinh dự được gặp bạn." },
+            { "id": "ko-yeong-yeong4-w2", "headword": "번영", "reading": "beonyeong", "meaningVn": "phồn vinh", "example": "나라가 번영해요.", "exampleVn": "Đất nước phồn vinh." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-mae",
+      "language": "ko",
+      "reading": "매 (mae)",
+      "note": "Nhiều chữ Hán-Hàn đọc \"매\" nhưng nghĩa khác nhau — chủ đề gia đình, mua bán đời sống hằng ngày.",
+      "roots": [
+        {
+          "id": "ko-mae-mae1",
+          "character": "妹",
+          "hanViet": "muội",
+          "meaningVn": "em gái",
+          "words": [
+            { "id": "ko-mae-mae1-w1", "headword": "자매", "reading": "jamae", "meaningVn": "chị em gái", "example": "저는 자매가 없어요.", "exampleVn": "Tôi không có chị em gái." },
+            { "id": "ko-mae-mae1-w2", "headword": "남매", "reading": "nammae", "meaningVn": "anh em trai gái", "example": "저희는 남매예요.", "exampleVn": "Chúng tôi là anh em (trai gái)." }
+          ]
+        },
+        {
+          "id": "ko-mae-mae2",
+          "character": "每",
+          "hanViet": "mỗi",
+          "meaningVn": "mỗi",
+          "words": [
+            { "id": "ko-mae-mae2-w1", "headword": "매일", "reading": "maeil", "meaningVn": "mỗi ngày", "example": "매일 운동해요.", "exampleVn": "Tập thể dục mỗi ngày." },
+            { "id": "ko-mae-mae2-w2", "headword": "매년", "reading": "maenyeon", "meaningVn": "mỗi năm", "example": "매년 여행 가요.", "exampleVn": "Mỗi năm đi du lịch." }
+          ]
+        },
+        {
+          "id": "ko-mae-mae3",
+          "character": "買",
+          "hanViet": "mãi",
+          "meaningVn": "mua",
+          "words": [
+            { "id": "ko-mae-mae3-w1", "headword": "구매", "reading": "gumae", "meaningVn": "mua", "example": "온라인으로 구매했어요.", "exampleVn": "Đã mua qua mạng." },
+            { "id": "ko-mae-mae3-w2", "headword": "매입", "reading": "maeip", "meaningVn": "mua vào", "example": "주식을 매입했어요.", "exampleVn": "Đã mua cổ phiếu." }
+          ]
+        },
+        {
+          "id": "ko-mae-mae4",
+          "character": "賣",
+          "hanViet": "mại",
+          "meaningVn": "bán",
+          "words": [
+            { "id": "ko-mae-mae4-w1", "headword": "판매", "reading": "panmae", "meaningVn": "bán", "example": "상품을 판매해요.", "exampleVn": "Bán sản phẩm." },
+            { "id": "ko-mae-mae4-w2", "headword": "매장", "reading": "maejang", "meaningVn": "cửa hàng (mại trường)", "example": "매장에서 일해요.", "exampleVn": "Làm việc ở cửa hàng." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-jik",
+      "language": "ko",
+      "reading": "직 (jik)",
+      "note": "Nhiều chữ Hán-Hàn đọc \"직\" nhưng nghĩa khác nhau — chủ đề công việc.",
+      "roots": [
+        {
+          "id": "ko-jik-jik1",
+          "character": "職",
+          "hanViet": "chức",
+          "meaningVn": "chức vụ, nghề nghiệp",
+          "words": [
+            { "id": "ko-jik-jik1-w1", "headword": "직업", "reading": "jigeop", "meaningVn": "nghề nghiệp", "example": "직업이 뭐예요?", "exampleVn": "Nghề nghiệp của bạn là gì?" },
+            { "id": "ko-jik-jik1-w2", "headword": "취직", "reading": "chwijik", "meaningVn": "có việc làm, xin việc", "example": "취직했어요.", "exampleVn": "Đã xin được việc." },
+            { "id": "ko-jik-jik1-w3", "headword": "직장", "reading": "jikjang", "meaningVn": "nơi làm việc", "example": "직장에 다녀요.", "exampleVn": "Đi làm." }
+          ]
+        },
+        {
+          "id": "ko-jik-jik2",
+          "character": "直",
+          "hanViet": "trực",
+          "meaningVn": "thẳng, trực tiếp",
+          "words": [
+            { "id": "ko-jik-jik2-w1", "headword": "직접", "reading": "jikjeop", "meaningVn": "trực tiếp", "example": "직접 만나요.", "exampleVn": "Gặp trực tiếp." },
+            { "id": "ko-jik-jik2-w2", "headword": "솔직", "reading": "soljik", "meaningVn": "thẳng thắn (suất trực)", "example": "솔직히 말해요.", "exampleVn": "Nói thẳng thắn." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-sik",
+      "language": "ko",
+      "reading": "식 (sik)",
+      "note": "Nhiều chữ Hán-Hàn đọc \"식\" nhưng nghĩa khác nhau — chủ đề đời sống hằng ngày.",
+      "roots": [
+        {
+          "id": "ko-sik-sik1",
+          "character": "食",
+          "hanViet": "thực",
+          "meaningVn": "ăn",
+          "words": [
+            { "id": "ko-sik-sik1-w1", "headword": "식사", "reading": "siksa", "meaningVn": "bữa ăn", "example": "식사하셨어요?", "exampleVn": "Bạn đã ăn cơm chưa?" },
+            { "id": "ko-sik-sik1-w2", "headword": "외식", "reading": "oesik", "meaningVn": "ăn ngoài", "example": "오늘은 외식해요.", "exampleVn": "Hôm nay ăn ngoài." },
+            { "id": "ko-sik-sik1-w3", "headword": "식당", "reading": "sikdang", "meaningVn": "nhà hàng, quán ăn", "example": "식당에서 밥을 먹어요.", "exampleVn": "Ăn cơm ở quán ăn." }
+          ]
+        },
+        {
+          "id": "ko-sik-sik2",
+          "character": "式",
+          "hanViet": "thức",
+          "meaningVn": "kiểu cách, nghi thức",
+          "words": [
+            { "id": "ko-sik-sik2-w1", "headword": "방식", "reading": "bangsik", "meaningVn": "phương thức, cách thức", "example": "새로운 방식이에요.", "exampleVn": "Đó là cách thức mới." },
+            { "id": "ko-sik-sik2-w2", "headword": "형식", "reading": "hyeongsik", "meaningVn": "hình thức", "example": "형식적인 인사예요.", "exampleVn": "Đó là lời chào mang tính hình thức." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-mul",
+      "language": "ko",
+      "reading": "물 (mul)",
+      "note": "Chữ Hán-Hàn đọc \"물\" — chủ đề đồ vật, đời sống hằng ngày.",
+      "roots": [
+        {
+          "id": "ko-mul-mul1",
+          "character": "物",
+          "hanViet": "vật",
+          "meaningVn": "đồ vật, vật thể",
+          "words": [
+            { "id": "ko-mul-mul1-w1", "headword": "동물", "reading": "dongmul", "meaningVn": "động vật", "example": "동물을 좋아해요.", "exampleVn": "Thích động vật." },
+            { "id": "ko-mul-mul1-w2", "headword": "선물", "reading": "seonmul", "meaningVn": "quà tặng", "example": "생일 선물을 받았어요.", "exampleVn": "Đã nhận quà sinh nhật." },
+            { "id": "ko-mul-mul1-w3", "headword": "건물", "reading": "geonmul", "meaningVn": "tòa nhà", "example": "이 건물은 높아요.", "exampleVn": "Tòa nhà này cao." }
+          ]
+        },
+        {
+          "id": "ko-mul-mul2",
+          "character": "勿",
+          "hanViet": "vật",
+          "meaningVn": "chớ, đừng",
+          "words": [
+            { "id": "ko-mul-mul2-w1", "headword": "물론", "reading": "mullon", "meaningVn": "tất nhiên", "example": "물론이죠!", "exampleVn": "Tất nhiên rồi!" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ja",
+      "language": "ko",
+      "reading": "자 (ja)",
+      "note": "Rất nhiều chữ Hán-Hàn đọc \"자\" nhưng nghĩa khác nhau — chủ đề gia đình, công việc, giao tiếp.",
+      "roots": [
+        {
+          "id": "ko-ja-ja1",
+          "character": "子",
+          "hanViet": "tử",
+          "meaningVn": "con, con cái",
+          "words": [
+            { "id": "ko-ja-ja1-w1", "headword": "자녀", "reading": "janyeo", "meaningVn": "con cái", "example": "자녀가 몇 명이에요?", "exampleVn": "Bạn có mấy người con?" },
+            { "id": "ko-ja-ja1-w2", "headword": "손자", "reading": "sonja", "meaningVn": "cháu trai (tôn tử)", "example": "손자가 귀여워요.", "exampleVn": "Cháu trai dễ thương." },
+            { "id": "ko-ja-ja1-w3", "headword": "왕자", "reading": "wangja", "meaningVn": "hoàng tử", "example": "왕자님이에요.", "exampleVn": "Đó là hoàng tử." }
+          ]
+        },
+        {
+          "id": "ko-ja-ja2",
+          "character": "字",
+          "hanViet": "tự",
+          "meaningVn": "chữ viết",
+          "words": [
+            { "id": "ko-ja-ja2-w1", "headword": "문자", "reading": "munja", "meaningVn": "văn tự, tin nhắn", "example": "문자를 보냈어요.", "exampleVn": "Đã gửi tin nhắn." },
+            { "id": "ko-ja-ja2-w2", "headword": "한자", "reading": "hanja", "meaningVn": "chữ Hán", "example": "한자를 공부해요.", "exampleVn": "Học chữ Hán." }
+          ]
+        },
+        {
+          "id": "ko-ja-ja3",
+          "character": "者",
+          "hanViet": "giả",
+          "meaningVn": "người (làm việc gì đó)",
+          "words": [
+            { "id": "ko-ja-ja3-w1", "headword": "기자", "reading": "gija", "meaningVn": "nhà báo", "example": "그는 기자예요.", "exampleVn": "Anh ấy là nhà báo." },
+            { "id": "ko-ja-ja3-w2", "headword": "학자", "reading": "hakja", "meaningVn": "học giả", "example": "유명한 학자예요.", "exampleVn": "Là học giả nổi tiếng." }
+          ]
+        },
+        {
+          "id": "ko-ja-ja4",
+          "character": "自",
+          "hanViet": "tự",
+          "meaningVn": "tự thân, tự nhiên",
+          "words": [
+            { "id": "ko-ja-ja4-w1", "headword": "자신", "reading": "jasin", "meaningVn": "bản thân, tự tin", "example": "자신을 믿어요.", "exampleVn": "Tin vào bản thân." },
+            { "id": "ko-ja-ja4-w2", "headword": "자연", "reading": "jayeon", "meaningVn": "tự nhiên", "example": "자연을 사랑해요.", "exampleVn": "Yêu thiên nhiên." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-son",
+      "language": "ko",
+      "reading": "손 (son)",
+      "note": "Nhiều chữ Hán-Hàn đọc \"손\" nhưng nghĩa khác nhau — chủ đề gia đình, công việc.",
+      "roots": [
+        {
+          "id": "ko-son-son1",
+          "character": "孫",
+          "hanViet": "tôn",
+          "meaningVn": "cháu",
+          "words": [
+            { "id": "ko-son-son1-w1", "headword": "손녀", "reading": "sonnyeo", "meaningVn": "cháu gái (tôn nữ)", "example": "손녀가 예뻐요.", "exampleVn": "Cháu gái xinh xắn." },
+            { "id": "ko-son-son1-w2", "headword": "외손자", "reading": "oesonja", "meaningVn": "cháu ngoại trai", "example": "외손자가 놀러 왔어요.", "exampleVn": "Cháu ngoại trai đến chơi." }
+          ]
+        },
+        {
+          "id": "ko-son-son2",
+          "character": "損",
+          "hanViet": "tổn",
+          "meaningVn": "tổn thất",
+          "words": [
+            { "id": "ko-son-son2-w1", "headword": "손해", "reading": "sonhae", "meaningVn": "tổn thất, thiệt hại", "example": "손해를 봤어요.", "exampleVn": "Đã bị thiệt hại." },
+            { "id": "ko-son-son2-w2", "headword": "손실", "reading": "sonsil", "meaningVn": "tổn thất, mất mát", "example": "큰 손실이에요.", "exampleVn": "Đó là tổn thất lớn." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-geun",
+      "language": "ko",
+      "reading": "근 (geun)",
+      "note": "Nhiều chữ Hán-Hàn đọc \"근\" nhưng nghĩa khác nhau — chủ đề công việc, đời sống hằng ngày.",
+      "roots": [
+        {
+          "id": "ko-geun-geun1",
+          "character": "近",
+          "hanViet": "cận",
+          "meaningVn": "gần",
+          "words": [
+            { "id": "ko-geun-geun1-w1", "headword": "최근", "reading": "choegeun", "meaningVn": "gần đây", "example": "최근에 바빴어요.", "exampleVn": "Gần đây bận rộn." },
+            { "id": "ko-geun-geun1-w2", "headword": "근처", "reading": "geuncheo", "meaningVn": "gần đó, vùng lân cận", "example": "근처에 카페가 있어요.", "exampleVn": "Gần đây có quán cà phê." }
+          ]
+        },
+        {
+          "id": "ko-geun-geun2",
+          "character": "勤",
+          "hanViet": "cần",
+          "meaningVn": "chăm chỉ, làm việc",
+          "words": [
+            { "id": "ko-geun-geun2-w1", "headword": "근무", "reading": "geunmu", "meaningVn": "làm việc", "example": "회사에서 근무해요.", "exampleVn": "Làm việc ở công ty." },
+            { "id": "ko-geun-geun2-w2", "headword": "출근", "reading": "chulgeun", "meaningVn": "đi làm", "example": "아침에 출근해요.", "exampleVn": "Buổi sáng đi làm." }
+          ]
+        },
+        {
+          "id": "ko-geun-geun3",
+          "character": "根",
+          "hanViet": "căn",
+          "meaningVn": "gốc rễ",
+          "words": [
+            { "id": "ko-geun-geun3-w1", "headword": "근본", "reading": "geunbon", "meaningVn": "căn bản, gốc rễ", "example": "근본적인 문제예요.", "exampleVn": "Đó là vấn đề căn bản." },
+            { "id": "ko-geun-geun3-w2", "headword": "근원", "reading": "geunwon", "meaningVn": "căn nguyên, nguồn gốc", "example": "문제의 근원을 찾아요.", "exampleVn": "Tìm căn nguyên của vấn đề." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-dam",
+      "language": "ko",
+      "reading": "담 (dam)",
+      "note": "Nhiều chữ Hán-Hàn đọc \"담\" nhưng nghĩa khác nhau — chủ đề giao tiếp, công việc.",
+      "roots": [
+        {
+          "id": "ko-dam-dam1",
+          "character": "談",
+          "hanViet": "đàm",
+          "meaningVn": "nói chuyện",
+          "words": [
+            { "id": "ko-dam-dam1-w1", "headword": "농담", "reading": "nongdam", "meaningVn": "nói đùa", "example": "농담이에요.", "exampleVn": "Đó là nói đùa thôi." },
+            { "id": "ko-dam-dam1-w2", "headword": "면담", "reading": "myeondam", "meaningVn": "phỏng vấn, trò chuyện trực tiếp", "example": "선생님과 면담했어요.", "exampleVn": "Đã trò chuyện trực tiếp với thầy/cô." }
+          ]
+        },
+        {
+          "id": "ko-dam-dam2",
+          "character": "擔",
+          "hanViet": "đảm",
+          "meaningVn": "gánh vác",
+          "words": [
+            { "id": "ko-dam-dam2-w1", "headword": "담당", "reading": "damdang", "meaningVn": "phụ trách (đảm đương)", "example": "이 일을 담당해요.", "exampleVn": "Phụ trách công việc này." },
+            { "id": "ko-dam-dam2-w2", "headword": "부담", "reading": "budam", "meaningVn": "gánh nặng, áp lực", "example": "부담이 돼요.", "exampleVn": "Cảm thấy áp lực." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-hoe",
+      "language": "ko",
+      "reading": "회 (hoe)",
+      "note": "Nhiều chữ Hán-Hàn đọc \"회\" nhưng nghĩa khác nhau — chủ đề công việc, đời sống hằng ngày.",
+      "roots": [
+        {
+          "id": "ko-hoe-hoe1",
+          "character": "會",
+          "hanViet": "hội",
+          "meaningVn": "hội họp",
+          "words": [
+            { "id": "ko-hoe-hoe1-w1", "headword": "회의", "reading": "hoeui", "meaningVn": "cuộc họp", "example": "회의가 있어요.", "exampleVn": "Có cuộc họp." },
+            { "id": "ko-hoe-hoe1-w2", "headword": "국회", "reading": "gukhoe", "meaningVn": "quốc hội", "example": "국회에서 법을 만들어요.", "exampleVn": "Quốc hội làm luật." }
+          ]
+        },
+        {
+          "id": "ko-hoe-hoe2",
+          "character": "回",
+          "hanViet": "hồi",
+          "meaningVn": "quay lại",
+          "words": [
+            { "id": "ko-hoe-hoe2-w1", "headword": "회복", "reading": "hoebok", "meaningVn": "hồi phục", "example": "건강이 회복됐어요.", "exampleVn": "Sức khỏe đã hồi phục." },
+            { "id": "ko-hoe-hoe2-w2", "headword": "회전", "reading": "hoejeon", "meaningVn": "xoay, quay", "example": "문이 회전해요.", "exampleVn": "Cửa xoay." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-yeon",
+      "language": "ko",
+      "reading": "연 (yeon)",
+      "note": "Rất nhiều chữ Hán-Hàn đọc \"연\" nhưng nghĩa khác nhau — chủ đề phim ảnh, drama, tình yêu.",
+      "roots": [
+        {
+          "id": "ko-yeon-yeon1",
+          "character": "演",
+          "hanViet": "diễn",
+          "meaningVn": "diễn xuất, biểu diễn",
+          "words": [
+            { "id": "ko-yeon-yeon1-w1", "headword": "연기", "reading": "yeongi", "meaningVn": "diễn xuất", "example": "연기를 잘해요.", "exampleVn": "Diễn xuất giỏi." },
+            { "id": "ko-yeon-yeon1-w2", "headword": "공연", "reading": "gongyeon", "meaningVn": "buổi biểu diễn", "example": "공연을 봤어요.", "exampleVn": "Đã xem buổi biểu diễn." }
+          ]
+        },
+        {
+          "id": "ko-yeon-yeon2",
+          "character": "然",
+          "hanViet": "nhiên",
+          "meaningVn": "tự nhiên, tất nhiên",
+          "words": [
+            { "id": "ko-yeon-yeon2-w1", "headword": "당연", "reading": "dangyeon", "meaningVn": "đương nhiên", "example": "당연하죠!", "exampleVn": "Đương nhiên rồi!" },
+            { "id": "ko-yeon-yeon2-w2", "headword": "필연", "reading": "pilyeon", "meaningVn": "tất nhiên, tất yếu", "example": "필연적인 결과예요.", "exampleVn": "Đó là kết quả tất yếu." }
+          ]
+        },
+        {
+          "id": "ko-yeon-yeon3",
+          "character": "連",
+          "hanViet": "liên",
+          "meaningVn": "liên tục, kết nối",
+          "words": [
+            { "id": "ko-yeon-yeon3-w1", "headword": "연결", "reading": "yeongyeol", "meaningVn": "kết nối", "example": "인터넷에 연결했어요.", "exampleVn": "Đã kết nối internet." },
+            { "id": "ko-yeon-yeon3-w2", "headword": "연속", "reading": "yeonsok", "meaningVn": "liên tục (phim dài tập)", "example": "이 드라마는 연속극이에요.", "exampleVn": "Bộ phim này là phim truyền hình dài tập." }
+          ]
+        },
+        {
+          "id": "ko-yeon-yeon4",
+          "character": "戀",
+          "hanViet": "luyến",
+          "meaningVn": "yêu đương",
+          "words": [
+            { "id": "ko-yeon-yeon4-w1", "headword": "연애", "reading": "yeonae", "meaningVn": "yêu đương, tình yêu", "example": "연애 드라마를 좋아해요.", "exampleVn": "Thích phim tình cảm." },
+            { "id": "ko-yeon-yeon4-w2", "headword": "실연", "reading": "siryeon", "meaningVn": "thất tình", "example": "실연했어요.", "exampleVn": "Bị thất tình." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-geuk",
+      "language": "ko",
+      "reading": "극 (geuk)",
+      "note": "Nhiều chữ Hán-Hàn đọc \"극\" nhưng nghĩa khác nhau — chủ đề kịch, phim ảnh.",
+      "roots": [
+        {
+          "id": "ko-geuk-geuk1",
+          "character": "劇",
+          "hanViet": "kịch",
+          "meaningVn": "kịch, tuồng",
+          "words": [
+            { "id": "ko-geuk-geuk1-w1", "headword": "연극", "reading": "yeongeuk", "meaningVn": "kịch sân khấu", "example": "연극을 보러 가요.", "exampleVn": "Đi xem kịch." },
+            { "id": "ko-geuk-geuk1-w2", "headword": "비극", "reading": "bigeuk", "meaningVn": "bi kịch", "example": "슬픈 비극이에요.", "exampleVn": "Đó là một bi kịch buồn." }
+          ]
+        },
+        {
+          "id": "ko-geuk-geuk2",
+          "character": "極",
+          "hanViet": "cực",
+          "meaningVn": "cực độ",
+          "words": [
+            { "id": "ko-geuk-geuk2-w1", "headword": "적극", "reading": "jeokgeuk", "meaningVn": "tích cực", "example": "적극적으로 참여해요.", "exampleVn": "Tham gia một cách tích cực." },
+            { "id": "ko-geuk-geuk2-w2", "headword": "극복", "reading": "geukbok", "meaningVn": "khắc phục, vượt qua", "example": "어려움을 극복했어요.", "exampleVn": "Đã vượt qua khó khăn." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-yong",
+      "language": "ko",
+      "reading": "용 (yong)",
+      "note": "Nhiều chữ Hán-Hàn đọc \"용\" nhưng nghĩa khác nhau — chủ đề công nghệ, đời sống hằng ngày.",
+      "roots": [
+        {
+          "id": "ko-yong-yong1",
+          "character": "用",
+          "hanViet": "dụng",
+          "meaningVn": "sử dụng",
+          "words": [
+            { "id": "ko-yong-yong1-w1", "headword": "사용", "reading": "sayong", "meaningVn": "sử dụng", "example": "이 앱을 사용해요.", "exampleVn": "Sử dụng ứng dụng này." },
+            { "id": "ko-yong-yong1-w2", "headword": "이용", "reading": "iyong", "meaningVn": "sử dụng, lợi dụng", "example": "대중교통을 이용해요.", "exampleVn": "Sử dụng phương tiện công cộng." }
+          ]
+        },
+        {
+          "id": "ko-yong-yong2",
+          "character": "勇",
+          "hanViet": "dũng",
+          "meaningVn": "can đảm",
+          "words": [
+            { "id": "ko-yong-yong2-w1", "headword": "용기", "reading": "yonggi", "meaningVn": "dũng khí, can đảm", "example": "용기를 내세요.", "exampleVn": "Hãy can đảm lên." },
+            { "id": "ko-yong-yong2-w2", "headword": "용감", "reading": "yonggam", "meaningVn": "dũng cảm", "example": "용감한 사람이에요.", "exampleVn": "Là người dũng cảm." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-bo",
+      "language": "ko",
+      "reading": "보 (bo)",
+      "note": "Nhiều chữ Hán-Hàn đọc \"보\" nhưng nghĩa khác nhau — chủ đề công nghệ, công việc.",
+      "roots": [
+        {
+          "id": "ko-bo-bo1",
+          "character": "報",
+          "hanViet": "báo",
+          "meaningVn": "thông báo, tin tức",
+          "words": [
+            { "id": "ko-bo-bo1-w1", "headword": "정보", "reading": "jeongbo", "meaningVn": "thông tin", "example": "정보를 찾아요.", "exampleVn": "Tìm kiếm thông tin." },
+            { "id": "ko-bo-bo1-w2", "headword": "보고서", "reading": "bogoseo", "meaningVn": "báo cáo", "example": "보고서를 썼어요.", "exampleVn": "Đã viết báo cáo." }
+          ]
+        },
+        {
+          "id": "ko-bo-bo2",
+          "character": "保",
+          "hanViet": "bảo",
+          "meaningVn": "bảo vệ",
+          "words": [
+            { "id": "ko-bo-bo2-w1", "headword": "보험", "reading": "boheom", "meaningVn": "bảo hiểm", "example": "보험에 가입했어요.", "exampleVn": "Đã tham gia bảo hiểm." },
+            { "id": "ko-bo-bo2-w2", "headword": "보호", "reading": "boho", "meaningVn": "bảo vệ", "example": "환경을 보호해요.", "exampleVn": "Bảo vệ môi trường." }
+          ]
+        },
+        {
+          "id": "ko-bo-bo3",
+          "character": "步",
+          "hanViet": "bộ",
+          "meaningVn": "bước đi",
+          "words": [
+            { "id": "ko-bo-bo3-w1", "headword": "진보", "reading": "jinbo", "meaningVn": "tiến bộ", "example": "기술이 진보했어요.", "exampleVn": "Công nghệ đã tiến bộ." },
+            { "id": "ko-bo-bo3-w2", "headword": "초보", "reading": "chobo", "meaningVn": "sơ bộ, người mới", "example": "저는 초보예요.", "exampleVn": "Tôi là người mới." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-seol",
+      "language": "ko",
+      "reading": "설 (seol)",
+      "note": "Nhiều chữ Hán-Hàn đọc \"설\" nhưng nghĩa khác nhau — chủ đề công nghệ, giao tiếp.",
+      "roots": [
+        {
+          "id": "ko-seol-seol1",
+          "character": "說",
+          "hanViet": "thuyết",
+          "meaningVn": "nói, giải thích",
+          "words": [
+            { "id": "ko-seol-seol1-w1", "headword": "설명", "reading": "seolmyeong", "meaningVn": "giải thích", "example": "설명해 주세요.", "exampleVn": "Hãy giải thích giúp tôi." },
+            { "id": "ko-seol-seol1-w2", "headword": "소설", "reading": "soseol", "meaningVn": "tiểu thuyết", "example": "소설을 써요.", "exampleVn": "Viết tiểu thuyết." }
+          ]
+        },
+        {
+          "id": "ko-seol-seol2",
+          "character": "設",
+          "hanViet": "thiết",
+          "meaningVn": "thiết lập, xây dựng",
+          "words": [
+            { "id": "ko-seol-seol2-w1", "headword": "설치", "reading": "seolchi", "meaningVn": "cài đặt", "example": "프로그램을 설치했어요.", "exampleVn": "Đã cài đặt chương trình." },
+            { "id": "ko-seol-seol2-w2", "headword": "시설", "reading": "siseol", "meaningVn": "thiết bị, cơ sở vật chất", "example": "시설이 좋아요.", "exampleVn": "Cơ sở vật chất tốt." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-bae",
+      "language": "ko",
+      "reading": "배 (bae)",
+      "note": "Nhiều chữ Hán-Hàn đọc \"배\" nhưng nghĩa khác nhau — chủ đề phim ảnh, đời sống hằng ngày.",
+      "roots": [
+        {
+          "id": "ko-bae-bae1",
+          "character": "俳",
+          "hanViet": "bài",
+          "meaningVn": "diễn xuất",
+          "words": [
+            { "id": "ko-bae-bae1-w1", "headword": "배우", "reading": "baeu", "meaningVn": "diễn viên", "example": "유명한 배우예요.", "exampleVn": "Là diễn viên nổi tiếng." }
+          ]
+        },
+        {
+          "id": "ko-bae-bae2",
+          "character": "配",
+          "hanViet": "phối",
+          "meaningVn": "phân phối",
+          "words": [
+            { "id": "ko-bae-bae2-w1", "headword": "배달", "reading": "baedal", "meaningVn": "giao hàng", "example": "음식을 배달시켰어요.", "exampleVn": "Đã đặt giao đồ ăn." },
+            { "id": "ko-bae-bae2-w2", "headword": "배치", "reading": "baechi", "meaningVn": "bố trí, sắp xếp", "example": "가구를 배치했어요.", "exampleVn": "Đã sắp xếp đồ nội thất." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ak",
+      "language": "ko",
+      "reading": "악 (ak)",
+      "note": "Nhiều chữ Hán-Hàn đọc \"악\" nhưng nghĩa khác nhau — chủ đề âm nhạc, phim ảnh.",
+      "roots": [
+        {
+          "id": "ko-ak-ak1",
+          "character": "樂",
+          "hanViet": "nhạc",
+          "meaningVn": "âm nhạc",
+          "words": [
+            { "id": "ko-ak-ak1-w1", "headword": "음악", "reading": "eumak", "meaningVn": "âm nhạc", "example": "음악을 들어요.", "exampleVn": "Nghe nhạc." },
+            { "id": "ko-ak-ak1-w2", "headword": "악기", "reading": "akgi", "meaningVn": "nhạc cụ", "example": "악기를 연주해요.", "exampleVn": "Chơi nhạc cụ." },
+            { "id": "ko-ak-ak1-w3", "headword": "악보", "reading": "akbo", "meaningVn": "bản nhạc, nốt nhạc", "example": "악보를 봐요.", "exampleVn": "Xem bản nhạc." }
+          ]
+        },
+        {
+          "id": "ko-ak-ak2",
+          "character": "惡",
+          "hanViet": "ác",
+          "meaningVn": "xấu, ác",
+          "words": [
+            { "id": "ko-ak-ak2-w1", "headword": "악몽", "reading": "angmong", "meaningVn": "ác mộng", "example": "악몽을 꿨어요.", "exampleVn": "Đã mơ thấy ác mộng." },
+            { "id": "ko-ak-ak2-w2", "headword": "악당", "reading": "akdang", "meaningVn": "kẻ ác, phản diện", "example": "영화 속 악당이에요.", "exampleVn": "Là kẻ phản diện trong phim." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-mu",
+      "language": "ko",
+      "reading": "무 (mu)",
+      "note": "Nhiều chữ Hán-Hàn đọc \"무\" nhưng nghĩa khác nhau — chủ đề biểu diễn, công việc.",
+      "roots": [
+        {
+          "id": "ko-mu-mu1",
+          "character": "舞",
+          "hanViet": "vũ",
+          "meaningVn": "nhảy múa",
+          "words": [
+            { "id": "ko-mu-mu1-w1", "headword": "무용", "reading": "muyong", "meaningVn": "vũ đạo, múa", "example": "무용을 배워요.", "exampleVn": "Học múa." },
+            { "id": "ko-mu-mu1-w2", "headword": "무대", "reading": "mudae", "meaningVn": "sân khấu (vũ đài)", "example": "무대에 올라갔어요.", "exampleVn": "Đã lên sân khấu." }
+          ]
+        },
+        {
+          "id": "ko-mu-mu2",
+          "character": "無",
+          "hanViet": "vô",
+          "meaningVn": "không có",
+          "words": [
+            { "id": "ko-mu-mu2-w1", "headword": "무료", "reading": "muryo", "meaningVn": "miễn phí", "example": "무료로 받았어요.", "exampleVn": "Đã nhận miễn phí." },
+            { "id": "ko-mu-mu2-w2", "headword": "무제한", "reading": "mujehan", "meaningVn": "không giới hạn", "example": "무제한 데이터예요.", "exampleVn": "Đó là gói dữ liệu không giới hạn." }
+          ]
+        },
+        {
+          "id": "ko-mu-mu3",
+          "character": "務",
+          "hanViet": "vụ",
+          "meaningVn": "công việc, nhiệm vụ",
+          "words": [
+            { "id": "ko-mu-mu3-w1", "headword": "업무", "reading": "eommu", "meaningVn": "nghiệp vụ, công việc", "example": "업무가 많아요.", "exampleVn": "Nhiều công việc." },
+            { "id": "ko-mu-mu3-w2", "headword": "의무", "reading": "uimu", "meaningVn": "nghĩa vụ", "example": "의무를 다해요.", "exampleVn": "Hoàn thành nghĩa vụ." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-gok",
+      "language": "ko",
+      "reading": "곡 (gok)",
+      "note": "Nhiều chữ Hán-Hàn đọc \"곡\" nhưng nghĩa khác nhau — chủ đề âm nhạc.",
+      "roots": [
+        {
+          "id": "ko-gok-gok1",
+          "character": "曲",
+          "hanViet": "khúc",
+          "meaningVn": "bài hát, giai điệu",
+          "words": [
+            { "id": "ko-gok-gok1-w1", "headword": "작곡", "reading": "jakgok", "meaningVn": "sáng tác nhạc", "example": "작곡을 해요.", "exampleVn": "Sáng tác nhạc." },
+            { "id": "ko-gok-gok1-w2", "headword": "명곡", "reading": "myeonggok", "meaningVn": "bài hát nổi tiếng (danh khúc)", "example": "이건 명곡이에요.", "exampleVn": "Đây là bài hát nổi tiếng." }
+          ]
+        },
+        {
+          "id": "ko-gok-gok2",
+          "character": "谷",
+          "hanViet": "cốc",
+          "meaningVn": "thung lũng",
+          "words": [
+            { "id": "ko-gok-gok2-w1", "headword": "계곡", "reading": "gyegok", "meaningVn": "khe núi, thung lũng", "example": "계곡에서 놀아요.", "exampleVn": "Chơi ở khe núi." },
+            { "id": "ko-gok-gok2-w2", "headword": "협곡", "reading": "hyeopgok", "meaningVn": "hẻm núi", "example": "그랜드 캐니언은 협곡이에요.", "exampleVn": "Grand Canyon là một hẻm núi." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ju",
+      "language": "ko",
+      "reading": "주 (ju)",
+      "note": "Rất nhiều chữ Hán-Hàn đọc \"주\" nhưng nghĩa khác nhau — chủ đề âm nhạc, đời sống hằng ngày.",
+      "roots": [
+        {
+          "id": "ko-ju-ju1",
+          "character": "主",
+          "hanViet": "chủ",
+          "meaningVn": "chủ yếu",
+          "words": [
+            { "id": "ko-ju-ju1-w1", "headword": "주인", "reading": "juin", "meaningVn": "chủ nhân", "example": "가게 주인이에요.", "exampleVn": "Là chủ cửa hàng." },
+            { "id": "ko-ju-ju1-w2", "headword": "주제", "reading": "juje", "meaningVn": "chủ đề", "example": "오늘의 주제예요.", "exampleVn": "Đây là chủ đề hôm nay." }
+          ]
+        },
+        {
+          "id": "ko-ju-ju2",
+          "character": "住",
+          "hanViet": "trú",
+          "meaningVn": "ở, sinh sống",
+          "words": [
+            { "id": "ko-ju-ju2-w1", "headword": "주민", "reading": "jumin", "meaningVn": "cư dân", "example": "이 동네 주민이에요.", "exampleVn": "Là cư dân khu này." },
+            { "id": "ko-ju-ju2-w2", "headword": "거주", "reading": "geoju", "meaningVn": "cư trú", "example": "서울에 거주해요.", "exampleVn": "Cư trú ở Seoul." }
+          ]
+        },
+        {
+          "id": "ko-ju-ju3",
+          "character": "週",
+          "hanViet": "tuần",
+          "meaningVn": "tuần lễ",
+          "words": [
+            { "id": "ko-ju-ju3-w1", "headword": "주말", "reading": "jumal", "meaningVn": "cuối tuần", "example": "주말에 뭐 해요?", "exampleVn": "Cuối tuần bạn làm gì?" },
+            { "id": "ko-ju-ju3-w2", "headword": "매주", "reading": "maeju", "meaningVn": "mỗi tuần", "example": "매주 만나요.", "exampleVn": "Gặp nhau mỗi tuần." }
+          ]
+        },
+        {
+          "id": "ko-ju-ju4",
+          "character": "奏",
+          "hanViet": "tấu",
+          "meaningVn": "diễn tấu",
+          "words": [
+            { "id": "ko-ju-ju4-w1", "headword": "연주", "reading": "yeonju", "meaningVn": "diễn tấu (nhạc cụ)", "example": "피아노를 연주해요.", "exampleVn": "Chơi đàn piano." },
+            { "id": "ko-ju-ju4-w2", "headword": "반주", "reading": "banju", "meaningVn": "đệm nhạc", "example": "기타 반주에 맞춰 노래해요.", "exampleVn": "Hát theo đệm guitar." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-pyo",
+      "language": "ko",
+      "reading": "표 (pyo)",
+      "note": "Nhiều chữ Hán-Hàn đọc \"표\" nhưng nghĩa khác nhau — chủ đề giao tiếp, công việc.",
+      "roots": [
+        {
+          "id": "ko-pyo-pyo1",
+          "character": "表",
+          "hanViet": "biểu",
+          "meaningVn": "bảng biểu, thể hiện",
+          "words": [
+            { "id": "ko-pyo-pyo1-w1", "headword": "표현", "reading": "pyohyeon", "meaningVn": "biểu hiện, diễn đạt", "example": "감정을 표현해요.", "exampleVn": "Biểu lộ cảm xúc." },
+            { "id": "ko-pyo-pyo1-w2", "headword": "대표", "reading": "daepyo", "meaningVn": "đại diện", "example": "회사 대표예요.", "exampleVn": "Là đại diện công ty." }
+          ]
+        },
+        {
+          "id": "ko-pyo-pyo2",
+          "character": "票",
+          "hanViet": "phiếu",
+          "meaningVn": "vé, phiếu",
+          "words": [
+            { "id": "ko-pyo-pyo2-w1", "headword": "투표", "reading": "tupyo", "meaningVn": "bỏ phiếu", "example": "투표했어요.", "exampleVn": "Đã bỏ phiếu." },
+            { "id": "ko-pyo-pyo2-w2", "headword": "우표", "reading": "upyo", "meaningVn": "tem thư", "example": "우표를 모아요.", "exampleVn": "Sưu tầm tem thư." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-gam",
+      "language": "ko",
+      "reading": "감 (gam)",
+      "note": "Nhiều chữ Hán-Hàn đọc \"감\" nhưng nghĩa khác nhau — chủ đề giao tiếp, phim ảnh, công việc.",
+      "roots": [
+        {
+          "id": "ko-gam-gam1",
+          "character": "感",
+          "hanViet": "cảm",
+          "meaningVn": "cảm xúc",
+          "words": [
+            { "id": "ko-gam-gam1-w1", "headword": "감동", "reading": "gamdong", "meaningVn": "cảm động", "example": "정말 감동적이에요.", "exampleVn": "Thật sự cảm động." },
+            { "id": "ko-gam-gam1-w2", "headword": "감사", "reading": "gamsa", "meaningVn": "cảm ơn, cảm tạ", "example": "감사합니다.", "exampleVn": "Cảm ơn bạn." }
+          ]
+        },
+        {
+          "id": "ko-gam-gam2",
+          "character": "減",
+          "hanViet": "giảm",
+          "meaningVn": "giảm bớt",
+          "words": [
+            { "id": "ko-gam-gam2-w1", "headword": "감량", "reading": "gamnyang", "meaningVn": "giảm cân, giảm lượng", "example": "체중 감량에 성공했어요.", "exampleVn": "Đã giảm cân thành công." },
+            { "id": "ko-gam-gam2-w2", "headword": "절감", "reading": "jeolgam", "meaningVn": "cắt giảm", "example": "비용을 절감해요.", "exampleVn": "Cắt giảm chi phí." }
+          ]
+        },
+        {
+          "id": "ko-gam-gam3",
+          "character": "監",
+          "hanViet": "giám",
+          "meaningVn": "giám sát",
+          "words": [
+            { "id": "ko-gam-gam3-w1", "headword": "감독", "reading": "gamdok", "meaningVn": "đạo diễn, giám sát", "example": "그는 유명한 감독이에요.", "exampleVn": "Anh ấy là đạo diễn nổi tiếng." },
+            { "id": "ko-gam-gam3-w2", "headword": "감시", "reading": "gamsi", "meaningVn": "giám sát, theo dõi", "example": "CCTV로 감시해요.", "exampleVn": "Giám sát bằng camera." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-dok",
+      "language": "ko",
+      "reading": "독 (dok)",
+      "note": "Nhiều chữ Hán-Hàn đọc \"독\" nhưng nghĩa khác nhau — chủ đề đời sống hằng ngày, gia đình.",
+      "roots": [
+        {
+          "id": "ko-dok-dok1",
+          "character": "讀",
+          "hanViet": "độc",
+          "meaningVn": "đọc",
+          "words": [
+            { "id": "ko-dok-dok1-w1", "headword": "독서", "reading": "dokseo", "meaningVn": "đọc sách", "example": "독서를 좋아해요.", "exampleVn": "Thích đọc sách." },
+            { "id": "ko-dok-dok1-w2", "headword": "독자", "reading": "dokja", "meaningVn": "độc giả", "example": "이 책의 독자예요.", "exampleVn": "Là độc giả của cuốn sách này." }
+          ]
+        },
+        {
+          "id": "ko-dok-dok2",
+          "character": "獨",
+          "hanViet": "độc",
+          "meaningVn": "đơn độc, riêng lẻ",
+          "words": [
+            { "id": "ko-dok-dok2-w1", "headword": "독립", "reading": "dongnip", "meaningVn": "độc lập", "example": "독립을 원해요.", "exampleVn": "Muốn độc lập." },
+            { "id": "ko-dok-dok2-w2", "headword": "독신", "reading": "doksin", "meaningVn": "độc thân", "example": "그는 독신이에요.", "exampleVn": "Anh ấy độc thân." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-chuk",
+      "language": "ko",
+      "reading": "축 (chuk)",
+      "note": "Nhiều chữ Hán-Hàn đọc \"축\" nhưng nghĩa khác nhau — chủ đề giao tiếp, đời sống hằng ngày.",
+      "roots": [
+        {
+          "id": "ko-chuk-chuk1",
+          "character": "祝",
+          "hanViet": "chúc",
+          "meaningVn": "chúc mừng",
+          "words": [
+            { "id": "ko-chuk-chuk1-w1", "headword": "축하", "reading": "chukha", "meaningVn": "chúc mừng", "example": "생일 축하해요!", "exampleVn": "Chúc mừng sinh nhật!" },
+            { "id": "ko-chuk-chuk1-w2", "headword": "축제", "reading": "chukje", "meaningVn": "lễ hội", "example": "축제에 가요.", "exampleVn": "Đi lễ hội." }
+          ]
+        },
+        {
+          "id": "ko-chuk-chuk2",
+          "character": "蓄",
+          "hanViet": "súc",
+          "meaningVn": "tích trữ",
+          "words": [
+            { "id": "ko-chuk-chuk2-w1", "headword": "저축", "reading": "jeochuk", "meaningVn": "tiết kiệm", "example": "매달 저축해요.", "exampleVn": "Tiết kiệm mỗi tháng." },
+            { "id": "ko-chuk-chuk2-w2", "headword": "비축", "reading": "bichuk", "meaningVn": "dự trữ", "example": "물을 비축해요.", "exampleVn": "Dự trữ nước." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-pa",
+      "language": "ko",
+      "reading": "파 (pa)",
+      "note": "Nhiều chữ Hán-Hàn đọc \"파\" nhưng nghĩa khác nhau — chủ đề công việc, đời sống hằng ngày.",
+      "roots": [
+        {
+          "id": "ko-pa-pa1",
+          "character": "破",
+          "hanViet": "phá",
+          "meaningVn": "phá vỡ",
+          "words": [
+            { "id": "ko-pa-pa1-w1", "headword": "파괴", "reading": "pagoe", "meaningVn": "phá hủy", "example": "건물이 파괴됐어요.", "exampleVn": "Tòa nhà đã bị phá hủy." },
+            { "id": "ko-pa-pa1-w2", "headword": "돌파", "reading": "dolpa", "meaningVn": "đột phá", "example": "한계를 돌파했어요.", "exampleVn": "Đã đột phá giới hạn." }
+          ]
+        },
+        {
+          "id": "ko-pa-pa2",
+          "character": "波",
+          "hanViet": "ba",
+          "meaningVn": "sóng",
+          "words": [
+            { "id": "ko-pa-pa2-w1", "headword": "전파", "reading": "jeonpa", "meaningVn": "sóng điện từ, lan truyền", "example": "전파가 약해요.", "exampleVn": "Sóng yếu." },
+            { "id": "ko-pa-pa2-w2", "headword": "파도", "reading": "pado", "meaningVn": "sóng biển", "example": "파도가 높아요.", "exampleVn": "Sóng cao." }
+          ]
+        },
+        {
+          "id": "ko-pa-pa3",
+          "character": "派",
+          "hanViet": "phái",
+          "meaningVn": "phe nhóm, cử đi",
+          "words": [
+            { "id": "ko-pa-pa3-w1", "headword": "파견", "reading": "pagyeon", "meaningVn": "cử đi công tác", "example": "해외로 파견됐어요.", "exampleVn": "Được cử đi công tác nước ngoài." },
+            { "id": "ko-pa-pa3-w2", "headword": "파벌", "reading": "pabeol", "meaningVn": "phe phái, bè phái", "example": "회사에 파벌이 있어요.", "exampleVn": "Công ty có bè phái." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-seup",
+      "language": "ko",
+      "reading": "습 (seup)",
+      "note": "Nhiều chữ Hán-Hàn đọc \"습\" nhưng nghĩa khác nhau — chủ đề đời sống hằng ngày, công việc.",
+      "roots": [
+        {
+          "id": "ko-seup-seup1",
+          "character": "習",
+          "hanViet": "tập",
+          "meaningVn": "luyện tập",
+          "words": [
+            { "id": "ko-seup-seup1-w1", "headword": "습관", "reading": "seupgwan", "meaningVn": "thói quen", "example": "좋은 습관이에요.", "exampleVn": "Đó là thói quen tốt." },
+            { "id": "ko-seup-seup1-w2", "headword": "연습", "reading": "yeonseup", "meaningVn": "luyện tập", "example": "매일 연습해요.", "exampleVn": "Luyện tập mỗi ngày." }
+          ]
+        },
+        {
+          "id": "ko-seup-seup2",
+          "character": "濕",
+          "hanViet": "thấp",
+          "meaningVn": "ẩm ướt",
+          "words": [
+            { "id": "ko-seup-seup2-w1", "headword": "습도", "reading": "seupdo", "meaningVn": "độ ẩm", "example": "습도가 높아요.", "exampleVn": "Độ ẩm cao." },
+            { "id": "ko-seup-seup2-w2", "headword": "습기", "reading": "seupgi", "meaningVn": "hơi ẩm", "example": "습기가 많아요.", "exampleVn": "Nhiều hơi ẩm." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-hwal",
+      "language": "ko",
+      "reading": "활 (hwal)",
+      "note": "Nhiều chữ Hán-Hàn đọc \"활\" nhưng nghĩa khác nhau — chủ đề đời sống hằng ngày.",
+      "roots": [
+        {
+          "id": "ko-hwal-hwal1",
+          "character": "活",
+          "hanViet": "hoạt",
+          "meaningVn": "sống động",
+          "words": [
+            { "id": "ko-hwal-hwal1-w1", "headword": "생활", "reading": "saenghwal", "meaningVn": "sinh hoạt, cuộc sống", "example": "일상생활이에요.", "exampleVn": "Đó là cuộc sống thường ngày." },
+            { "id": "ko-hwal-hwal1-w2", "headword": "활동", "reading": "hwaldong", "meaningVn": "hoạt động", "example": "동아리 활동을 해요.", "exampleVn": "Tham gia hoạt động câu lạc bộ." }
+          ]
+        },
+        {
+          "id": "ko-hwal-hwal2",
+          "character": "滑",
+          "hanViet": "hoạt",
+          "meaningVn": "trôi chảy, trơn",
+          "words": [
+            { "id": "ko-hwal-hwal2-w1", "headword": "원활", "reading": "wonhwal", "meaningVn": "trôi chảy, thuận lợi", "example": "일이 원활하게 진행돼요.", "exampleVn": "Công việc diễn ra suôn sẻ." },
+            { "id": "ko-hwal-hwal2-w2", "headword": "활주로", "reading": "hwaljuro", "meaningVn": "đường băng (sân bay)", "example": "비행기가 활주로에서 이륙해요.", "exampleVn": "Máy bay cất cánh từ đường băng." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-gye",
+      "language": "ko",
+      "reading": "계 (gye)",
+      "note": "Rất nhiều chữ Hán-Hàn đọc \"계\" nhưng nghĩa khác nhau — chủ đề công việc.",
+      "roots": [
+        {
+          "id": "ko-gye-gye1",
+          "character": "計",
+          "hanViet": "kế",
+          "meaningVn": "tính toán, kế hoạch",
+          "words": [
+            { "id": "ko-gye-gye1-w1", "headword": "계획", "reading": "gyehoek", "meaningVn": "kế hoạch", "example": "여행 계획을 세워요.", "exampleVn": "Lập kế hoạch du lịch." },
+            { "id": "ko-gye-gye1-w2", "headword": "통계", "reading": "tonggye", "meaningVn": "thống kê", "example": "통계 자료를 봐요.", "exampleVn": "Xem số liệu thống kê." }
+          ]
+        },
+        {
+          "id": "ko-gye-gye2",
+          "character": "界",
+          "hanViet": "giới",
+          "meaningVn": "ranh giới, thế giới",
+          "words": [
+            { "id": "ko-gye-gye2-w1", "headword": "업계", "reading": "eopgye", "meaningVn": "giới ngành", "example": "IT 업계에서 일해요.", "exampleVn": "Làm việc trong ngành IT." },
+            { "id": "ko-gye-gye2-w2", "headword": "경계", "reading": "gyeonggye", "meaningVn": "ranh giới", "example": "두 나라의 경계예요.", "exampleVn": "Là ranh giới hai nước." }
+          ]
+        },
+        {
+          "id": "ko-gye-gye3",
+          "character": "系",
+          "hanViet": "hệ",
+          "meaningVn": "hệ thống",
+          "words": [
+            { "id": "ko-gye-gye3-w1", "headword": "체계", "reading": "chegye", "meaningVn": "hệ thống", "example": "체계적으로 공부해요.", "exampleVn": "Học một cách có hệ thống." },
+            { "id": "ko-gye-gye3-w2", "headword": "계열", "reading": "gyeyeol", "meaningVn": "hệ, dòng (thuộc tập đoàn)", "example": "이 회사는 삼성 계열이에요.", "exampleVn": "Công ty này thuộc hệ thống Samsung." }
+          ]
+        },
+        {
+          "id": "ko-gye-gye4",
+          "character": "契",
+          "hanViet": "khế",
+          "meaningVn": "hợp đồng, ước hẹn",
+          "words": [
+            { "id": "ko-gye-gye4-w1", "headword": "계약", "reading": "gyeyak", "meaningVn": "hợp đồng", "example": "계약을 맺었어요.", "exampleVn": "Đã ký hợp đồng." },
+            { "id": "ko-gye-gye4-w2", "headword": "계기", "reading": "gyegi", "meaningVn": "cơ hội, duyên cớ (khế cơ)", "example": "좋은 계기가 됐어요.", "exampleVn": "Đã trở thành cơ hội tốt." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ae",
+      "language": "ko",
+      "reading": "애 (ae)",
+      "note": "Nhiều chữ Hán-Hàn đọc \"애\" nhưng nghĩa khác nhau — chủ đề tình yêu, phim ảnh, gia đình.",
+      "roots": [
+        {
+          "id": "ko-ae-ae1",
+          "character": "愛",
+          "hanViet": "ái",
+          "meaningVn": "yêu thương",
+          "words": [
+            { "id": "ko-ae-ae1-w1", "headword": "애인", "reading": "aein", "meaningVn": "người yêu", "example": "애인이 있어요.", "exampleVn": "Có người yêu." },
+            { "id": "ko-ae-ae1-w2", "headword": "애정", "reading": "aejeong", "meaningVn": "tình cảm, ái tình", "example": "애정을 표현해요.", "exampleVn": "Bày tỏ tình cảm." }
+          ]
+        },
+        {
+          "id": "ko-ae-ae2",
+          "character": "哀",
+          "hanViet": "ai",
+          "meaningVn": "buồn thương",
+          "words": [
+            { "id": "ko-ae-ae2-w1", "headword": "비애", "reading": "biae", "meaningVn": "nỗi buồn, bi ai", "example": "인생의 비애를 느껴요.", "exampleVn": "Cảm nhận nỗi buồn cuộc đời." },
+            { "id": "ko-ae-ae2-w2", "headword": "애도", "reading": "aedo", "meaningVn": "thương tiếc, ai điếu", "example": "고인을 애도해요.", "exampleVn": "Thương tiếc người đã khuất." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-yeol",
+      "language": "ko",
+      "reading": "열 (yeol)",
+      "note": "Nhiều chữ Hán-Hàn đọc \"열\" nhưng nghĩa khác nhau — chủ đề công việc, đời sống hằng ngày.",
+      "roots": [
+        {
+          "id": "ko-yeol-yeol1",
+          "character": "熱",
+          "hanViet": "nhiệt",
+          "meaningVn": "nóng, nhiệt tình",
+          "words": [
+            { "id": "ko-yeol-yeol1-w1", "headword": "열정", "reading": "yeoljeong", "meaningVn": "nhiệt tình, đam mê", "example": "일에 대한 열정이 있어요.", "exampleVn": "Có đam mê với công việc." },
+            { "id": "ko-yeol-yeol1-w2", "headword": "열심", "reading": "yeolsim", "meaningVn": "chuyên cần, nhiệt tâm", "example": "열심히 공부해요.", "exampleVn": "Học chăm chỉ." }
+          ]
+        },
+        {
+          "id": "ko-yeol-yeol2",
+          "character": "列",
+          "hanViet": "liệt",
+          "meaningVn": "hàng, dãy",
+          "words": [
+            { "id": "ko-yeol-yeol2-w1", "headword": "대열", "reading": "daeyeol", "meaningVn": "hàng ngũ", "example": "대열에 합류했어요.", "exampleVn": "Đã gia nhập hàng ngũ." },
+            { "id": "ko-yeol-yeol2-w2", "headword": "서열", "reading": "seoyeol", "meaningVn": "thứ bậc", "example": "서열이 중요해요.", "exampleVn": "Thứ bậc quan trọng." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-hyeop",
+      "language": "ko",
+      "reading": "협 (hyeop)",
+      "note": "Nhiều chữ Hán-Hàn đọc \"협\" nhưng nghĩa khác nhau — chủ đề công việc.",
+      "roots": [
+        {
+          "id": "ko-hyeop-hyeop1",
+          "character": "協",
+          "hanViet": "hiệp",
+          "meaningVn": "hợp tác",
+          "words": [
+            { "id": "ko-hyeop-hyeop1-w1", "headword": "협력", "reading": "hyeomnyeok", "meaningVn": "hợp tác", "example": "서로 협력해요.", "exampleVn": "Hợp tác lẫn nhau." },
+            { "id": "ko-hyeop-hyeop1-w2", "headword": "협상", "reading": "hyeopsang", "meaningVn": "đàm phán", "example": "협상이 잘 됐어요.", "exampleVn": "Đàm phán suôn sẻ." }
+          ]
+        },
+        {
+          "id": "ko-hyeop-hyeop2",
+          "character": "脅",
+          "hanViet": "hiếp",
+          "meaningVn": "đe dọa",
+          "words": [
+            { "id": "ko-hyeop-hyeop2-w1", "headword": "위협", "reading": "wihyeop", "meaningVn": "đe dọa", "example": "위협을 느껴요.", "exampleVn": "Cảm thấy bị đe dọa." },
+            { "id": "ko-hyeop-hyeop2-w2", "headword": "협박", "reading": "hyeopbak", "meaningVn": "uy hiếp, đe dọa", "example": "협박을 받았어요.", "exampleVn": "Đã bị đe dọa." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-rak",
+      "language": "ko",
+      "reading": "락 (rak)",
+      "note": "Chữ Hán-Hàn đọc \"락\" khi đứng GIỮA từ (đầu từ sẽ biến âm thành \"낙\" theo quy tắc đầu âm — nên các từ dưới đây đều có âm khác đứng trước).",
+      "roots": [
+        {
+          "id": "ko-rak-rak1",
+          "character": "樂",
+          "hanViet": "lạc",
+          "meaningVn": "vui, giải trí",
+          "words": [
+            { "id": "ko-rak-rak1-w1", "headword": "오락", "reading": "orak", "meaningVn": "giải trí", "example": "오락 프로그램을 봐요.", "exampleVn": "Xem chương trình giải trí." },
+            { "id": "ko-rak-rak1-w2", "headword": "쾌락", "reading": "kwaerak", "meaningVn": "khoái lạc, vui sướng", "example": "순간의 쾌락이에요.", "exampleVn": "Đó là niềm vui nhất thời." }
+          ]
+        },
+        {
+          "id": "ko-rak-rak2",
+          "character": "落",
+          "hanViet": "lạc",
+          "meaningVn": "rơi rụng",
+          "words": [
+            { "id": "ko-rak-rak2-w1", "headword": "추락", "reading": "churak", "meaningVn": "rơi xuống", "example": "비행기가 추락했어요.", "exampleVn": "Máy bay đã rơi." },
+            { "id": "ko-rak-rak2-w2", "headword": "하락", "reading": "harak", "meaningVn": "giảm xuống, rớt giá", "example": "주가가 하락했어요.", "exampleVn": "Giá cổ phiếu đã giảm." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-yeo",
+      "language": "ko",
+      "reading": "여 (yeo)",
+      "note": "Rất nhiều chữ Hán-Hàn đọc \"여\" nhưng nghĩa khác nhau — chủ đề gia đình, du lịch, đời sống hằng ngày.",
+      "roots": [
+        {
+          "id": "ko-yeo-yeo1",
+          "character": "女",
+          "hanViet": "nữ",
+          "meaningVn": "phụ nữ, con gái",
+          "words": [
+            { "id": "ko-yeo-yeo1-w1", "headword": "여동생", "reading": "yeodongsaeng", "meaningVn": "em gái", "example": "여동생이 있어요.", "exampleVn": "Có em gái." },
+            { "id": "ko-yeo-yeo1-w2", "headword": "장녀", "reading": "jangnyeo", "meaningVn": "con gái đầu (trưởng nữ)", "example": "저는 장녀예요.", "exampleVn": "Tôi là con gái đầu." }
+          ]
+        },
+        {
+          "id": "ko-yeo-yeo2",
+          "character": "旅",
+          "hanViet": "lữ",
+          "meaningVn": "du lịch, hành trình",
+          "words": [
+            { "id": "ko-yeo-yeo2-w1", "headword": "여행", "reading": "yeohaeng", "meaningVn": "du lịch", "example": "여행을 좋아해요.", "exampleVn": "Thích du lịch." },
+            { "id": "ko-yeo-yeo2-w2", "headword": "여권", "reading": "yeogwon", "meaningVn": "hộ chiếu (lữ khoán)", "example": "여권을 만들었어요.", "exampleVn": "Đã làm hộ chiếu." }
+          ]
+        },
+        {
+          "id": "ko-yeo-yeo3",
+          "character": "餘",
+          "hanViet": "dư",
+          "meaningVn": "còn lại, dư dả",
+          "words": [
+            { "id": "ko-yeo-yeo3-w1", "headword": "여유", "reading": "yeoyu", "meaningVn": "dư dả, thong thả", "example": "시간이 여유가 있어요.", "exampleVn": "Có thời gian thong thả." },
+            { "id": "ko-yeo-yeo3-w2", "headword": "여가", "reading": "yeoga", "meaningVn": "thời gian rảnh rỗi", "example": "여가 시간에 뭐 해요?", "exampleVn": "Bạn làm gì lúc rảnh?" }
+          ]
+        },
+        {
+          "id": "ko-yeo-yeo4",
+          "character": "如",
+          "hanViet": "như",
+          "meaningVn": "giống như",
+          "words": [
+            { "id": "ko-yeo-yeo4-w1", "headword": "여전", "reading": "yeojeon", "meaningVn": "vẫn như cũ", "example": "여전히 바빠요.", "exampleVn": "Vẫn bận như trước." },
+            { "id": "ko-yeo-yeo4-w2", "headword": "결여", "reading": "gyeoryeo", "meaningVn": "thiếu sót, thiếu hụt", "example": "관심이 결여됐어요.", "exampleVn": "Thiếu sự quan tâm." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-mi",
+      "language": "ko",
+      "reading": "미 (mi)",
+      "note": "Nhiều chữ Hán-Hàn đọc \"미\" nhưng nghĩa khác nhau — chủ đề đời sống hằng ngày, gia đình.",
+      "roots": [
+        {
+          "id": "ko-mi-mi1",
+          "character": "美",
+          "hanViet": "mỹ",
+          "meaningVn": "đẹp",
+          "words": [
+            { "id": "ko-mi-mi1-w1", "headword": "미술", "reading": "misul", "meaningVn": "mỹ thuật", "example": "미술관에 가요.", "exampleVn": "Đi bảo tàng mỹ thuật." },
+            { "id": "ko-mi-mi1-w2", "headword": "미용실", "reading": "miyongsil", "meaningVn": "tiệm làm đẹp", "example": "미용실에서 머리를 잘랐어요.", "exampleVn": "Đã cắt tóc ở tiệm làm đẹp." }
+          ]
+        },
+        {
+          "id": "ko-mi-mi2",
+          "character": "未",
+          "hanViet": "vị",
+          "meaningVn": "chưa",
+          "words": [
+            { "id": "ko-mi-mi2-w1", "headword": "미래", "reading": "mirae", "meaningVn": "tương lai", "example": "미래를 준비해요.", "exampleVn": "Chuẩn bị cho tương lai." },
+            { "id": "ko-mi-mi2-w2", "headword": "미혼", "reading": "mihon", "meaningVn": "chưa kết hôn", "example": "저는 미혼이에요.", "exampleVn": "Tôi chưa kết hôn." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-pil",
+      "language": "ko",
+      "reading": "필 (pil)",
+      "note": "Nhiều chữ Hán-Hàn đọc \"필\" nhưng nghĩa khác nhau — chủ đề đời sống hằng ngày, công việc.",
+      "roots": [
+        {
+          "id": "ko-pil-pil1",
+          "character": "必",
+          "hanViet": "tất",
+          "meaningVn": "nhất định",
+          "words": [
+            { "id": "ko-pil-pil1-w1", "headword": "필요", "reading": "piryo", "meaningVn": "cần thiết", "example": "도움이 필요해요.", "exampleVn": "Cần sự giúp đỡ." },
+            { "id": "ko-pil-pil1-w2", "headword": "필수", "reading": "pilsu", "meaningVn": "cần thiết, tất yếu", "example": "필수 과목이에요.", "exampleVn": "Đó là môn học bắt buộc." }
+          ]
+        },
+        {
+          "id": "ko-pil-pil2",
+          "character": "筆",
+          "hanViet": "bút",
+          "meaningVn": "viết",
+          "words": [
+            { "id": "ko-pil-pil2-w1", "headword": "연필", "reading": "yeonpil", "meaningVn": "bút chì", "example": "연필로 써요.", "exampleVn": "Viết bằng bút chì." },
+            { "id": "ko-pil-pil2-w2", "headword": "필기", "reading": "pilgi", "meaningVn": "ghi chép", "example": "필기를 열심히 해요.", "exampleVn": "Ghi chép chăm chỉ." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-chwi",
+      "language": "ko",
+      "reading": "취 (chwi)",
+      "note": "Nhiều chữ Hán-Hàn đọc \"취\" nhưng nghĩa khác nhau — chủ đề công việc, đời sống hằng ngày.",
+      "roots": [
+        {
+          "id": "ko-chwi-chwi1",
+          "character": "取",
+          "hanViet": "thủ",
+          "meaningVn": "lấy",
+          "words": [
+            { "id": "ko-chwi-chwi1-w1", "headword": "취급", "reading": "chwigeup", "meaningVn": "xử lý, đối xử", "example": "상품을 조심스럽게 취급해요.", "exampleVn": "Xử lý sản phẩm cẩn thận." },
+            { "id": "ko-chwi-chwi1-w2", "headword": "섭취", "reading": "seopchwi", "meaningVn": "hấp thu, ăn uống", "example": "영양을 섭취해요.", "exampleVn": "Hấp thu dinh dưỡng." }
+          ]
+        },
+        {
+          "id": "ko-chwi-chwi2",
+          "character": "就",
+          "hanViet": "tựu",
+          "meaningVn": "đạt được, thành tựu",
+          "words": [
+            { "id": "ko-chwi-chwi2-w1", "headword": "취업", "reading": "chwieop", "meaningVn": "có việc làm", "example": "취업 준비를 해요.", "exampleVn": "Chuẩn bị xin việc." },
+            { "id": "ko-chwi-chwi2-w2", "headword": "성취", "reading": "seongchwi", "meaningVn": "thành tựu", "example": "목표를 성취했어요.", "exampleVn": "Đã đạt được mục tiêu." }
+          ]
+        },
+        {
+          "id": "ko-chwi-chwi3",
+          "character": "醉",
+          "hanViet": "túy",
+          "meaningVn": "say",
+          "words": [
+            { "id": "ko-chwi-chwi3-w1", "headword": "도취", "reading": "dochwi", "meaningVn": "chìm đắm, say mê", "example": "음악에 도취됐어요.", "exampleVn": "Đắm chìm trong âm nhạc." },
+            { "id": "ko-chwi-chwi3-w2", "headword": "만취", "reading": "manchwi", "meaningVn": "say khướt", "example": "만취 상태예요.", "exampleVn": "Đang trong tình trạng say khướt." }
+          ]
+        }
+      ]
+    }
+  ]
+}
