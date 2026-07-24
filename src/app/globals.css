@@ -1,0 +1,187 @@
+@import "tailwindcss";
+
+/* Dark mode is controlled by [data-mode="dark"] on <html> (set by ThemeProvider),
+   not the OS media query — this keeps every existing `dark:` utility working while
+   letting the user override it manually. */
+@custom-variant dark (&:where([data-mode="dark"], [data-mode="dark"] *));
+
+@theme inline {
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-surface-3: var(--surface-3);
+  --color-ink: var(--ink);
+  --color-ink-muted: var(--ink-muted);
+  --color-border: var(--border);
+  --color-border-strong: var(--border-strong);
+
+  --color-brand-50: var(--brand-50);
+  --color-brand-100: var(--brand-100);
+  --color-brand-200: var(--brand-200);
+  --color-brand-300: var(--brand-300);
+  --color-brand-400: var(--brand-400);
+  --color-brand-500: var(--brand-500);
+  --color-brand-600: var(--brand-600);
+  --color-brand-700: var(--brand-700);
+
+  --color-accent-300: var(--accent-300);
+  --color-accent-400: var(--accent-400);
+  --color-accent-500: var(--accent-500);
+  --color-accent-600: var(--accent-600);
+
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+/* ============ Theme: violet (default) ============ */
+:root,
+[data-theme="violet"] {
+  --surface: #faf9fd;
+  --surface-2: #ffffff;
+  --surface-3: #f2eefb;
+  --ink: #201b2e;
+  --ink-muted: #6c6482;
+  --border: #e7e1f4;
+  --border-strong: #d2c6ee;
+
+  --brand-50: #f5f3ff;
+  --brand-100: #ede8fe;
+  --brand-200: #dcd2fc;
+  --brand-300: #c1adf8;
+  --brand-400: #a480f1;
+  --brand-500: #8657ea;
+  --brand-600: #7238dd;
+  --brand-700: #5f28bd;
+
+  --accent-300: #fbb6d3;
+  --accent-400: #f884b6;
+  --accent-500: #ef4d94;
+  --accent-600: #d92e78;
+}
+
+[data-theme="violet"][data-mode="dark"] {
+  --surface: #17131f;
+  --surface-2: #1e192a;
+  --surface-3: #262034;
+  --ink: #f1eefb;
+  --ink-muted: #a99fc4;
+  --border: #332b48;
+  --border-strong: #453a63;
+
+  --brand-50: #241c38;
+  --brand-100: #2d2345;
+  --brand-200: #3c2d5c;
+  --brand-300: #543c80;
+  --brand-400: #7d59b8;
+  --brand-500: #9a72f0;
+  --brand-600: #b190f5;
+  --brand-700: #c7abf8;
+
+  --accent-300: #7a2d54;
+  --accent-400: #a83a70;
+  --accent-500: #ef4d94;
+  --accent-600: #f884b6;
+}
+
+/* ============ Theme: ocean ============ */
+[data-theme="ocean"] {
+  --surface: #f5fafb;
+  --surface-2: #ffffff;
+  --surface-3: #e7f4f6;
+  --ink: #122528;
+  --ink-muted: #587277;
+  --border: #d8ebee;
+  --border-strong: #b9dee3;
+
+  --brand-50: #ecfdfd;
+  --brand-100: #cff7f9;
+  --brand-200: #a2ecf1;
+  --brand-300: #67d9e3;
+  --brand-400: #2fbfce;
+  --brand-500: #129cae;
+  --brand-600: #0e7b8f;
+  --brand-700: #0c5f70;
+
+  --accent-300: #ffd28a;
+  --accent-400: #ffb547;
+  --accent-500: #f79a12;
+  --accent-600: #cf7c05;
+}
+
+[data-theme="ocean"][data-mode="dark"] {
+  --surface: #0d1b1e;
+  --surface-2: #132428;
+  --surface-3: #182e32;
+  --ink: #e7f6f8;
+  --ink-muted: #8fb0b6;
+  --border: #203c41;
+  --border-strong: #2b4f56;
+
+  --brand-50: #102b30;
+  --brand-100: #14343a;
+  --brand-200: #17444c;
+  --brand-300: #1b5f6a;
+  --brand-400: #1f8494;
+  --brand-500: #33aabb;
+  --brand-600: #5cc3d1;
+  --brand-700: #8bd8e2;
+
+  --accent-300: #7a5410;
+  --accent-400: #a8720c;
+  --accent-500: #f79a12;
+  --accent-600: #ffb547;
+}
+
+/* ============ Theme: sunset ============ */
+[data-theme="sunset"] {
+  --surface: #fdf9f6;
+  --surface-2: #ffffff;
+  --surface-3: #fbeee5;
+  --ink: #2b1c14;
+  --ink-muted: #8a6b58;
+  --border: #f2e0d2;
+  --border-strong: #e8c7ac;
+
+  --brand-50: #fff1eb;
+  --brand-100: #ffdfd0;
+  --brand-200: #ffc0a3;
+  --brand-300: #ff9868;
+  --brand-400: #fb7238;
+  --brand-500: #ea511a;
+  --brand-600: #c33e10;
+  --brand-700: #9c320f;
+
+  --accent-300: #ddc8ff;
+  --accent-400: #bb96ff;
+  --accent-500: #8f5cf0;
+  --accent-600: #7440cf;
+}
+
+[data-theme="sunset"][data-mode="dark"] {
+  --surface: #1d1611;
+  --surface-2: #251c16;
+  --surface-3: #2d221a;
+  --ink: #fbeee5;
+  --ink-muted: #c2a692;
+  --border: #3c2d22;
+  --border-strong: #503b2c;
+
+  --brand-50: #33200f;
+  --brand-100: #3e2711;
+  --brand-200: #5a3414;
+  --brand-300: #82471a;
+  --brand-400: #c56425;
+  --brand-500: #ef7f3c;
+  --brand-600: #f79c68;
+  --brand-700: #ffbd97;
+
+  --accent-300: #3a2a5c;
+  --accent-400: #5b3f8c;
+  --accent-500: #8f5cf0;
+  --accent-600: #bb96ff;
+}
+
+body {
+  background: var(--color-surface);
+  color: var(--color-ink);
+  font-family: var(--font-sans), Arial, Helvetica, sans-serif;
+}
