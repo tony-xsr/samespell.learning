@@ -28,6 +28,8 @@ export interface SoundGroup {
   reading: string;
   note?: string;
   roots: RootEntry[];
+  /** Trục nhầm lẫn: "sound" (mặc định, đọc giống nhau) hay "shape" (viết giống nhau, hình cận tự). */
+  groupKind?: "sound" | "shape";
 }
 
 export interface LanguageData {
