@@ -5,6 +5,7 @@ import { useEffect, useState } from "react";
 interface AiConfigResponse {
   providers: { id: string; label: string; defaultModel: string }[];
   activeProvider: string;
+  fallbackProvider: string;
   models: Record<string, string>;
   maskedKeys: Record<string, string>;
   hasKey: Record<string, boolean>;
@@ -13,6 +14,7 @@ interface AiConfigResponse {
 export default function AdminAiConfigForm() {
   const [config, setConfig] = useState<AiConfigResponse | null>(null);
   const [activeProvider, setActiveProvider] = useState("");
+  const [fallbackProvider, setFallbackProvider] = useState("");
   const [models, setModels] = useState<Record<string, string>>({});
   const [newKeys, setNewKeys] = useState<Record<string, string>>({});
   const [saving, setSaving] = useState(false);
@@ -25,6 +27,7 @@ export default function AdminAiConfigForm() {
       .then((data: AiConfigResponse) => {
         setConfig(data);
         setActiveProvider(data.activeProvider);
+        setFallbackProvider(data.fallbackProvider);
         setModels(data.models);
       });
   }, []);
@@ -37,7 +40,7 @@ export default function AdminAiConfigForm() {
       const res = await fetch("/api/admin/ai-config", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ activeProvider, models, keys: newKeys }),
+        body: JSON.stringify({ activeProvider, fallbackProvider, models, keys: newKeys }),
       });
       const data = await res.json();
       if (!res.ok) throw new Error(data.error ?? "Lưu thất bại");
@@ -62,6 +65,24 @@ export default function AdminAiConfigForm() {
       <p className="mt-1 text-xs text-ink-muted">
         Chọn provider đang dùng để sinh từ vựng / mindmap. Để trống ô key nếu không muốn đổi key đã lưu.
       </p>
+
+      <div className="mt-3">
+        <label className="text-xs font-medium text-ink-muted">
+          Provider dự phòng (tự động thử lại nếu provider chính lỗi)
+        </label>
+        <select
+          value={fallbackProvider}
+          onChange={(e) => setFallbackProvider(e.target.value)}
+          className="mt-1 w-full rounded-lg border border-border bg-surface px-2.5 py-1.5 text-sm text-ink outline-none focus:border-brand-400 focus:ring-2 focus:ring-brand-200"
+        >
+          {config.providers.map((p) => (
+            <option key={p.id} value={p.id}>
+              {p.label}
+              {config.hasKey[p.id] ? "" : " (chưa có key)"}
+            </option>
+          ))}
+        </select>
+      </div>
 
       <div className="mt-4 flex flex-col gap-3">
         {config.providers.map((p) => (

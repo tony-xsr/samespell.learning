@@ -23,9 +23,12 @@ function updateWordInList(
 export default function GroupExplorer({
   initialGroup,
   lang,
+  basePath = "",
 }: {
   initialGroup: SoundGroup;
   lang: string;
+  /** "" cho nhóm âm (mặc định), "/shapes" cho nhóm hình — đổi link quay lại và link ôn tập. */
+  basePath?: string;
 }) {
   const [group, setGroup] = useState(initialGroup);
   const [expandingRoot, setExpandingRoot] = useState<string | null>(null);
@@ -198,16 +201,17 @@ export default function GroupExplorer({
   return (
     <main className="flex flex-1 flex-col items-center px-4 py-8 sm:py-12">
       <div className="w-full max-w-5xl">
-        <Link href={`/${lang}`} className="text-sm font-medium text-brand-600 hover:underline">
+        <Link href={`${basePath}/${lang}`} className="text-sm font-medium text-brand-600 hover:underline">
           ← {group.language === "zh" ? "Tiếng Trung" : group.language === "ko" ? "Tiếng Hàn" : "Tiếng Nhật"}
         </Link>
 
         <div className="mt-2 flex flex-wrap items-end justify-between gap-3">
           <h1 className="text-2xl font-bold tracking-tight text-ink">
-            Nhóm âm <span className="text-brand-600">&ldquo;{group.reading}&rdquo;</span>
+            {group.groupKind === "shape" ? "Nhóm hình" : "Nhóm âm"}{" "}
+            <span className="text-brand-600">&ldquo;{group.reading}&rdquo;</span>
           </h1>
           <Link
-            href={`/${lang}/${group.id}/review`}
+            href={`${basePath}/${lang}/${group.id}/review`}
             className="rounded-full bg-gradient-to-r from-brand-600 to-accent-500 px-4 py-2 text-sm font-semibold text-white shadow-md transition hover:brightness-105"
           >
             🗂️ Ôn tập nhóm này
