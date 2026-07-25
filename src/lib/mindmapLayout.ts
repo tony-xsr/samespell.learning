@@ -31,22 +31,44 @@ const ROOT_CLUSTER_GAP = 70;
 const TOP_MARGIN = 50;
 const SIDE_MARGIN = 130;
 
+// Layout dọc (điện thoại xoay đứng): chỉ 1 cột chữ gốc xuống dưới trung tâm thay vì tách trái/phải,
+// khoảng cách thu hẹp lại để không phải kéo ngang quá nhiều trên màn hình hẹp.
+const V_ROOT_GAP = 100;
+const V_WORD_GAP = 170;
+const V_WORD_STEP = 76;
+const V_CLUSTER_GAP = 46;
+const V_TOP_MARGIN = 110;
+const V_SIDE_MARGIN = 110;
+
+export type MindmapOrientation = "horizontal" | "vertical";
+
 /** Recursively lays out a chain of (possibly nested) words, advancing a shared cursor
  * so a word with children reserves exactly as much vertical space as its descendants need. */
-function placeWords(words: VocabWord[], x: number, side: -1 | 1, cursor: { y: number }): PositionedWord[] {
+function placeWordsWithStep(
+  words: VocabWord[],
+  x: number,
+  side: -1 | 1,
+  cursor: { y: number },
+  step: number,
+  hGap: number,
+): PositionedWord[] {
   return words.map((word) => {
     const children = word.children ?? [];
     if (children.length === 0) {
       const y = cursor.y;
-      cursor.y += WORD_STEP;
+      cursor.y += step;
       return { word, x, y, children: [] };
     }
-    const childX = x + side * WORD_H_GAP;
-    const positionedChildren = placeWords(children, childX, side, cursor);
+    const childX = x + side * hGap;
+    const positionedChildren = placeWordsWithStep(children, childX, side, cursor, step, hGap);
     const ys = positionedChildren.map((c) => c.y);
     const y = (Math.min(...ys) + Math.max(...ys)) / 2;
     return { word, x, y, children: positionedChildren };
   });
+}
+
+function placeWords(words: VocabWord[], x: number, side: -1 | 1, cursor: { y: number }): PositionedWord[] {
+  return placeWordsWithStep(words, x, side, cursor, WORD_STEP, WORD_H_GAP);
 }
 
 function shiftWordTree(pw: PositionedWord, offset: number): PositionedWord {
@@ -94,7 +116,7 @@ function placeSide(roots: RootEntry[], side: -1 | 1, centerX: number, wordHGap: 
   return { nodes, totalHeight: Math.max(cursorY - ROOT_CLUSTER_GAP, TOP_MARGIN) };
 }
 
-export function buildMindmapLayout(group: SoundGroup): MindmapLayout {
+function buildHorizontalLayout(group: SoundGroup): MindmapLayout {
   const half = Math.ceil(group.roots.length / 2);
   const rightRoots = group.roots.slice(0, half);
   const leftRoots = group.roots.slice(half);
@@ -124,6 +146,45 @@ export function buildMindmapLayout(group: SoundGroup): MindmapLayout {
   const width = centerX + ROOT_H_GAP + WORD_H_GAP * maxDepth + SIDE_MARGIN;
 
   return { width, height, centerX, centerY, roots };
+}
+
+/** Mọi chữ gốc xếp thành 1 cột dọc xuống dưới trung tâm (không tách trái/phải), mỗi cụm từ của
+ * 1 chữ gốc vẫn toả sang phải như cũ nhưng khoảng cách thu hẹp — phù hợp màn hình điện thoại dọc,
+ * hướng kéo chính là lên/xuống thay vì phải kéo ngang rộng. */
+function buildVerticalLayout(group: SoundGroup): MindmapLayout {
+  const centerX = V_SIDE_MARGIN;
+  const rootX = centerX + V_ROOT_GAP;
+
+  let cursorY = V_TOP_MARGIN;
+  const nodes: Omit<RootNode, "side" | "colorIndex">[] = [];
+  for (const root of group.roots) {
+    const wordX = rootX + V_WORD_GAP;
+    const startY = cursorY;
+    const cursor = { y: cursorY };
+    const words = root.words.length > 0 ? placeWordsWithStep(root.words, wordX, 1, cursor, V_WORD_STEP, V_WORD_GAP) : [];
+    cursorY = words.length > 0 ? cursor.y : cursorY + V_WORD_STEP;
+    const clusterHeight = cursorY - startY - V_WORD_STEP;
+    const rootY = startY + clusterHeight / 2;
+    nodes.push({ root, x: rootX, y: rootY, words });
+    cursorY += V_CLUSTER_GAP;
+  }
+  const totalHeight = Math.max(cursorY - V_CLUSTER_GAP, V_TOP_MARGIN);
+
+  const height = totalHeight + V_TOP_MARGIN / 2;
+  const centerY = V_TOP_MARGIN / 2;
+  const roots: RootNode[] = nodes.map((n, i) => ({ ...n, side: 1, colorIndex: i }));
+
+  const maxDepth = groupMaxWordDepth(group);
+  const width = rootX + V_WORD_GAP * maxDepth + V_SIDE_MARGIN;
+
+  return { width, height, centerX, centerY, roots };
+}
+
+export function buildMindmapLayout(
+  group: SoundGroup,
+  orientation: MindmapOrientation = "horizontal",
+): MindmapLayout {
+  return orientation === "vertical" ? buildVerticalLayout(group) : buildHorizontalLayout(group);
 }
 
 export function curvePath(x1: number, y1: number, x2: number, y2: number, side: -1 | 1): string {

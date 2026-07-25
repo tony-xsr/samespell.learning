@@ -30,3 +30,14 @@ export async function toggleBookmark(wordId: string): Promise<WordProgress> {
   if (!res.ok) throw new Error(data.error ?? "Không lưu được yêu thích.");
   return data.progress;
 }
+
+export async function toggleMastered(wordId: string): Promise<WordProgress> {
+  const res = await fetch("/api/progress/mastered", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ wordId }),
+  });
+  const data = await res.json();
+  if (!res.ok) throw new Error(data.error ?? "Không lưu được trạng thái đã thuộc.");
+  return data.progress;
+}
