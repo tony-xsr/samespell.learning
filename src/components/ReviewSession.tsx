@@ -1,12 +1,13 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import type { SoundGroup, SrsRating } from "@/types/vocab";
-import { loadProgress, rateWord, toggleBookmark } from "@/lib/progress";
+import { loadProgress, rateWord, toggleBookmark, toggleMastered } from "@/lib/progress";
 import { isDue, RATING_LABELS } from "@/lib/srs";
 import { speak, ttsFailureMessage } from "@/lib/tts";
 import { buildCardsFromGroup, type CardInfo } from "@/lib/reviewCards";
+import { toPinyin } from "@/lib/zhPinyin";
 
 const RATING_STYLE: Record<SrsRating, string> = {
   0: "bg-red-500 hover:bg-red-600",
@@ -44,6 +45,7 @@ export default function ReviewSession({
   const [pendingExpandWord, setPendingExpandWord] = useState(false);
   const [expandedWordIds, setExpandedWordIds] = useState<Set<string>>(new Set());
   const [ttsWarning, setTtsWarning] = useState<string | null>(null);
+  const [masteredBusy, setMasteredBusy] = useState(false);
 
   function handleSpeak(text: string, language: SoundGroup["language"]) {
     speak(text, language).then((r) => {
@@ -56,7 +58,9 @@ export default function ReviewSession({
     (async () => {
       const progress = await loadProgress();
       if (cancelled) return;
-      const allCards: CardInfo[] = groups.flatMap((g) => buildCardsFromGroup(g, progress));
+      const allCards: CardInfo[] = groups
+        .flatMap((g) => buildCardsFromGroup(g, progress))
+        .filter((c) => !c.mastered);
       const due = allCards.filter((c) => isDue(progress[c.word.id]));
       setCards(shuffle(due.length > 0 ? due : allCards));
       setReady(true);
@@ -67,6 +71,11 @@ export default function ReviewSession({
   }, [groups]);
 
   const current = cards[index];
+
+  const examplePinyin = useMemo(() => {
+    if (!current || current.language !== "zh") return "";
+    return toPinyin(current.word.example);
+  }, [current]);
 
   async function handleRate(r: SrsRating) {
     if (!current || rating) return;
@@ -90,6 +99,24 @@ export default function ReviewSession({
       await toggleBookmark(wordId);
     } catch {
       setCards((cs) => cs.map((c) => (c.word.id === wordId ? { ...c, bookmarked: !c.bookmarked } : c)));
+    }
+  }
+
+  async function handleToggleMastered() {
+    if (!current || masteredBusy) return;
+    const wordId = current.word.id;
+    setMasteredBusy(true);
+    // Đánh dấu "đã thuộc" nghĩa là bỏ luôn thẻ này khỏi phiên ôn hiện tại — không cần chấm điểm
+    // nữa, thẻ tiếp theo tự trượt lên đúng vị trí index hiện tại sau khi bỏ.
+    setCards((cs) => cs.filter((c) => c.word.id !== wordId));
+    setFlipped(false);
+    setPendingExpandWord(false);
+    try {
+      await toggleMastered(wordId);
+    } catch {
+      // không rollback lại danh sách để tránh nhảy lộn xộn — lần tải trang sau sẽ đồng bộ lại
+    } finally {
+      setMasteredBusy(false);
     }
   }
 
@@ -262,7 +289,10 @@ export default function ReviewSession({
               <div className="mt-3 flex items-start justify-between gap-2">
                 <div>
                   <div className="text-sm text-ink">{current.word.example}</div>
-                  <div className="text-sm text-ink-muted italic">{current.word.exampleVn}</div>
+                  {examplePinyin && (
+                    <div className="mt-0.5 text-xs text-ink-muted italic">{examplePinyin}</div>
+                  )}
+                  <div className="mt-0.5 text-sm text-ink-muted italic">{current.word.exampleVn}</div>
                 </div>
                 <button
                   onClick={(e) => {
@@ -369,18 +399,27 @@ export default function ReviewSession({
         )}
 
         {flipped && (
-          <div className="mt-4 grid grid-cols-4 gap-2">
-            {([0, 1, 2, 3] as SrsRating[]).map((r) => (
-              <button
-                key={r}
-                onClick={() => handleRate(r)}
-                disabled={rating}
-                className={`rounded-full px-2 py-2.5 text-sm font-semibold text-white shadow-sm transition disabled:opacity-50 ${RATING_STYLE[r]}`}
-              >
-                {RATING_LABELS[r]}
-              </button>
-            ))}
-          </div>
+          <>
+            <div className="mt-4 grid grid-cols-4 gap-2">
+              {([0, 1, 2, 3] as SrsRating[]).map((r) => (
+                <button
+                  key={r}
+                  onClick={() => handleRate(r)}
+                  disabled={rating}
+                  className={`rounded-full px-2 py-2.5 text-sm font-semibold text-white shadow-sm transition disabled:opacity-50 ${RATING_STYLE[r]}`}
+                >
+                  {RATING_LABELS[r]}
+                </button>
+              ))}
+            </div>
+            <button
+              onClick={handleToggleMastered}
+              disabled={masteredBusy}
+              className="mt-2 w-full text-center text-xs font-medium text-green-600 underline decoration-dotted hover:text-green-700 disabled:opacity-50"
+            >
+              {masteredBusy ? "Đang lưu…" : "✅ Đã thuộc kỹ rồi — bỏ qua, không hiện lại trong ôn tập"}
+            </button>
+          </>
         )}
       </div>
     </main>
