@@ -11,6 +11,7 @@ export interface CardInfo {
   rootMeaning: string;
   siblings: { character: string; meaningVn: string }[];
   bookmarked: boolean;
+  mastered: boolean;
 }
 
 export function buildCardsFromGroup(group: SoundGroup, progress: ProgressStore): CardInfo[] {
@@ -27,6 +28,7 @@ export function buildCardsFromGroup(group: SoundGroup, progress: ProgressStore):
         .filter((r) => r.id !== root.id)
         .map((r) => ({ character: r.character, meaningVn: r.meaningVn })),
       bookmarked: Boolean(progress[word.id]?.bookmarked),
+      mastered: Boolean(progress[word.id]?.mastered),
     })),
   );
 }
