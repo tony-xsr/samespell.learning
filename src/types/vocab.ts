@@ -30,6 +30,8 @@ export interface SoundGroup {
   roots: RootEntry[];
   /** Trục nhầm lẫn: "sound" (mặc định, đọc giống nhau) hay "shape" (viết giống nhau, hình cận tự). */
   groupKind?: "sound" | "shape";
+  /** Danh mục chủ đề để gom nhóm trên trang tổng quan (vd "Con người & cơ thể", "Cây cỏ"...). */
+  category?: string;
 }
 
 export interface LanguageData {
