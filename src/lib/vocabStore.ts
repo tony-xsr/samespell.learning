@@ -6,11 +6,21 @@ import { flattenWords } from "@/lib/wordTree";
 import zh from "../../data/zh.json";
 import ko from "../../data/ko.json";
 import ja from "../../data/ja.json";
+import zhShape from "../../data/zh-shape.json";
+import jaShape from "../../data/ja-shape.json";
 
 const STATIC_DATA: Record<Language, LanguageData> = {
   zh: zh as LanguageData,
   ko: ko as LanguageData,
   ja: ja as LanguageData,
+};
+
+// Dữ liệu "nhóm hình" (chữ VIẾT giống nhau, hình cận tự) — trục nhầm lẫn song song với nhóm âm ở
+// trên, chỉ khai báo cho ngôn ngữ nào đã có dữ liệu (hiện chưa làm cho tiếng Hàn vì Hangul dễ phân
+// biệt hơn chữ Hán/Kanji nhiều, xem readme.md).
+const STATIC_SHAPE_DATA: Partial<Record<Language, LanguageData>> = {
+  zh: zhShape as LanguageData,
+  ja: jaShape as LanguageData,
 };
 
 const ALL_LANGUAGES: Language[] = ["zh", "ko", "ja"];
@@ -19,10 +29,13 @@ interface DynamicAdditions {
   extraWords: Record<string, VocabWord[]>;
   extraRoots: Record<string, RootEntry[]>;
   wordChildren: Record<string, VocabWord[]>;
+  /** Nhóm âm hoàn toàn mới do người dùng gõ 1 từ trên trang ngôn ngữ chung rồi AI tạo mindmap
+   * (xem addExtraGroup) — khác với extraRoots (thêm chữ gốc vào nhóm CÓ SẴN). */
+  extraGroups: SoundGroup[];
 }
 
 function emptyAdditions(): DynamicAdditions {
-  return { extraWords: {}, extraRoots: {}, wordChildren: {} };
+  return { extraWords: {}, extraRoots: {}, wordChildren: {}, extraGroups: [] };
 }
 
 function kvKey(lang: Language): string {
@@ -36,6 +49,7 @@ async function loadAdditions(lang: Language): Promise<DynamicAdditions> {
       extraWords: data?.extraWords ?? {},
       extraRoots: data?.extraRoots ?? {},
       wordChildren: data?.wordChildren ?? {},
+      extraGroups: data?.extraGroups ?? [],
     };
   } catch {
     // KV chưa cấu hình (vd. chạy local chưa có Upstash) — dùng dữ liệu tĩnh, bỏ qua phần mở rộng.
@@ -90,9 +104,11 @@ export async function getLanguageData(lang: string): Promise<LanguageData | unde
     loadAdditions(lang as Language),
     getMnemonicMap(lang as Language),
   ]);
+  const staticGroups = staticData.groups.map((g) => applyMnemonics(mergeGroup(g, additions), mnemonics));
+  const newGroups = additions.extraGroups.map((g) => applyMnemonics(mergeGroup(g, additions), mnemonics));
   return {
     ...staticData,
-    groups: staticData.groups.map((g) => applyMnemonics(mergeGroup(g, additions), mnemonics)),
+    groups: [...staticGroups, ...newGroups],
   };
 }
 
@@ -103,6 +119,32 @@ export async function getLanguages(): Promise<LanguageData[]> {
 
 export async function getSoundGroup(lang: string, groupId: string): Promise<SoundGroup | undefined> {
   const data = await getLanguageData(lang);
+  return data?.groups.find((g) => g.id === groupId);
+}
+
+/** Tương tự getLanguageData nhưng đọc từ dữ liệu "nhóm hình" (groupKind: "shape"). Dùng chung
+ * loadAdditions/mergeGroup/applyMnemonics vì rootId/groupId của nhóm hình đã có tiền tố "-shape-"
+ * riêng, không đụng namespace với nhóm âm trong cùng 1 KV bucket theo ngôn ngữ. */
+export async function getShapeLanguageData(lang: string): Promise<LanguageData | undefined> {
+  const staticData = STATIC_SHAPE_DATA[lang as Language];
+  if (!staticData) return undefined;
+  const [additions, mnemonics] = await Promise.all([
+    loadAdditions(lang as Language),
+    getMnemonicMap(lang as Language),
+  ]);
+  return {
+    ...staticData,
+    groups: staticData.groups.map((g) => applyMnemonics(mergeGroup(g, additions), mnemonics)),
+  };
+}
+
+export async function getShapeLanguages(): Promise<LanguageData[]> {
+  const results = await Promise.all(ALL_LANGUAGES.map((l) => getShapeLanguageData(l)));
+  return results.filter((d): d is LanguageData => !!d);
+}
+
+export async function getShapeGroup(lang: string, groupId: string): Promise<SoundGroup | undefined> {
+  const data = await getShapeLanguageData(lang);
   return data?.groups.find((g) => g.id === groupId);
 }
 
@@ -129,6 +171,12 @@ export async function addExtraRoot(lang: Language, groupId: string, root: RootEn
 export async function addWordChildren(lang: Language, wordId: string, children: VocabWord[]): Promise<void> {
   const additions = await loadAdditions(lang);
   additions.wordChildren[wordId] = [...(additions.wordChildren[wordId] ?? []), ...children];
+  await kvSet(kvKey(lang), additions);
+}
+
+export async function addExtraGroup(lang: Language, group: SoundGroup): Promise<void> {
+  const additions = await loadAdditions(lang);
+  additions.extraGroups = [...additions.extraGroups, group];
   await kvSet(kvKey(lang), additions);
 }
 
