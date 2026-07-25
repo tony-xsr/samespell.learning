@@ -32,6 +32,12 @@ export default async function RootLayout({
                 <span className="text-lg">📖</span> SameSpell
               </Link>
               <div className="flex items-center gap-2">
+                <Link
+                  href="/stats"
+                  className="rounded-full bg-white/15 px-3 py-1 text-xs font-medium hover:bg-white/25"
+                >
+                  📊 Thống kê
+                </Link>
                 {role === "admin" && (
                   <Link
                     href="/admin"

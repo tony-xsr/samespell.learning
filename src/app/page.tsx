@@ -25,6 +25,13 @@ export default async function Home() {
           🎲 Ôn tập ngẫu nhiên tất cả ngôn ngữ
         </Link>
 
+        <Link
+          href="/shapes"
+          className="mt-3 flex items-center justify-center gap-2 rounded-2xl border-2 border-dashed border-accent-400 px-5 py-3 text-sm font-semibold text-accent-600 transition hover:bg-accent-500/5"
+        >
+          ✍️ Khám phá nhóm hình chữ (形近字) mới
+        </Link>
+
         <div className="mt-3 flex flex-col gap-3">
           {languages.map((lang) => {
             const total = lang.groups.reduce((sum, g) => sum + wordCount(g), 0);

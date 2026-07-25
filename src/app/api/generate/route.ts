@@ -2,10 +2,15 @@ import { NextRequest, NextResponse } from "next/server";
 import { z } from "zod";
 import { generateStructured } from "@/lib/ai/generate";
 import { ExpandRootSchema, NewRootSchema } from "@/lib/ai/schemas";
-import { buildExpandRootPrompt, buildNewRootPrompt, buildExpandWordPrompt } from "@/lib/ai/prompts";
-import { addExtraWords, addExtraRoot, addWordChildren } from "@/lib/vocabStore";
+import {
+  buildExpandRootPrompt,
+  buildNewRootPrompt,
+  buildExpandWordPrompt,
+  buildNewGroupPrompt,
+} from "@/lib/ai/prompts";
+import { addExtraWords, addExtraRoot, addWordChildren, addExtraGroup } from "@/lib/vocabStore";
 import { genId } from "@/lib/id";
-import type { RootEntry, VocabWord } from "@/types/vocab";
+import type { RootEntry, SoundGroup, VocabWord } from "@/types/vocab";
 
 const RequestSchema = z.discriminatedUnion("mode", [
   z.object({
@@ -34,6 +39,12 @@ const RequestSchema = z.discriminatedUnion("mode", [
     reading: z.string(),
     meaningVn: z.string(),
     existingChildHeadwords: z.array(z.string()).default([]),
+  }),
+  z.object({
+    mode: z.literal("new-group"),
+    language: z.enum(["zh", "ko", "ja"]),
+    word: z.string().min(1),
+    existingReadings: z.array(z.string()).default([]),
   }),
 ]);
 
@@ -79,6 +90,31 @@ export async function POST(req: NextRequest) {
       const children: VocabWord[] = result.words.map((w) => ({ ...w, id: genId("word") }));
       await addWordChildren(input.language, input.wordId, children);
       return NextResponse.json({ children });
+    }
+
+    if (input.mode === "new-group") {
+      const prompt = buildNewGroupPrompt({
+        language: input.language,
+        word: input.word,
+        existingReadings: input.existingReadings,
+      });
+      const result = await generateStructured(NewRootSchema, prompt);
+      const root: RootEntry = {
+        id: genId("root"),
+        character: result.character,
+        hanViet: result.hanViet,
+        meaningVn: result.meaningVn,
+        reading: result.reading,
+        words: result.words.map((w) => ({ ...w, id: genId("word") })),
+      };
+      const group: SoundGroup = {
+        id: genId("group"),
+        language: input.language,
+        reading: result.reading,
+        roots: [root],
+      };
+      await addExtraGroup(input.language, group);
+      return NextResponse.json({ group });
     }
 
     // mode === "new-root"
