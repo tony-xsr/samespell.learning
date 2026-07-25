@@ -146,8 +146,424 @@ soạn phát hiện và sửa 1 lỗi thật: gõ nhầm tiếng Anh "support" t
 bắt được nhờ luôn đọc lại kết quả trước khi coi là xong. Tổng hiện tại: **53 nhóm tiếng Trung** (36
 độc thể tự + 17 hình thanh tự), **24 nhóm tiếng Nhật**.
 
-Còn rất nhiều họ thanh phù khác chưa khai thác (者/每/尧/化/由/加/台...), đây là nguồn nội dung LỚN
-HƠN NHIỀU so với độc thể tự đã gần cạn — nên là hướng ưu tiên nếu tiếp tục mở rộng trục hình chữ.
+**Vòng kế tiếp**: thêm 3 họ ZH-only — **者** (猪/诸/都/煮 — 猪 nghĩa "lợn" khác nghĩa tiếng Nhật
+"lợn rừng", nên không mirror), **台** (抬/胎/怠/治 — minh hoạ rõ thanh phù chỉ gợi ý GẦN đúng: 4 chữ
+đọc khá khác nhau dù cùng hình 台), **加** (架/驾/嫁/茄 — 驾 phồn thể/Nhật là 駕 phức tạp hơn nên cả
+họ để ZH-only). Tổng hiện tại: **56 nhóm tiếng Trung** (36 độc thể tự + 20 hình thanh tự), **24
+nhóm tiếng Nhật**.
+
+**Vòng kế tiếp**: thêm 2 họ — **每** (海/梅/悔/霉, mirror 3/4 sang tiếng Nhật dùng 毎 — biến thể
+Nhật của 每 — bỏ 霉 vì không phải kanji thường dùng ở Nhật), **由** (油/邮/抽, ZH-only — phát hiện
+1 bẫy mới: 邮 phồn thể/Nhật là 郵, dùng hẳn 垂 thay vì 由 làm thanh phù, khác hoàn toàn hình dạng,
+không giống các bẫy giản thể-đơn-giản trước đó chỉ đổi bộ thủ). Tổng hiện tại: **58 nhóm tiếng
+Trung** (36 độc thể tự + 22 hình thanh tự), **25 nhóm tiếng Nhật**.
+
+**Vòng kế tiếp**: thêm 2 họ — **反** (饭/板/返/版, mirror 3/4 sang tiếng Nhật — bỏ 饭 vì phồn thể/
+Nhật là 飯 dùng 食 đầy đủ thay vì 饣), **果** (棵/颗/裸/课, ZH-only — có 2 lượng từ 棵/颗 dùng để đếm
+cây và vật tròn nhỏ, ví dụ minh hoạ dạng cụm từ "一棵树"/"一颗星" thay vì từ đơn lẻ, vẫn là vốn từ
+rất cơ bản dù không phải "từ" theo nghĩa thông thường). Tổng hiện tại: **60 nhóm tiếng Trung** (36
+độc thể tự + 24 hình thanh tự), **26 nhóm tiếng Nhật**.
+
+**Vòng kế tiếp**: thêm 2 họ ZH-only — **尧** (烧/浇/晓/绕, từ vựng rất thông dụng nhưng phồn thể/
+Nhật đổi cả 4 bộ thủ + phần 尧→尭 hơi khác nên bỏ qua mirror), **甫** (捕/浦/铺/哺 — lưu ý bắt được 1
+bẫy mới: 补 (vá) trông giống nhưng KHÔNG thuộc họ này vì giản thể đã đổi 甫 thành 卜, khác thanh phù
+hẳn, không phải chỉ đổi bộ thủ như các bẫy trước). Tổng hiện tại: **62 nhóm tiếng Trung** (36 độc
+thể tự + 26 hình thanh tự), **26 nhóm tiếng Nhật**.
+
+**Vòng kế tiếp** (theo yêu cầu "ưu tiên thanh phù đẻ ra nhiều chữ nhất trước"): tra cứu được danh
+sách thanh phù NĂNG SẢN NHẤT tiếng Trung (占, 包, 交, 分, 青 đều ~30-33 chữ phái sinh — đã làm hết
+4/5 trước đó) — thêm 2 họ lớn còn thiếu: **占** (站/战/沾/贴/点, 5 chữ, thanh phù năng sản bậc nhất
+với ~30 chữ phái sinh, chọn 5 chữ từ vựng thông dụng nhất) và **隹** (难/准/谁/推, cũng rất năng
+sản — chuy, bộ chim đuôi ngắn). Cả 2 đều ZH-only vì phồn thể/Nhật đổi khác nhiều (战→戦 cấu trúc
+khác hẳn, 难→難 phức tạp hơn nhiều). Tổng hiện tại: **64 nhóm tiếng Trung** (36 độc thể tự + 28 hình
+thanh tự), **26 nhóm tiếng Nhật**.
+
+**Vòng kế tiếp**: thêm **兆** (桃/逃/跳/挑, mirror sang tiếng Nhật thành công — có 桃太郎 Đào Thái
+Lang và 挑戦 rất quen thuộc) và **冈** (刚/钢/纲, ZH-only — đặc biệt cả 3 chữ đọc GIỐNG HỆT NHAU dù
+khác bộ thủ, phồn thể/Nhật dùng 岡 khác hẳn 冈). Tổng hiện tại: **66 nhóm tiếng Trung** (36 độc thể
+tự + 30 hình thanh tự), **27 nhóm tiếng Nhật**. Lưu ý: trong lúc soạn bắt được 1 lần trùng headword
+"逃跑" với từ đã dùng ở họ 包 (bao-zu) trước đó — sửa thành "逃走".
+
+**Vòng kế tiếp**: thêm **己** (记/纪/忌/起, mirror sang tiếng Nhật dùng 記/紀 phồn thể — 己 vốn đã
+dùng làm chữ gốc độc lập ở nhóm 己/已/巳 trước đó, giờ tái dùng ở vai trò KHÁC hẳn: thanh phù trong
+chữ ghép) và **京** (惊/景/鲸/凉, ZH-only — phát hiện 惊 phồn thể/Nhật là 驚 đổi hẳn sang thanh phù
+敬, không còn giữ 京 nữa, khác kiểu bẫy thông thường chỉ đổi bộ thủ). Tổng hiện tại: **68 nhóm tiếng
+Trung** (36 độc thể tự + 32 hình thanh tự), **28 nhóm tiếng Nhật**.
+
+**Vòng kế tiếp** (theo yêu cầu tra cứu có hệ thống hơn qua các bộ thủ/thanh phù còn lại): thêm
+**曾** (增/憎/赠/僧, mirror sang tiếng Nhật dùng 曽 — biến thể Nhật của 曾, giống kiểu 每/毎 đã làm
+trước; lưu ý bắt được 层 KHÔNG thuộc họ này vì giản thể đã rút gọn hẳn, mất hình 曾) và **中**
+(忠/仲/冲/肿, ZH-only vì 肿 phồn thể/Nhật là 腫 đổi hẳn thanh phù sang 重). Tổng hiện tại: **70 nhóm
+tiếng Trung** (36 độc thể tự + 34 hình thanh tự), **29 nhóm tiếng Nhật**.
+
+**Phương pháp mới theo đề xuất người dùng**: thay vì tìm từng thanh phù một, tra cứu 1 lượt danh
+sách các thanh phù "năng sản nhất" (組字能力最強) — nguồn xác nhận thêm **各, 令, 且, 分, 占, 干, 合**
+là nhóm mạnh nhất (令/且/分/占 đã làm trước đó). Thêm 2 họ còn thiếu: **各** (格/客/路/落, mirror
+sang tiếng Nhật thành công) và **合** (盒/鸽/给/哈, ZH-only). Tổng hiện tại: **72 nhóm tiếng Trung**
+(36 độc thể tự + 36 hình thanh tự), **30 nhóm tiếng Nhật**. Cách tra cứu-theo-danh-sách này hiệu quả
+hơn hẳn tìm từng cái — nên áp dụng tiếp cho các vòng sau: tìm thêm danh sách thanh phù năng sản
+(không chỉ top 7 mà cả nhóm hạng trung, thường vẫn cho 3-5 chữ chất lượng) rồi lọc theo độ phổ biến
+từ vựng trước khi soạn.
+
+**Kiểm tra độ đầy đủ (theo yêu cầu người dùng)**: tra thêm 1 lượt, phát hiện danh sách top-7 CHƯA
+đầy đủ — còn 1 tầng "hạng 2" (欠, 见, 隹, 皮, 斤, 殳), trong đó 隹/皮 đã làm. Tra cứu tiếp 欠 và 斤 thì
+phát hiện quan trọng: cả 2 đều là BỘ THỦ NGHĨA (không phải thanh phù thật) — các chữ dùng chúng đọc
+hoàn toàn khác nhau (次/软/吹/歌 = cì/ruǎn/chuī/gē), khác hẳn tiêu chí "cùng thanh phù → đọc gần
+giống nhau" đã dùng xuyên suốt. Bảng xếp hạng gốc đo "tần suất xuất hiện bên phải chữ" nên lẫn cả
+bộ thủ nghĩa lẫn thanh phù thật — phải tự lọc lại. Kết luận: danh sách thanh phù THẬT SỰ năng sản
+nhất coi như đã khai thác hết (各/令/且/分/占/干/合/隹/皮).
+
+**Chuyển sang "đi sâu"**: mở rộng thêm thành viên cho các họ lớn đã có thay vì tạo họ mới nông —
+thêm 精/静/蜻 vào họ 青 (5→8 thành viên, nhóm lớn nhất hiện tại) và 店 vào họ 占 (5→6), 胞 vào họ 包
+(5→6). Verify qua app thật: nhóm 8-thành-viên (青) và 6-thành-viên (占) vẫn render đẹp, layout tự
+co giãn hợp lý (65-85% zoom tuỳ độ rộng). Đây là hướng nên tiếp tục — còn khá nhiều họ khác (交/分/
+半/己/生/工/古/皮/寺/由/反/果/尧/甫/每/兆/己/京/曾/中/各/合) có thể mở rộng thêm 1-2 thành viên mỗi
+họ mà không cần tìm thanh phù mới.
+
+**Vòng đi sâu tiếp theo**: mở rộng thêm 2 họ nữa — 分 (4→6, thêm 盆/扮) và 半 (5→7, thêm 叛/胖— nhóm
+7-thành-viên, verify layout vẫn đẹp qua app thật). Tổng vẫn 72 nhóm tiếng Trung (không tạo nhóm mới,
+chỉ làm giàu nhóm sẵn có) — 762 id, không trùng lặp.
+
+**Vòng đi sâu tiếp theo nữa** (trả lời "đã đầy đủ chưa?"): CHƯA đầy đủ — tiếp tục mở rộng 4 họ:
+交 (5→7, thêm 效/跤), 生 (4→5, thêm 胜 — minh hoạ rõ trường hợp cùng thanh phù nhưng đọc lệch hẳn
+sang shèng), 皮 (5→6, thêm 玻 — từ 玻璃/thủy tinh rất phổ biến), 己 (4→5, thêm 杞 — chỉ dùng cho
+từ 枸杞/kỷ tử). Ghi chú riêng: 杞 KHÔNG phải chữ joyo bên Nhật nên chỉ thêm ở data/zh-shape.json,
+không mirror sang ja-shape.json (mọi họ khác thêm lần này cũng không cần mirror mới vì ja-shape đã
+có sẵn từ trước hoặc không đủ phổ biến bên Nhật). Tổng hiện tại: **72 nhóm tiếng Trung, 775 id, 463
+headword — không trùng lặp**; **30 nhóm tiếng Nhật, 254 id, 148 headword — không trùng lặp**. Verify
+qua app thật (tsc + eslint sạch, Playwright screenshot 4 nhóm 皮/己/交/生 đều render đúng, không lỗi
+console). Các họ còn lại có thể đào sâu thêm: 工/古/寺/由/反/果/尧/甫/每/兆/京/曾/中/各/合/占/包/半/分.
+
+**Quay lại "mở rộng" theo đúng đề xuất gốc của người dùng** (research liệt kê thanh phù trước, tạo
+nhóm trước, vocab sau) — người dùng nhận xét 72 nhóm còn ít so với số lượng thanh phù năng sản thực
+tế trong tiếng Trung, nên ưu tiên TẠO NHÓM MỚI (breadth) thay vì tiếp tục đào sâu nhóm cũ. Research +
+verify qua WebSearch (pinyin thực tế của từng chữ phái sinh, không đoán) 8 họ thanh phù hoàn toàn
+mới, thêm vào data/zh-shape.json:
+- **方** (7 thành viên: 访/仿/放/芳/房/纺/防) — họ năng sản mạnh, đọc gần giống hệt nhau.
+- **票** (3 thành viên: 漂/飘/缥) — họ nhỏ hơn, 漂 có 3 âm đọc tuỳ nghĩa (piāo/piǎo/piào).
+- **其** (4 thành viên: 期/欺/棋/旗) — lưu ý phát hiện quan trọng: 骑 (cưỡi) trông giống nhưng thanh
+  phù thật là **奇** chứ không phải 其 — dễ nhầm 2 bộ phận nhìn giống nhau, đã loại 骑 ra khỏi nhóm.
+- **尤** (4 thành viên: 优/忧/犹/鱿) — pinyin không dấu trùng với họ 由 (you) đã có sẵn, phải đặt id
+  riêng (zh-shape-you2) và ghi chú rõ để tránh nhầm 2 họ.
+- **令** (5 thành viên: 冷/邻/铃/岭/龄) — khai thác từ chữ 令 vốn trước đó chỉ dùng làm cặp độc thể
+  今·令; giờ mới mở rộng sang họ hình thanh tự đầy đủ của nó.
+- **且** (4 thành viên: 租/组/祖/阻) — tương tự, 且 trước đó chỉ có cặp 且·旦; đọc LỆCH hẳn sang zū/zǔ
+  (giống ca 生→牲/胜) nhưng vẫn đúng tiêu chí vì tự nó là 1 họ đọc giống nhau.
+- **干** (5 thành viên: 杆/竿/肝/赶/秆) — tương tự, tách từ cặp độc thể 千·干; 干 là 1 trong các thanh
+  phù năng sản nhất (hơn 50 chữ phái sinh theo nguồn tra cứu).
+- **至** (4 thành viên: 致/窒/侄/蛭) — cẩn thận loại bỏ 到 (dào) và 室 (shì) dù cùng chứa 至, vì đọc
+  lệch quá xa so với tiêu chí "đọc gần giống nhau", tránh làm loãng nhóm.
+
+Tất cả 8 họ mới đều **ZH-only trong vòng này** — chưa mirror sang ja-shape.json vì cần kiểm tra kỹ
+độ phổ biến joyo kanji của từng chữ trước (ví dụ 仿 tiếng Nhật dùng 倣 — không phải chữ joyo — nên
+mirror cả nhóm 方 sẽ cần loại riêng biệt từng thành viên, để lại cho vòng sau). Không đoán hanViet
+cho các chữ chưa chắc (纺/鱿/赶/秆/致/窒/蛭 — để trống field hanViet).
+
+Kết quả: **80 nhóm tiếng Trung (72→80), 877 id, 521 headword — không trùng lặp**; tsc + eslint sạch;
+Playwright kiểm tra cả 8 nhóm mới không có lỗi console, layout render đúng kể cả nhóm 7-thành-viên
+(方) lẫn nhóm 3-thành-viên nhỏ (票). ja-shape.json không đổi (vẫn 30 nhóm, 254 id, 148 headword).
+
+**Vòng "tạo khung nhóm rỗng, chưa cần từ vựng"** (theo yêu cầu: đầy đủ cả 2 ngôn ngữ trước, vocab
+điền sau — app đã có sẵn nút "✨ Thêm từ" theo từng root + cơ chế `runExpandBatch`/AI tự động điền
+từ cho root nào < 5 từ, nên tạo khung trước là hợp lý, khỏi phí công viết ví dụ ngay). Làm 2 việc:
+
+1. **Thêm 1 họ ZH mới**: 奇 (骑/绮/崎/寄) — phát hiện quan trọng khi làm 其 tuần trước: 骑 (cưỡi)
+   trông giống nhưng KHÔNG cùng họ với 其 (thanh phù thật là 奇), giờ tách hẳn thành họ riêng.
+2. **Mirror 21 họ hình thanh tự ZH-only sẵn có sang tiếng Nhật** (trước đó chỉ có 8/44 họ có bản
+   Nhật): 青→sei2, 交→kou, 包→hou, 主→juu, 工→kou2, 古→ko, 皮→ha, 里→ri, 者→sha, 台→tai, 占→ten,
+   隹→sui, 冈→gou (Nhật dùng dạng phồn thể đầy đủ 岡), 京→kei, 中→chuu, 方→hou2, 其→ki2, 令→rei,
+   且→so, 也→ya, 相→sou. Mỗi họ đều lọc bớt thành viên không phải joyo kanji ở Nhật hoặc rơi vào
+   bẫy giản thể đã biết trước — ví dụ 惊 (họ 京) và 肿 (họ 中) đã đổi hẳn thanh phù thật khi giản
+   lược nên bị loại; 邻 (họ 令) tiếng Nhật/phồn thể dùng 隣 (từ 粦) hoàn toàn không liên quan đến
+   令, chỉ là trùng hợp bên giản thể; 战 (họ 占) cũng vậy — phồn thể là 戰 (từ 單) chứ không phải
+   từ 占. Verify joyo-kanji qua WebSearch cho các trường hợp không chắc (xác nhận 剛/棋 LÀ joyo,
+   xác nhận 姪/舗 KHÔNG phải joyo nên bỏ luôn 2 họ 至/甫 vì sau khi lọc chỉ còn 2 thành viên, quá
+   mỏng). Các họ quá mỏng sau khi lọc (chỉ còn 1-2 thành viên joyo) bị bỏ qua hẳn: 至, 甫, 尤, 干,
+   票, 巴, 元, 采, 由, 果, 尧, 合, 加, 分, 半.
+
+Tất cả nhóm mới đều **để `words: []` (rỗng)** — chỉ có khung: ký tự + hanViet (khi chắc chắn) +
+nghĩa tiếng Việt ngắn + giải thích bộ thủ. Người dùng có thể xem ngay cấu trúc nhóm trong app, dùng
+nút "✨ Thêm từ" để AI điền từ vựng cho từng root khi cần.
+
+Kết quả: **81 nhóm tiếng Trung** (882 id, 521 headword — không trùng lặp); **51 nhóm tiếng Nhật**
+(30→51, 351 id, 148 headword — không trùng lặp). tsc + eslint sạch. Playwright xác nhận layout với
+`words: []` không bị lỗi/crash — root hiện đúng với nút "Thêm từ", cả bên ZH (骑绮崎寄) lẫn JA (方
+6-thành-viên, 岡 3-thành-viên).
+
+**Vòng "chuyển sang cách research có hệ thống"** — người dùng hỏi thẳng "sao ít nhóm vậy, 2 bộ thủ
+random gộp lại chẳng phải sẽ ra rất nhiều nhóm sao?". Nhận ra cách research thủ công (mỗi lần
+WebSearch 1 họ) không thể theo kịp quy mô thật của tiếng Trung — nên đổi cách tiếp cận: tải dữ liệu
+mở **cjkvi-ids** (bảng phân rã hình chữ Hán thành các cấu kiện, ví dụ 清 = ⿰氵青) và **hanziDB**
+(bảng tần suất dùng + pinyin cho ~9900 chữ Hán thường dùng), viết script Node.js đối chiếu 2 bảng
+này để **tự động dò ra mọi cấu kiện xuất hiện bên phải (hoặc bên dưới) của ≥3 chữ thường dùng
+(rank ≤ 3000) mà các chữ đó đọc gần giống nhau (cùng vần)** — thay vì nhớ/tra từng họ một theo trí
+nhớ hoặc từng câu WebSearch riêng lẻ. Kết quả: chỉ riêng 1 lần chạy đã lộ ra **51 họ thanh phù mới**
+chưa từng được khai thác (几, 旁, 马, 丁, 少, 长, 仑, 申, 召, 亥, 乔, 俞, 喿, 莫, 勾, 卜, 义, 王, 及,
+支, 只, 正, 旦, 巨, 圭, 艮, 朱, 夹, 我, 肖, 矣, 佥, 宛, 咅, 尚, 直, 宗, 枼, 畐, 尃, 䍃, 粦, 丑, 奂, 匋,
+夆, 肙, 胡, 㐬, 星, 兰) — xác nhận trực tiếp trực giác của người dùng: không gian thật lớn hơn nhiều
+so với 44 họ tìm thủ công trước đó.
+
+Phát hiện thú vị trong lúc lọc dữ liệu:
+- Nhiều họ có ĐỘ TRÙNG HÁN VIỆT tuyệt đối, không chỉ trùng pinyin — ví dụ 几-family (机/玑/肌/讥/饥)
+  đều đọc "cơ"; 喿-family (噪/澡/燥/躁) đều đọc "táo"; 咅-family (培/赔/陪) đều đọc "bồi"; 枼-family
+  (碟/蝶/谍) đều đọc "điệp"; 粦-family (磷/鳞/麟) đều đọc "lân"; 夆-family (峰/蜂/锋) đều đọc "phong";
+  肙-family (娟/捐/绢) đều đọc "quyên"; 胡-family (湖/糊/蝴) đều đọc "hồ"; 㐬-family (流/琉/硫) đều
+  đọc "lưu"; 尃-family (博/搏/膊) đều đọc "bác"; 䍃-family (摇/瑶/谣) đều đọc "dao" — càng củng cố
+  mức độ dễ nhầm lẫn.
+- Phát hiện hiện tượng "lồng nhau nhiều tầng": 星 vốn đã là 1 thành viên của họ 生 (生→星), nhưng
+  bản thân 星 lại là THANH PHÙ cho 1 tầng chữ mới (猩/腥/醒) — ghi chú rõ trong nhóm để không gây
+  nhầm lẫn 2 tầng.
+- Họ 只 (帜/织/职) là hiện tượng CHỈ CÓ ở giản thể Trung Quốc — phồn thể gốc dùng thanh phù 戠 chứ
+  không phải 只, nên đánh dấu rõ "không mirror sang tiếng Nhật".
+- Nhiều cấu kiện chỉ tồn tại như "âm phù" cổ, không dùng độc lập trong tiếng Trung hiện đại (喿, 咅,
+  枼, 畐, 尃, 䍃, 粦, 丑*, 奂, 夆, 肙, 㐬) — vẫn ghi chú rõ trong `note` để người học không nhầm là
+  chữ có thể dùng riêng.
+
+Về mặt kỹ thuật: viết script tạm (không đưa vào repo, chỉ chạy 1 lần trong scratchpad) tự sinh cấu
+trúc JSON cho cả 51 nhóm từ bảng dữ liệu đã lọc, rồi ghép vào `data/zh-shape.json`. Việc ghép bằng
+`JSON.stringify` mặc định làm hỏng định dạng gọn (mỗi từ vựng 1 dòng) đã dùng xuyên suốt — phát hiện
+và sửa ngay bằng 1 hàm serialize tùy chỉnh giữ nguyên style cũ (word object luôn in trên 1 dòng).
+Cũng phát hiện và sửa id các root ban đầu lỡ dùng thẳng ký tự Hán (vd `zh-shape-ji3-机`) thay vì theo
+đúng quy ước phiên âm đã dùng cả file (đổi lại thành `zh-shape-ji3-ji` v.v.).
+
+Tất cả 51 nhóm đều **`words: []`** (khung trước, vocab sau — theo đúng yêu cầu). Kết quả cuối:
+**132 nhóm tiếng Trung** (81→132, 1104 id, 521 headword — không trùng lặp); ja-shape.json không đổi
+vòng này (vẫn 51 nhóm). tsc + eslint sạch. Playwright xác nhận nhiều nhóm mới render đúng, không lỗi
+console — kể cả các nhóm dùng cấu kiện Hán tự hiếm (粦, 䍃) hiển thị bình thường trên trình duyệt.
+
+Hướng tiếp theo nếu muốn mở rộng hơn nữa: hạ ngưỡng lọc (rank ≤ 3000 → 4000+, hoặc bestCount ≥ 3 →
+≥ 2) sẽ lộ thêm nhiều họ nữa nhưng chất lượng/độ phổ biến giảm dần; hoặc chạy phân tích tương tự cho
+cấu trúc ⿱ (trên-dưới) và ⿲ (3 phần) chứ không chỉ ⿰ (trái-phải) đã làm; hoặc dùng lại pipeline này
+để mirror hàng loạt sang tiếng Nhật (cần thêm 1 bảng joyo-kanji + shinjitai mapping để lọc tự động
+thay vì WebSearch từng chữ như các vòng trước).
+
+**Vòng "cào tối đa theo độ thông dụng"** — người dùng xác nhận hài lòng với hướng data-driven, yêu
+cầu cào thêm càng nhiều càng tốt, ưu tiên theo tần suất dùng thực tế, và báo cáo trung thực khi cạn
+tài nguyên. Mở rộng pipeline theo đúng gợi ý ở vòng trước:
+- Nâng ngưỡng tần suất từ rank ≤ 3000 lên **rank ≤ 4500**.
+- Phân tích thêm **cả 4 vị trí cấu trúc** (không chỉ ⿰-phải như trước): ⿰-trái, ⿰-phải, ⿱-trên,
+  ⿱-dưới. Phát hiện quan trọng: ⿰-trái và ⿱-dưới hầu như luôn là BỘ THỦ NGHĨA (讠亻纟月忄扌土阝心
+  艹氵灬 v.v.), không phải thanh phù thật — nếu gộp theo 2 vị trí này sẽ tạo ra các nhóm SAI (chữ
+  chỉ tình cờ đọc giống nhau qua các thanh phù KHÁC NHAU, ví dụ nhóm giả "心" ở vị trí dưới gồm
+  慧/惠/恚 — 3 chữ đọc gần giống hệt "huì" nhưng 3 thanh phù thật của chúng lại khác nhau hoàn toàn
+  彗/⑧/圭). Phát hiện này quan trọng — đã loại bỏ hoàn toàn 2 vị trí ⿰-trái/⿱-dưới khỏi thuật toán,
+  chỉ giữ ⿰-phải và ⿱-trên (đúng vị trí thanh phù thật sự trong đa số trường hợp).
+- Tự động trích xuất danh sách 99 thanh phù ĐÃ DÙNG từ chính `data/zh-shape.json` (regex trên field
+  `note`/`reading`) thay vì gõ tay danh sách loại trừ — tránh trùng lặp chắc chắn hơn.
+
+Kết quả 1 lần chạy: lộ ra **135 candidate mới**, sau khi lọc thủ công loại 3 trường hợp giả (nhóm
+艹-wei, 竹-ji, 亦-luan — cùng lỗi "bộ thủ nghĩa tình cờ đọc giống nhau" nêu trên dù nằm ở vị trí
+⿱-trên) còn lại **113 họ thanh phù mới xác thực**, được thêm vào `data/zh-shape.json` (khung —
+`words: []`, dùng đúng field pinyin/tần suất từ hanziDB để chọn nghĩa + Hán Việt cho từng chữ, không
+đoán). Trong đó phát hiện thêm rất nhiều case "trùng Hán Việt tuyệt đối" tương tự vòng trước: 夬-family
+(决诀抉→quyết), 屈-family(掘崛倔→quật), 皇-family(煌惶蝗徨隍→hoàng, 5/5), 甬-family(涌踊蛹俑→dũng),
+夋-family(俊峻骏竣浚→tuấn, 5/5), 它-family(陀驼鸵沱→đà), 曹/需/龙/宁/宾... rất nhiều.
+
+Vấn đề kỹ thuật phát sinh và đã xử lý:
+- 6 cấu kiện thanh phù rơi vào vùng Unicode CJK mở rộng hiếm (𠃓𢀖𠬤𫇦𦐇𫥎, mã U+20000+ trở lên) —
+  khi hiển thị trên trình duyệt, 1 trường hợp (𢀖, họ 经径胫泾) bị font hệ thống thay thế nhầm thành
+  chữ 圣 hoàn toàn khác nghĩa, gây hiểu lầm. Đã sửa: thay literal glyph trong `reading`/`note` bằng
+  mô tả bằng lời ("cấu kiện cổ, dạng hiếm...") cho cả 6 nhóm này — các CHỮ THÀNH VIÊN thực tế (经/径/
+  胫/泾, 营/莹/莺/荧/萤/萦, v.v.) đều là chữ thường dùng, hiển thị bình thường, không bị ảnh hưởng.
+- Nhiều chữ trong 1 nhóm có cùng pinyin hệt nhau (đúng theo tiêu chí) khiến id root tự sinh theo
+  pinyin bị trùng — sửa bằng cách tự thêm hậu tố số thứ tự khi phát hiện trùng trong cùng 1 nhóm.
+
+Kết quả cuối: **245 nhóm tiếng Trung** (132→245, 1609 id, 521 headword — không trùng lặp). tsc +
+eslint sạch. Playwright xác nhận không có lỗi console kể cả các nhóm dùng cấu kiện hiếm. ja-shape.json
+không đổi vòng này (vẫn 51 nhóm) — ưu tiên tuyệt đối cho bề rộng tiếng Trung theo đúng yêu cầu.
+
+**Về độ "cạn tài nguyên"**: pipeline vẫn còn dư địa mở rộng thêm nếu cần — (1) hạ tiếp ngưỡng tần
+suất lên rank ≤ 6000-9900 (toàn bộ hanziDB) sẽ lộ thêm nhiều họ nữa nhưng độ phổ biến giảm dần và
+rủi ro sai sót tăng (chữ hiếm, nghĩa khó tra); (2) phân tích cấu trúc ⿲ (3 phần trái-giữa-phải) và
+⿳ (3 phần trên-giữa-dưới) hoàn toàn chưa khai thác; (3) hạ ngưỡng số thành viên tối thiểu từ 3 xuống
+2 sẽ ra thêm nhiều cặp nhỏ. Tuy nhiên đây là điểm dừng hợp lý cho 1 vòng — 245 nhóm đã bao phủ phần
+lớn thanh phù năng sản và phổ biến nhất; các vòng tiếp theo sẽ có lợi suất giảm dần (chữ ít dùng hơn,
+cần tra cứu kỹ hơn từng trường hợp để tránh sai). Có thể tiếp tục bất cứ lúc nào nếu muốn.
+
+**Vòng "cào tối đa" tiếp theo** — người dùng xác nhận hài lòng, yêu cầu tiếp tục cào nhiều nhất có
+thể theo đúng 2 hướng đã đề xuất: hạ ngưỡng tần suất VÀ thêm cấu trúc 3 phần (⿲/⿳). Thực hiện:
+
+- Nâng ngưỡng tần suất lên **rank ≤ 9900 (toàn bộ hanziDB)**.
+- Thêm phân tích **⿲ (trái-giữa-phải)** và **⿳ (trên-giữa-dưới)** — với ⿲ lấy phần phải làm ứng viên
+  thanh phù (khớp mẫu 讠/纟/刂 + gốc + phải, ví dụ 辩/辨/辫 chung 辛 + biến thể phải). ⿳ thử lấy phần
+  dưới, độ chính xác thấp hơn nên ít cho kết quả lọt qua bộ lọc chất lượng.
+- Tự sửa 1 lỗi phát sinh từ vòng trước: bộ lọc "đã dùng" (`covered`) trích từ field `note`/`reading`
+  bị bỏ sót 6 nhóm đã đổi sang mô tả bằng lời (không còn ký tự gốc để regex bắt) — khiến 𢀖 (nhóm
+  经/径/胫/泾) suýt bị tạo trùng lần 2. Đã bổ sung thủ công 6 mã này vào danh sách loại trừ.
+- Thêm 2 bộ lọc chất lượng mới quan trọng:
+  1. **Loại trùng phồn/giản thể**: nhiều "thành viên" hóa ra chỉ là bản phồn thể của 1 thành viên
+     giản thể khác trong CÙNG nhóm (cùng nghĩa tiếng Anh hệt nhau, ví dụ 错/錯, 咏/詠, 辖/鎋) — không
+     phải 2 chữ khác nhau trông giống nhau, mà là 1 chữ viết 2 kiểu. Tự động loại theo gloss trùng
+     khớp, ưu tiên giữ bản rank thấp hơn (phổ biến hơn).
+  2. **Loại chữ nghĩa trống**: chữ không có gloss tiếng Anh trong hanziDB gần như chắc chắn là chữ
+     cổ/hiếm tới mức không đáng đưa vào — dù chỉ là khung, vẫn nên đảm bảo mọi root đều là chữ thật
+     sự có thể tra nghĩa được.
+
+Sau khi lọc: từ 375 candidate ban đầu (rank≤9900) còn **260 họ chất lượng cao**; trong đó ưu tiên
+theo đúng yêu cầu "độ thông dụng" nên chỉ lấy phần **avgRank ≤ 5000** (125 họ) cho vòng này — phần
+avgRank 5000-9900 (135 họ còn lại) để dành cho vòng sau nếu người dùng vẫn muốn tiếp tục (độ hữu ích
+giảm dần rõ rệt qua ngưỡng này). Trong 125 họ, loại tiếp 8 họ không đạt chuẩn khi rà tay: **竹** và
+**亦** là 2 trường hợp bộ thủ nghĩa giả dạng thanh phù (y hệt bẫy 艹/竹 phát hiện ở vòng trước — 竹
+"bamboo" đứng trên 简/箭/笺/笕/簡 nhưng thanh phù thật của mỗi chữ khác nhau hoàn toàn: 间/前/戋/见/間);
+**昔, 必, 害, 未, 重, 永** bị loại vì sau khi bỏ thành viên phồn/giản trùng chỉ còn dưới 3 thành viên.
+
+Kết quả: thêm **117 họ mới** (415 root) vào `data/zh-shape.json`, tất cả `words: []`. Một số họ đáng
+chú ý: 留-family (7 thành viên: 溜榴馏镏熘蹓骝, 3/7 đọc "lưu"), 建-family (6: 健键腱犍鞬楗), 比-family
+(7: 批毗砒纰枇蚍仳), 弗-family (5: 佛拂怫绋鮄 — 佛 chính là "Phật"!). Kết quả cuối: **362 nhóm tiếng
+Trung** (245→362, 2141 id, 521 headword — không trùng lặp). tsc + eslint sạch. Playwright xác nhận
+render đúng, không lỗi — kể cả 2 nhóm bị trùng id với vòng trước do cùng slug pinyin (东/朋 đọc trùng
+"dong"/"peng" với 2 họ đã có) đã tự phát hiện qua bước kiểm tra và đổi tên (`dong5`, `peng5`) trước
+khi ghi vào file.
+
+**Cập nhật độ "cạn tài nguyên"**: phần avgRank 5000-9900 (135 họ) vẫn còn nguyên, sẵn sàng cho vòng
+sau nếu cần — nhưng độ hữu dụng giảm khá rõ qua mốc 5000 (nhiều chữ bắt đầu là thuật ngữ hóa học/tên
+đất/tên người hiếm gặp). Ngoài ra vẫn còn hướng ⿲/⿳ có thể mở với ngưỡng chất lượng cao hơn, và có
+thể hạ MIN_MEMBERS xuống 2 để bắt các cặp nhỏ. Nói "tiếp tục" nếu muốn đào tiếp.
+
+**Vòng "cào tiếp vào vùng avgRank 5000-9900"** — người dùng tiếp tục xác nhận hài lòng, lặp lại yêu
+cầu cào tối đa theo độ thông dụng. Lấy đúng phần 135 họ còn lại từ vòng trước (avgRank > 5000), nhưng
+chỉ xử lý **phân khúc avgRank 5000-6500** (100 họ) trong vòng này — phần 6500-9900 (35 họ) hầu hết là
+cụm ký tự CHỈ TỒN TẠI Ở PHỒN THỂ (thanh phù chính là các chữ phồn thể như 義/岡/長/農/喬/馬/頁/龍/盧/婁/幾
+— nghĩa là mọi "thành viên" phái sinh cũng chỉ có bản phồn thể, không giúp ích cho người học giản thể
+hiện tại), quyết định loại bỏ toàn bộ phân khúc này khỏi phạm vi khai thác thay vì thêm dữ liệu ít
+giá trị.
+
+Rà tay 100 họ (5000-6500), loại tiếp **13 họ** không đạt chuẩn:
+- **艹** (TB-top, 莉/荔/藜/莅...): lại là bẫy bộ thủ nghĩa giả dạng thanh phù — y hệt 竹/亦 đã gặp,
+  8 "thành viên" hóa ra có 8 thanh phù thật khác nhau hoàn toàn (利/劦/黎/位/历/离/涖/立).
+- **名, 宅, 詹, 冘, 蚤, 普, 乇, 殹, 冓, 达, 扇, 柬**: đều rơi dưới 3 thành viên sau khi loại bản
+  phồn/giản trùng hoặc dữ liệu bị cắt cụt (gloss dở dang kiểu "(simplified form of" không đọc được).
+
+Với 87 họ còn lại, loại thêm **11 thành viên đơn lẻ** trùng phồn/giản trong nội bộ nhóm (không đủ
+làm rớt cả nhóm vì vẫn còn ≥3 thành viên sau khi bỏ): 麵(dup của 面), 鉤(dup của 钩 — đã có ở nhóm 勾
+từ trước), 緣(dup 缘), 絃(dup 弦), 韌(dup 韧), 軛(dup 轭), 禮(dup 礼, phồn thể độc lập không giúp gì
+cho giản thể), 録(dup 录 — chính là gốc component), 饌(dup 馔), 輗(phồn thể độc lập), 貛(dup 獾).
+
+Kết quả: thêm **90 họ mới** (358 root, con số thực tế nhỉnh hơn ước tính 87 vì vài họ rà tay lúc đầu
+tưởng loại nhưng xét lại vẫn đạt chuẩn) vào `data/zh-shape.json`. Một số họ đáng chú ý: 㐱-family
+(8 thành viên: 珍诊畛胗轸袗紾眕 — 珍/诊 đều rất thông dụng!), 敖-family (7: 熬鳌鏊骜螯獒聱), 卢-family
+(7: 鲈胪泸舻轳栌垆), 兒-family (6: 倪睨猊鲵蜺齯 — xác nhận đây là cấu trúc HỢP LỆ trong giản thể, không
+phải bẫy phồn thể, vì hầu hết thành viên vẫn giữ nguyên 兒 kể cả trong văn bản giản thể hiện đại do
+không nằm trong danh sách quy tắc giản lược). Kết quả cuối: **452 nhóm tiếng Trung** (362→452, 2589
+id, 521 headword — không trùng lặp). tsc + eslint sạch. Playwright xác nhận render đúng, không lỗi.
+
+**Cập nhật độ "cạn tài nguyên" (mới nhất)**: phần avgRank 6500-9900 (35 họ) đã bị loại chủ động vì
+đa số là cụm phồn-thể-độc-quyền (xem lý do ở trên) — coi như đã khai thác HẾT phần "hình thanh tự
+2 phần (⿰/⿱) có giá trị thực tế cho người học giản thể" ở mức rank ≤ 9900 (toàn bộ hanziDB). Hướng
+còn lại thực sự chưa khai thác: (1) cấu trúc 3 phần ⿲/⿳ (chỉ mới thử 1 lần cho 辛-family, chưa quét
+toàn diện); (2) hạ MIN_MEMBERS xuống 2 (rất nhiều cặp 2-chữ tiềm năng, nhưng rủi ro trùng với các cặp
+"hình cận tự" độc thể đã làm ở vòng đầu tiên); (3) nếu muốn nhiều hơn nữa sẽ cần bộ dữ liệu tần suất
+lớn hơn hanziDB (chỉ có ~9900 chữ) — tức là vượt ra ngoài phạm vi "chữ Hán thường dùng" sang chữ Hán
+đầy đủ (~50000+ chữ trong Khang Hy tự điển), lúc đó gần như chắc chắn chất lượng sẽ giảm mạnh vì đều
+là chữ cổ/hiếm/địa danh. Đây là điểm dừng hợp lý nhất — nói "tiếp tục" nếu vẫn muốn khai thác các
+hướng còn lại (⿲/⿳ hoặc hạ MIN_MEMBERS), tôi sẽ làm nhưng sẽ báo trước nếu tỷ lệ candidate hợp lệ
+quá thấp so với công sức bỏ ra.
+
+**Vòng cuối cùng (theo yêu cầu "thử tiếp tục lần cuối")** — thử đúng 2 hướng còn lại đã hứa:
+
+1. **⿲/⿳ (cấu trúc 3 phần)**: quét toàn diện lần đầu tiên (trước đó chỉ thử ngẫu nhiên 1 lần cho họ
+   辛). Kết quả: chỉ tìm lại được đúng 1 candidate — chính là họ 辛 (辩/辨/辫) đã thêm từ vòng trước.
+   **Hướng này chính thức cạn hoàn toàn** — không còn thanh phù 3 phần nào khác đạt tiêu chuẩn chất
+   lượng trong toàn bộ hanziDB.
+2. **Hạ MIN_MEMBERS xuống 2** (chỉ cặp 2 chữ, giới hạn rank ≤ 2500 — nhóm ký tự thông dụng nhất để
+   đảm bảo chất lượng): tìm được 50 candidate. Sau khi lọc:
+   - **16 cặp đã tồn tại sẵn** trong các nhóm lớn hơn từ những vòng trước (ví dụ 境/镜 đã có trong họ
+     竟, 珍/诊 đã có trong họ 㐱, 喉/猴 đã có trong họ 侯...) — loại bỏ để tránh trùng lặp.
+   - **7 cặp là bẫy bộ thủ nghĩa giả dạng thanh phù** — phát hiện thêm nhiều trường hợp mới cùng loại
+     đã gặp trước (艹/竹/亦/心): 宀 (thực/室, bộ "mái nhà"), 日 (景/晶, bộ "mặt trời"), 鸟 (鸭/鸦, bộ
+     "chim"), 攵 (枚/玫), 殳 (役/毅) — đều là bộ thủ nghĩa thật, chỉ tình cờ trùng vần qua các thanh
+     phù thật khác nhau ở mỗi chữ; cộng thêm 竹 (简/箭, lặp lại đúng bẫy đã ghi nhận) và 1 trường hợp
+     cấu kiện đáng ngờ (⺊, quá nhỏ/không đáng tin làm nhãn thanh phù).
+   - Còn lại **27 cặp chất lượng cao, đều nằm trong top 2500 chữ thông dụng nhất** — đặc biệt giá
+     trị vì đây là những chữ CỰC kỳ quen thuộc: 成/诚, 财/材, 密/蜜, 转/砖, 练/炼, 忘/妄, 潮/嘲, 灌/罐,
+     惧/俱... Một số còn "vớt lại" được từ các họ đã bị loại ở vòng trước vì quá mỏng (dưới 3 thành
+     viên) — ví dụ 错/措 (từ họ 昔 loại ở vòng 3), 辖/瞎 (từ họ 害 loại ở vòng 4), 妹/昧 (từ họ 未 loại
+     ở vòng 4) — giờ hợp lệ trở lại đúng vì MIN_MEMBERS chỉ còn 2.
+
+Kết quả: thêm **27 họ mới** (54 root, toàn bộ là cặp 2 chữ) vào `data/zh-shape.json`. Kết quả cuối:
+**479 nhóm tiếng Trung** (452→479, 2670 id, 521 headword — không trùng lặp). tsc + eslint sạch.
+Playwright xác nhận render đúng, không lỗi.
+
+**Kết luận về "cạn tài nguyên"**: đến đây, với phương pháp phân rã IDS + tần suất hanziDB (~9900 chữ
+thường dùng) + lọc chất lượng (loại bộ thủ nghĩa giả dạng thanh phù, loại trùng phồn/giản thể, loại
+chữ không tra được nghĩa), **cả 2 hướng còn lại đều đã cạn thật sự**: ⿲/⿳ trả về 0 candidate mới,
+và MIN_MEMBERS=2 ở ngưỡng rank≤2500 (thông dụng nhất) chỉ còn 27 cặp — nếu hạ tiếp ngưỡng rank cho
+cặp 2 chữ thì sẽ bắt đầu chồng lấn nhiều hơn với các cặp "hình cận tự" (nét gần giống) đã làm thủ
+công ở giai đoạn đầu dự án, và độ thông dụng cũng giảm dần. Từ 44 nhóm ban đầu (trước khi áp dụng
+phương pháp data-driven) đến 479 nhóm sau vòng đó — tưởng đã là điểm dừng tự nhiên.
+
+**Vòng "thật sự cuối cùng"** — người dùng chủ động chấp nhận đánh đổi chất lượng ("toàn chữ cổ/hiếm/
+địa danh") để khai thác triệt để phần còn sót. Quay lại đúng 2 vùng dữ liệu đã né ở vòng trước:
+
+1. **Vùng avgRank 6500-9900 (35 họ)** trước đó bị loại bỏ toàn bộ vì nghi ngờ là "cụm phồn-thể-độc-
+   quyền". Rà tay kỹ lại từng họ (không loại cả cụm như trước) để phân biệt 2 loại:
+   - **Phồn-thể-độc-quyền thật sự** (12 họ: 責/義/岡/長/農/喬/馬/頁/龍/盧/婁/幾— các thanh phù này nằm
+     trong danh sách ~132 "bộ thủ giản hóa hệ thống" chính thức của Trung Quốc, nghĩa là MỌI chữ
+     chứa chúng đều bị giản lược đồng loạt, không có ngoại lệ) → giữ nguyên quyết định loại bỏ.
+   - **Chữ hiếm nhưng vẫn hợp lệ trong giản thể hiện đại** (phần còn lại) — các thanh phù như 雚/矍/
+     睘/蒦 v.v. KHÔNG nằm trong danh sách giản hóa hệ thống, nên những chữ hiếm dùng chúng (như 獾,
+     攫, 缳...) vẫn giữ nguyên dạng ngay cả trong văn bản giản thể ngày nay, chỉ đơn giản là từ ít
+     dùng chứ không phải "sai" hay "phồn thể". Sau khi loại tiếp 2 họ quá mỏng (柬, 巤 — toàn bộ
+     thành viên hóa ra trùng với các từ giản thể phổ biến chưa dùng như 练/炼/腊/蜡/萦/萤), còn lại
+     **20 họ hợp lệ** (67 root) — thêm vào, có ghi chú rõ "chữ hiếm/cổ văn, chỉ để tham khảo".
+
+2. **Mở rộng ngưỡng cặp 2 chữ (MIN_MEMBERS=2) từ rank≤2500 lên rank≤4500** — tìm được thêm 102 cặp
+   mới (sau khi loại các cặp đã có sẵn ở nơi khác). Bất ngờ lớn: **chất lượng vẫn cực cao xuyên suốt
+   toàn bộ khoảng rank 2500-4500** — đây vẫn là vùng từ vựng rất thông dụng (谢/榭, 憾/撼, 振/赈, 渡/
+   镀, 依, 擦, 帽, 域, 惯, 游, 滚, 抚, 认...). Phát hiện thêm 4 bẫy mới (đều là biến thể của bẫy đã
+   biết): **殳** (设, thanh phù nghĩa giả dạng — giống 心/艹/竹/宀/日/鸟), **郑** (掷, bẫy giản thể đổi
+   hẳn thanh phù thật giống 战/惊/补), **習** (褶, đọc lệch quá xa + gốc phồn thể), **亏** (污, đọc
+   lệch quá xa nghi ngờ bẫy giản thể) — loại cả 4. Còn lại **97 cặp chất lượng cao** — thêm vào.
+
+Kết quả: thêm **20 họ hiếm** (67 root) + **97 cặp thông dụng** (194 root) = tổng **117 nhóm mới**
+(261 root) trong vòng này. Kết quả cuối: **596 nhóm tiếng Trung** (479→596, 3048 id, 521 headword —
+không trùng lặp). tsc + eslint sạch. Playwright xác nhận render đúng, không lỗi — kể cả nhóm dùng
+toàn chữ Hán cổ hiếm gặp (缳/擐/轘/镮).
+
+**Kết luận cuối cùng thật sự**: đến đây, với bộ dữ liệu hanziDB (~9900 chữ) + IDS decomposition, đã
+khai thác đến tận đáy — phần còn sót lại ngoài phạm vi 596 nhóm chỉ còn thuần túy chữ phồn-thể-độc-
+quyền (không dùng được cho người học giản thể) hoặc chữ vượt ngoài top ~9900 tần suất (cần đổi hẳn
+nguồn dữ liệu sang từ điển Khang Hy ~50000 chữ, lúc đó gần như 100% là chữ cổ/hiếm không còn dùng).
+Đây mới là điểm dừng tuyệt đối của phương pháp data-driven với dữ liệu hiện có.
+
+### 3. Gom nhóm theo chủ đề (danh mục) — dọn dẹp trang tổng quan sau khi cào 596 nhóm
+
+Sau khi `data/zh-shape.json` phình lên 596 nhóm, trang `/shapes/zh` trở thành 1 lưới phẳng khổng lồ
+rất khó duyệt. Người dùng đề xuất gom các nhóm lại theo tiêu chí như bộ thủ, để chuẩn bị bước tiếp
+theo là đi vào từng nhóm xây mindmap từ vựng thật.
+
+**Cách tiếp cận đã chọn**: gom theo **chủ đề ngữ nghĩa của bộ thủ chính thức (Khang Hy) của thanh phù
+đại diện mỗi nhóm** — không phải bộ thủ của từng thành viên (mỗi thành viên có bộ thủ khác nhau, đó
+chính là lý do nhóm tồn tại), mà là bộ thủ CỦA CHÍNH KÝ TỰ THANH PHÙ dùng làm tên nhóm (vd nhóm "青"
+— tra 青 trong hanziDB thấy bộ thủ chính thức là 青 → xếp vào chủ đề "Ánh sáng – thời gian"). Quy trình:
+
+1. Trích xuất ký tự thanh phù đại diện của cả 596 nhóm (regex trên field `reading`, cộng thêm xử lý
+   riêng 6 nhóm dùng mô tả bằng lời từ vòng trước không có ký tự thanh phù hiển thị trực tiếp).
+2. Tra bộ thủ chính thức của từng ký tự thanh phù qua cột `radical` có sẵn trong hanziDB.csv — tìm
+   được cho 499/560 nhóm hình thanh tự; 61 nhóm còn lại (thanh phù là cấu kiện cổ không có trong tốp
+   9900 chữ thường dùng) xếp vào danh mục riêng "Cấu kiện âm cổ / hiếm gặp".
+3. Có 157 bộ thủ Khang Hy khác nhau xuất hiện — quá vụn để làm danh mục trực tiếp, nên gộp tiếp
+   thành **14 chủ đề lớn** dễ hiểu bằng tiếng Việt (Con người & cơ thể, Nước – lửa – đất – khí, Cây
+   cỏ, Động vật, Nhà cửa – đồ vật, Số đếm – hình trừu tượng, Ngôn ngữ – chữ viết, Kim loại – ngọc, Ăn
+   uống, Ánh sáng – thời gian, Cảm xúc – tinh thần, Tiền bạc – giao dịch, cộng 2 danh mục đặc biệt:
+   **Cặp ký tự gần giống (hình cận tự)** cho 36 nhóm nguyên bản đầu dự án (không phải hình thanh tự,
+   không có 1 thanh phù chung) và **Cấu kiện âm cổ / hiếm gặp** cho 61 nhóm nói trên).
+4. Phân bố cuối: Con người & cơ thể (159), Số đếm (103), Nhà cửa – đồ vật (94), Cấu kiện cổ (61),
+   Cặp hình cận tự (36), Nước-lửa-đất (32), Cây cỏ (31), Ánh sáng-thời gian (27), Động vật (22), Cảm
+   xúc (13), Ngôn ngữ (6), Tiền bạc (6), Ăn uống (5), Kim loại (1) — không còn nhóm "Khác" nào sót lại.
+
+**Thay đổi kỹ thuật**: thêm field `category?: string` vào type `SoundGroup` (`src/types/vocab.ts`) —
+hoàn toàn optional, không phá vỡ `getShapeGroup`/`getShapeLanguageData` (vẫn lookup phẳng theo `id`
+như cũ) hay trang chi tiết nhóm (`GroupExplorer`, không đọc field này). Viết field `category` vào mọi
+group trong `data/zh-shape.json`. Cập nhật `src/app/shapes/[lang]/page.tsx`: gom `data.groups` theo
+`category`, hiển thị thanh điều hướng nhanh (chip nhảy tới từng chủ đề) ở đầu trang, mỗi chủ đề là 1
+`<details>` (thu/phóng bằng HTML thuần, không cần thêm client-side state) — tự mở sẵn nếu ≤30 nhóm,
+thu gọn nếu lớn hơn để trang không quá dài khi tải. `ja-shape.json` (51 nhóm) giữ nguyên dạng phẳng
+vì chưa đến mức cần gom (danh sách nhỏ vẫn duyệt được).
+
+Verify: tsc + eslint sạch. Playwright xác nhận: 14 chip điều hướng hiện đúng số lượng từng chủ đề,
+mở/thu gọn nhóm hoạt động, click vào 1 nhóm bên trong danh mục đã thu gọn vẫn điều hướng đúng tới
+trang chi tiết mindmap (routing theo `id` không bị ảnh hưởng bởi việc thêm `category`).
 
 Với tiếng Hàn, trục tương ứng có thể là hanja gốc gần giống, hoặc ở mức Hangul là các âm tiết dễ nhầm
 khi viết tay/gõ nhanh (아/어, 오/우, ㅁ/ㅂ) — ít giá trị hơn vì Hangul dễ phân biệt hơn chữ Hán nhiều.
