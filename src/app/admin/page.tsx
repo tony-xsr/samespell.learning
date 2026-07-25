@@ -2,6 +2,7 @@ import { getLanguages, wordCount } from "@/lib/vocabStore";
 import AdminAiConfigForm from "@/components/admin/AdminAiConfigForm";
 import AdminExpandTrigger from "@/components/admin/AdminExpandTrigger";
 import AdminBackup from "@/components/admin/AdminBackup";
+import AdminSyncToData from "@/components/admin/AdminSyncToData";
 
 export default async function AdminPage() {
   const languages = await getLanguages();
@@ -30,6 +31,7 @@ export default async function AdminPage() {
         <div className="mt-6 flex flex-col gap-5">
           <AdminAiConfigForm />
           <AdminExpandTrigger />
+          <AdminSyncToData />
           <AdminBackup />
         </div>
       </div>

@@ -17,6 +17,7 @@ const PROVIDER_ID_SET = new Set<string>(PROVIDER_IDS);
 // and filter to known provider ids ourselves instead.
 const PatchSchema = z.object({
   activeProvider: z.enum(PROVIDER_IDS).optional(),
+  fallbackProvider: z.enum(PROVIDER_IDS).optional(),
   keys: z.record(z.string(), z.string()).optional(),
   models: z.record(z.string(), z.string()).optional(),
 });
@@ -35,6 +36,7 @@ export async function GET() {
   return NextResponse.json({
     providers: AI_PROVIDERS,
     activeProvider: config.activeProvider,
+    fallbackProvider: config.fallbackProvider,
     models: config.models,
     maskedKeys: Object.fromEntries(AI_PROVIDERS.map((p) => [p.id, maskKey(config.keys[p.id])])),
     hasKey: Object.fromEntries(AI_PROVIDERS.map((p) => [p.id, hasApiKey(p.id, config)])),
@@ -59,8 +61,17 @@ export async function POST(req: NextRequest) {
   const models = pickKnownProviders(patch.models);
 
   try {
-    const updated = await saveAiConfig({ activeProvider: patch.activeProvider, keys, models });
-    return NextResponse.json({ ok: true, activeProvider: updated.activeProvider });
+    const updated = await saveAiConfig({
+      activeProvider: patch.activeProvider,
+      fallbackProvider: patch.fallbackProvider,
+      keys,
+      models,
+    });
+    return NextResponse.json({
+      ok: true,
+      activeProvider: updated.activeProvider,
+      fallbackProvider: updated.fallbackProvider,
+    });
   } catch (e) {
     return NextResponse.json(
       { error: e instanceof Error ? e.message : "Không lưu được cấu hình." },
