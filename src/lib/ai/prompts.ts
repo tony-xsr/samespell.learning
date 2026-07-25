@@ -24,7 +24,7 @@ export function buildExpandRootPrompt(params: {
 Chữ gốc: "${params.character}" (âm Hán Việt: ${params.hanViet ?? "không rõ"}), nghĩa cốt lõi: ${params.meaningVn}.
 Hãy sinh ra ${params.count} từ vựng THỰC TẾ, thông dụng có chứa chữ "${params.character}" ở đầu hoặc cuối từ, phù hợp trình độ sơ-trung cấp.
 KHÔNG được trùng với các từ đã có: ${params.existingHeadwords.join(", ") || "(chưa có)"}.
-Mỗi từ cần: từ vựng gốc, phiên âm, nghĩa tiếng Việt ngắn gọn, một câu ví dụ tự nhiên và bản dịch tiếng Việt của câu ví dụ.
+Mỗi từ cần: từ vựng gốc, phiên âm, nghĩa tiếng Việt ngắn gọn, một câu ví dụ tự nhiên, bản dịch tiếng Việt của câu ví dụ, và một mẹo nhớ ngắn (mnemonicVn) bằng tiếng Việt.
 ${EXPAND_ROOT_JSON_SHAPE_HINT}`;
 }
 
@@ -38,7 +38,21 @@ export function buildNewRootPrompt(params: {
 Nhóm âm hiện tại đang đọc là: "${params.groupReading}".
 Các chữ đã có trong nhóm này rồi (KHÔNG được lặp lại): ${params.existingCharacters.join(", ") || "(chưa có)"}.
 Hãy tìm THÊM MỘT chữ Hán/Hanja khác, có cách đọc giống hệt hoặc gần giống "${params.groupReading}" trong ${langName}, nhưng mang nghĩa hoàn toàn khác các chữ đã có.
-Sau đó sinh 4 từ vựng thông dụng chứa chữ đó, kèm phiên âm, nghĩa tiếng Việt, và câu ví dụ có bản dịch.
+Sau đó sinh 4 từ vựng thông dụng chứa chữ đó, kèm phiên âm, nghĩa tiếng Việt, câu ví dụ có bản dịch, và một mẹo nhớ ngắn (mnemonicVn) bằng tiếng Việt cho mỗi từ.
+${NEW_ROOT_JSON_SHAPE_HINT}`;
+}
+
+export function buildNewGroupPrompt(params: {
+  language: Language;
+  word: string;
+  existingReadings: string[];
+}): string {
+  const langName = LANG_NAMES[params.language];
+  return `Bạn là trợ lý dạy từ vựng ${langName} cho người Việt, chuyên về hiện tượng đồng âm dị nghĩa (nhiều chữ Hán/Hanja khác nhau đọc giống nhau nhưng nghĩa khác nhau).
+Người học vừa nhập từ: "${params.word}" và muốn tạo một mindmap học từ mới xoay quanh từ này.
+Hãy xác định MỘT chữ Hán/Hanja gốc tiêu biểu trong từ đó (thường là chữ quan trọng nhất về nghĩa hoặc chữ đầu tiên) cùng cách đọc của chữ gốc đó trong ${langName}.
+Các cách đọc nhóm đã tồn tại rồi (nếu trùng thì vẫn được, cứ chọn đúng theo từ người dùng nhập): ${params.existingReadings.join(", ") || "(chưa có)"}.
+Sau đó sinh 4 từ vựng thông dụng chứa chữ gốc đó (nếu phù hợp, hãy để chính từ "${params.word}" người dùng nhập là một trong các từ này), kèm phiên âm, nghĩa tiếng Việt, câu ví dụ có bản dịch, và một mẹo nhớ ngắn (mnemonicVn) bằng tiếng Việt cho mỗi từ.
 ${NEW_ROOT_JSON_SHAPE_HINT}`;
 }
 
@@ -56,7 +70,7 @@ Hãy sinh ra 3-4 từ vựng LIÊN QUAN đến từ này để mở rộng thêm
 có thể là từ đồng nghĩa, gần nghĩa, trái nghĩa, cùng chủ đề, hoặc từ ghép mở rộng từ từ trung tâm.
 Mục tiêu là giúp người học mở rộng vốn từ xung quanh từ "${params.headword}".
 KHÔNG được trùng với các từ đã có: ${params.existingChildHeadwords.join(", ") || "(chưa có)"}.
-Mỗi từ cần: từ vựng gốc, phiên âm, nghĩa tiếng Việt ngắn gọn, một câu ví dụ tự nhiên và bản dịch tiếng Việt của câu ví dụ.
+Mỗi từ cần: từ vựng gốc, phiên âm, nghĩa tiếng Việt ngắn gọn, một câu ví dụ tự nhiên, bản dịch tiếng Việt của câu ví dụ, và một mẹo nhớ ngắn (mnemonicVn) bằng tiếng Việt.
 ${EXPAND_ROOT_JSON_SHAPE_HINT}`;
 }
 

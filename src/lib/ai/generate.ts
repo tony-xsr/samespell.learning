@@ -72,18 +72,13 @@ async function generateWithGemini<T extends z.ZodTypeAny>(
   return schema.parse(JSON.parse(stripCodeFence(raw)));
 }
 
-export async function generateStructured<T extends z.ZodTypeAny>(
+async function dispatchProvider<T extends z.ZodTypeAny>(
+  provider: AiProviderId,
   schema: T,
   prompt: string,
+  apiKey: string,
+  model: string,
 ): Promise<z.infer<T>> {
-  const config = await getAiConfig();
-  const provider = config.activeProvider;
-  const apiKey = resolveApiKey(provider, config);
-  if (!apiKey) {
-    throw new Error(`Chưa cấu hình API key cho ${provider}. Vào /admin để thêm.`);
-  }
-  const model = config.models[provider]!;
-
   switch (provider) {
     case "anthropic":
       return generateWithAnthropic(schema, prompt, apiKey, model);
@@ -98,11 +93,55 @@ export async function generateStructured<T extends z.ZodTypeAny>(
         "https://api.groq.com/openai/v1",
         "Groq",
       );
+    case "deepseek":
+      return generateWithOpenAiCompatible(
+        schema,
+        prompt,
+        apiKey,
+        model,
+        "https://api.deepseek.com/v1",
+        "DeepSeek",
+      );
     case "gemini":
       return generateWithGemini(schema, prompt, apiKey, model);
     default: {
       const exhaustive: never = provider;
       throw new Error(`Provider không được hỗ trợ: ${exhaustive}`);
+    }
+  }
+}
+
+export async function generateStructured<T extends z.ZodTypeAny>(
+  schema: T,
+  prompt: string,
+): Promise<z.infer<T>> {
+  const config = await getAiConfig();
+  const provider = config.activeProvider;
+  const apiKey = resolveApiKey(provider, config);
+  if (!apiKey) {
+    throw new Error(`Chưa cấu hình API key cho ${provider}. Vào /admin để thêm.`);
+  }
+  const model = config.models[provider]!;
+
+  try {
+    return await dispatchProvider(provider, schema, prompt, apiKey, model);
+  } catch (primaryError) {
+    const fallback = config.fallbackProvider;
+    const fallbackKey = fallback !== provider ? resolveApiKey(fallback, config) : undefined;
+    if (!fallbackKey) throw primaryError;
+
+    const primaryMessage = primaryError instanceof Error ? primaryError.message : String(primaryError);
+    console.warn(
+      `[ai/generate] Provider "${provider}" lỗi (${primaryMessage}), thử lại với fallback "${fallback}".`,
+    );
+    try {
+      return await dispatchProvider(fallback, schema, prompt, fallbackKey, config.models[fallback]!);
+    } catch (fallbackError) {
+      const fallbackMessage =
+        fallbackError instanceof Error ? fallbackError.message : String(fallbackError);
+      throw new Error(
+        `Provider chính "${provider}" lỗi: ${primaryMessage}. Fallback "${fallback}" cũng lỗi: ${fallbackMessage}`,
+      );
     }
   }
 }
