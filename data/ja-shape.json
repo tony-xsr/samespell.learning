@@ -88,6 +88,1210 @@
           ]
         }
       ]
+    },
+    {
+      "id": "ja-shape-teke",
+      "language": "ja",
+      "groupKind": "shape",
+      "reading": "手 · 毛",
+      "note": "字形が似ている漢字: 手 và 毛 hình dạng gần giống nhau, chỉ khác ở nét cuối cùng — 手 kết thúc bằng 1 nét ngang thẳng ở đáy, 毛 kéo dài nét đó thành 1 nét MÓC CONG vòng lên. Âm đọc khác nhau hoàn toàn (て ≠ け).",
+      "roots": [
+        {
+          "id": "ja-shape-teke-te",
+          "character": "手",
+          "hanViet": "thủ",
+          "meaningVn": "tay (nét cuối THẲNG)",
+          "words": [
+            { "id": "ja-shape-teke-te-w1", "headword": "手紙", "reading": "tegami", "meaningVn": "thư (viết tay)", "example": "手紙を書きます。", "exampleVn": "Tôi viết thư." },
+            { "id": "ja-shape-teke-te-w2", "headword": "上手", "reading": "jouzu", "meaningVn": "giỏi, khéo léo", "example": "彼は料理が上手です。", "exampleVn": "Anh ấy nấu ăn giỏi." }
+          ]
+        },
+        {
+          "id": "ja-shape-teke-ke",
+          "character": "毛",
+          "hanViet": "mao",
+          "meaningVn": "lông, len (nét cuối MÓC CONG)",
+          "words": [
+            { "id": "ja-shape-teke-ke-w1", "headword": "毛布", "reading": "moufu", "meaningVn": "chăn, mền", "example": "毛布をかけます。", "exampleVn": "Tôi đắp chăn." },
+            { "id": "ja-shape-teke-ke-w2", "headword": "羊毛", "reading": "youmou", "meaningVn": "lông cừu", "example": "羊毛のセーターです。", "exampleVn": "Là áo len làm từ lông cừu." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-shape-sukuchii",
+      "language": "ja",
+      "groupKind": "shape",
+      "reading": "少 · 小",
+      "note": "字形が似ている漢字: 小 chỉ có 3 nét; 少 thêm 1 nét PHẨY phía trên đỉnh so với 小. Âm On thực ra GIỐNG nhau (đều là しょう), chỉ khác nhau ở âm Kun (すこ(し) ≠ ちい(さい)) và hình chữ.",
+      "roots": [
+        {
+          "id": "ja-shape-sukuchii-suku",
+          "character": "少",
+          "hanViet": "thiểu",
+          "meaningVn": "ít (CÓ thêm nét phẩy trên đỉnh)",
+          "words": [
+            { "id": "ja-shape-sukuchii-suku-w1", "headword": "少し", "reading": "sukoshi", "meaningVn": "một chút", "example": "少し休みましょう。", "exampleVn": "Hãy nghỉ một chút." },
+            { "id": "ja-shape-sukuchii-suku-w2", "headword": "少年", "reading": "shounen", "meaningVn": "thiếu niên", "example": "少年時代を思い出す。", "exampleVn": "Nhớ lại thời thiếu niên." }
+          ]
+        },
+        {
+          "id": "ja-shape-sukuchii-chii",
+          "character": "小",
+          "hanViet": "tiểu",
+          "meaningVn": "nhỏ (KHÔNG có nét phẩy trên đỉnh)",
+          "words": [
+            { "id": "ja-shape-sukuchii-chii-w1", "headword": "小さい", "reading": "chiisai", "meaningVn": "nhỏ", "example": "この犬は小さいです。", "exampleVn": "Con chó này nhỏ." },
+            { "id": "ja-shape-sukuchii-chii-w2", "headword": "小学校", "reading": "shougakkou", "meaningVn": "trường tiểu học", "example": "小学校に通っています。", "exampleVn": "Tôi đang học ở trường tiểu học." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-shape-jinnyu",
+      "language": "ja",
+      "groupKind": "shape",
+      "reading": "人 · 入 · 八",
+      "note": "字形が似ている漢字 kinh điển cho người mới học: 人 hai nét gặp gọn tại 1 đỉnh, không có gì nhô lên. 入 nét phẩy bên trái nhô CAO HƠN điểm giao, tạo 1 đầu nhọn nhỏ ở trên đỉnh — dấu hiệu nhận biết chính. 八 thì hai nét TÁCH HẲN ra ở đỉnh, không chạm nhau. Âm đọc khác nhau hoàn toàn (じん/にん ≠ にゅう ≠ はち).",
+      "roots": [
+        {
+          "id": "ja-shape-jinnyu-jin",
+          "character": "人",
+          "hanViet": "nhân",
+          "meaningVn": "người (2 nét gặp gọn tại đỉnh)",
+          "words": [
+            { "id": "ja-shape-jinnyu-jin-w1", "headword": "日本人", "reading": "nihonjin", "meaningVn": "người Nhật", "example": "彼は日本人です。", "exampleVn": "Anh ấy là người Nhật." },
+            { "id": "ja-shape-jinnyu-jin-w2", "headword": "大人", "reading": "otona", "meaningVn": "người lớn", "example": "大人になりました。", "exampleVn": "Tôi đã trở thành người lớn." }
+          ]
+        },
+        {
+          "id": "ja-shape-jinnyu-nyu",
+          "character": "入",
+          "hanViet": "nhập",
+          "meaningVn": "vào (nét trái nhô đầu nhọn lên trên)",
+          "words": [
+            { "id": "ja-shape-jinnyu-nyu-w1", "headword": "入口", "reading": "iriguchi", "meaningVn": "lối vào", "example": "入口はこちらです。", "exampleVn": "Lối vào ở đây." },
+            { "id": "ja-shape-jinnyu-nyu-w2", "headword": "入学", "reading": "nyuugaku", "meaningVn": "nhập học", "example": "来月入学します。", "exampleVn": "Tháng sau tôi nhập học." }
+          ]
+        },
+        {
+          "id": "ja-shape-jinnyu-hachi",
+          "character": "八",
+          "hanViet": "bát",
+          "meaningVn": "số tám (2 nét tách hẳn, không chạm đỉnh)",
+          "words": [
+            { "id": "ja-shape-jinnyu-hachi-w1", "headword": "八月", "reading": "hachigatsu", "meaningVn": "tháng Tám", "example": "八月は暑いです。", "exampleVn": "Tháng Tám nóng." },
+            { "id": "ja-shape-jinnyu-hachi-w2", "headword": "八時", "reading": "hachiji", "meaningVn": "8 giờ", "example": "八時に起きます。", "exampleVn": "Tôi dậy lúc 8 giờ." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-shape-hakuji",
+      "language": "ja",
+      "groupKind": "shape",
+      "reading": "白 · 自",
+      "note": "字形が似ている漢字: 白 có 5 nét, 自 có 6 nét — 自 thêm 1 nét NGANG ở giữa so với 白. Âm đọc khác nhau hoàn toàn (はく ≠ じ).",
+      "roots": [
+        {
+          "id": "ja-shape-hakuji-haku",
+          "character": "白",
+          "hanViet": "bạch",
+          "meaningVn": "trắng (5 nét, KHÔNG có nét ngang giữa)",
+          "words": [
+            { "id": "ja-shape-hakuji-haku-w1", "headword": "白い", "reading": "shiroi", "meaningVn": "màu trắng", "example": "白い雪が降ります。", "exampleVn": "Tuyết trắng rơi." },
+            { "id": "ja-shape-hakuji-haku-w2", "headword": "白黒", "reading": "shirokuro", "meaningVn": "trắng đen", "example": "白黒の写真です。", "exampleVn": "Là bức ảnh trắng đen." }
+          ]
+        },
+        {
+          "id": "ja-shape-hakuji-ji",
+          "character": "自",
+          "hanViet": "tự",
+          "meaningVn": "bản thân, tự (6 nét, CÓ thêm nét ngang giữa)",
+          "words": [
+            { "id": "ja-shape-hakuji-ji-w1", "headword": "自分", "reading": "jibun", "meaningVn": "bản thân", "example": "自分で決めます。", "exampleVn": "Tự mình quyết định." },
+            { "id": "ja-shape-hakuji-ji-w2", "headword": "自由", "reading": "jiyuu", "meaningVn": "tự do", "example": "自由な時間です。", "exampleVn": "Là thời gian tự do." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-shape-toujin",
+      "language": "ja",
+      "groupKind": "shape",
+      "reading": "刀 · 刃",
+      "note": "字形が似ている漢字: 刀 và 刃 chỉ khác nhau ở 1 dấu CHẤM đánh dấu lưỡi dao — 刃 = 刀 + 1 nét chấm. Âm đọc khác nhau hoàn toàn (とう ≠ じん).",
+      "roots": [
+        {
+          "id": "ja-shape-toujin-tou",
+          "character": "刀",
+          "hanViet": "đao",
+          "meaningVn": "con dao, kiếm (KHÔNG có chấm)",
+          "words": [
+            { "id": "ja-shape-toujin-tou-w1", "headword": "日本刀", "reading": "nihontou", "meaningVn": "kiếm Nhật", "example": "日本刀を見ました。", "exampleVn": "Tôi đã xem kiếm Nhật." },
+            { "id": "ja-shape-toujin-tou-w2", "headword": "小刀", "reading": "kogatana", "meaningVn": "dao nhỏ", "example": "小刀で削ります。", "exampleVn": "Gọt bằng dao nhỏ." }
+          ]
+        },
+        {
+          "id": "ja-shape-toujin-jin",
+          "character": "刃",
+          "hanViet": "nhận",
+          "meaningVn": "lưỡi dao (CÓ thêm chấm đánh dấu lưỡi)",
+          "words": [
+            { "id": "ja-shape-toujin-jin-w1", "headword": "刃物", "reading": "hamono", "meaningVn": "đồ có lưỡi (dao, kéo...)", "example": "刃物は危ないです。", "exampleVn": "Đồ có lưỡi thì nguy hiểm." },
+            { "id": "ja-shape-toujin-jin-w2", "headword": "刃先", "reading": "hasaki", "meaningVn": "mũi lưỡi dao", "example": "刃先が鋭いです。", "exampleVn": "Mũi lưỡi dao sắc bén." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-shape-ougyoku",
+      "language": "ja",
+      "groupKind": "shape",
+      "reading": "王 · 玉",
+      "note": "字形が似ている漢字 kinh điển: 王 và 玉 chỉ khác nhau ở 1 dấu CHẤM — 玉 = 王 + 1 nét chấm nhỏ phía dưới bên phải. Âm đọc khác nhau hoàn toàn (おう ≠ ぎょく).",
+      "roots": [
+        {
+          "id": "ja-shape-ougyoku-ou",
+          "character": "王",
+          "hanViet": "vương",
+          "meaningVn": "vua (KHÔNG có chấm)",
+          "words": [
+            { "id": "ja-shape-ougyoku-ou-w1", "headword": "王様", "reading": "ousama", "meaningVn": "nhà vua", "example": "王様が来ました。", "exampleVn": "Nhà vua đã đến." },
+            { "id": "ja-shape-ougyoku-ou-w2", "headword": "女王", "reading": "joou", "meaningVn": "nữ hoàng", "example": "女王が国を治めます。", "exampleVn": "Nữ hoàng cai trị đất nước." }
+          ]
+        },
+        {
+          "id": "ja-shape-ougyoku-gyoku",
+          "character": "玉",
+          "hanViet": "ngọc",
+          "meaningVn": "ngọc (CÓ thêm chấm)",
+          "words": [
+            { "id": "ja-shape-ougyoku-gyoku-w1", "headword": "玉子", "reading": "tamago", "meaningVn": "trứng", "example": "玉子焼きを作ります。", "exampleVn": "Làm món trứng chiên kiểu Nhật." },
+            { "id": "ja-shape-ougyoku-gyoku-w2", "headword": "目玉", "reading": "medama", "meaningVn": "tròng mắt, con ngươi", "example": "目玉焼きが好きです。", "exampleVn": "Tôi thích món trứng ốp la." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-shape-konrei",
+      "language": "ja",
+      "groupKind": "shape",
+      "reading": "今 · 令",
+      "note": "字形が似ている漢字: 今 và 令 chỉ khác nhau ở phần dưới cùng — 令 thêm 1 nét (giống bộ 卩) phía dưới so với 今. Âm đọc khác nhau hoàn toàn (こん/きん ≠ れい).",
+      "roots": [
+        {
+          "id": "ja-shape-konrei-kon",
+          "character": "今",
+          "hanViet": "kim",
+          "meaningVn": "nay, hiện tại (4 nét)",
+          "words": [
+            { "id": "ja-shape-konrei-kon-w1", "headword": "今週", "reading": "konshuu", "meaningVn": "tuần này", "example": "今週は忙しいです。", "exampleVn": "Tuần này bận rộn." },
+            { "id": "ja-shape-konrei-kon-w2", "headword": "今回", "reading": "konkai", "meaningVn": "lần này", "example": "今回はうまくいきました。", "exampleVn": "Lần này đã suôn sẻ." }
+          ]
+        },
+        {
+          "id": "ja-shape-konrei-rei",
+          "character": "令",
+          "hanViet": "lệnh",
+          "meaningVn": "ra lệnh, khiến (5 nét, thêm phần dưới)",
+          "words": [
+            { "id": "ja-shape-konrei-rei-w1", "headword": "命令", "reading": "meirei", "meaningVn": "mệnh lệnh", "example": "命令に従います。", "exampleVn": "Tuân theo mệnh lệnh." },
+            { "id": "ja-shape-konrei-rei-w2", "headword": "令和", "reading": "reiwa", "meaningVn": "Lệnh Hòa (niên hiệu Nhật hiện nay)", "example": "令和時代です。", "exampleVn": "Là thời đại Lệnh Hòa." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-shape-tenfu",
+      "language": "ja",
+      "groupKind": "shape",
+      "reading": "天 · 夫",
+      "note": "字形が似ている漢字: 天 và 夫 chỉ khác nhau ở độ dài tương đối của hai nét ngang — 天 nét ngang TRÊN ngắn hơn nét dưới, 夫 nét ngang TRÊN dài hơn nét dưới. Âm đọc khác nhau hoàn toàn (てん ≠ ふ).",
+      "roots": [
+        {
+          "id": "ja-shape-tenfu-ten",
+          "character": "天",
+          "hanViet": "thiên",
+          "meaningVn": "trời (nét ngang trên NGẮN)",
+          "words": [
+            { "id": "ja-shape-tenfu-ten-w1", "headword": "天気", "reading": "tenki", "meaningVn": "thời tiết", "example": "今日はいい天気です。", "exampleVn": "Hôm nay thời tiết đẹp." },
+            { "id": "ja-shape-tenfu-ten-w2", "headword": "天才", "reading": "tensai", "meaningVn": "thiên tài", "example": "彼は天才です。", "exampleVn": "Anh ấy là thiên tài." }
+          ]
+        },
+        {
+          "id": "ja-shape-tenfu-fu",
+          "character": "夫",
+          "hanViet": "phu",
+          "meaningVn": "chồng, người đàn ông (nét ngang trên DÀI)",
+          "words": [
+            { "id": "ja-shape-tenfu-fu-w1", "headword": "夫婦", "reading": "fuufu", "meaningVn": "vợ chồng", "example": "夫婦で旅行します。", "exampleVn": "Vợ chồng đi du lịch." },
+            { "id": "ja-shape-tenfu-fu-w2", "headword": "夫人", "reading": "fujin", "meaningVn": "phu nhân", "example": "社長の夫人です。", "exampleVn": "Là phu nhân của giám đốc." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-shape-yukou",
+      "language": "ja",
+      "groupKind": "shape",
+      "reading": "由 · 甲 · 申",
+      "note": "字形が似ている漢字 kinh điển: cả 3 chữ đều là khung 田/囗 có 1 nét sổ xuyên qua giữa, chỉ khác PHẦN NÀO của nét sổ đó lòi ra ngoài khung — 由 chỉ lòi ra ở DƯỚI; 甲 chỉ lòi ra ở TRÊN; 申 lòi ra CẢ HAI đầu. Âm đọc khác nhau hoàn toàn (ゆう/よし ≠ こう/かん ≠ しん).",
+      "roots": [
+        {
+          "id": "ja-shape-yukou-yu",
+          "character": "由",
+          "hanViet": "do",
+          "meaningVn": "do, bởi vì, từ (nét sổ lòi ra DƯỚI)",
+          "words": [
+            { "id": "ja-shape-yukou-yu-w1", "headword": "由来", "reading": "yurai", "meaningVn": "nguồn gốc, xuất xứ", "example": "この名前の由来を知っていますか。", "exampleVn": "Bạn có biết nguồn gốc của cái tên này không?" },
+            { "id": "ja-shape-yukou-yu-w2", "headword": "経由", "reading": "keiyu", "meaningVn": "quá cảnh, đi qua", "example": "東京を経由します。", "exampleVn": "Đi qua Tokyo." }
+          ]
+        },
+        {
+          "id": "ja-shape-yukou-kou",
+          "character": "甲",
+          "hanViet": "giáp",
+          "meaningVn": "hạng nhất, mai (nét sổ lòi ra TRÊN)",
+          "words": [
+            { "id": "ja-shape-yukou-kou-w1", "headword": "甲子園", "reading": "koushien", "meaningVn": "sân Koshien (giải bóng chày học sinh nổi tiếng)", "example": "甲子園に出場します。", "exampleVn": "Tham dự giải Koshien." },
+            { "id": "ja-shape-yukou-kou-w2", "headword": "甲板", "reading": "kanpan", "meaningVn": "boong tàu", "example": "甲板に出ます。", "exampleVn": "Đi ra boong tàu." }
+          ]
+        },
+        {
+          "id": "ja-shape-yukou-shin",
+          "character": "申",
+          "hanViet": "thân",
+          "meaningVn": "trình bày, thưa (nét sổ lòi ra CẢ HAI đầu)",
+          "words": [
+            { "id": "ja-shape-yukou-shin-w1", "headword": "申請", "reading": "shinsei", "meaningVn": "xin phép, đăng ký", "example": "ビザを申請します。", "exampleVn": "Xin visa." },
+            { "id": "ja-shape-yukou-shin-w2", "headword": "申告", "reading": "shinkoku", "meaningVn": "khai báo (vd. thuế)", "example": "確定申告をします。", "exampleVn": "Làm khai báo thuế cuối năm." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-shape-katsutan",
+      "language": "ja",
+      "groupKind": "shape",
+      "reading": "且 · 旦",
+      "note": "字形が似ている漢字: 且 và 旦 đều là hình chữ nhật có nét ngang bên trong, dễ nhầm — 旦 có 1 nét ngang DÀI hẳn ra ở đáy (đường chân trời lúc mặt trời 日 mọc), 且 thì các nét ngang bên trong đều nằm gọn trong khung. Âm đọc khác nhau hoàn toàn (かつ ≠ たん).",
+      "roots": [
+        {
+          "id": "ja-shape-katsutan-katsu",
+          "character": "且",
+          "hanViet": "thả",
+          "meaningVn": "hơn nữa, vả lại (không có nét đáy dài)",
+          "words": [
+            { "id": "ja-shape-katsutan-katsu-w1", "headword": "且つ", "reading": "katsu", "meaningVn": "và, hơn nữa", "example": "簡単且つ便利です。", "exampleVn": "Vừa đơn giản vừa tiện lợi." }
+          ]
+        },
+        {
+          "id": "ja-shape-katsutan-tan",
+          "character": "旦",
+          "hanViet": "đán",
+          "meaningVn": "buổi sáng, ngày (CÓ nét đáy dài — mặt trời mọc)",
+          "words": [
+            { "id": "ja-shape-katsutan-tan-w1", "headword": "元旦", "reading": "gantan", "meaningVn": "Tết Dương lịch", "example": "元旦おめでとうございます。", "exampleVn": "Chúc mừng năm mới." },
+            { "id": "ja-shape-katsutan-tan-w2", "headword": "一旦", "reading": "ittan", "meaningVn": "một khi, tạm thời", "example": "一旦家に帰ります。", "exampleVn": "Tạm thời về nhà đã." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-shape-kyuugan",
+      "language": "ja",
+      "groupKind": "shape",
+      "reading": "九 · 丸",
+      "note": "字形が似ている漢字: 九 và 丸 chỉ khác nhau ở 1 dấu CHẤM — 丸 = 九 + 1 nét chấm nhỏ. Âm đọc khác nhau hoàn toàn (きゅう/く ≠ まる/がん).",
+      "roots": [
+        {
+          "id": "ja-shape-kyuugan-kyuu",
+          "character": "九",
+          "hanViet": "cửu",
+          "meaningVn": "số chín (KHÔNG có chấm)",
+          "words": [
+            { "id": "ja-shape-kyuugan-kyuu-w1", "headword": "九月", "reading": "kugatsu", "meaningVn": "tháng Chín", "example": "九月に始まります。", "exampleVn": "Bắt đầu vào tháng Chín." },
+            { "id": "ja-shape-kyuugan-kyuu-w2", "headword": "九州", "reading": "kyuushuu", "meaningVn": "đảo Kyushu", "example": "九州に旅行します。", "exampleVn": "Đi du lịch đảo Kyushu." }
+          ]
+        },
+        {
+          "id": "ja-shape-kyuugan-gan",
+          "character": "丸",
+          "hanViet": "hoàn",
+          "meaningVn": "viên, tròn (CÓ thêm chấm)",
+          "words": [
+            { "id": "ja-shape-kyuugan-gan-w1", "headword": "丸い", "reading": "marui", "meaningVn": "tròn", "example": "月が丸いです。", "exampleVn": "Mặt trăng tròn." },
+            { "id": "ja-shape-kyuugan-gan-w2", "headword": "日の丸", "reading": "hinomaru", "meaningVn": "quốc kỳ Nhật (mặt trời)", "example": "日の丸を見ました。", "exampleVn": "Tôi đã nhìn thấy quốc kỳ Nhật." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-shape-ounushi",
+      "language": "ja",
+      "groupKind": "shape",
+      "reading": "王 · 主",
+      "note": "字形が似ている漢字: 王 và 主 chỉ khác nhau ở 1 dấu CHẤM — khác vị trí so với cặp 王/玉 đã học: ở đây chấm nằm Ở TRÊN CÙNG (ngọn lửa trên cây đèn). Âm đọc khác nhau hoàn toàn (おう ≠ しゅ).",
+      "roots": [
+        {
+          "id": "ja-shape-ounushi-ou",
+          "character": "王",
+          "hanViet": "vương",
+          "meaningVn": "vua (KHÔNG có chấm)",
+          "words": [
+            { "id": "ja-shape-ounushi-ou-w1", "headword": "王国", "reading": "oukoku", "meaningVn": "vương quốc", "example": "小さな王国です。", "exampleVn": "Là một vương quốc nhỏ." },
+            { "id": "ja-shape-ounushi-ou-w2", "headword": "王子", "reading": "ouji", "meaningVn": "hoàng tử", "example": "王子が城に住んでいます。", "exampleVn": "Hoàng tử sống trong lâu đài." }
+          ]
+        },
+        {
+          "id": "ja-shape-ounushi-shu",
+          "character": "主",
+          "hanViet": "chủ",
+          "meaningVn": "chủ, chính (CÓ chấm ở TRÊN CÙNG)",
+          "words": [
+            { "id": "ja-shape-ounushi-shu-w1", "headword": "主人", "reading": "shujin", "meaningVn": "chủ nhân, chồng", "example": "主人は今いません。", "exampleVn": "Chồng tôi hiện không có ở đây." },
+            { "id": "ja-shape-ounushi-shu-w2", "headword": "主に", "reading": "omoni", "meaningVn": "chủ yếu", "example": "主に野菜を食べます。", "exampleVn": "Chủ yếu ăn rau." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-shape-goniu",
+      "language": "ja",
+      "groupKind": "shape",
+      "reading": "午 · 牛",
+      "note": "字形が似ている漢字 kinh điển: 牛 nét phẩy (sừng bò) nhô lên CAO HƠN nét ngang; 午 thì không có nét nào nhô lên trên, gọn hơn trong khung. Âm đọc khác nhau hoàn toàn (ご ≠ ぎゅう/うし).",
+      "roots": [
+        {
+          "id": "ja-shape-goniu-go",
+          "character": "午",
+          "hanViet": "ngọ",
+          "meaningVn": "buổi trưa (KHÔNG có nét nhô trên)",
+          "words": [
+            { "id": "ja-shape-goniu-go-w1", "headword": "午後", "reading": "gogo", "meaningVn": "buổi chiều", "example": "午後に会いましょう。", "exampleVn": "Hãy gặp nhau vào buổi chiều." },
+            { "id": "ja-shape-goniu-go-w2", "headword": "午前", "reading": "gozen", "meaningVn": "buổi sáng", "example": "午前中に終わります。", "exampleVn": "Sẽ xong trong buổi sáng." }
+          ]
+        },
+        {
+          "id": "ja-shape-goniu-niu",
+          "character": "牛",
+          "hanViet": "ngưu",
+          "meaningVn": "con bò (nét phẩy nhô CAO — sừng bò)",
+          "words": [
+            { "id": "ja-shape-goniu-niu-w1", "headword": "牛乳", "reading": "gyuunyuu", "meaningVn": "sữa bò", "example": "牛乳を飲みます。", "exampleVn": "Uống sữa bò." },
+            { "id": "ja-shape-goniu-niu-w2", "headword": "牛肉", "reading": "gyuuniku", "meaningVn": "thịt bò", "example": "牛肉が好きです。", "exampleVn": "Tôi thích thịt bò." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-shape-shinhitsu",
+      "language": "ja",
+      "groupKind": "shape",
+      "reading": "心 · 必",
+      "note": "字形が似ている漢字: 心 và 必 chỉ khác nhau ở 1 nét PHẨY chéo cắt ngang — 必 = 心 + 1 nét phẩy chéo. Âm đọc khác nhau hoàn toàn (しん ≠ ひつ).",
+      "roots": [
+        {
+          "id": "ja-shape-shinhitsu-shin",
+          "character": "心",
+          "hanViet": "tâm",
+          "meaningVn": "trái tim, tâm (KHÔNG có nét chéo cắt ngang)",
+          "words": [
+            { "id": "ja-shape-shinhitsu-shin-w1", "headword": "心配", "reading": "shinpai", "meaningVn": "lo lắng", "example": "心配しないでください。", "exampleVn": "Xin đừng lo lắng." },
+            { "id": "ja-shape-shinhitsu-shin-w2", "headword": "中心", "reading": "chuushin", "meaningVn": "trung tâm", "example": "町の中心にいます。", "exampleVn": "Đang ở trung tâm thị trấn." }
+          ]
+        },
+        {
+          "id": "ja-shape-shinhitsu-hitsu",
+          "character": "必",
+          "hanViet": "tất",
+          "meaningVn": "phải, ắt (CÓ nét chéo cắt ngang)",
+          "words": [
+            { "id": "ja-shape-shinhitsu-hitsu-w1", "headword": "必要", "reading": "hitsuyou", "meaningVn": "cần thiết", "example": "パスポートが必要です。", "exampleVn": "Cần có hộ chiếu." },
+            { "id": "ja-shape-shinhitsu-hitsu-w2", "headword": "必ず", "reading": "kanarazu", "meaningVn": "nhất định", "example": "必ず来てください。", "exampleVn": "Nhất định hãy đến nhé." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-shape-kyuuin",
+      "language": "ja",
+      "groupKind": "shape",
+      "reading": "弓 · 引",
+      "note": "字形が似ている漢字: 弓 và 引 chỉ khác nhau ở 1 nét SỔ xuyên qua giữa — 引 = 弓 + 1 nét sổ. Âm đọc khác nhau hoàn toàn (きゅう/ゆみ ≠ いん/ひ(く)).",
+      "roots": [
+        {
+          "id": "ja-shape-kyuuin-kyuu",
+          "character": "弓",
+          "hanViet": "cung",
+          "meaningVn": "cây cung (KHÔNG có nét sổ xuyên qua)",
+          "words": [
+            { "id": "ja-shape-kyuuin-kyuu-w1", "headword": "弓道", "reading": "kyuudou", "meaningVn": "cung đạo (môn bắn cung truyền thống Nhật)", "example": "弓道を習っています。", "exampleVn": "Tôi đang học cung đạo." },
+            { "id": "ja-shape-kyuuin-kyuu-w2", "headword": "弓矢", "reading": "yumiya", "meaningVn": "cung tên", "example": "弓矢を使います。", "exampleVn": "Sử dụng cung tên." }
+          ]
+        },
+        {
+          "id": "ja-shape-kyuuin-in",
+          "character": "引",
+          "hanViet": "dẫn",
+          "meaningVn": "kéo, dẫn (CÓ nét sổ xuyên qua)",
+          "words": [
+            { "id": "ja-shape-kyuuin-in-w1", "headword": "引退", "reading": "intai", "meaningVn": "nghỉ hưu, giải nghệ", "example": "選手が引退しました。", "exampleVn": "Vận động viên đã giải nghệ." },
+            { "id": "ja-shape-kyuuin-in-w2", "headword": "引っ越し", "reading": "hikkoshi", "meaningVn": "chuyển nhà", "example": "来月引っ越しします。", "exampleVn": "Tháng sau tôi chuyển nhà." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-shape-ryoushi",
+      "language": "ja",
+      "groupKind": "shape",
+      "reading": "了 · 子",
+      "note": "字形が似ている漢字: 了 và 子 chỉ khác nhau ở 1 nét NGANG ở giữa — 子 = 了 + 1 nét ngang (2 cánh tay của đứa trẻ). Âm đọc khác nhau hoàn toàn (りょう ≠ し/こ).",
+      "roots": [
+        {
+          "id": "ja-shape-ryoushi-ryou",
+          "character": "了",
+          "hanViet": "liễu",
+          "meaningVn": "xong, hiểu (KHÔNG có nét ngang giữa)",
+          "words": [
+            { "id": "ja-shape-ryoushi-ryou-w1", "headword": "了解", "reading": "ryoukai", "meaningVn": "hiểu rõ, đã rõ", "example": "了解しました。", "exampleVn": "Tôi đã hiểu rõ rồi." },
+            { "id": "ja-shape-ryoushi-ryou-w2", "headword": "終了", "reading": "shuuryou", "meaningVn": "kết thúc, hoàn thành", "example": "会議が終了しました。", "exampleVn": "Cuộc họp đã kết thúc." }
+          ]
+        },
+        {
+          "id": "ja-shape-ryoushi-shi",
+          "character": "子",
+          "hanViet": "tử",
+          "meaningVn": "con, đứa trẻ (CÓ nét ngang giữa — cánh tay)",
+          "words": [
+            { "id": "ja-shape-ryoushi-shi-w1", "headword": "子供", "reading": "kodomo", "meaningVn": "trẻ em", "example": "子供が遊んでいます。", "exampleVn": "Trẻ em đang chơi đùa." },
+            { "id": "ja-shape-ryoushi-shi-w2", "headword": "様子", "reading": "yousu", "meaningVn": "tình hình, dáng vẻ", "example": "様子を見ましょう。", "exampleVn": "Hãy xem tình hình thế nào." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-shape-sunsai",
+      "language": "ja",
+      "groupKind": "shape",
+      "reading": "寸 · 才",
+      "note": "字形が似ている漢字: 寸 và 才 chỉ khác nhau ở nét cuối cùng — 寸 kết thúc bằng 1 dấu CHẤM, 才 kết thúc bằng 1 nét MÓC hất lên. Âm đọc khác nhau hoàn toàn (すん ≠ さい).",
+      "roots": [
+        {
+          "id": "ja-shape-sunsai-sun",
+          "character": "寸",
+          "hanViet": "thốn",
+          "meaningVn": "tấc, kích thước (nét cuối là CHẤM)",
+          "words": [
+            { "id": "ja-shape-sunsai-sun-w1", "headword": "寸法", "reading": "sunpou", "meaningVn": "kích thước", "example": "寸法を測ります。", "exampleVn": "Đo kích thước." },
+            { "id": "ja-shape-sunsai-sun-w2", "headword": "寸前", "reading": "sunzen", "meaningVn": "cận kề, sắp sửa", "example": "完成の寸前です。", "exampleVn": "Sắp hoàn thành rồi." }
+          ]
+        },
+        {
+          "id": "ja-shape-sunsai-sai",
+          "character": "才",
+          "hanViet": "tài",
+          "meaningVn": "tài năng (nét cuối là MÓC)",
+          "words": [
+            { "id": "ja-shape-sunsai-sai-w1", "headword": "才能", "reading": "sainou", "meaningVn": "tài năng", "example": "音楽の才能があります。", "exampleVn": "Có tài năng âm nhạc." },
+            { "id": "ja-shape-sunsai-sai-w2", "headword": "才女", "reading": "saijo", "meaningVn": "tài nữ, phụ nữ tài giỏi", "example": "彼女は才女です。", "exampleVn": "Cô ấy là một tài nữ." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-shape-koushin",
+      "language": "ja",
+      "groupKind": "shape",
+      "reading": "幸 · 辛",
+      "note": "字形が似ている漢字: 幸 (8 nét) và 辛 (5 nét) khác nhau rõ nhất ở phần TRÊN CÙNG — 幸 phần trên là hình chữ THẬP (十), 辛 phần trên chỉ là 1 nét đơn giản. Âm đọc khác nhau hoàn toàn (こう/しあわせ ≠ しん/から(い)).",
+      "roots": [
+        {
+          "id": "ja-shape-koushin-kou",
+          "character": "幸",
+          "hanViet": "hạnh",
+          "meaningVn": "may mắn, hạnh phúc (trên là chữ THẬP 十)",
+          "words": [
+            { "id": "ja-shape-koushin-kou-w1", "headword": "幸せ", "reading": "shiawase", "meaningVn": "hạnh phúc", "example": "とても幸せです。", "exampleVn": "Tôi rất hạnh phúc." },
+            { "id": "ja-shape-koushin-kou-w2", "headword": "幸運", "reading": "kouun", "meaningVn": "may mắn", "example": "幸運を祈ります。", "exampleVn": "Chúc may mắn." }
+          ]
+        },
+        {
+          "id": "ja-shape-koushin-shin",
+          "character": "辛",
+          "hanViet": "tân",
+          "meaningVn": "cay, vất vả (trên KHÔNG phải chữ thập)",
+          "words": [
+            { "id": "ja-shape-koushin-shin-w1", "headword": "辛い", "reading": "karai", "meaningVn": "cay", "example": "このカレーは辛いです。", "exampleVn": "Món cà ri này cay." },
+            { "id": "ja-shape-koushin-shin-w2", "headword": "辛口", "reading": "karakuchi", "meaningVn": "vị cay, gắt", "example": "辛口のソースです。", "exampleVn": "Là loại sốt vị cay." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-shape-uritsume",
+      "language": "ja",
+      "groupKind": "shape",
+      "reading": "瓜 · 爪",
+      "note": "字形が似ている漢字: 瓜 và 爪 chỉ khác nhau ở 1 dấu CHẤM — 瓜 = 爪 + 1 nét chấm. Âm đọc khác nhau hoàn toàn (うり ≠ つめ).",
+      "roots": [
+        {
+          "id": "ja-shape-uritsume-uri",
+          "character": "瓜",
+          "hanViet": "qua",
+          "meaningVn": "dưa (CÓ thêm chấm)",
+          "words": [
+            { "id": "ja-shape-uritsume-uri-w1", "headword": "西瓜", "reading": "suika", "meaningVn": "dưa hấu", "example": "夏は西瓜を食べます。", "exampleVn": "Mùa hè ăn dưa hấu." },
+            { "id": "ja-shape-uritsume-uri-w2", "headword": "南瓜", "reading": "kabocha", "meaningVn": "bí ngô", "example": "南瓜のスープです。", "exampleVn": "Là món súp bí ngô." }
+          ]
+        },
+        {
+          "id": "ja-shape-uritsume-tsume",
+          "character": "爪",
+          "hanViet": "trảo",
+          "meaningVn": "móng tay, móng vuốt (KHÔNG có chấm)",
+          "words": [
+            { "id": "ja-shape-uritsume-tsume-w1", "headword": "爪先", "reading": "tsumasaki", "meaningVn": "đầu ngón chân/tay", "example": "爪先が冷たいです。", "exampleVn": "Đầu ngón chân lạnh." },
+            { "id": "ja-shape-uritsume-tsume-w2", "headword": "深爪", "reading": "fukazume", "meaningVn": "cắt móng tay quá sát", "example": "深爪してしまいました。", "exampleVn": "Tôi lỡ cắt móng tay quá sát." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-shape-sei",
+      "language": "ja",
+      "groupKind": "shape",
+      "reading": "星 · 性 · 姓 · 牲 (chung thanh phù 生)",
+      "note": "字形が似ている漢字: tất cả đều chứa 生 làm THANH PHÙ — điểm thú vị là âm On trong tiếng Nhật của cả 4 chữ đều GIỐNG HỆT NHAU (せい sei), nhất quán hơn cả tiếng Trung (nơi 牲 đọc lệch hẳn sang shēng). Chỉ phân biệt được qua bộ thủ và nghĩa: 日(nhật) → 星, 忄(tâm) → 性, 女(nữ) → 姓, 牛(ngưu) → 牲.",
+      "roots": [
+        {
+          "id": "ja-shape-sei-hi",
+          "character": "星",
+          "hanViet": "tinh",
+          "meaningVn": "ngôi sao (bộ 日nhật)",
+          "words": [
+            { "id": "ja-shape-sei-hi-w1", "headword": "星座", "reading": "seiza", "meaningVn": "chòm sao, cung hoàng đạo", "example": "星座を調べます。", "exampleVn": "Tra cứu cung hoàng đạo." },
+            { "id": "ja-shape-sei-hi-w2", "headword": "星空", "reading": "hoshizora", "meaningVn": "bầu trời sao", "example": "星空がきれいです。", "exampleVn": "Bầu trời sao rất đẹp." }
+          ]
+        },
+        {
+          "id": "ja-shape-sei-kokoro",
+          "character": "性",
+          "hanViet": "tính",
+          "meaningVn": "tính chất, tính cách (bộ 忄tâm)",
+          "words": [
+            { "id": "ja-shape-sei-kokoro-w1", "headword": "性格", "reading": "seikaku", "meaningVn": "tính cách", "example": "明るい性格です。", "exampleVn": "Là tính cách vui vẻ, cởi mở." },
+            { "id": "ja-shape-sei-kokoro-w2", "headword": "個性", "reading": "kosei", "meaningVn": "cá tính", "example": "個性を大切にします。", "exampleVn": "Coi trọng cá tính." }
+          ]
+        },
+        {
+          "id": "ja-shape-sei-onna",
+          "character": "姓",
+          "hanViet": "tính",
+          "meaningVn": "họ (tên) (bộ 女nữ)",
+          "words": [
+            { "id": "ja-shape-sei-onna-w1", "headword": "姓名", "reading": "seimei", "meaningVn": "họ tên", "example": "姓名を書いてください。", "exampleVn": "Xin viết họ tên." },
+            { "id": "ja-shape-sei-onna-w2", "headword": "旧姓", "reading": "kyuusei", "meaningVn": "họ cũ (thời con gái)", "example": "旧姓を使っています。", "exampleVn": "Đang dùng họ thời con gái." }
+          ]
+        },
+        {
+          "id": "ja-shape-sei-ushi",
+          "character": "牲",
+          "hanViet": "sinh",
+          "meaningVn": "gia súc (bộ 牛ngưu)",
+          "words": [
+            { "id": "ja-shape-sei-ushi-w1", "headword": "犠牲", "reading": "gisei", "meaningVn": "hy sinh", "example": "犠牲を払いました。", "exampleVn": "Đã phải hy sinh, trả giá." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-shape-ji",
+      "language": "ja",
+      "groupKind": "shape",
+      "reading": "詩 · 待 · 持 · 特 (chung thanh phù 寺)",
+      "note": "字形が似ている漢字: tất cả đều chứa 寺 làm THANH PHÙ trọn vẹn ở bên phải. Lưu ý: 詩 dùng chữ 言 đầy đủ (khác 讠giản thể của tiếng Trung) nhưng phần bên phải 寺 vẫn giống hệt 待/持/特 — đúng trọng tâm cần phân biệt. Bộ thủ: 言(ngôn) → 詩, 彳(xích) → 待, 扌(thủ) → 持, 牛(ngưu) → 特.",
+      "roots": [
+        {
+          "id": "ja-shape-ji-gen",
+          "character": "詩",
+          "hanViet": "thi",
+          "meaningVn": "thơ (bộ 言ngôn)",
+          "words": [
+            { "id": "ja-shape-ji-gen-w1", "headword": "詩人", "reading": "shijin", "meaningVn": "nhà thơ", "example": "有名な詩人です。", "exampleVn": "Là một nhà thơ nổi tiếng." },
+            { "id": "ja-shape-ji-gen-w2", "headword": "詩集", "reading": "shishuu", "meaningVn": "tập thơ", "example": "詩集を出版しました。", "exampleVn": "Đã xuất bản một tập thơ." }
+          ]
+        },
+        {
+          "id": "ja-shape-ji-gyou",
+          "character": "待",
+          "hanViet": "đãi",
+          "meaningVn": "đợi, đối đãi (bộ 彳xích)",
+          "words": [
+            { "id": "ja-shape-ji-gyou-w1", "headword": "期待", "reading": "kitai", "meaningVn": "kỳ vọng, mong đợi", "example": "期待しています。", "exampleVn": "Tôi đang mong đợi." },
+            { "id": "ja-shape-ji-gyou-w2", "headword": "招待", "reading": "shoutai", "meaningVn": "mời, tiếp đãi", "example": "招待を受けました。", "exampleVn": "Đã nhận lời mời." }
+          ]
+        },
+        {
+          "id": "ja-shape-ji-te",
+          "character": "持",
+          "hanViet": "trì",
+          "meaningVn": "cầm, giữ (bộ 扌thủ)",
+          "words": [
+            { "id": "ja-shape-ji-te-w1", "headword": "持つ", "reading": "motsu", "meaningVn": "cầm, mang", "example": "傘を持っています。", "exampleVn": "Tôi đang cầm ô." },
+            { "id": "ja-shape-ji-te-w2", "headword": "支持", "reading": "shiji", "meaningVn": "ủng hộ", "example": "支持率が高いです。", "exampleVn": "Tỷ lệ ủng hộ cao." }
+          ]
+        },
+        {
+          "id": "ja-shape-ji-ushi",
+          "character": "特",
+          "hanViet": "đặc",
+          "meaningVn": "đặc biệt (bộ 牛ngưu)",
+          "words": [
+            { "id": "ja-shape-ji-ushi-w1", "headword": "特別", "reading": "tokubetsu", "meaningVn": "đặc biệt", "example": "特別な日です。", "exampleVn": "Là một ngày đặc biệt." },
+            { "id": "ja-shape-ji-ushi-w2", "headword": "特徴", "reading": "tokuchou", "meaningVn": "đặc điểm", "example": "特徴を説明します。", "exampleVn": "Giải thích đặc điểm." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-shape-kai",
+      "language": "ja",
+      "groupKind": "shape",
+      "reading": "海 · 梅 · 悔 (chung thanh phù 毎)",
+      "note": "字形が似ている漢字: tất cả đều chứa 毎 (biến thể Nhật của 每) làm THANH PHÙ, chỉ khác bộ thủ đi kèm gợi ý nghĩa: 氵(thủy) → 海, 木(mộc) → 梅, 忄(tâm) → 悔. Âm đọc gần giống nhau (かい/うみ, ばい/うめ, かい/く(いる)) nhưng KHÔNG hoàn toàn giống.",
+      "roots": [
+        {
+          "id": "ja-shape-kai-sui",
+          "character": "海",
+          "hanViet": "hải",
+          "meaningVn": "biển (bộ 氵thủy)",
+          "words": [
+            { "id": "ja-shape-kai-sui-w1", "headword": "海辺", "reading": "umibe", "meaningVn": "bờ biển", "example": "海辺を歩きます。", "exampleVn": "Đi dạo trên bờ biển." },
+            { "id": "ja-shape-kai-sui-w2", "headword": "海外", "reading": "kaigai", "meaningVn": "hải ngoại, nước ngoài", "example": "海外旅行が好きです。", "exampleVn": "Tôi thích du lịch nước ngoài." }
+          ]
+        },
+        {
+          "id": "ja-shape-kai-moku",
+          "character": "梅",
+          "hanViet": "mai",
+          "meaningVn": "cây mai, mận (bộ 木mộc)",
+          "words": [
+            { "id": "ja-shape-kai-moku-w1", "headword": "梅雨", "reading": "tsuyu", "meaningVn": "mùa mưa (đầu hè)", "example": "梅雨に入りました。", "exampleVn": "Đã vào mùa mưa." },
+            { "id": "ja-shape-kai-moku-w2", "headword": "梅干し", "reading": "umeboshi", "meaningVn": "mơ muối", "example": "梅干しは酸っぱいです。", "exampleVn": "Mơ muối có vị chua." }
+          ]
+        },
+        {
+          "id": "ja-shape-kai-kokoro",
+          "character": "悔",
+          "hanViet": "hối",
+          "meaningVn": "hối hận (bộ 忄tâm)",
+          "words": [
+            { "id": "ja-shape-kai-kokoro-w1", "headword": "後悔", "reading": "koukai", "meaningVn": "hối hận", "example": "後悔しています。", "exampleVn": "Tôi đang hối hận." },
+            { "id": "ja-shape-kai-kokoro-w2", "headword": "悔しい", "reading": "kuyashii", "meaningVn": "tiếc nuối, cay cú", "example": "負けて悔しいです。", "exampleVn": "Thua nên thấy cay cú." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-shape-han",
+      "language": "ja",
+      "groupKind": "shape",
+      "reading": "板 · 返 · 版 (chung thanh phù 反)",
+      "note": "字形が似ている漢字: tất cả đều chứa 反 làm THANH PHÙ (âm On đều là はん han), chỉ khác bộ thủ đi kèm gợi ý nghĩa: 木(mộc) → 板, 辶(sước, đi) → 返, 片(phiến, tấm mỏng) → 版.",
+      "roots": [
+        {
+          "id": "ja-shape-han-moku",
+          "character": "板",
+          "hanViet": "bản",
+          "meaningVn": "tấm ván (bộ 木mộc)",
+          "words": [
+            { "id": "ja-shape-han-moku-w1", "headword": "黒板", "reading": "kokuban", "meaningVn": "bảng đen", "example": "黒板に書きます。", "exampleVn": "Viết lên bảng đen." },
+            { "id": "ja-shape-han-moku-w2", "headword": "看板", "reading": "kanban", "meaningVn": "biển hiệu", "example": "店の看板です。", "exampleVn": "Là biển hiệu cửa hàng." }
+          ]
+        },
+        {
+          "id": "ja-shape-han-chaku",
+          "character": "返",
+          "hanViet": "phản",
+          "meaningVn": "trở về, trả lại (bộ 辶sước)",
+          "words": [
+            { "id": "ja-shape-han-chaku-w1", "headword": "返却", "reading": "henkyaku", "meaningVn": "trả lại, hoàn trả", "example": "本を返却します。", "exampleVn": "Trả lại sách." },
+            { "id": "ja-shape-han-chaku-w2", "headword": "返信", "reading": "henshin", "meaningVn": "thư trả lời", "example": "返信をください。", "exampleVn": "Xin hãy hồi âm." }
+          ]
+        },
+        {
+          "id": "ja-shape-han-hen",
+          "character": "版",
+          "hanViet": "bản",
+          "meaningVn": "bản in, phiên bản (bộ 片phiến)",
+          "words": [
+            { "id": "ja-shape-han-hen-w1", "headword": "出版", "reading": "shuppan", "meaningVn": "xuất bản", "example": "本を出版します。", "exampleVn": "Xuất bản sách." },
+            { "id": "ja-shape-han-hen-w2", "headword": "版画", "reading": "hanga", "meaningVn": "tranh khắc gỗ", "example": "版画を作ります。", "exampleVn": "Làm tranh khắc gỗ." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-shape-tou",
+      "language": "ja",
+      "groupKind": "shape",
+      "reading": "桃 · 逃 · 跳 · 挑 (chung thanh phù 兆)",
+      "note": "字形が似ている漢字: tất cả đều chứa 兆 làm THANH PHÙ, chỉ khác bộ thủ đi kèm gợi ý nghĩa: 木(mộc) → 桃, 辶(sước, đi) → 逃, 足(túc, chân) → 跳, 扌(thủ, tay) → 挑. Âm On khá giống nhau (とう ≈ ちょう) nhưng không hoàn toàn giống.",
+      "roots": [
+        {
+          "id": "ja-shape-tou-moku",
+          "character": "桃",
+          "hanViet": "đào",
+          "meaningVn": "quả đào (bộ 木mộc)",
+          "words": [
+            { "id": "ja-shape-tou-moku-w1", "headword": "桃太郎", "reading": "Momotarou", "meaningVn": "Đào Thái Lang (truyện cổ tích Nhật)", "example": "桃太郎の話を知っていますか。", "exampleVn": "Bạn có biết truyện Đào Thái Lang không?" },
+            { "id": "ja-shape-tou-moku-w2", "headword": "桃色", "reading": "momoiro", "meaningVn": "màu hồng đào", "example": "桃色のドレスです。", "exampleVn": "Là chiếc váy màu hồng đào." }
+          ]
+        },
+        {
+          "id": "ja-shape-tou-chaku",
+          "character": "逃",
+          "hanViet": "đào",
+          "meaningVn": "trốn chạy (bộ 辶sước)",
+          "words": [
+            { "id": "ja-shape-tou-chaku-w1", "headword": "逃げる", "reading": "nigeru", "meaningVn": "chạy trốn", "example": "犯人が逃げました。", "exampleVn": "Tội phạm đã chạy trốn." },
+            { "id": "ja-shape-tou-chaku-w2", "headword": "逃亡", "reading": "touhou", "meaningVn": "đào vong, chạy trốn", "example": "国外に逃亡しました。", "exampleVn": "Đã chạy trốn ra nước ngoài." }
+          ]
+        },
+        {
+          "id": "ja-shape-tou-soku",
+          "character": "跳",
+          "hanViet": "khiêu",
+          "meaningVn": "nhảy (bộ 足túc)",
+          "words": [
+            { "id": "ja-shape-tou-soku-w1", "headword": "跳ぶ", "reading": "tobu", "meaningVn": "nhảy", "example": "高く跳びます。", "exampleVn": "Nhảy cao." },
+            { "id": "ja-shape-tou-soku-w2", "headword": "縄跳び", "reading": "nawatobi", "meaningVn": "nhảy dây", "example": "縄跳びをします。", "exampleVn": "Chơi nhảy dây." }
+          ]
+        },
+        {
+          "id": "ja-shape-tou-shu",
+          "character": "挑",
+          "hanViet": "khiêu",
+          "meaningVn": "thách thức (bộ 扌thủ)",
+          "words": [
+            { "id": "ja-shape-tou-shu-w1", "headword": "挑戦", "reading": "chousen", "meaningVn": "thách thức, thử thách", "example": "新しい挑戦です。", "exampleVn": "Là một thử thách mới." },
+            { "id": "ja-shape-tou-shu-w2", "headword": "挑む", "reading": "idomu", "meaningVn": "thách thức, thử sức", "example": "困難に挑みます。", "exampleVn": "Thử sức với khó khăn." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-shape-ki",
+      "language": "ja",
+      "groupKind": "shape",
+      "reading": "記 · 紀 · 忌 · 起 (chung thanh phù 己)",
+      "note": "字形が似ている漢字: tất cả đều chứa 己 làm THANH PHÙ, chỉ khác bộ thủ đi kèm gợi ý nghĩa: 言(ngôn) → 記, 糸(mịch, tơ) → 紀, 心(tâm, ở dưới) → 忌, 走(tẩu, đi) → 起. Âm On đều gần giống nhau (き) nhưng khác dấu/âm điệu.",
+      "roots": [
+        {
+          "id": "ja-shape-ki-gen",
+          "character": "記",
+          "hanViet": "ký",
+          "meaningVn": "ghi chép (bộ 言ngôn)",
+          "words": [
+            { "id": "ja-shape-ki-gen-w1", "headword": "日記", "reading": "nikki", "meaningVn": "nhật ký", "example": "毎日日記を書きます。", "exampleVn": "Viết nhật ký mỗi ngày." },
+            { "id": "ja-shape-ki-gen-w2", "headword": "記憶", "reading": "kioku", "meaningVn": "ký ức, trí nhớ", "example": "いい記憶です。", "exampleVn": "Là một ký ức đẹp." }
+          ]
+        },
+        {
+          "id": "ja-shape-ki-ito",
+          "character": "紀",
+          "hanViet": "kỷ",
+          "meaningVn": "kỷ, thời đại (bộ 糸mịch)",
+          "words": [
+            { "id": "ja-shape-ki-ito-w1", "headword": "世紀", "reading": "seiki", "meaningVn": "thế kỷ", "example": "二十一世紀です。", "exampleVn": "Là thế kỷ hai mươi mốt." },
+            { "id": "ja-shape-ki-ito-w2", "headword": "紀元", "reading": "kigen", "meaningVn": "kỷ nguyên", "example": "紀元前の話です。", "exampleVn": "Là chuyện trước Công nguyên." }
+          ]
+        },
+        {
+          "id": "ja-shape-ki-kokoro",
+          "character": "忌",
+          "hanViet": "kỵ",
+          "meaningVn": "kiêng kỵ (bộ 心tâm)",
+          "words": [
+            { "id": "ja-shape-ki-kokoro-w1", "headword": "禁忌", "reading": "kinki", "meaningVn": "điều cấm kỵ", "example": "それは禁忌です。", "exampleVn": "Đó là điều cấm kỵ." }
+          ]
+        },
+        {
+          "id": "ja-shape-ki-sou",
+          "character": "起",
+          "hanViet": "khởi",
+          "meaningVn": "đứng dậy, bắt đầu (bộ 走tẩu)",
+          "words": [
+            { "id": "ja-shape-ki-sou-w1", "headword": "起きる", "reading": "okiru", "meaningVn": "thức dậy", "example": "七時に起きます。", "exampleVn": "Thức dậy lúc 7 giờ." },
+            { "id": "ja-shape-ki-sou-w2", "headword": "起立", "reading": "kiritsu", "meaningVn": "đứng dậy", "example": "起立、礼、着席。", "exampleVn": "Đứng dậy, chào, ngồi xuống (khẩu lệnh lớp học)." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-shape-zou",
+      "language": "ja",
+      "groupKind": "shape",
+      "reading": "増 · 憎 · 贈 · 僧 (chung thanh phù 曽)",
+      "note": "字形が似ている漢字: tất cả đều chứa 曽 (biến thể Nhật của 曾) làm THANH PHÙ, chỉ khác bộ thủ đi kèm gợi ý nghĩa: 土(thổ) → 増, 忄(tâm) → 憎, 貝(bối, tiền) → 贈, 亻(nhân) → 僧. Ba chữ 増/憎/贈 đọc gần giống nhau (ぞう zou), riêng 僧 đọc lệch sang そう sou.",
+      "roots": [
+        {
+          "id": "ja-shape-zou-tsuchi",
+          "character": "増",
+          "hanViet": "tăng",
+          "meaningVn": "tăng thêm (bộ 土thổ)",
+          "words": [
+            { "id": "ja-shape-zou-tsuchi-w1", "headword": "増加", "reading": "zouka", "meaningVn": "tăng thêm", "example": "人口が増加します。", "exampleVn": "Dân số tăng thêm." },
+            { "id": "ja-shape-zou-tsuchi-w2", "headword": "増える", "reading": "fueru", "meaningVn": "tăng lên", "example": "体重が増えました。", "exampleVn": "Cân nặng đã tăng lên." }
+          ]
+        },
+        {
+          "id": "ja-shape-zou-kokoro",
+          "character": "憎",
+          "hanViet": "tăng",
+          "meaningVn": "ghét, căm ghét (bộ 忄tâm)",
+          "words": [
+            { "id": "ja-shape-zou-kokoro-w1", "headword": "愛憎", "reading": "aizou", "meaningVn": "yêu ghét", "example": "愛憎が入り混じります。", "exampleVn": "Yêu và ghét đan xen." }
+          ]
+        },
+        {
+          "id": "ja-shape-zou-kai",
+          "character": "贈",
+          "hanViet": "tặng",
+          "meaningVn": "biếu tặng (bộ 貝bối)",
+          "words": [
+            { "id": "ja-shape-zou-kai-w1", "headword": "贈り物", "reading": "okurimono", "meaningVn": "quà tặng", "example": "贈り物をもらいました。", "exampleVn": "Đã nhận được quà tặng." },
+            { "id": "ja-shape-zou-kai-w2", "headword": "寄贈", "reading": "kizou", "meaningVn": "quyên tặng", "example": "本を寄贈しました。", "exampleVn": "Đã quyên tặng sách." }
+          ]
+        },
+        {
+          "id": "ja-shape-zou-nin",
+          "character": "僧",
+          "hanViet": "tăng",
+          "meaningVn": "nhà sư (bộ 亻nhân — đọc lệch sang そう)",
+          "words": [
+            { "id": "ja-shape-zou-nin-w1", "headword": "僧侶", "reading": "souryo", "meaningVn": "tăng lữ", "example": "僧侶が祈ります。", "exampleVn": "Tăng lữ cầu nguyện." },
+            { "id": "ja-shape-zou-nin-w2", "headword": "高僧", "reading": "kousou", "meaningVn": "cao tăng", "example": "有名な高僧です。", "exampleVn": "Là một vị cao tăng nổi tiếng." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-shape-kaku",
+      "language": "ja",
+      "groupKind": "shape",
+      "reading": "格 · 客 · 路 · 落 (chung thanh phù 各)",
+      "note": "字形が似ている漢字: 各 là thanh phù năng sản. 格/客/路/落 chỉ khác bộ thủ đi kèm gợi ý nghĩa: 木(mộc) → 格, 宀(miên, mái nhà) → 客, 足(túc, chân) → 路, 艹(thảo, cỏ) → 落. Âm On khá giống nhau (かく/きゃく/ろ/らく) nhưng không hoàn toàn giống.",
+      "roots": [
+        {
+          "id": "ja-shape-kaku-moku",
+          "character": "格",
+          "hanViet": "cách",
+          "meaningVn": "khung, cách thức (bộ 木mộc)",
+          "words": [
+            { "id": "ja-shape-kaku-moku-w1", "headword": "合格", "reading": "goukaku", "meaningVn": "đỗ, đạt", "example": "試験に合格しました。", "exampleVn": "Đã đỗ kỳ thi." },
+            { "id": "ja-shape-kaku-moku-w2", "headword": "価格", "reading": "kakaku", "meaningVn": "giá cả", "example": "価格が上がりました。", "exampleVn": "Giá cả đã tăng lên." }
+          ]
+        },
+        {
+          "id": "ja-shape-kaku-ben",
+          "character": "客",
+          "hanViet": "khách",
+          "meaningVn": "khách (bộ 宀miên)",
+          "words": [
+            { "id": "ja-shape-kaku-ben-w1", "headword": "観光客", "reading": "kankoukyaku", "meaningVn": "khách du lịch", "example": "観光客が多いです。", "exampleVn": "Có nhiều khách du lịch." },
+            { "id": "ja-shape-kaku-ben-w2", "headword": "客室", "reading": "kyakushitsu", "meaningVn": "phòng khách, khoang khách", "example": "客室に入ります。", "exampleVn": "Vào phòng khách." }
+          ]
+        },
+        {
+          "id": "ja-shape-kaku-soku",
+          "character": "路",
+          "hanViet": "lộ",
+          "meaningVn": "đường (bộ 足túc)",
+          "words": [
+            { "id": "ja-shape-kaku-soku-w1", "headword": "道路", "reading": "douro", "meaningVn": "đường", "example": "道路が混んでいます。", "exampleVn": "Đường đang tắc." },
+            { "id": "ja-shape-kaku-soku-w2", "headword": "路線", "reading": "rosen", "meaningVn": "tuyến đường", "example": "この路線は便利です。", "exampleVn": "Tuyến đường này tiện lợi." }
+          ]
+        },
+        {
+          "id": "ja-shape-kaku-kusa",
+          "character": "落",
+          "hanViet": "lạc",
+          "meaningVn": "rơi rụng (bộ 艹thảo)",
+          "words": [
+            { "id": "ja-shape-kaku-kusa-w1", "headword": "落ちる", "reading": "ochiru", "meaningVn": "rơi xuống", "example": "葉が落ちます。", "exampleVn": "Lá rơi xuống." },
+            { "id": "ja-shape-kaku-kusa-w2", "headword": "落語", "reading": "rakugo", "meaningVn": "lạc ngữ (nghệ thuật kể chuyện hài)", "example": "落語を聞きます。", "exampleVn": "Nghe kể chuyện lạc ngữ." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-shape-sei2",
+      "language": "ja",
+      "groupKind": "shape",
+      "reading": "情 · 清 · 請 · 晴 · 精 · 静 (chung thanh phù 青)",
+      "note": "字形が似ている漢字: đều chứa 青 làm THANH PHÙ (âm On gần giống nhau — じょう/せい). Bỏ 睛/蜻 vì không phải joyo kanji ở Nhật. (Nhóm khung — chưa có từ vựng.)",
+      "roots": [
+        { "id": "ja-shape-sei2-jou", "character": "情", "hanViet": "tình", "meaningVn": "tình cảm (bộ 忄tâm)", "words": [] },
+        { "id": "ja-shape-sei2-sui", "character": "清", "hanViet": "thanh", "meaningVn": "trong sạch (bộ 氵thủy)", "words": [] },
+        { "id": "ja-shape-sei2-gon", "character": "請", "hanViet": "thỉnh", "meaningVn": "mời, xin (bộ 言ngôn — Nhật dùng chữ phồn thể thay vì giản thể 请)", "words": [] },
+        { "id": "ja-shape-sei2-nichi", "character": "晴", "hanViet": "tình", "meaningVn": "trời quang, tạnh (bộ 日nhật)", "words": [] },
+        { "id": "ja-shape-sei2-bei", "character": "精", "hanViet": "tinh", "meaningVn": "tinh túy (bộ 米mễ)", "words": [] },
+        { "id": "ja-shape-sei2-sou", "character": "静", "hanViet": "tĩnh", "meaningVn": "yên tĩnh (bộ 青 + 争)", "words": [] }
+      ]
+    },
+    {
+      "id": "ja-shape-kou",
+      "language": "ja",
+      "groupKind": "shape",
+      "reading": "校 · 較 · 郊 · 効 (chung thanh phù 交)",
+      "note": "字形が似ている漢字: đều chứa 交 làm THANH PHÙ (âm On phần lớn こう, riêng 較 đọc かく). Bỏ 胶/饺/跤 vì không phải joyo kanji ở Nhật. 効 là dạng shinjitai của 效 (giản thể Trung Quốc là 效, Nhật viết khác một chút nhưng cùng gốc). (Nhóm khung — chưa có từ vựng.)",
+      "roots": [
+        { "id": "ja-shape-kou-moku", "character": "校", "hanViet": "hiệu", "meaningVn": "trường học (bộ 木mộc)", "words": [] },
+        { "id": "ja-shape-kou-sha", "character": "較", "meaningVn": "so sánh (bộ 車xa)", "words": [] },
+        { "id": "ja-shape-kou-fu", "character": "郊", "hanViet": "giao", "meaningVn": "ngoại ô (bộ 阝ấp)", "words": [] },
+        { "id": "ja-shape-kou-riki", "character": "効", "hanViet": "hiệu", "meaningVn": "hiệu quả (bộ 力lực — shinjitai của 效)", "words": [] }
+      ]
+    },
+    {
+      "id": "ja-shape-hou",
+      "language": "ja",
+      "groupKind": "shape",
+      "reading": "飽 · 抱 · 泡 · 胞 (chung thanh phù 包)",
+      "note": "字形が似ている漢字: đều chứa 包 làm THANH PHÙ (âm On giống nhau — ほう). Bỏ 跑/炮 vì không phải joyo kanji ở Nhật. 飽 là chữ phồn thể (giản thể Trung Quốc là 饱). (Nhóm khung — chưa có từ vựng.)",
+      "roots": [
+        { "id": "ja-shape-hou-shoku", "character": "飽", "hanViet": "bão", "meaningVn": "no, chán (bộ 食thực)", "words": [] },
+        { "id": "ja-shape-hou-te", "character": "抱", "hanViet": "bão", "meaningVn": "ôm (bộ 扌thủ)", "words": [] },
+        { "id": "ja-shape-hou-sui", "character": "泡", "hanViet": "bào", "meaningVn": "bọt nước (bộ 氵thủy)", "words": [] },
+        { "id": "ja-shape-hou-niku", "character": "胞", "hanViet": "bào", "meaningVn": "bào thai, đồng bào (bộ 月nhục)", "words": [] }
+      ]
+    },
+    {
+      "id": "ja-shape-juu",
+      "language": "ja",
+      "groupKind": "shape",
+      "reading": "住 · 注 · 柱 · 駐 (chung thanh phù 主)",
+      "note": "字形が似ている漢字: đều chứa 主 làm THANH PHÙ (âm On じゅう/ちゅう). 駐 là chữ phồn thể (giản thể Trung Quốc là 驻, dùng bộ 马 ngựa đơn giản hơn). (Nhóm khung — chưa có từ vựng.)",
+      "roots": [
+        { "id": "ja-shape-juu-jin", "character": "住", "hanViet": "trú", "meaningVn": "ở, cư trú (bộ 亻nhân)", "words": [] },
+        { "id": "ja-shape-juu-sui", "character": "注", "hanViet": "chú", "meaningVn": "rót, chú ý (bộ 氵thủy)", "words": [] },
+        { "id": "ja-shape-juu-moku", "character": "柱", "hanViet": "trụ", "meaningVn": "cột nhà (bộ 木mộc)", "words": [] },
+        { "id": "ja-shape-juu-uma", "character": "駐", "hanViet": "trú", "meaningVn": "đóng quân, dừng lại (bộ 馬mã — chữ phồn thể)", "words": [] }
+      ]
+    },
+    {
+      "id": "ja-shape-kou2",
+      "language": "ja",
+      "groupKind": "shape",
+      "reading": "江 · 紅 · 空 · 功 (chung thanh phù 工)",
+      "note": "字形が似ている漢字: đều chứa 工 làm THANH PHÙ (âm On phần lớn こう, riêng 空 đọc くう). 紅 là chữ phồn thể (giản thể Trung Quốc là 红). (Nhóm khung — chưa có từ vựng.)",
+      "roots": [
+        { "id": "ja-shape-kou2-sui", "character": "江", "hanViet": "giang", "meaningVn": "sông lớn (bộ 氵thủy)", "words": [] },
+        { "id": "ja-shape-kou2-ito", "character": "紅", "hanViet": "hồng", "meaningVn": "màu đỏ (bộ 糸mịch — chữ phồn thể)", "words": [] },
+        { "id": "ja-shape-kou2-ana", "character": "空", "hanViet": "không", "meaningVn": "bầu trời, trống (bộ 穴huyệt)", "words": [] },
+        { "id": "ja-shape-kou2-chikara", "character": "功", "hanViet": "công", "meaningVn": "công lao (bộ 力lực)", "words": [] }
+      ]
+    },
+    {
+      "id": "ja-shape-ko",
+      "language": "ja",
+      "groupKind": "shape",
+      "reading": "枯 · 故 · 苦 (chung thanh phù 古)",
+      "note": "字形が似ている漢字: đều chứa 古 làm THANH PHÙ (âm On こ/く). Bỏ 姑/估 vì không phải joyo kanji ở Nhật. (Nhóm khung — chưa có từ vựng.)",
+      "roots": [
+        { "id": "ja-shape-ko-moku", "character": "枯", "hanViet": "khô", "meaningVn": "khô héo (bộ 木mộc)", "words": [] },
+        { "id": "ja-shape-ko-boku", "character": "故", "hanViet": "cố", "meaningVn": "cớ, cũ (bộ 攵phốc)", "words": [] },
+        { "id": "ja-shape-ko-sou", "character": "苦", "hanViet": "khổ", "meaningVn": "đắng, khổ (bộ 艹thảo)", "words": [] }
+      ]
+    },
+    {
+      "id": "ja-shape-ha",
+      "language": "ja",
+      "groupKind": "shape",
+      "reading": "波 · 破 · 疲 (chung thanh phù 皮)",
+      "note": "字形が似ている漢字: đều chứa 皮 làm THANH PHÙ (âm On phần lớn は, riêng 疲 đọc ひ). Bỏ 坡/披/玻 vì không phải joyo kanji ở Nhật. (Nhóm khung — chưa có từ vựng.)",
+      "roots": [
+        { "id": "ja-shape-ha-sui", "character": "波", "hanViet": "ba", "meaningVn": "sóng (bộ 氵thủy)", "words": [] },
+        { "id": "ja-shape-ha-seki", "character": "破", "hanViet": "phá", "meaningVn": "phá vỡ (bộ 石thạch)", "words": [] },
+        { "id": "ja-shape-ha-yamai", "character": "疲", "hanViet": "bì", "meaningVn": "mệt mỏi (bộ 疒nạch)", "words": [] }
+      ]
+    },
+    {
+      "id": "ja-shape-ri",
+      "language": "ja",
+      "groupKind": "shape",
+      "reading": "理 · 鯉 · 埋 (chung thanh phù 里)",
+      "note": "字形が似ている漢字: đều chứa 里 làm THANH PHÙ (âm On り/まい). 鯉 là chữ phồn thể (giản thể Trung Quốc là 鲤). (Nhóm khung — chưa có từ vựng.)",
+      "roots": [
+        { "id": "ja-shape-ri-gyoku", "character": "理", "hanViet": "lý", "meaningVn": "lý lẽ (bộ 王/玉ngọc)", "words": [] },
+        { "id": "ja-shape-ri-uo", "character": "鯉", "hanViet": "lý", "meaningVn": "cá chép (bộ 魚ngư — chữ phồn thể)", "words": [] },
+        { "id": "ja-shape-ri-tsuchi", "character": "埋", "hanViet": "mai", "meaningVn": "chôn, vùi (bộ 土thổ)", "words": [] }
+      ]
+    },
+    {
+      "id": "ja-shape-sha",
+      "language": "ja",
+      "groupKind": "shape",
+      "reading": "猪 · 諸 · 都 · 煮 (chung thanh phù 者)",
+      "note": "字形が似ている漢字: đều chứa 者 làm THANH PHÙ. 諸 là chữ phồn thể (giản thể Trung Quốc là 诸). (Nhóm khung — chưa có từ vựng.)",
+      "roots": [
+        { "id": "ja-shape-sha-ken", "character": "猪", "hanViet": "trư", "meaningVn": "lợn rừng (bộ 犭khuyển)", "words": [] },
+        { "id": "ja-shape-sha-gon", "character": "諸", "hanViet": "chư", "meaningVn": "các, mọi (bộ 言ngôn — chữ phồn thể)", "words": [] },
+        { "id": "ja-shape-sha-fu", "character": "都", "hanViet": "đô", "meaningVn": "đô thị, tất cả (bộ 阝ấp)", "words": [] },
+        { "id": "ja-shape-sha-hi", "character": "煮", "meaningVn": "nấu, luộc (bộ 灬hỏa)", "words": [] }
+      ]
+    },
+    {
+      "id": "ja-shape-tai",
+      "language": "ja",
+      "groupKind": "shape",
+      "reading": "胎 · 怠 · 治 (chung thanh phù 台)",
+      "note": "字形が似ている漢字: đều chứa 台 làm THANH PHÙ (âm On phần lớn たい, riêng 治 đọc じ/ち). Bỏ 抬 vì không phải joyo kanji ở Nhật. (Nhóm khung — chưa có từ vựng.)",
+      "roots": [
+        { "id": "ja-shape-tai-niku", "character": "胎", "hanViet": "thai", "meaningVn": "bào thai (bộ 月nhục)", "words": [] },
+        { "id": "ja-shape-tai-shin", "character": "怠", "hanViet": "đãi", "meaningVn": "lười biếng (bộ 心tâm)", "words": [] },
+        { "id": "ja-shape-tai-sui", "character": "治", "hanViet": "trị", "meaningVn": "trị, cai trị (bộ 氵thủy)", "words": [] }
+      ]
+    },
+    {
+      "id": "ja-shape-ten",
+      "language": "ja",
+      "groupKind": "shape",
+      "reading": "貼 · 点 · 店 (chung thanh phù 占)",
+      "note": "字形が似ている漢字: đều chứa 占 làm THANH PHÙ (âm On phần lớn てん, riêng 貼 đọc ちょう). Bỏ 站/戦/沾 — riêng 戦 tuy trông giống nhưng KHÔNG cùng họ: chữ phồn thể là 戰 (từ 單, không phải 占), giản thể Trung Quốc 战 mới tình cờ tạo hình giống 占. 貼 là chữ phồn thể (giản thể Trung Quốc là 贴). (Nhóm khung — chưa có từ vựng.)",
+      "roots": [
+        { "id": "ja-shape-ten-kai", "character": "貼", "hanViet": "thiếp", "meaningVn": "dán (bộ 貝bối — chữ phồn thể)", "words": [] },
+        { "id": "ja-shape-ten-hi", "character": "点", "hanViet": "điểm", "meaningVn": "điểm, chấm (bộ 灬hỏa)", "words": [] },
+        { "id": "ja-shape-ten-gen", "character": "店", "hanViet": "điếm", "meaningVn": "cửa hàng (bộ 广nghiễm)", "words": [] }
+      ]
+    },
+    {
+      "id": "ja-shape-sui",
+      "language": "ja",
+      "groupKind": "shape",
+      "reading": "難 · 準 · 誰 · 推 (chung thanh phù 隹)",
+      "note": "字形が似ている漢字: đều chứa 隹 làm THANH PHÙ. 難/準/誰 đều là chữ phồn thể (giản thể Trung Quốc lần lượt là 难/准/谁). (Nhóm khung — chưa có từ vựng.)",
+      "roots": [
+        { "id": "ja-shape-sui-sui1", "character": "難", "hanViet": "nan", "meaningVn": "khó khăn (bộ 隹chuy — chữ phồn thể)", "words": [] },
+        { "id": "ja-shape-sui-hyou", "character": "準", "hanViet": "chuẩn", "meaningVn": "chuẩn, mực (bộ 冫băng — chữ phồn thể)", "words": [] },
+        { "id": "ja-shape-sui-gon", "character": "誰", "hanViet": "thùy", "meaningVn": "ai (bộ 言ngôn — chữ phồn thể)", "words": [] },
+        { "id": "ja-shape-sui-te", "character": "推", "hanViet": "suy", "meaningVn": "đẩy, suy đoán (bộ 扌thủ)", "words": [] }
+      ]
+    },
+    {
+      "id": "ja-shape-gou",
+      "language": "ja",
+      "groupKind": "shape",
+      "reading": "剛 · 鋼 · 綱 (chung thanh phù 岡, tương ứng giản thể 冈)",
+      "note": "字形が似ている漢字: ở Nhật, giản thể Trung Quốc 冈 tương ứng với chữ phồn thể 岡 — 3 chữ này đều chứa 岡 làm THANH PHÙ (âm On ごう/こう). Bên tiếng Trung nhóm gốc dùng 冈 giản lược (刚/钢/纲), bên Nhật giữ nguyên 岡 đầy đủ nét hơn. (Nhóm khung — chưa có từ vựng.)",
+      "roots": [
+        { "id": "ja-shape-gou-tou", "character": "剛", "hanViet": "cương", "meaningVn": "cứng, cương nghị (bộ 刂đao — chữ phồn thể)", "words": [] },
+        { "id": "ja-shape-gou-kin", "character": "鋼", "hanViet": "cương", "meaningVn": "thép (bộ 釒kim — chữ phồn thể)", "words": [] },
+        { "id": "ja-shape-gou-ito", "character": "綱", "hanViet": "cương", "meaningVn": "giường mối, cương lĩnh (bộ 糸mịch — chữ phồn thể)", "words": [] }
+      ]
+    },
+    {
+      "id": "ja-shape-kei",
+      "language": "ja",
+      "groupKind": "shape",
+      "reading": "景 · 鯨 · 涼 (chung thanh phù 京)",
+      "note": "字形が似ている漢字: đều chứa 京 làm THANH PHÙ. Bỏ 惊/驚 — tuy trông giống nhưng giản thể Trung Quốc 惊 đã đổi hẳn thanh phù thật (敬) chứ không giữ 京 nữa, không cùng tiêu chí. 鯨/涼 là chữ phồn thể (giản thể Trung Quốc là 鲸/凉). (Nhóm khung — chưa có từ vựng.)",
+      "roots": [
+        { "id": "ja-shape-kei-nichi", "character": "景", "hanViet": "cảnh", "meaningVn": "cảnh vật (bộ 日nhật)", "words": [] },
+        { "id": "ja-shape-kei-uo", "character": "鯨", "hanViet": "kình", "meaningVn": "cá voi (bộ 魚ngư — chữ phồn thể)", "words": [] },
+        { "id": "ja-shape-kei-hyou", "character": "涼", "hanViet": "lương", "meaningVn": "mát mẻ (bộ 冫băng — chữ phồn thể)", "words": [] }
+      ]
+    },
+    {
+      "id": "ja-shape-chuu",
+      "language": "ja",
+      "groupKind": "shape",
+      "reading": "忠 · 仲 · 沖 (chung thanh phù 中)",
+      "note": "字形が似ている漢字: đều chứa 中 làm THANH PHÙ (âm On ちゅう). Bỏ 肿/腫 — tuy trông giống nhưng giản thể/phồn thể thật ra dùng thanh phù 重, không phải 中, không cùng tiêu chí. (Nhóm khung — chưa có từ vựng.)",
+      "roots": [
+        { "id": "ja-shape-chuu-shin", "character": "忠", "hanViet": "trung", "meaningVn": "trung thành (bộ 心tâm)", "words": [] },
+        { "id": "ja-shape-chuu-jin", "character": "仲", "hanViet": "trọng", "meaningVn": "anh em thứ hai, trung gian (bộ 亻nhân)", "words": [] },
+        { "id": "ja-shape-chuu-sui", "character": "沖", "meaningVn": "vọt lên, ngoài khơi (bộ 氵thủy)", "words": [] }
+      ]
+    },
+    {
+      "id": "ja-shape-hou2",
+      "language": "ja",
+      "groupKind": "shape",
+      "reading": "訪 · 放 · 芳 · 房 · 紡 · 防 (chung thanh phù 方)",
+      "note": "字形が似ている漢字: đều chứa 方 làm THANH PHÙ (âm On ほう/ぼう). Bỏ 仿 — tiếng Nhật dùng chữ khác (倣) không phải joyo kanji. 訪/紡 là chữ phồn thể (giản thể Trung Quốc là 访/纺). (Nhóm khung — chưa có từ vựng.)",
+      "roots": [
+        { "id": "ja-shape-hou2-gon", "character": "訪", "hanViet": "phỏng", "meaningVn": "thăm hỏi (bộ 言ngôn — chữ phồn thể)", "words": [] },
+        { "id": "ja-shape-hou2-boku", "character": "放", "hanViet": "phóng", "meaningVn": "thả, đặt (bộ 攵phốc)", "words": [] },
+        { "id": "ja-shape-hou2-sou", "character": "芳", "hanViet": "phương", "meaningVn": "thơm (bộ 艹thảo)", "words": [] },
+        { "id": "ja-shape-hou2-to", "character": "房", "hanViet": "phòng", "meaningVn": "nhà, phòng (bộ 戸hộ)", "words": [] },
+        { "id": "ja-shape-hou2-ito", "character": "紡", "meaningVn": "dệt, kéo sợi (bộ 糸mịch — chữ phồn thể)", "words": [] },
+        { "id": "ja-shape-hou2-fu", "character": "防", "hanViet": "phòng", "meaningVn": "phòng ngừa (bộ 阝phụ)", "words": [] }
+      ]
+    },
+    {
+      "id": "ja-shape-ki2",
+      "language": "ja",
+      "groupKind": "shape",
+      "reading": "期 · 欺 · 棋 · 旗 (chung thanh phù 其)",
+      "note": "字形が似ている漢字: đều chứa 其 làm THANH PHÙ (âm On き/ぎ). Lưu ý: 骑/騎 (cưỡi) trông giống nhưng thanh phù thật là 奇 chứ không phải 其, không xếp cùng họ. (Nhóm khung — chưa có từ vựng.)",
+      "roots": [
+        { "id": "ja-shape-ki2-tsuki", "character": "期", "hanViet": "kỳ", "meaningVn": "kỳ hạn (bộ 月nguyệt)", "words": [] },
+        { "id": "ja-shape-ki2-ken", "character": "欺", "hanViet": "khi", "meaningVn": "lừa dối (bộ 欠khiếm)", "words": [] },
+        { "id": "ja-shape-ki2-moku", "character": "棋", "hanViet": "kỳ", "meaningVn": "cờ (bộ 木mộc)", "words": [] },
+        { "id": "ja-shape-ki2-hou", "character": "旗", "hanViet": "kỳ", "meaningVn": "lá cờ (bộ 方/㫃)", "words": [] }
+      ]
+    },
+    {
+      "id": "ja-shape-rei",
+      "language": "ja",
+      "groupKind": "shape",
+      "reading": "冷 · 鈴 · 齢 (chung thanh phù 令)",
+      "note": "字形が似ている漢字: đều chứa 令 làm THANH PHÙ (âm On れい). Bỏ 邻/隣 — tiếng Nhật/chữ phồn thể dùng 隣 (từ 粦), KHÔNG chứa 令, chỉ là trùng hợp bên giản thể Trung Quốc. Bỏ 岭/嶺 vì không phải joyo kanji. 鈴 là chữ phồn thể (giản thể Trung Quốc là 铃). (Nhóm khung — chưa có từ vựng.)",
+      "roots": [
+        { "id": "ja-shape-rei-hyou", "character": "冷", "hanViet": "lãnh", "meaningVn": "lạnh (bộ 冫băng)", "words": [] },
+        { "id": "ja-shape-rei-kin", "character": "鈴", "hanViet": "linh", "meaningVn": "chuông (bộ 釒kim — chữ phồn thể)", "words": [] },
+        { "id": "ja-shape-rei-ha", "character": "齢", "hanViet": "linh", "meaningVn": "tuổi (bộ 歯xỉ — shinjitai, gần giống nhưng không hệt giản thể 龄)", "words": [] }
+      ]
+    },
+    {
+      "id": "ja-shape-so",
+      "language": "ja",
+      "groupKind": "shape",
+      "reading": "租 · 組 · 祖 (chung thanh phù 且)",
+      "note": "字形が似ている漢字: đều chứa 且 làm THANH PHÙ nhưng đọc lệch từ しゃ/そ sang そ (đều そ). Bỏ 阻 vì không phải joyo kanji. 組 là chữ phồn thể/thường dùng (giản thể Trung Quốc là 组). (Nhóm khung — chưa có từ vựng.)",
+      "roots": [
+        { "id": "ja-shape-so-ka", "character": "租", "hanViet": "tô", "meaningVn": "thuê (bộ 禾hòa)", "words": [] },
+        { "id": "ja-shape-so-ito", "character": "組", "hanViet": "tổ", "meaningVn": "tổ, nhóm (bộ 糸mịch)", "words": [] },
+        { "id": "ja-shape-so-shi", "character": "祖", "hanViet": "tổ", "meaningVn": "tổ tiên (bộ 礻thị)", "words": [] }
+      ]
+    },
+    {
+      "id": "ja-shape-ya",
+      "language": "ja",
+      "groupKind": "shape",
+      "reading": "他 · 地 · 池 (chung thanh phù 也)",
+      "note": "字形が似ている漢字: đều chứa 也 làm THANH PHÙ. Bỏ 馳/驰 vì không phải joyo kanji ở Nhật. (Nhóm khung — chưa có từ vựng.)",
+      "roots": [
+        { "id": "ja-shape-ya-jin", "character": "他", "hanViet": "tha", "meaningVn": "khác, người khác (bộ 亻nhân)", "words": [] },
+        { "id": "ja-shape-ya-tsuchi", "character": "地", "hanViet": "địa", "meaningVn": "đất (bộ 土thổ)", "words": [] },
+        { "id": "ja-shape-ya-sui", "character": "池", "hanViet": "trì", "meaningVn": "ao, hồ (bộ 氵thủy)", "words": [] }
+      ]
+    },
+    {
+      "id": "ja-shape-sou",
+      "language": "ja",
+      "groupKind": "shape",
+      "reading": "想 · 箱 · 霜 (chung thanh phù 相)",
+      "note": "字形が似ている漢字: đều chứa 相 làm THANH PHÙ (âm On そう). Bỏ 厢 vì không phải joyo kanji. (Nhóm khung — chưa có từ vựng.)",
+      "roots": [
+        { "id": "ja-shape-sou-shin", "character": "想", "hanViet": "tưởng", "meaningVn": "nghĩ, tưởng (bộ 心tâm)", "words": [] },
+        { "id": "ja-shape-sou-take", "character": "箱", "meaningVn": "cái hộp (bộ 竹trúc)", "words": [] },
+        { "id": "ja-shape-sou-ame", "character": "霜", "hanViet": "sương", "meaningVn": "sương giá (bộ 雨vũ)", "words": [] }
+      ]
     }
   ]
 }

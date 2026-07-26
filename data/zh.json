@@ -17,7 +17,15 @@
             { "id": "zh-mu4-mu-w1", "headword": "木材", "reading": "mùcái", "meaningVn": "gỗ (nguyên liệu)", "example": "这些木材可以用来做家具。", "exampleVn": "Số gỗ này có thể dùng để làm đồ nội thất." },
             { "id": "zh-mu4-mu-w2", "headword": "木偶", "reading": "mù'ǒu", "meaningVn": "con rối gỗ", "example": "他喜欢看木偶戏。", "exampleVn": "Anh ấy thích xem kịch rối gỗ." },
             { "id": "zh-mu4-mu-w3", "headword": "木匠", "reading": "mùjiang", "meaningVn": "thợ mộc", "example": "我爷爷曾经是一名木匠。", "exampleVn": "Ông tôi từng là một thợ mộc." },
-            { "id": "zh-mu4-mu-w4", "headword": "木耳", "reading": "mù'ěr", "meaningVn": "nấm mèo (mộc nhĩ)", "example": "妈妈买了一些木耳回来做汤。", "exampleVn": "Mẹ mua một ít nấm mèo về nấu canh." }
+            { "id": "zh-mu4-mu-w4", "headword": "木耳", "reading": "mù'ěr", "meaningVn": "nấm mèo (mộc nhĩ)", "example": "妈妈买了一些木耳回来做汤。", "exampleVn": "Mẹ mua một ít nấm mèo về nấu canh." },
+            { "headword": "木头", "reading": "mù tou", "meaningVn": "gỗ (vật liệu)", "example": "这张桌子是木头做的。", "exampleVn": "Cái bàn này làm bằng gỗ.", "mnemonicVn": "Mù như gỗ, 'mù' gợi âm 'mộc', 'tou' như 'đầu cây' → gỗ cây.", "id": "word-3775c11f-05dc-4791-9e97-b140365914d2" },
+            { "headword": "木瓜", "reading": "mù guā", "meaningVn": "đu đủ", "example": "我每天早上吃木瓜。", "exampleVn": "Tôi ăn đu đủ mỗi sáng.", "mnemonicVn": "'Mộc' là cây, 'qua' là quả → cây có quả tròn như bầu → đu đủ.", "id": "word-0de1e0c5-a49c-428a-a4dd-3e05ce7bb5ac" },
+            { "headword": "木星", "reading": "mù xīng", "meaningVn": "sao Mộc", "example": "木星是太阳系最大的行星。", "exampleVn": "Sao Mộc là hành tinh lớn nhất hệ Mặt Trời.", "mnemonicVn": "'Mộc' + 'tinh' (ngôi sao) → sao Mộc, gợi nhớ âm 'Mộc' trong 'sao Mộc'.", "id": "word-249e1e17-85fd-4a0c-90d0-08888331d7c8" },
+            { "headword": "麻木", "reading": "má mù", "meaningVn": "tê liệt, tê cóng", "example": "我的脚冻得麻木了。", "exampleVn": "Chân tôi lạnh đến tê cóng.", "mnemonicVn": "'Ma' như tê liệt, 'mộc' như gỗ → chân tê cứng như gỗ.", "id": "word-954933aa-a2bc-419f-9703-dc3db4ef881a" },
+            { "headword": "木椅", "reading": "mù yǐ", "meaningVn": "ghế gỗ", "example": "这把木椅很结实。", "exampleVn": "Cái ghế gỗ này rất chắc chắn.", "mnemonicVn": "Mộc (gỗ) + ỷ (ghế) => ghế gỗ. Nhớ: 'mộc' là gỗ, 'ỷ' là ghế.", "id": "word-5513bbd0-13be-4d65-8f48-b3d1432e0dd6" },
+            { "headword": "木板", "reading": "mù bǎn", "meaningVn": "tấm gỗ, ván gỗ", "example": "他用木板做了个书架。", "exampleVn": "Anh ấy dùng tấm gỗ làm một cái kệ sách.", "mnemonicVn": "Mộc (gỗ) + bản (tấm) => tấm gỗ. Nhớ: 'bản' là tấm, gỗ thành tấm.", "id": "word-5c0b69bb-5838-4be9-892a-6d1d911169ea" },
+            { "headword": "木门", "reading": "mù mén", "meaningVn": "cửa gỗ", "example": "请把木门关上。", "exampleVn": "Hãy đóng cửa gỗ lại.", "mnemonicVn": "Mộc (gỗ) + môn (cửa) => cửa gỗ. Nhớ: 'môn' là cửa, gỗ làm cửa.", "id": "word-7c18476f-f90e-4ce1-9a0f-b2ef9818471e" },
+            { "headword": "木桥", "reading": "mù qiáo", "meaningVn": "cầu gỗ", "example": "孩子们在木桥上玩耍。", "exampleVn": "Bọn trẻ đang chơi đùa trên cầu gỗ.", "mnemonicVn": "Mộc (gỗ) + kiều (cầu) => cầu gỗ. Nhớ: 'kiều' là cầu, gỗ bắc cầu.", "id": "word-333dae96-be2b-464b-94e1-67516291f33a" }
           ]
         },
         {
@@ -95,7 +103,20 @@
           "words": [
             { "id": "zh-shi4-shi3-w1", "headword": "考试", "reading": "kǎoshì", "meaningVn": "kỳ thi", "example": "下周有一个中文考试。", "exampleVn": "Tuần sau có một kỳ thi tiếng Trung." },
             { "id": "zh-shi4-shi3-w2", "headword": "试试", "reading": "shìshi", "meaningVn": "thử xem", "example": "你可以试试这个方法。", "exampleVn": "Bạn có thể thử cách này xem." },
-            { "id": "zh-shi4-shi3-w3", "headword": "尝试", "reading": "chángshì", "meaningVn": "thử nghiệm", "example": "我想尝试一下新方法。", "exampleVn": "Tôi muốn thử nghiệm cách mới." },
+            {
+              "id": "zh-shi4-shi3-w3",
+              "headword": "尝试",
+              "reading": "chángshì",
+              "meaningVn": "thử nghiệm",
+              "example": "我想尝试一下新方法。",
+              "exampleVn": "Tôi muốn thử nghiệm cách mới.",
+              "children": [
+                { "headword": "试验", "reading": "shìyàn", "meaningVn": "thí nghiệm, thử nghiệm", "example": "科学家们正在进行一项新的试验。", "exampleVn": "Các nhà khoa học đang tiến hành một thí nghiệm mới.", "mnemonicVn": "Thử nghiệm (试验) giống như 'thí yến' - hãy thử làm thí nghiệm như chuẩn bị yến tiệc.", "id": "word-dfa21737-3bad-443b-965f-a2c4b825685b" },
+                { "headword": "试", "reading": "shì", "meaningVn": "thử", "example": "你可以试一下这件衣服。", "exampleVn": "Bạn có thể thử cái áo này một lần.", "mnemonicVn": "Thử (试) đọc gần với 'xì' - xì một tiếng rồi thử xem sao.", "id": "word-0ce170dd-3ee4-4468-8474-d6ab34e01c73" },
+                { "headword": "体验", "reading": "tǐyàn", "meaningVn": "trải nghiệm", "example": "这次旅行让我体验了不同的文化。", "exampleVn": "Chuyến đi này đã cho tôi trải nghiệm những nền văn hóa khác nhau.", "mnemonicVn": "Thể nghiệm (体验) - 'thể' là cơ thể, 'nghiệm' là kinh nghiệm, hãy dùng cơ thể để có kinh nghiệm.", "id": "word-0e9fe100-47d3-4197-8bef-cf74aafa422c" },
+                { "headword": "失败", "reading": "shībài", "meaningVn": "thất bại", "example": "失败是成功之母。", "exampleVn": "Thất bại là mẹ thành công.", "mnemonicVn": "Shi bài (失败) nghe như 'xì bài' - khi chơi bài xì ra bài xấu là thất bại.", "id": "word-c7fda505-0152-465c-af2e-667886f119c8" }
+              ]
+            },
             { "id": "zh-shi4-shi3-w4", "headword": "面试", "reading": "miànshì", "meaningVn": "phỏng vấn", "example": "明天我有一个面试。", "exampleVn": "Ngày mai tôi có một buổi phỏng vấn." }
           ]
         }
@@ -409,8 +430,34 @@
           "hanViet": "thực",
           "meaningVn": "thật, thực tế",
           "words": [
-            { "id": "zh-shi2-shi4-w1", "headword": "事实", "reading": "shìshí", "meaningVn": "sự thật", "example": "这是事实。", "exampleVn": "Đây là sự thật." },
-            { "id": "zh-shi2-shi4-w2", "headword": "实际", "reading": "shíjì", "meaningVn": "thực tế", "example": "实际情况不同。", "exampleVn": "Tình hình thực tế khác." }
+            {
+              "id": "zh-shi2-shi4-w1",
+              "headword": "事实",
+              "reading": "shìshí",
+              "meaningVn": "sự thật",
+              "example": "这是事实。",
+              "exampleVn": "Đây là sự thật.",
+              "children": [
+                { "headword": "真相", "reading": "zhēnxiàng", "meaningVn": "chân tướng, sự thật", "example": "我们要查明真相。", "exampleVn": "Chúng ta cần làm rõ chân tướng.", "mnemonicVn": "Nhớ 'chân' (真) là thật, 'tướng' (相) là hình dạng: hình dạng thật.", "id": "word-af0535f9-fd50-41fe-8db9-1e28bf6a5192" },
+                { "headword": "实际", "reading": "shíjì", "meaningVn": "thực tế", "example": "实际情况很复杂。", "exampleVn": "Tình hình thực tế rất phức tạp.", "mnemonicVn": "Giống 'thực tế' (实际) = 'sự thật' (事实) nhưng thiên về thực tiễn.", "id": "word-3856c8f3-cc97-4a8a-aec4-a482b9ca4cbe" },
+                { "headword": "谎言", "reading": "huǎngyán", "meaningVn": "lời nói dối", "example": "谎言终究会被揭穿。", "exampleVn": "Lời nói dối cuối cùng sẽ bị vạch trần.", "mnemonicVn": "Hoảng (谎) khi nói dối vì sợ bị phát hiện.", "id": "word-d9b7e0a2-aeca-4a40-8de3-5e0baff51eac" },
+                { "headword": "证据", "reading": "zhèngjù", "meaningVn": "bằng chứng", "example": "警方找到了关键证据。", "exampleVn": "Cảnh sát đã tìm thấy bằng chứng quan trọng.", "mnemonicVn": "Chứng (证) như chứng cứ, cứ (据) là căn cứ.", "id": "word-64e2d1fa-60fa-4ab0-bac2-9122d874bd1d" }
+              ]
+            },
+            {
+              "id": "zh-shi2-shi4-w2",
+              "headword": "实际",
+              "reading": "shíjì",
+              "meaningVn": "thực tế",
+              "example": "实际情况不同。",
+              "exampleVn": "Tình hình thực tế khác.",
+              "children": [
+                { "headword": "现实", "reading": "xiànshí", "meaningVn": "hiện thực", "example": "我们必须面对现实。", "exampleVn": "Chúng ta phải đối mặt với hiện thực.", "mnemonicVn": "Xian (hiện) shi (thực): hiện thực là cái đang có, không thể chối bỏ.", "id": "word-fc982a8b-f66a-4289-8e1b-d835053dc0d0" },
+                { "headword": "实际上", "reading": "shíjìshàng", "meaningVn": "trên thực tế", "example": "他看起来年轻，实际上已经五十岁了。", "exampleVn": "Anh ấy trông trẻ, trên thực tế đã năm mươi tuổi rồi.", "mnemonicVn": "Shi ji shang: 'sự tế thượng' – lên trên sự thực tế, nghĩa là xét trên thực tế.", "id": "word-c570aa19-c398-4600-a91f-25b8a22e7615" },
+                { "headword": "不切实际", "reading": "bù qiè shíjì", "meaningVn": "không thực tế, viển vông", "example": "这个计划太不切实际了。", "exampleVn": "Kế hoạch này quá không thực tế.", "mnemonicVn": "Bu (không) qie (thiết) shi ji (thực tế): không thiết thực với thực tế → viển vông.", "id": "word-3a923cd4-da86-47af-8a24-b854746321ee" },
+                { "headword": "实际应用", "reading": "shíjì yìngyòng", "meaningVn": "ứng dụng thực tế", "example": "理论知识要通过实际应用才能巩固。", "exampleVn": "Kiến thức lý thuyết phải thông qua ứng dụng thực tế mới củng cố được.", "mnemonicVn": "Shi ji (thực tế) ying yong (ứng dụng): áp dụng vào đời thực.", "id": "word-d065c122-255b-4146-9183-c3973fe3c608" }
+              ]
+            }
           ]
         }
       ]
@@ -812,7 +859,20 @@
           "meaningVn": "kim loại đồng",
           "words": [
             { "id": "zh-tong2-tong2-w1", "headword": "铜牌", "reading": "tóngpái", "meaningVn": "huy chương đồng", "example": "他获得铜牌。", "exampleVn": "Anh ấy giành huy chương đồng." },
-            { "id": "zh-tong2-tong2-w2", "headword": "青铜", "reading": "qīngtóng", "meaningVn": "đồng thau (thanh đồng)", "example": "青铜器很珍贵。", "exampleVn": "Đồ đồng thau rất quý giá." }
+            {
+              "id": "zh-tong2-tong2-w2",
+              "headword": "青铜",
+              "reading": "qīngtóng",
+              "meaningVn": "đồng thau (thanh đồng)",
+              "example": "青铜器很珍贵。",
+              "exampleVn": "Đồ đồng thau rất quý giá.",
+              "children": [
+                { "headword": "黄铜", "reading": "huángtóng", "meaningVn": "đồng thau vàng", "example": "这个黄铜门把手很漂亮。", "exampleVn": "Tay nắm cửa bằng đồng thau vàng này rất đẹp.", "id": "word-3ff138ce-2113-46c1-8f65-371fc5a1ea16" },
+                { "headword": "铁器", "reading": "tiěqì", "meaningVn": "đồ sắt (thời đại đồ sắt)", "example": "铁器时代晚于青铜时代。", "exampleVn": "Thời đại đồ sắt muộn hơn thời đại đồ đồng.", "id": "word-834d1f5e-6125-4db0-9855-03ba7cbf865c", "mnemonicVn": "Hãy nhớ 'tiěqì' nghe gần giống 'tỉ lệ', vậy thì đồ sắt cũng có 'tỉ lệ' bền chắc đấy!" },
+                { "headword": "铜器", "reading": "tóngqì", "meaningVn": "đồ đồng (đồ dùng bằng đồng)", "example": "博物馆里陈列着许多古代铜器。", "exampleVn": "Trong bảo tàng trưng bày nhiều đồ đồng cổ đại.", "id": "word-59a9b239-54af-47e9-b09f-f12b1966a474" },
+                { "headword": "金器", "reading": "jīnqì", "meaningVn": "đồ vàng (đồ trang sức bằng vàng)", "example": "她喜欢收藏金器。", "exampleVn": "Cô ấy thích sưu tầm đồ vàng.", "id": "word-51336907-6ed4-4118-9c4a-051ecdb8e572" }
+              ]
+            }
           ]
         },
         {
@@ -1479,7 +1539,7 @@
           "hanViet": "diêm",
           "meaningVn": "muối",
           "words": [
-            { "id": "zh-yan2-yan3-w1", "headword": "食盐", "reading": "shíyán", "meaningVn": "muối ăn", "example": "加一点食盐。", "exampleVn": "Thêm một chút muối." },
+            { "id": "zh-yan2-yan3-w1", "headword": "食盐", "reading": "shíyán", "meaningVn": "muối ăn", "example": "加一点食盐。", "exampleVn": "Thêm một chút muối.", "mnemonicVn": "Muối ăn (食盐) thì 'shiyan' nghe quen quen, giống 'thịt ăn' quá, nhớ ngay nhé!" },
             { "id": "zh-yan2-yan3-w2", "headword": "盐水", "reading": "yánshuǐ", "meaningVn": "nước muối", "example": "用盐水洗。", "exampleVn": "Rửa bằng nước muối." }
           ]
         },
@@ -5733,6 +5793,46 @@
           "words": [
             { "id": "zh-jing3-jing3-w1", "headword": "井水", "reading": "jǐngshuǐ", "meaningVn": "nước giếng", "example": "打井水。", "exampleVn": "Múc nước giếng." },
             { "id": "zh-jing3-jing3-w2", "headword": "天井", "reading": "tiānjǐng", "meaningVn": "giếng trời", "example": "院子里的天井。", "exampleVn": "Giếng trời trong sân." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "group-e8da363c-64cc-4648-a8cf-4dd1995f7287",
+      "language": "zh",
+      "reading": "lǚ",
+      "roots": [
+        {
+          "id": "root-543695cc-4306-44e9-a78c-9fda8ec35dfb",
+          "character": "旅",
+          "hanViet": "Lữ",
+          "meaningVn": "đi, du lịch",
+          "reading": "lǚ",
+          "words": [
+            { "headword": "旅游", "reading": "lǚyóu", "meaningVn": "du lịch", "example": "我喜欢旅游。", "exampleVn": "Tôi thích du lịch.", "mnemonicVn": "Lữ (lǚ) như lữ hành, du (yóu) như du ngoạn, ghép lại là du lịch.", "id": "word-39bbe12e-36e6-4b5a-a804-0323bba1804f" },
+            { "headword": "旅客", "reading": "lǚkè", "meaningVn": "hành khách", "example": "旅客请登机。", "exampleVn": "Hành khách vui lòng lên máy bay.", "mnemonicVn": "Lữ (lǚ) là đi, khách (kè) là người, 'lữ khách' là người đi đường.", "id": "word-ece0c395-72b6-40c1-bf41-2db0276bd0c3" },
+            { "headword": "旅行", "reading": "lǚxíng", "meaningVn": "du hành, đi du lịch", "example": "我们计划去欧洲旅行。", "exampleVn": "Chúng tôi dự định đi du lịch châu Âu.", "mnemonicVn": "Lữ (lǚ) là đi, hành (xíng) là đi, lữ hành là đi du lịch.", "id": "word-052154d8-8483-410f-bb21-64ed1a421d96" },
+            { "headword": "旅馆", "reading": "lǚguǎn", "meaningVn": "khách sạn, nhà nghỉ", "example": "我们住在旅馆里。", "exampleVn": "Chúng tôi ở trong khách sạn.", "mnemonicVn": "Lữ (lǚ) là du lịch, quán (guǎn) là quán, nhà trọ cho khách du lịch.", "id": "word-32887ac8-fe9c-470d-9b53-ea7b29875027" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "group-d15f72c8-7a51-4868-abaf-3099f1da275d",
+      "language": "zh",
+      "reading": "biàn",
+      "roots": [
+        {
+          "id": "root-d52a2be2-d1ac-409f-9ef7-10437ba44075",
+          "character": "变",
+          "hanViet": "biến",
+          "meaningVn": "thay đổi, biến đổi",
+          "reading": "biàn",
+          "words": [
+            { "headword": "变秃", "reading": "biàn tū", "meaningVn": "hói đầu, trở nên hói", "example": "他开始变秃了。", "exampleVn": "Anh ấy bắt đầu hói đầu.", "mnemonicVn": "Biến tấu: 'biến' thành 'tū' (秃) nghĩa là thành hói, nhớ là 'biến' thành 'tu' (thô) nhưng đọc là tū.", "id": "word-c7e63ce2-75c2-4001-9854-8494616b456c" },
+            { "headword": "变化", "reading": "biàn huà", "meaningVn": "biến đổi, thay đổi", "example": "天气变化很大。", "exampleVn": "Thời tiết thay đổi rất nhiều.", "mnemonicVn": "Biến hóa: 'biến' là thay đổi, 'hóa' là hóa ra, ghép lại là biến hóa.", "id": "word-48c137c3-6faf-483c-8f51-c67025d0848b" },
+            { "headword": "改变", "reading": "gǎi biàn", "meaningVn": "thay đổi, cải biến", "example": "他改变主意了。", "exampleVn": "Anh ấy thay đổi ý định rồi.", "mnemonicVn": "Cải biến: 'cải' là sửa, 'biến' là đổi, sửa đổi là thay đổi.", "id": "word-f8567960-675f-4907-8e73-8e889d60afcb" },
+            { "headword": "变成", "reading": "biàn chéng", "meaningVn": "trở thành, biến thành", "example": "毛毛虫变成了蝴蝶。", "exampleVn": "Sâu bướm biến thành bướm.", "mnemonicVn": "Biến thành: 'biến' là biến, 'thành' là thành, biến thành là trở thành.", "id": "word-1d050960-8cef-44e3-96b0-dadb772dbb53" }
           ]
         }
       ]
