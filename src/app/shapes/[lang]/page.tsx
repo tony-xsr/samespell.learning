@@ -69,15 +69,18 @@ export default async function ShapeLanguagePage({
 
         {showSections && (
           <nav className="mt-4 flex flex-wrap gap-1.5 border-b border-border pb-4">
-            {sections.map(([cat, groups]) => (
-              <a
-                key={cat}
-                href={`#${slugify(cat)}`}
-                className="rounded-full bg-surface-2 px-3 py-1 text-xs font-medium text-ink-muted hover:bg-surface-3 hover:text-ink"
-              >
-                {cat} <span className="text-ink-muted">({groups.length})</span>
-              </a>
-            ))}
+            {sections.map(([cat, groups]) => {
+              const words = groups.reduce((sum, g) => sum + wordCount(g), 0);
+              return (
+                <a
+                  key={cat}
+                  href={`#${slugify(cat)}`}
+                  className="rounded-full bg-surface-2 px-3 py-1 text-xs font-medium text-ink-muted hover:bg-surface-3 hover:text-ink"
+                >
+                  {cat} <span className="text-ink-muted">({groups.length} nhóm · {words} từ)</span>
+                </a>
+              );
+            })}
           </nav>
         )}
 
@@ -93,7 +96,7 @@ export default async function ShapeLanguagePage({
                 <div className="flex items-center gap-2 rounded-xl bg-surface-2 px-4 py-2.5 hover:bg-surface-3">
                   <span className="text-base font-bold text-ink">{cat}</span>
                   <span className="text-sm font-medium text-ink-muted">
-                    {groups.length} nhóm
+                    {groups.length} nhóm · {groups.reduce((sum, g) => sum + wordCount(g), 0)} từ
                   </span>
                   <span className="ml-auto text-ink-muted transition-transform group-open:rotate-90">
                     ▶

@@ -603,6 +603,166 @@ mindmap hiện tại (`src/lib/mindmapLayout.ts`, `src/components/mindmap/Mindma
 đáng làm, chi phí thấp, có thể làm song song; (3) mạng ngữ cảnh — ý tưởng tốt nhưng là dự án riêng,
 nên prototype nhỏ trước khi cam kết viết lại renderer.
 
+### 4. Trục nhầm lẫn thứ ba (ý tưởng — chưa triển khai): **đa âm Hán Việt / 一字多音**
+
+Khác hẳn 2 trục đã làm (nhiều CHỮ KHÁC NHAU trông/đọc giống nhau → dễ lẫn chữ này ra chữ kia), trục
+này đi theo chiều NGƯỢC LẠI: **1 chữ Hán DUY NHẤT nhưng có NHIỀU âm đọc Hán Việt khác nhau, mỗi âm
+gắn với 1 nhóm nghĩa/từ ghép riêng** — nếu học sinh chỉ nhớ 1 âm sẽ đọc sai khi gặp từ ghép dùng âm
+khác. Đây là hiện tượng 破音字/多音字 trong Hán ngữ học, nhưng khi nhìn qua lăng kính Hán Việt (thay vì
+qua Bắc Kinh thoại) lại phong phú hơn hẳn — vì âm Hán Việt bắt nguồn từ nhiều lớp mượn âm khác nhau
+qua các thời kỳ lịch sử, không chỉ ánh xạ 1-1 với thanh điệu tiếng Quan thoại hiện đại.
+
+**Ví dụ người dùng đưa ra, đã phân tích kỹ**:
+
+- **行**: 5 âm Hán Việt — **hàng** (hàng/dòng, vd 银行 ngân hàng), **hành** (đi/làm, vd 旅行 lữ hành,
+  行动 hành động), **hãng** (hãng/công ty), **hạng** (loại/hạng mục), **hạnh** (phẩm hạnh, vd 品行
+  phẩm hạnh, 德行 đức hạnh). Đáng chú ý: tiếng Quan thoại hiện đại 行 chỉ CÒN 2 âm (xíng/háng) —
+  nghĩa là 5 âm Hán Việt không ánh xạ gọn gàng 1-1 với 2 âm Quan thoại, mà phản ánh nhiều lớp mượn từ
+  Hán cổ khác nhau đã "hóa thạch" riêng trong tiếng Việt qua nhiều thế kỷ, độc lập với biến âm ở
+  Trung Quốc.
+- **看**: chỉ 2 âm Hán Việt — **khan** (bình thanh, gần 看守 kānshǒu "trông coi") và **khán** (khứ
+  thanh, gần 看书 kànshū "xem/đọc") — ánh xạ khá gọn với 2 thanh điệu Quan thoại kān/kàn. Tiếng Nhật
+  chỉ có **1** âm on'yomi カン (kan) cho cả 2 nghĩa (tiếng Nhật không giữ phân biệt thanh điệu khi
+  mượn âm Hán), cộng thêm âm thuần Nhật kun'yomi 見る (み.る, miru — nghĩa gốc "nhìn", không liên
+  quan ngữ âm). Tiếng Hàn cũng chỉ 1 âm 간 (gan), tương tự tiếng Nhật.
+
+**Bài học sư phạm rút ra**: đối chiếu đủ 4 nguồn âm đọc (biến âm Quan thoại + biến âm Hán Việt +
+on'yomi/kun'yomi Nhật + âm Hàn) cho CÙNG 1 chữ cho thấy quy luật thú vị — đa âm do THANH ĐIỆU Quan
+thoại (như 看) thường RÚT GỌN về 1 âm khi sang Nhật/Hàn (vì 2 ngôn ngữ này không mượn phân biệt thanh
+điệu), trong khi đa âm do NHIỀU LỚP MƯỢN TỪ lịch sử (như 行) lại có thể NỞ RỘNG thành nhiều âm Hán
+Việt hơn hẳn số âm Quan thoại gốc. Việc học đối chiếu như vậy tạo thêm 1 "móc neo trí nhớ" — gắn từng
+âm với 1 cụm từ vựng/nghĩa đặc trưng riêng, tương tự cách 2 trục sound/shape đã làm nhưng theo chiều
+ngược (phân hóa nghĩa của 1 chữ, thay vì phân biệt nhiều chữ).
+
+**Trạng thái**: mới dừng ở ý tưởng, CHƯA thiết kế schema hay triển khai. Không khớp thẳng vào cấu
+trúc `SoundGroup` hiện tại (vốn dùng cho NHIỀU root khác chữ) — nhiều khả năng cần 1 kiểu dữ liệu mới,
+ví dụ `PolyphonicCharacter { character, readings: [{ hanViet, pinyin?, meaningVn, examples[],
+onyomi?, kunyomi?, hangeul? }] }`, và nguồn tra cứu chuẩn nên dùng **từ điển Hán Nôm** (theo đúng
+nguồn người dùng đối chiếu) thay vì suy đoán — cần nghiên cứu thêm trước khi cam kết cấu trúc dữ
+liệu. Ưu tiên sau khi hoàn tất giai đoạn hiện tại (đi vào từng nhóm hình/âm đã có để xây mindmap từ
+vựng thật).
+
+**Việc đã làm ngay (không cần đổi schema)**: nhận ra `VocabWord` đã có sẵn field `reading` +
+`meaningVn` RIÊNG cho từng từ trong 1 root (không bị ép dùng chung 1 cách đọc của root) — nghĩa là
+tính đa âm đã có chỗ để thể hiện mà không cần đổi cấu trúc dữ liệu, chỉ cần đổi CÁCH sinh nội dung.
+Đã sửa `src/lib/ai/prompts.ts`: thêm hằng số `POLYPHONY_INSTRUCTION`, chèn vào cả 3 prompt sinh
+từ-cho-root (`buildExpandRootPrompt` — nút "✨ Thêm từ" trên mỗi root, `buildNewRootPrompt` — tìm
+root mới cho nhóm âm, `buildNewGroupPrompt` — tạo nhóm mới từ 1 từ người dùng nhập) — chỉ thị AI: nếu
+chữ gốc đa âm, ưu tiên chọn các từ minh hoạ nhiều cách đọc/nghĩa khác nhau thay vì lặp lại 1 cách đọc,
+và mỗi từ phải ghi đúng `reading`/`meaningVn` riêng của chính nó (không rập khuôn theo root). Verify:
+tsc + eslint sạch; test qua app thật bằng Playwright — bấm nút "✨ Thêm từ" trên root 骑 (nhóm 奇),
+UI vẫn hoạt động bình thường (hiện bước xác nhận Có/Không), không lỗi console. Khi tự tay soạn từ vựng
+cho các root (thay vì gọi AI), cũng sẽ áp dụng cùng nguyên tắc này.
+
+### 5. Bắt đầu xây từ vựng thật cho các nhóm khung (words: []) — bắt đầu từ danh mục "Cặp ký tự gần giống"
+
+Sau khi gom 596 nhóm theo 14 danh mục (mục 3), người dùng chọn bắt đầu điền từ vựng thật từ danh mục
+**"Cặp ký tự gần giống (hình cận tự)"** — 36 nhóm gốc của cả dự án, đã có từ vựng từ trước (không phải
+khung rỗng như phần lớn 560 nhóm hình thanh tự cào tự động sau này).
+
+Rà soát phát hiện: hầu hết mọi root trong 36 nhóm này đã đủ 2 từ, chỉ có **4 root còn thiếu** (1 từ
+thay vì 2) — do 4 chữ này quá cổ/hiếm (巳, 曰, 戊, 尸) nên vòng soạn trước chỉ tìm được 1 từ vựng thực
+sự thông dụng. Bổ sung từ thứ 2 cho từng root, ưu tiên từ có thật và xác thực được (không đoán):
+- **巳** (chi Tị): thêm 上巳节 (Shàngsì Jié — Tết Thượng Tị, lễ hội cổ mùng 3/3 âm lịch).
+- **曰** (viết, rằng): thêm 美其名曰 (thành ngữ — lấy danh nghĩa đẹp mà gọi là, hàm ý ngụy biện).
+- **戊** (thiên can Mậu): thêm 戊子 (Mậu Tý — tổ hợp can chi khác, dùng đặt tên năm).
+- **尸** (thi, xác chết): thêm 尸位素餐 (thành ngữ — giữ chức mà không làm việc).
+
+Kết quả: **toàn bộ danh mục "Cặp ký tự gần giống" (36 nhóm, 84 root) nay đã đủ ≥2 từ/root**. Verify:
+dedup id + headword sạch (596 nhóm, 3052 id, không trùng lặp), tsc + eslint sạch, Playwright xác nhận
+3 nhóm vừa sửa render đúng, không lỗi console.
+
+**Bước tiếp theo**: tiếp tục điền từ vựng cho 560 nhóm hình thanh tự còn lại (đa số vẫn `words: []`) —
+theo thứ tự danh mục do người dùng chọn hoặc Claude đề xuất ở mỗi vòng.
+
+### 6. Rút gọn hiển thị "chung thanh phù" + seed từ vựng cho toàn bộ 1655 root rỗng còn lại
+
+Người dùng yêu cầu 2 việc trong cùng 1 vòng: (1) rút gọn phần hiển thị "(chung thanh phù X)" trong
+field `reading` của các nhóm hình thanh tự thành dạng gọn hơn "(XPinyin)" — vd "(青Qíng)"; (2) coi đây
+là giai đoạn **tạo seed data**: bổ sung tối thiểu 1 từ cho MỌI root đang hiển thị "0 từ", nhưng KHÔNG
+động vào các root/nhóm đã có sẵn từ vựng (dù chỉ 1 từ) — ưu tiên phủ hết bề rộng trước, không đào sâu
+thêm ở giai đoạn này.
+
+**Rút gọn hiển thị reading**: viết script quét mọi group có field `reading` dạng "X · Y · Z (chung
+thanh phù W)", parse ra thành viên đầu tiên trong danh sách (luôn đúng/không mơ hồ cho riêng nhóm đó,
+khác với thanh phù chung — 1 thanh phù có thể có nhiều "nhánh" đọc khác nhau, vd cấu kiện 𠃓 vừa sinh
+ra nhánh đọc "chǎng" (场肠畅) vừa sinh nhánh đọc "yáng" (杨扬炀) hoàn toàn không liên quan), tra pinyin
+của thành viên đó qua bảng `pinyin.txt` (44435 mục, phủ rộng hơn hanziDB nhiều — cần cho các thanh phù
+hiếm không có trong hanziDB), rồi hiển thị dạng gọn "(WPinyin)". Bắt và sửa 3 lỗi phát âm/thanh điệu
+ẩn từ trước nhờ đổi cách tính: `zh-shape-chang3` (từng hiện sai "Yáng", đúng ra "Chǎng"), `zh-shape-
+ying5` (sai thanh "Yìng" → đúng "Yíng"), `zh-shape-ta1` (sai thanh "Tà" → đúng "Tā"). Thêm bước an
+toàn `isAstral()` (mã Unicode > U+FFFF) để không hiển thị trực tiếp glyph hiếm có nguy cơ bị font hệ
+thống thay thế nhầm (lặp lại đúng bài học từ vòng cào 596 nhóm) — 4 nhóm không tra được pinyin cho cấu
+kiện hiếm (leng4/lian7/quan4/tang7) dùng luôn thành viên đầu làm cả glyph lẫn pinyin hiển thị.
+
+**Seed từ vựng cho 1655 root rỗng**: liệt kê chính xác 1655 root có `words: []` (516 nhóm rỗng hoàn
+toàn từ vòng cào tự động), soạn theo lô 200 root/lần (8 lô), mỗi từ gồm headword + pinyin + nghĩa tiếng
+Việt + câu ví dụ tiếng Trung + dịch tiếng Việt — ưu tiên từ ghép/thành ngữ CÓ THẬT và quen thuộc; với
+các chữ quá hiếm/cổ không có từ ghép hiện đại đáng tin, dùng cách trình bày an toàn: hoặc 1 cụm cổ văn
+có nguồn gốc rõ (điển tích, Kinh Thi, Kinh Dịch, Luận Ngữ...) hoặc câu mô tả trung tính "chữ hiếm gặp"
+thay vì bịa từ ghép không chắc chắn. Sau mỗi lô: chạy script merge tự động (kiểm tra root còn rỗng +
+headword không trùng toàn file trước khi ghi, tự phát hiện & báo lỗi nếu trùng để soạn từ thay thế),
+rồi verify dedup id/headword + `tsc --noEmit` + `eslint` + Playwright chụp ảnh vài nhóm mới mỗi lô.
+
+Trong lúc soạn, phát hiện và tự sửa vài trùng lặp headword giữa các lô do nhiều thành viên khác nhau
+tình cờ có cùng 1 từ ghép phổ biến nhất (ví dụ 螳螂 vừa là headword tự nhiên của root 螂 lại vừa của
+root 螳 — 2 root khác nhau trong 2 nhóm khác nhau cùng dùng chung 1 từ quen thuộc nhất) — xử lý bằng
+cách đổi 1 trong 2 sang từ/thành ngữ mở rộng chứa cùng chữ (vd 螳螂 → 螳螂捕蝉).
+
+Kết quả cuối: **596 nhóm, 4707 id, 2180 từ vựng, 0 root rỗng — không trùng id, không trùng headword**.
+Tiện thể phát hiện thêm 1 lỗi phụ: field `note` của 516 nhóm từng cào tự động vẫn còn câu "(Nhóm khung
+— chưa có từ vựng...)" viết cứng từ giai đoạn tạo khung — nay đã sai vì mọi nhóm đều có từ, nên đã viết
+script gỡ bỏ câu này khỏi toàn bộ 516 `note` (đúng nghĩa: chỉ cắt phần hậu tố lỗi thời, giữ nguyên phần
+mô tả cấu kiện/thanh phù phía trước). tsc + eslint sạch xuyên suốt cả 8 lô; Playwright xác nhận nhiều
+nhóm mẫu (bao gồm nhóm chữ hiếm 侯/煌/璃) hiển thị đúng, không lỗi console, và không còn ghi chú lỗi
+thời sau khi sửa.
+
+**Bước tiếp theo**: với seed data đã phủ đầy đủ bề rộng (mọi root ≥1 từ), có thể bắt đầu đào sâu thêm
+2 từ/root cho các nhóm quan trọng/thông dụng, hoặc quay lại ý tưởng trục đa âm Hán Việt (mục 4) khi đã
+sẵn sàng, tùy người dùng chọn hướng tiếp theo.
+
+### 7. Thêm thống kê số từ theo danh mục + mở rộng 553 nhóm mỏng (2-6 từ) lên ≥7 từ/nhóm
+
+Người dùng nhận xét trang tổng quan (mục 3) chỉ hiện số lượng NHÓM theo từng danh mục, không hiện tổng
+số TỪ VỰNG — kiểm tra code xác nhận đúng: card từng nhóm đã có "X chữ · Y từ" nhưng thanh điều hướng
+danh mục và tiêu đề mỗi danh mục chỉ có "(N nhóm)". Đã sửa `src/app/shapes/[lang]/page.tsx`: cộng dồn
+`wordCount(g)` qua mọi nhóm trong 1 danh mục, hiện cả ở nav chip ("Cặp ký tự gần giống (36 nhóm · 253
+từ)") lẫn tiêu đề `<summary>` mỗi danh mục khi mở rộng.
+
+Sau khi có số liệu thật (2184 từ / 596 nhóm), phát hiện **553/596 nhóm chỉ có 2-6 từ** (mỗi root vừa
+seed đúng 1 từ ở vòng trước) — nghĩa là "đào sâu 2 từ/root cho nhóm quan trọng" (đề xuất ban đầu) và
+"nâng nhóm 2-6 từ lên ≥7 từ" gần như là CÙNG một tập việc, nên gộp làm 1 đợt duy nhất thay vì tách 2
+bước. Người dùng xác nhận phạm vi: áp dụng cho toàn bộ 553 nhóm (không chỉ nhóm thông dụng).
+
+**Phương pháp**: với mỗi nhóm <7 từ, tính số từ còn thiếu = 7 − tổng hiện tại, chia đều (round-robin)
+cho các root trong nhóm để xác định mỗi root cần thêm bao nhiêu từ. Viết script merge mới
+(`apply_expand_batch.js`) — khác script seed ban đầu ở chỗ: cho phép root ĐÃ có từ vẫn nhận thêm từ mới
+(id tự tăng `-w2`, `-w3`...), vẫn giữ nguyên tắc chống trùng headword toàn file. Soạn 8 lô ~150-200 mục/
+lô, mỗi lô: tính lại danh sách còn thiếu từ trạng thái file HIỆN TẠI (không dùng danh sách cũ đã lỗi
+thời), soạn từ mới ưu tiên từ ghép/thành ngữ phổ biến thật; với các chữ đã dùng hết mọi từ ghép hiện đại
+đáng tin ở vòng seed trước (bound morpheme — chỉ tồn tại trong đúng 1 từ ghép cố định), dùng cách trình
+bày an toàn nhất quán: ghi chú "chữ hiếm khi dùng riêng lẻ (chỉ có trong X)" thay vì bịa từ ghép thứ 2
+không có thật.
+
+Trong lúc soạn phát hiện thêm một lớp lỗi mới: nhiều root RẤT hiếm (như 钔, 钐, 銧, 蠏, 辁...) đã tự dùng
+CHÍNH KÝ TỰ làm headword duy nhất ở vòng seed trước — khi cố thêm "từ thứ 2" cho các root này, script
+báo trùng vì vô tình gõ lại y hệt headword cũ. Với các trường hợp còn cứu được, đổi sang cụm mở rộng có
+ngữ cảnh thật (vd "锘" riêng lẻ → "锘元素"; "琏" riêng lẻ → "瑚琏" điển cố Luận Ngữ); với khoảng 15-20
+root cực hiếm không tìm được cụm thay thế đáng tin (như 钔, 钐, 銧, 鞧...), chấp nhận để root đó thiếu 1
+từ so với mục tiêu 7 — ưu tiên KHÔNG bịa từ hơn là đạt đúng số 7 cho mọi nhóm.
+
+Kết quả sau 8 lô: **596 nhóm, ~6267 id, 3740 từ vựng** (tăng từ 2184 → 3740, +1556 từ trong vòng này).
+**484/596 nhóm (81%) đã đạt ≥7 từ** — 112 nhóm còn <7 từ, hầu hết là các nhóm chữ cực hiếm/cổ văn nơi
+vốn từ ghép hiện đại thật sự đã cạn (không phải do bỏ dở). tsc + eslint sạch xuyên suốt cả 8 lô;
+Playwright xác nhận nhiều nhóm mẫu — kể cả nhóm 2-root cần 3-4 từ/root (财·材, 城·诚, 怀·坏) và nhóm chữ
+hiếm (獾/驩/讙) — render đúng, không lỗi console, tổng số từ hiện đúng ở mọi cấp (chip danh mục, tiêu đề
+danh mục, card từng nhóm).
+
+**Trạng thái dừng**: 112 nhóm còn <7 từ là điểm dừng hợp lý cho vòng này — phần lớn là các cụm cấu kiện
+âm cổ/hiếm (danh mục "Cấu kiện âm cổ / hiếm gặp") nơi việc ép đủ 7 từ/nhóm sẽ buộc phải bịa từ ghép
+không có thật, đi ngược nguyên tắc chất lượng đã giữ xuyên suốt dự án. Có thể tiếp tục nếu muốn rà tay
+từng nhóm còn lại để tìm thêm từ ghép hiếm nhưng có thật (tốn công hơn hẳn, lợi suất giảm dần).
+
 ## Đề xuất tính năng (chưa làm — cân nhắc thêm)
 
 Danh sách ý tưởng để tham khảo, chưa triển khai:

@@ -11,6 +11,8 @@ export const LANG_NAMES: Record<Language, string> = {
   ja: "tiếng Nhật (ghi romaji)",
 };
 
+const POLYPHONY_INSTRUCTION = `Lưu ý về chữ ĐA ÂM: nếu chữ gốc có nhiều cách đọc/âm Hán Việt khác nhau tùy theo nghĩa hoặc từ ghép (ví dụ 行 đọc "hàng" trong 银行 ngân hàng nhưng đọc "hành" trong 旅行 lữ hành; 看 đọc "khan" trong 看守 nhưng đọc "khán" trong 看书), hãy ƯU TIÊN chọn các từ minh hoạ được CÀNG NHIỀU cách đọc/nghĩa khác nhau của chữ gốc càng tốt (thay vì nhiều từ chỉ lặp lại 1 cách đọc). Mỗi từ phải ghi ĐÚNG phiên âm (reading) và nghĩa (meaningVn) riêng của chính từ đó — không copy y hệt cách đọc mặc định của chữ gốc nếu từ đó thực ra đọc khác.`;
+
 export function buildExpandRootPrompt(params: {
   language: Language;
   character: string;
@@ -25,6 +27,7 @@ Chữ gốc: "${params.character}" (âm Hán Việt: ${params.hanViet ?? "không
 Hãy sinh ra ${params.count} từ vựng THỰC TẾ, thông dụng có chứa chữ "${params.character}" ở đầu hoặc cuối từ, phù hợp trình độ sơ-trung cấp.
 KHÔNG được trùng với các từ đã có: ${params.existingHeadwords.join(", ") || "(chưa có)"}.
 Mỗi từ cần: từ vựng gốc, phiên âm, nghĩa tiếng Việt ngắn gọn, một câu ví dụ tự nhiên, bản dịch tiếng Việt của câu ví dụ, và một mẹo nhớ ngắn (mnemonicVn) bằng tiếng Việt.
+${POLYPHONY_INSTRUCTION}
 ${EXPAND_ROOT_JSON_SHAPE_HINT}`;
 }
 
@@ -39,6 +42,7 @@ Nhóm âm hiện tại đang đọc là: "${params.groupReading}".
 Các chữ đã có trong nhóm này rồi (KHÔNG được lặp lại): ${params.existingCharacters.join(", ") || "(chưa có)"}.
 Hãy tìm THÊM MỘT chữ Hán/Hanja khác, có cách đọc giống hệt hoặc gần giống "${params.groupReading}" trong ${langName}, nhưng mang nghĩa hoàn toàn khác các chữ đã có.
 Sau đó sinh 4 từ vựng thông dụng chứa chữ đó, kèm phiên âm, nghĩa tiếng Việt, câu ví dụ có bản dịch, và một mẹo nhớ ngắn (mnemonicVn) bằng tiếng Việt cho mỗi từ.
+${POLYPHONY_INSTRUCTION}
 ${NEW_ROOT_JSON_SHAPE_HINT}`;
 }
 
@@ -53,6 +57,7 @@ Người học vừa nhập từ: "${params.word}" và muốn tạo một mindma
 Hãy xác định MỘT chữ Hán/Hanja gốc tiêu biểu trong từ đó (thường là chữ quan trọng nhất về nghĩa hoặc chữ đầu tiên) cùng cách đọc của chữ gốc đó trong ${langName}.
 Các cách đọc nhóm đã tồn tại rồi (nếu trùng thì vẫn được, cứ chọn đúng theo từ người dùng nhập): ${params.existingReadings.join(", ") || "(chưa có)"}.
 Sau đó sinh 4 từ vựng thông dụng chứa chữ gốc đó (nếu phù hợp, hãy để chính từ "${params.word}" người dùng nhập là một trong các từ này), kèm phiên âm, nghĩa tiếng Việt, câu ví dụ có bản dịch, và một mẹo nhớ ngắn (mnemonicVn) bằng tiếng Việt cho mỗi từ.
+${POLYPHONY_INSTRUCTION}
 ${NEW_ROOT_JSON_SHAPE_HINT}`;
 }
 
