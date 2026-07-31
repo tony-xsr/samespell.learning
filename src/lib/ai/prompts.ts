@@ -3,6 +3,7 @@ import {
   EXPAND_ROOT_JSON_SHAPE_HINT,
   NEW_ROOT_JSON_SHAPE_HINT,
   MNEMONIC_JSON_SHAPE_HINT,
+  GRAMMAR_EXAMPLE_JSON_SHAPE_HINT,
 } from "@/lib/ai/schemas";
 
 export const LANG_NAMES: Record<Language, string> = {
@@ -55,7 +56,8 @@ export function buildNewGroupPrompt(params: {
   return `Bạn là trợ lý dạy từ vựng ${langName} cho người Việt, chuyên về hiện tượng đồng âm dị nghĩa (nhiều chữ Hán/Hanja khác nhau đọc giống nhau nhưng nghĩa khác nhau).
 Người học vừa nhập từ: "${params.word}" và muốn tạo một mindmap học từ mới xoay quanh từ này.
 Hãy xác định MỘT chữ Hán/Hanja gốc tiêu biểu trong từ đó (thường là chữ quan trọng nhất về nghĩa hoặc chữ đầu tiên) cùng cách đọc của chữ gốc đó trong ${langName}.
-Các cách đọc nhóm đã tồn tại rồi (nếu trùng thì vẫn được, cứ chọn đúng theo từ người dùng nhập): ${params.existingReadings.join(", ") || "(chưa có)"}.
+Các cách đọc nhóm đã tồn tại rồi (chỉ để tham khảo — cứ chọn đúng cách đọc thật của từ người dùng nhập,
+hệ thống sẽ tự động gộp vào nhóm cùng âm nếu trùng, không cần bạn tự tránh): ${params.existingReadings.join(", ") || "(chưa có)"}.
 Sau đó sinh 4 từ vựng thông dụng chứa chữ gốc đó (nếu phù hợp, hãy để chính từ "${params.word}" người dùng nhập là một trong các từ này), kèm phiên âm, nghĩa tiếng Việt, câu ví dụ có bản dịch, và một mẹo nhớ ngắn (mnemonicVn) bằng tiếng Việt cho mỗi từ.
 ${POLYPHONY_INSTRUCTION}
 ${NEW_ROOT_JSON_SHAPE_HINT}`;
@@ -91,5 +93,40 @@ Từ: "${params.headword}" (đọc là "${params.reading}"), nghĩa: ${params.me
 Hãy nghĩ ra MỘT mẹo nhớ ngắn gọn (1-2 câu) bằng tiếng Việt giúp người học nhớ từ này — có thể dựa vào
 âm đọc nghe giống từ/âm tiếng Việt nào, hoặc liên tưởng hình ảnh gắn với nghĩa của từ. Viết tự nhiên,
 dí dỏm, dễ nhớ, không giải thích dài dòng.
+${MNEMONIC_JSON_SHAPE_HINT}`;
+}
+
+/** Ngữ pháp: AI CHỈ được dùng để bổ sung thêm ví dụ/mẹo nhớ cho 1 điểm ngữ pháp đã soạn tay sẵn — không
+ * sinh cấu trúc/quy tắc ngữ pháp mới (quyết định của user, xem Features.md mục 7). */
+export function buildGrammarExtraExamplePrompt(params: {
+  language: Language;
+  pattern: string;
+  meaningVn: string;
+  nuanceVn: string;
+  existingSentences: string[];
+}): string {
+  const langName = LANG_NAMES[params.language];
+  return `Bạn là trợ lý dạy ngữ pháp ${langName} cho người Việt.
+Cấu trúc ngữ pháp: "${params.pattern}" — nghĩa: ${params.meaningVn}.
+Sắc thái/cách dùng: ${params.nuanceVn}.
+Hãy tạo THÊM 1 câu ví dụ MỚI minh hoạ ĐÚNG cấu trúc này, tự nhiên, phù hợp trình độ sơ-trung cấp.
+KHÔNG được trùng hoặc quá giống với các câu đã có: ${params.existingSentences.join(" | ") || "(chưa có)"}.
+${GRAMMAR_EXAMPLE_JSON_SHAPE_HINT}`;
+}
+
+export function buildGrammarExtraMnemonicPrompt(params: {
+  language: Language;
+  pattern: string;
+  meaningVn: string;
+  nuanceVn: string;
+  existingTips: string[];
+}): string {
+  const langName = LANG_NAMES[params.language];
+  return `Bạn là trợ lý dạy ngữ pháp ${langName} cho người Việt.
+Cấu trúc ngữ pháp: "${params.pattern}" — nghĩa: ${params.meaningVn}.
+Sắc thái/cách dùng: ${params.nuanceVn}.
+Hãy nghĩ ra THÊM 1 mẹo nhớ ngắn gọn (1-2 câu) bằng tiếng Việt, khác cách tiếp cận với các mẹo đã có,
+giúp người học nhớ cấu trúc này. Viết tự nhiên, dí dỏm, dễ nhớ, không giải thích dài dòng.
+KHÔNG được lặp lại ý của các mẹo đã có: ${params.existingTips.join(" | ") || "(chưa có)"}.
 ${MNEMONIC_JSON_SHAPE_HINT}`;
 }

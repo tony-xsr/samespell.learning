@@ -45,9 +45,18 @@ export const MnemonicSchema = z.object({
     ),
 });
 
+/** AI cho NGỮ PHÁP — chỉ dùng để bổ sung THÊM ví dụ/mẹo nhớ cho 1 điểm ngữ pháp đã soạn tay sẵn,
+ * KHÔNG dùng để sinh cấu trúc/quy tắc ngữ pháp mới (quyết định của user — xem Features.md mục 7). */
+export const GrammarExampleSchema = z.object({
+  sentence: z.string().min(1).describe("Câu ví dụ mới bằng ngôn ngữ gốc, minh hoạ đúng cấu trúc ngữ pháp"),
+  translationVn: z.string().min(1).describe("Bản dịch tiếng Việt của câu ví dụ"),
+  note: z.string().optional().describe("Ghi chú ngắn giải thích vì sao câu này minh hoạ đúng cấu trúc, có thể để trống"),
+});
+
 export type ExpandRootResult = z.infer<typeof ExpandRootSchema>;
 export type NewRootResult = z.infer<typeof NewRootSchema>;
 export type MnemonicResult = z.infer<typeof MnemonicSchema>;
+export type GrammarExampleResult = z.infer<typeof GrammarExampleSchema>;
 
 export const WORD_JSON_SHAPE_HINT = [
   "Mỗi từ trong mảng words PHẢI đúng dạng JSON sau (không thêm field khác, không dùng markdown code fence):",
@@ -61,3 +70,5 @@ export const EXPAND_ROOT_JSON_SHAPE_HINT = `Trả lời CHỈ một JSON object 
 export const NEW_ROOT_JSON_SHAPE_HINT = `Trả lời CHỈ một JSON object dạng: {"character": "...", "hanViet": "...", "meaningVn": "...", "reading": "...", "words": [ ... ]}\n${WORD_JSON_SHAPE_HINT}`;
 
 export const MNEMONIC_JSON_SHAPE_HINT = `Trả lời CHỈ một JSON object dạng: {"mnemonicVn": "..."} (không thêm field khác, không dùng markdown code fence).`;
+
+export const GRAMMAR_EXAMPLE_JSON_SHAPE_HINT = `Trả lời CHỈ một JSON object dạng: {"sentence": "...", "translationVn": "...", "note": "..."} (note có thể để chuỗi rỗng nếu không cần, không thêm field khác, không dùng markdown code fence).`;
