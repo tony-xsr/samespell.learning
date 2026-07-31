@@ -63,12 +63,13 @@ export interface ReviewStats {
   totalTracked: number;
 }
 
-export async function getReviewStats(): Promise<ReviewStats> {
-  const [store, history] = await Promise.all([
-    loadProgressStore(),
-    kvGet<Record<string, number>>(HISTORY_KEY),
-  ]);
-
+/** Tính `ReviewStats` từ 1 `ProgressStore` + lịch sử ôn tập bất kỳ — dùng chung cho cả từ vựng
+ * (`progress:main`) và ngữ pháp (`progress:grammar`, xem `grammarProgressStore.ts`) để không lặp lại
+ * logic gộp overdue/upcoming/mastered ở 2 nơi. */
+export function computeReviewStats(
+  store: ProgressStore,
+  history: Record<string, number> | null,
+): ReviewStats {
   const upcoming: Record<string, number> = {};
   let overdue = 0;
   let masteredCount = 0;
@@ -95,4 +96,12 @@ export async function getReviewStats(): Promise<ReviewStats> {
     masteredCount,
     totalTracked: Object.keys(store).length,
   };
+}
+
+export async function getReviewStats(): Promise<ReviewStats> {
+  const [store, history] = await Promise.all([
+    loadProgressStore(),
+    kvGet<Record<string, number>>(HISTORY_KEY),
+  ]);
+  return computeReviewStats(store, history);
 }

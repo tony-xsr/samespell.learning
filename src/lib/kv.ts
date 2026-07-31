@@ -24,3 +24,7 @@ export async function kvGet<T>(key: string): Promise<T | null> {
 export async function kvSet<T>(key: string, value: T): Promise<void> {
   await getClient().set(key, value);
 }
+
+export async function kvDel(key: string): Promise<void> {
+  await getClient().del(key);
+}
