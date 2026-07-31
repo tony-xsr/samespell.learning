@@ -156,6 +156,19 @@ export function wordCount(group: SoundGroup): number {
   return getAllWordsInGroup(group).length;
 }
 
+/** Chuẩn hoá cách đọc để so sánh (bỏ khoảng trắng thừa, chuẩn hoá Unicode, không phân biệt hoa/thường)
+ * — dùng khi cần kiểm tra 2 nhóm có "cùng 1 âm" hay không trước khi tạo nhóm mới, tránh trùng lặp. */
+export function normalizeReading(reading: string): string {
+  return reading.trim().normalize("NFC").toLowerCase();
+}
+
+/** Tìm nhóm ÂM đã tồn tại (trong dữ liệu đã merge tĩnh + Redis) có cùng cách đọc, để quyết định gộp
+ * chữ gốc mới vào nhóm đó (addExtraRoot) thay vì tạo hẳn 1 nhóm mới trùng lặp (addExtraGroup). */
+export function findGroupByReading(data: LanguageData, reading: string): SoundGroup | undefined {
+  const target = normalizeReading(reading);
+  return data.groups.find((g) => normalizeReading(g.reading) === target);
+}
+
 export async function addExtraWords(lang: Language, rootId: string, words: VocabWord[]): Promise<void> {
   const additions = await loadAdditions(lang);
   additions.extraWords[rootId] = [...(additions.extraWords[rootId] ?? []), ...words];

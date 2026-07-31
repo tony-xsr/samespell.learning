@@ -11,11 +11,25 @@ function isPublicPath(pathname: string): boolean {
   return false;
 }
 
+/** Vercel Cron gọi các route dưới `/api/cron/*` không kèm session cookie — Vercel tự đính kèm header
+ * `Authorization: Bearer $CRON_SECRET` khi biến môi trường này được cấu hình trên project, nên xác
+ * thực bằng secret thay vì session ở đây. */
+function isAuthorizedCron(req: NextRequest): boolean {
+  const secret = process.env.CRON_SECRET;
+  if (!secret) return false;
+  return req.headers.get("authorization") === `Bearer ${secret}`;
+}
+
 export async function middleware(req: NextRequest) {
   const { pathname } = req.nextUrl;
 
   if (isPublicPath(pathname)) {
     return NextResponse.next();
+  }
+
+  if (pathname.startsWith("/api/cron/")) {
+    if (isAuthorizedCron(req)) return NextResponse.next();
+    return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
   }
 
   const token = req.cookies.get(SESSION_COOKIE)?.value;
