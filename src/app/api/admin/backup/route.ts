@@ -17,11 +17,13 @@ export async function GET() {
   }
 }
 
+/** Chấp nhận cả backup version 1 cũ (chưa có progressHistory/grammarProgress*) lẫn version 2 hiện
+ * tại — `importBackupData` đã tự điền `{}` cho các field version-2 bị thiếu khi phục hồi file cũ. */
 function isValidBackup(body: unknown): body is BackupData {
   if (!body || typeof body !== "object") return false;
   const b = body as Record<string, unknown>;
   return (
-    b.version === 1 &&
+    (b.version === 1 || b.version === 2) &&
     typeof b.progress === "object" &&
     b.progress !== null &&
     typeof b.vocabExtra === "object" &&

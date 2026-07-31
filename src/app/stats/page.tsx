@@ -1,6 +1,15 @@
 import Link from "next/link";
 import { getReviewStats } from "@/lib/progressStore";
+import { getGrammarReviewStats } from "@/lib/grammarProgressStore";
 import { buildHeatmapWeeks, buildUpcomingList, heatmapLevel, formatShortDateVn } from "@/lib/heatmap";
+
+function mergeCounts(a: Record<string, number>, b: Record<string, number>): Record<string, number> {
+  const merged: Record<string, number> = { ...a };
+  for (const [key, value] of Object.entries(b)) {
+    merged[key] = (merged[key] ?? 0) + value;
+  }
+  return merged;
+}
 
 const LEVEL_CLASS: Record<0 | 1 | 2 | 3 | 4, string> = {
   0: "bg-surface-3",
@@ -15,7 +24,15 @@ const MONTH_VN = [
 ];
 
 export default async function StatsPage() {
-  const stats = await getReviewStats();
+  const [vocabStats, grammarStats] = await Promise.all([getReviewStats(), getGrammarReviewStats()]);
+
+  const stats = {
+    history: mergeCounts(vocabStats.history, grammarStats.history),
+    upcoming: mergeCounts(vocabStats.upcoming, grammarStats.upcoming),
+    overdue: vocabStats.overdue + grammarStats.overdue,
+    masteredCount: vocabStats.masteredCount + grammarStats.masteredCount,
+    totalTracked: vocabStats.totalTracked + grammarStats.totalTracked,
+  };
   const weeks = buildHeatmapWeeks(stats.history, 18);
   const upcoming = buildUpcomingList(stats.upcoming, 14);
   const maxUpcoming = Math.max(1, ...upcoming.map((d) => d.count));
@@ -27,21 +44,31 @@ export default async function StatsPage() {
           ← Trang chủ
         </Link>
         <h1 className="mt-2 text-2xl font-bold tracking-tight text-ink">📊 Thống kê ôn tập</h1>
+        <p className="mt-1 text-xs text-ink-muted">Gộp cả từ vựng và ngữ pháp.</p>
 
         <div className="mt-4 grid grid-cols-3 gap-3">
           <div className="rounded-2xl border border-border bg-surface-2 p-4 text-center shadow-sm">
             <div className="text-2xl font-bold text-red-600 dark:text-red-400">{stats.overdue}</div>
             <div className="mt-0.5 text-xs text-ink-muted">Thẻ quá hạn</div>
+            <div className="mt-1 text-[10px] text-ink-muted">
+              Từ vựng {vocabStats.overdue} · Ngữ pháp {grammarStats.overdue}
+            </div>
           </div>
           <div className="rounded-2xl border border-border bg-surface-2 p-4 text-center shadow-sm">
             <div className="text-2xl font-bold text-green-600 dark:text-green-400">
               {stats.masteredCount}
             </div>
             <div className="mt-0.5 text-xs text-ink-muted">Đã thuộc kỹ</div>
+            <div className="mt-1 text-[10px] text-ink-muted">
+              Từ vựng {vocabStats.masteredCount} · Ngữ pháp {grammarStats.masteredCount}
+            </div>
           </div>
           <div className="rounded-2xl border border-border bg-surface-2 p-4 text-center shadow-sm">
             <div className="text-2xl font-bold text-ink">{stats.totalTracked}</div>
             <div className="mt-0.5 text-xs text-ink-muted">Tổng thẻ đã học</div>
+            <div className="mt-1 text-[10px] text-ink-muted">
+              Từ vựng {vocabStats.totalTracked} · Ngữ pháp {grammarStats.totalTracked}
+            </div>
           </div>
         </div>
 

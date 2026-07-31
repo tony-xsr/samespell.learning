@@ -32,6 +32,20 @@ export default async function Home() {
           ✍️ Khám phá nhóm hình chữ (形近字) mới
         </Link>
 
+        <Link
+          href="/grammar"
+          className="mt-3 flex items-center justify-center gap-2 rounded-2xl border-2 border-dashed border-brand-400 px-5 py-3 text-sm font-semibold text-brand-600 transition hover:bg-brand-500/5"
+        >
+          📘 Mindmap ngữ pháp (Hàn/Nhật)
+        </Link>
+
+        <Link
+          href="/topics"
+          className="mt-3 flex items-center justify-center gap-2 rounded-2xl border-2 border-dashed border-emerald-400 px-5 py-3 text-sm font-semibold text-emerald-600 transition hover:bg-emerald-500/5"
+        >
+          🧩 Mindmap theo chủ đề (thử nghiệm)
+        </Link>
+
         <div className="mt-3 flex flex-col gap-3">
           {languages.map((lang) => {
             const total = lang.groups.reduce((sum, g) => sum + wordCount(g), 0);

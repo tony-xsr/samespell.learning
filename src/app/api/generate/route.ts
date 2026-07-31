@@ -8,7 +8,14 @@ import {
   buildExpandWordPrompt,
   buildNewGroupPrompt,
 } from "@/lib/ai/prompts";
-import { addExtraWords, addExtraRoot, addWordChildren, addExtraGroup } from "@/lib/vocabStore";
+import {
+  addExtraWords,
+  addExtraRoot,
+  addWordChildren,
+  addExtraGroup,
+  getLanguageData,
+  findGroupByReading,
+} from "@/lib/vocabStore";
 import { genId } from "@/lib/id";
 import type { RootEntry, SoundGroup, VocabWord } from "@/types/vocab";
 
@@ -99,6 +106,36 @@ export async function POST(req: NextRequest) {
         existingReadings: input.existingReadings,
       });
       const result = await generateStructured(NewRootSchema, prompt);
+
+      // Đọc lại dữ liệu MỚI NHẤT (tĩnh + Redis) ngay trước khi ghi, để phát hiện nhóm đồng âm đã tồn
+      // tại rồi — kể cả nhóm vừa được tạo bởi 1 từ khác trong CÙNG 1 lượt gửi nhiều từ liên tiếp từ
+      // client (mode "new-group" gọi tuần tự) — thay vì luôn tạo nhóm mới gây trùng lặp đồng âm.
+      const currentData = await getLanguageData(input.language);
+      const existingGroup = currentData ? findGroupByReading(currentData, result.reading) : undefined;
+
+      if (existingGroup) {
+        const alreadyHasCharacter = existingGroup.roots.some((r) => r.character === result.character);
+        if (alreadyHasCharacter) {
+          return NextResponse.json({
+            group: { id: existingGroup.id },
+            note: `Chữ "${result.character}" đã có sẵn trong nhóm đồng âm "${existingGroup.reading}" rồi, mở nhóm đó luôn thay vì tạo trùng.`,
+          });
+        }
+        const root: RootEntry = {
+          id: genId("root"),
+          character: result.character,
+          hanViet: result.hanViet,
+          meaningVn: result.meaningVn,
+          reading: result.reading,
+          words: result.words.map((w) => ({ ...w, id: genId("word") })),
+        };
+        await addExtraRoot(input.language, existingGroup.id, root);
+        return NextResponse.json({
+          group: { id: existingGroup.id },
+          note: `Đã gộp chữ "${result.character}" vào nhóm đồng âm "${existingGroup.reading}" có sẵn thay vì tạo nhóm mới.`,
+        });
+      }
+
       const root: RootEntry = {
         id: genId("root"),
         character: result.character,
@@ -114,7 +151,10 @@ export async function POST(req: NextRequest) {
         roots: [root],
       };
       await addExtraGroup(input.language, group);
-      return NextResponse.json({ group });
+      return NextResponse.json({
+        group,
+        note: `Đã tạo nhóm đồng âm mới "${group.reading}" cho chữ "${result.character}".`,
+      });
     }
 
     // mode === "new-root"
