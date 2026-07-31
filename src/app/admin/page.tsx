@@ -2,6 +2,7 @@ import { getLanguages, wordCount } from "@/lib/vocabStore";
 import AdminAiConfigForm from "@/components/admin/AdminAiConfigForm";
 import AdminExpandTrigger from "@/components/admin/AdminExpandTrigger";
 import AdminBackup from "@/components/admin/AdminBackup";
+import AdminSnapshots from "@/components/admin/AdminSnapshots";
 import AdminSyncToData from "@/components/admin/AdminSyncToData";
 
 export default async function AdminPage() {
@@ -33,6 +34,7 @@ export default async function AdminPage() {
           <AdminExpandTrigger />
           <AdminSyncToData />
           <AdminBackup />
+          <AdminSnapshots />
         </div>
       </div>
     </main>
