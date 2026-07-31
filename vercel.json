@@ -1,0 +1,8 @@
+{
+  "crons": [
+    {
+      "path": "/api/cron/backup-snapshot",
+      "schedule": "0 18 * * *"
+    }
+  ]
+}
