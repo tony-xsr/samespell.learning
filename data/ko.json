@@ -70,7 +70,20 @@
           "meaningVn": "hội, công ty",
           "words": [
             { "id": "ko-sa-sa2-w1", "headword": "회사", "reading": "hoesa", "meaningVn": "công ty", "example": "저는 무역 회사에서 일해요.", "exampleVn": "Tôi làm việc ở một công ty thương mại." },
-            { "id": "ko-sa-sa2-w2", "headword": "사회", "reading": "sahoe", "meaningVn": "xã hội", "example": "우리 사회는 빠르게 변하고 있어요.", "exampleVn": "Xã hội chúng ta đang thay đổi nhanh chóng." },
+            {
+              "id": "ko-sa-sa2-w2",
+              "headword": "사회",
+              "reading": "sahoe",
+              "meaningVn": "xã hội",
+              "example": "우리 사회는 빠르게 변하고 있어요.",
+              "exampleVn": "Xã hội chúng ta đang thay đổi nhanh chóng.",
+              "children": [
+                { "headword": "사회적", "reading": "sahoejeok", "meaningVn": "thuộc về xã hội, mang tính xã hội", "example": "이 문제는 사회적인 관심이 필요합니다.", "exampleVn": "Vấn đề này cần sự quan tâm của xã hội.", "mnemonicVn": "Nhớ 'sahoe' là xã hội, 'jeok' giống 'tích' trong tiếng Việt, nghĩa là thuộc về.", "id": "word-f054706f-f9aa-4662-be82-465b0bc6b35a" },
+                { "headword": "사회생활", "reading": "sahoe saenghwal", "meaningVn": "đời sống xã hội, cuộc sống ngoài xã hội", "example": "대학을 졸업하고 사회생활을 시작했습니다.", "exampleVn": "Tốt nghiệp đại học và bắt đầu cuộc sống xã hội.", "mnemonicVn": "'Sahoe' + 'saenghwal' (sinh hoạt) → sinh hoạt xã hội, dễ nhớ.", "id": "word-c1f16e2b-d7c7-4012-82cb-f5db3d24353a" },
+                { "headword": "사회주의", "reading": "sahoejuui", "meaningVn": "chủ nghĩa xã hội", "example": "북한은 사회주의 국가입니다.", "exampleVn": "Bắc Triều Tiên là nước theo chủ nghĩa xã hội.", "mnemonicVn": "'Sahoe' xã hội + 'juui' (chủ nghĩa) → chủ nghĩa xã hội.", "id": "word-2b6a4664-a257-48af-a5ab-63ee48601c2d" },
+                { "headword": "사회초년생", "reading": "sahoe chonyeonsaeng", "meaningVn": "người mới đi làm, người mới bước vào xã hội", "example": "저는 아직 사회초년생이라서 많이 배워야 해요.", "exampleVn": "Tôi vẫn còn là người mới đi làm nên cần học hỏi nhiều.", "mnemonicVn": "'Sahoe' xã hội + 'cho' (sơ khai) + 'nyeon' (năm) + 'saeng' (sinh) → người sinh năm đầu trong xã hội, tức người mới.", "id": "word-1c8f3699-a79f-426a-8ca7-6ed25f7643f6" }
+              ]
+            },
             { "id": "ko-sa-sa2-w3", "headword": "사장", "reading": "sajang", "meaningVn": "giám đốc (xã trưởng)", "example": "우리 사장님은 친절해요.", "exampleVn": "Giám đốc công ty tôi rất tốt bụng." },
             { "id": "ko-sa-sa2-w4", "headword": "입사", "reading": "ipsa", "meaningVn": "vào làm việc (nhập xã)", "example": "저는 작년에 입사했어요.", "exampleVn": "Tôi vào công ty làm việc từ năm ngoái." }
           ]
