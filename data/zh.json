@@ -168,7 +168,20 @@
           "meaningVn": "tấn công",
           "words": [
             { "id": "zh-gong1-gong4-w1", "headword": "攻击", "reading": "gōngjī", "meaningVn": "tấn công", "example": "球队发起了猛烈的攻击。", "exampleVn": "Đội bóng đã phát động một cuộc tấn công mạnh mẽ." },
-            { "id": "zh-gong1-gong4-w2", "headword": "进攻", "reading": "jìngōng", "meaningVn": "tiến công", "example": "敌人开始进攻了。", "exampleVn": "Kẻ địch bắt đầu tiến công." }
+            {
+              "id": "zh-gong1-gong4-w2",
+              "headword": "进攻",
+              "reading": "jìngōng",
+              "meaningVn": "tiến công",
+              "example": "敌人开始进攻了。",
+              "exampleVn": "Kẻ địch bắt đầu tiến công.",
+              "children": [
+                { "headword": "防守", "reading": "fángshǒu", "meaningVn": "phòng thủ, phòng ngự", "example": "足球比赛时，我们队主要负责防守。", "exampleVn": "Trong trận đấu bóng đá, đội chúng tôi chủ yếu phụ trách phòng thủ.", "mnemonicVn": "Phòng (fáng) nghe như 'phòng' trong phòng bị, thủ (shǒu) là tay - tay chắn lại để chống đỡ.", "id": "word-af5153a5-bf92-43a2-af9d-1398bd36438f" },
+                { "headword": "攻击", "reading": "gōngjī", "meaningVn": "tấn công, công kích", "example": "敌军在凌晨发起了猛烈的攻击。", "exampleVn": "Quân địch đã phát động cuộc tấn công dữ dội vào lúc rạng sáng.", "mnemonicVn": "Công (gōng) là 'công' trong công kích, kích (jī) là 'kích' - cùng nghĩa với tấn công, dễ nhớ.", "id": "word-eb983d98-90e1-4208-8c27-257207656d8c" },
+                { "headword": "撤退", "reading": "chètuì", "meaningVn": "rút lui, triệt thoái", "example": "由于伤亡惨重，部队被迫撤退。", "exampleVn": "Vì thương vong quá lớn, bộ đội buộc phải rút lui.", "mnemonicVn": "Chè (chè) nghe như 'chẻ' - chẻ đường chạy, tuì (tuì) gần với 'thối' - lùi lại phía sau.", "id": "word-6b823671-9d2d-49c2-97db-0421ce154bed" },
+                { "headword": "占领", "reading": "zhànlǐng", "meaningVn": "chiếm lĩnh, chiếm đóng", "example": "经过激烈的战斗，我军成功占领了高地。", "exampleVn": "Sau trận chiến ác liệt, quân ta đã chiếm lĩnh thành công vùng cao.", "mnemonicVn": "Zhàn (chiếm) giống 'chiếm' trong chiếm đoạt, lǐng là 'lĩnh' như lãnh thổ - chiếm lấy vùng đất.", "id": "word-e7854860-2c69-4340-b530-e548dc9d5de9" }
+              ]
+            }
           ]
         }
       ]
