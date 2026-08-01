@@ -5836,6 +5836,52 @@
           ]
         }
       ]
+    },
+    {
+      "id": "group-7603630d-cbd5-427b-a4e5-73c8d68786e5",
+      "language": "zh",
+      "reading": "fēng",
+      "roots": [
+        {
+          "id": "root-277f80e4-d198-4b22-bdcf-13368e1098ac",
+          "character": "峰",
+          "hanViet": "phong",
+          "meaningVn": "đỉnh, ngọn (núi)",
+          "reading": "fēng",
+          "words": [
+            { "headword": "山峰", "reading": "shān fēng", "meaningVn": "đỉnh núi", "example": "这座山峰非常高。", "exampleVn": "Đỉnh núi này rất cao.", "mnemonicVn": "Sơn (núi) + phong (đỉnh) -> đỉnh núi, nhớ 'phong' như 'phong phanh' trên đỉnh cao.", "id": "word-0308558b-4567-446c-97c0-601719ee629b" },
+            { "headword": "高峰", "reading": "gāo fēng", "meaningVn": "cao điểm, đỉnh cao", "example": "现在是交通高峰期。", "exampleVn": "Bây giờ là giờ cao điểm giao thông.", "mnemonicVn": "Cao + phong -> đỉnh cao, liên tưởng 'cao phong' như 'phong độ cao'.", "id": "word-3731e089-6e6c-487c-a107-94b28fee3cb3" },
+            { "headword": "顶峰", "reading": "dǐng fēng", "meaningVn": "đỉnh cao nhất, chóp", "example": "他登上了事业的顶峰。", "exampleVn": "Anh ấy đã đạt đến đỉnh cao sự nghiệp.", "mnemonicVn": "Đỉnh + phong -> đỉnh chóp, nhớ 'đỉnh phong' là đỉnh của ngọn.", "id": "word-67323d7b-5187-497d-bba9-42a8017afd2d" },
+            { "headword": "峰顶", "reading": "fēng dǐng", "meaningVn": "đỉnh núi, chóp núi", "example": "他们终于到达了峰顶。", "exampleVn": "Cuối cùng họ đã đến được đỉnh núi.", "mnemonicVn": "Phong + đỉnh -> đỉnh của đỉnh, dễ nhớ vì 'phong đỉnh' nghe như phong đỉnh cao.", "id": "word-8edad425-0b35-4c0d-b124-41145623918f" }
+          ]
+        },
+        {
+          "id": "root-d866d435-da98-4538-b9d7-cc3df6b91b7e",
+          "character": "风",
+          "hanViet": "phong",
+          "meaningVn": "gió",
+          "reading": "fēng",
+          "words": [
+            { "headword": "风", "reading": "fēng", "meaningVn": "gió", "example": "今天有风，很凉快。", "exampleVn": "Hôm nay có gió, rất mát mẻ.", "mnemonicVn": "Nhớ 'phong' như 'phong ba', gió to.", "id": "word-7a76a914-5460-4dd9-9431-0aa5e30e49cb" },
+            { "headword": "风光", "reading": "fēngguāng", "meaningVn": "phong cảnh, cảnh sắc", "example": "这里的风光很美。", "exampleVn": "Phong cảnh ở đây rất đẹp.", "mnemonicVn": "Gió (phong) và ánh sáng (quang/光) hợp lại thành cảnh sắc thiên nhiên.", "id": "word-4864e93a-9f40-4cbb-8e20-821487959fd1" },
+            { "headword": "风暴", "reading": "fēngbào", "meaningVn": "bão", "example": "一场风暴即将来临。", "exampleVn": "Một cơn bão sắp đến.", "mnemonicVn": "Gió 'bão' bùng, nhớ 'phong bạo'.", "id": "word-057fe26c-cf40-487c-a581-a3cf44e32a33" },
+            { "headword": "风格", "reading": "fēnggé", "meaningVn": "phong cách", "example": "他的绘画风格独特。", "exampleVn": "Phong cách hội họa của anh ấy độc đáo.", "mnemonicVn": "Gió 'cách' tân tạo phong cách mới.", "id": "word-871f368c-96f5-4025-aebf-64fad70fa5d9" }
+          ]
+        },
+        {
+          "id": "root-b447d8ce-cf2b-49cd-8544-7b512fb3a20d",
+          "character": "疯",
+          "hanViet": "phong",
+          "meaningVn": "điên, khùng",
+          "reading": "fēng",
+          "words": [
+            { "headword": "疯", "reading": "fēng", "meaningVn": "điên, khùng", "example": "他疯了吗？", "exampleVn": "Anh ta điên rồi à?", "mnemonicVn": "Bộ 疒 (bệnh) trùm lên 风 (gió) -> gió lùa vào đầu sinh điên, nhớ 'phong' là điên.", "id": "word-2a3b052f-9bb9-4ac4-a35f-465cd4b59444" },
+            { "headword": "疯狂", "reading": "fēngkuáng", "meaningVn": "điên cuồng, cuồng nhiệt", "example": "他疯狂地爱上了她。", "exampleVn": "Anh ấy yêu cô ấy một cách điên cuồng.", "mnemonicVn": "Phong (điên) + cuồng (cuồng) -> điên cuồng, 2 chữ đồng nghĩa ghép đôi nhấn mạnh.", "id": "word-1f874a8a-ae69-4c16-8e28-198d3366564f" },
+            { "headword": "发疯", "reading": "fāfēng", "meaningVn": "phát điên, nổi điên", "example": "别惹她，她要发疯了。", "exampleVn": "Đừng chọc cô ấy, cô ấy sắp phát điên rồi.", "mnemonicVn": "Phát (phát ra) + phong (điên) -> phát điên, nghĩa đen 'phát ra cơn điên'.", "id": "word-ebf96eb0-6a85-470e-8bdf-edf7466008ca" },
+            { "headword": "疯子", "reading": "fēngzi", "meaningVn": "kẻ điên, thằng khùng", "example": "大家都说他是疯子。", "exampleVn": "Mọi người đều nói anh ta là kẻ điên.", "mnemonicVn": "Phong (điên) + tử (hậu tố chỉ người) -> người điên, như 'phong tử'.", "id": "word-0771d8a8-326f-497f-bfcc-d0edf3d82a5b" }
+          ]
+        }
+      ]
     }
   ]
 }
