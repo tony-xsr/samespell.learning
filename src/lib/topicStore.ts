@@ -3,12 +3,14 @@ import type { Language } from "@/types/vocab";
 import type { TopicGroup, TopicLanguageData } from "@/types/topic";
 import koTopics from "../../data/ko-topics.json";
 import jaTopics from "../../data/ja-topics.json";
+import zhTopics from "../../data/zh-topics.json";
 
 // Thử nghiệm: dữ liệu chủ đề tĩnh hoàn toàn (chưa nối AI/KV như vocabStore) — mở rộng thêm ngôn ngữ
 // hoặc AI-generate sau khi chốt cấu trúc mindmap chủ đề.
 const STATIC_TOPIC_DATA: Partial<Record<Language, TopicLanguageData>> = {
   ko: koTopics as TopicLanguageData,
   ja: jaTopics as TopicLanguageData,
+  zh: zhTopics as TopicLanguageData,
 };
 
 export function getTopicLanguageData(lang: string): TopicLanguageData | undefined {
