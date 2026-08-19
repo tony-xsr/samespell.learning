@@ -46,6 +46,38 @@ export default async function Home() {
           🧩 Mindmap theo chủ đề (thử nghiệm)
         </Link>
 
+        <Link
+          href="/scenarios"
+          className="mt-3 flex items-center justify-center gap-2 rounded-2xl border-2 border-dashed border-rose-400 px-5 py-3 text-sm font-semibold text-rose-600 transition hover:bg-rose-500/5"
+        >
+          🎬 Chuỗi kịch bản theo bối cảnh (thử nghiệm)
+        </Link>
+
+        <p className="mt-5 mb-1 text-xs font-semibold uppercase tracking-wide text-ink-muted">
+          Liên kết từ vựng theo chữ Hán dùng chung (thử nghiệm)
+        </p>
+
+        <Link
+          href="/chains"
+          className="flex items-center justify-center gap-2 rounded-2xl border-2 border-dashed border-amber-400 px-5 py-3 text-sm font-semibold text-amber-600 transition hover:bg-amber-500/5"
+        >
+          🔗 Nối đuôi — domino từ vựng
+        </Link>
+
+        <Link
+          href="/synonyms"
+          className="mt-2 flex items-center justify-center gap-2 rounded-2xl border-2 border-dashed border-amber-400 px-5 py-3 text-sm font-semibold text-amber-600 transition hover:bg-amber-500/5"
+        >
+          ⇕ Đồng nghĩa · trái nghĩa
+        </Link>
+
+        <Link
+          href="/antonym-chars"
+          className="mt-2 flex items-center justify-center gap-2 rounded-2xl border-2 border-dashed border-amber-400 px-5 py-3 text-sm font-semibold text-amber-600 transition hover:bg-amber-500/5"
+        >
+          ⇔ Cặp chữ trái nghĩa
+        </Link>
+
         <div className="mt-3 flex flex-col gap-3">
           {languages.map((lang) => {
             const total = lang.groups.reduce((sum, g) => sum + wordCount(g), 0);
