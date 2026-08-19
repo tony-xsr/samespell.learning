@@ -2,6 +2,12 @@
 
 import { useEffect, useState } from "react";
 
+/** Cảnh báo khi model được nhập có vẻ là bản đắt tiền (pro/max/ultra...), để tránh tốn phí ngoài ý muốn. */
+function isCostlyModel(providerId: string, model: string): boolean {
+  if (providerId !== "deepseek") return false;
+  return /\b(pro|max|ultra|large)\b/i.test(model);
+}
+
 interface AiConfigResponse {
   providers: { id: string; label: string; defaultModel: string }[];
   activeProvider: string;
@@ -129,6 +135,11 @@ export default function AdminAiConfigForm() {
                   onChange={(e) => setModels((m) => ({ ...m, [p.id]: e.target.value }))}
                   className="mt-0.5 w-full rounded-lg border border-border bg-surface px-2.5 py-1.5 text-sm text-ink outline-none focus:border-brand-400 focus:ring-2 focus:ring-brand-200"
                 />
+                {isCostlyModel(p.id, models[p.id] ?? p.defaultModel) && (
+                  <p className="mt-1 text-[11px] font-medium text-amber-600 dark:text-amber-400">
+                    ⚠️ Model này có vẻ là bản Pro/đắt tiền — ưu tiên dùng bản Flash để tiết kiệm chi phí.
+                  </p>
+                )}
               </div>
             </div>
           </div>
