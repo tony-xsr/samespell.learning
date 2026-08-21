@@ -1,0 +1,1252 @@
+{
+  "language": "zh",
+  "label": "Chuỗi nối từ theo chữ Hán dùng chung (domino)",
+  "chains": [
+    {
+      "id": "zh-chain-chongjing-jingzhong-zhongshi",
+      "language": "zh",
+      "kind": "chain",
+      "nodes": [
+        { "headword": "崇敬", "reading": "chóngjìng", "hanViet": "sùng kính", "meaningVn": "rất mực kính trọng, ngưỡng mộ", "sharedCharPrev": null, "sharedCharNext": "敬" },
+        { "headword": "敬重", "reading": "jìngzhòng", "hanViet": "kính trọng", "meaningVn": "coi trọng và tôn kính ai đó", "sharedCharPrev": "敬", "sharedCharNext": "重" },
+        { "headword": "重视", "reading": "zhòngshì", "hanViet": "trọng thị", "meaningVn": "coi là quan trọng, chú ý đến", "sharedCharPrev": "重", "sharedCharNext": "视" },
+        { "headword": "视频", "reading": "shìpín", "hanViet": "thị tần", "meaningVn": "video, đoạn phim", "sharedCharPrev": "视", "sharedCharNext": "频" },
+        { "headword": "频道", "reading": "píndào", "hanViet": "tần đạo", "meaningVn": "kênh (truyền hình, nội dung số)", "sharedCharPrev": "频", "sharedCharNext": "道" },
+        { "headword": "道理", "reading": "dàolǐ", "hanViet": "đạo lý", "meaningVn": "lẽ phải, có lý", "sharedCharPrev": "道", "sharedCharNext": "理" },
+        { "headword": "理解", "reading": "lǐjiě", "hanViet": "lý giải", "meaningVn": "hiểu rõ, hiểu thấu", "sharedCharPrev": "理", "sharedCharNext": "解" },
+        { "headword": "解决", "reading": "jiějué", "hanViet": "giải quyết", "meaningVn": "giải quyết", "sharedCharPrev": "解", "sharedCharNext": "决" },
+        { "headword": "决定", "reading": "juédìng", "hanViet": "quyết định", "meaningVn": "quyết định", "sharedCharPrev": "决", "sharedCharNext": null }
+      ],
+      "note": "Domino 9 mắt xích qua 敬→重→视→频→道→理→解→决. Ví dụ gốc lấy từ bản mockup giao diện mode 'Nối đuôi' đã duyệt, nối dài thêm theo yêu cầu."
+    },
+    {
+      "id": "zh-chain-xuesheng-shenghuo-huodong",
+      "language": "zh",
+      "kind": "chain",
+      "nodes": [
+        { "headword": "学生", "reading": "xuésheng", "hanViet": "học sinh", "meaningVn": "học sinh, sinh viên", "sharedCharPrev": null, "sharedCharNext": "生" },
+        { "headword": "生活", "reading": "shēnghuó", "hanViet": "sinh hoạt", "meaningVn": "đời sống, sinh hoạt", "sharedCharPrev": "生", "sharedCharNext": "活" },
+        { "headword": "活动", "reading": "huódòng", "hanViet": "hoạt động", "meaningVn": "hoạt động", "sharedCharPrev": "活", "sharedCharNext": "动" },
+        { "headword": "动物", "reading": "dòngwù", "hanViet": "động vật", "meaningVn": "động vật", "sharedCharPrev": "动", "sharedCharNext": "物" },
+        { "headword": "物价", "reading": "wùjià", "hanViet": "vật giá", "meaningVn": "giá cả (thị trường)", "sharedCharPrev": "物", "sharedCharNext": "价" },
+        { "headword": "价值", "reading": "jiàzhí", "hanViet": "giá trị", "meaningVn": "giá trị", "sharedCharPrev": "价", "sharedCharNext": "值" },
+        { "headword": "值得", "reading": "zhíde", "hanViet": "trị đắc", "meaningVn": "đáng, xứng đáng", "sharedCharPrev": "值", "sharedCharNext": "得" },
+        { "headword": "得意", "reading": "déyì", "hanViet": "đắc ý", "meaningVn": "đắc ý, hài lòng", "sharedCharPrev": "得", "sharedCharNext": "意" },
+        { "headword": "意思", "reading": "yìsi", "hanViet": "ý tứ", "meaningVn": "ý nghĩa" , "sharedCharPrev": "意", "sharedCharNext": "思" },
+        { "headword": "思考", "reading": "sīkǎo", "hanViet": "tư khảo", "meaningVn": "suy nghĩ", "sharedCharPrev": "思", "sharedCharNext": "考" },
+        { "headword": "考试", "reading": "kǎoshì", "hanViet": "khảo thí", "meaningVn": "thi cử", "sharedCharPrev": "考", "sharedCharNext": null }
+      ],
+      "note": "Domino 11 mắt xích qua 生→活→动→物→价→值→得→意→思→考 (nối dài thêm từ bản 9 mắt xích trước đó)."
+    },
+    {
+      "id": "zh-chain-wenhua-huaxue-xuexiao",
+      "language": "zh",
+      "kind": "chain",
+      "nodes": [
+        { "headword": "文化", "reading": "wénhuà", "hanViet": "văn hoá", "meaningVn": "văn hoá", "sharedCharPrev": null, "sharedCharNext": "化" },
+        { "headword": "化学", "reading": "huàxué", "hanViet": "hoá học", "meaningVn": "hoá học", "sharedCharPrev": "化", "sharedCharNext": "学" },
+        { "headword": "学校", "reading": "xuéxiào", "hanViet": "học hiệu", "meaningVn": "trường học", "sharedCharPrev": "学", "sharedCharNext": "校" },
+        { "headword": "校长", "reading": "xiàozhǎng", "hanViet": "hiệu trưởng", "meaningVn": "hiệu trưởng", "sharedCharPrev": "校", "sharedCharNext": "长" },
+        { "headword": "长大", "reading": "zhǎngdà", "hanViet": "trưởng đại", "meaningVn": "lớn lên, trưởng thành", "sharedCharPrev": "长", "sharedCharNext": "大" },
+        { "headword": "大学", "reading": "dàxué", "hanViet": "đại học", "meaningVn": "trường đại học", "sharedCharPrev": "大", "sharedCharNext": "学" },
+        { "headword": "学期", "reading": "xuéqī", "hanViet": "học kỳ", "meaningVn": "học kỳ", "sharedCharPrev": "学", "sharedCharNext": null }
+      ],
+      "note": "Domino 7 mắt xích qua 化→学→校→长→大→学 (chữ 学 xuất hiện 2 lần ở 2 vị trí khác nhau trong cùng 1 chuỗi — vẫn hợp lệ vì đúng đuôi=đầu ở từng bước)."
+    },
+    {
+      "id": "zh-chain-jiazu-zupu-puxi",
+      "language": "zh",
+      "kind": "chain",
+      "nodes": [
+        { "headword": "家族", "reading": "jiāzú", "hanViet": "gia tộc", "meaningVn": "gia đình, dòng họ", "sharedCharPrev": null, "sharedCharNext": "族" },
+        { "headword": "族谱", "reading": "zúpǔ", "hanViet": "tộc phổ", "meaningVn": "gia phả, sổ ghi dòng họ", "sharedCharPrev": "族", "sharedCharNext": "谱" },
+        { "headword": "谱系", "reading": "pǔxì", "hanViet": "phổ hệ", "meaningVn": "phả hệ, hệ thống dòng dõi/tiến hoá", "sharedCharPrev": "谱", "sharedCharNext": "系" },
+        { "headword": "系统", "reading": "xìtǒng", "hanViet": "hệ thống", "meaningVn": "hệ thống", "sharedCharPrev": "系", "sharedCharNext": "统" },
+        { "headword": "统一", "reading": "tǒngyī", "hanViet": "thống nhất", "meaningVn": "thống nhất", "sharedCharPrev": "统", "sharedCharNext": "一" },
+        { "headword": "一定", "reading": "yídìng", "hanViet": "nhất định", "meaningVn": "nhất định, chắc chắn", "sharedCharPrev": "一", "sharedCharNext": "定" },
+        { "headword": "定义", "reading": "dìngyì", "hanViet": "định nghĩa", "meaningVn": "định nghĩa", "sharedCharPrev": "定", "sharedCharNext": "义" },
+        { "headword": "义务", "reading": "yìwù", "hanViet": "nghĩa vụ", "meaningVn": "nghĩa vụ", "sharedCharPrev": "义", "sharedCharNext": "务" },
+        { "headword": "务实", "reading": "wùshí", "hanViet": "vụ thực", "meaningVn": "thiết thực", "sharedCharPrev": "务", "sharedCharNext": "实" },
+        { "headword": "实际", "reading": "shíjì", "hanViet": "thực tế", "meaningVn": "thực tế", "sharedCharPrev": "实", "sharedCharNext": "际" },
+        { "headword": "际遇", "reading": "jìyù", "hanViet": "tế ngộ", "meaningVn": "cơ duyên gặp gỡ, số phận", "sharedCharPrev": "际", "sharedCharNext": "遇" },
+        { "headword": "遇到", "reading": "yùdào", "hanViet": "ngộ đáo", "meaningVn": "gặp phải, gặp được", "sharedCharPrev": "遇", "sharedCharNext": null }
+      ],
+      "note": "Domino 12 mắt xích qua 族→谱→系→统→一→定→义→务→实→际→遇 (nối dài thêm từ bản 10 mắt xích trước đó)."
+    },
+    {
+      "id": "zh-chain-shehui-huiyi-yiyuan",
+      "language": "zh",
+      "kind": "chain",
+      "nodes": [
+        { "headword": "社会", "reading": "shèhuì", "hanViet": "xã hội", "meaningVn": "xã hội", "sharedCharPrev": null, "sharedCharNext": "会" },
+        { "headword": "会议", "reading": "huìyì", "hanViet": "hội nghị", "meaningVn": "cuộc họp, hội nghị", "sharedCharPrev": "会", "sharedCharNext": "议" },
+        { "headword": "议员", "reading": "yìyuán", "hanViet": "nghị viên", "meaningVn": "nghị sĩ, dân biểu", "sharedCharPrev": "议", "sharedCharNext": "员" },
+        { "headword": "员工", "reading": "yuángōng", "hanViet": "viên công", "meaningVn": "nhân viên", "sharedCharPrev": "员", "sharedCharNext": "工" },
+        { "headword": "工作", "reading": "gōngzuò", "hanViet": "công tác", "meaningVn": "công việc, làm việc", "sharedCharPrev": "工", "sharedCharNext": "作" },
+        { "headword": "作业", "reading": "zuòyè", "hanViet": "tác nghiệp", "meaningVn": "bài tập", "sharedCharPrev": "作", "sharedCharNext": "业" },
+        { "headword": "业务", "reading": "yèwù", "hanViet": "nghiệp vụ", "meaningVn": "nghiệp vụ, công việc chuyên môn", "sharedCharPrev": "业", "sharedCharNext": "务" },
+        { "headword": "务必", "reading": "wùbì", "hanViet": "vụ tất", "meaningVn": "nhất định phải", "sharedCharPrev": "务", "sharedCharNext": "必" },
+        { "headword": "必须", "reading": "bìxū", "hanViet": "tất tu", "meaningVn": "phải, cần thiết", "sharedCharPrev": "必", "sharedCharNext": null }
+      ],
+      "note": "Domino 9 mắt xích qua 会→议→员→工→作→业→务→必 (nối dài thêm từ bản 7 mắt xích trước đó)."
+    },
+    {
+      "id": "zh-chain-zunjing-jingli-limao",
+      "language": "zh",
+      "kind": "chain",
+      "nodes": [
+        { "headword": "尊敬", "reading": "zūnjìng", "hanViet": "tôn kính", "meaningVn": "kính trọng ở mức cao", "sharedCharPrev": null, "sharedCharNext": "敬" },
+        { "headword": "敬礼", "reading": "jìnglǐ", "hanViet": "kính lễ", "meaningVn": "chào, cúi chào (nghi thức)", "sharedCharPrev": "敬", "sharedCharNext": "礼" },
+        { "headword": "礼貌", "reading": "lǐmào", "hanViet": "lễ mạo", "meaningVn": "lễ phép, lịch sự", "sharedCharPrev": "礼", "sharedCharNext": "貌" },
+        { "headword": "貌似", "reading": "màosì", "hanViet": "mạo tự", "meaningVn": "dường như, tựa hồ (khẩu ngữ)", "sharedCharPrev": "貌", "sharedCharNext": "似" },
+        { "headword": "似乎", "reading": "sìhū", "hanViet": "tự hồ", "meaningVn": "hình như, dường như", "sharedCharPrev": "似", "sharedCharNext": null }
+      ],
+      "note": "Domino 5 mắt xích qua 敬→礼→貌→似. Đây là chuỗi ngắn nhất trong batch vì 貌-đầu từ hiếm trong tiếng Trung hiện đại (chủ yếu chỉ có 貌似)."
+    },
+    {
+      "id": "zh-chain-kuoda-dasheng-yinfu",
+      "language": "zh",
+      "kind": "chain",
+      "nodes": [
+        { "headword": "扩大", "reading": "kuòdà", "hanViet": "khuếch đại", "meaningVn": "mở rộng, phóng to", "sharedCharPrev": null, "sharedCharNext": "大" },
+        { "headword": "大声", "reading": "dàshēng", "hanViet": "đại thanh", "meaningVn": "to tiếng", "sharedCharPrev": "大", "sharedCharNext": "声" },
+        { "headword": "声音", "reading": "shēngyīn", "hanViet": "thanh âm", "meaningVn": "âm thanh", "sharedCharPrev": "声", "sharedCharNext": "音" },
+        { "headword": "音符", "reading": "yīnfú", "hanViet": "âm phù", "meaningVn": "nốt nhạc", "sharedCharPrev": "音", "sharedCharNext": "符" },
+        { "headword": "符合", "reading": "fúhé", "hanViet": "phù hợp", "meaningVn": "phù hợp" , "sharedCharPrev": "符", "sharedCharNext": "合" },
+        { "headword": "合作", "reading": "hézuò", "hanViet": "hợp tác", "meaningVn": "hợp tác", "sharedCharPrev": "合", "sharedCharNext": "作" },
+        { "headword": "作者", "reading": "zuòzhě", "hanViet": "tác giả", "meaningVn": "tác giả", "sharedCharPrev": "作", "sharedCharNext": null }
+      ],
+      "note": "Domino 7 mắt xích qua 大→声→音→符→合→作 (nối dài thêm từ bản 4 mắt xích trước đó). Đổi hướng so với bản trước (không dùng 大学 vì đã trùng với zh-chain-wenhua-huaxue-xuexiao)."
+    },
+    {
+      "id": "zh-chain-fangda-daxiao-xiaoshuo",
+      "language": "zh",
+      "kind": "chain",
+      "nodes": [
+        { "headword": "放大", "reading": "fàngdà", "hanViet": "phóng đại", "meaningVn": "làm cho to ra, phóng to", "sharedCharPrev": null, "sharedCharNext": "大" },
+        { "headword": "大小", "reading": "dàxiǎo", "hanViet": "đại tiểu", "meaningVn": "kích cỡ, to nhỏ", "sharedCharPrev": "大", "sharedCharNext": "小" },
+        { "headword": "小说", "reading": "xiǎoshuō", "hanViet": "tiểu thuyết", "meaningVn": "tiểu thuyết", "sharedCharPrev": "小", "sharedCharNext": "说" },
+        { "headword": "说明", "reading": "shuōmíng", "hanViet": "thuyết minh", "meaningVn": "giải thích, thuyết minh", "sharedCharPrev": "说", "sharedCharNext": "明" },
+        { "headword": "明白", "reading": "míngbái", "hanViet": "minh bạch", "meaningVn": "hiểu rõ, minh bạch", "sharedCharPrev": "明", "sharedCharNext": "白" },
+        { "headword": "白天", "reading": "báitiān", "hanViet": "bạch thiên", "meaningVn": "ban ngày", "sharedCharPrev": "白", "sharedCharNext": "天" },
+        { "headword": "天空", "reading": "tiānkōng", "hanViet": "thiên không", "meaningVn": "bầu trời", "sharedCharPrev": "天", "sharedCharNext": "空" },
+        { "headword": "空气", "reading": "kōngqì", "hanViet": "không khí", "meaningVn": "không khí", "sharedCharPrev": "空", "sharedCharNext": "气" },
+        { "headword": "气味", "reading": "qìwèi", "hanViet": "khí vị", "meaningVn": "mùi vị", "sharedCharPrev": "气", "sharedCharNext": "味" },
+        { "headword": "味道", "reading": "wèidào", "hanViet": "vị đạo", "meaningVn": "mùi vị", "sharedCharPrev": "味", "sharedCharNext": "道" },
+        { "headword": "道德", "reading": "dàodé", "hanViet": "đạo đức", "meaningVn": "đạo đức", "sharedCharPrev": "道", "sharedCharNext": null }
+      ],
+      "note": "Domino 11 mắt xích qua 大→小→说→明→白→天→空→气→味→道 (nối dài thêm từ bản 9 mắt xích trước đó) — cùng cặp chữ trái nghĩa dùng ở mode 'Cặp chữ trái nghĩa' trong bản mockup."
+    },
+    {
+      "id": "zh-chain-waiyu-yuyan-yanlun",
+      "language": "zh",
+      "kind": "chain",
+      "nodes": [
+        { "headword": "外语", "reading": "wàiyǔ", "hanViet": "ngoại ngữ", "meaningVn": "ngoại ngữ", "sharedCharPrev": null, "sharedCharNext": "语" },
+        { "headword": "语言", "reading": "yǔyán", "hanViet": "ngữ ngôn", "meaningVn": "ngôn ngữ", "sharedCharPrev": "语", "sharedCharNext": "言" },
+        { "headword": "言论", "reading": "yánlùn", "hanViet": "ngôn luận", "meaningVn": "ngôn luận, phát ngôn", "sharedCharPrev": "言", "sharedCharNext": "论" },
+        { "headword": "论文", "reading": "lùnwén", "hanViet": "luận văn", "meaningVn": "luận văn", "sharedCharPrev": "论", "sharedCharNext": "文" },
+        { "headword": "文字", "reading": "wénzì", "hanViet": "văn tự", "meaningVn": "văn tự, chữ viết", "sharedCharPrev": "文", "sharedCharNext": "字" },
+        { "headword": "字典", "reading": "zìdiǎn", "hanViet": "tự điển", "meaningVn": "từ điển", "sharedCharPrev": "字", "sharedCharNext": "典" },
+        { "headword": "典礼", "reading": "diǎnlǐ", "hanViet": "điển lễ", "meaningVn": "lễ nghi, nghi lễ", "sharedCharPrev": "典", "sharedCharNext": "礼" },
+        { "headword": "礼物", "reading": "lǐwù", "hanViet": "lễ vật", "meaningVn": "quà tặng", "sharedCharPrev": "礼", "sharedCharNext": "物" },
+        { "headword": "物质", "reading": "wùzhì", "hanViet": "vật chất", "meaningVn": "vật chất", "sharedCharPrev": "物", "sharedCharNext": "质" },
+        { "headword": "质疑", "reading": "zhìyí", "hanViet": "chất nghi", "meaningVn": "chất vấn, nghi ngờ", "sharedCharPrev": "质", "sharedCharNext": "疑" },
+        { "headword": "疑问", "reading": "yíwèn", "hanViet": "nghi vấn", "meaningVn": "nghi vấn, câu hỏi", "sharedCharPrev": "疑", "sharedCharNext": "问" },
+        { "headword": "问候", "reading": "wènhòu", "hanViet": "vấn hậu", "meaningVn": "hỏi thăm", "sharedCharPrev": "问", "sharedCharNext": null }
+      ],
+      "note": "Domino 12 mắt xích qua 语→言→论→文→字→典→礼→物→质→疑 (nối dài thêm từ bản 10 mắt xích trước đó)."
+    },
+    {
+      "id": "zh-chain-yinyue-qiguan-fali",
+      "language": "zh",
+      "kind": "chain",
+      "nodes": [
+        { "headword": "音乐", "reading": "yīnyuè", "hanViet": "âm nhạc", "meaningVn": "âm nhạc", "sharedCharPrev": null, "sharedCharNext": "乐" },
+        { "headword": "乐器", "reading": "yuèqì", "hanViet": "nhạc khí", "meaningVn": "nhạc cụ", "sharedCharPrev": "乐", "sharedCharNext": "器" },
+        { "headword": "器官", "reading": "qìguān", "hanViet": "khí quan", "meaningVn": "cơ quan (bộ phận cơ thể)", "sharedCharPrev": "器", "sharedCharNext": "官" },
+        { "headword": "官方", "reading": "guānfāng", "hanViet": "quan phương", "meaningVn": "chính thức (thuộc nhà nước/tổ chức)", "sharedCharPrev": "官", "sharedCharNext": "方" },
+        { "headword": "方法", "reading": "fāngfǎ", "hanViet": "phương pháp", "meaningVn": "phương pháp", "sharedCharPrev": "方", "sharedCharNext": "法" },
+        { "headword": "法律", "reading": "fǎlǜ", "hanViet": "pháp luật", "meaningVn": "pháp luật", "sharedCharPrev": "法", "sharedCharNext": "律" },
+        { "headword": "律师", "reading": "lǜshī", "hanViet": "luật sư", "meaningVn": "luật sư", "sharedCharPrev": "律", "sharedCharNext": "师" },
+        { "headword": "师范", "reading": "shīfàn", "hanViet": "sư phạm", "meaningVn": "sư phạm" , "sharedCharPrev": "师", "sharedCharNext": "范" },
+        { "headword": "范围", "reading": "fànwéi", "hanViet": "phạm vi", "meaningVn": "phạm vi", "sharedCharPrev": "范", "sharedCharNext": "围" },
+        { "headword": "围绕", "reading": "wéirào", "hanViet": "vi nhiễu", "meaningVn": "xoay quanh, vây quanh", "sharedCharPrev": "围", "sharedCharNext": null }
+      ],
+      "note": "Domino 10 mắt xích qua 乐→器→官→方→法→律→师→范→围 (nối dài thêm từ bản 8 mắt xích trước đó). Chữ 乐 đọc \"yuè\" (nhạc) ở đây — chữ đa âm, còn đọc \"lè\" (vui) hoặc \"yào\" (thích) tuỳ nghĩa."
+    },
+    {
+      "id": "zh-chain-jiankang-fuxi-xiguan",
+      "language": "zh",
+      "kind": "chain",
+      "nodes": [
+        { "headword": "健康", "reading": "jiànkāng", "hanViet": "kiện khang", "meaningVn": "sức khoẻ", "sharedCharPrev": null, "sharedCharNext": "康" },
+        { "headword": "康复", "reading": "kāngfù", "hanViet": "khang phục", "meaningVn": "hồi phục (sức khoẻ)", "sharedCharPrev": "康", "sharedCharNext": "复" },
+        { "headword": "复习", "reading": "fùxí", "hanViet": "phục tập", "meaningVn": "ôn tập", "sharedCharPrev": "复", "sharedCharNext": "习" },
+        { "headword": "习惯", "reading": "xíguàn", "hanViet": "tập quán", "meaningVn": "thói quen", "sharedCharPrev": "习", "sharedCharNext": "惯" },
+        { "headword": "惯例", "reading": "guànlì", "hanViet": "quán lệ", "meaningVn": "thông lệ, tiền lệ", "sharedCharPrev": "惯", "sharedCharNext": "例" },
+        { "headword": "例如", "reading": "lìrú", "hanViet": "lệ như", "meaningVn": "ví dụ như" , "sharedCharPrev": "例", "sharedCharNext": "如" },
+        { "headword": "如此", "reading": "rúcǐ", "hanViet": "như thử", "meaningVn": "như thế, như vậy", "sharedCharPrev": "如", "sharedCharNext": "此" },
+        { "headword": "此外", "reading": "cǐwài", "hanViet": "thử ngoại", "meaningVn": "ngoài ra", "sharedCharPrev": "此", "sharedCharNext": "外" },
+        { "headword": "外交", "reading": "wàijiāo", "hanViet": "ngoại giao", "meaningVn": "ngoại giao", "sharedCharPrev": "外", "sharedCharNext": null }
+      ],
+      "note": "Domino 9 mắt xích qua 康→复→习→惯→例→如→此→外 (nối dài thêm từ bản 7 mắt xích trước đó)."
+    },
+    {
+      "id": "zh-chain-huanjing-jiejie-xianzhi",
+      "language": "zh",
+      "kind": "chain",
+      "nodes": [
+        { "headword": "环境", "reading": "huánjìng", "hanViet": "hoàn cảnh", "meaningVn": "môi trường, hoàn cảnh", "sharedCharPrev": null, "sharedCharNext": "境" },
+        { "headword": "境界", "reading": "jìngjiè", "hanViet": "cảnh giới", "meaningVn": "cảnh giới, ranh giới" , "sharedCharPrev": "境", "sharedCharNext": "界" },
+        { "headword": "界限", "reading": "jièxiàn", "hanViet": "giới hạn", "meaningVn": "giới hạn", "sharedCharPrev": "界", "sharedCharNext": "限" },
+        { "headword": "限制", "reading": "xiànzhì", "hanViet": "hạn chế", "meaningVn": "hạn chế", "sharedCharPrev": "限", "sharedCharNext": "制" },
+        { "headword": "制度", "reading": "zhìdù", "hanViet": "chế độ", "meaningVn": "chế độ, thể chế", "sharedCharPrev": "制", "sharedCharNext": "度" },
+        { "headword": "度假", "reading": "dùjià", "hanViet": "độ giả", "meaningVn": "đi nghỉ, nghỉ phép", "sharedCharPrev": "度", "sharedCharNext": "假" },
+        { "headword": "假期", "reading": "jiàqī", "hanViet": "giả kỳ", "meaningVn": "kỳ nghỉ, ngày nghỉ", "sharedCharPrev": "假", "sharedCharNext": "期" },
+        { "headword": "期待", "reading": "qīdài", "hanViet": "kỳ đãi", "meaningVn": "mong đợi", "sharedCharPrev": "期", "sharedCharNext": "待" },
+        { "headword": "待遇", "reading": "dàiyù", "hanViet": "đãi ngộ", "meaningVn": "đãi ngộ", "sharedCharPrev": "待", "sharedCharNext": null }
+      ],
+      "note": "Domino 9 mắt xích qua 境→界→限→制→度→假→期→待 (nối dài thêm từ bản 7 mắt xích trước đó). Chữ 假 đa âm: jiǎ (giả, không thật) vs jià (nghỉ) — 度假/假期 ở đây đều dùng nhất quán âm jià, không đổi âm giữa chừng."
+    },
+    {
+      "id": "zh-chain-jiaotong-tongzhi-shibie",
+      "language": "zh",
+      "kind": "chain",
+      "nodes": [
+        { "headword": "交通", "reading": "jiāotōng", "hanViet": "giao thông", "meaningVn": "giao thông", "sharedCharPrev": null, "sharedCharNext": "通" },
+        { "headword": "通知", "reading": "tōngzhī", "hanViet": "thông tri", "meaningVn": "thông báo", "sharedCharPrev": "通", "sharedCharNext": "知" },
+        { "headword": "知识", "reading": "zhīshi", "hanViet": "tri thức", "meaningVn": "tri thức, kiến thức", "sharedCharPrev": "知", "sharedCharNext": "识" },
+        { "headword": "识别", "reading": "shíbié", "hanViet": "thức biệt", "meaningVn": "nhận biết, phân biệt", "sharedCharPrev": "识", "sharedCharNext": "别" },
+        { "headword": "别墅", "reading": "biéshù", "hanViet": "biệt thự", "meaningVn": "biệt thự", "sharedCharPrev": "别", "sharedCharNext": null }
+      ],
+      "note": "Domino 5 mắt xích qua 通→知→识→别 (nối dài thêm từ bản 4 mắt xích trước đó)."
+    },
+    {
+      "id": "zh-chain-jihua-fenkai-kaishi",
+      "language": "zh",
+      "kind": "chain",
+      "nodes": [
+        { "headword": "计划", "reading": "jìhuà", "hanViet": "kế hoạch", "meaningVn": "kế hoạch", "sharedCharPrev": null, "sharedCharNext": "划" },
+        { "headword": "划分", "reading": "huàfēn", "hanViet": "hoạch phân", "meaningVn": "phân chia", "sharedCharPrev": "划", "sharedCharNext": "分" },
+        { "headword": "分开", "reading": "fēnkāi", "hanViet": "phân khai", "meaningVn": "tách ra", "sharedCharPrev": "分", "sharedCharNext": "开" },
+        { "headword": "开始", "reading": "kāishǐ", "hanViet": "khai thuỷ", "meaningVn": "bắt đầu", "sharedCharPrev": "开", "sharedCharNext": "始" },
+        { "headword": "始终", "reading": "shǐzhōng", "hanViet": "thuỷ chung", "meaningVn": "từ đầu đến cuối, luôn luôn", "sharedCharPrev": "始", "sharedCharNext": "终" },
+        { "headword": "终于", "reading": "zhōngyú", "hanViet": "chung ư", "meaningVn": "cuối cùng", "sharedCharPrev": "终", "sharedCharNext": "于" },
+        { "headword": "于是", "reading": "yúshì", "hanViet": "ư thị", "meaningVn": "vì vậy, thế là", "sharedCharPrev": "于", "sharedCharNext": "是" },
+        { "headword": "是否", "reading": "shìfǒu", "hanViet": "thị phủ", "meaningVn": "có... hay không", "sharedCharPrev": "是", "sharedCharNext": "否" },
+        { "headword": "否则", "reading": "fǒuzé", "hanViet": "phủ tắc", "meaningVn": "nếu không thì", "sharedCharPrev": "否", "sharedCharNext": null }
+      ],
+      "note": "Domino 9 mắt xích qua 划→分→开→始→终→于→是→否 (nối dài thêm từ bản 8 mắt xích trước đó)."
+    },
+    {
+      "id": "zh-chain-yiyuan-yuanzi-nver",
+      "language": "zh",
+      "kind": "chain",
+      "nodes": [
+        { "headword": "医院", "reading": "yīyuàn", "hanViet": "y viện", "meaningVn": "bệnh viện", "sharedCharPrev": null, "sharedCharNext": "院" },
+        { "headword": "院子", "reading": "yuànzi", "hanViet": "viện tử", "meaningVn": "sân nhà", "sharedCharPrev": "院", "sharedCharNext": "子" },
+        { "headword": "子女", "reading": "zǐnǚ", "hanViet": "tử nữ", "meaningVn": "con cái", "sharedCharPrev": "子", "sharedCharNext": "女" },
+        { "headword": "女儿", "reading": "nǚ'ér", "hanViet": "nữ nhi", "meaningVn": "con gái", "sharedCharPrev": "女", "sharedCharNext": "儿" },
+        { "headword": "儿童", "reading": "értóng", "hanViet": "nhi đồng", "meaningVn": "trẻ em", "sharedCharPrev": "儿", "sharedCharNext": "童" },
+        { "headword": "童年", "reading": "tóngnián", "hanViet": "đồng niên", "meaningVn": "tuổi thơ", "sharedCharPrev": "童", "sharedCharNext": "年" },
+        { "headword": "年龄", "reading": "niánlíng", "hanViet": "niên linh", "meaningVn": "tuổi tác", "sharedCharPrev": "年", "sharedCharNext": null }
+      ],
+      "note": "Domino 7 mắt xích qua 院→子→女→儿→童→年 (nối dài thêm từ bản 4 mắt xích trước đó)."
+    },
+    {
+      "id": "zh-chain-dianying-yingxiang-yinggai",
+      "language": "zh",
+      "kind": "chain",
+      "nodes": [
+        { "headword": "电影", "reading": "diànyǐng", "hanViet": "điện ảnh", "meaningVn": "phim ảnh", "sharedCharPrev": null, "sharedCharNext": "影" },
+        { "headword": "影响", "reading": "yǐngxiǎng", "hanViet": "ảnh hưởng", "meaningVn": "ảnh hưởng", "sharedCharPrev": "影", "sharedCharNext": "响" },
+        { "headword": "响应", "reading": "xiǎngyìng", "hanViet": "hưởng ứng", "meaningVn": "hưởng ứng, phản hồi", "sharedCharPrev": "响", "sharedCharNext": "应" },
+        { "headword": "应该", "reading": "yīnggāi", "hanViet": "ứng cai", "meaningVn": "nên, phải (động từ tình thái)", "sharedCharPrev": "应", "sharedCharNext": null }
+      ],
+      "note": "Domino 4 mắt xích qua 影→响→应."
+    },
+    {
+      "id": "zh-chain-lvxing-xingdong-liliang",
+      "language": "zh",
+      "kind": "chain",
+      "nodes": [
+        { "headword": "旅行", "reading": "lǚxíng", "hanViet": "lữ hành", "meaningVn": "du lịch", "sharedCharPrev": null, "sharedCharNext": "行" },
+        { "headword": "行动", "reading": "xíngdòng", "hanViet": "hành động", "meaningVn": "hành động", "sharedCharPrev": "行", "sharedCharNext": "动" },
+        { "headword": "动力", "reading": "dònglì", "hanViet": "động lực", "meaningVn": "động lực", "sharedCharPrev": "动", "sharedCharNext": "力" },
+        { "headword": "力量", "reading": "lìliàng", "hanViet": "lực lượng", "meaningVn": "sức mạnh", "sharedCharPrev": "力", "sharedCharNext": "量" },
+        { "headword": "量产", "reading": "liàngchǎn", "hanViet": "lượng sản", "meaningVn": "sản xuất hàng loạt", "sharedCharPrev": "量", "sharedCharNext": "产" },
+        { "headword": "产品", "reading": "chǎnpǐn", "hanViet": "sản phẩm", "meaningVn": "sản phẩm", "sharedCharPrev": "产", "sharedCharNext": "品" },
+        { "headword": "品质", "reading": "pǐnzhì", "hanViet": "phẩm chất", "meaningVn": "phẩm chất, chất lượng", "sharedCharPrev": "品", "sharedCharNext": "质" },
+        { "headword": "质朴", "reading": "zhìpǔ", "hanViet": "chất phác", "meaningVn": "mộc mạc, giản dị", "sharedCharPrev": "质", "sharedCharNext": null }
+      ],
+      "note": "Domino 8 mắt xích qua 行→动→力→量→产→品 (nối dài thêm từ bản 6 mắt xích trước đó, round 22) — cùng lộ trình 量→产 như chuỗi tiếng Nhật ja-chain-ryokou-koudou-douryoku."
+    },
+    {
+      "id": "zh-chain-shouji-jichang-shudian",
+      "language": "zh",
+      "kind": "chain",
+      "nodes": [
+        { "headword": "手机", "reading": "shǒujī", "hanViet": "thủ cơ", "meaningVn": "điện thoại di động", "sharedCharPrev": null, "sharedCharNext": "机" },
+        { "headword": "机场", "reading": "jīchǎng", "hanViet": "cơ trường", "meaningVn": "sân bay", "sharedCharPrev": "机", "sharedCharNext": "场" },
+        { "headword": "场地", "reading": "chǎngdì", "hanViet": "trường địa", "meaningVn": "địa điểm, sân bãi", "sharedCharPrev": "场", "sharedCharNext": "地" },
+        { "headword": "地图", "reading": "dìtú", "hanViet": "địa đồ", "meaningVn": "bản đồ", "sharedCharPrev": "地", "sharedCharNext": "图" },
+        { "headword": "图书", "reading": "túshū", "hanViet": "đồ thư", "meaningVn": "sách vở, đồ thư", "sharedCharPrev": "图", "sharedCharNext": "书" },
+        { "headword": "书店", "reading": "shūdiàn", "hanViet": "thư điếm", "meaningVn": "hiệu sách", "sharedCharPrev": "书", "sharedCharNext": "店" },
+        { "headword": "店铺", "reading": "diànpù", "hanViet": "điếm phổ", "meaningVn": "cửa hàng, tiệm", "sharedCharPrev": "店", "sharedCharNext": null }
+      ],
+      "note": "Domino 7 mắt xích qua 机→场→地→图→书→店 (nối dài thêm từ bản 6 mắt xích trước đó, round 14: đổi hướng khỏi 机会>会员 vì 员 hầu như chỉ đứng cuối từ, không nối dài được)."
+    },
+    {
+      "id": "zh-chain-tianqi-houbu-buchong",
+      "language": "zh",
+      "kind": "chain",
+      "nodes": [
+        { "headword": "天气", "reading": "tiānqì", "hanViet": "thiên khí", "meaningVn": "thời tiết", "sharedCharPrev": null, "sharedCharNext": "气" },
+        { "headword": "气候", "reading": "qìhòu", "hanViet": "khí hậu", "meaningVn": "khí hậu", "sharedCharPrev": "气", "sharedCharNext": "候" },
+        { "headword": "候补", "reading": "hòubǔ", "hanViet": "hậu bổ", "meaningVn": "dự bị (vd 候补队员)", "sharedCharPrev": "候", "sharedCharNext": "补" },
+        { "headword": "补充", "reading": "bǔchōng", "hanViet": "bổ sung", "meaningVn": "bổ sung", "sharedCharPrev": "补", "sharedCharNext": "充" },
+        { "headword": "充分", "reading": "chōngfèn", "hanViet": "sung phận", "meaningVn": "đầy đủ", "sharedCharPrev": "充", "sharedCharNext": "分" },
+        { "headword": "分析", "reading": "fēnxī", "hanViet": "phân tích", "meaningVn": "phân tích", "sharedCharPrev": "分", "sharedCharNext": null }
+      ],
+      "note": "Domino 6 mắt xích qua 气→候→补→充→分 (nối dài thêm từ bản 4 mắt xích trước đó)."
+    },
+    {
+      "id": "zh-chain-shiwu-wuli-liyou",
+      "language": "zh",
+      "kind": "chain",
+      "nodes": [
+        { "headword": "食物", "reading": "shíwù", "hanViet": "thực vật", "meaningVn": "thức ăn", "sharedCharPrev": null, "sharedCharNext": "物" },
+        { "headword": "物理", "reading": "wùlǐ", "hanViet": "vật lý", "meaningVn": "vật lý", "sharedCharPrev": "物", "sharedCharNext": "理" },
+        { "headword": "理由", "reading": "lǐyóu", "hanViet": "lý do", "meaningVn": "lý do", "sharedCharPrev": "理", "sharedCharNext": "由" },
+        { "headword": "由于", "reading": "yóuyú", "hanViet": "do ư", "meaningVn": "bởi vì, do", "sharedCharPrev": "由", "sharedCharNext": null }
+      ],
+      "note": "Domino 4 mắt xích qua 物→理→由."
+    },
+    {
+      "id": "zh-chain-yanse-secai-caihong",
+      "language": "zh",
+      "kind": "chain",
+      "nodes": [
+        { "headword": "颜色", "reading": "yánsè", "hanViet": "nhan sắc", "meaningVn": "màu sắc", "sharedCharPrev": null, "sharedCharNext": "色" },
+        { "headword": "色彩", "reading": "sècǎi", "hanViet": "sắc thái", "meaningVn": "màu sắc, sắc thái", "sharedCharPrev": "色", "sharedCharNext": "彩" },
+        { "headword": "彩虹", "reading": "cǎihóng", "hanViet": "thái hồng", "meaningVn": "cầu vồng", "sharedCharPrev": "彩", "sharedCharNext": "虹" },
+        { "headword": "虹膜", "reading": "hóngmó", "hanViet": "hồng mô", "meaningVn": "mống mắt (bộ phận mắt)", "sharedCharPrev": "虹", "sharedCharNext": "膜" },
+        { "headword": "膜拜", "reading": "móbài", "hanViet": "mô bái", "meaningVn": "quỳ lạy, sùng bái (văn viết)", "sharedCharPrev": "膜", "sharedCharNext": "拜" },
+        { "headword": "拜访", "reading": "bàifǎng", "hanViet": "bái phỏng", "meaningVn": "đến thăm, bái phỏng" , "sharedCharPrev": "拜", "sharedCharNext": "访" },
+        { "headword": "访问", "reading": "fǎngwèn", "hanViet": "phỏng vấn", "meaningVn": "phỏng vấn, thăm hỏi", "sharedCharPrev": "访", "sharedCharNext": "问" },
+        { "headword": "问题", "reading": "wèntí", "hanViet": "vấn đề", "meaningVn": "vấn đề", "sharedCharPrev": "问", "sharedCharNext": "题" },
+        { "headword": "题目", "reading": "tímù", "hanViet": "đề mục", "meaningVn": "tiêu đề, đề mục", "sharedCharPrev": "题", "sharedCharNext": null }
+      ],
+      "note": "Domino 9 mắt xích qua 色→彩→虹→膜→拜→访→问→题 (nối dài thêm từ bản 7 mắt xích trước đó). 虹膜 là thuật ngữ y học/sinh học, ít thông dụng hơn các từ khác nhưng vẫn là từ chuẩn."
+    },
+    {
+      "id": "zh-chain-yishu-shuyu-faguan",
+      "language": "zh",
+      "kind": "chain",
+      "nodes": [
+        { "headword": "艺术", "reading": "yìshù", "hanViet": "nghệ thuật", "meaningVn": "nghệ thuật", "sharedCharPrev": null, "sharedCharNext": "术" },
+        { "headword": "术语", "reading": "shùyǔ", "hanViet": "thuật ngữ", "meaningVn": "thuật ngữ", "sharedCharPrev": "术", "sharedCharNext": "语" },
+        { "headword": "语法", "reading": "yǔfǎ", "hanViet": "ngữ pháp", "meaningVn": "ngữ pháp", "sharedCharPrev": "语", "sharedCharNext": "法" },
+        { "headword": "法官", "reading": "fǎguān", "hanViet": "pháp quan", "meaningVn": "thẩm phán", "sharedCharPrev": "法", "sharedCharNext": "官" },
+        { "headword": "官员", "reading": "guānyuán", "hanViet": "quan viên", "meaningVn": "quan chức", "sharedCharPrev": "官", "sharedCharNext": null }
+      ],
+      "note": "Domino 5 mắt xích qua 术→语→法→官 (nối dài thêm từ bản 4 mắt xích trước đó). Dừng ở 官员 vì 员 hầu như chỉ đứng cuối từ trong tiếng Trung hiện đại."
+    },
+    {
+      "id": "zh-chain-senlin-linye-yezhu",
+      "language": "zh",
+      "kind": "chain",
+      "nodes": [
+        { "headword": "森林", "reading": "sēnlín", "hanViet": "sâm lâm", "meaningVn": "rừng", "sharedCharPrev": null, "sharedCharNext": "林" },
+        { "headword": "林业", "reading": "línyè", "hanViet": "lâm nghiệp", "meaningVn": "lâm nghiệp", "sharedCharPrev": "林", "sharedCharNext": "业" },
+        { "headword": "业主", "reading": "yèzhǔ", "hanViet": "nghiệp chủ", "meaningVn": "chủ sở hữu (bất động sản)", "sharedCharPrev": "业", "sharedCharNext": "主" },
+        { "headword": "主要", "reading": "zhǔyào", "hanViet": "chủ yếu", "meaningVn": "chủ yếu", "sharedCharPrev": "主", "sharedCharNext": "要" },
+        { "headword": "要求", "reading": "yàoqiú", "hanViet": "yêu cầu", "meaningVn": "yêu cầu", "sharedCharPrev": "要", "sharedCharNext": "求" },
+        { "headword": "求婚", "reading": "qiúhūn", "hanViet": "cầu hôn", "meaningVn": "cầu hôn", "sharedCharPrev": "求", "sharedCharNext": "婚" },
+        { "headword": "婚姻", "reading": "hūnyīn", "hanViet": "hôn nhân", "meaningVn": "hôn nhân", "sharedCharPrev": "婚", "sharedCharNext": null }
+      ],
+      "note": "Domino 7 mắt xích qua 林→业→主→要→求→婚 (nối dài thêm từ bản 5 mắt xích trước đó)."
+    },
+    {
+      "id": "zh-chain-lishi-shiliao-liaoli",
+      "language": "zh",
+      "kind": "chain",
+      "nodes": [
+        { "headword": "历史", "reading": "lìshǐ", "hanViet": "lịch sử", "meaningVn": "lịch sử", "sharedCharPrev": null, "sharedCharNext": "史" },
+        { "headword": "史料", "reading": "shǐliào", "hanViet": "sử liệu", "meaningVn": "sử liệu", "sharedCharPrev": "史", "sharedCharNext": "料" },
+        { "headword": "料理", "reading": "liàolǐ", "hanViet": "liệu lý", "meaningVn": "món ăn, nấu ăn", "sharedCharPrev": "料", "sharedCharNext": "理" },
+        { "headword": "理想", "reading": "lǐxiǎng", "hanViet": "lý tưởng", "meaningVn": "lý tưởng", "sharedCharPrev": "理", "sharedCharNext": "想" },
+        { "headword": "想法", "reading": "xiǎngfǎ", "hanViet": "tưởng pháp", "meaningVn": "cách nghĩ, ý tưởng", "sharedCharPrev": "想", "sharedCharNext": "法" },
+        { "headword": "法则", "reading": "fǎzé", "hanViet": "pháp tắc", "meaningVn": "quy tắc, quy luật", "sharedCharPrev": "法", "sharedCharNext": null }
+      ],
+      "note": "Domino 6 mắt xích qua 史→料→理→想→法 (nối dài thêm từ bản 5 mắt xích trước đó)."
+    },
+    {
+      "id": "zh-chain-ganqing-qingkuang-kuangqie",
+      "language": "zh",
+      "kind": "chain",
+      "nodes": [
+        { "headword": "感情", "reading": "gǎnqíng", "hanViet": "cảm tình", "meaningVn": "tình cảm", "sharedCharPrev": null, "sharedCharNext": "情" },
+        { "headword": "情况", "reading": "qíngkuàng", "hanViet": "tình huống", "meaningVn": "tình huống, tình hình", "sharedCharPrev": "情", "sharedCharNext": "况" },
+        { "headword": "况且", "reading": "kuàngqiě", "hanViet": "huống thả", "meaningVn": "huống chi, hơn nữa", "sharedCharPrev": "况", "sharedCharNext": null }
+      ],
+      "note": "Domino 3 mắt xích qua 情→况."
+    },
+    {
+      "id": "zh-chain-jiaoyu-yuer-erzi",
+      "language": "zh",
+      "kind": "chain",
+      "nodes": [
+        { "headword": "教育", "reading": "jiàoyù", "hanViet": "giáo dục", "meaningVn": "giáo dục", "sharedCharPrev": null, "sharedCharNext": "育" },
+        { "headword": "育儿", "reading": "yù'ér", "hanViet": "dục nhi", "meaningVn": "nuôi dạy con cái", "sharedCharPrev": "育", "sharedCharNext": "儿" },
+        { "headword": "儿子", "reading": "érzi", "hanViet": "nhi tử", "meaningVn": "con trai", "sharedCharPrev": "儿", "sharedCharNext": "子" },
+        { "headword": "子孙", "reading": "zǐsūn", "hanViet": "tử tôn", "meaningVn": "con cháu", "sharedCharPrev": "子", "sharedCharNext": "孙" },
+        { "headword": "孙女", "reading": "sūnnǚ", "hanViet": "tôn nữ", "meaningVn": "cháu gái (nội)", "sharedCharPrev": "孙", "sharedCharNext": "女" },
+        { "headword": "女士", "reading": "nǚshì", "hanViet": "nữ sĩ", "meaningVn": "quý bà, quý cô", "sharedCharPrev": "女", "sharedCharNext": "士" },
+        { "headword": "士兵", "reading": "shìbīng", "hanViet": "sĩ binh", "meaningVn": "binh lính", "sharedCharPrev": "士", "sharedCharNext": "兵" },
+        { "headword": "兵力", "reading": "bīnglì", "hanViet": "binh lực", "meaningVn": "binh lực, quân lực", "sharedCharPrev": "兵", "sharedCharNext": null }
+      ],
+      "note": "Domino 8 mắt xích qua 育→儿→子→孙→女→士 (nối dài thêm từ bản 6 mắt xích trước đó, round 24). Dùng 孙女 để nối tiếp từ 孙 (khác với 孙子 sẽ quay lại 子 đã dùng)."
+    },
+    {
+      "id": "zh-chain-xinqing-qinggan-juede",
+      "language": "zh",
+      "kind": "chain",
+      "nodes": [
+        { "headword": "心情", "reading": "xīnqíng", "hanViet": "tâm tình", "meaningVn": "tâm trạng", "sharedCharPrev": null, "sharedCharNext": "情" },
+        { "headword": "情感", "reading": "qínggǎn", "hanViet": "tình cảm", "meaningVn": "tình cảm", "sharedCharPrev": "情", "sharedCharNext": "感" },
+        { "headword": "感觉", "reading": "gǎnjué", "hanViet": "cảm giác", "meaningVn": "cảm giác, cảm thấy", "sharedCharPrev": "感", "sharedCharNext": "觉" },
+        { "headword": "觉得", "reading": "juéde", "hanViet": "giác đắc", "meaningVn": "cảm thấy, cho rằng", "sharedCharPrev": "觉", "sharedCharNext": "得" },
+        { "headword": "得到", "reading": "dédào", "hanViet": "đắc đáo", "meaningVn": "đạt được, có được", "sharedCharPrev": "得", "sharedCharNext": "到" },
+        { "headword": "到达", "reading": "dàodá", "hanViet": "đáo đạt", "meaningVn": "đến nơi, tới nơi", "sharedCharPrev": "到", "sharedCharNext": "达" },
+        { "headword": "达到", "reading": "dádào", "hanViet": "đạt đáo", "meaningVn": "đạt được", "sharedCharPrev": "达", "sharedCharNext": "到" },
+        { "headword": "到处", "reading": "dàochù", "hanViet": "đáo xứ", "meaningVn": "khắp nơi", "sharedCharPrev": "到", "sharedCharNext": "处" },
+        { "headword": "处理", "reading": "chǔlǐ", "hanViet": "xử lý", "meaningVn": "xử lý", "sharedCharPrev": "处", "sharedCharNext": "理" },
+        { "headword": "理论", "reading": "lǐlùn", "hanViet": "lý luận", "meaningVn": "lý luận" , "sharedCharPrev": "理", "sharedCharNext": "论" },
+        { "headword": "论证", "reading": "lùnzhèng", "hanViet": "luận chứng", "meaningVn": "luận chứng, chứng minh", "sharedCharPrev": "论", "sharedCharNext": null }
+      ],
+      "note": "Domino 11 mắt xích qua 情→感→觉→得→到→达→到→处→理→论 (nối dài thêm từ bản 10 mắt xích trước đó, round 12)."
+    },
+    {
+      "id": "zh-chain-xingfu-fuqi-zhiliang",
+      "language": "zh",
+      "kind": "chain",
+      "nodes": [
+        { "headword": "幸福", "reading": "xìngfú", "hanViet": "hạnh phúc", "meaningVn": "hạnh phúc", "sharedCharPrev": null, "sharedCharNext": "福" },
+        { "headword": "福气", "reading": "fúqi", "hanViet": "phúc khí", "meaningVn": "phúc, may mắn (khẩu ngữ)", "sharedCharPrev": "福", "sharedCharNext": "气" },
+        { "headword": "气质", "reading": "qìzhì", "hanViet": "khí chất", "meaningVn": "khí chất, phong thái", "sharedCharPrev": "气", "sharedCharNext": "质" },
+        { "headword": "质量", "reading": "zhìliàng", "hanViet": "chất lượng", "meaningVn": "chất lượng", "sharedCharPrev": "质", "sharedCharNext": "量" },
+        { "headword": "量词", "reading": "liàngcí", "hanViet": "lượng từ", "meaningVn": "lượng từ (loại từ trong ngữ pháp)", "sharedCharPrev": "量", "sharedCharNext": "词" },
+        { "headword": "词典", "reading": "cídiǎn", "hanViet": "từ điển", "meaningVn": "từ điển", "sharedCharPrev": "词", "sharedCharNext": "典" },
+        { "headword": "典型", "reading": "diǎnxíng", "hanViet": "điển hình", "meaningVn": "điển hình", "sharedCharPrev": "典", "sharedCharNext": null }
+      ],
+      "note": "Domino 7 mắt xích qua 福→气→质→量→词→典 (nối dài thêm từ bản 4 mắt xích trước đó, round 13)."
+    },
+    {
+      "id": "zh-chain-kuaile-leguan-chajue",
+      "language": "zh",
+      "kind": "chain",
+      "nodes": [
+        { "headword": "快乐", "reading": "kuàilè", "hanViet": "khoái lạc", "meaningVn": "vui vẻ", "sharedCharPrev": null, "sharedCharNext": "乐" },
+        { "headword": "乐观", "reading": "lèguān", "hanViet": "lạc quan", "meaningVn": "lạc quan", "sharedCharPrev": "乐", "sharedCharNext": "观" },
+        { "headword": "观察", "reading": "guānchá", "hanViet": "quan sát", "meaningVn": "quan sát", "sharedCharPrev": "观", "sharedCharNext": "察" },
+        { "headword": "察觉", "reading": "chájué", "hanViet": "sát giác", "meaningVn": "nhận ra, phát hiện", "sharedCharPrev": "察", "sharedCharNext": "觉" },
+        { "headword": "觉悟", "reading": "juéwù", "hanViet": "giác ngộ", "meaningVn": "giác ngộ, nhận thức" , "sharedCharPrev": "觉", "sharedCharNext": "悟" },
+        { "headword": "悟性", "reading": "wùxìng", "hanViet": "ngộ tính", "meaningVn": "khả năng lĩnh hội", "sharedCharPrev": "悟", "sharedCharNext": "性" },
+        { "headword": "性格", "reading": "xìnggé", "hanViet": "tính cách", "meaningVn": "tính cách", "sharedCharPrev": "性", "sharedCharNext": "格" },
+        { "headword": "格局", "reading": "géjú", "hanViet": "cách cục", "meaningVn": "cục diện, bố cục", "sharedCharPrev": "格", "sharedCharNext": null }
+      ],
+      "note": "Domino 8 mắt xích qua 乐→观→察→觉→悟→性 (nối dài thêm từ bản 7 mắt xích trước đó, round 22)."
+    },
+    {
+      "id": "zh-chain-xinxin-xinli-zhihui",
+      "language": "zh",
+      "kind": "chain",
+      "nodes": [
+        { "headword": "信心", "reading": "xìnxīn", "hanViet": "tín tâm", "meaningVn": "tin tưởng, tự tin", "sharedCharPrev": null, "sharedCharNext": "心" },
+        { "headword": "心理", "reading": "xīnlǐ", "hanViet": "tâm lý", "meaningVn": "tâm lý", "sharedCharPrev": "心", "sharedCharNext": "理" },
+        { "headword": "理智", "reading": "lǐzhì", "hanViet": "lý trí", "meaningVn": "lý trí", "sharedCharPrev": "理", "sharedCharNext": "智" },
+        { "headword": "智慧", "reading": "zhìhuì", "hanViet": "trí tuệ", "meaningVn": "trí tuệ", "sharedCharPrev": "智", "sharedCharNext": "慧" },
+        { "headword": "慧眼", "reading": "huìyǎn", "hanViet": "tuệ nhãn", "meaningVn": "mắt tinh tường, nhìn xa trông rộng", "sharedCharPrev": "慧", "sharedCharNext": "眼" },
+        { "headword": "眼睛", "reading": "yǎnjing", "hanViet": "nhãn tình", "meaningVn": "con mắt", "sharedCharPrev": "眼", "sharedCharNext": null }
+      ],
+      "note": "Domino 6 mắt xích qua 心→理→智→慧→眼 (nối dài thêm từ bản 4 mắt xích trước đó, round 15)."
+    },
+    {
+      "id": "zh-chain-mengxiang-xiangnian-toufa",
+      "language": "zh",
+      "kind": "chain",
+      "nodes": [
+        { "headword": "梦想", "reading": "mèngxiǎng", "hanViet": "mộng tưởng", "meaningVn": "ước mơ", "sharedCharPrev": null, "sharedCharNext": "想" },
+        { "headword": "想念", "reading": "xiǎngniàn", "hanViet": "tưởng niệm", "meaningVn": "nhớ nhung", "sharedCharPrev": "想", "sharedCharNext": "念" },
+        { "headword": "念头", "reading": "niàntou", "hanViet": "niệm đầu", "meaningVn": "ý nghĩ" , "sharedCharPrev": "念", "sharedCharNext": "头" },
+        { "headword": "头发", "reading": "tóufa", "hanViet": "đầu phát", "meaningVn": "tóc", "sharedCharPrev": "头", "sharedCharNext": "发" },
+        { "headword": "发展", "reading": "fāzhǎn", "hanViet": "phát triển", "meaningVn": "phát triển", "sharedCharPrev": "发", "sharedCharNext": "展" },
+        { "headword": "展示", "reading": "zhǎnshì", "hanViet": "triển thị", "meaningVn": "triển lãm, trưng bày", "sharedCharPrev": "展", "sharedCharNext": "示" },
+        { "headword": "示范", "reading": "shìfàn", "hanViet": "thị phạm", "meaningVn": "làm mẫu, thị phạm", "sharedCharPrev": "示", "sharedCharNext": "范" },
+        { "headword": "范例", "reading": "fànlì", "hanViet": "phạm lệ", "meaningVn": "ví dụ điển hình, mẫu mực", "sharedCharPrev": "范", "sharedCharNext": null }
+      ],
+      "note": "Domino 8 mắt xích qua 想→念→头→发→展→示 (nối dài thêm từ bản 6 mắt xích trước đó, round 22). Chữ 发 đa âm: fà (tóc, 头发) vs fā (phát triển, 发展) — 2 mắt xích giữa đổi âm nhưng vẫn cùng 1 chữ Hán."
+    },
+    {
+      "id": "zh-chain-renzhen-zhenshi-shijian",
+      "language": "zh",
+      "kind": "chain",
+      "nodes": [
+        { "headword": "认真", "reading": "rènzhēn", "hanViet": "nhận chân", "meaningVn": "nghiêm túc", "sharedCharPrev": null, "sharedCharNext": "真" },
+        { "headword": "真实", "reading": "zhēnshí", "hanViet": "chân thực", "meaningVn": "chân thực", "sharedCharPrev": "真", "sharedCharNext": "实" },
+        { "headword": "实践", "reading": "shíjiàn", "hanViet": "thực tiễn", "meaningVn": "thực tiễn, thực hành", "sharedCharPrev": "实", "sharedCharNext": "践" },
+        { "headword": "践行", "reading": "jiànxíng", "hanViet": "tiễn hành", "meaningVn": "thực hiện, thực hành theo", "sharedCharPrev": "践", "sharedCharNext": "行" },
+        { "headword": "行为", "reading": "xíngwéi", "hanViet": "hành vi", "meaningVn": "hành vi", "sharedCharPrev": "行", "sharedCharNext": "为" },
+        { "headword": "为难", "reading": "wéinán", "hanViet": "vi nan", "meaningVn": "làm khó, khó xử", "sharedCharPrev": "为", "sharedCharNext": "难" },
+        { "headword": "难过", "reading": "nánguò", "hanViet": "nan qua", "meaningVn": "buồn, khó chịu", "sharedCharPrev": "难", "sharedCharNext": "过" },
+        { "headword": "过程", "reading": "guòchéng", "hanViet": "quá trình", "meaningVn": "quá trình", "sharedCharPrev": "过", "sharedCharNext": "程" },
+        { "headword": "程度", "reading": "chéngdù", "hanViet": "trình độ", "meaningVn": "mức độ, trình độ", "sharedCharPrev": "程", "sharedCharNext": null }
+      ],
+      "note": "Domino 9 mắt xích qua 真→实→践→行→为→难→过→程 (nối dài thêm từ bản 7 mắt xích trước đó, round 27). Chủ đề nghiêm túc/chân thực."
+    },
+    {
+      "id": "zh-chain-tiaozhan-zhanzheng-zhengyi",
+      "language": "zh",
+      "kind": "chain",
+      "nodes": [
+        { "headword": "挑战", "reading": "tiǎozhàn", "hanViet": "khiêu chiến", "meaningVn": "thử thách" , "sharedCharPrev": null, "sharedCharNext": "战" },
+        { "headword": "战争", "reading": "zhànzhēng", "hanViet": "chiến tranh", "meaningVn": "chiến tranh", "sharedCharPrev": "战", "sharedCharNext": "争" },
+        { "headword": "争议", "reading": "zhēngyì", "hanViet": "tranh nghị", "meaningVn": "tranh cãi, gây tranh cãi", "sharedCharPrev": "争", "sharedCharNext": "议" },
+        { "headword": "议论", "reading": "yìlùn", "hanViet": "nghị luận", "meaningVn": "bàn luận, bàn tán", "sharedCharPrev": "议", "sharedCharNext": "论" },
+        { "headword": "论坛", "reading": "lùntán", "hanViet": "luận đàn", "meaningVn": "diễn đàn", "sharedCharPrev": "论", "sharedCharNext": null }
+      ],
+      "note": "Domino 5 mắt xích qua 战→争→议→论 (nối dài thêm từ bản 3 mắt xích trước đó, round 18)."
+    },
+    {
+      "id": "zh-chain-maoxian-xiane-eliie",
+      "language": "zh",
+      "kind": "chain",
+      "nodes": [
+        { "headword": "冒险", "reading": "màoxiǎn", "hanViet": "mạo hiểm", "meaningVn": "mạo hiểm", "sharedCharPrev": null, "sharedCharNext": "险" },
+        { "headword": "险恶", "reading": "xiǎn'è", "hanViet": "hiểm ác", "meaningVn": "hiểm ác, hiểm độc", "sharedCharPrev": "险", "sharedCharNext": "恶" },
+        { "headword": "恶劣", "reading": "èliè", "hanViet": "ác liệt", "meaningVn": "tồi tệ", "sharedCharPrev": "恶", "sharedCharNext": "劣" },
+        { "headword": "劣势", "reading": "lièshì", "hanViet": "liệt thế", "meaningVn": "thế yếu, bất lợi", "sharedCharPrev": "劣", "sharedCharNext": "势" },
+        { "headword": "势力", "reading": "shìlì", "hanViet": "thế lực", "meaningVn": "thế lực", "sharedCharPrev": "势", "sharedCharNext": "力" },
+        { "headword": "力气", "reading": "lìqi", "hanViet": "lực khí", "meaningVn": "sức lực", "sharedCharPrev": "力", "sharedCharNext": "气" },
+        { "headword": "气氛", "reading": "qìfēn", "hanViet": "khí phân", "meaningVn": "bầu không khí, không khí (tinh thần)", "sharedCharPrev": "气", "sharedCharNext": "氛" },
+        { "headword": "氛围", "reading": "fēnwéi", "hanViet": "phân vi", "meaningVn": "bầu không khí, không gian" , "sharedCharPrev": "氛", "sharedCharNext": null }
+      ],
+      "note": "Domino 8 mắt xích qua 险→恶→劣→势→力→气→氛 (nối dài thêm từ bản 5 mắt xích trước đó, round 23)."
+    },
+    {
+      "id": "zh-chain-yongqi-qigai-gainian",
+      "language": "zh",
+      "kind": "chain",
+      "nodes": [
+        { "headword": "勇气", "reading": "yǒngqì", "hanViet": "dũng khí", "meaningVn": "can đảm, dũng khí", "sharedCharPrev": null, "sharedCharNext": "气" },
+        { "headword": "气概", "reading": "qìgài", "hanViet": "khí khái", "meaningVn": "khí phách" , "sharedCharPrev": "气", "sharedCharNext": "概" },
+        { "headword": "概念", "reading": "gàiniàn", "hanViet": "khái niệm", "meaningVn": "khái niệm", "sharedCharPrev": "概", "sharedCharNext": "念" },
+        { "headword": "念书", "reading": "niànshū", "hanViet": "niệm thư", "meaningVn": "học bài, đi học" , "sharedCharPrev": "念", "sharedCharNext": "书" },
+        { "headword": "书法", "reading": "shūfǎ", "hanViet": "thư pháp", "meaningVn": "thư pháp", "sharedCharPrev": "书", "sharedCharNext": "法" },
+        { "headword": "法院", "reading": "fǎyuàn", "hanViet": "pháp viện", "meaningVn": "toà án", "sharedCharPrev": "法", "sharedCharNext": "院" },
+        { "headword": "院长", "reading": "yuànzhǎng", "hanViet": "viện trưởng", "meaningVn": "viện trưởng, hiệu trưởng", "sharedCharPrev": "院", "sharedCharNext": "长" },
+        { "headword": "长期", "reading": "chángqī", "hanViet": "trường kỳ", "meaningVn": "lâu dài, dài hạn", "sharedCharPrev": "长", "sharedCharNext": "期" },
+        { "headword": "期限", "reading": "qīxiàn", "hanViet": "kỳ hạn", "meaningVn": "kỳ hạn, thời hạn", "sharedCharPrev": "期", "sharedCharNext": null }
+      ],
+      "note": "Domino 9 mắt xích qua 气→概→念→书→法→院→长→期 (nối dài thêm từ bản 7 mắt xích trước đó, round 28)."
+    },
+    {
+      "id": "zh-chain-youmo-moqi-qiyue",
+      "language": "zh",
+      "kind": "chain",
+      "nodes": [
+        { "headword": "幽默", "reading": "yōumò", "hanViet": "u mặc", "meaningVn": "hài hước", "sharedCharPrev": null, "sharedCharNext": "默" },
+        { "headword": "默契", "reading": "mòqì", "hanViet": "mặc khế", "meaningVn": "ăn ý ngầm với nhau", "sharedCharPrev": "默", "sharedCharNext": "契" },
+        { "headword": "契约", "reading": "qìyuē", "hanViet": "khế ước", "meaningVn": "hợp đồng", "sharedCharPrev": "契", "sharedCharNext": "约" },
+        { "headword": "约定", "reading": "yuēdìng", "hanViet": "ước định", "meaningVn": "hẹn ước, thoả thuận", "sharedCharPrev": "约", "sharedCharNext": "定" },
+        { "headword": "定期", "reading": "dìngqī", "hanViet": "định kỳ", "meaningVn": "định kỳ", "sharedCharPrev": "定", "sharedCharNext": "期" },
+        { "headword": "期望", "reading": "qīwàng", "hanViet": "kỳ vọng", "meaningVn": "kỳ vọng, mong đợi", "sharedCharPrev": "期", "sharedCharNext": null }
+      ],
+      "note": "Domino 6 mắt xích qua 默→契→约→定→期 (nối dài thêm từ bản 3 mắt xích trước đó, round 23). Chủ đề hài hước/thoả thuận/kỳ vọng."
+    },
+    {
+      "id": "zh-chain-chenmo-moren-rending",
+      "language": "zh",
+      "kind": "chain",
+      "nodes": [
+        { "headword": "沉默", "reading": "chénmò", "hanViet": "trầm mặc", "meaningVn": "im lặng", "sharedCharPrev": null, "sharedCharNext": "默" },
+        { "headword": "默认", "reading": "mòrèn", "hanViet": "mặc nhận", "meaningVn": "mặc nhận, mặc định", "sharedCharPrev": "默", "sharedCharNext": "认" },
+        { "headword": "认定", "reading": "rèndìng", "hanViet": "nhận định", "meaningVn": "công nhận, xác nhận", "sharedCharPrev": "认", "sharedCharNext": "定" },
+        { "headword": "定居", "reading": "dìngjū", "hanViet": "định cư", "meaningVn": "định cư", "sharedCharPrev": "定", "sharedCharNext": "居" },
+        { "headword": "居民", "reading": "jūmín", "hanViet": "cư dân", "meaningVn": "cư dân, dân cư", "sharedCharPrev": "居", "sharedCharNext": "民" },
+        { "headword": "民主", "reading": "mínzhǔ", "hanViet": "dân chủ", "meaningVn": "dân chủ", "sharedCharPrev": "民", "sharedCharNext": "主" },
+        { "headword": "主张", "reading": "zhǔzhāng", "hanViet": "chủ trương", "meaningVn": "chủ trương, quan điểm" , "sharedCharPrev": "主", "sharedCharNext": "张" },
+        { "headword": "张贴", "reading": "zhāngtiē", "hanViet": "trương thiếp", "meaningVn": "dán, niêm yết", "sharedCharPrev": "张", "sharedCharNext": "贴" },
+        { "headword": "贴心", "reading": "tiēxīn", "hanViet": "thiếp tâm", "meaningVn": "tận tâm, chu đáo (gần gũi)", "sharedCharPrev": "贴", "sharedCharNext": null }
+      ],
+      "note": "Domino 9 mắt xích qua 默→认→定→居→民→主→张→贴 (nối dài thêm từ bản 7 mắt xích trước đó, round 27), cùng lộ trình như chuỗi tiếng Nhật/Hàn (沈黙/침묵→黙認/묵인→認定/인정)."
+    },
+    {
+      "id": "zh-chain-pingjing-jingzhi-zhibu",
+      "language": "zh",
+      "kind": "chain",
+      "nodes": [
+        { "headword": "平静", "reading": "píngjìng", "hanViet": "bình tĩnh", "meaningVn": "bình tĩnh, yên tĩnh", "sharedCharPrev": null, "sharedCharNext": "静" },
+        { "headword": "静止", "reading": "jìngzhǐ", "hanViet": "tĩnh chỉ", "meaningVn": "tĩnh, đứng yên", "sharedCharPrev": "静", "sharedCharNext": "止" },
+        { "headword": "止步", "reading": "zhǐbù", "hanViet": "chỉ bộ", "meaningVn": "dừng bước, ngừng lại", "sharedCharPrev": "止", "sharedCharNext": "步" },
+        { "headword": "步骤", "reading": "bùzhòu", "hanViet": "bộ sậu", "meaningVn": "bước, trình tự", "sharedCharPrev": "步", "sharedCharNext": null }
+      ],
+      "note": "Domino 4 mắt xích qua 静→止→步 (nối dài thêm từ bản 3 mắt xích trước đó, round 24), chủ đề bình tĩnh/tĩnh lặng/dừng lại."
+    },
+    {
+      "id": "zh-chain-wennuan-nuanhuo-heping",
+      "language": "zh",
+      "kind": "chain",
+      "nodes": [
+        { "headword": "温暖", "reading": "wēnnuǎn", "hanViet": "ôn noãn", "meaningVn": "ấm áp", "sharedCharPrev": null, "sharedCharNext": "暖" },
+        { "headword": "暖和", "reading": "nuǎnhuo", "hanViet": "noãn hoà", "meaningVn": "ấm áp, dễ chịu", "sharedCharPrev": "暖", "sharedCharNext": "和" },
+        { "headword": "和平", "reading": "hépíng", "hanViet": "hoà bình", "meaningVn": "hoà bình", "sharedCharPrev": "和", "sharedCharNext": "平" },
+        { "headword": "平安", "reading": "píng'ān", "hanViet": "bình an", "meaningVn": "bình an", "sharedCharPrev": "平", "sharedCharNext": "安" },
+        { "headword": "安全", "reading": "ānquán", "hanViet": "an toàn", "meaningVn": "an toàn", "sharedCharPrev": "安", "sharedCharNext": "全" },
+        { "headword": "全球", "reading": "quánqiú", "hanViet": "toàn cầu", "meaningVn": "toàn cầu", "sharedCharPrev": "全", "sharedCharNext": "球" },
+        { "headword": "球场", "reading": "qiúchǎng", "hanViet": "cầu trường", "meaningVn": "sân bóng", "sharedCharPrev": "球", "sharedCharNext": "场" },
+        { "headword": "场合", "reading": "chǎnghé", "hanViet": "trường hợp", "meaningVn": "trường hợp, dịp, hoàn cảnh", "sharedCharPrev": "场", "sharedCharNext": "合" },
+        { "headword": "合唱", "reading": "héchàng", "hanViet": "hợp xướng", "meaningVn": "hợp xướng, hát tốp", "sharedCharPrev": "合", "sharedCharNext": null }
+      ],
+      "note": "Domino 9 mắt xích qua 暖→和→平→安→全→球→场→合 (nối dài thêm từ bản 7 mắt xích trước đó, round 27), chủ đề ấm áp/hoà bình/bình an."
+    },
+    {
+      "id": "zh-chain-guli-lizhi-zhiyuan",
+      "language": "zh",
+      "kind": "chain",
+      "nodes": [
+        { "headword": "鼓励", "reading": "gǔlì", "hanViet": "cổ lệ", "meaningVn": "khuyến khích, cổ vũ", "sharedCharPrev": null, "sharedCharNext": "励" },
+        { "headword": "励志", "reading": "lìzhì", "hanViet": "lệ chí", "meaningVn": "truyền cảm hứng, nuôi chí" , "sharedCharPrev": "励", "sharedCharNext": "志" },
+        { "headword": "志愿", "reading": "zhìyuàn", "hanViet": "chí nguyện", "meaningVn": "tình nguyện, nguyện vọng", "sharedCharPrev": "志", "sharedCharNext": "愿" },
+        { "headword": "愿望", "reading": "yuànwàng", "hanViet": "nguyện vọng", "meaningVn": "nguyện vọng, ước muốn", "sharedCharPrev": "愿", "sharedCharNext": null }
+      ],
+      "note": "Domino 4 mắt xích qua 励→志→愿 (nối dài thêm từ bản 3 mắt xích trước đó, round 26), chủ đề khuyến khích/tình nguyện."
+    },
+    {
+      "id": "zh-chain-jianchi-chixu-xuji",
+      "language": "zh",
+      "kind": "chain",
+      "nodes": [
+        { "headword": "坚持", "reading": "jiānchí", "hanViet": "kiên trì", "meaningVn": "kiên trì, giữ vững", "sharedCharPrev": null, "sharedCharNext": "持" },
+        { "headword": "持续", "reading": "chíxù", "hanViet": "trì tục", "meaningVn": "liên tục, kéo dài", "sharedCharPrev": "持", "sharedCharNext": "续" },
+        { "headword": "续集", "reading": "xùjí", "hanViet": "tục tập", "meaningVn": "phần tiếp theo (phim/truyện)", "sharedCharPrev": "续", "sharedCharNext": "集" },
+        { "headword": "集合", "reading": "jíhé", "hanViet": "tập hợp", "meaningVn": "tập hợp", "sharedCharPrev": "集", "sharedCharNext": "合" },
+        { "headword": "合适", "reading": "héshì", "hanViet": "hợp thích", "meaningVn": "phù hợp, thích hợp", "sharedCharPrev": "合", "sharedCharNext": "适" },
+        { "headword": "适应", "reading": "shìyìng", "hanViet": "thích ứng", "meaningVn": "thích ứng, thích nghi", "sharedCharPrev": "适", "sharedCharNext": "应" },
+        { "headword": "应用", "reading": "yìngyòng", "hanViet": "ứng dụng", "meaningVn": "ứng dụng", "sharedCharPrev": "应", "sharedCharNext": "用" },
+        { "headword": "用途", "reading": "yòngtú", "hanViet": "dụng đồ", "meaningVn": "công dụng, mục đích sử dụng", "sharedCharPrev": "用", "sharedCharNext": null }
+      ],
+      "note": "Domino 8 mắt xích qua 持→续→集→合→适→应→用 (nối dài thêm từ bản 5 mắt xích trước đó, round 28), chủ đề kiên trì/liên tục."
+    },
+    {
+      "id": "zh-chain-huanbao-baohu-huli",
+      "language": "zh",
+      "kind": "chain",
+      "nodes": [
+        { "headword": "环保", "reading": "huánbǎo", "hanViet": "hoàn bảo", "meaningVn": "bảo vệ môi trường (viết tắt của 环境保护)", "sharedCharPrev": null, "sharedCharNext": "保" },
+        { "headword": "保护", "reading": "bǎohù", "hanViet": "bảo hộ", "meaningVn": "bảo vệ", "sharedCharPrev": "保", "sharedCharNext": "护" },
+        { "headword": "护理", "reading": "hùlǐ", "hanViet": "hộ lý", "meaningVn": "chăm sóc, điều dưỡng", "sharedCharPrev": "护", "sharedCharNext": "理" },
+        { "headword": "理事", "reading": "lǐshì", "hanViet": "lý sự", "meaningVn": "uỷ viên hội đồng, giám đốc điều hành", "sharedCharPrev": "理", "sharedCharNext": "事" },
+        { "headword": "事实", "reading": "shìshí", "hanViet": "sự thực", "meaningVn": "sự thật", "sharedCharPrev": "事", "sharedCharNext": "实" },
+        { "headword": "实力", "reading": "shílì", "hanViet": "thực lực", "meaningVn": "thực lực, năng lực" , "sharedCharPrev": "实", "sharedCharNext": "力" },
+        { "headword": "力度", "reading": "lìdù", "hanViet": "lực độ", "meaningVn": "mức độ mạnh yếu, cường độ", "sharedCharPrev": "力", "sharedCharNext": null }
+      ],
+      "note": "Domino 7 mắt xích qua 保→护→理→事→实→力 (nối dài thêm từ bản 6 mắt xích trước đó, round 30), chủ đề bảo vệ môi trường/chăm sóc."
+    },
+    {
+      "id": "zh-chain-ganxie-xieyi-yiyi",
+      "language": "zh",
+      "kind": "chain",
+      "nodes": [
+        { "headword": "感谢", "reading": "gǎnxiè", "hanViet": "cảm tạ", "meaningVn": "cảm ơn", "sharedCharPrev": null, "sharedCharNext": "谢" },
+        { "headword": "谢意", "reading": "xièyì", "hanViet": "tạ ý", "meaningVn": "lòng biết ơn" , "sharedCharPrev": "谢", "sharedCharNext": "意" },
+        { "headword": "意义", "reading": "yìyì", "hanViet": "ý nghĩa", "meaningVn": "ý nghĩa", "sharedCharPrev": "意", "sharedCharNext": "义" },
+        { "headword": "义气", "reading": "yìqi", "hanViet": "nghĩa khí", "meaningVn": "nghĩa khí, trọng tình nghĩa (bạn bè)", "sharedCharPrev": "义", "sharedCharNext": "气" },
+        { "headword": "气魄", "reading": "qìpò", "hanViet": "khí phách", "meaningVn": "khí phách, khí thế" , "sharedCharPrev": "气", "sharedCharNext": "魄" },
+        { "headword": "魄力", "reading": "pòlì", "hanViet": "phách lực", "meaningVn": "khí phách, nghị lực dám nghĩ dám làm", "sharedCharPrev": "魄", "sharedCharNext": null }
+      ],
+      "note": "Domino 6 mắt xích qua 谢→意→义→气→魄 (nối dài thêm round 32), chủ đề cảm ơn/ý nghĩa/khí phách. Mẹo nhớ: 魄 có bộ 鬼(quỷ, phần hồn phách) — 魄力 vốn nghĩa 'phần hồn khí' rồi mở rộng thành nghị lực, sự quyết đoán."
+    },
+    {
+      "id": "zh-chain-canjia-jiaru-ruxue",
+      "language": "zh",
+      "kind": "chain",
+      "nodes": [
+        { "headword": "参加", "reading": "cānjiā", "hanViet": "tham gia", "meaningVn": "tham gia", "sharedCharPrev": null, "sharedCharNext": "加" },
+        { "headword": "加入", "reading": "jiārù", "hanViet": "gia nhập", "meaningVn": "gia nhập, tham gia" , "sharedCharPrev": "加", "sharedCharNext": "入" },
+        { "headword": "入学", "reading": "rùxué", "hanViet": "nhập học", "meaningVn": "nhập học", "sharedCharPrev": "入", "sharedCharNext": "学" },
+        { "headword": "学习", "reading": "xuéxí", "hanViet": "học tập", "meaningVn": "học tập", "sharedCharPrev": "学", "sharedCharNext": "习" },
+        { "headword": "习俗", "reading": "xísú", "hanViet": "tập tục", "meaningVn": "phong tục, tập quán" , "sharedCharPrev": "习", "sharedCharNext": "俗" },
+        { "headword": "俗话", "reading": "súhuà", "hanViet": "tục thoại", "meaningVn": "tục ngữ, cách nói dân gian", "sharedCharPrev": "俗", "sharedCharNext": "话" },
+        { "headword": "话题", "reading": "huàtí", "hanViet": "thoại đề", "meaningVn": "chủ đề (trò chuyện)", "sharedCharPrev": "话", "sharedCharNext": "题" },
+        { "headword": "题材", "reading": "tícái", "hanViet": "đề tài", "meaningVn": "đề tài, chủ đề sáng tác", "sharedCharPrev": "题", "sharedCharNext": "材" },
+        { "headword": "材料", "reading": "cáiliào", "hanViet": "tài liệu", "meaningVn": "nguyên liệu, tài liệu", "sharedCharPrev": "材", "sharedCharNext": null }
+      ],
+      "note": "Domino 9 mắt xích qua 加→入→学→习→俗→话→题→材 (nối dài thêm round 34), chủ đề tham gia/gia nhập/phong tục/chủ đề/nguyên liệu. Mẹo nhớ: 俗 có bộ 亻(người) — phong tục là điều con người quen làm; 话 có bộ 讠(lời nói) — chủ đề để nói chuyện; 题 có bộ 页(đầu/trang) — chỉ đề mục, tiêu đề; 材 có bộ 木(gỗ) — vốn nghĩa gỗ làm nguyên liệu."
+    },
+    {
+      "id": "zh-chain-xingqu-quwei-weijue",
+      "language": "zh",
+      "kind": "chain",
+      "nodes": [
+        { "headword": "兴趣", "reading": "xìngqù", "hanViet": "hứng thú", "meaningVn": "hứng thú, sở thích", "sharedCharPrev": null, "sharedCharNext": "趣" },
+        { "headword": "趣味", "reading": "qùwèi", "hanViet": "thú vị", "meaningVn": "thú vị, sở thích", "sharedCharPrev": "趣", "sharedCharNext": "味" },
+        { "headword": "味觉", "reading": "wèijué", "hanViet": "vị giác", "meaningVn": "vị giác", "sharedCharPrev": "味", "sharedCharNext": "觉" },
+        { "headword": "觉醒", "reading": "juéxǐng", "hanViet": "giác tỉnh", "meaningVn": "tỉnh ngộ, thức tỉnh" , "sharedCharPrev": "觉", "sharedCharNext": "醒" },
+        { "headword": "醒目", "reading": "xǐngmù", "hanViet": "tỉnh mục", "meaningVn": "nổi bật, bắt mắt", "sharedCharPrev": "醒", "sharedCharNext": "目" },
+        { "headword": "目标", "reading": "mùbiāo", "hanViet": "mục tiêu", "meaningVn": "mục tiêu" , "sharedCharPrev": "目", "sharedCharNext": "标" },
+        { "headword": "标准", "reading": "biāozhǔn", "hanViet": "tiêu chuẩn", "meaningVn": "tiêu chuẩn" , "sharedCharPrev": "标", "sharedCharNext": "准" },
+        { "headword": "准则", "reading": "zhǔnzé", "hanViet": "chuẩn tắc", "meaningVn": "nguyên tắc, chuẩn mực", "sharedCharPrev": "准", "sharedCharNext": null }
+      ],
+      "note": "Domino 8 mắt xích qua 趣→味→觉→醒→目→标→准 (nối dài thêm round 36), chủ đề sở thích/vị giác/tỉnh táo/mục tiêu/tiêu chuẩn/nguyên tắc. Mẹo nhớ: 醒目 vốn nghĩa 'đập vào mắt khiến tỉnh ra' → nổi bật, bắt mắt."
+    },
+    {
+      "id": "zh-chain-kuaisu-sudu-duguo",
+      "language": "zh",
+      "kind": "chain",
+      "nodes": [
+        { "headword": "快速", "reading": "kuàisù", "hanViet": "khoái tốc", "meaningVn": "nhanh chóng", "sharedCharPrev": null, "sharedCharNext": "速" },
+        { "headword": "速度", "reading": "sùdù", "hanViet": "tốc độ", "meaningVn": "tốc độ", "sharedCharPrev": "速", "sharedCharNext": "度" },
+        { "headword": "度过", "reading": "dùguò", "hanViet": "độ quá", "meaningVn": "trải qua, vượt qua (thời gian)" , "sharedCharPrev": "度", "sharedCharNext": null }
+      ],
+      "note": "Domino 3 mắt xích qua 速→度. Chuỗi mới round 30, chủ đề tốc độ/thời gian."
+    },
+    {
+      "id": "zh-chain-shenqing-qingqiu-qiuzhi-zhiye",
+      "language": "zh",
+      "kind": "chain",
+      "nodes": [
+        { "headword": "申请", "reading": "shēnqǐng", "hanViet": "thân thỉnh", "meaningVn": "đăng ký, xin phép", "sharedCharPrev": null, "sharedCharNext": "请" },
+        { "headword": "请求", "reading": "qǐngqiú", "hanViet": "thỉnh cầu", "meaningVn": "yêu cầu, thỉnh cầu", "sharedCharPrev": "请", "sharedCharNext": "求" },
+        { "headword": "求职", "reading": "qiúzhí", "hanViet": "cầu chức", "meaningVn": "tìm việc làm", "sharedCharPrev": "求", "sharedCharNext": "职" },
+        { "headword": "职业", "reading": "zhíyè", "hanViet": "chức nghiệp", "meaningVn": "nghề nghiệp", "sharedCharPrev": "职", "sharedCharNext": null }
+      ],
+      "note": "Domino 4 mắt xích qua 请→求→职: đăng ký→yêu cầu→tìm việc→nghề nghiệp. Mẹo nhớ bộ thủ: 请 có bộ 讠(lời nói) = xin bằng lời nói; 求 nghĩa gốc là cầu xin, tìm kiếm; 职 có bộ 耳 (tai) liên hệ đến việc lắng nghe mệnh lệnh, chức trách."
+    },
+    {
+      "id": "zh-chain-chengdan-danxin-xinyuan",
+      "language": "zh",
+      "kind": "chain",
+      "nodes": [
+        { "headword": "承担", "reading": "chéngdān", "hanViet": "thừa đảm", "meaningVn": "đảm nhận, gánh vác", "sharedCharPrev": null, "sharedCharNext": "担" },
+        { "headword": "担心", "reading": "dānxīn", "hanViet": "đảm tâm", "meaningVn": "lo lắng", "sharedCharPrev": "担", "sharedCharNext": "心" },
+        { "headword": "心愿", "reading": "xīnyuàn", "hanViet": "tâm nguyện", "meaningVn": "nguyện vọng", "sharedCharPrev": "心", "sharedCharNext": "愿" },
+        { "headword": "愿意", "reading": "yuànyì", "hanViet": "nguyện ý", "meaningVn": "sẵn lòng, tình nguyện", "sharedCharPrev": "愿", "sharedCharNext": "意" },
+        { "headword": "意见", "reading": "yìjiàn", "hanViet": "ý kiến", "meaningVn": "ý kiến", "sharedCharPrev": "意", "sharedCharNext": "见" },
+        { "headword": "见解", "reading": "jiànjiě", "hanViet": "kiến giải", "meaningVn": "quan điểm, kiến giải", "sharedCharPrev": "见", "sharedCharNext": "解" },
+        { "headword": "解释", "reading": "jiěshì", "hanViet": "giải thích", "meaningVn": "giải thích", "sharedCharPrev": "解", "sharedCharNext": "释" },
+        { "headword": "释义", "reading": "shìyì", "hanViet": "thích nghĩa", "meaningVn": "giải nghĩa", "sharedCharPrev": "释", "sharedCharNext": "义" },
+        { "headword": "义卖", "reading": "yìmài", "hanViet": "nghĩa mại", "meaningVn": "bán hàng gây quỹ từ thiện", "sharedCharPrev": "义", "sharedCharNext": "卖" },
+        { "headword": "卖力", "reading": "màilì", "hanViet": "mại lực", "meaningVn": "ra sức, cố gắng hết mình", "sharedCharPrev": "卖", "sharedCharNext": "力" },
+        { "headword": "力争", "reading": "lìzhēng", "hanViet": "lực tranh", "meaningVn": "ra sức tranh thủ, đấu tranh giành lấy", "sharedCharPrev": "力", "sharedCharNext": "争" },
+        { "headword": "争取", "reading": "zhēngqǔ", "hanViet": "tranh thủ", "meaningVn": "phấn đấu giành lấy", "sharedCharPrev": "争", "sharedCharNext": "取" },
+        { "headword": "取消", "reading": "qǔxiāo", "hanViet": "thủ tiêu", "meaningVn": "hủy bỏ", "sharedCharPrev": "取", "sharedCharNext": "消" },
+        { "headword": "消灭", "reading": "xiāomiè", "hanViet": "tiêu diệt", "meaningVn": "tiêu diệt, làm biến mất", "sharedCharPrev": "消", "sharedCharNext": "灭" },
+        { "headword": "灭绝", "reading": "mièjué", "hanViet": "diệt tuyệt", "meaningVn": "tuyệt chủng, diệt sạch không còn gì", "sharedCharPrev": "灭", "sharedCharNext": "绝" },
+        { "headword": "绝望", "reading": "juéwàng", "hanViet": "tuyệt vọng", "meaningVn": "mất hết hy vọng", "sharedCharPrev": "绝", "sharedCharNext": "望" },
+        { "headword": "望而却步", "reading": "wàngérquèbù", "hanViet": "vọng nhi khước bộ", "meaningVn": "thấy khó mà chùn bước, e ngại không dám làm (thành ngữ)", "sharedCharPrev": "望", "sharedCharNext": "步" },
+        { "headword": "步伐", "reading": "bùfá", "hanViet": "bộ phạt", "meaningVn": "bước đi, nhịp độ tiến triển", "sharedCharPrev": "步", "sharedCharNext": "伐" },
+        { "headword": "伐木", "reading": "fámù", "hanViet": "phạt mộc", "meaningVn": "chặt cây, đốn gỗ", "sharedCharPrev": "伐", "sharedCharNext": "木" },
+        { "headword": "木匠", "reading": "mùjiang", "hanViet": "mộc tượng", "meaningVn": "thợ mộc", "sharedCharPrev": "木", "sharedCharNext": "匠" },
+        { "headword": "匠心", "reading": "jiàngxīn", "hanViet": "tượng tâm", "meaningVn": "sự khéo léo, sáng tạo tinh xảo trong nghề nghiệp", "sharedCharPrev": "匠", "sharedCharNext": "心" },
+        { "headword": "心血", "reading": "xīnxuè", "hanViet": "tâm huyết", "meaningVn": "tâm huyết, công sức bỏ ra" , "sharedCharPrev": "心", "sharedCharNext": "血" },
+        { "headword": "血脉", "reading": "xuèmài", "hanViet": "huyết mạch", "meaningVn": "mạch máu, huyết thống", "sharedCharPrev": "血", "sharedCharNext": "脉" },
+        { "headword": "脉络", "reading": "màiluò", "hanViet": "mạch lạc", "meaningVn": "mạch lạc, đầu mối, hệ thống liên kết", "sharedCharPrev": "脉", "sharedCharNext": "络" },
+        { "headword": "络绎", "reading": "luòyì", "hanViet": "lạc dịch", "meaningVn": "liên tục không dứt (thường dùng trong 络绎不绝)" , "sharedCharPrev": "络", "sharedCharNext": null }
+      ],
+      "note": "Domino 25 mắt xích qua 担→心→愿→意→见→解→义→卖→力→争→取→消→灭→绝→望→步→伐→木→匠→心→血→脉→络 (nối dài thêm round 51): gánh vác→...→tâm huyết→mạch máu→mạch lạc→liên tục không dứt. Mẹo nhớ: 血 tượng hình giọt máu trong bát cúng tế thời cổ; 脉 có bộ 月/肉(thịt) — mạch máu trong cơ thể; 络 có bộ 纟(tơ, sợi) — các sợi đan xen thành mạng lưới, liên kết."
+    },
+    {
+      "id": "zh-chain-kaichuang-chuangye-yeji",
+      "language": "zh",
+      "kind": "chain",
+      "nodes": [
+        { "headword": "开创", "reading": "kāichuàng", "hanViet": "khai sáng", "meaningVn": "mở đầu, sáng lập", "sharedCharPrev": null, "sharedCharNext": "创" },
+        { "headword": "创业", "reading": "chuàngyè", "hanViet": "sáng nghiệp", "meaningVn": "khởi nghiệp, gây dựng sự nghiệp", "sharedCharPrev": "创", "sharedCharNext": "业" },
+        { "headword": "业绩", "reading": "yèjì", "hanViet": "nghiệp tích", "meaningVn": "thành tích công việc" , "sharedCharPrev": "业", "sharedCharNext": "绩" },
+        { "headword": "绩效", "reading": "jìxiào", "hanViet": "tích hiệu", "meaningVn": "hiệu quả công việc", "sharedCharPrev": "绩", "sharedCharNext": "效" },
+        { "headword": "效果", "reading": "xiàoguǒ", "hanViet": "hiệu quả", "meaningVn": "hiệu quả, kết quả", "sharedCharPrev": "效", "sharedCharNext": "果" },
+        { "headword": "果真", "reading": "guǒzhēn", "hanViet": "quả chân", "meaningVn": "quả nhiên, đúng như vậy" , "sharedCharPrev": "果", "sharedCharNext": "真" },
+        { "headword": "真理", "reading": "zhēnlǐ", "hanViet": "chân lý", "meaningVn": "chân lý", "sharedCharPrev": "真", "sharedCharNext": "理" },
+        { "headword": "理念", "reading": "lǐniàn", "hanViet": "lý niệm", "meaningVn": "lý tưởng, quan niệm chỉ đạo" , "sharedCharPrev": "理", "sharedCharNext": "念" },
+        { "headword": "念旧", "reading": "niànjiù", "hanViet": "niệm cựu", "meaningVn": "hoài niệm, luyến tiếc chuyện cũ", "sharedCharPrev": "念", "sharedCharNext": "旧" },
+        { "headword": "旧事", "reading": "jiùshì", "hanViet": "cựu sự", "meaningVn": "chuyện cũ", "sharedCharPrev": "旧", "sharedCharNext": "事" },
+        { "headword": "事情", "reading": "shìqing", "hanViet": "sự tình", "meaningVn": "sự việc" , "sharedCharPrev": "事", "sharedCharNext": "情" },
+        { "headword": "情绪", "reading": "qíngxù", "hanViet": "tình tự", "meaningVn": "cảm xúc, tâm trạng", "sharedCharPrev": "情", "sharedCharNext": "绪" },
+        { "headword": "绪论", "reading": "xùlùn", "hanViet": "tự luận", "meaningVn": "phần mở đầu, dẫn nhập", "sharedCharPrev": "绪", "sharedCharNext": "论" },
+        { "headword": "论述", "reading": "lùnshù", "hanViet": "luận thuật", "meaningVn": "luận thuật, trình bày lập luận" , "sharedCharPrev": "论", "sharedCharNext": "述" },
+        { "headword": "述职", "reading": "shùzhí", "hanViet": "thuật chức", "meaningVn": "báo cáo công tác", "sharedCharPrev": "述", "sharedCharNext": "职" },
+        { "headword": "职务", "reading": "zhíwù", "hanViet": "chức vụ", "meaningVn": "chức vụ", "sharedCharPrev": "职", "sharedCharNext": "务" },
+        { "headword": "务农", "reading": "wùnóng", "hanViet": "vụ nông", "meaningVn": "làm nông" , "sharedCharPrev": "务", "sharedCharNext": "农" },
+        { "headword": "农民", "reading": "nóngmín", "hanViet": "nông dân", "meaningVn": "nông dân", "sharedCharPrev": "农", "sharedCharNext": "民" },
+        { "headword": "民众", "reading": "mínzhòng", "hanViet": "dân chúng", "meaningVn": "dân chúng" , "sharedCharPrev": "民", "sharedCharNext": "众" },
+        { "headword": "众人", "reading": "zhòngrén", "hanViet": "chúng nhân", "meaningVn": "mọi người, đông người", "sharedCharPrev": "众", "sharedCharNext": "人" },
+        { "headword": "人才", "reading": "réncái", "hanViet": "nhân tài", "meaningVn": "nhân tài", "sharedCharPrev": "人", "sharedCharNext": "才" },
+        { "headword": "才智", "reading": "cáizhì", "hanViet": "tài trí", "meaningVn": "tài trí" , "sharedCharPrev": "才", "sharedCharNext": "智" },
+        { "headword": "智能", "reading": "zhìnéng", "hanViet": "trí năng", "meaningVn": "trí thông minh nhân tạo, thông minh", "sharedCharPrev": "智", "sharedCharNext": "能" },
+        { "headword": "能耐", "reading": "néngnài", "hanViet": "năng nại", "meaningVn": "năng lực, khả năng", "sharedCharPrev": "能", "sharedCharNext": "耐" },
+        { "headword": "耐力", "reading": "nàilì", "hanViet": "nại lực", "meaningVn": "sức chịu đựng, độ bền bỉ" , "sharedCharPrev": "耐", "sharedCharNext": "力" },
+        { "headword": "力所能及", "reading": "lìsuǒnéngjí", "hanViet": "lực sở năng cập", "meaningVn": "trong khả năng, sức làm được đến đâu (thành ngữ)", "sharedCharPrev": "力", "sharedCharNext": "及" },
+        { "headword": "及时", "reading": "jíshí", "hanViet": "cập thời", "meaningVn": "kịp thời", "sharedCharPrev": "及", "sharedCharNext": "时" },
+        { "headword": "时光", "reading": "shíguāng", "hanViet": "thời quang", "meaningVn": "thời gian, năm tháng", "sharedCharPrev": "时", "sharedCharNext": "光" },
+        { "headword": "光阴", "reading": "guāngyīn", "hanViet": "quang âm", "meaningVn": "thời gian, năm tháng" , "sharedCharPrev": "光", "sharedCharNext": "阴" },
+        { "headword": "阴谋", "reading": "yīnmóu", "hanViet": "âm mưu", "meaningVn": "âm mưu", "sharedCharPrev": "阴", "sharedCharNext": "谋" },
+        { "headword": "谋划", "reading": "móuhuà", "hanViet": "mưu hoạch", "meaningVn": "lập kế hoạch, mưu tính", "sharedCharPrev": "谋", "sharedCharNext": "划" },
+        { "headword": "划算", "reading": "huásuàn", "hanViet": "hoa toán", "meaningVn": "đáng giá, hời (khi mua bán)", "sharedCharPrev": "划", "sharedCharNext": "算" },
+        { "headword": "算数", "reading": "suànshù", "hanViet": "toán số", "meaningVn": "tính là thật, được công nhận (khẩu ngữ)" , "sharedCharPrev": "算", "sharedCharNext": "数" },
+        { "headword": "数据", "reading": "shùjù", "hanViet": "số cứ", "meaningVn": "dữ liệu, số liệu", "sharedCharPrev": "数", "sharedCharNext": "据" },
+        { "headword": "据说", "reading": "jùshuō", "hanViet": "cứ thuyết", "meaningVn": "nghe nói, theo lời đồn", "sharedCharPrev": "据", "sharedCharNext": "说" },
+        { "headword": "说服", "reading": "shuōfú", "hanViet": "thuyết phục", "meaningVn": "thuyết phục", "sharedCharPrev": "说", "sharedCharNext": "服" },
+        { "headword": "服气", "reading": "fúqì", "hanViet": "phục khí", "meaningVn": "tâm phục, chịu phục" , "sharedCharPrev": "服", "sharedCharNext": "气" },
+        { "headword": "气愤", "reading": "qìfèn", "hanViet": "khí phẫn", "meaningVn": "tức giận, phẫn nộ", "sharedCharPrev": "气", "sharedCharNext": "愤" },
+        { "headword": "愤怒", "reading": "fènnù", "hanViet": "phẫn nộ", "meaningVn": "phẫn nộ, tức giận" , "sharedCharPrev": "愤", "sharedCharNext": "怒" },
+        { "headword": "怒火", "reading": "nùhuǒ", "hanViet": "nộ hỏa", "meaningVn": "lửa giận, cơn giận dữ", "sharedCharPrev": "怒", "sharedCharNext": "火" },
+        { "headword": "火焰", "reading": "huǒyàn", "hanViet": "hỏa diễm", "meaningVn": "ngọn lửa", "sharedCharPrev": "火", "sharedCharNext": "焰" },
+        { "headword": "焰火", "reading": "yànhuǒ", "hanViet": "diễm hỏa", "meaningVn": "pháo hoa" , "sharedCharPrev": "焰", "sharedCharNext": "火" },
+        { "headword": "火车", "reading": "huǒchē", "hanViet": "hỏa xa", "meaningVn": "xe lửa, tàu hỏa", "sharedCharPrev": "火", "sharedCharNext": "车" },
+        { "headword": "车站", "reading": "chēzhàn", "hanViet": "xa trạm", "meaningVn": "nhà ga, bến xe", "sharedCharPrev": "车", "sharedCharNext": "站" },
+        { "headword": "站立", "reading": "zhànlì", "hanViet": "trạm lập", "meaningVn": "đứng thẳng", "sharedCharPrev": "站", "sharedCharNext": "立" },
+        { "headword": "立即", "reading": "lìjí", "hanViet": "lập tức", "meaningVn": "ngay lập tức" , "sharedCharPrev": "立", "sharedCharNext": "即" },
+        { "headword": "即使", "reading": "jíshǐ", "hanViet": "tức sử", "meaningVn": "dù cho, cho dù", "sharedCharPrev": "即", "sharedCharNext": "使" },
+        { "headword": "使命", "reading": "shǐmìng", "hanViet": "sứ mệnh", "meaningVn": "sứ mệnh", "sharedCharPrev": "使", "sharedCharNext": "命" },
+        { "headword": "命名", "reading": "mìngmíng", "hanViet": "mệnh danh", "meaningVn": "đặt tên, mệnh danh", "sharedCharPrev": "命", "sharedCharNext": "名" },
+        { "headword": "名字", "reading": "míngzi", "hanViet": "danh tự", "meaningVn": "tên gọi" , "sharedCharPrev": "名", "sharedCharNext": "字" },
+        { "headword": "字幕", "reading": "zìmù", "hanViet": "tự mạc", "meaningVn": "phụ đề (trên phim/video)", "sharedCharPrev": "字", "sharedCharNext": "幕" },
+        { "headword": "幕后", "reading": "mùhòu", "hanViet": "mạc hậu", "meaningVn": "phía sau hậu trường, đằng sau", "sharedCharPrev": "幕", "sharedCharNext": "后" },
+        { "headword": "后悔", "reading": "hòuhuǐ", "hanViet": "hậu hối", "meaningVn": "hối hận", "sharedCharPrev": "后", "sharedCharNext": "悔" },
+        { "headword": "悔改", "reading": "huǐgǎi", "hanViet": "hối cải", "meaningVn": "hối lỗi và sửa đổi", "sharedCharPrev": "悔", "sharedCharNext": "改" },
+        { "headword": "改进", "reading": "gǎijìn", "hanViet": "cải tiến", "meaningVn": "cải tiến, cải thiện", "sharedCharPrev": "改", "sharedCharNext": "进" },
+        { "headword": "进展", "reading": "jìnzhǎn", "hanViet": "tiến triển", "meaningVn": "tiến triển", "sharedCharPrev": "进", "sharedCharNext": "展" },
+        { "headword": "展开", "reading": "zhǎnkāi", "hanViet": "triển khai", "meaningVn": "triển khai, mở rộng ra", "sharedCharPrev": "展", "sharedCharNext": "开" },
+        { "headword": "开学", "reading": "kāixué", "hanViet": "khai học", "meaningVn": "khai giảng, bắt đầu năm học", "sharedCharPrev": "开", "sharedCharNext": "学" },
+        { "headword": "学术", "reading": "xuéshù", "hanViet": "học thuật", "meaningVn": "học thuật", "sharedCharPrev": "学", "sharedCharNext": "术" },
+        { "headword": "术士", "reading": "shùshì", "hanViet": "thuật sĩ", "meaningVn": "người luyện thuật số/pháp thuật (từ cổ)", "sharedCharPrev": "术", "sharedCharNext": "士" },
+        { "headword": "士气", "reading": "shìqì", "hanViet": "sĩ khí", "meaningVn": "sĩ khí, tinh thần chiến đấu", "sharedCharPrev": "士", "sharedCharNext": "气" },
+        { "headword": "气球", "reading": "qìqiú", "hanViet": "khí cầu", "meaningVn": "khí cầu, bóng bay", "sharedCharPrev": "气", "sharedCharNext": "球" },
+        { "headword": "球队", "reading": "qiúduì", "hanViet": "cầu đội", "meaningVn": "đội bóng", "sharedCharPrev": "球", "sharedCharNext": "队" },
+        { "headword": "队长", "reading": "duìzhǎng", "hanViet": "đội trưởng", "meaningVn": "đội trưởng", "sharedCharPrev": "队", "sharedCharNext": "长" },
+        { "headword": "长辈", "reading": "zhǎngbèi", "hanViet": "trưởng bối", "meaningVn": "bậc trưởng bối, người lớn tuổi hơn trong gia đình", "sharedCharPrev": "长", "sharedCharNext": "辈" },
+        { "headword": "辈分", "reading": "bèifèn", "hanViet": "bối phận", "meaningVn": "thứ bậc trong gia đình/dòng họ theo thế hệ", "sharedCharPrev": "辈", "sharedCharNext": "分" },
+        { "headword": "分明", "reading": "fēnmíng", "hanViet": "phân minh", "meaningVn": "rõ ràng, minh bạch", "sharedCharPrev": "分", "sharedCharNext": "明" },
+        { "headword": "明确", "reading": "míngquè", "hanViet": "minh xác", "meaningVn": "rõ ràng, xác định cụ thể", "sharedCharPrev": "明", "sharedCharNext": "确" },
+        { "headword": "确定", "reading": "quèdìng", "hanViet": "xác định", "meaningVn": "xác định, khẳng định chắc chắn", "sharedCharPrev": "确", "sharedCharNext": "定" },
+        { "headword": "定型", "reading": "dìngxíng", "hanViet": "định hình", "meaningVn": "định hình, ổn định thành khuôn mẫu cố định", "sharedCharPrev": "定", "sharedCharNext": "型" },
+        { "headword": "型号", "reading": "xínghào", "hanViet": "hình hiệu", "meaningVn": "kiểu, mẫu mã (sản phẩm)", "sharedCharPrev": "型", "sharedCharNext": "号" },
+        { "headword": "号召", "reading": "hàozhào", "hanViet": "hiệu triệu", "meaningVn": "kêu gọi, hiệu triệu", "sharedCharPrev": "号", "sharedCharNext": "召" },
+        { "headword": "召集", "reading": "zhàojí", "hanViet": "triệu tập", "meaningVn": "triệu tập, tập hợp lại", "sharedCharPrev": "召", "sharedCharNext": "集" },
+        { "headword": "集市", "reading": "jíshì", "hanViet": "tập thị", "meaningVn": "chợ phiên, nơi họp chợ", "sharedCharPrev": "集", "sharedCharNext": "市" },
+        { "headword": "市民", "reading": "shìmín", "hanViet": "thị dân", "meaningVn": "thị dân, người dân thành phố", "sharedCharPrev": "市", "sharedCharNext": "民" },
+        { "headword": "民族", "reading": "mínzú", "hanViet": "dân tộc", "meaningVn": "dân tộc", "sharedCharPrev": "民", "sharedCharNext": "族" },
+        { "headword": "族群", "reading": "zúqún", "hanViet": "tộc quần", "meaningVn": "cộng đồng dân tộc, nhóm tộc người", "sharedCharPrev": "族", "sharedCharNext": "群" },
+        { "headword": "群众", "reading": "qúnzhòng", "hanViet": "quần chúng", "meaningVn": "quần chúng, đông đảo người dân", "sharedCharPrev": "群", "sharedCharNext": "众" },
+        { "headword": "众口", "reading": "zhòngkǒu", "hanViet": "chúng khẩu", "meaningVn": "miệng lưỡi đông người (như trong 众口难调)", "sharedCharPrev": "众", "sharedCharNext": "口" },
+        { "headword": "口角", "reading": "kǒujiǎo", "hanViet": "khẩu giác", "meaningVn": "cãi vã, xích mích nhỏ", "sharedCharPrev": "口", "sharedCharNext": "角" },
+        { "headword": "角度", "reading": "jiǎodù", "hanViet": "giác độ", "meaningVn": "góc độ, khía cạnh nhìn nhận", "sharedCharPrev": "角", "sharedCharNext": "度" },
+        { "headword": "度量", "reading": "dùliàng", "hanViet": "độ lượng", "meaningVn": "độ lượng, khoan dung (cũng nghĩa đo lường)", "sharedCharPrev": "度", "sharedCharNext": "量" },
+        { "headword": "量力", "reading": "liànglì", "hanViet": "lượng lực", "meaningVn": "liệu sức, ước lượng khả năng của mình", "sharedCharPrev": "量", "sharedCharNext": "力" },
+        { "headword": "力求", "reading": "lìqiú", "hanViet": "lực cầu", "meaningVn": "cố gắng hết sức để đạt được", "sharedCharPrev": "力", "sharedCharNext": "求" },
+        { "headword": "求助", "reading": "qiúzhù", "hanViet": "cầu trợ", "meaningVn": "cầu xin giúp đỡ", "sharedCharPrev": "求", "sharedCharNext": "助" },
+        { "headword": "助手", "reading": "zhùshǒu", "hanViet": "trợ thủ", "meaningVn": "trợ lý, người giúp việc", "sharedCharPrev": "助", "sharedCharNext": "手" },
+        { "headword": "手艺", "reading": "shǒuyì", "hanViet": "thủ nghệ", "meaningVn": "tay nghề, kỹ năng thủ công", "sharedCharPrev": "手", "sharedCharNext": "艺" },
+        { "headword": "艺人", "reading": "yìrén", "hanViet": "nghệ nhân", "meaningVn": "nghệ nhân, người biểu diễn nghệ thuật", "sharedCharPrev": "艺", "sharedCharNext": "人" },
+        { "headword": "人物", "reading": "rénwù", "hanViet": "nhân vật", "meaningVn": "nhân vật", "sharedCharPrev": "人", "sharedCharNext": "物" },
+        { "headword": "物品", "reading": "wùpǐn", "hanViet": "vật phẩm", "meaningVn": "vật phẩm, đồ vật", "sharedCharPrev": "物", "sharedCharNext": "品" },
+        { "headword": "品格", "reading": "pǐngé", "hanViet": "phẩm cách", "meaningVn": "phẩm cách, tư cách đạo đức", "sharedCharPrev": "品", "sharedCharNext": "格" },
+        { "headword": "格外", "reading": "géwài", "hanViet": "cách ngoại", "meaningVn": "đặc biệt, khác thường", "sharedCharPrev": "格", "sharedCharNext": "外" },
+        { "headword": "外形", "reading": "wàixíng", "hanViet": "ngoại hình", "meaningVn": "ngoại hình, hình dáng bên ngoài", "sharedCharPrev": "外", "sharedCharNext": "形" },
+        { "headword": "形式", "reading": "xíngshì", "hanViet": "hình thức", "meaningVn": "hình thức", "sharedCharPrev": "形", "sharedCharNext": "式" },
+        { "headword": "式样", "reading": "shìyàng", "hanViet": "thức dạng", "meaningVn": "kiểu dáng, mẫu mã", "sharedCharPrev": "式", "sharedCharNext": "样" },
+        { "headword": "样品", "reading": "yàngpǐn", "hanViet": "dạng phẩm", "meaningVn": "hàng mẫu, sản phẩm mẫu", "sharedCharPrev": "样", "sharedCharNext": "品" },
+        { "headword": "品行", "reading": "pǐnxíng", "hanViet": "phẩm hạnh", "meaningVn": "phẩm hạnh, đạo đức và hành vi", "sharedCharPrev": "品", "sharedCharNext": "行" },
+        { "headword": "行程", "reading": "xíngchéng", "hanViet": "hành trình", "meaningVn": "hành trình, lộ trình", "sharedCharPrev": "行", "sharedCharNext": "程" },
+        { "headword": "程序", "reading": "chéngxù", "hanViet": "trình tự", "meaningVn": "trình tự, thủ tục (cũng nghĩa chương trình máy tính)", "sharedCharPrev": "程", "sharedCharNext": "序" },
+        { "headword": "序幕", "reading": "xùmù", "hanViet": "tự mạc", "meaningVn": "màn mở đầu, khúc dạo đầu (vở kịch)", "sharedCharPrev": "序", "sharedCharNext": "幕" },
+        { "headword": "幕布", "reading": "mùbù", "hanViet": "mạc bố", "meaningVn": "màn chiếu, phông màn", "sharedCharPrev": "幕", "sharedCharNext": "布" },
+        { "headword": "布置", "reading": "bùzhì", "hanViet": "bố trí", "meaningVn": "bố trí, sắp xếp", "sharedCharPrev": "布", "sharedCharNext": "置" },
+        { "headword": "置身", "reading": "zhìshēn", "hanViet": "trí thân", "meaningVn": "đặt mình vào, ở vào hoàn cảnh nào đó", "sharedCharPrev": "置", "sharedCharNext": "身" },
+        { "headword": "身体", "reading": "shēntǐ", "hanViet": "thân thể", "meaningVn": "thân thể, cơ thể", "sharedCharPrev": "身", "sharedCharNext": "体" },
+        { "headword": "体验", "reading": "tǐyàn", "hanViet": "thể nghiệm", "meaningVn": "trải nghiệm", "sharedCharPrev": "体", "sharedCharNext": "验" },
+        { "headword": "验证", "reading": "yànzhèng", "hanViet": "nghiệm chứng", "meaningVn": "kiểm chứng, xác minh", "sharedCharPrev": "验", "sharedCharNext": "证" },
+        { "headword": "证据", "reading": "zhèngjù", "hanViet": "chứng cứ", "meaningVn": "chứng cứ, bằng chứng", "sharedCharPrev": "证", "sharedCharNext": "据" },
+        { "headword": "据点", "reading": "jùdiǎn", "hanViet": "cứ điểm", "meaningVn": "cứ điểm, căn cứ", "sharedCharPrev": "据", "sharedCharNext": "点" },
+        { "headword": "点头", "reading": "diǎntóu", "hanViet": "điểm đầu", "meaningVn": "gật đầu", "sharedCharPrev": "点", "sharedCharNext": "头" },
+        { "headword": "头脑", "reading": "tóunǎo", "hanViet": "đầu não", "meaningVn": "đầu óc, trí não", "sharedCharPrev": "头", "sharedCharNext": "脑" },
+        { "headword": "脑海", "reading": "nǎohǎi", "hanViet": "não hải", "meaningVn": "trong đầu, trong tâm trí", "sharedCharPrev": "脑", "sharedCharNext": "海" },
+        { "headword": "海边", "reading": "hǎibiān", "hanViet": "hải biên", "meaningVn": "bờ biển", "sharedCharPrev": "海", "sharedCharNext": "边" },
+        { "headword": "边界", "reading": "biānjiè", "hanViet": "biên giới", "meaningVn": "biên giới, ranh giới", "sharedCharPrev": "边", "sharedCharNext": "界" },
+        { "headword": "界线", "reading": "jièxiàn", "hanViet": "giới tuyến", "meaningVn": "ranh giới, đường ranh", "sharedCharPrev": "界", "sharedCharNext": "线" },
+        { "headword": "线索", "reading": "xiànsuǒ", "hanViet": "tuyến sách", "meaningVn": "đầu mối, manh mối", "sharedCharPrev": "线", "sharedCharNext": "索" },
+        { "headword": "索性", "reading": "suǒxìng", "hanViet": "sách tính", "meaningVn": "dứt khoát, thẳng luôn", "sharedCharPrev": "索", "sharedCharNext": "性" },
+        { "headword": "性质", "reading": "xìngzhì", "hanViet": "tính chất", "meaningVn": "tính chất", "sharedCharPrev": "性", "sharedCharNext": "质" },
+        { "headword": "质地", "reading": "zhìdì", "hanViet": "chất địa", "meaningVn": "chất liệu, chất lượng (vải vóc, đồ vật)", "sharedCharPrev": "质", "sharedCharNext": "地" },
+        { "headword": "地位", "reading": "dìwèi", "hanViet": "địa vị", "meaningVn": "địa vị, vị trí trong xã hội", "sharedCharPrev": "地", "sharedCharNext": "位" },
+        { "headword": "位置", "reading": "wèizhì", "hanViet": "vị trí", "meaningVn": "vị trí", "sharedCharPrev": "位", "sharedCharNext": "置" },
+        { "headword": "置换", "reading": "zhìhuàn", "hanViet": "trí hoán", "meaningVn": "thay thế, hoán đổi vị trí", "sharedCharPrev": "置", "sharedCharNext": "换" },
+        { "headword": "换取", "reading": "huànqǔ", "hanViet": "hoán thủ", "meaningVn": "đổi lấy", "sharedCharPrev": "换", "sharedCharNext": "取" },
+        { "headword": "取代", "reading": "qǔdài", "hanViet": "thủ đại", "meaningVn": "thay thế, thế chỗ", "sharedCharPrev": "取", "sharedCharNext": "代" },
+        { "headword": "代替", "reading": "dàitì", "hanViet": "đại thế", "meaningVn": "thay thế", "sharedCharPrev": "代", "sharedCharNext": "替" },
+        { "headword": "替身", "reading": "tìshēn", "hanViet": "thế thân", "meaningVn": "người đóng thế, vật thế thân", "sharedCharPrev": "替", "sharedCharNext": "身" },
+        { "headword": "身影", "reading": "shēnyǐng", "hanViet": "thân ảnh", "meaningVn": "bóng dáng, hình bóng", "sharedCharPrev": "身", "sharedCharNext": "影" },
+        { "headword": "影子", "reading": "yǐngzi", "hanViet": "ảnh tử", "meaningVn": "cái bóng", "sharedCharPrev": "影", "sharedCharNext": "子" },
+        { "headword": "子弟", "reading": "zǐdì", "hanViet": "tử đệ", "meaningVn": "con em, thế hệ trẻ trong gia đình/dòng họ", "sharedCharPrev": "子", "sharedCharNext": "弟" },
+        { "headword": "弟兄", "reading": "dìxiōng", "hanViet": "đệ huynh", "meaningVn": "anh em (cách gọi thân mật)", "sharedCharPrev": "弟", "sharedCharNext": "兄" },
+        { "headword": "兄弟", "reading": "xiōngdì", "hanViet": "huynh đệ", "meaningVn": "anh em", "sharedCharPrev": "兄", "sharedCharNext": "弟" },
+        { "headword": "弟妹", "reading": "dìmèi", "hanViet": "đệ muội", "meaningVn": "em trai và em gái", "sharedCharPrev": "弟", "sharedCharNext": "妹" },
+        { "headword": "妹夫", "reading": "mèifu", "hanViet": "muội phu", "meaningVn": "em rể (chồng của em gái)", "sharedCharPrev": "妹", "sharedCharNext": "夫" },
+        { "headword": "夫人", "reading": "fūrén", "hanViet": "phu nhân", "meaningVn": "phu nhân, cách gọi lịch sự vợ người khác", "sharedCharPrev": "夫", "sharedCharNext": "人" },
+        { "headword": "人情", "reading": "rénqíng", "hanViet": "nhân tình", "meaningVn": "tình người, tình cảm giữa người với người", "sharedCharPrev": "人", "sharedCharNext": "情" },
+        { "headword": "情节", "reading": "qíngjié", "hanViet": "tình tiết", "meaningVn": "tình tiết, diễn biến (câu chuyện, vụ việc)", "sharedCharPrev": "情", "sharedCharNext": "节" },
+        { "headword": "节奏", "reading": "jiézòu", "hanViet": "tiết tấu", "meaningVn": "tiết tấu, nhịp điệu", "sharedCharPrev": "节", "sharedCharNext": "奏" },
+        { "headword": "奏效", "reading": "zòuxiào", "hanViet": "tấu hiệu", "meaningVn": "có hiệu quả, phát huy tác dụng", "sharedCharPrev": "奏", "sharedCharNext": "效" },
+        { "headword": "效益", "reading": "xiàoyì", "hanViet": "hiệu ích", "meaningVn": "hiệu quả và lợi ích (kinh tế)", "sharedCharPrev": "效", "sharedCharNext": "益" },
+        { "headword": "益处", "reading": "yìchù", "hanViet": "ích xứ", "meaningVn": "ích lợi, điều có lợi", "sharedCharPrev": "益", "sharedCharNext": "处" },
+        { "headword": "处境", "reading": "chǔjìng", "hanViet": "xử cảnh", "meaningVn": "hoàn cảnh, tình cảnh đang ở trong", "sharedCharPrev": "处", "sharedCharNext": "境" },
+        { "headword": "境地", "reading": "jìngdì", "hanViet": "cảnh địa", "meaningVn": "cảnh ngộ, tình thế", "sharedCharPrev": "境", "sharedCharNext": "地" },
+        { "headword": "地道", "reading": "dìdào", "hanViet": "địa đạo", "meaningVn": "đúng chất, chính gốc, thuần túy (khẩu ngữ)", "sharedCharPrev": "地", "sharedCharNext": "道" },
+        { "headword": "道路", "reading": "dàolù", "hanViet": "đạo lộ", "meaningVn": "con đường", "sharedCharPrev": "道", "sharedCharNext": "路" },
+        { "headword": "路线", "reading": "lùxiàn", "hanViet": "lộ tuyến", "meaningVn": "tuyến đường, lộ trình, đường lối", "sharedCharPrev": "路", "sharedCharNext": "线" },
+        { "headword": "线条", "reading": "xiàntiáo", "hanViet": "tuyến điều", "meaningVn": "đường nét", "sharedCharPrev": "线", "sharedCharNext": "条" },
+        { "headword": "条理", "reading": "tiáolǐ", "hanViet": "điều lý", "meaningVn": "có thứ tự, mạch lạc, ngăn nắp", "sharedCharPrev": "条", "sharedCharNext": "理" },
+        { "headword": "理会", "reading": "lǐhuì", "hanViet": "lý hội", "meaningVn": "để ý, đoái hoài, hiểu ra", "sharedCharPrev": "理", "sharedCharNext": "会" },
+        { "headword": "会员", "reading": "huìyuán", "hanViet": "hội viên", "meaningVn": "hội viên, thành viên", "sharedCharPrev": "会", "sharedCharNext": "员" },
+        { "headword": "员额", "reading": "yuán'é", "hanViet": "viên ngạch", "meaningVn": "biên chế, số lượng nhân viên quy định", "sharedCharPrev": "员", "sharedCharNext": "额" },
+        { "headword": "额外", "reading": "éwài", "hanViet": "ngạch ngoại", "meaningVn": "thêm vào, ngoài quy định", "sharedCharPrev": "额", "sharedCharNext": "外" },
+        { "headword": "外界", "reading": "wàijiè", "hanViet": "ngoại giới", "meaningVn": "thế giới bên ngoài", "sharedCharPrev": "外", "sharedCharNext": "界" },
+        { "headword": "界定", "reading": "jièdìng", "hanViet": "giới định", "meaningVn": "xác định ranh giới, định rõ phạm vi", "sharedCharPrev": "界", "sharedCharNext": "定" },
+        { "headword": "定律", "reading": "dìnglǜ", "hanViet": "định luật", "meaningVn": "định luật", "sharedCharPrev": "定", "sharedCharNext": "律" },
+        { "headword": "律动", "reading": "lǜdòng", "hanViet": "luật động", "meaningVn": "nhịp điệu chuyển động, nhịp đập đều đặn", "sharedCharPrev": "律", "sharedCharNext": "动" },
+        { "headword": "动机", "reading": "dòngjī", "hanViet": "động cơ", "meaningVn": "động cơ, mục đích thúc đẩy hành động", "sharedCharPrev": "动", "sharedCharNext": "机" },
+        { "headword": "机构", "reading": "jīgòu", "hanViet": "cơ cấu", "meaningVn": "cơ cấu, cơ quan, tổ chức", "sharedCharPrev": "机", "sharedCharNext": "构" },
+        { "headword": "构思", "reading": "gòusī", "hanViet": "cấu tứ", "meaningVn": "cấu tứ, suy nghĩ dàn dựng (ý tưởng, tác phẩm)", "sharedCharPrev": "构", "sharedCharNext": "思" },
+        { "headword": "思想", "reading": "sīxiǎng", "hanViet": "tư tưởng", "meaningVn": "tư tưởng", "sharedCharPrev": "思", "sharedCharNext": "想" },
+        { "headword": "想象", "reading": "xiǎngxiàng", "hanViet": "tưởng tượng", "meaningVn": "tưởng tượng", "sharedCharPrev": "想", "sharedCharNext": "象" },
+        { "headword": "象棋", "reading": "xiàngqí", "hanViet": "tượng kỳ", "meaningVn": "cờ tướng", "sharedCharPrev": "象", "sharedCharNext": "棋" },
+        { "headword": "棋局", "reading": "qíjú", "hanViet": "kỳ cục", "meaningVn": "ván cờ, cục diện ván cờ", "sharedCharPrev": "棋", "sharedCharNext": "局" },
+        { "headword": "局面", "reading": "júmiàn", "hanViet": "cục diện", "meaningVn": "cục diện, tình hình", "sharedCharPrev": "局", "sharedCharNext": "面" },
+        { "headword": "面临", "reading": "miànlín", "hanViet": "diện lâm", "meaningVn": "đối mặt, đứng trước (khó khăn, thử thách)", "sharedCharPrev": "面", "sharedCharNext": "临" },
+        { "headword": "临近", "reading": "línjìn", "hanViet": "lâm cận", "meaningVn": "gần kề, cận kề (thời gian, không gian)", "sharedCharPrev": "临", "sharedCharNext": "近" },
+        { "headword": "近代", "reading": "jìndài", "hanViet": "cận đại", "meaningVn": "cận đại (thời kỳ lịch sử)", "sharedCharPrev": "近", "sharedCharNext": "代" },
+        { "headword": "代价", "reading": "dàijià", "hanViet": "đại giá", "meaningVn": "cái giá phải trả", "sharedCharPrev": "代", "sharedCharNext": "价" },
+        { "headword": "价格", "reading": "jiàgé", "hanViet": "giá cách", "meaningVn": "giá cả", "sharedCharPrev": "价", "sharedCharNext": "格" },
+        { "headword": "格言", "reading": "géyán", "hanViet": "cách ngôn", "meaningVn": "câu châm ngôn, cách ngôn", "sharedCharPrev": "格", "sharedCharNext": "言" },
+        { "headword": "言行", "reading": "yánxíng", "hanViet": "ngôn hành", "meaningVn": "lời nói và hành động", "sharedCharPrev": "言", "sharedCharNext": "行" },
+        { "headword": "行业", "reading": "hángyè", "hanViet": "hàng nghiệp", "meaningVn": "ngành nghề. LƯU Ý ĐA ÂM: 行 đọc \"háng\" (ngành) ở đây, khác với \"xíng\" (đi, hành động) trong 言行 ở mắt xích trước — cùng 1 chữ Hán nhưng 2 âm đọc khác nhau tùy nghĩa.", "sharedCharPrev": "行", "sharedCharNext": "业" },
+        { "headword": "业余", "reading": "yèyú", "hanViet": "nghiệp dư", "meaningVn": "nghiệp dư, ngoài giờ làm việc chính", "sharedCharPrev": "业", "sharedCharNext": "余" },
+        { "headword": "余地", "reading": "yúdì", "hanViet": "dư địa", "meaningVn": "khoảng trống, dư địa để xoay xở", "sharedCharPrev": "余", "sharedCharNext": "地" },
+        { "headword": "地震", "reading": "dìzhèn", "hanViet": "địa chấn", "meaningVn": "động đất", "sharedCharPrev": "地", "sharedCharNext": "震" },
+        { "headword": "震撼", "reading": "zhènhàn", "hanViet": "chấn hám", "meaningVn": "chấn động, rung chuyển mạnh (cảm xúc/vật lý)", "sharedCharPrev": "震", "sharedCharNext": "撼" },
+        { "headword": "撼动", "reading": "hàndòng", "hanViet": "hám động", "meaningVn": "làm lay chuyển, làm rung chuyển", "sharedCharPrev": "撼", "sharedCharNext": "动" },
+        { "headword": "动摇", "reading": "dòngyáo", "hanViet": "động dao", "meaningVn": "lay động, dao động (ý chí, lập trường)", "sharedCharPrev": "动", "sharedCharNext": "摇" },
+        { "headword": "摇摆", "reading": "yáobǎi", "hanViet": "dao bãi", "meaningVn": "lắc lư, đung đưa, dao động", "sharedCharPrev": "摇", "sharedCharNext": "摆" },
+        { "headword": "摆脱", "reading": "bǎituō", "hanViet": "bãi thoát", "meaningVn": "thoát khỏi, gạt bỏ (khó khăn, ràng buộc)", "sharedCharPrev": "摆", "sharedCharNext": "脱" },
+        { "headword": "脱离", "reading": "tuōlí", "hanViet": "thoát ly", "meaningVn": "thoát ly, tách rời khỏi", "sharedCharPrev": "脱", "sharedCharNext": "离" },
+        { "headword": "离开", "reading": "líkāi", "hanViet": "ly khai", "meaningVn": "rời khỏi, rời đi", "sharedCharPrev": "离", "sharedCharNext": "开" },
+        { "headword": "开支", "reading": "kāizhī", "hanViet": "khai chi", "meaningVn": "chi tiêu, khoản chi", "sharedCharPrev": "开", "sharedCharNext": "支" },
+        { "headword": "支付", "reading": "zhīfù", "hanViet": "chi phó", "meaningVn": "chi trả, thanh toán", "sharedCharPrev": "支", "sharedCharNext": "付" },
+        { "headword": "付出", "reading": "fùchū", "hanViet": "phó xuất", "meaningVn": "bỏ ra, trả giá (công sức, tiền của)", "sharedCharPrev": "付", "sharedCharNext": "出" },
+        { "headword": "出版", "reading": "chūbǎn", "hanViet": "xuất bản", "meaningVn": "xuất bản", "sharedCharPrev": "出", "sharedCharNext": "版" },
+        { "headword": "版本", "reading": "bǎnběn", "hanViet": "bản bản", "meaningVn": "phiên bản (LƯU Ý: 版 và 本 tình cờ đều đọc Hán Việt là \"bản\" dù khác chữ Hán và khác âm Hán ngữ bǎn/běn)", "sharedCharPrev": "版", "sharedCharNext": "本" },
+        { "headword": "本能", "reading": "běnnéng", "hanViet": "bản năng", "meaningVn": "bản năng", "sharedCharPrev": "本", "sharedCharNext": "能" },
+        { "headword": "能量", "reading": "néngliàng", "hanViet": "năng lượng", "meaningVn": "năng lượng", "sharedCharPrev": "能", "sharedCharNext": "量" },
+        { "headword": "量变", "reading": "liàngbiàn", "hanViet": "lượng biến", "meaningVn": "biến đổi về lượng (thuật ngữ triết học, đối lập 质变)", "sharedCharPrev": "量", "sharedCharNext": "变" },
+        { "headword": "变迁", "reading": "biànqiān", "hanViet": "biến thiên", "meaningVn": "biến thiên, thay đổi theo thời gian", "sharedCharPrev": "变", "sharedCharNext": "迁" },
+        { "headword": "迁移", "reading": "qiānyí", "hanViet": "thiên di", "meaningVn": "di dời, di chuyển", "sharedCharPrev": "迁", "sharedCharNext": "移" },
+        { "headword": "移民", "reading": "yímín", "hanViet": "di dân", "meaningVn": "di dân, người nhập cư", "sharedCharPrev": "移", "sharedCharNext": "民" },
+        { "headword": "民生", "reading": "mínshēng", "hanViet": "dân sinh", "meaningVn": "đời sống nhân dân, dân sinh", "sharedCharPrev": "民", "sharedCharNext": "生" },
+        { "headword": "生病", "reading": "shēngbìng", "hanViet": "sinh bệnh", "meaningVn": "bị bệnh, ốm", "sharedCharPrev": "生", "sharedCharNext": "病" },
+        { "headword": "病情", "reading": "bìngqíng", "hanViet": "bệnh tình", "meaningVn": "tình trạng bệnh", "sharedCharPrev": "病", "sharedCharNext": "情" },
+        { "headword": "情报", "reading": "qíngbào", "hanViet": "tình báo", "meaningVn": "tình báo, thông tin tình báo", "sharedCharPrev": "情", "sharedCharNext": "报" },
+        { "headword": "报告", "reading": "bàogào", "hanViet": "báo cáo", "meaningVn": "báo cáo", "sharedCharPrev": "报", "sharedCharNext": "告" },
+        { "headword": "告别", "reading": "gàobié", "hanViet": "cáo biệt", "meaningVn": "từ biệt, tạm biệt", "sharedCharPrev": "告", "sharedCharNext": "别" },
+        { "headword": "别致", "reading": "biézhì", "hanViet": "biệt trí", "meaningVn": "độc đáo, khác lạ (kiểu dáng)", "sharedCharPrev": "别", "sharedCharNext": "致" },
+        { "headword": "致力", "reading": "zhìlì", "hanViet": "trí lực", "meaningVn": "dốc sức, nỗ lực vào việc gì", "sharedCharPrev": "致", "sharedCharNext": "力" },
+        { "headword": "力学", "reading": "lìxué", "hanViet": "lực học", "meaningVn": "cơ học (ngành vật lý)", "sharedCharPrev": "力", "sharedCharNext": "学" },
+        { "headword": "学位", "reading": "xuéwèi", "hanViet": "học vị", "meaningVn": "học vị, bằng cấp", "sharedCharPrev": "学", "sharedCharNext": "位" },
+        { "headword": "位于", "reading": "wèiyú", "hanViet": "vị ư", "meaningVn": "nằm ở, tọa lạc tại", "sharedCharPrev": "位", "sharedCharNext": null }
+      ],
+      "note": "Domino 50 mắt xích qua 创→业→绩→效→果→真→理→念→旧→事→情→绪→论→述→职→务→农→民→众→人→才→智→能→耐→力→及→时→光→阴→谋→划→算→数→据→说→服→气→愤→怒→火→焰→火→车→站→立→即→使→命→名 (nối dài thêm round 67): mở đầu sáng lập→...→đứng thẳng→ngay lập tức→dù cho→sứ mệnh→đặt tên→tên gọi. Mẹo nhớ: 即 tượng hình người quỳ trước mâm cơm — tiến đến gần, ngay lập tức; 使 có bộ 亻(người) — sai khiến, sứ mệnh; 命 có bộ 口(miệng) — mệnh lệnh, cũng là tên gọi định sẵn. Nối dài round 68 (→65 mắt xích): tên gọi→phụ đề→hậu trường→hối hận→hối cải→cải tiến→tiến triển→triển khai→khai giảng→học thuật→thuật sĩ→sĩ khí→khí cầu→đội bóng→đội trưởng→trưởng bối. Nối dài round 69 (→76 mắt xích): thứ bậc→phân minh→minh xác→xác định→định hình→hình hiệu(kiểu mẫu)→hiệu triệu→triệu tập→tập thị(chợ phiên)→thị dân→dân tộc. Nối dài round 70 (→88 mắt xích): tộc quần(nhóm dân tộc)→quần chúng→chúng khẩu(miệng lưỡi đông người)→khẩu giác(cãi vã)→giác độ→độ lượng→lượng lực(liệu sức)→lực cầu(cố gắng)→cầu trợ→trợ thủ→thủ nghệ(tay nghề)→nghệ nhân. Nối dài round 71 (→100 mắt xích): nhân vật→vật phẩm→phẩm cách→cách ngoại(đặc biệt)→ngoại hình→hình thức→thức dạng(kiểu dáng)→dạng phẩm(hàng mẫu)→phẩm hạnh→hành trình→trình tự→tự mạc(màn mở đầu). Nối dài round 72 (→114 mắt xích): mạc bố(phông màn)→bố trí→trí thân(đặt mình vào)→thân thể→thể nghiệm→nghiệm chứng→chứng cứ→cứ điểm→điểm đầu(gật đầu)→đầu não→não hải(trong đầu)→hải biên(bờ biển)→biên giới→giới tuyến. Nối dài round 73 (→124 mắt xích): tuyến sách(manh mối)→sách tính(dứt khoát)→tính chất→chất địa→địa vị→vị trí→trí hoán(hoán đổi)→hoán thủ(đổi lấy)→thủ đại(thay thế)→đại thế(thay thế). Nối dài round 74 (→129 mắt xích): thế thân(đóng thế)→thân ảnh(bóng dáng)→ảnh tử(cái bóng)→tử đệ(con em)→đệ huynh(anh em). Nối dài round 75 (→139 mắt xích): huynh đệ→đệ muội(em trai em gái)→muội phu(em rể)→phu nhân→nhân tình(tình người)→tình tiết→tiết tấu→tấu hiệu(có hiệu quả)→hiệu ích(hiệu quả lợi ích)→ích xứ(ích lợi). Nối dài round 77 (→148 mắt xích): xử cảnh(hoàn cảnh)→cảnh địa(cảnh ngộ)→địa đạo(đúng chất, khẩu ngữ)→đạo lộ(con đường)→lộ tuyến→tuyến điều(đường nét)→điều lý(mạch lạc)→lý hội(để ý, hiểu ra)→hội viên. Nối dài round 78 (→157 mắt xích): viên ngạch(biên chế)→ngạch ngoại(thêm vào)→ngoại giới→giới định(định rõ phạm vi)→định luật→luật động(nhịp điệu)→động cơ→cơ cấu→cấu tứ. Nối dài round 79 (→166 mắt xích): tư tưởng→tưởng tượng→tượng kỳ(cờ tướng)→kỳ cục(ván cờ)→cục diện→diện lâm(đối mặt)→lâm cận(gần kề)→cận đại→đại giá(cái giá phải trả). Nối dài round 80 (→175 mắt xích): giá cách→cách ngôn→ngôn hành→hàng nghiệp(ngành nghề, LƯU Ý đa âm 行 xíng/háng)→nghiệp dư→dư địa→địa chấn→chấn hám(chấn động)→hám động(lay chuyển). Nối dài round 81 (→184 mắt xích): động dao→dao bãi(lắc lư)→bãi thoát(thoát khỏi)→thoát ly→ly khai(rời đi)→khai chi(chi tiêu)→chi phó(chi trả)→phó xuất(bỏ ra)→xuất bản. Nối dài round 82 (→194 mắt xích): bản bản(phiên bản, LƯU Ý 版/本 trùng âm Hán Việt)→bản năng→năng lượng→lượng biến→biến thiên→thiên di(di dời)→di dân→dân sinh→sinh bệnh→bệnh tình. Nối dài round 83 (→202 mắt xích): tình báo→báo cáo→cáo biệt(từ biệt)→biệt trí(độc đáo)→trí lực(dốc sức)→lực học(cơ học)→học vị→vị ư(nằm ở)."
+},
+    {
+      "id": "zh-chain-yuanqi-qixiang-xiangzheng-zhengfu",
+      "language": "zh",
+      "kind": "chain",
+      "nodes": [
+        { "headword": "元气", "reading": "yuánqì", "hanViet": "nguyên khí", "meaningVn": "nguyên khí, sức sống", "sharedCharPrev": null, "sharedCharNext": "气" },
+        { "headword": "气象", "reading": "qìxiàng", "hanViet": "khí tượng", "meaningVn": "khí tượng, hiện tượng thời tiết; cũng nghĩa bóng 'khí thế, quang cảnh'", "sharedCharPrev": "气", "sharedCharNext": "象" },
+        { "headword": "象征", "reading": "xiàngzhēng", "hanViet": "tượng trưng", "meaningVn": "tượng trưng, biểu tượng", "sharedCharPrev": "象", "sharedCharNext": "征" },
+        { "headword": "征服", "reading": "zhēngfú", "hanViet": "chinh phục", "meaningVn": "chinh phục" , "sharedCharPrev": "征", "sharedCharNext": "服" },
+        { "headword": "服务", "reading": "fúwù", "hanViet": "phục vụ", "meaningVn": "phục vụ", "sharedCharPrev": "服", "sharedCharNext": "务" },
+        { "headword": "务工", "reading": "wùgōng", "hanViet": "vụ công", "meaningVn": "làm công, đi làm thuê", "sharedCharPrev": "务", "sharedCharNext": "工" },
+        { "headword": "工人", "reading": "gōngrén", "hanViet": "công nhân", "meaningVn": "công nhân", "sharedCharPrev": "工", "sharedCharNext": "人" },
+        { "headword": "人生", "reading": "rénshēng", "hanViet": "nhân sinh", "meaningVn": "cuộc đời, nhân sinh" , "sharedCharPrev": "人", "sharedCharNext": "生" },
+        { "headword": "生命", "reading": "shēngmìng", "hanViet": "sinh mệnh", "meaningVn": "sinh mệnh, mạng sống", "sharedCharPrev": "生", "sharedCharNext": "命" },
+        { "headword": "命运", "reading": "mìngyùn", "hanViet": "mệnh vận", "meaningVn": "vận mệnh, số phận", "sharedCharPrev": "命", "sharedCharNext": "运" },
+        { "headword": "运气", "reading": "yùnqi", "hanViet": "vận khí", "meaningVn": "vận may, may mắn" , "sharedCharPrev": "运", "sharedCharNext": "气" },
+        { "headword": "气势", "reading": "qìshì", "hanViet": "khí thế", "meaningVn": "khí thế", "sharedCharPrev": "气", "sharedCharNext": "势" },
+        { "headword": "势必", "reading": "shìbì", "hanViet": "thế tất", "meaningVn": "tất yếu, chắc chắn sẽ", "sharedCharPrev": "势", "sharedCharNext": "必" },
+        { "headword": "必然", "reading": "bìrán", "hanViet": "tất nhiên", "meaningVn": "tất nhiên, ắt hẳn", "sharedCharPrev": "必", "sharedCharNext": "然" },
+        { "headword": "然而", "reading": "rán'ér", "hanViet": "nhiên nhi", "meaningVn": "tuy nhiên, nhưng mà" , "sharedCharPrev": "然", "sharedCharNext": "而" },
+        { "headword": "而且", "reading": "érqiě", "hanViet": "nhi thả", "meaningVn": "hơn nữa, mà còn", "sharedCharPrev": "而", "sharedCharNext": "且" },
+        { "headword": "且慢", "reading": "qiěmàn", "hanViet": "thả mạn", "meaningVn": "khoan đã, từ từ đã" , "sharedCharPrev": "且", "sharedCharNext": "慢" },
+        { "headword": "慢性", "reading": "mànxìng", "hanViet": "mạn tính", "meaningVn": "mạn tính (bệnh kéo dài)", "sharedCharPrev": "慢", "sharedCharNext": "性" },
+        { "headword": "性情", "reading": "xìngqíng", "hanViet": "tính tình", "meaningVn": "tính tình", "sharedCharPrev": "性", "sharedCharNext": "情" },
+        { "headword": "情理", "reading": "qínglǐ", "hanViet": "tình lý", "meaningVn": "tình lý, lẽ thường" , "sharedCharPrev": "情", "sharedCharNext": "理" },
+        { "headword": "理睬", "reading": "lǐcǎi", "hanViet": "lý thái", "meaningVn": "để ý, đoái hoài (thường dùng phủ định: 不理睬)" , "sharedCharPrev": "理", "sharedCharNext": null }
+      ],
+      "note": "Domino 22 mắt xích qua 气→象→征→服→务→工→人→生→命→运→气→势→必→然→而→且→慢→性→情→理 (nối dài thêm round 65): nguyên khí→...→tính tình→tình lý→để ý đoái hoài. Mẹo nhớ: 理 có bộ 玉(ngọc) — vân ngọc tự nhiên, quy luật, lẽ phải; 睬 có bộ 目(mắt) — liếc mắt nhìn tới, để ý."
+    },
+    {
+      "id": "zh-chain-moulve-lvetu-tuan-anli",
+      "language": "zh",
+      "kind": "chain",
+      "nodes": [
+        { "headword": "谋略", "reading": "móulüè", "hanViet": "mưu lược", "meaningVn": "mưu lược, chiến lược", "sharedCharPrev": null, "sharedCharNext": "略" },
+        { "headword": "略图", "reading": "lüètú", "hanViet": "lược đồ", "meaningVn": "sơ đồ, lược đồ", "sharedCharPrev": "略", "sharedCharNext": "图" },
+        { "headword": "图案", "reading": "tú'àn", "hanViet": "đồ án", "meaningVn": "họa tiết, hoa văn trang trí", "sharedCharPrev": "图", "sharedCharNext": "案" },
+        { "headword": "案例", "reading": "ànlì", "hanViet": "án lệ", "meaningVn": "ví dụ điển hình, án lệ", "sharedCharPrev": "案", "sharedCharNext": "例" },
+        { "headword": "例外", "reading": "lìwài", "hanViet": "lệ ngoại", "meaningVn": "ngoại lệ" , "sharedCharPrev": "例", "sharedCharNext": "外" },
+        { "headword": "外貌", "reading": "wàimào", "hanViet": "ngoại mạo", "meaningVn": "vẻ ngoài, ngoại hình" , "sharedCharPrev": "外", "sharedCharNext": null }
+      ],
+      "note": "Domino 6 mắt xích qua 略→图→案→例→外 (nối dài thêm round 60): mưu lược→lược đồ→họa tiết→ví dụ điển hình→ngoại lệ→vẻ ngoài. Mẹo nhớ: 图 tượng hình bản đồ trong khung — hình vẽ, sơ đồ; 案 có bộ 木(gỗ) — cái bàn gỗ để đặt hồ sơ, mở rộng thành 'vụ án, phương án'; 外 có bộ 夕(buổi tối) + 卜(bói) — thời cổ bói vào ban đêm là trái quy tắc, mở rộng thành 'bên ngoài, khác thường'."
+    },
+    {
+      "id": "zh-chain-xiju-juben-benling",
+      "language": "zh",
+      "kind": "chain",
+      "nodes": [
+        { "headword": "戏剧", "reading": "xìjù", "hanViet": "hí kịch", "meaningVn": "kịch nghệ, sân khấu", "sharedCharPrev": null, "sharedCharNext": "剧" },
+        { "headword": "剧本", "reading": "jùběn", "hanViet": "kịch bản", "meaningVn": "kịch bản, vở kịch", "sharedCharPrev": "剧", "sharedCharNext": "本" },
+        { "headword": "本领", "reading": "běnlǐng", "hanViet": "bản lĩnh", "meaningVn": "bản lĩnh, năng lực", "sharedCharPrev": "本", "sharedCharNext": "领" },
+        { "headword": "领导", "reading": "lǐngdǎo", "hanViet": "lãnh đạo", "meaningVn": "lãnh đạo", "sharedCharPrev": "领", "sharedCharNext": "导" },
+        { "headword": "导演", "reading": "dǎoyǎn", "hanViet": "đạo diễn", "meaningVn": "đạo diễn", "sharedCharPrev": "导", "sharedCharNext": "演" },
+        { "headword": "演员", "reading": "yǎnyuán", "hanViet": "diễn viên", "meaningVn": "diễn viên", "sharedCharPrev": "演", "sharedCharNext": null }
+      ],
+      "note": "Domino 6 mắt xích theo gợi ý user (chủ đề nghệ thuật biểu diễn): 戏剧→剧本→本领→领导→导演→演员."
+    },
+    {
+      "id": "zh-chain-daibiao-biaoyan-yanjiang",
+      "language": "zh",
+      "kind": "chain",
+      "nodes": [
+        { "headword": "代表", "reading": "dàibiǎo", "hanViet": "đại biểu", "meaningVn": "đại diện, đại biểu", "sharedCharPrev": null, "sharedCharNext": "表" },
+        { "headword": "表演", "reading": "biǎoyǎn", "hanViet": "biểu diễn", "meaningVn": "biểu diễn", "sharedCharPrev": "表", "sharedCharNext": "演" },
+        { "headword": "演讲", "reading": "yǎnjiǎng", "hanViet": "diễn giảng", "meaningVn": "diễn thuyết", "sharedCharPrev": "演", "sharedCharNext": "讲" },
+        { "headword": "讲座", "reading": "jiǎngzuò", "hanViet": "giảng tọa", "meaningVn": "buổi thuyết trình, tọa đàm", "sharedCharPrev": "讲", "sharedCharNext": null }
+      ],
+      "note": "Domino 4 mắt xích theo gợi ý user (chủ đề nghệ thuật biểu diễn): 代表→表演→演讲→讲座."
+    },
+    {
+      "id": "zh-chain-gewu-wudao",
+      "language": "zh",
+      "kind": "chain",
+      "nodes": [
+        { "headword": "歌舞", "reading": "gēwǔ", "hanViet": "ca vũ", "meaningVn": "ca múa", "sharedCharPrev": null, "sharedCharNext": "舞" },
+        { "headword": "舞蹈", "reading": "wǔdǎo", "hanViet": "vũ đạo", "meaningVn": "múa, khiêu vũ", "sharedCharPrev": "舞", "sharedCharNext": null }
+      ],
+      "note": "Domino 2 mắt xích theo gợi ý user (chủ đề nghệ thuật biểu diễn): 歌舞→舞蹈. Ngắn vì 蹈 không có từ ghép 2 chữ thông dụng nào để nối tiếp."
+    },
+    {
+      "id": "zh-chain-zeren-renxing-xingneng",
+      "language": "zh",
+      "kind": "chain",
+      "nodes": [
+        { "headword": "责任", "reading": "zérèn", "hanViet": "trách nhiệm", "meaningVn": "trách nhiệm", "sharedCharPrev": null, "sharedCharNext": "任" },
+        { "headword": "任性", "reading": "rènxìng", "hanViet": "nhậm tính", "meaningVn": "bướng bỉnh, làm theo ý mình", "sharedCharPrev": "任", "sharedCharNext": "性" },
+        { "headword": "性能", "reading": "xìngnéng", "hanViet": "tính năng", "meaningVn": "tính năng (thiết bị, sản phẩm)", "sharedCharPrev": "性", "sharedCharNext": "能" },
+        { "headword": "能耗", "reading": "nénghào", "hanViet": "năng háo", "meaningVn": "mức tiêu hao năng lượng", "sharedCharPrev": "能", "sharedCharNext": "耗" },
+        { "headword": "耗尽", "reading": "hàojìn", "hanViet": "háo tận", "meaningVn": "dùng cạn, tiêu hao hết", "sharedCharPrev": "耗", "sharedCharNext": "尽" },
+        { "headword": "尽头", "reading": "jìntóu", "hanViet": "tận đầu", "meaningVn": "điểm cuối, chỗ tận cùng", "sharedCharPrev": "尽", "sharedCharNext": "头" },
+        { "headword": "头绪", "reading": "tóuxù", "hanViet": "đầu tự", "meaningVn": "đầu mối, manh mối của vấn đề", "sharedCharPrev": "头", "sharedCharNext": null }
+      ],
+      "note": "Domino 7 mắt xích: 责任→任性→性能→能耗→耗尽→尽头→头绪. Chuỗi flagship 开创 tạm dừng ở 202 mắt xích round này vì 于 (đuôi mắt xích cuối) hầu như không có từ ghép 2 chữ thông dụng nào khác ngoài 于是 (đã dùng ở nơi khác) — cần tìm hướng nối khác ở round sau hoặc chấp nhận dừng tại đây."
+    },
+    {
+      "id": "zh-chain-kexue-xueke-keji",
+      "language": "zh",
+      "kind": "chain",
+      "nodes": [
+        { "headword": "科学", "reading": "kēxué", "hanViet": "khoa học", "meaningVn": "khoa học", "sharedCharPrev": null, "sharedCharNext": "学" },
+        { "headword": "学科", "reading": "xuékē", "hanViet": "học khoa", "meaningVn": "môn học, ngành học", "sharedCharPrev": "学", "sharedCharNext": "科" },
+        { "headword": "科技", "reading": "kējì", "hanViet": "khoa kỹ", "meaningVn": "khoa học kỹ thuật, công nghệ", "sharedCharPrev": "科", "sharedCharNext": "技" },
+        { "headword": "技术", "reading": "jìshù", "hanViet": "kỹ thuật", "meaningVn": "kỹ thuật", "sharedCharPrev": "技", "sharedCharNext": "术" },
+        { "headword": "术业", "reading": "shùyè", "hanViet": "thuật nghiệp", "meaningVn": "chuyên môn, lĩnh vực chuyên sâu (từ thành ngữ 术业有专攻)", "sharedCharPrev": "术", "sharedCharNext": null }
+      ],
+      "note": "Domino 5 mắt xích: 科学→学科→科技→技术→术业. Chuỗi 责任...头绪 (round 84) cũng tạm dừng ở 绪 vì gần như không có từ ghép mới (绪言 quá cổ/hiếm dùng)."
+    },
+    {
+      "id": "zh-chain-ganshou-shouyi-yiyou",
+      "language": "zh",
+      "kind": "chain",
+      "nodes": [
+        { "headword": "感受", "reading": "gǎnshòu", "hanViet": "cảm thụ", "meaningVn": "cảm nhận, trải nghiệm", "sharedCharPrev": null, "sharedCharNext": "受" },
+        { "headword": "受益", "reading": "shòuyì", "hanViet": "thụ ích", "meaningVn": "được hưởng lợi ích", "sharedCharPrev": "受", "sharedCharNext": "益" },
+        { "headword": "益友", "reading": "yìyǒu", "hanViet": "ích hữu", "meaningVn": "bạn tốt, người bạn có ích (từ thành ngữ 良师益友)", "sharedCharPrev": "益", "sharedCharNext": "友" },
+        { "headword": "友情", "reading": "yǒuqíng", "hanViet": "hữu tình", "meaningVn": "tình bạn", "sharedCharPrev": "友", "sharedCharNext": "情" },
+        { "headword": "情商", "reading": "qíngshāng", "hanViet": "tình thương", "meaningVn": "trí tuệ cảm xúc, EQ (thuật ngữ tâm lý học hiện đại). LƯU Ý FALSE FRIEND: Hán Việt \"tình thương\" trùng âm với từ tiếng Việt nghĩa 'lòng thương xót, tình yêu thương' — nhưng 情商 trong tiếng Trung KHÔNG liên quan, chỉ đơn thuần là chỉ số EQ", "sharedCharPrev": "情", "sharedCharNext": "商" },
+        { "headword": "商品", "reading": "shāngpǐn", "hanViet": "thương phẩm", "meaningVn": "hàng hóa, sản phẩm thương mại", "sharedCharPrev": "商", "sharedCharNext": "品" },
+        { "headword": "品种", "reading": "pǐnzhǒng", "hanViet": "phẩm chủng", "meaningVn": "chủng loại, giống (cây trồng, vật nuôi, sản phẩm)", "sharedCharPrev": "品", "sharedCharNext": "种" },
+        { "headword": "种植", "reading": "zhòngzhí", "hanViet": "chủng thực", "meaningVn": "trồng trọt, canh tác", "sharedCharPrev": "种", "sharedCharNext": "植" },
+        { "headword": "植物", "reading": "zhíwù", "hanViet": "thực vật", "meaningVn": "thực vật", "sharedCharPrev": "植", "sharedCharNext": "物" },
+        { "headword": "物资", "reading": "wùzī", "hanViet": "vật tư", "meaningVn": "vật tư, hàng hóa vật chất", "sharedCharPrev": "物", "sharedCharNext": "资" },
+        { "headword": "资金", "reading": "zījīn", "hanViet": "tư kim", "meaningVn": "vốn, nguồn tài chính", "sharedCharPrev": "资", "sharedCharNext": "金" },
+        { "headword": "金钱", "reading": "jīnqián", "hanViet": "kim tiền", "meaningVn": "tiền bạc", "sharedCharPrev": "金", "sharedCharNext": "钱" },
+        { "headword": "钱包", "reading": "qiánbāo", "hanViet": "tiền bao", "meaningVn": "ví tiền", "sharedCharPrev": "钱", "sharedCharNext": "包" },
+        { "headword": "包括", "reading": "bāokuò", "hanViet": "bao quát", "meaningVn": "bao gồm", "sharedCharPrev": "包", "sharedCharNext": "括" },
+        { "headword": "括号", "reading": "kuòhào", "hanViet": "quát hiệu", "meaningVn": "dấu ngoặc", "sharedCharPrev": "括", "sharedCharNext": "号" },
+        { "headword": "号令", "reading": "hàolìng", "hanViet": "hiệu lệnh", "meaningVn": "hiệu lệnh, mệnh lệnh", "sharedCharPrev": "号", "sharedCharNext": "令" },
+        { "headword": "令人", "reading": "lìngrén", "hanViet": "lệnh nhân", "meaningVn": "khiến người ta (cấu trúc đứng trước tính từ diễn tả cảm xúc)", "sharedCharPrev": "令", "sharedCharNext": "人" },
+        { "headword": "人性", "reading": "rénxìng", "hanViet": "nhân tính", "meaningVn": "nhân tính, bản chất con người", "sharedCharPrev": "人", "sharedCharNext": "性" },
+        { "headword": "性向", "reading": "xìngxiàng", "hanViet": "tính hướng", "meaningVn": "khuynh hướng, thiên hướng tính cách", "sharedCharPrev": "性", "sharedCharNext": "向" },
+        { "headword": "向导", "reading": "xiàngdǎo", "hanViet": "hướng đạo", "meaningVn": "người hướng dẫn, hướng đạo", "sharedCharPrev": "向", "sharedCharNext": "导" },
+        { "headword": "导致", "reading": "dǎozhì", "hanViet": "đạo trí", "meaningVn": "dẫn đến, gây ra hậu quả", "sharedCharPrev": "导", "sharedCharNext": "致" },
+        { "headword": "致命", "reading": "zhìmìng", "hanViet": "trí mệnh", "meaningVn": "chí mạng, gây chết người", "sharedCharPrev": "致", "sharedCharNext": "命" },
+        { "headword": "命令", "reading": "mìnglìng", "hanViet": "mệnh lệnh", "meaningVn": "mệnh lệnh", "sharedCharPrev": "命", "sharedCharNext": "令" },
+        { "headword": "令牌", "reading": "lìngpái", "hanViet": "lệnh bài", "meaningVn": "lệnh bài, thẻ bài (vật làm tin)", "sharedCharPrev": "令", "sharedCharNext": null }
+      ],
+      "note": "Domino 8 mắt xích: 感受→受益→益友→友情→情商→商品→品种→种植. Mắt xích 情商 là false friend đáng chú ý với tiếng Việt (xem ghi chú tại node). Nối dài round 87 (→16 mắt xích): thực vật→vật tư→tư kim(vốn)→kim tiền(tiền bạc)→tiền bao(ví tiền)→bao quát(bao gồm)→quát hiệu(dấu ngoặc)→hiệu lệnh. Nối dài round 88 (→24 mắt xích): lệnh nhân(khiến người ta)→nhân tính→tính hướng(khuynh hướng)→hướng đạo→đạo trí(dẫn đến)→trí mệnh(chí mạng)→mệnh lệnh→lệnh bài."
+    }
+  ],
+  "clusters": [
+    {
+      "id": "zh-cluster-zhi",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "支",
+      "centerReading": "zhī",
+      "centerHanViet": "chi",
+      "centerMeaningVn": "chống đỡ, nâng đỡ, chi trả",
+      "words": [
+        { "headword": "支援", "reading": "zhīyuán", "hanViet": "chi viện", "meaningVn": "hỗ trợ khẩn cấp, trang trọng (chi viện quân sự, cứu trợ thiên tai)" },
+        { "headword": "支持", "reading": "zhīchí", "hanViet": "chi trì", "meaningVn": "ủng hộ (ý kiến, tinh thần), không nhất thiết khẩn cấp" }
+      ],
+      "note": "Mẹo nhớ: 支 vốn là hình tay cầm cành cây chống đỡ → nghĩa bóng 'nâng đỡ, ủng hộ, chi ra'. So sánh thêm: 帮助 (bāngzhù, giúp đỡ) là từ đơn giản dùng hàng ngày, không chứa chữ 支."
+    },
+    {
+      "id": "zh-cluster-yuan",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "援",
+      "centerReading": "yuán",
+      "centerHanViet": "viện",
+      "centerMeaningVn": "cứu giúp, kéo lên, viện trợ",
+      "words": [
+        { "headword": "支援", "reading": "zhīyuán", "hanViet": "chi viện", "meaningVn": "hỗ trợ khẩn cấp, trang trọng (chi viện quân sự, cứu trợ thiên tai)" },
+        { "headword": "援助", "reading": "yuánzhù", "hanViet": "viện trợ", "meaningVn": "viện trợ, thường dùng ngữ cảnh quốc tế/nhân đạo" }
+      ],
+      "note": "Mẹo nhớ: 援 có bộ tay (扌) bên trái ghép với 爰 (kéo) → nghĩa gốc 'dùng tay kéo ai đó lên, cứu giúp'. 支援/援助 đều trang trọng hơn 帮助 (giúp đỡ thông thường)."
+    },
+    {
+      "id": "zh-cluster-pan",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "判",
+      "centerReading": "pàn",
+      "centerHanViet": "phán",
+      "centerMeaningVn": "phân xử, đưa ra quyết định/nhận định",
+      "words": [
+        { "headword": "判断", "reading": "pànduàn", "hanViet": "phán đoán", "meaningVn": "phán đoán, quyết định dựa trên suy luận" },
+        { "headword": "判决", "reading": "pànjué", "hanViet": "phán quyết", "meaningVn": "phán quyết (toà án)" },
+        { "headword": "审判", "reading": "shěnpàn", "hanViet": "thẩm phán", "meaningVn": "xét xử (chữ 判 ở CUỐI từ, khác 2 từ trên chữ 判 ở đầu)" }
+      ],
+      "note": "Mẹo nhớ: 判 gồm bộ 刀 (dao, rìu) + 半 (nửa) → nghĩa gốc 'chặt đôi ra để phân xử rạch ròi'. Vị trí chữ 判 khác nhau trong từ (đầu ở 判断/判决, cuối ở 审判) nhưng vẫn cùng 1 chữ Hán dùng chung."
+    },
+    {
+      "id": "zh-cluster-guan",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "观",
+      "centerReading": "guān",
+      "centerHanViet": "quan",
+      "centerMeaningVn": "nhìn, xem xét, quan điểm",
+      "words": [
+        { "headword": "观点", "reading": "guāndiǎn", "hanViet": "quan điểm", "meaningVn": "quan điểm, góc nhìn" },
+        { "headword": "观念", "reading": "guānniàn", "hanViet": "quan niệm", "meaningVn": "quan niệm, khái niệm (thường về giá trị/tư tưởng)" }
+      ],
+      "note": "Mẹo nhớ: 观 (giản thể của 觀) có bộ 见 (nhìn, thấy) bên phải → nghĩa gốc 'nhìn, quan sát'. 观点 thiên về góc nhìn cá nhân về 1 việc cụ thể; 观念 thiên về hệ tư tưởng/giá trị đã hình thành lâu dài."
+    }
+  ],
+  "todo": [
+    "Batch mở rộng (round 88): 57 chuỗi / 649 mắt xích. Nối dài chuỗi 感受...号令 thêm 8 mắt xích (→24): 令人→人性→性向→向导→导致→致命→命令→令牌. Đào sâu tiếng Trung round này.",
+    "Batch mở rộng (round 87): 57 chuỗi / 641 mắt xích. Nối dài chuỗi 感受...品种→种植 thêm 8 mắt xích (→16): 植物→物资→资金→金钱→钱包→包括→括号→号令. Đào sâu tiếng Trung round này.",
+    "Batch mở rộng (round 86): 57 chuỗi / 633 mắt xích. Thêm chuỗi mới 感受→受益→益友→友情→情商→商品→品种→种植 (8 mắt xích). Node 情商 có ghi chú false friend Hán Việt (tình thương ≠ nghĩa gốc, chỉ là EQ).",
+    "Batch mở rộng (round 85): 56 chuỗi / 625 mắt xích. Thêm chuỗi mới 科学→学科→科技→技术→术业 (5 mắt xích). Cả 2 chuỗi flagship 开创 (202) và 责任...头绪 (7) đều tạm dừng vì đuôi 于/绪 hết từ ghép thông dụng.",
+    "Batch mở rộng (round 84): 55 chuỗi / 620 mắt xích. Chuỗi flagship 开创 (202 mắt xích) tạm dừng vì đuôi 于 gần như không có từ ghép mới. Thêm chuỗi mới 责任→任性→性能→能耗→耗尽→尽头→头绪 (7 mắt xích) thay thế cho việc nối dài flagship round này.",
+    "Batch mở rộng (round 83): 54 chuỗi / 613 mắt xích. Nối dài thêm 开创 (→202, qua 报→告→别→致→力→学→位→于). Đào sâu tiếng Trung round này. Chuỗi flagship vượt mốc 200 mắt xích.",
+    "Batch mở rộng (round 82): 54 chuỗi / 605 mắt xích. Nối dài thêm 开创 (→194, qua 本→能→量→变→迁→移→民→生→病→情). Đào sâu tiếng Trung round này.",
+    "Batch mở rộng (round 81): 54 chuỗi / 595 mắt xích. Nối dài thêm 开创 (→184, qua 摇→摆→脱→离→开→支→付→出→版). Đào sâu tiếng Trung round này.",
+    "Batch mở rộng (round 80): 54 chuỗi / 586 mắt xích. Nối dài thêm 开创 (→175, qua 格→言→行→业→余→地→震→撼→动). Đào sâu tiếng Trung round này. LƯU Ý: mắt xích 言行→行业 dùng lại chữ 行 nhưng đổi âm đọc (xíng→háng, đa âm tự) — đã ghi chú rõ trong node.",
+    "Batch mở rộng (round 79): 54 chuỗi / 577 mắt xích. Nối dài thêm 开创 (→166, qua 想→象→棋→局→面→临→近→代→价). Đào sâu tiếng Trung round này.",
+    "Batch mở rộng (round 78): 54 chuỗi / 568 mắt xích. Nối dài thêm 开创 (→157, qua 额→外→界→定→律→动→机→构→思). Đào sâu tiếng Trung round này.",
+    "Batch mở rộng (round 77): 54 chuỗi / 559 mắt xích. Nối dài thêm 开创 (→148, qua 处→境→地→道→路→线→条→理→会→员). Đào sâu tiếng Trung round này.",
+    "Batch mở rộng (round 76, theo gợi ý user, chủ đề nghệ thuật biểu diễn): 54 chuỗi / 550 mắt xích. Thêm 3 chuỗi mới dùng đúng từ vựng user đưa ra: 戏剧→剧本→本领→领导→导演→演员 (6 mắt xích), 代表→表演→演讲→讲座 (4 mắt xích), 歌舞→舞蹈 (2 mắt xích, ngắn vì 蹈 hiếm từ ghép). LƯU Ý KỸ THUẬT: lần đầu thêm 3 chuỗi này bị chèn NHẦM vào mảng \"clusters\" thay vì \"chains\" do khớp nhầm chuỗi text trong old_string của Edit — đã phát hiện qua việc chains.length không tăng dù grep thấy id mới, rồi sửa lại đúng vị trí. Rút kinh nghiệm: luôn xác nhận vị trí chèn bằng cách kiểm tra Object.keys() của file trước khi chèn ở file có nhiều mảng top-level (chains/clusters/todo).",
+    "Batch mở rộng (round 75): 51 chuỗi / 538 mắt xích. Nối dài thêm 开创 (→139, qua 弟→妹→夫→人→情→节→奏→效→益). Đào sâu tiếng Trung round này.",
+    "Batch mở rộng (round 74): 51 chuỗi / 528 mắt xích. Nối dài thêm 开创 (→129, qua 身→影→子→弟→兄). Đào sâu tiếng Trung round này.",
+    "Batch mở rộng (round 73): 51 chuỗi / 523 mắt xích. Nối dài thêm 开创 (→124, qua 索→性→质→地→位→置→换→取→代→替). Đào sâu tiếng Trung round này.",
+    "Batch mở rộng (round 72): 51 chuỗi / 513 mắt xích. Nối dài thêm 开创 (→114, qua 布→置→身→体→验→证→据→点→头→脑→海→边→界→线). Đào sâu tiếng Trung round này.",
+    "Batch mở rộng (round 71): 51 chuỗi / 499 mắt xích. Nối dài thêm 开创 (→100, qua 物→品→格→外→形→式→样→品→行→程→序→幕). Đào sâu tiếng Trung round này. Chuỗi flagship đã đạt mốc 100 mắt xích.",
+    "Batch mở rộng (round 70): 51 chuỗi / 487 mắt xích. Nối dài thêm 开创 (→88, qua 群→众→口→角→度→量→力→求→助→手→艺→人). Đào sâu tiếng Trung round này.",
+    "Batch mở rộng (round 69): 51 chuỗi / 475 mắt xích. Nối dài thêm 开创 (→76, qua 分→明→确→定→型→号→召→集→市→民→族). Đào sâu tiếng Trung round này.",
+    "Batch mở rộng (round 68): 51 chuỗi / 464 mắt xích. Nối dài thêm 开创 (→65, qua 字→幕→后→悔→改→进→展→开→学→术→士→气→球→队→长→辈). Đào sâu tiếng Trung round này.",
+    "Batch mở rộng (round 67): 51 chuỗi / 449 mắt xích. Nối dài thêm 开创 (→50, qua 即→使→命→名).",
+    "Batch mở rộng (round 66): 51 chuỗi / 445 mắt xích. Nối dài thêm 开创 (→46, qua 火→车→站→立). Nguồn từ vựng chuỗi domino cơ bản ngày càng khan hiếm — nhiều từ 2 âm tiết thông dụng đã dùng hết.",
+    "Batch mở rộng (round 65): 51 chuỗi / 441 mắt xích. Nối dài thêm 开创 (→42, qua 怒→火→焰), nối dài thêm 元气 (→22, qua 理睬). Tiếp tục đào sâu tiếng Trung, chưa nối dài ja/ko round này.",
+    "Batch mở rộng (round 64): 51 chuỗi / 437 mắt xích. Nối dài thêm 开创 (→39, qua 气→愤), nối dài thêm 元气 (→21, qua 慢→性→情). Tiếp tục đào sâu tiếng Trung, chưa nối dài ja/ko round này.",
+    "Batch mở rộng (round 63): 51 chuỗi / 432 mắt xích. Nối dài thêm 开创 (→37, qua 数→据→说→服), nối dài thêm 元气 (→17, qua 而→且). Tiếp tục đào sâu tiếng Trung, chưa nối dài ja/ko round này.",
+    "Batch mở rộng (round 62): 51 chuỗi / 426 mắt xích. Nối dài thêm 开创 (→33, qua 阴→谋→划→算), nối dài thêm 元气 (→15, qua 气→势→必→然). Tiếp tục đào sâu tiếng Trung, chưa nối dài ja/ko round này.",
+    "Batch mở rộng (round 61): 51 chuỗi / 418 mắt xích. Nối dài thêm 开创 (→29, qua 力→及→时→光), nối dài thêm 元气 (→11, qua 生→命→运). Tiếp tục đào sâu tiếng Trung, chưa nối dài ja/ko round này.",
+    "Batch mở rộng (round 60): 51 chuỗi / 411 mắt xích. Nối dài thêm 开创 (→25, qua 智→能→耐), nối dài thêm 元气 (→8, qua 服→务→工→人), nối dài thêm 谋略 (→6, qua 外). Tiếp tục đào sâu tiếng Trung, chưa nối dài ja/ko round này.",
+    "Batch mở rộng (round 59): 51 chuỗi / 403 mắt xích. Nối dài thêm 开创 (→22, qua 众→人→才); thêm 2 chuỗi mới (元气→征服, chủ đề khí thế/tượng trưng/chinh phục; 谋略→例外, chủ đề mưu lược/sơ đồ/ví dụ điển hình/ngoại lệ). Đào sâu thêm ở tiếng Trung theo yêu cầu người dùng, không bắt buộc đồng bộ ja/ko mỗi round.",
+    "Batch mở rộng (round 58): 49 chuỗi / 391 mắt xích. Nối dài thêm 开创 (→19, qua 农→民).",
+    "Batch mở rộng (round 57): 49 chuỗi / 389 mắt xích. Nối dài thêm 开创 (→17, qua 述→职→务).",
+    "Batch mở rộng (round 56): 49 chuỗi / 386 mắt xích. Nối dài thêm 开创 (→14, qua 情→绪→论).",
+    "Batch mở rộng (round 55): 49 chuỗi / 383 mắt xích. Nối dài thêm 开创 (→11, qua 念→旧→事).",
+    "Batch mở rộng (round 54): 49 chuỗi / 380 mắt xích. Nối dài thêm 开创 (→8, qua 真→理).",
+    "Batch mở rộng (round 53): 49 chuỗi / 378 mắt xích. Nối dài thêm 开创 (→6, qua 绩→效→果).",
+    "Batch mở rộng (round 52): 49 chuỗi / 375 mắt xích. Thêm 1 chuỗi mới (开创→业绩), chủ đề khởi nghiệp/sự nghiệp/thành tích (承担 tạm dừng nối dài vì 绎 hiếm khi đứng đầu từ).",
+    "Batch mở rộng (round 51): 48 chuỗi / 372 mắt xích. Nối dài thêm 承担 (→25, qua 血→脉→络).",
+    "Batch mở rộng (round 50): 48 chuỗi / 369 mắt xích. Nối dài thêm 承担 (→22, qua 木→匠→心).",
+    "Batch mở rộng (round 49): 48 chuỗi / 366 mắt xích. Nối dài thêm 承担 (→19, qua 望→步→伐).",
+    "Batch mở rộng (round 48): 48 chuỗi / 363 mắt xích. Nối dài thêm 承担 (→16, qua 消→灭→绝).",
+    "Batch mở rộng (round 47): 48 chuỗi / 360 mắt xích. Nối dài thêm 承担 (→13, qua 取).",
+    "Batch mở rộng (round 46): 48 chuỗi / 359 mắt xích. Nối dài thêm 承担 (→12, qua 争).",
+    "Batch mở rộng (round 45): 48 chuỗi / 358 mắt xích. Nối dài thêm 承担 (→11, qua 力).",
+    "Batch mở rộng (round 44): 48 chuỗi / 357 mắt xích. Nối dài thêm 承担 (→10, qua 卖).",
+    "Batch mở rộng (round 43): 48 chuỗi / 356 mắt xích. Nối dài thêm 承担 (→9, qua 义).",
+    "Batch mở rộng (round 42): 48 chuỗi / 355 mắt xích. Nối dài thêm 承担 (→8, qua 解→义).",
+    "Batch mở rộng (round 41): 48 chuỗi / 354 mắt xích. Nối dài thêm 承担 (→7, qua 见→解).",
+    "Batch mở rộng (round 40): 48 chuỗi / 353 mắt xích. Nối dài thêm 承担 (→6, qua 意→见).",
+    "Batch mở rộng (round 39): 48 chuỗi / 352 mắt xích. Nối dài thêm 承担 (→5, qua 愿→意).",
+    "Batch mở rộng (round 38): 48 chuỗi / 351 mắt xích. Nối dài thêm 承担 (→4, qua 心→愿).",
+    "Batch mở rộng (round 37): 48 chuỗi / 350 mắt xích. Thêm 1 chuỗi mới (承担→心愿), chủ đề gánh vác/lo lắng/nguyện vọng.",
+    "Batch mở rộng (round 36): 47 chuỗi / 347 mắt xích. Nối dài thêm 兴趣 (→8, qua 标→准).",
+    "Batch mở rộng (round 35): 47 chuỗi / 346 mắt xích. Nối dài thêm 兴趣 (→7, qua 目→标).",
+    "Batch mở rộng (round 34): 47 chuỗi / 345 mắt xích. Nối dài thêm 参加 (→9, qua 题→材), 兴趣 (→6, qua 醒→目).",
+    "Batch mở rộng (round 33): 47 chuỗi / 343 mắt xích. Nối dài thêm 参加 (→8, qua 话→题), 兴趣 (→5, qua 觉→醒).",
+    "Batch mở rộng (round 32): 47 chuỗi / 341 mắt xích. Nối dài thêm 参加 (→7, qua 俗→话), 感谢 (→6, qua 魄). Nhiều đuôi chuỗi khác (该/且/骤/望/员/则/睛/坛/于/乎/析/例) vẫn khó nối tiếp do hiếm từ bắt đầu bằng ký tự đó.",
+    "Batch mở rộng (round 31): 47 chuỗi / 338 mắt xích. Thêm 1 chuỗi mới (申请→职业), chủ đề đăng ký/tìm việc.",
+    "Batch mở rộng (round 30): 46 chuỗi / 334 mắt xích. Nối dài thêm 环保 (→7), 感谢 (→5), 参加 (→5), 兴趣 (→4); thêm 1 chuỗi mới (快速→度过).",
+    "Batch mở rộng (round 29): 45 chuỗi / 326 mắt xích. Nối dài thêm 环保 (→6), 感谢 (→4); thêm 2 chuỗi mới (参加→入学, 兴趣→味觉).",
+    "Batch mở rộng (round 28): 43 chuỗi / 317 mắt xích. Nối dài thêm 坚持 (→8), 勇气 (→8), 环保 (→4); thêm 1 chuỗi mới (感谢→意义).",
+    "Batch mở rộng (round 27): 42 chuỗi / 308 mắt xích. Nối dài thêm 坚持 (→5), 沉默 (→9), 温暖 (→9), 认真 (→9); thêm 1 chuỗi mới (环保→护理). Thêm mới cơ chế 'clusters' (chùm hoa thị): +2 chùm 判/观.",
+    "Batch mở rộng (round 26): 41 chuỗi / 297 mắt xích. Nối dài thêm 鼓励 (→4), 认真 (→7), 勇气 (→7), 温暖 (→7); thêm 1 chuỗi mới (坚持→续集).",
+    "Batch mở rộng (round 25): 40 chuỗi / 290 mắt xích. Nối dài thêm 认真 (→6), 勇气 (→6), 沉默 (→7), 温暖 (→6); thêm 1 chuỗi mới (鼓励→志愿).",
+    "Batch mở rộng (round 24): 39 chuỗi / 281 mắt xích. Nối dài thêm 沉默 (→5), 平静 (→4), 勇气 (→5), 教育 (→8); thêm 1 chuỗi mới (温暖→平安).",
+    "Batch mở rộng (round 23): 38 chuỗi / 271 mắt xích. Nối dài thêm 冒险 (→8), 勇气 (→4), 幽默 (→6), 认真 (→5); thêm 1 chuỗi mới (平静→止步).",
+    "Batch mở rộng (round 22): 37 chuỗi / 259 mắt xích. Nối dài thêm 教育 (→6), 旅行 (→8), 梦想 (→8), 快乐 (→8); thêm 1 chuỗi mới (沉默→认定, cùng lộ trình chuỗi tiếng Nhật/Hàn).",
+    "Batch mở rộng (round 21): 36 chuỗi / 249 mắt xích. Nối dài thêm 社会, 外语 (→12), 健康, 心情 (→11); thêm 1 chuỗi mới (幽默→契约).",
+    "Batch mở rộng (round 20): 35 chuỗi / 239 mắt xích. Nối dài thêm 学生 (→11), 颜色 (→9), 心情 (→10), 冒险; thêm 1 chuỗi mới (勇气→概念).",
+    "Batch mở rộng (round 19): 34 chuỗi / 228 mắt xích. Nối dài thêm 环境, 计划, 心情, 挑战; thêm 1 chuỗi mới (冒险→恶劣).",
+    "Batch mở rộng (round 18): 33 chuỗi / 218 mắt xích. Nối dài thêm 家族 (→12), 放大 (→11), 音乐 (→10), 手机; thêm 1 chuỗi mới (挑战→争议).",
+    "Batch mở rộng (round 17): 32 chuỗi / 254 mắt xích. Nối dài thêm 外语, 快乐, 信心, 梦想; thêm 1 chuỗi mới (认真→实践).",
+    "Batch mở rộng (round 16): 31 chuỗi / 231 mắt xích. Nối dài thêm 学生, 家族, 音乐, 医院; thêm 1 chuỗi mới (梦想→头发).",
+    "Batch mở rộng (round 15): 30 chuỗi / 208 mắt xích. Nối dài thêm 放大, 外语, 旅行, 快乐; thêm 1 chuỗi mới (信心→智慧).",
+    "Batch mở rộng (round 14): 29 chuỗi / 187 mắt xích. Đổi hướng 手机 (không dùng 会员 vì 员 hiếm đứng đầu từ); nối dài thêm 颜色, 森林, 幸福; thêm 1 chuỗi mới (快乐→察觉).",
+    "Batch mở rộng (round 13): 28 chuỗi / 164 mắt xích. 4 chuỗi ngắn (扩大, 艺术, 教育, 心情) đã được nối dài thêm; thêm 1 chuỗi mới (幸福→质量).",
+    "Batch mở rộng (round 12): 27 chuỗi / 149 mắt xích. 4 chuỗi ngắn từ round trước (健康, 环境, 计划, 历史) đã được nối dài thêm; thêm 1 chuỗi mới (心情→觉得).",
+    "Batch mở rộng (round 11): 26 chuỗi / 134 mắt xích, độ dài 3-9 mắt xích/chuỗi. 4 chuỗi ngắn từ round trước đã được nối dài thêm. Tiếng Trung rủi ro sai thấp nhất nên nối dài được nhiều nhất và ổn định nhất.",
+    "zh-chain-zunjing-jingli-limao dừng ở 5 mắt xích (ngắn nhất trong batch) vì 貌-đầu từ hiếm trong tiếng Trung hiện đại — chỉ có 貌似 là phổ biến, các từ khác (貌美...) không đủ thông dụng để đưa vào.",
+    "Chưa xử lý theo chủ đề/HSK level cụ thể — nếu cần phủ đều theo cấp độ (HSK1-6) thì cần đợt mở rộng riêng có gắn nhãn cấp độ."
+  ]
+}
