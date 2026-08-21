@@ -1,0 +1,265 @@
+{
+  "language": "zh",
+  "label": "Chủ đề tiếng Trung",
+  "topics": [
+    {
+      "id": "zh-topic-appearance-personality",
+      "language": "zh",
+      "titleNative": "外貌与性格",
+      "titleVn": "Ngoại hình và tính cách",
+      "branches": [
+        {
+          "id": "positive",
+          "titleNative": "积极",
+          "titleVn": "Tích cực",
+          "words": [
+            {
+              "id": "zh-topic-ap-kailang",
+              "headword": "开朗",
+              "reading": "kāilǎng",
+              "meaningVn": "tươi sáng, cởi mở",
+              "example": "她性格很开朗。",
+              "exampleVn": "Cô ấy có tính cách cởi mở tươi sáng.",
+              "children": [
+                { "id": "zh-topic-ap-hequn", "headword": "合群", "reading": "héqún", "meaningVn": "hoà đồng", "example": "他很合群。", "exampleVn": "Anh ấy rất hoà đồng." },
+                { "id": "zh-topic-ap-youmo", "headword": "幽默", "reading": "yōumò", "meaningVn": "hài hước", "example": "他很幽默。", "exampleVn": "Anh ấy rất hài hước." },
+                { "id": "zh-topic-ap-huopo", "headword": "活泼", "reading": "huópō", "meaningVn": "năng động, hoạt bát", "example": "她性格很活泼。", "exampleVn": "Cô ấy có tính cách năng động hoạt bát." },
+                { "id": "zh-topic-ap-jingshen", "headword": "精神", "reading": "jīngshen", "meaningVn": "khoẻ khoắn, tinh thần tốt", "example": "那个孩子很精神。", "exampleVn": "Đứa trẻ đó rất khoẻ khoắn tinh thần." }
+              ]
+            },
+            { "id": "zh-topic-ap-xixin", "headword": "细心", "reading": "xìxīn", "meaningVn": "tỉ mỉ", "example": "他做事很细心。", "exampleVn": "Anh ấy làm việc rất tỉ mỉ." },
+            {
+              "id": "zh-topic-ap-wennuan",
+              "headword": "温暖",
+              "reading": "wēnnuǎn",
+              "meaningVn": "ấm áp",
+              "example": "他的心很温暖。",
+              "exampleVn": "Tấm lòng anh ấy ấm áp.",
+              "children": [
+                { "id": "zh-topic-ap-kuanrong", "headword": "宽容", "reading": "kuānróng", "meaningVn": "rộng lượng", "example": "老师很宽容。", "exampleVn": "Thầy giáo rất rộng lượng." },
+                { "id": "zh-topic-ap-titie", "headword": "体贴", "reading": "tǐtiē", "meaningVn": "giàu tình cảm, ân cần", "example": "她是个很体贴的人。", "exampleVn": "Cô ấy là người giàu tình cảm." },
+                { "id": "zh-topic-ap-renqingwei", "headword": "有人情味", "reading": "yǒu rénqíngwèi", "meaningVn": "nhân văn", "example": "他很有人情味。", "exampleVn": "Anh ấy rất nhân văn." }
+              ]
+            },
+            { "id": "zh-topic-ap-danding", "headword": "淡定", "reading": "dàndìng", "meaningVn": "điềm tĩnh, thong thả", "example": "他性格很淡定。", "exampleVn": "Anh ấy có tính cách điềm tĩnh." },
+            { "id": "zh-topic-ap-zhishuai", "headword": "直率", "reading": "zhíshuài", "meaningVn": "thẳng thắn", "example": "她说话很直率。", "exampleVn": "Cô ấy nói chuyện thẳng thắn." },
+            {
+              "id": "zh-topic-ap-wenjing",
+              "headword": "文静",
+              "reading": "wénjìng",
+              "meaningVn": "trầm tính",
+              "example": "他性格很文静。",
+              "exampleVn": "Anh ấy có tính cách trầm tính.",
+              "children": [
+                { "id": "zh-topic-ap-guaiqiao", "headword": "乖巧", "reading": "guāiqiǎo", "meaningVn": "dịu dàng, thuỳ mị", "example": "那个孩子很乖巧。", "exampleVn": "Đứa trẻ đó thuỳ mị." },
+                { "id": "zh-topic-ap-siwen", "headword": "斯文", "reading": "sīwén", "meaningVn": "đứng đắn, lịch thiệp", "example": "那位先生很斯文。", "exampleVn": "Ông ấy là người đứng đắn, lịch thiệp." }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "negative",
+          "titleNative": "消极",
+          "titleVn": "Tiêu cực",
+          "words": [
+            { "id": "zh-topic-ap-landuo", "headword": "懒惰", "reading": "lǎnduò", "meaningVn": "lười biếng", "example": "他有点懒惰。", "exampleVn": "Anh ấy hơi lười biếng." },
+            {
+              "id": "zh-topic-ap-tiaoti",
+              "headword": "挑剔",
+              "reading": "tiāotī",
+              "meaningVn": "khó tính",
+              "example": "他口味很挑剔。",
+              "exampleVn": "Anh ấy kén ăn (khó tính về khẩu vị).",
+              "children": [
+                { "id": "zh-topic-ap-guzhi", "headword": "固执", "reading": "gùzhí", "meaningVn": "cố chấp, cứng đầu", "example": "他很固执。", "exampleVn": "Anh ấy rất cố chấp." }
+              ]
+            },
+            { "id": "zh-topic-ap-tanxin", "headword": "贪心", "reading": "tānxīn", "meaningVn": "tham vọng, tham lam", "example": "他很贪心。", "exampleVn": "Anh ấy rất tham lam." },
+            { "id": "zh-topic-ap-zisi", "headword": "自私", "reading": "zìsī", "meaningVn": "ích kỷ", "example": "他有点自私。", "exampleVn": "Anh ấy hơi ích kỷ." }
+          ]
+        },
+        {
+          "id": "other",
+          "titleNative": "其他",
+          "titleVn": "Khác",
+          "words": [
+            { "id": "zh-topic-ap-yange", "headword": "严格", "reading": "yángé", "meaningVn": "nghiêm khắc", "example": "我爸爸很严格。", "exampleVn": "Bố tôi nghiêm khắc." },
+            { "id": "zh-topic-ap-ruanruo", "headword": "软弱", "reading": "ruǎnruò", "meaningVn": "yếu đuối, mềm lòng", "example": "她很软弱。", "exampleVn": "Cô ấy yếu đuối, dễ mềm lòng." },
+            { "id": "zh-topic-ap-jihuaxing", "headword": "计划性", "reading": "jìhuàxìng", "meaningVn": "tính kế hoạch", "example": "他很有计划性。", "exampleVn": "Anh ấy có tính kế hoạch." },
+            { "id": "zh-topic-ap-neixiang", "headword": "内向", "reading": "nèixiàng", "meaningVn": "hướng nội", "example": "他性格内向。", "exampleVn": "Anh ấy có tính cách hướng nội." },
+            { "id": "zh-topic-ap-zhoudao", "headword": "周到", "reading": "zhōudào", "meaningVn": "sự tinh ý, chu đáo", "example": "他做事很周到。", "exampleVn": "Anh ấy làm việc rất chu đáo." },
+            { "id": "zh-topic-ap-zizunxin", "headword": "自尊心", "reading": "zìzūnxīn", "meaningVn": "lòng tự trọng", "example": "他自尊心很强。", "exampleVn": "Anh ấy có lòng tự trọng cao." },
+            { "id": "zh-topic-ap-youquedian", "headword": "优缺点", "reading": "yōuquēdiǎn", "meaningVn": "điểm mạnh điểm yếu", "example": "每个人都有优缺点。", "exampleVn": "Mỗi người đều có điểm mạnh điểm yếu." },
+            { "id": "zh-topic-ap-xinyi", "headword": "心意", "reading": "xīnyì", "meaningVn": "tấm lòng", "example": "她的心意很美。", "exampleVn": "Cô ấy có tấm lòng đẹp." },
+            { "id": "zh-topic-ap-renpin", "headword": "人品", "reading": "rénpǐn", "meaningVn": "nhân cách", "example": "他人品很好。", "exampleVn": "Anh ấy có nhân cách tốt." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-topic-love-marriage-2",
+      "language": "zh",
+      "titleNative": "恋爱与结婚2",
+      "titleVn": "Tình yêu và kết hôn 2",
+      "branches": [
+        {
+          "id": "wedding-prep",
+          "titleNative": "结婚准备",
+          "titleVn": "Chuẩn bị kết hôn",
+          "words": [
+            { "id": "zh-topic-lm-penghua", "headword": "捧花", "reading": "pěnghuā", "meaningVn": "hoa cưới", "example": "新娘扔了捧花。", "exampleVn": "Cô dâu đã tung hoa cưới." },
+            { "id": "zh-topic-lm-miyuelvxing", "headword": "蜜月旅行", "reading": "mìyuè lǚxíng", "meaningVn": "du lịch trăng mật", "example": "我们去夏威夷度蜜月旅行了。", "exampleVn": "Chúng tôi đã đi Hawaii cho chuyến du lịch trăng mật." },
+            { "id": "zh-topic-lm-hunsha", "headword": "婚纱", "reading": "hūnshā", "meaningVn": "váy cưới", "example": "她穿上了婚纱。", "exampleVn": "Cô ấy đã mặc váy cưới." },
+            { "id": "zh-topic-lm-qingjian", "headword": "请柬", "reading": "qǐngjiǎn", "meaningVn": "thiệp cưới", "example": "我收到了请柬。", "exampleVn": "Tôi đã nhận được thiệp cưới." },
+            { "id": "zh-topic-lm-hunlichangdi", "headword": "婚礼场地", "reading": "hūnlǐ chǎngdì", "meaningVn": "hội trường cưới", "example": "我们预订了婚礼场地。", "exampleVn": "Chúng tôi đã đặt hội trường cưới." },
+            { "id": "zh-topic-lm-choubei", "headword": "筹备", "reading": "chóubèi", "meaningVn": "chuẩn bị, sắp xếp", "example": "我们筹备好了结婚资金。", "exampleVn": "Tôi đã chuẩn bị tiền cho đám cưới." }
+          ]
+        },
+        {
+          "id": "marriage",
+          "titleNative": "结婚",
+          "titleVn": "Kết hôn",
+          "words": [
+            { "id": "zh-topic-lm-yihun", "headword": "已婚", "reading": "yǐhūn", "meaningVn": "đã kết hôn", "example": "他是已婚人士。", "exampleVn": "Anh ấy là người đã kết hôn." },
+            { "id": "zh-topic-lm-pei-ou", "headword": "配偶", "reading": "pèi'ǒu", "meaningVn": "bạn đời", "example": "我遇到了我的配偶。", "exampleVn": "Tôi đã gặp bạn đời của mình." },
+            {
+              "id": "zh-topic-lm-zhonglei",
+              "headword": "种类",
+              "reading": "zhǒnglèi",
+              "meaningVn": "loại hình",
+              "example": "结婚有很多种类。",
+              "exampleVn": "Kết hôn có nhiều loại hình.",
+              "children": [
+                { "id": "zh-topic-lm-kuaguohunyin", "headword": "跨国婚姻", "reading": "kuàguó hūnyīn", "meaningVn": "hôn nhân quốc tế", "example": "跨国婚姻越来越多。", "exampleVn": "Hôn nhân quốc tế đang tăng lên." },
+                { "id": "zh-topic-lm-ziyoulianai", "headword": "自由恋爱结婚", "reading": "zìyóu liàn'ài jiéhūn", "meaningVn": "kết hôn vì tình yêu", "example": "我们是自由恋爱结婚的。", "exampleVn": "Chúng tôi đã kết hôn vì tình yêu." },
+                { "id": "zh-topic-lm-zaihun", "headword": "再婚", "reading": "zàihūn", "meaningVn": "tái hôn", "example": "他再婚了。", "exampleVn": "Anh ấy đã tái hôn." }
+              ]
+            },
+            { "id": "zh-topic-lm-chujia", "headword": "出嫁", "reading": "chūjià", "meaningVn": "về nhà chồng", "example": "她出嫁了。", "exampleVn": "Cô ấy đã về nhà chồng." },
+            { "id": "zh-topic-lm-quqi", "headword": "娶妻", "reading": "qǔqī", "meaningVn": "cưới vợ", "example": "他娶了妻子。", "exampleVn": "Anh ấy đã cưới vợ." }
+          ]
+        },
+        {
+          "id": "breakup",
+          "titleNative": "离婚",
+          "titleVn": "Chia tay",
+          "words": [
+            { "id": "zh-topic-lm-lihun", "headword": "离婚", "reading": "líhūn", "meaningVn": "ly dị", "example": "他们离婚了。", "exampleVn": "Họ đã ly dị." }
+          ]
+        },
+        {
+          "id": "married-life",
+          "titleNative": "婚姻生活",
+          "titleVn": "Cuộc sống hôn nhân",
+          "words": [
+            { "id": "zh-topic-lm-jiehunjinianri", "headword": "结婚纪念日", "reading": "jiéhūn jìniànrì", "meaningVn": "ngày kỉ niệm kết hôn", "example": "今天是结婚纪念日。", "exampleVn": "Hôm nay là ngày kỉ niệm kết hôn." },
+            {
+              "id": "zh-topic-lm-shengchan",
+              "headword": "生产",
+              "reading": "shēngchǎn",
+              "meaningVn": "sinh con",
+              "example": "预产期到了。",
+              "exampleVn": "Đó là ngày dự sinh.",
+              "children": [
+                { "id": "zh-topic-lm-chushenglv", "headword": "出生率", "reading": "chūshēnglǜ", "meaningVn": "tỉ lệ sinh", "example": "出生率在下降。", "exampleVn": "Tỉ lệ sinh đang giảm." },
+                { "id": "zh-topic-lm-sheng", "headword": "生", "reading": "shēng", "meaningVn": "sinh, đẻ con", "example": "她生了一个女儿。", "exampleVn": "Cô ấy đã sinh con gái." }
+              ]
+            },
+            {
+              "id": "zh-topic-lm-xinhun",
+              "headword": "新婚",
+              "reading": "xīnhūn",
+              "meaningVn": "mới cưới",
+              "example": "新婚生活很幸福。",
+              "exampleVn": "Cuộc sống mới cưới rất hạnh phúc.",
+              "children": [
+                { "id": "zh-topic-lm-xinlang", "headword": "新郎", "reading": "xīnláng", "meaningVn": "chú rể", "example": "新郎很帅。", "exampleVn": "Chú rể rất đẹp trai." },
+                { "id": "zh-topic-lm-xinniang", "headword": "新娘", "reading": "xīnniáng", "meaningVn": "cô dâu", "example": "新娘很漂亮。", "exampleVn": "Cô dâu rất đẹp." }
+              ]
+            },
+            { "id": "zh-topic-lm-huaiyun", "headword": "怀孕", "reading": "huáiyùn", "meaningVn": "mang thai", "example": "她怀孕了。", "exampleVn": "Cô ấy đã mang thai." },
+            { "id": "zh-topic-lm-yunfu", "headword": "孕妇", "reading": "yùnfù", "meaningVn": "phụ nữ mang thai", "example": "孕妇应该注意健康。", "exampleVn": "Phụ nữ mang thai cần cẩn thận về sức khoẻ." },
+            { "id": "zh-topic-lm-yuer", "headword": "育儿", "reading": "yù'ér", "meaningVn": "nuôi con", "example": "育儿很辛苦。", "exampleVn": "Nuôi con rất vất vả." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-topic-weather-season-1",
+      "language": "zh",
+      "titleNative": "天气与季节1",
+      "titleVn": "Thời tiết và mùa 1",
+      "branches": [
+        {
+          "id": "spring",
+          "titleNative": "春天",
+          "titleVn": "Mùa xuân",
+          "words": [
+            { "id": "zh-topic-ws-ronghua", "headword": "融化", "reading": "rónghuà", "meaningVn": "tan chảy", "example": "雪融化了。", "exampleVn": "Tuyết đã tan chảy." },
+            { "id": "zh-topic-ws-shachen", "headword": "沙尘", "reading": "shāchén", "meaningVn": "bụi vàng", "example": "春天沙尘很严重。", "exampleVn": "Mùa xuân bụi vàng rất nặng." }
+          ]
+        },
+        {
+          "id": "autumn",
+          "titleNative": "秋天",
+          "titleVn": "Mùa thu",
+          "words": [
+            { "id": "zh-topic-ws-luoye", "headword": "落叶", "reading": "luòyè", "meaningVn": "lá rụng", "example": "落叶飘落。", "exampleVn": "Lá rụng xuống." },
+            { "id": "zh-topic-ws-hongye", "headword": "红叶", "reading": "hóngyè", "meaningVn": "lá phong (đỏ)", "example": "红叶很美。", "exampleVn": "Lá phong đỏ rất đẹp." },
+            { "id": "zh-topic-ws-liangshuang", "headword": "凉爽", "reading": "liángshuǎng", "meaningVn": "mát mẻ, se lạnh", "example": "秋天的天气很凉爽。", "exampleVn": "Thời tiết mùa thu mát mẻ." },
+            { "id": "zh-topic-ws-qingshuang", "headword": "清爽", "reading": "qīngshuǎng", "meaningVn": "mát mẻ, dễ chịu", "example": "风很清爽。", "exampleVn": "Gió mát mẻ dễ chịu." },
+            { "id": "zh-topic-ws-weiliang", "headword": "微凉", "reading": "wēiliáng", "meaningVn": "se lạnh, hơi rét", "example": "早上有点微凉。", "exampleVn": "Buổi sáng se lạnh hơi rét." }
+          ]
+        },
+        {
+          "id": "weather-forecast",
+          "titleNative": "天气预报",
+          "titleVn": "Dự báo thời tiết",
+          "words": [
+            { "id": "zh-topic-ws-quanguoxing", "headword": "全国性", "reading": "quánguóxìng", "meaningVn": "trên toàn quốc", "example": "全国性降雨。", "exampleVn": "Mưa trên toàn quốc." },
+            { "id": "zh-topic-ws-huanji", "headword": "换季", "reading": "huànjì", "meaningVn": "giai đoạn chuyển mùa", "example": "换季的时候要注意感冒。", "exampleVn": "Vào giai đoạn chuyển mùa hãy cẩn thận cảm cúm." },
+            {
+              "id": "zh-topic-ws-tianqi",
+              "headword": "天气",
+              "reading": "tiānqì",
+              "meaningVn": "thời tiết",
+              "example": "今天天气很好。",
+              "exampleVn": "Hôm nay thời tiết đẹp.",
+              "children": [
+                { "id": "zh-topic-ws-fangqing", "headword": "放晴", "reading": "fàngqíng", "meaningVn": "tạnh ráo, trời quang", "example": "雨停了，天放晴了。", "exampleVn": "Mưa tạnh và trời quang đãng." },
+                { "id": "zh-topic-ws-shuangkuai", "headword": "爽快", "reading": "shuǎngkuài", "meaningVn": "sảng khoái, dễ chịu", "example": "早上的空气很爽快。", "exampleVn": "Không khí buổi sáng sảng khoái." },
+                { "id": "zh-topic-ws-qinglang", "headword": "晴朗", "reading": "qínglǎng", "meaningVn": "trời quang đãng, đẹp trời", "example": "天气很晴朗。", "exampleVn": "Trời quang đãng đẹp." }
+              ]
+            },
+            {
+              "id": "zh-topic-ws-qihou",
+              "headword": "气候",
+              "reading": "qìhòu",
+              "meaningVn": "khí hậu",
+              "example": "中国的气候四季分明。",
+              "exampleVn": "Khí hậu Trung Quốc có 4 mùa rõ rệt.",
+              "children": [
+                { "id": "zh-topic-ws-jiangshuiliang", "headword": "降水量", "reading": "jiàngshuǐliàng", "meaningVn": "lượng mưa", "example": "今年降水量很大。", "exampleVn": "Lượng mưa năm nay nhiều." },
+                { "id": "zh-topic-ws-shidu", "headword": "湿度", "reading": "shīdù", "meaningVn": "độ ẩm", "example": "湿度很高。", "exampleVn": "Độ ẩm cao." },
+                { "id": "zh-topic-ws-wu", "headword": "雾", "reading": "wù", "meaningVn": "sương mù", "example": "早上起雾了。", "exampleVn": "Buổi sáng có sương mù." },
+                {
+                  "id": "zh-topic-ws-qiwen",
+                  "headword": "气温",
+                  "reading": "qìwēn",
+                  "meaningVn": "nhiệt độ",
+                  "example": "今天气温很高。",
+                  "exampleVn": "Hôm nay nhiệt độ cao.",
+                  "children": [
+                    { "id": "zh-topic-ws-zuidi", "headword": "最低", "reading": "zuìdī", "meaningVn": "thấp nhất", "example": "这是今天的最低气温。", "exampleVn": "Đó là nhiệt độ thấp nhất hôm nay." },
+                    { "id": "zh-topic-ws-du", "headword": "度", "reading": "dù", "meaningVn": "độ", "example": "气温是25度。", "exampleVn": "Nhiệt độ là 25 độ." },
+                    { "id": "zh-topic-ws-zuigao", "headword": "最高", "reading": "zuìgāo", "meaningVn": "cao nhất", "example": "最高气温是30度。", "exampleVn": "Nhiệt độ cao nhất là 30 độ." }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
