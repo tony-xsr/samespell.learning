@@ -1,0 +1,868 @@
+{
+  "language": "ja",
+  "label": "Chuỗi nối từ theo Kanji dùng chung (domino, âm On)",
+  "chains": [
+    {
+      "id": "ja-chain-gakusei-seikatsu-katsudou",
+      "language": "ja",
+      "kind": "chain",
+      "nodes": [
+        { "headword": "学生", "reading": "gakusei", "hanViet": "học sinh", "meaningVn": "học sinh, sinh viên", "sharedCharPrev": null, "sharedCharNext": "生" },
+        { "headword": "生活", "reading": "seikatsu", "hanViet": "sinh hoạt", "meaningVn": "đời sống, sinh hoạt", "sharedCharPrev": "生", "sharedCharNext": "活" },
+        { "headword": "活動", "reading": "katsudou", "hanViet": "hoạt động", "meaningVn": "hoạt động", "sharedCharPrev": "活", "sharedCharNext": "動" },
+        { "headword": "動物", "reading": "doubutsu", "hanViet": "động vật", "meaningVn": "động vật", "sharedCharPrev": "動", "sharedCharNext": "物" },
+        { "headword": "物価", "reading": "bukka", "hanViet": "vật giá", "meaningVn": "giá cả (thị trường)", "sharedCharPrev": "物", "sharedCharNext": "価" },
+        { "headword": "価値", "reading": "kachi", "hanViet": "giá trị", "meaningVn": "giá trị", "sharedCharPrev": "価", "sharedCharNext": null }
+      ],
+      "note": "Domino 6 mắt xích qua 生→活→動→物→価. Chú ý 物価 đọc \"ぶっか\" (không phải ぶつか) — biến âm bề mặt (促音便), không đổi bản chất chữ 物. Dừng ở 価値 vì 値 trong từ tiếp theo (vd 値段=ねだん) đổi sang âm huấn ね, khác âm 値=ち ở đây — không nối tiếp để tránh lẫn 2 cách đọc."
+    },
+    {
+      "id": "ja-chain-bunka-kagaku-gakkou",
+      "language": "ja",
+      "kind": "chain",
+      "nodes": [
+        { "headword": "文化", "reading": "bunka", "hanViet": "văn hoá", "meaningVn": "văn hoá", "sharedCharPrev": null, "sharedCharNext": "化" },
+        { "headword": "化学", "reading": "kagaku", "hanViet": "hoá học", "meaningVn": "hoá học", "sharedCharPrev": "化", "sharedCharNext": "学" },
+        { "headword": "学校", "reading": "gakkou", "hanViet": "học hiệu", "meaningVn": "trường học", "sharedCharPrev": "学", "sharedCharNext": "校" },
+        { "headword": "校長", "reading": "kouchou", "hanViet": "hiệu trưởng", "meaningVn": "hiệu trưởng", "sharedCharPrev": "校", "sharedCharNext": "長" },
+        { "headword": "長期", "reading": "chouki", "hanViet": "trường kỳ", "meaningVn": "dài hạn, lâu dài", "sharedCharPrev": "長", "sharedCharNext": "期" },
+        { "headword": "期待", "reading": "kitai", "hanViet": "kỳ đãi", "meaningVn": "mong đợi, kỳ vọng", "sharedCharPrev": "期", "sharedCharNext": "待" },
+        { "headword": "待遇", "reading": "taiguu", "hanViet": "đãi ngộ", "meaningVn": "đãi ngộ", "sharedCharPrev": "待", "sharedCharNext": null }
+      ],
+      "note": "Domino 7 mắt xích qua 化→学→校→長→期→待. Chú ý 学校 đọc \"がっこう\" (không phải がくこう) — biến âm bề mặt (促音便) ở riêng bước này, không đổi bản chất chữ 学 dùng chung."
+    },
+    {
+      "id": "ja-chain-daigaku-gakunen-gakuhi",
+      "language": "ja",
+      "kind": "chain",
+      "nodes": [
+        { "headword": "大学", "reading": "daigaku", "hanViet": "đại học", "meaningVn": "trường đại học", "sharedCharPrev": null, "sharedCharNext": "学" },
+        { "headword": "学年", "reading": "gakunen", "hanViet": "học niên", "meaningVn": "năm học, khối lớp", "sharedCharPrev": "学", "sharedCharNext": "年" },
+        { "headword": "年収", "reading": "nenshuu", "hanViet": "niên thu", "meaningVn": "thu nhập hàng năm", "sharedCharPrev": "年", "sharedCharNext": "収" },
+        { "headword": "収入", "reading": "shuunyuu", "hanViet": "thu nhập", "meaningVn": "thu nhập", "sharedCharPrev": "収", "sharedCharNext": "入" },
+        { "headword": "入学", "reading": "nyuugaku", "hanViet": "nhập học", "meaningVn": "nhập học", "sharedCharPrev": "入", "sharedCharNext": "学" },
+        { "headword": "学費", "reading": "gakuhi", "hanViet": "học phí", "meaningVn": "học phí", "sharedCharPrev": "学", "sharedCharNext": "費" },
+        { "headword": "費用", "reading": "hiyou", "hanViet": "phí dụng", "meaningVn": "chi phí", "sharedCharPrev": "費", "sharedCharNext": "用" },
+        { "headword": "用途", "reading": "youto", "hanViet": "dụng đồ", "meaningVn": "công dụng, mục đích sử dụng", "sharedCharPrev": "用", "sharedCharNext": null }
+      ],
+      "note": "Domino 8 mắt xích qua 学→年→収→入→学→費→用 (nối dài thêm từ bản 6 mắt xích trước đó; chữ 学 xuất hiện 2 lần ở 2 vị trí khác nhau, vẫn hợp lệ). Đã đổi hướng so với bản đầu (không dùng 年末 vì 末 đứng đầu từ mới sẽ biến âm まつ→まっ giống trường hợp 学校, chọn nhánh 年収 để giữ âm on-yomi nhất quán)."
+    },
+    {
+      "id": "ja-chain-kakudai-daishou-shousetsu",
+      "language": "ja",
+      "kind": "chain",
+      "nodes": [
+        { "headword": "拡大", "reading": "kakudai", "hanViet": "khuếch đại", "meaningVn": "mở rộng, phóng to", "sharedCharPrev": null, "sharedCharNext": "大" },
+        { "headword": "大小", "reading": "daishou", "hanViet": "đại tiểu", "meaningVn": "kích cỡ, to nhỏ", "sharedCharPrev": "大", "sharedCharNext": "小" },
+        { "headword": "小説", "reading": "shousetsu", "hanViet": "tiểu thuyết", "meaningVn": "tiểu thuyết", "sharedCharPrev": "小", "sharedCharNext": "説" },
+        { "headword": "説明", "reading": "setsumei", "hanViet": "thuyết minh", "meaningVn": "giải thích", "sharedCharPrev": "説", "sharedCharNext": "明" },
+        { "headword": "明確", "reading": "meikaku", "hanViet": "minh xác", "meaningVn": "rõ ràng, minh xác", "sharedCharPrev": "明", "sharedCharNext": "確" },
+        { "headword": "確認", "reading": "kakunin", "hanViet": "xác nhận", "meaningVn": "xác nhận", "sharedCharPrev": "確", "sharedCharNext": "認" },
+        { "headword": "認識", "reading": "ninshiki", "hanViet": "nhận thức", "meaningVn": "nhận thức", "sharedCharPrev": "認", "sharedCharNext": null }
+      ],
+      "note": "Domino 7 mắt xích qua 大→小→説→明→確→認 (nối dài thêm từ bản 6 mắt xích trước đó)."
+    },
+    {
+      "id": "ja-chain-sonkei-keigo-gogaku",
+      "language": "ja",
+      "kind": "chain",
+      "nodes": [
+        { "headword": "尊敬", "reading": "sonkei", "hanViet": "tôn kính", "meaningVn": "kính trọng ở mức cao", "sharedCharPrev": null, "sharedCharNext": "敬" },
+        { "headword": "敬語", "reading": "keigo", "hanViet": "kính ngữ", "meaningVn": "kính ngữ — cách nói lịch sự/tôn kính trong tiếng Nhật", "sharedCharPrev": "敬", "sharedCharNext": "語" },
+        { "headword": "語学", "reading": "gogaku", "hanViet": "ngữ học", "meaningVn": "việc học ngoại ngữ", "sharedCharPrev": "語", "sharedCharNext": "学" },
+        { "headword": "学習", "reading": "gakushuu", "hanViet": "học tập", "meaningVn": "học tập", "sharedCharPrev": "学", "sharedCharNext": "習" },
+        { "headword": "習慣", "reading": "shuukan", "hanViet": "tập quán", "meaningVn": "thói quen", "sharedCharPrev": "習", "sharedCharNext": "慣" },
+        { "headword": "慣用句", "reading": "kanyouku", "hanViet": "quán dụng cú", "meaningVn": "thành ngữ, cụm từ quen dùng", "sharedCharPrev": "慣", "sharedCharNext": null }
+      ],
+      "note": "Domino 6 mắt xích qua 敬→語→学→習→慣. 慣用句 dài 3 chữ nhưng vẫn nối hợp lệ vì chữ ĐẦU 慣 khớp đúng chữ ĐUÔI của 習慣."
+    },
+    {
+      "id": "ja-chain-shakai-kaigi-giron",
+      "language": "ja",
+      "kind": "chain",
+      "nodes": [
+        { "headword": "社会", "reading": "shakai", "hanViet": "xã hội", "meaningVn": "xã hội", "sharedCharPrev": null, "sharedCharNext": "会" },
+        { "headword": "会議", "reading": "kaigi", "hanViet": "hội nghị", "meaningVn": "cuộc họp, hội nghị", "sharedCharPrev": "会", "sharedCharNext": "議" },
+        { "headword": "議論", "reading": "giron", "hanViet": "nghị luận", "meaningVn": "tranh luận", "sharedCharPrev": "議", "sharedCharNext": "論" },
+        { "headword": "論文", "reading": "ronbun", "hanViet": "luận văn", "meaningVn": "luận văn", "sharedCharPrev": "論", "sharedCharNext": "文" },
+        { "headword": "文法", "reading": "bunpou", "hanViet": "văn pháp", "meaningVn": "ngữ pháp", "sharedCharPrev": "文", "sharedCharNext": "法" },
+        { "headword": "法律", "reading": "houritsu", "hanViet": "pháp luật", "meaningVn": "pháp luật", "sharedCharPrev": "法", "sharedCharNext": "律" },
+        { "headword": "律動", "reading": "ritsudou", "hanViet": "luật động", "meaningVn": "nhịp điệu, vận động nhịp nhàng", "sharedCharPrev": "律", "sharedCharNext": null }
+      ],
+      "note": "Domino 7 mắt xích qua 会→議→論→文→法→律 (nối dài thêm từ bản 6 mắt xích trước đó, round 26). Đã đổi hướng so với bản đầu (nghị viên 議員 rất hiếm khi đứng đầu 1 từ ghép khác) sang nhánh 議論 để nối dài tiếp được."
+    },
+    {
+      "id": "ja-chain-kankyou-kyoukai-kaiwai",
+      "language": "ja",
+      "kind": "chain",
+      "nodes": [
+        { "headword": "環境", "reading": "kankyou", "hanViet": "hoàn cảnh", "meaningVn": "môi trường, hoàn cảnh", "sharedCharPrev": null, "sharedCharNext": "境" },
+        { "headword": "境界", "reading": "kyoukai", "hanViet": "cảnh giới", "meaningVn": "ranh giới", "sharedCharPrev": "境", "sharedCharNext": "界" },
+        { "headword": "界隈", "reading": "kaiwai", "hanViet": "giới ôi", "meaningVn": "vùng lân cận, khu vực xung quanh", "sharedCharPrev": "界", "sharedCharNext": null }
+      ],
+      "note": "Domino 3 mắt xích qua 境→界."
+    },
+    {
+      "id": "ja-chain-junbi-bihin-shitsumon",
+      "language": "ja",
+      "kind": "chain",
+      "nodes": [
+        { "headword": "準備", "reading": "junbi", "hanViet": "chuẩn bị", "meaningVn": "chuẩn bị", "sharedCharPrev": null, "sharedCharNext": "備" },
+        { "headword": "備品", "reading": "bihin", "hanViet": "bị phẩm", "meaningVn": "vật dụng, trang thiết bị", "sharedCharPrev": "備", "sharedCharNext": "品" },
+        { "headword": "品質", "reading": "hinshitsu", "hanViet": "phẩm chất", "meaningVn": "chất lượng", "sharedCharPrev": "品", "sharedCharNext": "質" },
+        { "headword": "質問", "reading": "shitsumon", "hanViet": "chất vấn", "meaningVn": "câu hỏi", "sharedCharPrev": "質", "sharedCharNext": "問" },
+        { "headword": "問題", "reading": "mondai", "hanViet": "vấn đề", "meaningVn": "vấn đề", "sharedCharPrev": "問", "sharedCharNext": "題" },
+        { "headword": "題材", "reading": "daizai", "hanViet": "đề tài", "meaningVn": "đề tài, chủ đề sáng tác", "sharedCharPrev": "題", "sharedCharNext": "材" },
+        { "headword": "材料", "reading": "zairyou", "hanViet": "tài liệu", "meaningVn": "nguyên liệu, vật liệu", "sharedCharPrev": "材", "sharedCharNext": "料" },
+        { "headword": "料金", "reading": "ryoukin", "hanViet": "liệu kim", "meaningVn": "phí, cước phí", "sharedCharPrev": "料", "sharedCharNext": "金" },
+        { "headword": "金額", "reading": "kingaku", "hanViet": "kim ngạch", "meaningVn": "số tiền", "sharedCharPrev": "金", "sharedCharNext": null }
+      ],
+      "note": "Domino 9 mắt xích qua 備→品→質→問→題→材→料→金 (nối dài thêm từ bản 8 mắt xích trước đó). Chuỗi tiếng Hàn tương ứng (ko-chain-junbi-bipum-mokjeok) rẽ hướng khác sau 備品 để tránh trùng dữ liệu với 1 chuỗi Hàn khác — không còn khớp 1-1 với chuỗi này."
+    },
+    {
+      "id": "ja-chain-koutsuu-tsuuchi-chishiki",
+      "language": "ja",
+      "kind": "chain",
+      "nodes": [
+        { "headword": "交通", "reading": "koutsuu", "hanViet": "giao thông", "meaningVn": "giao thông", "sharedCharPrev": null, "sharedCharNext": "通" },
+        { "headword": "通知", "reading": "tsuuchi", "hanViet": "thông tri", "meaningVn": "thông báo", "sharedCharPrev": "通", "sharedCharNext": "知" },
+        { "headword": "知識", "reading": "chishiki", "hanViet": "tri thức", "meaningVn": "tri thức, kiến thức", "sharedCharPrev": "知", "sharedCharNext": "識" },
+        { "headword": "識別", "reading": "shikibetsu", "hanViet": "thức biệt", "meaningVn": "phân biệt, nhận dạng", "sharedCharPrev": "識", "sharedCharNext": "別" },
+        { "headword": "別荘", "reading": "bessou", "hanViet": "biệt trang", "meaningVn": "biệt thự (nghỉ dưỡng)", "sharedCharPrev": "別", "sharedCharNext": null }
+      ],
+      "note": "Domino 5 mắt xích qua 通→知→識→別 (nối dài thêm từ bản 3 mắt xích trước đó). 別荘 đọc べっそう có xúc âm 促音便 (っ)."
+    },
+    {
+      "id": "ja-chain-kaiwa-wadai-daimei",
+      "language": "ja",
+      "kind": "chain",
+      "nodes": [
+        { "headword": "会話", "reading": "kaiwa", "hanViet": "hội thoại", "meaningVn": "hội thoại", "sharedCharPrev": null, "sharedCharNext": "話" },
+        { "headword": "話題", "reading": "wadai", "hanViet": "thoại đề", "meaningVn": "chủ đề nói chuyện", "sharedCharPrev": "話", "sharedCharNext": "題" },
+        { "headword": "題名", "reading": "daimei", "hanViet": "đề danh", "meaningVn": "tên đề mục, tựa đề", "sharedCharPrev": "題", "sharedCharNext": "名" },
+        { "headword": "名前", "reading": "namae", "hanViet": "danh tiền", "meaningVn": "tên gọi", "sharedCharPrev": "名", "sharedCharNext": "前" },
+        { "headword": "前提", "reading": "zentei", "hanViet": "tiền đề", "meaningVn": "tiền đề, điều kiện tiên quyết", "sharedCharPrev": "前", "sharedCharNext": "提" },
+        { "headword": "提案", "reading": "teian", "hanViet": "đề án", "meaningVn": "đề án, đề xuất", "sharedCharPrev": "提", "sharedCharNext": "案" },
+        { "headword": "案内", "reading": "annai", "hanViet": "án nội", "meaningVn": "hướng dẫn" , "sharedCharPrev": "案", "sharedCharNext": "内" },
+        { "headword": "内容", "reading": "naiyou", "hanViet": "nội dung", "meaningVn": "nội dung", "sharedCharPrev": "内", "sharedCharNext": "容" },
+        { "headword": "容器", "reading": "youki", "hanViet": "dung khí", "meaningVn": "vật chứa, hộp đựng", "sharedCharPrev": "容", "sharedCharNext": "器" },
+        { "headword": "器具", "reading": "kigu", "hanViet": "khí cụ", "meaningVn": "dụng cụ", "sharedCharPrev": "器", "sharedCharNext": "具" },
+        { "headword": "具体", "reading": "gutai", "hanViet": "cụ thể", "meaningVn": "cụ thể", "sharedCharPrev": "具", "sharedCharNext": "体" },
+        { "headword": "体験", "reading": "taiken", "hanViet": "thể nghiệm", "meaningVn": "trải nghiệm", "sharedCharPrev": "体", "sharedCharNext": null }
+      ],
+      "note": "Domino 12 mắt xích qua 話→題→名→前→提→案→内→容→器→具→体 (nối dài thêm từ bản 10 mắt xích trước đó, round 12). 名前 đọc \"namae\" là từ ghép huấn độc (kun-yomi thuần), khác các mắt xích còn lại đều là âm Hán (on-yomi) — vẫn nối được vì chung đúng 1 chữ Hán 名."
+    },
+    {
+      "id": "ja-chain-byouin-inchou-chounan",
+      "language": "ja",
+      "kind": "chain",
+      "nodes": [
+        { "headword": "病院", "reading": "byouin", "hanViet": "bệnh viện", "meaningVn": "bệnh viện", "sharedCharPrev": null, "sharedCharNext": "院" },
+        { "headword": "院長", "reading": "inchou", "hanViet": "viện trưởng", "meaningVn": "viện trưởng", "sharedCharPrev": "院", "sharedCharNext": "長" },
+        { "headword": "長男", "reading": "chounan", "hanViet": "trưởng nam", "meaningVn": "con trai cả", "sharedCharPrev": "長", "sharedCharNext": "男" },
+        { "headword": "男性", "reading": "dansei", "hanViet": "nam tính", "meaningVn": "nam giới, phái nam", "sharedCharPrev": "男", "sharedCharNext": "性" },
+        { "headword": "性格", "reading": "seikaku", "hanViet": "tính cách", "meaningVn": "tính cách", "sharedCharPrev": "性", "sharedCharNext": "格" },
+        { "headword": "格好", "reading": "kakkou", "hanViet": "cách hảo", "meaningVn": "vẻ ngoài, hình dáng, ra dáng", "sharedCharPrev": "格", "sharedCharNext": "好" },
+        { "headword": "好調", "reading": "kouchou", "hanViet": "hảo điều", "meaningVn": "tình trạng tốt, thuận lợi", "sharedCharPrev": "好", "sharedCharNext": "調" },
+        { "headword": "調査", "reading": "chousa", "hanViet": "điều tra", "meaningVn": "điều tra, khảo sát", "sharedCharPrev": "調", "sharedCharNext": "査" },
+        { "headword": "査定", "reading": "satei", "hanViet": "tra định", "meaningVn": "thẩm định, đánh giá", "sharedCharPrev": "査", "sharedCharNext": "定" },
+        { "headword": "定価", "reading": "teika", "hanViet": "định giá", "meaningVn": "giá niêm yết", "sharedCharPrev": "定", "sharedCharNext": "価" },
+        { "headword": "価格", "reading": "kakaku", "hanViet": "giá cách", "meaningVn": "giá cả", "sharedCharPrev": "価", "sharedCharNext": null }
+      ],
+      "note": "Domino 11 mắt xích qua 院→長→男→性→格→好→調→査→定→価 (nối dài thêm từ bản 10 mắt xích trước đó, round 12). 格好 đọc かっこう có xúc âm 促音便 (っ)."
+    },
+    {
+      "id": "ja-chain-eiga-gamen-setsuzoku",
+      "language": "ja",
+      "kind": "chain",
+      "nodes": [
+        { "headword": "映画", "reading": "eiga", "hanViet": "ánh hoạ", "meaningVn": "phim ảnh", "sharedCharPrev": null, "sharedCharNext": "画" },
+        { "headword": "画面", "reading": "gamen", "hanViet": "hoạ diện", "meaningVn": "màn hình", "sharedCharPrev": "画", "sharedCharNext": "面" },
+        { "headword": "面接", "reading": "mensetsu", "hanViet": "diện tiếp", "meaningVn": "phỏng vấn", "sharedCharPrev": "面", "sharedCharNext": "接" },
+        { "headword": "接続", "reading": "setsuzoku", "hanViet": "tiếp tục", "meaningVn": "kết nối", "sharedCharPrev": "接", "sharedCharNext": "続" },
+        { "headword": "続編", "reading": "zokuhen", "hanViet": "tục biên", "meaningVn": "phần tiếp theo (phim/truyện)", "sharedCharPrev": "続", "sharedCharNext": "編" },
+        { "headword": "編集", "reading": "henshuu", "hanViet": "biên tập", "meaningVn": "biên tập", "sharedCharPrev": "編", "sharedCharNext": "集" },
+        { "headword": "集中", "reading": "shuuchuu", "hanViet": "tập trung", "meaningVn": "tập trung", "sharedCharPrev": "集", "sharedCharNext": "中" },
+        { "headword": "中心", "reading": "chuushin", "hanViet": "trung tâm", "meaningVn": "trung tâm", "sharedCharPrev": "中", "sharedCharNext": "心" },
+        { "headword": "心情", "reading": "shinjou", "hanViet": "tâm tình", "meaningVn": "tâm trạng", "sharedCharPrev": "心", "sharedCharNext": "情" },
+        { "headword": "情熱", "reading": "jounetsu", "hanViet": "tình nhiệt", "meaningVn": "nhiệt huyết", "sharedCharPrev": "情", "sharedCharNext": "熱" },
+        { "headword": "熱心", "reading": "nesshin", "hanViet": "nhiệt tâm", "meaningVn": "nhiệt tình, chăm chỉ", "sharedCharPrev": "熱", "sharedCharNext": null }
+      ],
+      "note": "Domino 11 mắt xích qua 画→面→接→続→編→集→中→心→情→熱 (nối dài thêm từ bản 10 mắt xích trước đó). Chữ 画 đọc \"が\" nhất quán ở cả 映画 và 画面 — tránh dùng nhánh 計画 (画 đọc かく) để không lẫn 2 âm on-yomi khác nhau của cùng 1 chữ."
+    },
+    {
+      "id": "ja-chain-ryokou-koudou-douryoku",
+      "language": "ja",
+      "kind": "chain",
+      "nodes": [
+        { "headword": "旅行", "reading": "ryokou", "hanViet": "lữ hành", "meaningVn": "du lịch", "sharedCharPrev": null, "sharedCharNext": "行" },
+        { "headword": "行動", "reading": "koudou", "hanViet": "hành động", "meaningVn": "hành động", "sharedCharPrev": "行", "sharedCharNext": "動" },
+        { "headword": "動力", "reading": "douryoku", "hanViet": "động lực", "meaningVn": "động lực", "sharedCharPrev": "動", "sharedCharNext": "力" },
+        { "headword": "力量", "reading": "rikiryou", "hanViet": "lực lượng", "meaningVn": "năng lực, khả năng", "sharedCharPrev": "力", "sharedCharNext": "量" },
+        { "headword": "量産", "reading": "ryousan", "hanViet": "lượng sản", "meaningVn": "sản xuất hàng loạt", "sharedCharPrev": "量", "sharedCharNext": "産" },
+        { "headword": "産業", "reading": "sangyou", "hanViet": "sản nghiệp", "meaningVn": "công nghiệp, ngành nghề", "sharedCharPrev": "産", "sharedCharNext": "業" },
+        { "headword": "業務", "reading": "gyoumu", "hanViet": "nghiệp vụ", "meaningVn": "công việc, nghiệp vụ", "sharedCharPrev": "業", "sharedCharNext": null }
+      ],
+      "note": "Domino 7 mắt xích qua 行→動→力→量→産→業 (nối dài thêm từ bản 6 mắt xích trước đó, round 22). Chữ 力 đổi âm on-yomi giữa các từ: どうりょく (動力) dùng りょく, còn 力量 lại đọc りきりょう (りき) — vẫn cùng 1 chữ Hán 力, chỉ khác âm đọc theo từ ghép."
+    },
+    {
+      "id": "ja-chain-ryokan-kannai-bubun",
+      "language": "ja",
+      "kind": "chain",
+      "nodes": [
+        { "headword": "旅館", "reading": "ryokan", "hanViet": "lữ quán", "meaningVn": "nhà trọ kiểu Nhật", "sharedCharPrev": null, "sharedCharNext": "館" },
+        { "headword": "館内", "reading": "kannai", "hanViet": "quán nội", "meaningVn": "trong toà nhà, trong cơ sở", "sharedCharPrev": "館", "sharedCharNext": "内" },
+        { "headword": "内部", "reading": "naibu", "hanViet": "nội bộ", "meaningVn": "nội bộ, bên trong", "sharedCharPrev": "内", "sharedCharNext": "部" },
+        { "headword": "部分", "reading": "bubun", "hanViet": "bộ phận", "meaningVn": "phần, bộ phận", "sharedCharPrev": "部", "sharedCharNext": "分" },
+        { "headword": "分野", "reading": "bun'ya", "hanViet": "phân dã", "meaningVn": "lĩnh vực, phạm vi", "sharedCharPrev": "分", "sharedCharNext": "野" },
+        { "headword": "野菜", "reading": "yasai", "hanViet": "dã thái", "meaningVn": "rau, rau củ", "sharedCharPrev": "野", "sharedCharNext": "菜" },
+        { "headword": "菜食", "reading": "saishoku", "hanViet": "thái thực", "meaningVn": "ăn chay, ăn rau", "sharedCharPrev": "菜", "sharedCharNext": null }
+      ],
+      "note": "Domino 7 mắt xích qua 館→内→部→分→野 (nối dài thêm từ bản 4 mắt xích trước đó)."
+    },
+    {
+      "id": "ja-chain-tenki-kikou-kouho",
+      "language": "ja",
+      "kind": "chain",
+      "nodes": [
+        { "headword": "天気", "reading": "tenki", "hanViet": "thiên khí", "meaningVn": "thời tiết", "sharedCharPrev": null, "sharedCharNext": "気" },
+        { "headword": "気候", "reading": "kikou", "hanViet": "khí hậu", "meaningVn": "khí hậu", "sharedCharPrev": "気", "sharedCharNext": "候" },
+        { "headword": "候補", "reading": "kouho", "hanViet": "hậu bổ", "meaningVn": "ứng viên, dự bị", "sharedCharPrev": "候", "sharedCharNext": "補" },
+        { "headword": "補充", "reading": "hojuu", "hanViet": "bổ sung", "meaningVn": "bổ sung", "sharedCharPrev": "補", "sharedCharNext": "充" },
+        { "headword": "充実", "reading": "juujitsu", "hanViet": "sung thực", "meaningVn": "sung túc, đầy đủ", "sharedCharPrev": "充", "sharedCharNext": "実" },
+        { "headword": "実際", "reading": "jissai", "hanViet": "thực tế", "meaningVn": "thực tế", "sharedCharPrev": "実", "sharedCharNext": "際" },
+        { "headword": "際限", "reading": "saigen", "hanViet": "tế hạn", "meaningVn": "giới hạn, hồi kết" , "sharedCharPrev": "際", "sharedCharNext": "限" },
+        { "headword": "限界", "reading": "genkai", "hanViet": "hạn giới", "meaningVn": "giới hạn" , "sharedCharPrev": "限", "sharedCharNext": null }
+      ],
+      "note": "Domino 8 mắt xích qua 気→候→補→充→実→際→限 (nối dài thêm từ bản 7 mắt xích trước đó, round 25)."
+    },
+    {
+      "id": "ja-chain-shokumotsu-butsuri-riyuu",
+      "language": "ja",
+      "kind": "chain",
+      "nodes": [
+        { "headword": "食物", "reading": "shokumotsu", "hanViet": "thực vật", "meaningVn": "thức ăn (trang trọng)", "sharedCharPrev": null, "sharedCharNext": "物" },
+        { "headword": "物理", "reading": "butsuri", "hanViet": "vật lý", "meaningVn": "vật lý", "sharedCharPrev": "物", "sharedCharNext": "理" },
+        { "headword": "理由", "reading": "riyuu", "hanViet": "lý do", "meaningVn": "lý do", "sharedCharPrev": "理", "sharedCharNext": "由" },
+        { "headword": "由来", "reading": "yurai", "hanViet": "do lai", "meaningVn": "nguồn gốc, lai lịch", "sharedCharPrev": "由", "sharedCharNext": "来" },
+        { "headword": "来年", "reading": "rainen", "hanViet": "lai niên", "meaningVn": "năm sau", "sharedCharPrev": "来", "sharedCharNext": "年" },
+        { "headword": "年齢", "reading": "nenrei", "hanViet": "niên linh", "meaningVn": "tuổi tác", "sharedCharPrev": "年", "sharedCharNext": null }
+      ],
+      "note": "Domino 6 mắt xích qua 物→理→由→来→年 (nối dài thêm từ bản 5 mắt xích trước đó, round 13)."
+    },
+    {
+      "id": "ja-chain-geijutsu-jutsugo-gogen",
+      "language": "ja",
+      "kind": "chain",
+      "nodes": [
+        { "headword": "芸術", "reading": "geijutsu", "hanViet": "nghệ thuật", "meaningVn": "nghệ thuật", "sharedCharPrev": null, "sharedCharNext": "術" },
+        { "headword": "術語", "reading": "jutsugo", "hanViet": "thuật ngữ", "meaningVn": "thuật ngữ", "sharedCharPrev": "術", "sharedCharNext": "語" },
+        { "headword": "語源", "reading": "gogen", "hanViet": "ngữ nguyên", "meaningVn": "từ nguyên", "sharedCharPrev": "語", "sharedCharNext": "源" },
+        { "headword": "源泉", "reading": "gensen", "hanViet": "nguyên tuyền", "meaningVn": "nguồn gốc (vd 源泉徴収 = khấu trừ tại nguồn)", "sharedCharPrev": "源", "sharedCharNext": "泉" },
+        { "headword": "泉質", "reading": "senshitsu", "hanViet": "tuyền chất", "meaningVn": "tính chất nước khoáng (thuật ngữ suối nước nóng)", "sharedCharPrev": "泉", "sharedCharNext": "質" },
+        { "headword": "質素", "reading": "shisso", "hanViet": "chất tố", "meaningVn": "giản dị", "sharedCharPrev": "質", "sharedCharNext": "素" },
+        { "headword": "素材", "reading": "sozai", "hanViet": "tố tài", "meaningVn": "nguyên liệu, chất liệu", "sharedCharPrev": "素", "sharedCharNext": "材" },
+        { "headword": "材木", "reading": "zaimoku", "hanViet": "tài mộc", "meaningVn": "gỗ, vật liệu gỗ", "sharedCharPrev": "材", "sharedCharNext": "木" },
+        { "headword": "木材", "reading": "mokuzai", "hanViet": "mộc tài", "meaningVn": "gỗ, vật liệu gỗ (cách nói khác)", "sharedCharPrev": "木", "sharedCharNext": null }
+      ],
+      "note": "Domino 9 mắt xích qua 術→語→源→泉→質→素→材→木 (nối dài thêm từ bản 8 mắt xích trước đó). 泉質 là thuật ngữ hơi chuyên biệt (suối nước nóng) nhưng vẫn thông dụng trong ngữ cảnh du lịch onsen. 材木 và 木材 đều nghĩa \"gỗ\" nhưng là 2 từ ghép khác thứ tự, cả 2 đều thông dụng."
+    },
+    {
+      "id": "ja-chain-ketsueki-ekitai-taijuu",
+      "language": "ja",
+      "kind": "chain",
+      "nodes": [
+        { "headword": "血液", "reading": "ketsueki", "hanViet": "huyết dịch", "meaningVn": "máu", "sharedCharPrev": null, "sharedCharNext": "液" },
+        { "headword": "液体", "reading": "ekitai", "hanViet": "dịch thể", "meaningVn": "chất lỏng", "sharedCharPrev": "液", "sharedCharNext": "体" },
+        { "headword": "体重", "reading": "taijuu", "hanViet": "thể trọng", "meaningVn": "cân nặng cơ thể", "sharedCharPrev": "体", "sharedCharNext": "重" },
+        { "headword": "重要", "reading": "juuyou", "hanViet": "trọng yếu", "meaningVn": "quan trọng", "sharedCharPrev": "重", "sharedCharNext": "要" },
+        { "headword": "要求", "reading": "youkyuu", "hanViet": "yêu cầu", "meaningVn": "yêu cầu", "sharedCharPrev": "要", "sharedCharNext": "求" },
+        { "headword": "求人", "reading": "kyuujin", "hanViet": "cầu nhân", "meaningVn": "tuyển dụng", "sharedCharPrev": "求", "sharedCharNext": "人" },
+        { "headword": "人生", "reading": "jinsei", "hanViet": "nhân sinh", "meaningVn": "cuộc đời, nhân sinh", "sharedCharPrev": "人", "sharedCharNext": "生" },
+        { "headword": "生涯", "reading": "shougai", "hanViet": "sinh nhai", "meaningVn": "cả cuộc đời, trọn đời", "sharedCharPrev": "生", "sharedCharNext": null }
+      ],
+      "note": "Domino 8 mắt xích qua 液→体→重→要→求→人→生 (nối dài thêm từ bản 5 mắt xích trước đó). Chữ 生 đa âm: せい (人生) vs しょう (生涯) — 2 mắt xích cuối đổi âm nhưng vẫn cùng 1 chữ Hán."
+    },
+    {
+      "id": "ja-chain-shinrin-ringyou-gyoukai",
+      "language": "ja",
+      "kind": "chain",
+      "nodes": [
+        { "headword": "森林", "reading": "shinrin", "hanViet": "sâm lâm", "meaningVn": "rừng", "sharedCharPrev": null, "sharedCharNext": "林" },
+        { "headword": "林業", "reading": "ringyou", "hanViet": "lâm nghiệp", "meaningVn": "lâm nghiệp", "sharedCharPrev": "林", "sharedCharNext": "業" },
+        { "headword": "業界", "reading": "gyoukai", "hanViet": "nghiệp giới", "meaningVn": "ngành nghề, giới (kinh doanh)", "sharedCharPrev": "業", "sharedCharNext": "界" },
+        { "headword": "界面", "reading": "kaimen", "hanViet": "giới diện", "meaningVn": "bề mặt tiếp giáp (thuật ngữ hoá/vật lý)", "sharedCharPrev": "界", "sharedCharNext": "面" },
+        { "headword": "面倒", "reading": "mendou", "hanViet": "diện đảo", "meaningVn": "phiền phức, rắc rối", "sharedCharPrev": "面", "sharedCharNext": "倒" },
+        { "headword": "倒産", "reading": "tousan", "hanViet": "đảo sản", "meaningVn": "phá sản", "sharedCharPrev": "倒", "sharedCharNext": "産" },
+        { "headword": "産地", "reading": "sanchi", "hanViet": "sản địa", "meaningVn": "nơi sản xuất", "sharedCharPrev": "産", "sharedCharNext": "地" },
+        { "headword": "地域", "reading": "chiiki", "hanViet": "địa vực", "meaningVn": "khu vực", "sharedCharPrev": "地", "sharedCharNext": null }
+      ],
+      "note": "Domino 8 mắt xích qua 林→業→界→面→倒→産→地 (nối dài thêm từ bản 6 mắt xích trước đó). 界面 là thuật ngữ hoá/vật lý (bề mặt tiếp giáp), hơi chuyên biệt hơn các từ khác trong chuỗi."
+    },
+    {
+      "id": "ja-chain-rekishi-shiryou-ryouri",
+      "language": "ja",
+      "kind": "chain",
+      "nodes": [
+        { "headword": "歴史", "reading": "rekishi", "hanViet": "lịch sử", "meaningVn": "lịch sử", "sharedCharPrev": null, "sharedCharNext": "史" },
+        { "headword": "史料", "reading": "shiryou", "hanViet": "sử liệu", "meaningVn": "sử liệu", "sharedCharPrev": "史", "sharedCharNext": "料" },
+        { "headword": "料理", "reading": "ryouri", "hanViet": "liệu lý", "meaningVn": "món ăn, nấu ăn", "sharedCharPrev": "料", "sharedCharNext": "理" },
+        { "headword": "理想", "reading": "risou", "hanViet": "lý tưởng", "meaningVn": "lý tưởng", "sharedCharPrev": "理", "sharedCharNext": "想" },
+        { "headword": "想像", "reading": "souzou", "hanViet": "tưởng tượng", "meaningVn": "tưởng tượng", "sharedCharPrev": "想", "sharedCharNext": null }
+      ],
+      "note": "Domino 5 mắt xích qua 史→料→理→想 (nối dài thêm từ bản 3 mắt xích trước đó)."
+    },
+    {
+      "id": "ja-chain-kanjou-jouhou-houkoku",
+      "language": "ja",
+      "kind": "chain",
+      "nodes": [
+        { "headword": "感情", "reading": "kanjou", "hanViet": "cảm tình", "meaningVn": "tình cảm", "sharedCharPrev": null, "sharedCharNext": "情" },
+        { "headword": "情報", "reading": "jouhou", "hanViet": "tình báo", "meaningVn": "thông tin", "sharedCharPrev": "情", "sharedCharNext": "報" },
+        { "headword": "報告", "reading": "houkoku", "hanViet": "báo cáo", "meaningVn": "báo cáo", "sharedCharPrev": "報", "sharedCharNext": "告" },
+        { "headword": "告白", "reading": "kokuhaku", "hanViet": "cáo bạch", "meaningVn": "thổ lộ, tỏ tình (告白する)", "sharedCharPrev": "告", "sharedCharNext": "白" },
+        { "headword": "白紙", "reading": "hakushi", "hanViet": "bạch chỉ", "meaningVn": "giấy trắng; nghĩa bóng: chưa quyết định gì", "sharedCharPrev": "白", "sharedCharNext": "紙" },
+        { "headword": "紙幣", "reading": "shihei", "hanViet": "chỉ tệ", "meaningVn": "tiền giấy", "sharedCharPrev": "紙", "sharedCharNext": null }
+      ],
+      "note": "Domino 6 mắt xích qua 情→報→告→白→紙 (nối dài thêm từ bản 3 mắt xích trước đó)."
+    },
+    {
+      "id": "ja-chain-kyouiku-ikuji-jidou",
+      "language": "ja",
+      "kind": "chain",
+      "nodes": [
+        { "headword": "教育", "reading": "kyouiku", "hanViet": "giáo dục", "meaningVn": "giáo dục", "sharedCharPrev": null, "sharedCharNext": "育" },
+        { "headword": "育児", "reading": "ikuji", "hanViet": "dục nhi", "meaningVn": "nuôi dạy con cái", "sharedCharPrev": "育", "sharedCharNext": "児" },
+        { "headword": "児童", "reading": "jidou", "hanViet": "nhi đồng", "meaningVn": "trẻ em", "sharedCharPrev": "児", "sharedCharNext": "童" },
+        { "headword": "童話", "reading": "douwa", "hanViet": "đồng thoại", "meaningVn": "truyện cổ tích, truyện thiếu nhi", "sharedCharPrev": "童", "sharedCharNext": "話" },
+        { "headword": "話術", "reading": "wajutsu", "hanViet": "thoại thuật", "meaningVn": "kỹ năng nói chuyện", "sharedCharPrev": "話", "sharedCharNext": "術" },
+        { "headword": "術後", "reading": "jutsugo", "hanViet": "thuật hậu", "meaningVn": "sau phẫu thuật", "sharedCharPrev": "術", "sharedCharNext": "後" },
+        { "headword": "後悔", "reading": "koukai", "hanViet": "hậu hối", "meaningVn": "hối hận", "sharedCharPrev": "後", "sharedCharNext": null }
+      ],
+      "note": "Domino 7 mắt xích qua 育→児→童→話→術→後 (nối dài thêm từ bản 5 mắt xích trước đó, round 22)."
+    },
+    {
+      "id": "ja-chain-shinpai-haitatsu-seikou",
+      "language": "ja",
+      "kind": "chain",
+      "nodes": [
+        { "headword": "心配", "reading": "shinpai", "hanViet": "tâm phối", "meaningVn": "lo lắng", "sharedCharPrev": null, "sharedCharNext": "配" },
+        { "headword": "配達", "reading": "haitatsu", "hanViet": "phối đạt", "meaningVn": "giao hàng, phát chuyển", "sharedCharPrev": "配", "sharedCharNext": "達" },
+        { "headword": "達成", "reading": "tassei", "hanViet": "đạt thành", "meaningVn": "đạt thành, đạt được", "sharedCharPrev": "達", "sharedCharNext": "成" },
+        { "headword": "成功", "reading": "seikou", "hanViet": "thành công", "meaningVn": "thành công", "sharedCharPrev": "成", "sharedCharNext": "功" },
+        { "headword": "功績", "reading": "kouseki", "hanViet": "công tích", "meaningVn": "thành tích, công lao", "sharedCharPrev": "功", "sharedCharNext": null }
+      ],
+      "note": "Domino 5 mắt xích qua 配→達→成→功 (nối dài thêm từ bản 4 mắt xích trước đó, round 12). 達成 đọc たっせい có xúc âm 促音便 (っ)."
+    },
+    {
+      "id": "ja-chain-kandou-douki-kikai",
+      "language": "ja",
+      "kind": "chain",
+      "nodes": [
+        { "headword": "感動", "reading": "kandou", "hanViet": "cảm động", "meaningVn": "cảm động", "sharedCharPrev": null, "sharedCharNext": "動" },
+        { "headword": "動機", "reading": "douki", "hanViet": "động cơ", "meaningVn": "động cơ, động lực", "sharedCharPrev": "動", "sharedCharNext": "機" },
+        { "headword": "機会", "reading": "kikai", "hanViet": "cơ hội", "meaningVn": "cơ hội", "sharedCharPrev": "機", "sharedCharNext": "会" },
+        { "headword": "会員", "reading": "kaiin", "hanViet": "hội viên", "meaningVn": "hội viên, thành viên", "sharedCharPrev": "会", "sharedCharNext": null }
+      ],
+      "note": "Domino 4 mắt xích qua 動→機→会. Chuỗi mới round 13, cùng lộ trình 動→機→会 như chuỗi tiếng Hàn ko-chain-gamdong-donggi-gihoe (round 12) — minh hoạ hán tự dùng chung xuyên ngôn ngữ."
+    },
+    {
+      "id": "ja-chain-kesshin-shinri-kaiketsu",
+      "language": "ja",
+      "kind": "chain",
+      "nodes": [
+        { "headword": "決心", "reading": "kesshin", "hanViet": "quyết tâm", "meaningVn": "quyết tâm", "sharedCharPrev": null, "sharedCharNext": "心" },
+        { "headword": "心理", "reading": "shinri", "hanViet": "tâm lý", "meaningVn": "tâm lý", "sharedCharPrev": "心", "sharedCharNext": "理" },
+        { "headword": "理解", "reading": "rikai", "hanViet": "lý giải", "meaningVn": "hiểu, lý giải", "sharedCharPrev": "理", "sharedCharNext": "解" },
+        { "headword": "解決", "reading": "kaiketsu", "hanViet": "giải quyết", "meaningVn": "giải quyết", "sharedCharPrev": "解", "sharedCharNext": "決" },
+        { "headword": "決定", "reading": "kettei", "hanViet": "quyết định", "meaningVn": "quyết định", "sharedCharPrev": "決", "sharedCharNext": "定" },
+        { "headword": "定義", "reading": "teigi", "hanViet": "định nghĩa", "meaningVn": "định nghĩa", "sharedCharPrev": "定", "sharedCharNext": "義" },
+        { "headword": "義務", "reading": "gimu", "hanViet": "nghĩa vụ", "meaningVn": "nghĩa vụ, trách nhiệm", "sharedCharPrev": "義", "sharedCharNext": null }
+      ],
+      "note": "Domino 7 mắt xích qua 心→理→解→決→定→義 (nối dài thêm từ bản 6 mắt xích trước đó, round 22). 決定 đọc けってい có xúc âm 促音便 (っ)."
+    },
+    {
+      "id": "ja-chain-jishin-shinyou-iken",
+      "language": "ja",
+      "kind": "chain",
+      "nodes": [
+        { "headword": "自信", "reading": "jishin", "hanViet": "tự tín", "meaningVn": "tự tin" , "sharedCharPrev": null, "sharedCharNext": "信" },
+        { "headword": "信用", "reading": "shinyou", "hanViet": "tín dụng", "meaningVn": "độ tin cậy, uy tín", "sharedCharPrev": "信", "sharedCharNext": "用" },
+        { "headword": "用意", "reading": "youi", "hanViet": "dụng ý", "meaningVn": "chuẩn bị", "sharedCharPrev": "用", "sharedCharNext": "意" },
+        { "headword": "意見", "reading": "iken", "hanViet": "ý kiến", "meaningVn": "ý kiến", "sharedCharPrev": "意", "sharedCharNext": "見" },
+        { "headword": "見学", "reading": "kengaku", "hanViet": "kiến học", "meaningVn": "tham quan học tập", "sharedCharPrev": "見", "sharedCharNext": "学" },
+        { "headword": "学問", "reading": "gakumon", "hanViet": "học vấn", "meaningVn": "học vấn", "sharedCharPrev": "学", "sharedCharNext": "問" },
+        { "headword": "問答", "reading": "mondou", "hanViet": "vấn đáp", "meaningVn": "hỏi đáp, đối thoại", "sharedCharPrev": "問", "sharedCharNext": "答" },
+        { "headword": "答案", "reading": "touan", "hanViet": "đáp án", "meaningVn": "bài làm, đáp án" , "sharedCharPrev": "答", "sharedCharNext": "案" },
+        { "headword": "案外", "reading": "angai", "hanViet": "án ngoại", "meaningVn": "ngoài dự đoán, bất ngờ thay", "sharedCharPrev": "案", "sharedCharNext": "外" },
+        { "headword": "外国", "reading": "gaikoku", "hanViet": "ngoại quốc", "meaningVn": "nước ngoài", "sharedCharPrev": "外", "sharedCharNext": null }
+      ],
+      "note": "Domino 10 mắt xích qua 信→用→意→見→学→問→答→案 (nối dài thêm từ bản 9 mắt xích trước đó, round 26)."
+    },
+    {
+      "id": "ja-chain-inshou-shouchou-choushuu",
+      "language": "ja",
+      "kind": "chain",
+      "nodes": [
+        { "headword": "印象", "reading": "inshou", "hanViet": "ấn tượng", "meaningVn": "ấn tượng", "sharedCharPrev": null, "sharedCharNext": "象" },
+        { "headword": "象徴", "reading": "shouchou", "hanViet": "tượng trưng", "meaningVn": "tượng trưng, biểu tượng", "sharedCharPrev": "象", "sharedCharNext": "徴" },
+        { "headword": "徴収", "reading": "choushuu", "hanViet": "trưng thu", "meaningVn": "thu (thuế, phí)", "sharedCharPrev": "徴", "sharedCharNext": "収" },
+        { "headword": "収集", "reading": "shuushuu", "hanViet": "thu tập", "meaningVn": "sưu tập, thu thập", "sharedCharPrev": "収", "sharedCharNext": "集" },
+        { "headword": "集合", "reading": "shuugou", "hanViet": "tập hợp", "meaningVn": "tập hợp", "sharedCharPrev": "集", "sharedCharNext": "合" },
+        { "headword": "合格", "reading": "goukaku", "hanViet": "hợp cách", "meaningVn": "đỗ, đạt", "sharedCharPrev": "合", "sharedCharNext": "格" },
+        { "headword": "格差", "reading": "kakusa", "hanViet": "cách sai", "meaningVn": "chênh lệch, khoảng cách (kinh tế xã hội)", "sharedCharPrev": "格", "sharedCharNext": null }
+      ],
+      "note": "Domino 7 mắt xích qua 象→徴→収→集→合→格 (nối dài thêm từ bản 5 mắt xích trước đó, round 16). 合格 đọc ごうかく có xúc âm 促音便 (っ)."
+    },
+    {
+      "id": "ja-chain-shashin-shinjitsu-jissen",
+      "language": "ja",
+      "kind": "chain",
+      "nodes": [
+        { "headword": "写真", "reading": "shashin", "hanViet": "tả chân", "meaningVn": "ảnh chụp", "sharedCharPrev": null, "sharedCharNext": "真" },
+        { "headword": "真実", "reading": "shinjitsu", "hanViet": "chân thực", "meaningVn": "chân thực, sự thật", "sharedCharPrev": "真", "sharedCharNext": "実" },
+        { "headword": "実践", "reading": "jissen", "hanViet": "thực tiễn", "meaningVn": "thực tiễn, thực hành", "sharedCharPrev": "実", "sharedCharNext": null }
+      ],
+      "note": "Domino 3 mắt xích qua 真→実. Chuỗi mới round 17, chủ đề ảnh chụp/sự thật."
+    },
+    {
+      "id": "ja-chain-chousen-sensou-sougi",
+      "language": "ja",
+      "kind": "chain",
+      "nodes": [
+        { "headword": "挑戦", "reading": "chousen", "hanViet": "khiêu chiến", "meaningVn": "thử thách" , "sharedCharPrev": null, "sharedCharNext": "戦" },
+        { "headword": "戦争", "reading": "sensou", "hanViet": "chiến tranh", "meaningVn": "chiến tranh", "sharedCharPrev": "戦", "sharedCharNext": "争" },
+        { "headword": "争議", "reading": "sougi", "hanViet": "tranh nghị", "meaningVn": "tranh chấp, tranh cãi", "sharedCharPrev": "争", "sharedCharNext": "議" },
+        { "headword": "議題", "reading": "gidai", "hanViet": "nghị đề", "meaningVn": "đề mục nghị sự", "sharedCharPrev": "議", "sharedCharNext": "題" },
+        { "headword": "題目", "reading": "daimoku", "hanViet": "đề mục", "meaningVn": "đề mục, tiêu đề", "sharedCharPrev": "題", "sharedCharNext": "目" },
+        { "headword": "目的", "reading": "mokuteki", "hanViet": "mục đích", "meaningVn": "mục đích", "sharedCharPrev": "目", "sharedCharNext": "的" },
+        { "headword": "的中", "reading": "tekichuu", "hanViet": "đích trúng", "meaningVn": "trúng đích, đoán trúng", "sharedCharPrev": "的", "sharedCharNext": null }
+      ],
+      "note": "Domino 7 mắt xích qua 戦→争→議→題→目→的 (nối dài thêm từ bản 6 mắt xích trước đó, round 26). Cùng lộ trình như chuỗi tiếng Trung zh-chain-tiaozhan-zhanzheng-zhengyi (3 mắt xích đầu)."
+    },
+    {
+      "id": "ja-chain-bouken-kenaku-akka",
+      "language": "ja",
+      "kind": "chain",
+      "nodes": [
+        { "headword": "冒険", "reading": "bouken", "hanViet": "mạo hiểm", "meaningVn": "mạo hiểm", "sharedCharPrev": null, "sharedCharNext": "険" },
+        { "headword": "険悪", "reading": "ken'aku", "hanViet": "hiểm ác", "meaningVn": "hiểm ác, căng thẳng (tình hình/quan hệ)", "sharedCharPrev": "険", "sharedCharNext": "悪" },
+        { "headword": "悪化", "reading": "akka", "hanViet": "ác hoá", "meaningVn": "xấu đi, trở nên tồi tệ", "sharedCharPrev": "悪", "sharedCharNext": "化" },
+        { "headword": "化石", "reading": "kaseki", "hanViet": "hoá thạch", "meaningVn": "hoá thạch", "sharedCharPrev": "化", "sharedCharNext": "石" },
+        { "headword": "石油", "reading": "sekiyu", "hanViet": "thạch du", "meaningVn": "dầu mỏ", "sharedCharPrev": "石", "sharedCharNext": "油" },
+        { "headword": "油断", "reading": "yudan", "hanViet": "du đoạn", "meaningVn": "sơ suất, lơ là", "sharedCharPrev": "油", "sharedCharNext": "断" },
+        { "headword": "断定", "reading": "dantei", "hanViet": "đoạn định", "meaningVn": "khẳng định", "sharedCharPrev": "断", "sharedCharNext": "定" },
+        { "headword": "定着", "reading": "teichaku", "hanViet": "định trước", "meaningVn": "định cư, ổn định" , "sharedCharPrev": "定", "sharedCharNext": "着" },
+        { "headword": "着手", "reading": "chakushu", "hanViet": "trước thủ", "meaningVn": "bắt tay vào, khởi công", "sharedCharPrev": "着", "sharedCharNext": null }
+      ],
+      "note": "Domino 9 mắt xích qua 険→悪→化→石→油→断→定 (nối dài thêm từ bản 7 mắt xích trước đó, round 23), cùng chủ đề với chuỗi tiếng Trung zh-chain-maoxian-xiane-eliie. 悪化 đọc あっか có xúc âm 促音便 (っ)."
+    },
+    {
+      "id": "ja-chain-yuuki-kigai-gainen",
+      "language": "ja",
+      "kind": "chain",
+      "nodes": [
+        { "headword": "勇気", "reading": "yuuki", "hanViet": "dũng khí", "meaningVn": "can đảm, dũng khí", "sharedCharPrev": null, "sharedCharNext": "気" },
+        { "headword": "気概", "reading": "kigai", "hanViet": "khí khái", "meaningVn": "khí phách" , "sharedCharPrev": "気", "sharedCharNext": "概" },
+        { "headword": "概念", "reading": "gainen", "hanViet": "khái niệm", "meaningVn": "khái niệm", "sharedCharPrev": "概", "sharedCharNext": "念" },
+        { "headword": "念願", "reading": "nengan", "hanViet": "niệm nguyện", "meaningVn": "nguyện vọng, ước muốn", "sharedCharPrev": "念", "sharedCharNext": "願" },
+        { "headword": "願望", "reading": "ganbou", "hanViet": "nguyện vọng", "meaningVn": "nguyện vọng", "sharedCharPrev": "願", "sharedCharNext": "望" },
+        { "headword": "望郷", "reading": "boukyou", "hanViet": "vọng hương", "meaningVn": "nhớ quê hương", "sharedCharPrev": "望", "sharedCharNext": "郷" },
+        { "headword": "郷愁", "reading": "kyoushuu", "hanViet": "hương sầu", "meaningVn": "nỗi nhớ quê" , "sharedCharPrev": "郷", "sharedCharNext": null }
+      ],
+      "note": "Domino 7 mắt xích qua 気→概→念→願→望 (nối dài thêm từ bản 5 mắt xích trước đó, round 23), cùng lộ trình như chuỗi tiếng Trung zh-chain-yongqi-qigai-gainian (3 mắt xích đầu)."
+    },
+    {
+      "id": "ja-chain-chinmoku-mokunin-nintei",
+      "language": "ja",
+      "kind": "chain",
+      "nodes": [
+        { "headword": "沈黙", "reading": "chinmoku", "hanViet": "trầm mặc", "meaningVn": "im lặng", "sharedCharPrev": null, "sharedCharNext": "黙" },
+        { "headword": "黙認", "reading": "mokunin", "hanViet": "mặc nhận", "meaningVn": "mặc nhận, ngầm chấp thuận", "sharedCharPrev": "黙", "sharedCharNext": "認" },
+        { "headword": "認定", "reading": "nintei", "hanViet": "nhận định", "meaningVn": "công nhận, chứng nhận", "sharedCharPrev": "認", "sharedCharNext": "定" },
+        { "headword": "定住", "reading": "teijuu", "hanViet": "định trú", "meaningVn": "định cư", "sharedCharPrev": "定", "sharedCharNext": "住" },
+        { "headword": "住民", "reading": "juumin", "hanViet": "trú dân", "meaningVn": "cư dân, dân cư", "sharedCharPrev": "住", "sharedCharNext": "民" },
+        { "headword": "民族", "reading": "minzoku", "hanViet": "dân tộc", "meaningVn": "dân tộc", "sharedCharPrev": "民", "sharedCharNext": null }
+      ],
+      "note": "Domino 6 mắt xích qua 黙→認→定→住→民 (nối dài thêm từ bản 5 mắt xích trước đó, round 25), chủ đề im lặng/công nhận."
+    },
+    {
+      "id": "ja-chain-hatten-tenkai-kaihou",
+      "language": "ja",
+      "kind": "chain",
+      "nodes": [
+        { "headword": "発展", "reading": "hatten", "hanViet": "phát triển", "meaningVn": "phát triển", "sharedCharPrev": null, "sharedCharNext": "展" },
+        { "headword": "展開", "reading": "tenkai", "hanViet": "triển khai", "meaningVn": "triển khai, diễn biến", "sharedCharPrev": "展", "sharedCharNext": "開" },
+        { "headword": "開放", "reading": "kaihou", "hanViet": "khai phóng", "meaningVn": "mở cửa, khai phóng", "sharedCharPrev": "開", "sharedCharNext": "放" },
+        { "headword": "放送", "reading": "housou", "hanViet": "phóng tống", "meaningVn": "phát sóng, phát thanh" , "sharedCharPrev": "放", "sharedCharNext": "送" },
+        { "headword": "送金", "reading": "soukin", "hanViet": "tống kim", "meaningVn": "chuyển tiền", "sharedCharPrev": "送", "sharedCharNext": "金" },
+        { "headword": "金融", "reading": "kin'yuu", "hanViet": "kim dung", "meaningVn": "tài chính, ngân hàng", "sharedCharPrev": "金", "sharedCharNext": "融" },
+        { "headword": "融資", "reading": "yuushi", "hanViet": "dung tư", "meaningVn": "cho vay vốn, tài trợ" , "sharedCharPrev": "融", "sharedCharNext": null }
+      ],
+      "note": "Domino 7 mắt xích qua 展→開→放→送→金 (nối dài thêm từ bản 4 mắt xích trước đó, round 23), chủ đề phát triển/mở rộng/truyền thông/tài chính."
+    },
+    {
+      "id": "ja-chain-heisei-seishi-shiketsu",
+      "language": "ja",
+      "kind": "chain",
+      "nodes": [
+        { "headword": "平静", "reading": "heisei", "hanViet": "bình tĩnh", "meaningVn": "bình tĩnh, yên tĩnh", "sharedCharPrev": null, "sharedCharNext": "静" },
+        { "headword": "静止", "reading": "seishi", "hanViet": "tĩnh chỉ", "meaningVn": "tĩnh, đứng yên", "sharedCharPrev": "静", "sharedCharNext": "止" },
+        { "headword": "止血", "reading": "shiketsu", "hanViet": "chỉ huyết", "meaningVn": "cầm máu", "sharedCharPrev": "止", "sharedCharNext": "血" },
+        { "headword": "血圧", "reading": "ketsuatsu", "hanViet": "huyết áp", "meaningVn": "huyết áp", "sharedCharPrev": "血", "sharedCharNext": "圧" },
+        { "headword": "圧力", "reading": "atsuryoku", "hanViet": "áp lực", "meaningVn": "áp lực" , "sharedCharPrev": "圧", "sharedCharNext": "力" },
+        { "headword": "力説", "reading": "rikisetsu", "hanViet": "lực thuyết", "meaningVn": "nhấn mạnh, nhấn mạnh luận điểm", "sharedCharPrev": "力", "sharedCharNext": null }
+      ],
+      "note": "Domino 6 mắt xích qua 静→止→血→圧→力 (nối dài thêm từ bản 5 mắt xích trước đó, round 27), cùng chủ đề với chuỗi tiếng Trung zh-chain-pingjing-jingzhi-zhibu (đoạn cuối khác nhau: 止血 thay vì 止步)."
+    },
+    {
+      "id": "ja-chain-heiwa-wakai-kaihou",
+      "language": "ja",
+      "kind": "chain",
+      "nodes": [
+        { "headword": "平和", "reading": "heiwa", "hanViet": "bình hoà", "meaningVn": "hoà bình", "sharedCharPrev": null, "sharedCharNext": "和" },
+        { "headword": "和解", "reading": "wakai", "hanViet": "hoà giải", "meaningVn": "hoà giải", "sharedCharPrev": "和", "sharedCharNext": "解" },
+        { "headword": "解放", "reading": "kaihou", "hanViet": "giải phóng", "meaningVn": "giải phóng, tự do" , "sharedCharPrev": "解", "sharedCharNext": "放" },
+        { "headword": "放置", "reading": "houchi", "hanViet": "phóng trí", "meaningVn": "bỏ mặc, để nguyên đó", "sharedCharPrev": "放", "sharedCharNext": "置" },
+        { "headword": "置換", "reading": "chikan", "hanViet": "trí hoán", "meaningVn": "thay thế, hoán đổi" , "sharedCharPrev": "置", "sharedCharNext": null }
+      ],
+      "note": "Domino 5 mắt xích qua 和→解→放→置 (nối dài thêm từ bản 4 mắt xích trước đó, round 27), chủ đề hoà bình/hoà giải/giải phóng."
+    },
+    {
+      "id": "ja-chain-ketsudan-danko-kotei",
+      "language": "ja",
+      "kind": "chain",
+      "nodes": [
+        { "headword": "決断", "reading": "ketsudan", "hanViet": "quyết đoán", "meaningVn": "quyết đoán, đưa ra quyết định", "sharedCharPrev": null, "sharedCharNext": "断" },
+        { "headword": "断固", "reading": "danko", "hanViet": "đoạn cố", "meaningVn": "kiên quyết, cương quyết" , "sharedCharPrev": "断", "sharedCharNext": "固" },
+        { "headword": "固定", "reading": "kotei", "hanViet": "cố định", "meaningVn": "cố định", "sharedCharPrev": "固", "sharedCharNext": "定" },
+        { "headword": "定説", "reading": "teisetsu", "hanViet": "định thuyết", "meaningVn": "học thuyết đã được công nhận", "sharedCharPrev": "定", "sharedCharNext": "説" },
+        { "headword": "説得", "reading": "settoku", "hanViet": "thuyết đắc", "meaningVn": "thuyết phục", "sharedCharPrev": "説", "sharedCharNext": "得" },
+        { "headword": "得意", "reading": "tokui", "hanViet": "đắc ý", "meaningVn": "sở trường, tự hào (vd 得意な科目 = môn sở trường)", "sharedCharPrev": "得", "sharedCharNext": "意" },
+        { "headword": "意欲", "reading": "iyoku", "hanViet": "ý dục", "meaningVn": "ý chí, nhiệt huyết", "sharedCharPrev": "意", "sharedCharNext": "欲" },
+        { "headword": "欲求", "reading": "yokkyuu", "hanViet": "dục cầu", "meaningVn": "khao khát, nhu cầu" , "sharedCharPrev": "欲", "sharedCharNext": null }
+      ],
+      "note": "Domino 8 mắt xích qua 断→固→定→説→得→意→欲 (nối dài thêm từ bản 6 mắt xích trước đó, round 28), chủ đề quyết đoán/kiên quyết/cố định."
+    },
+    {
+      "id": "ja-chain-iji-jizoku-zokkou",
+      "language": "ja",
+      "kind": "chain",
+      "nodes": [
+        { "headword": "維持", "reading": "iji", "hanViet": "duy trì", "meaningVn": "duy trì, giữ vững", "sharedCharPrev": null, "sharedCharNext": "持" },
+        { "headword": "持続", "reading": "jizoku", "hanViet": "trì tục", "meaningVn": "liên tục, kéo dài", "sharedCharPrev": "持", "sharedCharNext": "続" },
+        { "headword": "続行", "reading": "zokkou", "hanViet": "tục hành", "meaningVn": "tiếp tục thực hiện" , "sharedCharPrev": "続", "sharedCharNext": "行" },
+        { "headword": "行事", "reading": "gyouji", "hanViet": "hành sự", "meaningVn": "sự kiện, nghi lễ (thường niên)", "sharedCharPrev": "行", "sharedCharNext": "事" },
+        { "headword": "事情", "reading": "jijou", "hanViet": "sự tình", "meaningVn": "tình hình, hoàn cảnh, lý do" , "sharedCharPrev": "事", "sharedCharNext": null }
+      ],
+      "note": "Domino 5 mắt xích qua 持→続→行→事 (nối dài thêm từ bản 4 mắt xích trước đó, round 28), cùng chủ đề với chuỗi tiếng Trung zh-chain-jianchi-chixu-xuji (đoạn cuối khác nhau)."
+    },
+    {
+      "id": "ja-chain-hogo-goei-eisei",
+      "language": "ja",
+      "kind": "chain",
+      "nodes": [
+        { "headword": "保護", "reading": "hogo", "hanViet": "bảo hộ", "meaningVn": "bảo vệ", "sharedCharPrev": null, "sharedCharNext": "護" },
+        { "headword": "護衛", "reading": "goei", "hanViet": "hộ vệ", "meaningVn": "hộ vệ, bảo vệ (người)", "sharedCharPrev": "護", "sharedCharNext": "衛" },
+        { "headword": "衛生", "reading": "eisei", "hanViet": "vệ sinh", "meaningVn": "vệ sinh" , "sharedCharPrev": "衛", "sharedCharNext": "生" },
+        { "headword": "生産", "reading": "seisan", "hanViet": "sinh sản", "meaningVn": "sản xuất", "sharedCharPrev": "生", "sharedCharNext": "産" },
+        { "headword": "産物", "reading": "sanbutsu", "hanViet": "sản vật", "meaningVn": "sản vật, kết quả (của quá trình)", "sharedCharPrev": "産", "sharedCharNext": "物" },
+        { "headword": "物語", "reading": "monogatari", "hanViet": "vật ngữ", "meaningVn": "câu chuyện, truyện kể", "sharedCharPrev": "物", "sharedCharNext": null }
+      ],
+      "note": "Domino 6 mắt xích qua 護→衛→生→産→物 (nối dài thêm từ bản 5 mắt xích trước đó, round 30), chủ đề bảo vệ/vệ sinh."
+    },
+    {
+      "id": "ja-chain-kansha-shai-igi",
+      "language": "ja",
+      "kind": "chain",
+      "nodes": [
+        { "headword": "感謝", "reading": "kansha", "hanViet": "cảm tạ", "meaningVn": "cảm ơn", "sharedCharPrev": null, "sharedCharNext": "謝" },
+        { "headword": "謝意", "reading": "shai", "hanViet": "tạ ý", "meaningVn": "lòng biết ơn" , "sharedCharPrev": "謝", "sharedCharNext": "意" },
+        { "headword": "意義", "reading": "igi", "hanViet": "ý nghĩa", "meaningVn": "ý nghĩa", "sharedCharPrev": "意", "sharedCharNext": "義" },
+        { "headword": "義理", "reading": "giri", "hanViet": "nghĩa lý", "meaningVn": "nghĩa vụ, đạo nghĩa (quan hệ xã hội)", "sharedCharPrev": "義", "sharedCharNext": "理" },
+        { "headword": "理論", "reading": "riron", "hanViet": "lý luận", "meaningVn": "lý luận, lý thuyết", "sharedCharPrev": "理", "sharedCharNext": null }
+      ],
+      "note": "Domino 5 mắt xích qua 謝→意→義→理 (nối dài thêm từ bản 4 mắt xích trước đó, round 30), cùng lộ trình như chuỗi tiếng Trung zh-chain-ganxie-xieyi-yiyi."
+    },
+    {
+      "id": "ja-chain-sanka-kanyuu-nyuujou",
+      "language": "ja",
+      "kind": "chain",
+      "nodes": [
+        { "headword": "参加", "reading": "sanka", "hanViet": "tham gia", "meaningVn": "tham gia", "sharedCharPrev": null, "sharedCharNext": "加" },
+        { "headword": "加入", "reading": "kanyuu", "hanViet": "gia nhập", "meaningVn": "gia nhập, tham gia" , "sharedCharPrev": "加", "sharedCharNext": "入" },
+        { "headword": "入場", "reading": "nyuujou", "hanViet": "nhập trường", "meaningVn": "vào cửa, nhập trường thi đấu" , "sharedCharPrev": "入", "sharedCharNext": "場" },
+        { "headword": "場所", "reading": "basho", "hanViet": "trường sở", "meaningVn": "địa điểm, nơi chốn", "sharedCharPrev": "場", "sharedCharNext": "所" },
+        { "headword": "所属", "reading": "shozoku", "hanViet": "sở thuộc", "meaningVn": "trực thuộc, thuộc về" , "sharedCharPrev": "所", "sharedCharNext": null }
+      ],
+      "note": "Domino 5 mắt xích qua 加→入→場→所 (nối dài thêm từ bản 3 mắt xích trước đó, round 30), cùng chủ đề với chuỗi tiếng Trung zh-chain-canjia-jiaru-ruxue (đoạn cuối khác nhau)."
+    },
+    {
+      "id": "ja-chain-shumi-mikaku-kakugo",
+      "language": "ja",
+      "kind": "chain",
+      "nodes": [
+        { "headword": "趣味", "reading": "shumi", "hanViet": "thú vị", "meaningVn": "sở thích, thú vui", "sharedCharPrev": null, "sharedCharNext": "味" },
+        { "headword": "味覚", "reading": "mikaku", "hanViet": "vị giác", "meaningVn": "vị giác", "sharedCharPrev": "味", "sharedCharNext": "覚" },
+        { "headword": "覚悟", "reading": "kakugo", "hanViet": "giác ngộ", "meaningVn": "quyết tâm, chuẩn bị tinh thần" , "sharedCharPrev": "覚", "sharedCharNext": "悟" },
+        { "headword": "悟性", "reading": "gosei", "hanViet": "ngộ tính", "meaningVn": "khả năng lĩnh hội, ngộ tính", "sharedCharPrev": "悟", "sharedCharNext": "性" },
+        { "headword": "性質", "reading": "seishitsu", "hanViet": "tính chất", "meaningVn": "tính chất" , "sharedCharPrev": "性", "sharedCharNext": "質" },
+        { "headword": "質感", "reading": "shikkan", "hanViet": "chất cảm", "meaningVn": "cảm giác về chất liệu", "sharedCharPrev": "質", "sharedCharNext": null }
+      ],
+      "note": "Domino 6 mắt xích qua 味→覚→悟→性→質 (nối dài thêm round 35), chủ đề sở thích/vị giác/quyết tâm/khả năng lĩnh hội/tính chất/chất liệu. Mẹo nhớ: 悟 có bộ 忄(tim) — hiểu ra, giác ngộ trong lòng."
+    },
+    {
+      "id": "ja-chain-kousoku-sokudo-dokyou",
+      "language": "ja",
+      "kind": "chain",
+      "nodes": [
+        { "headword": "高速", "reading": "kousoku", "hanViet": "cao tốc", "meaningVn": "tốc độ cao", "sharedCharPrev": null, "sharedCharNext": "速" },
+        { "headword": "速度", "reading": "sokudo", "hanViet": "tốc độ", "meaningVn": "tốc độ", "sharedCharPrev": "速", "sharedCharNext": "度" },
+        { "headword": "度胸", "reading": "dokyou", "hanViet": "độ hung", "meaningVn": "sự can đảm, gan dạ" , "sharedCharPrev": "度", "sharedCharNext": null }
+      ],
+      "note": "Domino 3 mắt xích qua 速→度. Chuỗi mới round 30, cùng chủ đề với chuỗi tiếng Trung zh-chain-kuaisu-sudu-duguo (đoạn cuối khác nhau)."
+    },
+    {
+      "id": "ja-chain-shinsei-seikyuu-kyuushoku-shokugyou",
+      "language": "ja",
+      "kind": "chain",
+      "nodes": [
+        { "headword": "申請", "reading": "shinsei", "hanViet": "thân thỉnh", "meaningVn": "đăng ký, xin phép", "sharedCharPrev": null, "sharedCharNext": "請" },
+        { "headword": "請求", "reading": "seikyuu", "hanViet": "thỉnh cầu", "meaningVn": "yêu cầu, thỉnh cầu", "sharedCharPrev": "請", "sharedCharNext": "求" },
+        { "headword": "求職", "reading": "kyuushoku", "hanViet": "cầu chức", "meaningVn": "tìm việc làm", "sharedCharPrev": "求", "sharedCharNext": "職" },
+        { "headword": "職業", "reading": "shokugyou", "hanViet": "chức nghiệp", "meaningVn": "nghề nghiệp", "sharedCharPrev": "職", "sharedCharNext": null }
+      ],
+      "note": "Domino 4 mắt xích qua 請→求→職, cùng chữ Hán với chuỗi tiếng Trung zh-chain-shenqing-qingqiu-qiuzhi-zhiye (đăng ký→yêu cầu→tìm việc→nghề nghiệp). Mẹo nhớ bộ thủ: 請 có bộ 言(lời nói) = xin bằng lời nói; 求 nghĩa gốc là cầu xin, tìm kiếm; 職 có bộ 耳 (tai) liên hệ đến việc lắng nghe mệnh lệnh, chức trách."
+    },
+    {
+      "id": "ja-chain-ketsui-ikou-koujou",
+      "language": "ja",
+      "kind": "chain",
+      "nodes": [
+        { "headword": "決意", "reading": "ketsui", "hanViet": "quyết ý", "meaningVn": "quyết tâm, quyết ý", "sharedCharPrev": null, "sharedCharNext": "意" },
+        { "headword": "意向", "reading": "ikou", "hanViet": "ý hướng", "meaningVn": "ý định, ý hướng", "sharedCharPrev": "意", "sharedCharNext": "向" },
+        { "headword": "向上", "reading": "koujou", "hanViet": "hướng thượng", "meaningVn": "tiến bộ, cải thiện" , "sharedCharPrev": "向", "sharedCharNext": "上" },
+        { "headword": "上品", "reading": "jouhin", "hanViet": "thượng phẩm", "meaningVn": "cao nhã, sang trọng", "sharedCharPrev": "上", "sharedCharNext": "品" },
+        { "headword": "品位", "reading": "hin'i", "hanViet": "phẩm vị", "meaningVn": "phẩm giá, đẳng cấp" , "sharedCharPrev": "品", "sharedCharNext": "位" },
+        { "headword": "位階", "reading": "ikai", "hanViet": "vị giai", "meaningVn": "cấp bậc, thứ hạng", "sharedCharPrev": "位", "sharedCharNext": "階" },
+        { "headword": "階段", "reading": "kaidan", "hanViet": "giai đoạn", "meaningVn": "bậc thang; giai đoạn", "sharedCharPrev": "階", "sharedCharNext": "段" },
+        { "headword": "段階", "reading": "dankai", "hanViet": "đoạn giai", "meaningVn": "giai đoạn, công đoạn", "sharedCharPrev": "段", "sharedCharNext": null }
+      ],
+      "note": "Domino 8 mắt xích qua 意→向→上→品→位→階→段 (nối dài thêm round 37): quyết tâm→ý định→tiến bộ→cao nhã→phẩm giá→cấp bậc→bậc thang→giai đoạn. Mẹo nhớ: 意 có bộ 心(tim) ở dưới — ý định xuất phát từ trong lòng; 向 tượng hình cửa sổ hướng ra ngoài — chỉ phương hướng; 上品 vốn nghĩa 'phẩm cấp cao' → cao nhã, sang trọng; lưu ý 階段(kaidan, giai đoạn=bậc thang) và 段階(dankai, đoạn giai=giai đoạn/công đoạn) là 2 từ khác nhau dù đảo ngược thứ tự chữ."
+    },
+    {
+      "id": "ja-chain-futan-tantou-touzen",
+      "language": "ja",
+      "kind": "chain",
+      "nodes": [
+        { "headword": "負担", "reading": "futan", "hanViet": "phụ đảm", "meaningVn": "gánh vác, gánh nặng", "sharedCharPrev": null, "sharedCharNext": "担" },
+        { "headword": "担当", "reading": "tantou", "hanViet": "đảm đương", "meaningVn": "phụ trách, đảm nhiệm", "sharedCharPrev": "担", "sharedCharNext": "当" },
+        { "headword": "当然", "reading": "touzen", "hanViet": "đương nhiên", "meaningVn": "đương nhiên", "sharedCharPrev": "当", "sharedCharNext": null }
+      ],
+      "note": "Domino 3 mắt xích qua 担→当: gánh vác→phụ trách→đương nhiên. Mẹo nhớ: 担 có bộ 扌(tay) — gánh vác bằng tay; 当 vốn nghĩa 'đúng, trúng' → phụ trách đúng việc, đương nhiên."
+    },
+    {
+      "id": "ja-chain-soutei-teikei-keishiki",
+      "language": "ja",
+      "kind": "chain",
+      "nodes": [
+        { "headword": "想定", "reading": "soutei", "hanViet": "tưởng định", "meaningVn": "giả định", "sharedCharPrev": null, "sharedCharNext": "定" },
+        { "headword": "定型", "reading": "teikei", "hanViet": "định hình", "meaningVn": "dạng cố định, khuôn mẫu", "sharedCharPrev": "定", "sharedCharNext": "型" },
+        { "headword": "型式", "reading": "keishiki", "hanViet": "hình thức", "meaningVn": "kiểu dáng, mẫu mã" , "sharedCharPrev": "型", "sharedCharNext": "式" },
+        { "headword": "式典", "reading": "shikiten", "hanViet": "thức điển", "meaningVn": "buổi lễ, nghi lễ", "sharedCharPrev": "式", "sharedCharNext": "典" },
+        { "headword": "典型", "reading": "tenkei", "hanViet": "điển hình", "meaningVn": "điển hình", "sharedCharPrev": "典", "sharedCharNext": "型" },
+        { "headword": "型紙", "reading": "katagami", "hanViet": "hình chỉ", "meaningVn": "mẫu giấy cắt, rập" , "sharedCharPrev": "型", "sharedCharNext": "紙" },
+        { "headword": "紙面", "reading": "shimen", "hanViet": "chỉ diện", "meaningVn": "trang giấy, mặt báo", "sharedCharPrev": "紙", "sharedCharNext": "面" },
+        { "headword": "面談", "reading": "mendan", "hanViet": "diện đàm", "meaningVn": "gặp mặt trao đổi, phỏng vấn trực tiếp", "sharedCharPrev": "面", "sharedCharNext": "談" },
+        { "headword": "談話", "reading": "danwa", "hanViet": "đàm thoại", "meaningVn": "cuộc nói chuyện, đàm thoại", "sharedCharPrev": "談", "sharedCharNext": "話" },
+        { "headword": "話者", "reading": "washa", "hanViet": "thoại giả", "meaningVn": "người nói (ngôn ngữ học)", "sharedCharPrev": "話", "sharedCharNext": null }
+      ],
+      "note": "Domino 10 mắt xích qua 定→型→式→典→型→紙→面→談→話 (nối dài thêm round 46): giả định→dạng cố định→kiểu dáng→buổi lễ→điển hình→mẫu giấy cắt→trang giấy→gặp mặt trao đổi→cuộc nói chuyện→người nói. Mẹo nhớ: 定 có bộ 宀(mái nhà) — an định, cố định như trong nhà; 型 có bộ 土(đất) — khuôn đúc bằng đất; 典 tượng hình sách quý đặt trên bệ — sách mẫu mực, kinh điển → điển hình; 談 có bộ 言(lời nói) — nói chuyện, đàm thoại."
+    },
+    {
+      "id": "ja-chain-kanshin-shinkyou-kyouchi",
+      "language": "ja",
+      "kind": "chain",
+      "nodes": [
+        { "headword": "関心", "reading": "kanshin", "hanViet": "quan tâm", "meaningVn": "quan tâm, chú ý", "sharedCharPrev": null, "sharedCharNext": "心" },
+        { "headword": "心境", "reading": "shinkyou", "hanViet": "tâm cảnh", "meaningVn": "tâm trạng, cảnh giới trong lòng", "sharedCharPrev": "心", "sharedCharNext": "境" },
+        { "headword": "境地", "reading": "kyouchi", "hanViet": "cảnh địa", "meaningVn": "cảnh giới, mức độ, hoàn cảnh" , "sharedCharPrev": "境", "sharedCharNext": null }
+      ],
+      "note": "Domino 3 mắt xích qua 心→境: quan tâm→tâm trạng→cảnh giới. Mẹo nhớ: 心 tượng hình quả tim — mọi cảm xúc, tâm trạng đều xuất phát từ đây; 境 có bộ 土(đất) — ranh giới đất đai, mở rộng thành cảnh giới tinh thần."
+    },
+    {
+      "id": "ja-chain-happyou-hyougen-genjitsu",
+      "language": "ja",
+      "kind": "chain",
+      "nodes": [
+        { "headword": "発表", "reading": "happyou", "hanViet": "phát biểu", "meaningVn": "công bố, phát biểu", "sharedCharPrev": null, "sharedCharNext": "表" },
+        { "headword": "表現", "reading": "hyougen", "hanViet": "biểu hiện", "meaningVn": "biểu đạt, thể hiện ra ngoài", "sharedCharPrev": "表", "sharedCharNext": "現" },
+        { "headword": "現実", "reading": "genjitsu", "hanViet": "hiện thực", "meaningVn": "thực tế, hiện thực", "sharedCharPrev": "現", "sharedCharNext": "実" },
+        { "headword": "実現", "reading": "jitsugen", "hanViet": "thực hiện", "meaningVn": "thực hiện, biến thành hiện thực", "sharedCharPrev": "実", "sharedCharNext": "現" },
+        { "headword": "現状", "reading": "genjou", "hanViet": "hiện trạng", "meaningVn": "tình trạng hiện tại", "sharedCharPrev": "現", "sharedCharNext": "状" },
+        { "headword": "状況", "reading": "joukyou", "hanViet": "trạng huống", "meaningVn": "tình huống, hoàn cảnh" , "sharedCharPrev": "状", "sharedCharNext": null }
+      ],
+      "note": "Domino 6 mắt xích qua 表→現→実→現→状 (nối dài thêm round 49): công bố→biểu đạt→thực tế→thực hiện→hiện trạng→tình huống. Mẹo nhớ: 現 có bộ 玉(ngọc) — ngọc lộ ra ánh sáng lấp lánh → hiện ra, thực tại; 実 có bộ 宀(mái nhà) — của cải chất đầy trong nhà → chân thực, thực tế; 状 có bộ 犬(chó, biến âm) — hình dạng, trạng thái sự việc."
+    },
+    {
+      "id": "ja-chain-hakken-kenshiki-shikisha",
+      "language": "ja",
+      "kind": "chain",
+      "nodes": [
+        { "headword": "発見", "reading": "hakken", "hanViet": "phát kiến", "meaningVn": "phát hiện", "sharedCharPrev": null, "sharedCharNext": "見" },
+        { "headword": "見識", "reading": "kenshiki", "hanViet": "kiến thức", "meaningVn": "kiến thức, nhận thức sâu sắc", "sharedCharPrev": "見", "sharedCharNext": "識" },
+        { "headword": "識者", "reading": "shikisha", "hanViet": "thức giả", "meaningVn": "người có hiểu biết, học giả" , "sharedCharPrev": "識", "sharedCharNext": null }
+      ],
+      "note": "Domino 3 mắt xích qua 見→識: phát hiện→kiến thức→người hiểu biết. Mẹo nhớ: 見 tượng hình con mắt (目) trên đôi chân người — nhìn, thấy; 識 có bộ 言(lời nói) — nói ra hiểu biết, nhận thức, phân biệt được."
+    },
+    {
+      "id": "ja-chain-zousei-seichou-chouju",
+      "language": "ja",
+      "kind": "chain",
+      "nodes": [
+        { "headword": "造成", "reading": "zousei", "hanViet": "tạo thành", "meaningVn": "tạo ra, hình thành (thường dùng 宅地造成 - san lấp đất làm khu dân cư)", "sharedCharPrev": null, "sharedCharNext": "成" },
+        { "headword": "成長", "reading": "seichou", "hanViet": "thành trưởng", "meaningVn": "trưởng thành, tăng trưởng", "sharedCharPrev": "成", "sharedCharNext": "長" },
+        { "headword": "長寿", "reading": "chouju", "hanViet": "trường thọ", "meaningVn": "sống lâu, trường thọ" , "sharedCharPrev": "長", "sharedCharNext": "寿" },
+        { "headword": "寿命", "reading": "jumyou", "hanViet": "thọ mệnh", "meaningVn": "tuổi thọ, thời gian sống", "sharedCharPrev": "寿", "sharedCharNext": "命" },
+        { "headword": "命令", "reading": "meirei", "hanViet": "mệnh lệnh", "meaningVn": "mệnh lệnh, ra lệnh", "sharedCharPrev": "命", "sharedCharNext": "令" },
+        { "headword": "令状", "reading": "reijou", "hanViet": "lệnh trạng", "meaningVn": "trát, lệnh bắt giữ/khám xét (thuật ngữ pháp lý)" , "sharedCharPrev": "令", "sharedCharNext": "状" },
+        { "headword": "状態", "reading": "joutai", "hanViet": "trạng thái", "meaningVn": "trạng thái", "sharedCharPrev": "状", "sharedCharNext": "態" },
+        { "headword": "態度", "reading": "taido", "hanViet": "thái độ", "meaningVn": "thái độ", "sharedCharPrev": "態", "sharedCharNext": "度" },
+        { "headword": "度外視", "reading": "dogaishi", "hanViet": "độ ngoại thị", "meaningVn": "coi như ngoài dự tính, bỏ qua không tính đến" , "sharedCharPrev": "度", "sharedCharNext": "視" },
+        { "headword": "視野", "reading": "shiya", "hanViet": "thị dã", "meaningVn": "tầm nhìn", "sharedCharPrev": "視", "sharedCharNext": "野" },
+        { "headword": "野心", "reading": "yashin", "hanViet": "dã tâm", "meaningVn": "tham vọng, dã tâm", "sharedCharPrev": "野", "sharedCharNext": "心" },
+        { "headword": "心性", "reading": "shinsei", "hanViet": "tâm tính", "meaningVn": "tâm tính, bản tính" , "sharedCharPrev": "心", "sharedCharNext": "性" },
+        { "headword": "性能", "reading": "seinou", "hanViet": "tính năng", "meaningVn": "tính năng, hiệu suất", "sharedCharPrev": "性", "sharedCharNext": "能" },
+        { "headword": "能力", "reading": "nouryoku", "hanViet": "năng lực", "meaningVn": "năng lực", "sharedCharPrev": "能", "sharedCharNext": "力" },
+        { "headword": "力作", "reading": "rikisaku", "hanViet": "lực tác", "meaningVn": "tác phẩm tâm huyết, kiệt tác" , "sharedCharPrev": "力", "sharedCharNext": "作" },
+        { "headword": "作家", "reading": "sakka", "hanViet": "tác gia", "meaningVn": "nhà văn, nhà sáng tác", "sharedCharPrev": "作", "sharedCharNext": "家" },
+        { "headword": "家庭", "reading": "katei", "hanViet": "gia đình", "meaningVn": "gia đình", "sharedCharPrev": "家", "sharedCharNext": "庭" },
+        { "headword": "庭園", "reading": "teien", "hanViet": "đình viên", "meaningVn": "khu vườn, sân vườn" , "sharedCharPrev": "庭", "sharedCharNext": "園" },
+        { "headword": "園芸", "reading": "engei", "hanViet": "viên nghệ", "meaningVn": "làm vườn, nghề trồng cây cảnh", "sharedCharPrev": "園", "sharedCharNext": "芸" },
+        { "headword": "芸能", "reading": "geinou", "hanViet": "nghệ năng", "meaningVn": "giải trí, làng giải trí (ca hát, diễn xuất...)", "sharedCharPrev": "芸", "sharedCharNext": "能" },
+        { "headword": "能率", "reading": "nouritsu", "hanViet": "năng suất", "meaningVn": "hiệu suất, năng suất" , "sharedCharPrev": "能", "sharedCharNext": "率" },
+        { "headword": "率先", "reading": "sossen", "hanViet": "suất tiên", "meaningVn": "đi đầu, dẫn đầu làm gương", "sharedCharPrev": "率", "sharedCharNext": "先" },
+        { "headword": "先輩", "reading": "senpai", "hanViet": "tiên bối", "meaningVn": "tiền bối, đàn anh đàn chị", "sharedCharPrev": "先", "sharedCharNext": "輩" },
+        { "headword": "輩出", "reading": "haishutsu", "hanViet": "bối xuất", "meaningVn": "xuất hiện liên tiếp, nối tiếp nhau ra đời (nhân tài)" , "sharedCharPrev": "輩", "sharedCharNext": "出" },
+        { "headword": "出色", "reading": "shusshoku", "hanViet": "xuất sắc", "meaningVn": "xuất sắc, nổi bật", "sharedCharPrev": "出", "sharedCharNext": "色" },
+        { "headword": "色彩", "reading": "shikisai", "hanViet": "sắc thái", "meaningVn": "màu sắc, sắc thái", "sharedCharPrev": "色", "sharedCharNext": "彩" },
+        { "headword": "彩色", "reading": "saishiki", "hanViet": "thải sắc", "meaningVn": "tô màu, phối màu" , "sharedCharPrev": "彩", "sharedCharNext": null }
+      ],
+      "note": "Domino 28 mắt xích qua 成→長→寿→命→令→状→態→度→視→野→心→性→能→力→作→家→庭→園→芸→能→率→先→輩→出→色→彩 (nối dài thêm round 59): tạo thành→...→xuất hiện liên tiếp→xuất sắc→sắc thái→tô màu. Mẹo nhớ: 出 tượng hình chân bước ra khỏi hang — đi ra, xuất hiện; 色 tượng hình người quỳ cúi đầu (sắc mặt biểu lộ cảm xúc) — màu sắc, vẻ mặt; 彩 có bộ 彡(nét vẽ) — màu sắc rực rỡ."
+    }
+  ],
+  "clusters": [
+    {
+      "id": "ja-cluster-shi",
+      "language": "ja",
+      "kind": "cluster",
+      "centerChar": "支",
+      "centerReading": "shi",
+      "centerHanViet": "chi",
+      "centerMeaningVn": "chống đỡ, nâng đỡ, chi trả",
+      "words": [
+        { "headword": "支援", "reading": "shien", "hanViet": "chi viện", "meaningVn": "hỗ trợ khẩn cấp, trang trọng (chi viện, cứu trợ thiên tai)" },
+        { "headword": "支持", "reading": "shiji", "hanViet": "chi trì", "meaningVn": "ủng hộ (ý kiến, tinh thần), không nhất thiết khẩn cấp" }
+      ],
+      "note": "Mẹo nhớ: 支 vốn là hình tay cầm cành cây chống đỡ → nghĩa bóng 'nâng đỡ, ủng hộ, chi ra'. Cùng gốc Hán tự với chữ 支 trong tiếng Trung nên mẹo nhớ giống hệt."
+    },
+    {
+      "id": "ja-cluster-en",
+      "language": "ja",
+      "kind": "cluster",
+      "centerChar": "援",
+      "centerReading": "en",
+      "centerHanViet": "viện",
+      "centerMeaningVn": "cứu giúp, kéo lên, viện trợ",
+      "words": [
+        { "headword": "支援", "reading": "shien", "hanViet": "chi viện", "meaningVn": "hỗ trợ khẩn cấp, trang trọng (chi viện, cứu trợ thiên tai)" },
+        { "headword": "援助", "reading": "enjo", "hanViet": "viện trợ", "meaningVn": "viện trợ, thường dùng ngữ cảnh quốc tế/nhân đạo" }
+      ],
+      "note": "Mẹo nhớ: 援 có bộ tay (扌) bên trái ghép với 爰 (kéo) → nghĩa gốc 'dùng tay kéo ai đó lên, cứu giúp'."
+    },
+    {
+      "id": "ja-cluster-han",
+      "language": "ja",
+      "kind": "cluster",
+      "centerChar": "判",
+      "centerReading": "han",
+      "centerHanViet": "phán",
+      "centerMeaningVn": "phân xử, đưa ra quyết định/nhận định",
+      "words": [
+        { "headword": "判断", "reading": "handan", "hanViet": "phán đoán", "meaningVn": "phán đoán, quyết định dựa trên suy luận" },
+        { "headword": "判決", "reading": "hanketsu", "hanViet": "phán quyết", "meaningVn": "phán quyết (toà án)" },
+        { "headword": "審判", "reading": "shinpan", "hanViet": "thẩm phán", "meaningVn": "xét xử/trọng tài (chữ 判 ở CUỐI từ, khác 2 từ trên chữ 判 ở đầu)" }
+      ],
+      "note": "Mẹo nhớ: 判 gồm bộ 刀 (dao, rìu) + 半 (nửa) → nghĩa gốc 'chặt đôi ra để phân xử rạch ròi'. Vị trí chữ 判 khác nhau trong từ nhưng vẫn cùng 1 chữ Hán dùng chung."
+    },
+    {
+      "id": "ja-cluster-kan",
+      "language": "ja",
+      "kind": "cluster",
+      "centerChar": "観",
+      "centerReading": "kan",
+      "centerHanViet": "quan",
+      "centerMeaningVn": "nhìn, xem xét, quan điểm",
+      "words": [
+        { "headword": "観点", "reading": "kanten", "hanViet": "quan điểm", "meaningVn": "quan điểm, góc nhìn" },
+        { "headword": "観念", "reading": "kannen", "hanViet": "quan niệm", "meaningVn": "quan niệm, khái niệm (thường về giá trị/tư tưởng)" }
+      ],
+      "note": "Mẹo nhớ: 観 (giản thể của 觀) có bộ 見 (nhìn, thấy) bên phải → nghĩa gốc 'nhìn, quan sát'. 観点 thiên về góc nhìn cá nhân về 1 việc cụ thể; 観念 thiên về hệ tư tưởng/giá trị đã hình thành lâu dài."
+    }
+  ],
+  "todo": [
+    "Batch mở rộng (round 59): 50 chuỗi / 348 mắt xích. Nối dài thêm 造成 (→28, qua 出→色→彩).",
+    "Batch mở rộng (round 58): 50 chuỗi / 345 mắt xích. Nối dài thêm 造成 (→25, qua 率→先→輩).",
+    "Batch mở rộng (round 57): 50 chuỗi / 342 mắt xích. Nối dài thêm 造成 (→22, qua 園→芸→能).",
+    "Batch mở rộng (round 56): 50 chuỗi / 339 mắt xích. Nối dài thêm 造成 (→19, qua 作→家→庭).",
+    "Batch mở rộng (round 55): 50 chuỗi / 336 mắt xích. Nối dài thêm 造成 (→16, qua 性→能→力).",
+    "Batch mở rộng (round 54): 50 chuỗi / 333 mắt xích. Nối dài thêm 造成 (→13, qua 視→野→心).",
+    "Batch mở rộng (round 53): 50 chuỗi / 330 mắt xích. Nối dài thêm 造成 (→9, qua 状→態→度).",
+    "Batch mở rộng (round 52): 50 chuỗi / 327 mắt xích. Nối dài thêm 造成 (→6, qua 寿→命→令).",
+    "Batch mở rộng (round 51): 50 chuỗi / 324 mắt xích. Thêm 1 chuỗi mới (造成→長寿), chủ đề tạo thành/trưởng thành/trường thọ.",
+    "Batch mở rộng (round 50): 49 chuỗi / 321 mắt xích. Thêm 1 chuỗi mới (発見→識者), chủ đề phát hiện/kiến thức/người hiểu biết.",
+    "Batch mở rộng (round 49): 48 chuỗi / 318 mắt xích. Nối dài thêm 発表 (→6, qua 実→現→状).",
+    "Batch mở rộng (round 48): 48 chuỗi / 315 mắt xích. Thêm 1 chuỗi mới (発表→現実), chủ đề công bố/biểu đạt/hiện thực.",
+    "Batch mở rộng (round 47): 47 chuỗi / 312 mắt xích. Thêm 1 chuỗi mới (関心→境地), chủ đề quan tâm/tâm trạng/cảnh giới.",
+    "Batch mở rộng (round 46): 46 chuỗi / 309 mắt xích. Nối dài thêm 想定 (→10, qua 話).",
+    "Batch mở rộng (round 45): 46 chuỗi / 308 mắt xích. Nối dài thêm 想定 (→9, qua 談).",
+    "Batch mở rộng (round 44): 46 chuỗi / 307 mắt xích. Nối dài thêm 想定 (→8, qua 面).",
+    "Batch mở rộng (round 43): 46 chuỗi / 306 mắt xích. Nối dài thêm 想定 (→7, qua 紙).",
+    "Batch mở rộng (round 42): 46 chuỗi / 305 mắt xích. Nối dài thêm 想定 (→6, qua 典→型).",
+    "Batch mở rộng (round 41): 46 chuỗi / 304 mắt xích. Nối dài thêm 想定 (→5, qua 式→典).",
+    "Batch mở rộng (round 40): 46 chuỗi / 303 mắt xích. Nối dài thêm 想定 (→4, qua 型→式).",
+    "Batch mở rộng (round 39): 46 chuỗi / 302 mắt xích. Thêm 1 chuỗi mới (想定→型式), chủ đề giả định/khuôn mẫu.",
+    "Batch mở rộng (round 38): 45 chuỗi / 299 mắt xích. Thêm 1 chuỗi mới (負担→当然), chủ đề gánh vác/phụ trách/đương nhiên.",
+    "Batch mở rộng (round 37): 44 chuỗi / 296 mắt xích. Nối dài thêm 決意 (→8, qua 階→段).",
+    "Batch mở rộng (round 36): 44 chuỗi / 295 mắt xích. Nối dài thêm 決意 (→7, qua 位→階).",
+    "Batch mở rộng (round 35): 44 chuỗi / 294 mắt xích. Nối dài thêm 趣味 (→6, qua 性→質), 決意 (→6, qua 品→位).",
+    "Batch mở rộng (round 34): 44 chuỗi / 292 mắt xích. Nối dài thêm 趣味 (→5, qua 悟→性), 決意 (→5, qua 上→品).",
+    "Batch mở rộng (round 33): 44 chuỗi / 290 mắt xích. Nối dài thêm 趣味 (→4, qua 覚→悟), 決意 (→4, qua 向→上).",
+    "Batch mở rộng (round 32): 44 chuỗi / 288 mắt xích. Thêm 1 chuỗi mới (決意→向上), cùng chữ Hán với chuỗi tiếng Hàn round 32.",
+    "Batch mở rộng (round 31): 43 chuỗi / 285 mắt xích. Thêm 1 chuỗi mới (申請→職業), cùng chữ Hán với chuỗi tiếng Trung round 31.",
+    "Batch mở rộng (round 30): 42 chuỗi / 281 mắt xích. Nối dài thêm 保護 (→6), 感謝 (→5), 参加 (→5); thêm 1 chuỗi mới (高速→度胸).",
+    "Batch mở rộng (round 29): 41 chuỗi / 274 mắt xích. Nối dài thêm 保護 (→5), 感謝 (→4); thêm 2 chuỗi mới (参加→入場, 趣味→覚悟).",
+    "Batch mở rộng (round 28): 39 chuỗi / 266 mắt xích. Nối dài thêm 維持 (→5), 保護 (→4), 決断 (→8); thêm 1 chuỗi mới (感謝→意義, cùng lộ trình chuỗi tiếng Trung 感谢→意义).",
+    "Batch mở rộng (round 27): 38 chuỗi / 259 mắt xích. Nối dài thêm 維持 (→4), 決断 (→6), 平和 (→5), 平静 (→6); thêm 1 chuỗi mới (保護→衛生). Thêm mới cơ chế 'clusters' (chùm hoa thị): +2 chùm 判/観.",
+    "Batch mở rộng (round 26): 37 chuỗi / 251 mắt xích. Nối dài thêm 決断 (→4), 挑戦 (→7), 自信 (→10), 社会 (→7); thêm 1 chuỗi mới (維持→続行).",
+    "Batch mở rộng (round 25): 36 chuỗi / 244 mắt xích. Nối dài thêm 沈黙 (→6), 平和 (→4), 挑戦 (→6), 天気 (→8); thêm 1 chuỗi mới (決断→固定).",
+    "Batch mở rộng (round 24): 35 chuỗi / 237 mắt xích. Nối dài thêm 沈黙 (→5), 平静 (→5), 天気 (→7), 自信 (→9); thêm 1 chuỗi mới (平和→解放).",
+    "Batch mở rộng (round 23): 34 chuỗi / 228 mắt xích. Nối dài thêm 冒険 (→9), 勇気 (→7), 発展 (→7), 自信 (→8); thêm 1 chuỗi mới (平静→止血).",
+    "Batch mở rộng (round 22): 33 chuỗi / 216 mắt xích. Nối dài thêm 教育 (→7), 旅行 (→7), 挑戦 (→5), 決心 (→7); thêm 1 chuỗi mới (発展→放送).",
+    "Batch mở rộng (round 21): 32 chuỗi / 207 mắt xích. Nối dài thêm 映画 (→11), 芸術 (→9), 冒険 (→7), 勇気 (→5); thêm 1 chuỗi mới (沈黙→認定).",
+    "Batch mở rộng (round 20): 31 chuỗi / 198 mắt xích. Nối dài thêm 会話 (→12), 病院 (→11), 芸術, 冒険; thêm 1 chuỗi mới (勇気→概念).",
+    "Batch mở rộng (round 19): 30 chuỗi / 189 mắt xích. Nối dài thêm 大学, 拡大, 印象, 挑戦; thêm 1 chuỗi mới (冒険→悪化).",
+    "Batch mở rộng (round 18): 29 chuỗi / 180 mắt xích. Nối dài thêm 準備, 会話, 病院, 映画; thêm 1 chuỗi mới (挑戦→争議).",
+    "Batch mở rộng (round 17): 28 chuỗi / 188 mắt xích. Nối dài thêm 社会, 準備, 血液, 印象; thêm 1 chuỗi mới (写真→実践).",
+    "Batch mở rộng (round 16): 27 chuỗi / 174 mắt xích. Nối dài thêm 映画, 森林, 教育, 自信; thêm 1 chuỗi mới (印象→徴収).",
+    "Batch mở rộng (round 15): 26 chuỗi / 167 mắt xích. Nối dài thêm 血液, 決心, 会話, 病院; thêm 1 chuỗi mới (自信→意見).",
+    "Batch mở rộng (round 14): 25 chuỗi / 145 mắt xích. Nối dài thêm 天気, 食物, 芸術, 森林; thêm 1 chuỗi mới (決心→解決).",
+    "Batch mở rộng (round 13): 24 chuỗi / 128 mắt xích. 4 chuỗi ngắn (旅行, 旅館, 教育, 心配) đã được nối dài thêm; thêm 1 chuỗi mới (感動→会員).",
+    "Batch mở rộng (round 12): 23 chuỗi / 113 mắt xích. 4 chuỗi ngắn từ round trước (病院, 交通, 会話, 感情) đã được nối dài thêm; thêm 1 chuỗi mới (心配→成功).",
+    "Batch mở rộng (round 11): 22 chuỗi / 100 mắt xích, độ dài 3-7 mắt xích/chuỗi. 4 chuỗi ngắn từ round trước đã được nối dài thêm.",
+    "Chưa mô hình hoá biến âm bề mặt khi ghép từ (促音便/xúc âm) bằng field riêng — hiện chỉ giải thích trong 'note' của từng chuỗi bị ảnh hưởng (vd 学校, 物価).",
+    "ja-chain-gakusei-seikatsu-katsudou dừng ở 価値 vì bước tiếp theo qua chữ 値 sẽ gặp đa âm on-yomi/kun-yomi thật (ち trong 価値 vs ね trong 値段) — chủ động không nối để tránh sai, xem note của chuỗi.",
+    "Chưa tích hợp trục đa âm on-yomi (Features.md mục 10.4) như 1 field riêng đối chiếu trong cùng 1 chuỗi — để dành cho đợt sau.",
+    "Chưa có ví dụ dùng từ thuần Nhật (訓読み) hay từ mượn katakana — cơ chế domino không áp dụng được cho 2 loại từ này theo đúng Features.md 10.4."
+  ]
+}
