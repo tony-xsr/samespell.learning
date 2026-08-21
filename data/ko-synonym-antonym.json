@@ -1,0 +1,3583 @@
+{
+  "language": "ko",
+  "label": "Cụm đồng nghĩa · trái nghĩa",
+  "pairs": [
+    {
+      "id": "ko-syn-ant-seonggong-silpae",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "성공", "hanja": "成功", "reading": "seonggong", "hanViet": "thành công", "meaningVn": "thành công" },
+          { "headword": "달성", "hanja": "達成", "reading": "dalseong", "hanViet": "đạt thành", "meaningVn": "đạt được, hoàn thành mục tiêu" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "실패", "hanja": "失敗", "reading": "silpae", "hanViet": "thất bại", "meaningVn": "thất bại" },
+          { "headword": "좌절", "hanja": "挫折", "reading": "jwajeol", "hanViet": "tỏa chiết", "meaningVn": "vấp ngã, thất bại về tinh thần" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA."
+    },
+    {
+      "id": "ko-syn-ant-chanseong-bandae",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "찬성", "hanja": "贊成", "reading": "chanseong", "hanViet": "tán thành", "meaningVn": "tán thành, đồng ý" },
+          { "headword": "동의", "hanja": "同意", "reading": "dong-ui", "hanViet": "đồng ý", "meaningVn": "đồng ý" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "반대", "hanja": "反對", "reading": "bandae", "hanViet": "phản đối", "meaningVn": "phản đối" },
+          { "headword": "이의", "hanja": "異議", "reading": "i-ui", "hanViet": "dị nghị", "meaningVn": "ý kiến phản đối (trang trọng, vd họp hành chính)" }
+        ]
+      },
+      "note": "찬성⇔반대 là cặp cố định hay gặp trong sách giáo khoa/thời sự tiếng Hàn (biểu quyết)."
+    },
+    {
+      "id": "ko-syn-ant-geodae-mimi",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": "大",
+        "words": [
+          { "headword": "거대", "hanja": "巨大", "reading": "geodae", "hanViet": "cự đại", "meaningVn": "to lớn, khổng lồ" },
+          { "headword": "막대", "hanja": "莫大", "reading": "makdae", "hanViet": "mạc đại", "meaningVn": "rất lớn (thường dùng cho thiệt hại/số lượng)" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "미미", "hanja": "微微", "reading": "mimi", "hanViet": "vi vi", "meaningVn": "không đáng kể, rất nhỏ" },
+          { "headword": "사소", "hanja": "些少", "reading": "saso", "hanViet": "ta thiểu", "meaningVn": "vặt vãnh, nhỏ nhặt" }
+        ]
+      },
+      "note": "Cụm đồng nghĩa tình cờ chung chữ 大. Tránh dùng 미소 (微小, nhỏ bé) cho cụm trái nghĩa vì trùng âm hoàn toàn với 미소 (微笑, nụ cười) — dùng 미미 để rõ nghĩa hơn."
+    },
+    {
+      "id": "ko-syn-ant-gandan-bokjap",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "간단", "hanja": "簡單", "reading": "gandan", "hanViet": "giản đơn", "meaningVn": "đơn giản" },
+          { "headword": "용이", "hanja": "容易", "reading": "yong-i", "hanViet": "dung dị", "meaningVn": "dễ dàng" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "복잡", "hanja": "複雜", "reading": "bokjap", "hanViet": "phức tạp", "meaningVn": "phức tạp" },
+          { "headword": "곤란", "hanja": "困難", "reading": "gollan", "hanViet": "khốn nan", "meaningVn": "khó khăn, khốn khó" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (dễ/khó)."
+    },
+    {
+      "id": "ko-syn-ant-goga-jeoga",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "고가", "hanja": "高價", "reading": "goga", "hanViet": "cao giá", "meaningVn": "giá cao, đắt" },
+          { "headword": "사치", "hanja": "奢侈", "reading": "sachi", "hanViet": "xa xỉ", "meaningVn": "xa xỉ" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "저가", "hanja": "低價", "reading": "jeoga", "hanViet": "đê giá", "meaningVn": "giá thấp, giá rẻ" },
+          { "headword": "염가", "hanja": "廉價", "reading": "yeomga", "hanViet": "liêm giá", "meaningVn": "giá rẻ (trang trọng hơn)" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (đắt/rẻ). 염가 (廉價) là ví dụ chữ 廉 đổi bề mặt 렴→염 ở đầu từ (두음법칙, dạng ㄹ→ㅇ trước nguyên âm iotized)."
+    },
+    {
+      "id": "ko-syn-ant-naengjeong-heungbun",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "평온", "hanja": "平穩", "reading": "pyeongon", "hanViet": "bình ổn", "meaningVn": "bình yên" },
+          { "headword": "냉정", "hanja": "冷靜", "reading": "naengjeong", "hanViet": "lãnh tĩnh", "meaningVn": "điềm tĩnh, lạnh lùng" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "흥분", "hanja": "興奮", "reading": "heungbun", "hanViet": "hưng phấn", "meaningVn": "kích động, hưng phấn" },
+          { "headword": "동요", "hanja": "動搖", "reading": "dongyo", "hanViet": "động dao", "meaningVn": "dao động, hoang mang" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (điềm tĩnh/kích động). 냉정 (冷靜) là ví dụ chữ 冷 đổi bề mặt 랭→냉 ở đầu từ (두음법칙)."
+    },
+    {
+      "id": "ko-syn-ant-buyu-bingon",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "부유", "hanja": "富裕", "reading": "buyu", "hanViet": "phú dụ", "meaningVn": "giàu có" },
+          { "headword": "유복", "hanja": "裕福", "reading": "yubok", "hanViet": "dụ phúc", "meaningVn": "giàu có, sung túc" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "빈곤", "hanja": "貧困", "reading": "bingon", "hanViet": "bần khốn", "meaningVn": "nghèo khó" },
+          { "headword": "궁핍", "hanja": "窮乏", "reading": "gungpip", "hanViet": "cùng phạp", "meaningVn": "cùng quẫn, túng thiếu" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (giàu/nghèo)."
+    },
+    {
+      "id": "ko-syn-ant-geunmyeon-taeman",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "근면", "hanja": "勤勉", "reading": "geunmyeon", "hanViet": "cần miễn", "meaningVn": "cần cù" },
+          { "headword": "열심", "hanja": "熱心", "reading": "yeolsim", "hanViet": "nhiệt tâm", "meaningVn": "nhiệt tình, chăm chỉ" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "태만", "hanja": "怠慢", "reading": "taeman", "hanViet": "đãi mạn", "meaningVn": "lười biếng, xao nhãng" },
+          { "headword": "나태", "hanja": "懶怠", "reading": "natae", "hanViet": "lãn đãi", "meaningVn": "lười nhác" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (chăm chỉ/lười biếng)."
+    },
+    {
+      "id": "ko-syn-ant-pyeolli-bulpyeon",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "편리", "hanja": "便利", "reading": "pyeolli", "hanViet": "tiện lợi", "meaningVn": "tiện lợi" },
+          { "headword": "간편", "hanja": "簡便", "reading": "ganpyeon", "hanViet": "giản tiện", "meaningVn": "giản tiện" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "불편", "hanja": "不便", "reading": "bulpyeon", "hanViet": "bất tiện", "meaningVn": "bất tiện" },
+          { "headword": "번잡", "hanja": "煩雜", "reading": "beonjap", "hanViet": "phiền tạp", "meaningVn": "phiền phức, rối rắm" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (tiện/bất tiện)."
+    },
+    {
+      "id": "ko-syn-ant-chongmyeong-udun",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "총명", "hanja": "聰明", "reading": "chongmyeong", "hanViet": "thông minh", "meaningVn": "thông minh (trang trọng)" },
+          { "headword": "영리", "hanja": "伶俐", "reading": "yeongni", "hanViet": "linh lợi", "meaningVn": "lanh lợi" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "우둔", "hanja": "愚鈍", "reading": "udun", "hanViet": "ngu độn", "meaningVn": "ngu độn" },
+          { "headword": "노둔", "hanja": "魯鈍", "reading": "nodun", "hanViet": "lỗ độn", "meaningVn": "đần độn (hơi văn viết)" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (thông minh/ngu độn)."
+    },
+    {
+      "id": "ko-syn-ant-yonggam-sosim",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "용감", "hanja": "勇敢", "reading": "yonggam", "hanViet": "dũng cảm", "meaningVn": "dũng cảm" },
+          { "headword": "대담", "hanja": "大膽", "reading": "daedam", "hanViet": "đại đảm", "meaningVn": "táo bạo" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "소심", "hanja": "小心", "reading": "sosim", "hanViet": "tiểu tâm", "meaningVn": "nhút nhát, rụt rè" },
+          { "headword": "나약", "hanja": "懦弱", "reading": "nayak", "hanViet": "nhu nhược", "meaningVn": "nhu nhược" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (dũng cảm/nhút nhát)."
+    },
+    {
+      "id": "ko-syn-ant-seongsil-heowi",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "성실", "hanja": "誠實", "reading": "seongsil", "hanViet": "thành thực", "meaningVn": "thành thật" },
+          { "headword": "정직", "hanja": "正直", "reading": "jeongjik", "hanViet": "chính trực", "meaningVn": "ngay thẳng" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "허위", "hanja": "虛僞", "reading": "heowi", "hanViet": "hư nguỵ", "meaningVn": "giả dối (trang trọng, pháp lý)" },
+          { "headword": "기만", "hanja": "欺瞞", "reading": "giman", "hanViet": "khi mạn", "meaningVn": "lừa dối, man trá" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (thành thật/giả dối)."
+    },
+    {
+      "id": "ko-syn-ant-geomso-nangbi",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "검소", "hanja": "儉素", "reading": "geomso", "hanViet": "kiệm tố", "meaningVn": "giản dị" },
+          { "headword": "절약", "hanja": "節約", "reading": "jeoryak", "hanViet": "tiết ước", "meaningVn": "tiết kiệm" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "낭비", "hanja": "浪費", "reading": "nangbi", "hanViet": "lãng phí", "meaningVn": "lãng phí" },
+          { "headword": "방탕", "hanja": "放蕩", "reading": "bangtang", "hanViet": "phóng đãng", "meaningVn": "phóng đãng, hoang phí (văn viết)" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (giản dị/xa hoa)."
+    },
+    {
+      "id": "ko-syn-ant-gyeomson-oman",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "겸손", "hanja": "謙遜", "reading": "gyeomson", "hanViet": "khiêm tốn", "meaningVn": "khiêm tốn" },
+          { "headword": "겸허", "hanja": "謙虛", "reading": "gyeomheo", "hanViet": "khiêm hư", "meaningVn": "khiêm tốn" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "오만", "hanja": "傲慢", "reading": "oman", "hanViet": "ngạo mạn", "meaningVn": "ngạo mạn" },
+          { "headword": "거만", "hanja": "倨慢", "reading": "geoman", "hanViet": "cứ mạn", "meaningVn": "kiêu căng" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (khiêm tốn/kiêu ngạo)."
+    },
+    {
+      "id": "ko-syn-ant-sunjo-paran",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "순조", "hanja": "順調", "reading": "sunjo", "hanViet": "thuận điều", "meaningVn": "thuận lợi" },
+          { "headword": "원활", "hanja": "圓滑", "reading": "wonhwal", "hanViet": "viên hoạt", "meaningVn": "suôn sẻ" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "파란", "hanja": "波瀾", "reading": "paran", "hanViet": "ba lan", "meaningVn": "sóng gió, biến động (vd 파란만장)" },
+          { "headword": "고난", "hanja": "苦難", "reading": "gonan", "hanViet": "khổ nạn", "meaningVn": "khổ nạn" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (thuận lợi/trắc trở)."
+    },
+    {
+      "id": "ko-syn-ant-sinsok-wanman",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "신속", "hanja": "迅速", "reading": "sinsok", "hanViet": "tấn tốc", "meaningVn": "nhanh chóng" },
+          { "headword": "민첩", "hanja": "敏捷", "reading": "mincheop", "hanViet": "mẫn tiệp", "meaningVn": "nhanh nhẹn" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "완만", "hanja": "緩慢", "reading": "wanman", "hanViet": "hoãn mạn", "meaningVn": "chậm chạp" },
+          { "headword": "둔중", "hanja": "鈍重", "reading": "dunjung", "hanViet": "độn trọng", "meaningVn": "chậm chạp, nặng nề" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (nhanh nhẹn/chậm chạp)."
+    },
+    {
+      "id": "ko-syn-ant-anjeon-wiheom",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "안전", "hanja": "安全", "reading": "anjeon", "hanViet": "an toàn", "meaningVn": "an toàn" },
+          { "headword": "무사", "hanja": "無事", "reading": "musa", "hanViet": "vô sự", "meaningVn": "bình an vô sự" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": "危",
+        "words": [
+          { "headword": "위험", "hanja": "危險", "reading": "wiheom", "hanViet": "nguy hiểm", "meaningVn": "nguy hiểm" },
+          { "headword": "위기", "hanja": "危機", "reading": "wigi", "hanViet": "nguy cơ", "meaningVn": "nguy cơ" }
+        ]
+      },
+      "note": "Cụm trái nghĩa tình cờ chung chữ 危, cụm đồng nghĩa không chung chữ."
+    },
+    {
+      "id": "ko-syn-ant-sukji-aemae",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "숙지", "hanja": "熟知", "reading": "sukji", "hanViet": "thục tri", "meaningVn": "biết rõ, thông thạo" },
+          { "headword": "이해", "hanja": "理解", "reading": "ihae", "hanViet": "lý giải", "meaningVn": "hiểu rõ" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "미지", "hanja": "未知", "reading": "miji", "hanViet": "vị tri", "meaningVn": "chưa biết" },
+          { "headword": "애매", "hanja": "曖昧", "reading": "aemae", "hanViet": "ái muội", "meaningVn": "mơ hồ" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (biết rõ/mơ hồ)."
+    },
+    {
+      "id": "ko-syn-ant-gangin-chwiyak",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "강인", "hanja": "強靭", "reading": "gangin", "hanViet": "cường nhẫn", "meaningVn": "dẻo dai, bền bỉ" },
+          { "headword": "완강", "hanja": "頑強", "reading": "wangang", "hanViet": "ngoan cường", "meaningVn": "ngoan cường" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "취약", "hanja": "脆弱", "reading": "chwiyak", "hanViet": "thúy nhược", "meaningVn": "yếu ớt" },
+          { "headword": "연약", "hanja": "軟弱", "reading": "yeonyak", "hanViet": "nhuyễn nhược", "meaningVn": "nhu nhược, mềm yếu" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (kiên cường/yếu ớt)."
+    },
+    {
+      "id": "ko-syn-ant-jeokgeuk-sogeuk",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "적극", "hanja": "積極", "reading": "jeokgeuk", "hanViet": "tích cực", "meaningVn": "tích cực" },
+          { "headword": "능동", "hanja": "能動", "reading": "neungdong", "hanViet": "năng động", "meaningVn": "chủ động" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "소극", "hanja": "消極", "reading": "sogeuk", "hanViet": "tiêu cực", "meaningVn": "tiêu cực" },
+          { "headword": "수동", "hanja": "受動", "reading": "sudong", "hanViet": "thụ động", "meaningVn": "bị động" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (chủ động/bị động). 적극적/소극적 là cặp cố định rất hay gặp."
+    },
+    {
+      "id": "ko-syn-ant-jeonghwak-jojap",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "정확", "hanja": "正確", "reading": "jeonghwak", "hanViet": "chính xác", "meaningVn": "chính xác" },
+          { "headword": "정밀", "hanja": "精密", "reading": "jeongmil", "hanViet": "tinh mật", "meaningVn": "chính xác, tinh mật" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "조잡", "hanja": "粗雜", "reading": "jojap", "hanViet": "thô tạp", "meaningVn": "thô sơ, cẩu thả" },
+          { "headword": "부실", "hanja": "不實", "reading": "busil", "hanViet": "bất thực", "meaningVn": "sơ sài, không chắc chắn" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (chính xác/cẩu thả)."
+    },
+    {
+      "id": "ko-syn-ant-gwangbeom-huiso",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "광범", "hanja": "廣範", "reading": "gwangbeom", "hanViet": "quảng phạm", "meaningVn": "rộng rãi" },
+          { "headword": "보편", "hanja": "普遍", "reading": "bopyeon", "hanViet": "phổ biến", "meaningVn": "phổ biến" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "희소", "hanja": "稀少", "reading": "huiso", "hanViet": "hy thiểu", "meaningVn": "hiếm hoi" },
+          { "headword": "특수", "hanja": "特殊", "reading": "teuksu", "hanViet": "đặc thù", "meaningVn": "đặc biệt" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (phổ biến/hiếm)."
+    },
+    {
+      "id": "ko-syn-ant-pungbu-gyeolpip",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "풍부", "hanja": "豊富", "reading": "pungbu", "hanViet": "phong phú", "meaningVn": "phong phú" },
+          { "headword": "충실", "hanja": "充實", "reading": "chungsil", "hanViet": "sung thực", "meaningVn": "sung túc, đầy đủ" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "결핍", "hanja": "缺乏", "reading": "gyeolpip", "hanViet": "khuyết phạp", "meaningVn": "thiếu thốn" },
+          { "headword": "부족", "hanja": "不足", "reading": "bujok", "hanViet": "bất túc", "meaningVn": "thiếu" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (phong phú/thiếu thốn)."
+    },
+    {
+      "id": "ko-syn-ant-onhwa-nanpok",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "온화", "hanja": "溫和", "reading": "onhwa", "hanViet": "ôn hoà", "meaningVn": "ôn hoà" },
+          { "headword": "유화", "hanja": "柔和", "reading": "yuhwa", "hanViet": "nhu hoà", "meaningVn": "dịu dàng" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "흉포", "hanja": "凶暴", "reading": "hyungpo", "hanViet": "hung bạo", "meaningVn": "hung bạo" },
+          { "headword": "난폭", "hanja": "亂暴", "reading": "nanpok", "hanViet": "loạn bạo", "meaningVn": "thô bạo (vd 난폭 운전)" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (dịu dàng/thô bạo)."
+    },
+    {
+      "id": "ko-syn-ant-gwandae-insaek",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "관대", "hanja": "寬大", "reading": "gwandae", "hanViet": "khoan đại", "meaningVn": "khoan dung, rộng lượng" },
+          { "headword": "호탕", "hanja": "豪宕", "reading": "hotang", "hanViet": "hào đãng", "meaningVn": "hào phóng, khoáng đạt" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "인색", "hanja": "吝嗇", "reading": "insaek", "hanViet": "lận sắc", "meaningVn": "keo kiệt" },
+          { "headword": "탐욕", "hanja": "貪慾", "reading": "tamyok", "hanViet": "tham dục", "meaningVn": "tham lam" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (hào phóng/keo kiệt)."
+    },
+    {
+      "id": "ko-syn-ant-yuyeon-wango",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "유연", "hanja": "柔軟", "reading": "yuyeon", "hanViet": "nhu nhuyễn", "meaningVn": "linh hoạt, mềm dẻo" },
+          { "headword": "융통", "hanja": "融通", "reading": "yungtong", "hanViet": "dung thông", "meaningVn": "linh động (vd 융통성)" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "완고", "hanja": "頑固", "reading": "wango", "hanViet": "ngoan cố", "meaningVn": "cố chấp" },
+          { "headword": "경직", "hanja": "硬直", "reading": "gyeongjik", "hanViet": "ngạnh trực", "meaningVn": "cứng nhắc" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (linh hoạt/cứng nhắc)."
+    },
+    {
+      "id": "ko-syn-ant-eomgyeok-gwanyong",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "엄격", "hanja": "嚴格", "reading": "eomgyeok", "hanViet": "nghiêm cách", "meaningVn": "nghiêm khắc" },
+          { "headword": "엄중", "hanja": "嚴重", "reading": "eomjung", "hanViet": "nghiêm trọng", "meaningVn": "nghiêm ngặt" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "관용", "hanja": "寬容", "reading": "gwanyong", "hanViet": "khoan dung", "meaningVn": "khoan dung" },
+          { "headword": "완화", "hanja": "緩和", "reading": "wanhwa", "hanViet": "hoãn hoà", "meaningVn": "nới lỏng, hoà hoãn" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (nghiêm khắc/khoan dung)."
+    },
+    {
+      "id": "ko-syn-ant-chungseong-baesin",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "충성", "hanja": "忠誠", "reading": "chungseong", "hanViet": "trung thành", "meaningVn": "trung thành" },
+          { "headword": "충직", "hanja": "忠直", "reading": "chungjik", "hanViet": "trung trực", "meaningVn": "trung thực, ngay thẳng" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "배신", "hanja": "背信", "reading": "baesin", "hanViet": "bội tín", "meaningVn": "bội tín" },
+          { "headword": "반역", "hanja": "反逆", "reading": "banyeok", "hanViet": "phản nghịch", "meaningVn": "phản nghịch" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (trung thành/phản bội)."
+    },
+    {
+      "id": "ko-syn-ant-dangyeol-bunyeol",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "단결", "hanja": "團結", "reading": "dangyeol", "hanViet": "đoàn kết", "meaningVn": "đoàn kết" },
+          { "headword": "융화", "hanja": "融和", "reading": "yunghwa", "hanViet": "dung hoà", "meaningVn": "hoà hợp" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "분열", "hanja": "分裂", "reading": "bunyeol", "hanViet": "phân liệt", "meaningVn": "chia rẽ" },
+          { "headword": "대립", "hanja": "對立", "reading": "daerip", "hanViet": "đối lập", "meaningVn": "đối lập" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (đoàn kết/chia rẽ)."
+    },
+    {
+      "id": "ko-syn-ant-cheonggyeol-bulgyeol",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "청결", "hanja": "淸潔", "reading": "cheonggyeol", "hanViet": "thanh khiết", "meaningVn": "sạch sẽ" },
+          { "headword": "정돈", "hanja": "整頓", "reading": "jeongdon", "hanViet": "chỉnh đốn", "meaningVn": "gọn gàng" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "불결", "hanja": "不潔", "reading": "bulgyeol", "hanViet": "bất khiết", "meaningVn": "bẩn thỉu" },
+          { "headword": "난잡", "hanja": "亂雜", "reading": "nanjap", "hanViet": "loạn tạp", "meaningVn": "lộn xộn, bừa bãi" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (sạch sẽ/bẩn thỉu, lộn xộn)."
+    },
+    {
+      "id": "ko-syn-ant-sinjung-gyeongsol",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "신중", "hanja": "愼重", "reading": "sinjung", "hanViet": "thận trọng", "meaningVn": "thận trọng" },
+          { "headword": "조심", "hanja": "操心", "reading": "josim", "hanViet": "thao tâm", "meaningVn": "cẩn thận" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "경솔", "hanja": "輕率", "reading": "gyeongsol", "hanViet": "khinh suất", "meaningVn": "khinh suất" },
+          { "headword": "무모", "hanja": "無謀", "reading": "mumo", "hanViet": "vô mưu", "meaningVn": "liều lĩnh" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (thận trọng/khinh suất)."
+    },
+    {
+      "id": "ko-syn-ant-yeoljeong-mugwansim",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "열정", "hanja": "熱情", "reading": "yeoljeong", "hanViet": "nhiệt tình", "meaningVn": "nhiệt huyết" },
+          { "headword": "열의", "hanja": "熱意", "reading": "yeorui", "hanViet": "nhiệt ý", "meaningVn": "tâm huyết, nhiệt tình" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "무관심", "hanja": "無關心", "reading": "mugwansim", "hanViet": "vô quan tâm", "meaningVn": "thờ ơ" },
+          { "headword": "냉담", "hanja": "冷淡", "reading": "naengdam", "hanViet": "lãnh đạm", "meaningVn": "lạnh nhạt" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (nhiệt tình/thờ ơ)."
+    },
+    {
+      "id": "ko-syn-ant-dongnip-uijon",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "독립", "hanja": "獨立", "reading": "dongnip", "hanViet": "độc lập", "meaningVn": "độc lập" },
+          { "headword": "자주", "hanja": "自主", "reading": "jaju", "hanViet": "tự chủ", "meaningVn": "tự chủ" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "의존", "hanja": "依存", "reading": "uijon", "hanViet": "ỷ tồn", "meaningVn": "phụ thuộc" },
+          { "headword": "종속", "hanja": "從屬", "reading": "jongsok", "hanViet": "tòng thuộc", "meaningVn": "lệ thuộc" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (độc lập/phụ thuộc)."
+    },
+    {
+      "id": "ko-syn-ant-nakgwan-bigwan",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "낙관", "hanja": "樂觀", "reading": "nakgwan", "hanViet": "lạc quan", "meaningVn": "lạc quan" },
+          { "headword": "낙천", "hanja": "樂天", "reading": "nakcheon", "hanViet": "lạc thiên", "meaningVn": "lạc quan, yêu đời (bẩm sinh)" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "비관", "hanja": "悲觀", "reading": "bigwan", "hanViet": "bi quan", "meaningVn": "bi quan" },
+          { "headword": "낙담", "hanja": "落膽", "reading": "nakdam", "hanViet": "lạc đảm", "meaningVn": "nản lòng, thất vọng" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (lạc quan/bi quan)."
+    },
+    {
+      "id": "ko-syn-ant-haengun-burun",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "행운", "hanja": "幸運", "reading": "haengun", "hanViet": "hạnh vận", "meaningVn": "may mắn" },
+          { "headword": "천운", "hanja": "天運", "reading": "cheonun", "hanViet": "thiên vận", "meaningVn": "vận trời, may mắn do trời định" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "불운", "hanja": "不運", "reading": "burun", "hanViet": "bất vận", "meaningVn": "không may, vận rủi" },
+          { "headword": "비운", "hanja": "悲運", "reading": "biun", "hanViet": "bi vận", "meaningVn": "vận rủi, số phận bi thảm" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (may mắn/xui xẻo)."
+    },
+    {
+      "id": "ko-syn-ant-myeongnang-eumul",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "명랑", "hanja": "明朗", "reading": "myeongnang", "hanViet": "minh lãng", "meaningVn": "sáng sủa, vui vẻ" },
+          { "headword": "쾌활", "hanja": "快活", "reading": "kwaehwal", "hanViet": "khoái hoạt", "meaningVn": "vui vẻ, hoạt bát" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "음울", "hanja": "陰鬱", "reading": "eumul", "hanViet": "âm uất", "meaningVn": "u uất, ảm đạm" },
+          { "headword": "음침", "hanja": "陰沈", "reading": "eumchim", "hanViet": "âm trầm", "meaningVn": "âm u, ảm đạm, lén lút" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (vui vẻ/u ám)."
+    },
+    {
+      "id": "ko-syn-ant-damang-hanga",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "다망", "hanja": "多忙", "reading": "damang", "hanViet": "đa mang", "meaningVn": "bận rộn" },
+          { "headword": "번망", "hanja": "繁忙", "reading": "beonmang", "hanViet": "phồn mang", "meaningVn": "bận rộn, tấp nập" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "한가", "hanja": "閑暇", "reading": "hanga", "hanViet": "nhàn hạ", "meaningVn": "nhàn rỗi" },
+          { "headword": "한산", "hanja": "閑散", "reading": "hansan", "hanViet": "nhàn tán", "meaningVn": "vắng vẻ, nhàn rỗi (ít người/việc)" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (bận rộn/nhàn rỗi)."
+    },
+    {
+      "id": "ko-syn-ant-seongui-agui",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "성의", "hanja": "誠意", "reading": "seongui", "hanViet": "thành ý", "meaningVn": "thành ý, thiện chí" },
+          { "headword": "선의", "hanja": "善意", "reading": "seonui", "hanViet": "thiện ý", "meaningVn": "thiện ý, ý tốt" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "악의", "hanja": "惡意", "reading": "agui", "hanViet": "ác ý", "meaningVn": "ác ý, ý xấu" },
+          { "headword": "적의", "hanja": "敵意", "reading": "jeogui", "hanViet": "địch ý", "meaningVn": "thù địch, ác cảm" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (thành ý/ác ý)."
+    },
+    {
+      "id": "ko-syn-ant-jeongjeok-soran",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "정적", "hanja": "靜寂", "reading": "jeongjeok", "hanViet": "tĩnh tịch", "meaningVn": "yên tĩnh, tĩnh mịch" },
+          { "headword": "정숙", "hanja": "靜肅", "reading": "jeongsuk", "hanViet": "tĩnh túc", "meaningVn": "trang nghiêm, yên tĩnh" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "소란", "hanja": "騷亂", "reading": "soran", "hanViet": "tao loạn", "meaningVn": "ồn ào, náo loạn" },
+          { "headword": "소음", "hanja": "騷音", "reading": "soeum", "hanViet": "tao âm", "meaningVn": "tiếng ồn" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (yên tĩnh/ồn ào)."
+    },
+    {
+      "id": "ko-syn-ant-geongang-heoyak",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "건강", "hanja": "健康", "reading": "geongang", "hanViet": "kiện khang", "meaningVn": "khoẻ mạnh" },
+          { "headword": "완건", "hanja": "頑健", "reading": "wangeon", "hanViet": "ngoan kiện", "meaningVn": "khoẻ mạnh, cường tráng (trang trọng)" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "허약", "hanja": "虛弱", "reading": "heoyak", "hanViet": "hư nhược", "meaningVn": "yếu ớt, ốm yếu" },
+          { "headword": "병약", "hanja": "病弱", "reading": "byeongyak", "hanViet": "bệnh nhược", "meaningVn": "ốm yếu, hay đau ốm" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (khoẻ mạnh/yếu ớt, nghĩa THỂ CHẤT)."
+    },
+    {
+      "id": "ko-syn-ant-gosang-biyeol",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "고상", "hanja": "高尚", "reading": "gosang", "hanViet": "cao thượng", "meaningVn": "cao thượng" },
+          { "headword": "숭고", "hanja": "崇高", "reading": "sunggo", "hanViet": "sùng cao", "meaningVn": "cao cả" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "비열", "hanja": "卑劣", "reading": "biyeol", "hanViet": "ti liệt", "meaningVn": "đê tiện, hèn hạ" },
+          { "headword": "하열", "hanja": "下劣", "reading": "hayeol", "hanViet": "hạ liệt", "meaningVn": "đê tiện, thấp hèn" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (cao thượng/đê tiện, đạo đức)."
+    },
+    {
+      "id": "ko-syn-ant-jasin-yeoldeunggam",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "자신", "hanja": "自信", "reading": "jasin", "hanViet": "tự tín", "meaningVn": "tự tin" },
+          { "headword": "자부", "hanja": "自負", "reading": "jabu", "hanViet": "tự phụ", "meaningVn": "tự tin, tự hào về bản thân" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "열등감", "hanja": "劣等感", "reading": "yeoldeunggam", "hanViet": "liệt đẳng cảm", "meaningVn": "mặc cảm tự ti" },
+          { "headword": "비하", "hanja": "卑下", "reading": "biha", "hanViet": "ti hạ", "meaningVn": "tự ti, hạ thấp bản thân (văn viết)" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (tự tin/tự ti)."
+    },
+    {
+      "id": "ko-syn-ant-chimmuk-dabyeon",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "침묵", "hanja": "沈默", "reading": "chimmuk", "hanViet": "trầm mặc", "meaningVn": "trầm lặng, im lặng" },
+          { "headword": "과묵", "hanja": "寡默", "reading": "gwamuk", "hanViet": "quả mặc", "meaningVn": "ít nói, trầm lặng" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "다변", "hanja": "多辯", "reading": "dabyeon", "hanViet": "đa biện", "meaningVn": "nói nhiều" },
+          { "headword": "요설", "hanja": "饒舌", "reading": "yoseol", "hanViet": "nhiêu thiệt", "meaningVn": "lắm lời, ba hoa" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (trầm lặng/hoạt bát nói nhiều)."
+    },
+    {
+      "id": "ko-syn-ant-sunjong-banhang",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "순종", "hanja": "順從", "reading": "sunjong", "hanViet": "thuận tòng", "meaningVn": "ngoan ngoãn, thuận theo" },
+          { "headword": "복종", "hanja": "服從", "reading": "bokjong", "hanViet": "phục tòng", "meaningVn": "phục tùng" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "반항", "hanja": "反抗", "reading": "banhang", "hanViet": "phản kháng", "meaningVn": "phản kháng" },
+          { "headword": "저항", "hanja": "抵抗", "reading": "jeohang", "hanViet": "để kháng", "meaningVn": "kháng cự" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (thuận theo/phản kháng)."
+    },
+    {
+      "id": "ko-syn-ant-jipchak-pogi",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "집착", "hanja": "執着", "reading": "jipchak", "hanViet": "chấp trước", "meaningVn": "kiên trì bám giữ" },
+          { "headword": "근기", "hanja": "根氣", "reading": "geungi", "hanViet": "căn khí", "meaningVn": "kiên nhẫn, bền bỉ" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "단념", "hanja": "斷念", "reading": "dannyeom", "hanViet": "đoạn niệm", "meaningVn": "từ bỏ ý định" },
+          { "headword": "포기", "hanja": "抛棄", "reading": "pogi", "hanViet": "phao khí", "meaningVn": "từ bỏ" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (kiên trì/từ bỏ)."
+    },
+    {
+      "id": "ko-syn-ant-gwadan-uyubudan",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "과단", "hanja": "果斷", "reading": "gwadan", "hanViet": "quả đoán", "meaningVn": "quyết đoán" },
+          { "headword": "결단", "hanja": "決斷", "reading": "gyeoldan", "hanViet": "quyết đoán", "meaningVn": "quyết đoán" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "우유부단", "hanja": "優柔不斷", "reading": "uyubudan", "hanViet": "ưu nhu bất đoán", "meaningVn": "do dự, bất quyết (thành ngữ 4 chữ)" },
+          { "headword": "주저", "hanja": "躊躇", "reading": "jujeo", "hanViet": "trù trừ", "meaningVn": "do dự, lưỡng lự" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (quyết đoán/do dự)."
+    },
+    {
+      "id": "ko-syn-ant-bunbang-guso",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "분방", "hanja": "奔放", "reading": "bunbang", "hanViet": "bôn phóng", "meaningVn": "phóng khoáng, tự do" },
+          { "headword": "자재", "hanja": "自在", "reading": "jajae", "hanViet": "tự tại", "meaningVn": "tự do tự tại" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "구속", "hanja": "拘束", "reading": "guso", "hanViet": "câu thúc", "meaningVn": "gò bó, ràng buộc" },
+          { "headword": "속박", "hanja": "束縛", "reading": "sokbak", "hanViet": "thúc phọc", "meaningVn": "trói buộc, kìm kẹp" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (phóng khoáng/gò bó)."
+    },
+    {
+      "id": "ko-syn-ant-sobak-hwaryeo",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "소박", "hanja": "素朴", "reading": "sobak", "hanViet": "tố phác", "meaningVn": "mộc mạc, chất phác" },
+          { "headword": "간소", "hanja": "簡素", "reading": "ganso", "hanViet": "giản tố", "meaningVn": "giản dị, đơn giản" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "화려", "hanja": "華麗", "reading": "hwaryeo", "hanViet": "hoa lệ", "meaningVn": "hoa lệ, lộng lẫy" },
+          { "headword": "현란", "hanja": "絢爛", "reading": "hyeollan", "hanViet": "huyễn lạn", "meaningVn": "rực rỡ, lộng lẫy" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (mộc mạc/hoa mỹ)."
+    },
+    {
+      "id": "ko-syn-ant-yangbo-jaengtal",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "양보", "hanja": "讓步", "reading": "yangbo", "hanViet": "nhượng bộ", "meaningVn": "nhường bước" },
+          { "headword": "겸양", "hanja": "謙讓", "reading": "gyeomyang", "hanViet": "khiêm nhượng", "meaningVn": "khiêm nhường" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "쟁탈", "hanja": "爭奪", "reading": "jaengtal", "hanViet": "tranh đoạt", "meaningVn": "tranh giành" },
+          { "headword": "약탈", "hanja": "掠奪", "reading": "yaktal", "hanViet": "lược đoạt", "meaningVn": "cướp đoạt" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (nhường nhịn/tranh giành)."
+    },
+    {
+      "id": "ko-syn-ant-manjok-tamsim",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "만족", "hanja": "滿足", "reading": "manjok", "hanViet": "mãn túc", "meaningVn": "thoả mãn" },
+          { "headword": "흡족", "hanja": "洽足", "reading": "heupjok", "hanViet": "hiệp túc", "meaningVn": "hài lòng, thoả mãn" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "탐심", "hanja": "貪心", "reading": "tamsim", "hanViet": "tham tâm", "meaningVn": "lòng tham" },
+          { "headword": "물욕", "hanja": "物慾", "reading": "muryok", "hanViet": "vật dục", "meaningVn": "lòng tham vật chất" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (thoả mãn/tham lam)."
+    },
+    {
+      "id": "ko-syn-ant-gongjeong-pyeonpa",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "공정", "hanja": "公正", "reading": "gongjeong", "hanViet": "công chính", "meaningVn": "công bằng" },
+          { "headword": "공평", "hanja": "公平", "reading": "gongpyeong", "hanViet": "công bình", "meaningVn": "công bằng" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "편파", "hanja": "偏頗", "reading": "pyeonpa", "hanViet": "thiên pha", "meaningVn": "thiên vị, lệch lạc" },
+          { "headword": "불공평", "hanja": "不公平", "reading": "bulgongpyeong", "hanViet": "bất công bình", "meaningVn": "bất công" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (công bằng/thiên vị)."
+    },
+    {
+      "id": "ko-syn-ant-naenghok-inja",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "냉혹", "hanja": "冷酷", "reading": "naenghok", "hanViet": "lãnh khốc", "meaningVn": "lạnh lùng tàn nhẫn" },
+          { "headword": "잔인", "hanja": "殘忍", "reading": "janin", "hanViet": "tàn nhẫn", "meaningVn": "tàn nhẫn" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "인자", "hanja": "仁慈", "reading": "inja", "hanViet": "nhân từ", "meaningVn": "nhân từ" },
+          { "headword": "자비", "hanja": "慈悲", "reading": "jabi", "hanViet": "từ bi", "meaningVn": "từ bi, nhân từ" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (lạnh lùng tàn nhẫn/nhân từ)."
+    },
+    {
+      "id": "ko-syn-ant-chimchak-gyeongbak",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "침착", "hanja": "沈着", "reading": "chimchak", "hanViet": "trầm trước", "meaningVn": "điềm tĩnh, chín chắn" },
+          { "headword": "중후", "hanja": "重厚", "reading": "junghu", "hanViet": "trọng hậu", "meaningVn": "chín chắn, đường bệ" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "경박", "hanja": "輕薄", "reading": "gyeongbak", "hanViet": "khinh bạc", "meaningVn": "phù phiếm, hời hợt" },
+          { "headword": "부박", "hanja": "浮薄", "reading": "bubak", "hanViet": "phù bạc", "meaningVn": "phù phiếm, nông cạn" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (chín chắn/phù phiếm)."
+    },
+    {
+      "id": "ko-syn-ant-hwakgo-pyobyeon",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "확고", "hanja": "確固", "reading": "hwakgo", "hanViet": "xác cố", "meaningVn": "kiên định, vững chắc" },
+          { "headword": "단호", "hanja": "斷乎", "reading": "danho", "hanViet": "đoạn hồ", "meaningVn": "kiên quyết, dứt khoát" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "표변", "hanja": "豹變", "reading": "pyobyeon", "hanViet": "báo biến", "meaningVn": "thay đổi đột ngột thái độ" },
+          { "headword": "변절", "hanja": "變節", "reading": "byeonjeol", "hanViet": "biến tiết", "meaningVn": "đổi lòng, phản bội lý tưởng" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (kiên định/hay thay đổi)."
+    },
+    {
+      "id": "ko-syn-ant-pungyo-cheokbak",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "풍요", "hanja": "豊饒", "reading": "pungyo", "hanViet": "phong nhiêu", "meaningVn": "phong phú, trù phú" },
+          { "headword": "비옥", "hanja": "肥沃", "reading": "biok", "hanViet": "phì ốc", "meaningVn": "màu mỡ (đất đai)" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "척박", "hanja": "瘠薄", "reading": "cheokbak", "hanViet": "tích bạc", "meaningVn": "cằn cỗi" },
+          { "headword": "황폐", "hanja": "荒廢", "reading": "hwangpye", "hanViet": "hoang phế", "meaningVn": "hoang tàn, cằn cỗi" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (trù phú/cằn cỗi, tả đất đai/tài nguyên)."
+    },
+    {
+      "id": "ko-syn-ant-chimil-joak",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "치밀", "hanja": "緻密", "reading": "chimil", "hanViet": "trí mật", "meaningVn": "tỉ mỉ, kín kẽ" },
+          { "headword": "정교", "hanja": "精巧", "reading": "jeonggyo", "hanViet": "tinh xảo", "meaningVn": "tinh xảo" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "조악", "hanja": "粗惡", "reading": "joak", "hanViet": "thô ác", "meaningVn": "kém chất lượng, tồi" },
+          { "headword": "조야", "hanja": "粗野", "reading": "joya", "hanViet": "thô dã", "meaningVn": "thô lỗ, quê mùa" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (tinh xảo/thô ráp)."
+    },
+    {
+      "id": "ko-syn-ant-wanbyeok-gyeolham",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "완벽", "hanja": "完璧", "reading": "wanbyeok", "hanViet": "hoàn bích", "meaningVn": "hoàn hảo" },
+          { "headword": "완전", "hanja": "完全", "reading": "wanjeon", "hanViet": "hoàn toàn", "meaningVn": "hoàn toàn, đầy đủ" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "결함", "hanja": "缺陷", "reading": "gyeolham", "hanViet": "khuyết hãm", "meaningVn": "khuyết điểm, lỗi" },
+          { "headword": "결여", "hanja": "缺如", "reading": "gyeoryeo", "hanViet": "khuyết như", "meaningVn": "thiếu, khiếm khuyết" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (hoàn hảo/khiếm khuyết)."
+    },
+    {
+      "id": "ko-syn-ant-myeonggi-manggak",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "명기", "hanja": "銘記", "reading": "myeonggi", "hanViet": "minh ký", "meaningVn": "ghi lòng tạc dạ" },
+          { "headword": "기억", "hanja": "記憶", "reading": "gieok", "hanViet": "ký ức", "meaningVn": "ghi nhớ" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "망각", "hanja": "忘却", "reading": "manggak", "hanViet": "vong khước", "meaningVn": "quên lãng" },
+          { "headword": "실념", "hanja": "失念", "reading": "silnyeom", "hanViet": "thất niệm", "meaningVn": "quên mất (khiêm nhường ngữ)" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (ghi nhớ/quên lãng)."
+    },
+    {
+      "id": "ko-syn-ant-beonyeong-soetoe",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "번영", "hanja": "繁榮", "reading": "beonyeong", "hanViet": "phồn vinh", "meaningVn": "phồn vinh, thịnh vượng" },
+          { "headword": "흥륭", "hanja": "興隆", "reading": "heungnyung", "hanViet": "hưng long", "meaningVn": "hưng thịnh" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "쇠퇴", "hanja": "衰退", "reading": "soetoe", "hanViet": "suy thoái", "meaningVn": "suy thoái" },
+          { "headword": "몰락", "hanja": "沒落", "reading": "mollak", "hanViet": "một lạc", "meaningVn": "suy tàn, lụi bại" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (hưng thịnh/suy bại)."
+    },
+    {
+      "id": "ko-syn-ant-tagwol-beomyong",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "탁월", "hanja": "卓越", "reading": "tagwol", "hanViet": "trác việt", "meaningVn": "xuất sắc, vượt trội" },
+          { "headword": "수일", "hanja": "秀逸", "reading": "suil", "hanViet": "tú dật", "meaningVn": "xuất sắc" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "범용", "hanja": "凡庸", "reading": "beomyong", "hanViet": "phàm dung", "meaningVn": "tầm thường, bình thường" },
+          { "headword": "평범", "hanja": "平凡", "reading": "pyeongbeom", "hanViet": "bình phàm", "meaningVn": "bình thường, tầm thường" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (xuất sắc/tầm thường)."
+    },
+    {
+      "id": "ko-syn-ant-gwamil-gwaso",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": "密",
+        "words": [
+          { "headword": "과밀", "hanja": "過密", "reading": "gwamil", "hanViet": "quá mật", "meaningVn": "quá đông đúc, mật độ cao" },
+          { "headword": "밀집", "hanja": "密集", "reading": "miljip", "hanViet": "mật tập", "meaningVn": "tập trung dày đặc" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "과소", "hanja": "過疎", "reading": "gwaso", "hanViet": "quá sơ", "meaningVn": "thưa thớt, mật độ thấp" },
+          { "headword": "한적", "hanja": "閑寂", "reading": "hanjeok", "hanViet": "nhàn tịch", "meaningVn": "vắng vẻ, yên tĩnh" }
+        ]
+      },
+      "note": "Cụm đồng nghĩa chung chữ 密 (mật/dày đặc); cụm trái nghĩa không chung chữ — liên kết CÙNG TRƯỜNG NGHĨA (đông đúc/thưa thớt, thường dùng cho khu vực dân cư)."
+    },
+    {
+      "id": "ko-syn-ant-jinbu-chamsin",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "진부", "hanja": "陳腐", "reading": "jinbu", "hanViet": "trần hủ", "meaningVn": "sáo rỗng, lỗi thời" },
+          { "headword": "고루", "hanja": "固陋", "reading": "goru", "hanViet": "cố lậu", "meaningVn": "cổ hủ, cố chấp lạc hậu" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "참신", "hanja": "斬新", "reading": "chamsin", "hanViet": "trảm tân", "meaningVn": "mới mẻ, độc đáo" },
+          { "headword": "신기", "hanja": "新奇", "reading": "singi", "hanViet": "tân kỳ", "meaningVn": "mới lạ" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (sáo rỗng lỗi thời/mới mẻ độc đáo)."
+    },
+    {
+      "id": "ko-syn-ant-simwon-pyeongi",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "심원", "hanja": "深遠", "reading": "simwon", "hanViet": "thâm viễn", "meaningVn": "sâu xa, thâm sâu" },
+          { "headword": "유현", "hanja": "幽玄", "reading": "yuhyeon", "hanViet": "u huyền", "meaningVn": "sâu kín, huyền diệu" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "평이", "hanja": "平易", "reading": "pyeongi", "hanViet": "bình dị", "meaningVn": "dễ hiểu, đơn giản" },
+          { "headword": "명쾌", "hanja": "明快", "reading": "myeongkwae", "hanViet": "minh khoái", "meaningVn": "rõ ràng, dễ hiểu" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (sâu xa khó hiểu/dễ hiểu rõ ràng)."
+    },
+    {
+      "id": "ko-syn-ant-yemin-dungam",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "예민", "hanja": "銳敏", "reading": "yemin", "hanViet": "nhuệ mẫn", "meaningVn": "nhạy bén, sắc sảo" },
+          { "headword": "기민", "hanja": "機敏", "reading": "gimin", "hanViet": "cơ mẫn", "meaningVn": "nhanh nhạy, tinh nhanh" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "둔감", "hanja": "鈍感", "reading": "dungam", "hanViet": "độn cảm", "meaningVn": "chậm nhạy cảm, vô cảm" },
+          { "headword": "둔탁", "hanja": "鈍濁", "reading": "duntak", "hanViet": "độn trọc", "meaningVn": "chậm chạp, thô đục" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (nhạy bén sắc sảo/chậm chạp đờ đẫn)."
+    },
+    {
+      "id": "ko-syn-ant-hwalbal-gwontae",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "활발", "hanja": "活潑", "reading": "hwalbal", "hanViet": "hoạt bát", "meaningVn": "hoạt bát, năng động" },
+          { "headword": "생동", "hanja": "生動", "reading": "saengdong", "hanViet": "sinh động", "meaningVn": "sinh động, sống động" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "단조", "hanja": "單調", "reading": "danjo", "hanViet": "đơn điệu", "meaningVn": "đơn điệu, nhàm chán" },
+          { "headword": "권태", "hanja": "倦怠", "reading": "gwontae", "hanViet": "quyện đãi", "meaningVn": "chán ngán, uể oải" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (hoạt bát sinh động/đơn điệu chán ngán)."
+    },
+    {
+      "id": "ko-syn-ant-yusun-gojip",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "온후", "hanja": "溫厚", "reading": "onhu", "hanViet": "ôn hậu", "meaningVn": "ôn hoà, hiền hậu" },
+          { "headword": "유순", "hanja": "柔順", "reading": "yusun", "hanViet": "nhu thuận", "meaningVn": "ngoan ngoãn, hiền hoà" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "고집", "hanja": "固執", "reading": "gojip", "hanViet": "cố chấp", "meaningVn": "cố chấp, bướng bỉnh" },
+          { "headword": "옹고집", "hanja": "壅固執", "reading": "onggojip", "hanViet": "ủng cố chấp", "meaningVn": "cực kỳ bướng bỉnh, khăng khăng" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (ôn hoà ngoan ngoãn/cố chấp bướng bỉnh)."
+    },
+    {
+      "id": "ko-syn-ant-gangyeol-bokjapdadan",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "간결", "hanja": "簡潔", "reading": "gangyeol", "hanViet": "giản khiết", "meaningVn": "ngắn gọn, súc tích" },
+          { "headword": "간명", "hanja": "簡明", "reading": "ganmyeong", "hanViet": "giản minh", "meaningVn": "ngắn gọn rõ ràng" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "번쇄", "hanja": "煩瑣", "reading": "beonswae", "hanViet": "phiền toả", "meaningVn": "phiền phức, rắc rối vụn vặt" },
+          { "headword": "복잡다단", "hanja": "複雜多端", "reading": "bokjapdadan", "hanViet": "phức tạp đa đoan", "meaningVn": "phức tạp nhiều bề" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (ngắn gọn súc tích/phức tạp rắc rối)."
+    },
+    {
+      "id": "ko-syn-ant-soljik-gyohwal",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "솔직", "hanja": "率直", "reading": "soljik", "hanViet": "suất trực", "meaningVn": "thẳng thắn, bộc trực" },
+          { "headword": "솔직담백", "hanja": "率直淡白", "reading": "soljikdambaek", "hanViet": "suất trực đạm bạch", "meaningVn": "thẳng thắn và giản dị" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "교활", "hanja": "狡猾", "reading": "gyohwal", "hanViet": "giảo hoạt", "meaningVn": "xảo quyệt, ranh mãnh" },
+          { "headword": "노회", "hanja": "老獪", "reading": "nohoe", "hanViet": "lão cối", "meaningVn": "già đời, lọc lõi (nghĩa xấu)" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (thẳng thắn/xảo quyệt lọc lõi)."
+    },
+    {
+      "id": "ko-syn-ant-sunbak-heoyeong",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "순박", "hanja": "淳朴", "reading": "sunbak", "hanViet": "thuần phác", "meaningVn": "thuần phác, chất phác" },
+          { "headword": "질박", "hanja": "質朴", "reading": "jilbak", "hanViet": "chất phác", "meaningVn": "mộc mạc, chân chất" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "허영", "hanja": "虛榮", "reading": "heoyeong", "hanViet": "hư vinh", "meaningVn": "hư vinh, sĩ diện hão" },
+          { "headword": "허세", "hanja": "虛勢", "reading": "heose", "hanViet": "hư thế", "meaningVn": "sĩ diện, ra vẻ" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (mộc mạc chân chất/sĩ diện hư vinh)."
+    },
+    {
+      "id": "ko-syn-ant-myeonmil-sohol",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "면밀", "hanja": "綿密", "reading": "myeonmil", "hanViet": "miên mật", "meaningVn": "tỉ mỉ, chu đáo" },
+          { "headword": "세심", "hanja": "細心", "reading": "sesim", "hanViet": "tế tâm", "meaningVn": "cẩn thận, tỉ mỉ" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "소홀", "hanja": "疏忽", "reading": "sohol", "hanViet": "sơ hốt", "meaningVn": "sơ suất, lơ đễnh" },
+          { "headword": "해태", "hanja": "懈怠", "reading": "haetae", "hanViet": "giải đãi", "meaningVn": "lười biếng, biếng nhác" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (kỹ lưỡng chu đáo/sơ suất lười biếng)."
+    },
+    {
+      "id": "ko-syn-ant-seomse-hwasa",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "섬세", "hanja": "纖細", "reading": "seomse", "hanViet": "tiêm tế", "meaningVn": "tinh tế, mỏng manh" },
+          { "headword": "화사", "hanja": "華奢", "reading": "hwasa", "hanViet": "hoa xa", "meaningVn": "mảnh mai, thanh mảnh" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "무골", "hanja": "武骨", "reading": "mugol", "hanViet": "vũ cốt", "meaningVn": "thô kệch, quê mùa" },
+          { "headword": "비속", "hanja": "卑俗", "reading": "bisok", "hanViet": "ti tục", "meaningVn": "thô tục, quê mùa" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (tinh tế mảnh mai/thô kệch vụng về)."
+    },
+    {
+      "id": "ko-syn-ant-gwanhu-ongjeong",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "관후", "hanja": "寬厚", "reading": "gwanhu", "hanViet": "khoan hậu", "meaningVn": "khoan dung, nhân hậu" },
+          { "headword": "온정", "hanja": "溫情", "reading": "onjeong", "hanViet": "ôn tình", "meaningVn": "tình cảm ấm áp, nhân từ" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "과혹", "hanja": "過酷", "reading": "gwahok", "hanViet": "quá khốc", "meaningVn": "khắc nghiệt, tàn khốc" },
+          { "headword": "혹박", "hanja": "酷薄", "reading": "hokbak", "hanViet": "khốc bạc", "meaningVn": "tàn nhẫn, bạc bẽo" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (khoan dung nhân hậu/khắc nghiệt tàn nhẫn)."
+    },
+    {
+      "id": "ko-syn-ant-gyeonsil-gwajang",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "견실", "hanja": "堅實", "reading": "gyeonsil", "hanViet": "kiên thực", "meaningVn": "chắc chắn, thực tế" },
+          { "headword": "착실", "hanja": "着實", "reading": "chaksil", "hanViet": "trước thực", "meaningVn": "vững chắc, từng bước chắc chắn" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "과장", "hanja": "誇張", "reading": "gwajang", "hanViet": "khoa trương", "meaningVn": "khoa trương, phóng đại" },
+          { "headword": "과시", "hanja": "誇示", "reading": "gwasi", "hanViet": "khoa thị", "meaningVn": "khoe khoang, phô trương" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (chắc chắn thực tế/khoa trương phóng đại)."
+    },
+    {
+      "id": "ko-syn-ant-hyeonmyeong-honmi",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "현명", "hanja": "賢明", "reading": "hyeonmyeong", "hanViet": "hiền minh", "meaningVn": "sáng suốt, khôn ngoan" },
+          { "headword": "영명", "hanja": "英明", "reading": "yeongmyeong", "hanViet": "anh minh", "meaningVn": "anh minh, sáng suốt" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "혼미", "hanja": "昏迷", "reading": "honmi", "hanViet": "hôn mê", "meaningVn": "lú lẫn, mê muội" },
+          { "headword": "우매", "hanja": "愚昧", "reading": "umae", "hanViet": "ngu muội", "meaningVn": "ngu muội, tối dạ" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (sáng suốt anh minh/lú lẫn ngu muội)."
+    },
+    {
+      "id": "ko-syn-ant-jongyong-nangpae",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "종용", "hanja": "從容", "reading": "jongyong", "hanViet": "tùng dung", "meaningVn": "ung dung, thong thả (đồng âm khác nghĩa với 종용=慫慂 nghĩa \"xúi giục\")" },
+          { "headword": "태연", "hanja": "泰然", "reading": "taeyeon", "hanViet": "thái nhiên", "meaningVn": "bình thản, điềm tĩnh" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "낭패", "hanja": "狼狽", "reading": "nangpae", "hanViet": "lang bái", "meaningVn": "hoảng hốt, luống cuống, thất bại thảm hại" },
+          { "headword": "당황", "hanja": "唐慌", "reading": "danghwang", "hanViet": "đường hoảng", "meaningVn": "hoảng hốt, bối rối" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (ung dung điềm tĩnh/hoảng hốt bối rối)."
+    },
+    {
+      "id": "ko-syn-ant-noerak-eumheom",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "뇌락", "hanja": "磊落", "reading": "noerak", "hanViet": "lỗi lạc", "meaningVn": "quang minh, ngay thẳng" },
+          { "headword": "광명정대", "hanja": "光明正大", "reading": "gwangmyeongjeongdae", "hanViet": "quang minh chính đại", "meaningVn": "quang minh chính đại" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "음험", "hanja": "陰險", "reading": "eumheom", "hanViet": "âm hiểm", "meaningVn": "âm hiểm, nham hiểm" },
+          { "headword": "간지", "hanja": "奸智", "reading": "ganji", "hanViet": "gian trí", "meaningVn": "mưu mẹo gian xảo" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (quang minh chính đại/âm hiểm gian xảo)."
+    },
+    {
+      "id": "ko-syn-ant-ollyang-dokshil",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "온량", "hanja": "溫良", "reading": "ollyang", "hanViet": "ôn lương", "meaningVn": "hiền hoà, ôn lương" },
+          { "headword": "독실", "hanja": "篤實", "reading": "dokshil", "hanViet": "đốc thực", "meaningVn": "chân thành, đôn hậu" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "횡포", "hanja": "橫暴", "reading": "hoengpo", "hanViet": "hoành bạo", "meaningVn": "hống hách, tàn bạo" },
+          { "headword": "발호", "hanja": "跋扈", "reading": "balho", "hanViet": "bạt hỗ", "meaningVn": "ngang ngược, lộng hành" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (hiền hoà đôn hậu/hống hách lộng hành)."
+    },
+    {
+      "id": "ko-syn-ant-naehyang-hwaldal",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "내향", "hanja": "內向", "reading": "naehyang", "hanViet": "nội hướng", "meaningVn": "hướng nội, khép kín" },
+          { "headword": "내성적", "hanja": "內省的", "reading": "naeseongjeok", "hanViet": "nội tỉnh đích", "meaningVn": "hướng nội, trầm tính" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "활달", "hanja": "豁達", "reading": "hwaldal", "hanViet": "khoát đạt", "meaningVn": "phóng khoáng, cởi mở" },
+          { "headword": "대범", "hanja": "大汎", "reading": "daebeom", "hanViet": "đại phiếm", "meaningVn": "rộng lượng, khoáng đạt" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (hướng nội trầm tính/phóng khoáng cởi mở)."
+    },
+    {
+      "id": "ko-syn-ant-jinji-sanman",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "진지", "hanja": "眞摯", "reading": "jinji", "hanViet": "chân chí", "meaningVn": "nghiêm túc, hết mình" },
+          { "headword": "집중", "hanja": "集中", "reading": "jipjung", "hanViet": "tập trung", "meaningVn": "tập trung" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "산만", "hanja": "散漫", "reading": "sanman", "hanViet": "tán mạn", "meaningVn": "tản mạn, thiếu tập trung" },
+          { "headword": "등한시", "hanja": "等閒視", "reading": "deunghansi", "hanViet": "đẳng nhàn thị", "meaningVn": "xem nhẹ, thờ ơ với" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (nghiêm túc tập trung/tản mạn thờ ơ)."
+    },
+    {
+      "id": "ko-syn-ant-yeolseong-dambaek",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "열성", "hanja": "熱誠", "reading": "yeolseong", "hanViet": "nhiệt thành", "meaningVn": "nhiệt thành, chân thành nồng nhiệt" },
+          { "headword": "성심", "hanja": "誠心", "reading": "seongsim", "hanViet": "thành tâm", "meaningVn": "thành tâm, hết lòng" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "담백", "hanja": "淡白", "reading": "dambaek", "hanViet": "đạm bạc", "meaningVn": "lãnh đạm, hờ hững" },
+          { "headword": "박정", "hanja": "薄情", "reading": "bakjeong", "hanViet": "bạc tình", "meaningVn": "bạc tình, vô tình" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (nhiệt thành hết lòng/lãnh đạm bạc tình)."
+    },
+    {
+      "id": "ko-syn-ant-yeongmin-jiyeon",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "영민", "hanja": "英敏", "reading": "yeongmin", "hanViet": "anh mẫn", "meaningVn": "nhanh nhạy, lanh lợi" },
+          { "headword": "수완", "hanja": "手腕", "reading": "suwan", "hanViet": "thủ hoạn", "meaningVn": "khéo léo, tài xoay xở (trong công việc)" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "지연", "hanja": "遲延", "reading": "jiyeon", "hanViet": "trì diên", "meaningVn": "trì hoãn, chậm trễ" },
+          { "headword": "지체", "hanja": "遲滯", "reading": "jiche", "hanViet": "trì trệ", "meaningVn": "trì trệ, chậm chạp" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (nhanh nhạy khéo léo/trì hoãn chậm trễ)."
+    },
+    {
+      "id": "ko-syn-ant-wangseong-chimche",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "왕성", "hanja": "旺盛", "reading": "wangseong", "hanViet": "vượng thịnh", "meaningVn": "sung mãn, dồi dào" },
+          { "headword": "활기", "hanja": "活氣", "reading": "hwalgi", "hanViet": "hoạt khí", "meaningVn": "sức sống, sôi nổi" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "침체", "hanja": "沈滯", "reading": "chimche", "hanViet": "trầm trệ", "meaningVn": "trì trệ, đình trệ" },
+          { "headword": "적요", "hanja": "寂寥", "reading": "jeogyo", "hanViet": "tịch liêu", "meaningVn": "hiu quạnh, cô tịch" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (sung mãn sôi nổi/trì trệ hiu quạnh)."
+    },
+    {
+      "id": "ko-syn-ant-gaebangjeok-hyeobryang",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "개방적", "hanja": "開放的", "reading": "gaebangjeok", "hanViet": "khai phóng đích", "meaningVn": "cởi mở, khoáng đạt" },
+          { "headword": "광대", "hanja": "廣大", "reading": "gwangdae", "hanViet": "quảng đại", "meaningVn": "rộng lớn, bao la" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": "狹",
+        "words": [
+          { "headword": "협량", "hanja": "狹量", "reading": "hyeobryang", "hanViet": "hiệp lượng", "meaningVn": "hẹp hòi, nhỏ nhen" },
+          { "headword": "협소", "hanja": "狹小", "reading": "hyeopso", "hanViet": "hiệp tiểu", "meaningVn": "chật hẹp, nhỏ hẹp" }
+        ]
+      },
+      "note": "Cụm trái nghĩa chung chữ 狹 (hiệp/hẹp); cụm đồng nghĩa không chung chữ — liên kết CÙNG TRƯỜNG NGHĨA (cởi mở rộng lớn/hẹp hòi chật hẹp)."
+    },
+    {
+      "id": "ko-syn-ant-beonhwa-bulhwang",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "번화", "hanja": "繁華", "reading": "beonhwa", "hanViet": "phồn hoa", "meaningVn": "phồn hoa, sầm uất" },
+          { "headword": "성황", "hanja": "盛況", "reading": "seonghwang", "hanViet": "thịnh huống", "meaningVn": "thịnh vượng, đông đúc (sự kiện/kinh doanh)" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "불황", "hanja": "不況", "reading": "bulhwang", "hanViet": "bất huống", "meaningVn": "suy thoái kinh tế" },
+          { "headword": "쇠미", "hanja": "衰微", "reading": "soemi", "hanViet": "suy vi", "meaningVn": "suy tàn, suy yếu" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (phồn hoa thịnh vượng/suy thoái suy tàn)."
+    },
+    {
+      "id": "ko-syn-ant-sangse-joryak",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "상세", "hanja": "詳細", "reading": "sangse", "hanViet": "tường tế", "meaningVn": "chi tiết, cặn kẽ" },
+          { "headword": "자세", "hanja": "仔細", "reading": "jase", "hanViet": "tử tế", "meaningVn": "tỉ mỉ, kỹ lưỡng, cặn kẽ" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "소략", "hanja": "疏略", "reading": "soryak", "hanViet": "sơ lược", "meaningVn": "sơ sài, thiếu sót" },
+          { "headword": "조략", "hanja": "粗略", "reading": "joryak", "hanViet": "thô lược", "meaningVn": "sơ sài, đại khái" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (chi tiết cặn kẽ/sơ sài đại khái)."
+    },
+    {
+      "id": "ko-syn-ant-myeongseok-bulmyeongryo",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "명석", "hanja": "明晳", "reading": "myeongseok", "hanViet": "minh tích", "meaningVn": "rõ ràng, minh bạch" },
+          { "headword": "명료", "hanja": "明瞭", "reading": "myeongryo", "hanViet": "minh liễu", "meaningVn": "rõ ràng, dễ hiểu" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "불명료", "hanja": "不明瞭", "reading": "bulmyeongryo", "hanViet": "bất minh liễu", "meaningVn": "không rõ ràng" },
+          { "headword": "불투명", "hanja": "不透明", "reading": "bultumyeong", "hanViet": "bất thấu minh", "meaningVn": "mập mờ, không minh bạch" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (rõ ràng minh bạch/mập mờ không minh bạch)."
+    },
+    {
+      "id": "ko-syn-ant-gwagam-yongmaeng",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "과감", "hanja": "果敢", "reading": "gwagam", "hanViet": "quả cảm", "meaningVn": "quả cảm, dũng cảm quyết đoán" },
+          { "headword": "용맹", "hanja": "勇猛", "reading": "yongmaeng", "hanViet": "dũng mãnh", "meaningVn": "dũng mãnh, hung hăng dũng cảm" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "위축", "hanja": "萎縮", "reading": "wichuk", "hanViet": "nuy súc", "meaningVn": "co rúm, chùn bước" },
+          { "headword": "퇴축", "hanja": "退縮", "reading": "toechuk", "hanViet": "thoái súc", "meaningVn": "rụt rè, lùi bước" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (quả cảm dũng mãnh/co rúm lùi bước)."
+    },
+    {
+      "id": "ko-syn-ant-innae-choejo",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "인내", "hanja": "忍耐", "reading": "innae", "hanViet": "nhẫn nại", "meaningVn": "nhẫn nại, kiên nhẫn" },
+          { "headword": "인고", "hanja": "忍苦", "reading": "ingo", "hanViet": "nhẫn khổ", "meaningVn": "chịu đựng gian khổ, nhẫn nại" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "초조", "hanja": "焦燥", "reading": "chojo", "hanViet": "tiêu táo", "meaningVn": "lo lắng bồn chồn, sốt ruột" },
+          { "headword": "단기", "hanja": "短氣", "reading": "dangi", "hanViet": "đoản khí", "meaningVn": "nóng tính, dễ cáu" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (nhẫn nại kiên trì/nóng tính bồn chồn)."
+    },
+    {
+      "id": "ko-syn-ant-ilpyeondansim-baramgi",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "일편단심", "hanja": "一片丹心", "reading": "ilpyeondansim", "hanViet": "nhất phiến đan tâm", "meaningVn": "một lòng một dạ, chung thuỷ" },
+          { "headword": "정절", "hanja": "貞節", "reading": "jeongjeol", "hanViet": "trinh tiết", "meaningVn": "trung trinh, thuỷ chung" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "바람기", "hanja": "-氣", "reading": "baramgi", "hanViet": "(thuần Hàn + 氣)", "meaningVn": "tính trăng hoa, hay ngoại tình" },
+          { "headword": "변덕", "hanja": "變德", "reading": "byeondeok", "hanViet": "biến đức", "meaningVn": "hay thay lòng đổi dạ, tính khí thất thường" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (một lòng chung thuỷ/trăng hoa thay lòng). 바람기 là từ ghép thuần Hàn (바람) + Hán-Hàn (氣)."
+    },
+    {
+      "id": "ko-syn-ant-simchim-cheonbak",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "심침", "hanja": "深沈", "reading": "simchim", "hanViet": "thâm trầm", "meaningVn": "thâm trầm, sâu sắc điềm đạm" },
+          { "headword": "노성", "hanja": "老成", "reading": "noseong", "hanViet": "lão thành", "meaningVn": "chín chắn, già dặn hơn tuổi" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "천박", "hanja": "淺薄", "reading": "cheonbak", "hanViet": "thiển bạc", "meaningVn": "nông cạn, thiếu chiều sâu" },
+          { "headword": "피상", "hanja": "皮相", "reading": "pisang", "hanViet": "bì tướng", "meaningVn": "hời hợt bề ngoài, phiến diện" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (thâm trầm chín chắn/hời hợt nông cạn)."
+    },
+    {
+      "id": "ko-syn-ant-jajok-silui",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "자족", "hanja": "自足", "reading": "jajok", "hanViet": "tự túc", "meaningVn": "tự bằng lòng, tự thỏa mãn" },
+          { "headword": "만끽", "hanja": "滿喫", "reading": "mangeuk", "hanViet": "mãn khiết", "meaningVn": "tận hưởng trọn vẹn" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "실의", "hanja": "失意", "reading": "silui", "hanViet": "thất ý", "meaningVn": "thất vọng, chán nản" },
+          { "headword": "낙심", "hanja": "落心", "reading": "naksim", "hanViet": "lạc tâm", "meaningVn": "chán nản, thất vọng" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (tự bằng lòng tận hưởng/thất vọng chán nản), cùng chủ đề với chuỗi tiếng Nhật ja-syn-ant-kaishin-shitsui."
+    },
+    {
+      "id": "ko-syn-ant-sinloe-uihok",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": "信",
+        "words": [
+          { "headword": "신뢰", "hanja": "信賴", "reading": "sinloe", "hanViet": "tín lại", "meaningVn": "tin cậy, tín nhiệm" },
+          { "headword": "신임", "hanja": "信任", "reading": "sinim", "hanViet": "tín nhiệm", "meaningVn": "tín nhiệm" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": "疑",
+        "words": [
+          { "headword": "의혹", "hanja": "疑惑", "reading": "uihok", "hanViet": "nghi hoặc", "meaningVn": "nghi ngờ, nghi hoặc" },
+          { "headword": "시의", "hanja": "猜疑", "reading": "siui", "hanViet": "sai nghi", "meaningVn": "nghi ngờ, đa nghi" }
+        ]
+      },
+      "note": "Chung chữ 信 (tin) ở cụm đồng nghĩa và chữ 疑 (nghi ngờ) ở cụm trái nghĩa, cùng cơ chế với chuỗi tiếng Trung/Nhật (zh-syn-ant-xinren-huaiyi, ja-syn-ant-shinrai-giwaku)."
+    },
+    {
+      "id": "ko-syn-ant-jeongryeokwangseong-uigisochim",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "정력왕성", "hanja": "精力旺盛", "reading": "jeongryeok wangseong", "hanViet": "tinh lực vượng thịnh", "meaningVn": "tràn đầy sinh lực" },
+          { "headword": "원기발랄", "hanja": "元氣潑剌", "reading": "wongi ballal", "hanViet": "nguyên khí bát lạt", "meaningVn": "tràn đầy sức sống, hăng hái" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "피로곤비", "hanja": "疲勞困憊", "reading": "pilo gonbi", "hanViet": "bì lao khốn bại", "meaningVn": "mệt mỏi kiệt sức" },
+          { "headword": "의기소침", "hanja": "意氣銷沈", "reading": "uigi sochim", "hanViet": "ý khí tiêu trầm", "meaningVn": "chán nản, mất tinh thần" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (tràn đầy sinh lực/kiệt sức mất tinh thần), cùng chủ đề 4 chữ với chuỗi tiếng Trung/Nhật."
+    },
+    {
+      "id": "ko-syn-ant-eommil-nuseol",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "엄밀", "hanja": "嚴密", "reading": "eommil", "hanViet": "nghiêm mật", "meaningVn": "chặt chẽ, nghiêm ngặt" },
+          { "headword": "세밀", "hanja": "細密", "reading": "semil", "hanViet": "tế mật", "meaningVn": "tỉ mỉ, chi tiết" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "누설", "hanja": "漏泄", "reading": "nuseol", "hanViet": "lậu tiết", "meaningVn": "rò rỉ, để lộ (bí mật)" },
+          { "headword": "폭로", "hanja": "暴露", "reading": "pongno", "hanViet": "bạo lộ", "meaningVn": "phơi bày, tố cáo, vạch trần" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (chặt chẽ kín kẽ/rò rỉ để lộ), cùng chủ đề với chuỗi tiếng Trung/Nhật (zh-syn-ant-yanmi-xielu, ja-syn-ant-genmitsu-rousetsu)."
+    },
+    {
+      "id": "ko-syn-ant-hyeoksin-sugu",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "혁신", "hanja": "革新", "reading": "hyeoksin", "hanViet": "cách tân", "meaningVn": "cách tân, đổi mới" },
+          { "headword": "쇄신", "hanja": "刷新", "reading": "swaesin", "hanViet": "sái tân", "meaningVn": "đổi mới, cải tổ" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "수구", "hanja": "守舊", "reading": "sugu", "hanViet": "thủ cựu", "meaningVn": "bảo thủ, giữ nếp cũ" },
+          { "headword": "인순", "hanja": "因循", "reading": "insun", "hanViet": "nhân tuần", "meaningVn": "rập khuôn, trì trệ theo lối cũ" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (cách tân đổi mới/bảo thủ rập khuôn), cùng chủ đề với chuỗi tiếng Trung/Nhật (zh-syn-ant-chuangxin-shoujiu, ja-syn-ant-kakushin-kyuutou)."
+    },
+    {
+      "id": "ko-syn-ant-poyong-ongjol",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "포용", "hanja": "包容", "reading": "poyong", "hanViet": "bao dung", "meaningVn": "bao dung, độ lượng" },
+          { "headword": "후덕", "hanja": "厚德", "reading": "hudeok", "hanViet": "hậu đức", "meaningVn": "đức độ nhân hậu, rộng lượng" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "옹졸", "hanja": "壅拙", "reading": "ongjol", "hanViet": "ủng chuyết", "meaningVn": "nhỏ nhen, hẹp hòi" },
+          { "headword": "편협", "hanja": "偏狹", "reading": "pyeonhyeop", "hanViet": "thiên hiệp", "meaningVn": "hẹp hòi, thiên lệch" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (bao dung độ lượng/nhỏ nhen hẹp hòi), cùng chủ đề với chuỗi tiếng Trung/Nhật (zh-syn-ant-baorong-jinjijijiao, ja-syn-ant-houyou-henkutsu)."
+    },
+    {
+      "id": "ko-syn-ant-hwaksil-nalljo",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "확실", "hanja": "確實", "reading": "hwaksil", "hanViet": "xác thực", "meaningVn": "chắc chắn, xác thực" },
+          { "headword": "확증", "hanja": "確證", "reading": "hwakjeung", "hanViet": "xác chứng", "meaningVn": "bằng chứng xác thực" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "날조", "hanja": "捏造", "reading": "naljo", "hanViet": "niết tạo", "meaningVn": "bịa đặt, ngụy tạo" },
+          { "headword": "허구", "hanja": "虛構", "reading": "heogu", "hanViet": "hư cấu", "meaningVn": "hư cấu, bịa đặt" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (xác thực có căn cứ/bịa đặt ngụy tạo), cùng chủ đề với chuỗi tiếng Trung/Nhật (zh-syn-ant-shushi-niezao, ja-syn-ant-kakujitsu-netsuzou)."
+    },
+    {
+      "id": "ko-syn-ant-chungil-gogal",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "충일", "hanja": "充溢", "reading": "chungil", "hanViet": "sung dật", "meaningVn": "tràn đầy, dâng trào" },
+          { "headword": "횡일", "hanja": "橫溢", "reading": "hoengil", "hanViet": "hoành dật", "meaningVn": "tràn trề, dâng trào mạnh mẽ" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "고갈", "hanja": "枯渴", "reading": "gogal", "hanViet": "khô khát", "meaningVn": "cạn kiệt" },
+          { "headword": "탈진", "hanja": "脫盡", "reading": "taljin", "hanViet": "thoát tận", "meaningVn": "kiệt sức, cạn kiệt hoàn toàn" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (tràn đầy dồi dào/cạn kiệt thiếu hụt), cùng chủ đề với chuỗi tiếng Trung/Nhật (zh-syn-ant-chongpei-kujie, ja-syn-ant-juuitsu-kokatsu)."
+    },
+    {
+      "id": "ko-syn-ant-hyeomnyeok-chungdol",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "협력", "hanja": "協力", "reading": "hyeomnyeok", "hanViet": "hiệp lực", "meaningVn": "hợp tác, chung sức" },
+          { "headword": "연계", "hanja": "連繫", "reading": "yeongye", "hanViet": "liên hệ", "meaningVn": "liên kết, phối hợp" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "충돌", "hanja": "衝突", "reading": "chungdol", "hanViet": "xung đột", "meaningVn": "xung đột" },
+          { "headword": "상극", "hanja": "相剋", "reading": "sanggeuk", "hanViet": "tương khắc", "meaningVn": "xung khắc, đối chọi, khắc kỵ" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (hợp tác chung sức/xung đột khắc kỵ), cùng chủ đề với chuỗi tiếng Trung/Nhật (zh-syn-ant-xiezuo-duikang, ja-syn-ant-kyouryoku-shoutotsu)."
+    },
+    {
+      "id": "ko-syn-ant-jeongmyo-pyeoncha",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "정묘", "hanja": "精妙", "reading": "jeongmyo", "hanViet": "tinh diệu", "meaningVn": "tinh vi, khéo léo, chuẩn xác" },
+          { "headword": "정치", "hanja": "精緻", "reading": "jeongchi", "hanViet": "tinh trí", "meaningVn": "tinh vi, tỉ mỉ, chuẩn xác" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "편차", "hanja": "偏差", "reading": "pyeoncha", "hanViet": "thiên sai", "meaningVn": "sai lệch, độ lệch" },
+          { "headword": "오차", "hanja": "誤差", "reading": "ocha", "hanViet": "ngộ sai", "meaningVn": "sai số" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (chính xác/sai lệch), cùng chủ đề với chuỗi tiếng Trung/Nhật (zh-syn-ant-jingzhun-piancha, ja-syn-ant-seimyou-hensa)."
+    },
+    {
+      "id": "ko-syn-ant-geolchul-yongryeol",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "걸출", "hanja": "傑出", "reading": "geolchul", "hanViet": "kiệt xuất", "meaningVn": "xuất sắc, kiệt xuất" },
+          { "headword": "출중", "hanja": "出衆", "reading": "chuljung", "hanViet": "xuất chúng", "meaningVn": "xuất chúng, nổi trội" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "용렬", "hanja": "庸劣", "reading": "yongryeol", "hanViet": "dung liệt", "meaningVn": "tầm thường, kém cỏi" },
+          { "headword": "범속", "hanja": "凡俗", "reading": "beomsok", "hanViet": "phàm tục", "meaningVn": "tầm thường, phàm tục" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (xuất sắc vượt trội/tầm thường), cùng chủ đề với chuỗi tiếng Trung/Nhật (zh-syn-ant-zhuoyue-pingyong, ja-syn-ant-kesshutsu-tsuuzoku)."
+    },
+    {
+      "id": "ko-syn-ant-jinchwi-jaman",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "진취", "hanja": "進取", "reading": "jinchwi", "hanViet": "tiến thủ", "meaningVn": "cầu tiến, có chí tiến thủ" },
+          { "headword": "향상심", "hanja": "向上心", "reading": "hyangsangsim", "hanViet": "hướng thượng tâm", "meaningVn": "tinh thần cầu tiến" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "자만", "hanja": "自滿", "reading": "jaman", "hanViet": "tự mãn", "meaningVn": "tự mãn" },
+          { "headword": "안주", "hanja": "安住", "reading": "anju", "hanViet": "an trú", "meaningVn": "an phận, bằng lòng với hiện tại, không cầu tiến" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (cầu tiến/tự mãn an phận), cùng chủ đề với chuỗi tiếng Trung/Nhật (zh-syn-ant-shangjin-zifu, ja-syn-ant-shinshu-manshin)."
+    },
+    {
+      "id": "ko-syn-ant-gyeokchan-hokpyeong",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "격찬", "hanja": "激讚", "reading": "gyeokchan", "hanViet": "kích tán", "meaningVn": "hết lời khen ngợi" },
+          { "headword": "상찬", "hanja": "賞讚", "reading": "sangchan", "hanViet": "thưởng tán", "meaningVn": "khen ngợi, tán thưởng" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "혹평", "hanja": "酷評", "reading": "hokpyeong", "hanViet": "khốc bình", "meaningVn": "phê bình gay gắt" },
+          { "headword": "힐난", "hanja": "詰難", "reading": "hilnan", "hanViet": "cật nan", "meaningVn": "trách móc, vặn vẹo" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (khen ngợi/chỉ trích gay gắt), cùng chủ đề với chuỗi tiếng Trung/Nhật (zh-syn-ant-zanshang-keze, ja-syn-ant-gekishou-kokuhyou)."
+    },
+    {
+      "id": "ko-syn-ant-gongpyo-binik",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "공표", "hanja": "公表", "reading": "gongpyo", "hanViet": "công biểu", "meaningVn": "công bố" },
+          { "headword": "표명", "hanja": "表明", "reading": "pyomyeong", "hanViet": "biểu minh", "meaningVn": "bày tỏ, công khai bày tỏ" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "비닉", "hanja": "祕匿", "reading": "binik", "hanViet": "bí nặc", "meaningVn": "giấu kín" },
+          { "headword": "은닉", "hanja": "隱匿", "reading": "eunnik", "hanViet": "ẩn nặc", "meaningVn": "giấu giếm, tàng trữ trái phép" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (công khai minh bạch/che giấu), cùng chủ đề với chuỗi tiếng Trung/Nhật (zh-syn-ant-touming-yinman, ja-syn-ant-kouhyou-hitoku)."
+    },
+    {
+      "id": "ko-syn-ant-muyok-igi",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "무욕", "hanja": "無慾", "reading": "muyok", "hanViet": "vô dục", "meaningVn": "không tham lam, không vụ lợi" },
+          { "headword": "헌신", "hanja": "獻身", "reading": "heonsin", "hanViet": "hiến thân", "meaningVn": "cống hiến, hy sinh" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "이기", "hanja": "利己", "reading": "igi", "hanViet": "lợi kỷ", "meaningVn": "vị kỷ, ích kỷ" },
+          { "headword": "타산", "hanja": "打算", "reading": "tasan", "hanViet": "đả toán", "meaningVn": "tính toán lợi ích cá nhân" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (vô tư cống hiến/ích kỷ toan tính), cùng chủ đề với chuỗi tiếng Trung/Nhật (zh-syn-ant-wusi-zisi, ja-syn-ant-mushi-riko)."
+    },
+    {
+      "id": "ko-syn-ant-beonmu-jorak",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "번무", "hanja": "繁茂", "reading": "beonmu", "hanViet": "phồn mậu", "meaningVn": "tươi tốt um tùm" },
+          { "headword": "융성", "hanja": "隆盛", "reading": "yungseong", "hanViet": "long thịnh", "meaningVn": "hưng thịnh, phồn vinh" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "조락", "hanja": "凋落", "reading": "jorak", "hanViet": "điêu lạc", "meaningVn": "héo tàn, suy tàn" },
+          { "headword": "고사", "hanja": "枯死", "reading": "gosa", "hanViet": "khô tử", "meaningVn": "khô héo mà chết (cây cối)" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (tươi tốt sinh sôi/héo tàn khô cằn), cùng chủ đề với chuỗi tiếng Trung/Nhật (zh-syn-ant-maosheng-diaoling, ja-syn-ant-hanmo-chouraku)."
+    },
+    {
+      "id": "ko-syn-ant-anil-singo",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "안일", "hanja": "安逸", "reading": "anil", "hanViet": "an dật", "meaningVn": "an nhàn, thư thái" },
+          { "headword": "유유자적", "hanja": "悠悠自適", "reading": "yuyujajeok", "hanViet": "du du tự thích", "meaningVn": "nhàn nhã tự tại (thành ngữ)" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "신고", "hanja": "辛苦", "reading": "singo", "hanViet": "tân khổ", "meaningVn": "vất vả, cực khổ" },
+          { "headword": "노고", "hanja": "勞苦", "reading": "nogo", "hanViet": "lao khổ", "meaningVn": "vất vả, khổ nhọc" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (an nhàn thư thái/vất vả cực nhọc), cùng chủ đề với chuỗi tiếng Trung/Nhật (zh-syn-ant-anyi-jianxin, ja-syn-ant-anitsu-shinku)."
+    },
+    {
+      "id": "ko-syn-ant-mingam-mabi",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": "敏",
+        "words": [
+          { "headword": "민감", "hanja": "敏感", "reading": "mingam", "hanViet": "mẫn cảm", "meaningVn": "nhạy cảm" },
+          { "headword": "과민", "hanja": "過敏", "reading": "gwamin", "hanViet": "quá mẫn", "meaningVn": "quá nhạy cảm" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "마비", "hanja": "痲痺", "reading": "mabi", "hanViet": "ma tý", "meaningVn": "tê liệt" },
+          { "headword": "무신경", "hanja": "無神經", "reading": "musingyeong", "hanViet": "vô thần kinh", "meaningVn": "vô tâm, vô cảm" }
+        ]
+      },
+      "note": "Chung chữ 敏 (nhạy) ở cụm đồng nghĩa, cùng chủ đề với chuỗi tiếng Trung/Nhật (zh-syn-ant-minggan-mabi, ja-syn-ant-binkan-mahi)."
+    },
+    {
+      "id": "ko-syn-ant-hoebok-bunggoe",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "회복", "hanja": "回復", "reading": "hoebok", "hanViet": "hồi phục", "meaningVn": "hồi phục" },
+          { "headword": "부활", "hanja": "復活", "reading": "buhwal", "hanViet": "phục hoạt", "meaningVn": "hồi sinh, phục hồi" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "붕괴", "hanja": "崩壞", "reading": "bunggoe", "hanViet": "băng hoại", "meaningVn": "sụp đổ" },
+          { "headword": "파탄", "hanja": "破綻", "reading": "patan", "hanViet": "phá tuy", "meaningVn": "phá sản, đổ vỡ" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (hồi phục/sụp đổ đổ vỡ), cùng chủ đề với chuỗi tiếng Trung/Nhật (zh-syn-ant-fusu-bengkui, ja-syn-ant-kaifuku-houkai)."
+    },
+    {
+      "id": "ko-syn-ant-antae-byeondong",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "안태", "hanja": "安泰", "reading": "antae", "hanViet": "an thái", "meaningVn": "yên ổn, thái bình" },
+          { "headword": "견조", "hanja": "堅調", "reading": "gyeonjo", "hanViet": "kiên điều", "meaningVn": "vững chắc, ổn định (thuật ngữ kinh tế)" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "변동", "hanja": "變動", "reading": "byeondong", "hanViet": "biến động", "meaningVn": "biến động" },
+          { "headword": "분규", "hanja": "紛糾", "reading": "bungyu", "hanViet": "phân củ", "meaningVn": "rối ren, tranh chấp lộn xộn" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (ổn định vững chắc/biến động bất ổn), cùng chủ đề với chuỗi tiếng Trung/Nhật (zh-syn-ant-wending-dongdang, ja-syn-ant-antai-hendou)."
+    },
+    {
+      "id": "ko-syn-ant-jeonnyeom-bangsim",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "전념", "hanja": "專念", "reading": "jeonnyeom", "hanViet": "chuyên niệm", "meaningVn": "chuyên tâm" },
+          { "headword": "몰두", "hanja": "沒頭", "reading": "moldu", "hanViet": "một đầu", "meaningVn": "vùi đầu vào, mải mê" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "방심", "hanja": "放心", "reading": "bangsim", "hanViet": "phóng tâm", "meaningVn": "lơ đãng, mất cảnh giác (khác nghĩa 'yên tâm' trong tiếng Trung!)" },
+          { "headword": "망연", "hanja": "茫然", "reading": "mangyeon", "hanViet": "mang nhiên", "meaningVn": "ngơ ngác, thẫn thờ" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (chuyên tâm/phân tâm lơ đãng), cùng chủ đề với chuỗi tiếng Trung/Nhật (zh-syn-ant-zhuanxin-zoushen, ja-syn-ant-sennen-houshin)."
+    },
+    {
+      "id": "ko-syn-ant-dachae-hoegil",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "다채", "hanja": "多彩", "reading": "dachae", "hanViet": "đa thái", "meaningVn": "đa dạng, nhiều màu sắc" },
+          { "headword": "각양각색", "hanja": "各樣各色", "reading": "gagyanggaksaek", "hanViet": "các dạng các sắc", "meaningVn": "đủ loại, đủ hình đủ vẻ" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "획일", "hanja": "劃一", "reading": "hoegil", "hanViet": "hoạch nhất", "meaningVn": "rập khuôn, đồng nhất" },
+          { "headword": "천편일률", "hanja": "千篇一律", "reading": "cheonpyeonillyul", "hanViet": "thiên thiên nhất luật", "meaningVn": "rập khuôn, na ná như nhau" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (đa dạng phong phú/đơn điệu rập khuôn), cùng chủ đề với chuỗi tiếng Trung/Nhật (zh-syn-ant-duoyang-qianpianyilv, ja-syn-ant-tasai-kakuitsuteki)."
+    },
+    {
+      "id": "ko-syn-ant-yakdongjeok-mumigeonjo",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "약동적", "hanja": "躍動的", "reading": "yakdongjeok", "hanViet": "dược động đích", "meaningVn": "sinh động, đầy sức sống" },
+          { "headword": "생기", "hanja": "生氣", "reading": "saenggi", "hanViet": "sinh khí", "meaningVn": "sức sống, sinh khí" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "무미건조", "hanja": "無味乾燥", "reading": "mumigeonjo", "hanViet": "vô vị càn táo", "meaningVn": "khô khan vô vị (thành ngữ)" },
+          { "headword": "무료", "hanja": "無聊", "reading": "muryo", "hanViet": "vô liêu", "meaningVn": "buồn chán, vô vị" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (sinh động/tẻ nhạt vô vị), cùng chủ đề với chuỗi tiếng Trung/Nhật (zh-syn-ant-xianhuo-fawei, ja-syn-ant-yakudouteki-muminkansou)."
+    },
+    {
+      "id": "ko-syn-ant-dandojigip-wangok",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "단도직입", "hanja": "單刀直入", "reading": "dandojigip", "hanViet": "đơn đao trực nhập", "meaningVn": "đi thẳng vào vấn đề (thành ngữ)" },
+          { "headword": "직절", "hanja": "直截", "reading": "jikjeol", "hanViet": "trực tiệt", "meaningVn": "thẳng thắn, dứt khoát" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "완곡", "hanja": "婉曲", "reading": "wangok", "hanViet": "uyển khúc", "meaningVn": "nói vòng vo, nói giảm nói tránh" },
+          { "headword": "우원", "hanja": "迂遠", "reading": "uwon", "hanViet": "vu viễn", "meaningVn": "vòng vo, xa vời (ít dùng)" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (thẳng thắn dứt khoát/quanh co úp mở), cùng chủ đề với chuỗi tiếng Trung/Nhật (zh-syn-ant-zhishuang-guaiwanmojiao, ja-syn-ant-tantouchokunyuu-enkyoku)."
+    },
+    {
+      "id": "ko-syn-ant-hyoyuljeok-bihyoyul",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "효율적", "hanja": "效率的", "reading": "hyoyuljeok", "hanViet": "hiệu suất đích", "meaningVn": "hiệu quả cao" },
+          { "headword": "유효", "hanja": "有效", "reading": "yuhyo", "hanViet": "hữu hiệu", "meaningVn": "có hiệu quả" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "비효율", "hanja": "非效率", "reading": "bihyoyul", "hanViet": "phi hiệu suất", "meaningVn": "kém hiệu quả" },
+          { "headword": "무효", "hanja": "無效", "reading": "muhyo", "hanViet": "vô hiệu", "meaningVn": "không hiệu quả" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (hiệu quả cao/kém hiệu quả), cùng chủ đề với chuỗi tiếng Trung/Nhật (zh-syn-ant-gaoxiao-dixiao, ja-syn-ant-kouritsuteki-hikouritsu)."
+    },
+    {
+      "id": "ko-syn-ant-gyeongo-buranjeong",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "견고", "hanja": "堅固", "reading": "gyeongo", "hanViet": "kiên cố", "meaningVn": "vững chắc" },
+          { "headword": "공고", "hanja": "鞏固", "reading": "gonggo", "hanViet": "củng cố", "meaningVn": "vững chắc, bền chặt" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "불안정", "hanja": "不安定", "reading": "buranjeong", "hanViet": "bất an định", "meaningVn": "không ổn định" },
+          { "headword": "노후", "hanja": "老朽", "reading": "nohu", "hanViet": "lão hủ", "meaningVn": "cũ kỹ, xuống cấp" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (vững chắc/lung lay ọp ẹp), cùng chủ đề với chuỗi tiếng Trung/Nhật (zh-syn-ant-jiangu-yaohuang, ja-syn-ant-kengo-fuantei)."
+    },
+    {
+      "id": "ko-syn-ant-japdap-hwangryang",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "잡답", "hanja": "雜踏", "reading": "japdap", "hanViet": "tạp đạp", "meaningVn": "đông đúc, chen chúc" },
+          { "headword": "혼잡", "hanja": "混雜", "reading": "honjap", "hanViet": "hỗn tạp", "meaningVn": "hỗn loạn, đông đúc" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "황량", "hanja": "荒涼", "reading": "hwangryang", "hanViet": "hoang lương", "meaningVn": "hoang vắng, tiêu điều" },
+          { "headword": "적막", "hanja": "寂寞", "reading": "jeokmak", "hanViet": "tịch mịch", "meaningVn": "vắng vẻ, hiu quạnh" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (đông đúc ồn ào/vắng vẻ hoang vu), cùng chủ đề với chuỗi tiếng Trung/Nhật (zh-syn-ant-xuannao-huangliang, ja-syn-ant-kensou-kanjaku)."
+    },
+    {
+      "id": "ko-syn-ant-changjo-mobang",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "창조", "hanja": "創造", "reading": "changjo", "hanViet": "sáng tạo", "meaningVn": "sáng tạo" },
+          { "headword": "발명", "hanja": "發明", "reading": "balmyeong", "hanViet": "phát minh", "meaningVn": "phát minh" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "모방", "hanja": "模倣", "reading": "mobang", "hanViet": "mô phỏng", "meaningVn": "bắt chước, mô phỏng" },
+          { "headword": "표절", "hanja": "剽竊", "reading": "pyojeol", "hanViet": "phiếu thiết", "meaningVn": "đạo văn, đánh cắp ý tưởng" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (sáng tạo phát minh/bắt chước sao chép), cùng chủ đề với chuỗi tiếng Trung/Nhật (zh-syn-ant-chuangzao-mofang, ja-syn-ant-souzou-mohou)."
+    },
+    {
+      "id": "ko-syn-ant-seongsuk-misuk",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "성숙", "hanja": "成熟", "reading": "seongsuk", "hanViet": "thành thục", "meaningVn": "trưởng thành, chín chắn" },
+          { "headword": "노련", "hanja": "老鍊", "reading": "noryeon", "hanViet": "lão luyện", "meaningVn": "lão luyện, dày dạn kinh nghiệm" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "미숙", "hanja": "未熟", "reading": "misuk", "hanViet": "vị thục", "meaningVn": "chưa chín chắn, non nớt" },
+          { "headword": "유약", "hanja": "幼弱", "reading": "yuyak", "hanViet": "ấu nhược", "meaningVn": "non nớt, yếu đuối" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (trưởng thành chín chắn/non nớt), cùng chủ đề với chuỗi tiếng Trung/Nhật (zh-syn-ant-chengshu-zhinen, ja-syn-ant-seijuku-mijuku)."
+    },
+    {
+      "id": "ko-syn-ant-heunyeon-gangyo",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "흔연", "hanja": "欣然", "reading": "heunyeon", "hanViet": "hân nhiên", "meaningVn": "vui vẻ, sẵn lòng" },
+          { "headword": "흔쾌", "hanja": "欣快", "reading": "heunkwae", "hanViet": "hân khoái", "meaningVn": "vui vẻ, hoan hỉ (thường dùng 흔쾌히)" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "강요", "hanja": "強要", "reading": "gangyo", "hanViet": "cưỡng yếu", "meaningVn": "ép buộc, cưỡng ép" },
+          { "headword": "부득이", "hanja": "不得已", "reading": "budeugi", "hanViet": "bất đắc dĩ", "meaningVn": "bất đắc dĩ, miễn cưỡng" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (vui vẻ sẵn lòng/miễn cưỡng bị ép buộc), cùng chủ đề với chuỗi tiếng Trung/Nhật (zh-syn-ant-xinran-mianqiang, ja-syn-ant-kinzen-kyouyou)."
+    },
+    {
+      "id": "ko-syn-ant-gyeonggye-budeunghan",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "경계", "hanja": "警戒", "reading": "gyeonggye", "hanViet": "cảnh giới", "meaningVn": "cảnh giác, đề phòng" },
+          { "headword": "유의", "hanja": "留意", "reading": "yuui", "hanViet": "lưu ý", "meaningVn": "chú ý, lưu tâm" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "부주의", "hanja": "不注意", "reading": "bujuui", "hanViet": "bất chú ý", "meaningVn": "bất cẩn, sơ ý" },
+          { "headword": "등한", "hanja": "等閑", "reading": "deunghan", "hanViet": "đẳng nhàn", "meaningVn": "lơ là, xem nhẹ" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (đề phòng cẩn thận/chủ quan bất cẩn), cùng chủ đề với chuỗi tiếng Trung/Nhật (zh-syn-ant-jingti-maobidayi, ja-syn-ant-keikai-fuyoujin)."
+    },
+    {
+      "id": "ko-syn-ant-janggwan-pyeheo",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "장관", "hanja": "壯觀", "reading": "janggwan", "hanViet": "tráng quan", "meaningVn": "cảnh tượng hùng vĩ, tráng lệ" },
+          { "headword": "장려", "hanja": "壯麗", "reading": "jangryeo", "hanViet": "tráng lệ", "meaningVn": "tráng lệ, đẹp đẽ hùng vĩ" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "파손", "hanja": "破損", "reading": "pason", "hanViet": "phá tổn", "meaningVn": "hư hỏng, đổ vỡ" },
+          { "headword": "폐허", "hanja": "廢墟", "reading": "pyeheo", "hanViet": "phế khư", "meaningVn": "phế tích, đống đổ nát" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (cảnh quan hùng vĩ/đổ nát hoang tàn), cùng chủ đề với chuỗi tiếng Trung/Nhật (zh-syn-ant-zhuangguan-pobai, ja-syn-ant-soukan-haikyo)."
+    },
+    {
+      "id": "ko-syn-ant-bakhak-muji",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "박학", "hanja": "博學", "reading": "bakhak", "hanViet": "bác học", "meaningVn": "học rộng, uyên bác" },
+          { "headword": "해박", "hanja": "該博", "reading": "haebak", "hanViet": "hài bác", "meaningVn": "uyên bác, am hiểu rộng" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "무지", "hanja": "無知", "reading": "muji", "hanViet": "vô tri", "meaningVn": "vô tri, thiếu hiểu biết" },
+          { "headword": "고루과문", "hanja": "固陋寡聞", "reading": "goruwamun", "hanViet": "cố lậu quả văn", "meaningVn": "hẹp hòi, ít nghe biết (thành ngữ)" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (uyên bác học rộng/nông cạn hạn hẹp), cùng chủ đề với chuỗi tiếng Trung/Nhật (zh-syn-ant-yuanbo-qianlou, ja-syn-ant-gaihaku-senken)."
+    },
+    {
+      "id": "ko-syn-ant-taepyeong-dongnan",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "태평", "hanja": "太平", "reading": "taepyeong", "hanViet": "thái bình", "meaningVn": "thái bình, yên ổn" },
+          { "headword": "안녕", "hanja": "安寧", "reading": "annyeong", "hanViet": "an ninh", "meaningVn": "an ninh, yên ổn" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "동란", "hanja": "動亂", "reading": "dongnan", "hanViet": "động loạn", "meaningVn": "loạn lạc, biến động" },
+          { "headword": "분란", "hanja": "紛亂", "reading": "bullan", "hanViet": "phân loạn", "meaningVn": "rối loạn, tranh chấp lộn xộn" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (thái bình yên ổn/loạn lạc rối ren), cùng chủ đề với chuỗi tiếng Trung/Nhật (zh-syn-ant-taiping-dongluan, ja-syn-ant-taihei-douran)."
+    },
+    {
+      "id": "ko-syn-ant-heosim-jeondan",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "허심", "hanja": "虛心", "reading": "heosim", "hanViet": "hư tâm", "meaningVn": "khiêm tốn cầu thị" },
+          { "headword": "경청", "hanja": "傾聽", "reading": "gyeongcheong", "hanViet": "khuynh thính", "meaningVn": "lắng nghe chăm chú" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": "斷",
+        "words": [
+          { "headword": "전단", "hanja": "專斷", "reading": "jeondan", "hanViet": "chuyên đoán", "meaningVn": "độc đoán, chuyên quyền" },
+          { "headword": "독단", "hanja": "獨斷", "reading": "dokdan", "hanViet": "độc đoán", "meaningVn": "độc đoán" }
+        ]
+      },
+      "note": "Chung chữ 斷 (quyết đoán) ở cụm trái nghĩa, cùng chủ đề với chuỗi tiếng Trung/Nhật (zh-syn-ant-xuxin-zhuanduan, ja-syn-ant-kyoshin-sendan)."
+    },
+    {
+      "id": "ko-syn-ant-hohwang-bulgyeonggi",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "호황", "hanja": "好況", "reading": "hohwang", "hanViet": "hảo huống", "meaningVn": "kinh tế thịnh vượng" },
+          { "headword": "호경기", "hanja": "好景氣", "reading": "hogyeonggi", "hanViet": "hảo cảnh khí", "meaningVn": "kinh tế thịnh vượng, phát đạt" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "불경기", "hanja": "不景氣", "reading": "bulgyeonggi", "hanViet": "bất cảnh khí", "meaningVn": "kinh tế ảm đạm" },
+          { "headword": "경기후퇴", "hanja": "景氣後退", "reading": "gyeonggihutwe", "hanViet": "cảnh khí hậu thoái", "meaningVn": "suy thoái kinh tế" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (kinh tế thịnh vượng/suy thoái ảm đạm), cùng chủ đề với chuỗi tiếng Trung/Nhật (zh-syn-ant-jingqi-bujingqi, ja-syn-ant-koukeiki-fukeiki)."
+    },
+    {
+      "id": "ko-syn-ant-janggwon-pyeoneuijeok",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "장원", "hanja": "長遠", "reading": "jangwon", "hanViet": "trường viễn", "meaningVn": "lâu dài" },
+          { "headword": "항구적", "hanja": "恒久的", "reading": "hanggujeok", "hanViet": "hằng cửu đích", "meaningVn": "lâu dài, vĩnh viễn" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "편의적", "hanja": "便宜的", "reading": "pyeoneuijeok", "hanViet": "tiện nghi đích", "meaningVn": "tạm thời, đối phó tình thế" },
+          { "headword": "일시적", "hanja": "一時的", "reading": "ilsijeok", "hanViet": "nhất thời đích", "meaningVn": "tạm thời" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (lâu dài bền vững/tạm thời chắp vá), cùng chủ đề với chuỗi tiếng Trung/Nhật (zh-syn-ant-changyuan-quanyi, ja-syn-ant-chouen-benkiteki)."
+    },
+    {
+      "id": "ko-syn-ant-yeonggwang-champae",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "영광", "hanja": "榮光", "reading": "yeonggwang", "hanViet": "vinh quang", "meaningVn": "vinh quang" },
+          { "headword": "개선", "hanja": "凱旋", "reading": "gaeseon", "hanViet": "khải hoàn", "meaningVn": "khải hoàn, chiến thắng trở về" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "참패", "hanja": "慘敗", "reading": "champae", "hanViet": "thảm bại", "meaningVn": "thất bại thảm hại" },
+          { "headword": "굴욕", "hanja": "屈辱", "reading": "guryok", "hanViet": "khuất nhục", "meaningVn": "nhục nhã, tủi hổ" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (vinh quang chiến thắng/nhục nhã thất bại), cùng chủ đề với chuỗi tiếng Trung/Nhật (zh-syn-ant-rongyao-canbai, ja-syn-ant-eikou-zanpai)."
+    },
+    {
+      "id": "ko-syn-ant-jeongju-yurang",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "정주", "hanja": "定住", "reading": "jeongju", "hanViet": "định trú", "meaningVn": "định cư, ổn định chỗ ở" },
+          { "headword": "거주", "hanja": "居住", "reading": "geoju", "hanViet": "cư trú", "meaningVn": "cư trú" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "유랑", "hanja": "流浪", "reading": "yurang", "hanViet": "lưu lãng", "meaningVn": "lang thang, phiêu bạt" },
+          { "headword": "표박", "hanja": "漂泊", "reading": "pyobak", "hanViet": "phiêu bạc", "meaningVn": "phiêu bạt, trôi dạt" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (an cư định cư ổn định/phiêu bạt lang thang), cùng chủ đề với chuỗi tiếng Trung/Nhật (zh-syn-ant-anjuleye-piaobo, ja-syn-ant-anjuu-rourou)."
+    },
+    {
+      "id": "ko-syn-ant-jeongye-ohapjijol",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "정예", "hanja": "精銳", "reading": "jeongye", "hanViet": "tinh nhuệ", "meaningVn": "tinh nhuệ" },
+          { "headword": "정병", "hanja": "精兵", "reading": "jeongbyeong", "hanViet": "tinh binh", "meaningVn": "quân tinh nhuệ" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "오합지졸", "hanja": "烏合之卒", "reading": "ohapjijol", "hanViet": "ô hợp chi tốt", "meaningVn": "đám đông ô hợp (thành ngữ)" },
+          { "headword": "잡병", "hanja": "雜兵", "reading": "japbyeong", "hanViet": "tạp binh", "meaningVn": "lính tạp nham, quân ô hợp" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (tinh nhuệ hùng mạnh/ô hợp yếu kém), cùng chủ đề với chuỗi tiếng Trung/Nhật (zh-syn-ant-jingrui-wuhezhizhong, ja-syn-ant-seiei-ugounoshuu)."
+    },
+    {
+      "id": "ko-syn-ant-cheongjing-hotak",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "청징", "hanja": "淸澄", "reading": "cheongjing", "hanViet": "thanh trừng", "meaningVn": "trong trẻo, trong sáng" },
+          { "headword": "청렬", "hanja": "淸洌", "reading": "cheongryeol", "hanViet": "thanh liệt", "meaningVn": "trong trẻo, mát lạnh (nước)" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "오탁", "hanja": "汚濁", "reading": "otak", "hanViet": "ô trọc", "meaningVn": "ô nhiễm, vẩn đục" },
+          { "headword": "혼탁", "hanja": "混濁", "reading": "hontak", "hanViet": "hỗn trọc", "meaningVn": "đục, vẩn đục" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (trong trẻo tinh khiết/ô nhiễm vẩn đục), cùng chủ đề với chuỗi tiếng Trung/Nhật (zh-syn-ant-qingche-hunzhuo, ja-syn-ant-seichou-odaku)."
+    },
+    {
+      "id": "ko-syn-ant-sungnyeonja-chobocha",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "숙련자", "hanja": "熟練者", "reading": "sungnyeonja", "hanViet": "thục luyện giả", "meaningVn": "người thành thạo" },
+          { "headword": "정통", "hanja": "精通", "reading": "jeongtong", "hanViet": "tinh thông", "meaningVn": "tinh thông, thành thạo" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "초보자", "hanja": "初步者", "reading": "chobocha", "hanViet": "sơ bộ giả", "meaningVn": "người mới bắt đầu, tay mơ" },
+          { "headword": "문외한", "hanja": "門外漢", "reading": "munoehan", "hanViet": "môn ngoại hán", "meaningVn": "người ngoại đạo" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (am hiểu thành thạo trong nghề/tay mơ ngoại đạo), cùng chủ đề với chuỗi tiếng Trung/Nhật (zh-syn-ant-neihang-waihang, ja-syn-ant-kurouto-shirouto)."
+    },
+    {
+      "id": "ko-syn-ant-eomsuk-museongui",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "엄숙", "hanja": "嚴肅", "reading": "eomsuk", "hanViet": "nghiêm túc", "meaningVn": "trang nghiêm, nghiêm túc" },
+          { "headword": "장중", "hanja": "莊重", "reading": "jangjung", "hanViet": "trang trọng", "meaningVn": "trang trọng" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "무성의", "hanja": "無誠意", "reading": "museongui", "hanViet": "vô thành ý", "meaningVn": "thiếu chân thành, qua loa" },
+          { "headword": "방만", "hanja": "放漫", "reading": "bangman", "hanViet": "phóng mạn", "meaningVn": "buông thả, cẩu thả" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (trang nghiêm long trọng/xuề xòa tùy tiện), cùng chủ đề với chuỗi tiếng Trung/Nhật (zh-syn-ant-zhuangzhong-suibian, ja-syn-ant-genshuku-muzousa)."
+    },
+    {
+      "id": "ko-syn-ant-bijang-cheocham",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": "悲",
+        "words": [
+          { "headword": "비장", "hanja": "悲壯", "reading": "bijang", "hanViet": "bi tráng", "meaningVn": "bi tráng, hào hùng" },
+          { "headword": "비창", "hanja": "悲愴", "reading": "bichang", "hanViet": "bi thương", "meaningVn": "bi thương, đau thương" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "처참", "hanja": "悽慘", "reading": "cheocham", "hanViet": "thê thảm", "meaningVn": "thê thảm" },
+          { "headword": "비참", "hanja": "悲慘", "reading": "bicham", "hanViet": "bi thảm", "meaningVn": "bi thảm" }
+        ]
+      },
+      "note": "Chung chữ 悲 (bi) ở cụm đồng nghĩa, cùng chủ đề với chuỗi tiếng Trung/Nhật (zh-syn-ant-beizhuang-qican, ja-syn-ant-hisou-seisan)."
+    },
+    {
+      "id": "ko-syn-ant-myeongmin-amu",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "명민", "hanja": "明敏", "reading": "myeongmin", "hanViet": "minh mẫn", "meaningVn": "sáng suốt nhanh nhạy" },
+          { "headword": "영매", "hanja": "英邁", "reading": "yeongmae", "hanViet": "anh mại", "meaningVn": "anh minh tài giỏi (ít dùng)" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "암우", "hanja": "暗愚", "reading": "amu", "hanViet": "ám ngu", "meaningVn": "ngu tối, dốt nát" },
+          { "headword": "혼용", "hanja": "昏庸", "reading": "honyong", "hanViet": "hôn dung", "meaningVn": "hôn ám ngu muội" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (sáng suốt anh minh/hôn ám ngu muội), cùng chủ đề với chuỗi tiếng Trung/Nhật (zh-syn-ant-yingming-hunkui, ja-syn-ant-meibin-angu)."
+    },
+    {
+      "id": "ko-syn-ant-bulgul-bujin",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "불굴", "hanja": "不屈", "reading": "bulgul", "hanViet": "bất khuất", "meaningVn": "kiên cường bất khuất" },
+          { "headword": "백절불굴", "hanja": "百折不屈", "reading": "baekjeolbulgul", "hanViet": "bách chiết bất khuất", "meaningVn": "trải trăm lần vấp ngã vẫn không nản" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "부진", "hanja": "不振", "reading": "bujin", "hanViet": "bất chấn", "meaningVn": "trì trệ, sa sút" },
+          { "headword": "돈좌", "hanja": "頓挫", "reading": "donjwa", "hanViet": "đốn tỏa", "meaningVn": "đình trệ, thất bại giữa chừng" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (kiên cường bất khuất/gục ngã nản chí), cùng chủ đề với chuỗi tiếng Trung/Nhật (zh-syn-ant-buqubunao-yijuebuzhen, ja-syn-ant-fukutsufutou-toza)."
+    },
+    {
+      "id": "ko-syn-ant-cheongryeomgyeolbaek-ayuchujong",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "청렴결백", "hanja": "淸廉潔白", "reading": "cheongryeomgyeolbaek", "hanViet": "thanh liêm khiết bạch", "meaningVn": "trong sạch liêm khiết (thành ngữ)" },
+          { "headword": "공명정대", "hanja": "公明正大", "reading": "gongmyeongjeongdae", "hanViet": "công minh chính đại", "meaningVn": "quang minh chính đại (thành ngữ)" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "아유추종", "hanja": "阿諛追從", "reading": "ayuchujong", "hanViet": "a du truy tòng", "meaningVn": "nịnh hót, xu phụ" },
+          { "headword": "아부", "hanja": "阿附", "reading": "abu", "hanViet": "a phụ", "meaningVn": "nịnh bợ, xu nịnh" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (chính trực thẳng thắn/nịnh hót xu phụ), cùng chủ đề với chuỗi tiếng Trung/Nhật (zh-syn-ant-gangzhengbue-eyufengcheng, ja-syn-ant-goujikufu-atsuishou)."
+    },
+    {
+      "id": "ko-syn-ant-sinuiseongsil-yueonbulsilhaeng",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "신의성실", "hanja": "信義誠實", "reading": "sinuiseongsil", "hanViet": "tín nghĩa thành thực", "meaningVn": "giữ chữ tín, chân thành" },
+          { "headword": "일락천금", "hanja": "一諾千金", "reading": "illakcheongeum", "hanViet": "nhất nặc thiên kim", "meaningVn": "lời hứa đáng giá ngàn vàng (thành ngữ)" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "유언불실행", "hanja": "有言不實行", "reading": "yueonbulsilhaeng", "hanViet": "hữu ngôn bất thực hành", "meaningVn": "nói mà không làm, thất hứa" },
+          { "headword": "배신행위", "hanja": "背信行爲", "reading": "baesinhaengwi", "hanViet": "bội tín hành vi", "meaningVn": "hành vi phản bội lời hứa" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (giữ lời hứa/thất hứa bội tín), cùng chủ đề với chuỗi tiếng Trung/Nhật (zh-syn-ant-xinshouchengnuo-yanerwuxin, ja-syn-ant-shingiseijitsu-yuugenfujikkou)."
+    },
+    {
+      "id": "ko-syn-ant-simsasukgo-gyeonggeomangdong",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "심사숙고", "hanja": "深思熟考", "reading": "simsasukgo", "hanViet": "thâm tư thục khảo", "meaningVn": "suy nghĩ sâu xa, chín chắn trước khi làm" },
+          { "headword": "숙려단행", "hanja": "熟慮斷行", "reading": "sungnyeodanhaeng", "hanViet": "thục lự đoạn hành", "meaningVn": "suy nghĩ chín chắn rồi quyết đoán hành động" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "경거망동", "hanja": "輕擧妄動", "reading": "gyeonggeomangdong", "hanViet": "khinh cử vọng động", "meaningVn": "hành động khinh suất, bừa bãi không suy nghĩ (thành ngữ)" },
+          { "headword": "만용", "hanja": "蠻勇", "reading": "manyong", "hanViet": "man dũng", "meaningVn": "liều lĩnh làm càn, dũng khí mù quáng không suy tính" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (thận trọng cân nhắc/hấp tấp liều lĩnh), cùng chủ đề với chuỗi tiếng Trung/Nhật (zh-syn-ant-shensishulv-qingjuwangdong, ja-syn-ant-shinbouenryo-keikyomoudou)."
+    },
+    {
+      "id": "ko-syn-ant-ilchidangyeol-naebubunyeol",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "일치단결", "hanja": "一致團結", "reading": "ilchidangyeol", "hanViet": "nhất trí đoàn kết", "meaningVn": "đồng lòng đoàn kết thành một khối" },
+          { "headword": "동심협력", "hanja": "同心協力", "reading": "dongsimhyeomnyeok", "hanViet": "đồng tâm hiệp lực", "meaningVn": "chung lòng chung sức" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "내부분열", "hanja": "內部分裂", "reading": "naebubunyeol", "hanViet": "nội bộ phân liệt", "meaningVn": "chia rẽ nội bộ" },
+          { "headword": "공중분해", "hanja": "空中分解", "reading": "gongjungbunhae", "hanViet": "không trung phân giải", "meaningVn": "tan rã giữa chừng (nghĩa bóng: kế hoạch/tổ chức sụp đổ dở dang)" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (đoàn kết đồng lòng/chia rẽ tan rã), cùng chủ đề với chuỗi tiếng Trung/Nhật (zh-syn-ant-tongxinxieli-fenbenglixi, ja-syn-ant-icchidanketsu-kuuchuubunkai)."
+    },
+    {
+      "id": "ko-syn-ant-jaegihwanbal-muneungmuchaek",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "재기환발", "hanja": "才氣煥發", "reading": "jaegihwanbal", "hanViet": "tài khí hoán phát", "meaningVn": "tài trí bộc lộ rực rỡ (thành ngữ)" },
+          { "headword": "박학다재", "hanja": "博學多才", "reading": "bakhakdajae", "hanViet": "bác học đa tài", "meaningVn": "học rộng, có nhiều tài năng" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "무능무책", "hanja": "無能無策", "reading": "muneungmuchaek", "hanViet": "vô năng vô sách", "meaningVn": "bất tài, không có kế sách gì" },
+          { "headword": "무예무능", "hanja": "無藝無能", "reading": "muyemuneung", "hanViet": "vô nghệ vô năng", "meaningVn": "không có tài nghệ gì đáng kể" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (tài hoa xuất chúng/tầm thường vô dụng), cùng chủ đề với chuỗi tiếng Trung/Nhật (zh-syn-ant-caihuahengyi-yiwushichu, ja-syn-ant-saikikanpatsu-munoumusaku)."
+    },
+    {
+      "id": "ko-syn-ant-heosimtanhoe-omanbulson",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "허심탄회", "hanja": "虛心坦懷", "reading": "heosimtanhoe", "hanViet": "hư tâm thản hoài", "meaningVn": "lòng dạ cởi mở, khiêm tốn không thành kiến" },
+          { "headword": "은근정중", "hanja": "慇懃鄭重", "reading": "eungeunjeongjung", "hanViet": "ân cần trịnh trọng", "meaningVn": "lễ độ, ân cần, khiêm nhường" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "오만불손", "hanja": "傲慢不遜", "reading": "omanbulson", "hanViet": "ngạo mạn bất tốn", "meaningVn": "kiêu ngạo, ngạo mạn, không khiêm nhường" },
+          { "headword": "자화자찬", "hanja": "自畫自讚", "reading": "jahwajachan", "hanViet": "tự họa tự tán", "meaningVn": "tự khen mình, tự đề cao bản thân (thành ngữ)" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (khiêm tốn nhã nhặn/kiêu ngạo tự phụ), cùng chủ đề với chuỗi tiếng Trung/Nhật (zh-syn-ant-xuhuairuogu-jiaoaozimanmulzhongwuren, ja-syn-ant-kyoshintankai-gouganfuson)."
+    },
+    {
+      "id": "ko-syn-ant-geunmyeonseongsil-nataeanil",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "근면성실", "hanja": "勤勉誠實", "reading": "geunmyeonseongsil", "hanViet": "cần miễn thành thực", "meaningVn": "siêng năng, thật thà, tận tụy" },
+          { "headword": "분골쇄신", "hanja": "粉骨碎身", "reading": "bungolswaesin", "hanViet": "phấn cốt toái thân", "meaningVn": "nát xương nát thân, nỗ lực hết mình (thành ngữ)" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "나태안일", "hanja": "懶怠安逸", "reading": "nataeanil", "hanViet": "lãn đãi an dật", "meaningVn": "lười biếng, ham nhàn hạ" },
+          { "headword": "무위도식", "hanja": "無爲徒食", "reading": "muwidosik", "hanViet": "vô vi đồ thực", "meaningVn": "ăn không ngồi rồi, sống vô ích (thành ngữ)" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (cần cù chăm chỉ/lười biếng ham nhàn), cùng chủ đề với chuỗi tiếng Trung/Nhật (zh-syn-ant-qinqinkenken-haoyiwulao, ja-syn-ant-kinbenjicchoku-taidaanitsu)."
+    },
+    {
+      "id": "ko-syn-ant-ilsabullan-jolsok",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "일사불란", "hanja": "一絲不亂", "reading": "ilsabullan", "hanViet": "nhất ti bất loạn", "meaningVn": "trật tự tỉ mỉ, không rối loạn dù chỉ một chút (thành ngữ)" },
+          { "headword": "면밀주도", "hanja": "綿密周到", "reading": "myeonmiljudo", "hanViet": "miên mật chu đáo", "meaningVn": "tỉ mỉ, chu đáo, cẩn thận" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "졸속", "hanja": "拙速", "reading": "jolsok", "hanViet": "chuyết tốc", "meaningVn": "vụng về, làm ẩu cho nhanh" },
+          { "headword": "두찬", "hanja": "杜撰", "reading": "ducheon", "hanViet": "đỗ soạn", "meaningVn": "cẩu thả, viết/làm bừa không có căn cứ (ít dùng, mang tính văn chương)" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (tỉ mỉ cẩn trọng/cẩu thả qua loa), cùng chủ đề với chuỗi tiếng Trung/Nhật (zh-syn-ant-yisibugou-fuyanliaoshi, ja-syn-ant-isshifuran-soseiranzou)."
+    },
+    {
+      "id": "ko-syn-ant-jigongmusa-pyeonae",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "지공무사", "hanja": "至公無私", "reading": "jigongmusa", "hanViet": "chí công vô tư", "meaningVn": "hết sức công bằng, không thiên vị" },
+          { "headword": "대공무사", "hanja": "大公無私", "reading": "daegongmusa", "hanViet": "đại công vô tư", "meaningVn": "hết sức công bằng, chí công vô tư (thành ngữ)" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "편애", "hanja": "偏愛", "reading": "pyeonae", "hanViet": "thiên ái", "meaningVn": "thiên vị, yêu thích một cách lệch lạc" },
+          { "headword": "사리사욕", "hanja": "私利私慾", "reading": "sarisayok", "hanViet": "tư lợi tư dục", "meaningVn": "chỉ vì lợi ích và ham muốn cá nhân (thành ngữ)" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (công bằng vô tư/thiên vị ích kỷ), cùng chủ đề với chuỗi tiếng Trung/Nhật (zh-syn-ant-gongzhengwusi-xunsiwubi, ja-syn-ant-koumeiseidai-ekohiiki)."
+    },
+    {
+      "id": "ko-syn-ant-jeukdanjeukgyeol-jwagouimyeon",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "즉단즉결", "hanja": "卽斷卽決", "reading": "jeukdanjeukgyeol", "hanViet": "tức đoán tức quyết", "meaningVn": "quyết đoán ngay lập tức" },
+          { "headword": "속전즉결", "hanja": "速戰卽決", "reading": "sokjeonjeukgyeol", "hanViet": "tốc chiến tức quyết", "meaningVn": "hành động nhanh, quyết định dứt khoát ngay" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "좌고우면", "hanja": "左顧右眄", "reading": "jwagouimyeon", "hanViet": "tả cố hữu miện", "meaningVn": "nhìn trước ngó sau, do dự không quyết (thành ngữ)" },
+          { "headword": "의지박약", "hanja": "意志薄弱", "reading": "uijibagyak", "hanViet": "ý chí bạc nhược", "meaningVn": "ý chí yếu đuối, thiếu quyết đoán" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (quyết đoán dứt khoát/do dự lưỡng lự), cùng chủ đề với chuỗi tiếng Trung/Nhật (zh-syn-ant-dangjilduan-youyubujue, ja-syn-ant-toukiritsudan-sakomuben)."
+    },
+    {
+      "id": "ko-syn-ant-myeonggyeongjisu-orimujung",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "명경지수", "hanja": "明鏡止水", "reading": "myeonggyeongjisu", "hanViet": "minh kính chỉ thủy", "meaningVn": "tâm hồn trong sáng, tĩnh lặng như gương nước lặng (thành ngữ)" },
+          { "headword": "혜안", "hanja": "慧眼", "reading": "hyean", "hanViet": "tuệ nhãn", "meaningVn": "con mắt tinh tường, sáng suốt nhận biết bản chất sự việc" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "오리무중", "hanja": "五里霧中", "reading": "orimujung", "hanViet": "ngũ lý vụ trung", "meaningVn": "như lạc trong sương mù, mơ hồ không biết đường (thành ngữ)" },
+          { "headword": "애매모호", "hanja": "曖昧模糊", "reading": "aemaemoho", "hanViet": "ái muội mô hồ", "meaningVn": "mơ hồ, không rõ ràng" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (tinh tường sáng suốt/mơ hồ lú lẫn), cùng chủ đề với chuỗi tiếng Trung/Nhật (zh-syn-ant-dongruoguanhuo-xilihutu, ja-syn-ant-meikyoushisui-gorimuchuu)."
+    },
+    {
+      "id": "ko-syn-ant-yongwangmaejin-insungosik",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "용왕매진", "hanja": "勇往邁進", "reading": "yongwangmaejin", "hanViet": "dũng vãng mại tiến", "meaningVn": "dũng cảm tiến thẳng về phía trước (thành ngữ)" },
+          { "headword": "대담무쌍", "hanja": "大膽無雙", "reading": "daedammusang", "hanViet": "đại đảm vô song", "meaningVn": "táo bạo, gan dạ vô song (thành ngữ)" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "인순고식", "hanja": "因循姑息", "reading": "insungosik", "hanViet": "nhân tuần cô tức", "meaningVn": "bảo thủ, thụ động giữ theo lối cũ (thành ngữ)" },
+          { "headword": "소심익익", "hanja": "小心翼翼", "reading": "sosimigik", "hanViet": "tiểu tâm dực dực", "meaningVn": "rụt rè, nhút nhát quá mức (thành ngữ)" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (táo bạo mạo hiểm/nhút nhát an phận), cùng chủ đề với chuỗi tiếng Trung/Nhật (zh-syn-ant-ganzuoganwei-weishouweiwei, ja-syn-ant-yuuoumaishin-injunkosoku)."
+    },
+    {
+      "id": "ko-syn-ant-jeoksimbonggong-baesingiui",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "적심봉공", "hanja": "赤心奉公", "reading": "jeoksimbonggong", "hanViet": "xích tâm phụng công", "meaningVn": "hết lòng trung thành phục vụ (thành ngữ)" },
+          { "headword": "성심성의", "hanja": "誠心誠意", "reading": "seongsimseongui", "hanViet": "thành tâm thành ý", "meaningVn": "hết lòng thành thực, tận tụy" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "배신기의", "hanja": "背信棄義", "reading": "baesingiui", "hanViet": "bội tín khí nghĩa", "meaningVn": "phản bội lời hứa và đạo nghĩa (thành ngữ)" },
+          { "headword": "망은부의", "hanja": "忘恩負義", "reading": "mangeunbuui", "hanViet": "vong ân phụ nghĩa", "meaningVn": "quên ơn, phụ bạc nghĩa tình (thành ngữ)" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (trung thành tận tụy/phản bội bội nghĩa), cùng chủ đề với chuỗi tiếng Trung/Nhật (zh-syn-ant-zhongxingenggeng-wangenfuyi, ja-syn-ant-sekishinhoukou-haishinkigi)."
+    },
+    {
+      "id": "ko-syn-ant-pumhaengbangjeong-bangjongbulgi",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "품행방정", "hanja": "品行方正", "reading": "pumhaengbangjeong", "hanViet": "phẩm hạnh phương chính", "meaningVn": "phẩm hạnh đoan chính, nghiêm túc (thành ngữ)" },
+          { "headword": "근언신행", "hanja": "謹言愼行", "reading": "geuneonsinhaeng", "hanViet": "cẩn ngôn thận hành", "meaningVn": "cẩn trọng trong lời nói và việc làm (thành ngữ)" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "방종불기", "hanja": "放縱不羈", "reading": "bangjongbulgi", "hanViet": "phóng túng bất ki", "meaningVn": "phóng túng, không chịu ràng buộc (thành ngữ)" },
+          { "headword": "방약무인", "hanja": "傍若無人", "reading": "bangyangmuin", "hanViet": "bàng nhược vô nhân", "meaningVn": "ngang ngược, tùy tiện, coi thường người khác (thành ngữ)" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (kỷ luật nghiêm minh/buông thả phóng túng), cùng chủ đề với chuỗi tiếng Trung/Nhật (zh-syn-ant-yanyulvji-fangdangbuji, ja-syn-ant-kingenjicchoku-houjuufuki)."
+    },
+    {
+      "id": "ko-syn-ant-gakgomyeollyeo-gutaeuiyeon",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "각고면려", "hanja": "刻苦勉勵", "reading": "gakgomyeollyeo", "hanViet": "khắc khổ miễn lệ", "meaningVn": "chăm chỉ, nỗ lực không ngừng (thành ngữ)" },
+          { "headword": "일진월보", "hanja": "日進月步", "reading": "iljinwolbo", "hanViet": "nhật tiến nguyệt bộ", "meaningVn": "tiến bộ không ngừng từng ngày (thành ngữ)" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "구태의연", "hanja": "舊態依然", "reading": "gutaeuiyeon", "hanViet": "cựu thái y nhiên", "meaningVn": "vẫn giữ nguyên trạng thái cũ, trì trệ không đổi mới (thành ngữ)" },
+          { "headword": "저조", "hanja": "低調", "reading": "jeojo", "hanViet": "đê điệu", "meaningVn": "trì trệ, ảm đạm, không tiến triển" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (cầu tiến ham học hỏi/tự mãn dừng bước), cùng chủ đề với chuỗi tiếng Trung/Nhật (zh-syn-ant-haoxuebujuan-gubuzifeng, ja-syn-ant-kokumenrei-kyuutaiizen)."
+    },
+    {
+      "id": "ko-syn-ant-imgieungbyeon-wangobultong",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "임기응변", "hanja": "臨機應變", "reading": "imgieungbyeon", "hanViet": "lâm cơ ứng biến", "meaningVn": "linh hoạt ứng phó theo tình huống (thành ngữ)" },
+          { "headword": "융통성", "hanja": "融通性", "reading": "yungtongseong", "hanViet": "dung thông tính", "meaningVn": "tính linh hoạt, biết biến thông" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "완고불통", "hanja": "頑固不通", "reading": "wangobultong", "hanViet": "ngoan cố bất thông", "meaningVn": "cố chấp, không chịu linh hoạt" },
+          { "headword": "완미고루", "hanja": "頑迷固陋", "reading": "wanmigoru", "hanViet": "ngoan mê cố lậu", "meaningVn": "cố chấp, cổ hủ, khư khư giữ ý (thành ngữ)" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (linh hoạt biến thông/cứng nhắc câu nệ), cùng chủ đề với chuỗi tiếng Trung/Nhật (zh-syn-ant-suijiyingbian-moshouchenggui, ja-syn-ant-rinkiouhen-shakushijousei)."
+    },
+    {
+      "id": "ko-syn-ant-bimireomsu-bimirnuseol",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "비밀엄수", "hanja": "秘密嚴守", "reading": "bimireomsu", "hanViet": "bí mật nghiêm thủ", "meaningVn": "giữ bí mật nghiêm ngặt" },
+          { "headword": "함구무언", "hanja": "緘口無言", "reading": "hamgumueon", "hanViet": "giam khẩu vô ngôn", "meaningVn": "ngậm miệng không nói, kín đáo (thành ngữ)" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "비밀누설", "hanja": "秘密漏泄", "reading": "bimirnuseol", "hanViet": "bí mật lậu tiết", "meaningVn": "để lộ bí mật" },
+          { "headword": "다언", "hanja": "多言", "reading": "daeon", "hanViet": "đa ngôn", "meaningVn": "nói nhiều, dễ để lộ chuyện" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (cẩn mật kín đáo/sơ hở để lộ bí mật), cùng chủ đề với chuỗi tiếng Trung/Nhật (zh-syn-ant-shoukourupin-koumaokan, ja-syn-ant-himitsugenshu-himitsurouei)."
+    },
+    {
+      "id": "ko-syn-ant-hwakgobudong-buhwanoedong",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "확고부동", "hanja": "確固不動", "reading": "hwakgobudong", "hanViet": "xác cố bất động", "meaningVn": "vững chắc, không lay chuyển (thành ngữ)" },
+          { "headword": "의지견고", "hanja": "意志堅固", "reading": "uijigyeongo", "hanViet": "ý chí kiên cố", "meaningVn": "ý chí vững vàng (thành ngữ)" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "부화뇌동", "hanja": "附和雷同", "reading": "buhwanoedong", "hanViet": "phụ hòa lôi đồng", "meaningVn": "a dua theo người khác, không có chính kiến (thành ngữ)" },
+          { "headword": "기회주의", "hanja": "機會主義", "reading": "gihoejuui", "hanViet": "cơ hội chủ nghĩa", "meaningVn": "chủ nghĩa cơ hội, ngóng gió trở cờ" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (vững vàng lập trường/ba phải xu thời a dua), cùng chủ đề với chuỗi tiếng Trung/Nhật (zh-syn-ant-jiandingbuyi-jianfengshiduo, ja-syn-ant-kakkofudou-fuwaraidou)."
+    },
+    {
+      "id": "ko-syn-ant-jilsogeomnyak-sachinangbi",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "질소검약", "hanja": "質素儉約", "reading": "jilsogeomnyak", "hanViet": "chất tố kiệm ước", "meaningVn": "giản dị, tiết kiệm" },
+          { "headword": "절검", "hanja": "節儉", "reading": "jeolgeom", "hanViet": "tiết kiệm", "meaningVn": "tiết kiệm" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "사치낭비", "hanja": "奢侈浪費", "reading": "sachinangbi", "hanViet": "xa xỉ lãng phí", "meaningVn": "xa hoa, phung phí, tiêu xài không chừng mực" },
+          { "headword": "낭비벽", "hanja": "浪費癖", "reading": "nangbibyeok", "hanViet": "lãng phí tật", "meaningVn": "thói quen lãng phí" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (cần kiệm tiết kiệm/xa hoa lãng phí), cùng chủ đề với chuỗi tiếng Trung/Nhật (zh-syn-ant-keqinkejian-huihuowudu, ja-syn-ant-shissokenyaku-zeitakuzanmai)."
+    },
+    {
+      "id": "ko-syn-ant-euninjajung-seonggeup",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "은인자중", "hanja": "隱忍自重", "reading": "euninjajung", "hanViet": "ẩn nhẫn tự trọng", "meaningVn": "nhẫn nhịn chờ đợi, tự trọng giữ mình (thành ngữ)" },
+          { "headword": "와신상담", "hanja": "臥薪嘗膽", "reading": "wasinsangdam", "hanViet": "ngọa tân thường đảm", "meaningVn": "nếm mật nằm gai, kiên nhẫn chờ thời (thành ngữ)" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "성급", "hanja": "性急", "reading": "seonggeup", "hanViet": "tính cấp", "meaningVn": "nóng vội, thiếu kiên nhẫn" },
+          { "headword": "급조", "hanja": "急躁", "reading": "geupjo", "hanViet": "cấp táo", "meaningVn": "nóng vội, hấp tấp" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (kiên nhẫn chờ thời/nóng vội đốt cháy giai đoạn), cùng chủ đề với chuỗi tiếng Trung/Nhật (zh-syn-ant-jingguanqibian-caozhiguoji, ja-syn-ant-inninjichou-seikyuu)."
+    },
+    {
+      "id": "ko-syn-ant-jeollyeoktugu-mucheagim",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "전력투구", "hanja": "全力投球", "reading": "jeollyeoktugu", "hanViet": "toàn lực đầu cầu", "meaningVn": "dốc hết sức lực (thành ngữ, gốc từ bóng chày)" },
+          { "headword": "일심불란", "hanja": "一心不亂", "reading": "ilsimbullan", "hanViet": "nhất tâm bất loạn", "meaningVn": "chuyên tâm, không xao lãng (thành ngữ)" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "무책임", "hanja": "無責任", "reading": "mucheagim", "hanViet": "vô trách nhiệm", "meaningVn": "vô trách nhiệm" },
+          { "headword": "방관", "hanja": "傍觀", "reading": "banggwan", "hanViet": "bàng quan", "meaningVn": "đứng ngoài nhìn, thờ ơ không can dự" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (tâm huyết cống hiến hết mình/thờ ơ vô trách nhiệm), cùng chủ đề với chuỗi tiếng Trung/Nhật (zh-syn-ant-quanliyifu-fuyansezei, ja-syn-ant-zenryokutoukyuu-musekinin)."
+    },
+    {
+      "id": "ko-syn-ant-illyeontaksaeng-jagijungsim",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "일련탁생", "hanja": "一蓮托生", "reading": "illyeontaksaeng", "hanViet": "nhất liên thác sinh", "meaningVn": "cùng chung số phận, sống chết có nhau (thành ngữ, gốc Phật giáo)" },
+          { "headword": "공존공영", "hanja": "共存共榮", "reading": "gongjongongyeong", "hanViet": "cộng tồn cộng vinh", "meaningVn": "cùng tồn tại, cùng phát triển (thành ngữ)" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "자기중심", "hanja": "自己中心", "reading": "jagijungsim", "hanViet": "tự kỷ trung tâm", "meaningVn": "ích kỷ, chỉ nghĩ đến bản thân" },
+          { "headword": "이기주의", "hanja": "利己主義", "reading": "igijuui", "hanViet": "lợi kỷ chủ nghĩa", "meaningVn": "chủ nghĩa vị kỷ" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (đồng cam cộng khổ/ích kỷ chỉ lo thân mình), cùng chủ đề với chuỗi tiếng Trung/Nhật (zh-syn-ant-tonggangongku-zisiziyi, ja-syn-ant-ichirentakushou-jikochuushin)."
+    },
+    {
+      "id": "ko-syn-ant-chojiilgwan-yeonghap",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "초지일관", "hanja": "初志一貫", "reading": "chojiilgwan", "hanViet": "sơ chí nhất quán", "meaningVn": "giữ vững chí hướng ban đầu đến cùng (thành ngữ)" },
+          { "headword": "절조", "hanja": "節操", "reading": "jeoljo", "hanViet": "tiết tháo", "meaningVn": "khí tiết, sự kiên định về nguyên tắc" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "영합", "hanja": "迎合", "reading": "yeonghap", "hanViet": "nghênh hợp", "meaningVn": "chiều theo, thỏa hiệp để lấy lòng người khác" },
+          { "headword": "추종", "hanja": "追從", "reading": "chujong", "hanViet": "truy tòng", "meaningVn": "xu nịnh, phụ họa theo người khác" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (kiên định giữ vững nguyên tắc/thỏa hiệp nhượng bộ), cùng chủ đề với chuỗi tiếng Trung/Nhật (zh-syn-ant-jianchiyuanze-weiquqiuquan, ja-syn-ant-shoshikantetsu-geigou)."
+    },
+    {
+      "id": "ko-syn-ant-anonmusa-dongbunseoju",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "안온무사", "hanja": "安穩無事", "reading": "anonmusa", "hanViet": "an ổn vô sự", "meaningVn": "yên ổn, không có chuyện gì, nhàn nhã" },
+          { "headword": "태연자약", "hanja": "泰然自若", "reading": "taeyeonjayak", "hanViet": "thái nhiên tự nhược", "meaningVn": "điềm tĩnh, tự tại (thành ngữ)" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "동분서주", "hanja": "東奔西走", "reading": "dongbunseoju", "hanViet": "đông bôn tây tẩu", "meaningVn": "chạy đôn chạy đáo khắp nơi (thành ngữ)" },
+          { "headword": "분주", "hanja": "奔走", "reading": "bunju", "hanViet": "bôn tẩu", "meaningVn": "bận rộn chạy ngược xuôi" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (ung dung nhàn nhã tự tại/bôn ba vất vả ngược xuôi), cùng chủ đề với chuỗi tiếng Trung/Nhật (zh-syn-ant-youranzide-piyubenming, ja-syn-ant-annonbuji-touhonseisou)."
+    },
+    {
+      "id": "ko-syn-ant-jilsilganggeon-gwonmosulsu",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "질실강건", "hanja": "質實剛健", "reading": "jilsilganggeon", "hanViet": "chất thực cương kiện", "meaningVn": "chất phác, mạnh mẽ, ngay thẳng (thành ngữ)" },
+          { "headword": "실직", "hanja": "實直", "reading": "siljik", "hanViet": "thực trực", "meaningVn": "thật thà, ngay thẳng" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "권모술수", "hanja": "權謀術數", "reading": "gwonmosulsu", "hanViet": "quyền mưu thuật số", "meaningVn": "mưu mô, xảo quyệt (thành ngữ)" },
+          { "headword": "간계", "hanja": "奸計", "reading": "gangye", "hanViet": "gian kế", "meaningVn": "mưu kế xảo trá" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (thật thà chất phác/xảo trá gian manh), cùng chủ đề với chuỗi tiếng Trung/Nhật (zh-syn-ant-hanhoupushi-jianzhajiaohua, ja-syn-ant-shitsujitsugouken-kenbojussuu)."
+    },
+    {
+      "id": "ko-syn-ant-geumseongcheolbyeok-yakche",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "금성철벽", "hanja": "金城鐵壁", "reading": "geumseongcheolbyeok", "hanViet": "kim thành thiết bích", "meaningVn": "vững chắc như thành đồng vách sắt (thành ngữ)" },
+          { "headword": "난공불락", "hanja": "難攻不落", "reading": "nangongbullak", "hanViet": "nan công bất lạc", "meaningVn": "khó công phá, vững chắc (thành ngữ)" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "약체", "hanja": "弱體", "reading": "yakche", "hanViet": "nhược thể", "meaningVn": "yếu ớt, mong manh" },
+          { "headword": "붕괴직전", "hanja": "崩壞直前", "reading": "bunggoejikjeon", "hanViet": "băng hoại trực tiền", "meaningVn": "sắp sụp đổ" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (kiên cố vững chắc/mong manh dễ sụp đổ), cùng chủ đề với chuỗi tiếng Trung/Nhật (zh-syn-ant-jianrupanshi-yaoyaoyuzhui, ja-syn-ant-kinjoutekipeki-jakutai)."
+    },
+    {
+      "id": "ko-syn-ant-gaegwacheonseon-gangbyeon",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "개과천선", "hanja": "改過遷善", "reading": "gaegwacheonseon", "hanViet": "cải quá thiên thiện", "meaningVn": "sửa lỗi, hướng thiện (thành ngữ)" },
+          { "headword": "맹성", "hanja": "猛省", "reading": "maengseong", "hanViet": "mãnh tỉnh", "meaningVn": "tự kiểm điểm nghiêm khắc" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "강변", "hanja": "強辯", "reading": "gangbyeon", "hanViet": "cường biện", "meaningVn": "biện bạch ngoan cố, cãi lấy được" },
+          { "headword": "완미", "hanja": "頑迷", "reading": "wanmi", "hanViet": "ngoan mê", "meaningVn": "ngoan cố, cố chấp" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (dũng cảm nhận lỗi sửa sai/ngoan cố chối bỏ trách nhiệm), cùng chủ đề với chuỗi tiếng Trung/Nhật (zh-syn-ant-zhicuojiugai-siburenzuo, ja-syn-ant-kaikasenzen-kyouben)."
+    },
+    {
+      "id": "ko-syn-ant-sanghojonjung-gyeongmyeol",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "상호존중", "hanja": "相互尊重", "reading": "sanghojonjung", "hanViet": "tương hỗ tôn trọng", "meaningVn": "tôn trọng lẫn nhau" },
+          { "headword": "대등", "hanja": "對等", "reading": "daedeung", "hanViet": "đối đẳng", "meaningVn": "bình đẳng, ngang hàng" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "경멸", "hanja": "輕蔑", "reading": "gyeongmyeol", "hanViet": "khinh miệt", "meaningVn": "khinh miệt, coi thường" },
+          { "headword": "멸시", "hanja": "蔑視", "reading": "myeolsi", "hanViet": "miệt thị", "meaningVn": "miệt thị, coi khinh" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (tôn trọng lẫn nhau/coi thường khinh miệt người khác), cùng chủ đề với chuỗi tiếng Trung/Nhật (zh-syn-ant-xiangjingrubin-buxieyigu, ja-syn-ant-sougosonchou-keibetsu)."
+    },
+    {
+      "id": "ko-syn-ant-dunoemyeongseok-jidun",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "두뇌명석", "hanja": "頭腦明晳", "reading": "dunoemyeongseok", "hanViet": "đầu não minh tích", "meaningVn": "đầu óc minh mẫn, sáng suốt" },
+          { "headword": "영특", "hanja": "英特", "reading": "yeongteuk", "hanViet": "anh đặc", "meaningVn": "thông minh, xuất sắc" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "지둔", "hanja": "遲鈍", "reading": "jidun", "hanViet": "trì độn", "meaningVn": "chậm chạp, đần độn" },
+          { "headword": "둔재", "hanja": "鈍才", "reading": "dunjae", "hanViet": "độn tài", "meaningVn": "kém tài, chậm hiểu" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (thông minh nhạy bén/đần độn chậm hiểu), cùng chủ đề với chuỗi tiếng Trung/Nhật (zh-syn-ant-congminglingli-daitoudainao, ja-syn-ant-zunoumeisei-rodon)."
+    },
+    {
+      "id": "ko-syn-ant-jeonghwakmubi-odapchakoo",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "정확무비", "hanja": "正確無比", "reading": "jeonghwakmubi", "hanViet": "chính xác vô tỉ", "meaningVn": "chính xác tuyệt đối (thành ngữ)" },
+          { "headword": "적절타당", "hanja": "適切妥當", "reading": "jeokjeoltadang", "hanViet": "thích thiết thỏa đáng", "meaningVn": "đúng đắn, thích hợp" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "오판", "hanja": "誤判", "reading": "opan", "hanViet": "ngộ phán", "meaningVn": "phán đoán sai" },
+          { "headword": "대착오", "hanja": "大錯誤", "reading": "daechakoo", "hanViet": "đại thác ngộ", "meaningVn": "sai lầm nghiêm trọng" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (chính xác đúng đắn/sai lầm lệch lạc), cùng chủ đề với chuỗi tiếng Trung/Nhật (zh-syn-ant-qiaruqifen-chazhihaoli, ja-syn-ant-seikakumuhi-kentouchigai)."
+    },
+    {
+      "id": "ko-syn-ant-hoyang-jiltu",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "호양", "hanja": "互讓", "reading": "hoyang", "hanViet": "hỗ nhượng", "meaningVn": "nhường nhịn lẫn nhau" },
+          { "headword": "사양", "hanja": "辭讓", "reading": "sayang", "hanViet": "từ nhượng", "meaningVn": "từ chối, nhường lại cho người khác" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "질투", "hanja": "嫉妬", "reading": "jiltu", "hanViet": "tật đố", "meaningVn": "ghen tị, đố kỵ" },
+          { "headword": "투심", "hanja": "妬心", "reading": "tusim", "hanViet": "đố tâm", "meaningVn": "lòng đố kỵ" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (nhường nhịn khiêm nhượng/tranh giành đố kỵ ganh ghét), cùng chủ đề với chuỗi tiếng Trung/Nhật (zh-syn-ant-xianrenhouji-jixiandunneng, ja-syn-ant-gojou-shitto)."
+    },
+    {
+      "id": "ko-syn-ant-cheongbin-jeungsuroe",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "청빈", "hanja": "淸貧", "reading": "cheongbin", "hanViet": "thanh bần", "meaningVn": "thanh liêm, nghèo nhưng trong sạch" },
+          { "headword": "염결봉공", "hanja": "廉潔奉公", "reading": "yeomgyeolbonggong", "hanViet": "liêm khiết phụng công", "meaningVn": "thanh liêm, phụng sự công vụ" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "증수뢰", "hanja": "贈收賂", "reading": "jeungsuroe", "hanViet": "tặng thu hối", "meaningVn": "hối lộ và nhận hối lộ" },
+          { "headword": "수뢰", "hanja": "收賂", "reading": "suroe", "hanViet": "thu hối", "meaningVn": "nhận hối lộ" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (thanh liêm chính trực không tham ô/tham lam vơ vét của công), cùng chủ đề với chuỗi tiếng Trung/Nhật (zh-syn-ant-qingzhengliangjie-tanzangwangfa, ja-syn-ant-seirenkeppaku-zoushuuwai)."
+    },
+    {
+      "id": "ko-syn-ant-ganaeanjeon-bulhwa",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "가내안전", "hanja": "家內安全", "reading": "ganaeanjeon", "hanViet": "gia nội an toàn", "meaningVn": "gia đình bình an (thường dùng khi cầu chúc)" },
+          { "headword": "화기애애", "hanja": "和氣靄靄", "reading": "hwagiaeae", "hanViet": "hòa khí ái ái", "meaningVn": "không khí hòa thuận, vui vẻ (thành ngữ)" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "불화", "hanja": "不和", "reading": "bulhwa", "hanViet": "bất hòa", "meaningVn": "bất hòa" },
+          { "headword": "반목", "hanja": "反目", "reading": "banmok", "hanViet": "phản mục", "meaningVn": "bất hòa, chống đối nhau" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (hòa thuận êm ấm/bất hòa xung đột), cùng chủ đề với chuỗi tiếng Trung/Nhật (zh-syn-ant-jiahewanshixing-fanmuchengchou, ja-syn-ant-kanaianzen-fuwa)."
+    },
+    {
+      "id": "ko-syn-ant-huu-gangwa",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "후우", "hanja": "厚遇", "reading": "huu", "hanViet": "hậu ngộ", "meaningVn": "đối đãi hậu hĩnh, chăm sóc chu đáo" },
+          { "headword": "간호", "hanja": "看護", "reading": "ganho", "hanViet": "khán hộ", "meaningVn": "chăm sóc, điều dưỡng (người ốm)" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "간과", "hanja": "看過", "reading": "gangwa", "hanViet": "khán qua", "meaningVn": "bỏ qua, làm ngơ" },
+          { "headword": "경시", "hanja": "輕視", "reading": "gyeongsi", "hanViet": "khinh thị", "meaningVn": "xem nhẹ, coi thường, bỏ bê" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (tận tụy chăm sóc chu đáo/bỏ bê xao nhãng), cùng chủ đề với chuỗi tiếng Trung/Nhật (zh-syn-ant-wuweibuzhi-zhizhibuli, ja-syn-ant-kouguu-kanka)."
+    },
+    {
+      "id": "ko-syn-ant-myeongmogyageo-jagihyeomo",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "면목약여", "hanja": "面目躍如", "reading": "myeonmogyageo", "hanViet": "diện mục dược như", "meaningVn": "danh dự, uy tín rạng rỡ, đúng như kỳ vọng (thành ngữ)" },
+          { "headword": "득의만면", "hanja": "得意滿面", "reading": "deukuimanmyeon", "hanViet": "đắc ý mãn diện", "meaningVn": "vẻ mặt đầy tự hào, đắc ý (thành ngữ)" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "자기혐오", "hanja": "自己嫌惡", "reading": "jagihyeomo", "hanViet": "tự kỷ hiềm ố", "meaningVn": "tự ghét bỏ bản thân" },
+          { "headword": "자신상실", "hanja": "自信喪失", "reading": "jasinsangsil", "hanViet": "tự tín táng thất", "meaningVn": "mất tự tin" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (kiêu hãnh tự hào chính đáng/tự ti mặc cảm), cùng chủ đề với chuỗi tiếng Trung/Nhật (zh-syn-ant-yinyiweirong-zicanxinghui, ja-syn-ant-menmokuyakujo-jikoken-o)."
+    },
+    {
+      "id": "ko-syn-ant-chimchaknaengjeong-jujangnangpae",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "침착냉정", "hanja": "沈着冷靜", "reading": "chimchaknaengjeong", "hanViet": "trầm trước lãnh tĩnh", "meaningVn": "trầm tĩnh, điềm đạm (thành ngữ)" },
+          { "headword": "여유작작", "hanja": "餘裕綽綽", "reading": "yeoyujakjak", "hanViet": "dư dụ xước xước", "meaningVn": "ung dung, thong thả, đầy tự tin (thành ngữ)" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "주장낭패", "hanja": "周章狼狽", "reading": "jujangnangpae", "hanViet": "chu chương lang bái", "meaningVn": "hoảng loạn, cuống cuồng (thành ngữ)" },
+          { "headword": "우왕좌왕", "hanja": "右往左往", "reading": "uwangjwawang", "hanViet": "hữu vãng tả vãng", "meaningVn": "chạy đôn chạy đáo, hoảng loạn không biết đi đâu (thành ngữ)" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (ung dung bình thản trước khó khăn/hoảng loạn mất bình tĩnh), cùng chủ đề với chuỗi tiếng Trung/Nhật (zh-syn-ant-chubianbujing-jinghuangshicuo, ja-syn-ant-chinchakureisei-shuushourou-bai)."
+    },
+    {
+      "id": "ko-syn-ant-inae-mujeong",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "인애", "hanja": "仁愛", "reading": "inae", "hanViet": "nhân ái", "meaningVn": "nhân ái, yêu thương con người" },
+          { "headword": "박애", "hanja": "博愛", "reading": "bagae", "hanViet": "bác ái", "meaningVn": "yêu thương rộng rãi mọi người" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "무정", "hanja": "無情", "reading": "mujeong", "hanViet": "vô tình", "meaningVn": "vô tình, tàn nhẫn" },
+          { "headword": "비도", "hanja": "非道", "reading": "bido", "hanViet": "phi đạo", "meaningVn": "tàn ác, vô đạo" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (từ bi nhân hậu cứu giúp người/tàn nhẫn độc ác hại người), cùng chủ đề với chuỗi tiếng Trung/Nhật (zh-syn-ant-cibeiweihuai-xinhenshoula, ja-syn-ant-jinai-mujou)."
+    },
+    {
+      "id": "ko-syn-ant-gwangmyeongnoerak-chaengmo",
+      "language": "ko",
+      "kind": "antonym-pair",
+      "synonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "광명뇌락", "hanja": "光明磊落", "reading": "gwangmyeongnoerak", "hanViet": "quang minh lỗi lạc", "meaningVn": "quang minh chính đại (thành ngữ)" },
+          { "headword": "정정당당", "hanja": "正正堂堂", "reading": "jeongjeongdangdang", "hanViet": "chính chính đường đường", "meaningVn": "đàng hoàng, quang minh chính đại (thành ngữ)" }
+        ]
+      },
+      "antonymCluster": {
+        "sharedChar": null,
+        "words": [
+          { "headword": "책모", "hanja": "策謀", "reading": "chaengmo", "hanViet": "sách mưu", "meaningVn": "mưu kế, mưu mô" },
+          { "headword": "암약", "hanja": "暗躍", "reading": "amyak", "hanViet": "ám dược", "meaningVn": "hoạt động ngầm, lén lút" }
+        ]
+      },
+      "note": "Không chung chữ ở cả 2 cụm — liên kết thuần tuý CÙNG TRƯỜNG NGHĨA (quang minh chính đại đường đường chính chính/âm mưu quỷ kế lén lút xảo trá), cùng chủ đề với chuỗi tiếng Trung/Nhật (zh-syn-ant-guangminglieiluo-yinmouguiji, ja-syn-ant-koumeiraikuraku-sakubou)."
+    }
+  ],
+  "synonymClusters": [
+    {
+      "id": "ko-syncluster-trend",
+      "language": "ko",
+      "kind": "synonym-cluster",
+      "sharedChar": null,
+      "words": [
+        { "headword": "현상", "hanja": "現象", "reading": "hyeonsang", "hanViet": "hiện tượng", "meaningVn": "hiện tượng (sự việc quan sát được, trung tính)" },
+        { "headword": "추세", "hanja": "趨勢", "reading": "chuse", "hanViet": "xu thế", "meaningVn": "xu hướng, chiều hướng phát triển theo thời gian" },
+        { "headword": "형세", "hanja": "形勢", "reading": "hyeongse", "hanViet": "hình thế", "meaningVn": "tình hình, cục diện chung (thường quy mô lớn: quốc tế, kinh tế)" },
+        { "headword": "국면", "hanja": "局面", "reading": "gungmyeon", "hanViet": "cục diện", "meaningVn": "cục diện, tình hình tại 1 giai đoạn/thời điểm cụ thể" },
+        { "headword": "동향", "hanja": "動向", "reading": "donghyang", "hanViet": "động hướng", "meaningVn": "động thái, diễn biến mới nhất, xu hướng đang di chuyển" }
+      ],
+      "note": "5 từ đều liên quan 'tình hình/xu hướng' nhưng khác trọng tâm: 현상 = hiện tượng cụ thể; 추세 = chiều hướng theo THỜI GIAN; 형세 = bức tranh tổng thể quy mô lớn; 국면 = cục diện tại 1 giai đoạn; 동향 = diễn biến/xu hướng đang vận động. Tương ứng chuỗi tiếng Trung 现象/趋势/形势/局势/动态 (lưu ý 국면 dùng chữ 局面 khác 局势 tiếng Trung nhưng cùng nghĩa)."
+    },
+    {
+      "id": "ko-syncluster-execute",
+      "language": "ko",
+      "kind": "synonym-cluster",
+      "sharedChar": null,
+      "words": [
+        { "headword": "실행", "hanja": "實行", "reading": "silhaeng", "hanViet": "thực hành", "meaningVn": "thực hiện, tiến hành (kế hoạch, mệnh lệnh)" },
+        { "headword": "시행", "hanja": "施行", "reading": "sihaeng", "hanViet": "thi hành", "meaningVn": "thi hành (luật, chế độ — mang tính chính thức, có hiệu lực từ ngày nào đó)" },
+        { "headword": "관철", "hanja": "貫徹", "reading": "gwancheol", "hanViet": "quán triệt", "meaningVn": "quán triệt, thực hiện xuyên suốt đến cùng (tinh thần, chủ trương)" },
+        { "headword": "실시", "hanja": "實施", "reading": "silsi", "hanViet": "thực thi", "meaningVn": "thực thi (kế hoạch, chính sách — văn bản hoá, có tổ chức)" },
+        { "headword": "이행", "hanja": "履行", "reading": "ihaeng", "hanViet": "lý hành", "meaningVn": "thực hiện (nghĩa vụ, cam kết, hợp đồng — mang tính trách nhiệm/pháp lý)" }
+      ],
+      "note": "5 từ đều nghĩa 'thực hiện' nhưng khác đối tượng: 실행 = kế hoạch/mệnh lệnh nói chung; 시행 = luật/chế độ (thời điểm có hiệu lực); 관철 = tinh thần/chủ trương (nhấn mạnh 'xuyên suốt'); 실시 = chính sách có tổ chức; 이행 = nghĩa vụ/hợp đồng (trách nhiệm pháp lý). Tương ứng chuỗi tiếng Trung 执行/实行/贯彻/实施/履行."
+    },
+    {
+      "id": "ko-syncluster-method",
+      "language": "ko",
+      "kind": "synonym-cluster",
+      "sharedChar": null,
+      "words": [
+        { "headword": "방법", "hanja": "方法", "reading": "bangbeop", "hanViet": "phương pháp", "meaningVn": "phương pháp, cách làm chung chung, trung tính" },
+        { "headword": "수단", "hanja": "手段", "reading": "sudan", "hanViet": "thủ đoạn", "meaningVn": "thủ đoạn, phương tiện — có thể mang nghĩa xấu tuỳ ngữ cảnh (수단과 방법을 가리지 않다 = không từ thủ đoạn)" },
+        { "headword": "조치", "hanja": "措置", "reading": "jochi", "hanViet": "thố trí", "meaningVn": "biện pháp cụ thể do cơ quan/tổ chức đề ra để xử lý tình huống" },
+        { "headword": "방책", "hanja": "方策", "reading": "bangchaek", "hanViet": "phương sách", "meaningVn": "phương sách, kế sách (thiên về chiến lược, quy mô lớn)" }
+      ],
+      "note": "4 từ đều liên quan 'cách làm' nhưng khác sắc thái: 방법 = trung tính, phổ biến nhất; 수단 = CẨN THẬN vì có thể mang nghĩa tiêu cực (dùng mưu mẹo/phương tiện bất chấp); 조치 = biện pháp hành chính xử lý sự việc cụ thể; 방책 = kế sách chiến lược quy mô lớn. Tương ứng chuỗi tiếng Trung/Nhật 方法/手段/措施(措置)."
+    }
+  ],
+  "todo": [
+    "Batch mở rộng (round 61): 174 cặp cụm. Thêm 1 chủ đề mới: quang minh chính đại/âm mưu quỷ kế lén lút xảo trá (đồng bộ với tiếng Trung/Nhật round 61). 2 chủ đề khác của tiếng Trung round này không thêm được ở tiếng Hàn — đào sâu tiếng Trung theo yêu cầu người dùng.",
+    "Batch mở rộng (round 60): 173 cặp cụm. Thêm 1 chủ đề mới: từ bi nhân hậu cứu giúp người/tàn nhẫn độc ác hại người (đồng bộ với tiếng Trung/Nhật round 60). 3 chủ đề khác của tiếng Trung round này không thêm được ở tiếng Hàn — đào sâu tiếng Trung theo yêu cầu người dùng.",
+    "Batch mở rộng (round 59): 172 cặp cụm. Thêm 2 chủ đề mới: kiêu hãnh tự hào chính đáng/tự ti mặc cảm, ung dung bình thản trước khó khăn/hoảng loạn mất bình tĩnh (đồng bộ với tiếng Trung/Nhật round 59). Chủ đề 'nhiệt tình sôi nổi/lãnh đạm thờ ơ' của tiếng Trung không thêm được vì các từ ứng viên cơ bản (열의/냉담/비굴) đều đã trùng lặp — theo yêu cầu người dùng, không bắt buộc đồng bộ 3 ngôn ngữ mỗi round nữa.",
+    "Batch mở rộng (round 58): 170 cặp cụm. Thêm 3 chủ đề mới: thanh liêm chính trực không tham ô/tham lam vơ vét của công, hòa thuận êm ấm/bất hòa xung đột, tận tụy chăm sóc chu đáo/bỏ bê xao nhãng (đồng bộ chủ đề với tiếng Trung/Nhật round 58).",
+    "Batch mở rộng (round 57): 168 cặp cụm. Thêm 2 chủ đề mới: chính xác đúng đắn/sai lầm lệch lạc, nhường nhịn khiêm nhượng/tranh giành đố kỵ ganh ghét (đồng bộ với tiếng Trung/Nhật round 57). Chủ đề thứ 3 của tiếng Trung (đổi mới/bảo thủ) không thêm được vì các từ ứng viên (혁신/쇄신/인순/정체) đều đã trùng lặp với dữ liệu có sẵn.",
+    "Batch mở rộng (round 56): 165 cặp cụm. Thêm 3 chủ đề mới: dũng cảm nhận lỗi sửa sai/ngoan cố chối bỏ trách nhiệm, tôn trọng lẫn nhau/coi thường khinh miệt người khác, thông minh nhạy bén/đần độn chậm hiểu (đồng bộ chủ đề với tiếng Trung/Nhật round 56).",
+    "Batch mở rộng (round 55): 162 cặp cụm. Thêm 3 chủ đề mới: ung dung nhàn nhã tự tại/bôn ba vất vả ngược xuôi, thật thà chất phác/xảo trá gian manh, kiên cố vững chắc/mong manh dễ sụp đổ (đồng bộ chủ đề với tiếng Trung/Nhật round 55).",
+    "Batch mở rộng (round 54): 159 cặp cụm. Thêm 3 chủ đề mới: tâm huyết cống hiến hết mình/thờ ơ vô trách nhiệm, đồng cam cộng khổ/ích kỷ chỉ lo thân mình, kiên định giữ vững nguyên tắc/thỏa hiệp nhượng bộ (đồng bộ chủ đề với tiếng Trung/Nhật round 54).",
+    "Batch mở rộng (round 53): 156 cặp cụm. Thêm 3 chủ đề mới: vững vàng lập trường/ba phải xu thời a dua, cần kiệm tiết kiệm/xa hoa lãng phí, kiên nhẫn chờ thời/nóng vội đốt cháy giai đoạn (đồng bộ chủ đề với tiếng Trung/Nhật round 53).",
+    "Batch mở rộng (round 52): 153 cặp cụm. Thêm 1 chủ đề mới: cẩn mật kín đáo/sơ hở để lộ bí mật (đồng bộ với tiếng Trung/Nhật round 52). 2 chủ đề khác của tiếng Trung round này (tao nhã/thô tục, rộng lượng/hẹp hòi) không thêm được ở tiếng Hàn vì các từ cơ bản (우아/고상/저속/야비, 관대/관용/편협/옹졸) đều đã trùng lặp với dữ liệu có sẵn.",
+    "Batch mở rộng (round 51): 152 cặp cụm. Thêm 3 chủ đề mới: kỷ luật nghiêm minh/buông thả phóng túng, cầu tiến ham học hỏi/tự mãn dừng bước, linh hoạt biến thông/cứng nhắc câu nệ (đồng bộ chủ đề với tiếng Trung/Nhật round 51).",
+    "Batch mở rộng (round 50): 149 cặp cụm. Thêm 2 chủ đề mới: táo bạo mạo hiểm/nhút nhát an phận, trung thành tận tụy/phản bội bội nghĩa (chủ đề thứ 3 phong phú/khan hiếm bị bỏ vì từ ứng viên hầu hết đã trùng, đồng bộ với tiếng Trung/Nhật round 50).",
+    "Batch mở rộng (round 49): 147 cặp cụm. Thêm 3 chủ đề mới: công bằng vô tư/thiên vị ích kỷ, quyết đoán dứt khoát/do dự lưỡng lự, tinh tường sáng suốt/mơ hồ lú lẫn (đồng bộ chủ đề với tiếng Trung/Nhật round 49).",
+    "Batch mở rộng (round 48): 144 cặp cụm. Thêm 3 chủ đề mới: khiêm tốn nhã nhặn/kiêu ngạo tự phụ, cần cù chăm chỉ/lười biếng ham nhàn, tỉ mỉ cẩn trọng/cẩu thả qua loa (đồng bộ chủ đề với tiếng Trung/Nhật round 48).",
+    "Batch mở rộng (round 47): 141 cặp cụm. Thêm 3 chủ đề mới: thận trọng cân nhắc/hấp tấp liều lĩnh, đoàn kết đồng lòng/chia rẽ tan rã, tài hoa xuất chúng/tầm thường vô dụng (đồng bộ chủ đề với tiếng Trung/Nhật round 47).",
+    "Batch mở rộng (round 46): 138 cặp cụm. Thêm 3 chủ đề mới: kiên cường bất khuất/gục ngã nản chí, chính trực thẳng thắn/nịnh hót xu phụ, giữ lời hứa/thất hứa bội tín.",
+    "Batch mở rộng (round 45): 135 cặp cụm. Thêm 3 chủ đề mới: trang nghiêm long trọng/xuề xòa tùy tiện, hào hùng bi tráng/thê thảm bi lụy, sáng suốt anh minh/hôn ám ngu muội.",
+    "Batch mở rộng (round 44): 132 cặp cụm. Thêm 3 chủ đề mới: tinh nhuệ hùng mạnh/ô hợp yếu kém, trong trẻo tinh khiết/ô nhiễm vẩn đục, am hiểu thành thạo/tay mơ ngoại đạo.",
+    "Batch mở rộng (round 43): 129 cặp cụm. Thêm 3 chủ đề mới: lâu dài bền vững/tạm thời chắp vá, vinh quang chiến thắng/nhục nhã thất bại, an cư định cư ổn định/phiêu bạt lang thang.",
+    "Batch mở rộng (round 42): 126 cặp cụm. Thêm 3 chủ đề mới: thái bình yên ổn/loạn lạc rối ren, cầu thị lắng nghe/độc đoán chuyên quyền (chung chữ 斷), kinh tế thịnh vượng/suy thoái ảm đạm.",
+    "Batch mở rộng (round 41): 123 cặp cụm. Thêm 3 chủ đề mới: đề phòng cẩn thận/chủ quan bất cẩn, cảnh quan hùng vĩ/đổ nát hoang tàn, uyên bác học rộng/nông cạn hạn hẹp.",
+    "Batch mở rộng (round 40): 120 cặp cụm. Thêm 3 chủ đề mới: sáng tạo phát minh/bắt chước sao chép, trưởng thành chín chắn/non nớt, vui vẻ sẵn lòng/miễn cưỡng bị ép buộc.",
+    "Batch mở rộng (round 39): 117 cặp cụm. Thêm 3 chủ đề mới: hiệu quả cao/kém hiệu quả, vững chắc/lung lay ọp ẹp, đông đúc ồn ào/vắng vẻ hoang vu.",
+    "Batch mở rộng (round 38): 114 cặp cụm. Thêm 3 chủ đề mới: đa dạng phong phú/đơn điệu rập khuôn, sinh động/tẻ nhạt vô vị, thẳng thắn dứt khoát/quanh co úp mở.",
+    "Batch mở rộng (round 37): 111 cặp cụm. Thêm 3 chủ đề mới: hồi phục/sụp đổ đổ vỡ, ổn định vững chắc/biến động bất ổn, chuyên tâm/phân tâm lơ đãng (kèm false friend 放心).",
+    "Batch mở rộng (round 36): 108 cặp cụm. Thêm 3 chủ đề mới: tươi tốt/héo tàn, an nhàn/vất vả cực nhọc, nhạy cảm/vô cảm (chung chữ 敏).",
+    "Batch mở rộng (round 35): 105 cặp cụm. Thêm 3 chủ đề mới: khen ngợi/chỉ trích gay gắt, công khai minh bạch/che giấu, vô tư cống hiến/ích kỷ toan tính.",
+    "Batch mở rộng (round 34): 102 cặp cụm. Thêm 3 chủ đề mới: chính xác/sai lệch, xuất sắc vượt trội/tầm thường, cầu tiến/tự mãn an phận.",
+    "Batch mở rộng (round 33): 99 cặp cụm. Thêm 3 chủ đề mới: xác thực có căn cứ/bịa đặt ngụy tạo, tràn đầy dồi dào/cạn kiệt thiếu hụt, hợp tác chung sức/xung đột khắc kỵ.",
+    "Batch mở rộng (round 32): 96 cặp cụm. Thêm 3 chủ đề mới: nghiêm mật tỉ mỉ/rò rỉ để lộ (bảo mật), cách tân đổi mới/bảo thủ rập khuôn, bao dung độ lượng/nhỏ nhen hẹp hòi.",
+    "Batch mở rộng (round 31): 93 cặp cụm. Thêm 3 chủ đề mới: tự bằng lòng tận hưởng/thất vọng chán nản, tín nhiệm tin cậy/nghi ngờ (chung chữ 信/疑), tràn đầy sinh lực/kiệt sức mất tinh thần (thành ngữ 4 chữ).",
+    "Batch mở rộng (round 30): 90 cặp cụm. Thêm 3 chủ đề mới: kiên nhẫn nhẫn nại/nóng vội bồn chồn, chuyên nhất thuỷ chung/trăng hoa hai lòng, thâm trầm chín chắn/hời hợt nông cạn.",
+    "Batch mở rộng (round 29): 87 cặp cụm. Thêm 3 chủ đề mới: chi tiết cặn kẽ/sơ sài đại khái, rõ ràng minh bạch/mập mờ không minh bạch, quả cảm dũng mãnh/co rúm lùi bước.",
+    "Batch mở rộng (round 28): 84 cặp cụm. Thêm 3 chủ đề mới: sung mãn sôi nổi/trì trệ hiu quạnh, cởi mở rộng lớn/hẹp hòi chật hẹp, phồn hoa thịnh vượng/suy thoái suy tàn.",
+    "Batch mở rộng (round 27): 81 cặp cụm. Thêm 3 chủ đề mới: nghiêm túc tập trung/tản mạn thờ ơ, nhiệt thành hết lòng/lãnh đạm bạc tình, nhanh nhạy khéo léo/trì hoãn chậm trễ. Thêm mới cơ chế 'synonymClusters': +2 cụm 현상.../실행....",
+    "Batch mở rộng (round 26): 78 cặp cụm. Thêm 3 chủ đề mới: quang minh chính đại/âm hiểm gian xảo, hiền hoà đôn hậu/hống hách lộng hành, hướng nội trầm tính/phóng khoáng cởi mở.",
+    "Batch mở rộng (round 25): 75 cặp cụm. Thêm 3 chủ đề mới: chắc chắn thực tế/khoa trương phóng đại, sáng suốt anh minh/lú lẫn ngu muội, ung dung điềm tĩnh/hoảng hốt bối rối (종용 ở đây dùng nghĩa 從容, khác với 종용=慫慂 \"xúi giục\").",
+    "Batch mở rộng (round 24): 72 cặp cụm. Thêm 3 chủ đề mới: kỹ lưỡng chu đáo/sơ suất lười biếng, tinh tế mảnh mai/thô kệch thô tục, khoan dung nhân hậu/khắc nghiệt tàn nhẫn.",
+    "Batch mở rộng (round 23): 69 cặp cụm. Thêm 3 chủ đề mới: ngắn gọn súc tích/phức tạp rắc rối, thẳng thắn/xảo quyệt lọc lõi, mộc mạc chân chất/sĩ diện hư vinh.",
+    "Batch mở rộng (round 22): 66 cặp cụm. Thêm 3 chủ đề mới: nhạy bén sắc sảo/chậm chạp đờ đẫn, hoạt bát sinh động/đơn điệu chán ngán, ôn hoà ngoan ngoãn/cố chấp bướng bỉnh.",
+    "Batch mở rộng (round 21): 63 cặp cụm. Thêm 3 chủ đề mới: đông đúc/thưa thớt, sáo rỗng lỗi thời/mới mẻ độc đáo, sâu xa khó hiểu/dễ hiểu rõ ràng.",
+    "Batch mở rộng (round 20): 60 cặp cụm. Thêm 3 chủ đề mới: ghi nhớ/quên lãng, hưng thịnh/suy bại, xuất sắc/tầm thường.",
+    "Batch mở rộng (round 19): 57 cặp cụm. Thêm 3 chủ đề mới: trù phú/cằn cỗi (đất đai), tinh xảo/thô ráp, hoàn hảo/khiếm khuyết.",
+    "Batch mở rộng (round 18): 54 cặp cụm. Thêm 3 chủ đề mới: lạnh lùng tàn nhẫn/nhân từ, chín chắn/phù phiếm, kiên định/hay thay đổi.",
+    "Batch mở rộng (round 17): 51 cặp cụm. Thêm 3 chủ đề mới: nhường nhịn/tranh giành, thoả mãn/tham lam, công bằng/thiên vị.",
+    "Batch mở rộng (round 16): 48 cặp cụm. Thêm 3 chủ đề mới: quyết đoán/do dự, phóng khoáng/gò bó, mộc mạc/hoa mỹ.",
+    "Batch mở rộng (round 15): 45 cặp cụm. Thêm 3 chủ đề mới: trầm lặng/hoạt bát nói nhiều, thuận theo/phản kháng, kiên trì/từ bỏ.",
+    "Batch mở rộng (round 14): 42 cặp cụm. Thêm 3 chủ đề mới: khoẻ mạnh/yếu ớt (thể chất), cao thượng/đê tiện, tự tin/tự ti.",
+    "Batch mở rộng (round 13): 39 cặp cụm. Thêm 3 chủ đề mới: bận rộn/nhàn rỗi, thành ý/ác ý, yên tĩnh/ồn ào.",
+    "Batch mở rộng (round 12): 36 cặp cụm. Thêm 3 chủ đề mới: lạc quan/bi quan, may mắn/xui xẻo, vui vẻ/u ám.",
+    "Batch mở rộng (round 11): 33 cặp cụm, mỗi cụm 2 từ — ưu tiên chính xác, tránh các từ Hán-Hàn đồng âm dễ gây hiểu nhầm (như trường hợp 미소 đã tránh).",
+    "Có thể mở rộng thêm chủ đề khác nếu cần, và tìm thêm từ thứ 3 cho các cụm đã có."
+  ]
+}
