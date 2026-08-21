@@ -1,0 +1,3564 @@
+{
+  "language": "ja",
+  "label": "Cặp chữ trái nghĩa",
+  "pairs": [
+    {
+      "id": "ja-char-ant-dai-shou",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "大", "reading": "dai", "hanViet": "đại", "meaningVn": "to, lớn",
+        "words": [
+          { "headword": "拡大", "reading": "kakudai", "hanViet": "khuếch đại", "meaningVn": "mở rộng, phóng to" },
+          { "headword": "巨大", "reading": "kyodai", "hanViet": "cự đại", "meaningVn": "to lớn, khổng lồ" }
+        ]
+      },
+      "right": {
+        "character": "小", "reading": "shou", "hanViet": "tiểu", "meaningVn": "nhỏ",
+        "words": [
+          { "headword": "縮小", "reading": "shukushou", "hanViet": "súc tiểu", "meaningVn": "thu nhỏ" },
+          { "headword": "微小", "reading": "bishou", "hanViet": "vi tiểu", "meaningVn": "nhỏ bé" }
+        ]
+      },
+      "note": "Cặp gốc dùng trong bản mockup giao diện mode 'Cặp chữ trái nghĩa' đã duyệt."
+    },
+    {
+      "id": "ja-char-ant-kou-tei",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "高", "reading": "kou", "hanViet": "cao", "meaningVn": "cao",
+        "words": [
+          { "headword": "高級", "reading": "koukyuu", "hanViet": "cao cấp", "meaningVn": "cao cấp" },
+          { "headword": "高度", "reading": "koudo", "hanViet": "cao độ", "meaningVn": "độ cao, trình độ cao" }
+        ]
+      },
+      "right": {
+        "character": "低", "reading": "tei", "hanViet": "đê", "meaningVn": "thấp",
+        "words": [
+          { "headword": "低下", "reading": "teika", "hanViet": "đê hạ", "meaningVn": "giảm sút, hạ thấp" },
+          { "headword": "低温", "reading": "teion", "hanViet": "đê ôn", "meaningVn": "nhiệt độ thấp" }
+        ]
+      },
+      "note": "高/低 — cặp chữ trái nghĩa cơ bản, rất thông dụng."
+    },
+    {
+      "id": "ja-char-ant-ta-shou",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "多", "reading": "ta", "hanViet": "đa", "meaningVn": "nhiều",
+        "words": [
+          { "headword": "多数", "reading": "tasuu", "hanViet": "đa số", "meaningVn": "đa số" },
+          { "headword": "多様", "reading": "tayou", "hanViet": "đa dạng", "meaningVn": "đa dạng" }
+        ]
+      },
+      "right": {
+        "character": "少", "reading": "shou", "hanViet": "thiểu", "meaningVn": "ít",
+        "words": [
+          { "headword": "少数", "reading": "shousuu", "hanViet": "thiểu số", "meaningVn": "thiểu số" },
+          { "headword": "少量", "reading": "shouryou", "hanViet": "thiểu lượng", "meaningVn": "số lượng ít" }
+        ]
+      },
+      "note": "多/少 — cặp chữ trái nghĩa cơ bản, rất thông dụng."
+    },
+    {
+      "id": "ja-char-ant-soku-chi",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "速", "reading": "soku", "hanViet": "tốc", "meaningVn": "nhanh",
+        "words": [
+          { "headword": "速度", "reading": "sokudo", "hanViet": "tốc độ", "meaningVn": "tốc độ" },
+          { "headword": "高速", "reading": "kousoku", "hanViet": "cao tốc", "meaningVn": "tốc độ cao" }
+        ]
+      },
+      "right": {
+        "character": "遅", "reading": "chi", "hanViet": "trì", "meaningVn": "chậm, trễ",
+        "words": [
+          { "headword": "遅刻", "reading": "chikoku", "hanViet": "trì khắc", "meaningVn": "đi trễ, đi muộn" },
+          { "headword": "遅延", "reading": "chien", "hanViet": "trì diên", "meaningVn": "trì hoãn, chậm trễ" }
+        ]
+      },
+      "note": "速/遅 — cặp chữ trái nghĩa cơ bản, rất thông dụng (遅刻 = từ quen thuộc với học sinh Nhật)."
+    },
+    {
+      "id": "ja-char-ant-shin-kyuu",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "新", "reading": "shin", "hanViet": "tân", "meaningVn": "mới",
+        "words": [
+          { "headword": "新鮮", "reading": "shinsen", "hanViet": "tân tiên", "meaningVn": "tươi mới" },
+          { "headword": "新聞", "reading": "shinbun", "hanViet": "tân văn", "meaningVn": "báo, tin tức" }
+        ]
+      },
+      "right": {
+        "character": "旧", "reading": "kyuu", "hanViet": "cựu", "meaningVn": "cũ",
+        "words": [
+          { "headword": "旧式", "reading": "kyuushiki", "hanViet": "cựu thức", "meaningVn": "kiểu cũ" },
+          { "headword": "旧暦", "reading": "kyuureki", "hanViet": "cựu lịch", "meaningVn": "âm lịch" }
+        ]
+      },
+      "note": "新/旧 — cặp chữ trái nghĩa cơ bản, rất thông dụng."
+    },
+    {
+      "id": "ja-char-ant-zen-kou",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "前", "reading": "zen", "hanViet": "tiền", "meaningVn": "trước",
+        "words": [
+          { "headword": "前提", "reading": "zentei", "hanViet": "tiền đề", "meaningVn": "tiền đề" },
+          { "headword": "前進", "reading": "zenshin", "hanViet": "tiền tiến", "meaningVn": "tiến lên" }
+        ]
+      },
+      "right": {
+        "character": "後", "reading": "kou", "hanViet": "hậu", "meaningVn": "sau",
+        "words": [
+          { "headword": "後退", "reading": "koutai", "hanViet": "hậu thoái", "meaningVn": "lùi lại, thụt lùi" },
+          { "headword": "後半", "reading": "kouhan", "hanViet": "hậu bán", "meaningVn": "nửa sau" }
+        ]
+      },
+      "note": "前/後 — cặp chữ trái nghĩa cơ bản, rất thông dụng."
+    },
+    {
+      "id": "ja-char-ant-kyou-jaku",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "強", "reading": "kyou", "hanViet": "cường", "meaningVn": "mạnh",
+        "words": [
+          { "headword": "強化", "reading": "kyouka", "hanViet": "cường hoá", "meaningVn": "tăng cường" },
+          { "headword": "強力", "reading": "kyouryoku", "hanViet": "cường lực", "meaningVn": "mạnh mẽ" }
+        ]
+      },
+      "right": {
+        "character": "弱", "reading": "jaku", "hanViet": "nhược", "meaningVn": "yếu",
+        "words": [
+          { "headword": "弱点", "reading": "jakuten", "hanViet": "nhược điểm", "meaningVn": "điểm yếu" },
+          { "headword": "弱者", "reading": "jakusha", "hanViet": "nhược giả", "meaningVn": "kẻ yếu, người yếu thế" }
+        ]
+      },
+      "note": "強/弱 — cặp chữ trái nghĩa cơ bản, rất thông dụng."
+    },
+    {
+      "id": "ja-char-ant-sou-ban",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "早", "reading": "sou", "hanViet": "tảo", "meaningVn": "sớm",
+        "words": [
+          { "headword": "早期", "reading": "souki", "hanViet": "tảo kỳ", "meaningVn": "giai đoạn đầu" },
+          { "headword": "早朝", "reading": "souchou", "hanViet": "tảo triêu", "meaningVn": "sáng sớm" }
+        ]
+      },
+      "right": {
+        "character": "晩", "reading": "ban", "hanViet": "vãn", "meaningVn": "muộn, tối",
+        "words": [
+          { "headword": "晩年", "reading": "bannen", "hanViet": "vãn niên", "meaningVn": "tuổi già, cuối đời" },
+          { "headword": "晩期", "reading": "banki", "hanViet": "vãn kỳ", "meaningVn": "giai đoạn cuối" }
+        ]
+      },
+      "note": "早/晩 — cặp chữ trái nghĩa cơ bản, rất thông dụng."
+    },
+    {
+      "id": "ja-char-ant-kan-sho",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "寒", "reading": "kan", "hanViet": "hàn", "meaningVn": "lạnh",
+        "words": [
+          { "headword": "寒冷", "reading": "kanrei", "hanViet": "hàn lãnh", "meaningVn": "lạnh giá" },
+          { "headword": "寒気", "reading": "kanki", "hanViet": "hàn khí", "meaningVn": "cảm giác lạnh, rùng mình" }
+        ]
+      },
+      "right": {
+        "character": "暑", "reading": "sho", "hanViet": "thử", "meaningVn": "nóng",
+        "words": [
+          { "headword": "暑中", "reading": "shochuu", "hanViet": "thử trung", "meaningVn": "giữa mùa hè (vd 暑中見舞い — thiệp thăm hỏi mùa hè)" },
+          { "headword": "猛暑", "reading": "mousho", "hanViet": "mãnh thử", "meaningVn": "nắng nóng gay gắt" }
+        ]
+      },
+      "note": "寒/暑 — cặp chữ trái nghĩa cơ bản, rất thông dụng."
+    },
+    {
+      "id": "ja-char-ant-shin-sen",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "深", "reading": "shin", "hanViet": "thâm", "meaningVn": "sâu",
+        "words": [
+          { "headword": "深刻", "reading": "shinkoku", "hanViet": "thâm khắc", "meaningVn": "sâu sắc, nghiêm trọng" },
+          { "headword": "深夜", "reading": "shinya", "hanViet": "thâm dạ", "meaningVn": "đêm khuya" }
+        ]
+      },
+      "right": {
+        "character": "浅", "reading": "sen", "hanViet": "thiển", "meaningVn": "nông, cạn",
+        "words": [
+          { "headword": "浅薄", "reading": "senpaku", "hanViet": "thiển bạc", "meaningVn": "nông cạn" },
+          { "headword": "浅学", "reading": "sengaku", "hanViet": "thiển học", "meaningVn": "học vấn nông cạn (khiêm tốn ngữ trong văn viết)" }
+        ]
+      },
+      "note": "深/浅 — cặp chữ trái nghĩa cơ bản, rất thông dụng."
+    },
+    {
+      "id": "ja-char-ant-kei-juu",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "軽", "reading": "kei", "hanViet": "khinh", "meaningVn": "nhẹ",
+        "words": [
+          { "headword": "軽減", "reading": "keigen", "hanViet": "khinh giảm", "meaningVn": "giảm nhẹ" },
+          { "headword": "軽率", "reading": "keisotsu", "hanViet": "khinh suất", "meaningVn": "khinh suất" }
+        ]
+      },
+      "right": {
+        "character": "重", "reading": "juu", "hanViet": "trọng", "meaningVn": "nặng",
+        "words": [
+          { "headword": "重視", "reading": "juushi", "hanViet": "trọng thị", "meaningVn": "coi trọng" },
+          { "headword": "重大", "reading": "juudai", "hanViet": "trọng đại", "meaningVn": "trọng đại" }
+        ]
+      },
+      "note": "軽/重 — cặp chữ trái nghĩa cơ bản, rất thông dụng."
+    },
+    {
+      "id": "ja-char-ant-nai-gai",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "内", "reading": "nai", "hanViet": "nội", "meaningVn": "trong",
+        "words": [
+          { "headword": "内部", "reading": "naibu", "hanViet": "nội bộ", "meaningVn": "nội bộ" },
+          { "headword": "内容", "reading": "naiyou", "hanViet": "nội dung", "meaningVn": "nội dung" }
+        ]
+      },
+      "right": {
+        "character": "外", "reading": "gai", "hanViet": "ngoại", "meaningVn": "ngoài",
+        "words": [
+          { "headword": "外部", "reading": "gaibu", "hanViet": "ngoại bộ", "meaningVn": "bên ngoài" },
+          { "headword": "外見", "reading": "gaiken", "hanViet": "ngoại kiến", "meaningVn": "vẻ bề ngoài" }
+        ]
+      },
+      "note": "内/外 — cặp chữ trái nghĩa cơ bản, rất thông dụng."
+    },
+    {
+      "id": "ja-char-ant-dan-jo",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "男", "reading": "dan", "hanViet": "nam", "meaningVn": "nam, con trai",
+        "words": [
+          { "headword": "男性", "reading": "dansei", "hanViet": "nam tính", "meaningVn": "nam giới" },
+          { "headword": "男子", "reading": "danshi", "hanViet": "nam tử", "meaningVn": "nam tử" }
+        ]
+      },
+      "right": {
+        "character": "女", "reading": "jo", "hanViet": "nữ", "meaningVn": "nữ, con gái",
+        "words": [
+          { "headword": "女性", "reading": "josei", "hanViet": "nữ tính", "meaningVn": "nữ giới" },
+          { "headword": "女子", "reading": "joshi", "hanViet": "nữ tử", "meaningVn": "nữ tử" }
+        ]
+      },
+      "note": "男/女 — cặp chữ trái nghĩa cơ bản, rất thông dụng."
+    },
+    {
+      "id": "ja-char-ant-ryou-aku",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "良", "reading": "ryou", "hanViet": "lương", "meaningVn": "tốt",
+        "words": [
+          { "headword": "良好", "reading": "ryoukou", "hanViet": "lương hảo", "meaningVn": "tốt đẹp" },
+          { "headword": "良心", "reading": "ryoushin", "hanViet": "lương tâm", "meaningVn": "lương tâm" }
+        ]
+      },
+      "right": {
+        "character": "悪", "reading": "aku", "hanViet": "ác", "meaningVn": "xấu",
+        "words": [
+          { "headword": "悪化", "reading": "akka", "hanViet": "ác hoá", "meaningVn": "xấu đi, tệ đi" },
+          { "headword": "悪人", "reading": "akunin", "hanViet": "ác nhân", "meaningVn": "kẻ xấu" }
+        ]
+      },
+      "note": "良/悪 — cặp chữ trái nghĩa cơ bản, rất thông dụng. Chú ý 悪化 đọc \"あっか\" (không phải あくか) — biến âm bề mặt (促音便)."
+    },
+    {
+      "id": "ja-char-ant-sei-shi",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "生", "reading": "sei", "hanViet": "sinh", "meaningVn": "sống",
+        "words": [
+          { "headword": "生命", "reading": "seimei", "hanViet": "sinh mệnh", "meaningVn": "sinh mệnh" },
+          { "headword": "生存", "reading": "seizon", "hanViet": "sinh tồn", "meaningVn": "sinh tồn" }
+        ]
+      },
+      "right": {
+        "character": "死", "reading": "shi", "hanViet": "tử", "meaningVn": "chết",
+        "words": [
+          { "headword": "死亡", "reading": "shibou", "hanViet": "tử vong", "meaningVn": "tử vong" },
+          { "headword": "死者", "reading": "shisha", "hanViet": "tử giả", "meaningVn": "người chết" }
+        ]
+      },
+      "note": "生/死 — cặp chữ trái nghĩa cơ bản, rất thông dụng."
+    },
+    {
+      "id": "ja-char-ant-kai-hei",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "開", "reading": "kai", "hanViet": "khai", "meaningVn": "mở",
+        "words": [
+          { "headword": "開放", "reading": "kaihou", "hanViet": "khai phóng", "meaningVn": "mở cửa, khai phóng" },
+          { "headword": "開始", "reading": "kaishi", "hanViet": "khai thuỷ", "meaningVn": "bắt đầu" }
+        ]
+      },
+      "right": {
+        "character": "閉", "reading": "hei", "hanViet": "bế", "meaningVn": "đóng",
+        "words": [
+          { "headword": "閉鎖", "reading": "heisa", "hanViet": "bế toả", "meaningVn": "đóng cửa, phong toả" },
+          { "headword": "閉店", "reading": "heiten", "hanViet": "bế điếm", "meaningVn": "đóng cửa tiệm" }
+        ]
+      },
+      "note": "開/閉 — cặp chữ trái nghĩa cơ bản, rất thông dụng."
+    },
+    {
+      "id": "ja-char-ant-jou-ka",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "上", "reading": "jou", "hanViet": "thượng", "meaningVn": "trên",
+        "words": [
+          { "headword": "上昇", "reading": "joushou", "hanViet": "thượng thăng", "meaningVn": "tăng lên" },
+          { "headword": "上級", "reading": "joukyuu", "hanViet": "thượng cấp", "meaningVn": "cấp cao" }
+        ]
+      },
+      "right": {
+        "character": "下", "reading": "ka", "hanViet": "hạ", "meaningVn": "dưới",
+        "words": [
+          { "headword": "下降", "reading": "kakou", "hanViet": "hạ giáng", "meaningVn": "giảm xuống" },
+          { "headword": "下級", "reading": "kakyuu", "hanViet": "hạ cấp", "meaningVn": "cấp thấp" }
+        ]
+      },
+      "note": "上/下 — cặp chữ trái nghĩa cơ bản, rất thông dụng."
+    },
+    {
+      "id": "ja-char-ant-kan-shitsu",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "乾", "reading": "kan", "hanViet": "càn", "meaningVn": "khô",
+        "words": [
+          { "headword": "乾燥", "reading": "kansou", "hanViet": "càn táo", "meaningVn": "khô ráo" },
+          { "headword": "乾杯", "reading": "kanpai", "hanViet": "càn bôi", "meaningVn": "cạn ly (chúc rượu)" }
+        ]
+      },
+      "right": {
+        "character": "湿", "reading": "shitsu", "hanViet": "thấp", "meaningVn": "ướt, ẩm",
+        "words": [
+          { "headword": "湿度", "reading": "shitsudo", "hanViet": "thấp độ", "meaningVn": "độ ẩm" },
+          { "headword": "湿気", "reading": "shikke", "hanViet": "thấp khí", "meaningVn": "hơi ẩm" }
+        ]
+      },
+      "note": "乾/湿 — cặp chữ trái nghĩa cơ bản, rất thông dụng. Chú ý 湿気 đọc \"しっけ\" (không phải しつけ) — biến âm bề mặt (促音便)."
+    },
+    {
+      "id": "ja-char-ant-shin-gi",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "真", "reading": "shin", "hanViet": "chân", "meaningVn": "thật",
+        "words": [
+          { "headword": "真実", "reading": "shinjitsu", "hanViet": "chân thực", "meaningVn": "chân thực" },
+          { "headword": "真相", "reading": "shinsou", "hanViet": "chân tướng", "meaningVn": "sự thật, chân tướng" }
+        ]
+      },
+      "right": {
+        "character": "偽", "reading": "gi", "hanViet": "nguỵ", "meaningVn": "giả",
+        "words": [
+          { "headword": "偽造", "reading": "gizou", "hanViet": "nguỵ tạo", "meaningVn": "giả mạo" },
+          { "headword": "偽装", "reading": "gisou", "hanViet": "nguỵ trang", "meaningVn": "nguỵ trang" }
+        ]
+      },
+      "note": "真/偽 — cặp chữ trái nghĩa cơ bản, rất thông dụng."
+    },
+    {
+      "id": "ja-char-ant-kou-shu",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "攻", "reading": "kou", "hanViet": "công", "meaningVn": "tấn công",
+        "words": [
+          { "headword": "攻撃", "reading": "kougeki", "hanViet": "công kích", "meaningVn": "tấn công" },
+          { "headword": "攻略", "reading": "kouryaku", "hanViet": "công lược", "meaningVn": "chinh phục, công lược" }
+        ]
+      },
+      "right": {
+        "character": "守", "reading": "shu", "hanViet": "thủ", "meaningVn": "phòng thủ",
+        "words": [
+          { "headword": "守備", "reading": "shubi", "hanViet": "thủ bị", "meaningVn": "phòng thủ" },
+          { "headword": "保守", "reading": "hoshu", "hanViet": "bảo thủ", "meaningVn": "bảo thủ" }
+        ]
+      },
+      "note": "攻/守 — cặp chữ trái nghĩa cơ bản, rất thông dụng (thể thao, chính trị)."
+    },
+    {
+      "id": "ja-char-ant-zou-gen",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "増", "reading": "zou", "hanViet": "tăng", "meaningVn": "tăng",
+        "words": [
+          { "headword": "増加", "reading": "zouka", "hanViet": "tăng gia", "meaningVn": "tăng thêm" },
+          { "headword": "増大", "reading": "zoudai", "hanViet": "tăng đại", "meaningVn": "tăng lớn" }
+        ]
+      },
+      "right": {
+        "character": "減", "reading": "gen", "hanViet": "giảm", "meaningVn": "giảm",
+        "words": [
+          { "headword": "減少", "reading": "genshou", "hanViet": "giảm thiểu", "meaningVn": "giảm bớt" },
+          { "headword": "減退", "reading": "gentai", "hanViet": "giảm thoái", "meaningVn": "suy giảm" }
+        ]
+      },
+      "note": "増/減 — cặp chữ trái nghĩa cơ bản, rất thông dụng."
+    },
+    {
+      "id": "ja-char-ant-dou-sei",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "動", "reading": "dou", "hanViet": "động", "meaningVn": "động",
+        "words": [
+          { "headword": "運動", "reading": "undou", "hanViet": "vận động", "meaningVn": "vận động, thể dục" },
+          { "headword": "動員", "reading": "douin", "hanViet": "động viên", "meaningVn": "động viên, huy động" }
+        ]
+      },
+      "right": {
+        "character": "静", "reading": "sei", "hanViet": "tĩnh", "meaningVn": "tĩnh",
+        "words": [
+          { "headword": "静止", "reading": "seishi", "hanViet": "tĩnh chỉ", "meaningVn": "đứng yên" },
+          { "headword": "静寂", "reading": "seijaku", "hanViet": "tĩnh tịch", "meaningVn": "tĩnh mịch" }
+        ]
+      },
+      "note": "動/静 — cặp chữ trái nghĩa cơ bản, rất thông dụng."
+    },
+    {
+      "id": "ja-char-ant-bai-han",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "買", "reading": "bai", "hanViet": "mãi", "meaningVn": "mua",
+        "words": [
+          { "headword": "購買", "reading": "koubai", "hanViet": "cấu mãi", "meaningVn": "mua" },
+          { "headword": "買収", "reading": "baishuu", "hanViet": "mãi thu", "meaningVn": "mua lại, thôn tính" }
+        ]
+      },
+      "right": {
+        "character": "売", "reading": "bai", "hanViet": "mại", "meaningVn": "bán",
+        "words": [
+          { "headword": "販売", "reading": "hanbai", "hanViet": "phán mại", "meaningVn": "bán hàng" },
+          { "headword": "売却", "reading": "baikyaku", "hanViet": "mại khước", "meaningVn": "bán đi" }
+        ]
+      },
+      "note": "買/売 — cặp chữ trái nghĩa cơ bản, rất thông dụng. Chú ý cả 買(mua) và 売(bán) đều đọc \"bai\" trong âm On — chỉ phân biệt được qua MẶT CHỮ, không qua âm đọc, nên đây là cặp đồng âm gần kinh điển trong tiếng Nhật."
+    },
+    {
+      "id": "ja-char-ant-toku-shitsu",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "得", "reading": "toku", "hanViet": "đắc", "meaningVn": "được, lợi",
+        "words": [
+          { "headword": "得意", "reading": "tokui", "hanViet": "đắc ý", "meaningVn": "giỏi, tự hào" },
+          { "headword": "利得", "reading": "ritoku", "hanViet": "lợi đắc", "meaningVn": "lợi ích thu được" }
+        ]
+      },
+      "right": {
+        "character": "失", "reading": "shitsu", "hanViet": "thất", "meaningVn": "mất",
+        "words": [
+          { "headword": "失望", "reading": "shitsubou", "hanViet": "thất vọng", "meaningVn": "thất vọng" },
+          { "headword": "損失", "reading": "sonshitsu", "hanViet": "tổn thất", "meaningVn": "tổn thất" }
+        ]
+      },
+      "note": "得/失 — cặp chữ trái nghĩa cơ bản, rất thông dụng."
+    },
+    {
+      "id": "ja-char-ant-mei-an",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "明", "reading": "mei", "hanViet": "minh", "meaningVn": "sáng",
+        "words": [
+          { "headword": "明確", "reading": "meikaku", "hanViet": "minh xác", "meaningVn": "rõ ràng" },
+          { "headword": "明白", "reading": "meihaku", "hanViet": "minh bạch", "meaningVn": "rõ ràng, minh bạch" }
+        ]
+      },
+      "right": {
+        "character": "暗", "reading": "an", "hanViet": "ám", "meaningVn": "tối",
+        "words": [
+          { "headword": "暗黒", "reading": "ankoku", "hanViet": "ám hắc", "meaningVn": "đen tối" },
+          { "headword": "暗示", "reading": "anji", "hanViet": "ám thị", "meaningVn": "ám thị, gợi ý" }
+        ]
+      },
+      "note": "明/暗 — cặp chữ trái nghĩa cơ bản, rất thông dụng."
+    },
+    {
+      "id": "ja-char-ant-ei-joku",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "栄", "reading": "ei", "hanViet": "vinh", "meaningVn": "vinh dự",
+        "words": [
+          { "headword": "栄誉", "reading": "eiyo", "hanViet": "vinh dự", "meaningVn": "vinh dự" },
+          { "headword": "繁栄", "reading": "han'ei", "hanViet": "phồn vinh", "meaningVn": "phồn vinh, thịnh vượng" }
+        ]
+      },
+      "right": {
+        "character": "辱", "reading": "joku", "hanViet": "nhục", "meaningVn": "nhục nhã",
+        "words": [
+          { "headword": "侮辱", "reading": "bujoku", "hanViet": "vũ nhục", "meaningVn": "sỉ nhục" },
+          { "headword": "恥辱", "reading": "chijoku", "hanViet": "sỉ nhục", "meaningVn": "sỉ nhục, nhục nhã" }
+        ]
+      },
+      "note": "栄/辱 — cặp chữ trái nghĩa cơ bản, rất thông dụng."
+    },
+    {
+      "id": "ja-char-ant-shou-hai",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "勝", "reading": "shou", "hanViet": "thắng", "meaningVn": "thắng",
+        "words": [
+          { "headword": "勝利", "reading": "shouri", "hanViet": "thắng lợi", "meaningVn": "chiến thắng" },
+          { "headword": "優勝", "reading": "yuushou", "hanViet": "ưu thắng", "meaningVn": "vô địch" }
+        ]
+      },
+      "right": {
+        "character": "敗", "reading": "hai", "hanViet": "bại", "meaningVn": "thua",
+        "words": [
+          { "headword": "敗北", "reading": "haiboku", "hanViet": "bại bắc", "meaningVn": "thất bại" },
+          { "headword": "敗因", "reading": "haiin", "hanViet": "bại nhân", "meaningVn": "nguyên nhân thất bại" }
+        ]
+      },
+      "note": "勝/敗 — cặp chữ trái nghĩa cơ bản, rất thông dụng (thể thao)."
+    },
+    {
+      "id": "ja-char-ant-kou-shi",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "公", "reading": "kou", "hanViet": "công", "meaningVn": "công",
+        "words": [
+          { "headword": "公開", "reading": "koukai", "hanViet": "công khai", "meaningVn": "công khai" },
+          { "headword": "公共", "reading": "koukyou", "hanViet": "công cộng", "meaningVn": "công cộng" }
+        ]
+      },
+      "right": {
+        "character": "私", "reading": "shi", "hanViet": "tư", "meaningVn": "tư",
+        "words": [
+          { "headword": "私的", "reading": "shiteki", "hanViet": "tư đích", "meaningVn": "riêng tư, cá nhân" },
+          { "headword": "私用", "reading": "shiyou", "hanViet": "tư dụng", "meaningVn": "việc riêng" }
+        ]
+      },
+      "note": "公/私 — cặp chữ trái nghĩa cơ bản, rất thông dụng."
+    },
+    {
+      "id": "ja-char-ant-jun-zatsu",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "純", "reading": "jun", "hanViet": "thuần", "meaningVn": "thuần khiết",
+        "words": [
+          { "headword": "純粋", "reading": "junsui", "hanViet": "thuần tuý", "meaningVn": "thuần tuý" },
+          { "headword": "純潔", "reading": "junketsu", "hanViet": "thuần khiết", "meaningVn": "trong sạch" }
+        ]
+      },
+      "right": {
+        "character": "雑", "reading": "zatsu", "hanViet": "tạp", "meaningVn": "tạp",
+        "words": [
+          { "headword": "雑音", "reading": "zatsuon", "hanViet": "tạp âm", "meaningVn": "tạp âm, tiếng ồn" },
+          { "headword": "雑多", "reading": "zatta", "hanViet": "tạp đa", "meaningVn": "linh tinh, hỗn tạp" }
+        ]
+      },
+      "note": "純/雑 — cặp chữ trái nghĩa cơ bản, rất thông dụng."
+    },
+    {
+      "id": "ja-char-ant-hin-fu",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "貧", "reading": "hin", "hanViet": "bần", "meaningVn": "nghèo",
+        "words": [
+          { "headword": "貧困", "reading": "hinkon", "hanViet": "bần khốn", "meaningVn": "nghèo khó" },
+          { "headword": "貧弱", "reading": "hinjaku", "hanViet": "bần nhược", "meaningVn": "nghèo nàn, yếu ớt" }
+        ]
+      },
+      "right": {
+        "character": "富", "reading": "fu", "hanViet": "phú", "meaningVn": "giàu",
+        "words": [
+          { "headword": "豊富", "reading": "houfu", "hanViet": "phong phú", "meaningVn": "phong phú" },
+          { "headword": "富裕", "reading": "fuyuu", "hanViet": "phú dụ", "meaningVn": "giàu có" }
+        ]
+      },
+      "note": "貧/富 — cặp chữ trái nghĩa cơ bản, rất thông dụng."
+    },
+    {
+      "id": "ja-char-ant-chou-tan",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "長", "reading": "chou", "hanViet": "trường", "meaningVn": "dài",
+        "words": [
+          { "headword": "長所", "reading": "chousho", "hanViet": "trường sở", "meaningVn": "sở trường, điểm mạnh" },
+          { "headword": "延長", "reading": "enchou", "hanViet": "diên trường", "meaningVn": "kéo dài" }
+        ]
+      },
+      "right": {
+        "character": "短", "reading": "tan", "hanViet": "đoản", "meaningVn": "ngắn",
+        "words": [
+          { "headword": "短所", "reading": "tansho", "hanViet": "đoản sở", "meaningVn": "điểm yếu" },
+          { "headword": "短縮", "reading": "tanshuku", "hanViet": "đoản súc", "meaningVn": "rút ngắn" }
+        ]
+      },
+      "note": "長/短 — cặp chữ trái nghĩa cơ bản, rất thông dụng."
+    },
+    {
+      "id": "ja-char-ant-en-hou",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "円", "reading": "en", "hanViet": "viên", "meaningVn": "tròn",
+        "words": [
+          { "headword": "円形", "reading": "enkei", "hanViet": "viên hình", "meaningVn": "hình tròn" },
+          { "headword": "円満", "reading": "enman", "hanViet": "viên mãn", "meaningVn": "viên mãn (vd 円満退社)" }
+        ]
+      },
+      "right": {
+        "character": "方", "reading": "hou", "hanViet": "phương", "meaningVn": "vuông, phương hướng",
+        "words": [
+          { "headword": "方形", "reading": "houkei", "hanViet": "phương hình", "meaningVn": "hình vuông" },
+          { "headword": "方角", "reading": "hougaku", "hanViet": "phương giác", "meaningVn": "phương hướng" }
+        ]
+      },
+      "note": "円/方 — cặp chữ trái nghĩa cơ bản, rất thông dụng."
+    },
+    {
+      "id": "ja-char-ant-kyo-jitsu",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "虚", "reading": "kyo", "hanViet": "hư", "meaningVn": "hư, trống",
+        "words": [
+          { "headword": "虚偽", "reading": "kyogi", "hanViet": "hư nguỵ", "meaningVn": "giả dối" },
+          { "headword": "空虚", "reading": "kuukyo", "hanViet": "không hư", "meaningVn": "trống rỗng" }
+        ]
+      },
+      "right": {
+        "character": "実", "reading": "jitsu", "hanViet": "thực", "meaningVn": "thực, đầy",
+        "words": [
+          { "headword": "実際", "reading": "jissai", "hanViet": "thực tế", "meaningVn": "thực tế" },
+          { "headword": "実用", "reading": "jitsuyou", "hanViet": "thực dụng", "meaningVn": "thực dụng" }
+        ]
+      },
+      "note": "虚/実 — cặp chữ trái nghĩa cơ bản, rất thông dụng."
+    },
+    {
+      "id": "ja-char-ant-nan-i",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "難", "reading": "nan", "hanViet": "nan", "meaningVn": "khó",
+        "words": [
+          { "headword": "難度", "reading": "nando", "hanViet": "nan độ", "meaningVn": "độ khó" },
+          { "headword": "難関", "reading": "nankan", "hanViet": "nan quan", "meaningVn": "cửa ải khó khăn, kỳ thi khó" }
+        ]
+      },
+      "right": {
+        "character": "易", "reading": "i", "hanViet": "dị", "meaningVn": "dễ",
+        "words": [
+          { "headword": "容易", "reading": "youi", "hanViet": "dung dị", "meaningVn": "dễ dàng" },
+          { "headword": "安易", "reading": "an'i", "hanViet": "an dị", "meaningVn": "dễ dãi, xuề xoà (hơi tiêu cực)" }
+        ]
+      },
+      "note": "難/易 — cặp chữ trái nghĩa cơ bản, rất thông dụng."
+    },
+    {
+      "id": "ja-char-ant-kan-ku",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "甘", "reading": "kan", "hanViet": "cam", "meaningVn": "ngọt",
+        "words": [
+          { "headword": "甘味", "reading": "kanmi", "hanViet": "cam vị", "meaningVn": "vị ngọt" },
+          { "headword": "甘言", "reading": "kangen", "hanViet": "cam ngôn", "meaningVn": "lời ngọt ngào, lời dụ dỗ" }
+        ]
+      },
+      "right": {
+        "character": "苦", "reading": "ku", "hanViet": "khổ", "meaningVn": "đắng, khổ",
+        "words": [
+          { "headword": "苦味", "reading": "kumi", "hanViet": "khổ vị", "meaningVn": "vị đắng" },
+          { "headword": "苦労", "reading": "kurou", "hanViet": "khổ lao", "meaningVn": "vất vả, khổ cực" }
+        ]
+      },
+      "note": "甘/苦 — cặp chữ trái nghĩa cơ bản, rất thông dụng (nghĩa đen: ngọt/đắng; nghĩa bóng: sướng/khổ)."
+    },
+    {
+      "id": "ja-char-ant-ai-zou",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "愛", "reading": "ai", "hanViet": "ái", "meaningVn": "yêu",
+        "words": [
+          { "headword": "愛情", "reading": "aijou", "hanViet": "ái tình", "meaningVn": "tình yêu" },
+          { "headword": "愛着", "reading": "aichaku", "hanViet": "ái trước", "meaningVn": "quyến luyến" }
+        ]
+      },
+      "right": {
+        "character": "憎", "reading": "zou", "hanViet": "tăng", "meaningVn": "ghét",
+        "words": [
+          { "headword": "憎悪", "reading": "zouo", "hanViet": "tăng ố", "meaningVn": "căm ghét, ghê tởm" },
+          { "headword": "愛憎", "reading": "aizou", "hanViet": "ái tăng", "meaningVn": "yêu và ghét lẫn lộn" }
+        ]
+      },
+      "note": "愛/憎 — cặp chữ trái nghĩa cơ bản, rất thông dụng. LƯU Ý: 憎 (ghét) đọc Hán Việt \"tăng\" — trùng âm hoàn toàn với 增 (tăng, tăng thêm) dù là 2 chữ Hán khác nhau."
+    },
+    {
+      "id": "ja-char-ant-yuu-retsu",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "優", "reading": "yuu", "hanViet": "ưu", "meaningVn": "giỏi, tốt",
+        "words": [
+          { "headword": "優秀", "reading": "yuushuu", "hanViet": "ưu tú", "meaningVn": "xuất sắc" },
+          { "headword": "優勢", "reading": "yuusei", "hanViet": "ưu thế", "meaningVn": "ưu thế, lợi thế" }
+        ]
+      },
+      "right": {
+        "character": "劣", "reading": "retsu", "hanViet": "liệt", "meaningVn": "kém",
+        "words": [
+          { "headword": "劣勢", "reading": "ressei", "hanViet": "liệt thế", "meaningVn": "thế yếu, bất lợi" },
+          { "headword": "劣悪", "reading": "retsuaku", "hanViet": "liệt ác", "meaningVn": "tồi tệ, kém chất lượng" }
+        ]
+      },
+      "note": "優/劣 — cặp chữ trái nghĩa cơ bản, rất thông dụng."
+    },
+    {
+      "id": "ja-char-ant-kyoku-choku",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "曲", "reading": "kyoku", "hanViet": "khúc", "meaningVn": "cong",
+        "words": [
+          { "headword": "曲線", "reading": "kyokusen", "hanViet": "khúc tuyến", "meaningVn": "đường cong" },
+          { "headword": "湾曲", "reading": "wankyoku", "hanViet": "loan khúc", "meaningVn": "cong, uốn cong" }
+        ]
+      },
+      "right": {
+        "character": "直", "reading": "choku", "hanViet": "trực", "meaningVn": "thẳng",
+        "words": [
+          { "headword": "直線", "reading": "chokusen", "hanViet": "trực tuyến", "meaningVn": "đường thẳng" },
+          { "headword": "正直", "reading": "shoujiki", "hanViet": "chính trực", "meaningVn": "ngay thẳng, thật thà" }
+        ]
+      },
+      "note": "曲/直 — cặp chữ trái nghĩa cơ bản, rất thông dụng."
+    },
+    {
+      "id": "ja-char-ant-kou-nan",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "硬", "reading": "kou", "hanViet": "ngạnh", "meaningVn": "cứng",
+        "words": [
+          { "headword": "硬度", "reading": "koudo", "hanViet": "ngạnh độ", "meaningVn": "độ cứng" },
+          { "headword": "強硬", "reading": "kyoukou", "hanViet": "cường ngạnh", "meaningVn": "cứng rắn, kiên quyết" }
+        ]
+      },
+      "right": {
+        "character": "軟", "reading": "nan", "hanViet": "nhuyễn", "meaningVn": "mềm",
+        "words": [
+          { "headword": "軟化", "reading": "nanka", "hanViet": "nhuyễn hoá", "meaningVn": "làm mềm, dịu đi (nghĩa bóng: thái độ)" },
+          { "headword": "軟弱", "reading": "nanjaku", "hanViet": "nhuyễn nhược", "meaningVn": "nhu nhược, yếu ớt" }
+        ]
+      },
+      "note": "硬/軟 — cặp chữ trái nghĩa cơ bản, rất thông dụng."
+    },
+    {
+      "id": "ja-char-ant-kou-haku",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "厚", "reading": "kou", "hanViet": "hậu", "meaningVn": "dày",
+        "words": [
+          { "headword": "厚意", "reading": "koui", "hanViet": "hậu ý", "meaningVn": "hậu ý, lòng tốt" },
+          { "headword": "濃厚", "reading": "noukou", "hanViet": "nùng hậu", "meaningVn": "đậm đặc" }
+        ]
+      },
+      "right": {
+        "character": "薄", "reading": "haku", "hanViet": "bạc", "meaningVn": "mỏng",
+        "words": [
+          { "headword": "薄弱", "reading": "hakujaku", "hanViet": "bạc nhược", "meaningVn": "mỏng manh, yếu ớt" },
+          { "headword": "希薄", "reading": "kihaku", "hanViet": "hy bạc", "meaningVn": "loãng, mỏng manh (vd 酸素が希薄)" }
+        ]
+      },
+      "note": "厚/薄 — cặp chữ trái nghĩa cơ bản, rất thông dụng."
+    },
+    {
+      "id": "ja-char-ant-nou-tan",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "濃", "reading": "nou", "hanViet": "nùng", "meaningVn": "đậm, đặc",
+        "words": [
+          { "headword": "濃度", "reading": "noudo", "hanViet": "nùng độ", "meaningVn": "nồng độ" },
+          { "headword": "濃縮", "reading": "noushuku", "hanViet": "nùng súc", "meaningVn": "cô đặc" }
+        ]
+      },
+      "right": {
+        "character": "淡", "reading": "tan", "hanViet": "đạm", "meaningVn": "nhạt, loãng",
+        "words": [
+          { "headword": "淡白", "reading": "tanpaku", "hanViet": "đạm bạch", "meaningVn": "nhạt nhẽo, đạm bạc" },
+          { "headword": "淡水", "reading": "tansui", "hanViet": "đạm thuỷ", "meaningVn": "nước ngọt (đối lập nước biển)" }
+        ]
+      },
+      "note": "濃/淡 — cặp chữ trái nghĩa cơ bản, rất thông dụng."
+    },
+    {
+      "id": "ja-char-ant-so-sai",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "粗", "reading": "so", "hanViet": "thô", "meaningVn": "thô, to",
+        "words": [
+          { "headword": "粗野", "reading": "soya", "hanViet": "thô dã", "meaningVn": "thô lỗ, quê mùa" },
+          { "headword": "粗末", "reading": "somatsu", "hanViet": "thô mạt", "meaningVn": "sơ sài, xoàng xĩnh" }
+        ]
+      },
+      "right": {
+        "character": "細", "reading": "sai", "hanViet": "tế", "meaningVn": "mảnh, mịn",
+        "words": [
+          { "headword": "細心", "reading": "saishin", "hanViet": "tế tâm", "meaningVn": "cẩn thận, tỉ mỉ" },
+          { "headword": "細部", "reading": "saibu", "hanViet": "tế bộ", "meaningVn": "chi tiết, phần nhỏ" }
+        ]
+      },
+      "note": "粗/細 — cặp chữ trái nghĩa cơ bản, rất thông dụng."
+    },
+    {
+      "id": "ja-char-ant-kuu-man",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "空", "reading": "kuu", "hanViet": "không", "meaningVn": "rỗng, trống",
+        "words": [
+          { "headword": "空白", "reading": "kuuhaku", "hanViet": "không bạch", "meaningVn": "khoảng trống, chỗ trống" },
+          { "headword": "空腹", "reading": "kuufuku", "hanViet": "không phúc", "meaningVn": "bụng đói" }
+        ]
+      },
+      "right": {
+        "character": "満", "reading": "man", "hanViet": "mãn", "meaningVn": "đầy",
+        "words": [
+          { "headword": "満足", "reading": "manzoku", "hanViet": "mãn túc", "meaningVn": "hài lòng, thoả mãn" },
+          { "headword": "満員", "reading": "man'in", "hanViet": "mãn viên", "meaningVn": "đầy người, hết chỗ" }
+        ]
+      },
+      "note": "空/満 — cặp chữ trái nghĩa cơ bản, rất thông dụng."
+    },
+    {
+      "id": "ja-char-ant-jun-gyaku",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "順", "reading": "jun", "hanViet": "thuận", "meaningVn": "thuận",
+        "words": [
+          { "headword": "順序", "reading": "junjo", "hanViet": "thuận tự", "meaningVn": "trình tự, thứ tự" },
+          { "headword": "順応", "reading": "junnou", "hanViet": "thuận ứng", "meaningVn": "thích ứng theo" }
+        ]
+      },
+      "right": {
+        "character": "逆", "reading": "gyaku", "hanViet": "nghịch", "meaningVn": "nghịch",
+        "words": [
+          { "headword": "逆境", "reading": "gyakkyou", "hanViet": "nghịch cảnh", "meaningVn": "nghịch cảnh" },
+          { "headword": "逆転", "reading": "gyakuten", "hanViet": "nghịch chuyển", "meaningVn": "đảo ngược tình thế" }
+        ]
+      },
+      "note": "順/逆 — cặp chữ trái nghĩa cơ bản, rất thông dụng. 逆境 đọc ぎゃっきょう có xúc âm 促音便 (っ)."
+    },
+    {
+      "id": "ja-char-ant-in-ken",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "隠", "reading": "in", "hanViet": "ẩn", "meaningVn": "ẩn, giấu",
+        "words": [
+          { "headword": "隠居", "reading": "inkyo", "hanViet": "ẩn cư", "meaningVn": "về hưu ở ẩn" },
+          { "headword": "隠蔽", "reading": "inpei", "hanViet": "ẩn tế", "meaningVn": "che giấu, bưng bít" }
+        ]
+      },
+      "right": {
+        "character": "顕", "reading": "ken", "hanViet": "hiển", "meaningVn": "hiện, rõ",
+        "words": [
+          { "headword": "顕著", "reading": "kencho", "hanViet": "hiển trước", "meaningVn": "rõ rệt" },
+          { "headword": "顕在", "reading": "kenzai", "hanViet": "hiển tại", "meaningVn": "hiện hữu, lộ rõ" }
+        ]
+      },
+      "note": "隠/顕 — cặp chữ trái nghĩa cơ bản, rất thông dụng. LƯU Ý: 顕 (hiển, lộ rõ) khác với 現 (hiện, xuất hiện trong 現在) — 2 chữ Hán khác nhau nhưng đều đọc \"ken\"."
+    },
+    {
+      "id": "ja-char-ant-shi-shuu",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "始", "reading": "shi", "hanViet": "thuỷ", "meaningVn": "bắt đầu",
+        "words": [
+          { "headword": "始祖", "reading": "shiso", "hanViet": "thuỷ tổ", "meaningVn": "thuỷ tổ, ông tổ" },
+          { "headword": "原始", "reading": "genshi", "hanViet": "nguyên thuỷ", "meaningVn": "nguyên thuỷ, hoang sơ" }
+        ]
+      },
+      "right": {
+        "character": "終", "reading": "shuu", "hanViet": "chung", "meaningVn": "kết thúc",
+        "words": [
+          { "headword": "終点", "reading": "shuuten", "hanViet": "chung điểm", "meaningVn": "điểm cuối, ga cuối" },
+          { "headword": "終身", "reading": "shuushin", "hanViet": "chung thân", "meaningVn": "suốt đời (vd 終身雇用)" }
+        ]
+      },
+      "note": "始/終 — cặp chữ trái nghĩa cơ bản, rất thông dụng."
+    },
+    {
+      "id": "ja-char-ant-son-bou",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "存", "reading": "son", "hanViet": "tồn", "meaningVn": "còn",
+        "words": [
+          { "headword": "存在", "reading": "sonzai", "hanViet": "tồn tại", "meaningVn": "tồn tại" },
+          { "headword": "保存", "reading": "hozon", "hanViet": "bảo tồn", "meaningVn": "bảo tồn, lưu giữ" }
+        ]
+      },
+      "right": {
+        "character": "亡", "reading": "bou", "hanViet": "vong", "meaningVn": "mất",
+        "words": [
+          { "headword": "滅亡", "reading": "metsubou", "hanViet": "diệt vong", "meaningVn": "diệt vong" },
+          { "headword": "亡命", "reading": "boumei", "hanViet": "vong mệnh", "meaningVn": "lưu vong, đào tẩu chính trị" }
+        ]
+      },
+      "note": "存/亡 — cặp chữ trái nghĩa cơ bản, rất thông dụng."
+    },
+    {
+      "id": "ja-char-ant-kou-setsu",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "巧", "reading": "kou", "hanViet": "xảo", "meaningVn": "khéo",
+        "words": [
+          { "headword": "巧妙", "reading": "koumyou", "hanViet": "xảo diệu", "meaningVn": "khéo léo, tinh xảo" },
+          { "headword": "技巧", "reading": "gikou", "hanViet": "kỹ xảo", "meaningVn": "kỹ xảo" }
+        ]
+      },
+      "right": {
+        "character": "拙", "reading": "setsu", "hanViet": "chuyết", "meaningVn": "vụng",
+        "words": [
+          { "headword": "拙劣", "reading": "setsuretsu", "hanViet": "chuyết liệt", "meaningVn": "vụng về, kém cỏi" },
+          { "headword": "稚拙", "reading": "chisetsu", "hanViet": "trĩ chuyết", "meaningVn": "ấu trĩ, vụng về" }
+        ]
+      },
+      "note": "巧/拙 — cặp chữ trái nghĩa cơ bản, rất thông dụng."
+    },
+    {
+      "id": "ja-char-ant-shutsu-nyuu",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "出", "reading": "shutsu", "hanViet": "xuất", "meaningVn": "ra",
+        "words": [
+          { "headword": "出発", "reading": "shuppatsu", "hanViet": "xuất phát", "meaningVn": "khởi hành" },
+          { "headword": "出場", "reading": "shutsujou", "hanViet": "xuất trường", "meaningVn": "tham gia thi đấu" }
+        ]
+      },
+      "right": {
+        "character": "入", "reading": "nyuu", "hanViet": "nhập", "meaningVn": "vào",
+        "words": [
+          { "headword": "入場", "reading": "nyuujou", "hanViet": "nhập trường", "meaningVn": "vào cửa" },
+          { "headword": "収入", "reading": "shuunyuu", "hanViet": "thu nhập", "meaningVn": "thu nhập" }
+        ]
+      },
+      "note": "出/入 — cặp chữ trái nghĩa cơ bản, rất thông dụng. 出発 đọc しゅっぱつ có xúc âm 促音便 (っ)."
+    },
+    {
+      "id": "ja-char-ant-sei-han",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "正", "reading": "sei", "hanViet": "chính", "meaningVn": "chính, đúng",
+        "words": [
+          { "headword": "正確", "reading": "seikaku", "hanViet": "chính xác", "meaningVn": "chính xác, đúng" },
+          { "headword": "正面", "reading": "shoumen", "hanViet": "chính diện", "meaningVn": "mặt trước, chính diện" }
+        ]
+      },
+      "right": {
+        "character": "反", "reading": "han", "hanViet": "phản", "meaningVn": "ngược, trái",
+        "words": [
+          { "headword": "反対", "reading": "hantai", "hanViet": "phản đối", "meaningVn": "phản đối, ngược lại" },
+          { "headword": "反面", "reading": "hanmen", "hanViet": "phản diện", "meaningVn": "mặt trái" }
+        ]
+      },
+      "note": "正/反 — cặp chữ trái nghĩa cơ bản, rất thông dụng. LƯU Ý: 正面 đọc しょうめん (không phải せいめん) — âm on-yomi đặc biệt của 正 trong từ này."
+    },
+    {
+      "id": "ja-char-ant-shu-kyaku",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "主", "reading": "shu", "hanViet": "chủ", "meaningVn": "chủ",
+        "words": [
+          { "headword": "主人", "reading": "shujin", "hanViet": "chủ nhân", "meaningVn": "chủ nhân" },
+          { "headword": "主観", "reading": "shukan", "hanViet": "chủ quan", "meaningVn": "chủ quan" }
+        ]
+      },
+      "right": {
+        "character": "客", "reading": "kyaku", "hanViet": "khách", "meaningVn": "khách",
+        "words": [
+          { "headword": "客観", "reading": "kyakkan", "hanViet": "khách quan", "meaningVn": "khách quan" },
+          { "headword": "顧客", "reading": "kokyaku", "hanViet": "cố khách", "meaningVn": "khách hàng" }
+        ]
+      },
+      "note": "主/客 — cặp chữ trái nghĩa cơ bản, rất thông dụng. 客観 đọc きゃっかん có xúc âm 促音便 (っ)."
+    },
+    {
+      "id": "ja-char-ant-bou-kan",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "忙", "reading": "bou", "hanViet": "mang", "meaningVn": "bận",
+        "words": [
+          { "headword": "多忙", "reading": "tabou", "hanViet": "đa mang", "meaningVn": "bận rộn" },
+          { "headword": "繁忙", "reading": "hanbou", "hanViet": "phồn mang", "meaningVn": "bận rộn, tấp nập" }
+        ]
+      },
+      "right": {
+        "character": "閑", "reading": "kan", "hanViet": "nhàn", "meaningVn": "rảnh",
+        "words": [
+          { "headword": "閑暇", "reading": "kanka", "hanViet": "nhàn hạ", "meaningVn": "nhàn rỗi" },
+          { "headword": "閑静", "reading": "kansei", "hanViet": "nhàn tĩnh", "meaningVn": "yên tĩnh, thanh vắng" }
+        ]
+      },
+      "note": "忙/閑 — cặp chữ trái nghĩa cơ bản, rất thông dụng."
+    },
+    {
+      "id": "ja-char-ant-chi-gu",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "智", "reading": "chi", "hanViet": "trí", "meaningVn": "khôn",
+        "words": [
+          { "headword": "智力", "reading": "chiryoku", "hanViet": "trí lực", "meaningVn": "trí lực, trí thông minh" },
+          { "headword": "機智", "reading": "kichi", "hanViet": "cơ trí", "meaningVn": "nhanh trí, cơ trí" }
+        ]
+      },
+      "right": {
+        "character": "愚", "reading": "gu", "hanViet": "ngu", "meaningVn": "ngu",
+        "words": [
+          { "headword": "愚鈍", "reading": "gudon", "hanViet": "ngu độn", "meaningVn": "ngu độn" },
+          { "headword": "愚劣", "reading": "guretsu", "hanViet": "ngu liệt", "meaningVn": "ngu si, đê tiện" }
+        ]
+      },
+      "note": "智/愚 — cặp chữ trái nghĩa cơ bản, rất thông dụng."
+    },
+    {
+      "id": "ja-char-ant-son-hi",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "尊", "reading": "son", "hanViet": "tôn", "meaningVn": "tôn quý",
+        "words": [
+          { "headword": "尊重", "reading": "sonchou", "hanViet": "tôn trọng", "meaningVn": "tôn trọng" },
+          { "headword": "尊厳", "reading": "songen", "hanViet": "tôn nghiêm", "meaningVn": "phẩm giá, tôn nghiêm" }
+        ]
+      },
+      "right": {
+        "character": "卑", "reading": "hi", "hanViet": "ti", "meaningVn": "thấp hèn",
+        "words": [
+          { "headword": "卑劣", "reading": "hiretsu", "hanViet": "ti liệt", "meaningVn": "đê tiện, hèn hạ" },
+          { "headword": "卑屈", "reading": "hikutsu", "hanViet": "ti khuất", "meaningVn": "khúm núm, hèn hạ tự ti" }
+        ]
+      },
+      "note": "尊/卑 — cặp chữ trái nghĩa cơ bản, rất thông dụng."
+    },
+    {
+      "id": "ja-char-ant-gei-sou",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "迎", "reading": "gei", "hanViet": "nghênh", "meaningVn": "đón",
+        "words": [
+          { "headword": "歓迎", "reading": "kangei", "hanViet": "hoan nghênh", "meaningVn": "hoan nghênh, chào đón" },
+          { "headword": "迎撃", "reading": "geigeki", "hanViet": "nghênh kích", "meaningVn": "đánh chặn (quân sự)" }
+        ]
+      },
+      "right": {
+        "character": "送", "reading": "sou", "hanViet": "tống", "meaningVn": "tiễn",
+        "words": [
+          { "headword": "送別", "reading": "soubetsu", "hanViet": "tống biệt", "meaningVn": "tiễn biệt" },
+          { "headword": "送金", "reading": "soukin", "hanViet": "tống kim", "meaningVn": "chuyển tiền" }
+        ]
+      },
+      "note": "迎/送 — cặp chữ trái nghĩa cơ bản, rất thông dụng."
+    },
+    {
+      "id": "ja-char-ant-in-ka",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "因", "reading": "in", "hanViet": "nhân", "meaningVn": "nguyên nhân",
+        "words": [
+          { "headword": "因果", "reading": "inga", "hanViet": "nhân quả", "meaningVn": "nhân quả (quan hệ nhân quả)" },
+          { "headword": "因縁", "reading": "innen", "hanViet": "nhân duyên", "meaningVn": "nhân duyên" }
+        ]
+      },
+      "right": {
+        "character": "果", "reading": "ka", "hanViet": "quả", "meaningVn": "kết quả",
+        "words": [
+          { "headword": "果実", "reading": "kajitsu", "hanViet": "quả thực", "meaningVn": "trái cây, thành quả" },
+          { "headword": "果敢", "reading": "kakan", "hanViet": "quả cảm", "meaningVn": "quả cảm, dũng cảm hành động" }
+        ]
+      },
+      "note": "因/果 — cặp chữ trái nghĩa cơ bản, rất thông dụng."
+    },
+    {
+      "id": "ja-char-ant-chuu-ya",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "昼", "reading": "chuu", "hanViet": "trú", "meaningVn": "ngày",
+        "words": [
+          { "headword": "昼食", "reading": "chuushoku", "hanViet": "trú thực", "meaningVn": "bữa trưa" },
+          { "headword": "昼夜", "reading": "chuuya", "hanViet": "trú dạ", "meaningVn": "ngày và đêm" }
+        ]
+      },
+      "right": {
+        "character": "夜", "reading": "ya", "hanViet": "dạ", "meaningVn": "đêm",
+        "words": [
+          { "headword": "夜間", "reading": "yakan", "hanViet": "dạ gian", "meaningVn": "ban đêm, trong đêm" },
+          { "headword": "夜行", "reading": "yakou", "hanViet": "dạ hành", "meaningVn": "đi trong đêm, tàu đêm" }
+        ]
+      },
+      "note": "昼/夜 — cặp chữ trái nghĩa cơ bản, rất thông dụng."
+    },
+    {
+      "id": "ja-char-ant-hyou-ri",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "表", "reading": "hyou", "hanViet": "biểu", "meaningVn": "ngoài, bề mặt",
+        "words": [
+          { "headword": "表面", "reading": "hyoumen", "hanViet": "biểu diện", "meaningVn": "bề mặt" },
+          { "headword": "表示", "reading": "hyouji", "hanViet": "biểu thị", "meaningVn": "hiển thị, biểu thị" }
+        ]
+      },
+      "right": {
+        "character": "裏", "reading": "ri", "hanViet": "lý", "meaningVn": "trong, bên trong",
+        "words": [
+          { "headword": "裏面", "reading": "rimen", "hanViet": "lý diện", "meaningVn": "mặt sau, bên trong" },
+          { "headword": "脳裏", "reading": "nouri", "hanViet": "não lý", "meaningVn": "trong tâm trí (vd 脳裏に浮かぶ)" }
+        ]
+      },
+      "note": "表/裏 — cặp chữ trái nghĩa cơ bản, rất thông dụng."
+    },
+    {
+      "id": "ja-char-ant-shou-kou",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "昇", "reading": "shou", "hanViet": "thăng", "meaningVn": "lên",
+        "words": [
+          { "headword": "昇進", "reading": "shoushin", "hanViet": "thăng tiến", "meaningVn": "thăng chức" },
+          { "headword": "昇格", "reading": "shoukaku", "hanViet": "thăng cách", "meaningVn": "nâng cấp, thăng hạng" }
+        ]
+      },
+      "right": {
+        "character": "降", "reading": "kou", "hanViet": "giáng", "meaningVn": "xuống",
+        "words": [
+          { "headword": "降水", "reading": "kousui", "hanViet": "giáng thuỷ", "meaningVn": "lượng mưa (khí tượng)" },
+          { "headword": "降車", "reading": "kousha", "hanViet": "giáng xa", "meaningVn": "xuống xe, xuống tàu" }
+        ]
+      },
+      "note": "昇/降 — cặp chữ trái nghĩa cơ bản, rất thông dụng."
+    },
+    {
+      "id": "ja-char-ant-sei-o",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "清", "reading": "sei", "hanViet": "thanh", "meaningVn": "sạch",
+        "words": [
+          { "headword": "清潔", "reading": "seiketsu", "hanViet": "thanh khiết", "meaningVn": "sạch sẽ" },
+          { "headword": "清算", "reading": "seisan", "hanViet": "thanh toán", "meaningVn": "thanh toán, giải quyết dứt điểm" }
+        ]
+      },
+      "right": {
+        "character": "汚", "reading": "o", "hanViet": "ô", "meaningVn": "bẩn",
+        "words": [
+          { "headword": "汚染", "reading": "osen", "hanViet": "ô nhiễm", "meaningVn": "ô nhiễm" },
+          { "headword": "汚名", "reading": "omei", "hanViet": "ô danh", "meaningVn": "tiếng xấu" }
+        ]
+      },
+      "note": "清/汚 — cặp chữ trái nghĩa cơ bản, rất thông dụng."
+    },
+    {
+      "id": "ja-char-ant-so-mitsu",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "疎", "reading": "so", "hanViet": "sơ", "meaningVn": "thưa, xa cách",
+        "words": [
+          { "headword": "疎遠", "reading": "soen", "hanViet": "sơ viễn", "meaningVn": "xa cách, ít qua lại" },
+          { "headword": "疎外", "reading": "sogai", "hanViet": "sơ ngoại", "meaningVn": "cô lập, xa lánh" }
+        ]
+      },
+      "right": {
+        "character": "密", "reading": "mitsu", "hanViet": "mật", "meaningVn": "dày đặc, kín đáo",
+        "words": [
+          { "headword": "密度", "reading": "mitsudo", "hanViet": "mật độ", "meaningVn": "mật độ" },
+          { "headword": "密集", "reading": "misshuu", "hanViet": "mật tập", "meaningVn": "tập trung dày đặc" }
+        ]
+      },
+      "note": "疎/密 — cặp chữ trái nghĩa cơ bản, dùng cho mật độ/quan hệ xa gần."
+    },
+    {
+      "id": "ja-char-ant-kan-kyuu",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "緩", "reading": "kan", "hanViet": "hoãn", "meaningVn": "chậm, hoãn lại",
+        "words": [
+          { "headword": "緩衝", "reading": "kanshou", "hanViet": "hoãn xung", "meaningVn": "đệm, giảm xóc" },
+          { "headword": "緩和", "reading": "kanwa", "hanViet": "hoãn hoà", "meaningVn": "làm dịu, xoa dịu" }
+        ]
+      },
+      "right": {
+        "character": "急", "reading": "kyuu", "hanViet": "cấp", "meaningVn": "gấp, khẩn cấp",
+        "words": [
+          { "headword": "急速", "reading": "kyuusoku", "hanViet": "cấp tốc", "meaningVn": "nhanh chóng, cấp tốc" },
+          { "headword": "急増", "reading": "kyuuzou", "hanViet": "cấp tăng", "meaningVn": "tăng vọt, tăng nhanh" }
+        ]
+      },
+      "note": "緩/急 — cặp chữ trái nghĩa cơ bản, dùng cho tốc độ/mức độ khẩn cấp."
+    },
+    {
+      "id": "ja-char-ant-sen-don",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "尖", "reading": "sen", "hanViet": "tiêm", "meaningVn": "nhọn, sắc bén",
+        "words": [
+          { "headword": "尖鋭", "reading": "sen'ei", "hanViet": "tiêm nhuệ", "meaningVn": "sắc bén, cấp tiến" },
+          { "headword": "尖端", "reading": "sentan", "hanViet": "tiêm đoan", "meaningVn": "đầu nhọn, tiên tiến (công nghệ)" }
+        ]
+      },
+      "right": {
+        "character": "鈍", "reading": "don", "hanViet": "độn", "meaningVn": "cùn, chậm chạp",
+        "words": [
+          { "headword": "鈍感", "reading": "donkan", "hanViet": "độn cảm", "meaningVn": "vô cảm, chậm nhạy cảm" },
+          { "headword": "鈍化", "reading": "donka", "hanViet": "độn hoá", "meaningVn": "chậm lại, suy giảm nhạy bén" }
+        ]
+      },
+      "note": "尖/鈍 — cặp chữ trái nghĩa cơ bản, dùng cho độ sắc bén/độ nhạy."
+    },
+    {
+      "id": "ja-char-ant-rou-you",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "老", "reading": "rou", "hanViet": "lão", "meaningVn": "già",
+        "words": [
+          { "headword": "老化", "reading": "rouka", "hanViet": "lão hoá", "meaningVn": "lão hoá, già đi" },
+          { "headword": "老年", "reading": "rounen", "hanViet": "lão niên", "meaningVn": "tuổi già" }
+        ]
+      },
+      "right": {
+        "character": "幼", "reading": "you", "hanViet": "ấu", "meaningVn": "trẻ, non nớt",
+        "words": [
+          { "headword": "幼稚", "reading": "youchi", "hanViet": "ấu trĩ", "meaningVn": "trẻ con, ấu trĩ" },
+          { "headword": "幼児", "reading": "youji", "hanViet": "ấu nhi", "meaningVn": "trẻ nhỏ" }
+        ]
+      },
+      "note": "老/幼 — cặp chữ trái nghĩa cơ bản, rất thông dụng."
+    },
+    {
+      "id": "ja-char-ant-en-kin",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "遠", "reading": "en", "hanViet": "viễn", "meaningVn": "xa",
+        "words": [
+          { "headword": "遠征", "reading": "ensei", "hanViet": "viễn chinh", "meaningVn": "viễn chinh, đi xa thi đấu/công tác" },
+          { "headword": "遠隔", "reading": "enkaku", "hanViet": "viễn cách", "meaningVn": "từ xa, viễn cách" }
+        ]
+      },
+      "right": {
+        "character": "近", "reading": "kin", "hanViet": "cận", "meaningVn": "gần",
+        "words": [
+          { "headword": "近郊", "reading": "kinkou", "hanViet": "cận giao", "meaningVn": "ngoại ô, vùng ven" },
+          { "headword": "近代", "reading": "kindai", "hanViet": "cận đại", "meaningVn": "thời cận đại" }
+        ]
+      },
+      "note": "遠/近 — cặp chữ trái nghĩa cơ bản, rất thông dụng."
+    },
+    {
+      "id": "ja-char-ant-kou-kyou",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "広", "reading": "kou", "hanViet": "quảng", "meaningVn": "rộng",
+        "words": [
+          { "headword": "広大", "reading": "koudai", "hanViet": "quảng đại", "meaningVn": "rộng lớn, bao la" },
+          { "headword": "広範", "reading": "kouhan", "hanViet": "quảng phạm", "meaningVn": "rộng rãi, bao quát" }
+        ]
+      },
+      "right": {
+        "character": "狭", "reading": "kyou", "hanViet": "hiệp", "meaningVn": "hẹp",
+        "words": [
+          { "headword": "狭小", "reading": "kyoushou", "hanViet": "hiệp tiểu", "meaningVn": "chật hẹp, nhỏ hẹp" },
+          { "headword": "狭義", "reading": "kyougi", "hanViet": "hiệp nghĩa", "meaningVn": "nghĩa hẹp" }
+        ]
+      },
+      "note": "広/狭 — cặp chữ trái nghĩa cơ bản, rất thông dụng."
+    },
+    {
+      "id": "ja-char-ant-han-kan",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "繁", "reading": "han", "hanViet": "phồn", "meaningVn": "nhiều, rườm rà",
+        "words": [
+          { "headword": "頻繁", "reading": "hinpan", "hanViet": "tần phồn", "meaningVn": "thường xuyên, liên tục" },
+          { "headword": "繁雑", "reading": "hanzatsu", "hanViet": "phồn tạp", "meaningVn": "rườm rà, phức tạp" }
+        ]
+      },
+      "right": {
+        "character": "簡", "reading": "kan", "hanViet": "giản", "meaningVn": "đơn giản, gọn",
+        "words": [
+          { "headword": "簡単", "reading": "kantan", "hanViet": "giản đơn", "meaningVn": "đơn giản" },
+          { "headword": "簡潔", "reading": "kanketsu", "hanViet": "giản khiết", "meaningVn": "ngắn gọn, súc tích" }
+        ]
+      },
+      "note": "繁/簡 — cặp chữ trái nghĩa cơ bản, rất thông dụng."
+    },
+    {
+      "id": "ja-char-ant-hi-ki",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "悲", "reading": "hi", "hanViet": "bi", "meaningVn": "buồn, bi ai",
+        "words": [
+          { "headword": "悲哀", "reading": "hiai", "hanViet": "bi ai", "meaningVn": "bi ai, đau xót" },
+          { "headword": "悲劇", "reading": "higeki", "hanViet": "bi kịch", "meaningVn": "bi kịch" }
+        ]
+      },
+      "right": {
+        "character": "喜", "reading": "ki", "hanViet": "hỉ", "meaningVn": "vui, mừng",
+        "words": [
+          { "headword": "喜劇", "reading": "kigeki", "hanViet": "hỉ kịch", "meaningVn": "hài kịch" },
+          { "headword": "喜悦", "reading": "kietsu", "hanViet": "hỉ duyệt", "meaningVn": "vui mừng, hân hoan" }
+        ]
+      },
+      "note": "悲/喜 — cặp chữ trái nghĩa cơ bản, rất thông dụng."
+    },
+    {
+      "id": "ja-char-ant-ga-zoku",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "雅", "reading": "ga", "hanViet": "nhã", "meaningVn": "thanh nhã, tao nhã",
+        "words": [
+          { "headword": "優雅", "reading": "yuuga", "hanViet": "ưu nhã", "meaningVn": "thanh lịch, duyên dáng" },
+          { "headword": "雅趣", "reading": "gashu", "hanViet": "nhã thú", "meaningVn": "thú vui tao nhã" }
+        ]
+      },
+      "right": {
+        "character": "俗", "reading": "zoku", "hanViet": "tục", "meaningVn": "thô tục, phàm tục",
+        "words": [
+          { "headword": "俗悪", "reading": "zokuaku", "hanViet": "tục ác", "meaningVn": "thô tục, rẻ tiền" },
+          { "headword": "低俗", "reading": "teizoku", "hanViet": "đê tục", "meaningVn": "thấp kém, dung tục" }
+        ]
+      },
+      "note": "雅/俗 — cặp chữ trái nghĩa cơ bản, rất thông dụng."
+    },
+    {
+      "id": "ja-char-ant-shin-tai",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "進", "reading": "shin", "hanViet": "tiến", "meaningVn": "tiến, tiến lên",
+        "words": [
+          { "headword": "進出", "reading": "shinshutsu", "hanViet": "tiến xuất", "meaningVn": "tiến vào, mở rộng sang" },
+          { "headword": "進歩", "reading": "shinpo", "hanViet": "tiến bộ", "meaningVn": "tiến bộ" }
+        ]
+      },
+      "right": {
+        "character": "退", "reading": "tai", "hanViet": "thoái", "meaningVn": "lùi, thoái lui",
+        "words": [
+          { "headword": "退歩", "reading": "taiho", "hanViet": "thoái bộ", "meaningVn": "thụt lùi, kém đi" },
+          { "headword": "撤退", "reading": "tettai", "hanViet": "triệt thoái", "meaningVn": "rút lui" }
+        ]
+      },
+      "note": "進/退 — cặp chữ trái nghĩa cơ bản, rất thông dụng."
+    },
+    {
+      "id": "ja-char-ant-in-you",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "陰", "reading": "in", "hanViet": "âm", "meaningVn": "râm, u ám, thuộc âm",
+        "words": [
+          { "headword": "陰影", "reading": "in'ei", "hanViet": "âm ảnh", "meaningVn": "bóng râm, bóng đen" },
+          { "headword": "陰性", "reading": "insei", "hanViet": "âm tính", "meaningVn": "âm tính (y học)" }
+        ]
+      },
+      "right": {
+        "character": "陽", "reading": "you", "hanViet": "dương", "meaningVn": "nắng, sáng, thuộc dương",
+        "words": [
+          { "headword": "陽光", "reading": "youkou", "hanViet": "dương quang", "meaningVn": "ánh nắng" },
+          { "headword": "太陽", "reading": "taiyou", "hanViet": "thái dương", "meaningVn": "mặt trời" }
+        ]
+      },
+      "note": "陰/陽 — cặp chữ trái nghĩa cơ bản, rất thông dụng."
+    },
+    {
+      "id": "ja-char-ant-gou-juu",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "剛", "reading": "gou", "hanViet": "cương", "meaningVn": "cứng rắn, cương quyết",
+        "words": [
+          { "headword": "剛健", "reading": "gouken", "hanViet": "cương kiện", "meaningVn": "khoẻ mạnh, cứng cỏi" },
+          { "headword": "剛直", "reading": "gouchoku", "hanViet": "cương trực", "meaningVn": "cương trực, ngay thẳng" }
+        ]
+      },
+      "right": {
+        "character": "柔", "reading": "juu", "hanViet": "nhu", "meaningVn": "mềm mại, nhu hoà",
+        "words": [
+          { "headword": "柔和", "reading": "nyuuwa", "hanViet": "nhu hoà", "meaningVn": "dịu dàng, mềm mại" },
+          { "headword": "柔軟", "reading": "juunan", "hanViet": "nhu nhuyễn", "meaningVn": "mềm dẻo, linh hoạt" }
+        ]
+      },
+      "note": "剛/柔 — cặp chữ trái nghĩa cơ bản, rất thông dụng."
+    },
+    {
+      "id": "ja-char-ant-an-ki",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "安", "reading": "an", "hanViet": "an", "meaningVn": "an toàn, yên ổn",
+        "words": [
+          { "headword": "安定", "reading": "antei", "hanViet": "an định", "meaningVn": "ổn định, yên ổn" },
+          { "headword": "安心", "reading": "anshin", "hanViet": "an tâm", "meaningVn": "an tâm, yên lòng" }
+        ]
+      },
+      "right": {
+        "character": "危", "reading": "ki", "hanViet": "nguy", "meaningVn": "nguy hiểm",
+        "words": [
+          { "headword": "危険", "reading": "kiken", "hanViet": "nguy hiểm", "meaningVn": "nguy hiểm" },
+          { "headword": "危機", "reading": "kiki", "hanViet": "nguy cơ", "meaningVn": "khủng hoảng, nguy cơ" }
+        ]
+      },
+      "note": "安/危 — cặp chữ trái nghĩa cơ bản, rất thông dụng."
+    },
+    {
+      "id": "ja-char-ant-ko-kon",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "古", "reading": "ko", "hanViet": "cổ", "meaningVn": "cổ, xưa",
+        "words": [
+          { "headword": "古代", "reading": "kodai", "hanViet": "cổ đại", "meaningVn": "thời cổ đại" },
+          { "headword": "古典", "reading": "koten", "hanViet": "cổ điển", "meaningVn": "cổ điển" }
+        ]
+      },
+      "right": {
+        "character": "今", "reading": "kon", "hanViet": "kim", "meaningVn": "nay, hiện tại",
+        "words": [
+          { "headword": "今後", "reading": "kongo", "hanViet": "kim hậu", "meaningVn": "từ nay về sau" },
+          { "headword": "今日", "reading": "konnichi", "hanViet": "kim nhật", "meaningVn": "ngày nay, hiện nay" }
+        ]
+      },
+      "note": "古/今 — cặp chữ trái nghĩa cơ bản, rất thông dụng."
+    },
+    {
+      "id": "ja-char-ant-tou-sei",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "東", "reading": "tou", "hanViet": "đông", "meaningVn": "phía đông",
+        "words": [
+          { "headword": "東方", "reading": "touhou", "hanViet": "đông phương", "meaningVn": "phương đông" },
+          { "headword": "東部", "reading": "toubu", "hanViet": "đông bộ", "meaningVn": "miền đông, khu vực phía đông" }
+        ]
+      },
+      "right": {
+        "character": "西", "reading": "sei", "hanViet": "tây", "meaningVn": "phía tây",
+        "words": [
+          { "headword": "西方", "reading": "seihou", "hanViet": "tây phương", "meaningVn": "phương tây" },
+          { "headword": "西部", "reading": "seibu", "hanViet": "tây bộ", "meaningVn": "miền tây, khu vực phía tây" }
+        ]
+      },
+      "note": "東/西 — cặp chữ trái nghĩa cơ bản, rất thông dụng."
+    },
+    {
+      "id": "ja-char-ant-nan-hoku",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "南", "reading": "nan", "hanViet": "nam", "meaningVn": "phía nam",
+        "words": [
+          { "headword": "南方", "reading": "nanpou", "hanViet": "nam phương", "meaningVn": "phương nam" },
+          { "headword": "南部", "reading": "nanbu", "hanViet": "nam bộ", "meaningVn": "miền nam, khu vực phía nam" }
+        ]
+      },
+      "right": {
+        "character": "北", "reading": "hoku", "hanViet": "bắc", "meaningVn": "phía bắc",
+        "words": [
+          { "headword": "北方", "reading": "hoppou", "hanViet": "bắc phương", "meaningVn": "phương bắc" },
+          { "headword": "北部", "reading": "hokubu", "hanViet": "bắc bộ", "meaningVn": "miền bắc, khu vực phía bắc" }
+        ]
+      },
+      "note": "南/北 — cặp chữ trái nghĩa cơ bản, rất thông dụng."
+    },
+    {
+      "id": "ja-char-ant-ka-tou",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "夏", "reading": "ka", "hanViet": "hạ", "meaningVn": "mùa hè",
+        "words": [
+          { "headword": "夏季", "reading": "kaki", "hanViet": "hạ quý", "meaningVn": "mùa hè" },
+          { "headword": "夏期", "reading": "kaki", "hanViet": "hạ kỳ", "meaningVn": "kỳ hè, thời gian mùa hè" }
+        ]
+      },
+      "right": {
+        "character": "冬", "reading": "tou", "hanViet": "đông", "meaningVn": "mùa đông",
+        "words": [
+          { "headword": "冬季", "reading": "touki", "hanViet": "đông quý", "meaningVn": "mùa đông" },
+          { "headword": "越冬", "reading": "ettou", "hanViet": "việt đông", "meaningVn": "trú đông, qua mùa đông" }
+        ]
+      },
+      "note": "夏/冬 — cặp chữ trái nghĩa cơ bản, rất thông dụng."
+    },
+    {
+      "id": "ja-char-ant-kei-tei",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "兄", "reading": "kei", "hanViet": "huynh", "meaningVn": "anh",
+        "words": [
+          { "headword": "義兄", "reading": "gikei", "hanViet": "nghĩa huynh", "meaningVn": "anh rể/anh vợ" },
+          { "headword": "父兄", "reading": "fukei", "hanViet": "phụ huynh", "meaningVn": "phụ huynh (cha và anh)" }
+        ]
+      },
+      "right": {
+        "character": "弟", "reading": "tei", "hanViet": "đệ", "meaningVn": "em trai",
+        "words": [
+          { "headword": "義弟", "reading": "gitei", "hanViet": "nghĩa đệ", "meaningVn": "em rể/em vợ" },
+          { "headword": "弟子", "reading": "deshi", "hanViet": "đệ tử", "meaningVn": "đệ tử, học trò" }
+        ]
+      },
+      "note": "兄/弟 — cặp chữ trái nghĩa cơ bản, rất thông dụng."
+    },
+    {
+      "id": "ja-char-ant-bi-shuu",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "美", "reading": "bi", "hanViet": "mỹ", "meaningVn": "đẹp",
+        "words": [
+          { "headword": "美観", "reading": "bikan", "hanViet": "mỹ quan", "meaningVn": "đẹp mắt, thẩm mỹ" },
+          { "headword": "美化", "reading": "bika", "hanViet": "mỹ hoá", "meaningVn": "làm đẹp, tô đẹp" }
+        ]
+      },
+      "right": {
+        "character": "醜", "reading": "shuu", "hanViet": "xú", "meaningVn": "xấu",
+        "words": [
+          { "headword": "醜悪", "reading": "shuuaku", "hanViet": "xú ác", "meaningVn": "xấu xa, ghê tởm" },
+          { "headword": "醜聞", "reading": "shuubun", "hanViet": "xú văn", "meaningVn": "vụ bê bối" }
+        ]
+      },
+      "note": "美/醜 — cặp chữ trái nghĩa cơ bản, rất thông dụng."
+    },
+    {
+      "id": "ja-char-ant-ki-sen",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "貴", "reading": "ki", "hanViet": "quý", "meaningVn": "đắt, cao quý",
+        "words": [
+          { "headword": "貴重", "reading": "kichou", "hanViet": "quý trọng", "meaningVn": "quý giá" },
+          { "headword": "高貴", "reading": "kouki", "hanViet": "cao quý", "meaningVn": "cao quý" }
+        ]
+      },
+      "right": {
+        "character": "賤", "reading": "sen", "hanViet": "tiện", "meaningVn": "rẻ, thấp hèn",
+        "words": [
+          { "headword": "貧賤", "reading": "hinsen", "hanViet": "bần tiện", "meaningVn": "nghèo hèn" },
+          { "headword": "卑賤", "reading": "hisen", "hanViet": "ti tiện", "meaningVn": "thấp hèn, ti tiện" }
+        ]
+      },
+      "note": "貴/賤 — cặp chữ trái nghĩa cơ bản, rất thông dụng."
+    },
+    {
+      "id": "ja-char-ant-ze-hi",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "是", "reading": "ze", "hanViet": "thị", "meaningVn": "đúng, phải",
+        "words": [
+          { "headword": "是認", "reading": "zenin", "hanViet": "thị nhận", "meaningVn": "công nhận, tán thành" },
+          { "headword": "是正", "reading": "zesei", "hanViet": "thị chính", "meaningVn": "chỉnh sửa, sửa đúng" }
+        ]
+      },
+      "right": {
+        "character": "非", "reading": "hi", "hanViet": "phi", "meaningVn": "sai, trái",
+        "words": [
+          { "headword": "非難", "reading": "hinan", "hanViet": "phi nan", "meaningVn": "chỉ trích, phê phán" },
+          { "headword": "非行", "reading": "hikou", "hanViet": "phi hành", "meaningVn": "hành vi sai trái, phạm pháp (thiếu niên)" }
+        ]
+      },
+      "note": "是/非 — cặp chữ trái nghĩa cơ bản, rất thông dụng (是非 ghép lại thành 1 từ riêng nghĩa \"đúng sai\", \"nhất định\")."
+    },
+    {
+      "id": "ja-char-ant-ki-guu",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "奇", "reading": "ki", "hanViet": "kỳ", "meaningVn": "lẻ (số), kỳ lạ",
+        "words": [
+          { "headword": "奇数", "reading": "kisuu", "hanViet": "kỳ số", "meaningVn": "số lẻ" },
+          { "headword": "奇跡", "reading": "kiseki", "hanViet": "kỳ tích", "meaningVn": "kỳ tích, điều kỳ diệu" }
+        ]
+      },
+      "right": {
+        "character": "偶", "reading": "guu", "hanViet": "ngẫu", "meaningVn": "chẵn (số), ngẫu nhiên",
+        "words": [
+          { "headword": "偶数", "reading": "guusuu", "hanViet": "ngẫu số", "meaningVn": "số chẵn" },
+          { "headword": "偶然", "reading": "guuzen", "hanViet": "ngẫu nhiên", "meaningVn": "ngẫu nhiên, tình cờ" }
+        ]
+      },
+      "note": "奇/偶 — cặp chữ trái nghĩa cơ bản (số lẻ/số chẵn), rất thông dụng."
+    },
+    {
+      "id": "ja-char-ant-ten-chi",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "天", "reading": "ten", "hanViet": "thiên", "meaningVn": "trời",
+        "words": [
+          { "headword": "天然", "reading": "tennen", "hanViet": "thiên nhiên", "meaningVn": "tự nhiên, thiên nhiên" },
+          { "headword": "天才", "reading": "tensai", "hanViet": "thiên tài", "meaningVn": "thiên tài" }
+        ]
+      },
+      "right": {
+        "character": "地", "reading": "chi", "hanViet": "địa", "meaningVn": "đất",
+        "words": [
+          { "headword": "地球", "reading": "chikyuu", "hanViet": "địa cầu", "meaningVn": "trái đất" },
+          { "headword": "地域", "reading": "chiiki", "hanViet": "địa vực", "meaningVn": "khu vực, vùng miền" }
+        ]
+      },
+      "note": "天/地 — cặp chữ trái nghĩa cơ bản, rất thông dụng."
+    },
+    {
+      "id": "ja-char-ant-san-kai",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "山", "reading": "san", "hanViet": "sơn", "meaningVn": "núi",
+        "words": [
+          { "headword": "山脈", "reading": "sanmyaku", "hanViet": "sơn mạch", "meaningVn": "dãy núi" },
+          { "headword": "山地", "reading": "sanchi", "hanViet": "sơn địa", "meaningVn": "vùng núi" }
+        ]
+      },
+      "right": {
+        "character": "海", "reading": "kai", "hanViet": "hải", "meaningVn": "biển",
+        "words": [
+          { "headword": "海洋", "reading": "kaiyou", "hanViet": "hải dương", "meaningVn": "đại dương" },
+          { "headword": "海岸", "reading": "kaigan", "hanViet": "hải ngạn", "meaningVn": "bờ biển" }
+        ]
+      },
+      "note": "山/海 — cặp chữ đối lập cơ bản (núi/biển), rất thông dụng."
+    },
+    {
+      "id": "ja-char-ant-kyo-bi",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "巨", "reading": "kyo", "hanViet": "cự", "meaningVn": "to lớn, khổng lồ",
+        "words": [
+          { "headword": "巨人", "reading": "kyojin", "hanViet": "cự nhân", "meaningVn": "người khổng lồ" },
+          { "headword": "巨額", "reading": "kyogaku", "hanViet": "cự ngạch", "meaningVn": "số tiền khổng lồ" }
+        ]
+      },
+      "right": {
+        "character": "微", "reading": "bi", "hanViet": "vi", "meaningVn": "nhỏ bé, vi mô",
+        "words": [
+          { "headword": "微量", "reading": "biryou", "hanViet": "vi lượng", "meaningVn": "lượng cực nhỏ, vi lượng" },
+          { "headword": "微細", "reading": "bisai", "hanViet": "vi tế", "meaningVn": "nhỏ li ti, vi tế" }
+        ]
+      },
+      "note": "巨/微 — cặp chữ trái nghĩa cơ bản (khổng lồ/vi mô), rất thông dụng."
+    },
+    {
+      "id": "ja-char-ant-shuu-ka",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "衆", "reading": "shuu", "hanViet": "chúng", "meaningVn": "đông người, nhiều",
+        "words": [
+          { "headword": "大衆", "reading": "taishuu", "hanViet": "đại chúng", "meaningVn": "đại chúng, quần chúng" },
+          { "headword": "民衆", "reading": "minshuu", "hanViet": "dân chúng", "meaningVn": "dân chúng" }
+        ]
+      },
+      "right": {
+        "character": "寡", "reading": "ka", "hanViet": "quả", "meaningVn": "ít, thưa",
+        "words": [
+          { "headword": "寡黙", "reading": "kamoku", "hanViet": "quả mặc", "meaningVn": "ít nói, trầm lặng" },
+          { "headword": "寡聞", "reading": "kabun", "hanViet": "quả văn", "meaningVn": "hiểu biết nông cạn (khiêm tốn)" }
+        ]
+      },
+      "note": "衆/寡 — cặp chữ trái nghĩa cơ bản (đông/ít), thường gặp trong thành ngữ 衆寡敵せず."
+    },
+    {
+      "id": "ja-char-ant-i-wai",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "偉", "reading": "i", "hanViet": "vĩ", "meaningVn": "vĩ đại, to lớn",
+        "words": [
+          { "headword": "偉大", "reading": "idai", "hanViet": "vĩ đại", "meaningVn": "vĩ đại" },
+          { "headword": "偉人", "reading": "ijin", "hanViet": "vĩ nhân", "meaningVn": "vĩ nhân, người vĩ đại" }
+        ]
+      },
+      "right": {
+        "character": "矮", "reading": "wai", "hanViet": "ải", "meaningVn": "thấp, lùn",
+        "words": [
+          { "headword": "矮小", "reading": "waishou", "hanViet": "ải tiểu", "meaningVn": "thấp bé, còi cọc" },
+          { "headword": "矮化", "reading": "waika", "hanViet": "ải hoá", "meaningVn": "làm lùn đi (cây trồng)" }
+        ]
+      },
+      "note": "偉/矮 — cặp chữ trái nghĩa (vĩ đại/thấp lùn)."
+    },
+    {
+      "id": "ja-char-ant-fu-chin",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "浮",
+        "reading": "fu",
+        "hanViet": "phù",
+        "meaningVn": "nổi, trôi nổi",
+        "words": [
+          { "headword": "浮上", "reading": "fujō", "hanViet": "phù thượng", "meaningVn": "nổi lên, trồi lên (vấn đề nổi lên)" },
+          { "headword": "浮遊", "reading": "fuyū", "hanViet": "phù du", "meaningVn": "trôi nổi, lơ lửng" }
+        ]
+      },
+      "right": {
+        "character": "沈",
+        "reading": "chin",
+        "hanViet": "trầm",
+        "meaningVn": "chìm, lắng xuống",
+        "words": [
+          { "headword": "沈没", "reading": "chinbotsu", "hanViet": "trầm một", "meaningVn": "chìm đắm, đắm tàu" },
+          { "headword": "沈下", "reading": "chinka", "hanViet": "trầm hạ", "meaningVn": "lún, chìm xuống" }
+        ]
+      },
+      "note": "浮/沈 — cặp chữ trái nghĩa cơ bản (nổi/chìm)."
+    },
+    {
+      "id": "ja-char-ant-shuu-san",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "集",
+        "reading": "shū",
+        "hanViet": "tập",
+        "meaningVn": "tụ họp, tập hợp lại",
+        "words": [
+          { "headword": "招集", "reading": "shōshū", "hanViet": "chiêu tập", "meaningVn": "triệu tập" },
+          { "headword": "集積", "reading": "shūseki", "hanViet": "tập tích", "meaningVn": "tích lũy, dồn lại" }
+        ]
+      },
+      "right": {
+        "character": "散",
+        "reading": "san",
+        "hanViet": "tán",
+        "meaningVn": "tan, phân tán",
+        "words": [
+          { "headword": "分散", "reading": "bunsan", "hanViet": "phân tán", "meaningVn": "phân tán" },
+          { "headword": "散乱", "reading": "sanran", "hanViet": "tán loạn", "meaningVn": "tán loạn, lộn xộn" }
+        ]
+      },
+      "note": "集/散 — cặp chữ trái nghĩa cơ bản (tụ tập/phân tán)."
+    },
+    {
+      "id": "ja-char-ant-son-eki",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "損",
+        "reading": "son",
+        "hanViet": "tổn",
+        "meaningVn": "tổn hại, hao hụt",
+        "words": [
+          { "headword": "損害", "reading": "songai", "hanViet": "tổn hại", "meaningVn": "thiệt hại" },
+          { "headword": "損傷", "reading": "sonshō", "hanViet": "tổn thương", "meaningVn": "tổn thương, hư hại" }
+        ]
+      },
+      "right": {
+        "character": "益",
+        "reading": "eki",
+        "hanViet": "ích",
+        "meaningVn": "lợi ích",
+        "words": [
+          { "headword": "利益", "reading": "rieki", "hanViet": "lợi ích", "meaningVn": "lợi nhuận, lợi ích" },
+          { "headword": "有益", "reading": "yūeki", "hanViet": "hữu ích", "meaningVn": "hữu ích, bổ ích" }
+        ]
+      },
+      "note": "損/益 — cặp chữ trái nghĩa cơ bản (tổn hại/lợi ích)."
+    },
+    {
+      "id": "ja-char-ant-chou-chi",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "張",
+        "reading": "chō",
+        "hanViet": "trương",
+        "meaningVn": "căng ra, giương lên, mở rộng",
+        "words": [
+          { "headword": "緊張", "reading": "kinchō", "hanViet": "khẩn trương", "meaningVn": "căng thẳng" },
+          { "headword": "拡張", "reading": "kakuchō", "hanViet": "khuếch trương", "meaningVn": "mở rộng, khuếch trương" }
+        ]
+      },
+      "right": {
+        "character": "弛",
+        "reading": "chi",
+        "hanViet": "thì",
+        "meaningVn": "chùng xuống, buông lỏng",
+        "words": [
+          { "headword": "弛緩", "reading": "shikan", "hanViet": "thì hoãn", "meaningVn": "chùng lỏng, giãn ra" },
+          { "headword": "弛張", "reading": "shichō", "hanViet": "thì trương", "meaningVn": "lúc căng lúc chùng (弛張熱 — sốt dao động)" }
+        ]
+      },
+      "note": "張/弛 — cặp chữ trái nghĩa kinh điển (căng/chùng), cùng cơ chế với zh-char-ant-zhang-chi."
+    },
+    {
+      "id": "ja-char-ant-shitsu-jo",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "疾",
+        "reading": "shitsu",
+        "hanViet": "tật",
+        "meaningVn": "nhanh, gấp (nghĩa cổ)",
+        "words": [
+          { "headword": "疾走", "reading": "shissō", "hanViet": "tật tẩu", "meaningVn": "chạy nhanh, phi nhanh" },
+          { "headword": "疾風", "reading": "shippū", "hanViet": "tật phong", "meaningVn": "gió mạnh, cuồng phong" }
+        ]
+      },
+      "right": {
+        "character": "徐",
+        "reading": "jo",
+        "hanViet": "từ",
+        "meaningVn": "chậm rãi, từ từ",
+        "words": [
+          { "headword": "徐行", "reading": "jokō", "hanViet": "từ hành", "meaningVn": "đi chậm, giảm tốc (biển báo giao thông)" },
+          { "headword": "緩徐", "reading": "kanjo", "hanViet": "hoãn từ", "meaningVn": "chậm rãi (thuật ngữ âm nhạc, tương đương Adagio)" }
+        ]
+      },
+      "note": "疾/徐 — cặp chữ trái nghĩa cổ điển (nhanh/chậm), cùng cơ chế với zh-char-ant-ji-xu."
+    },
+    {
+      "id": "ja-char-ant-ken-kyou",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "謙",
+        "reading": "ken",
+        "hanViet": "khiêm",
+        "meaningVn": "khiêm tốn, nhún nhường",
+        "words": [
+          { "headword": "謙抑", "reading": "ken'yoku", "hanViet": "khiêm ức", "meaningVn": "khiêm tốn, kiềm chế bản thân" },
+          { "headword": "謙辞", "reading": "kenji", "hanViet": "khiêm từ", "meaningVn": "lời từ chối khiêm nhường, khiêm tốn" }
+        ]
+      },
+      "right": {
+        "character": "驕",
+        "reading": "kyō",
+        "hanViet": "kiêu",
+        "meaningVn": "kiêu ngạo, tự phụ",
+        "words": [
+          { "headword": "驕慢", "reading": "kyōman", "hanViet": "kiêu mạn", "meaningVn": "kiêu ngạo" },
+          { "headword": "驕矜", "reading": "kyōkin", "hanViet": "kiêu căng", "meaningVn": "kiêu căng, tự phụ" }
+        ]
+      },
+      "note": "謙/驕 — cặp chữ trái nghĩa cơ bản (khiêm tốn/kiêu ngạo). Dùng từ ít thông dụng hơn vì 謙虚/謙遜/謙譲 đã dùng ở cặp cụm từ đồng nghĩa-trái nghĩa trước đó."
+    },
+    {
+      "id": "ja-char-ant-sei-sui",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "醒",
+        "reading": "sei",
+        "hanViet": "tỉnh",
+        "meaningVn": "tỉnh táo, tỉnh giấc",
+        "words": [
+          { "headword": "覚醒", "reading": "kakusei", "hanViet": "giác tỉnh", "meaningVn": "tỉnh thức, tỉnh táo" },
+          { "headword": "醒然", "reading": "seizen", "hanViet": "tỉnh nhiên", "meaningVn": "tỉnh táo rõ ràng (văn viết)" }
+        ]
+      },
+      "right": {
+        "character": "酔",
+        "reading": "sui",
+        "hanViet": "túy",
+        "meaningVn": "say, mê mẩn",
+        "words": [
+          { "headword": "陶酔", "reading": "tousui", "hanViet": "đào túy", "meaningVn": "say sưa, đắm chìm" },
+          { "headword": "麻酔", "reading": "masui", "hanViet": "ma túy", "meaningVn": "gây mê, thuốc mê (y học)" }
+        ]
+      },
+      "note": "醒/酔 — cặp chữ trái nghĩa cơ bản (tỉnh táo/say mê), cùng cơ chế với zh-char-ant-xing-zui. Cả hai đều có bộ 酉 (rượu)."
+    },
+    {
+      "id": "ja-char-ant-shin-sou",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "慎",
+        "reading": "shin",
+        "hanViet": "thận",
+        "meaningVn": "thận trọng, cẩn thận",
+        "words": [
+          { "headword": "謹慎", "reading": "kinshin", "hanViet": "cẩn thận", "meaningVn": "tự kiềm chế, thận trọng (cũng nghĩa kỷ luật cấm túc)" },
+          { "headword": "不慎", "reading": "fushin", "hanViet": "bất thận", "meaningVn": "bất cẩn, sơ suất" }
+        ]
+      },
+      "right": {
+        "character": "躁",
+        "reading": "sou",
+        "hanViet": "táo",
+        "meaningVn": "nóng nảy, bồn chồn",
+        "words": [
+          { "headword": "焦躁", "reading": "shousou", "hanViet": "tiêu táo", "meaningVn": "nóng nảy, sốt ruột, bồn chồn" },
+          { "headword": "狂躁", "reading": "kyousou", "hanViet": "cuồng táo", "meaningVn": "cuồng loạn, kích động" }
+        ]
+      },
+      "note": "慎/躁 — cặp chữ trái nghĩa cơ bản (thận trọng/nóng nảy), cùng cơ chế với zh-char-ant-shen-zao. Mẹo nhớ: 慎 có bộ 忄(tim); 躁 có bộ 足(chân) — nóng nảy đến mức đứng ngồi không yên."
+    },
+    {
+      "id": "ja-char-ant-kou-hou",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "拘",
+        "reading": "kou",
+        "hanViet": "câu",
+        "meaningVn": "câu nệ, gò bó",
+        "words": [
+          { "headword": "拘泥", "reading": "kouderi", "hanViet": "câu nê", "meaningVn": "câu nệ, cố chấp tiểu tiết" },
+          { "headword": "拘引", "reading": "kouin", "hanViet": "câu dẫn", "meaningVn": "bắt giữ, dẫn giải (pháp lý)" }
+        ]
+      },
+      "right": {
+        "character": "放",
+        "reading": "hou",
+        "hanViet": "phóng",
+        "meaningVn": "phóng khoáng, buông thả",
+        "words": [
+          { "headword": "放任", "reading": "hounin", "hanViet": "phóng nhậm", "meaningVn": "buông thả, mặc kệ" },
+          { "headword": "放縦", "reading": "houjuu", "hanViet": "phóng túng", "meaningVn": "phóng túng, buông thả không kiềm chế" }
+        ]
+      },
+      "note": "拘/放 — cặp chữ trái nghĩa cơ bản (câu nệ gò bó/phóng khoáng buông thả), cùng cơ chế với zh-char-ant-ju-fang."
+    },
+    {
+      "id": "ja-char-ant-sou-jun",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "燥",
+        "reading": "sou",
+        "hanViet": "táo",
+        "meaningVn": "khô ráo, khô hanh",
+        "words": [
+          { "headword": "高燥", "reading": "kousou", "hanViet": "cao táo", "meaningVn": "đất cao ráo (địa lý, ít dùng)" },
+          { "headword": "燥性", "reading": "sousei", "hanViet": "táo tính", "meaningVn": "tính khô (y học, hóa học)" }
+        ]
+      },
+      "right": {
+        "character": "潤",
+        "reading": "jun",
+        "hanViet": "nhuận",
+        "meaningVn": "ẩm mượt, tươi nhuận",
+        "words": [
+          { "headword": "潤沢", "reading": "juntaku", "hanViet": "nhuận trạch", "meaningVn": "dồi dào, phong phú, ẩm ướt (nghĩa bóng)" },
+          { "headword": "湿潤", "reading": "shitsujun", "hanViet": "thấp nhuận", "meaningVn": "ẩm ướt" }
+        ]
+      },
+      "note": "燥/潤 — cặp chữ trái nghĩa cơ bản (khô ráo/ẩm mượt), cùng cơ chế với zh-char-ant-zao-run."
+    },
+    {
+      "id": "ja-char-ant-ken-sha",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "倹",
+        "reading": "ken",
+        "hanViet": "kiệm",
+        "meaningVn": "tiết kiệm",
+        "words": [
+          { "headword": "勤倹", "reading": "kinken", "hanViet": "cần kiệm", "meaningVn": "cần cù tiết kiệm" },
+          { "headword": "倹素", "reading": "kenso", "hanViet": "kiệm tố", "meaningVn": "giản dị tiết kiệm (văn viết, ít dùng)" }
+        ]
+      },
+      "right": {
+        "character": "奢",
+        "reading": "sha",
+        "hanViet": "xa",
+        "meaningVn": "xa xỉ",
+        "words": [
+          { "headword": "奢侈", "reading": "shashi", "hanViet": "xa xỉ", "meaningVn": "xa xỉ" },
+          { "headword": "豪奢", "reading": "gousha", "hanViet": "hào xa", "meaningVn": "xa hoa, hào nhoáng" }
+        ]
+      },
+      "note": "倹/奢 — cặp chữ trái nghĩa kinh điển (tiết kiệm/xa xỉ), cùng cơ chế với zh-char-ant-jian-she (Nhật dùng shinjitai 倹 thay vì 儉/俭)."
+    },
+    {
+      "id": "ja-char-ant-ka-kan",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "苛",
+        "reading": "ka",
+        "hanViet": "hà",
+        "meaningVn": "khắc nghiệt, hà khắc",
+        "words": [
+          { "headword": "苛酷", "reading": "kakoku", "hanViet": "hà khốc", "meaningVn": "khắc nghiệt, tàn khốc" },
+          { "headword": "苛烈", "reading": "karetsu", "hanViet": "hà liệt", "meaningVn": "gay gắt, khốc liệt" }
+        ]
+      },
+      "right": {
+        "character": "寛",
+        "reading": "kan",
+        "hanViet": "khoan",
+        "meaningVn": "khoan dung, rộng rãi",
+        "words": [
+          { "headword": "寛恕", "reading": "kanjo", "hanViet": "khoan thứ", "meaningVn": "tha thứ, khoan dung" },
+          { "headword": "寛仁", "reading": "kanjin", "hanViet": "khoan nhân", "meaningVn": "khoan dung nhân hậu" }
+        ]
+      },
+      "note": "苛/寛 — cặp chữ trái nghĩa cơ bản (khắc nghiệt/khoan dung), cùng cơ chế với zh-char-ant-ke-kuan."
+    },
+    {
+      "id": "ja-char-ant-ka-boku",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "華",
+        "reading": "ka",
+        "hanViet": "hoa",
+        "meaningVn": "hoa lệ, rực rỡ",
+        "words": [
+          { "headword": "華麗", "reading": "karei", "hanViet": "hoa lệ", "meaningVn": "lộng lẫy, rực rỡ" },
+          { "headword": "豪華", "reading": "gouka", "hanViet": "hào hoa", "meaningVn": "xa hoa, sang trọng" }
+        ]
+      },
+      "right": {
+        "character": "朴",
+        "reading": "boku",
+        "hanViet": "phác",
+        "meaningVn": "mộc mạc, giản dị",
+        "words": [
+          { "headword": "淳朴", "reading": "junboku", "hanViet": "thuần phác", "meaningVn": "chất phác, thật thà" },
+          { "headword": "古朴", "reading": "koboku", "hanViet": "cổ phác", "meaningVn": "cổ kính, mộc mạc" }
+        ]
+      },
+      "note": "華/朴 — cặp chữ trái nghĩa cơ bản (hoa lệ/mộc mạc), cùng cơ chế với zh-char-ant-hua-pu."
+    },
+    {
+      "id": "ja-char-ant-chiku-kou",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "蓄",
+        "reading": "chiku",
+        "hanViet": "súc",
+        "meaningVn": "tích trữ, để dành",
+        "words": [
+          { "headword": "貯蓄", "reading": "chochiku", "hanViet": "trữ súc", "meaningVn": "tiết kiệm, để dành" },
+          { "headword": "蓄積", "reading": "chikuseki", "hanViet": "súc tích", "meaningVn": "tích lũy" }
+        ]
+      },
+      "right": {
+        "character": "耗",
+        "reading": "kou",
+        "hanViet": "hao",
+        "meaningVn": "tiêu hao, hao tổn",
+        "words": [
+          { "headword": "消耗", "reading": "shoukou", "hanViet": "tiêu hao", "meaningVn": "tiêu hao" },
+          { "headword": "損耗", "reading": "sonkou", "hanViet": "tổn hao", "meaningVn": "hao tổn, hao hụt" }
+        ]
+      },
+      "note": "蓄/耗 — cặp chữ trái nghĩa cơ bản (tích trữ/tiêu hao), cùng cơ chế với zh-char-ant-xu-hao."
+    },
+    {
+      "id": "ja-char-ant-totsu-ben",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "訥",
+        "reading": "totsu",
+        "hanViet": "nột",
+        "meaningVn": "ít nói, vụng lời",
+        "words": [
+          { "headword": "訥弁", "reading": "totsuben", "hanViet": "nột biện", "meaningVn": "ăn nói vụng về, ít nói" },
+          { "headword": "木訥", "reading": "bokutotsu", "hanViet": "mộc nột", "meaningVn": "chất phác ít nói" }
+        ]
+      },
+      "right": {
+        "character": "弁",
+        "reading": "ben",
+        "hanViet": "biện",
+        "meaningVn": "hùng biện, khéo nói",
+        "words": [
+          { "headword": "弁才", "reading": "benzai", "hanViet": "biện tài", "meaningVn": "tài hùng biện" },
+          { "headword": "雄弁", "reading": "yuuben", "hanViet": "hùng biện", "meaningVn": "hùng biện" }
+        ]
+      },
+      "note": "訥/弁 — cặp chữ trái nghĩa cổ điển (ít nói vụng lời/hùng biện khéo nói), cùng cơ chế với zh-char-ant-ne-bian (Nhật dùng shinjitai 弁 thay vì 辯/辩)."
+    },
+    {
+      "id": "ja-char-ant-da-kin",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "惰",
+        "reading": "da",
+        "hanViet": "đọa",
+        "meaningVn": "lười biếng, trì trệ",
+        "words": [
+          { "headword": "惰性", "reading": "dasei", "hanViet": "đọa tính", "meaningVn": "quán tính, tính ì" },
+          { "headword": "惰弱", "reading": "dajaku", "hanViet": "đọa nhược", "meaningVn": "yếu đuối lười biếng (ít dùng)" }
+        ]
+      },
+      "right": {
+        "character": "勤",
+        "reading": "kin",
+        "hanViet": "cần",
+        "meaningVn": "siêng năng, chăm chỉ",
+        "words": [
+          { "headword": "勤労", "reading": "kinrou", "hanViet": "cần lao", "meaningVn": "cần lao, lao động chăm chỉ" },
+          { "headword": "精勤", "reading": "seikin", "hanViet": "tinh cần", "meaningVn": "chuyên cần, siêng năng" }
+        ]
+      },
+      "note": "惰/勤 — cặp chữ trái nghĩa kinh điển, rất thông dụng (lười biếng/siêng năng), cùng cơ chế với zh-char-ant-duo-qin."
+    },
+    {
+      "id": "ja-char-ant-zoku-dan",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "続",
+        "reading": "zoku",
+        "hanViet": "tục",
+        "meaningVn": "tiếp tục, kéo dài",
+        "words": [
+          { "headword": "継続", "reading": "keizoku", "hanViet": "kế tục", "meaningVn": "tiếp tục" },
+          { "headword": "存続", "reading": "sonzoku", "hanViet": "tồn tục", "meaningVn": "tiếp tục tồn tại, duy trì" }
+        ]
+      },
+      "right": {
+        "character": "断",
+        "reading": "dan",
+        "hanViet": "đoạn",
+        "meaningVn": "gián đoạn, cắt đứt",
+        "words": [
+          { "headword": "中断", "reading": "chuudan", "hanViet": "trung đoạn", "meaningVn": "gián đoạn, ngắt quãng" },
+          { "headword": "分断", "reading": "bundan", "hanViet": "phân đoạn", "meaningVn": "chia cắt, phân đoạn" }
+        ]
+      },
+      "note": "続/断 — cặp chữ trái nghĩa cơ bản (tiếp tục/gián đoạn), cùng cơ chế với zh-char-ant-xu-duan."
+    },
+    {
+      "id": "ja-char-ant-ren-don",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "廉",
+        "reading": "ren",
+        "hanViet": "liêm",
+        "meaningVn": "liêm khiết, trong sạch",
+        "words": [
+          { "headword": "廉潔", "reading": "renketsu", "hanViet": "liêm khiết", "meaningVn": "liêm khiết" },
+          { "headword": "清廉", "reading": "seiren", "hanViet": "thanh liêm", "meaningVn": "thanh liêm" }
+        ]
+      },
+      "right": {
+        "character": "貪",
+        "reading": "don",
+        "hanViet": "tham",
+        "meaningVn": "tham lam",
+        "words": [
+          { "headword": "貪婪", "reading": "donran", "hanViet": "tham lam", "meaningVn": "tham lam" },
+          { "headword": "貪食", "reading": "donshoku", "hanViet": "tham thực", "meaningVn": "ăn tham, phàm ăn" }
+        ]
+      },
+      "note": "廉/貪 — cặp chữ trái nghĩa kinh điển (liêm khiết/tham lam), cùng cơ chế với zh-char-ant-lian-tan."
+    },
+    {
+      "id": "ja-char-ant-yoku-seki",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "沃",
+        "reading": "yoku",
+        "hanViet": "ốc",
+        "meaningVn": "màu mỡ (đất)",
+        "words": [
+          { "headword": "沃野", "reading": "yokuya", "hanViet": "ốc dã", "meaningVn": "cánh đồng màu mỡ" },
+          { "headword": "沃土", "reading": "yokudo", "hanViet": "ốc thổ", "meaningVn": "đất màu mỡ" }
+        ]
+      },
+      "right": {
+        "character": "瘠",
+        "reading": "seki",
+        "hanViet": "tích",
+        "meaningVn": "cằn cỗi, bạc màu",
+        "words": [
+          { "headword": "瘠土", "reading": "sekido", "hanViet": "tích thổ", "meaningVn": "đất cằn cỗi" },
+          { "headword": "貧瘠", "reading": "hinseki", "hanViet": "bần tích", "meaningVn": "cằn cỗi, nghèo nàn" }
+        ]
+      },
+      "note": "沃/瘠 — cặp chữ trái nghĩa cơ bản (đất màu mỡ/cằn cỗi), cùng cơ chế với zh-char-ant-wo-ji."
+    },
+    {
+      "id": "ja-char-ant-tan-ja",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "端",
+        "reading": "tan",
+        "hanViet": "đoan",
+        "meaningVn": "đoan chính, ngay thẳng",
+        "words": [
+          { "headword": "端正", "reading": "tansei", "hanViet": "đoan chính", "meaningVn": "ngay ngắn, đoan chính" },
+          { "headword": "端麗", "reading": "tanrei", "hanViet": "đoan lệ", "meaningVn": "đoan trang xinh đẹp" }
+        ]
+      },
+      "right": {
+        "character": "邪",
+        "reading": "ja",
+        "hanViet": "tà",
+        "meaningVn": "tà vạy, gian tà",
+        "words": [
+          { "headword": "邪悪", "reading": "jaaku", "hanViet": "tà ác", "meaningVn": "tà ác, độc ác" },
+          { "headword": "邪心", "reading": "jashin", "hanViet": "tà tâm", "meaningVn": "lòng dạ xấu xa" }
+        ]
+      },
+      "note": "端/邪 — cặp chữ trái nghĩa cơ bản (đoan chính/tà vạy), cùng cơ chế với zh-char-ant-duan-xie."
+    },
+    {
+      "id": "ja-char-ant-on-retsu",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "温",
+        "reading": "on",
+        "hanViet": "ôn",
+        "meaningVn": "ôn hòa, dịu dàng",
+        "words": [
+          { "headword": "温潤", "reading": "onjun", "hanViet": "ôn nhuận", "meaningVn": "ôn hòa nhuận hậu" },
+          { "headword": "温雅", "reading": "onga", "hanViet": "ôn nhã", "meaningVn": "ôn hòa nhã nhặn" }
+        ]
+      },
+      "right": {
+        "character": "烈",
+        "reading": "retsu",
+        "hanViet": "liệt",
+        "meaningVn": "nóng nảy, mãnh liệt",
+        "words": [
+          { "headword": "激烈", "reading": "gekiretsu", "hanViet": "kích liệt", "meaningVn": "dữ dội, quyết liệt" },
+          { "headword": "猛烈", "reading": "mouretsu", "hanViet": "mãnh liệt", "meaningVn": "mãnh liệt, dữ dội" }
+        ]
+      },
+      "note": "温/烈 — cặp chữ trái nghĩa cơ bản (ôn hòa/nóng nảy mãnh liệt), cùng cơ chế với zh-char-ant-wen-lie."
+    },
+    {
+      "id": "ja-char-ant-ketsu-wai",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "潔",
+        "reading": "ketsu",
+        "hanViet": "khiết",
+        "meaningVn": "trong sạch",
+        "words": [
+          { "headword": "潔白", "reading": "keppaku", "hanViet": "khiết bạch", "meaningVn": "trong sạch" },
+          { "headword": "高潔", "reading": "kouketsu", "hanViet": "cao khiết", "meaningVn": "cao thượng trong sạch" }
+        ]
+      },
+      "right": {
+        "character": "穢",
+        "reading": "wai",
+        "hanViet": "uế",
+        "meaningVn": "dơ bẩn, ô uế",
+        "words": [
+          { "headword": "汚穢", "reading": "owai", "hanViet": "ô uế", "meaningVn": "dơ bẩn, nhơ nhuốc (từ trang trọng, ít dùng)" },
+          { "headword": "穢土", "reading": "edo", "hanViet": "uế thổ", "meaningVn": "cõi đời ô uế (thuật ngữ Phật giáo)" }
+        ]
+      },
+      "note": "潔/穢 — cặp chữ trái nghĩa cơ bản (trong sạch/ô uế), cùng cơ chế với zh-char-ant-jie-hui. Chữ 穢 không phải joyo kanji, chỉ dùng trong ngữ cảnh trang trọng/Phật giáo."
+    },
+    {
+      "id": "ja-char-ant-ken-you",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "賢",
+        "reading": "ken",
+        "hanViet": "hiền",
+        "meaningVn": "hiền tài, sáng suốt",
+        "words": [
+          { "headword": "賢者", "reading": "kenja", "hanViet": "hiền giả", "meaningVn": "người hiền tài" },
+          { "headword": "賢哲", "reading": "kentetsu", "hanViet": "hiền triết", "meaningVn": "người hiền triết" }
+        ]
+      },
+      "right": {
+        "character": "庸",
+        "reading": "you",
+        "hanViet": "dung",
+        "meaningVn": "tầm thường, bất tài",
+        "words": [
+          { "headword": "庸才", "reading": "yousai", "hanViet": "dung tài", "meaningVn": "người tài tầm thường" },
+          { "headword": "庸夫", "reading": "youfu", "hanViet": "dung phu", "meaningVn": "người tầm thường, kém cỏi" }
+        ]
+      },
+      "note": "賢/庸 — cặp chữ trái nghĩa cơ bản (hiền tài/tầm thường), cùng cơ chế với zh-char-ant-xian-yong."
+    },
+    {
+      "id": "ja-char-ant-jun-kan",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "馴",
+        "reading": "jun",
+        "hanViet": "thuần",
+        "meaningVn": "thuần phục, hiền lành",
+        "words": [
+          { "headword": "馴致", "reading": "junchi", "hanViet": "thuần trí", "meaningVn": "thuần hóa, dẫn dắt dần dần" },
+          { "headword": "馴良", "reading": "junryou", "hanViet": "thuần lương", "meaningVn": "hiền lành, thuần hậu" }
+        ]
+      },
+      "right": {
+        "character": "悍",
+        "reading": "kan",
+        "hanViet": "hãn",
+        "meaningVn": "hung hãn, dữ tợn",
+        "words": [
+          { "headword": "精悍", "reading": "seikan", "hanViet": "tinh hãn", "meaningVn": "dữ dội, sắc bén, mạnh mẽ (thường mang nghĩa khen)" },
+          { "headword": "獰悍", "reading": "doukan", "hanViet": "nính hãn", "meaningVn": "hung dữ, hung ác" }
+        ]
+      },
+      "note": "馴/悍 — cặp chữ trái nghĩa cơ bản (thuần phục hiền lành/hung hãn dữ tợn), cùng cơ chế với zh-char-ant-xun-han."
+    },
+    {
+      "id": "ja-char-ant-gun-ko",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "群",
+        "reading": "gun",
+        "hanViet": "quần",
+        "meaningVn": "đông đảo, hợp quần",
+        "words": [
+          { "headword": "群衆", "reading": "gunshuu", "hanViet": "quần chúng", "meaningVn": "đám đông" },
+          { "headword": "群生", "reading": "gunsei", "hanViet": "quần sinh", "meaningVn": "mọc thành cụm, sinh sống thành bầy" }
+        ]
+      },
+      "right": {
+        "character": "孤",
+        "reading": "ko",
+        "hanViet": "cô",
+        "meaningVn": "cô đơn, lẻ loi",
+        "words": [
+          { "headword": "孤独", "reading": "kodoku", "hanViet": "cô độc", "meaningVn": "cô đơn" },
+          { "headword": "孤立", "reading": "koritsu", "hanViet": "cô lập", "meaningVn": "cô lập" }
+        ]
+      },
+      "note": "群/孤 — cặp chữ trái nghĩa cơ bản (đông đảo hợp quần/cô đơn lẻ loi), cùng cơ chế với zh-char-ant-qun-gu."
+    },
+    {
+      "id": "ja-char-ant-fu-sen",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "腐",
+        "reading": "fu",
+        "hanViet": "hủ",
+        "meaningVn": "mục nát, hư hỏng",
+        "words": [
+          { "headword": "腐敗", "reading": "fuhai", "hanViet": "hủ bại", "meaningVn": "hủ bại, thối rữa" },
+          { "headword": "腐蝕", "reading": "fushoku", "hanViet": "hủ thực", "meaningVn": "ăn mòn, mục rữa" }
+        ]
+      },
+      "right": {
+        "character": "鮮",
+        "reading": "sen",
+        "hanViet": "tiên",
+        "meaningVn": "tươi mới",
+        "words": [
+          { "headword": "鮮明", "reading": "senmei", "hanViet": "tiên minh", "meaningVn": "rõ ràng, tươi sáng" },
+          { "headword": "鮮烈", "reading": "senretsu", "hanViet": "tiên liệt", "meaningVn": "tươi sáng mạnh mẽ, ấn tượng" }
+        ]
+      },
+      "note": "腐/鮮 — cặp chữ trái nghĩa cơ bản (mục nát hư hỏng/tươi mới), cùng cơ chế với zh-char-ant-fu-xian."
+    },
+    {
+      "id": "ja-char-ant-tou-raku",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "騰",
+        "reading": "tou",
+        "hanViet": "đằng",
+        "meaningVn": "bay vọt lên, dâng cao",
+        "words": [
+          { "headword": "沸騰", "reading": "futtou", "hanViet": "phất đằng", "meaningVn": "sôi trào, sôi sục" },
+          { "headword": "高騰", "reading": "koutou", "hanViet": "cao đằng", "meaningVn": "tăng vọt (giá cả)" }
+        ]
+      },
+      "right": {
+        "character": "落",
+        "reading": "raku",
+        "hanViet": "lạc",
+        "meaningVn": "rơi xuống, sa sút",
+        "words": [
+          { "headword": "落後", "reading": "rakugo", "hanViet": "lạc hậu", "meaningVn": "tụt hậu" },
+          { "headword": "衰落", "reading": "suiraku", "hanViet": "suy lạc", "meaningVn": "suy tàn, sa sút" }
+        ]
+      },
+      "note": "騰/落 — cặp chữ trái nghĩa cơ bản (bay vọt lên/rơi xuống sa sút), cùng cơ chế với zh-char-ant-teng-luo."
+    },
+    {
+      "id": "ja-char-ant-you-yoku",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "揚",
+        "reading": "you",
+        "hanViet": "dương",
+        "meaningVn": "đề cao, tung lên",
+        "words": [
+          { "headword": "高揚", "reading": "kouyou", "hanViet": "cao dương", "meaningVn": "nâng cao tinh thần, cao trào" },
+          { "headword": "発揚", "reading": "hatsuyou", "hanViet": "phát dương", "meaningVn": "phát huy" }
+        ]
+      },
+      "right": {
+        "character": "抑",
+        "reading": "yoku",
+        "hanViet": "ức",
+        "meaningVn": "kiềm chế, ức chế",
+        "words": [
+          { "headword": "抑制", "reading": "yokusei", "hanViet": "ức chế", "meaningVn": "ức chế, kiềm chế" },
+          { "headword": "抑圧", "reading": "yokuatsu", "hanViet": "ức áp", "meaningVn": "đàn áp, đè nén" }
+        ]
+      },
+      "note": "揚/抑 — cặp chữ trái nghĩa cơ bản (đề cao/kiềm chế), cùng cơ chế với zh-char-ant-yang-yi."
+    },
+    {
+      "id": "ja-char-ant-se-ju",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "施",
+        "reading": "se",
+        "hanViet": "thi",
+        "meaningVn": "cho, ban cho",
+        "words": [
+          { "headword": "施与", "reading": "seyo", "hanViet": "thi dữ", "meaningVn": "ban cho, bố thí" },
+          { "headword": "布施", "reading": "fuse", "hanViet": "bố thí", "meaningVn": "bố thí (thuật ngữ Phật giáo)" }
+        ]
+      },
+      "right": {
+        "character": "受",
+        "reading": "ju",
+        "hanViet": "thụ",
+        "meaningVn": "nhận, chịu",
+        "words": [
+          { "headword": "受諾", "reading": "judaku", "hanViet": "thụ nặc", "meaningVn": "chấp nhận, đồng ý" },
+          { "headword": "甘受", "reading": "kanju", "hanViet": "cam thụ", "meaningVn": "cam chịu" }
+        ]
+      },
+      "note": "施/受 — cặp chữ trái nghĩa cơ bản (cho/nhận), cùng cơ chế với zh-char-ant-shi-shou."
+    },
+    {
+      "id": "ja-char-ant-ten-saku",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "添",
+        "reading": "ten",
+        "hanViet": "thiêm",
+        "meaningVn": "thêm vào",
+        "words": [
+          { "headword": "添加", "reading": "tenka", "hanViet": "thiêm gia", "meaningVn": "thêm vào" },
+          { "headword": "添付", "reading": "tenpu", "hanViet": "thiêm phó", "meaningVn": "đính kèm (email, tài liệu)" }
+        ]
+      },
+      "right": {
+        "character": "削",
+        "reading": "saku",
+        "hanViet": "tước",
+        "meaningVn": "cắt bớt",
+        "words": [
+          { "headword": "削減", "reading": "sakugen", "hanViet": "tước giảm", "meaningVn": "cắt giảm" },
+          { "headword": "削除", "reading": "sakujo", "hanViet": "tước trừ", "meaningVn": "xóa bỏ" }
+        ]
+      },
+      "note": "添/削 — cặp chữ trái nghĩa cơ bản (thêm vào/cắt bớt), cùng cơ chế với zh-char-ant-tian-xue."
+    },
+    {
+      "id": "ja-char-ant-kou-hen",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "恒",
+        "reading": "kou",
+        "hanViet": "hằng",
+        "meaningVn": "lâu bền, không đổi",
+        "words": [
+          { "headword": "恒心", "reading": "koushin", "hanViet": "hằng tâm", "meaningVn": "lòng kiên trì bền bỉ" },
+          { "headword": "永恒", "reading": "eikou", "hanViet": "vĩnh hằng", "meaningVn": "vĩnh hằng, mãi mãi" }
+        ]
+      },
+      "right": {
+        "character": "変",
+        "reading": "hen",
+        "hanViet": "biến",
+        "meaningVn": "thay đổi",
+        "words": [
+          { "headword": "変化", "reading": "henka", "hanViet": "biến hóa", "meaningVn": "thay đổi" },
+          { "headword": "多変", "reading": "tahen", "hanViet": "đa biến", "meaningVn": "hay thay đổi, biến đổi nhiều" }
+        ]
+      },
+      "note": "恒/変 — cặp chữ trái nghĩa cơ bản (bền vững không đổi/thay đổi), cùng cơ chế với zh-char-ant-heng-bian."
+    },
+    {
+      "id": "ja-char-ant-shitsu-sha",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "執",
+        "reading": "shitsu",
+        "hanViet": "chấp",
+        "meaningVn": "nắm giữ, cố chấp",
+        "words": [
+          { "headword": "固執", "reading": "koshitsu", "hanViet": "cố chấp", "meaningVn": "cố chấp" },
+          { "headword": "執心", "reading": "shuushin", "hanViet": "chấp tâm", "meaningVn": "cố chấp, chuyên tâm (ít dùng)" }
+        ]
+      },
+      "right": {
+        "character": "捨",
+        "reading": "sha",
+        "hanViet": "xả",
+        "meaningVn": "buông bỏ, từ bỏ",
+        "words": [
+          { "headword": "捨去", "reading": "shakyo", "hanViet": "xả khứ", "meaningVn": "vứt bỏ, loại bỏ" },
+          { "headword": "割捨", "reading": "kassha", "hanViet": "cát xả", "meaningVn": "từ bỏ, dứt bỏ" }
+        ]
+      },
+      "note": "執/捨 — cặp chữ trái nghĩa cơ bản (nắm giữ cố chấp/buông bỏ), cùng cơ chế với zh-char-ant-zhi-she."
+    },
+    {
+      "id": "ja-char-ant-zen-han",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "全",
+        "reading": "zen",
+        "hanViet": "toàn",
+        "meaningVn": "toàn bộ, đầy đủ",
+        "words": [
+          { "headword": "全体", "reading": "zentai", "hanViet": "toàn thể", "meaningVn": "toàn thể" },
+          { "headword": "全般", "reading": "zenpan", "hanViet": "toàn bàn", "meaningVn": "toàn bộ, nói chung" }
+        ]
+      },
+      "right": {
+        "character": "半",
+        "reading": "han",
+        "hanViet": "bán",
+        "meaningVn": "một nửa",
+        "words": [
+          { "headword": "半途", "reading": "hanto", "hanViet": "bán đồ", "meaningVn": "giữa đường, nửa chừng" },
+          { "headword": "大半", "reading": "taihan", "hanViet": "đại bán", "meaningVn": "phần lớn, quá nửa" }
+        ]
+      },
+      "note": "全/半 — cặp chữ trái nghĩa cơ bản (toàn bộ/một nửa), cùng cơ chế với zh-char-ant-quan-ban."
+    },
+    {
+      "id": "ja-char-ant-san-ki",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "賛",
+        "reading": "san",
+        "hanViet": "tán",
+        "meaningVn": "khen ngợi",
+        "words": [
+          { "headword": "賛美", "reading": "sanbi", "hanViet": "tán mỹ", "meaningVn": "ca tụng, ngợi khen" },
+          { "headword": "絶賛", "reading": "zessan", "hanViet": "tuyệt tán", "meaningVn": "khen ngợi hết lời" }
+        ]
+      },
+      "right": {
+        "character": "毀",
+        "reading": "ki",
+        "hanViet": "hủy",
+        "meaningVn": "hủy báng, nói xấu",
+        "words": [
+          { "headword": "毀損", "reading": "kison", "hanViet": "hủy tổn", "meaningVn": "làm hư hại, tổn hại" },
+          { "headword": "毀誉", "reading": "kiyo", "hanViet": "hủy dự", "meaningVn": "khen chê (thành ngữ 毀誉褒貶)" }
+        ]
+      },
+      "note": "賛/毀 — cặp chữ trái nghĩa cơ bản (khen ngợi/hủy báng), cùng cơ chế với zh-char-ant-zan-hui."
+    },
+    {
+      "id": "ja-char-ant-kou-sui",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "昂",
+        "reading": "kou",
+        "hanViet": "ngang",
+        "meaningVn": "hiên ngang, ngẩng cao",
+        "words": [
+          { "headword": "昂揚", "reading": "kouyou", "hanViet": "ngang dương", "meaningVn": "phấn chấn, cao trào" },
+          { "headword": "昂然", "reading": "kouzen", "hanViet": "ngang nhiên", "meaningVn": "hiên ngang, ngạo nghễ" }
+        ]
+      },
+      "right": {
+        "character": "垂",
+        "reading": "sui",
+        "hanViet": "thùy",
+        "meaningVn": "rũ xuống, buông thõng",
+        "words": [
+          { "headword": "垂直", "reading": "suichoku", "hanViet": "thùy trực", "meaningVn": "thẳng đứng, vuông góc" },
+          { "headword": "垂範", "reading": "suihan", "hanViet": "thùy phạm", "meaningVn": "làm gương, nêu gương" }
+        ]
+      },
+      "note": "昂/垂 — cặp chữ trái nghĩa cơ bản (hiên ngang ngẩng cao/rũ xuống), cùng cơ chế với zh-char-ant-ang-chui."
+    },
+    {
+      "id": "ja-char-ant-ran-setsu",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "濫",
+        "reading": "ran",
+        "hanViet": "lạm",
+        "meaningVn": "lạm dụng, tràn lan",
+        "words": [
+          { "headword": "濫用", "reading": "ran'you", "hanViet": "lạm dụng", "meaningVn": "lạm dụng" },
+          { "headword": "氾濫", "reading": "hanran", "hanViet": "phiếm lạm", "meaningVn": "lũ lụt, tràn ngập" }
+        ]
+      },
+      "right": {
+        "character": "節",
+        "reading": "setsu",
+        "hanViet": "tiết",
+        "meaningVn": "tiết chế, chừng mực",
+        "words": [
+          { "headword": "節制", "reading": "sessei", "hanViet": "tiết chế", "meaningVn": "tiết chế" },
+          { "headword": "節約", "reading": "setsuyaku", "hanViet": "tiết ước", "meaningVn": "tiết kiệm" }
+        ]
+      },
+      "note": "濫/節 — cặp chữ trái nghĩa cơ bản (lạm dụng thái quá/tiết chế chừng mực), cùng cơ chế với zh-char-ant-lan-jie."
+    },
+    {
+      "id": "ja-char-ant-juku-chi",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "熟",
+        "reading": "juku",
+        "hanViet": "thục",
+        "meaningVn": "thành thục, chín",
+        "words": [
+          { "headword": "熟練", "reading": "jukuren", "hanViet": "thục luyện", "meaningVn": "thành thạo" },
+          { "headword": "習熟", "reading": "shuujuku", "hanViet": "tập thục", "meaningVn": "luyện tập thành thạo" }
+        ]
+      },
+      "right": {
+        "character": "稚",
+        "reading": "chi",
+        "hanViet": "trĩ",
+        "meaningVn": "non nớt, trẻ con",
+        "words": [
+          { "headword": "稚気", "reading": "chiki", "hanViet": "trĩ khí", "meaningVn": "tính trẻ con" },
+          { "headword": "稚齢", "reading": "chirei", "hanViet": "trĩ linh", "meaningVn": "tuổi thơ ấu (ít dùng)" }
+        ]
+      },
+      "note": "熟/稚 — cặp chữ trái nghĩa cơ bản (thành thục chín chắn/non nớt trẻ con), cùng cơ chế với zh-char-ant-shu-zhi."
+    },
+    {
+      "id": "ja-char-ant-u-shou",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "迂",
+        "reading": "u",
+        "hanViet": "vu",
+        "meaningVn": "vòng vo, xa xôi",
+        "words": [
+          { "headword": "迂回", "reading": "ukai", "hanViet": "vu hồi", "meaningVn": "đường vòng, đi vòng" },
+          { "headword": "迂路", "reading": "uro", "hanViet": "vu lộ", "meaningVn": "đường vòng (ít dùng)" }
+        ]
+      },
+      "right": {
+        "character": "捷",
+        "reading": "shou",
+        "hanViet": "tiệp",
+        "meaningVn": "nhanh, mau lẹ",
+        "words": [
+          { "headword": "捷径", "reading": "shoukei", "hanViet": "tiệp kính", "meaningVn": "đường tắt" },
+          { "headword": "捷報", "reading": "shouhou", "hanViet": "tiệp báo", "meaningVn": "tin thắng trận, tin vui" }
+        ]
+      },
+      "note": "迂/捷 — cặp chữ trái nghĩa cơ bản (vòng vo xa xôi/nhanh gọn tắt lối), cùng cơ chế với zh-char-ant-yu-jie."
+    },
+    {
+      "id": "ja-char-ant-taku-bon",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "卓",
+        "reading": "taku",
+        "hanViet": "trác",
+        "meaningVn": "xuất sắc, nổi bật",
+        "words": [
+          { "headword": "卓抜", "reading": "takubatsu", "hanViet": "trác bạt", "meaningVn": "xuất sắc, siêu quần" },
+          { "headword": "卓見", "reading": "takken", "hanViet": "trác kiến", "meaningVn": "kiến giải xuất sắc" }
+        ]
+      },
+      "right": {
+        "character": "凡",
+        "reading": "bon",
+        "hanViet": "phàm",
+        "meaningVn": "tầm thường, bình thường",
+        "words": [
+          { "headword": "凡俗", "reading": "bonzoku", "hanViet": "phàm tục", "meaningVn": "tầm thường, phàm tục" },
+          { "headword": "凡人", "reading": "bonjin", "hanViet": "phàm nhân", "meaningVn": "người phàm, người bình thường" }
+        ]
+      },
+      "note": "卓/凡 — cặp chữ trái nghĩa cơ bản (xuất sắc/tầm thường), cùng cơ chế với zh-char-ant-zhuo-fan."
+    },
+    {
+      "id": "ja-char-ant-yuu-raku",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "憂",
+        "reading": "yuu",
+        "hanViet": "ưu",
+        "meaningVn": "lo âu, lo lắng",
+        "words": [
+          { "headword": "憂慮", "reading": "yuuryo", "hanViet": "ưu lự", "meaningVn": "lo lắng, lo âu" },
+          { "headword": "憂愁", "reading": "yuushuu", "hanViet": "ưu sầu", "meaningVn": "buồn rầu, ưu sầu" }
+        ]
+      },
+      "right": {
+        "character": "楽",
+        "reading": "raku",
+        "hanViet": "lạc",
+        "meaningVn": "vui vẻ",
+        "words": [
+          { "headword": "享楽", "reading": "kyouraku", "hanViet": "hưởng lạc", "meaningVn": "hưởng thụ khoái lạc" },
+          { "headword": "悦楽", "reading": "etsuraku", "hanViet": "duyệt lạc", "meaningVn": "vui sướng (ít dùng)" }
+        ]
+      },
+      "note": "憂/楽 — cặp chữ trái nghĩa cơ bản (lo âu/vui vẻ), cùng cơ chế với zh-char-ant-you-le (Nhật dùng shinjitai 楽 thay vì 樂/乐)."
+    },
+    {
+      "id": "ja-char-ant-sai-kyuu",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "済",
+        "reading": "sai",
+        "hanViet": "tế",
+        "meaningVn": "cứu tế, giúp đỡ",
+        "words": [
+          { "headword": "救済", "reading": "kyuusai", "hanViet": "cứu tế", "meaningVn": "cứu tế, cứu trợ" },
+          { "headword": "済度", "reading": "saido", "hanViet": "tế độ", "meaningVn": "cứu độ (thuật ngữ Phật giáo)" }
+        ]
+      },
+      "right": {
+        "character": "窮",
+        "reading": "kyuu",
+        "hanViet": "cùng",
+        "meaningVn": "nghèo khó, cùng khốn",
+        "words": [
+          { "headword": "困窮", "reading": "konkyuu", "hanViet": "khốn cùng", "meaningVn": "khốn cùng, túng quẫn" },
+          { "headword": "窮乏", "reading": "kyuubou", "hanViet": "cùng phạp", "meaningVn": "thiếu thốn, nghèo túng" }
+        ]
+      },
+      "note": "済/窮 — cặp chữ trái nghĩa cơ bản (cứu tế giúp đỡ/nghèo khó cùng khốn), cùng cơ chế với zh-char-ant-ji-qiong."
+    },
+    {
+      "id": "ja-char-ant-ei-tai",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "鋭",
+        "reading": "ei",
+        "hanViet": "nhuệ",
+        "meaningVn": "sắc bén, nhanh nhạy",
+        "words": [
+          { "headword": "鋭利", "reading": "eiri", "hanViet": "nhuệ lợi", "meaningVn": "sắc bén" },
+          { "headword": "鋭気", "reading": "eiki", "hanViet": "nhuệ khí", "meaningVn": "khí thế hăng hái" }
+        ]
+      },
+      "right": {
+        "character": "滞",
+        "reading": "tai",
+        "hanViet": "trệ",
+        "meaningVn": "trì trệ, chậm chạp",
+        "words": [
+          { "headword": "停滞", "reading": "teitai", "hanViet": "đình trệ", "meaningVn": "đình trệ" },
+          { "headword": "滞留", "reading": "tairyuu", "hanViet": "trệ lưu", "meaningVn": "lưu trú kéo dài, đình trệ" }
+        ]
+      },
+      "note": "鋭/滞 — cặp chữ trái nghĩa cơ bản (sắc bén nhanh nhạy/trì trệ chậm chạp), cùng cơ chế với zh-char-ant-rui-zhi."
+    },
+    {
+      "id": "ja-char-ant-chou-soku",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "暢",
+        "reading": "chou",
+        "hanViet": "sướng",
+        "meaningVn": "thông suốt, thoải mái",
+        "words": [
+          { "headword": "流暢", "reading": "ryuuchou", "hanViet": "lưu sướng", "meaningVn": "trôi chảy, lưu loát" },
+          { "headword": "暢達", "reading": "choutatsu", "hanViet": "sướng đạt", "meaningVn": "thông suốt phát triển tốt (ít dùng)" }
+        ]
+      },
+      "right": {
+        "character": "塞",
+        "reading": "soku",
+        "hanViet": "tắc",
+        "meaningVn": "tắc nghẽn, bế tắc",
+        "words": [
+          { "headword": "閉塞", "reading": "heisoku", "hanViet": "bế tắc", "meaningVn": "bế tắc, tắc nghẽn" },
+          { "headword": "梗塞", "reading": "kousoku", "hanViet": "ngạnh tắc", "meaningVn": "tắc nghẽn (y học, ví dụ nhồi máu)" }
+        ]
+      },
+      "note": "暢/塞 — cặp chữ trái nghĩa cơ bản (thông suốt/tắc nghẽn bế tắc), cùng cơ chế với zh-char-ant-chang-se."
+    },
+    {
+      "id": "ja-char-ant-kou-shuu",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "香",
+        "reading": "kou",
+        "hanViet": "hương",
+        "meaningVn": "thơm",
+        "words": [
+          { "headword": "香気", "reading": "kouki", "hanViet": "hương khí", "meaningVn": "hương thơm" },
+          { "headword": "芳香", "reading": "houkou", "hanViet": "phương hương", "meaningVn": "thơm ngát" }
+        ]
+      },
+      "right": {
+        "character": "臭",
+        "reading": "shuu",
+        "hanViet": "xú",
+        "meaningVn": "hôi thối",
+        "words": [
+          { "headword": "臭気", "reading": "shuuki", "hanViet": "xú khí", "meaningVn": "mùi hôi" },
+          { "headword": "悪臭", "reading": "akushuu", "hanViet": "ác xú", "meaningVn": "mùi hôi thối nồng nặc" }
+        ]
+      },
+      "note": "香/臭 — cặp chữ trái nghĩa cơ bản (thơm/hôi thối), cùng cơ chế với zh-char-ant-xiang-chou."
+    },
+    {
+      "id": "ja-char-ant-hyou-da",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "剽",
+        "reading": "hyou",
+        "hanViet": "phiêu",
+        "meaningVn": "dũng mãnh, nhanh nhẹn",
+        "words": [
+          { "headword": "剽悍", "reading": "hyoukan", "hanViet": "phiêu hãn", "meaningVn": "dũng mãnh, nhanh nhẹn" },
+          { "headword": "剽勇", "reading": "hyouyuu", "hanViet": "phiêu dũng", "meaningVn": "dũng mãnh (ít dùng)" }
+        ]
+      },
+      "right": {
+        "character": "懦",
+        "reading": "da",
+        "hanViet": "nhu",
+        "meaningVn": "nhu nhược, yếu đuối",
+        "words": [
+          { "headword": "懦弱", "reading": "dajaku", "hanViet": "nhu nhược", "meaningVn": "nhu nhược, yếu đuối" },
+          { "headword": "懦夫", "reading": "dafu", "hanViet": "nhu phu", "meaningVn": "kẻ nhát gan" }
+        ]
+      },
+      "note": "剽/懦 — cặp chữ trái nghĩa cơ bản (dũng mãnh nhanh nhẹn/nhu nhược yếu đuối), cùng cơ chế với zh-char-ant-piao-nuo."
+    },
+    {
+      "id": "ja-char-ant-juu-ou",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "縦",
+        "reading": "juu",
+        "hanViet": "tung",
+        "meaningVn": "dọc, buông thả",
+        "words": [
+          { "headword": "縦隊", "reading": "juutai", "hanViet": "tung đội", "meaningVn": "đội hình hàng dọc" },
+          { "headword": "操縦", "reading": "soujuu", "hanViet": "thao túng", "meaningVn": "điều khiển, lái (máy bay, tàu...)" }
+        ]
+      },
+      "right": {
+        "character": "横",
+        "reading": "ou",
+        "hanViet": "hoành",
+        "meaningVn": "ngang, ngang ngược",
+        "words": [
+          { "headword": "横行", "reading": "oukou", "hanViet": "hoành hành", "meaningVn": "hoành hành, lộng hành" },
+          { "headword": "横暴", "reading": "oubou", "hanViet": "hoành bạo", "meaningVn": "hoành hành, ngang ngược, bạo ngược" }
+        ]
+      },
+      "note": "縦/横 — cặp chữ trái nghĩa cơ bản (dọc buông thả/ngang ngược hoành hành), cùng cơ chế với zh-char-ant-zong-heng."
+    },
+    {
+      "id": "ja-char-ant-sa-u",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "左",
+        "reading": "sa",
+        "hanViet": "tả",
+        "meaningVn": "trái",
+        "words": [
+          { "headword": "左翼", "reading": "sayoku", "hanViet": "tả dực", "meaningVn": "cánh tả, phe tả" },
+          { "headword": "左遷", "reading": "sasen", "hanViet": "tả thiên", "meaningVn": "giáng chức, thuyên chuyển xuống" }
+        ]
+      },
+      "right": {
+        "character": "右",
+        "reading": "u",
+        "hanViet": "hữu",
+        "meaningVn": "phải",
+        "words": [
+          { "headword": "右翼", "reading": "uyoku", "hanViet": "hữu dực", "meaningVn": "cánh hữu, phe hữu" },
+          { "headword": "右腕", "reading": "uwan", "hanViet": "hữu oản", "meaningVn": "cánh tay phải (cũng nghĩa 'trợ thủ đắc lực')" }
+        ]
+      },
+      "note": "左/右 — cặp chữ trái nghĩa cơ bản, rất thông dụng (trái/phải), cùng cơ chế với zh-char-ant-zuo-you."
+    },
+    {
+      "id": "ja-char-ant-sei-u",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "晴",
+        "reading": "sei",
+        "hanViet": "tình",
+        "meaningVn": "trời nắng, quang đãng",
+        "words": [
+          { "headword": "晴天", "reading": "seiten", "hanViet": "tình thiên", "meaningVn": "trời nắng" },
+          { "headword": "快晴", "reading": "kaisei", "hanViet": "khoái tình", "meaningVn": "trời quang đãng hoàn toàn (thuật ngữ thời tiết)" }
+        ]
+      },
+      "right": {
+        "character": "雨",
+        "reading": "u",
+        "hanViet": "vũ",
+        "meaningVn": "mưa",
+        "words": [
+          { "headword": "雨季", "reading": "uki", "hanViet": "vũ quý", "meaningVn": "mùa mưa" },
+          { "headword": "暴雨", "reading": "bouu", "hanViet": "bạo vũ", "meaningVn": "mưa lớn" }
+        ]
+      },
+      "note": "晴/雨 — cặp chữ trái nghĩa cơ bản (nắng ráo/mưa), cùng cơ chế với zh-char-ant-qing-yu."
+    },
+    {
+      "id": "ja-char-ant-shou-ryaku",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "詳",
+        "reading": "shou",
+        "hanViet": "tường",
+        "meaningVn": "chi tiết, kỹ lưỡng, đầy đủ",
+        "words": [
+          { "headword": "詳報", "reading": "shouhou", "hanViet": "tường báo", "meaningVn": "báo cáo chi tiết" },
+          { "headword": "詳述", "reading": "shoujutsu", "hanViet": "tường thuật", "meaningVn": "trình bày chi tiết" }
+        ]
+      },
+      "right": {
+        "character": "略",
+        "reading": "ryaku",
+        "hanViet": "lược",
+        "meaningVn": "lược bỏ, sơ lược, tóm tắt",
+        "words": [
+          { "headword": "省略", "reading": "shouryaku", "hanViet": "tỉnh lược", "meaningVn": "lược bỏ, bỏ qua" },
+          { "headword": "簡略", "reading": "kanryaku", "hanViet": "giản lược", "meaningVn": "đơn giản, sơ lược" }
+        ]
+      },
+      "note": "詳/略 — cặp chữ trái nghĩa (trình bày chi tiết/lược bỏ tóm tắt), cùng cơ chế với zh-char-ant-xiang-lue."
+    },
+    {
+      "id": "ja-char-ant-yuu-kyou",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "勇",
+        "reading": "yuu",
+        "hanViet": "dũng",
+        "meaningVn": "dũng cảm, gan dạ",
+        "words": [
+          { "headword": "武勇", "reading": "buyuu", "hanViet": "võ dũng", "meaningVn": "dũng cảm về võ nghệ" },
+          { "headword": "剛勇", "reading": "gouyuu", "hanViet": "cương dũng", "meaningVn": "mạnh mẽ dũng cảm (ít dùng, mang tính văn chương)" }
+        ]
+      },
+      "right": {
+        "character": "怯",
+        "reading": "kyou",
+        "hanViet": "khiếp",
+        "meaningVn": "sợ hãi, nhút nhát",
+        "words": [
+          { "headword": "卑怯", "reading": "hikyou", "hanViet": "ti khiếp", "meaningVn": "hèn nhát, không công bằng" },
+          { "headword": "怯懦", "reading": "kyouda", "hanViet": "khiếp nhược", "meaningVn": "nhút nhát, yếu đuối (ít dùng, mang tính văn chương)" }
+        ]
+      },
+      "note": "勇/怯 — cặp chữ trái nghĩa kinh điển (dũng cảm/khiếp nhược), cùng cơ chế với zh-char-ant-yong-qie."
+    },
+    {
+      "id": "ja-char-ant-ken-byou",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "健",
+        "reading": "ken",
+        "hanViet": "kiện",
+        "meaningVn": "khỏe mạnh, cường tráng",
+        "words": [
+          { "headword": "壮健", "reading": "souken", "hanViet": "tráng kiện", "meaningVn": "khỏe mạnh, cường tráng" },
+          { "headword": "健全", "reading": "kenzen", "hanViet": "kiện toàn", "meaningVn": "lành mạnh, vững chắc" }
+        ]
+      },
+      "right": {
+        "character": "病",
+        "reading": "byou",
+        "hanViet": "bệnh",
+        "meaningVn": "bệnh, ốm đau",
+        "words": [
+          { "headword": "疾病", "reading": "shippei", "hanViet": "tật bệnh", "meaningVn": "bệnh tật" },
+          { "headword": "病魔", "reading": "byouma", "hanViet": "bệnh ma", "meaningVn": "ví bệnh nặng như con quỷ bệnh tật (mang tính văn chương)" }
+        ]
+      },
+      "note": "健/病 — cặp chữ trái nghĩa cơ bản (khỏe mạnh/bệnh tật), cùng cơ chế với zh-char-ant-jian-bing."
+    },
+    {
+      "id": "ja-char-ant-chi-ran",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "治",
+        "reading": "chi",
+        "hanViet": "trị",
+        "meaningVn": "cai trị, chữa trị, ổn định",
+        "words": [
+          { "headword": "治療", "reading": "chiryou", "hanViet": "trị liệu", "meaningVn": "chữa trị bệnh" },
+          { "headword": "統治", "reading": "touchi", "hanViet": "thống trị", "meaningVn": "cai trị, quản lý đất nước" }
+        ]
+      },
+      "right": {
+        "character": "乱",
+        "reading": "ran",
+        "hanViet": "loạn",
+        "meaningVn": "hỗn loạn, rối loạn",
+        "words": [
+          { "headword": "混乱", "reading": "konran", "hanViet": "hỗn loạn", "meaningVn": "rối loạn, lộn xộn" },
+          { "headword": "反乱", "reading": "hanran", "hanViet": "phản loạn", "meaningVn": "nổi loạn, phản kháng" }
+        ]
+      },
+      "note": "治/乱 — cặp chữ trái nghĩa kinh điển (trị lý ổn định/hỗn loạn), cùng cơ chế với zh-char-ant-zhi-luan."
+    },
+    {
+      "id": "ja-char-ant-daku-tou",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "濁",
+        "reading": "daku",
+        "hanViet": "trọc",
+        "meaningVn": "đục, vẩn đục",
+        "words": [
+          { "headword": "濁流", "reading": "dakuryuu", "hanViet": "trọc lưu", "meaningVn": "dòng nước đục" },
+          { "headword": "濁音", "reading": "dakuon", "hanViet": "trọc âm", "meaningVn": "âm đục (thuật ngữ ngữ âm học, ví dụ が/ざ/だ/ば)" }
+        ]
+      },
+      "right": {
+        "character": "透",
+        "reading": "tou",
+        "hanViet": "thấu",
+        "meaningVn": "trong suốt, xuyên thấu",
+        "words": [
+          { "headword": "透明", "reading": "toumei", "hanViet": "thấu minh", "meaningVn": "trong suốt" },
+          { "headword": "透徹", "reading": "toutetsu", "hanViet": "thấu triệt", "meaningVn": "thấu suốt, rõ ràng, thông suốt" }
+        ]
+      },
+      "note": "濁/透 — cặp chữ trái nghĩa (đục vẩn/trong suốt). 濁 có bộ 氵(nước) — nước bị vẩn đục; 透 có bộ 辶(đi, xuyên qua) — ánh sáng/tầm nhìn xuyên qua được."
+    },
+    {
+      "id": "ja-char-ant-ju-kyou",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "需",
+        "reading": "ju",
+        "hanViet": "nhu",
+        "meaningVn": "cần, nhu cầu",
+        "words": [
+          { "headword": "需要", "reading": "juyou", "hanViet": "nhu yếu", "meaningVn": "nhu cầu" },
+          { "headword": "必需", "reading": "hitsuju", "hanViet": "tất nhu", "meaningVn": "cần thiết, không thể thiếu" }
+        ]
+      },
+      "right": {
+        "character": "供",
+        "reading": "kyou",
+        "hanViet": "cung",
+        "meaningVn": "cung cấp",
+        "words": [
+          { "headword": "供給", "reading": "kyoukyuu", "hanViet": "cung cấp", "meaningVn": "cung cấp" },
+          { "headword": "提供", "reading": "teikyou", "hanViet": "đề cung", "meaningVn": "cung cấp, đưa ra" }
+        ]
+      },
+      "note": "需/供 — cặp chữ trái nghĩa kinh điển trong kinh tế học (nhu cầu/cung cấp, như 需給関係 'quan hệ cung cầu'), cùng cơ chế với zh-char-ant-xu-gong."
+    },
+    {
+      "id": "ja-char-ant-in-kyo",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "允",
+        "reading": "in",
+        "hanViet": "doãn",
+        "meaningVn": "đồng ý, cho phép",
+        "words": [
+          { "headword": "允許", "reading": "inkyo", "hanViet": "doãn hứa", "meaningVn": "cho phép (mang tính trang trọng, pháp lý)" },
+          { "headword": "允可", "reading": "inka", "hanViet": "doãn khả", "meaningVn": "cho phép, chuẩn y (ít dùng, mang tính văn chương)" }
+        ]
+      },
+      "right": {
+        "character": "拒",
+        "reading": "kyo",
+        "hanViet": "cự",
+        "meaningVn": "từ chối, cự tuyệt",
+        "words": [
+          { "headword": "拒否", "reading": "kyohi", "hanViet": "cự phủ", "meaningVn": "từ chối" },
+          { "headword": "拒絶", "reading": "kyozetsu", "hanViet": "cự tuyệt", "meaningVn": "từ chối, cự tuyệt" }
+        ]
+      },
+      "note": "允/拒 — cặp chữ trái nghĩa (đồng ý cho phép/từ chối cự tuyệt), cùng cơ chế với zh-char-ant-yun-ju."
+    },
+    {
+      "id": "ja-char-ant-sou-jou",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "争",
+        "reading": "sou",
+        "hanViet": "tranh",
+        "meaningVn": "tranh giành, tranh chấp",
+        "words": [
+          { "headword": "競争", "reading": "kyousou", "hanViet": "cạnh tranh", "meaningVn": "cạnh tranh" },
+          { "headword": "紛争", "reading": "funsou", "hanViet": "phân tranh", "meaningVn": "tranh chấp, xung đột" }
+        ]
+      },
+      "right": {
+        "character": "譲",
+        "reading": "jou",
+        "hanViet": "nhượng",
+        "meaningVn": "nhường nhịn, nhường lại",
+        "words": [
+          { "headword": "割譲", "reading": "kanjou", "hanViet": "cát nhượng", "meaningVn": "cắt nhượng, nhượng lại lãnh thổ" },
+          { "headword": "譲渡", "reading": "jouto", "hanViet": "nhượng độ", "meaningVn": "chuyển nhượng" }
+        ]
+      },
+      "note": "争/譲 — cặp chữ trái nghĩa (tranh giành/nhường nhịn), cùng cơ chế với zh-char-ant-zheng-rang."
+    },
+    {
+      "id": "ja-char-ant-gi-shin",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "疑",
+        "reading": "gi",
+        "hanViet": "nghi",
+        "meaningVn": "nghi ngờ, hoài nghi",
+        "words": [
+          { "headword": "懐疑", "reading": "kaigi", "hanViet": "hoài nghi", "meaningVn": "hoài nghi" },
+          { "headword": "疑心", "reading": "gishin", "hanViet": "nghi tâm", "meaningVn": "lòng nghi ngờ" }
+        ]
+      },
+      "right": {
+        "character": "信",
+        "reading": "shin",
+        "hanViet": "tín",
+        "meaningVn": "tin tưởng",
+        "words": [
+          { "headword": "確信", "reading": "kakushin", "hanViet": "xác tín", "meaningVn": "tin chắc" },
+          { "headword": "信奉", "reading": "shinpou", "hanViet": "tín phụng", "meaningVn": "tin theo, sùng bái" }
+        ]
+      },
+      "note": "疑/信 — cặp chữ trái nghĩa (nghi ngờ/tin tưởng), cùng cơ chế với zh-char-ant-yi-xin."
+    },
+    {
+      "id": "ja-char-ant-shin-shuku",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "伸",
+        "reading": "shin",
+        "hanViet": "thân",
+        "meaningVn": "duỗi ra, kéo dài, mở rộng",
+        "words": [
+          { "headword": "伸長", "reading": "shinchou", "hanViet": "thân trưởng", "meaningVn": "kéo dài, mở rộng, tăng trưởng" },
+          { "headword": "伸展", "reading": "shinten", "hanViet": "thân triển", "meaningVn": "duỗi ra, mở rộng" }
+        ]
+      },
+      "right": {
+        "character": "縮",
+        "reading": "shuku",
+        "hanViet": "súc",
+        "meaningVn": "co lại, thu nhỏ",
+        "words": [
+          { "headword": "圧縮", "reading": "asshuku", "hanViet": "áp súc", "meaningVn": "nén lại, thu nhỏ" },
+          { "headword": "収縮", "reading": "shuushuku", "hanViet": "thu súc", "meaningVn": "co lại" }
+        ]
+      },
+      "note": "伸/縮 — cặp chữ trái nghĩa (duỗi ra mở rộng/co lại thu nhỏ), cùng cơ chế với zh-char-ant-shen-suo."
+    },
+    {
+      "id": "ja-char-ant-shou-batsu",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "賞",
+        "reading": "shou",
+        "hanViet": "thưởng",
+        "meaningVn": "khen thưởng",
+        "words": [
+          { "headword": "授賞", "reading": "jushou", "hanViet": "thụ thưởng", "meaningVn": "trao giải thưởng" },
+          { "headword": "賞賛", "reading": "shousan", "hanViet": "thưởng tán", "meaningVn": "khen ngợi, tán dương" }
+        ]
+      },
+      "right": {
+        "character": "罰",
+        "reading": "batsu",
+        "hanViet": "phạt",
+        "meaningVn": "trừng phạt",
+        "words": [
+          { "headword": "懲罰", "reading": "choubatsu", "hanViet": "trừng phạt", "meaningVn": "trừng phạt" },
+          { "headword": "処罰", "reading": "shobatsu", "hanViet": "xử phạt", "meaningVn": "xử phạt" }
+        ]
+      },
+      "note": "賞/罰 — cặp chữ trái nghĩa kinh điển (khen thưởng/trừng phạt, như trong 賞罰分明), cùng cơ chế với zh-char-ant-shang-fa."
+    },
+    {
+      "id": "ja-char-ant-gou-son",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "傲",
+        "reading": "gou",
+        "hanViet": "ngạo",
+        "meaningVn": "kiêu ngạo",
+        "words": [
+          { "headword": "傲然", "reading": "gouzen", "hanViet": "ngạo nhiên", "meaningVn": "vẻ kiêu ngạo, ngang nhiên" },
+          { "headword": "傲岸", "reading": "gougan", "hanViet": "ngạo ngạn", "meaningVn": "kiêu ngạo, cao ngạo" }
+        ]
+      },
+      "right": {
+        "character": "遜",
+        "reading": "son",
+        "hanViet": "tốn",
+        "meaningVn": "khiêm tốn, kém hơn",
+        "words": [
+          { "headword": "遜色", "reading": "sonshoku", "hanViet": "tốn sắc", "meaningVn": "kém hơn, thua kém" },
+          { "headword": "不遜", "reading": "fuson", "hanViet": "bất tốn", "meaningVn": "vô lễ, ngạo mạn" }
+        ]
+      },
+      "note": "傲/遜 — cặp chữ trái nghĩa (kiêu ngạo/khiêm tốn kém hơn), cùng cơ chế với zh-char-ant-ao-xun."
+    },
+    {
+      "id": "ja-char-ant-kou-hai",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "興",
+        "reading": "kou",
+        "hanViet": "hưng",
+        "meaningVn": "hưng thịnh, gây dựng",
+        "words": [
+          { "headword": "興業", "reading": "kougyou", "hanViet": "hưng nghiệp", "meaningVn": "phát triển công nghiệp, gây dựng sự nghiệp" },
+          { "headword": "復興", "reading": "fukkou", "hanViet": "phục hưng", "meaningVn": "phục hồi, tái thiết" }
+        ]
+      },
+      "right": {
+        "character": "廃",
+        "reading": "hai",
+        "hanViet": "phế",
+        "meaningVn": "bãi bỏ, hủy bỏ",
+        "words": [
+          { "headword": "廃止", "reading": "haishi", "hanViet": "phế chỉ", "meaningVn": "bãi bỏ" },
+          { "headword": "廃棄", "reading": "haiki", "hanViet": "phế khí", "meaningVn": "vứt bỏ, hủy bỏ" }
+        ]
+      },
+      "note": "興/廃 — cặp chữ trái nghĩa (gây dựng phát triển/bãi bỏ hủy diệt), cùng cơ chế với zh-char-ant-xing-fei."
+    },
+    {
+      "id": "ja-char-ant-setsu-tetsu",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "設",
+        "reading": "setsu",
+        "hanViet": "thiết",
+        "meaningVn": "thiết lập, xây dựng",
+        "words": [
+          { "headword": "設立", "reading": "setsuritsu", "hanViet": "thiết lập", "meaningVn": "thiết lập, thành lập" },
+          { "headword": "設置", "reading": "setchi", "hanViet": "thiết trí", "meaningVn": "lắp đặt, thiết lập" }
+        ]
+      },
+      "right": {
+        "character": "撤",
+        "reading": "tetsu",
+        "hanViet": "triệt",
+        "meaningVn": "rút lui, dỡ bỏ",
+        "words": [
+          { "headword": "撤去", "reading": "tekkyo", "hanViet": "triệt khứ", "meaningVn": "dỡ bỏ, tháo dỡ" },
+          { "headword": "撤回", "reading": "tekkai", "hanViet": "triệt hồi", "meaningVn": "rút lại, thu hồi" }
+        ]
+      },
+      "note": "設/撤 — cặp chữ trái nghĩa (thiết lập xây dựng/rút lui dỡ bỏ), cùng cơ chế với zh-char-ant-she-che."
+    },
+    {
+      "id": "ja-char-ant-hou-hen",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "褒",
+        "reading": "hou",
+        "hanViet": "bao",
+        "meaningVn": "khen ngợi",
+        "words": [
+          { "headword": "褒賞", "reading": "houshou", "hanViet": "bao thưởng", "meaningVn": "khen thưởng" },
+          { "headword": "礼賛", "reading": "raisan", "hanViet": "lễ tán", "meaningVn": "ca ngợi, tán dương" }
+        ]
+      },
+      "right": {
+        "character": "貶",
+        "reading": "hen",
+        "hanViet": "biếm",
+        "meaningVn": "chê bai, hạ thấp",
+        "words": [
+          { "headword": "貶下", "reading": "henge", "hanViet": "biếm hạ", "meaningVn": "hạ thấp, chê bai" },
+          { "headword": "貶称", "reading": "henshou", "hanViet": "biếm xưng", "meaningVn": "cách gọi mang tính miệt thị, hạ thấp" }
+        ]
+      },
+      "note": "褒/貶 — cặp chữ trái nghĩa kinh điển (khen ngợi/chê bai, như trong 毀誉褒貶), cùng cơ chế với zh-char-ant-bao-bian."
+    },
+    {
+      "id": "ja-char-ant-shaku-shuu",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "釈",
+        "reading": "shaku",
+        "hanViet": "thích",
+        "meaningVn": "thả ra, giải thoát",
+        "words": [
+          { "headword": "釈放", "reading": "shakuhou", "hanViet": "thích phóng", "meaningVn": "thả ra" },
+          { "headword": "保釈", "reading": "hoshaku", "hanViet": "bảo thích", "meaningVn": "tại ngoại hầu tra" }
+        ]
+      },
+      "right": {
+        "character": "囚",
+        "reading": "shuu",
+        "hanViet": "tù",
+        "meaningVn": "giam cầm",
+        "words": [
+          { "headword": "囚人", "reading": "shuujin", "hanViet": "tù nhân", "meaningVn": "tù nhân" },
+          { "headword": "幽囚", "reading": "yuushuu", "hanViet": "u tù", "meaningVn": "giam cầm (trang trọng, cổ điển)" }
+        ]
+      },
+      "note": "釈/囚 — cặp chữ trái nghĩa (thả ra giải thoát/giam cầm), cùng cơ chế với zh-char-ant-shi-qiu."
+    },
+    {
+      "id": "ja-char-ant-shuku-ju",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "祝",
+        "reading": "shuku",
+        "hanViet": "chúc",
+        "meaningVn": "chúc phúc",
+        "words": [
+          { "headword": "祝福", "reading": "shukufuku", "hanViet": "chúc phúc", "meaningVn": "chúc phúc" },
+          { "headword": "祝賀", "reading": "shukuga", "hanViet": "chúc hạ", "meaningVn": "chúc mừng" }
+        ]
+      },
+      "right": {
+        "character": "呪",
+        "reading": "ju",
+        "hanViet": "chú",
+        "meaningVn": "nguyền rủa, chú thuật",
+        "words": [
+          { "headword": "呪詛", "reading": "juso", "hanViet": "chú trở", "meaningVn": "nguyền rủa" },
+          { "headword": "呪縛", "reading": "jubaku", "hanViet": "chú phọc", "meaningVn": "trói buộc bằng bùa chú hoặc lời nguyền" }
+        ]
+      },
+      "note": "祝/呪 — cặp chữ trái nghĩa (chúc phúc/nguyền rủa), cùng cơ chế với zh-char-ant-zhu-zhou."
+    },
+    {
+      "id": "ja-char-ant-waku-go",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "惑",
+        "reading": "waku",
+        "hanViet": "hoặc",
+        "meaningVn": "mê hoặc, nghi hoặc",
+        "words": [
+          { "headword": "迷惑", "reading": "meiwaku", "hanViet": "mê hoặc", "meaningVn": "gây phiền hà, làm phiền (lưu ý: khác nghĩa tiếng Trung 迷惑 'mê hoặc, bối rối')" },
+          { "headword": "困惑", "reading": "konwaku", "hanViet": "khốn hoặc", "meaningVn": "bối rối, khó xử" }
+        ]
+      },
+      "right": {
+        "character": "悟",
+        "reading": "go",
+        "hanViet": "ngộ",
+        "meaningVn": "giác ngộ, hiểu ra",
+        "words": [
+          { "headword": "頓悟", "reading": "tongo", "hanViet": "đốn ngộ", "meaningVn": "giác ngộ đột ngột (thuật ngữ Phật giáo)" },
+          { "headword": "悟入", "reading": "gonyuu", "hanViet": "ngộ nhập", "meaningVn": "đạt được giác ngộ (thuật ngữ Phật giáo)" }
+        ]
+      },
+      "note": "惑/悟 — cặp chữ trái nghĩa (mê hoặc bối rối/giác ngộ hiểu ra), cùng cơ chế với zh-char-ant-huo-wu."
+    },
+    {
+      "id": "ja-char-ant-bou-yo",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "謗",
+        "reading": "bou",
+        "hanViet": "báng",
+        "meaningVn": "phỉ báng, nói xấu",
+        "words": [
+          { "headword": "誹謗", "reading": "hibou", "hanViet": "phỉ báng", "meaningVn": "phỉ báng, nói xấu" },
+          { "headword": "毀謗", "reading": "kibou", "hanViet": "hủy báng", "meaningVn": "phỉ báng, hủy hoại danh dự người khác" }
+        ]
+      },
+      "right": {
+        "character": "誉",
+        "reading": "yo",
+        "hanViet": "dự",
+        "meaningVn": "danh dự, khen ngợi",
+        "words": [
+          { "headword": "名誉", "reading": "meiyo", "hanViet": "danh dự", "meaningVn": "danh dự" },
+          { "headword": "光栄", "reading": "kouei", "hanViet": "quang vinh", "meaningVn": "vinh dự" }
+        ]
+      },
+      "note": "謗/誉 — cặp chữ trái nghĩa (phỉ báng nói xấu/danh dự khen ngợi), cùng cơ chế với zh-char-ant-bang-yu."
+    },
+    {
+      "id": "ja-char-ant-chi-e",
+      "language": "ja",
+      "kind": "char-antonym",
+      "left": {
+        "character": "痴",
+        "reading": "chi",
+        "hanViet": "si",
+        "meaningVn": "ngu si, si mê",
+        "words": [
+          { "headword": "痴呆", "reading": "chihou", "hanViet": "si ngốc", "meaningVn": "đần độn, si ngốc" },
+          { "headword": "痴情", "reading": "chijou", "hanViet": "si tình", "meaningVn": "si tình, mê muội vì tình" }
+        ]
+      },
+      "right": {
+        "character": "慧",
+        "reading": "e",
+        "hanViet": "tuệ",
+        "meaningVn": "thông tuệ, sáng suốt",
+        "words": [
+          { "headword": "智慧", "reading": "chie", "hanViet": "trí tuệ", "meaningVn": "trí tuệ" },
+          { "headword": "慧眼", "reading": "keigan", "hanViet": "tuệ nhãn", "meaningVn": "con mắt tinh tường, sáng suốt" }
+        ]
+      },
+      "note": "痴/慧 — cặp chữ trái nghĩa (si mê ngu muội/thông tuệ sáng suốt), cùng cơ chế với zh-char-ant-chi-hui."
+    }
+  ],
+  "todo": [
+    "Batch mở rộng (round 59): 155 cặp chữ. Thêm 2 cặp mới: 謗/誉, 痴/慧 (cặp 謹/肆 phía tiếng Trung không thêm được vì 肆 không phải chữ thông dụng trong tiếng Nhật hiện đại).",
+    "Batch mở rộng (round 58): 153 cặp chữ. Thêm 2 cặp mới: 祝/呪, 惑/悟.",
+    "Batch mở rộng (round 56): 151 cặp chữ. Thêm 1 cặp mới: 釈/囚.",
+    "Batch mở rộng (round 55): 150 cặp chữ. Thêm 1 cặp mới: 褒/貶.",
+    "Batch mở rộng (round 54): 149 cặp chữ. Thêm 2 cặp mới: 興/廃, 設/撤.",
+    "Batch mở rộng (round 52): 147 cặp chữ. Thêm 1 cặp mới: 傲/遜 (cặp 隆/衰 phía tiếng Trung không thêm được ở tiếng Nhật vì các từ ứng viên 隆盛/興隆/衰退 đều đã trùng lặp).",
+    "Batch mở rộng (round 51): 146 cặp chữ. Thêm 2 cặp mới: 伸/縮, 賞/罰.",
+    "Batch mở rộng (round 50): 144 cặp chữ. Thêm 2 cặp mới: 争/譲, 疑/信.",
+    "Batch mở rộng (round 49): 142 cặp chữ. Thêm 2 cặp mới: 需/供, 允/拒.",
+    "Batch mở rộng (round 48): 140 cặp chữ. Thêm 2 cặp mới: 治/乱, 濁/透 (cặp thứ 3 dự định 濁/清 bị bỏ vì 清 đã là root ở cặp 清/汚 trong file này — đổi sang 濁/透 để tránh trùng root).",
+    "Batch mở rộng (round 47): 138 cặp chữ. Thêm 3 cặp mới: 詳/略, 勇/怯, 健/病.",
+    "Batch mở rộng (round 46): 135 cặp chữ. Thêm 3 cặp mới: 縦/横, 左/右, 晴/雨.",
+    "Batch mở rộng (round 45): 132 cặp chữ. Thêm 2 cặp mới: 香/臭, 剽/懦.",
+    "Batch mở rộng (round 44): 130 cặp chữ. Thêm 2 cặp mới: 鋭/滞, 暢/塞.",
+    "Batch mở rộng (round 43): 128 cặp chữ. Thêm 3 cặp mới: 卓/凡, 憂/楽, 済/窮.",
+    "Batch mở rộng (round 42): 125 cặp chữ. Thêm 2 cặp mới: 熟/稚, 迂/捷.",
+    "Batch mở rộng (round 41): 123 cặp chữ. Thêm 3 cặp mới: 賛/毀, 昂/垂, 濫/節.",
+    "Batch mở rộng (round 40): 120 cặp chữ. Thêm 3 cặp mới: 恒/変, 執/捨, 全/半.",
+    "Batch mở rộng (round 39): 117 cặp chữ. Thêm 3 cặp mới: 揚/抑, 施/受, 添/削.",
+    "Batch mở rộng (round 38): 114 cặp chữ. Thêm 3 cặp mới: 群/孤, 腐/鮮, 騰/落.",
+    "Batch mở rộng (round 37): 111 cặp chữ. Thêm 3 cặp mới: 潔/穢, 賢/庸, 馴/悍.",
+    "Batch mở rộng (round 36): 108 cặp chữ. Thêm 3 cặp mới: 沃/瘠, 端/邪, 温/烈.",
+    "Batch mở rộng (round 35): 105 cặp chữ. Thêm 3 cặp mới: 惰/勤, 続/断, 廉/貪.",
+    "Batch mở rộng (round 34): 102 cặp chữ. Thêm 3 cặp mới (chữ gốc ít thông dụng hơn): 華/朴, 蓄/耗, 訥/弁.",
+    "Batch mở rộng (round 33): 99 cặp chữ. Thêm 3 cặp mới (chữ gốc ít thông dụng hơn): 燥/潤, 倹/奢, 苛/寛.",
+    "Batch mở rộng (round 32): 96 cặp chữ. Thêm 3 cặp mới (chữ gốc ít thông dụng hơn): 醒/酔, 慎/躁, 拘/放.",
+    "Batch mở rộng (round 31): 93 cặp chữ. Thêm 3 cặp mới (chữ gốc ít thông dụng hơn): 張/弛, 疾/徐, 謙/驕.",
+    "Batch mở rộng (round 30): 90 cặp chữ. Thêm 3 cặp mới (chữ gốc ít thông dụng hơn): 浮/沈, 集/散, 損/益.",
+    "Batch mở rộng (round 29): 87 cặp chữ. Thêm 3 cặp mới: 巨/微, 衆/寡, 偉/矮 (thay cho 偉/渺 vì 渺 hiếm gặp trong từ vựng tiếng Nhật hiện đại).",
+    "Batch mở rộng (round 28): 84 cặp chữ. Thêm 3 cặp mới: 奇/偶, 天/地, 山/海.",
+    "Batch mở rộng (round 27): 81 cặp chữ. Thêm 3 cặp mới: 美/醜, 貴/賤, 是/非 (thay cho 善/悪 vì 悪 đã dùng ở round trước).",
+    "Batch mở rộng (round 26): 78 cặp chữ. Thêm 3 cặp mới: 南/北, 夏/冬 (thay cho 遠/近 vì đã dùng ở round trước), 兄/弟.",
+    "Batch mở rộng (round 25): 75 cặp chữ. Thêm 3 cặp mới: 安/危, 古/今, 東/西.",
+    "Batch mở rộng (round 24): 72 cặp chữ. Thêm 3 cặp mới: 進/退, 陰/陽, 剛/柔.",
+    "Batch mở rộng (round 23): 69 cặp chữ. Thêm 3 cặp mới: 繁/簡, 悲/喜, 雅/俗.",
+    "Batch mở rộng (round 22): 66 cặp chữ. Thêm 3 cặp mới: 老/幼, 遠/近, 広/狭.",
+    "Batch mở rộng (round 21): 63 cặp chữ. Thêm 3 cặp mới: 疎/密, 緩/急, 尖/鈍.",
+    "Batch mở rộng (round 20): 60 cặp chữ. Thêm 3 cặp mới: 表/裏, 昇/降, 清/汚.",
+    "Batch mở rộng (round 19): 57 cặp chữ. Thêm 3 cặp mới: 迎/送, 因/果, 昼/夜.",
+    "Batch mở rộng (round 18): 54 cặp chữ. Thêm 3 cặp mới: 忙/閑, 智/愚, 尊/卑.",
+    "Batch mở rộng (round 17): 51 cặp chữ. Thêm 3 cặp mới: 出/入, 正/反, 主/客.",
+    "Batch mở rộng (round 16): 48 cặp chữ. Thêm 3 cặp mới: 始/終, 存/亡, 巧/拙.",
+    "Batch mở rộng (round 15): 45 cặp chữ. Thêm 3 cặp mới: 空/満, 順/逆, 隠/顕.",
+    "Batch mở rộng (round 14): 42 cặp chữ. Thêm 3 cặp mới: 厚/薄, 濃/淡, 粗/細.",
+    "Batch mở rộng (round 13): 39 cặp chữ. Thêm 3 cặp mới: 優/劣, 曲/直, 硬/軟.",
+    "Batch mở rộng (round 12): 36 cặp chữ. Thêm 3 cặp mới: 難/易, 甘/苦, 愛/憎.",
+    "Batch mở rộng (round 11): 33 cặp chữ. Có thể mở rộng thêm nếu cần.",
+    "Chú ý 高(こう)/小(しょう) trong file này và 少(しょう) đọc giống hệt nhau về mặt âm on-yomi ở 1 số từ khác (vd 症, 承) — không liên quan trực tiếp tới các cặp trái nghĩa này nhưng là rủi ro chung khi mở rộng thêm sau."
+  ]
+}
