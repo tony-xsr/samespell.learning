@@ -1,0 +1,1341 @@
+{
+  "language": "zh",
+  "label": "Bẫy nghĩa",
+  "groups": [
+    {
+      "id": "zh-ff-leng",
+      "language": "zh",
+      "reading": "冷",
+      "groupKind": "false-friend",
+      "note": "冷 (lãnh, \"lạnh\") xuất hiện trong cả hai từ nhưng ở vị trí khác nhau và nghĩa lệch hẳn: 寒冷 vẫn giữ nghĩa gốc \"lạnh\" (thời tiết), còn 冷酷 lại là tính từ chỉ TÍNH CÁCH (\"lạnh lùng, tàn nhẫn\") chứ không phải \"rất lạnh\".",
+      "roots": [
+        {
+          "id": "zh-ff-leng-root",
+          "character": "冷",
+          "hanViet": "lãnh",
+          "meaningVn": "lạnh (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "zh-ff-leng-w1",
+              "headword": "寒冷",
+              "reading": "hánlěng",
+              "meaningVn": "lạnh giá (thời tiết)",
+              "example": "冬天的北方非常寒冷。",
+              "exampleVn": "Miền Bắc vào mùa đông rất lạnh giá."
+            },
+            {
+              "id": "zh-ff-leng-w2",
+              "headword": "冷酷",
+              "reading": "lěngkù",
+              "meaningVn": "lạnh lùng, tàn nhẫn (tính cách con người, KHÔNG liên quan thời tiết)",
+              "example": "他对待员工的态度十分冷酷。",
+              "exampleVn": "Thái độ của anh ta đối với nhân viên rất lạnh lùng."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-ff-zong",
+      "language": "zh",
+      "reading": "总",
+      "groupKind": "false-friend",
+      "note": "总 (tổng) đứng đầu cả hai từ nhưng chỉ hai phạm trù khác hẳn nhau: 总台 là một ĐỊA ĐIỂM/DỊCH VỤ (quầy lễ tân, tổng đài), còn 总裁 là một CHỨC DANH con người (tổng giám đốc) — dễ nhầm nếu chỉ nhớ máy móc \"总 = tổng\".",
+      "roots": [
+        {
+          "id": "zh-ff-zong-root",
+          "character": "总",
+          "hanViet": "tổng",
+          "meaningVn": "tổng, chung, đứng đầu (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "zh-ff-zong-w1",
+              "headword": "总台",
+              "reading": "zǒngtái",
+              "meaningVn": "quầy lễ tân, tổng đài (địa điểm/dịch vụ, không phải chức danh)",
+              "example": "请到总台办理入住手续。",
+              "exampleVn": "Xin mời đến quầy lễ tân làm thủ tục nhận phòng."
+            },
+            {
+              "id": "zh-ff-zong-w2",
+              "headword": "总裁",
+              "reading": "zǒngcái",
+              "meaningVn": "tổng giám đốc, chủ tịch (chức danh con người, không phải địa điểm)",
+              "example": "她是这家公司的总裁。",
+              "exampleVn": "Cô ấy là tổng giám đốc của công ty này."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-ff-yi",
+      "language": "zh",
+      "reading": "意",
+      "groupKind": "false-friend",
+      "note": "意 (ý) xuất hiện ở vị trí khác nhau: 大意 là TÍNH TỪ/DANH TỪ chỉ sự sơ suất, chủ quan (khác hẳn nghĩa đen \"ý lớn\"), còn 意外 là DANH TỪ/TÍNH TỪ chỉ điều bất ngờ, tai nạn ngoài dự tính.",
+      "roots": [
+        {
+          "id": "zh-ff-yi-root",
+          "character": "意",
+          "hanViet": "ý",
+          "meaningVn": "ý, ý nghĩ (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "zh-ff-yi-w1",
+              "headword": "大意",
+              "reading": "dàyi",
+              "meaningVn": "sơ suất, chủ quan không để ý (KHÔNG phải \"ý lớn\")",
+              "example": "他因为大意而丢了钱包。",
+              "exampleVn": "Anh ta vì sơ suất mà làm mất ví tiền."
+            },
+            {
+              "id": "zh-ff-yi-w2",
+              "headword": "意外",
+              "reading": "yìwài",
+              "meaningVn": "bất ngờ, ngoài ý muốn, tai nạn",
+              "example": "这次事故完全是个意外。",
+              "exampleVn": "Vụ tai nạn lần này hoàn toàn là ngoài ý muốn."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-ff-qi",
+      "language": "zh",
+      "reading": "气",
+      "groupKind": "false-friend",
+      "note": "气 (khí) trong 生气 đã CHUYỂN NGHĨA THÀNH NGỮ (\"sinh khí\" theo nghĩa đen nhưng thực tế là \"tức giận\"), còn trong 气候 vẫn giữ sát nghĩa gốc \"khí\" (khí hậu, thời tiết) — một cặp minh hoạ rõ hiện tượng từ ghép trôi nghĩa (semantic drift) khỏi thành phần gốc.",
+      "roots": [
+        {
+          "id": "zh-ff-qi-root",
+          "character": "气",
+          "hanViet": "khí",
+          "meaningVn": "khí, hơi (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "zh-ff-qi-w1",
+              "headword": "生气",
+              "reading": "shēngqì",
+              "meaningVn": "tức giận (thành ngữ hoá, không phải \"sinh ra khí\")",
+              "example": "妈妈因为我说谎而生气了。",
+              "exampleVn": "Mẹ tức giận vì tôi nói dối."
+            },
+            {
+              "id": "zh-ff-qi-w2",
+              "headword": "气候",
+              "reading": "qìhòu",
+              "meaningVn": "khí hậu (sát nghĩa gốc \"khí\")",
+              "example": "这个地区的气候四季分明。",
+              "exampleVn": "Khí hậu vùng này bốn mùa rõ rệt."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-ff-xin",
+      "language": "zh",
+      "reading": "心",
+      "groupKind": "false-friend",
+      "note": "心 (tâm) trong 小心 đã thành ngữ hoá thành \"cẩn thận\" (không phải \"tim nhỏ\"), còn trong 心理 vẫn giữ sát nghĩa gốc \"tâm, tinh thần\" (tâm lý học).",
+      "roots": [
+        {
+          "id": "zh-ff-xin-root",
+          "character": "心",
+          "hanViet": "tâm",
+          "meaningVn": "tâm, trái tim, tinh thần (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "zh-ff-xin-w1",
+              "headword": "小心",
+              "reading": "xiǎoxīn",
+              "meaningVn": "cẩn thận (thành ngữ hoá, không phải \"tim nhỏ\")",
+              "example": "过马路的时候要小心。",
+              "exampleVn": "Khi qua đường phải cẩn thận."
+            },
+            {
+              "id": "zh-ff-xin-w2",
+              "headword": "心理",
+              "reading": "xīnlǐ",
+              "meaningVn": "tâm lý (sát nghĩa gốc \"tâm\")",
+              "example": "他很了解顾客的心理。",
+              "exampleVn": "Anh ta rất hiểu tâm lý khách hàng."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-ff-ma",
+      "language": "zh",
+      "reading": "马",
+      "groupKind": "false-friend",
+      "note": "马 (mã, \"ngựa\") trong 马虎 hoàn toàn KHÔNG liên quan nghĩa \"ngựa\" (từ ghép thành ngữ hoá nghĩa \"cẩu thả\"), còn trong 马路 vẫn giữ liên hệ lịch sử với \"ngựa\" (đường vốn dành cho xe ngựa xưa) rồi mở rộng thành \"đường phố\" nói chung.",
+      "roots": [
+        {
+          "id": "zh-ff-ma-root",
+          "character": "马",
+          "hanViet": "mã",
+          "meaningVn": "ngựa (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "zh-ff-ma-w1",
+              "headword": "马虎",
+              "reading": "mǎhu",
+              "meaningVn": "cẩu thả, qua loa (thành ngữ hoá, HOÀN TOÀN không liên quan \"ngựa\")",
+              "example": "工作不能马虎大意。",
+              "exampleVn": "Làm việc không được cẩu thả qua loa."
+            },
+            {
+              "id": "zh-ff-ma-w2",
+              "headword": "马路",
+              "reading": "mǎlù",
+              "meaningVn": "đường phố (gốc từ \"đường xe ngựa\" thời xưa, còn giữ liên hệ mờ với \"ngựa\")",
+              "example": "小孩子不要在马路上玩耍。",
+              "exampleVn": "Trẻ con không được chơi đùa trên đường phố."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-ff-dan",
+      "language": "zh",
+      "reading": "单",
+      "groupKind": "false-friend",
+      "note": "单 (đơn) trong 简单 là TÍNH TỪ (\"đơn giản\"), còn trong 单位 là DANH TỪ chỉ tổ chức/cơ quan (\"đơn vị công tác\") — cùng chữ 单 nhưng từ loại và phạm trù ngữ nghĩa khác hẳn.",
+      "roots": [
+        {
+          "id": "zh-ff-dan-root",
+          "character": "单",
+          "hanViet": "đơn",
+          "meaningVn": "đơn, một, lẻ (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "zh-ff-dan-w1",
+              "headword": "简单",
+              "reading": "jiǎndān",
+              "meaningVn": "đơn giản (tính từ)",
+              "example": "这道题很简单。",
+              "exampleVn": "Bài toán này rất đơn giản."
+            },
+            {
+              "id": "zh-ff-dan-w2",
+              "headword": "单位",
+              "reading": "dānwèi",
+              "meaningVn": "đơn vị công tác, cơ quan (danh từ chỉ tổ chức, khác hẳn \"đơn giản\")",
+              "example": "他在政府单位工作。",
+              "exampleVn": "Anh ta làm việc tại cơ quan nhà nước."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-ff-zhen",
+      "language": "zh",
+      "reading": "真",
+      "groupKind": "false-friend",
+      "note": "真 (chân, \"thật\") trong 认真 đã thành ngữ hoá thành \"nghiêm túc, chăm chú\" (không phải \"nhận ra sự thật\"), còn trong 真相 vẫn giữ sát nghĩa gốc \"thật\" (sự thật, chân tướng).",
+      "roots": [
+        {
+          "id": "zh-ff-zhen-root",
+          "character": "真",
+          "hanViet": "chân",
+          "meaningVn": "thật, chân thực (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "zh-ff-zhen-w1",
+              "headword": "认真",
+              "reading": "rènzhēn",
+              "meaningVn": "nghiêm túc, chăm chú (thành ngữ hoá, không phải \"nhận ra sự thật\")",
+              "example": "他学习非常认真。",
+              "exampleVn": "Cậu ấy học tập rất nghiêm túc."
+            },
+            {
+              "id": "zh-ff-zhen-w2",
+              "headword": "真相",
+              "reading": "zhēnxiàng",
+              "meaningVn": "sự thật, chân tướng (sát nghĩa gốc \"thật\")",
+              "example": "警察终于查明了真相。",
+              "exampleVn": "Cảnh sát cuối cùng đã làm rõ sự thật."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-ff-tu",
+      "language": "zh",
+      "reading": "涂",
+      "groupKind": "false-friend",
+      "note": "涂 (đồ, \"bôi/quét\") trong 糊涂 đã thành ngữ hoá thành \"mơ hồ, lú lẫn\" (không phải \"quét hồ dán\"), còn trong 涂料 vẫn giữ sát nghĩa gốc \"quét/phủ\" (vật liệu sơn phủ).",
+      "roots": [
+        {
+          "id": "zh-ff-tu-root",
+          "character": "涂",
+          "hanViet": "đồ",
+          "meaningVn": "bôi, quét, phủ lên (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "zh-ff-tu-w1",
+              "headword": "糊涂",
+              "reading": "hútú",
+              "meaningVn": "mơ hồ, lú lẫn (thành ngữ hoá, không phải \"quét hồ dán\")",
+              "example": "别把事情搞糊涂了。",
+              "exampleVn": "Đừng làm mọi việc trở nên rối tung lên."
+            },
+            {
+              "id": "zh-ff-tu-w2",
+              "headword": "涂料",
+              "reading": "túliào",
+              "meaningVn": "sơn, vật liệu phủ (sát nghĩa gốc \"quét/phủ\")",
+              "example": "这种涂料防水效果很好。",
+              "exampleVn": "Loại sơn phủ này có hiệu quả chống thấm rất tốt."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-ff-bian",
+      "language": "zh",
+      "reading": "便",
+      "groupKind": "false-friend",
+      "note": "便 (tiện) trong 顺便 vẫn giữ sát nghĩa gốc \"tiện lợi\" (nhân tiện), nhưng trong 便宜 lại trôi nghĩa hẳn sang \"RẺ\" (giá cả) — một ví dụ rõ về semantic drift: rẻ vì mua tiện lợi/dễ dàng, dần dần từ ghép chỉ còn giữ lại nghĩa \"rẻ\".",
+      "roots": [
+        {
+          "id": "zh-ff-bian-root",
+          "character": "便",
+          "hanViet": "tiện",
+          "meaningVn": "tiện lợi, thuận tiện (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "zh-ff-bian-w1",
+              "headword": "顺便",
+              "reading": "shùnbiàn",
+              "meaningVn": "tiện thể, nhân tiện (sát nghĩa gốc \"tiện\")",
+              "example": "你去超市的话，顺便买瓶水吧。",
+              "exampleVn": "Nếu bạn đi siêu thị, tiện thể mua chai nước nhé."
+            },
+            {
+              "id": "zh-ff-bian-w2",
+              "headword": "便宜",
+              "reading": "piányi",
+              "meaningVn": "rẻ (giá cả — trôi nghĩa hẳn khỏi \"tiện lợi\", KHÔNG phải \"tiện nghi\")",
+              "example": "这家店的东西很便宜。",
+              "exampleVn": "Đồ ở cửa hàng này rất rẻ."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-ff-jiu",
+      "language": "zh",
+      "reading": "究",
+      "groupKind": "false-friend",
+      "note": "究 (cứu, nghĩa gốc \"truy tìm đến cùng, nghiên cứu sâu\") xuất hiện trong cả hai nhưng từ loại và chức năng khác hẳn: 讲究 là TÍNH TỪ/ĐỘNG TỪ chỉ sự kỹ lưỡng-có phương pháp, còn 究竟 lại là PHÓ TỪ NGHI VẤN \"rốt cuộc\" — không thể suy luận nghĩa từ chữ 究 một cách máy móc.",
+      "roots": [
+        {
+          "id": "zh-ff-jiu-root",
+          "character": "究",
+          "hanViet": "cứu",
+          "meaningVn": "truy tìm đến cùng, nghiên cứu sâu (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "zh-ff-jiu-w1",
+              "headword": "讲究",
+              "reading": "jiǎngjiu",
+              "meaningVn": "chú trọng, cầu kỳ, có phương pháp (tính từ/động từ)",
+              "example": "他做菜很讲究，每种调料都要精挑细选。",
+              "exampleVn": "Anh ấy nấu ăn rất cầu kỳ, mỗi loại gia vị đều phải chọn lựa kỹ càng."
+            },
+            {
+              "id": "zh-ff-jiu-w2",
+              "headword": "究竟",
+              "reading": "jiūjìng",
+              "meaningVn": "rốt cuộc, cuối cùng (phó từ dùng trong câu hỏi)",
+              "example": "你究竟想说什么？",
+              "exampleVn": "Rốt cuộc bạn muốn nói gì?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-ff-jiao2",
+      "language": "zh",
+      "reading": "较",
+      "groupKind": "false-friend",
+      "note": "较 (giảo, \"so sánh\") giữ nghĩa gốc trong cả hai nhưng sắc thái khác hẳn: 计较 mang tính CẢM XÚC TIÊU CỰC (so đo nhỏ nhặt, để bụng), còn 比较 hoàn toàn TRUNG TÍNH khách quan (so sánh dữ liệu, phương án) — cùng \"so sánh\" nhưng một bên là thái độ, một bên là hành động phân tích.",
+      "roots": [
+        {
+          "id": "zh-ff-jiao2-root",
+          "character": "较",
+          "hanViet": "giảo",
+          "meaningVn": "so sánh, đối chiếu (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "zh-ff-jiao2-w1",
+              "headword": "计较",
+              "reading": "jìjiào",
+              "meaningVn": "so đo, tính toán chi li (thường tiêu cực, để bụng chuyện nhỏ)",
+              "example": "别跟他计较那么多。",
+              "exampleVn": "Đừng so đo tính toán với anh ta nhiều như vậy."
+            },
+            {
+              "id": "zh-ff-jiao2-w2",
+              "headword": "比较",
+              "reading": "bǐjiào",
+              "meaningVn": "so sánh (trung tính, khách quan)",
+              "example": "这两种方法比较一下就知道哪个更好。",
+              "exampleVn": "So sánh hai phương pháp này một chút là biết cái nào tốt hơn."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-ff-ban",
+      "language": "zh",
+      "reading": "扮",
+      "groupKind": "false-friend",
+      "note": "扮 (bạn, \"hoá trang/đóng vai\") trong 打扮 nghiêng về NGOẠI HÌNH đời thường (trang điểm, ăn mặc), còn trong 扮演 lại nghiêng về NGHỆ THUẬT BIỂU DIỄN (đóng vai trên sân khấu/phim) — cùng gốc \"hoá trang\" nhưng phạm vi sử dụng khác hẳn.",
+      "roots": [
+        {
+          "id": "zh-ff-ban-root",
+          "character": "扮",
+          "hanViet": "bạn",
+          "meaningVn": "hoá trang, đóng vai (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "zh-ff-ban-w1",
+              "headword": "打扮",
+              "reading": "dǎban",
+              "meaningVn": "trang điểm, ăn diện, chải chuốt (đời thường)",
+              "example": "她每天都要花一个小时打扮自己。",
+              "exampleVn": "Cô ấy mỗi ngày đều mất một tiếng để trang điểm."
+            },
+            {
+              "id": "zh-ff-ban-w2",
+              "headword": "扮演",
+              "reading": "bànyǎn",
+              "meaningVn": "đóng vai, thủ vai (diễn xuất sân khấu/phim)",
+              "example": "他在这部电影里扮演一位医生。",
+              "exampleVn": "Anh ấy đóng vai một bác sĩ trong bộ phim này."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-ff-ao",
+      "language": "zh",
+      "reading": "傲",
+      "groupKind": "false-friend",
+      "note": "傲 (ngạo) trong 骄傲 mang tính LƯỠNG NGHĨA (tích cực \"tự hào\" HOẶC tiêu cực \"kiêu ngạo\" tùy ngữ cảnh câu), còn trong 傲慢 luôn mang nghĩa TIÊU CỰC tuyệt đối (ngạo mạn, hống hách) — một ví dụ về từ đa nghĩa phụ thuộc ngữ cảnh dễ gây hiểu lầm cho người học.",
+      "roots": [
+        {
+          "id": "zh-ff-ao-root",
+          "character": "傲",
+          "hanViet": "ngạo",
+          "meaningVn": "kiêu, ngạo (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "zh-ff-ao-w1",
+              "headword": "骄傲",
+              "reading": "jiāo'ào",
+              "meaningVn": "tự hào (tích cực) HOẶC kiêu ngạo (tiêu cực) tùy ngữ cảnh",
+              "example": "父母为我的成绩感到骄傲。",
+              "exampleVn": "Cha mẹ tự hào về thành tích của tôi."
+            },
+            {
+              "id": "zh-ff-ao-w2",
+              "headword": "傲慢",
+              "reading": "àomàn",
+              "meaningVn": "ngạo mạn, hống hách (LUÔN mang nghĩa tiêu cực)",
+              "example": "他对待下属的态度很傲慢。",
+              "exampleVn": "Thái độ của anh ta đối với cấp dưới rất ngạo mạn."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-ff-tao",
+      "language": "zh",
+      "reading": "讨",
+      "groupKind": "false-friend",
+      "note": "讨 (thảo, nghĩa gốc \"đòi hỏi, tìm kiếm\") trong 讨厌 chuyển hẳn sang biểu đạt CẢM XÚC TIÊU CỰC cá nhân (ghét bỏ), còn trong 讨论 lại là hoạt động GIAO TIẾP-TRÍ TUỆ trung tính (bàn bạc) — hai phạm trù hoàn toàn khác dù cùng một chữ gốc.",
+      "roots": [
+        {
+          "id": "zh-ff-tao-root",
+          "character": "讨",
+          "hanViet": "thảo",
+          "meaningVn": "đòi hỏi, tìm kiếm (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "zh-ff-tao-w1",
+              "headword": "讨厌",
+              "reading": "tǎoyàn",
+              "meaningVn": "ghét, chán ghét, phiền phức (cảm xúc tiêu cực cá nhân)",
+              "example": "我最讨厌下雨天。",
+              "exampleVn": "Tôi ghét nhất những ngày mưa."
+            },
+            {
+              "id": "zh-ff-tao-w2",
+              "headword": "讨论",
+              "reading": "tǎolùn",
+              "meaningVn": "thảo luận, bàn bạc (hoạt động giao tiếp, trung tính)",
+              "example": "我们来讨论一下这个方案。",
+              "exampleVn": "Chúng ta cùng thảo luận về phương án này nhé."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-ff-pei",
+      "language": "zh",
+      "reading": "培",
+      "groupKind": "false-friend",
+      "note": "培 (bồi, \"vun đắp, nuôi dưỡng\") trong 培养 giữ ĐÚNG nghĩa gốc, nhưng trong 培根 lại HOÀN TOÀN không liên quan — 培根 chỉ là từ PHIÊN ÂM mượn từ tiếng Anh \"bacon\" (thịt xông khói), chữ 培 ở đây chỉ mượn ÂM ĐỌC chứ không mang nghĩa gì cả — một trường hợp \"bẫy nghĩa\" đặc biệt vì nguồn gốc từ vay mượn ngoại ngữ.",
+      "roots": [
+        {
+          "id": "zh-ff-pei-root",
+          "character": "培",
+          "hanViet": "bồi",
+          "meaningVn": "vun đắp, nuôi dưỡng (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "zh-ff-pei-w1",
+              "headword": "培养",
+              "reading": "péiyǎng",
+              "meaningVn": "nuôi dưỡng, đào tạo, bồi dưỡng (sát nghĩa gốc \"vun đắp\")",
+              "example": "学校注重培养学生的独立能力。",
+              "exampleVn": "Nhà trường chú trọng bồi dưỡng năng lực tự lập của học sinh."
+            },
+            {
+              "id": "zh-ff-pei-w2",
+              "headword": "培根",
+              "reading": "péigēn",
+              "meaningVn": "thịt xông khói (từ phiên âm mượn \"bacon\", KHÔNG liên quan nghĩa \"nuôi dưỡng\")",
+              "example": "早餐吃培根加鸡蛋。",
+              "exampleVn": "Bữa sáng ăn thịt xông khói với trứng."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-ff-suan",
+      "language": "zh",
+      "reading": "算",
+      "groupKind": "false-friend",
+      "note": "算 (toán, \"tính toán\") giữ nghĩa gốc trong cả hai nhưng phạm trù khác hẳn: 打算 là ĐỘNG TỪ chỉ Ý ĐỊNH làm việc gì (không liên quan con số), còn 划算 là TÍNH TỪ chỉ việc TÍNH TOÁN LỢI ÍCH kinh tế (đáng giá, hời).",
+      "roots": [
+        {
+          "id": "zh-ff-suan-root",
+          "character": "算",
+          "hanViet": "toán",
+          "meaningVn": "tính toán (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "zh-ff-suan-w1",
+              "headword": "打算",
+              "reading": "dǎsuàn",
+              "meaningVn": "dự định, có ý định làm gì (động từ, không liên quan con số)",
+              "example": "我打算明年去中国留学。",
+              "exampleVn": "Tôi dự định năm sau đi Trung Quốc du học."
+            },
+            {
+              "id": "zh-ff-suan-w2",
+              "headword": "划算",
+              "reading": "huásuàn",
+              "meaningVn": "đáng giá, hời (tính từ đánh giá lợi ích kinh tế)",
+              "example": "这个价格买这台电脑很划算。",
+              "exampleVn": "Giá này mua chiếc máy tính rất hời."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-ff-jing",
+      "language": "zh",
+      "reading": "精",
+      "groupKind": "false-friend",
+      "note": "精 (tinh, \"tinh tuý, tinh xảo\") xuất hiện trong cả hai nhưng đối tượng khác hẳn: 精神 là DANH TỪ TRỪU TƯỢNG (tinh thần, ý chí) hoặc tính từ \"tỉnh táo\", còn 精彩 là TÍNH TỪ khen ngợi nội dung/biểu diễn (\"hay, xuất sắc\") — không thể suy nghĩa một từ từ từ kia.",
+      "roots": [
+        {
+          "id": "zh-ff-jing-root",
+          "character": "精",
+          "hanViet": "tinh",
+          "meaningVn": "tinh tuý, tinh xảo, chọn lọc (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "zh-ff-jing-w1",
+              "headword": "精神",
+              "reading": "jīngshén",
+              "meaningVn": "tinh thần, ý chí (danh từ trừu tượng); hoặc \"tỉnh táo, khỏe khoắn\" (tính từ)",
+              "example": "他今天看起来很精神。",
+              "exampleVn": "Hôm nay trông anh ấy rất tỉnh táo, khỏe khoắn."
+            },
+            {
+              "id": "zh-ff-jing-w2",
+              "headword": "精彩",
+              "reading": "jīngcǎi",
+              "meaningVn": "xuất sắc, hay (tính từ khen ngợi biểu diễn, nội dung)",
+              "example": "昨晚的演出非常精彩。",
+              "exampleVn": "Buổi biểu diễn tối qua rất xuất sắc."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-ff-sui",
+      "language": "zh",
+      "reading": "随",
+      "groupKind": "false-friend",
+      "note": "随 (tùy, \"đi theo, tùy ý\") xuất hiện trong cả hai nhưng lệch nghĩa: 随便 nghiêng về THÁI ĐỘ (tùy tiện/tùy ý, đôi khi mang sắc thái tiêu cực \"cẩu thả\"), còn 随时 gắn với THỜI GIAN (bất cứ lúc nào, luôn sẵn sàng) — không thể thay thế cho nhau dù cùng gốc 随.",
+      "roots": [
+        {
+          "id": "zh-ff-sui-root",
+          "character": "随",
+          "hanViet": "tùy",
+          "meaningVn": "đi theo, thuận theo, tùy ý (nghĩa gốc của chữ)",
+          "words": [
+            { "id": "zh-ff-sui-w1", "headword": "随便", "reading": "suíbiàn", "meaningVn": "tùy tiện, tùy ý (thái độ hoặc phó từ, có thể mang sắc thái tiêu cực \"cẩu thả, qua loa\")", "example": "你随便说说就行了。", "exampleVn": "Bạn cứ nói tùy ý là được rồi." },
+            { "id": "zh-ff-sui-w2", "headword": "随时", "reading": "suíshí", "meaningVn": "bất cứ lúc nào, luôn luôn sẵn sàng (chỉ thời gian)", "example": "有问题可以随时联系我。", "exampleVn": "Có vấn đề gì có thể liên hệ tôi bất cứ lúc nào." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-ff-jie",
+      "language": "zh",
+      "reading": "结",
+      "groupKind": "false-friend",
+      "note": "结 là chữ ĐA ÂM thật sự (多音字): đọc jiē trong 结实 (chắc chắn, cường tráng — tính từ tả vật/thân thể) nhưng đọc jié trong 结果 (kết quả — danh từ). Không chỉ khác nghĩa mà còn khác cả thanh mẫu/thanh điệu khi phát âm — bẫy kép cho người học.",
+      "roots": [
+        {
+          "id": "zh-ff-jie-root",
+          "character": "结",
+          "hanViet": "kết",
+          "meaningVn": "buộc, kết lại (nghĩa gốc); đọc jiē hoặc jié tùy từ",
+          "words": [
+            { "id": "zh-ff-jie-w1", "headword": "结实", "reading": "jiēshi", "meaningVn": "chắc chắn, khỏe mạnh, cường tráng (tính từ, đọc jiē — thanh điệu khác 结果)", "example": "他身体很结实。", "exampleVn": "Cơ thể anh ấy rất khỏe mạnh." },
+            { "id": "zh-ff-jie-w2", "headword": "结果", "reading": "jiéguǒ", "meaningVn": "kết quả (danh từ, đọc jié)", "example": "考试结果明天公布。", "exampleVn": "Kết quả thi sẽ công bố vào ngày mai." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-ff-bai",
+      "language": "zh",
+      "reading": "白",
+      "groupKind": "false-friend",
+      "note": "白 (bạch, \"trắng\") lệch nghĩa rõ giữa hai từ: 白费 dùng nghĩa BÓNG (trắng tay → uổng công, vô ích), còn 白天 giữ nghĩa khá GẦN với gốc (trắng/sáng → ban ngày, trời sáng) — cùng một chữ nhưng một bên đã trừu tượng hóa hoàn toàn, một bên vẫn còn liên hệ hình ảnh.",
+      "roots": [
+        {
+          "id": "zh-ff-bai-root",
+          "character": "白",
+          "hanViet": "bạch",
+          "meaningVn": "trắng, sáng (nghĩa gốc của chữ)",
+          "words": [
+            { "id": "zh-ff-bai-w1", "headword": "白费", "reading": "báifèi", "meaningVn": "uổng công, phí công vô ích (nghĩa bóng, không còn liên hệ với màu trắng)", "example": "这次努力都白费了。", "exampleVn": "Lần cố gắng này đều uổng công cả." },
+            { "id": "zh-ff-bai-w2", "headword": "白天", "reading": "báitiān", "meaningVn": "ban ngày, ban ngày trời sáng (còn giữ liên hệ với nghĩa \"sáng\")", "example": "他白天上班，晚上上课。", "exampleVn": "Anh ấy ban ngày đi làm, buổi tối đi học." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-ff-huo",
+      "language": "zh",
+      "reading": "火",
+      "groupKind": "false-friend",
+      "note": "火 (hỏa, \"lửa\") lệch nghĩa rõ: 火车 giữ nghĩa khá gần với gốc (lửa → động cơ đốt trong/hơi nước → tàu chạy trên đường ray), là DANH TỪ CHỈ VẬT cụ thể; còn 火气 dùng nghĩa BÓNG hoàn toàn (lửa → nóng nảy, cáu gắt), chỉ TÍNH KHÍ con người.",
+      "roots": [
+        {
+          "id": "zh-ff-huo-root",
+          "character": "火",
+          "hanViet": "hỏa",
+          "meaningVn": "lửa (nghĩa gốc của chữ)",
+          "words": [
+            { "id": "zh-ff-huo-w1", "headword": "火车", "reading": "huǒchē", "meaningVn": "tàu hỏa (danh từ chỉ phương tiện cụ thể)", "example": "我坐火车去北京。", "exampleVn": "Tôi đi tàu hỏa đến Bắc Kinh." },
+            { "id": "zh-ff-huo-w2", "headword": "火气", "reading": "huǒqì", "meaningVn": "tính nóng nảy, hay cáu gắt (nghĩa bóng, chỉ tính khí con người)", "example": "他火气很大，说话很冲。", "exampleVn": "Anh ấy tính nóng nảy, nói chuyện rất gắt gỏng." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-ff-shou",
+      "language": "zh",
+      "reading": "手",
+      "groupKind": "false-friend",
+      "note": "手 (thủ, \"tay\") lệch nghĩa: 手机 là DANH TỪ CHỈ VẬT cụ thể cầm trên tay (điện thoại), còn 手段 dùng nghĩa TRỪU TƯỢNG hoàn toàn (tay → cách ra tay hành động → thủ đoạn, phương pháp, đôi khi mang sắc thái tiêu cực).",
+      "roots": [
+        {
+          "id": "zh-ff-shou-root",
+          "character": "手",
+          "hanViet": "thủ",
+          "meaningVn": "tay (nghĩa gốc của chữ)",
+          "words": [
+            { "id": "zh-ff-shou-w1", "headword": "手机", "reading": "shǒujī", "meaningVn": "điện thoại di động (danh từ chỉ vật cụ thể)", "example": "我的手机没电了。", "exampleVn": "Điện thoại của tôi hết pin rồi." },
+            { "id": "zh-ff-shou-w2", "headword": "手段", "reading": "shǒuduàn", "meaningVn": "thủ đoạn, phương pháp hành động (nghĩa trừu tượng, đôi khi mang sắc thái tiêu cực)", "example": "他用不正当的手段获得了成功。", "exampleVn": "Anh ta dùng thủ đoạn không chính đáng để đạt được thành công." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-ff-tou",
+      "language": "zh",
+      "reading": "头",
+      "groupKind": "false-friend",
+      "note": "头 (đầu, \"cái đầu\") lệch nghĩa: 头发 giữ nghĩa gốc (đầu → tóc mọc trên đầu), còn 头疼 vừa có nghĩa đen (đau đầu thể chất) vừa dùng nghĩa BÓNG rất phổ biến (vấn đề nan giải, rắc rối khiến người ta \"đau đầu\").",
+      "roots": [
+        {
+          "id": "zh-ff-tou-root",
+          "character": "头",
+          "hanViet": "đầu",
+          "meaningVn": "đầu, cái đầu (nghĩa gốc của chữ)",
+          "words": [
+            { "id": "zh-ff-tou-w1", "headword": "头发", "reading": "tóufa", "meaningVn": "tóc (bộ phận mọc trên đầu, nghĩa đen)", "example": "她的头发很长。", "exampleVn": "Tóc của cô ấy rất dài." },
+            { "id": "zh-ff-tou-w2", "headword": "头疼", "reading": "tóuténg", "meaningVn": "đau đầu (nghĩa đen); hoặc vấn đề nan giải, rắc rối (nghĩa bóng rất phổ biến)", "example": "这个问题真让人头疼。", "exampleVn": "Vấn đề này thật khiến người ta đau đầu." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-ff-da3",
+      "language": "zh",
+      "reading": "打",
+      "groupKind": "false-friend",
+      "note": "打 (đả, \"đánh\") đã trừu tượng hóa theo hai hướng khác hẳn nhau: 打工 = đi làm thuê (đánh → ra sức lao động → làm công), gắn với VIỆC LÀM cụ thể; 打扰 = làm phiền (đánh → quấy động → gây phiền toái), gắn với HÀNH VI XÃ HỘI. Lưu ý: 打算 và 打扮 (cũng mang chữ 打) đã có ở các nhóm 算/扮 khác nên không lặp lại ở đây.",
+      "roots": [
+        {
+          "id": "zh-ff-da3-root",
+          "character": "打",
+          "hanViet": "đả",
+          "meaningVn": "đánh (nghĩa gốc của chữ)",
+          "words": [
+            { "id": "zh-ff-da3-w1", "headword": "打工", "reading": "dǎgōng", "meaningVn": "làm thuê, đi làm công (việc làm cụ thể)", "example": "他暑假去打工了。", "exampleVn": "Anh ấy đi làm thuê vào kỳ nghỉ hè." },
+            { "id": "zh-ff-da3-w2", "headword": "打扰", "reading": "dǎrǎo", "meaningVn": "làm phiền, quấy rầy (hành vi xã hội)", "example": "不好意思打扰你了。", "exampleVn": "Xin lỗi vì đã làm phiền bạn." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-ff-mao4",
+      "language": "zh",
+      "reading": "冒",
+      "groupKind": "false-friend",
+      "note": "冒 (mạo, \"xông ra, liều\") lệch nghĩa: 冒险 giữ khá gần nghĩa gốc (liều lĩnh, dấn thân vào nguy hiểm), còn 冒充 dùng nghĩa khác hẳn (giả danh, mạo nhận là người/vật khác — liên quan đến LỪA DỐI chứ không phải LIỀU LĨNH).",
+      "roots": [
+        {
+          "id": "zh-ff-mao4-root",
+          "character": "冒",
+          "hanViet": "mạo",
+          "meaningVn": "xông ra, liều lĩnh (nghĩa gốc của chữ)",
+          "words": [
+            { "id": "zh-ff-mao4-w1", "headword": "冒险", "reading": "màoxiǎn", "meaningVn": "mạo hiểm, liều lĩnh dấn thân vào nguy hiểm", "example": "他喜欢冒险旅行。", "exampleVn": "Anh ấy thích đi du lịch mạo hiểm." },
+            { "id": "zh-ff-mao4-w2", "headword": "冒充", "reading": "màochōng", "meaningVn": "mạo nhận, giả danh là người/vật khác (liên quan đến lừa dối)", "example": "他冒充警察骗钱。", "exampleVn": "Anh ta giả danh cảnh sát để lừa tiền." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-ff-mian4",
+      "language": "zh",
+      "reading": "面",
+      "groupKind": "false-friend",
+      "note": "面 xuất hiện với hai nghĩa gốc hoàn toàn khác nhau trong tiếng Trung hiện đại: 面子 dùng nghĩa \"mặt người\" → thể diện, danh dự (trừu tượng, xã hội); 面包 dùng nghĩa \"bột mì\" (面 = bột, một nghĩa gốc khác của cùng chữ Hán) → bánh mì (vật cụ thể, ẩm thực) — hai nhánh nghĩa tách biệt hoàn toàn dù chung một chữ viết.",
+      "roots": [
+        {
+          "id": "zh-ff-mian4-root",
+          "character": "面",
+          "hanViet": "diện",
+          "meaningVn": "mặt; hoặc bột mì (hai nghĩa gốc khác nhau của cùng một chữ)",
+          "words": [
+            { "id": "zh-ff-mian4-w1", "headword": "面子", "reading": "miànzi", "meaningVn": "thể diện, danh dự (nghĩa xã hội trừu tượng, từ \"mặt người\")", "example": "他很爱面子。", "exampleVn": "Anh ấy rất coi trọng thể diện." },
+            { "id": "zh-ff-mian4-w2", "headword": "面包", "reading": "miànbāo", "meaningVn": "bánh mì (vật cụ thể, từ nghĩa \"bột mì\")", "example": "早餐我吃了面包。", "exampleVn": "Bữa sáng tôi ăn bánh mì." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-ff-kai1",
+      "language": "zh",
+      "reading": "开",
+      "groupKind": "false-friend",
+      "note": "开 (khai, \"mở\") lệch nghĩa: 开心 nghiêng về CẢM XÚC cá nhân (mở lòng → vui vẻ), còn 开发 nghiêng về HOẠT ĐỘNG kinh tế/công nghệ (mở ra → khai phá, phát triển sản phẩm/vùng đất) — hai lĩnh vực hoàn toàn khác nhau dù cùng gốc \"mở\".",
+      "roots": [
+        {
+          "id": "zh-ff-kai1-root",
+          "character": "开",
+          "hanViet": "khai",
+          "meaningVn": "mở (nghĩa gốc của chữ)",
+          "words": [
+            { "id": "zh-ff-kai1-w1", "headword": "开心", "reading": "kāixīn", "meaningVn": "vui vẻ, thoải mái (cảm xúc cá nhân)", "example": "今天玩得很开心。", "exampleVn": "Hôm nay chơi rất vui vẻ." },
+            { "id": "zh-ff-kai1-w2", "headword": "开发", "reading": "kāifā", "meaningVn": "khai phá, phát triển (kinh tế, công nghệ, sản phẩm, vùng đất)", "example": "公司正在开发新产品。", "exampleVn": "Công ty đang phát triển sản phẩm mới." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-ff-dong4",
+      "language": "zh",
+      "reading": "动",
+      "groupKind": "false-friend",
+      "note": "动 (động, \"chuyển động\") lệch nghĩa: 动手 giữ nghĩa VẬT LÝ cụ thể (ra tay làm việc gì, hoặc đánh nhau), còn 动人 dùng nghĩa TRỪU TƯỢNG hoàn toàn (chuyển động → lay động lòng người → cảm động, xúc động).",
+      "roots": [
+        {
+          "id": "zh-ff-dong4-root",
+          "character": "动",
+          "hanViet": "động",
+          "meaningVn": "chuyển động, cử động (nghĩa gốc của chữ)",
+          "words": [
+            { "id": "zh-ff-dong4-w1", "headword": "动手", "reading": "dòngshǒu", "meaningVn": "ra tay làm, bắt tay vào việc; hoặc đánh nhau (hành động vật lý cụ thể)", "example": "我们开始动手准备晚饭吧。", "exampleVn": "Chúng ta bắt tay vào chuẩn bị bữa tối thôi." },
+            { "id": "zh-ff-dong4-w2", "headword": "动人", "reading": "dòngrén", "meaningVn": "cảm động, lay động lòng người (nghĩa trừu tượng, cảm xúc)", "example": "这是一个非常动人的故事。", "exampleVn": "Đây là một câu chuyện rất cảm động." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-ff-hao3",
+      "language": "zh",
+      "reading": "好",
+      "groupKind": "false-friend",
+      "note": "好 là chữ ĐA ÂM thật sự (多音字), khiến bẫy kép: 好看 đọc hǎo (tốt, đẹp — tính từ chỉ ngoại hình dễ nhìn), còn 好客 đọc HÀO (thích, ham — nghĩa \"thích tiếp khách\" → hiếu khách). Khác cả thanh mẫu ý nghĩa gốc lẫn cách đọc.",
+      "roots": [
+        {
+          "id": "zh-ff-hao3-root",
+          "character": "好",
+          "hanViet": "hảo / hiếu",
+          "meaningVn": "tốt, đẹp (đọc hǎo); hoặc thích, ham (đọc hào) — hai nghĩa gốc khác nhau của cùng một chữ",
+          "words": [
+            { "id": "zh-ff-hao3-w1", "headword": "好看", "reading": "hǎokàn", "meaningVn": "đẹp, dễ nhìn (tính từ, đọc hǎo)", "example": "这件衣服很好看。", "exampleVn": "Bộ quần áo này rất đẹp." },
+            { "id": "zh-ff-hao3-w2", "headword": "好客", "reading": "hàokè", "meaningVn": "hiếu khách, thích tiếp đãi khách (tính từ, đọc HÀO — khác thanh điệu/nghĩa với 好看)", "example": "这里的人非常好客。", "exampleVn": "Người dân ở đây rất hiếu khách." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-ff-zou3",
+      "language": "zh",
+      "reading": "走",
+      "groupKind": "false-friend",
+      "note": "走 (tẩu, \"đi\") lệch nghĩa: 走路 giữ nghĩa đen (đi bộ bằng chân), còn 走私 dùng nghĩa hoàn toàn khác (đi lén lút → buôn lậu, hành vi phi pháp qua biên giới) — không còn liên hệ trực tiếp với động tác \"đi\" thông thường.",
+      "roots": [
+        {
+          "id": "zh-ff-zou3-root",
+          "character": "走",
+          "hanViet": "tẩu",
+          "meaningVn": "đi, đi bộ (nghĩa gốc của chữ)",
+          "words": [
+            { "id": "zh-ff-zou3-w1", "headword": "走路", "reading": "zǒulù", "meaningVn": "đi bộ (nghĩa đen)", "example": "我每天走路上班。", "exampleVn": "Mỗi ngày tôi đi bộ đi làm." },
+            { "id": "zh-ff-zou3-w2", "headword": "走私", "reading": "zǒusī", "meaningVn": "buôn lậu (hành vi phi pháp, nghĩa đã trừu tượng hóa hoàn toàn)", "example": "他因走私被捕了。", "exampleVn": "Anh ta bị bắt vì tội buôn lậu." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-ff-luo4",
+      "language": "zh",
+      "reading": "落",
+      "groupKind": "false-friend",
+      "note": "落 (lạc, \"rơi rụng\") lệch nghĩa: 落叶 giữ nghĩa đen (lá rơi rụng), còn 落后 dùng nghĩa bóng (rơi lại phía sau → lạc hậu, tụt hậu so với người khác/thời đại).",
+      "roots": [
+        {
+          "id": "zh-ff-luo4-root",
+          "character": "落",
+          "hanViet": "lạc",
+          "meaningVn": "rơi, rụng xuống (nghĩa gốc của chữ)",
+          "words": [
+            { "id": "zh-ff-luo4-w1", "headword": "落后", "reading": "luòhòu", "meaningVn": "lạc hậu, tụt hậu (nghĩa bóng, tính từ trừu tượng)", "example": "这个地区的经济比较落后。", "exampleVn": "Kinh tế của khu vực này khá lạc hậu." },
+            { "id": "zh-ff-luo4-w2", "headword": "落叶", "reading": "luòyè", "meaningVn": "lá rụng (danh từ, nghĩa đen)", "example": "秋天到处都是落叶。", "exampleVn": "Mùa thu ở đâu cũng thấy lá rụng." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-ff-lao3",
+      "language": "zh",
+      "reading": "老",
+      "groupKind": "false-friend",
+      "note": "老 (lão, \"già\") lệch nghĩa: 老实 dùng nghĩa bóng (già dặn, chín chắn → thật thà, chất phác — tính cách), còn 老板 dùng chữ 老 như tiền tố tôn xưng (chỉ người đứng đầu, ông chủ — không liên quan trực tiếp đến tuổi tác).",
+      "roots": [
+        {
+          "id": "zh-ff-lao3-root",
+          "character": "老",
+          "hanViet": "lão",
+          "meaningVn": "già (nghĩa gốc của chữ)",
+          "words": [
+            { "id": "zh-ff-lao3-w1", "headword": "老实", "reading": "lǎoshi", "meaningVn": "thật thà, chất phác (tính cách, nghĩa bóng)", "example": "他是个老实人。", "exampleVn": "Anh ấy là một người thật thà." },
+            { "id": "zh-ff-lao3-w2", "headword": "老板", "reading": "lǎobǎn", "meaningVn": "ông chủ (danh từ chỉ người, 老 dùng như tiền tố tôn xưng)", "example": "他是这家店的老板。", "exampleVn": "Anh ấy là ông chủ của cửa hàng này." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-ff-sheng1",
+      "language": "zh",
+      "reading": "生",
+      "groupKind": "false-friend",
+      "note": "生 (sinh, \"sống, sinh ra\") lệch nghĩa: 生日 giữ nghĩa đen (ngày sinh ra), còn 生动 dùng nghĩa bóng (có sức sống → sống động, sinh động — mô tả chất lượng biểu đạt của văn viết/bài giảng). Lưu ý: 生气 (cũng mang chữ 生) đã có ở nhóm 气 khác nên không lặp lại ở đây.",
+      "roots": [
+        {
+          "id": "zh-ff-sheng1-root",
+          "character": "生",
+          "hanViet": "sinh",
+          "meaningVn": "sống, sinh ra (nghĩa gốc của chữ)",
+          "words": [
+            { "id": "zh-ff-sheng1-w1", "headword": "生日", "reading": "shēngrì", "meaningVn": "sinh nhật (nghĩa đen)", "example": "今天是我的生日。", "exampleVn": "Hôm nay là sinh nhật của tôi." },
+            { "id": "zh-ff-sheng1-w2", "headword": "生动", "reading": "shēngdòng", "meaningVn": "sống động, sinh động (nghĩa bóng, mô tả chất lượng biểu đạt)", "example": "老师讲得很生动。", "exampleVn": "Thầy giáo giảng bài rất sinh động." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-ff-si3",
+      "language": "zh",
+      "reading": "死",
+      "groupKind": "false-friend",
+      "note": "死 (tử, \"chết\") lệch nghĩa: 死亡 giữ nghĩa đen (cái chết về mặt sinh học), còn 死心 dùng nghĩa bóng (lòng đã chết → từ bỏ hy vọng, cam chịu không còn mong đợi điều gì nữa).",
+      "roots": [
+        {
+          "id": "zh-ff-si3-root",
+          "character": "死",
+          "hanViet": "tử",
+          "meaningVn": "chết (nghĩa gốc của chữ)",
+          "words": [
+            { "id": "zh-ff-si3-w1", "headword": "死亡", "reading": "sǐwáng", "meaningVn": "tử vong, cái chết (nghĩa đen, sinh học)", "example": "事故造成三人死亡。", "exampleVn": "Vụ tai nạn khiến ba người tử vong." },
+            { "id": "zh-ff-si3-w2", "headword": "死心", "reading": "sǐxīn", "meaningVn": "từ bỏ hy vọng, cam chịu (nghĩa bóng)", "example": "他终于死心了。", "exampleVn": "Cuối cùng anh ấy cũng từ bỏ hy vọng." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-ff-kong1",
+      "language": "zh",
+      "reading": "空",
+      "groupKind": "false-friend",
+      "note": "空 là chữ ĐA ÂM thật sự (多音字): đọc kōng trong 空气 (trống rỗng → không khí, DANH TỪ chỉ vật chất), nhưng đọc KÒNG trong 空闲 (khoảng trống → thời gian rảnh rỗi). Vừa lệch nghĩa vừa lệch thanh điệu.",
+      "roots": [
+        {
+          "id": "zh-ff-kong1-root",
+          "character": "空",
+          "hanViet": "không",
+          "meaningVn": "trống rỗng (nghĩa gốc); đọc kōng hoặc kòng tùy từ",
+          "words": [
+            { "id": "zh-ff-kong1-w1", "headword": "空气", "reading": "kōngqì", "meaningVn": "không khí (danh từ, đọc kōng)", "example": "这里的空气很新鲜。", "exampleVn": "Không khí ở đây rất trong lành." },
+            { "id": "zh-ff-kong1-w2", "headword": "空闲", "reading": "kòngxián", "meaningVn": "rảnh rỗi, thời gian trống (tính từ/danh từ, đọc kòng — khác thanh điệu với 空气)", "example": "我今天有空闲时间。", "exampleVn": "Hôm nay tôi có thời gian rảnh." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-ff-feng1",
+      "language": "zh",
+      "reading": "风",
+      "groupKind": "false-friend",
+      "note": "风 (phong, \"gió\") lệch nghĩa: 风景 giữ nghĩa khá gần với gốc (gió/cảnh trời → phong cảnh, cảnh quan thiên nhiên), còn 风格 dùng nghĩa trừu tượng hoàn toàn (phong thái → phong cách nghệ thuật/cá tính của một người/tác phẩm).",
+      "roots": [
+        {
+          "id": "zh-ff-feng1-root",
+          "character": "风",
+          "hanViet": "phong",
+          "meaningVn": "gió (nghĩa gốc của chữ)",
+          "words": [
+            { "id": "zh-ff-feng1-w1", "headword": "风景", "reading": "fēngjǐng", "meaningVn": "phong cảnh, cảnh quan thiên nhiên", "example": "这里的风景很美。", "exampleVn": "Phong cảnh ở đây rất đẹp." },
+            { "id": "zh-ff-feng1-w2", "headword": "风格", "reading": "fēnggé", "meaningVn": "phong cách (nghệ thuật, cá tính — nghĩa trừu tượng)", "example": "他的写作风格很独特。", "exampleVn": "Phong cách viết văn của anh ấy rất độc đáo." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-ff-wei4",
+      "language": "zh",
+      "reading": "味",
+      "groupKind": "false-friend",
+      "note": "味 (vị, \"mùi vị\") lệch nghĩa: 口味 giữ nghĩa gần với gốc (vị giác nơi miệng → khẩu vị, sở thích ăn uống), còn 趣味 dùng nghĩa trừu tượng (mùi vị của hứng thú → sự thú vị, hấp dẫn của một hoạt động/con người).",
+      "roots": [
+        {
+          "id": "zh-ff-wei4-root",
+          "character": "味",
+          "hanViet": "vị",
+          "meaningVn": "mùi vị (nghĩa gốc của chữ)",
+          "words": [
+            { "id": "zh-ff-wei4-w1", "headword": "口味", "reading": "kǒuwèi", "meaningVn": "khẩu vị, sở thích ăn uống", "example": "每个人的口味不一样。", "exampleVn": "Khẩu vị của mỗi người khác nhau." },
+            { "id": "zh-ff-wei4-w2", "headword": "趣味", "reading": "qùwèi", "meaningVn": "sự thú vị, hứng thú (nghĩa trừu tượng)", "example": "这本书很有趣味。", "exampleVn": "Cuốn sách này rất thú vị." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-ff-guang1",
+      "language": "zh",
+      "reading": "光",
+      "groupKind": "false-friend",
+      "note": "光 (quang, \"ánh sáng\") lệch nghĩa: 光明 giữ nghĩa gần với gốc (sáng sủa, quang minh — nghĩa đen và nghĩa bóng tích cực), còn 光顾 dùng nghĩa đã trừu tượng hóa xa (khách \"được ánh sáng chiếu rọi đến\" → cách nói lịch sự nghĩa là khách ghé thăm/mua hàng tại cửa tiệm).",
+      "roots": [
+        {
+          "id": "zh-ff-guang1-root",
+          "character": "光",
+          "hanViet": "quang",
+          "meaningVn": "ánh sáng (nghĩa gốc của chữ)",
+          "words": [
+            { "id": "zh-ff-guang1-w1", "headword": "光明", "reading": "guāngmíng", "meaningVn": "ánh sáng; tươi sáng, quang minh (nghĩa đen và nghĩa bóng tích cực)", "example": "未来是光明的。", "exampleVn": "Tương lai rất tươi sáng." },
+            { "id": "zh-ff-guang1-w2", "headword": "光顾", "reading": "guānggù", "meaningVn": "cách nói lịch sự chỉ việc khách ghé thăm/mua hàng tại cửa tiệm", "example": "欢迎光顾本店。", "exampleVn": "Hoan nghênh quý khách ghé thăm cửa hàng." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-ff-ku3",
+      "language": "zh",
+      "reading": "苦",
+      "groupKind": "false-friend",
+      "note": "苦 (khổ, \"đắng, khổ cực\") lệch nghĩa: 吃苦 giữ nghĩa gần với gốc (nếm cái khổ → chịu khổ, chịu vất vả về thể chất/hoàn cảnh), còn 苦衷 dùng nghĩa trừu tượng hơn (nỗi khổ tâm, lý do khó nói ra — thuộc về tâm lý, không phải hoàn cảnh vật chất).",
+      "roots": [
+        {
+          "id": "zh-ff-ku3-root",
+          "character": "苦",
+          "hanViet": "khổ",
+          "meaningVn": "đắng, khổ cực (nghĩa gốc của chữ)",
+          "words": [
+            { "id": "zh-ff-ku3-w1", "headword": "吃苦", "reading": "chīkǔ", "meaningVn": "chịu khổ, chịu vất vả (thể chất/hoàn cảnh)", "example": "他从小就能吃苦。", "exampleVn": "Anh ấy từ nhỏ đã chịu được vất vả." },
+            { "id": "zh-ff-ku3-w2", "headword": "苦衷", "reading": "kǔzhōng", "meaningVn": "nỗi khổ tâm, lý do khó nói ra (tâm lý, trừu tượng)", "example": "他有自己的苦衷。", "exampleVn": "Anh ấy có nỗi khổ tâm riêng của mình." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-ff-gao1",
+      "language": "zh",
+      "reading": "高",
+      "groupKind": "false-friend",
+      "note": "高 (cao, \"chiều cao\") lệch nghĩa: 身高 giữ nghĩa đen (chiều cao cơ thể, đo lường vật lý), còn 高明 dùng nghĩa trừu tượng (cao → giỏi giang, thông thái — khen ngợi trí tuệ/kỹ năng của một người).",
+      "roots": [
+        {
+          "id": "zh-ff-gao1-root",
+          "character": "高",
+          "hanViet": "cao",
+          "meaningVn": "cao (nghĩa gốc của chữ)",
+          "words": [
+            { "id": "zh-ff-gao1-w1", "headword": "身高", "reading": "shēngāo", "meaningVn": "chiều cao cơ thể (nghĩa đen, đo lường vật lý)", "example": "他的身高是一米八。", "exampleVn": "Chiều cao của anh ấy là một mét tám." },
+            { "id": "zh-ff-gao1-w2", "headword": "高明", "reading": "gāomíng", "meaningVn": "cao minh, tài giỏi thông thái (nghĩa bóng, khen ngợi trí tuệ)", "example": "这个办法很高明。", "exampleVn": "Cách làm này rất cao minh." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-ff-shen1",
+      "language": "zh",
+      "reading": "深",
+      "groupKind": "false-friend",
+      "note": "深 (thâm, \"sâu\") lệch nghĩa: 深夜 giữ nghĩa đen (khoảng thời gian sâu trong đêm), còn 深刻 dùng nghĩa trừu tượng (sâu sắc — mô tả ấn tượng, suy nghĩ, nhận thức ở mức độ sâu).",
+      "roots": [
+        {
+          "id": "zh-ff-shen1-root",
+          "character": "深",
+          "hanViet": "thâm",
+          "meaningVn": "sâu (nghĩa gốc của chữ)",
+          "words": [
+            { "id": "zh-ff-shen1-w1", "headword": "深刻", "reading": "shēnkè", "meaningVn": "sâu sắc (nghĩa bóng, mô tả ấn tượng/suy nghĩ/nhận thức)", "example": "这本书给我留下了深刻的印象。", "exampleVn": "Cuốn sách này để lại cho tôi ấn tượng sâu sắc." },
+            { "id": "zh-ff-shen1-w2", "headword": "深夜", "reading": "shēnyè", "meaningVn": "đêm khuya (nghĩa đen, chỉ thời gian)", "example": "他工作到深夜。", "exampleVn": "Anh ấy làm việc đến tận đêm khuya." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-ff-chang3",
+      "language": "zh",
+      "reading": "场",
+      "groupKind": "false-friend",
+      "note": "场 (trường, \"sân bãi\") lệch nghĩa: 市场 giữ nghĩa gần với gốc (sân bãi mua bán → thị trường, không gian kinh tế cụ thể), còn 场合 dùng nghĩa trừu tượng (sân bãi diễn ra việc gì → hoàn cảnh, dịp, bối cảnh xã hội).",
+      "roots": [
+        {
+          "id": "zh-ff-chang3-root",
+          "character": "场",
+          "hanViet": "trường",
+          "meaningVn": "sân bãi, nơi diễn ra (nghĩa gốc của chữ)",
+          "words": [
+            { "id": "zh-ff-chang3-w1", "headword": "市场", "reading": "shìchǎng", "meaningVn": "thị trường (không gian kinh tế cụ thể)", "example": "这个产品在市场上很受欢迎。", "exampleVn": "Sản phẩm này rất được ưa chuộng trên thị trường." },
+            { "id": "zh-ff-chang3-w2", "headword": "场合", "reading": "chǎnghé", "meaningVn": "hoàn cảnh, dịp, bối cảnh xã hội (nghĩa trừu tượng)", "example": "在正式场合要注意穿着。", "exampleVn": "Trong các dịp trang trọng cần chú ý cách ăn mặc." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-ff-hua1",
+      "language": "zh",
+      "reading": "花",
+      "groupKind": "false-friend",
+      "note": "花 (hoa) lệch nghĩa: 花园 giữ nghĩa đen (vườn hoa), còn 花钱 dùng nghĩa đã trừu tượng hóa thành động từ \"tiêu tiền\" — 花 ở đây không còn liên quan đến bông hoa mà mang nghĩa \"tiêu dùng, bỏ ra\" (giống cách nói \"hoa tiền\" trong tiếng Việt cổ).",
+      "roots": [
+        {
+          "id": "zh-ff-hua1-root",
+          "character": "花",
+          "hanViet": "hoa",
+          "meaningVn": "hoa (nghĩa gốc của chữ)",
+          "words": [
+            { "id": "zh-ff-hua1-w1", "headword": "花钱", "reading": "huāqián", "meaningVn": "tiêu tiền (động từ, nghĩa đã trừu tượng hóa)", "example": "他花钱很大方。", "exampleVn": "Anh ấy tiêu tiền rất phóng khoáng." },
+            { "id": "zh-ff-hua1-w2", "headword": "花园", "reading": "huāyuán", "meaningVn": "vườn hoa (nghĩa đen)", "example": "他家有一个漂亮的花园。", "exampleVn": "Nhà anh ấy có một khu vườn hoa rất đẹp." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-ff-pi2",
+      "language": "zh",
+      "reading": "皮",
+      "groupKind": "false-friend",
+      "note": "皮 (bì, \"da\") lệch nghĩa: 皮肤 giữ nghĩa đen (làn da cơ thể), còn 调皮 dùng nghĩa bóng (da dày/lì → nghịch ngợm, tinh nghịch — tính từ mô tả tính cách trẻ con).",
+      "roots": [
+        {
+          "id": "zh-ff-pi2-root",
+          "character": "皮",
+          "hanViet": "bì",
+          "meaningVn": "da (nghĩa gốc của chữ)",
+          "words": [
+            { "id": "zh-ff-pi2-w1", "headword": "皮肤", "reading": "pífū", "meaningVn": "làn da (nghĩa đen)", "example": "她的皮肤很白。", "exampleVn": "Làn da của cô ấy rất trắng." },
+            { "id": "zh-ff-pi2-w2", "headword": "调皮", "reading": "tiáopí", "meaningVn": "nghịch ngợm, tinh nghịch (nghĩa bóng, tính cách)", "example": "这个孩子很调皮。", "exampleVn": "Đứa trẻ này rất nghịch ngợm." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-ff-bao1",
+      "language": "zh",
+      "reading": "包",
+      "groupKind": "false-friend",
+      "note": "包 (bao, \"gói, bọc\") lệch nghĩa: 包裹 giữ nghĩa đen (gói hàng, bưu kiện — vật thể cụ thể), còn 包涵 dùng nghĩa trừu tượng (bao bọc, chứa đựng sự khoan dung → lượng thứ, thông cảm cho lỗi lầm của người khác).",
+      "roots": [
+        {
+          "id": "zh-ff-bao1-root",
+          "character": "包",
+          "hanViet": "bao",
+          "meaningVn": "gói, bọc (nghĩa gốc của chữ)",
+          "words": [
+            { "id": "zh-ff-bao1-w1", "headword": "包裹", "reading": "bāoguǒ", "meaningVn": "bưu kiện, gói hàng (danh từ, nghĩa đen)", "example": "我收到了一个包裹。", "exampleVn": "Tôi đã nhận được một bưu kiện." },
+            { "id": "zh-ff-bao1-w2", "headword": "包涵", "reading": "bāohan", "meaningVn": "lượng thứ, thông cảm (nghĩa trừu tượng, cách nói lịch sự xin lỗi)", "example": "有不周到的地方，请多包涵。", "exampleVn": "Nếu có gì thiếu sót, xin hãy thông cảm." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-ff-duan3",
+      "language": "zh",
+      "reading": "短",
+      "groupKind": "false-friend",
+      "note": "短 (đoản, \"ngắn\") lệch nghĩa: 短暂 giữ nghĩa gần với gốc (ngắn về mặt thời gian), còn 短处 dùng nghĩa bóng (chỗ ngắn → khuyết điểm, điểm yếu của một người, không liên quan đến độ dài/thời gian).",
+      "roots": [
+        {
+          "id": "zh-ff-duan3-root",
+          "character": "短",
+          "hanViet": "đoản",
+          "meaningVn": "ngắn (nghĩa gốc của chữ)",
+          "words": [
+            { "id": "zh-ff-duan3-w1", "headword": "短暂", "reading": "duǎnzàn", "meaningVn": "ngắn ngủi (thời gian)", "example": "他们的相遇很短暂。", "exampleVn": "Cuộc gặp gỡ của họ rất ngắn ngủi." },
+            { "id": "zh-ff-duan3-w2", "headword": "短处", "reading": "duǎnchù", "meaningVn": "khuyết điểm, điểm yếu (nghĩa bóng, về con người)", "example": "每个人都有自己的短处。", "exampleVn": "Mỗi người đều có điểm yếu của riêng mình." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-ff-chang2",
+      "language": "zh",
+      "reading": "长",
+      "groupKind": "false-friend",
+      "note": "长 là chữ ĐA ÂM thật sự (多音字): đọc cháng trong 长期 (dài lâu về thời gian → dài hạn), nhưng đọc ZHǍNG trong 校长 (lớn lên, đứng đầu → hiệu trưởng, người đứng đầu một tổ chức). Vừa lệch nghĩa vừa lệch hẳn thanh mẫu/thanh điệu.",
+      "roots": [
+        {
+          "id": "zh-ff-chang2-root",
+          "character": "长",
+          "hanViet": "trường / trưởng",
+          "meaningVn": "dài (đọc cháng); hoặc lớn lên, đứng đầu (đọc zhǎng) — hai nghĩa gốc khác nhau của cùng một chữ",
+          "words": [
+            { "id": "zh-ff-chang2-w1", "headword": "长期", "reading": "chángqī", "meaningVn": "dài hạn, lâu dài (tính từ, đọc cháng)", "example": "这是一个长期计划。", "exampleVn": "Đây là một kế hoạch dài hạn." },
+            { "id": "zh-ff-chang2-w2", "headword": "校长", "reading": "xiàozhǎng", "meaningVn": "hiệu trưởng (danh từ chỉ người, đọc ZHǍNG — khác hẳn thanh mẫu/thanh điệu với 长期)", "example": "校长今天来学校了。", "exampleVn": "Hôm nay hiệu trưởng đến trường." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-ff-ying4",
+      "language": "zh",
+      "reading": "硬",
+      "groupKind": "false-friend",
+      "note": "硬 (ngạnh, \"cứng\") lệch nghĩa: 硬件 giữ nghĩa gần với gốc (bộ phận cứng của máy tính — kỹ thuật), còn 生硬 dùng nghĩa bóng (cứng nhắc, gượng gạo — mô tả thái độ/cách nói chuyện thiếu tự nhiên).",
+      "roots": [
+        {
+          "id": "zh-ff-ying4-root",
+          "character": "硬",
+          "hanViet": "ngạnh",
+          "meaningVn": "cứng (nghĩa gốc của chữ)",
+          "words": [
+            { "id": "zh-ff-ying4-w1", "headword": "硬件", "reading": "yìngjiàn", "meaningVn": "phần cứng (máy tính, thiết bị — nghĩa kỹ thuật)", "example": "这台电脑的硬件很好。", "exampleVn": "Phần cứng của chiếc máy tính này rất tốt." },
+            { "id": "zh-ff-ying4-w2", "headword": "生硬", "reading": "shēngyìng", "meaningVn": "cứng nhắc, gượng gạo (nghĩa bóng, thái độ/cách nói)", "example": "他的态度很生硬。", "exampleVn": "Thái độ của anh ấy rất cứng nhắc." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-ff-ruan3",
+      "language": "zh",
+      "reading": "软",
+      "groupKind": "false-friend",
+      "note": "软 (nhuyễn, \"mềm\") lệch nghĩa: 软件 giữ nghĩa kỹ thuật (phần mềm máy tính, đối lập trực tiếp với 硬件), còn 心软 dùng nghĩa bóng (lòng mềm → dễ động lòng, dễ tha thứ — tính cách con người).",
+      "roots": [
+        {
+          "id": "zh-ff-ruan3-root",
+          "character": "软",
+          "hanViet": "nhuyễn",
+          "meaningVn": "mềm (nghĩa gốc của chữ)",
+          "words": [
+            { "id": "zh-ff-ruan3-w1", "headword": "软件", "reading": "ruǎnjiàn", "meaningVn": "phần mềm (máy tính — nghĩa kỹ thuật, đối lập với 硬件)", "example": "这个软件很好用。", "exampleVn": "Phần mềm này rất dễ dùng." },
+            { "id": "zh-ff-ruan3-w2", "headword": "心软", "reading": "xīnruǎn", "meaningVn": "mềm lòng, dễ động lòng (nghĩa bóng, tính cách)", "example": "妈妈总是心软。", "exampleVn": "Mẹ luôn luôn mềm lòng." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-ff-zhong4",
+      "language": "zh",
+      "reading": "重",
+      "groupKind": "false-friend",
+      "note": "重 là chữ ĐA ÂM thật sự (多音字): đọc zhòng trong 重要 (nặng → quan trọng), nhưng đọc CHÓNG trong 重复 (lại một lần nữa → lặp lại, trùng lặp). Vừa lệch nghĩa vừa lệch thanh mẫu/thanh điệu.",
+      "roots": [
+        {
+          "id": "zh-ff-zhong4-root",
+          "character": "重",
+          "hanViet": "trọng / trùng",
+          "meaningVn": "nặng (đọc zhòng); hoặc lặp lại (đọc chóng) — hai nghĩa gốc khác nhau của cùng một chữ",
+          "words": [
+            { "id": "zh-ff-zhong4-w1", "headword": "重要", "reading": "zhòngyào", "meaningVn": "quan trọng (tính từ, đọc zhòng)", "example": "这是一件很重要的事。", "exampleVn": "Đây là một việc rất quan trọng." },
+            { "id": "zh-ff-zhong4-w2", "headword": "重复", "reading": "chóngfù", "meaningVn": "lặp lại, trùng lặp (động từ, đọc CHÓNG — khác hẳn thanh mẫu/thanh điệu với 重要)", "example": "请不要重复同样的错误。", "exampleVn": "Xin đừng lặp lại cùng một lỗi." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-ff-suan1",
+      "language": "zh",
+      "reading": "酸",
+      "groupKind": "false-friend",
+      "note": "酸 (toan, \"chua\") lệch nghĩa: 酸奶 giữ nghĩa đen (sữa chua, thực phẩm cụ thể), còn 心酸 dùng nghĩa bóng (lòng chua xót → đau lòng, xót xa trước một cảnh ngộ đáng thương).",
+      "roots": [
+        {
+          "id": "zh-ff-suan1-root",
+          "character": "酸",
+          "hanViet": "toan",
+          "meaningVn": "chua (nghĩa gốc của chữ)",
+          "words": [
+            { "id": "zh-ff-suan1-w1", "headword": "心酸", "reading": "xīnsuān", "meaningVn": "chua xót, đau lòng (nghĩa bóng, cảm xúc)", "example": "看到这一幕，他感到很心酸。", "exampleVn": "Nhìn thấy cảnh này, anh ấy cảm thấy rất chua xót." },
+            { "id": "zh-ff-suan1-w2", "headword": "酸奶", "reading": "suānnǎi", "meaningVn": "sữa chua (thực phẩm, nghĩa đen)", "example": "我每天早上喝酸奶。", "exampleVn": "Mỗi sáng tôi uống sữa chua." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-ff-la4",
+      "language": "zh",
+      "reading": "辣",
+      "groupKind": "false-friend",
+      "note": "辣 (lạt, \"cay\") lệch nghĩa: 辣椒 giữ nghĩa đen (quả ớt, thực phẩm cụ thể), còn 毒辣 dùng nghĩa bóng (cay độc → độc ác, tàn nhẫn — mô tả thủ đoạn/tính cách con người).",
+      "roots": [
+        {
+          "id": "zh-ff-la4-root",
+          "character": "辣",
+          "hanViet": "lạt",
+          "meaningVn": "cay (nghĩa gốc của chữ)",
+          "words": [
+            { "id": "zh-ff-la4-w1", "headword": "辣椒", "reading": "làjiāo", "meaningVn": "quả ớt (thực phẩm, nghĩa đen)", "example": "他喜欢吃辣椒。", "exampleVn": "Anh ấy thích ăn ớt." },
+            { "id": "zh-ff-la4-w2", "headword": "毒辣", "reading": "dúlà", "meaningVn": "độc ác, tàn nhẫn (nghĩa bóng, thủ đoạn/tính cách)", "example": "他的手段很毒辣。", "exampleVn": "Thủ đoạn của hắn rất độc ác." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-ff-dan4",
+      "language": "zh",
+      "reading": "淡",
+      "groupKind": "false-friend",
+      "note": "淡 (đạm, \"nhạt\") lệch nghĩa: 淡季 giữ nghĩa gần với gốc (nhạt → mùa thấp điểm, ít khách/ít việc trong kinh doanh), còn 平淡 dùng nghĩa bóng rộng hơn (nhạt nhẽo, tẻ nhạt — mô tả cuộc sống/văn phong thiếu điểm nhấn).",
+      "roots": [
+        {
+          "id": "zh-ff-dan4-root",
+          "character": "淡",
+          "hanViet": "đạm",
+          "meaningVn": "nhạt (nghĩa gốc của chữ)",
+          "words": [
+            { "id": "zh-ff-dan4-w1", "headword": "平淡", "reading": "píngdàn", "meaningVn": "bình đạm, tẻ nhạt (nghĩa bóng, tả cuộc sống/văn phong)", "example": "他过着平淡的生活。", "exampleVn": "Anh ấy sống một cuộc sống bình dị, tẻ nhạt." },
+            { "id": "zh-ff-dan4-w2", "headword": "淡季", "reading": "dànjì", "meaningVn": "mùa thấp điểm, ít khách (kinh doanh)", "example": "现在是旅游的淡季。", "exampleVn": "Bây giờ đang là mùa thấp điểm du lịch." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-ff-tian2",
+      "language": "zh",
+      "reading": "甜",
+      "groupKind": "false-friend",
+      "note": "甜 (điềm, \"ngọt\") tách theo hai hướng: 甜食 giữ nghĩa đen (đồ ngọt, thực phẩm cụ thể), còn 甜蜜 dùng nghĩa bóng (ngọt ngào — mô tả tình cảm, hạnh phúc lứa đôi/gia đình).",
+      "roots": [
+        {
+          "id": "zh-ff-tian2-root",
+          "character": "甜",
+          "hanViet": "điềm",
+          "meaningVn": "ngọt (nghĩa gốc của chữ)",
+          "words": [
+            { "id": "zh-ff-tian2-w1", "headword": "甜蜜", "reading": "tiánmì", "meaningVn": "ngọt ngào (nghĩa bóng, tình cảm)", "example": "他们过着甜蜜的生活。", "exampleVn": "Họ sống một cuộc sống ngọt ngào." },
+            { "id": "zh-ff-tian2-w2", "headword": "甜食", "reading": "tiánshí", "meaningVn": "đồ ngọt (thực phẩm, nghĩa đen)", "example": "她不喜欢吃甜食。", "exampleVn": "Cô ấy không thích ăn đồ ngọt." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-ff-bing1",
+      "language": "zh",
+      "reading": "冰",
+      "groupKind": "false-friend",
+      "note": "冰 (băng, \"đá lạnh\") lệch nghĩa: 冰淇淋 giữ nghĩa đen (kem — món ăn làm từ đá lạnh), còn 冰冷 dùng nghĩa bóng phổ biến (lạnh như băng → thái độ lạnh lùng, thờ ơ, không chỉ nhiệt độ vật lý).",
+      "roots": [
+        {
+          "id": "zh-ff-bing1-root",
+          "character": "冰",
+          "hanViet": "băng",
+          "meaningVn": "đá lạnh, băng (nghĩa gốc của chữ)",
+          "words": [
+            { "id": "zh-ff-bing1-w1", "headword": "冰淇淋", "reading": "bīngqílín", "meaningVn": "kem (thực phẩm, nghĩa đen)", "example": "孩子们喜欢吃冰淇淋。", "exampleVn": "Trẻ em thích ăn kem." },
+            { "id": "zh-ff-bing1-w2", "headword": "冰冷", "reading": "bīnglěng", "meaningVn": "lạnh băng (nghĩa đen về nhiệt độ; hoặc nghĩa bóng chỉ thái độ lạnh lùng)", "example": "他的态度很冰冷。", "exampleVn": "Thái độ của anh ấy rất lạnh lùng." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-ff-re4",
+      "language": "zh",
+      "reading": "热",
+      "groupKind": "false-friend",
+      "note": "热 (nhiệt, \"nóng\") lệch nghĩa: 热水 giữ nghĩa đen (nước nóng, nhiệt độ vật lý), còn 热闹 dùng nghĩa bóng (nóng → náo nhiệt, nhộn nhịp — mô tả không khí đông vui, không liên quan trực tiếp đến nhiệt độ).",
+      "roots": [
+        {
+          "id": "zh-ff-re4-root",
+          "character": "热",
+          "hanViet": "nhiệt",
+          "meaningVn": "nóng (nghĩa gốc của chữ)",
+          "words": [
+            { "id": "zh-ff-re4-w1", "headword": "热水", "reading": "rèshuǐ", "meaningVn": "nước nóng (nghĩa đen)", "example": "请给我一杯热水。", "exampleVn": "Xin cho tôi một cốc nước nóng." },
+            { "id": "zh-ff-re4-w2", "headword": "热闹", "reading": "rènao", "meaningVn": "náo nhiệt, nhộn nhịp (nghĩa bóng, không khí đông vui)", "example": "春节的时候街上很热闹。", "exampleVn": "Vào dịp Tết, đường phố rất náo nhiệt." }
+          ]
+        }
+      ]
+    }
+  ]
+}
