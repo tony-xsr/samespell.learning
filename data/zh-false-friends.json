@@ -1336,6 +1336,234 @@
           ]
         }
       ]
+    },
+    {
+      "id": "zh-ff-xing3",
+      "language": "zh",
+      "reading": "醒",
+      "groupKind": "false-friend",
+      "note": "醒 (tỉnh, \"thức dậy\") lệch nghĩa: 醒来 giữ nghĩa đen (tỉnh dậy sau khi ngủ, sinh lý), còn 提醒 dùng nghĩa bóng (đánh thức sự chú ý → nhắc nhở ai đó điều gì).",
+      "roots": [
+        {
+          "id": "zh-ff-xing3-root",
+          "character": "醒",
+          "hanViet": "tỉnh",
+          "meaningVn": "thức dậy, tỉnh (nghĩa gốc của chữ)",
+          "words": [
+            { "id": "zh-ff-xing3-w1", "headword": "醒来", "reading": "xǐnglái", "meaningVn": "tỉnh dậy (nghĩa đen, sinh lý)", "example": "他早上七点醒来。", "exampleVn": "Anh ấy tỉnh dậy lúc bảy giờ sáng." },
+            { "id": "zh-ff-xing3-w2", "headword": "提醒", "reading": "tíxǐng", "meaningVn": "nhắc nhở (nghĩa bóng)", "example": "谢谢你提醒我。", "exampleVn": "Cảm ơn bạn đã nhắc nhở tôi." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-ff-mi2",
+      "language": "zh",
+      "reading": "迷",
+      "groupKind": "false-friend",
+      "note": "迷 (mê, \"lạc, mê muội\") lệch nghĩa: 迷路 giữ nghĩa đen (lạc đường, không gian cụ thể), còn 迷人 dùng nghĩa bóng tích cực (mê hoặc → quyến rũ, hấp dẫn — khen ngợi vẻ đẹp/sức hút của ai đó).",
+      "roots": [
+        {
+          "id": "zh-ff-mi2-root",
+          "character": "迷",
+          "hanViet": "mê",
+          "meaningVn": "lạc, mê muội (nghĩa gốc của chữ)",
+          "words": [
+            { "id": "zh-ff-mi2-w1", "headword": "迷路", "reading": "mílù", "meaningVn": "lạc đường (nghĩa đen, không gian)", "example": "我在城里迷路了。", "exampleVn": "Tôi bị lạc đường trong thành phố." },
+            { "id": "zh-ff-mi2-w2", "headword": "迷人", "reading": "mírén", "meaningVn": "quyến rũ, mê hoặc (nghĩa bóng tích cực, khen ngợi vẻ đẹp)", "example": "这里的风景很迷人。", "exampleVn": "Phong cảnh ở đây rất quyến rũ." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-ff-zui4",
+      "language": "zh",
+      "reading": "醉",
+      "groupKind": "false-friend",
+      "note": "醉 (túy, \"say\") lệch nghĩa: 醉酒 giữ nghĩa đen (say rượu, trạng thái sinh lý cụ thể), còn 陶醉 dùng nghĩa bóng (say mê, đắm chìm trong cảm xúc/nghệ thuật đẹp đẽ, không liên quan đến rượu).",
+      "roots": [
+        {
+          "id": "zh-ff-zui4-root",
+          "character": "醉",
+          "hanViet": "túy",
+          "meaningVn": "say (nghĩa gốc của chữ)",
+          "words": [
+            { "id": "zh-ff-zui4-w1", "headword": "醉酒", "reading": "zuìjiǔ", "meaningVn": "say rượu (nghĩa đen)", "example": "他昨晚醉酒了。", "exampleVn": "Tối qua anh ấy đã say rượu." },
+            { "id": "zh-ff-zui4-w2", "headword": "陶醉", "reading": "táozuì", "meaningVn": "say mê, đắm chìm (nghĩa bóng, cảm xúc trước cái đẹp)", "example": "她陶醉在音乐中。", "exampleVn": "Cô ấy đắm chìm trong âm nhạc." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-ff-yan3",
+      "language": "zh",
+      "reading": "眼",
+      "groupKind": "false-friend",
+      "note": "眼 (nhãn, \"mắt\") lệch nghĩa: 眼睛 giữ nghĩa đen (bộ phận cơ thể), còn 眼光 dùng nghĩa bóng (ánh nhìn → tầm nhìn, nhãn quan, khả năng đánh giá/nhận định của một người).",
+      "roots": [
+        {
+          "id": "zh-ff-yan3-root",
+          "character": "眼",
+          "hanViet": "nhãn",
+          "meaningVn": "mắt (nghĩa gốc của chữ)",
+          "words": [
+            { "id": "zh-ff-yan3-w1", "headword": "眼睛", "reading": "yǎnjing", "meaningVn": "mắt (nghĩa đen, bộ phận cơ thể)", "example": "她的眼睛很大。", "exampleVn": "Mắt của cô ấy rất to." },
+            { "id": "zh-ff-yan3-w2", "headword": "眼光", "reading": "yǎnguāng", "meaningVn": "tầm nhìn, nhãn quan (nghĩa bóng, khả năng đánh giá/nhận định)", "example": "他很有投资眼光。", "exampleVn": "Anh ấy có tầm nhìn đầu tư rất tốt." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-ff-zui3",
+      "language": "zh",
+      "reading": "嘴",
+      "groupKind": "false-friend",
+      "note": "嘴 (chủy, \"miệng\") lệch nghĩa: 嘴巴 giữ nghĩa đen (bộ phận cơ thể), còn 插嘴 dùng nghĩa bóng (chen miệng vào → chen ngang, ngắt lời người khác đang nói — hành vi giao tiếp).",
+      "roots": [
+        {
+          "id": "zh-ff-zui3-root",
+          "character": "嘴",
+          "hanViet": "chủy",
+          "meaningVn": "miệng (nghĩa gốc của chữ)",
+          "words": [
+            { "id": "zh-ff-zui3-w1", "headword": "嘴巴", "reading": "zuǐba", "meaningVn": "miệng (nghĩa đen, bộ phận cơ thể)", "example": "他张开嘴巴笑了。", "exampleVn": "Anh ấy mở miệng cười." },
+            { "id": "zh-ff-zui3-w2", "headword": "插嘴", "reading": "chāzuǐ", "meaningVn": "chen ngang, ngắt lời (nghĩa bóng, hành vi giao tiếp)", "example": "别插嘴，让他说完。", "exampleVn": "Đừng chen ngang, để anh ấy nói xong." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-ff-lian3",
+      "language": "zh",
+      "reading": "脸",
+      "groupKind": "false-friend",
+      "note": "脸 (kiểm, \"mặt\") lệch nghĩa: 脸色 giữ nghĩa gần với gốc (sắc mặt, nghĩa đen — có thể tả sức khỏe hoặc thái độ qua nét mặt), còn 丢脸 dùng nghĩa hoàn toàn trừu tượng (mất mặt → xấu hổ, mất danh dự, không còn liên quan đến khuôn mặt vật lý).",
+      "roots": [
+        {
+          "id": "zh-ff-lian3-root",
+          "character": "脸",
+          "hanViet": "kiểm",
+          "meaningVn": "mặt (nghĩa gốc của chữ)",
+          "words": [
+            { "id": "zh-ff-lian3-w1", "headword": "脸色", "reading": "liǎnsè", "meaningVn": "sắc mặt (nghĩa đen, có thể phản ánh sức khỏe/thái độ)", "example": "你今天脸色不太好。", "exampleVn": "Hôm nay sắc mặt bạn không được tốt lắm." },
+            { "id": "zh-ff-lian3-w2", "headword": "丢脸", "reading": "diūliǎn", "meaningVn": "mất mặt, xấu hổ (nghĩa trừu tượng, danh dự)", "example": "他觉得很丢脸。", "exampleVn": "Anh ấy cảm thấy rất mất mặt." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-ff-gu3",
+      "language": "zh",
+      "reading": "骨",
+      "groupKind": "false-friend",
+      "note": "骨 (cốt, \"xương\") lệch nghĩa: 骨头 giữ nghĩa đen (bộ phận cơ thể), còn 骨气 dùng nghĩa bóng (xương → khí phách, tiết tháo — phẩm chất đạo đức, sự kiên cường không khuất phục).",
+      "roots": [
+        {
+          "id": "zh-ff-gu3-root",
+          "character": "骨",
+          "hanViet": "cốt",
+          "meaningVn": "xương (nghĩa gốc của chữ)",
+          "words": [
+            { "id": "zh-ff-gu3-w1", "headword": "骨头", "reading": "gǔtou", "meaningVn": "xương (nghĩa đen, bộ phận cơ thể)", "example": "狗喜欢啃骨头。", "exampleVn": "Chó thích gặm xương." },
+            { "id": "zh-ff-gu3-w2", "headword": "骨气", "reading": "gǔqì", "meaningVn": "khí phách, tiết tháo (nghĩa bóng, phẩm chất đạo đức)", "example": "他是个有骨气的人。", "exampleVn": "Anh ấy là người có khí phách." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-ff-xue4",
+      "language": "zh",
+      "reading": "血",
+      "groupKind": "false-friend",
+      "note": "血 (huyết, \"máu\") lệch nghĩa: 流血 giữ nghĩa đen (chảy máu, sinh lý), còn 心血 dùng nghĩa bóng (máu của tim → tâm huyết, công sức và tâm tư dồn vào một việc).",
+      "roots": [
+        {
+          "id": "zh-ff-xue4-root",
+          "character": "血",
+          "hanViet": "huyết",
+          "meaningVn": "máu (nghĩa gốc của chữ)",
+          "words": [
+            { "id": "zh-ff-xue4-w1", "headword": "流血", "reading": "liúxuè", "meaningVn": "chảy máu (nghĩa đen)", "example": "他的手流血了。", "exampleVn": "Tay anh ấy bị chảy máu." },
+            { "id": "zh-ff-xue4-w2", "headword": "心血", "reading": "xīnxuè", "meaningVn": "tâm huyết (nghĩa bóng, công sức và tâm tư)", "example": "这是他多年心血的结晶。", "exampleVn": "Đây là kết tinh tâm huyết nhiều năm của anh ấy." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-ff-han4",
+      "language": "zh",
+      "reading": "汗",
+      "groupKind": "false-friend",
+      "note": "汗 (hãn, \"mồ hôi\") lệch nghĩa: 出汗 giữ nghĩa đen (đổ mồ hôi, sinh lý), còn 汗颜 dùng nghĩa bóng (mồ hôi trên mặt vì hổ thẹn → xấu hổ, thẹn thùng — cảm xúc, thường trang trọng/văn chương).",
+      "roots": [
+        {
+          "id": "zh-ff-han4-root",
+          "character": "汗",
+          "hanViet": "hãn",
+          "meaningVn": "mồ hôi (nghĩa gốc của chữ)",
+          "words": [
+            { "id": "zh-ff-han4-w1", "headword": "出汗", "reading": "chūhàn", "meaningVn": "ra mồ hôi (nghĩa đen)", "example": "跑步后我出了很多汗。", "exampleVn": "Sau khi chạy bộ tôi ra rất nhiều mồ hôi." },
+            { "id": "zh-ff-han4-w2", "headword": "汗颜", "reading": "hànyán", "meaningVn": "xấu hổ, thẹn thùng (nghĩa bóng, trang trọng/văn chương)", "example": "这个结果让人汗颜。", "exampleVn": "Kết quả này khiến người ta cảm thấy xấu hổ." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-ff-mao2",
+      "language": "zh",
+      "reading": "毛",
+      "groupKind": "false-friend",
+      "note": "毛 (mao, \"lông\") lệch nghĩa: 毛巾 giữ nghĩa gần với gốc (đồ dệt từ sợi lông/vải — khăn mặt, vật cụ thể), còn 毛病 dùng nghĩa bóng (lông xấu → tật xấu, khuyết điểm, hoặc hỏng hóc của máy móc).",
+      "roots": [
+        {
+          "id": "zh-ff-mao2-root",
+          "character": "毛",
+          "hanViet": "mao",
+          "meaningVn": "lông (nghĩa gốc của chữ)",
+          "words": [
+            { "id": "zh-ff-mao2-w1", "headword": "毛巾", "reading": "máojīn", "meaningVn": "khăn mặt (vật cụ thể, nghĩa đen)", "example": "请把毛巾递给我。", "exampleVn": "Xin đưa cho tôi cái khăn mặt." },
+            { "id": "zh-ff-mao2-w2", "headword": "毛病", "reading": "máobìng", "meaningVn": "tật xấu, khuyết điểm; hoặc hỏng hóc (nghĩa bóng)", "example": "这台机器有点毛病。", "exampleVn": "Cái máy này có chút trục trặc." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-ff-ya2",
+      "language": "zh",
+      "reading": "牙",
+      "groupKind": "false-friend",
+      "note": "牙 (nha, \"răng\") lệch nghĩa: 牙齿 giữ nghĩa đen (bộ phận cơ thể), còn 咬牙 dùng nghĩa bóng (nghiến răng → kiên trì chịu đựng, quyết tâm vượt qua khó khăn).",
+      "roots": [
+        {
+          "id": "zh-ff-ya2-root",
+          "character": "牙",
+          "hanViet": "nha",
+          "meaningVn": "răng (nghĩa gốc của chữ)",
+          "words": [
+            { "id": "zh-ff-ya2-w1", "headword": "牙齿", "reading": "yáchǐ", "meaningVn": "răng (nghĩa đen, bộ phận cơ thể)", "example": "他的牙齿很白。", "exampleVn": "Răng của anh ấy rất trắng." },
+            { "id": "zh-ff-ya2-w2", "headword": "咬牙", "reading": "yǎoyá", "meaningVn": "nghiến răng (nghĩa bóng, kiên trì chịu đựng)", "example": "他咬牙坚持完成了比赛。", "exampleVn": "Anh ấy nghiến răng kiên trì hoàn thành cuộc thi." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-ff-zhi3",
+      "language": "zh",
+      "reading": "指",
+      "groupKind": "false-friend",
+      "note": "指 (chỉ, \"ngón tay\") lệch nghĩa: 手指 giữ nghĩa đen (bộ phận cơ thể), còn 指望 dùng nghĩa bóng (chỉ tay hướng tới → trông mong, đặt hy vọng vào ai/điều gì).",
+      "roots": [
+        {
+          "id": "zh-ff-zhi3-root",
+          "character": "指",
+          "hanViet": "chỉ",
+          "meaningVn": "ngón tay (nghĩa gốc của chữ)",
+          "words": [
+            { "id": "zh-ff-zhi3-w1", "headword": "手指", "reading": "shǒuzhǐ", "meaningVn": "ngón tay (nghĩa đen, bộ phận cơ thể)", "example": "他的手指很长。", "exampleVn": "Ngón tay của anh ấy rất dài." },
+            { "id": "zh-ff-zhi3-w2", "headword": "指望", "reading": "zhǐwàng", "meaningVn": "trông mong, đặt hy vọng vào (nghĩa bóng)", "example": "别指望别人帮你。", "exampleVn": "Đừng trông mong người khác giúp bạn." }
+          ]
+        }
+      ]
     }
   ]
 }
