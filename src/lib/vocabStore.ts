@@ -8,6 +8,8 @@ import ko from "../../data/ko.json";
 import ja from "../../data/ja.json";
 import zhShape from "../../data/zh-shape.json";
 import jaShape from "../../data/ja-shape.json";
+import zhFalseFriends from "../../data/zh-false-friends.json";
+import zhInitials from "../../data/zh-initials.json";
 
 const STATIC_DATA: Record<Language, LanguageData> = {
   zh: zh as LanguageData,
@@ -21,6 +23,18 @@ const STATIC_DATA: Record<Language, LanguageData> = {
 const STATIC_SHAPE_DATA: Partial<Record<Language, LanguageData>> = {
   zh: zhShape as LanguageData,
   ja: jaShape as LanguageData,
+};
+
+// Dữ liệu "bẫy nghĩa" (1 chữ dùng chung giữa 2+ từ ghép nhưng nghĩa lệch/trôi nhau) — trục nhầm lẫn
+// thứ ba, hiện chỉ có cho tiếng Trung (ja/ko chưa viết).
+const STATIC_FALSE_FRIEND_DATA: Partial<Record<Language, LanguageData>> = {
+  zh: zhFalseFriends as LanguageData,
+};
+
+// Dữ liệu "cùng âm đầu pinyin" (chỉ trùng phụ âm đầu, không liên quan âm/nghĩa) — trục nhầm lẫn thứ
+// tư, hiện chỉ có cho tiếng Trung (ja/ko chưa viết).
+const STATIC_INITIAL_DATA: Partial<Record<Language, LanguageData>> = {
+  zh: zhInitials as LanguageData,
 };
 
 const ALL_LANGUAGES: Language[] = ["zh", "ko", "ja"];
@@ -145,6 +159,58 @@ export async function getShapeLanguages(): Promise<LanguageData[]> {
 
 export async function getShapeGroup(lang: string, groupId: string): Promise<SoundGroup | undefined> {
   const data = await getShapeLanguageData(lang);
+  return data?.groups.find((g) => g.id === groupId);
+}
+
+/** Tương tự getLanguageData nhưng đọc từ dữ liệu "bẫy nghĩa" (groupKind: "false-friend"). Dùng chung
+ * loadAdditions/mergeGroup/applyMnemonics vì rootId/groupId của nhóm bẫy nghĩa đã có tiền tố "-ff-"
+ * riêng, không đụng namespace với nhóm âm/nhóm hình trong cùng 1 KV bucket theo ngôn ngữ. */
+export async function getFalseFriendLanguageData(lang: string): Promise<LanguageData | undefined> {
+  const staticData = STATIC_FALSE_FRIEND_DATA[lang as Language];
+  if (!staticData) return undefined;
+  const [additions, mnemonics] = await Promise.all([
+    loadAdditions(lang as Language),
+    getMnemonicMap(lang as Language),
+  ]);
+  return {
+    ...staticData,
+    groups: staticData.groups.map((g) => applyMnemonics(mergeGroup(g, additions), mnemonics)),
+  };
+}
+
+export async function getFalseFriendLanguages(): Promise<LanguageData[]> {
+  const results = await Promise.all(ALL_LANGUAGES.map((l) => getFalseFriendLanguageData(l)));
+  return results.filter((d): d is LanguageData => !!d);
+}
+
+export async function getFalseFriendGroup(lang: string, groupId: string): Promise<SoundGroup | undefined> {
+  const data = await getFalseFriendLanguageData(lang);
+  return data?.groups.find((g) => g.id === groupId);
+}
+
+/** Tương tự getLanguageData nhưng đọc từ dữ liệu "cùng âm đầu pinyin" (groupKind: "initial"). Dùng
+ * chung loadAdditions/mergeGroup/applyMnemonics vì rootId/groupId của nhóm âm đầu đã có tiền tố
+ * "-init-" riêng, không đụng namespace với các trục nhầm lẫn khác trong cùng 1 KV bucket theo ngôn ngữ. */
+export async function getInitialLanguageData(lang: string): Promise<LanguageData | undefined> {
+  const staticData = STATIC_INITIAL_DATA[lang as Language];
+  if (!staticData) return undefined;
+  const [additions, mnemonics] = await Promise.all([
+    loadAdditions(lang as Language),
+    getMnemonicMap(lang as Language),
+  ]);
+  return {
+    ...staticData,
+    groups: staticData.groups.map((g) => applyMnemonics(mergeGroup(g, additions), mnemonics)),
+  };
+}
+
+export async function getInitialLanguages(): Promise<LanguageData[]> {
+  const results = await Promise.all(ALL_LANGUAGES.map((l) => getInitialLanguageData(l)));
+  return results.filter((d): d is LanguageData => !!d);
+}
+
+export async function getInitialGroup(lang: string, groupId: string): Promise<SoundGroup | undefined> {
+  const data = await getInitialLanguageData(lang);
   return data?.groups.find((g) => g.id === groupId);
 }
 
