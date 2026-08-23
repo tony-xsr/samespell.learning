@@ -33,6 +33,20 @@ export default async function Home() {
         </Link>
 
         <Link
+          href="/false-friends"
+          className="mt-3 flex items-center justify-center gap-2 rounded-2xl border-2 border-dashed border-accent-400 px-5 py-3 text-sm font-semibold text-accent-600 transition hover:bg-accent-500/5"
+        >
+          🪤 Bẫy nghĩa (chung chữ, lệch nghĩa)
+        </Link>
+
+        <Link
+          href="/initials"
+          className="mt-3 flex items-center justify-center gap-2 rounded-2xl border-2 border-dashed border-accent-400 px-5 py-3 text-sm font-semibold text-accent-600 transition hover:bg-accent-500/5"
+        >
+          🔤 Cùng âm đầu pinyin
+        </Link>
+
+        <Link
           href="/grammar"
           className="mt-3 flex items-center justify-center gap-2 rounded-2xl border-2 border-dashed border-brand-400 px-5 py-3 text-sm font-semibold text-brand-600 transition hover:bg-brand-500/5"
         >
