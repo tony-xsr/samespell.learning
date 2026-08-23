@@ -1118,6 +1118,214 @@
           ]
         }
       ]
+    },
+    {
+      "id": "zh-init-c2",
+      "language": "zh",
+      "reading": "c-",
+      "groupKind": "initial",
+      "note": "Mở rộng thêm 10 từ mới cho âm đầu \"c\" (không trùng với 10 từ đã có ở nhóm c- gốc).",
+      "roots": [
+        {
+          "id": "zh-init-c2-root",
+          "character": "c",
+          "meaningVn": "âm đầu \"c\" trong pinyin (mở rộng)",
+          "words": [
+            { "id": "zh-init-c2-w1", "headword": "参与", "reading": "cānyù", "meaningVn": "tham dự", "example": "很多人参与了这次活动。", "exampleVn": "Rất nhiều người đã tham dự hoạt động này." },
+            { "id": "zh-init-c2-w2", "headword": "采访", "reading": "cǎifǎng", "meaningVn": "phỏng vấn", "example": "记者采访了他。", "exampleVn": "Phóng viên đã phỏng vấn anh ấy." },
+            { "id": "zh-init-c2-w3", "headword": "曾经", "reading": "céngjīng", "meaningVn": "từng", "example": "我曾经去过那里。", "exampleVn": "Tôi từng đến đó rồi." },
+            { "id": "zh-init-c2-w4", "headword": "财产", "reading": "cáichǎn", "meaningVn": "tài sản", "example": "这是他的私人财产。", "exampleVn": "Đây là tài sản riêng của anh ấy." },
+            { "id": "zh-init-c2-w5", "headword": "措施", "reading": "cuòshī", "meaningVn": "biện pháp", "example": "政府采取了新措施。", "exampleVn": "Chính phủ đã áp dụng biện pháp mới." },
+            { "id": "zh-init-c2-w6", "headword": "材料", "reading": "cáiliào", "meaningVn": "vật liệu, tài liệu", "example": "请准备好相关材料。", "exampleVn": "Xin chuẩn bị sẵn tài liệu liên quan." },
+            { "id": "zh-init-c2-w7", "headword": "参观", "reading": "cānguān", "meaningVn": "tham quan", "example": "我们去参观了博物馆。", "exampleVn": "Chúng tôi đã đi tham quan bảo tàng." },
+            { "id": "zh-init-c2-w8", "headword": "存款", "reading": "cúnkuǎn", "meaningVn": "tiền gửi tiết kiệm", "example": "他有一些存款。", "exampleVn": "Anh ấy có một khoản tiền tiết kiệm." },
+            { "id": "zh-init-c2-w9", "headword": "从事", "reading": "cóngshì", "meaningVn": "làm nghề, tham gia vào", "example": "他从事教育工作。", "exampleVn": "Anh ấy làm công tác giáo dục." },
+            { "id": "zh-init-c2-w10", "headword": "层面", "reading": "céngmiàn", "meaningVn": "tầng diện, phương diện", "example": "这涉及多个层面。", "exampleVn": "Việc này liên quan đến nhiều phương diện." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-init-z2",
+      "language": "zh",
+      "reading": "z-",
+      "groupKind": "initial",
+      "note": "Mở rộng thêm 10 từ mới cho âm đầu \"z\" (không trùng với 10 từ đã có ở nhóm z- gốc).",
+      "roots": [
+        {
+          "id": "zh-init-z2-root",
+          "character": "z",
+          "meaningVn": "âm đầu \"z\" trong pinyin (mở rộng)",
+          "words": [
+            { "id": "zh-init-z2-w1", "headword": "增长", "reading": "zēngzhǎng", "meaningVn": "tăng trưởng", "example": "经济持续增长。", "exampleVn": "Kinh tế tăng trưởng liên tục." },
+            { "id": "zh-init-z2-w2", "headword": "灾难", "reading": "zāinàn", "meaningVn": "tai họa, thảm họa", "example": "地震是一场灾难。", "exampleVn": "Động đất là một thảm họa." },
+            { "id": "zh-init-z2-w3", "headword": "早期", "reading": "zǎoqī", "meaningVn": "thời kỳ đầu", "example": "这是他早期的作品。", "exampleVn": "Đây là tác phẩm thời kỳ đầu của anh ấy." },
+            { "id": "zh-init-z2-w4", "headword": "在于", "reading": "zàiyú", "meaningVn": "nằm ở, tùy thuộc vào", "example": "成功的关键在于坚持。", "exampleVn": "Chìa khóa thành công nằm ở sự kiên trì." },
+            { "id": "zh-init-z2-w5", "headword": "遵守", "reading": "zūnshǒu", "meaningVn": "tuân thủ", "example": "我们要遵守规则。", "exampleVn": "Chúng ta phải tuân thủ quy tắc." },
+            { "id": "zh-init-z2-w6", "headword": "阻碍", "reading": "zǔ'ài", "meaningVn": "cản trở", "example": "这个问题阻碍了发展。", "exampleVn": "Vấn đề này đã cản trở sự phát triển." },
+            { "id": "zh-init-z2-w7", "headword": "赞成", "reading": "zànchéng", "meaningVn": "tán thành", "example": "大家都赞成这个计划。", "exampleVn": "Mọi người đều tán thành kế hoạch này." },
+            { "id": "zh-init-z2-w8", "headword": "再次", "reading": "zàicì", "meaningVn": "một lần nữa", "example": "他再次尝试了。", "exampleVn": "Anh ấy đã thử lại một lần nữa." },
+            { "id": "zh-init-z2-w9", "headword": "资源", "reading": "zīyuán", "meaningVn": "tài nguyên", "example": "水是宝贵的资源。", "exampleVn": "Nước là tài nguyên quý giá." },
+            { "id": "zh-init-z2-w10", "headword": "尊严", "reading": "zūnyán", "meaningVn": "phẩm giá, tôn nghiêm", "example": "每个人都应该有尊严。", "exampleVn": "Mỗi người đều nên có phẩm giá." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-init-n2",
+      "language": "zh",
+      "reading": "n-",
+      "groupKind": "initial",
+      "note": "Mở rộng thêm 10 từ mới cho âm đầu \"n\" (không trùng với 10 từ đã có ở nhóm n- gốc).",
+      "roots": [
+        {
+          "id": "zh-init-n2-root",
+          "character": "n",
+          "meaningVn": "âm đầu \"n\" trong pinyin (mở rộng)",
+          "words": [
+            { "id": "zh-init-n2-w1", "headword": "农村", "reading": "nóngcūn", "meaningVn": "nông thôn", "example": "他出生在农村。", "exampleVn": "Anh ấy sinh ra ở nông thôn." },
+            { "id": "zh-init-n2-w2", "headword": "内心", "reading": "nèixīn", "meaningVn": "nội tâm", "example": "他内心很矛盾。", "exampleVn": "Nội tâm anh ấy rất mâu thuẫn." },
+            { "id": "zh-init-n2-w3", "headword": "南方", "reading": "nánfāng", "meaningVn": "miền nam", "example": "他来自南方。", "exampleVn": "Anh ấy đến từ miền nam." },
+            { "id": "zh-init-n2-w4", "headword": "内部", "reading": "nèibù", "meaningVn": "nội bộ", "example": "这是公司内部的消息。", "exampleVn": "Đây là tin tức nội bộ của công ty." },
+            { "id": "zh-init-n2-w5", "headword": "年代", "reading": "niándài", "meaningVn": "niên đại, thời đại", "example": "这是上个年代的产品。", "exampleVn": "Đây là sản phẩm của thời đại trước." },
+            { "id": "zh-init-n2-w6", "headword": "能源", "reading": "néngyuán", "meaningVn": "năng lượng", "example": "我们要节约能源。", "exampleVn": "Chúng ta phải tiết kiệm năng lượng." },
+            { "id": "zh-init-n2-w7", "headword": "拿到", "reading": "nádào", "meaningVn": "lấy được", "example": "他拿到了奖学金。", "exampleVn": "Anh ấy đã lấy được học bổng." },
+            { "id": "zh-init-n2-w8", "headword": "女士", "reading": "nǚshì", "meaningVn": "quý bà, phụ nữ (trang trọng)", "example": "这位女士是谁？", "exampleVn": "Quý bà này là ai vậy?" },
+            { "id": "zh-init-n2-w9", "headword": "牛奶", "reading": "niúnǎi", "meaningVn": "sữa bò", "example": "我每天喝牛奶。", "exampleVn": "Mỗi ngày tôi uống sữa bò." },
+            { "id": "zh-init-n2-w10", "headword": "诺言", "reading": "nuòyán", "meaningVn": "lời hứa", "example": "他遵守了自己的诺言。", "exampleVn": "Anh ấy đã giữ lời hứa của mình." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-init-f2",
+      "language": "zh",
+      "reading": "f-",
+      "groupKind": "initial",
+      "note": "Mở rộng thêm 10 từ mới cho âm đầu \"f\" (không trùng với 10 từ đã có ở nhóm f- gốc).",
+      "roots": [
+        {
+          "id": "zh-init-f2-root",
+          "character": "f",
+          "meaningVn": "âm đầu \"f\" trong pinyin (mở rộng)",
+          "words": [
+            { "id": "zh-init-f2-w1", "headword": "方式", "reading": "fāngshì", "meaningVn": "phương thức", "example": "这是一种新的学习方式。", "exampleVn": "Đây là một phương thức học tập mới." },
+            { "id": "zh-init-f2-w2", "headword": "犯罪", "reading": "fànzuì", "meaningVn": "phạm tội", "example": "他因犯罪被捕。", "exampleVn": "Anh ta bị bắt vì phạm tội." },
+            { "id": "zh-init-f2-w3", "headword": "否则", "reading": "fǒuzé", "meaningVn": "nếu không thì", "example": "快点，否则就迟到了。", "exampleVn": "Nhanh lên, nếu không thì sẽ muộn." },
+            { "id": "zh-init-f2-w4", "headword": "费用", "reading": "fèiyòng", "meaningVn": "chi phí", "example": "这笔费用不小。", "exampleVn": "Khoản chi phí này không nhỏ." },
+            { "id": "zh-init-f2-w5", "headword": "奋斗", "reading": "fèndòu", "meaningVn": "phấn đấu", "example": "他为梦想努力奋斗。", "exampleVn": "Anh ấy nỗ lực phấn đấu vì ước mơ." },
+            { "id": "zh-init-f2-w6", "headword": "繁荣", "reading": "fánróng", "meaningVn": "phồn vinh, thịnh vượng", "example": "这座城市非常繁荣。", "exampleVn": "Thành phố này rất phồn vinh." },
+            { "id": "zh-init-f2-w7", "headword": "范围", "reading": "fànwéi", "meaningVn": "phạm vi", "example": "这超出了我的工作范围。", "exampleVn": "Việc này vượt ra ngoài phạm vi công việc của tôi." },
+            { "id": "zh-init-f2-w8", "headword": "否认", "reading": "fǒurèn", "meaningVn": "phủ nhận", "example": "他否认了这件事。", "exampleVn": "Anh ấy đã phủ nhận việc này." },
+            { "id": "zh-init-f2-w9", "headword": "反抗", "reading": "fǎnkàng", "meaningVn": "phản kháng, chống lại", "example": "人民奋起反抗。", "exampleVn": "Nhân dân đứng lên phản kháng." },
+            { "id": "zh-init-f2-w10", "headword": "分布", "reading": "fēnbù", "meaningVn": "phân bố", "example": "人口分布不均。", "exampleVn": "Dân số phân bố không đều." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-init-k2",
+      "language": "zh",
+      "reading": "k-",
+      "groupKind": "initial",
+      "note": "Mở rộng thêm 10 từ mới cho âm đầu \"k\" (không trùng với 10 từ đã có ở nhóm k- gốc).",
+      "roots": [
+        {
+          "id": "zh-init-k2-root",
+          "character": "k",
+          "meaningVn": "âm đầu \"k\" trong pinyin (mở rộng)",
+          "words": [
+            { "id": "zh-init-k2-w1", "headword": "课程", "reading": "kèchéng", "meaningVn": "khóa học, chương trình học", "example": "这门课程很有趣。", "exampleVn": "Khóa học này rất thú vị." },
+            { "id": "zh-init-k2-w2", "headword": "可能", "reading": "kěnéng", "meaningVn": "có thể, khả năng", "example": "明天可能会下雨。", "exampleVn": "Ngày mai có thể sẽ mưa." },
+            { "id": "zh-init-k2-w3", "headword": "看法", "reading": "kànfǎ", "meaningVn": "quan điểm, cách nhìn", "example": "你对这件事有什么看法？", "exampleVn": "Bạn có quan điểm gì về việc này?" },
+            { "id": "zh-init-k2-w4", "headword": "靠近", "reading": "kàojìn", "meaningVn": "đến gần", "example": "请不要靠近危险区域。", "exampleVn": "Xin đừng đến gần khu vực nguy hiểm." },
+            { "id": "zh-init-k2-w5", "headword": "抗议", "reading": "kàngyì", "meaningVn": "kháng nghị, phản đối", "example": "民众上街抗议。", "exampleVn": "Người dân xuống đường phản đối." },
+            { "id": "zh-init-k2-w6", "headword": "开放", "reading": "kāifàng", "meaningVn": "mở cửa", "example": "这个公园全天开放。", "exampleVn": "Công viên này mở cửa cả ngày." },
+            { "id": "zh-init-k2-w7", "headword": "宽容", "reading": "kuānróng", "meaningVn": "khoan dung", "example": "我们要学会宽容。", "exampleVn": "Chúng ta phải học cách khoan dung." },
+            { "id": "zh-init-k2-w8", "headword": "苦恼", "reading": "kǔnǎo", "meaningVn": "phiền muộn", "example": "这件事让他很苦恼。", "exampleVn": "Việc này khiến anh ấy rất phiền muộn." },
+            { "id": "zh-init-k2-w9", "headword": "科技", "reading": "kējì", "meaningVn": "khoa học công nghệ", "example": "科技改变了我们的生活。", "exampleVn": "Khoa học công nghệ đã thay đổi cuộc sống của chúng ta." },
+            { "id": "zh-init-k2-w10", "headword": "恐惧", "reading": "kǒngjù", "meaningVn": "sợ hãi", "example": "他心中充满恐惧。", "exampleVn": "Trong lòng anh ấy tràn đầy sợ hãi." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-init-y2",
+      "language": "zh",
+      "reading": "y-",
+      "groupKind": "initial",
+      "note": "Mở rộng thêm 10 từ mới cho âm đầu \"y\" (không trùng với 10 từ đã có ở nhóm y- gốc).",
+      "roots": [
+        {
+          "id": "zh-init-y2-root",
+          "character": "y",
+          "meaningVn": "âm đầu \"y\" trong pinyin (mở rộng)",
+          "words": [
+            { "id": "zh-init-y2-w1", "headword": "一旦", "reading": "yídàn", "meaningVn": "một khi", "example": "一旦决定了，就不要后悔。", "exampleVn": "Một khi đã quyết định thì đừng hối hận." },
+            { "id": "zh-init-y2-w2", "headword": "语言", "reading": "yǔyán", "meaningVn": "ngôn ngữ", "example": "他会说三种语言。", "exampleVn": "Anh ấy biết nói ba thứ tiếng." },
+            { "id": "zh-init-y2-w3", "headword": "优势", "reading": "yōushì", "meaningVn": "ưu thế", "example": "这是我们的优势。", "exampleVn": "Đây là ưu thế của chúng ta." },
+            { "id": "zh-init-y2-w4", "headword": "有效", "reading": "yǒuxiào", "meaningVn": "hiệu quả", "example": "这个方法很有效。", "exampleVn": "Phương pháp này rất hiệu quả." },
+            { "id": "zh-init-y2-w5", "headword": "意义", "reading": "yìyì", "meaningVn": "ý nghĩa", "example": "这件事很有意义。", "exampleVn": "Việc này rất có ý nghĩa." },
+            { "id": "zh-init-y2-w6", "headword": "依靠", "reading": "yīkào", "meaningVn": "dựa vào", "example": "我们要依靠自己的力量。", "exampleVn": "Chúng ta phải dựa vào sức mạnh của chính mình." },
+            { "id": "zh-init-y2-w7", "headword": "演讲", "reading": "yǎnjiǎng", "meaningVn": "diễn thuyết", "example": "他的演讲很精彩。", "exampleVn": "Bài diễn thuyết của anh ấy rất xuất sắc." },
+            { "id": "zh-init-y2-w8", "headword": "邀请", "reading": "yāoqǐng", "meaningVn": "mời", "example": "我邀请他来参加聚会。", "exampleVn": "Tôi mời anh ấy đến dự buổi tiệc." },
+            { "id": "zh-init-y2-w9", "headword": "阳光", "reading": "yángguāng", "meaningVn": "ánh nắng", "example": "今天阳光很好。", "exampleVn": "Hôm nay ánh nắng rất đẹp." },
+            { "id": "zh-init-y2-w10", "headword": "优秀", "reading": "yōuxiù", "meaningVn": "ưu tú, xuất sắc", "example": "她是一个优秀的学生。", "exampleVn": "Cô ấy là một học sinh xuất sắc." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-init-w2",
+      "language": "zh",
+      "reading": "w-",
+      "groupKind": "initial",
+      "note": "Mở rộng thêm 10 từ mới cho âm đầu \"w\" (không trùng với 10 từ đã có ở nhóm w- gốc).",
+      "roots": [
+        {
+          "id": "zh-init-w2-root",
+          "character": "w",
+          "meaningVn": "âm đầu \"w\" trong pinyin (mở rộng)",
+          "words": [
+            { "id": "zh-init-w2-w1", "headword": "完善", "reading": "wánshàn", "meaningVn": "hoàn thiện", "example": "这个方案还需要完善。", "exampleVn": "Phương án này còn cần hoàn thiện thêm." },
+            { "id": "zh-init-w2-w2", "headword": "未来", "reading": "wèilái", "meaningVn": "tương lai", "example": "他对未来充满信心。", "exampleVn": "Anh ấy tràn đầy niềm tin vào tương lai." },
+            { "id": "zh-init-w2-w3", "headword": "网络", "reading": "wǎngluò", "meaningVn": "mạng internet", "example": "他在网络上买东西。", "exampleVn": "Anh ấy mua đồ trên mạng." },
+            { "id": "zh-init-w2-w4", "headword": "位置", "reading": "wèizhì", "meaningVn": "vị trí", "example": "请告诉我你的位置。", "exampleVn": "Xin hãy cho tôi biết vị trí của bạn." },
+            { "id": "zh-init-w2-w5", "headword": "无法", "reading": "wúfǎ", "meaningVn": "không thể", "example": "我无法接受这个结果。", "exampleVn": "Tôi không thể chấp nhận kết quả này." },
+            { "id": "zh-init-w2-w6", "headword": "温暖", "reading": "wēnnuǎn", "meaningVn": "ấm áp", "example": "家人的爱让他感到温暖。", "exampleVn": "Tình yêu của gia đình khiến anh ấy cảm thấy ấm áp." },
+            { "id": "zh-init-w2-w7", "headword": "委托", "reading": "wěituō", "meaningVn": "ủy thác", "example": "他委托律师处理这件事。", "exampleVn": "Anh ấy ủy thác cho luật sư xử lý việc này." },
+            { "id": "zh-init-w2-w8", "headword": "挖掘", "reading": "wājué", "meaningVn": "khai quật, khai thác", "example": "公司在挖掘新的市场。", "exampleVn": "Công ty đang khai thác thị trường mới." },
+            { "id": "zh-init-w2-w9", "headword": "往往", "reading": "wǎngwǎng", "meaningVn": "thường thường, hay", "example": "成功往往需要坚持。", "exampleVn": "Thành công thường cần đến sự kiên trì." },
+            { "id": "zh-init-w2-w10", "headword": "微笑", "reading": "wēixiào", "meaningVn": "mỉm cười", "example": "她对我微笑。", "exampleVn": "Cô ấy mỉm cười với tôi." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-init-h2",
+      "language": "zh",
+      "reading": "h-",
+      "groupKind": "initial",
+      "note": "Mở rộng thêm 10 từ mới cho âm đầu \"h\" (không trùng với 10 từ đã có ở nhóm h- gốc).",
+      "roots": [
+        {
+          "id": "zh-init-h2-root",
+          "character": "h",
+          "meaningVn": "âm đầu \"h\" trong pinyin (mở rộng)",
+          "words": [
+            { "id": "zh-init-h2-w1", "headword": "后果", "reading": "hòuguǒ", "meaningVn": "hậu quả", "example": "这样做会有严重后果。", "exampleVn": "Làm như vậy sẽ có hậu quả nghiêm trọng." },
+            { "id": "zh-init-h2-w2", "headword": "好处", "reading": "hǎochù", "meaningVn": "lợi ích, cái hay", "example": "运动对身体有好处。", "exampleVn": "Vận động có lợi cho sức khỏe." },
+            { "id": "zh-init-h2-w3", "headword": "花费", "reading": "huāfèi", "meaningVn": "tiêu tốn", "example": "这个项目花费了很多时间。", "exampleVn": "Dự án này đã tiêu tốn rất nhiều thời gian." },
+            { "id": "zh-init-h2-w4", "headword": "户外", "reading": "hùwài", "meaningVn": "ngoài trời", "example": "他喜欢户外运动。", "exampleVn": "Anh ấy thích vận động ngoài trời." },
+            { "id": "zh-init-h2-w5", "headword": "灰心", "reading": "huīxīn", "meaningVn": "nản lòng", "example": "失败了也不要灰心。", "exampleVn": "Thất bại rồi cũng đừng nản lòng." },
+            { "id": "zh-init-h2-w6", "headword": "欢乐", "reading": "huānlè", "meaningVn": "vui vẻ, hoan lạc", "example": "节日气氛欢乐。", "exampleVn": "Không khí ngày lễ vui vẻ." },
+            { "id": "zh-init-h2-w7", "headword": "婚姻", "reading": "hūnyīn", "meaningVn": "hôn nhân", "example": "他们的婚姻很幸福。", "exampleVn": "Hôn nhân của họ rất hạnh phúc." },
+            { "id": "zh-init-h2-w8", "headword": "呼吸", "reading": "hūxī", "meaningVn": "hô hấp, thở", "example": "深呼吸可以放松。", "exampleVn": "Hít thở sâu có thể giúp thư giãn." },
+            { "id": "zh-init-h2-w9", "headword": "汇报", "reading": "huìbào", "meaningVn": "báo cáo", "example": "他向领导汇报了工作。", "exampleVn": "Anh ấy đã báo cáo công việc với lãnh đạo." },
+            { "id": "zh-init-h2-w10", "headword": "华丽", "reading": "huálì", "meaningVn": "hoa lệ, lộng lẫy", "example": "她穿着华丽的礼服。", "exampleVn": "Cô ấy mặc bộ lễ phục lộng lẫy." }
+          ]
+        }
+      ]
     }
   ]
 }
