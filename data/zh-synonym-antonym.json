@@ -8671,9 +8671,593 @@
         { "headword": "燃料", "reading": "ránliào", "hanViet": "nhiên liệu", "meaningVn": "nhiên liệu (danh từ, vật chất dùng để đốt cháy tạo năng lượng)" }
       ],
       "note": "3 từ đều mang chữ 燃 (nhiên, \"đốt cháy\") nhưng khác loại: 燃烧 = động từ chỉ quá trình cháy; 点燃 = hành động khơi mào đốt lên; 燃料 = danh từ chỉ vật chất dùng để đốt."
+    },
+    {
+      "id": "zh-syncluster-lie4",
+      "language": "zh",
+      "kind": "synonym-cluster",
+      "sharedChar": "裂",
+      "words": [
+        { "headword": "分裂", "reading": "fēnliè", "hanViet": "phân liệt", "meaningVn": "chia rẽ, phân liệt (tổ chức, quốc gia — mang tính chính trị/xã hội)" },
+        { "headword": "破裂", "reading": "pòliè", "hanViet": "phá liệt", "meaningVn": "rạn nứt, đổ vỡ (quan hệ, hoặc vật lý — mối quan hệ/hợp đồng không còn nguyên vẹn)" },
+        { "headword": "裂痕", "reading": "lièhén", "hanViet": "liệt ngân", "meaningVn": "vết rạn nứt (danh từ, nghĩa đen hoặc bóng: dấu hiệu rạn nứt trong quan hệ)" }
+      ],
+      "note": "3 từ đều mang chữ 裂 (liệt, \"nứt vỡ\") nhưng khác loại: 分裂 = chia rẽ tổ chức/quốc gia; 破裂 = đổ vỡ quan hệ/vật lý; 裂痕 = danh từ chỉ dấu vết rạn nứt."
+    },
+    {
+      "id": "zh-syncluster-sui4",
+      "language": "zh",
+      "kind": "synonym-cluster",
+      "sharedChar": "碎",
+      "words": [
+        { "headword": "破碎", "reading": "pòsuì", "hanViet": "phá toái", "meaningVn": "tan vỡ, vụn nát (vật lý, hoặc nghĩa bóng: trái tim tan vỡ)" },
+        { "headword": "碎片", "reading": "suìpiàn", "hanViet": "toái phiến", "meaningVn": "mảnh vỡ (danh từ, vật lý)" },
+        { "headword": "粉碎", "reading": "fěnsuì", "hanViet": "phấn toái", "meaningVn": "nghiền nát, đập tan (nghĩa bóng: kế hoạch, âm mưu bị phá tan hoàn toàn)" }
+      ],
+      "note": "3 từ đều mang chữ 碎 (toái, \"vỡ vụn\") nhưng khác loại: 破碎 = tan vỡ (vật lý/cảm xúc); 碎片 = danh từ chỉ mảnh vỡ; 粉碎 = đập tan hoàn toàn kế hoạch/âm mưu."
+    },
+    {
+      "id": "zh-syncluster-ta1",
+      "language": "zh",
+      "kind": "synonym-cluster",
+      "sharedChar": "塌",
+      "words": [
+        { "headword": "倒塌", "reading": "dǎotā", "hanViet": "đảo tháp", "meaningVn": "sụp đổ (công trình, nhà cửa — nghĩa đen, đột ngột)" },
+        { "headword": "塌陷", "reading": "tāxiàn", "hanViet": "tháp hãm", "meaningVn": "sụt lún (đất, nền móng — quá trình dần dần)" },
+        { "headword": "塌方", "reading": "tāfāng", "hanViet": "tháp phương", "meaningVn": "sạt lở đất (địa chất, công trình xây dựng/hầm mỏ)" }
+      ],
+      "note": "3 từ đều mang chữ 塌 (tháp, \"sụp xuống\") nhưng khác đối tượng: 倒塌 = công trình sụp đổ đột ngột; 塌陷 = đất/nền sụt lún dần; 塌方 = sạt lở đất trong xây dựng/hầm mỏ."
+    },
+    {
+      "id": "zh-syncluster-kui4",
+      "language": "zh",
+      "kind": "synonym-cluster",
+      "sharedChar": "溃",
+      "words": [
+        { "headword": "崩溃", "reading": "bēngkuì", "hanViet": "băng hội", "meaningVn": "sụp đổ (tinh thần, hệ thống — nghĩa bóng, mất kiểm soát hoàn toàn)" },
+        { "headword": "溃败", "reading": "kuìbài", "hanViet": "hội bại", "meaningVn": "đại bại, tan rã (quân sự, đội quân thua trận thảm hại)" },
+        { "headword": "溃烂", "reading": "kuìlàn", "hanViet": "hội lạn", "meaningVn": "lở loét (y học, vết thương bị nhiễm trùng nặng)" }
+      ],
+      "note": "3 từ đều mang chữ 溃 (hội, \"vỡ tan\") nhưng khác lĩnh vực: 崩溃 = sụp đổ tinh thần/hệ thống; 溃败 = đại bại quân sự; 溃烂 = lở loét y học."
+    },
+    {
+      "id": "zh-syncluster-qin1",
+      "language": "zh",
+      "kind": "synonym-cluster",
+      "sharedChar": "侵",
+      "words": [
+        { "headword": "侵略", "reading": "qīnlüè", "hanViet": "xâm lược", "meaningVn": "xâm lược (quân sự, một quốc gia tấn công quốc gia khác)" },
+        { "headword": "侵犯", "reading": "qīnfàn", "hanViet": "xâm phạm", "meaningVn": "xâm phạm (quyền lợi, lãnh thổ — mang tính pháp lý/đạo đức)" },
+        { "headword": "侵占", "reading": "qīnzhàn", "hanViet": "xâm chiếm", "meaningVn": "xâm chiếm, chiếm đoạt (đất đai, tài sản — hành vi cụ thể)" }
+      ],
+      "note": "3 từ đều mang chữ 侵 (xâm, \"lấn chiếm\") nhưng khác đối tượng: 侵略 = xâm lược quân sự giữa các quốc gia; 侵犯 = xâm phạm quyền lợi/lãnh thổ; 侵占 = chiếm đoạt đất đai/tài sản cụ thể."
+    },
+    {
+      "id": "zh-syncluster-xi2",
+      "language": "zh",
+      "kind": "synonym-cluster",
+      "sharedChar": "袭",
+      "words": [
+        { "headword": "袭击", "reading": "xíjí", "hanViet": "tập kích", "meaningVn": "tấn công bất ngờ (nghĩa chung nhất, quân sự hoặc tội phạm)" },
+        { "headword": "侵袭", "reading": "qīnxí", "hanViet": "xâm tập", "meaningVn": "xâm nhập tấn công (có thể là thiên tai, dịch bệnh — không chỉ con người)" },
+        { "headword": "空袭", "reading": "kōngxí", "hanViet": "không tập", "meaningVn": "không kích (quân sự cụ thể, tấn công từ trên không)" }
+      ],
+      "note": "3 từ đều mang chữ 袭 (tập, \"tấn công bất ngờ\") nhưng khác phạm vi: 袭击 = tấn công bất ngờ nói chung; 侵袭 = xâm nhập của thiên tai/dịch bệnh; 空袭 = không kích quân sự cụ thể."
+    },
+    {
+      "id": "zh-syncluster-hui3",
+      "language": "zh",
+      "kind": "synonym-cluster",
+      "sharedChar": "毁",
+      "words": [
+        { "headword": "毁灭", "reading": "huǐmiè", "hanViet": "hủy diệt", "meaningVn": "hủy diệt hoàn toàn (một nền văn minh, một hệ thống — nghĩa tổng thể, nặng nề nhất)" },
+        { "headword": "摧毁", "reading": "cuīhuǐ", "hanViet": "tồi hủy", "meaningVn": "phá hủy (công trình, vật thể cụ thể — bằng vũ lực/thiên tai)" },
+        { "headword": "诋毁", "reading": "dǐhuǐ", "hanViet": "để hủy", "meaningVn": "phỉ báng, bôi nhọ (danh dự người khác bằng lời nói, không liên quan vật lý)" }
+      ],
+      "note": "3 từ đều mang chữ 毁 (hủy, \"phá bỏ\") nhưng khác đối tượng: 毁灭 = hủy diệt tổng thể; 摧毁 = phá hủy vật thể cụ thể; 诋毁 = bôi nhọ danh dự bằng lời nói."
+    },
+    {
+      "id": "zh-syncluster-mie4",
+      "language": "zh",
+      "kind": "synonym-cluster",
+      "sharedChar": "灭",
+      "words": [
+        { "headword": "灭亡", "reading": "mièwáng", "hanViet": "diệt vong", "meaningVn": "diệt vong (một quốc gia, triều đại, nền văn minh không còn tồn tại)" },
+        { "headword": "消灭", "reading": "xiāomiè", "hanViet": "tiêu diệt", "meaningVn": "tiêu diệt (kẻ thù, dịch bệnh — hành động chủ động loại bỏ)" },
+        { "headword": "灭绝", "reading": "mièjué", "hanViet": "diệt tuyệt", "meaningVn": "tuyệt chủng, diệt tuyệt (loài sinh vật không còn cá thể nào tồn tại)" }
+      ],
+      "note": "3 từ đều mang chữ 灭 (diệt, \"dập tắt hoàn toàn\") nhưng khác đối tượng: 灭亡 = quốc gia/nền văn minh không còn tồn tại; 消灭 = hành động chủ động tiêu diệt; 灭绝 = loài sinh vật tuyệt chủng."
+    },
+    {
+      "id": "zh-syncluster-di3",
+      "language": "zh",
+      "kind": "synonym-cluster",
+      "sharedChar": "抵",
+      "words": [
+        { "headword": "抵抗", "reading": "dǐkàng", "hanViet": "để kháng", "meaningVn": "kháng cự (chống lại một lực tấn công, nghĩa chung nhất)" },
+        { "headword": "抵制", "reading": "dǐzhì", "hanViet": "để chế", "meaningVn": "tẩy chay, kháng nghị (từ chối chấp nhận/sử dụng điều gì đó có chủ đích)" },
+        { "headword": "抵消", "reading": "dǐxiāo", "hanViet": "để tiêu", "meaningVn": "triệt tiêu, bù trừ lẫn nhau (hai lực/tác động ngược chiều triệt tiêu nhau)" }
+      ],
+      "note": "3 từ đều mang chữ 抵 (để, \"chống đỡ\") nhưng khác nghĩa: 抵抗 = kháng cự tấn công; 抵制 = tẩy chay có chủ đích; 抵消 = triệt tiêu lẫn nhau."
+    },
+    {
+      "id": "zh-syncluster-kang4",
+      "language": "zh",
+      "kind": "synonym-cluster",
+      "sharedChar": "抗",
+      "words": [
+        { "headword": "抗衡", "reading": "kànghéng", "hanViet": "kháng hành", "meaningVn": "đối kháng ngang sức (hai bên có thực lực tương đương, không bên nào áp đảo)" },
+        { "headword": "对抗", "reading": "duìkàng", "hanViet": "đối kháng", "meaningVn": "chống lại, đối đầu trực diện (nghĩa chung, không nhất thiết ngang sức)" },
+        { "headword": "反抗", "reading": "fǎnkàng", "hanViet": "phản kháng", "meaningVn": "phản kháng, chống lại áp bức (bên yếu chống lại bên mạnh hơn)" }
+      ],
+      "note": "3 từ đều mang chữ 抗 (kháng, \"chống lại\") nhưng khác tương quan lực lượng: 抗衡 = hai bên ngang sức; 对抗 = đối đầu trực diện nói chung; 反抗 = bên yếu chống lại áp bức."
+    },
+    {
+      "id": "zh-syncluster-qu1b",
+      "language": "zh",
+      "kind": "synonym-cluster",
+      "sharedChar": "屈",
+      "words": [
+        { "headword": "屈服", "reading": "qūfú", "hanViet": "khuất phục", "meaningVn": "khuất phục, chịu thua trước sức ép (động từ, mất đi ý chí phản kháng)" },
+        { "headword": "委屈", "reading": "wěiqu", "hanViet": "ủy khuất", "meaningVn": "ấm ức, tủi thân (cảm xúc khi bị đối xử không công bằng)" },
+        { "headword": "屈辱", "reading": "qūrǔ", "hanViet": "khuất nhục", "meaningVn": "nhục nhã, tủi nhục (danh từ, trạng thái bị hạ thấp nhân phẩm nghiêm trọng)" }
+      ],
+      "note": "3 từ đều mang chữ 屈 (khuất, \"cong, chịu thua\") nhưng khác mức độ: 屈服 = khuất phục trước sức ép; 委屈 = ấm ức cảm xúc cá nhân; 屈辱 = nhục nhã nghiêm trọng về nhân phẩm."
+    },
+    {
+      "id": "zh-syncluster-ru3",
+      "language": "zh",
+      "kind": "synonym-cluster",
+      "sharedChar": "辱",
+      "words": [
+        { "headword": "侮辱", "reading": "wǔrǔ", "hanViet": "vũ nhục", "meaningVn": "lăng nhục, sỉ nhục (hành vi cố ý xúc phạm nghiêm trọng đến người khác)" },
+        { "headword": "羞辱", "reading": "xiūrǔ", "hanViet": "tu nhục", "meaningVn": "làm nhục (khiến ai đó cảm thấy xấu hổ trước người khác)" },
+        { "headword": "耻辱", "reading": "chǐrǔ", "hanViet": "sỉ nhục", "meaningVn": "nhục nhã, ô nhục (DANH TỪ, trạng thái/sự kiện gây mất danh dự, khác 2 từ kia là động từ)" }
+      ],
+      "note": "3 từ đều mang chữ 辱 (nhục, \"làm nhục\") nhưng khác từ loại: 侮辱 = động từ hành vi xúc phạm cố ý; 羞辱 = động từ khiến ai đó xấu hổ; 耻辱 = danh từ chỉ trạng thái/sự kiện ô nhục."
+    },
+    {
+      "id": "zh-syncluster-bei1",
+      "language": "zh",
+      "kind": "synonym-cluster",
+      "sharedChar": "卑",
+      "words": [
+        { "headword": "自卑", "reading": "zìbēi", "hanViet": "tự ti", "meaningVn": "tự ti, mặc cảm về bản thân (cảm xúc hướng vào chính mình)" },
+        { "headword": "卑鄙", "reading": "bēibǐ", "hanViet": "ti bỉ", "meaningVn": "đê tiện, hèn hạ (tính từ mô tả hành vi/thủ đoạn xấu xa)" },
+        { "headword": "卑微", "reading": "bēiwēi", "hanViet": "ti vi", "meaningVn": "thấp hèn, bé nhỏ (địa vị xã hội, không mang tính đạo đức xấu như 卑鄙)" }
+      ],
+      "note": "3 từ đều mang chữ 卑 (ti, \"thấp hèn\") nhưng khác đối tượng: 自卑 = mặc cảm về bản thân; 卑鄙 = hành vi đê tiện xấu xa; 卑微 = địa vị xã hội thấp kém, trung tính hơn."
+    },
+    {
+      "id": "zh-syncluster-ao4",
+      "language": "zh",
+      "kind": "synonym-cluster",
+      "sharedChar": "傲",
+      "words": [
+        { "headword": "骄傲", "reading": "jiāo'ào", "hanViet": "kiêu ngạo", "meaningVn": "kiêu ngạo (tiêu cực); hoặc tự hào (tích cực) — tùy ngữ cảnh, từ trung tính nhất trong nhóm" },
+        { "headword": "傲慢", "reading": "àomàn", "hanViet": "ngạo mạn", "meaningVn": "ngạo mạn, coi thường người khác (luôn mang nghĩa tiêu cực)" },
+        { "headword": "孤傲", "reading": "gū'ào", "hanViet": "cô ngạo", "meaningVn": "cô ngạo, kiêu ngạo và cô độc (thường mang chút sắc thái văn chương, không hẳn tiêu cực hoàn toàn)" }
+      ],
+      "note": "3 từ đều mang chữ 傲 (ngạo, \"kiêu\") nhưng khác sắc thái: 骄傲 = trung tính, có thể tích cực (tự hào) hoặc tiêu cực (kiêu ngạo); 傲慢 = luôn tiêu cực; 孤傲 = kiêu ngạo và cô độc, mang tính văn chương."
+    },
+    {
+      "id": "zh-syncluster-qian1",
+      "language": "zh",
+      "kind": "synonym-cluster",
+      "sharedChar": "谦",
+      "words": [
+        { "headword": "谦虚", "reading": "qiānxū", "hanViet": "khiêm hư", "meaningVn": "khiêm tốn (nghĩa chung nhất, thái độ không tự cao)" },
+        { "headword": "谦逊", "reading": "qiānxùn", "hanViet": "khiêm tốn", "meaningVn": "khiêm nhường (trang trọng hơn 谦虚, thường dùng để khen ngợi người có thành tựu)" },
+        { "headword": "谦让", "reading": "qiānràng", "hanViet": "khiêm nhượng", "meaningVn": "nhường nhịn khiêm tốn (hành động cụ thể: nhường lợi ích/vị trí cho người khác)" }
+      ],
+      "note": "3 từ đều mang chữ 谦 (khiêm, \"nhún nhường\") nhưng khác mức độ: 谦虚 = thái độ khiêm tốn chung; 谦逊 = khiêm nhường trang trọng, khen ngợi; 谦让 = hành động cụ thể nhường nhịn."
+    },
+    {
+      "id": "zh-syncluster-xu1",
+      "language": "zh",
+      "kind": "synonym-cluster",
+      "sharedChar": "虚",
+      "words": [
+        { "headword": "虚心", "reading": "xūxīn", "hanViet": "hư tâm", "meaningVn": "khiêm tốn, cầu thị (sẵn sàng lắng nghe, tiếp thu ý kiến — nghĩa tích cực)" },
+        { "headword": "虚假", "reading": "xūjiǎ", "hanViet": "hư giả", "meaningVn": "giả dối, không có thật (tính từ mô tả thông tin/lời nói sai sự thật)" },
+        { "headword": "虚荣", "reading": "xūróng", "hanViet": "hư vinh", "meaningVn": "hư vinh, thích phô trương (tính cách chạy theo vẻ ngoài hào nhoáng, tiêu cực)" }
+      ],
+      "note": "3 từ đều mang chữ 虚 (hư, \"trống rỗng, giả\") nhưng khác sắc thái: 虚心 = khiêm tốn tích cực; 虚假 = giả dối về thông tin; 虚荣 = thích phô trương, tiêu cực."
+    },
+    {
+      "id": "zh-syncluster-cheng2",
+      "language": "zh",
+      "kind": "synonym-cluster",
+      "sharedChar": "诚",
+      "words": [
+        { "headword": "诚实", "reading": "chéngshí", "hanViet": "thành thật", "meaningVn": "thành thật (tính từ, không nói dối — phẩm chất đạo đức cơ bản)" },
+        { "headword": "诚恳", "reading": "chéngkěn", "hanViet": "thành khẩn", "meaningVn": "thành khẩn (thái độ chân thành, tha thiết khi nói/xin lỗi/đề nghị)" },
+        { "headword": "诚意", "reading": "chéngyì", "hanViet": "thành ý", "meaningVn": "thành ý, sự chân thành (DANH TỪ, khác 2 từ kia là tính từ)" }
+      ],
+      "note": "3 từ đều mang chữ 诚 (thành, \"chân thật\") nhưng khác từ loại: 诚实 = tính từ chỉ phẩm chất không nói dối; 诚恳 = tính từ chỉ thái độ tha thiết; 诚意 = danh từ chỉ sự chân thành."
+    },
+    {
+      "id": "zh-syncluster-jiao3",
+      "language": "zh",
+      "kind": "synonym-cluster",
+      "sharedChar": "狡",
+      "words": [
+        { "headword": "狡猾", "reading": "jiǎohuá", "hanViet": "giảo hoạt", "meaningVn": "xảo quyệt (tính từ chung, mưu mẹo để lừa gạt/trục lợi)" },
+        { "headword": "狡辩", "reading": "jiǎobiàn", "hanViet": "giảo biện", "meaningVn": "ngụy biện, cãi chày cãi cối (hành động dùng lời lẽ gian trá để chống chế)" },
+        { "headword": "狡诈", "reading": "jiǎozhà", "hanViet": "giảo trá", "meaningVn": "giảo trá, gian xảo (mức độ nặng hơn 狡猾, hàm ý âm mưu thâm độc)" }
+      ],
+      "note": "3 từ đều mang chữ 狡 (giảo, \"xảo trá\") nhưng khác mức độ: 狡猾 = xảo quyệt chung; 狡辩 = hành động ngụy biện chống chế; 狡诈 = gian xảo mức độ nặng, thâm độc."
+    },
+    {
+      "id": "zh-syncluster-tan1",
+      "language": "zh",
+      "kind": "synonym-cluster",
+      "sharedChar": "贪",
+      "words": [
+        { "headword": "贪婪", "reading": "tānlán", "hanViet": "tham lam", "meaningVn": "tham lam (tính từ chung, muốn có nhiều hơn mức cần thiết)" },
+        { "headword": "贪污", "reading": "tānwū", "hanViet": "tham ô", "meaningVn": "tham ô (hành vi cụ thể, chiếm đoạt công quỹ/tài sản công)" },
+        { "headword": "贪心", "reading": "tānxīn", "hanViet": "tham tâm", "meaningVn": "lòng tham (danh từ/tính từ, thường dùng trong ngữ cảnh đời thường hơn 贪婪)" }
+      ],
+      "note": "3 từ đều mang chữ 贪 (tham, \"tham lam\") nhưng khác phạm vi: 贪婪 = tính từ chung; 贪污 = hành vi tham nhũng cụ thể; 贪心 = lòng tham đời thường."
+    },
+    {
+      "id": "zh-syncluster-she1",
+      "language": "zh",
+      "kind": "synonym-cluster",
+      "sharedChar": "奢",
+      "words": [
+        { "headword": "奢侈", "reading": "shēchǐ", "hanViet": "xa xỉ", "meaningVn": "xa xỉ (tính từ, tiêu dùng vượt mức cần thiết)" },
+        { "headword": "奢望", "reading": "shēwàng", "hanViet": "xa vọng", "meaningVn": "mong ước viển vông, quá xa xỉ so với khả năng thực tế" },
+        { "headword": "奢华", "reading": "shēhuá", "hanViet": "xa hoa", "meaningVn": "xa hoa, lộng lẫy (tính từ mô tả không gian/lối sống sang trọng)" }
+      ],
+      "note": "3 từ đều mang chữ 奢 (xa, \"quá mức\") nhưng khác nghĩa: 奢侈 = tiêu dùng vượt mức; 奢望 = mong ước viển vông; 奢华 = lộng lẫy sang trọng."
+    },
+    {
+      "id": "zh-syncluster-jian3b",
+      "language": "zh",
+      "kind": "synonym-cluster",
+      "sharedChar": "俭",
+      "words": [
+        { "headword": "节俭", "reading": "jiéjiǎn", "hanViet": "tiết kiệm", "meaningVn": "tiết kiệm chi tiêu (nghĩa chung nhất)" },
+        { "headword": "俭朴", "reading": "jiǎnpǔ", "hanViet": "kiệm phác", "meaningVn": "giản dị, tiết kiệm trong lối sống (tính từ mô tả phong cách sống)" },
+        { "headword": "勤俭", "reading": "qínjiǎn", "hanViet": "cần kiệm", "meaningVn": "cần kiệm, chăm chỉ và tiết kiệm (đức tính chung, ghép giữa chăm chỉ và tiết kiệm)" }
+      ],
+      "note": "3 từ đều mang chữ 俭 (kiệm, \"tiết kiệm\") nhưng khác phạm vi: 节俭 = tiết kiệm chi tiêu; 俭朴 = giản dị trong lối sống; 勤俭 = đức tính chung cần cù và tiết kiệm."
+    },
+    {
+      "id": "zh-syncluster-lan3",
+      "language": "zh",
+      "kind": "synonym-cluster",
+      "sharedChar": "懒",
+      "words": [
+        { "headword": "懒惰", "reading": "lǎnduò", "hanViet": "lãn nọa", "meaningVn": "lười biếng (tính từ chung nhất)" },
+        { "headword": "偷懒", "reading": "tōulǎn", "hanViet": "thâu lãn", "meaningVn": "trốn việc, lười biếng có chủ đích (hành động cụ thể né tránh công việc)" },
+        { "headword": "懒散", "reading": "lǎnsǎn", "hanViet": "lãn tản", "meaningVn": "uể oải, tản mạn (thiếu kỷ luật, không tập trung vào việc gì)" }
+      ],
+      "note": "3 từ đều mang chữ 懒 (lãn, \"lười\") nhưng khác nghĩa: 懒惰 = lười biếng chung; 偷懒 = hành động né tránh công việc; 懒散 = uể oải thiếu kỷ luật."
+    },
+    {
+      "id": "zh-syncluster-qin2",
+      "language": "zh",
+      "kind": "synonym-cluster",
+      "sharedChar": "勤",
+      "words": [
+        { "headword": "勤奋", "reading": "qínfèn", "hanViet": "cần phấn", "meaningVn": "cần cù (tính từ, chăm chỉ nỗ lực trong học tập/công việc)" },
+        { "headword": "勤劳", "reading": "qínláo", "hanViet": "cần lao", "meaningVn": "cần lao, chăm chỉ lao động (thường gắn với lao động chân tay/sản xuất)" },
+        { "headword": "勤快", "reading": "qínkuài", "hanViet": "cần khoái", "meaningVn": "siêng năng, nhanh nhẹn (khẩu ngữ, thường tả việc nhà/việc vặt)" }
+      ],
+      "note": "3 từ đều mang chữ 勤 (cần, \"chăm chỉ\") nhưng khác phạm vi: 勤奋 = chăm chỉ học tập/công việc; 勤劳 = chăm chỉ lao động chân tay; 勤快 = siêng năng việc vặt, khẩu ngữ."
+    },
+    {
+      "id": "zh-syncluster-dai4b",
+      "language": "zh",
+      "kind": "synonym-cluster",
+      "sharedChar": "怠",
+      "words": [
+        { "headword": "懈怠", "reading": "xièdài", "hanViet": "giải đãi", "meaningVn": "lơ là, biếng nhác (mất đi sự tập trung/nỗ lực đã có trước đó)" },
+        { "headword": "怠慢", "reading": "dàimàn", "hanViet": "đãi mạn", "meaningVn": "lơ là, thờ ơ với khách (thiếu chu đáo trong tiếp đãi)" },
+        { "headword": "倦怠", "reading": "juàndài", "hanViet": "quyện đãi", "meaningVn": "mệt mỏi chán nản (trạng thái kiệt sức về tinh thần, mất động lực)" }
+      ],
+      "note": "3 từ đều mang chữ 怠 (đãi, \"lười, chán\") nhưng khác đối tượng: 懈怠 = lơ là mất tập trung; 怠慢 = thờ ơ với khách; 倦怠 = mệt mỏi chán nản tinh thần."
+    },
+    {
+      "id": "zh-syncluster-zeng1",
+      "language": "zh",
+      "kind": "synonym-cluster",
+      "sharedChar": "憎",
+      "words": [
+        { "headword": "憎恨", "reading": "zēnghèn", "hanViet": "tăng hận", "meaningVn": "căm ghét mạnh mẽ (cảm xúc gay gắt hướng tới điều/người xấu xa)" },
+        { "headword": "憎恶", "reading": "zēngwù", "hanViet": "tăng ố", "meaningVn": "ghét bỏ, ác cảm (mức độ nhẹ hơn 憎恨 nhưng vẫn mang tính khinh ghét)" },
+        { "headword": "爱憎", "reading": "àizēng", "hanViet": "ái tăng", "meaningVn": "yêu và ghét (danh từ ghép, chỉ thái độ tình cảm rõ ràng, dứt khoát)" }
+      ],
+      "note": "3 từ đều mang chữ 憎 (tăng, \"ghét\") nhưng khác mức độ: 憎恨 = căm ghét mạnh mẽ; 憎恶 = ác cảm khinh ghét; 爱憎 = danh từ ghép chỉ thái độ yêu-ghét rõ ràng."
+    },
+    {
+      "id": "zh-syncluster-lian2b",
+      "language": "zh",
+      "kind": "synonym-cluster",
+      "sharedChar": "怜",
+      "words": [
+        { "headword": "怜悯", "reading": "liánmǐn", "hanViet": "lân mẫn", "meaningVn": "thương xót, trắc ẩn (cảm xúc trước hoàn cảnh đáng thương của người khác)" },
+        { "headword": "可怜", "reading": "kělián", "hanViet": "khả liên", "meaningVn": "đáng thương (tính từ, mô tả đối tượng gợi lòng thương xót)" },
+        { "headword": "怜爱", "reading": "lián'ài", "hanViet": "lân ái", "meaningVn": "thương yêu, cưng chiều (tình cảm dành cho người nhỏ bé/yếu đuối hơn)" }
+      ],
+      "note": "3 từ đều mang chữ 怜 (lân, \"thương xót\") nhưng khác nghĩa: 怜悯 = động từ/danh từ chỉ sự trắc ẩn; 可怜 = tính từ mô tả đối tượng đáng thương; 怜爱 = thương yêu cưng chiều."
+    },
+    {
+      "id": "zh-syncluster-ci2",
+      "language": "zh",
+      "kind": "synonym-cluster",
+      "sharedChar": "慈",
+      "words": [
+        { "headword": "慈祥", "reading": "cíxiáng", "hanViet": "từ tường", "meaningVn": "hiền từ (tính từ, thường tả gương mặt/ánh mắt người lớn tuổi)" },
+        { "headword": "慈善", "reading": "císhàn", "hanViet": "từ thiện", "meaningVn": "từ thiện (hoạt động giúp đỡ người khó khăn, mang tính tổ chức)" },
+        { "headword": "仁慈", "reading": "réncí", "hanViet": "nhân từ", "meaningVn": "nhân từ (tính từ, phẩm chất đạo đức rộng lượng, khoan dung)" }
+      ],
+      "note": "3 từ đều mang chữ 慈 (từ, \"hiền lành\") nhưng khác nghĩa: 慈祥 = tả vẻ ngoài hiền từ; 慈善 = hoạt động từ thiện có tổ chức; 仁慈 = phẩm chất đạo đức nhân từ."
+    },
+    {
+      "id": "zh-syncluster-xiao4",
+      "language": "zh",
+      "kind": "synonym-cluster",
+      "sharedChar": "孝",
+      "words": [
+        { "headword": "孝顺", "reading": "xiàoshùn", "hanViet": "hiếu thuận", "meaningVn": "hiếu thảo (tính từ/động từ, đối xử tốt và vâng lời cha mẹ)" },
+        { "headword": "孝敬", "reading": "xiàojìng", "hanViet": "hiếu kính", "meaningVn": "hiếu kính, phụng dưỡng (hành động cụ thể: biếu tặng, chăm sóc cha mẹ/người lớn tuổi)" },
+        { "headword": "不孝", "reading": "bùxiào", "hanViet": "bất hiếu", "meaningVn": "bất hiếu (tính từ phủ định, không làm tròn đạo hiếu)" }
+      ],
+      "note": "3 từ đều mang chữ 孝 (hiếu, \"hiếu thảo\") nhưng khác nghĩa: 孝顺 = tính từ/động từ chung chỉ đạo hiếu; 孝敬 = hành động cụ thể phụng dưỡng; 不孝 = phủ định của đạo hiếu."
+    },
+    {
+      "id": "zh-syncluster-bei1b",
+      "language": "zh",
+      "kind": "synonym-cluster",
+      "sharedChar": "悲",
+      "words": [
+        { "headword": "悲伤", "reading": "bēishāng", "hanViet": "bi thương", "meaningVn": "buồn bã (cảm xúc chung, mức độ vừa phải)" },
+        { "headword": "悲哀", "reading": "bēi'āi", "hanViet": "bi ai", "meaningVn": "bi ai, đau buồn (mức độ sâu sắc hơn, thường mang tính văn chương)" },
+        { "headword": "悲惨", "reading": "bēicǎn", "hanViet": "bi thảm", "meaningVn": "bi thảm, thê thảm (tính từ mô tả hoàn cảnh/số phận cực kỳ đau khổ)" }
+      ],
+      "note": "3 từ đều mang chữ 悲 (bi, \"buồn\") nhưng khác mức độ: 悲伤 = buồn bã vừa phải; 悲哀 = đau buồn sâu sắc, văn chương; 悲惨 = tính từ tả hoàn cảnh cực khổ thê thảm."
+    },
+    {
+      "id": "zh-syncluster-ku1",
+      "language": "zh",
+      "kind": "synonym-cluster",
+      "sharedChar": "哭",
+      "words": [
+        { "headword": "哭泣", "reading": "kūqì", "hanViet": "khốc khấp", "meaningVn": "khóc (nghĩa chung nhất, trung tính)" },
+        { "headword": "痛哭", "reading": "tòngkū", "hanViet": "thống khốc", "meaningVn": "khóc lóc thảm thiết (mức độ mạnh, đau đớn tột cùng)" },
+        { "headword": "哭闹", "reading": "kūnào", "hanViet": "khốc náo", "meaningVn": "khóc quấy ầm ĩ (thường dùng cho trẻ con, mang tính đòi hỏi)" }
+      ],
+      "note": "3 từ đều mang chữ 哭 (khốc, \"khóc\") nhưng khác mức độ: 哭泣 = khóc chung trung tính; 痛哭 = khóc thảm thiết mạnh mẽ; 哭闹 = khóc quấy ầm ĩ của trẻ con."
+    },
+    {
+      "id": "zh-syncluster-gan3b",
+      "language": "zh",
+      "kind": "synonym-cluster",
+      "sharedChar": "敢",
+      "words": [
+        { "headword": "勇敢", "reading": "yǒnggǎn", "hanViet": "dũng cảm", "meaningVn": "dũng cảm (tính từ chung nhất, không sợ nguy hiểm/khó khăn)" },
+        { "headword": "果敢", "reading": "guǒgǎn", "hanViet": "quả cảm", "meaningVn": "quả cảm, quyết đoán dũng cảm (nhấn mạnh tính dứt khoát khi hành động)" },
+        { "headword": "敢于", "reading": "gǎnyú", "hanViet": "cảm ư", "meaningVn": "dám (động từ, đứng trước động từ khác: dám làm, dám nói)" }
+      ],
+      "note": "3 từ đều mang chữ 敢 (cảm, \"dám\") nhưng khác từ loại: 勇敢 = tính từ chung; 果敢 = tính từ nhấn mạnh quyết đoán; 敢于 = động từ \"dám\" đứng trước động từ khác."
+    },
+    {
+      "id": "zh-syncluster-qie4",
+      "language": "zh",
+      "kind": "synonym-cluster",
+      "sharedChar": "怯",
+      "words": [
+        { "headword": "胆怯", "reading": "dǎnqiè", "hanViet": "đảm khiếp", "meaningVn": "nhút nhát, rụt rè (tính cách chung, thiếu tự tin)" },
+        { "headword": "怯场", "reading": "qièchǎng", "hanViet": "khiếp trường", "meaningVn": "sợ sân khấu, khớp trước đám đông (tình huống cụ thể: biểu diễn, phát biểu)" },
+        { "headword": "怯懦", "reading": "qiènuò", "hanViet": "khiếp nọa", "meaningVn": "nhu nhược, hèn nhát (mức độ nặng hơn, mang tính phê phán về nhân cách)" }
+      ],
+      "note": "3 từ đều mang chữ 怯 (khiếp, \"sợ\") nhưng khác mức độ: 胆怯 = nhút nhát chung; 怯场 = sợ trước đám đông cụ thể; 怯懦 = hèn nhát mang tính phê phán nhân cách."
+    },
+    {
+      "id": "zh-syncluster-huang1",
+      "language": "zh",
+      "kind": "synonym-cluster",
+      "sharedChar": "慌",
+      "words": [
+        { "headword": "慌张", "reading": "huāngzhāng", "hanViet": "hoảng trương", "meaningVn": "hoảng hốt (tính từ, mất bình tĩnh trước tình huống bất ngờ)" },
+        { "headword": "恐慌", "reading": "kǒnghuāng", "hanViet": "khủng hoảng", "meaningVn": "hoảng loạn (mức độ nặng hơn, thường ở quy mô tập thể/xã hội)" },
+        { "headword": "慌乱", "reading": "huāngluàn", "hanViet": "hoảng loạn", "meaningVn": "hoảng loạn lộn xộn (mất trật tự, hành động thiếu kiểm soát)" }
+      ],
+      "note": "3 từ đều mang chữ 慌 (hoảng, \"hoảng sợ\") nhưng khác mức độ: 慌张 = hoảng hốt cá nhân; 恐慌 = hoảng loạn quy mô lớn; 慌乱 = hoảng loạn dẫn đến mất trật tự."
+    },
+    {
+      "id": "zh-syncluster-ju4b",
+      "language": "zh",
+      "kind": "synonym-cluster",
+      "sharedChar": "惧",
+      "words": [
+        { "headword": "畏惧", "reading": "wèijù", "hanViet": "úy cụ", "meaningVn": "e sợ, kính sợ (thường trước quyền uy/điều lớn lao)" },
+        { "headword": "惧怕", "reading": "jùpà", "hanViet": "cụ phạ", "meaningVn": "sợ hãi, né tránh (đối tượng cụ thể gây nguy hiểm)" },
+        { "headword": "恐惧", "reading": "kǒngjù", "hanViet": "khủng cụ", "meaningVn": "khiếp sợ (mức độ mạnh nhất, phản ứng tâm lý dữ dội)" }
+      ],
+      "note": "3 từ đều mang chữ 惧 (cụ, \"sợ\") nhưng khác mức độ: 畏惧 = e sợ trước quyền uy; 惧怕 = sợ hãi né tránh cụ thể; 恐惧 = khiếp sợ dữ dội nhất."
+    },
+    {
+      "id": "zh-syncluster-zhen4",
+      "language": "zh",
+      "kind": "synonym-cluster",
+      "sharedChar": "镇",
+      "words": [
+        { "headword": "镇定", "reading": "zhèndìng", "hanViet": "trấn định", "meaningVn": "trấn tĩnh, bình tĩnh (giữ được sự điềm tĩnh trước tình huống bất ngờ)" },
+        { "headword": "镇静", "reading": "zhènjìng", "hanViet": "trấn tĩnh", "meaningVn": "trấn tĩnh (gần nghĩa với 镇定, đôi khi dùng thay thế cho nhau)" },
+        { "headword": "镇压", "reading": "zhènyā", "hanViet": "trấn áp", "meaningVn": "trấn áp bằng vũ lực (hoàn toàn khác nghĩa: đàn áp phong trào/nổi loạn)" }
+      ],
+      "note": "3 từ đều mang chữ 镇 (trấn, \"đè xuống, ổn định\") nhưng tách hai nhánh nghĩa: 镇定/镇静 = giữ bình tĩnh (gần đồng nghĩa); 镇压 = đàn áp bằng vũ lực, nghĩa hoàn toàn khác."
+    },
+    {
+      "id": "zh-syncluster-zao4",
+      "language": "zh",
+      "kind": "synonym-cluster",
+      "sharedChar": "躁",
+      "words": [
+        { "headword": "急躁", "reading": "jízào", "hanViet": "cấp táo", "meaningVn": "nóng nảy, sốt ruột (tính cách, thiếu kiên nhẫn nói chung)" },
+        { "headword": "烦躁", "reading": "fánzào", "hanViet": "phiền táo", "meaningVn": "bứt rứt, khó chịu tạm thời (cảm xúc nhất thời, thường do hoàn cảnh bên ngoài)" },
+        { "headword": "焦躁", "reading": "jiāozào", "hanViet": "tiêu táo", "meaningVn": "sốt ruột lo âu (kết hợp giữa lo lắng và nóng nảy, chờ đợi điều gì đó)" }
+      ],
+      "note": "3 từ đều mang chữ 躁 (táo, \"nóng nảy\") nhưng khác sắc thái: 急躁 = tính cách nóng nảy chung; 烦躁 = bứt rứt tạm thời do hoàn cảnh; 焦躁 = lo âu kết hợp nóng nảy khi chờ đợi."
+    },
+    {
+      "id": "zh-syncluster-tuo3",
+      "language": "zh",
+      "kind": "synonym-cluster",
+      "sharedChar": "妥",
+      "words": [
+        { "headword": "妥协", "reading": "tuǒxié", "hanViet": "thỏa hiệp", "meaningVn": "thỏa hiệp (nhượng bộ lẫn nhau giữa các bên có mâu thuẫn)" },
+        { "headword": "妥当", "reading": "tuǒdang", "hanViet": "thỏa đáng", "meaningVn": "thỏa đáng, ổn thỏa (tính từ, mô tả cách xử lý hợp lý)" },
+        { "headword": "稳妥", "reading": "wěntuǒ", "hanViet": "ổn thỏa", "meaningVn": "ổn thỏa, chắc chắn (thận trọng, ít rủi ro trong cách làm)" }
+      ],
+      "note": "3 từ đều mang chữ 妥 (thỏa, \"ổn định\") nhưng khác nghĩa: 妥协 = nhượng bộ giữa các bên; 妥当 = cách xử lý hợp lý; 稳妥 = thận trọng, ít rủi ro."
+    },
+    {
+      "id": "zh-syncluster-rang4",
+      "language": "zh",
+      "kind": "synonym-cluster",
+      "sharedChar": "让",
+      "words": [
+        { "headword": "出让", "reading": "chūràng", "hanViet": "xuất nhượng", "meaningVn": "nhượng lại, bán lại (quyền sở hữu, tài sản — mang tính giao dịch)" },
+        { "headword": "转让", "reading": "zhuǎnràng", "hanViet": "chuyển nhượng", "meaningVn": "chuyển nhượng (quyền, hợp đồng — mang tính pháp lý/thương mại)" },
+        { "headword": "忍让", "reading": "rěnràng", "hanViet": "nhẫn nhượng", "meaningVn": "nhẫn nhịn nhường nhịn (thái độ cư xử, chịu đựng để giữ hòa khí)" }
+      ],
+      "note": "3 từ đều mang chữ 让 (nhượng, \"nhường\") nhưng khác nghĩa: 出让 = bán lại tài sản/quyền; 转让 = chuyển nhượng pháp lý/thương mại; 忍让 = thái độ nhẫn nhịn trong ứng xử."
+    },
+    {
+      "id": "zh-syncluster-nuo4",
+      "language": "zh",
+      "kind": "synonym-cluster",
+      "sharedChar": "诺",
+      "words": [
+        { "headword": "承诺", "reading": "chéngnuò", "hanViet": "thừa nặc", "meaningVn": "cam kết (chính thức, thường bằng lời/văn bản)" },
+        { "headword": "允诺", "reading": "yǔnnuò", "hanViet": "doãn nặc", "meaningVn": "hứa hẹn, đồng ý (nhẹ hơn 承诺, ít tính ràng buộc chính thức)" },
+        { "headword": "诺言", "reading": "nuòyán", "hanViet": "nặc ngôn", "meaningVn": "lời hứa (DANH TỪ, khác 2 từ kia là động từ)" }
+      ],
+      "note": "3 từ đều mang chữ 诺 (nặc, \"hứa\") nhưng khác từ loại: 承诺 = động từ cam kết chính thức; 允诺 = động từ hứa hẹn nhẹ hơn; 诺言 = danh từ chỉ lời hứa."
+    },
+    {
+      "id": "zh-syncluster-wei2b",
+      "language": "zh",
+      "kind": "synonym-cluster",
+      "sharedChar": "违",
+      "words": [
+        { "headword": "违反", "reading": "wéifǎn", "hanViet": "vi phản", "meaningVn": "vi phạm quy định, quy tắc (nghĩa chung nhất)" },
+        { "headword": "违背", "reading": "wéibèi", "hanViet": "vi bối", "meaningVn": "làm trái (lời hứa, nguyên tắc đạo đức — mang tính trừu tượng hơn 违反)" },
+        { "headword": "违法", "reading": "wéifǎ", "hanViet": "vi pháp", "meaningVn": "phạm pháp (vi phạm pháp luật cụ thể, có thể bị xử lý hình sự)" }
+      ],
+      "note": "3 từ đều mang chữ 违 (vi, \"làm trái\") nhưng khác đối tượng: 违反 = vi phạm quy định chung; 违背 = làm trái nguyên tắc đạo đức; 违法 = phạm pháp luật cụ thể."
+    },
+    {
+      "id": "zh-syncluster-zun1",
+      "language": "zh",
+      "kind": "synonym-cluster",
+      "sharedChar": "遵",
+      "words": [
+        { "headword": "遵守", "reading": "zūnshǒu", "hanViet": "tuân thủ", "meaningVn": "tuân thủ quy định, kỷ luật (nghĩa chung nhất)" },
+        { "headword": "遵循", "reading": "zūnxún", "hanViet": "tuân tuần", "meaningVn": "tuân theo, noi theo (nguyên tắc, quy luật, con đường đã vạch sẵn)" },
+        { "headword": "遵从", "reading": "zūncóng", "hanViet": "tuân tòng", "meaningVn": "vâng theo (ý kiến, mệnh lệnh của người khác — mang tính phục tùng)" }
+      ],
+      "note": "3 từ đều mang chữ 遵 (tuân, \"theo\") nhưng khác đối tượng: 遵守 = tuân thủ quy định; 遵循 = noi theo nguyên tắc/quy luật; 遵从 = vâng theo ý kiến/mệnh lệnh người khác."
+    },
+    {
+      "id": "zh-syncluster-yue1",
+      "language": "zh",
+      "kind": "synonym-cluster",
+      "sharedChar": "约",
+      "words": [
+        { "headword": "约定", "reading": "yuēdìng", "hanViet": "ước định", "meaningVn": "giao ước, hẹn (thỏa thuận giữa hai bên về thời gian/điều kiện)" },
+        { "headword": "制约", "reading": "zhìyuē", "hanViet": "chế ước", "meaningVn": "ràng buộc lẫn nhau (mang tính hệ thống, giữa các yếu tố/quyền lực)" },
+        { "headword": "预约", "reading": "yùyuē", "hanViet": "dự ước", "meaningVn": "đặt lịch hẹn trước (dịch vụ, khám bệnh, cuộc gặp)" }
+      ],
+      "note": "3 từ đều mang chữ 约 (ước, \"hẹn, ràng buộc\") nhưng khác nghĩa: 约定 = giao ước giữa hai bên; 制约 = ràng buộc lẫn nhau mang tính hệ thống; 预约 = đặt lịch hẹn trước dịch vụ."
+    },
+    {
+      "id": "zh-syncluster-you4",
+      "language": "zh",
+      "kind": "synonym-cluster",
+      "sharedChar": "诱",
+      "words": [
+        { "headword": "诱惑", "reading": "yòuhuò", "hanViet": "dụ hoặc", "meaningVn": "dụ dỗ, cám dỗ (nghĩa chung, có sức hấp dẫn khiến người ta xiêu lòng)" },
+        { "headword": "诱导", "reading": "yòudǎo", "hanViet": "dụ đạo", "meaningVn": "dẫn dụ, hướng dẫn (có thể tích cực: hướng dẫn học sinh, hoặc tiêu cực: dẫn dắt sai hướng)" },
+        { "headword": "引诱", "reading": "yǐnyòu", "hanViet": "dẫn dụ", "meaningVn": "dụ dỗ, lôi kéo (luôn mang nghĩa tiêu cực, hướng tới hành vi xấu)" }
+      ],
+      "note": "3 từ đều mang chữ 诱 (dụ, \"dẫn dắt\") nhưng khác sắc thái: 诱惑 = cám dỗ chung; 诱导 = trung tính, có thể tích cực/tiêu cực; 引诱 = luôn tiêu cực, lôi kéo làm việc xấu."
+    },
+    {
+      "id": "zh-syncluster-meng2",
+      "language": "zh",
+      "kind": "synonym-cluster",
+      "sharedChar": "蒙",
+      "words": [
+        { "headword": "蒙蔽", "reading": "méngbì", "hanViet": "mông tế", "meaningVn": "che mắt, lừa dối (khiến ai đó không nhận ra sự thật)" },
+        { "headword": "蒙受", "reading": "méngshòu", "hanViet": "mông thụ", "meaningVn": "chịu đựng, gánh chịu (tổn thất, oan ức — trạng thái bị động)" },
+        { "headword": "启蒙", "reading": "qǐméng", "hanViet": "khải mông", "meaningVn": "khai sáng, khai trí (mở mang tri thức ban đầu cho ai đó)" }
+      ],
+      "note": "3 từ đều mang chữ 蒙 (mông, \"che phủ, ngây thơ\") nhưng khác nghĩa: 蒙蔽 = che mắt lừa dối; 蒙受 = chịu đựng tổn thất bị động; 启蒙 = khai sáng tri thức."
+    },
+    {
+      "id": "zh-syncluster-qi1",
+      "language": "zh",
+      "kind": "synonym-cluster",
+      "sharedChar": "欺",
+      "words": [
+        { "headword": "欺负", "reading": "qīfù", "hanViet": "khi phụ", "meaningVn": "bắt nạt (hành vi ức hiếp người yếu hơn, thường trong đời sống hàng ngày)" },
+        { "headword": "欺凌", "reading": "qīlíng", "hanViet": "khi lăng", "meaningVn": "ức hiếp, bắt nạt (mức độ nặng hơn 欺负, có thể mang tính hệ thống)" },
+        { "headword": "欺压", "reading": "qīyā", "hanViet": "khi áp", "meaningVn": "áp bức, chèn ép (bằng quyền lực/địa vị, mang tính bất công xã hội)" }
+      ],
+      "note": "3 từ đều mang chữ 欺 (khi, \"lừa gạt, ức hiếp\") nhưng khác mức độ: 欺负 = bắt nạt đời thường; 欺凌 = ức hiếp nặng hơn, có hệ thống; 欺压 = áp bức bằng quyền lực."
+    },
+    {
+      "id": "zh-syncluster-sao1",
+      "language": "zh",
+      "kind": "synonym-cluster",
+      "sharedChar": "骚",
+      "words": [
+        { "headword": "骚扰", "reading": "sāorǎo", "hanViet": "tao nhiễu", "meaningVn": "quấy rối (hành vi làm phiền, xâm phạm sự yên bình của người khác)" },
+        { "headword": "骚动", "reading": "sāodòng", "hanViet": "tao động", "meaningVn": "xáo động, náo động (đám đông, tình hình trở nên hỗn loạn tạm thời)" },
+        { "headword": "牢骚", "reading": "láosāo", "hanViet": "lao tao", "meaningVn": "than vãn, cằn nhằn (lời phàn nàn cá nhân về điều không hài lòng)" }
+      ],
+      "note": "3 từ đều mang chữ 骚 (tao, \"quấy động\") nhưng khác nghĩa: 骚扰 = hành vi quấy rối người khác; 骚动 = đám đông náo động; 牢骚 = lời than vãn cá nhân."
+    },
+    {
+      "id": "zh-syncluster-rao3",
+      "language": "zh",
+      "kind": "synonym-cluster",
+      "sharedChar": "扰",
+      "words": [
+        { "headword": "干扰", "reading": "gānrǎo", "hanViet": "can nhiễu", "meaningVn": "gây nhiễu, can thiệp (vào một quá trình/tín hiệu — có thể mang tính kỹ thuật)" },
+        { "headword": "扰乱", "reading": "rǎoluàn", "hanViet": "nhiễu loạn", "meaningVn": "làm loạn trật tự (xã hội, thị trường — mang tính phá hoại)" },
+        { "headword": "纷扰", "reading": "fēnrǎo", "hanViet": "phân nhiễu", "meaningVn": "rối ren, lộn xộn (trạng thái xã hội/tâm trí nhiều chuyện phức tạp cùng lúc)" }
+      ],
+      "note": "3 từ đều mang chữ 扰 (nhiễu, \"quấy rối\") nhưng khác nghĩa: 干扰 = gây nhiễu vào quá trình/kỹ thuật; 扰乱 = phá hoại trật tự; 纷扰 = trạng thái rối ren phức tạp."
+    },
+    {
+      "id": "zh-syncluster-fan4b",
+      "language": "zh",
+      "kind": "synonym-cluster",
+      "sharedChar": "犯",
+      "words": [
+        { "headword": "犯罪", "reading": "fànzuì", "hanViet": "phạm tội", "meaningVn": "phạm tội (hành vi vi phạm pháp luật nghiêm trọng)" },
+        { "headword": "冒犯", "reading": "màofàn", "hanViet": "mạo phạm", "meaningVn": "xúc phạm, mạo phạm (làm tổn thương/thiếu tôn trọng ai đó, không nhất thiết phạm pháp)" },
+        { "headword": "犯错", "reading": "fàncuò", "hanViet": "phạm thác", "meaningVn": "phạm lỗi, mắc sai lầm (nghĩa nhẹ nhất, sai sót thông thường)" }
+      ],
+      "note": "3 từ đều mang chữ 犯 (phạm, \"vi phạm\") nhưng khác mức độ: 犯罪 = phạm tội nghiêm trọng, pháp lý; 冒犯 = xúc phạm ai đó; 犯错 = phạm lỗi thông thường."
     }
   ],
   "todo": [
+    "Batch mở rộng (round 116): 256 cặp cụm + 199 synonymClusters. Thêm #194-199 với chữ mới, chủ đề \"lừa dối/quấy rối\": 诱惑/诱导/引诱 (chữ 诱), 蒙蔽/蒙受/启蒙 (chữ 蒙), 欺负/欺凌/欺压 (chữ 欺), 骚扰/骚动/牢骚 (chữ 骚), 干扰/扰乱/纷扰 (chữ 扰), 犯罪/冒犯/犯错 (chữ 犯, 犯罪 tái dùng cross-file từ initials f2). Thêm 3 nhóm data/zh-false-friends.json chuyển sang chủ đề thiên nhiên (云 云彩/风云, 霜 霜冻/风霜, 星 星星/明星) và mở rộng round-3 cho data/zh-initials.json (zh-init-n3 thêm 10 từ cho âm n-, zh-init-f3 thêm 10 từ cho âm f-). Candidate word/ID đã kiểm tra trùng lặp bằng node script trước khi thêm, không phát hiện trùng.",
+    "Batch mở rộng (round 115): 256 cặp cụm + 193 synonymClusters. Thêm #188-193 với chữ mới, chủ đề \"cam kết/tuân thủ\": 妥协/妥当/稳妥 (chữ 妥), 出让/转让/忍让 (chữ 让, tránh trùng 谦让/让步 đã dùng ở cụm/file khác), 承诺/允诺/诺言 (chữ 诺), 违反/违背/违法 (chữ 违, 违反 tái dùng cross-file từ initials f2), 遵守/遵循/遵从 (chữ 遵, 遵守 tái dùng cross-file từ initials z2), 约定/制约/预约 (chữ 约, phân biệt với 束缚/约束 đã dùng ở cụm 束 round103). Thêm 3 nhóm data/zh-false-friends.json (掌 手掌/掌握, 足 足迹/满足 — chữ 足 có hai nghĩa gốc \"chân\" và \"đủ\", 声 声音/名声) và mở rộng round-3 cho data/zh-initials.json (zh-init-g3 thêm 10 từ cho âm g-, zh-init-t3 thêm 10 từ cho âm t-). Candidate word/ID đã kiểm tra trùng lặp bằng node script trước khi thêm, không phát hiện trùng.",
+    "Batch mở rộng (round 114): 256 cặp cụm + 187 synonymClusters. Thêm #182-187 với chữ mới, chủ đề \"sợ hãi/bình tĩnh\": 勇敢/果敢/敢于 (chữ 敢), 胆怯/怯场/怯懦 (chữ 怯), 慌张/恐慌/慌乱 (chữ 慌), 畏惧/惧怕/恐惧 (chữ 惧, 恐惧 tái dùng cross-file từ initials k2), 镇定/镇静/镇压 (chữ 镇, lưu ý 镇压 tách nhánh nghĩa hoàn toàn khác 2 từ kia), 急躁/烦躁/焦躁 (chữ 躁, phân biệt với 浮躁 đã dùng ở cụm 浮 round106). Thêm 3 nhóm data/zh-false-friends.json (喉 喉咙/喉舌, 脖 脖子/卡脖子, 膝 膝盖/膝下) và mở rộng round-3 cho data/zh-initials.json (zh-init-j3 thêm 10 từ cho âm j-, zh-init-sh3 thêm 10 từ cho âm sh-). Candidate word/ID đã kiểm tra trùng lặp bằng node script trước khi thêm, không phát hiện trùng.",
+    "Batch mở rộng (round 113): 256 cặp cụm + 181 synonymClusters. Thêm #176-181 với chữ mới, chủ đề \"cảm xúc gia đình/tình cảm\": 憎恨/憎恶/爱憎 (chữ 憎), 怜悯/可怜/怜爱 (chữ 怜, id đặt lian2b vì lian2 đã dùng cho chữ 联), 慈祥/慈善/仁慈 (chữ 慈), 孝顺/孝敬/不孝 (chữ 孝), 悲伤/悲哀/悲惨 (chữ 悲, id đặt bei1b vì bei1 đã dùng cho chữ 卑), 哭泣/痛哭/哭闹 (chữ 哭). Thêm 3 nhóm data/zh-false-friends.json (脑 脑袋/脑海, 肠 香肠/断肠, 唾 唾液/唾弃) và mở rộng round-3 cho data/zh-initials.json (zh-init-x3 thêm 10 từ cho âm x-, zh-init-b3 thêm 10 từ cho âm b-, không trùng các từ đã có). Candidate word/ID đã kiểm tra trùng lặp bằng node script trước khi thêm, phát hiện và sửa 2 lỗi trùng ID (lian2, bei1) trước khi ghi vào file.",
+    "Batch mở rộng (round 112): 256 cặp cụm + 175 synonymClusters. Thêm #170-175 với chữ mới, tiếp chủ đề \"tính cách\": 贪婪/贪污/贪心 (chữ 贪), 奢侈/奢望/奢华 (chữ 奢), 节俭/俭朴/勤俭 (chữ 俭), 懒惰/偷懒/懒散 (chữ 懒), 勤奋/勤劳/勤快 (chữ 勤), 懈怠/怠慢/倦怠 (chữ 怠). Thêm 3 nhóm data/zh-false-friends.json (肝 肝脏/肝火, 筋 抽筋/脑筋, 胆 胆汁/胆量) và HOÀN TẤT round-2 cho toàn bộ 22 âm đầu: thêm zh-init-q2 (âm q-) và zh-init-ch2 (âm ch-), mỗi nhóm 10 từ mới. Candidate word/ID đã kiểm tra trùng lặp bằng node script trước khi thêm, phát hiện và sửa trùng ID zh-syncluster-jian3 (đã dùng cho chữ 简 trước đó) thành zh-syncluster-jian3b cho chữ 俭.",
+    "Batch mở rộng (round 111): 256 cặp cụm + 169 synonymClusters. Thêm #164-169 với chữ mới, chủ đề \"tính cách/phẩm chất\": 自卑/卑鄙/卑微 (chữ 卑), 骄傲/傲慢/孤傲 (chữ 傲), 谦虚/谦逊/谦让 (chữ 谦), 虚心/虚假/虚荣 (chữ 虚), 诚实/诚恳/诚意 (chữ 诚), 狡猾/狡辩/狡诈 (chữ 狡). Thêm 3 nhóm data/zh-false-friends.json (腰 弯腰/腰包, 眉 眉毛/眉目, 额 额头/名额) và mở rộng thêm 2 nhóm round-2 cho data/zh-initials.json (zh-init-zh2 thêm 10 từ cho âm zh-, zh-init-d2 thêm 10 từ cho âm d-, không trùng các từ đã có ở nhóm gốc). Candidate word/ID đã kiểm tra trùng lặp bằng node script trước khi thêm, không phát hiện trùng. Còn lại q- và ch- vẫn chỉ có 1 nhóm, chưa mở rộng round-2 — sẽ làm ở round tiếp theo.",
+    "Batch mở rộng (round 110): 256 cặp cụm + 163 synonymClusters. Thêm #158-163 với chữ mới, tiếp chủ đề \"đổ vỡ/tấn công/nhục nhã\": 毁灭/摧毁/诋毁 (chữ 毁), 灭亡/消灭/灭绝 (chữ 灭), 抵抗/抵制/抵消 (chữ 抵), 抗衡/对抗/反抗 (chữ 抗, 反抗 tái dùng từ nhóm âm đầu f2 ở file initials — cross-file reuse), 屈服/委屈/屈辱 (chữ 屈), 侮辱/羞辱/耻辱 (chữ 辱). Thêm 3 nhóm data/zh-false-friends.json (肩 肩膀/肩负, 背 背包/背叛, 肚 肚子/肚量) và mở rộng thêm 2 nhóm round-2 cho data/zh-initials.json (zh-init-p2 thêm 10 từ cho âm p-, zh-init-m2 thêm 10 từ cho âm m-, không trùng các từ đã có ở nhóm gốc). Candidate word/ID đã kiểm tra trùng lặp bằng node script trước khi thêm, không phát hiện trùng.",
+    "Batch mở rộng (round 109): 256 cặp cụm + 157 synonymClusters. Thêm #152-157 với chữ mới, chủ đề \"đổ vỡ/tấn công\": 分裂/破裂/裂痕 (chữ 裂), 破碎/碎片/粉碎 (chữ 碎), 倒塌/塌陷/塌方 (chữ 塌), 崩溃/溃败/溃烂 (chữ 溃), 侵略/侵犯/侵占 (chữ 侵), 袭击/侵袭/空袭 (chữ 袭). Thêm 3 nhóm data/zh-false-friends.json (耳 耳朵/耳熟, 鼻 鼻子/鼻酸, 舌 舌头/舌战) và mở rộng thêm 2 nhóm round-2 cho data/zh-initials.json (zh-init-r2 thêm 10 từ cho âm r-, zh-init-s2 thêm 10 từ cho âm s-, không trùng các từ đã có ở nhóm gốc). Candidate word/ID đã kiểm tra trùng lặp bằng node script trước khi thêm, không phát hiện trùng.",
     "Batch mở rộng (round 108): 256 cặp cụm + 151 synonymClusters. Thêm #146-151 với chữ mới: 阻止/阻碍/阻挠 (chữ 阻), 障碍/屏障/故障 (chữ 障, thay 保障 vì đã dùng ở cụm khác nên chọn 屏障), 冲突/冲动/冲刺 (chữ 冲), 撤退/撤销/撤离 (chữ 撤), 驱逐/驱使/驱动 (chữ 驱), 燃烧/点燃/燃料 (chữ 燃). Thêm 3 nhóm data/zh-false-friends.json (毛 毛巾/毛病, 牙 牙齿/咬牙, 指 手指/指望) và mở rộng thêm 2 nhóm round-2 cho data/zh-initials.json (zh-init-w2 thêm 10 từ cho âm w-, zh-init-h2 thêm 10 từ cho âm h-, không trùng các từ đã có ở nhóm gốc). Candidate word/ID đã kiểm tra trùng lặp bằng node script trước khi thêm, phát hiện và tránh trùng 保障.",
     "Batch mở rộng (round 107): 256 cặp cụm + 145 synonymClusters. Thêm #140-145 với chữ mới: 挣扎/挣钱/挣脱 (chữ 挣), 碰撞/撞见/冲撞 (chữ 撞), 扭转/别扭/扭曲 (chữ 扭), 揭示/揭露/揭开 (chữ 揭), 遮挡/遮盖/遮掩 (chữ 遮), 伪造/虚伪/伪装 (chữ 伪). Thêm 3 nhóm data/zh-false-friends.json (骨 骨头/骨气, 血 流血/心血, 汗 出汗/汗颜) và mở rộng thêm 2 nhóm round-2 cho data/zh-initials.json (zh-init-k2 thêm 10 từ cho âm k-, zh-init-y2 thêm 10 từ cho âm y-, không trùng các từ đã có ở nhóm gốc). Candidate word/ID đã kiểm tra trùng lặp bằng node script trước khi thêm, không phát hiện trùng.",
     "Batch mở rộng (round 106): 256 cặp cụm + 139 synonymClusters. Thêm #134-139 với chữ mới: 潮流/潮湿/高潮 (chữ 潮), 涌现/汹涌/涌入 (chữ 涌), 涨价/上涨/高涨 (chữ 涨), 洋溢/溢出/横溢 (chữ 溢), 沦陷/沦落/沦为 (chữ 沦), 广泛/泛滥/空泛 (chữ 泛, 广泛 tái dùng từ nhóm âm đầu g- ở file initials — cross-file reuse chấp nhận được). Thêm 3 nhóm data/zh-false-friends.json (眼 眼睛/眼光, 嘴 嘴巴/插嘴, 脸 脸色/丢脸) và mở rộng thêm 2 nhóm round-2 cho data/zh-initials.json (zh-init-n2 thêm 10 từ cho âm n-, zh-init-f2 thêm 10 từ cho âm f-, không trùng các từ đã có ở nhóm gốc). Candidate word/ID đã kiểm tra trùng lặp bằng node script trước khi thêm, không phát hiện trùng.",
