@@ -1564,6 +1564,462 @@
           ]
         }
       ]
+    },
+    {
+      "id": "zh-ff-er3",
+      "language": "zh",
+      "reading": "耳",
+      "groupKind": "false-friend",
+      "note": "耳 (nhĩ, \"tai\") lệch nghĩa: 耳朵 giữ nghĩa đen (bộ phận cơ thể), còn 耳熟 dùng nghĩa bóng (quen tai → nghe quen thuộc, có cảm giác đã từng nghe qua).",
+      "roots": [
+        {
+          "id": "zh-ff-er3-root",
+          "character": "耳",
+          "hanViet": "nhĩ",
+          "meaningVn": "tai (nghĩa gốc của chữ)",
+          "words": [
+            { "id": "zh-ff-er3-w1", "headword": "耳朵", "reading": "ěrduo", "meaningVn": "tai (nghĩa đen, bộ phận cơ thể)", "example": "他的耳朵很灵。", "exampleVn": "Tai của anh ấy rất thính." },
+            { "id": "zh-ff-er3-w2", "headword": "耳熟", "reading": "ěrshú", "meaningVn": "quen tai, nghe quen (nghĩa bóng)", "example": "这首歌听起来很耳熟。", "exampleVn": "Bài hát này nghe rất quen tai." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-ff-bi2",
+      "language": "zh",
+      "reading": "鼻",
+      "groupKind": "false-friend",
+      "note": "鼻 (tị, \"mũi\") lệch nghĩa: 鼻子 giữ nghĩa đen (bộ phận cơ thể), còn 鼻酸 dùng nghĩa bóng (chua xót mũi → xúc động muốn khóc, cảm giác nghẹn ngào).",
+      "roots": [
+        {
+          "id": "zh-ff-bi2-root",
+          "character": "鼻",
+          "hanViet": "tị",
+          "meaningVn": "mũi (nghĩa gốc của chữ)",
+          "words": [
+            { "id": "zh-ff-bi2-w1", "headword": "鼻子", "reading": "bízi", "meaningVn": "mũi (nghĩa đen, bộ phận cơ thể)", "example": "他的鼻子很高。", "exampleVn": "Mũi của anh ấy rất cao." },
+            { "id": "zh-ff-bi2-w2", "headword": "鼻酸", "reading": "bísuān", "meaningVn": "chua xót, nghẹn ngào muốn khóc (nghĩa bóng, cảm xúc)", "example": "看到这一幕，她感到鼻酸。", "exampleVn": "Nhìn thấy cảnh này, cô ấy cảm thấy nghẹn ngào." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-ff-she2",
+      "language": "zh",
+      "reading": "舌",
+      "groupKind": "false-friend",
+      "note": "舌 (thiệt, \"lưỡi\") lệch nghĩa: 舌头 giữ nghĩa đen (bộ phận cơ thể), còn 舌战 dùng nghĩa bóng (chiến đấu bằng lưỡi → khẩu chiến, tranh luận gay gắt bằng lời nói).",
+      "roots": [
+        {
+          "id": "zh-ff-she2-root",
+          "character": "舌",
+          "hanViet": "thiệt",
+          "meaningVn": "lưỡi (nghĩa gốc của chữ)",
+          "words": [
+            { "id": "zh-ff-she2-w1", "headword": "舌头", "reading": "shétou", "meaningVn": "lưỡi (nghĩa đen, bộ phận cơ thể)", "example": "他不小心咬到了舌头。", "exampleVn": "Anh ấy vô ý cắn phải lưỡi." },
+            { "id": "zh-ff-she2-w2", "headword": "舌战", "reading": "shézhàn", "meaningVn": "khẩu chiến, tranh luận gay gắt (nghĩa bóng)", "example": "双方展开了一场舌战。", "exampleVn": "Hai bên đã diễn ra một cuộc khẩu chiến." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-ff-jian1",
+      "language": "zh",
+      "reading": "肩",
+      "groupKind": "false-friend",
+      "note": "肩 (kiên, \"vai\") lệch nghĩa: 肩膀 giữ nghĩa đen (bộ phận cơ thể), còn 肩负 dùng nghĩa bóng (vác trên vai → gánh vác trách nhiệm, sứ mệnh).",
+      "roots": [
+        {
+          "id": "zh-ff-jian1-root",
+          "character": "肩",
+          "hanViet": "kiên",
+          "meaningVn": "vai (nghĩa gốc của chữ)",
+          "words": [
+            { "id": "zh-ff-jian1-w1", "headword": "肩膀", "reading": "jiānbǎng", "meaningVn": "vai (nghĩa đen, bộ phận cơ thể)", "example": "他的肩膀很宽。", "exampleVn": "Vai của anh ấy rất rộng." },
+            { "id": "zh-ff-jian1-w2", "headword": "肩负", "reading": "jiānfù", "meaningVn": "gánh vác (trách nhiệm, sứ mệnh — nghĩa bóng)", "example": "他肩负着重要的责任。", "exampleVn": "Anh ấy gánh vác trách nhiệm quan trọng." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-ff-bei4",
+      "language": "zh",
+      "reading": "背",
+      "groupKind": "false-friend",
+      "note": "背 (bối, \"lưng\") lệch nghĩa: 背包 giữ nghĩa gần với gốc (vật đeo trên lưng — ba lô, vật cụ thể), còn 背叛 dùng nghĩa hoàn toàn trừu tượng (quay lưng lại → phản bội, không còn liên quan đến bộ phận cơ thể).",
+      "roots": [
+        {
+          "id": "zh-ff-bei4-root",
+          "character": "背",
+          "hanViet": "bối",
+          "meaningVn": "lưng (nghĩa gốc của chữ)",
+          "words": [
+            { "id": "zh-ff-bei4-w1", "headword": "背包", "reading": "bèibāo", "meaningVn": "ba lô (vật cụ thể, đeo trên lưng)", "example": "他背着一个大背包。", "exampleVn": "Anh ấy đeo một chiếc ba lô lớn." },
+            { "id": "zh-ff-bei4-w2", "headword": "背叛", "reading": "bèipàn", "meaningVn": "phản bội (nghĩa trừu tượng, đạo đức)", "example": "他背叛了自己的朋友。", "exampleVn": "Anh ta đã phản bội bạn của mình." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-ff-du4",
+      "language": "zh",
+      "reading": "肚",
+      "groupKind": "false-friend",
+      "note": "肚 (đỗ, \"bụng\") lệch nghĩa: 肚子 giữ nghĩa đen (bộ phận cơ thể), còn 肚量 dùng nghĩa bóng (dung lượng của bụng → độ lượng, khoan dung — phẩm chất tính cách).",
+      "roots": [
+        {
+          "id": "zh-ff-du4-root",
+          "character": "肚",
+          "hanViet": "đỗ",
+          "meaningVn": "bụng (nghĩa gốc của chữ)",
+          "words": [
+            { "id": "zh-ff-du4-w1", "headword": "肚子", "reading": "dùzi", "meaningVn": "bụng (nghĩa đen, bộ phận cơ thể)", "example": "我肚子饿了。", "exampleVn": "Tôi bị đói bụng." },
+            { "id": "zh-ff-du4-w2", "headword": "肚量", "reading": "dùliàng", "meaningVn": "độ lượng, khoan dung (nghĩa bóng, phẩm chất tính cách)", "example": "他很有肚量，不计较小事。", "exampleVn": "Anh ấy rất độ lượng, không so đo chuyện nhỏ nhặt." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-ff-yao1",
+      "language": "zh",
+      "reading": "腰",
+      "groupKind": "false-friend",
+      "note": "腰 (yêu, \"eo, lưng\") lệch nghĩa: 弯腰 giữ nghĩa đen (cúi lưng, động tác cơ thể), còn 腰包 dùng nghĩa hoán dụ (túi đeo ở thắt lưng → tiền bạc, quỹ riêng của một người/tổ chức).",
+      "roots": [
+        {
+          "id": "zh-ff-yao1-root",
+          "character": "腰",
+          "hanViet": "yêu",
+          "meaningVn": "eo, lưng (nghĩa gốc của chữ)",
+          "words": [
+            { "id": "zh-ff-yao1-w1", "headword": "弯腰", "reading": "wānyāo", "meaningVn": "cúi lưng (nghĩa đen, động tác cơ thể)", "example": "他弯腰捡起了钱包。", "exampleVn": "Anh ấy cúi người nhặt chiếc ví lên." },
+            { "id": "zh-ff-yao1-w2", "headword": "腰包", "reading": "yāobāo", "meaningVn": "túi tiền, quỹ riêng (nghĩa hoán dụ, chỉ tiền bạc)", "example": "这笔钱要自己掏腰包。", "exampleVn": "Khoản tiền này phải tự bỏ tiền túi ra." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-ff-mei2",
+      "language": "zh",
+      "reading": "眉",
+      "groupKind": "false-friend",
+      "note": "眉 (mi, \"lông mày\") lệch nghĩa: 眉毛 giữ nghĩa đen (bộ phận cơ thể), còn 眉目 dùng nghĩa bóng (đường nét trên mày mặt → đầu mối, manh mối, dấu hiệu tiến triển của một sự việc).",
+      "roots": [
+        {
+          "id": "zh-ff-mei2-root",
+          "character": "眉",
+          "hanViet": "mi",
+          "meaningVn": "lông mày (nghĩa gốc của chữ)",
+          "words": [
+            { "id": "zh-ff-mei2-w1", "headword": "眉毛", "reading": "méimao", "meaningVn": "lông mày (nghĩa đen, bộ phận cơ thể)", "example": "她的眉毛很好看。", "exampleVn": "Lông mày của cô ấy rất đẹp." },
+            { "id": "zh-ff-mei2-w2", "headword": "眉目", "reading": "méimù", "meaningVn": "đầu mối, manh mối (nghĩa bóng, dấu hiệu tiến triển)", "example": "这件事有眉目了。", "exampleVn": "Việc này đã có manh mối rồi." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-ff-e2",
+      "language": "zh",
+      "reading": "额",
+      "groupKind": "false-friend",
+      "note": "额 (ngạch, \"trán\") lệch nghĩa: 额头 giữ nghĩa đen (bộ phận cơ thể), còn 名额 dùng nghĩa hoàn toàn trừu tượng (chỉ tiêu, suất được phân bổ — không còn liên quan đến trán).",
+      "roots": [
+        {
+          "id": "zh-ff-e2-root",
+          "character": "额",
+          "hanViet": "ngạch",
+          "meaningVn": "trán (nghĩa gốc của chữ)",
+          "words": [
+            { "id": "zh-ff-e2-w1", "headword": "额头", "reading": "étóu", "meaningVn": "trán (nghĩa đen, bộ phận cơ thể)", "example": "他的额头很宽。", "exampleVn": "Trán của anh ấy rất rộng." },
+            { "id": "zh-ff-e2-w2", "headword": "名额", "reading": "míng'é", "meaningVn": "chỉ tiêu, suất được phân bổ (nghĩa trừu tượng)", "example": "这个班的名额已经满了。", "exampleVn": "Chỉ tiêu của lớp này đã đủ rồi." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-ff-gan1",
+      "language": "zh",
+      "reading": "肝",
+      "groupKind": "false-friend",
+      "note": "肝 (can, \"gan\") lệch nghĩa: 肝脏 giữ nghĩa đen (bộ phận cơ thể), còn 肝火 dùng nghĩa bóng theo quan niệm y học cổ truyền Trung Hoa (gan nóng → dễ cáu giận, nóng tính).",
+      "roots": [
+        {
+          "id": "zh-ff-gan1-root",
+          "character": "肝",
+          "hanViet": "can",
+          "meaningVn": "gan (nghĩa gốc của chữ)",
+          "words": [
+            { "id": "zh-ff-gan1-w1", "headword": "肝脏", "reading": "gānzàng", "meaningVn": "gan (nghĩa đen, bộ phận cơ thể)", "example": "肝脏是人体重要的器官。", "exampleVn": "Gan là một cơ quan quan trọng của cơ thể." },
+            { "id": "zh-ff-gan1-w2", "headword": "肝火", "reading": "gānhuǒ", "meaningVn": "hỏa khí, dễ cáu giận (nghĩa bóng, theo quan niệm y học cổ truyền)", "example": "他肝火很旺，容易生气。", "exampleVn": "Anh ấy hỏa khí rất mạnh, dễ nổi giận." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-ff-jin1",
+      "language": "zh",
+      "reading": "筋",
+      "groupKind": "false-friend",
+      "note": "筋 (cân, \"gân\") lệch nghĩa: 抽筋 giữ nghĩa đen (chuột rút, co rút gân cơ), còn 脑筋 dùng nghĩa bóng (gân trong não → đầu óc, trí óc, khả năng tư duy).",
+      "roots": [
+        {
+          "id": "zh-ff-jin1-root",
+          "character": "筋",
+          "hanViet": "cân",
+          "meaningVn": "gân (nghĩa gốc của chữ)",
+          "words": [
+            { "id": "zh-ff-jin1-w1", "headword": "抽筋", "reading": "chōujīn", "meaningVn": "chuột rút (nghĩa đen, co rút gân cơ)", "example": "游泳时他突然抽筋了。", "exampleVn": "Khi đang bơi anh ấy đột nhiên bị chuột rút." },
+            { "id": "zh-ff-jin1-w2", "headword": "脑筋", "reading": "nǎojīn", "meaningVn": "đầu óc, trí óc (nghĩa bóng)", "example": "这个问题要动动脑筋。", "exampleVn": "Vấn đề này cần phải suy nghĩ một chút." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-ff-dan3",
+      "language": "zh",
+      "reading": "胆",
+      "groupKind": "false-friend",
+      "note": "胆 (đảm, \"mật\") lệch nghĩa: 胆汁 giữ nghĩa đen (dịch mật, y học), còn 胆量 dùng nghĩa bóng (dung lượng mật → lòng can đảm, sự gan dạ — theo quan niệm dân gian \"gan to thì dũng cảm\").",
+      "roots": [
+        {
+          "id": "zh-ff-dan3-root",
+          "character": "胆",
+          "hanViet": "đảm",
+          "meaningVn": "mật (nghĩa gốc của chữ)",
+          "words": [
+            { "id": "zh-ff-dan3-w1", "headword": "胆汁", "reading": "dǎnzhī", "meaningVn": "mật, dịch mật (nghĩa đen, y học)", "example": "胆汁帮助消化脂肪。", "exampleVn": "Mật giúp tiêu hóa chất béo." },
+            { "id": "zh-ff-dan3-w2", "headword": "胆量", "reading": "dǎnliàng", "meaningVn": "lòng can đảm, sự gan dạ (nghĩa bóng)", "example": "他做这件事需要很大的胆量。", "exampleVn": "Làm việc này cần có lòng can đảm rất lớn." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-ff-nao3",
+      "language": "zh",
+      "reading": "脑",
+      "groupKind": "false-friend",
+      "note": "脑 (não, \"não bộ\") lệch nghĩa: 脑袋 giữ nghĩa đen (cái đầu, khẩu ngữ), còn 脑海 dùng nghĩa bóng (biển não → tâm trí, ký ức, dòng suy nghĩ).",
+      "roots": [
+        {
+          "id": "zh-ff-nao3-root",
+          "character": "脑",
+          "hanViet": "não",
+          "meaningVn": "não bộ (nghĩa gốc của chữ)",
+          "words": [
+            { "id": "zh-ff-nao3-w1", "headword": "脑袋", "reading": "nǎodai", "meaningVn": "cái đầu, óc (nghĩa đen, khẩu ngữ)", "example": "他的脑袋撞到了门。", "exampleVn": "Đầu anh ấy va vào cửa." },
+            { "id": "zh-ff-nao3-w2", "headword": "脑海", "reading": "nǎohǎi", "meaningVn": "tâm trí, ký ức (nghĩa bóng)", "example": "这件事一直留在我的脑海里。", "exampleVn": "Việc này luôn lưu lại trong tâm trí tôi." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-ff-chang2b",
+      "language": "zh",
+      "reading": "肠",
+      "groupKind": "false-friend",
+      "note": "肠 (tràng, \"ruột\") lệch nghĩa: 香肠 giữ nghĩa đen (xúc xích, thực phẩm làm từ ruột nhồi thịt), còn 断肠 dùng nghĩa bóng mang tính văn chương (đứt ruột → đau khổ tột cùng).",
+      "roots": [
+        {
+          "id": "zh-ff-chang2b-root",
+          "character": "肠",
+          "hanViet": "tràng",
+          "meaningVn": "ruột (nghĩa gốc của chữ)",
+          "words": [
+            { "id": "zh-ff-chang2b-w1", "headword": "香肠", "reading": "xiāngcháng", "meaningVn": "xúc xích (nghĩa đen, thực phẩm)", "example": "早餐我吃了香肠。", "exampleVn": "Bữa sáng tôi ăn xúc xích." },
+            { "id": "zh-ff-chang2b-w2", "headword": "断肠", "reading": "duàncháng", "meaningVn": "đứt ruột, đau khổ tột cùng (nghĩa bóng, văn chương)", "example": "这个消息让她断肠。", "exampleVn": "Tin tức này khiến cô ấy đau đớn tột cùng." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-ff-tuo4",
+      "language": "zh",
+      "reading": "唾",
+      "groupKind": "false-friend",
+      "note": "唾 (thóa, \"nước bọt\") lệch nghĩa: 唾液 giữ nghĩa đen (nước bọt, y học), còn 唾弃 dùng nghĩa bóng (nhổ bọt vào → khinh miệt, ruồng bỏ hoàn toàn).",
+      "roots": [
+        {
+          "id": "zh-ff-tuo4-root",
+          "character": "唾",
+          "hanViet": "thóa",
+          "meaningVn": "nước bọt (nghĩa gốc của chữ)",
+          "words": [
+            { "id": "zh-ff-tuo4-w1", "headword": "唾液", "reading": "tuòyè", "meaningVn": "nước bọt (nghĩa đen, y học)", "example": "唾液有助于消化。", "exampleVn": "Nước bọt giúp ích cho việc tiêu hóa." },
+            { "id": "zh-ff-tuo4-w2", "headword": "唾弃", "reading": "tuòqì", "meaningVn": "khinh miệt, ruồng bỏ (nghĩa bóng)", "example": "这种行为被大家唾弃。", "exampleVn": "Hành vi này bị mọi người khinh miệt ruồng bỏ." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-ff-hou2",
+      "language": "zh",
+      "reading": "喉",
+      "groupKind": "false-friend",
+      "note": "喉 (hầu, \"cổ họng\") lệch nghĩa: 喉咙 giữ nghĩa đen (bộ phận cơ thể), còn 喉舌 dùng nghĩa bóng (cổ họng và lưỡi → cơ quan ngôn luận, tiếng nói đại diện cho một tổ chức/tầng lớp).",
+      "roots": [
+        {
+          "id": "zh-ff-hou2-root",
+          "character": "喉",
+          "hanViet": "hầu",
+          "meaningVn": "cổ họng (nghĩa gốc của chữ)",
+          "words": [
+            { "id": "zh-ff-hou2-w1", "headword": "喉咙", "reading": "hóulóng", "meaningVn": "cổ họng (nghĩa đen, bộ phận cơ thể)", "example": "他喉咙痛，说不出话。", "exampleVn": "Cổ họng anh ấy đau, không nói được." },
+            { "id": "zh-ff-hou2-w2", "headword": "喉舌", "reading": "hóushé", "meaningVn": "cơ quan ngôn luận, tiếng nói đại diện (nghĩa bóng)", "example": "报纸是人民的喉舌。", "exampleVn": "Báo chí là tiếng nói đại diện của nhân dân." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-ff-bo2",
+      "language": "zh",
+      "reading": "脖",
+      "groupKind": "false-friend",
+      "note": "脖 (bột, \"cổ\") lệch nghĩa: 脖子 giữ nghĩa đen (bộ phận cơ thể), còn 卡脖子 dùng nghĩa bóng hiện đại rất phổ biến (chẹn cổ họng → kìm hãm, gây khó khăn về công nghệ/nguồn lực then chốt).",
+      "roots": [
+        {
+          "id": "zh-ff-bo2-root",
+          "character": "脖",
+          "hanViet": "bột",
+          "meaningVn": "cổ (nghĩa gốc của chữ)",
+          "words": [
+            { "id": "zh-ff-bo2-w1", "headword": "脖子", "reading": "bózi", "meaningVn": "cổ (nghĩa đen, bộ phận cơ thể)", "example": "他的脖子很长。", "exampleVn": "Cổ của anh ấy rất dài." },
+            { "id": "zh-ff-bo2-w2", "headword": "卡脖子", "reading": "kǎ bózi", "meaningVn": "kìm hãm, gây khó khăn về công nghệ/nguồn lực then chốt (nghĩa bóng hiện đại)", "example": "这项技术被别人卡脖子。", "exampleVn": "Công nghệ này bị người khác kìm hãm, chặn nguồn." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-ff-xi1",
+      "language": "zh",
+      "reading": "膝",
+      "groupKind": "false-friend",
+      "note": "膝 (tất, \"đầu gối\") lệch nghĩa: 膝盖 giữ nghĩa đen (bộ phận cơ thể), còn 膝下 dùng nghĩa bóng cổ điển (dưới gối → con cái, thế hệ sau, thường thấy trong văn viết trang trọng/thư từ xưa).",
+      "roots": [
+        {
+          "id": "zh-ff-xi1-root",
+          "character": "膝",
+          "hanViet": "tất",
+          "meaningVn": "đầu gối (nghĩa gốc của chữ)",
+          "words": [
+            { "id": "zh-ff-xi1-w1", "headword": "膝盖", "reading": "xīgài", "meaningVn": "đầu gối (nghĩa đen, bộ phận cơ thể)", "example": "他的膝盖受伤了。", "exampleVn": "Đầu gối của anh ấy bị thương." },
+            { "id": "zh-ff-xi1-w2", "headword": "膝下", "reading": "xīxià", "meaningVn": "con cái, thế hệ sau (nghĩa bóng cổ điển, trang trọng)", "example": "老人膝下无子。", "exampleVn": "Cụ già không có con cái nối dõi." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-ff-zhang3",
+      "language": "zh",
+      "reading": "掌",
+      "groupKind": "false-friend",
+      "note": "掌 (chưởng, \"lòng bàn tay\") lệch nghĩa: 手掌 giữ nghĩa đen (bộ phận cơ thể), còn 掌握 dùng nghĩa bóng (nắm trong lòng bàn tay → nắm vững, làm chủ một kỹ năng/tình hình).",
+      "roots": [
+        {
+          "id": "zh-ff-zhang3-root",
+          "character": "掌",
+          "hanViet": "chưởng",
+          "meaningVn": "lòng bàn tay (nghĩa gốc của chữ)",
+          "words": [
+            { "id": "zh-ff-zhang3-w1", "headword": "手掌", "reading": "shǒuzhǎng", "meaningVn": "lòng bàn tay (nghĩa đen, bộ phận cơ thể)", "example": "他的手掌很大。", "exampleVn": "Lòng bàn tay của anh ấy rất to." },
+            { "id": "zh-ff-zhang3-w2", "headword": "掌握", "reading": "zhǎngwò", "meaningVn": "nắm vững, làm chủ (nghĩa bóng)", "example": "他掌握了三门外语。", "exampleVn": "Anh ấy nắm vững ba ngoại ngữ." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-ff-zu2",
+      "language": "zh",
+      "reading": "足",
+      "groupKind": "false-friend",
+      "note": "足 là chữ mang HAI NGHĨA GỐC khác nhau: \"chân\" (như trong 足迹) và \"đủ\" (như trong 满足) — hai nhánh nghĩa này phát triển độc lập trong tiếng Trung hiện đại, không còn liên hệ trực tiếp với nhau dù cùng một chữ viết.",
+      "roots": [
+        {
+          "id": "zh-ff-zu2-root",
+          "character": "足",
+          "hanViet": "túc",
+          "meaningVn": "chân; hoặc đủ (hai nghĩa gốc khác nhau của cùng một chữ)",
+          "words": [
+            { "id": "zh-ff-zu2-w1", "headword": "足迹", "reading": "zújì", "meaningVn": "dấu chân (nghĩa đen, từ nghĩa \"chân\")", "example": "沙滩上留下了他的足迹。", "exampleVn": "Trên bãi cát còn lưu lại dấu chân của anh ấy." },
+            { "id": "zh-ff-zu2-w2", "headword": "满足", "reading": "mǎnzú", "meaningVn": "hài lòng, thỏa mãn (từ nghĩa \"đủ\")", "example": "他对现状很满足。", "exampleVn": "Anh ấy rất hài lòng với hiện trạng." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-ff-sheng1b",
+      "language": "zh",
+      "reading": "声",
+      "groupKind": "false-friend",
+      "note": "声 (thanh, \"âm thanh\") lệch nghĩa: 声音 giữ nghĩa đen (âm thanh vật lý), còn 名声 dùng nghĩa bóng (tiếng vang về danh dự → danh tiếng, tiếng tăm của một người/tổ chức).",
+      "roots": [
+        {
+          "id": "zh-ff-sheng1b-root",
+          "character": "声",
+          "hanViet": "thanh",
+          "meaningVn": "âm thanh (nghĩa gốc của chữ)",
+          "words": [
+            { "id": "zh-ff-sheng1b-w1", "headword": "声音", "reading": "shēngyīn", "meaningVn": "âm thanh (nghĩa đen, vật lý)", "example": "我听到了奇怪的声音。", "exampleVn": "Tôi đã nghe thấy một âm thanh kỳ lạ." },
+            { "id": "zh-ff-sheng1b-w2", "headword": "名声", "reading": "míngshēng", "meaningVn": "danh tiếng, tiếng tăm (nghĩa bóng)", "example": "他在业内很有名声。", "exampleVn": "Anh ấy rất có tiếng tăm trong ngành." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-ff-yun2",
+      "language": "zh",
+      "reading": "云",
+      "groupKind": "false-friend",
+      "note": "云 (vân, \"mây\") lệch nghĩa: 云彩 giữ nghĩa đen (đám mây, hiện tượng tự nhiên), còn 风云 dùng nghĩa bóng (gió và mây → biến động lớn của thời cuộc, tình hình chính trị/xã hội).",
+      "roots": [
+        {
+          "id": "zh-ff-yun2-root",
+          "character": "云",
+          "hanViet": "vân",
+          "meaningVn": "mây (nghĩa gốc của chữ)",
+          "words": [
+            { "id": "zh-ff-yun2-w1", "headword": "云彩", "reading": "yúncai", "meaningVn": "đám mây (nghĩa đen, hiện tượng tự nhiên)", "example": "天上的云彩很漂亮。", "exampleVn": "Đám mây trên trời rất đẹp." },
+            { "id": "zh-ff-yun2-w2", "headword": "风云", "reading": "fēngyún", "meaningVn": "biến động lớn của thời cuộc (nghĩa bóng)", "example": "他是商界的风云人物。", "exampleVn": "Anh ấy là nhân vật lừng lẫy trong giới kinh doanh." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-ff-shuang1",
+      "language": "zh",
+      "reading": "霜",
+      "groupKind": "false-friend",
+      "note": "霜 (sương, \"sương giá\") lệch nghĩa: 霜冻 giữ nghĩa đen (hiện tượng sương giá đóng băng), còn 风霜 dùng nghĩa bóng mang tính văn chương (gió sương → những gian khổ, vất vả đã trải qua trong đời).",
+      "roots": [
+        {
+          "id": "zh-ff-shuang1-root",
+          "character": "霜",
+          "hanViet": "sương",
+          "meaningVn": "sương giá (nghĩa gốc của chữ)",
+          "words": [
+            { "id": "zh-ff-shuang1-w1", "headword": "霜冻", "reading": "shuāngdòng", "meaningVn": "sương giá đóng băng (nghĩa đen, hiện tượng thời tiết)", "example": "今年冬天霜冻很严重。", "exampleVn": "Mùa đông năm nay sương giá rất nặng." },
+            { "id": "zh-ff-shuang1-w2", "headword": "风霜", "reading": "fēngshuāng", "meaningVn": "gian khổ, vất vả từng trải (nghĩa bóng, văn chương)", "example": "他脸上写满了风霜。", "exampleVn": "Gương mặt anh ấy in đậm dấu vết của những gian khổ đã trải qua." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-ff-xing1",
+      "language": "zh",
+      "reading": "星",
+      "groupKind": "false-friend",
+      "note": "星 (tinh, \"ngôi sao\") lệch nghĩa: 星星 giữ nghĩa đen (thiên thể trên bầu trời), còn 明星 dùng nghĩa bóng (ngôi sao sáng → người nổi tiếng, có sức ảnh hưởng trong một lĩnh vực).",
+      "roots": [
+        {
+          "id": "zh-ff-xing1-root",
+          "character": "星",
+          "hanViet": "tinh",
+          "meaningVn": "ngôi sao (nghĩa gốc của chữ)",
+          "words": [
+            { "id": "zh-ff-xing1-w1", "headword": "星星", "reading": "xīngxing", "meaningVn": "ngôi sao (nghĩa đen, thiên thể)", "example": "晚上能看到很多星星。", "exampleVn": "Buổi tối có thể nhìn thấy rất nhiều ngôi sao." },
+            { "id": "zh-ff-xing1-w2", "headword": "明星", "reading": "míngxīng", "meaningVn": "người nổi tiếng, ngôi sao (nghĩa bóng)", "example": "她是一位电影明星。", "exampleVn": "Cô ấy là một ngôi sao điện ảnh." }
+          ]
+        }
+      ]
     }
   ]
 }
