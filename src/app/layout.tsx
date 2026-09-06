@@ -1,10 +1,8 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import "./globals.css";
 import { getCurrentRole } from "@/lib/currentSession";
-import LogoutButton from "@/components/LogoutButton";
 import ThemeProvider from "@/components/ThemeProvider";
-import ThemeSwitcher from "@/components/ThemeSwitcher";
+import SiteHeader from "@/components/SiteHeader";
 import { NO_FLASH_SCRIPT } from "@/lib/theme";
 
 export const metadata: Metadata = {
@@ -26,31 +24,7 @@ export default async function RootLayout({
       </head>
       <body className="flex min-h-full flex-col bg-surface text-ink" suppressHydrationWarning>
         <ThemeProvider>
-          {role && (
-            <header className="flex items-center justify-between bg-gradient-to-r from-brand-600 to-brand-500 px-4 py-3 text-white shadow-md">
-              <Link href="/" className="flex items-center gap-1.5 text-sm font-bold tracking-tight">
-                <span className="text-lg">📖</span> SameSpell
-              </Link>
-              <div className="flex items-center gap-2">
-                <Link
-                  href="/stats"
-                  className="rounded-full bg-white/15 px-3 py-1 text-xs font-medium hover:bg-white/25"
-                >
-                  📊 Thống kê
-                </Link>
-                {role === "admin" && (
-                  <Link
-                    href="/admin"
-                    className="rounded-full bg-white/15 px-3 py-1 text-xs font-medium hover:bg-white/25"
-                  >
-                    Quản trị
-                  </Link>
-                )}
-                <ThemeSwitcher />
-                <LogoutButton />
-              </div>
-            </header>
-          )}
+          {role && <SiteHeader role={role} />}
           {children}
         </ThemeProvider>
       </body>

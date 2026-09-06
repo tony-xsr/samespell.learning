@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { getShapeLanguages, wordCount } from "@/lib/vocabStore";
 
-const LANG_ICON: Record<string, string> = { zh: "🇨🇳", ko: "🇰🇷", ja: "🇯🇵" };
+const LANG_ICON: Record<string, string> = { zh: "🇨🇳", ko: "🇰🇷", ja: "🇯🇵", en: "🇬🇧" };
 
 export default async function ShapesHome() {
   const languages = await getShapeLanguages();
@@ -14,11 +14,12 @@ export default async function ShapesHome() {
         </Link>
 
         <div className="mt-3 rounded-3xl bg-gradient-to-br from-accent-500 to-brand-600 p-6 text-white shadow-lg">
-          <h1 className="text-2xl font-bold tracking-tight sm:text-3xl">Nhóm hình chữ</h1>
+          <h1 className="text-2xl font-bold tracking-tight sm:text-3xl">Nhóm hình chữ / Từ dễ nhầm</h1>
           <p className="mt-2 text-sm text-white/90">
-            Học theo <span className="font-semibold">形近字</span> (hình cận tự) — những chữ Hán/Kanji
-            VIẾT gần giống nhau (khác nhau một nét nhỏ) nhưng đọc và nghĩa hoàn toàn khác nhau. Trục
-            nhầm lẫn này khác với nhóm âm (đọc giống nhau) ở phần chính của app.
+            Trục nhầm lẫn theo VIẾT/CHÍNH TẢ gần giống nhau, khác nghĩa hoàn toàn — với zh/ja là{" "}
+            <span className="font-semibold">形近字</span> (hình cận tự, chữ Hán/Kanji khác nhau một nét
+            nhỏ), với tiếng Anh là các cặp từ suýt giống chính tả (vd desert/dessert, affect/effect).
+            Khác với nhóm âm (đọc giống nhau) ở phần chính của app.
           </p>
         </div>
 

@@ -185,3 +185,98 @@ body {
   color: var(--color-ink);
   font-family: var(--font-sans), Arial, Helvetica, sans-serif;
 }
+
+/* ============ Quiz (/test): hiệu ứng chuyển động dùng chung, tôn trọng prefers-reduced-motion ============ */
+@keyframes quiz-fade-in-up {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes quiz-pop {
+  0% {
+    transform: scale(1);
+  }
+  40% {
+    transform: scale(1.06);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes quiz-shake {
+  10%,
+  90% {
+    transform: translateX(-1px);
+  }
+  20%,
+  80% {
+    transform: translateX(2px);
+  }
+  30%,
+  50%,
+  70% {
+    transform: translateX(-4px);
+  }
+  40%,
+  60% {
+    transform: translateX(4px);
+  }
+}
+
+@keyframes quiz-float-up {
+  0% {
+    transform: translateY(0) rotate(0deg);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-140px) rotate(20deg);
+    opacity: 0;
+  }
+}
+
+@keyframes quiz-blob-drift {
+  0%,
+  100% {
+    transform: translate(0, 0) scale(1);
+  }
+  50% {
+    transform: translate(20px, -24px) scale(1.08);
+  }
+}
+
+.quiz-fade-in-up {
+  animation: quiz-fade-in-up 0.4s ease-out both;
+}
+
+.quiz-pop {
+  animation: quiz-pop 0.4s ease-out;
+}
+
+.quiz-shake {
+  animation: quiz-shake 0.4s ease-in-out;
+}
+
+.quiz-float-up {
+  animation: quiz-float-up 1.6s ease-out forwards;
+}
+
+.quiz-blob {
+  animation: quiz-blob-drift 9s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .quiz-fade-in-up,
+  .quiz-pop,
+  .quiz-shake,
+  .quiz-float-up,
+  .quiz-blob {
+    animation: none;
+  }
+}

@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { getLanguages, wordCount } from "@/lib/vocabStore";
 
-const LANG_ICON: Record<string, string> = { zh: "🇨🇳", ko: "🇰🇷", ja: "🇯🇵" };
+const LANG_ICON: Record<string, string> = { zh: "🇨🇳", ko: "🇰🇷", ja: "🇯🇵", en: "🇬🇧" };
 
 export default async function Home() {
   const languages = await getLanguages();
@@ -23,6 +23,13 @@ export default async function Home() {
           className="mt-6 flex items-center justify-center gap-2 rounded-2xl bg-gradient-to-r from-brand-600 to-accent-500 px-5 py-3.5 text-sm font-semibold text-white shadow-md transition hover:brightness-105"
         >
           🎲 Ôn tập ngẫu nhiên tất cả ngôn ngữ
+        </Link>
+
+        <Link
+          href="/test"
+          className="mt-3 flex items-center justify-center gap-2 rounded-2xl bg-gradient-to-r from-sky-600 to-sky-400 px-5 py-3.5 text-sm font-semibold text-white shadow-md transition hover:brightness-105"
+        >
+          🧪 Kiểm tra kiến thức — trắc nghiệm, phản xạ, điền từ
         </Link>
 
         <Link
