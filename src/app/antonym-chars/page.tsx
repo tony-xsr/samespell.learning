@@ -20,7 +20,7 @@ export default function AntonymCharsHome() {
         <div className="mt-3 rounded-3xl bg-gradient-to-br from-amber-600 to-orange-500 p-6 text-white shadow-lg">
           <h1 className="text-2xl font-bold tracking-tight sm:text-3xl">⇔ Cặp chữ trái nghĩa</h1>
           <p className="mt-2 text-sm text-white/90">
-            Thử nghiệm: 2 chữ gốc trái nghĩa nhau, mỗi chữ toả ra 1 "gia đình" từ ghép riêng — đối lập
+            Thử nghiệm: 2 chữ gốc trái nghĩa nhau, mỗi chữ toả ra 1 &quot;gia đình&quot; từ ghép riêng — đối lập
             ngay từ chữ gốc.
           </p>
         </div>
