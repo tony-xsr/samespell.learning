@@ -11,6 +11,10 @@ import {
 import { branchColor, type BranchColor } from "@/lib/mindmapColors";
 import { speak, ttsFailureMessage } from "@/lib/tts";
 import { toPinyin } from "@/lib/zhPinyin";
+import { encodeWordItemId } from "@/types/personal";
+import type { PersonalCollections } from "@/types/personal";
+import { loadPersonalCollections } from "@/lib/personalCollections";
+import ListMembershipPicker from "@/components/ListMembershipPicker";
 
 function InfoBadge({ onClick }: { onClick: (e: React.MouseEvent) => void }) {
   return (
@@ -141,6 +145,17 @@ export default function MindmapCanvas({
   const [isDragging, setIsDragging] = useState(false);
   const [isFullscreen, setIsFullscreen] = useState(false);
   const [ttsWarning, setTtsWarning] = useState<string | null>(null);
+  const [collections, setCollections] = useState<PersonalCollections | null>(null);
+
+  useEffect(() => {
+    let cancelled = false;
+    loadPersonalCollections().then((c) => {
+      if (!cancelled) setCollections(c);
+    });
+    return () => {
+      cancelled = true;
+    };
+  }, []);
 
   useEffect(() => {
     function onFullscreenChange() {
@@ -548,7 +563,11 @@ export default function MindmapCanvas({
             >
               <div className="text-2xl font-bold whitespace-nowrap text-ink">{group.reading}</div>
               <div className="mt-0.5 text-xs text-ink-muted">
-                {group.roots.length} chữ {group.groupKind === "shape" ? "đồng dạng" : "đồng âm"}
+                {group.language === "en"
+                  ? group.groupKind === "shape"
+                    ? `${group.roots.length} từ dễ nhầm`
+                    : `${group.roots.length} gốc từ`
+                  : `${group.roots.length} chữ ${group.groupKind === "shape" ? "đồng dạng" : "đồng âm"}`}
               </div>
             </div>
 
@@ -733,6 +752,20 @@ export default function MindmapCanvas({
                 {mnemonicLoadingId === activeWord.wn.word.id ? "Đang nghĩ mẹo nhớ…" : "💡 Xem mẹo nhớ"}
               </button>
             )}
+
+            <div className="mt-3 rounded-xl border border-border bg-surface-3/40 p-3">
+              <div className="mb-2 text-xs font-semibold text-ink-muted">🗂️ Thêm từ này vào danh mục</div>
+              <ListMembershipPicker
+                itemId={encodeWordItemId(
+                  group.language,
+                  group.groupKind ?? "sound",
+                  group.id,
+                  activeWord.wn.word.id,
+                )}
+                collections={collections}
+                onUpdate={setCollections}
+              />
+            </div>
           </div>
         </div>
       )}
@@ -792,6 +825,7 @@ export default function MindmapCanvas({
       )}
 
       {group.groupKind !== "shape" &&
+        group.language !== "en" &&
         (pendingFindNewRoot ? (
           <div className="mt-3 flex flex-wrap items-center gap-2 text-sm">
             <span className="text-ink-muted">Tìm chữ đồng âm mới bằng AI?</span>
