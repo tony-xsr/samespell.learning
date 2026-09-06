@@ -6,7 +6,7 @@ import { buildMnemonicPrompt } from "@/lib/ai/prompts";
 import { setMnemonic } from "@/lib/mnemonicStore";
 
 const RequestSchema = z.object({
-  language: z.enum(["zh", "ko", "ja"]),
+  language: z.enum(["zh", "ko", "ja", "en"]),
   wordId: z.string(),
   headword: z.string(),
   reading: z.string(),
