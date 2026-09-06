@@ -1,0 +1,473 @@
+"use client";
+
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import Link from "next/link";
+import type { Language } from "@/types/vocab";
+import type { QuizMode, QuizQuestion } from "@/lib/quiz/types";
+
+const REFLEX_SECONDS = 6;
+const BATCH_SIZE = 12;
+const ANSWER_DELAY_MS = 1100;
+const REFETCH_THRESHOLD = 3;
+
+const MODE_LABEL: Record<QuizMode, string> = {
+  meaning: "Trắc nghiệm nghĩa",
+  reading: "Trắc nghiệm cách đọc",
+  cloze: "Điền từ vào câu",
+};
+
+const LANG_FLAG: Record<Language | "mixed", string> = {
+  zh: "🇨🇳",
+  ja: "🇯🇵",
+  ko: "🇰🇷",
+  en: "🇬🇧",
+  mixed: "🌐",
+};
+
+// Mỗi giá trị là 1 chuỗi class Tailwind ĐẦY ĐỦ, viết tĩnh (không nội suy chuỗi) để trình quét nội
+// dung của Tailwind nhận diện được — nội suy kiểu `from-${x}-600` sẽ không được biên dịch ra CSS.
+const GRADIENT: Record<Language | "mixed", string> = {
+  zh: "from-red-600 via-red-500 to-amber-500",
+  ja: "from-rose-500 via-pink-500 to-indigo-600",
+  ko: "from-blue-600 via-indigo-500 to-rose-500",
+  en: "from-slate-800 via-slate-700 to-teal-600",
+  mixed: "from-fuchsia-600 via-violet-600 to-sky-500",
+};
+
+const CONFETTI_EMOJI = ["🎉", "✨", "🎊", "⭐️", "💫", "🥳"];
+
+interface Props {
+  lang: Language | "mixed";
+  mode: QuizMode;
+  reflex: boolean;
+}
+
+async function fetchQuestions(lang: Language | "mixed", mode: QuizMode): Promise<QuizQuestion[]> {
+  const res = await fetch(`/api/quiz/questions?lang=${lang}&mode=${mode}&count=${BATCH_SIZE}`);
+  if (!res.ok) throw new Error("Không tải được câu hỏi.");
+  const data = await res.json();
+  return Array.isArray(data.questions) ? data.questions : [];
+}
+
+function rateWord(wordId: string, correct: boolean) {
+  fetch("/api/progress/rate", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ wordId, rating: correct ? 2 : 0 }),
+  }).catch(() => {
+    /* không chặn UI nếu ghi tiến trình thất bại */
+  });
+}
+
+/** 2 khối mờ trôi nhẹ phía sau nội dung — cùng dùng cho mọi màn hình con để giao diện đỡ "phẳng". */
+function QuizBackdrop() {
+  return (
+    <>
+      <div className="quiz-blob pointer-events-none absolute -left-16 -top-16 h-56 w-56 rounded-full bg-white/10 blur-3xl" />
+      <div
+        className="quiz-blob pointer-events-none absolute -bottom-20 -right-10 h-64 w-64 rounded-full bg-white/10 blur-3xl"
+        style={{ animationDelay: "-4s" }}
+      />
+    </>
+  );
+}
+
+function ScoreRing({ percent }: { percent: number }) {
+  const radius = 52;
+  const circumference = 2 * Math.PI * radius;
+  const offset = circumference * (1 - percent / 100);
+  return (
+    <svg width={128} height={128} viewBox="0 0 128 128" className="drop-shadow-md">
+      <circle cx={64} cy={64} r={radius} stroke="rgba(255,255,255,0.25)" strokeWidth={12} fill="none" />
+      <circle
+        cx={64}
+        cy={64}
+        r={radius}
+        stroke="white"
+        strokeWidth={12}
+        fill="none"
+        strokeLinecap="round"
+        strokeDasharray={circumference}
+        strokeDashoffset={offset}
+        transform="rotate(-90 64 64)"
+        style={{ transition: "stroke-dashoffset 0.9s ease-out" }}
+      />
+      <text x={64} y={72} textAnchor="middle" fontSize={26} fontWeight={700} fill="white">
+        {percent}%
+      </text>
+    </svg>
+  );
+}
+
+export default function QuizSession({ lang, mode, reflex }: Props) {
+  const [sessionKey, setSessionKey] = useState(0);
+  const [questions, setQuestions] = useState<QuizQuestion[]>([]);
+  const [index, setIndex] = useState(0);
+  const [loading, setLoading] = useState(true);
+  const [errorMsg, setErrorMsg] = useState<string | null>(null);
+  const [fetchingMore, setFetchingMore] = useState(false);
+
+  const [selectedOptionId, setSelectedOptionId] = useState<string | null>(null);
+  const [score, setScore] = useState(0);
+  const [answered, setAnswered] = useState(0);
+  const [streak, setStreak] = useState(0);
+  const [bestStreak, setBestStreak] = useState(0);
+  const [finished, setFinished] = useState(false);
+  const [timeLeft, setTimeLeft] = useState(REFLEX_SECONDS);
+
+  const advanceTimeout = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const tickInterval = useRef<ReturnType<typeof setInterval> | null>(null);
+
+  const current = questions[index];
+
+  const loadInitial = useCallback(async () => {
+    setLoading(true);
+    setErrorMsg(null);
+    try {
+      const qs = await fetchQuestions(lang, mode);
+      setQuestions(qs);
+    } catch {
+      setErrorMsg("Không tải được câu hỏi. Vui lòng thử lại.");
+    } finally {
+      setLoading(false);
+    }
+  }, [lang, mode]);
+
+  useEffect(() => {
+    setQuestions([]);
+    setIndex(0);
+    setScore(0);
+    setAnswered(0);
+    setStreak(0);
+    setBestStreak(0);
+    setFinished(false);
+    setSelectedOptionId(null);
+    loadInitial();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [lang, mode, sessionKey]);
+
+  // Tự tải thêm câu hỏi khi sắp hết batch hiện tại.
+  useEffect(() => {
+    if (loading || finished || fetchingMore) return;
+    if (questions.length - index > REFETCH_THRESHOLD) return;
+    setFetchingMore(true);
+    fetchQuestions(lang, mode)
+      .then((more) => setQuestions((prev) => [...prev, ...more]))
+      .catch(() => {
+        /* im lặng — vẫn còn câu hiện tại để làm tiếp */
+      })
+      .finally(() => setFetchingMore(false));
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [index, questions.length, loading, finished]);
+
+  const clearTimers = useCallback(() => {
+    if (advanceTimeout.current) clearTimeout(advanceTimeout.current);
+    if (tickInterval.current) clearInterval(tickInterval.current);
+    advanceTimeout.current = null;
+    tickInterval.current = null;
+  }, []);
+
+  const handleAnswer = useCallback(
+    (optionId: string | null) => {
+      if (!current || selectedOptionId !== null) return;
+      clearTimers();
+
+      const correctOption = current.options.find((o) => o.correct);
+      const isCorrect = optionId !== null && optionId === correctOption?.id;
+
+      setSelectedOptionId(optionId ?? "__timeout__");
+      setAnswered((n) => n + 1);
+      if (isCorrect) {
+        setScore((s) => s + 1);
+        setStreak((s) => {
+          const next = s + 1;
+          setBestStreak((b) => Math.max(b, next));
+          return next;
+        });
+      } else {
+        setStreak(0);
+      }
+
+      rateWord(current.answerWordId, isCorrect);
+
+      advanceTimeout.current = setTimeout(() => {
+        setSelectedOptionId(null);
+        setTimeLeft(REFLEX_SECONDS);
+        setIndex((i) => i + 1);
+      }, ANSWER_DELAY_MS);
+    },
+    [current, selectedOptionId, clearTimers],
+  );
+
+  // Bộ đếm giờ chế độ Phản xạ — chạy lại mỗi khi sang câu mới.
+  useEffect(() => {
+    if (!reflex || !current || selectedOptionId !== null || finished) return;
+    setTimeLeft(REFLEX_SECONDS);
+    tickInterval.current = setInterval(() => {
+      setTimeLeft((t) => {
+        if (t <= 1) {
+          if (tickInterval.current) clearInterval(tickInterval.current);
+          handleAnswer(null);
+          return 0;
+        }
+        return t - 1;
+      });
+    }, 1000);
+    return () => {
+      if (tickInterval.current) clearInterval(tickInterval.current);
+    };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [reflex, current?.id, finished]);
+
+  useEffect(() => () => clearTimers(), [clearTimers]);
+
+  const confettiPieces = useMemo(
+    () =>
+      Array.from({ length: 14 }, (_, i) => ({
+        left: Math.round(Math.random() * 94),
+        emoji: CONFETTI_EMOJI[i % CONFETTI_EMOJI.length],
+        delay: Math.round(Math.random() * 500),
+        size: 16 + Math.round(Math.random() * 14),
+      })),
+    [sessionKey],
+  );
+
+  const gradientClass = GRADIENT[current?.language ?? lang] ?? GRADIENT.mixed;
+  const accuracy = answered > 0 ? Math.round((score / answered) * 100) : 0;
+  const timerFraction = timeLeft / REFLEX_SECONDS;
+  const timerColor = timerFraction > 0.5 ? "bg-emerald-300" : timerFraction > 0.25 ? "bg-yellow-300" : "bg-red-400";
+
+  if (loading) {
+    return (
+      <div
+        className={`relative flex min-h-dvh flex-col items-center justify-center overflow-hidden bg-gradient-to-br ${gradientClass} px-6 text-center text-white`}
+        style={{
+          paddingTop: "max(1.5rem, env(safe-area-inset-top))",
+          paddingBottom: "max(1.5rem, env(safe-area-inset-bottom))",
+        }}
+      >
+        <QuizBackdrop />
+        <div className="h-12 w-12 animate-spin rounded-full border-4 border-white/25 border-t-white" />
+        <p className="quiz-fade-in-up mt-4 text-sm font-medium text-white/90">Đang tải câu hỏi...</p>
+      </div>
+    );
+  }
+
+  if (errorMsg) {
+    return (
+      <div
+        className={`relative flex min-h-dvh flex-col items-center justify-center overflow-hidden bg-gradient-to-br ${gradientClass} px-6 text-center text-white`}
+        style={{
+          paddingTop: "max(1.5rem, env(safe-area-inset-top))",
+          paddingBottom: "max(1.5rem, env(safe-area-inset-bottom))",
+        }}
+      >
+        <QuizBackdrop />
+        <div className="quiz-fade-in-up text-4xl">⚠️</div>
+        <p className="quiz-fade-in-up mt-3 text-sm font-medium text-white/90">{errorMsg}</p>
+        <button
+          onClick={loadInitial}
+          className="mt-5 rounded-full bg-white px-6 py-2.5 text-sm font-semibold text-ink shadow-md transition hover:scale-105 hover:shadow-lg active:scale-95"
+        >
+          Thử lại
+        </button>
+      </div>
+    );
+  }
+
+  if (finished || (!current && !fetchingMore)) {
+    return (
+      <div
+        className={`relative flex min-h-dvh flex-col items-center justify-center overflow-hidden bg-gradient-to-br ${gradientClass} px-6 text-center text-white`}
+        style={{
+          paddingTop: "max(1.5rem, env(safe-area-inset-top))",
+          paddingBottom: "max(1.5rem, env(safe-area-inset-bottom))",
+        }}
+      >
+        <QuizBackdrop />
+        {accuracy >= 70 &&
+          confettiPieces.map((p, i) => (
+            <span
+              key={i}
+              className="quiz-float-up pointer-events-none absolute bottom-10"
+              style={{ left: `${p.left}%`, fontSize: p.size, animationDelay: `${p.delay}ms` }}
+            >
+              {p.emoji}
+            </span>
+          ))}
+
+        <div className="quiz-fade-in-up flex flex-col items-center">
+          <ScoreRing percent={accuracy} />
+          <div className="mt-4 text-4xl">{accuracy >= 70 ? "🎉" : "💪"}</div>
+          <h1 className="mt-2 text-2xl font-bold">Kết quả</h1>
+          <p className="mt-2 text-lg font-semibold">
+            {score}/{answered} câu đúng
+          </p>
+          <p className="mt-1 text-sm text-white/80">Chuỗi đúng liên tiếp cao nhất: {bestStreak} 🔥</p>
+
+          <div className="mt-8 flex w-full max-w-xs flex-col gap-3">
+            <button
+              data-testid="quiz-retry"
+              onClick={() => setSessionKey((k) => k + 1)}
+              className="rounded-full bg-white px-5 py-3 text-sm font-semibold text-ink shadow-md transition hover:scale-[1.03] hover:shadow-lg active:scale-95"
+            >
+              🔁 Làm lại
+            </button>
+            <Link
+              href={`/test/${lang}`}
+              className="rounded-full border-2 border-white/70 px-5 py-3 text-center text-sm font-semibold text-white transition hover:bg-white/10 active:scale-95"
+            >
+              Đổi chế độ
+            </Link>
+            <Link
+              href="/"
+              className="rounded-full px-5 py-3 text-center text-sm font-semibold text-white/80 transition hover:text-white"
+            >
+              Về trang chủ
+            </Link>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
+  if (!current) {
+    return (
+      <div
+        className={`relative flex min-h-dvh flex-col items-center justify-center overflow-hidden bg-gradient-to-br ${gradientClass} px-6 text-center text-white`}
+        style={{
+          paddingTop: "max(1.5rem, env(safe-area-inset-top))",
+          paddingBottom: "max(1.5rem, env(safe-area-inset-bottom))",
+        }}
+      >
+        <QuizBackdrop />
+        <div className="h-12 w-12 animate-spin rounded-full border-4 border-white/25 border-t-white" />
+        <p className="mt-4 text-sm font-medium text-white/90">Đang tải thêm câu hỏi...</p>
+      </div>
+    );
+  }
+
+  const correctOption = current.options.find((o) => o.correct);
+  const showResult = selectedOptionId !== null;
+  const answeredCorrectly = showResult && selectedOptionId === correctOption?.id;
+
+  return (
+    <div
+      className={`relative flex min-h-dvh flex-col overflow-hidden bg-gradient-to-br ${gradientClass} px-4 text-white`}
+      style={{
+        paddingTop: "max(1rem, env(safe-area-inset-top))",
+        paddingBottom: "max(1rem, env(safe-area-inset-bottom))",
+      }}
+    >
+      <QuizBackdrop />
+
+      {/* Khung nội dung — giới hạn chiều rộng trên tablet/desktop để không bị dàn trải quá đà,
+          vẫn full-bleed nền gradient phía sau. */}
+      <div className="relative mx-auto flex w-full max-w-2xl flex-1 flex-col">
+        {/* HUD */}
+        <div className="flex items-center justify-between gap-2">
+          <Link
+            href={`/test/${lang}`}
+            aria-label="Quay lại"
+            className="rounded-full bg-white/15 px-3 py-1.5 text-sm backdrop-blur-sm transition hover:bg-white/25 active:scale-95"
+          >
+            ←
+          </Link>
+          <div className="flex flex-wrap items-center justify-center gap-1.5 text-xs font-semibold">
+            <span className="rounded-full bg-white/15 px-2.5 py-1 backdrop-blur-sm">
+              {LANG_FLAG[current.language]} {MODE_LABEL[mode]}
+            </span>
+            <span className="rounded-full bg-white/15 px-2.5 py-1 backdrop-blur-sm">Câu {index + 1}</span>
+            <span className="rounded-full bg-white/15 px-2.5 py-1 backdrop-blur-sm">
+              ✔️ {score}/{answered}
+            </span>
+            {streak > 1 && (
+              <span className="quiz-pop rounded-full bg-white/15 px-2.5 py-1 backdrop-blur-sm">🔥 {streak}</span>
+            )}
+          </div>
+          <button
+            data-testid="quiz-stop"
+            onClick={() => setFinished(true)}
+            className="rounded-full bg-white/15 px-3 py-1.5 text-xs font-semibold backdrop-blur-sm transition hover:bg-white/25 active:scale-95"
+          >
+            Dừng
+          </button>
+        </div>
+
+        {reflex && (
+          <div className="mt-3 flex shrink-0 items-center gap-2">
+            <div className="h-2 flex-1 overflow-hidden rounded-full bg-white/20">
+              <div
+                className={`h-full rounded-full transition-[width,background-color] duration-1000 ease-linear ${timerColor}`}
+                style={{ width: `${Math.max(0, timerFraction) * 100}%` }}
+              />
+            </div>
+            <span className="w-8 shrink-0 text-right text-sm font-bold tabular-nums">{timeLeft}s</span>
+          </div>
+        )}
+
+        {/* Câu hỏi — có watermark cờ ngôn ngữ mờ phía sau cho đỡ trống, đặc biệt ở màn hình cao */}
+        <div
+          key={current.id}
+          className="quiz-fade-in-up relative flex min-h-0 flex-1 flex-col items-center justify-center px-2 py-3 text-center"
+        >
+          <div aria-hidden className="pointer-events-none absolute inset-0 flex items-center justify-center">
+            <div className="h-52 w-52 rounded-full bg-white/10 blur-2xl sm:h-64 sm:w-64" />
+          </div>
+          {current.promptSubLabel && (
+            <div className="relative text-xs font-medium uppercase tracking-wide text-white/60">
+              {current.promptSubLabel}
+            </div>
+          )}
+          <div className="relative mt-2 text-2xl font-bold leading-snug sm:text-3xl md:text-4xl">
+            {current.promptLabel}
+          </div>
+        </div>
+
+        {/* Phản hồi đúng/sai */}
+        <div aria-live="polite" className="mb-2 min-h-[2rem] shrink-0 text-center">
+          {showResult && (
+            <span
+              className={`quiz-fade-in-up inline-block rounded-full px-4 py-1.5 text-sm font-semibold ${
+                answeredCorrectly ? "bg-emerald-400/90 text-emerald-950" : "bg-red-400/90 text-white"
+              }`}
+            >
+              {answeredCorrectly ? "✅ Chính xác!" : `❌ Đáp án đúng: ${correctOption?.label}`}
+            </span>
+          )}
+        </div>
+
+        {/* Đáp án */}
+        <div className="flex shrink-0 flex-col gap-2.5">
+          {current.options.map((option, i) => {
+            const isPicked = selectedOptionId === option.id;
+            const isTheCorrectOne = option.id === correctOption?.id;
+
+            const stateClass = !showResult
+              ? "bg-white/95 text-ink hover:bg-white hover:-translate-y-0.5 hover:shadow-lg active:scale-[0.98]"
+              : isTheCorrectOne
+                ? "quiz-pop bg-emerald-500 text-white"
+                : isPicked
+                  ? "quiz-shake bg-red-500 text-white"
+                  : "bg-white/40 text-ink/60";
+
+            return (
+              <button
+                key={option.id}
+                data-testid="quiz-option"
+                onClick={() => handleAnswer(option.id)}
+                disabled={showResult}
+                className={`rounded-2xl px-4 py-3.5 text-left text-[15px] font-semibold shadow-md transition-all duration-200 sm:px-5 sm:py-4 sm:text-base ${stateClass}`}
+              >
+                <span className="mr-2 opacity-60">{String.fromCharCode(65 + i)}.</span>
+                {option.label}
+                {showResult && isTheCorrectOne && <span className="ml-2">✓</span>}
+                {showResult && isPicked && !isTheCorrectOne && <span className="ml-2">✗</span>}
+              </button>
+            );
+          })}
+        </div>
+      </div>
+    </div>
+  );
+}
