@@ -6,6 +6,7 @@ const LOCALE: Record<Language, string> = {
   zh: "zh-CN",
   ko: "ko-KR",
   ja: "ja-JP",
+  en: "en-US",
 };
 
 export function isTtsSupported(): boolean {
