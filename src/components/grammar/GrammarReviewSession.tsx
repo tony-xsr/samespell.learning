@@ -210,7 +210,7 @@ export default function GrammarReviewSession({
             >
               {!flipped ? (
                 <div className="text-center">
-                  <div className="text-lg font-bold text-brand-600">{current.story.titleVn}</div>
+                  <div className="px-8 text-lg font-bold text-brand-600">{current.story.titleVn}</div>
                   <p className="mt-1 text-xs text-ink-muted">
                     Bạn có nhớ cách nói chuỗi này bằng {data.label.replace("Ngữ pháp ", "")} không?
                   </p>
@@ -240,7 +240,7 @@ export default function GrammarReviewSession({
               }}
               className="cursor-pointer text-center"
             >
-              <div className="text-2xl font-bold text-brand-600">{current.point.pattern}</div>
+              <div className="px-8 text-2xl font-bold text-brand-600">{current.point.pattern}</div>
               {!flipped && <div className="mt-6 text-sm text-ink-muted">(Chạm để lật thẻ)</div>}
 
               {flipped && (
@@ -280,7 +280,7 @@ export default function GrammarReviewSession({
             </div>
           ) : (
             <div className="text-left">
-              <div className="text-center text-sm font-bold text-ink">{current.group.titleVn}</div>
+              <div className="px-8 text-center text-sm font-bold text-ink">{current.group.titleVn}</div>
               <div className="mt-3 rounded-lg bg-surface px-3 py-2 text-sm">
                 <StoryNodeSentence sentence={current.quizExample.sentence} lang={lang as Language} className="font-medium text-ink" />
                 <div className="text-ink-muted">{current.quizExample.translationVn}</div>
