@@ -2,9 +2,17 @@
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
-import type { RootEntry, SoundGroup, VocabWord } from "@/types/vocab";
+import type { Language, RootEntry, SoundGroup, VocabWord } from "@/types/vocab";
 import MindmapCanvas from "@/components/mindmap/MindmapCanvas";
+import GroupCollectionControls from "@/components/GroupCollectionControls";
 import { loadProgress, toggleBookmark } from "@/lib/progress";
+
+const LANG_LABEL: Record<Language, string> = {
+  zh: "Tiếng Trung",
+  ko: "Tiếng Hàn",
+  ja: "Tiếng Nhật",
+  en: "Tiếng Anh",
+};
 
 function updateWordInList(
   words: VocabWord[],
@@ -202,20 +210,37 @@ export default function GroupExplorer({
     <main className="flex flex-1 flex-col items-center px-4 py-8 sm:py-12">
       <div className="w-full max-w-5xl">
         <Link href={`${basePath}/${lang}`} className="text-sm font-medium text-brand-600 hover:underline">
-          ← {group.language === "zh" ? "Tiếng Trung" : group.language === "ko" ? "Tiếng Hàn" : "Tiếng Nhật"}
+          ← {LANG_LABEL[group.language]}
         </Link>
 
         <div className="mt-2 flex flex-wrap items-end justify-between gap-3">
           <h1 className="text-2xl font-bold tracking-tight text-ink">
-            {group.groupKind === "shape" ? "Nhóm hình" : "Nhóm âm"}{" "}
+            {group.aiTheme === "polyphonic"
+              ? "🌗 Đa âm Hán Việt"
+              : group.aiTheme === "synonym-family"
+                ? "🔗 Họ hàng nghĩa"
+                : group.groupKind === "shape"
+                  ? group.language === "en"
+                    ? "🔤 Từ dễ nhầm"
+                    : "Nhóm hình"
+                  : group.aiTheme === "word-family" || group.language === "en"
+                    ? "🌳 Họ từ"
+                    : "Nhóm âm"}{" "}
             <span className="text-brand-600">&ldquo;{group.reading}&rdquo;</span>
           </h1>
-          <Link
-            href={`${basePath}/${lang}/${group.id}/review`}
-            className="rounded-full bg-gradient-to-r from-brand-600 to-accent-500 px-4 py-2 text-sm font-semibold text-white shadow-md transition hover:brightness-105"
-          >
-            🗂️ Ôn tập nhóm này
-          </Link>
+          <div className="flex items-center gap-2">
+            <GroupCollectionControls
+              language={group.language}
+              groupKind={group.groupKind ?? "sound"}
+              groupId={group.id}
+            />
+            <Link
+              href={`${basePath}/${lang}/${group.id}/review`}
+              className="rounded-full bg-gradient-to-r from-brand-600 to-accent-500 px-4 py-2 text-sm font-semibold text-white shadow-md transition hover:brightness-105"
+            >
+              🗂️ Ôn tập nhóm này
+            </Link>
+          </div>
         </div>
         {group.note && <p className="mt-2 text-sm text-ink-muted">{group.note}</p>}
 

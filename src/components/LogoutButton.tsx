@@ -14,9 +14,10 @@ export default function LogoutButton() {
   return (
     <button
       onClick={handleLogout}
-      className="rounded-full bg-white/15 px-3 py-1 text-xs font-medium text-white hover:bg-white/25"
+      className="flex shrink-0 items-center gap-1 whitespace-nowrap rounded-full bg-white/15 px-2 py-1 text-xs font-medium text-white hover:bg-white/25 sm:gap-1.5 sm:px-3"
     >
-      Đăng xuất
+      <span>🚪</span>
+      <span className="hidden sm:inline">Đăng xuất</span>
     </button>
   );
 }
