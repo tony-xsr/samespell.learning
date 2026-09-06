@@ -168,7 +168,7 @@ function ScenarioChainCard({
         <button
           type="button"
           onClick={openFullscreen}
-          className={`flex flex-1 items-center gap-3 rounded-2xl border px-4 py-3 text-left shadow-sm transition hover:border-rose-300 hover:shadow-md ${
+          className={`flex min-w-0 flex-1 items-center gap-3 rounded-2xl border px-4 py-3 text-left shadow-sm transition hover:border-rose-300 hover:shadow-md ${
             learned ? "border-emerald-200 bg-emerald-50/40 dark:bg-emerald-900/10" : "border-border bg-surface-2"
           }`}
         >
@@ -340,7 +340,7 @@ function ScenarioClusterCard({
         <button
           type="button"
           onClick={openFullscreen}
-          className={`flex flex-1 items-center gap-3 rounded-2xl border px-4 py-3 text-left shadow-sm transition hover:border-rose-300 hover:shadow-md ${
+          className={`flex min-w-0 flex-1 items-center gap-3 rounded-2xl border px-4 py-3 text-left shadow-sm transition hover:border-rose-300 hover:shadow-md ${
             learned ? "border-emerald-200 bg-emerald-50/40 dark:bg-emerald-900/10" : "border-border bg-surface-2"
           }`}
         >
