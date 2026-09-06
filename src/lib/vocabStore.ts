@@ -1,20 +1,26 @@
 import "server-only";
-import type { Language, LanguageData, RootEntry, SoundGroup, VocabWord } from "@/types/vocab";
+import type { GroupKind, Language, LanguageData, RootEntry, SoundGroup, VocabWord } from "@/types/vocab";
 import { kvGet, kvSet } from "@/lib/kv";
 import { getMnemonicMap } from "@/lib/mnemonicStore";
 import { flattenWords } from "@/lib/wordTree";
+import { pinyinToneKey } from "@/lib/zhPinyin";
 import zh from "../../data/zh.json";
 import ko from "../../data/ko.json";
 import ja from "../../data/ja.json";
+import en from "../../data/en.json";
 import zhShape from "../../data/zh-shape.json";
 import jaShape from "../../data/ja-shape.json";
 import zhFalseFriends from "../../data/zh-false-friends.json";
 import zhInitials from "../../data/zh-initials.json";
+import enShape from "../../data/en-shape.json";
 
 const STATIC_DATA: Record<Language, LanguageData> = {
   zh: zh as LanguageData,
   ko: ko as LanguageData,
   ja: ja as LanguageData,
+  // Tiếng Anh dùng LẠI đúng pool "sound" hiện có, không tạo groupKind/route riêng — mỗi group là 1
+  // "họ từ" (word family) theo gốc Latin/Hy Lạp thay vì chữ Hán đồng âm. Xem Features.md mục 15.
+  en: en as LanguageData,
 };
 
 // Dữ liệu "nhóm hình" (chữ VIẾT giống nhau, hình cận tự) — trục nhầm lẫn song song với nhóm âm ở
@@ -23,6 +29,9 @@ const STATIC_DATA: Record<Language, LanguageData> = {
 const STATIC_SHAPE_DATA: Partial<Record<Language, LanguageData>> = {
   zh: zhShape as LanguageData,
   ja: jaShape as LanguageData,
+  // Tiếng Anh: "hình cận tự" reinterpreted thành "từ suýt giống nhau về chính tả" (desert/dessert,
+  // affect/effect...) — cùng tinh thần nhầm lẫn thị giác nhưng qua chữ cái thay vì nét chữ Hán.
+  en: enShape as LanguageData,
 };
 
 // Dữ liệu "bẫy nghĩa" (1 chữ dùng chung giữa 2+ từ ghép nhưng nghĩa lệch/trôi nhau) — trục nhầm lẫn
@@ -37,7 +46,7 @@ const STATIC_INITIAL_DATA: Partial<Record<Language, LanguageData>> = {
   zh: zhInitials as LanguageData,
 };
 
-const ALL_LANGUAGES: Language[] = ["zh", "ko", "ja"];
+const ALL_LANGUAGES: Language[] = ["zh", "ko", "ja", "en"];
 
 interface DynamicAdditions {
   extraWords: Record<string, VocabWord[]>;
@@ -214,6 +223,26 @@ export async function getInitialGroup(lang: string, groupId: string): Promise<So
   return data?.groups.find((g) => g.id === groupId);
 }
 
+/** Tra 1 group theo ĐÚNG trục nhầm lẫn (groupKind) của nó — dùng cho favorite/danh mục cá nhân
+ * (xem personal.ts), vì 1 groupId chỉ có ý nghĩa khi biết nó thuộc pool sound/shape/false-friend/
+ * initial nào (4 pool này không dùng chung namespace ID). */
+export async function getGroupByKind(
+  lang: string,
+  groupKind: GroupKind,
+  groupId: string,
+): Promise<SoundGroup | undefined> {
+  switch (groupKind) {
+    case "shape":
+      return getShapeGroup(lang, groupId);
+    case "false-friend":
+      return getFalseFriendGroup(lang, groupId);
+    case "initial":
+      return getInitialGroup(lang, groupId);
+    default:
+      return getSoundGroup(lang, groupId);
+  }
+}
+
 export function getAllWordsInGroup(group: SoundGroup): VocabWord[] {
   return group.roots.flatMap((r) => flattenWords(r.words));
 }
@@ -229,10 +258,25 @@ export function normalizeReading(reading: string): string {
 }
 
 /** Tìm nhóm ÂM đã tồn tại (trong dữ liệu đã merge tĩnh + Redis) có cùng cách đọc, để quyết định gộp
- * chữ gốc mới vào nhóm đó (addExtraRoot) thay vì tạo hẳn 1 nhóm mới trùng lặp (addExtraGroup). */
-export function findGroupByReading(data: LanguageData, reading: string): SoundGroup | undefined {
+ * chữ gốc mới vào nhóm đó (addExtraRoot) thay vì tạo hẳn 1 nhóm mới trùng lặp (addExtraGroup).
+ *
+ * Với tiếng Trung, so khớp CẢ theo `pinyinToneKey` (không phân biệt cách ghi thanh điệu — dấu thanh
+ * "fēng" hay số thanh "feng1") bên cạnh so khớp chuỗi thường: AI không được ép trả về pinyin theo
+ * đúng 1 kiểu ghi cố định, nên 2 lần gọi độc lập cho 2 chữ THỰC SỰ đồng âm (vd 峰/风/疯 đều "fēng")
+ * có thể trả về reading khác nhau về MẶT CHUỖI dù cùng 1 âm — nếu chỉ so `normalizeReading` sẽ tạo
+ * nhầm 2 nhóm trùng lặp cho cùng 1 âm thay vì gộp lại (bug đã ghi nhận, xem Bugs.md). */
+export function findGroupByReading(
+  data: LanguageData,
+  reading: string,
+  language?: Language,
+): SoundGroup | undefined {
   const target = normalizeReading(reading);
-  return data.groups.find((g) => normalizeReading(g.reading) === target);
+  const toneKey = language === "zh" ? pinyinToneKey(reading) : null;
+  return data.groups.find((g) => {
+    if (normalizeReading(g.reading) === target) return true;
+    if (toneKey && pinyinToneKey(g.reading) === toneKey) return true;
+    return false;
+  });
 }
 
 export async function addExtraWords(lang: Language, rootId: string, words: VocabWord[]): Promise<void> {
