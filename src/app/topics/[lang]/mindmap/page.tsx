@@ -26,12 +26,20 @@ export default async function TopicMindmapIndexPage({
             </p>
           </div>
           {data.topics.length > 0 && (
-            <Link
-              href={`/topics/${lang}/review`}
-              className="rounded-full bg-gradient-to-r from-emerald-600 to-teal-500 px-4 py-2 text-sm font-semibold text-white shadow-md hover:brightness-105"
-            >
-              🗂️ Luyện tập ngẫu nhiên cả {data.label}
-            </Link>
+            <div className="flex flex-wrap gap-2">
+              <Link
+                href={`/topics/${lang}/review?count=15`}
+                className="rounded-full border-2 border-emerald-400 px-4 py-2 text-sm font-semibold text-emerald-600 hover:bg-emerald-500/10"
+              >
+                🎲 Ôn 15 từ ngẫu nhiên
+              </Link>
+              <Link
+                href={`/topics/${lang}/review`}
+                className="rounded-full bg-gradient-to-r from-emerald-600 to-teal-500 px-4 py-2 text-sm font-semibold text-white shadow-md hover:brightness-105"
+              >
+                🗂️ Luyện tập cả {data.label}
+              </Link>
+            </div>
           )}
         </div>
 

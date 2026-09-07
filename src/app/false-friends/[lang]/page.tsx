@@ -58,12 +58,20 @@ export default async function FalseFriendLanguagePage({
             </p>
           </div>
           {data.groups.length > 0 && (
-            <Link
-              href={`/false-friends/${lang}/review`}
-              className="rounded-full bg-gradient-to-r from-brand-600 to-accent-500 px-4 py-2 text-sm font-semibold text-white shadow-md hover:brightness-105"
-            >
-              🗂️ Luyện tập cả {data.label}
-            </Link>
+            <div className="flex flex-wrap gap-2">
+              <Link
+                href={`/false-friends/${lang}/review?count=15`}
+                className="rounded-full border-2 border-brand-400 px-4 py-2 text-sm font-semibold text-brand-600 hover:bg-brand-500/10"
+              >
+                🎲 Ôn 15 từ ngẫu nhiên
+              </Link>
+              <Link
+                href={`/false-friends/${lang}/review`}
+                className="rounded-full bg-gradient-to-r from-brand-600 to-accent-500 px-4 py-2 text-sm font-semibold text-white shadow-md hover:brightness-105"
+              >
+                🗂️ Luyện tập cả {data.label}
+              </Link>
+            </div>
           )}
         </div>
 

@@ -31,6 +31,7 @@ export default function ReviewSession({
   topics,
   title,
   backHref,
+  limit,
 }: {
   /** Nguồn thẻ trục đồng âm/hình/bẫy nghĩa/phụ âm đầu — truyền 1 trong 2, KHÔNG truyền cả `groups`
    * lẫn `topics` cùng lúc. */
@@ -39,6 +40,9 @@ export default function ReviewSession({
   topics?: TopicGroup[];
   title: string;
   backHref: string;
+  /** Giới hạn số thẻ lấy ngẫu nhiên cho 1 phiên ôn NGẮN (vd "🎲 Ôn 15 từ ngẫu nhiên") — không truyền
+   * thì giữ hành vi cũ: ôn TOÀN BỘ thẻ due/đang có (như "🗂️ Luyện tập cả"). */
+  limit?: number;
 }) {
   const [ready, setReady] = useState(false);
   const [cards, setCards] = useState<CardInfo[]>([]);
@@ -86,13 +90,15 @@ export default function ReviewSession({
           : (groups ?? []).flatMap((g) => buildCardsFromGroup(g, progress))
       ).filter((c) => !c.mastered);
       const due = allCards.filter((c) => isDue(progress[c.word.id]));
-      setCards(shuffle(due.length > 0 ? due : allCards));
+      const shuffled = shuffle(due.length > 0 ? due : allCards);
+      setCards(limit ? shuffled.slice(0, limit) : shuffled);
       setReady(true);
     })();
     return () => {
       cancelled = true;
     };
-  }, [groups, topics]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [groups, topics, limit]);
 
   const examplePinyin = useMemo(() => {
     if (!current || current.language !== "zh") return "";
