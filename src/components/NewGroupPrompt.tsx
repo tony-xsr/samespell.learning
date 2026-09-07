@@ -10,12 +10,53 @@ import AnswerCardView from "@/components/AnswerCardView";
 const HAN_LANGS: Language[] = ["zh", "ko", "ja"];
 
 const THEMES = [
-  { key: "sound", label: "🔊 Đồng âm", kind: "group" as const, langs: HAN_LANGS },
-  { key: "polyphonic", label: "🌗 Đa âm Hán Việt", kind: "group" as const, langs: HAN_LANGS },
-  { key: "synonym-family", label: "🔗 Họ hàng nghĩa/Đồng-trái nghĩa", kind: "group" as const, langs: HAN_LANGS },
-  { key: "word-family", label: "🌳 Từ cùng gốc (Latin/Hy Lạp)", kind: "group" as const, langs: ["en"] as Language[] },
-  { key: "quick-dict", label: "📖 Giải thích nhanh", kind: "card" as const },
-  { key: "etymology", label: "🀄 Chiết tự Hán", kind: "card" as const, langs: ["zh", "ja"] as Language[] },
+  {
+    key: "sound",
+    label: "🔊 Đồng âm",
+    kind: "group" as const,
+    langs: HAN_LANGS,
+    description: "Tìm các từ khác nhau nhưng đọc giống nhau (chung chữ Hán/Hanja gốc).",
+    example: "Ví dụ: 峰, 风, 疯 đều đọc \"fēng\" — nếu trùng cách đọc với nhóm đã có, tự gộp chung.",
+  },
+  {
+    key: "polyphonic",
+    label: "🌗 Đa âm Hán Việt",
+    kind: "group" as const,
+    langs: HAN_LANGS,
+    description: "Tìm 1 chữ có NHIỀU cách đọc khác nhau tuỳ nghĩa/từ ghép, sinh từ minh hoạ từng cách đọc.",
+    example: "Ví dụ: 乐 đọc \"nhạc\" trong 音乐 (âm nhạc) nhưng đọc \"lạc\" trong 快乐 (vui vẻ).",
+  },
+  {
+    key: "synonym-family",
+    label: "🔗 Họ hàng nghĩa/Đồng-trái nghĩa",
+    kind: "group" as const,
+    langs: HAN_LANGS,
+    description: "Tìm các từ gần nghĩa nhưng sắc thái lệch nhau, dùng chung 1 chữ gốc — kèm thêm từ trái nghĩa.",
+    example: "Ví dụ: 递交/提交/上交 đều dùng chữ 交 (nộp/giao) nhưng sắc thái trang trọng khác nhau.",
+  },
+  {
+    key: "word-family",
+    label: "🌳 Từ cùng gốc (Latin/Hy Lạp)",
+    kind: "group" as const,
+    langs: ["en"] as Language[],
+    description: "Tìm các từ tiếng Anh nâng cao cùng gốc từ nguyên Latin/Hy Lạp.",
+    example: "Ví dụ: extract, attract, subtract đều chứa gốc \"tract\" (kéo, rút).",
+  },
+  {
+    key: "quick-dict",
+    label: "📖 Giải thích nhanh",
+    kind: "card" as const,
+    description: "Tra nhanh nghĩa/cách đọc/ví dụ của 1 từ, hiện ngay tại đây.",
+    example: "KHÔNG tạo mindmap mới — chỉ để tra cứu nhanh 1 từ đơn lẻ.",
+  },
+  {
+    key: "etymology",
+    label: "🀄 Chiết tự Hán",
+    kind: "card" as const,
+    langs: ["zh", "ja"] as Language[],
+    description: "Phân tích chữ Hán/Kanji thành bộ thủ + thành phần cấu tạo, giải thích vì sao ghép ra nghĩa đó.",
+    example: "Ví dụ: 好 = 女 (nữ) + 子 (con) — mẹ bên con là điều tốt lành.",
+  },
 ];
 
 const THEME_STORAGE_KEY = "samespell:ai-theme";
@@ -143,11 +184,20 @@ export default function NewGroupPrompt({
         ))}
       </div>
 
+      {(() => {
+        const selectedTheme = availableThemes.find((t) => t.key === theme);
+        if (!selectedTheme) return null;
+        return (
+          <div className="mt-2 rounded-xl bg-surface-3 px-3 py-2 text-xs text-ink-muted">
+            <div>{selectedTheme.description}</div>
+            <div className="mt-0.5 italic">{selectedTheme.example}</div>
+          </div>
+        );
+      })()}
+
       <p className="mt-2 text-xs text-ink-muted">
         Nhập 1 từ, hoặc nhiều từ cách nhau bằng dấu phẩy (vd {lang === "en" ? "extract, attract" : "峰，风，疯"})
         — AI sẽ xử lý theo kiểu đã chọn ở trên.
-        {theme === "sound" &&
-          " Với kiểu 🔊 Đồng âm: nếu 2 từ trùng cách đọc, hoặc trùng với 1 nhóm đã có sẵn, hệ thống tự gộp chung vào 1 nhóm thay vì tạo nhóm trùng lặp."}
       </p>
 
       <div className="mt-3 flex gap-2">
