@@ -14573,6 +14573,1182 @@
           ]
         }
       ]
+    },
+    {
+      "id": "zh-topic-drinking-culture",
+      "language": "zh",
+      "titleNative": "酒文化与聚餐应酬",
+      "titleVn": "Văn hoá uống rượu và tiệc công ty",
+      "branches": [
+        {
+          "id": "alcohol-type",
+          "titleNative": "酒类",
+          "titleVn": "Các loại rượu",
+          "words": [
+            {
+              "id": "zh-topic-dk-baijiu",
+              "headword": "白酒",
+              "reading": "báijiǔ",
+              "meaningVn": "rượu trắng (rượu mạnh Trung Quốc)",
+              "example": "爷爷喜欢喝白酒。",
+              "exampleVn": "Ông nội thích uống rượu trắng."
+            },
+            {
+              "id": "zh-topic-dk-pijiu",
+              "headword": "啤酒",
+              "reading": "píjiǔ",
+              "meaningVn": "bia",
+              "example": "夏天喝啤酒最爽了。",
+              "exampleVn": "Mùa hè uống bia là sảng khoái nhất."
+            },
+            {
+              "id": "zh-topic-dk-hongjiu",
+              "headword": "红酒",
+              "reading": "hóngjiǔ",
+              "meaningVn": "rượu vang đỏ",
+              "example": "她只喝一点红酒。",
+              "exampleVn": "Cô ấy chỉ uống một chút rượu vang đỏ."
+            },
+            {
+              "id": "zh-topic-dk-mijiu",
+              "headword": "米酒",
+              "reading": "mǐjiǔ",
+              "meaningVn": "rượu gạo",
+              "example": "这种米酒味道很甜。",
+              "exampleVn": "Loại rượu gạo này vị rất ngọt."
+            },
+            {
+              "id": "zh-topic-dk-ganbei",
+              "headword": "干杯",
+              "reading": "gānbēi",
+              "meaningVn": "cạn ly",
+              "example": "大家一起干杯！",
+              "exampleVn": "Mọi người cùng cạn ly nào!"
+            }
+          ]
+        },
+        {
+          "id": "drinking-occasion",
+          "titleNative": "饮酒场合",
+          "titleVn": "Dịp uống rượu",
+          "words": [
+            {
+              "id": "zh-topic-dk-yingchou",
+              "headword": "应酬",
+              "reading": "yìngchou",
+              "meaningVn": "giao tế, tiếp khách bằng ăn uống",
+              "example": "他工作后经常要应酬。",
+              "exampleVn": "Sau khi đi làm anh ấy thường xuyên phải giao tế."
+            },
+            {
+              "id": "zh-topic-dk-jingjiu",
+              "headword": "敬酒",
+              "reading": "jìngjiǔ",
+              "meaningVn": "mời rượu, kính rượu",
+              "example": "他给领导敬酒。",
+              "exampleVn": "Anh ấy mời rượu sếp."
+            },
+            {
+              "id": "zh-topic-dk-quanjiu",
+              "headword": "劝酒",
+              "reading": "quànjiǔ",
+              "meaningVn": "ép rượu, mời rượu nhiệt tình",
+              "example": "中国的酒桌上常有劝酒的习惯。",
+              "exampleVn": "Trên bàn rượu Trung Quốc thường có thói quen mời rượu nhiệt tình."
+            },
+            {
+              "id": "zh-topic-dk-jiuju",
+              "headword": "酒局",
+              "reading": "jiǔjú",
+              "meaningVn": "buổi tiệc rượu",
+              "example": "今晚有一个酒局。",
+              "exampleVn": "Tối nay có một buổi tiệc rượu."
+            },
+            {
+              "id": "zh-topic-dk-sanhuofan",
+              "headword": "散伙饭",
+              "reading": "sànhuǒfàn",
+              "meaningVn": "bữa tiệc chia tay",
+              "example": "同事离职前请大家吃散伙饭。",
+              "exampleVn": "Trước khi nghỉ việc đồng nghiệp mời mọi người ăn bữa tiệc chia tay."
+            }
+          ]
+        },
+        {
+          "id": "drinking-etiquette",
+          "titleNative": "饮酒礼仪",
+          "titleVn": "Lễ nghi uống rượu",
+          "words": [
+            {
+              "id": "zh-topic-dk-jiuzhuowenhua",
+              "headword": "酒桌文化",
+              "reading": "jiǔzhuō wénhuà",
+              "meaningVn": "văn hóa bàn rượu",
+              "example": "酒桌文化在职场很重要。",
+              "exampleVn": "Văn hóa bàn rượu rất quan trọng trong môi trường công sở."
+            },
+            {
+              "id": "zh-topic-dk-pengbei",
+              "headword": "碰杯",
+              "reading": "pèngbēi",
+              "meaningVn": "chạm ly",
+              "example": "我们碰杯庆祝一下。",
+              "exampleVn": "Chúng ta chạm ly ăn mừng một chút."
+            },
+            {
+              "id": "zh-topic-dk-yikoumen",
+              "headword": "一口闷",
+              "reading": "yìkǒumèn",
+              "meaningVn": "uống cạn một hơi",
+              "example": "他一口闷了这杯酒。",
+              "exampleVn": "Anh ấy uống cạn ly rượu này một hơi."
+            },
+            {
+              "id": "zh-topic-dk-daijia",
+              "headword": "代驾",
+              "reading": "dàijià",
+              "meaningVn": "lái xe hộ (sau khi uống rượu)",
+              "example": "喝了酒就叫代驾吧。",
+              "exampleVn": "Uống rượu rồi thì gọi người lái xe hộ đi."
+            },
+            {
+              "id": "zh-topic-dk-weixun",
+              "headword": "微醺",
+              "reading": "wēixūn",
+              "meaningVn": "hơi say, say nhẹ",
+              "example": "喝到微醺的状态刚刚好。",
+              "exampleVn": "Uống đến trạng thái hơi say là vừa đủ."
+            }
+          ]
+        },
+        {
+          "id": "alcohol-effect",
+          "titleNative": "酒精影响",
+          "titleVn": "Ảnh hưởng của rượu",
+          "words": [
+            {
+              "id": "zh-topic-dk-hezui",
+              "headword": "喝醉",
+              "reading": "hēzuì",
+              "meaningVn": "say rượu",
+              "example": "他昨晚喝醉了。",
+              "exampleVn": "Tối qua anh ấy đã say rượu."
+            },
+            {
+              "id": "zh-topic-dk-suzui",
+              "headword": "宿醉",
+              "reading": "sùzuì",
+              "meaningVn": "say xỉn qua đêm, nôn nao sau khi say",
+              "example": "他今天宿醉，头很疼。",
+              "exampleVn": "Hôm nay anh ấy bị nôn nao sau say, đầu rất đau."
+            },
+            {
+              "id": "zh-topic-dk-jiejiu",
+              "headword": "戒酒",
+              "reading": "jièjiǔ",
+              "meaningVn": "cai rượu",
+              "example": "医生建议他戒酒。",
+              "exampleVn": "Bác sĩ khuyên anh ấy cai rượu."
+            },
+            {
+              "id": "zh-topic-dk-jiuliang",
+              "headword": "酒量",
+              "reading": "jiǔliàng",
+              "meaningVn": "tửu lượng",
+              "example": "他的酒量很好。",
+              "exampleVn": "Tửu lượng của anh ấy rất tốt."
+            },
+            {
+              "id": "zh-topic-dk-xingjiu",
+              "headword": "醒酒",
+              "reading": "xǐngjiǔ",
+              "meaningVn": "giã rượu, tỉnh rượu",
+              "example": "喝点蜂蜜水可以醒酒。",
+              "exampleVn": "Uống chút nước mật ong có thể giúp giã rượu."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-topic-funeral-customs",
+      "language": "zh",
+      "titleNative": "丧葬习俗",
+      "titleVn": "Tang lễ và nghi thức tang ma",
+      "branches": [
+        {
+          "id": "funeral-process",
+          "titleNative": "丧事流程",
+          "titleVn": "Quy trình tang sự",
+          "words": [
+            {
+              "id": "zh-topic-fn-qushi",
+              "headword": "去世",
+              "reading": "qùshì",
+              "meaningVn": "qua đời",
+              "example": "他爷爷上个月去世了。",
+              "exampleVn": "Ông nội anh ấy đã qua đời vào tháng trước."
+            },
+            {
+              "id": "zh-topic-fn-zangli",
+              "headword": "葬礼",
+              "reading": "zànglǐ",
+              "meaningVn": "tang lễ",
+              "example": "葬礼定在周五举行。",
+              "exampleVn": "Tang lễ được ấn định tổ chức vào thứ Sáu."
+            },
+            {
+              "id": "zh-topic-fn-yiti",
+              "headword": "遗体",
+              "reading": "yítǐ",
+              "meaningVn": "thi thể",
+              "example": "家属向遗体告别。",
+              "exampleVn": "Người nhà từ biệt thi thể."
+            },
+            {
+              "id": "zh-topic-fn-shouling",
+              "headword": "守灵",
+              "reading": "shǒulíng",
+              "meaningVn": "canh linh cữu",
+              "example": "家人整晚守灵。",
+              "exampleVn": "Người nhà canh linh cữu suốt đêm."
+            },
+            {
+              "id": "zh-topic-fn-chubin",
+              "headword": "出殡",
+              "reading": "chūbìn",
+              "meaningVn": "đưa tang",
+              "example": "明天早上出殡。",
+              "exampleVn": "Sáng mai đưa tang."
+            }
+          ]
+        },
+        {
+          "id": "mourning-way",
+          "titleNative": "悼念方式",
+          "titleVn": "Cách tưởng niệm",
+          "words": [
+            {
+              "id": "zh-topic-fn-daonian",
+              "headword": "悼念",
+              "reading": "dàoniàn",
+              "meaningVn": "tưởng niệm",
+              "example": "大家前来悼念逝者。",
+              "exampleVn": "Mọi người đến tưởng niệm người đã khuất."
+            },
+            {
+              "id": "zh-topic-fn-huaquan",
+              "headword": "花圈",
+              "reading": "huāquān",
+              "meaningVn": "vòng hoa viếng",
+              "example": "灵堂前摆满了花圈。",
+              "exampleVn": "Trước linh đường bày đầy vòng hoa viếng."
+            },
+            {
+              "id": "zh-topic-fn-wanlian",
+              "headword": "挽联",
+              "reading": "wǎnlián",
+              "meaningVn": "câu đối viếng",
+              "example": "门口挂着一副挽联。",
+              "exampleVn": "Trước cửa treo một câu đối viếng."
+            },
+            {
+              "id": "zh-topic-fn-moai",
+              "headword": "默哀",
+              "reading": "mò'āi",
+              "meaningVn": "mặc niệm",
+              "example": "全场为逝者默哀一分钟。",
+              "exampleVn": "Cả hội trường mặc niệm một phút cho người đã khuất."
+            },
+            {
+              "id": "zh-topic-fn-zhuidaohui",
+              "headword": "追悼会",
+              "reading": "zhuīdàohuì",
+              "meaningVn": "lễ truy điệu",
+              "example": "追悼会在殡仪馆举行。",
+              "exampleVn": "Lễ truy điệu được tổ chức tại nhà tang lễ."
+            }
+          ]
+        },
+        {
+          "id": "burial-method",
+          "titleNative": "安葬方式",
+          "titleVn": "Hình thức an táng",
+          "words": [
+            {
+              "id": "zh-topic-fn-tuzang",
+              "headword": "土葬",
+              "reading": "tǔzàng",
+              "meaningVn": "địa táng, chôn cất",
+              "example": "在农村土葬还比较常见。",
+              "exampleVn": "Ở nông thôn địa táng vẫn khá phổ biến."
+            },
+            {
+              "id": "zh-topic-fn-huozang",
+              "headword": "火葬",
+              "reading": "huǒzàng",
+              "meaningVn": "hỏa táng",
+              "example": "现在城市里大多实行火葬。",
+              "exampleVn": "Hiện nay ở thành phố phần lớn thực hiện hỏa táng."
+            },
+            {
+              "id": "zh-topic-fn-gongmu",
+              "headword": "公墓",
+              "reading": "gōngmù",
+              "meaningVn": "nghĩa trang công cộng",
+              "example": "他被安葬在公墓里。",
+              "exampleVn": "Anh ấy được an táng tại nghĩa trang công cộng."
+            },
+            {
+              "id": "zh-topic-fn-guhui",
+              "headword": "骨灰",
+              "reading": "gǔhuī",
+              "meaningVn": "tro cốt",
+              "example": "骨灰被安放在骨灰盒里。",
+              "exampleVn": "Tro cốt được đặt trong hũ tro cốt."
+            },
+            {
+              "id": "zh-topic-fn-lingyuan",
+              "headword": "陵园",
+              "reading": "língyuán",
+              "meaningVn": "khu lăng mộ, nghĩa trang lớn",
+              "example": "这座陵园环境很好。",
+              "exampleVn": "Khu lăng mộ này môi trường rất tốt."
+            }
+          ]
+        },
+        {
+          "id": "mourning-etiquette",
+          "titleNative": "丧服礼节",
+          "titleVn": "Trang phục và lễ tiết tang lễ",
+          "words": [
+            {
+              "id": "zh-topic-fn-xiaofu",
+              "headword": "孝服",
+              "reading": "xiàofú",
+              "meaningVn": "tang phục",
+              "example": "子女要穿孝服参加葬礼。",
+              "exampleVn": "Con cái phải mặc tang phục tham dự tang lễ."
+            },
+            {
+              "id": "zh-topic-fn-daixiao",
+              "headword": "戴孝",
+              "reading": "dàixiào",
+              "meaningVn": "để tang",
+              "example": "他们戴孝三个月。",
+              "exampleVn": "Họ để tang ba tháng."
+            },
+            {
+              "id": "zh-topic-fn-jibai",
+              "headword": "祭拜",
+              "reading": "jìbài",
+              "meaningVn": "cúng bái",
+              "example": "每年清明节都去祭拜祖先。",
+              "exampleVn": "Mỗi năm vào Tiết Thanh Minh đều đi cúng bái tổ tiên."
+            },
+            {
+              "id": "zh-topic-fn-shouxiao",
+              "headword": "守孝",
+              "reading": "shǒuxiào",
+              "meaningVn": "thủ hiếu (để tang theo quy định)",
+              "example": "古代讲究守孝三年。",
+              "exampleVn": "Thời cổ đại coi trọng việc thủ hiếu ba năm."
+            },
+            {
+              "id": "zh-topic-fn-fugao",
+              "headword": "讣告",
+              "reading": "fùgào",
+              "meaningVn": "cáo phó",
+              "example": "报纸上刊登了讣告。",
+              "exampleVn": "Trên báo đã đăng cáo phó."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-topic-online-gaming-esports",
+      "language": "zh",
+      "titleNative": "网络游戏与电子竞技",
+      "titleVn": "Trò chơi trực tuyến và thể thao điện tử",
+      "branches": [
+        {
+          "id": "game-type",
+          "titleNative": "游戏类型",
+          "titleVn": "Thể loại game",
+          "words": [
+            {
+              "id": "zh-topic-og-wangluoyouxi",
+              "headword": "网络游戏",
+              "reading": "wǎngluò yóuxì",
+              "meaningVn": "game trực tuyến",
+              "example": "他每天都玩网络游戏。",
+              "exampleVn": "Mỗi ngày anh ấy đều chơi game trực tuyến."
+            },
+            {
+              "id": "zh-topic-og-shouyou",
+              "headword": "手游",
+              "reading": "shǒuyóu",
+              "meaningVn": "game di động",
+              "example": "这款手游最近很火。",
+              "exampleVn": "Tựa game di động này gần đây rất hot."
+            },
+            {
+              "id": "zh-topic-og-danjiyouxi",
+              "headword": "单机游戏",
+              "reading": "dānjī yóuxì",
+              "meaningVn": "game offline (đơn máy)",
+              "example": "他更喜欢玩单机游戏。",
+              "exampleVn": "Anh ấy thích chơi game offline hơn."
+            },
+            {
+              "id": "zh-topic-og-juesebanyan",
+              "headword": "角色扮演",
+              "reading": "juésè bànyǎn",
+              "meaningVn": "nhập vai (RPG)",
+              "example": "这是一款角色扮演游戏。",
+              "exampleVn": "Đây là một tựa game nhập vai."
+            },
+            {
+              "id": "zh-topic-og-jingjiyouxi",
+              "headword": "竞技游戏",
+              "reading": "jìngjì yóuxì",
+              "meaningVn": "game thi đấu",
+              "example": "竞技游戏很考验反应速度。",
+              "exampleVn": "Game thi đấu rất thử thách tốc độ phản xạ."
+            }
+          ]
+        },
+        {
+          "id": "game-behavior",
+          "titleNative": "游戏行为",
+          "titleVn": "Hành vi chơi game",
+          "words": [
+            {
+              "id": "zh-topic-og-tongguan",
+              "headword": "通关",
+              "reading": "tōngguān",
+              "meaningVn": "qua màn, vượt ải",
+              "example": "他终于通关了这个游戏。",
+              "exampleVn": "Cuối cùng anh ấy đã qua hết màn game này."
+            },
+            {
+              "id": "zh-topic-og-shengji",
+              "headword": "升级",
+              "reading": "shēngjí",
+              "meaningVn": "lên cấp",
+              "example": "打怪可以升级。",
+              "exampleVn": "Đánh quái có thể lên cấp."
+            },
+            {
+              "id": "zh-topic-og-chongzhi",
+              "headword": "充值",
+              "reading": "chōngzhí",
+              "meaningVn": "nạp tiền (vào game)",
+              "example": "他给游戏账号充值了。",
+              "exampleVn": "Anh ấy đã nạp tiền vào tài khoản game."
+            },
+            {
+              "id": "zh-topic-og-zudui",
+              "headword": "组队",
+              "reading": "zǔduì",
+              "meaningVn": "lập đội",
+              "example": "我们组队去打副本。",
+              "exampleVn": "Chúng ta lập đội đi đánh boss."
+            },
+            {
+              "id": "zh-topic-og-kaihei",
+              "headword": "开黑",
+              "reading": "kāihēi",
+              "meaningVn": "rủ nhau chơi game nhóm",
+              "example": "周末大家一起开黑。",
+              "exampleVn": "Cuối tuần mọi người cùng rủ nhau chơi game nhóm."
+            }
+          ]
+        },
+        {
+          "id": "esports-industry",
+          "titleNative": "电竞行业",
+          "titleVn": "Ngành thể thao điện tử",
+          "words": [
+            {
+              "id": "zh-topic-og-dianzijingji",
+              "headword": "电子竞技",
+              "reading": "diànzǐ jìngjì",
+              "meaningVn": "thể thao điện tử",
+              "example": "电子竞技已经成为一项正式的体育项目。",
+              "exampleVn": "Thể thao điện tử đã trở thành một môn thể thao chính thức."
+            },
+            {
+              "id": "zh-topic-og-zhiyexuanshou",
+              "headword": "职业选手",
+              "reading": "zhíyè xuǎnshǒu",
+              "meaningVn": "tuyển thủ chuyên nghiệp",
+              "example": "他是一名职业选手。",
+              "exampleVn": "Anh ấy là một tuyển thủ chuyên nghiệp."
+            },
+            {
+              "id": "zh-topic-og-zhandui",
+              "headword": "战队",
+              "reading": "zhànduì",
+              "meaningVn": "đội tuyển (game)",
+              "example": "这支战队实力很强。",
+              "exampleVn": "Đội tuyển này thực lực rất mạnh."
+            },
+            {
+              "id": "zh-topic-og-saishi",
+              "headword": "赛事",
+              "reading": "sàishì",
+              "meaningVn": "giải đấu",
+              "example": "今年的赛事非常精彩。",
+              "exampleVn": "Giải đấu năm nay rất hấp dẫn."
+            },
+            {
+              "id": "zh-topic-og-jieshuo",
+              "headword": "解说",
+              "reading": "jiěshuō",
+              "meaningVn": "bình luận viên",
+              "example": "解说的声音很有感染力。",
+              "exampleVn": "Giọng của bình luận viên rất lôi cuốn."
+            }
+          ]
+        },
+        {
+          "id": "game-culture",
+          "titleNative": "游戏文化",
+          "titleVn": "Văn hóa game",
+          "words": [
+            {
+              "id": "zh-topic-og-youxichengying",
+              "headword": "游戏成瘾",
+              "reading": "yóuxì chéngyǐn",
+              "meaningVn": "nghiện game",
+              "example": "家长很担心孩子游戏成瘾。",
+              "exampleVn": "Phụ huynh rất lo lắng con cái nghiện game."
+            },
+            {
+              "id": "zh-topic-og-kejin",
+              "headword": "氪金",
+              "reading": "kèjīn",
+              "meaningVn": "nạp tiền mạnh tay (tiếng lóng)",
+              "example": "他为了这款游戏氪金不少。",
+              "exampleVn": "Anh ấy đã nạp tiền mạnh tay không ít cho tựa game này."
+            },
+            {
+              "id": "zh-topic-og-waigua",
+              "headword": "外挂",
+              "reading": "wàiguà",
+              "meaningVn": "hack, cheat",
+              "example": "用外挂是不公平的行为。",
+              "exampleVn": "Dùng hack là hành vi không công bằng."
+            },
+            {
+              "id": "zh-topic-og-zhubo",
+              "headword": "主播",
+              "reading": "zhǔbō",
+              "meaningVn": "streamer",
+              "example": "这位游戏主播很有人气。",
+              "exampleVn": "Streamer game này rất được yêu thích."
+            },
+            {
+              "id": "zh-topic-og-fensi",
+              "headword": "粉丝",
+              "reading": "fěnsī",
+              "meaningVn": "fan hâm mộ",
+              "example": "这位主播有很多粉丝。",
+              "exampleVn": "Streamer này có rất nhiều fan hâm mộ."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-topic-retirement-aging",
+      "language": "zh",
+      "titleNative": "退休与养老",
+      "titleVn": "Nghỉ hưu và chuẩn bị cho tuổi già",
+      "branches": [
+        {
+          "id": "retirement-life",
+          "titleNative": "退休生活",
+          "titleVn": "Đời sống hưu trí",
+          "words": [
+            {
+              "id": "zh-topic-rt-tuixiu",
+              "headword": "退休",
+              "reading": "tuìxiū",
+              "meaningVn": "nghỉ hưu",
+              "example": "他明年就要退休了。",
+              "exampleVn": "Sang năm anh ấy sẽ nghỉ hưu."
+            },
+            {
+              "id": "zh-topic-rt-tuixiujin",
+              "headword": "退休金",
+              "reading": "tuìxiūjīn",
+              "meaningVn": "lương hưu",
+              "example": "他每个月领退休金。",
+              "exampleVn": "Mỗi tháng anh ấy nhận lương hưu."
+            },
+            {
+              "id": "zh-topic-rt-yanglao",
+              "headword": "养老",
+              "reading": "yǎnglǎo",
+              "meaningVn": "dưỡng lão",
+              "example": "子女应该考虑父母的养老问题。",
+              "exampleVn": "Con cái nên quan tâm đến vấn đề dưỡng lão của cha mẹ."
+            },
+            {
+              "id": "zh-topic-rt-laonianshenghuo",
+              "headword": "老年生活",
+              "reading": "lǎonián shēnghuó",
+              "meaningVn": "đời sống tuổi già",
+              "example": "他的老年生活很充实。",
+              "exampleVn": "Đời sống tuổi già của ông ấy rất sung túc."
+            },
+            {
+              "id": "zh-topic-rt-fanpin",
+              "headword": "返聘",
+              "reading": "fǎnpìn",
+              "meaningVn": "được mời làm lại (sau khi nghỉ hưu)",
+              "example": "公司返聘了这位退休专家。",
+              "exampleVn": "Công ty đã mời lại vị chuyên gia đã nghỉ hưu này."
+            }
+          ]
+        },
+        {
+          "id": "elderly-care-system",
+          "titleNative": "养老保障",
+          "titleVn": "Bảo đảm dưỡng lão",
+          "words": [
+            {
+              "id": "zh-topic-rt-yanglaoyuan",
+              "headword": "养老院",
+              "reading": "yǎnglǎoyuàn",
+              "meaningVn": "viện dưỡng lão",
+              "example": "她把母亲送到了养老院。",
+              "exampleVn": "Cô ấy đưa mẹ vào viện dưỡng lão."
+            },
+            {
+              "id": "zh-topic-rt-yanglaobaoxian",
+              "headword": "养老保险",
+              "reading": "yǎnglǎo bǎoxiǎn",
+              "meaningVn": "bảo hiểm hưu trí",
+              "example": "公司为员工购买养老保险。",
+              "exampleVn": "Công ty mua bảo hiểm hưu trí cho nhân viên."
+            },
+            {
+              "id": "zh-topic-rt-yibao",
+              "headword": "医保",
+              "reading": "yībǎo",
+              "meaningVn": "bảo hiểm y tế",
+              "example": "看病可以用医保报销。",
+              "exampleVn": "Khám bệnh có thể dùng bảo hiểm y tế thanh toán."
+            },
+            {
+              "id": "zh-topic-rt-shanyangfei",
+              "headword": "赡养费",
+              "reading": "shànyǎngfèi",
+              "meaningVn": "phí phụng dưỡng",
+              "example": "他每月给父母赡养费。",
+              "exampleVn": "Mỗi tháng anh ấy đưa phí phụng dưỡng cho cha mẹ."
+            },
+            {
+              "id": "zh-topic-rt-yizhu",
+              "headword": "遗嘱",
+              "reading": "yízhǔ",
+              "meaningVn": "di chúc",
+              "example": "老人立了一份遗嘱。",
+              "exampleVn": "Cụ già đã lập một bản di chúc."
+            }
+          ]
+        },
+        {
+          "id": "elderly-lifestyle",
+          "titleNative": "老年生活方式",
+          "titleVn": "Lối sống người già",
+          "words": [
+            {
+              "id": "zh-topic-rt-guangchangwu",
+              "headword": "广场舞",
+              "reading": "guǎngchǎngwǔ",
+              "meaningVn": "khiêu vũ quảng trường",
+              "example": "阿姨们每晚都跳广场舞。",
+              "exampleVn": "Các cô mỗi tối đều nhảy khiêu vũ quảng trường."
+            },
+            {
+              "id": "zh-topic-rt-datajiquan",
+              "headword": "打太极",
+              "reading": "dǎ tàijí",
+              "meaningVn": "tập thái cực quyền",
+              "example": "爷爷每天早上打太极。",
+              "exampleVn": "Mỗi sáng ông nội tập thái cực quyền."
+            },
+            {
+              "id": "zh-topic-rt-liuwan",
+              "headword": "遛弯",
+              "reading": "liùwān",
+              "meaningVn": "đi dạo, tản bộ",
+              "example": "晚饭后老人喜欢出去遛弯。",
+              "exampleVn": "Sau bữa tối người già thích ra ngoài đi dạo."
+            },
+            {
+              "id": "zh-topic-rt-hanyinongsun",
+              "headword": "含饴弄孙",
+              "reading": "hányí nòngsūn",
+              "meaningVn": "vui vầy bên cháu con",
+              "example": "他退休后含饴弄孙，很幸福。",
+              "exampleVn": "Sau khi nghỉ hưu ông vui vầy bên cháu con, rất hạnh phúc."
+            },
+            {
+              "id": "zh-topic-rt-laonianxueyuan",
+              "headword": "老年大学",
+              "reading": "lǎonián dàxué",
+              "meaningVn": "đại học cho người cao tuổi",
+              "example": "奶奶在老年大学学画画。",
+              "exampleVn": "Bà nội học vẽ tranh ở đại học dành cho người cao tuổi."
+            }
+          ]
+        },
+        {
+          "id": "intergenerational-relation",
+          "titleNative": "代际关系",
+          "titleVn": "Quan hệ giữa các thế hệ",
+          "words": [
+            {
+              "id": "zh-topic-rt-yanglaoguannian",
+              "headword": "养老观念",
+              "reading": "yǎnglǎo guānniàn",
+              "meaningVn": "quan niệm dưỡng lão",
+              "example": "现代人的养老观念正在改变。",
+              "exampleVn": "Quan niệm dưỡng lão của người hiện đại đang thay đổi."
+            },
+            {
+              "id": "zh-topic-rt-duju",
+              "headword": "独居",
+              "reading": "dújū",
+              "meaningVn": "sống một mình",
+              "example": "很多老人选择独居。",
+              "exampleVn": "Nhiều người già chọn sống một mình."
+            },
+            {
+              "id": "zh-topic-rt-gedaijiaoyu",
+              "headword": "隔代教育",
+              "reading": "gédài jiàoyù",
+              "meaningVn": "giáo dục cách thế hệ (ông bà nuôi cháu)",
+              "example": "隔代教育有利也有弊。",
+              "exampleVn": "Giáo dục cách thế hệ có cả lợi và hại."
+            },
+            {
+              "id": "zh-topic-rt-jinxiao",
+              "headword": "尽孝",
+              "reading": "jìnxiào",
+              "meaningVn": "làm tròn chữ hiếu",
+              "example": "他一直努力尽孝。",
+              "exampleVn": "Anh ấy luôn nỗ lực làm tròn chữ hiếu."
+            },
+            {
+              "id": "zh-topic-rt-yangerfanglao",
+              "headword": "养儿防老",
+              "reading": "yǎng'ér fánglǎo",
+              "meaningVn": "nuôi con phòng khi về già",
+              "example": "养儿防老是传统观念。",
+              "exampleVn": "Nuôi con phòng khi về già là quan niệm truyền thống."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-topic-startup-entrepreneurship",
+      "language": "zh",
+      "titleNative": "创业与初创企业",
+      "titleVn": "Khởi nghiệp và startup",
+      "branches": [
+        {
+          "id": "startup-preparation",
+          "titleNative": "创业准备",
+          "titleVn": "Chuẩn bị khởi nghiệp",
+          "words": [
+            {
+              "id": "zh-topic-st-chuangye",
+              "headword": "创业",
+              "reading": "chuàngyè",
+              "meaningVn": "khởi nghiệp",
+              "example": "他毕业后就开始创业。",
+              "exampleVn": "Sau khi tốt nghiệp anh ấy bắt đầu khởi nghiệp."
+            },
+            {
+              "id": "zh-topic-st-shangyejihuashu",
+              "headword": "商业计划书",
+              "reading": "shāngyè jìhuàshū",
+              "meaningVn": "kế hoạch kinh doanh",
+              "example": "他写了一份详细的商业计划书。",
+              "exampleVn": "Anh ấy đã viết một bản kế hoạch kinh doanh chi tiết."
+            },
+            {
+              "id": "zh-topic-st-tuandui",
+              "headword": "团队",
+              "reading": "tuánduì",
+              "meaningVn": "đội ngũ",
+              "example": "他组建了一个创业团队。",
+              "exampleVn": "Anh ấy đã thành lập một đội ngũ khởi nghiệp."
+            },
+            {
+              "id": "zh-topic-st-qidongzijin",
+              "headword": "启动资金",
+              "reading": "qǐdòng zījīn",
+              "meaningVn": "vốn khởi động",
+              "example": "他们还缺少启动资金。",
+              "exampleVn": "Họ vẫn còn thiếu vốn khởi động."
+            },
+            {
+              "id": "zh-topic-st-shichangdiaoyan",
+              "headword": "市场调研",
+              "reading": "shìchǎng diàoyán",
+              "meaningVn": "nghiên cứu thị trường",
+              "example": "创业前要做好市场调研。",
+              "exampleVn": "Trước khi khởi nghiệp phải làm tốt nghiên cứu thị trường."
+            }
+          ]
+        },
+        {
+          "id": "funding-stage",
+          "titleNative": "融资阶段",
+          "titleVn": "Giai đoạn gọi vốn",
+          "words": [
+            {
+              "id": "zh-topic-st-rongzi",
+              "headword": "融资",
+              "reading": "róngzī",
+              "meaningVn": "gọi vốn",
+              "example": "公司正在进行新一轮融资。",
+              "exampleVn": "Công ty đang tiến hành gọi vốn vòng mới."
+            },
+            {
+              "id": "zh-topic-st-tianshitouzi",
+              "headword": "天使投资",
+              "reading": "tiānshǐ tóuzī",
+              "meaningVn": "đầu tư thiên thần",
+              "example": "他们获得了一笔天使投资。",
+              "exampleVn": "Họ đã nhận được một khoản đầu tư thiên thần."
+            },
+            {
+              "id": "zh-topic-st-fengxiantouzi",
+              "headword": "风险投资",
+              "reading": "fēngxiǎn tóuzī",
+              "meaningVn": "đầu tư mạo hiểm",
+              "example": "这家初创公司拿到了风险投资。",
+              "exampleVn": "Công ty khởi nghiệp này đã nhận được đầu tư mạo hiểm."
+            },
+            {
+              "id": "zh-topic-st-guzhi",
+              "headword": "估值",
+              "reading": "gūzhí",
+              "meaningVn": "định giá",
+              "example": "这家公司估值上亿。",
+              "exampleVn": "Công ty này được định giá hàng trăm triệu."
+            },
+            {
+              "id": "zh-topic-st-guquan",
+              "headword": "股权",
+              "reading": "gǔquán",
+              "meaningVn": "cổ phần",
+              "example": "创始人保留了大部分股权。",
+              "exampleVn": "Người sáng lập giữ lại phần lớn cổ phần."
+            }
+          ]
+        },
+        {
+          "id": "startup-challenge",
+          "titleNative": "创业挑战",
+          "titleVn": "Thách thức khởi nghiệp",
+          "words": [
+            {
+              "id": "zh-topic-st-pochan",
+              "headword": "破产",
+              "reading": "pòchǎn",
+              "meaningVn": "phá sản",
+              "example": "很多初创公司最终破产了。",
+              "exampleVn": "Nhiều công ty khởi nghiệp cuối cùng đã phá sản."
+            },
+            {
+              "id": "zh-topic-st-zijinlianduanlie",
+              "headword": "资金链断裂",
+              "reading": "zījīnliàn duànliè",
+              "meaningVn": "đứt gãy chuỗi vốn",
+              "example": "公司因为资金链断裂而倒闭。",
+              "exampleVn": "Công ty vì đứt gãy chuỗi vốn mà phải đóng cửa."
+            },
+            {
+              "id": "zh-topic-st-jingzhengduishou",
+              "headword": "竞争对手",
+              "reading": "jìngzhēng duìshǒu",
+              "meaningVn": "đối thủ cạnh tranh",
+              "example": "他们的竞争对手很强大。",
+              "exampleVn": "Đối thủ cạnh tranh của họ rất mạnh."
+            },
+            {
+              "id": "zh-topic-st-zhuanxing",
+              "headword": "转型",
+              "reading": "zhuǎnxíng",
+              "meaningVn": "chuyển đổi mô hình",
+              "example": "公司决定转型做电商。",
+              "exampleVn": "Công ty quyết định chuyển đổi mô hình sang thương mại điện tử."
+            },
+            {
+              "id": "zh-topic-st-daobi",
+              "headword": "倒闭",
+              "reading": "dǎobì",
+              "meaningVn": "đóng cửa, phá sản",
+              "example": "这家餐厅上个月倒闭了。",
+              "exampleVn": "Nhà hàng này đã đóng cửa vào tháng trước."
+            }
+          ]
+        },
+        {
+          "id": "startup-success",
+          "titleNative": "创业成功",
+          "titleVn": "Thành công khởi nghiệp",
+          "words": [
+            {
+              "id": "zh-topic-st-shangshi",
+              "headword": "上市",
+              "reading": "shàngshì",
+              "meaningVn": "lên sàn (IPO)",
+              "example": "这家公司明年计划上市。",
+              "exampleVn": "Công ty này dự kiến lên sàn vào sang năm."
+            },
+            {
+              "id": "zh-topic-st-dujiaoshou",
+              "headword": "独角兽",
+              "reading": "dújiǎoshòu",
+              "meaningVn": "kỳ lân (startup tỷ đô)",
+              "example": "这是一家估值超十亿的独角兽公司。",
+              "exampleVn": "Đây là một công ty kỳ lân được định giá hơn 10 tỷ."
+            },
+            {
+              "id": "zh-topic-st-yingli",
+              "headword": "盈利",
+              "reading": "yínglì",
+              "meaningVn": "có lãi",
+              "example": "公司终于开始盈利了。",
+              "exampleVn": "Cuối cùng công ty đã bắt đầu có lãi."
+            },
+            {
+              "id": "zh-topic-st-pinpaijiazhi",
+              "headword": "品牌价值",
+              "reading": "pǐnpái jiàzhí",
+              "meaningVn": "giá trị thương hiệu",
+              "example": "这个品牌价值很高。",
+              "exampleVn": "Thương hiệu này có giá trị rất cao."
+            },
+            {
+              "id": "zh-topic-st-kuozhang",
+              "headword": "扩张",
+              "reading": "kuòzhāng",
+              "meaningVn": "mở rộng (kinh doanh)",
+              "example": "公司正在向海外扩张。",
+              "exampleVn": "Công ty đang mở rộng ra nước ngoài."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-topic-coffee-culture",
+      "language": "zh",
+      "titleNative": "咖啡与咖啡文化",
+      "titleVn": "Cà phê và văn hoá quán cà phê",
+      "branches": [
+        {
+          "id": "coffee-type",
+          "titleNative": "咖啡种类",
+          "titleVn": "Các loại cà phê",
+          "words": [
+            {
+              "id": "zh-topic-cf-kafei",
+              "headword": "咖啡",
+              "reading": "kāfēi",
+              "meaningVn": "cà phê",
+              "example": "我每天早上都喝一杯咖啡。",
+              "exampleVn": "Mỗi sáng tôi đều uống một ly cà phê."
+            },
+            {
+              "id": "zh-topic-cf-natie",
+              "headword": "拿铁",
+              "reading": "nátiě",
+              "meaningVn": "latte",
+              "example": "她点了一杯拿铁。",
+              "exampleVn": "Cô ấy gọi một ly latte."
+            },
+            {
+              "id": "zh-topic-cf-kabuqinuo",
+              "headword": "卡布奇诺",
+              "reading": "kǎbùqínuò",
+              "meaningVn": "cappuccino",
+              "example": "我更喜欢卡布奇诺。",
+              "exampleVn": "Tôi thích cappuccino hơn."
+            },
+            {
+              "id": "zh-topic-cf-meishikafei",
+              "headword": "美式咖啡",
+              "reading": "měishì kāfēi",
+              "meaningVn": "cà phê Mỹ (americano)",
+              "example": "他只喝美式咖啡。",
+              "exampleVn": "Anh ấy chỉ uống cà phê kiểu Mỹ."
+            },
+            {
+              "id": "zh-topic-cf-shouchongkafei",
+              "headword": "手冲咖啡",
+              "reading": "shǒuchōng kāfēi",
+              "meaningVn": "cà phê pha tay (pour-over)",
+              "example": "这家店专做手冲咖啡。",
+              "exampleVn": "Quán này chuyên làm cà phê pha tay."
+            }
+          ]
+        },
+        {
+          "id": "cafe-scene",
+          "titleNative": "咖啡馆场景",
+          "titleVn": "Không gian quán cà phê",
+          "words": [
+            {
+              "id": "zh-topic-cf-kafeiguan",
+              "headword": "咖啡馆",
+              "reading": "kāfēiguǎn",
+              "meaningVn": "quán cà phê",
+              "example": "这家咖啡馆的环境很安静。",
+              "exampleVn": "Không gian quán cà phê này rất yên tĩnh."
+            },
+            {
+              "id": "zh-topic-cf-kafeishi",
+              "headword": "咖啡师",
+              "reading": "kāfēishī",
+              "meaningVn": "barista",
+              "example": "这位咖啡师手艺很好。",
+              "exampleVn": "Anh barista này tay nghề rất giỏi."
+            },
+            {
+              "id": "zh-topic-cf-daka",
+              "headword": "打卡",
+              "reading": "dǎkǎ",
+              "meaningVn": "check-in, chụp ảnh sống ảo",
+              "example": "很多人来这家店打卡拍照。",
+              "exampleVn": "Nhiều người đến quán này check-in chụp ảnh."
+            },
+            {
+              "id": "zh-topic-cf-zixi",
+              "headword": "自习",
+              "reading": "zìxí",
+              "meaningVn": "tự học (ở quán)",
+              "example": "她喜欢在咖啡馆自习。",
+              "exampleVn": "Cô ấy thích tự học ở quán cà phê."
+            },
+            {
+              "id": "zh-topic-cf-xubei",
+              "headword": "续杯",
+              "reading": "xùbēi",
+              "meaningVn": "gọi thêm ly (refill)",
+              "example": "这家店可以免费续杯。",
+              "exampleVn": "Quán này có thể gọi thêm ly miễn phí."
+            }
+          ]
+        },
+        {
+          "id": "coffee-making",
+          "titleNative": "咖啡制作",
+          "titleVn": "Pha chế cà phê",
+          "words": [
+            {
+              "id": "zh-topic-cf-yanmo",
+              "headword": "研磨",
+              "reading": "yánmó",
+              "meaningVn": "xay (cà phê)",
+              "example": "咖啡豆要现场研磨才新鲜。",
+              "exampleVn": "Hạt cà phê phải xay tại chỗ mới tươi."
+            },
+            {
+              "id": "zh-topic-cf-cuiqu",
+              "headword": "萃取",
+              "reading": "cuìqǔ",
+              "meaningVn": "chiết xuất",
+              "example": "这台机器可以精准控制萃取时间。",
+              "exampleVn": "Máy này có thể kiểm soát chính xác thời gian chiết xuất."
+            },
+            {
+              "id": "zh-topic-cf-lahua",
+              "headword": "拉花",
+              "reading": "lāhuā",
+              "meaningVn": "vẽ hình bọt sữa (latte art)",
+              "example": "这位咖啡师很擅长拉花。",
+              "exampleVn": "Barista này rất giỏi vẽ hình bọt sữa."
+            },
+            {
+              "id": "zh-topic-cf-kafeidou",
+              "headword": "咖啡豆",
+              "reading": "kāfēidòu",
+              "meaningVn": "hạt cà phê",
+              "example": "这种咖啡豆产自云南。",
+              "exampleVn": "Loại hạt cà phê này sản xuất từ Vân Nam."
+            },
+            {
+              "id": "zh-topic-cf-hongbei",
+              "headword": "烘焙",
+              "reading": "hōngbèi",
+              "meaningVn": "rang (cà phê)",
+              "example": "烘焙程度影响咖啡的口感。",
+              "exampleVn": "Mức độ rang ảnh hưởng đến hương vị cà phê."
+            }
+          ]
+        },
+        {
+          "id": "coffee-life",
+          "titleNative": "咖啡与生活",
+          "titleVn": "Cà phê và đời sống",
+          "words": [
+            {
+              "id": "zh-topic-cf-xuming",
+              "headword": "续命",
+              "reading": "xùmìng",
+              "meaningVn": "cứu mạng (cách nói vui về cà phê giúp tỉnh táo)",
+              "example": "早上不喝咖啡就没法续命。",
+              "exampleVn": "Buổi sáng không uống cà phê thì không thể tỉnh táo nổi."
+            },
+            {
+              "id": "zh-topic-cf-kafeiyin",
+              "headword": "咖啡因",
+              "reading": "kāfēiyīn",
+              "meaningVn": "caffeine",
+              "example": "咖啡因可以提神。",
+              "exampleVn": "Caffeine có thể giúp tỉnh táo."
+            },
+            {
+              "id": "zh-topic-cf-tishen",
+              "headword": "提神",
+              "reading": "tíshén",
+              "meaningVn": "tỉnh táo, tăng cường tinh thần",
+              "example": "喝咖啡可以提神。",
+              "exampleVn": "Uống cà phê có thể giúp tỉnh táo."
+            },
+            {
+              "id": "zh-topic-cf-kafeiyin2",
+              "headword": "咖啡瘾",
+              "reading": "kāfēiyǐn",
+              "meaningVn": "nghiện cà phê",
+              "example": "他有点咖啡瘾。",
+              "exampleVn": "Anh ấy hơi nghiện cà phê."
+            },
+            {
+              "id": "zh-topic-cf-xiawucha",
+              "headword": "下午茶",
+              "reading": "xiàwǔchá",
+              "meaningVn": "trà chiều",
+              "example": "我们下午一起喝下午茶吧。",
+              "exampleVn": "Chiều nay chúng ta cùng nhau uống trà chiều đi."
+            }
+          ]
+        }
+      ]
     }
   ]
 }
