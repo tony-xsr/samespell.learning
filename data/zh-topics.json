@@ -12221,6 +12221,1182 @@
           ]
         }
       ]
+    },
+    {
+      "id": "zh-topic-friendship-relations",
+      "language": "zh",
+      "titleNative": "友谊与人际关系",
+      "titleVn": "Tình bạn và mối quan hệ con người",
+      "branches": [
+        {
+          "id": "friend-type",
+          "titleNative": "朋友类型",
+          "titleVn": "Loại bạn bè",
+          "words": [
+            {
+              "id": "zh-topic-fr-pengyou",
+              "headword": "朋友",
+              "reading": "péngyou",
+              "meaningVn": "bạn bè",
+              "example": "他是我最好的朋友。",
+              "exampleVn": "Anh ấy là bạn thân nhất của tôi."
+            },
+            {
+              "id": "zh-topic-fr-zhiji",
+              "headword": "知己",
+              "reading": "zhījǐ",
+              "meaningVn": "tri kỷ, bạn tâm giao",
+              "example": "人生难得一个知己。",
+              "exampleVn": "Đời người khó có được một tri kỷ."
+            },
+            {
+              "id": "zh-topic-fr-sidang",
+              "headword": "死党",
+              "reading": "sǐdǎng",
+              "meaningVn": "bạn thân chí cốt",
+              "example": "我们是从小一起长大的死党。",
+              "exampleVn": "Chúng tôi là bạn chí cốt lớn lên cùng nhau từ nhỏ."
+            },
+            {
+              "id": "zh-topic-fr-wangyou",
+              "headword": "网友",
+              "reading": "wǎngyǒu",
+              "meaningVn": "bạn quen qua mạng",
+              "example": "她是我的一个网友。",
+              "exampleVn": "Cô ấy là một người bạn quen qua mạng của tôi."
+            },
+            {
+              "id": "zh-topic-fr-sunyou",
+              "headword": "损友",
+              "reading": "sǔnyǒu",
+              "meaningVn": "bạn xấu, bạn có hại",
+              "example": "交到损友会带坏一个人。",
+              "exampleVn": "Kết giao với bạn xấu có thể làm hư một người."
+            }
+          ]
+        },
+        {
+          "id": "build-relation",
+          "titleNative": "建立关系",
+          "titleVn": "Xây dựng mối quan hệ",
+          "words": [
+            {
+              "id": "zh-topic-fr-renshi",
+              "headword": "认识",
+              "reading": "rènshi",
+              "meaningVn": "quen biết",
+              "example": "我们是在大学认识的。",
+              "exampleVn": "Chúng tôi quen nhau khi học đại học."
+            },
+            {
+              "id": "zh-topic-fr-shuxi",
+              "headword": "熟悉",
+              "reading": "shúxī",
+              "meaningVn": "thân thuộc",
+              "example": "我对这个城市很熟悉。",
+              "exampleVn": "Tôi rất thân thuộc với thành phố này."
+            },
+            {
+              "id": "zh-topic-fr-xinren",
+              "headword": "信任",
+              "reading": "xìnrèn",
+              "meaningVn": "tin tưởng",
+              "example": "朋友之间要互相信任。",
+              "exampleVn": "Bạn bè với nhau phải tin tưởng lẫn nhau."
+            },
+            {
+              "id": "zh-topic-fr-lajinguanxi",
+              "headword": "拉近关系",
+              "reading": "lājìn guānxi",
+              "meaningVn": "kéo gần khoảng cách quan hệ",
+              "example": "一起吃饭可以拉近关系。",
+              "exampleVn": "Cùng nhau ăn cơm có thể kéo gần khoảng cách quan hệ."
+            },
+            {
+              "id": "zh-topic-fr-shejiao",
+              "headword": "社交",
+              "reading": "shèjiāo",
+              "meaningVn": "giao lưu xã hội",
+              "example": "他很擅长社交。",
+              "exampleVn": "Anh ấy rất giỏi giao lưu xã hội."
+            }
+          ]
+        },
+        {
+          "id": "relation-breakdown",
+          "titleNative": "关系破裂",
+          "titleVn": "Rạn nứt quan hệ",
+          "words": [
+            {
+              "id": "zh-topic-fr-juejiao",
+              "headword": "绝交",
+              "reading": "juéjiāo",
+              "meaningVn": "tuyệt giao",
+              "example": "他们已经绝交了。",
+              "exampleVn": "Họ đã tuyệt giao với nhau."
+            },
+            {
+              "id": "zh-topic-fr-beipan",
+              "headword": "背叛",
+              "reading": "bèipàn",
+              "meaningVn": "phản bội",
+              "example": "她觉得被朋友背叛了。",
+              "exampleVn": "Cô ấy cảm thấy bị bạn bè phản bội."
+            },
+            {
+              "id": "zh-topic-fr-shuyuan",
+              "headword": "疏远",
+              "reading": "shūyuǎn",
+              "meaningVn": "xa cách",
+              "example": "毕业后我们渐渐疏远了。",
+              "exampleVn": "Sau khi tốt nghiệp chúng tôi dần dần xa cách."
+            },
+            {
+              "id": "zh-topic-fr-wujie",
+              "headword": "误解",
+              "reading": "wùjiě",
+              "meaningVn": "hiểu lầm",
+              "example": "这是一个很大的误解。",
+              "exampleVn": "Đây là một sự hiểu lầm rất lớn."
+            },
+            {
+              "id": "zh-topic-fr-hehao",
+              "headword": "和好",
+              "reading": "héhǎo",
+              "meaningVn": "làm hòa",
+              "example": "他们吵架后又和好了。",
+              "exampleVn": "Sau khi cãi nhau họ đã làm hòa."
+            }
+          ]
+        },
+        {
+          "id": "social-interaction",
+          "titleNative": "社会互动",
+          "titleVn": "Tương tác xã hội",
+          "words": [
+            {
+              "id": "zh-topic-fr-renmai",
+              "headword": "人脉",
+              "reading": "rénmài",
+              "meaningVn": "quan hệ xã hội, mạng lưới quan hệ",
+              "example": "他的人脉很广。",
+              "exampleVn": "Mạng lưới quan hệ của anh ấy rất rộng."
+            },
+            {
+              "id": "zh-topic-fr-mianzi",
+              "headword": "面子",
+              "reading": "miànzi",
+              "meaningVn": "thể diện",
+              "example": "他很爱面子。",
+              "exampleVn": "Anh ấy rất coi trọng thể diện."
+            },
+            {
+              "id": "zh-topic-fr-renqing",
+              "headword": "人情",
+              "reading": "rénqíng",
+              "meaningVn": "tình người, ơn nghĩa",
+              "example": "这是一份人情。",
+              "exampleVn": "Đây là một ơn nghĩa tình người."
+            },
+            {
+              "id": "zh-topic-fr-lishangwanglai",
+              "headword": "礼尚往来",
+              "reading": "lǐshàng wǎnglái",
+              "meaningVn": "có đi có lại",
+              "example": "礼尚往来是中国传统。",
+              "exampleVn": "Có đi có lại là truyền thống của Trung Quốc."
+            },
+            {
+              "id": "zh-topic-fr-quanzi",
+              "headword": "圈子",
+              "reading": "quānzi",
+              "meaningVn": "vòng tròn quan hệ, hội nhóm",
+              "example": "他们是同一个圈子的人。",
+              "exampleVn": "Họ là những người trong cùng một vòng tròn quan hệ."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-topic-economy-consumer",
+      "language": "zh",
+      "titleNative": "经济与消费生活",
+      "titleVn": "Kinh tế và đời sống tiêu dùng",
+      "branches": [
+        {
+          "id": "macro-economy",
+          "titleNative": "宏观经济",
+          "titleVn": "Kinh tế vĩ mô",
+          "words": [
+            {
+              "id": "zh-topic-ec-jingji",
+              "headword": "经济",
+              "reading": "jīngjì",
+              "meaningVn": "kinh tế",
+              "example": "这个国家的经济发展很快。",
+              "exampleVn": "Kinh tế của đất nước này phát triển rất nhanh."
+            },
+            {
+              "id": "zh-topic-ec-tonghuopengzhang",
+              "headword": "通货膨胀",
+              "reading": "tōnghuò péngzhàng",
+              "meaningVn": "lạm phát",
+              "example": "今年通货膨胀比较严重。",
+              "exampleVn": "Năm nay lạm phát khá nghiêm trọng."
+            },
+            {
+              "id": "zh-topic-ec-shiyelv",
+              "headword": "失业率",
+              "reading": "shīyèlǜ",
+              "meaningVn": "tỷ lệ thất nghiệp",
+              "example": "失业率有所上升。",
+              "exampleVn": "Tỷ lệ thất nghiệp đã tăng lên."
+            },
+            {
+              "id": "zh-topic-ec-jingjizengzhang",
+              "headword": "经济增长",
+              "reading": "jīngjì zēngzhǎng",
+              "meaningVn": "tăng trưởng kinh tế",
+              "example": "经济增长带来了新的机会。",
+              "exampleVn": "Tăng trưởng kinh tế mang lại cơ hội mới."
+            },
+            {
+              "id": "zh-topic-ec-shichang",
+              "headword": "市场",
+              "reading": "shìchǎng",
+              "meaningVn": "thị trường",
+              "example": "这个市场竞争很激烈。",
+              "exampleVn": "Thị trường này cạnh tranh rất khốc liệt."
+            }
+          ]
+        },
+        {
+          "id": "consumption-concept",
+          "titleNative": "消费观念",
+          "titleVn": "Quan niệm tiêu dùng",
+          "words": [
+            {
+              "id": "zh-topic-ec-xiaofei",
+              "headword": "消费",
+              "reading": "xiāofèi",
+              "meaningVn": "tiêu dùng",
+              "example": "年轻人的消费观念在改变。",
+              "exampleVn": "Quan niệm tiêu dùng của người trẻ đang thay đổi."
+            },
+            {
+              "id": "zh-topic-ec-jieyue",
+              "headword": "节约",
+              "reading": "jiéyuē",
+              "meaningVn": "tiết kiệm",
+              "example": "我们应该节约用钱。",
+              "exampleVn": "Chúng ta nên tiết kiệm chi tiêu."
+            },
+            {
+              "id": "zh-topic-ec-shechi",
+              "headword": "奢侈",
+              "reading": "shēchǐ",
+              "meaningVn": "xa xỉ",
+              "example": "这种生活方式太奢侈了。",
+              "exampleVn": "Lối sống này quá xa xỉ."
+            },
+            {
+              "id": "zh-topic-ec-xingjiabi",
+              "headword": "性价比",
+              "reading": "xìngjiàbǐ",
+              "meaningVn": "tỷ lệ giá cả và chất lượng",
+              "example": "这个产品的性价比很高。",
+              "exampleVn": "Sản phẩm này có tỷ lệ giá cả chất lượng rất tốt."
+            },
+            {
+              "id": "zh-topic-ec-panbi",
+              "headword": "攀比",
+              "reading": "pānbǐ",
+              "meaningVn": "so sánh đua đòi",
+              "example": "不要跟别人攀比。",
+              "exampleVn": "Đừng so sánh đua đòi với người khác."
+            }
+          ]
+        },
+        {
+          "id": "price-living-cost",
+          "titleNative": "物价与生活成本",
+          "titleVn": "Giá cả và chi phí sinh hoạt",
+          "words": [
+            {
+              "id": "zh-topic-ec-wujia",
+              "headword": "物价",
+              "reading": "wùjià",
+              "meaningVn": "vật giá",
+              "example": "最近物价上涨了不少。",
+              "exampleVn": "Gần đây vật giá đã tăng lên không ít."
+            },
+            {
+              "id": "zh-topic-ec-fangjia",
+              "headword": "房价",
+              "reading": "fángjià",
+              "meaningVn": "giá nhà",
+              "example": "这个城市的房价很高。",
+              "exampleVn": "Giá nhà ở thành phố này rất cao."
+            },
+            {
+              "id": "zh-topic-ec-shenghuochengben",
+              "headword": "生活成本",
+              "reading": "shēnghuó chéngběn",
+              "meaningVn": "chi phí sinh hoạt",
+              "example": "大城市的生活成本比较高。",
+              "exampleVn": "Chi phí sinh hoạt ở thành phố lớn khá cao."
+            },
+            {
+              "id": "zh-topic-ec-zhangjia",
+              "headword": "涨价",
+              "reading": "zhǎngjià",
+              "meaningVn": "tăng giá",
+              "example": "这种商品最近涨价了。",
+              "exampleVn": "Mặt hàng này gần đây đã tăng giá."
+            },
+            {
+              "id": "zh-topic-ec-youhui",
+              "headword": "优惠",
+              "reading": "yōuhuì",
+              "meaningVn": "ưu đãi",
+              "example": "这家店有很多优惠活动。",
+              "exampleVn": "Cửa hàng này có nhiều chương trình ưu đãi."
+            }
+          ]
+        },
+        {
+          "id": "income-class",
+          "titleNative": "收入与阶层",
+          "titleVn": "Thu nhập và tầng lớp",
+          "words": [
+            {
+              "id": "zh-topic-ec-shourux",
+              "headword": "收入",
+              "reading": "shōurù",
+              "meaningVn": "thu nhập",
+              "example": "他的收入很稳定。",
+              "exampleVn": "Thu nhập của anh ấy rất ổn định."
+            },
+            {
+              "id": "zh-topic-ec-zhongchanjieji",
+              "headword": "中产阶级",
+              "reading": "zhōngchǎn jiējí",
+              "meaningVn": "tầng lớp trung lưu",
+              "example": "他属于中产阶级。",
+              "exampleVn": "Anh ấy thuộc tầng lớp trung lưu."
+            },
+            {
+              "id": "zh-topic-ec-fuyu",
+              "headword": "富裕",
+              "reading": "fùyù",
+              "meaningVn": "giàu có",
+              "example": "他们家很富裕。",
+              "exampleVn": "Gia đình họ rất giàu có."
+            },
+            {
+              "id": "zh-topic-ec-pinkun",
+              "headword": "贫困",
+              "reading": "pínkùn",
+              "meaningVn": "nghèo khó",
+              "example": "这个地区比较贫困。",
+              "exampleVn": "Khu vực này khá nghèo khó."
+            },
+            {
+              "id": "zh-topic-ec-jieceng",
+              "headword": "阶层",
+              "reading": "jiēcéng",
+              "meaningVn": "tầng lớp",
+              "example": "社会阶层的差异很明显。",
+              "exampleVn": "Sự khác biệt tầng lớp xã hội rất rõ rệt."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-topic-cooking-cuisine",
+      "language": "zh",
+      "titleNative": "烹饪与料理",
+      "titleVn": "Nấu ăn và cách chế biến",
+      "branches": [
+        {
+          "id": "ingredient",
+          "titleNative": "食材",
+          "titleVn": "Nguyên liệu",
+          "words": [
+            {
+              "id": "zh-topic-ck-shicai",
+              "headword": "食材",
+              "reading": "shícái",
+              "meaningVn": "nguyên liệu nấu ăn",
+              "example": "这些食材都很新鲜。",
+              "exampleVn": "Những nguyên liệu này đều rất tươi."
+            },
+            {
+              "id": "zh-topic-ck-shucai",
+              "headword": "蔬菜",
+              "reading": "shūcài",
+              "meaningVn": "rau củ",
+              "example": "多吃蔬菜对身体好。",
+              "exampleVn": "Ăn nhiều rau củ tốt cho sức khỏe."
+            },
+            {
+              "id": "zh-topic-ck-roulei",
+              "headword": "肉类",
+              "reading": "ròulèi",
+              "meaningVn": "các loại thịt",
+              "example": "他不太喜欢吃肉类。",
+              "exampleVn": "Anh ấy không thích ăn thịt lắm."
+            },
+            {
+              "id": "zh-topic-ck-haixian",
+              "headword": "海鲜",
+              "reading": "hǎixiān",
+              "meaningVn": "hải sản",
+              "example": "这家餐厅的海鲜很新鲜。",
+              "exampleVn": "Hải sản của nhà hàng này rất tươi."
+            },
+            {
+              "id": "zh-topic-ck-tiaoliao",
+              "headword": "调料",
+              "reading": "tiáoliào",
+              "meaningVn": "gia vị",
+              "example": "做菜要放一些调料。",
+              "exampleVn": "Nấu ăn phải cho một ít gia vị."
+            }
+          ]
+        },
+        {
+          "id": "cooking-step",
+          "titleNative": "烹饪步骤",
+          "titleVn": "Các bước nấu ăn",
+          "words": [
+            {
+              "id": "zh-topic-ck-qie",
+              "headword": "切",
+              "reading": "qiē",
+              "meaningVn": "cắt, thái",
+              "example": "先把土豆切成块。",
+              "exampleVn": "Trước tiên cắt khoai tây thành từng miếng."
+            },
+            {
+              "id": "zh-topic-ck-yan",
+              "headword": "腌",
+              "reading": "yān",
+              "meaningVn": "ướp",
+              "example": "肉要先腌一会儿再炒。",
+              "exampleVn": "Thịt phải ướp một lúc rồi mới xào."
+            },
+            {
+              "id": "zh-topic-ck-jiaoban",
+              "headword": "搅拌",
+              "reading": "jiǎobàn",
+              "meaningVn": "trộn, khuấy",
+              "example": "把鸡蛋搅拌均匀。",
+              "exampleVn": "Khuấy đều trứng gà."
+            },
+            {
+              "id": "zh-topic-ck-baipan",
+              "headword": "摆盘",
+              "reading": "bǎipán",
+              "meaningVn": "bày món ra đĩa",
+              "example": "厨师很讲究摆盘。",
+              "exampleVn": "Đầu bếp rất chú trọng việc bày món ra đĩa."
+            },
+            {
+              "id": "zh-topic-ck-chuguo",
+              "headword": "出锅",
+              "reading": "chūguō",
+              "meaningVn": "nhấc ra khỏi chảo, hoàn thành món",
+              "example": "菜马上就要出锅了。",
+              "exampleVn": "Món ăn sắp được nhấc ra khỏi chảo rồi."
+            }
+          ]
+        },
+        {
+          "id": "cuisine-style",
+          "titleNative": "菜系风味",
+          "titleVn": "Trường phái ẩm thực",
+          "words": [
+            {
+              "id": "zh-topic-ck-chuancai",
+              "headword": "川菜",
+              "reading": "chuāncài",
+              "meaningVn": "món ăn Tứ Xuyên",
+              "example": "川菜以麻辣著称。",
+              "exampleVn": "Món ăn Tứ Xuyên nổi tiếng với vị tê cay."
+            },
+            {
+              "id": "zh-topic-ck-yuecai",
+              "headword": "粤菜",
+              "reading": "yuècài",
+              "meaningVn": "món ăn Quảng Đông",
+              "example": "粤菜口味比较清淡。",
+              "exampleVn": "Món ăn Quảng Đông khẩu vị khá thanh đạm."
+            },
+            {
+              "id": "zh-topic-ck-jiachangcai",
+              "headword": "家常菜",
+              "reading": "jiāchángcài",
+              "meaningVn": "món ăn gia đình",
+              "example": "妈妈做的家常菜最好吃。",
+              "exampleVn": "Món ăn gia đình mẹ nấu ngon nhất."
+            },
+            {
+              "id": "zh-topic-ck-tesecai",
+              "headword": "特色菜",
+              "reading": "tèsècài",
+              "meaningVn": "món đặc sản",
+              "example": "这家店有很多特色菜。",
+              "exampleVn": "Quán này có nhiều món đặc sản."
+            },
+            {
+              "id": "zh-topic-ck-sushi",
+              "headword": "素食",
+              "reading": "sùshí",
+              "meaningVn": "đồ chay",
+              "example": "她最近开始吃素食。",
+              "exampleVn": "Gần đây cô ấy bắt đầu ăn chay."
+            }
+          ]
+        },
+        {
+          "id": "kitchen-tool",
+          "titleNative": "厨房用具",
+          "titleVn": "Dụng cụ nhà bếp",
+          "words": [
+            {
+              "id": "zh-topic-ck-guo",
+              "headword": "锅",
+              "reading": "guō",
+              "meaningVn": "nồi, chảo",
+              "example": "这口锅很好用。",
+              "exampleVn": "Cái nồi này rất dễ dùng."
+            },
+            {
+              "id": "zh-topic-ck-caidao",
+              "headword": "菜刀",
+              "reading": "càidāo",
+              "meaningVn": "dao thái rau",
+              "example": "这把菜刀很锋利。",
+              "exampleVn": "Con dao thái rau này rất sắc."
+            },
+            {
+              "id": "zh-topic-ck-zhenban",
+              "headword": "砧板",
+              "reading": "zhēnbǎn",
+              "meaningVn": "thớt",
+              "example": "切菜前要洗干净砧板。",
+              "exampleVn": "Trước khi thái rau phải rửa sạch thớt."
+            },
+            {
+              "id": "zh-topic-ck-kaoxiang",
+              "headword": "烤箱",
+              "reading": "kǎoxiāng",
+              "meaningVn": "lò nướng",
+              "example": "她用烤箱做了一个蛋糕。",
+              "exampleVn": "Cô ấy dùng lò nướng làm một cái bánh."
+            },
+            {
+              "id": "zh-topic-ck-weibolu",
+              "headword": "微波炉",
+              "reading": "wēibōlú",
+              "meaningVn": "lò vi sóng",
+              "example": "用微波炉热一下饭菜。",
+              "exampleVn": "Dùng lò vi sóng hâm nóng cơm một chút."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-topic-disaster",
+      "language": "zh",
+      "titleNative": "灾害与灾难",
+      "titleVn": "Thiên tai và thảm hoạ",
+      "branches": [
+        {
+          "id": "natural-disaster",
+          "titleNative": "自然灾害",
+          "titleVn": "Thiên tai tự nhiên",
+          "words": [
+            {
+              "id": "zh-topic-ds-dizhen",
+              "headword": "地震",
+              "reading": "dìzhèn",
+              "meaningVn": "động đất",
+              "example": "昨晚发生了一次地震。",
+              "exampleVn": "Tối qua đã xảy ra một trận động đất."
+            },
+            {
+              "id": "zh-topic-ds-taifeng",
+              "headword": "台风",
+              "reading": "táifēng",
+              "meaningVn": "bão (typhoon)",
+              "example": "台风即将登陆。",
+              "exampleVn": "Bão sắp đổ bộ."
+            },
+            {
+              "id": "zh-topic-ds-hongshui",
+              "headword": "洪水",
+              "reading": "hóngshuǐ",
+              "meaningVn": "lũ lụt",
+              "example": "这个村子被洪水淹没了。",
+              "exampleVn": "Ngôi làng này đã bị lũ lụt nhấn chìm."
+            },
+            {
+              "id": "zh-topic-ds-ganhan",
+              "headword": "干旱",
+              "reading": "gānhàn",
+              "meaningVn": "hạn hán",
+              "example": "今年这个地区遭遇了严重干旱。",
+              "exampleVn": "Năm nay khu vực này gặp phải hạn hán nghiêm trọng."
+            },
+            {
+              "id": "zh-topic-ds-shantihuapo",
+              "headword": "山体滑坡",
+              "reading": "shāntǐ huápō",
+              "meaningVn": "lở đất, sạt lở núi",
+              "example": "暴雨引发了山体滑坡。",
+              "exampleVn": "Mưa lớn đã gây ra sạt lở núi."
+            }
+          ]
+        },
+        {
+          "id": "disaster-response",
+          "titleNative": "灾害应对",
+          "titleVn": "Ứng phó thiên tai",
+          "words": [
+            {
+              "id": "zh-topic-ds-yujing",
+              "headword": "预警",
+              "reading": "yùjǐng",
+              "meaningVn": "cảnh báo sớm",
+              "example": "气象局发布了台风预警。",
+              "exampleVn": "Cơ quan khí tượng đã phát cảnh báo bão."
+            },
+            {
+              "id": "zh-topic-ds-shusan",
+              "headword": "疏散",
+              "reading": "shūsàn",
+              "meaningVn": "sơ tán",
+              "example": "居民已经被疏散到安全地带。",
+              "exampleVn": "Cư dân đã được sơ tán đến khu vực an toàn."
+            },
+            {
+              "id": "zh-topic-ds-jiuyuan",
+              "headword": "救援",
+              "reading": "jiùyuán",
+              "meaningVn": "cứu trợ",
+              "example": "救援队正在现场救援。",
+              "exampleVn": "Đội cứu trợ đang cứu hộ tại hiện trường."
+            },
+            {
+              "id": "zh-topic-ds-binansuo",
+              "headword": "避难所",
+              "reading": "bìnànsuǒ",
+              "meaningVn": "nơi trú ẩn",
+              "example": "很多人躲进了避难所。",
+              "exampleVn": "Nhiều người đã trốn vào nơi trú ẩn."
+            },
+            {
+              "id": "zh-topic-ds-chongjian",
+              "headword": "重建",
+              "reading": "chóngjiàn",
+              "meaningVn": "tái thiết",
+              "example": "灾后重建需要很长时间。",
+              "exampleVn": "Tái thiết sau thiên tai cần rất nhiều thời gian."
+            }
+          ]
+        },
+        {
+          "id": "man-made-disaster",
+          "titleNative": "人为灾难",
+          "titleVn": "Thảm họa nhân tạo",
+          "words": [
+            {
+              "id": "zh-topic-ds-baozha",
+              "headword": "爆炸",
+              "reading": "bàozhà",
+              "meaningVn": "nổ",
+              "example": "工厂发生了爆炸。",
+              "exampleVn": "Nhà máy đã xảy ra vụ nổ."
+            },
+            {
+              "id": "zh-topic-ds-xielou",
+              "headword": "泄漏",
+              "reading": "xièlòu",
+              "meaningVn": "rò rỉ (hóa chất, dầu)",
+              "example": "油罐发生了泄漏。",
+              "exampleVn": "Bồn dầu đã bị rò rỉ."
+            },
+            {
+              "id": "zh-topic-ds-tanta",
+              "headword": "坍塌",
+              "reading": "tāntā",
+              "meaningVn": "sập, đổ sập",
+              "example": "这栋旧楼突然坍塌了。",
+              "exampleVn": "Tòa nhà cũ này bỗng nhiên sập đổ."
+            },
+            {
+              "id": "zh-topic-ds-yiqing",
+              "headword": "疫情",
+              "reading": "yìqíng",
+              "meaningVn": "dịch bệnh",
+              "example": "疫情对经济影响很大。",
+              "exampleVn": "Dịch bệnh ảnh hưởng lớn đến kinh tế."
+            },
+            {
+              "id": "zh-topic-ds-shigu",
+              "headword": "事故",
+              "reading": "shìgù",
+              "meaningVn": "sự cố, tai nạn",
+              "example": "这次事故造成了很大损失。",
+              "exampleVn": "Sự cố lần này đã gây ra thiệt hại rất lớn."
+            }
+          ]
+        },
+        {
+          "id": "relief-supplies",
+          "titleNative": "救灾物资",
+          "titleVn": "Vật tư cứu trợ",
+          "words": [
+            {
+              "id": "zh-topic-ds-juankuan",
+              "headword": "捐款",
+              "reading": "juānkuǎn",
+              "meaningVn": "quyên góp tiền",
+              "example": "大家纷纷为灾区捐款。",
+              "exampleVn": "Mọi người đua nhau quyên góp tiền cho vùng thiên tai."
+            },
+            {
+              "id": "zh-topic-ds-wuzi",
+              "headword": "物资",
+              "reading": "wùzī",
+              "meaningVn": "vật tư",
+              "example": "救灾物资已经送到了。",
+              "exampleVn": "Vật tư cứu trợ đã được chuyển đến."
+            },
+            {
+              "id": "zh-topic-ds-zhiyuanzhe",
+              "headword": "志愿者",
+              "reading": "zhìyuànzhě",
+              "meaningVn": "tình nguyện viên",
+              "example": "很多志愿者来帮忙。",
+              "exampleVn": "Nhiều tình nguyện viên đến giúp đỡ."
+            },
+            {
+              "id": "zh-topic-ds-zhangpeng",
+              "headword": "帐篷",
+              "reading": "zhàngpéng",
+              "meaningVn": "lều trại",
+              "example": "灾民暂时住在帐篷里。",
+              "exampleVn": "Người dân vùng thiên tai tạm thời ở trong lều trại."
+            },
+            {
+              "id": "zh-topic-ds-yingjibao",
+              "headword": "应急包",
+              "reading": "yìngjíbāo",
+              "meaningVn": "túi cứu hộ khẩn cấp",
+              "example": "家里应该准备一个应急包。",
+              "exampleVn": "Trong nhà nên chuẩn bị một túi cứu hộ khẩn cấp."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-topic-military-service",
+      "language": "zh",
+      "titleNative": "军队与兵役",
+      "titleVn": "Quân đội và nghĩa vụ quân sự",
+      "branches": [
+        {
+          "id": "military-organization",
+          "titleNative": "军队编制",
+          "titleVn": "Biên chế quân đội",
+          "words": [
+            {
+              "id": "zh-topic-ml-miljunui",
+              "headword": "军队",
+              "reading": "jūnduì",
+              "meaningVn": "quân đội",
+              "example": "他在军队服役了三年。",
+              "exampleVn": "Anh ấy phục vụ trong quân đội ba năm."
+            },
+            {
+              "id": "zh-topic-ml-zhanshi",
+              "headword": "战士",
+              "reading": "zhànshì",
+              "meaningVn": "chiến sĩ",
+              "example": "这些战士非常勇敢。",
+              "exampleVn": "Những chiến sĩ này rất dũng cảm."
+            },
+            {
+              "id": "zh-topic-ml-junguan",
+              "headword": "军官",
+              "reading": "jūnguān",
+              "meaningVn": "sĩ quan",
+              "example": "他是一名年轻的军官。",
+              "exampleVn": "Anh ấy là một sĩ quan trẻ tuổi."
+            },
+            {
+              "id": "zh-topic-ml-budui",
+              "headword": "部队",
+              "reading": "bùduì",
+              "meaningVn": "bộ đội, đơn vị",
+              "example": "这支部队驻扎在边境。",
+              "exampleVn": "Đơn vị bộ đội này đóng quân ở biên giới."
+            },
+            {
+              "id": "zh-topic-ml-junren",
+              "headword": "军人",
+              "reading": "jūnrén",
+              "meaningVn": "quân nhân",
+              "example": "他从小就想成为一名军人。",
+              "exampleVn": "Từ nhỏ anh ấy đã muốn trở thành quân nhân."
+            }
+          ]
+        },
+        {
+          "id": "military-service-system",
+          "titleNative": "兵役制度",
+          "titleVn": "Chế độ nghĩa vụ quân sự",
+          "words": [
+            {
+              "id": "zh-topic-ml-bingyi",
+              "headword": "兵役",
+              "reading": "bīngyì",
+              "meaningVn": "nghĩa vụ quân sự",
+              "example": "很多国家实行义务兵役制。",
+              "exampleVn": "Nhiều nước thực hiện chế độ nghĩa vụ quân sự bắt buộc."
+            },
+            {
+              "id": "zh-topic-ml-zhengbing",
+              "headword": "征兵",
+              "reading": "zhēngbīng",
+              "meaningVn": "tuyển quân",
+              "example": "每年这个时候都会征兵。",
+              "exampleVn": "Mỗi năm vào thời điểm này đều tuyển quân."
+            },
+            {
+              "id": "zh-topic-ml-ruwu",
+              "headword": "入伍",
+              "reading": "rùwǔ",
+              "meaningVn": "nhập ngũ",
+              "example": "他刚满十八岁就入伍了。",
+              "exampleVn": "Anh ấy vừa tròn 18 tuổi đã nhập ngũ."
+            },
+            {
+              "id": "zh-topic-ml-tuiwu",
+              "headword": "退伍",
+              "reading": "tuìwǔ",
+              "meaningVn": "xuất ngũ, giải ngũ",
+              "example": "他退伍后回到了家乡。",
+              "exampleVn": "Sau khi xuất ngũ anh ấy trở về quê hương."
+            },
+            {
+              "id": "zh-topic-ml-junxun",
+              "headword": "军训",
+              "reading": "jūnxùn",
+              "meaningVn": "huấn luyện quân sự",
+              "example": "大学新生要参加军训。",
+              "exampleVn": "Sinh viên năm nhất phải tham gia huấn luyện quân sự."
+            }
+          ]
+        },
+        {
+          "id": "military-equipment",
+          "titleNative": "军事装备",
+          "titleVn": "Trang bị quân sự",
+          "words": [
+            {
+              "id": "zh-topic-ml-wuqi",
+              "headword": "武器",
+              "reading": "wǔqì",
+              "meaningVn": "vũ khí",
+              "example": "这些武器非常先进。",
+              "exampleVn": "Những vũ khí này rất tiên tiến."
+            },
+            {
+              "id": "zh-topic-ml-tanke",
+              "headword": "坦克",
+              "reading": "tǎnkè",
+              "meaningVn": "xe tăng",
+              "example": "坦克缓缓驶过广场。",
+              "exampleVn": "Xe tăng từ từ chạy qua quảng trường."
+            },
+            {
+              "id": "zh-topic-ml-junjian",
+              "headword": "军舰",
+              "reading": "jūnjiàn",
+              "meaningVn": "tàu chiến",
+              "example": "这艘军舰非常庞大。",
+              "exampleVn": "Chiếc tàu chiến này rất đồ sộ."
+            },
+            {
+              "id": "zh-topic-ml-zhandouji",
+              "headword": "战斗机",
+              "reading": "zhàndòujī",
+              "meaningVn": "máy bay chiến đấu",
+              "example": "战斗机在空中飞行。",
+              "exampleVn": "Máy bay chiến đấu bay trên không trung."
+            },
+            {
+              "id": "zh-topic-ml-zhuangjiache",
+              "headword": "装甲车",
+              "reading": "zhuāngjiǎchē",
+              "meaningVn": "xe bọc thép",
+              "example": "装甲车经过了这条街道。",
+              "exampleVn": "Xe bọc thép đã đi qua con phố này."
+            }
+          ]
+        },
+        {
+          "id": "military-action",
+          "titleNative": "军事行动",
+          "titleVn": "Hoạt động quân sự",
+          "words": [
+            {
+              "id": "zh-topic-ml-zhanzheng",
+              "headword": "战争",
+              "reading": "zhànzhēng",
+              "meaningVn": "chiến tranh",
+              "example": "战争给人民带来了巨大痛苦。",
+              "exampleVn": "Chiến tranh đã mang lại nỗi đau to lớn cho nhân dân."
+            },
+            {
+              "id": "zh-topic-ml-zhanyi",
+              "headword": "战役",
+              "reading": "zhànyì",
+              "meaningVn": "chiến dịch",
+              "example": "这是一场重要的战役。",
+              "exampleVn": "Đây là một chiến dịch quan trọng."
+            },
+            {
+              "id": "zh-topic-ml-tingzhan",
+              "headword": "停战",
+              "reading": "tíngzhàn",
+              "meaningVn": "đình chiến",
+              "example": "双方最终同意停战。",
+              "exampleVn": "Cuối cùng hai bên đồng ý đình chiến."
+            },
+            {
+              "id": "zh-topic-ml-zhenwang",
+              "headword": "阵亡",
+              "reading": "zhènwáng",
+              "meaningVn": "tử trận",
+              "example": "很多士兵不幸阵亡。",
+              "exampleVn": "Nhiều binh sĩ không may tử trận."
+            },
+            {
+              "id": "zh-topic-ml-shengli",
+              "headword": "胜利",
+              "reading": "shènglì",
+              "meaningVn": "chiến thắng",
+              "example": "他们最终取得了胜利。",
+              "exampleVn": "Cuối cùng họ đã giành được chiến thắng."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-topic-religion-belief",
+      "language": "zh",
+      "titleNative": "宗教与信仰",
+      "titleVn": "Tôn giáo và tín ngưỡng",
+      "branches": [
+        {
+          "id": "major-religion",
+          "titleNative": "主要宗教",
+          "titleVn": "Các tôn giáo chính",
+          "words": [
+            {
+              "id": "zh-topic-rl-fojiao",
+              "headword": "佛教",
+              "reading": "fójiào",
+              "meaningVn": "Phật giáo",
+              "example": "佛教在亚洲有很多信徒。",
+              "exampleVn": "Phật giáo có nhiều tín đồ ở châu Á."
+            },
+            {
+              "id": "zh-topic-rl-jidujiao",
+              "headword": "基督教",
+              "reading": "jīdūjiào",
+              "meaningVn": "Cơ Đốc giáo",
+              "example": "他是基督教徒。",
+              "exampleVn": "Anh ấy là tín đồ Cơ Đốc giáo."
+            },
+            {
+              "id": "zh-topic-rl-yisilanjiao",
+              "headword": "伊斯兰教",
+              "reading": "yīsīlánjiào",
+              "meaningVn": "Hồi giáo",
+              "example": "伊斯兰教有自己独特的传统。",
+              "exampleVn": "Hồi giáo có truyền thống độc đáo riêng."
+            },
+            {
+              "id": "zh-topic-rl-daojiao",
+              "headword": "道教",
+              "reading": "dàojiào",
+              "meaningVn": "Đạo giáo",
+              "example": "道教起源于中国。",
+              "exampleVn": "Đạo giáo bắt nguồn từ Trung Quốc."
+            },
+            {
+              "id": "zh-topic-rl-yindujiao",
+              "headword": "印度教",
+              "reading": "yìndùjiào",
+              "meaningVn": "Ấn Độ giáo",
+              "example": "印度教是印度最主要的宗教。",
+              "exampleVn": "Ấn Độ giáo là tôn giáo chủ yếu nhất của Ấn Độ."
+            }
+          ]
+        },
+        {
+          "id": "religious-place",
+          "titleNative": "宗教场所",
+          "titleVn": "Nơi thờ tự",
+          "words": [
+            {
+              "id": "zh-topic-rl-simiao",
+              "headword": "寺庙",
+              "reading": "sìmiào",
+              "meaningVn": "chùa miếu",
+              "example": "这座寺庙历史悠久。",
+              "exampleVn": "Ngôi chùa này có lịch sử lâu đời."
+            },
+            {
+              "id": "zh-topic-rl-jiaotang",
+              "headword": "教堂",
+              "reading": "jiàotáng",
+              "meaningVn": "nhà thờ",
+              "example": "每周日他们都去教堂。",
+              "exampleVn": "Chủ nhật hàng tuần họ đều đi nhà thờ."
+            },
+            {
+              "id": "zh-topic-rl-qingzhensi",
+              "headword": "清真寺",
+              "reading": "qīngzhēnsì",
+              "meaningVn": "thánh đường Hồi giáo",
+              "example": "这座清真寺非常壮观。",
+              "exampleVn": "Thánh đường Hồi giáo này rất hùng vĩ."
+            },
+            {
+              "id": "zh-topic-rl-daoguan",
+              "headword": "道观",
+              "reading": "dàoguàn",
+              "meaningVn": "đạo quán (Đạo giáo)",
+              "example": "山上有一座古老的道观。",
+              "exampleVn": "Trên núi có một đạo quán cổ xưa."
+            },
+            {
+              "id": "zh-topic-rl-shengdi",
+              "headword": "圣地",
+              "reading": "shèngdì",
+              "meaningVn": "thánh địa",
+              "example": "这里是很多信徒心中的圣地。",
+              "exampleVn": "Nơi đây là thánh địa trong lòng nhiều tín đồ."
+            }
+          ]
+        },
+        {
+          "id": "religious-activity",
+          "titleNative": "信仰活动",
+          "titleVn": "Hoạt động tín ngưỡng",
+          "words": [
+            {
+              "id": "zh-topic-rl-qidao",
+              "headword": "祈祷",
+              "reading": "qídǎo",
+              "meaningVn": "cầu nguyện",
+              "example": "她每天晚上都祈祷。",
+              "exampleVn": "Mỗi tối cô ấy đều cầu nguyện."
+            },
+            {
+              "id": "zh-topic-rl-chaobai",
+              "headword": "朝拜",
+              "reading": "cháobài",
+              "meaningVn": "hành hương, triều bái",
+              "example": "信徒们前来朝拜。",
+              "exampleVn": "Các tín đồ đến hành hương."
+            },
+            {
+              "id": "zh-topic-rl-nianjing",
+              "headword": "念经",
+              "reading": "niànjīng",
+              "meaningVn": "tụng kinh",
+              "example": "和尚每天早上念经。",
+              "exampleVn": "Mỗi sáng sư thầy đều tụng kinh."
+            },
+            {
+              "id": "zh-topic-rl-xintu",
+              "headword": "信徒",
+              "reading": "xìntú",
+              "meaningVn": "tín đồ",
+              "example": "这座寺庙有很多信徒。",
+              "exampleVn": "Ngôi chùa này có rất nhiều tín đồ."
+            },
+            {
+              "id": "zh-topic-rl-guiyi",
+              "headword": "皈依",
+              "reading": "guīyī",
+              "meaningVn": "quy y",
+              "example": "他决定皈依佛门。",
+              "exampleVn": "Anh ấy quyết định quy y cửa Phật."
+            }
+          ]
+        },
+        {
+          "id": "folk-belief",
+          "titleNative": "民间信仰",
+          "titleVn": "Tín ngưỡng dân gian",
+          "words": [
+            {
+              "id": "zh-topic-rl-zuxianchongbai",
+              "headword": "祖先崇拜",
+              "reading": "zǔxiān chóngbài",
+              "meaningVn": "thờ cúng tổ tiên",
+              "example": "祖先崇拜是中国传统文化的一部分。",
+              "exampleVn": "Thờ cúng tổ tiên là một phần văn hóa truyền thống Trung Quốc."
+            },
+            {
+              "id": "zh-topic-rl-fengshui",
+              "headword": "风水",
+              "reading": "fēngshuǐ",
+              "meaningVn": "phong thủy",
+              "example": "他们很讲究房子的风水。",
+              "exampleVn": "Họ rất chú trọng phong thủy của ngôi nhà."
+            },
+            {
+              "id": "zh-topic-rl-suanming",
+              "headword": "算命",
+              "reading": "suànmìng",
+              "meaningVn": "xem bói",
+              "example": "很多人喜欢算命。",
+              "exampleVn": "Nhiều người thích xem bói."
+            },
+            {
+              "id": "zh-topic-rl-hushenfu",
+              "headword": "护身符",
+              "reading": "hùshēnfú",
+              "meaningVn": "bùa hộ mệnh",
+              "example": "她随身带着一个护身符。",
+              "exampleVn": "Cô ấy luôn mang theo một lá bùa hộ mệnh."
+            },
+            {
+              "id": "zh-topic-rl-shenming",
+              "headword": "神明",
+              "reading": "shénmíng",
+              "meaningVn": "thần linh",
+              "example": "村民们向神明祈求平安。",
+              "exampleVn": "Dân làng cầu xin thần linh ban bình an."
+            }
+          ]
+        }
+      ]
     }
   ]
 }
