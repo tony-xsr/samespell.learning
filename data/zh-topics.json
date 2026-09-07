@@ -13397,6 +13397,1182 @@
           ]
         }
       ]
+    },
+    {
+      "id": "zh-topic-career-jobsearch",
+      "language": "zh",
+      "titleNative": "职业规划与求职",
+      "titleVn": "Định hướng nghề nghiệp và tìm việc",
+      "branches": [
+        {
+          "id": "career-choice",
+          "titleNative": "职业选择",
+          "titleVn": "Chọn nghề nghiệp",
+          "words": [
+            {
+              "id": "zh-topic-cj-zhiye",
+              "headword": "职业",
+              "reading": "zhíyè",
+              "meaningVn": "nghề nghiệp",
+              "example": "他从事教师这个职业。",
+              "exampleVn": "Anh ấy làm nghề giáo viên."
+            },
+            {
+              "id": "zh-topic-cj-zhuanye",
+              "headword": "专业",
+              "reading": "zhuānyè",
+              "meaningVn": "chuyên ngành",
+              "example": "她大学学的是法律专业。",
+              "exampleVn": "Cô ấy học chuyên ngành luật ở đại học."
+            },
+            {
+              "id": "zh-topic-cj-xingqu",
+              "headword": "兴趣",
+              "reading": "xìngqù",
+              "meaningVn": "sở thích, hứng thú",
+              "example": "选择职业要考虑自己的兴趣。",
+              "exampleVn": "Chọn nghề nghiệp phải cân nhắc sở thích của bản thân."
+            },
+            {
+              "id": "zh-topic-cj-qianli",
+              "headword": "潜力",
+              "reading": "qiánlì",
+              "meaningVn": "tiềm năng",
+              "example": "这个行业很有潜力。",
+              "exampleVn": "Ngành này rất có tiềm năng."
+            },
+            {
+              "id": "zh-topic-cj-zhuanhang",
+              "headword": "转行",
+              "reading": "zhuǎnháng",
+              "meaningVn": "chuyển ngành",
+              "example": "他决定转行做设计师。",
+              "exampleVn": "Anh ấy quyết định chuyển ngành làm nhà thiết kế."
+            }
+          ]
+        },
+        {
+          "id": "job-preparation",
+          "titleNative": "求职准备",
+          "titleVn": "Chuẩn bị tìm việc",
+          "words": [
+            {
+              "id": "zh-topic-cj-jianli",
+              "headword": "简历",
+              "reading": "jiǎnlì",
+              "meaningVn": "CV, sơ yếu lý lịch",
+              "example": "请把你的简历发给我。",
+              "exampleVn": "Hãy gửi CV của bạn cho tôi."
+            },
+            {
+              "id": "zh-topic-cj-qiuzhixin",
+              "headword": "求职信",
+              "reading": "qiúzhíxìn",
+              "meaningVn": "thư xin việc",
+              "example": "他写了一封求职信。",
+              "exampleVn": "Anh ấy đã viết một lá thư xin việc."
+            },
+            {
+              "id": "zh-topic-cj-zhaopin",
+              "headword": "招聘",
+              "reading": "zhāopìn",
+              "meaningVn": "tuyển dụng",
+              "example": "这家公司正在招聘新人。",
+              "exampleVn": "Công ty này đang tuyển dụng nhân viên mới."
+            },
+            {
+              "id": "zh-topic-cj-neitui",
+              "headword": "内推",
+              "reading": "nèituī",
+              "meaningVn": "giới thiệu nội bộ (referral)",
+              "example": "我朋友帮我内推了这份工作。",
+              "exampleVn": "Bạn tôi đã giới thiệu nội bộ giúp tôi công việc này."
+            },
+            {
+              "id": "zh-topic-cj-bishi",
+              "headword": "笔试",
+              "reading": "bǐshì",
+              "meaningVn": "thi viết",
+              "example": "明天要参加公司的笔试。",
+              "exampleVn": "Ngày mai phải tham gia thi viết của công ty."
+            }
+          ]
+        },
+        {
+          "id": "career-development",
+          "titleNative": "职业发展",
+          "titleVn": "Phát triển nghề nghiệp",
+          "words": [
+            {
+              "id": "zh-topic-cj-shixi",
+              "headword": "实习",
+              "reading": "shíxí",
+              "meaningVn": "thực tập",
+              "example": "她暑假去公司实习。",
+              "exampleVn": "Cô ấy đi thực tập ở công ty vào kỳ nghỉ hè."
+            },
+            {
+              "id": "zh-topic-cj-zhuanzheng",
+              "headword": "转正",
+              "reading": "zhuǎnzhèng",
+              "meaningVn": "chính thức hóa (hết thử việc)",
+              "example": "他试用期结束后成功转正。",
+              "exampleVn": "Sau khi kết thúc thời gian thử việc, anh ấy đã được chính thức hóa."
+            },
+            {
+              "id": "zh-topic-cj-zhiyeguihua",
+              "headword": "职业规划",
+              "reading": "zhíyè guīhuà",
+              "meaningVn": "định hướng nghề nghiệp",
+              "example": "她对自己的职业规划很清晰。",
+              "exampleVn": "Cô ấy có định hướng nghề nghiệp rất rõ ràng."
+            },
+            {
+              "id": "zh-topic-cj-jinshengkongjian",
+              "headword": "晋升空间",
+              "reading": "jìnshēng kōngjiān",
+              "meaningVn": "không gian thăng tiến",
+              "example": "这份工作晋升空间很大。",
+              "exampleVn": "Công việc này có không gian thăng tiến rất lớn."
+            },
+            {
+              "id": "zh-topic-cj-wendingxing",
+              "headword": "稳定性",
+              "reading": "wěndìngxìng",
+              "meaningVn": "tính ổn định",
+              "example": "很多人看重工作的稳定性。",
+              "exampleVn": "Nhiều người coi trọng tính ổn định của công việc."
+            }
+          ]
+        },
+        {
+          "id": "job-market",
+          "titleNative": "就业市场",
+          "titleVn": "Thị trường việc làm",
+          "words": [
+            {
+              "id": "zh-topic-cj-jiuye",
+              "headword": "就业",
+              "reading": "jiùyè",
+              "meaningVn": "việc làm",
+              "example": "今年的就业形势不太好。",
+              "exampleVn": "Tình hình việc làm năm nay không tốt lắm."
+            },
+            {
+              "id": "zh-topic-cj-rencaishichang",
+              "headword": "人才市场",
+              "reading": "réncái shìchǎng",
+              "meaningVn": "thị trường nhân tài",
+              "example": "他去人才市场找工作。",
+              "exampleVn": "Anh ấy đến thị trường nhân tài tìm việc."
+            },
+            {
+              "id": "zh-topic-cj-jingzhengli",
+              "headword": "竞争力",
+              "reading": "jìngzhēnglì",
+              "meaningVn": "năng lực cạnh tranh",
+              "example": "这份简历很有竞争力。",
+              "exampleVn": "CV này rất có năng lực cạnh tranh."
+            },
+            {
+              "id": "zh-topic-cj-gangwei",
+              "headword": "岗位",
+              "reading": "gǎngwèi",
+              "meaningVn": "vị trí công việc",
+              "example": "这个岗位需要三年经验。",
+              "exampleVn": "Vị trí này cần ba năm kinh nghiệm."
+            },
+            {
+              "id": "zh-topic-cj-quekou",
+              "headword": "缺口",
+              "reading": "quēkǒu",
+              "meaningVn": "lỗ hổng, thiếu hụt nhân lực",
+              "example": "这个行业人才缺口很大。",
+              "exampleVn": "Ngành này có lỗ hổng nhân tài rất lớn."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-topic-history-culture",
+      "language": "zh",
+      "titleNative": "历史与传统文化",
+      "titleVn": "Lịch sử và văn hoá truyền thống",
+      "branches": [
+        {
+          "id": "history-period",
+          "titleNative": "历史时期",
+          "titleVn": "Thời kỳ lịch sử",
+          "words": [
+            {
+              "id": "zh-topic-hc-gudai",
+              "headword": "古代",
+              "reading": "gǔdài",
+              "meaningVn": "thời cổ đại",
+              "example": "这是古代的一座宫殿。",
+              "exampleVn": "Đây là một cung điện thời cổ đại."
+            },
+            {
+              "id": "zh-topic-hc-jindai",
+              "headword": "近代",
+              "reading": "jìndài",
+              "meaningVn": "thời cận đại",
+              "example": "近代历史很复杂。",
+              "exampleVn": "Lịch sử cận đại rất phức tạp."
+            },
+            {
+              "id": "zh-topic-hc-wangchao",
+              "headword": "王朝",
+              "reading": "wángcháo",
+              "meaningVn": "triều đại",
+              "example": "这个王朝存在了三百年。",
+              "exampleVn": "Triều đại này tồn tại 300 năm."
+            },
+            {
+              "id": "zh-topic-hc-lishishijian",
+              "headword": "历史事件",
+              "reading": "lìshǐ shìjiàn",
+              "meaningVn": "sự kiện lịch sử",
+              "example": "这是一个重要的历史事件。",
+              "exampleVn": "Đây là một sự kiện lịch sử quan trọng."
+            },
+            {
+              "id": "zh-topic-hc-wenwu",
+              "headword": "文物",
+              "reading": "wénwù",
+              "meaningVn": "di vật văn hóa",
+              "example": "博物馆里有很多珍贵文物。",
+              "exampleVn": "Trong bảo tàng có nhiều di vật văn hóa quý giá."
+            }
+          ]
+        },
+        {
+          "id": "tradition-custom",
+          "titleNative": "传统习俗",
+          "titleVn": "Phong tục truyền thống",
+          "words": [
+            {
+              "id": "zh-topic-hc-xisu",
+              "headword": "习俗",
+              "reading": "xísú",
+              "meaningVn": "phong tục",
+              "example": "每个地方都有自己的习俗。",
+              "exampleVn": "Mỗi vùng đều có phong tục riêng của mình."
+            },
+            {
+              "id": "zh-topic-hc-chuantong",
+              "headword": "传统",
+              "reading": "chuántǒng",
+              "meaningVn": "truyền thống",
+              "example": "这是一个古老的传统。",
+              "exampleVn": "Đây là một truyền thống cổ xưa."
+            },
+            {
+              "id": "zh-topic-hc-minsu",
+              "headword": "民俗",
+              "reading": "mínsú",
+              "meaningVn": "tập quán dân gian",
+              "example": "这个地区的民俗很有特色。",
+              "exampleVn": "Tập quán dân gian ở vùng này rất đặc sắc."
+            },
+            {
+              "id": "zh-topic-hc-yishi",
+              "headword": "仪式",
+              "reading": "yíshì",
+              "meaningVn": "nghi thức, lễ nghi",
+              "example": "婚礼上有很多传统仪式。",
+              "exampleVn": "Trong đám cưới có nhiều nghi thức truyền thống."
+            },
+            {
+              "id": "zh-topic-hc-chuancheng",
+              "headword": "传承",
+              "reading": "chuánchéng",
+              "meaningVn": "truyền thừa, kế thừa",
+              "example": "这门手艺需要传承下去。",
+              "exampleVn": "Nghề thủ công này cần được truyền thừa lại."
+            }
+          ]
+        },
+        {
+          "id": "cultural-heritage",
+          "titleNative": "文化遗产",
+          "titleVn": "Di sản văn hóa",
+          "words": [
+            {
+              "id": "zh-topic-hc-wenhuayichan",
+              "headword": "文化遗产",
+              "reading": "wénhuà yíchǎn",
+              "meaningVn": "di sản văn hóa",
+              "example": "这座古城是世界文化遗产。",
+              "exampleVn": "Cổ thành này là di sản văn hóa thế giới."
+            },
+            {
+              "id": "zh-topic-hc-guji",
+              "headword": "古迹",
+              "reading": "gǔjì",
+              "meaningVn": "di tích cổ",
+              "example": "这里有很多历史古迹。",
+              "exampleVn": "Nơi đây có nhiều di tích lịch sử."
+            },
+            {
+              "id": "zh-topic-hc-chuantonggongyi",
+              "headword": "传统工艺",
+              "reading": "chuántǒng gōngyì",
+              "meaningVn": "nghề thủ công truyền thống",
+              "example": "刺绣是一种传统工艺。",
+              "exampleVn": "Thêu là một nghề thủ công truyền thống."
+            },
+            {
+              "id": "zh-topic-hc-feiwuzhiwenhuayichan",
+              "headword": "非物质文化遗产",
+              "reading": "fēiwùzhí wénhuà yíchǎn",
+              "meaningVn": "di sản văn hóa phi vật thể",
+              "example": "这项技艺被列为非物质文化遗产。",
+              "exampleVn": "Kỹ nghệ này được liệt vào di sản văn hóa phi vật thể."
+            },
+            {
+              "id": "zh-topic-hc-baohu",
+              "headword": "保护",
+              "reading": "bǎohù",
+              "meaningVn": "bảo tồn, bảo vệ",
+              "example": "我们要保护好这些古迹。",
+              "exampleVn": "Chúng ta phải bảo vệ tốt những di tích này."
+            }
+          ]
+        },
+        {
+          "id": "ethnic-culture",
+          "titleNative": "民族文化",
+          "titleVn": "Văn hóa dân tộc",
+          "words": [
+            {
+              "id": "zh-topic-hc-minzu",
+              "headword": "民族",
+              "reading": "mínzú",
+              "meaningVn": "dân tộc",
+              "example": "中国有五十六个民族。",
+              "exampleVn": "Trung Quốc có 56 dân tộc."
+            },
+            {
+              "id": "zh-topic-hc-shaoshuminzu",
+              "headword": "少数民族",
+              "reading": "shǎoshù mínzú",
+              "meaningVn": "dân tộc thiểu số",
+              "example": "这里居住着很多少数民族。",
+              "exampleVn": "Nơi đây có nhiều dân tộc thiểu số sinh sống."
+            },
+            {
+              "id": "zh-topic-hc-fangyan",
+              "headword": "方言",
+              "reading": "fāngyán",
+              "meaningVn": "phương ngữ",
+              "example": "中国各地的方言差别很大。",
+              "exampleVn": "Phương ngữ các vùng của Trung Quốc khác nhau rất nhiều."
+            },
+            {
+              "id": "zh-topic-hc-chuantongjieqing",
+              "headword": "传统节庆",
+              "reading": "chuántǒng jiéqìng",
+              "meaningVn": "lễ hội truyền thống",
+              "example": "这个村子保留着传统节庆活动。",
+              "exampleVn": "Ngôi làng này vẫn giữ gìn các hoạt động lễ hội truyền thống."
+            },
+            {
+              "id": "zh-topic-hc-wenhuarentong",
+              "headword": "文化认同",
+              "reading": "wénhuà rèntóng",
+              "meaningVn": "bản sắc, nhận diện văn hóa",
+              "example": "语言是文化认同的重要部分。",
+              "exampleVn": "Ngôn ngữ là một phần quan trọng của bản sắc văn hóa."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-topic-pregnancy-parenting",
+      "language": "zh",
+      "titleNative": "孕育与育儿",
+      "titleVn": "Mang thai và nuôi con",
+      "branches": [
+        {
+          "id": "pregnancy-birth",
+          "titleNative": "怀孕生产",
+          "titleVn": "Mang thai và sinh nở",
+          "words": [
+            {
+              "id": "zh-topic-pg-yanyun",
+              "headword": "验孕",
+              "reading": "yànyùn",
+              "meaningVn": "thử thai",
+              "example": "她昨天去验孕了。",
+              "exampleVn": "Hôm qua cô ấy đã đi thử thai."
+            },
+            {
+              "id": "zh-topic-pg-yunqi",
+              "headword": "孕期",
+              "reading": "yùnqī",
+              "meaningVn": "thời kỳ mang thai",
+              "example": "孕期要多注意休息。",
+              "exampleVn": "Trong thời kỳ mang thai phải chú ý nghỉ ngơi nhiều."
+            },
+            {
+              "id": "zh-topic-pg-chanjian",
+              "headword": "产检",
+              "reading": "chǎnjiǎn",
+              "meaningVn": "khám thai",
+              "example": "她这个月要去做产检。",
+              "exampleVn": "Tháng này cô ấy phải đi khám thai."
+            },
+            {
+              "id": "zh-topic-pg-fenmian",
+              "headword": "分娩",
+              "reading": "fēnmiǎn",
+              "meaningVn": "sinh nở",
+              "example": "她昨晚顺利分娩。",
+              "exampleVn": "Tối qua cô ấy đã sinh nở thuận lợi."
+            },
+            {
+              "id": "zh-topic-pg-poufuchan",
+              "headword": "剖腹产",
+              "reading": "pōufùchǎn",
+              "meaningVn": "sinh mổ",
+              "example": "医生建议她剖腹产。",
+              "exampleVn": "Bác sĩ khuyên cô ấy nên sinh mổ."
+            }
+          ]
+        },
+        {
+          "id": "baby-care",
+          "titleNative": "婴儿照顾",
+          "titleVn": "Chăm sóc em bé",
+          "words": [
+            {
+              "id": "zh-topic-pg-muru",
+              "headword": "母乳",
+              "reading": "mǔrǔ",
+              "meaningVn": "sữa mẹ",
+              "example": "母乳对宝宝最好。",
+              "exampleVn": "Sữa mẹ tốt nhất cho em bé."
+            },
+            {
+              "id": "zh-topic-pg-naifen",
+              "headword": "奶粉",
+              "reading": "nǎifěn",
+              "meaningVn": "sữa bột",
+              "example": "这个牌子的奶粉很好。",
+              "exampleVn": "Sữa bột của thương hiệu này rất tốt."
+            },
+            {
+              "id": "zh-topic-pg-niaobu",
+              "headword": "尿布",
+              "reading": "niàobù",
+              "meaningVn": "tã lót",
+              "example": "妈妈在给宝宝换尿布。",
+              "exampleVn": "Mẹ đang thay tã cho em bé."
+            },
+            {
+              "id": "zh-topic-pg-hongshui",
+              "headword": "哄睡",
+              "reading": "hǒngshuì",
+              "meaningVn": "dỗ ngủ",
+              "example": "爸爸每晚都哄宝宝睡觉。",
+              "exampleVn": "Mỗi tối bố đều dỗ em bé ngủ."
+            },
+            {
+              "id": "zh-topic-pg-zhangya",
+              "headword": "长牙",
+              "reading": "zhǎngyá",
+              "meaningVn": "mọc răng",
+              "example": "宝宝最近开始长牙了。",
+              "exampleVn": "Gần đây em bé bắt đầu mọc răng."
+            }
+          ]
+        },
+        {
+          "id": "parenting-philosophy",
+          "titleNative": "育儿理念",
+          "titleVn": "Quan niệm nuôi dạy con",
+          "words": [
+            {
+              "id": "zh-topic-pg-yangyu",
+              "headword": "养育",
+              "reading": "yǎngyù",
+              "meaningVn": "nuôi dưỡng",
+              "example": "养育孩子是一件辛苦的事。",
+              "exampleVn": "Nuôi dưỡng con cái là việc vất vả."
+            },
+            {
+              "id": "zh-topic-pg-zaojiao",
+              "headword": "早教",
+              "reading": "zǎojiào",
+              "meaningVn": "giáo dục sớm",
+              "example": "很多父母重视早教。",
+              "exampleVn": "Nhiều bậc cha mẹ coi trọng giáo dục sớm."
+            },
+            {
+              "id": "zh-topic-pg-niai",
+              "headword": "溺爱",
+              "reading": "nì'ài",
+              "meaningVn": "nuông chiều quá mức",
+              "example": "爷爷奶奶容易溺爱孙子。",
+              "exampleVn": "Ông bà dễ nuông chiều cháu quá mức."
+            },
+            {
+              "id": "zh-topic-pg-qinziguanxi",
+              "headword": "亲子关系",
+              "reading": "qīnzǐ guānxi",
+              "meaningVn": "quan hệ cha mẹ và con cái",
+              "example": "良好的亲子关系很重要。",
+              "exampleVn": "Quan hệ cha mẹ con cái tốt đẹp rất quan trọng."
+            },
+            {
+              "id": "zh-topic-pg-duannai",
+              "headword": "断奶",
+              "reading": "duànnǎi",
+              "meaningVn": "cai sữa",
+              "example": "宝宝一岁的时候开始断奶。",
+              "exampleVn": "Em bé bắt đầu cai sữa khi được một tuổi."
+            }
+          ]
+        },
+        {
+          "id": "child-growth",
+          "titleNative": "儿童成长",
+          "titleVn": "Sự phát triển của trẻ",
+          "words": [
+            {
+              "id": "zh-topic-pg-fayu",
+              "headword": "发育",
+              "reading": "fāyù",
+              "meaningVn": "phát triển (thể chất)",
+              "example": "孩子发育得很健康。",
+              "exampleVn": "Đứa trẻ phát triển rất khỏe mạnh."
+            },
+            {
+              "id": "zh-topic-pg-ertong",
+              "headword": "儿童",
+              "reading": "értóng",
+              "meaningVn": "trẻ em",
+              "example": "这是一本儿童读物。",
+              "exampleVn": "Đây là một cuốn sách dành cho trẻ em."
+            },
+            {
+              "id": "zh-topic-pg-youeryuan",
+              "headword": "幼儿园",
+              "reading": "yòu'éryuán",
+              "meaningVn": "trường mẫu giáo",
+              "example": "孩子明年要上幼儿园了。",
+              "exampleVn": "Sang năm đứa trẻ sẽ đi học mẫu giáo."
+            },
+            {
+              "id": "zh-topic-pg-xuebu",
+              "headword": "学步",
+              "reading": "xuébù",
+              "meaningVn": "tập đi (chập chững)",
+              "example": "宝宝正在学步。",
+              "exampleVn": "Em bé đang tập đi."
+            },
+            {
+              "id": "zh-topic-pg-zaochan",
+              "headword": "早产",
+              "reading": "zǎochǎn",
+              "meaningVn": "sinh non",
+              "example": "这个宝宝是早产儿。",
+              "exampleVn": "Em bé này là trẻ sinh non."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-topic-literature-reading",
+      "language": "zh",
+      "titleNative": "文学与阅读",
+      "titleVn": "Văn học và đọc sách",
+      "branches": [
+        {
+          "id": "literary-form",
+          "titleNative": "文学形式",
+          "titleVn": "Hình thức văn học",
+          "words": [
+            {
+              "id": "zh-topic-lt-xiaoshuo",
+              "headword": "小说",
+              "reading": "xiǎoshuō",
+              "meaningVn": "tiểu thuyết",
+              "example": "她正在读一本小说。",
+              "exampleVn": "Cô ấy đang đọc một cuốn tiểu thuyết."
+            },
+            {
+              "id": "zh-topic-lt-shige",
+              "headword": "诗歌",
+              "reading": "shīgē",
+              "meaningVn": "thơ ca",
+              "example": "他喜欢写诗歌。",
+              "exampleVn": "Anh ấy thích làm thơ."
+            },
+            {
+              "id": "zh-topic-lt-sanwen",
+              "headword": "散文",
+              "reading": "sǎnwén",
+              "meaningVn": "tản văn",
+              "example": "这篇散文写得很优美。",
+              "exampleVn": "Bài tản văn này viết rất hay."
+            },
+            {
+              "id": "zh-topic-lt-juben",
+              "headword": "剧本",
+              "reading": "jùběn",
+              "meaningVn": "kịch bản",
+              "example": "他为这部电影写了剧本。",
+              "exampleVn": "Anh ấy đã viết kịch bản cho bộ phim này."
+            },
+            {
+              "id": "zh-topic-lt-zhuanji",
+              "headword": "传记",
+              "reading": "zhuànjì",
+              "meaningVn": "hồi ký, tiểu sử",
+              "example": "我最近在看一本名人传记。",
+              "exampleVn": "Gần đây tôi đang đọc một cuốn tiểu sử người nổi tiếng."
+            }
+          ]
+        },
+        {
+          "id": "reading-habit",
+          "titleNative": "阅读习惯",
+          "titleVn": "Thói quen đọc sách",
+          "words": [
+            {
+              "id": "zh-topic-lt-dushu",
+              "headword": "读书",
+              "reading": "dúshū",
+              "meaningVn": "đọc sách, học hành",
+              "example": "他每天晚上都读书。",
+              "exampleVn": "Mỗi tối anh ấy đều đọc sách."
+            },
+            {
+              "id": "zh-topic-lt-shuping",
+              "headword": "书评",
+              "reading": "shūpíng",
+              "meaningVn": "bình luận sách",
+              "example": "我看了一篇很不错的书评。",
+              "exampleVn": "Tôi đã đọc một bài bình luận sách khá hay."
+            },
+            {
+              "id": "zh-topic-lt-cangshu",
+              "headword": "藏书",
+              "reading": "cángshū",
+              "meaningVn": "sách sưu tầm",
+              "example": "他家里有很多藏书。",
+              "exampleVn": "Nhà anh ấy có rất nhiều sách sưu tầm."
+            },
+            {
+              "id": "zh-topic-lt-jieyue",
+              "headword": "借阅",
+              "reading": "jièyuè",
+              "meaningVn": "mượn đọc (sách)",
+              "example": "图书馆的书可以免费借阅。",
+              "exampleVn": "Sách của thư viện có thể mượn đọc miễn phí."
+            },
+            {
+              "id": "zh-topic-lt-jingdu",
+              "headword": "精读",
+              "reading": "jīngdú",
+              "meaningVn": "đọc kỹ, đọc sâu",
+              "example": "这本书值得精读。",
+              "exampleVn": "Cuốn sách này đáng để đọc kỹ."
+            }
+          ]
+        },
+        {
+          "id": "writing-creation",
+          "titleNative": "写作创作",
+          "titleVn": "Viết và sáng tác",
+          "words": [
+            {
+              "id": "zh-topic-lt-xiezuo",
+              "headword": "写作",
+              "reading": "xiězuò",
+              "meaningVn": "viết văn",
+              "example": "写作是他的爱好。",
+              "exampleVn": "Viết văn là sở thích của anh ấy."
+            },
+            {
+              "id": "zh-topic-lt-zuojia",
+              "headword": "作家",
+              "reading": "zuòjiā",
+              "meaningVn": "nhà văn",
+              "example": "她是一位有名的作家。",
+              "exampleVn": "Cô ấy là một nhà văn nổi tiếng."
+            },
+            {
+              "id": "zh-topic-lt-linggan",
+              "headword": "灵感",
+              "reading": "línggǎn",
+              "meaningVn": "cảm hứng",
+              "example": "旅行给了他很多创作灵感。",
+              "exampleVn": "Du lịch mang lại cho anh ấy nhiều cảm hứng sáng tác."
+            },
+            {
+              "id": "zh-topic-lt-qingjie",
+              "headword": "情节",
+              "reading": "qíngjié",
+              "meaningVn": "cốt truyện",
+              "example": "这部小说的情节很吸引人。",
+              "exampleVn": "Cốt truyện của cuốn tiểu thuyết này rất cuốn hút."
+            },
+            {
+              "id": "zh-topic-lt-chuban",
+              "headword": "出版",
+              "reading": "chūbǎn",
+              "meaningVn": "xuất bản",
+              "example": "这本书明年才出版。",
+              "exampleVn": "Cuốn sách này sang năm mới được xuất bản."
+            }
+          ]
+        },
+        {
+          "id": "book-publishing",
+          "titleNative": "图书出版",
+          "titleVn": "Xuất bản sách",
+          "words": [
+            {
+              "id": "zh-topic-lt-tushu",
+              "headword": "图书",
+              "reading": "túshū",
+              "meaningVn": "sách (danh từ chung)",
+              "example": "图书馆有各种各样的图书。",
+              "exampleVn": "Thư viện có đủ loại sách."
+            },
+            {
+              "id": "zh-topic-lt-changxiaoshu",
+              "headword": "畅销书",
+              "reading": "chàngxiāoshū",
+              "meaningVn": "sách bán chạy",
+              "example": "这本书是今年的畅销书。",
+              "exampleVn": "Cuốn sách này là sách bán chạy của năm nay."
+            },
+            {
+              "id": "zh-topic-lt-dianzishu",
+              "headword": "电子书",
+              "reading": "diànzǐshū",
+              "meaningVn": "sách điện tử",
+              "example": "现在很多人喜欢看电子书。",
+              "exampleVn": "Hiện nay nhiều người thích đọc sách điện tử."
+            },
+            {
+              "id": "zh-topic-lt-banquan",
+              "headword": "版权",
+              "reading": "bǎnquán",
+              "meaningVn": "bản quyền",
+              "example": "这本书的版权已经卖给了出版社。",
+              "exampleVn": "Bản quyền cuốn sách này đã bán cho nhà xuất bản."
+            },
+            {
+              "id": "zh-topic-lt-fanyi",
+              "headword": "翻译",
+              "reading": "fānyì",
+              "meaningVn": "dịch, phiên dịch",
+              "example": "这本书已经被翻译成多种语言。",
+              "exampleVn": "Cuốn sách này đã được dịch ra nhiều thứ tiếng."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-topic-volunteer-charity",
+      "language": "zh",
+      "titleNative": "志愿服务与公益",
+      "titleVn": "Hoạt động tình nguyện và quyên góp",
+      "branches": [
+        {
+          "id": "volunteer-activity",
+          "titleNative": "志愿活动",
+          "titleVn": "Hoạt động tình nguyện",
+          "words": [
+            {
+              "id": "zh-topic-vc-zhiyuanfuwu",
+              "headword": "志愿服务",
+              "reading": "zhìyuàn fúwù",
+              "meaningVn": "dịch vụ tình nguyện",
+              "example": "他每周都参加志愿服务。",
+              "exampleVn": "Mỗi tuần anh ấy đều tham gia dịch vụ tình nguyện."
+            },
+            {
+              "id": "zh-topic-vc-yigong",
+              "headword": "义工",
+              "reading": "yìgōng",
+              "meaningVn": "người làm công việc thiện nguyện",
+              "example": "她在医院当义工。",
+              "exampleVn": "Cô ấy làm tình nguyện viên ở bệnh viện."
+            },
+            {
+              "id": "zh-topic-vc-zhijiao",
+              "headword": "支教",
+              "reading": "zhījiào",
+              "meaningVn": "dạy học tình nguyện (vùng khó khăn)",
+              "example": "他大学毕业后去山区支教。",
+              "exampleVn": "Sau khi tốt nghiệp đại học anh ấy đi dạy học tình nguyện ở vùng núi."
+            },
+            {
+              "id": "zh-topic-vc-tanfang",
+              "headword": "探访",
+              "reading": "tànfǎng",
+              "meaningVn": "thăm hỏi, viếng thăm",
+              "example": "志愿者定期去探访老人。",
+              "exampleVn": "Tình nguyện viên định kỳ đi thăm hỏi người già."
+            },
+            {
+              "id": "zh-topic-vc-fuwushichang",
+              "headword": "服务时长",
+              "reading": "fúwù shícháng",
+              "meaningVn": "thời lượng phục vụ",
+              "example": "她的志愿服务时长超过一百小时。",
+              "exampleVn": "Thời lượng phục vụ tình nguyện của cô ấy vượt quá 100 giờ."
+            }
+          ]
+        },
+        {
+          "id": "charity-donation",
+          "titleNative": "慈善捐赠",
+          "titleVn": "Từ thiện quyên góp",
+          "words": [
+            {
+              "id": "zh-topic-vc-cishan",
+              "headword": "慈善",
+              "reading": "císhàn",
+              "meaningVn": "từ thiện",
+              "example": "他一直热心于慈善事业。",
+              "exampleVn": "Anh ấy luôn nhiệt tình với sự nghiệp từ thiện."
+            },
+            {
+              "id": "zh-topic-vc-juanzeng",
+              "headword": "捐赠",
+              "reading": "juānzèng",
+              "meaningVn": "quyên tặng",
+              "example": "这家公司向学校捐赠了电脑。",
+              "exampleVn": "Công ty này đã quyên tặng máy tính cho trường học."
+            },
+            {
+              "id": "zh-topic-vc-shankuan",
+              "headword": "善款",
+              "reading": "shànkuǎn",
+              "meaningVn": "tiền từ thiện",
+              "example": "这些善款将用于灾区重建。",
+              "exampleVn": "Số tiền từ thiện này sẽ được dùng để tái thiết vùng thiên tai."
+            },
+            {
+              "id": "zh-topic-vc-yimai",
+              "headword": "义卖",
+              "reading": "yìmài",
+              "meaningVn": "bán hàng gây quỹ",
+              "example": "学校组织了一场义卖活动。",
+              "exampleVn": "Trường đã tổ chức một buổi bán hàng gây quỹ."
+            },
+            {
+              "id": "zh-topic-vc-gongyihuodong",
+              "headword": "公益活动",
+              "reading": "gōngyì huódòng",
+              "meaningVn": "hoạt động công ích",
+              "example": "公司每年都组织公益活动。",
+              "exampleVn": "Mỗi năm công ty đều tổ chức hoạt động công ích."
+            }
+          ]
+        },
+        {
+          "id": "beneficiary",
+          "titleNative": "帮扶对象",
+          "titleVn": "Đối tượng được giúp đỡ",
+          "words": [
+            {
+              "id": "zh-topic-vc-guer",
+              "headword": "孤儿",
+              "reading": "gū'ér",
+              "meaningVn": "trẻ mồ côi",
+              "example": "这家孤儿院收养了很多孤儿。",
+              "exampleVn": "Trại trẻ mồ côi này đã nhận nuôi nhiều trẻ mồ côi."
+            },
+            {
+              "id": "zh-topic-vc-liushouertong",
+              "headword": "留守儿童",
+              "reading": "liúshǒu értóng",
+              "meaningVn": "trẻ em ở lại quê (cha mẹ đi làm xa)",
+              "example": "这个地区有不少留守儿童。",
+              "exampleVn": "Khu vực này có không ít trẻ em ở lại quê."
+            },
+            {
+              "id": "zh-topic-vc-ruoshiquntim",
+              "headword": "弱势群体",
+              "reading": "ruòshì qúntǐ",
+              "meaningVn": "nhóm yếu thế",
+              "example": "社会应该关注弱势群体。",
+              "exampleVn": "Xã hội nên quan tâm đến nhóm yếu thế."
+            },
+            {
+              "id": "zh-topic-vc-canjiren",
+              "headword": "残疾人",
+              "reading": "cánjírén",
+              "meaningVn": "người khuyết tật",
+              "example": "这栋楼为残疾人设置了无障碍通道。",
+              "exampleVn": "Tòa nhà này thiết lập lối đi không rào cản cho người khuyết tật."
+            },
+            {
+              "id": "zh-topic-vc-kongchaolaoren",
+              "headword": "空巢老人",
+              "reading": "kōngcháo lǎorén",
+              "meaningVn": "người già sống một mình (con cái đi xa)",
+              "example": "社区很关心空巢老人的生活。",
+              "exampleVn": "Khu dân cư rất quan tâm đến đời sống của người già sống một mình."
+            }
+          ]
+        },
+        {
+          "id": "charity-organization",
+          "titleNative": "公益组织",
+          "titleVn": "Tổ chức công ích",
+          "words": [
+            {
+              "id": "zh-topic-vc-gongyizuzhi",
+              "headword": "公益组织",
+              "reading": "gōngyì zǔzhī",
+              "meaningVn": "tổ chức công ích",
+              "example": "这是一个非营利的公益组织。",
+              "exampleVn": "Đây là một tổ chức công ích phi lợi nhuận."
+            },
+            {
+              "id": "zh-topic-vc-jijinhui",
+              "headword": "基金会",
+              "reading": "jījīnhuì",
+              "meaningVn": "quỹ (tổ chức)",
+              "example": "他成立了一个教育基金会。",
+              "exampleVn": "Anh ấy đã thành lập một quỹ giáo dục."
+            },
+            {
+              "id": "zh-topic-vc-feiyingli",
+              "headword": "非营利",
+              "reading": "fēiyínglì",
+              "meaningVn": "phi lợi nhuận",
+              "example": "这是一家非营利机构。",
+              "exampleVn": "Đây là một tổ chức phi lợi nhuận."
+            },
+            {
+              "id": "zh-topic-vc-cishanjigou",
+              "headword": "慈善机构",
+              "reading": "císhàn jīgòu",
+              "meaningVn": "tổ chức từ thiện",
+              "example": "很多慈善机构在帮助灾民。",
+              "exampleVn": "Nhiều tổ chức từ thiện đang giúp đỡ người dân vùng thiên tai."
+            },
+            {
+              "id": "zh-topic-vc-shehuizeren",
+              "headword": "社会责任",
+              "reading": "shèhuì zérèn",
+              "meaningVn": "trách nhiệm xã hội",
+              "example": "企业应该承担社会责任。",
+              "exampleVn": "Doanh nghiệp nên gánh vác trách nhiệm xã hội."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-topic-space-science",
+      "language": "zh",
+      "titleNative": "航天与科学探索",
+      "titleVn": "Hàng không vũ trụ và khám phá khoa học",
+      "branches": [
+        {
+          "id": "universe-exploration",
+          "titleNative": "宇宙探索",
+          "titleVn": "Khám phá vũ trụ",
+          "words": [
+            {
+              "id": "zh-topic-sp2-yuzhou",
+              "headword": "宇宙",
+              "reading": "yǔzhòu",
+              "meaningVn": "vũ trụ",
+              "example": "宇宙非常浩瀚。",
+              "exampleVn": "Vũ trụ vô cùng bao la."
+            },
+            {
+              "id": "zh-topic-sp2-taikong",
+              "headword": "太空",
+              "reading": "tàikōng",
+              "meaningVn": "không gian vũ trụ",
+              "example": "他梦想有一天能去太空旅行。",
+              "exampleVn": "Anh ấy mơ ước một ngày nào đó được du hành vào không gian vũ trụ."
+            },
+            {
+              "id": "zh-topic-sp2-xingqiu",
+              "headword": "星球",
+              "reading": "xīngqiú",
+              "meaningVn": "hành tinh, thiên thể",
+              "example": "火星是离地球较近的星球。",
+              "exampleVn": "Sao Hỏa là hành tinh gần Trái Đất."
+            },
+            {
+              "id": "zh-topic-sp2-weixing",
+              "headword": "卫星",
+              "reading": "wèixīng",
+              "meaningVn": "vệ tinh",
+              "example": "这颗卫星用于通信。",
+              "exampleVn": "Vệ tinh này dùng để liên lạc thông tin."
+            },
+            {
+              "id": "zh-topic-sp2-heidong",
+              "headword": "黑洞",
+              "reading": "hēidòng",
+              "meaningVn": "hố đen",
+              "example": "科学家拍到了黑洞的照片。",
+              "exampleVn": "Các nhà khoa học đã chụp được ảnh hố đen."
+            }
+          ]
+        },
+        {
+          "id": "space-technology",
+          "titleNative": "航天技术",
+          "titleVn": "Công nghệ hàng không vũ trụ",
+          "words": [
+            {
+              "id": "zh-topic-sp2-huojian",
+              "headword": "火箭",
+              "reading": "huǒjiàn",
+              "meaningVn": "tên lửa",
+              "example": "火箭成功发射升空。",
+              "exampleVn": "Tên lửa đã phóng lên thành công."
+            },
+            {
+              "id": "zh-topic-sp2-yuhangyuan",
+              "headword": "宇航员",
+              "reading": "yǔhángyuán",
+              "meaningVn": "phi hành gia",
+              "example": "宇航员在太空中生活了半年。",
+              "exampleVn": "Phi hành gia đã sống trong vũ trụ nửa năm."
+            },
+            {
+              "id": "zh-topic-sp2-feichuan",
+              "headword": "飞船",
+              "reading": "fēichuán",
+              "meaningVn": "tàu vũ trụ",
+              "example": "这艘飞船完成了任务。",
+              "exampleVn": "Con tàu vũ trụ này đã hoàn thành nhiệm vụ."
+            },
+            {
+              "id": "zh-topic-sp2-fashe",
+              "headword": "发射",
+              "reading": "fāshè",
+              "meaningVn": "phóng (tên lửa, vệ tinh)",
+              "example": "卫星将在明天发射。",
+              "exampleVn": "Vệ tinh sẽ được phóng vào ngày mai."
+            },
+            {
+              "id": "zh-topic-sp2-kongjianzhan",
+              "headword": "空间站",
+              "reading": "kōngjiānzhàn",
+              "meaningVn": "trạm không gian",
+              "example": "宇航员们在空间站工作。",
+              "exampleVn": "Các phi hành gia làm việc tại trạm không gian."
+            }
+          ]
+        },
+        {
+          "id": "scientific-research",
+          "titleNative": "科学研究",
+          "titleVn": "Nghiên cứu khoa học",
+          "words": [
+            {
+              "id": "zh-topic-sp2-kexuejia",
+              "headword": "科学家",
+              "reading": "kēxuéjiā",
+              "meaningVn": "nhà khoa học",
+              "example": "这位科学家获得了诺贝尔奖。",
+              "exampleVn": "Nhà khoa học này đã đoạt giải Nobel."
+            },
+            {
+              "id": "zh-topic-sp2-shiyan",
+              "headword": "实验",
+              "reading": "shíyàn",
+              "meaningVn": "thí nghiệm",
+              "example": "他们在实验室做实验。",
+              "exampleVn": "Họ làm thí nghiệm trong phòng thí nghiệm."
+            },
+            {
+              "id": "zh-topic-sp2-faxian",
+              "headword": "发现",
+              "reading": "fāxiàn",
+              "meaningVn": "phát hiện",
+              "example": "科学家有了一个重大发现。",
+              "exampleVn": "Các nhà khoa học đã có một phát hiện quan trọng."
+            },
+            {
+              "id": "zh-topic-sp2-yanjiu",
+              "headword": "研究",
+              "reading": "yánjiū",
+              "meaningVn": "nghiên cứu",
+              "example": "他专门研究气候变化。",
+              "exampleVn": "Ông chuyên nghiên cứu biến đổi khí hậu."
+            },
+            {
+              "id": "zh-topic-sp2-jiashe",
+              "headword": "假设",
+              "reading": "jiǎshè",
+              "meaningVn": "giả thuyết",
+              "example": "这个假设还需要验证。",
+              "exampleVn": "Giả thuyết này vẫn cần được kiểm chứng."
+            }
+          ]
+        },
+        {
+          "id": "tech-innovation",
+          "titleNative": "科技创新",
+          "titleVn": "Đổi mới công nghệ",
+          "words": [
+            {
+              "id": "zh-topic-sp2-chuangxin",
+              "headword": "创新",
+              "reading": "chuàngxīn",
+              "meaningVn": "đổi mới sáng tạo",
+              "example": "这家公司以创新著称。",
+              "exampleVn": "Công ty này nổi tiếng về đổi mới sáng tạo."
+            },
+            {
+              "id": "zh-topic-sp2-rengongzhineng",
+              "headword": "人工智能",
+              "reading": "réngōng zhìnéng",
+              "meaningVn": "trí tuệ nhân tạo",
+              "example": "人工智能正在改变我们的生活。",
+              "exampleVn": "Trí tuệ nhân tạo đang thay đổi cuộc sống của chúng ta."
+            },
+            {
+              "id": "zh-topic-sp2-jiqiren",
+              "headword": "机器人",
+              "reading": "jīqìrén",
+              "meaningVn": "robot",
+              "example": "这个工厂使用机器人生产。",
+              "exampleVn": "Nhà máy này sử dụng robot để sản xuất."
+            },
+            {
+              "id": "zh-topic-sp2-zhuanli",
+              "headword": "专利",
+              "reading": "zhuānlì",
+              "meaningVn": "bằng sáng chế",
+              "example": "他申请了一项新专利。",
+              "exampleVn": "Anh ấy đã xin một bằng sáng chế mới."
+            },
+            {
+              "id": "zh-topic-sp2-tupo",
+              "headword": "突破",
+              "reading": "tūpò",
+              "meaningVn": "đột phá",
+              "example": "这是医学领域的一次重大突破。",
+              "exampleVn": "Đây là một đột phá lớn trong lĩnh vực y học."
+            }
+          ]
+        }
+      ]
     }
   ]
 }
