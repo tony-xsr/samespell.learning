@@ -7739,6 +7739,2136 @@
           ]
         }
       ]
+    },
+    {
+      "id": "zh-topic-emotions",
+      "language": "zh",
+      "titleNative": "表达情感",
+      "titleVn": "Diễn tả cảm xúc",
+      "branches": [
+        {
+          "id": "positive-emotion",
+          "titleNative": "积极情绪",
+          "titleVn": "Cảm xúc tích cực",
+          "words": [
+            {
+              "id": "zh-topic-em-kaixin",
+              "headword": "开心",
+              "reading": "kāixīn",
+              "meaningVn": "vui vẻ",
+              "example": "今天她很开心。",
+              "exampleVn": "Hôm nay cô ấy rất vui vẻ."
+            },
+            {
+              "id": "zh-topic-em-xingfen",
+              "headword": "兴奋",
+              "reading": "xīngfèn",
+              "meaningVn": "phấn khích, hào hứng",
+              "example": "孩子们都很兴奋。",
+              "exampleVn": "Bọn trẻ đều rất phấn khích."
+            },
+            {
+              "id": "zh-topic-em-manyi",
+              "headword": "满意",
+              "reading": "mǎnyì",
+              "meaningVn": "hài lòng",
+              "example": "我对结果很满意。",
+              "exampleVn": "Tôi rất hài lòng với kết quả."
+            },
+            {
+              "id": "zh-topic-em-gandong",
+              "headword": "感动",
+              "reading": "gǎndòng",
+              "meaningVn": "cảm động",
+              "example": "这个故事让我很感动。",
+              "exampleVn": "Câu chuyện này khiến tôi rất cảm động."
+            },
+            {
+              "id": "zh-topic-em-jiaoao",
+              "headword": "骄傲",
+              "reading": "jiāo'ào",
+              "meaningVn": "tự hào, hãnh diện",
+              "example": "父母为她感到骄傲。",
+              "exampleVn": "Cha mẹ cảm thấy tự hào về cô ấy.",
+              "children": [
+                {
+                  "id": "zh-topic-em-zihao",
+                  "headword": "自豪",
+                  "reading": "zìháo",
+                  "meaningVn": "tự hào (sắc thái trang trọng hơn 骄傲)",
+                  "example": "我为祖国感到自豪。",
+                  "exampleVn": "Tôi cảm thấy tự hào về tổ quốc."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "negative-emotion",
+          "titleNative": "消极情绪",
+          "titleVn": "Cảm xúc tiêu cực",
+          "words": [
+            {
+              "id": "zh-topic-em-nanguo",
+              "headword": "难过",
+              "reading": "nánguò",
+              "meaningVn": "buồn, khó chịu trong lòng",
+              "example": "听到这个消息我很难过。",
+              "exampleVn": "Nghe tin này tôi rất buồn."
+            },
+            {
+              "id": "zh-topic-em-shengqi",
+              "headword": "生气",
+              "reading": "shēngqì",
+              "meaningVn": "tức giận",
+              "example": "他对我很生气。",
+              "exampleVn": "Anh ấy rất tức giận với tôi."
+            },
+            {
+              "id": "zh-topic-em-danxin",
+              "headword": "担心",
+              "reading": "dānxīn",
+              "meaningVn": "lo lắng",
+              "example": "妈妈很担心我的安全。",
+              "exampleVn": "Mẹ rất lo lắng cho sự an toàn của tôi."
+            },
+            {
+              "id": "zh-topic-em-shiwang",
+              "headword": "失望",
+              "reading": "shīwàng",
+              "meaningVn": "thất vọng",
+              "example": "他对结果感到失望。",
+              "exampleVn": "Anh ấy cảm thấy thất vọng về kết quả."
+            },
+            {
+              "id": "zh-topic-em-haipa",
+              "headword": "害怕",
+              "reading": "hàipà",
+              "meaningVn": "sợ hãi",
+              "example": "小孩害怕黑暗。",
+              "exampleVn": "Trẻ nhỏ sợ bóng tối."
+            }
+          ]
+        },
+        {
+          "id": "complex-emotion",
+          "titleNative": "复杂情绪",
+          "titleVn": "Cảm xúc phức tạp/khác",
+          "words": [
+            {
+              "id": "zh-topic-em-jinzhang",
+              "headword": "紧张",
+              "reading": "jǐnzhāng",
+              "meaningVn": "căng thẳng, hồi hộp",
+              "example": "面试前我很紧张。",
+              "exampleVn": "Trước phỏng vấn tôi rất căng thẳng.",
+              "children": [
+                {
+                  "id": "zh-topic-em-jiaolv",
+                  "headword": "焦虑",
+                  "reading": "jiāolǜ",
+                  "meaningVn": "lo âu (kéo dài, sắc thái nặng hơn 担心)",
+                  "example": "他因为工作压力而焦虑。",
+                  "exampleVn": "Anh ấy lo âu vì áp lực công việc."
+                }
+              ]
+            },
+            {
+              "id": "zh-topic-em-ganga",
+              "headword": "尴尬",
+              "reading": "gāngà",
+              "meaningVn": "ngại ngùng, lúng túng",
+              "example": "那个场面很尴尬。",
+              "exampleVn": "Tình huống đó rất ngại ngùng."
+            },
+            {
+              "id": "zh-topic-em-xianmu",
+              "headword": "羡慕",
+              "reading": "xiànmù",
+              "meaningVn": "ghen tị (nghĩa tốt), ngưỡng mộ",
+              "example": "我很羡慕他的才华。",
+              "exampleVn": "Tôi rất ngưỡng mộ tài năng của anh ấy."
+            },
+            {
+              "id": "zh-topic-em-wunai",
+              "headword": "无奈",
+              "reading": "wúnài",
+              "meaningVn": "bất lực, đành chịu",
+              "example": "面对现实他很无奈。",
+              "exampleVn": "Đối mặt với thực tế anh ấy đành bất lực."
+            },
+            {
+              "id": "zh-topic-em-youyu",
+              "headword": "犹豫",
+              "reading": "yóuyù",
+              "meaningVn": "do dự",
+              "example": "她犹豫了很久才决定。",
+              "exampleVn": "Cô ấy do dự rất lâu mới quyết định."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-topic-hobbies-leisure",
+      "language": "zh",
+      "titleNative": "兴趣爱好",
+      "titleVn": "Sở thích và hoạt động giải trí",
+      "branches": [
+        {
+          "id": "outdoor-activity",
+          "titleNative": "户外活动",
+          "titleVn": "Hoạt động ngoài trời",
+          "words": [
+            {
+              "id": "zh-topic-hb-pashan",
+              "headword": "爬山",
+              "reading": "páshān",
+              "meaningVn": "leo núi, đi bộ đường núi",
+              "example": "周末我们去爬山。",
+              "exampleVn": "Cuối tuần chúng tôi đi leo núi."
+            },
+            {
+              "id": "zh-topic-hb-diaoyu",
+              "headword": "钓鱼",
+              "reading": "diàoyú",
+              "meaningVn": "câu cá",
+              "example": "爷爷喜欢钓鱼。",
+              "exampleVn": "Ông thích câu cá."
+            },
+            {
+              "id": "zh-topic-hb-luying",
+              "headword": "露营",
+              "reading": "lùyíng",
+              "meaningVn": "cắm trại",
+              "example": "我们打算去山里露营。",
+              "exampleVn": "Chúng tôi định đi cắm trại trong núi."
+            },
+            {
+              "id": "zh-topic-hb-qizixingche",
+              "headword": "骑自行车",
+              "reading": "qí zìxíngchē",
+              "meaningVn": "đi xe đạp",
+              "example": "他每天骑自行车上班。",
+              "exampleVn": "Anh ấy mỗi ngày đi xe đạp đi làm."
+            },
+            {
+              "id": "zh-topic-hb-sanbu",
+              "headword": "散步",
+              "reading": "sànbù",
+              "meaningVn": "đi bộ dạo",
+              "example": "晚饭后我喜欢散步。",
+              "exampleVn": "Sau bữa tối tôi thích đi bộ dạo."
+            }
+          ]
+        },
+        {
+          "id": "indoor-hobby",
+          "titleNative": "室内爱好",
+          "titleVn": "Sở thích trong nhà",
+          "words": [
+            {
+              "id": "zh-topic-hb-yuedu",
+              "headword": "阅读",
+              "reading": "yuèdú",
+              "meaningVn": "đọc sách, đọc (trang trọng hơn 看书)",
+              "example": "她每天晚上阅读一小时。",
+              "exampleVn": "Mỗi tối cô ấy đọc sách một tiếng."
+            },
+            {
+              "id": "zh-topic-hb-huahua",
+              "headword": "画画",
+              "reading": "huàhuà",
+              "meaningVn": "vẽ tranh",
+              "example": "我从小就喜欢画画。",
+              "exampleVn": "Từ nhỏ tôi đã thích vẽ tranh."
+            },
+            {
+              "id": "zh-topic-hb-shoucang",
+              "headword": "收藏",
+              "reading": "shōucáng",
+              "meaningVn": "sưu tầm",
+              "example": "他收藏了很多邮票。",
+              "exampleVn": "Anh ấy sưu tầm rất nhiều tem."
+            },
+            {
+              "id": "zh-topic-hb-pintu",
+              "headword": "拼图",
+              "reading": "pīntú",
+              "meaningVn": "xếp hình, ghép tranh",
+              "example": "这个拼图有一千片。",
+              "exampleVn": "Bộ ghép hình này có một nghìn mảnh."
+            },
+            {
+              "id": "zh-topic-hb-xiaqi",
+              "headword": "下棋",
+              "reading": "xiàqí",
+              "meaningVn": "chơi cờ",
+              "example": "爸爸喜欢跟朋友下棋。",
+              "exampleVn": "Bố thích chơi cờ với bạn bè."
+            }
+          ]
+        },
+        {
+          "id": "entertainment",
+          "titleNative": "娱乐方式",
+          "titleVn": "Cách giải trí",
+          "words": [
+            {
+              "id": "zh-topic-hb-zhuiju",
+              "headword": "追剧",
+              "reading": "zhuījù",
+              "meaningVn": "cày phim, theo dõi phim truyền hình từng tập",
+              "example": "她最近在追一部新剧。",
+              "exampleVn": "Gần đây cô ấy đang cày một bộ phim mới.",
+              "children": [
+                {
+                  "id": "zh-topic-hb-danmu",
+                  "headword": "弹幕",
+                  "reading": "dànmù",
+                  "meaningVn": "bình luận trôi trên màn hình video (văn hóa xem phim/video trực tuyến Trung Quốc)",
+                  "example": "这个视频的弹幕特别搞笑。",
+                  "exampleVn": "Bình luận trôi của video này đặc biệt buồn cười."
+                }
+              ]
+            },
+            {
+              "id": "zh-topic-hb-dayouxi",
+              "headword": "打游戏",
+              "reading": "dǎ yóuxì",
+              "meaningVn": "chơi game",
+              "example": "他晚上常常打游戏。",
+              "exampleVn": "Buổi tối anh ấy thường xuyên chơi game."
+            },
+            {
+              "id": "zh-topic-hb-changge",
+              "headword": "唱歌",
+              "reading": "chànggē",
+              "meaningVn": "hát",
+              "example": "周末我们一起去唱歌吧。",
+              "exampleVn": "Cuối tuần chúng ta cùng đi hát đi."
+            },
+            {
+              "id": "zh-topic-hb-guangjie",
+              "headword": "逛街",
+              "reading": "guàngjiē",
+              "meaningVn": "đi dạo phố, đi mua sắm dạo",
+              "example": "周末她喜欢和朋友逛街。",
+              "exampleVn": "Cuối tuần cô ấy thích đi dạo phố với bạn bè."
+            },
+            {
+              "id": "zh-topic-hb-paizhao",
+              "headword": "拍照",
+              "reading": "pāizhào",
+              "meaningVn": "chụp ảnh",
+              "example": "这里风景很美，很适合拍照。",
+              "exampleVn": "Ở đây phong cảnh rất đẹp, rất thích hợp để chụp ảnh."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-topic-health",
+      "language": "zh",
+      "titleNative": "健康",
+      "titleVn": "Sức khỏe",
+      "branches": [
+        {
+          "id": "physical-condition",
+          "titleNative": "身体状况",
+          "titleVn": "Tình trạng cơ thể",
+          "words": [
+            {
+              "id": "zh-topic-hl-ganmao",
+              "headword": "感冒",
+              "reading": "gǎnmào",
+              "meaningVn": "cảm cúm",
+              "example": "我最近感冒了。",
+              "exampleVn": "Gần đây tôi bị cảm cúm."
+            },
+            {
+              "id": "zh-topic-hl-fashao",
+              "headword": "发烧",
+              "reading": "fāshāo",
+              "meaningVn": "sốt",
+              "example": "孩子昨晚发烧了。",
+              "exampleVn": "Đứa trẻ tối qua bị sốt."
+            },
+            {
+              "id": "zh-topic-hl-kesou",
+              "headword": "咳嗽",
+              "reading": "késòu",
+              "meaningVn": "ho",
+              "example": "他咳嗽得很厉害。",
+              "exampleVn": "Anh ấy ho rất dữ dội."
+            },
+            {
+              "id": "zh-topic-hl-touteng",
+              "headword": "头疼",
+              "reading": "tóuténg",
+              "meaningVn": "đau đầu",
+              "example": "我今天有点头疼。",
+              "exampleVn": "Hôm nay tôi hơi đau đầu."
+            },
+            {
+              "id": "zh-topic-hl-pilao",
+              "headword": "疲劳",
+              "reading": "píláo",
+              "meaningVn": "mệt mỏi",
+              "example": "长时间工作让人疲劳。",
+              "exampleVn": "Làm việc thời gian dài khiến người ta mệt mỏi."
+            }
+          ]
+        },
+        {
+          "id": "seeing-doctor",
+          "titleNative": "看病就医",
+          "titleVn": "Khám bệnh",
+          "words": [
+            {
+              "id": "zh-topic-hl-guahao",
+              "headword": "挂号",
+              "reading": "guàhào",
+              "meaningVn": "đăng ký khám bệnh (lấy số)",
+              "example": "去医院要先挂号。",
+              "exampleVn": "Đến bệnh viện phải đăng ký khám trước."
+            },
+            {
+              "id": "zh-topic-hl-dazhen",
+              "headword": "打针",
+              "reading": "dǎzhēn",
+              "meaningVn": "tiêm",
+              "example": "护士给病人打针。",
+              "exampleVn": "Y tá tiêm cho bệnh nhân."
+            },
+            {
+              "id": "zh-topic-hl-chiyao",
+              "headword": "吃药",
+              "reading": "chīyào",
+              "meaningVn": "uống thuốc",
+              "example": "医生让我按时吃药。",
+              "exampleVn": "Bác sĩ bảo tôi uống thuốc đúng giờ."
+            },
+            {
+              "id": "zh-topic-hl-zhuyuan",
+              "headword": "住院",
+              "reading": "zhùyuàn",
+              "meaningVn": "nhập viện",
+              "example": "爷爷因为生病住院了。",
+              "exampleVn": "Ông nội vì bệnh mà phải nhập viện."
+            },
+            {
+              "id": "zh-topic-hl-tijian",
+              "headword": "体检",
+              "reading": "tǐjiǎn",
+              "meaningVn": "khám sức khỏe tổng quát",
+              "example": "公司每年组织员工体检。",
+              "exampleVn": "Công ty tổ chức khám sức khỏe cho nhân viên hằng năm."
+            }
+          ]
+        },
+        {
+          "id": "staying-healthy",
+          "titleNative": "保持健康",
+          "titleVn": "Giữ gìn sức khỏe",
+          "words": [
+            {
+              "id": "zh-topic-hl-duanlian",
+              "headword": "锻炼",
+              "reading": "duànliàn",
+              "meaningVn": "rèn luyện, tập thể dục",
+              "example": "我每天早上锻炼身体。",
+              "exampleVn": "Mỗi sáng tôi rèn luyện thân thể."
+            },
+            {
+              "id": "zh-topic-hl-yangsheng",
+              "headword": "养生",
+              "reading": "yǎngshēng",
+              "meaningVn": "dưỡng sinh",
+              "example": "现在很多年轻人也开始养生。",
+              "exampleVn": "Hiện nay nhiều người trẻ cũng bắt đầu dưỡng sinh."
+            },
+            {
+              "id": "zh-topic-hl-jianfei",
+              "headword": "减肥",
+              "reading": "jiǎnféi",
+              "meaningVn": "giảm cân",
+              "example": "她最近在减肥。",
+              "exampleVn": "Gần đây cô ấy đang giảm cân."
+            },
+            {
+              "id": "zh-topic-hl-aoye",
+              "headword": "熬夜",
+              "reading": "áoyè",
+              "meaningVn": "thức khuya",
+              "example": "熬夜对身体不好。",
+              "exampleVn": "Thức khuya không tốt cho sức khỏe."
+            },
+            {
+              "id": "zh-topic-hl-junhengyinshi",
+              "headword": "均衡饮食",
+              "reading": "jūnhéng yǐnshí",
+              "meaningVn": "ăn uống cân bằng, điều độ",
+              "example": "医生建议均衡饮食。",
+              "exampleVn": "Bác sĩ khuyên nên ăn uống cân bằng."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-topic-food-meals",
+      "language": "zh",
+      "titleNative": "饮食",
+      "titleVn": "Món ăn và bữa ăn",
+      "branches": [
+        {
+          "id": "taste",
+          "titleNative": "口味",
+          "titleVn": "Khẩu vị",
+          "words": [
+            {
+              "id": "zh-topic-fd-xian",
+              "headword": "咸",
+              "reading": "xián",
+              "meaningVn": "mặn",
+              "example": "这道菜有点咸。",
+              "exampleVn": "Món này hơi mặn."
+            },
+            {
+              "id": "zh-topic-fd-tian",
+              "headword": "甜",
+              "reading": "tián",
+              "meaningVn": "ngọt",
+              "example": "这个蛋糕很甜。",
+              "exampleVn": "Chiếc bánh này rất ngọt."
+            },
+            {
+              "id": "zh-topic-fd-la",
+              "headword": "辣",
+              "reading": "là",
+              "meaningVn": "cay",
+              "example": "四川菜以辣闻名。",
+              "exampleVn": "Món ăn Tứ Xuyên nổi tiếng vì cay."
+            },
+            {
+              "id": "zh-topic-fd-suan",
+              "headword": "酸",
+              "reading": "suān",
+              "meaningVn": "chua",
+              "example": "这个汤有点酸。",
+              "exampleVn": "Món canh này hơi chua."
+            },
+            {
+              "id": "zh-topic-fd-qingdan",
+              "headword": "清淡",
+              "reading": "qīngdàn",
+              "meaningVn": "thanh đạm, nhạt",
+              "example": "生病的时候要吃清淡的食物。",
+              "exampleVn": "Khi bị bệnh nên ăn đồ ăn thanh đạm."
+            }
+          ]
+        },
+        {
+          "id": "cooking-method",
+          "titleNative": "烹饪方式",
+          "titleVn": "Cách nấu",
+          "words": [
+            {
+              "id": "zh-topic-fd-chao",
+              "headword": "炒",
+              "reading": "chǎo",
+              "meaningVn": "xào",
+              "example": "妈妈在炒青菜。",
+              "exampleVn": "Mẹ đang xào rau xanh.",
+              "children": [
+                {
+                  "id": "zh-topic-fd-baochao",
+                  "headword": "爆炒",
+                  "reading": "bàochǎo",
+                  "meaningVn": "xào lửa lớn nhanh (kỹ thuật xào đặc trưng)",
+                  "example": "这道菜要用爆炒的方式做。",
+                  "exampleVn": "Món này phải làm theo cách xào lửa lớn nhanh."
+                }
+              ]
+            },
+            {
+              "id": "zh-topic-fd-zhu",
+              "headword": "煮",
+              "reading": "zhǔ",
+              "meaningVn": "nấu, luộc",
+              "example": "她在煮面条。",
+              "exampleVn": "Cô ấy đang luộc mì."
+            },
+            {
+              "id": "zh-topic-fd-zheng",
+              "headword": "蒸",
+              "reading": "zhēng",
+              "meaningVn": "hấp",
+              "example": "蒸鱼很健康。",
+              "exampleVn": "Cá hấp rất tốt cho sức khỏe."
+            },
+            {
+              "id": "zh-topic-fd-kao",
+              "headword": "烤",
+              "reading": "kǎo",
+              "meaningVn": "nướng",
+              "example": "周末我们烤肉吧。",
+              "exampleVn": "Cuối tuần chúng ta nướng thịt đi."
+            },
+            {
+              "id": "zh-topic-fd-dun",
+              "headword": "炖",
+              "reading": "dùn",
+              "meaningVn": "hầm, ninh",
+              "example": "奶奶炖了鸡汤。",
+              "exampleVn": "Bà nội hầm canh gà."
+            }
+          ]
+        },
+        {
+          "id": "dining-habit",
+          "titleNative": "用餐习惯",
+          "titleVn": "Thói quen ăn uống",
+          "words": [
+            {
+              "id": "zh-topic-fd-waimai",
+              "headword": "外卖",
+              "reading": "wàimài",
+              "meaningVn": "đồ ăn giao tận nơi, mang đi",
+              "example": "今天太累了，点外卖吧。",
+              "exampleVn": "Hôm nay mệt quá, đặt đồ ăn giao tận nơi đi."
+            },
+            {
+              "id": "zh-topic-fd-jucan",
+              "headword": "聚餐",
+              "reading": "jùcān",
+              "meaningVn": "ăn tập thể, họp mặt ăn uống",
+              "example": "公司周末组织聚餐。",
+              "exampleVn": "Công ty tổ chức ăn tập thể vào cuối tuần."
+            },
+            {
+              "id": "zh-topic-fd-qingke",
+              "headword": "请客",
+              "reading": "qǐngkè",
+              "meaningVn": "mời khách, đãi khách",
+              "example": "今天我请客。",
+              "exampleVn": "Hôm nay tôi mời khách."
+            },
+            {
+              "id": "zh-topic-fd-dabao",
+              "headword": "打包",
+              "reading": "dǎbāo",
+              "meaningVn": "gói mang về",
+              "example": "剩下的菜可以打包。",
+              "exampleVn": "Món ăn còn thừa có thể gói mang về."
+            },
+            {
+              "id": "zh-topic-fd-tiaoshi",
+              "headword": "挑食",
+              "reading": "tiāoshí",
+              "meaningVn": "kén ăn",
+              "example": "这个孩子很挑食。",
+              "exampleVn": "Đứa trẻ này rất kén ăn."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-topic-shopping",
+      "language": "zh",
+      "titleNative": "购物",
+      "titleVn": "Mua sắm",
+      "branches": [
+        {
+          "id": "shopping-place",
+          "titleNative": "购物场所",
+          "titleVn": "Nơi mua sắm",
+          "words": [
+            {
+              "id": "zh-topic-sh-chaoshi",
+              "headword": "超市",
+              "reading": "chāoshì",
+              "meaningVn": "siêu thị",
+              "example": "我去超市买菜。",
+              "exampleVn": "Tôi đi siêu thị mua rau."
+            },
+            {
+              "id": "zh-topic-sh-shangchang",
+              "headword": "商场",
+              "reading": "shāngchǎng",
+              "meaningVn": "trung tâm thương mại",
+              "example": "周末商场里人很多。",
+              "exampleVn": "Cuối tuần trung tâm thương mại rất đông người."
+            },
+            {
+              "id": "zh-topic-sh-wanggou",
+              "headword": "网购",
+              "reading": "wǎnggòu",
+              "meaningVn": "mua hàng online",
+              "example": "现在很多人喜欢网购。",
+              "exampleVn": "Hiện nay nhiều người thích mua hàng online."
+            },
+            {
+              "id": "zh-topic-sh-shitidian",
+              "headword": "实体店",
+              "reading": "shítǐdiàn",
+              "meaningVn": "cửa hàng thực tế, cửa hàng trực tiếp",
+              "example": "有些东西还是要在实体店试穿。",
+              "exampleVn": "Một số món vẫn phải thử ở cửa hàng thực tế."
+            },
+            {
+              "id": "zh-topic-sh-mianshuidian",
+              "headword": "免税店",
+              "reading": "miǎnshuìdiàn",
+              "meaningVn": "cửa hàng miễn thuế",
+              "example": "机场里有免税店。",
+              "exampleVn": "Trong sân bay có cửa hàng miễn thuế."
+            }
+          ]
+        },
+        {
+          "id": "shopping-behavior",
+          "titleNative": "购物行为",
+          "titleVn": "Hành vi mua sắm",
+          "words": [
+            {
+              "id": "zh-topic-sh-dazhe",
+              "headword": "打折",
+              "reading": "dǎzhé",
+              "meaningVn": "giảm giá",
+              "example": "这件衣服打八折。",
+              "exampleVn": "Chiếc áo này giảm giá 20%."
+            },
+            {
+              "id": "zh-topic-sh-tuihuo",
+              "headword": "退货",
+              "reading": "tuìhuò",
+              "meaningVn": "trả hàng",
+              "example": "不合适可以退货。",
+              "exampleVn": "Không vừa có thể trả hàng."
+            },
+            {
+              "id": "zh-topic-sh-shichuan",
+              "headword": "试穿",
+              "reading": "shìchuān",
+              "meaningVn": "thử (mặc) đồ",
+              "example": "可以试穿一下这件裙子吗？",
+              "exampleVn": "Có thể thử chiếc váy này được không?"
+            },
+            {
+              "id": "zh-topic-sh-paidui",
+              "headword": "排队",
+              "reading": "páiduì",
+              "meaningVn": "xếp hàng",
+              "example": "结账的时候要排队。",
+              "exampleVn": "Lúc thanh toán phải xếp hàng."
+            },
+            {
+              "id": "zh-topic-sh-taojiahuanjia",
+              "headword": "讨价还价",
+              "reading": "tǎojià huánjià",
+              "meaningVn": "trả giá, thương lượng giá",
+              "example": "在市场买东西可以讨价还价。",
+              "exampleVn": "Mua đồ ở chợ có thể trả giá.",
+              "children": [
+                {
+                  "id": "zh-topic-sh-kanjia",
+                  "headword": "砍价",
+                  "reading": "kǎnjià",
+                  "meaningVn": "mặc cả, ép giá xuống (đồng nghĩa gần gũi hơn 讨价还价)",
+                  "example": "她很会砍价。",
+                  "exampleVn": "Cô ấy rất giỏi mặc cả."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "payment",
+          "titleNative": "付款方式",
+          "titleVn": "Cách thanh toán",
+          "words": [
+            {
+              "id": "zh-topic-sh-xianjin",
+              "headword": "现金",
+              "reading": "xiànjīn",
+              "meaningVn": "tiền mặt",
+              "example": "现在很少人用现金了。",
+              "exampleVn": "Hiện nay rất ít người dùng tiền mặt."
+            },
+            {
+              "id": "zh-topic-sh-shuaka",
+              "headword": "刷卡",
+              "reading": "shuākǎ",
+              "meaningVn": "quẹt thẻ",
+              "example": "可以刷卡吗？",
+              "exampleVn": "Có thể quẹt thẻ được không?"
+            },
+            {
+              "id": "zh-topic-sh-saomazhifu",
+              "headword": "扫码支付",
+              "reading": "sǎomǎ zhīfù",
+              "meaningVn": "thanh toán quét mã QR",
+              "example": "中国很流行扫码支付。",
+              "exampleVn": "Ở Trung Quốc rất phổ biến thanh toán quét mã QR."
+            },
+            {
+              "id": "zh-topic-sh-fenqifukuan",
+              "headword": "分期付款",
+              "reading": "fēnqī fùkuǎn",
+              "meaningVn": "trả góp",
+              "example": "这台手机可以分期付款。",
+              "exampleVn": "Chiếc điện thoại này có thể trả góp."
+            },
+            {
+              "id": "zh-topic-sh-zhaoling",
+              "headword": "找零",
+              "reading": "zhǎolíng",
+              "meaningVn": "tiền thừa, tiền lẻ trả lại",
+              "example": "收银员找零给我。",
+              "exampleVn": "Thu ngân trả lại tiền thừa cho tôi."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-topic-transport-travel",
+      "language": "zh",
+      "titleNative": "交通旅游",
+      "titleVn": "Giao thông và du lịch",
+      "branches": [
+        {
+          "id": "transportation",
+          "titleNative": "交通工具",
+          "titleVn": "Phương tiện giao thông",
+          "words": [
+            {
+              "id": "zh-topic-tt-ditie",
+              "headword": "地铁",
+              "reading": "dìtiě",
+              "meaningVn": "tàu điện ngầm",
+              "example": "我每天坐地铁上班。",
+              "exampleVn": "Mỗi ngày tôi đi tàu điện ngầm đi làm."
+            },
+            {
+              "id": "zh-topic-tt-gaotie",
+              "headword": "高铁",
+              "reading": "gāotiě",
+              "meaningVn": "tàu cao tốc",
+              "example": "坐高铁去上海只要五个小时。",
+              "exampleVn": "Đi tàu cao tốc đến Thượng Hải chỉ mất 5 tiếng."
+            },
+            {
+              "id": "zh-topic-tt-chuzuche",
+              "headword": "出租车",
+              "reading": "chūzūchē",
+              "meaningVn": "taxi",
+              "example": "我们打车出租车去机场。",
+              "exampleVn": "Chúng tôi bắt taxi đi sân bay."
+            },
+            {
+              "id": "zh-topic-tt-gongxiangdanche",
+              "headword": "共享单车",
+              "reading": "gòngxiǎng dānchē",
+              "meaningVn": "xe đạp chia sẻ (bike-sharing)",
+              "example": "街上到处都是共享单车。",
+              "exampleVn": "Trên phố đâu đâu cũng có xe đạp chia sẻ."
+            },
+            {
+              "id": "zh-topic-tt-duche",
+              "headword": "堵车",
+              "reading": "dǔchē",
+              "meaningVn": "tắc đường",
+              "example": "上班高峰期经常堵车。",
+              "exampleVn": "Giờ cao điểm đi làm thường xuyên tắc đường.",
+              "children": [
+                {
+                  "id": "zh-topic-tt-gaofengqi",
+                  "headword": "高峰期",
+                  "reading": "gāofēngqī",
+                  "meaningVn": "giờ cao điểm (nguyên nhân thường gặp gây tắc đường)",
+                  "example": "早上八点是交通高峰期。",
+                  "exampleVn": "Tám giờ sáng là giờ cao điểm giao thông."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "travel-preparation",
+          "titleNative": "旅行准备",
+          "titleVn": "Chuẩn bị du lịch",
+          "words": [
+            {
+              "id": "zh-topic-tt-qianzheng",
+              "headword": "签证",
+              "reading": "qiānzhèng",
+              "meaningVn": "visa",
+              "example": "去很多国家旅游需要签证。",
+              "exampleVn": "Đi du lịch nhiều nước cần visa."
+            },
+            {
+              "id": "zh-topic-tt-huzhao",
+              "headword": "护照",
+              "reading": "hùzhào",
+              "meaningVn": "hộ chiếu",
+              "example": "出国旅游要带护照。",
+              "exampleVn": "Đi du lịch nước ngoài phải mang hộ chiếu."
+            },
+            {
+              "id": "zh-topic-tt-xinglixiang",
+              "headword": "行李箱",
+              "reading": "xínglixiāng",
+              "meaningVn": "vali, hành lý",
+              "example": "我的行李箱太重了。",
+              "exampleVn": "Vali của tôi quá nặng."
+            },
+            {
+              "id": "zh-topic-tt-gonglve",
+              "headword": "攻略",
+              "reading": "gōnglüè",
+              "meaningVn": "cẩm nang du lịch, chiến lược đi chơi",
+              "example": "出发前我做了详细的旅游攻略。",
+              "exampleVn": "Trước khi đi tôi đã làm cẩm nang du lịch chi tiết."
+            },
+            {
+              "id": "zh-topic-tt-yuding",
+              "headword": "预订",
+              "reading": "yùdìng",
+              "meaningVn": "đặt trước (phòng/vé)",
+              "example": "我已经预订了酒店。",
+              "exampleVn": "Tôi đã đặt trước khách sạn."
+            }
+          ]
+        },
+        {
+          "id": "travel-experience",
+          "titleNative": "旅游体验",
+          "titleVn": "Trải nghiệm du lịch",
+          "words": [
+            {
+              "id": "zh-topic-tt-jingdian",
+              "headword": "景点",
+              "reading": "jǐngdiǎn",
+              "meaningVn": "điểm tham quan",
+              "example": "这个城市有很多著名景点。",
+              "exampleVn": "Thành phố này có nhiều điểm tham quan nổi tiếng."
+            },
+            {
+              "id": "zh-topic-tt-daoyou",
+              "headword": "导游",
+              "reading": "dǎoyóu",
+              "meaningVn": "hướng dẫn viên",
+              "example": "导游给我们介绍了当地文化。",
+              "exampleVn": "Hướng dẫn viên giới thiệu cho chúng tôi văn hóa địa phương."
+            },
+            {
+              "id": "zh-topic-tt-milu",
+              "headword": "迷路",
+              "reading": "mílù",
+              "meaningVn": "lạc đường",
+              "example": "我们在古城里迷路了。",
+              "exampleVn": "Chúng tôi bị lạc đường trong cổ thành."
+            },
+            {
+              "id": "zh-topic-tt-shicha",
+              "headword": "时差",
+              "reading": "shíchā",
+              "meaningVn": "lệch giờ (chênh lệch múi giờ)",
+              "example": "刚到美国我还没倒过时差。",
+              "exampleVn": "Vừa đến Mỹ tôi vẫn chưa hết lệch giờ."
+            },
+            {
+              "id": "zh-topic-tt-jinianpin",
+              "headword": "纪念品",
+              "reading": "jìniànpǐn",
+              "meaningVn": "quà lưu niệm",
+              "example": "我给朋友买了一些纪念品。",
+              "exampleVn": "Tôi mua cho bạn bè một ít quà lưu niệm."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-topic-school-life",
+      "language": "zh",
+      "titleNative": "校园生活",
+      "titleVn": "Đời sống học đường",
+      "branches": [
+        {
+          "id": "classroom-study",
+          "titleNative": "课堂学习",
+          "titleVn": "Học trên lớp",
+          "words": [
+            {
+              "id": "zh-topic-sc-shangke",
+              "headword": "上课",
+              "reading": "shàngkè",
+              "meaningVn": "đi học, lên lớp",
+              "example": "我们八点上课。",
+              "exampleVn": "Chúng tôi lên lớp lúc 8 giờ."
+            },
+            {
+              "id": "zh-topic-sc-zuoye",
+              "headword": "作业",
+              "reading": "zuòyè",
+              "meaningVn": "bài tập",
+              "example": "今天的作业很多。",
+              "exampleVn": "Bài tập hôm nay rất nhiều."
+            },
+            {
+              "id": "zh-topic-sc-kaoshi",
+              "headword": "考试",
+              "reading": "kǎoshì",
+              "meaningVn": "thi cử",
+              "example": "下周有一场考试。",
+              "exampleVn": "Tuần sau có một kỳ thi."
+            },
+            {
+              "id": "zh-topic-sc-fuxi",
+              "headword": "复习",
+              "reading": "fùxí",
+              "meaningVn": "ôn tập",
+              "example": "考试前要好好复习。",
+              "exampleVn": "Trước khi thi phải ôn tập cho tốt."
+            },
+            {
+              "id": "zh-topic-sc-jige",
+              "headword": "及格",
+              "reading": "jígé",
+              "meaningVn": "đạt điểm đậu",
+              "example": "这次考试他及格了。",
+              "exampleVn": "Kỳ thi lần này anh ấy đã đậu."
+            }
+          ]
+        },
+        {
+          "id": "campus-facility",
+          "titleNative": "校园设施",
+          "titleVn": "Cơ sở trường học",
+          "words": [
+            {
+              "id": "zh-topic-sc-tushuguan",
+              "headword": "图书馆",
+              "reading": "túshūguǎn",
+              "meaningVn": "thư viện",
+              "example": "我经常在图书馆学习。",
+              "exampleVn": "Tôi thường học ở thư viện."
+            },
+            {
+              "id": "zh-topic-sc-shitang",
+              "headword": "食堂",
+              "reading": "shítáng",
+              "meaningVn": "căng tin",
+              "example": "我们去食堂吃饭吧。",
+              "exampleVn": "Chúng ta đi căng tin ăn cơm đi."
+            },
+            {
+              "id": "zh-topic-sc-sushe",
+              "headword": "宿舍",
+              "reading": "sùshè",
+              "meaningVn": "ký túc xá",
+              "example": "我住在学校宿舍。",
+              "exampleVn": "Tôi ở ký túc xá trường."
+            },
+            {
+              "id": "zh-topic-sc-caochang",
+              "headword": "操场",
+              "reading": "cāochǎng",
+              "meaningVn": "sân vận động, sân chơi",
+              "example": "同学们在操场上跑步。",
+              "exampleVn": "Các bạn học sinh chạy bộ trên sân vận động."
+            },
+            {
+              "id": "zh-topic-sc-jiaoshi",
+              "headword": "教室",
+              "reading": "jiàoshì",
+              "meaningVn": "phòng học",
+              "example": "教室里很安静。",
+              "exampleVn": "Phòng học rất yên tĩnh."
+            }
+          ]
+        },
+        {
+          "id": "teacher-student",
+          "titleNative": "师生关系",
+          "titleVn": "Quan hệ thầy trò",
+          "words": [
+            {
+              "id": "zh-topic-sc-banzhuren",
+              "headword": "班主任",
+              "reading": "bānzhǔrèn",
+              "meaningVn": "giáo viên chủ nhiệm",
+              "example": "班主任很关心我们。",
+              "exampleVn": "Giáo viên chủ nhiệm rất quan tâm chúng tôi."
+            },
+            {
+              "id": "zh-topic-sc-tongxue",
+              "headword": "同学",
+              "reading": "tóngxué",
+              "meaningVn": "bạn học",
+              "example": "他是我的同学。",
+              "exampleVn": "Anh ấy là bạn học của tôi."
+            },
+            {
+              "id": "zh-topic-sc-qingjia",
+              "headword": "请假",
+              "reading": "qǐngjià",
+              "meaningVn": "xin nghỉ phép",
+              "example": "他今天请假没来上课。",
+              "exampleVn": "Hôm nay anh ấy xin nghỉ phép không đến lớp."
+            },
+            {
+              "id": "zh-topic-sc-tiwen",
+              "headword": "提问",
+              "reading": "tíwèn",
+              "meaningVn": "đặt câu hỏi, hỏi bài",
+              "example": "老师鼓励学生提问。",
+              "exampleVn": "Giáo viên khuyến khích học sinh đặt câu hỏi."
+            },
+            {
+              "id": "zh-topic-sc-fudao",
+              "headword": "辅导",
+              "reading": "fǔdǎo",
+              "meaningVn": "phụ đạo, hướng dẫn",
+              "example": "老师课后给我辅导。",
+              "exampleVn": "Giáo viên phụ đạo cho tôi sau giờ học."
+            }
+          ]
+        },
+        {
+          "id": "exam-graduation",
+          "titleNative": "升学考试",
+          "titleVn": "Thi lên lớp và tuyển sinh",
+          "words": [
+            {
+              "id": "zh-topic-sc-gaokao",
+              "headword": "高考",
+              "reading": "gāokǎo",
+              "meaningVn": "kỳ thi tuyển sinh đại học (Trung Quốc)",
+              "example": "高考对中国学生很重要。",
+              "exampleVn": "Kỳ thi đại học rất quan trọng với học sinh Trung Quốc."
+            },
+            {
+              "id": "zh-topic-sc-luqu",
+              "headword": "录取",
+              "reading": "lùqǔ",
+              "meaningVn": "trúng tuyển",
+              "example": "她被那所大学录取了。",
+              "exampleVn": "Cô ấy đã trúng tuyển vào trường đại học đó."
+            },
+            {
+              "id": "zh-topic-sc-jiangxuejin",
+              "headword": "奖学金",
+              "reading": "jiǎngxuéjīn",
+              "meaningVn": "học bổng",
+              "example": "他拿到了全额奖学金。",
+              "exampleVn": "Anh ấy nhận được học bổng toàn phần."
+            },
+            {
+              "id": "zh-topic-sc-biye",
+              "headword": "毕业",
+              "reading": "bìyè",
+              "meaningVn": "tốt nghiệp",
+              "example": "我明年就要毕业了。",
+              "exampleVn": "Sang năm tôi sẽ tốt nghiệp."
+            },
+            {
+              "id": "zh-topic-sc-buxiban",
+              "headword": "补习班",
+              "reading": "bǔxíbān",
+              "meaningVn": "lớp học thêm",
+              "example": "很多学生放学后去补习班。",
+              "exampleVn": "Nhiều học sinh sau giờ học đi học thêm."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-topic-office-life",
+      "language": "zh",
+      "titleNative": "职场生活",
+      "titleVn": "Đời sống công sở",
+      "branches": [
+        {
+          "id": "daily-work",
+          "titleNative": "工作日常",
+          "titleVn": "Công việc hằng ngày",
+          "words": [
+            {
+              "id": "zh-topic-of-jiaban",
+              "headword": "加班",
+              "reading": "jiābān",
+              "meaningVn": "làm thêm giờ",
+              "example": "这周我们经常加班。",
+              "exampleVn": "Tuần này chúng tôi thường xuyên làm thêm giờ."
+            },
+            {
+              "id": "zh-topic-of-kaihui",
+              "headword": "开会",
+              "reading": "kāihuì",
+              "meaningVn": "họp",
+              "example": "早上九点开会。",
+              "exampleVn": "Chín giờ sáng họp."
+            },
+            {
+              "id": "zh-topic-of-huibao",
+              "headword": "汇报",
+              "reading": "huìbào",
+              "meaningVn": "báo cáo",
+              "example": "他向老板汇报了工作进度。",
+              "exampleVn": "Anh ấy báo cáo tiến độ công việc cho sếp."
+            },
+            {
+              "id": "zh-topic-of-chuchai",
+              "headword": "出差",
+              "reading": "chūchāi",
+              "meaningVn": "đi công tác",
+              "example": "下周我要去上海出差。",
+              "exampleVn": "Tuần sau tôi phải đi công tác Thượng Hải."
+            },
+            {
+              "id": "zh-topic-of-xiujia",
+              "headword": "休假",
+              "reading": "xiūjià",
+              "meaningVn": "nghỉ phép",
+              "example": "我打算下个月休假。",
+              "exampleVn": "Tôi định nghỉ phép vào tháng sau."
+            }
+          ]
+        },
+        {
+          "id": "career-promotion",
+          "titleNative": "职位晋升",
+          "titleVn": "Thăng chức",
+          "words": [
+            {
+              "id": "zh-topic-of-shengzhi",
+              "headword": "升职",
+              "reading": "shēngzhí",
+              "meaningVn": "thăng chức",
+              "example": "他今年升职了。",
+              "exampleVn": "Năm nay anh ấy đã được thăng chức."
+            },
+            {
+              "id": "zh-topic-of-tiaocao",
+              "headword": "跳槽",
+              "reading": "tiàocáo",
+              "meaningVn": "nhảy việc",
+              "example": "她打算跳槽到另一家公司。",
+              "exampleVn": "Cô ấy định nhảy việc sang công ty khác."
+            },
+            {
+              "id": "zh-topic-of-cizhi",
+              "headword": "辞职",
+              "reading": "cízhí",
+              "meaningVn": "từ chức, nghỉ việc",
+              "example": "他决定辞职创业。",
+              "exampleVn": "Anh ấy quyết định nghỉ việc để khởi nghiệp."
+            },
+            {
+              "id": "zh-topic-of-yingpin",
+              "headword": "应聘",
+              "reading": "yìngpìn",
+              "meaningVn": "ứng tuyển",
+              "example": "我应聘了这家公司的职位。",
+              "exampleVn": "Tôi đã ứng tuyển vào vị trí ở công ty này."
+            },
+            {
+              "id": "zh-topic-of-mianshi",
+              "headword": "面试",
+              "reading": "miànshì",
+              "meaningVn": "phỏng vấn",
+              "example": "明天我有一场面试。",
+              "exampleVn": "Ngày mai tôi có một buổi phỏng vấn."
+            }
+          ]
+        },
+        {
+          "id": "colleague-relation",
+          "titleNative": "同事关系",
+          "titleVn": "Quan hệ đồng nghiệp",
+          "words": [
+            {
+              "id": "zh-topic-of-tongshi",
+              "headword": "同事",
+              "reading": "tóngshì",
+              "meaningVn": "đồng nghiệp",
+              "example": "他是我的同事。",
+              "exampleVn": "Anh ấy là đồng nghiệp của tôi."
+            },
+            {
+              "id": "zh-topic-of-laoban",
+              "headword": "老板",
+              "reading": "lǎobǎn",
+              "meaningVn": "sếp, ông chủ",
+              "example": "老板对我们很严格。",
+              "exampleVn": "Sếp rất nghiêm khắc với chúng tôi."
+            },
+            {
+              "id": "zh-topic-of-xiashu",
+              "headword": "下属",
+              "reading": "xiàshǔ",
+              "meaningVn": "cấp dưới",
+              "example": "他对下属很照顾。",
+              "exampleVn": "Anh ấy rất quan tâm đến cấp dưới."
+            },
+            {
+              "id": "zh-topic-of-tuanduihezuo",
+              "headword": "团队合作",
+              "reading": "tuánduì hézuò",
+              "meaningVn": "làm việc nhóm",
+              "example": "这个项目需要团队合作。",
+              "exampleVn": "Dự án này cần sự làm việc nhóm."
+            },
+            {
+              "id": "zh-topic-of-goutong",
+              "headword": "沟通",
+              "reading": "gōutōng",
+              "meaningVn": "giao tiếp, trao đổi",
+              "example": "良好的沟通很重要。",
+              "exampleVn": "Giao tiếp tốt rất quan trọng."
+            }
+          ]
+        },
+        {
+          "id": "salary-benefit",
+          "titleNative": "薪资福利",
+          "titleVn": "Lương thưởng",
+          "words": [
+            {
+              "id": "zh-topic-of-gongzi",
+              "headword": "工资",
+              "reading": "gōngzī",
+              "meaningVn": "lương",
+              "example": "这个月的工资已经发了。",
+              "exampleVn": "Lương tháng này đã được trả."
+            },
+            {
+              "id": "zh-topic-of-jiangjin",
+              "headword": "奖金",
+              "reading": "jiǎngjīn",
+              "meaningVn": "tiền thưởng",
+              "example": "年底公司发奖金。",
+              "exampleVn": "Cuối năm công ty phát tiền thưởng."
+            },
+            {
+              "id": "zh-topic-of-jiaxin",
+              "headword": "加薪",
+              "reading": "jiāxīn",
+              "meaningVn": "tăng lương",
+              "example": "他今年加薪了。",
+              "exampleVn": "Năm nay anh ấy được tăng lương."
+            },
+            {
+              "id": "zh-topic-of-fuli",
+              "headword": "福利",
+              "reading": "fúlì",
+              "meaningVn": "phúc lợi",
+              "example": "这家公司福利很好。",
+              "exampleVn": "Công ty này phúc lợi rất tốt."
+            },
+            {
+              "id": "zh-topic-of-wuxianyijin",
+              "headword": "五险一金",
+              "reading": "wǔxiǎn yījīn",
+              "meaningVn": "năm loại bảo hiểm + quỹ nhà ở (chế độ phúc lợi bắt buộc ở Trung Quốc)",
+              "example": "公司为员工缴纳五险一金。",
+              "exampleVn": "Công ty đóng năm bảo hiểm và quỹ nhà ở cho nhân viên."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-topic-family-relations",
+      "language": "zh",
+      "titleNative": "家庭关系",
+      "titleVn": "Quan hệ gia đình",
+      "branches": [
+        {
+          "id": "nuclear-family",
+          "titleNative": "核心家庭",
+          "titleVn": "Gia đình hạt nhân",
+          "words": [
+            {
+              "id": "zh-topic-fm-fumu",
+              "headword": "父母",
+              "reading": "fùmǔ",
+              "meaningVn": "cha mẹ",
+              "example": "我的父母住在乡下。",
+              "exampleVn": "Cha mẹ tôi sống ở quê."
+            },
+            {
+              "id": "zh-topic-fm-fuqi",
+              "headword": "夫妻",
+              "reading": "fūqī",
+              "meaningVn": "vợ chồng",
+              "example": "他们是一对幸福的夫妻。",
+              "exampleVn": "Họ là một cặp vợ chồng hạnh phúc."
+            },
+            {
+              "id": "zh-topic-fm-zinv",
+              "headword": "子女",
+              "reading": "zǐnǚ",
+              "meaningVn": "con cái",
+              "example": "他们有两个子女。",
+              "exampleVn": "Họ có hai người con."
+            },
+            {
+              "id": "zh-topic-fm-xiongdijiemei",
+              "headword": "兄弟姐妹",
+              "reading": "xiōngdì jiěmèi",
+              "meaningVn": "anh chị em",
+              "example": "我没有兄弟姐妹。",
+              "exampleVn": "Tôi không có anh chị em."
+            },
+            {
+              "id": "zh-topic-fm-dushengzinv",
+              "headword": "独生子女",
+              "reading": "dúshēng zǐnǚ",
+              "meaningVn": "con một",
+              "example": "他是家里的独生子女。",
+              "exampleVn": "Anh ấy là con một trong nhà."
+            }
+          ]
+        },
+        {
+          "id": "extended-family",
+          "titleNative": "大家庭",
+          "titleVn": "Gia đình lớn, họ hàng",
+          "words": [
+            {
+              "id": "zh-topic-fm-qinqi",
+              "headword": "亲戚",
+              "reading": "qīnqi",
+              "meaningVn": "họ hàng",
+              "example": "过年的时候亲戚都来了。",
+              "exampleVn": "Dịp Tết họ hàng đều đến."
+            },
+            {
+              "id": "zh-topic-fm-zufumu",
+              "headword": "祖父母",
+              "reading": "zǔfùmǔ",
+              "meaningVn": "ông bà (nội)",
+              "example": "我和祖父母住在一起。",
+              "exampleVn": "Tôi sống cùng ông bà nội."
+            },
+            {
+              "id": "zh-topic-fm-waizufumu",
+              "headword": "外祖父母",
+              "reading": "wàizǔfùmǔ",
+              "meaningVn": "ông bà (ngoại)",
+              "example": "暑假我去外祖父母家。",
+              "exampleVn": "Nghỉ hè tôi đến nhà ông bà ngoại."
+            },
+            {
+              "id": "zh-topic-fm-biaoxiongdijiemei",
+              "headword": "表兄弟姐妹",
+              "reading": "biǎo xiōngdì jiěmèi",
+              "meaningVn": "anh chị em họ",
+              "example": "我有很多表兄弟姐妹。",
+              "exampleVn": "Tôi có rất nhiều anh chị em họ."
+            },
+            {
+              "id": "zh-topic-fm-yinqin",
+              "headword": "姻亲",
+              "reading": "yīnqīn",
+              "meaningVn": "họ hàng bên vợ/chồng",
+              "example": "他和姻亲的关系很好。",
+              "exampleVn": "Anh ấy có quan hệ tốt với họ hàng bên vợ."
+            }
+          ]
+        },
+        {
+          "id": "family-affairs",
+          "titleNative": "家庭事务",
+          "titleVn": "Việc nhà",
+          "words": [
+            {
+              "id": "zh-topic-fm-fuyang",
+              "headword": "抚养",
+              "reading": "fǔyǎng",
+              "meaningVn": "nuôi dưỡng",
+              "example": "她一个人抚养两个孩子。",
+              "exampleVn": "Cô ấy một mình nuôi dưỡng hai đứa con."
+            },
+            {
+              "id": "zh-topic-fm-shanyang",
+              "headword": "赡养",
+              "reading": "shànyǎng",
+              "meaningVn": "phụng dưỡng (cha mẹ già)",
+              "example": "子女有赡养父母的义务。",
+              "exampleVn": "Con cái có nghĩa vụ phụng dưỡng cha mẹ."
+            },
+            {
+              "id": "zh-topic-fm-yichan",
+              "headword": "遗产",
+              "reading": "yíchǎn",
+              "meaningVn": "di sản, tài sản thừa kế",
+              "example": "他们在讨论遗产的分配。",
+              "exampleVn": "Họ đang bàn về việc phân chia di sản."
+            },
+            {
+              "id": "zh-topic-fm-jiawu",
+              "headword": "家务",
+              "reading": "jiāwù",
+              "meaningVn": "việc nhà",
+              "example": "我们一起分担家务。",
+              "exampleVn": "Chúng tôi cùng nhau chia sẻ việc nhà."
+            },
+            {
+              "id": "zh-topic-fm-jiaoyuzinv",
+              "headword": "教育子女",
+              "reading": "jiàoyù zǐnǚ",
+              "meaningVn": "giáo dục con cái",
+              "example": "教育子女是父母的责任。",
+              "exampleVn": "Giáo dục con cái là trách nhiệm của cha mẹ."
+            }
+          ]
+        },
+        {
+          "id": "family-conflict",
+          "titleNative": "家庭矛盾",
+          "titleVn": "Mâu thuẫn gia đình",
+          "words": [
+            {
+              "id": "zh-topic-fm-zhengchao",
+              "headword": "争吵",
+              "reading": "zhēngchǎo",
+              "meaningVn": "cãi vã",
+              "example": "他们因为小事争吵起来。",
+              "exampleVn": "Họ cãi vã vì chuyện nhỏ nhặt."
+            },
+            {
+              "id": "zh-topic-fm-daigou",
+              "headword": "代沟",
+              "reading": "dàigōu",
+              "meaningVn": "khoảng cách thế hệ",
+              "example": "父母和孩子之间有代沟。",
+              "exampleVn": "Giữa cha mẹ và con cái có khoảng cách thế hệ."
+            },
+            {
+              "id": "zh-topic-fm-lengzhan",
+              "headword": "冷战",
+              "reading": "lěngzhàn",
+              "meaningVn": "chiến tranh lạnh (nghĩa bóng: giận nhau không nói chuyện)",
+              "example": "他们俩已经冷战好几天了。",
+              "exampleVn": "Hai người họ đã chiến tranh lạnh mấy ngày rồi."
+            },
+            {
+              "id": "zh-topic-fm-hejie",
+              "headword": "和解",
+              "reading": "héjiě",
+              "meaningVn": "hòa giải",
+              "example": "经过沟通，他们终于和解了。",
+              "exampleVn": "Qua trao đổi, cuối cùng họ đã hòa giải."
+            },
+            {
+              "id": "zh-topic-fm-fenju",
+              "headword": "分居",
+              "reading": "fēnjū",
+              "meaningVn": "ly thân",
+              "example": "他们已经分居半年了。",
+              "exampleVn": "Họ đã ly thân được nửa năm."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-topic-computer-internet",
+      "language": "zh",
+      "titleNative": "电脑与网络",
+      "titleVn": "Máy tính và Internet",
+      "branches": [
+        {
+          "id": "hardware",
+          "titleNative": "电脑硬件",
+          "titleVn": "Phần cứng máy tính",
+          "words": [
+            {
+              "id": "zh-topic-ci-jianpan",
+              "headword": "键盘",
+              "reading": "jiànpán",
+              "meaningVn": "bàn phím",
+              "example": "我的键盘坏了。",
+              "exampleVn": "Bàn phím của tôi bị hỏng."
+            },
+            {
+              "id": "zh-topic-ci-shubiao",
+              "headword": "鼠标",
+              "reading": "shǔbiāo",
+              "meaningVn": "chuột (máy tính)",
+              "example": "这个鼠标很好用。",
+              "exampleVn": "Con chuột này rất dễ dùng."
+            },
+            {
+              "id": "zh-topic-ci-pingmu",
+              "headword": "屏幕",
+              "reading": "píngmù",
+              "meaningVn": "màn hình",
+              "example": "手机屏幕碎了。",
+              "exampleVn": "Màn hình điện thoại bị vỡ."
+            },
+            {
+              "id": "zh-topic-ci-yingpan",
+              "headword": "硬盘",
+              "reading": "yìngpán",
+              "meaningVn": "ổ cứng",
+              "example": "我的硬盘空间不够了。",
+              "exampleVn": "Dung lượng ổ cứng của tôi không đủ."
+            },
+            {
+              "id": "zh-topic-ci-chongdianqi",
+              "headword": "充电器",
+              "reading": "chōngdiànqì",
+              "meaningVn": "sạc, bộ sạc",
+              "example": "我忘了带充电器。",
+              "exampleVn": "Tôi quên mang sạc."
+            }
+          ]
+        },
+        {
+          "id": "software-system",
+          "titleNative": "软件与系统",
+          "titleVn": "Phần mềm và hệ thống",
+          "words": [
+            {
+              "id": "zh-topic-ci-ruanjian",
+              "headword": "软件",
+              "reading": "ruǎnjiàn",
+              "meaningVn": "phần mềm",
+              "example": "这个软件很实用。",
+              "exampleVn": "Phần mềm này rất thực dụng."
+            },
+            {
+              "id": "zh-topic-ci-xitong",
+              "headword": "系统",
+              "reading": "xìtǒng",
+              "meaningVn": "hệ thống",
+              "example": "电脑系统崩溃了。",
+              "exampleVn": "Hệ thống máy tính bị sập."
+            },
+            {
+              "id": "zh-topic-ci-xiazai",
+              "headword": "下载",
+              "reading": "xiàzài",
+              "meaningVn": "tải xuống",
+              "example": "我在下载一个新软件。",
+              "exampleVn": "Tôi đang tải xuống một phần mềm mới."
+            },
+            {
+              "id": "zh-topic-ci-anzhuang",
+              "headword": "安装",
+              "reading": "ānzhuāng",
+              "meaningVn": "cài đặt",
+              "example": "请先安装这个程序。",
+              "exampleVn": "Hãy cài đặt chương trình này trước."
+            },
+            {
+              "id": "zh-topic-ci-gengxin",
+              "headword": "更新",
+              "reading": "gēngxīn",
+              "meaningVn": "cập nhật",
+              "example": "系统需要更新了。",
+              "exampleVn": "Hệ thống cần được cập nhật."
+            }
+          ]
+        },
+        {
+          "id": "online-life",
+          "titleNative": "网络生活",
+          "titleVn": "Đời sống mạng",
+          "words": [
+            {
+              "id": "zh-topic-ci-shejiaomeiti",
+              "headword": "社交媒体",
+              "reading": "shèjiāo méitǐ",
+              "meaningVn": "mạng xã hội",
+              "example": "很多人每天都看社交媒体。",
+              "exampleVn": "Nhiều người mỗi ngày đều xem mạng xã hội."
+            },
+            {
+              "id": "zh-topic-ci-zhibo",
+              "headword": "直播",
+              "reading": "zhíbō",
+              "meaningVn": "livestream, phát trực tiếp",
+              "example": "她今晚有一场直播。",
+              "exampleVn": "Tối nay cô ấy có một buổi livestream."
+            },
+            {
+              "id": "zh-topic-ci-dianzan",
+              "headword": "点赞",
+              "reading": "diǎnzàn",
+              "meaningVn": "thả tim, bấm like",
+              "example": "这条消息很多人点赞。",
+              "exampleVn": "Bài đăng này rất nhiều người thả tim."
+            },
+            {
+              "id": "zh-topic-ci-sixin",
+              "headword": "私信",
+              "reading": "sīxìn",
+              "meaningVn": "tin nhắn riêng",
+              "example": "他给我发了一条私信。",
+              "exampleVn": "Anh ấy gửi cho tôi một tin nhắn riêng."
+            },
+            {
+              "id": "zh-topic-ci-guanzhu",
+              "headword": "关注",
+              "reading": "guānzhù",
+              "meaningVn": "theo dõi (follow)",
+              "example": "我关注了这个博主。",
+              "exampleVn": "Tôi đã theo dõi blogger này."
+            }
+          ]
+        },
+        {
+          "id": "cyber-security",
+          "titleNative": "网络安全",
+          "titleVn": "An toàn mạng",
+          "words": [
+            {
+              "id": "zh-topic-ci-mima",
+              "headword": "密码",
+              "reading": "mìmǎ",
+              "meaningVn": "mật khẩu",
+              "example": "我忘记密码了。",
+              "exampleVn": "Tôi quên mật khẩu rồi."
+            },
+            {
+              "id": "zh-topic-ci-bingdu",
+              "headword": "病毒",
+              "reading": "bìngdú",
+              "meaningVn": "virus (máy tính)",
+              "example": "我的电脑中病毒了。",
+              "exampleVn": "Máy tính của tôi bị nhiễm virus."
+            },
+            {
+              "id": "zh-topic-ci-heike",
+              "headword": "黑客",
+              "reading": "hēikè",
+              "meaningVn": "hacker, tin tặc",
+              "example": "黑客攻击了这家公司的网站。",
+              "exampleVn": "Hacker đã tấn công website của công ty này."
+            },
+            {
+              "id": "zh-topic-ci-zhapian",
+              "headword": "诈骗",
+              "reading": "zhàpiàn",
+              "meaningVn": "lừa đảo",
+              "example": "要小心网络诈骗。",
+              "exampleVn": "Phải cẩn thận với lừa đảo qua mạng."
+            },
+            {
+              "id": "zh-topic-ci-yinsi",
+              "headword": "隐私",
+              "reading": "yǐnsī",
+              "meaningVn": "quyền riêng tư",
+              "example": "我们应该保护个人隐私。",
+              "exampleVn": "Chúng ta nên bảo vệ quyền riêng tư cá nhân."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-topic-banking-finance",
+      "language": "zh",
+      "titleNative": "银行与金融",
+      "titleVn": "Ngân hàng và tài chính",
+      "branches": [
+        {
+          "id": "bank-service",
+          "titleNative": "银行业务",
+          "titleVn": "Nghiệp vụ ngân hàng",
+          "words": [
+            {
+              "id": "zh-topic-bf-kaihu",
+              "headword": "开户",
+              "reading": "kāihù",
+              "meaningVn": "mở tài khoản",
+              "example": "我去银行开户。",
+              "exampleVn": "Tôi đến ngân hàng mở tài khoản."
+            },
+            {
+              "id": "zh-topic-bf-cunkuan",
+              "headword": "存款",
+              "reading": "cúnkuǎn",
+              "meaningVn": "gửi tiền",
+              "example": "他每个月都存款。",
+              "exampleVn": "Mỗi tháng anh ấy đều gửi tiền tiết kiệm."
+            },
+            {
+              "id": "zh-topic-bf-qukuan",
+              "headword": "取款",
+              "reading": "qǔkuǎn",
+              "meaningVn": "rút tiền",
+              "example": "我去银行取款。",
+              "exampleVn": "Tôi đến ngân hàng rút tiền."
+            },
+            {
+              "id": "zh-topic-bf-zhuanzhang",
+              "headword": "转账",
+              "reading": "zhuǎnzhàng",
+              "meaningVn": "chuyển khoản",
+              "example": "我给朋友转账了五百块。",
+              "exampleVn": "Tôi chuyển khoản cho bạn 500 tệ."
+            },
+            {
+              "id": "zh-topic-bf-lixi",
+              "headword": "利息",
+              "reading": "lìxī",
+              "meaningVn": "lãi suất",
+              "example": "这家银行的利息比较高。",
+              "exampleVn": "Lãi suất của ngân hàng này khá cao."
+            }
+          ]
+        },
+        {
+          "id": "loan-credit",
+          "titleNative": "贷款与信用",
+          "titleVn": "Vay và tín dụng",
+          "words": [
+            {
+              "id": "zh-topic-bf-daikuan",
+              "headword": "贷款",
+              "reading": "dàikuǎn",
+              "meaningVn": "vay tiền",
+              "example": "他向银行申请了贷款。",
+              "exampleVn": "Anh ấy đã xin vay tiền ngân hàng."
+            },
+            {
+              "id": "zh-topic-bf-xinyongka",
+              "headword": "信用卡",
+              "reading": "xìnyòngkǎ",
+              "meaningVn": "thẻ tín dụng",
+              "example": "我用信用卡付款。",
+              "exampleVn": "Tôi thanh toán bằng thẻ tín dụng."
+            },
+            {
+              "id": "zh-topic-bf-huankuan",
+              "headword": "还款",
+              "reading": "huánkuǎn",
+              "meaningVn": "trả nợ",
+              "example": "他每个月按时还款。",
+              "exampleVn": "Mỗi tháng anh ấy trả nợ đúng hạn."
+            },
+            {
+              "id": "zh-topic-bf-xinyongjilu",
+              "headword": "信用记录",
+              "reading": "xìnyòng jìlù",
+              "meaningVn": "lịch sử tín dụng",
+              "example": "良好的信用记录很重要。",
+              "exampleVn": "Lịch sử tín dụng tốt rất quan trọng."
+            },
+            {
+              "id": "zh-topic-bf-yuqi",
+              "headword": "逾期",
+              "reading": "yúqī",
+              "meaningVn": "quá hạn",
+              "example": "他的信用卡逾期了。",
+              "exampleVn": "Thẻ tín dụng của anh ấy đã quá hạn."
+            }
+          ]
+        },
+        {
+          "id": "investment",
+          "titleNative": "投资理财",
+          "titleVn": "Đầu tư tài chính",
+          "words": [
+            {
+              "id": "zh-topic-bf-touzi",
+              "headword": "投资",
+              "reading": "tóuzī",
+              "meaningVn": "đầu tư",
+              "example": "他把钱投资到了房地产。",
+              "exampleVn": "Anh ấy đầu tư tiền vào bất động sản."
+            },
+            {
+              "id": "zh-topic-bf-gupiao",
+              "headword": "股票",
+              "reading": "gǔpiào",
+              "meaningVn": "cổ phiếu",
+              "example": "她买了一些股票。",
+              "exampleVn": "Cô ấy đã mua một ít cổ phiếu."
+            },
+            {
+              "id": "zh-topic-bf-jijin",
+              "headword": "基金",
+              "reading": "jījīn",
+              "meaningVn": "quỹ (đầu tư)",
+              "example": "我买了一支基金。",
+              "exampleVn": "Tôi đã mua một quỹ đầu tư."
+            },
+            {
+              "id": "zh-topic-bf-fengxian",
+              "headword": "风险",
+              "reading": "fēngxiǎn",
+              "meaningVn": "rủi ro",
+              "example": "投资总是有风险。",
+              "exampleVn": "Đầu tư luôn có rủi ro."
+            },
+            {
+              "id": "zh-topic-bf-shouyi",
+              "headword": "收益",
+              "reading": "shōuyì",
+              "meaningVn": "lợi nhuận, thu nhập từ đầu tư",
+              "example": "这项投资的收益不错。",
+              "exampleVn": "Lợi nhuận từ khoản đầu tư này khá tốt."
+            }
+          ]
+        },
+        {
+          "id": "daily-spending",
+          "titleNative": "日常消费",
+          "titleVn": "Chi tiêu hằng ngày",
+          "words": [
+            {
+              "id": "zh-topic-bf-yusuan",
+              "headword": "预算",
+              "reading": "yùsuàn",
+              "meaningVn": "ngân sách",
+              "example": "我们要制定一个预算。",
+              "exampleVn": "Chúng ta phải lập một ngân sách."
+            },
+            {
+              "id": "zh-topic-bf-chuxu",
+              "headword": "储蓄",
+              "reading": "chǔxù",
+              "meaningVn": "tiết kiệm",
+              "example": "他从小就有储蓄的习惯。",
+              "exampleVn": "Anh ấy có thói quen tiết kiệm từ nhỏ."
+            },
+            {
+              "id": "zh-topic-bf-zhangdan",
+              "headword": "账单",
+              "reading": "zhàngdān",
+              "meaningVn": "hóa đơn",
+              "example": "这个月的账单还没付。",
+              "exampleVn": "Hóa đơn tháng này vẫn chưa trả."
+            },
+            {
+              "id": "zh-topic-bf-fuzhai",
+              "headword": "负债",
+              "reading": "fùzhài",
+              "meaningVn": "nợ nần",
+              "example": "他因为创业负债累累。",
+              "exampleVn": "Anh ấy vì khởi nghiệp mà nợ nần chồng chất."
+            },
+            {
+              "id": "zh-topic-bf-licai",
+              "headword": "理财",
+              "reading": "lǐcái",
+              "meaningVn": "quản lý tài chính",
+              "example": "她很擅长理财。",
+              "exampleVn": "Cô ấy rất giỏi quản lý tài chính."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-topic-sports",
+      "language": "zh",
+      "titleNative": "体育运动",
+      "titleVn": "Thể thao",
+      "branches": [
+        {
+          "id": "ball-sports",
+          "titleNative": "球类运动",
+          "titleVn": "Môn bóng",
+          "words": [
+            {
+              "id": "zh-topic-sp-zuqiu",
+              "headword": "足球",
+              "reading": "zúqiú",
+              "meaningVn": "bóng đá",
+              "example": "他很喜欢踢足球。",
+              "exampleVn": "Anh ấy rất thích đá bóng."
+            },
+            {
+              "id": "zh-topic-sp-lanqiu",
+              "headword": "篮球",
+              "reading": "lánqiú",
+              "meaningVn": "bóng rổ",
+              "example": "我们周末去打篮球。",
+              "exampleVn": "Cuối tuần chúng tôi đi chơi bóng rổ."
+            },
+            {
+              "id": "zh-topic-sp-pingpangqiu",
+              "headword": "乒乓球",
+              "reading": "pīngpāngqiú",
+              "meaningVn": "bóng bàn",
+              "example": "乒乓球是中国的国球。",
+              "exampleVn": "Bóng bàn là môn thể thao quốc dân của Trung Quốc."
+            },
+            {
+              "id": "zh-topic-sp-yumaoqiu",
+              "headword": "羽毛球",
+              "reading": "yǔmáoqiú",
+              "meaningVn": "cầu lông",
+              "example": "晚饭后我们打羽毛球。",
+              "exampleVn": "Sau bữa tối chúng tôi chơi cầu lông."
+            },
+            {
+              "id": "zh-topic-sp-paiqiu",
+              "headword": "排球",
+              "reading": "páiqiú",
+              "meaningVn": "bóng chuyền",
+              "example": "她是排球队的队长。",
+              "exampleVn": "Cô ấy là đội trưởng đội bóng chuyền."
+            }
+          ]
+        },
+        {
+          "id": "fitness",
+          "titleNative": "健身运动",
+          "titleVn": "Thể dục thể hình",
+          "words": [
+            {
+              "id": "zh-topic-sp-paobu",
+              "headword": "跑步",
+              "reading": "pǎobù",
+              "meaningVn": "chạy bộ",
+              "example": "我每天早上跑步。",
+              "exampleVn": "Mỗi sáng tôi chạy bộ."
+            },
+            {
+              "id": "zh-topic-sp-youyong",
+              "headword": "游泳",
+              "reading": "yóuyǒng",
+              "meaningVn": "bơi lội",
+              "example": "夏天他常去游泳。",
+              "exampleVn": "Mùa hè anh ấy thường đi bơi."
+            },
+            {
+              "id": "zh-topic-sp-yujia",
+              "headword": "瑜伽",
+              "reading": "yújiā",
+              "meaningVn": "yoga",
+              "example": "她每周练两次瑜伽。",
+              "exampleVn": "Mỗi tuần cô ấy tập yoga hai lần."
+            },
+            {
+              "id": "zh-topic-sp-juzhong",
+              "headword": "举重",
+              "reading": "jǔzhòng",
+              "meaningVn": "cử tạ",
+              "example": "他喜欢在健身房举重。",
+              "exampleVn": "Anh ấy thích cử tạ trong phòng gym."
+            },
+            {
+              "id": "zh-topic-sp-lashen",
+              "headword": "拉伸",
+              "reading": "lāshēn",
+              "meaningVn": "giãn cơ, kéo giãn",
+              "example": "运动前要先拉伸。",
+              "exampleVn": "Trước khi vận động phải giãn cơ trước."
+            }
+          ]
+        },
+        {
+          "id": "competition",
+          "titleNative": "比赛与赛事",
+          "titleVn": "Thi đấu",
+          "words": [
+            {
+              "id": "zh-topic-sp-bisai",
+              "headword": "比赛",
+              "reading": "bǐsài",
+              "meaningVn": "thi đấu",
+              "example": "明天有一场重要的比赛。",
+              "exampleVn": "Ngày mai có một trận đấu quan trọng."
+            },
+            {
+              "id": "zh-topic-sp-guanjun",
+              "headword": "冠军",
+              "reading": "guànjūn",
+              "meaningVn": "nhà vô địch",
+              "example": "他获得了世界冠军。",
+              "exampleVn": "Anh ấy đã giành chức vô địch thế giới."
+            },
+            {
+              "id": "zh-topic-sp-caipan",
+              "headword": "裁判",
+              "reading": "cáipàn",
+              "meaningVn": "trọng tài",
+              "example": "裁判吹了哨。",
+              "exampleVn": "Trọng tài đã thổi còi."
+            },
+            {
+              "id": "zh-topic-sp-juesai",
+              "headword": "决赛",
+              "reading": "juésài",
+              "meaningVn": "chung kết",
+              "example": "他们晋级了决赛。",
+              "exampleVn": "Họ đã lọt vào chung kết."
+            },
+            {
+              "id": "zh-topic-sp-guanzhong",
+              "headword": "观众",
+              "reading": "guānzhòng",
+              "meaningVn": "khán giả",
+              "example": "现场观众非常多。",
+              "exampleVn": "Khán giả tại chỗ rất đông."
+            }
+          ]
+        },
+        {
+          "id": "sport-equipment",
+          "titleNative": "运动装备",
+          "titleVn": "Trang bị thể thao",
+          "words": [
+            {
+              "id": "zh-topic-sp-yundongxie",
+              "headword": "运动鞋",
+              "reading": "yùndòngxié",
+              "meaningVn": "giày thể thao",
+              "example": "我买了一双新运动鞋。",
+              "exampleVn": "Tôi đã mua một đôi giày thể thao mới."
+            },
+            {
+              "id": "zh-topic-sp-qiuchang",
+              "headword": "球场",
+              "reading": "qiúchǎng",
+              "meaningVn": "sân bóng",
+              "example": "这个球场很大。",
+              "exampleVn": "Sân bóng này rất rộng."
+            },
+            {
+              "id": "zh-topic-sp-jiaolian",
+              "headword": "教练",
+              "reading": "jiàoliàn",
+              "meaningVn": "huấn luyện viên",
+              "example": "教练对我们要求很严格。",
+              "exampleVn": "Huấn luyện viên yêu cầu chúng tôi rất nghiêm khắc."
+            },
+            {
+              "id": "zh-topic-sp-tili",
+              "headword": "体力",
+              "reading": "tǐlì",
+              "meaningVn": "thể lực",
+              "example": "这项运动很消耗体力。",
+              "exampleVn": "Môn thể thao này rất tốn thể lực."
+            },
+            {
+              "id": "zh-topic-sp-shoushang",
+              "headword": "受伤",
+              "reading": "shòushāng",
+              "meaningVn": "bị thương",
+              "example": "他在比赛中受伤了。",
+              "exampleVn": "Anh ấy đã bị thương trong trận đấu."
+            }
+          ]
+        }
+      ]
     }
   ]
 }

@@ -1,7 +1,8 @@
 "use client";
 
 import { useEffect, useMemo, useRef, useState } from "react";
-import type { RootEntry, SoundGroup, VocabWord } from "@/types/vocab";
+import type { RootEntry, SoundGroup, SrsRating, VocabWord } from "@/types/vocab";
+import { RATING_LABELS } from "@/lib/srs";
 import {
   buildMindmapLayout,
   curvePath,
@@ -114,6 +115,10 @@ export default function MindmapCanvas({
   expandingWordId,
   bookmarkedIds,
   onToggleBookmark,
+  masteredIds,
+  onToggleMastered,
+  onRate,
+  ratingWordId,
 }: {
   group: SoundGroup;
   onExpandRoot: (root: RootEntry) => void;
@@ -126,6 +131,14 @@ export default function MindmapCanvas({
   expandingWordId: string | null;
   bookmarkedIds: Set<string>;
   onToggleBookmark: (wordId: string) => void;
+  /** Set các wordId đã đánh dấu "đã thuộc" — dim nhẹ node trên canvas + hiện nút "Bỏ đánh dấu" trong
+   * popup chi tiết thay vì "Đã thuộc kỹ rồi", đối xứng với ReviewSession. */
+  masteredIds: Set<string>;
+  onToggleMastered: (wordId: string) => void;
+  /** Chấm điểm SRS ngay trong popup chi tiết — cùng cơ chế `/api/progress/rate` như ReviewSession,
+   * không cần rời khỏi mindmap để vào chế độ ôn tập mới ghi nhận được tiến độ. */
+  onRate: (wordId: string, rating: SrsRating) => void;
+  ratingWordId: string | null;
 }) {
   const [orientation, setOrientation] = useState<MindmapOrientation>("horizontal");
   const layout = useMemo(() => buildMindmapLayout(group, orientation), [group, orientation]);
@@ -432,17 +445,21 @@ export default function MindmapCanvas({
   function renderWordNode(pw: PositionedWord, color: BranchColor): React.ReactNode {
     const word = pw.word;
     const isBookmarked = bookmarkedIds.has(word.id);
+    const isMastered = masteredIds.has(word.id);
     const p = pos(word.id, pw.x, pw.y);
     return (
       <div key={word.id}>
         <div
           data-node-drag
           style={{ left: p.x, top: p.y, width: 170, touchAction: "none" }}
-          className={`absolute -translate-x-1/2 -translate-y-1/2 cursor-grab rounded-lg border ${color.border} ${color.bg} px-2.5 py-1.5 text-center shadow-sm active:scale-95 active:cursor-grabbing`}
+          className={`absolute -translate-x-1/2 -translate-y-1/2 cursor-grab rounded-lg border ${color.border} ${color.bg} px-2.5 py-1.5 text-center shadow-sm active:scale-95 active:cursor-grabbing ${isMastered ? "opacity-50 ring-2 ring-emerald-400" : ""}`}
           onPointerDown={(e) => handleNodeDragStart(e, word.id, pw.x, pw.y)}
           onClick={() => handleNodeClick(word.id, () => handleSpeak(word.headword))}
         >
-          <div className="text-sm font-semibold whitespace-nowrap text-ink">{word.headword}</div>
+          <div className="text-sm font-semibold whitespace-nowrap text-ink">
+            {isMastered && "✅ "}
+            {word.headword}
+          </div>
           <div className="text-[11px] text-ink-muted italic">{word.reading}</div>
           <div className={`text-xs font-medium ${color.text}`}>{word.meaningVn}</div>
 
@@ -752,6 +769,36 @@ export default function MindmapCanvas({
                 {mnemonicLoadingId === activeWord.wn.word.id ? "Đang nghĩ mẹo nhớ…" : "💡 Xem mẹo nhớ"}
               </button>
             )}
+
+            {/* Chấm điểm SRS + đánh dấu đã thuộc ngay tại đây — khỏi phải rời mindmap sang chế độ ôn
+                tập riêng mới ghi nhận được tiến độ, vd sau khi duyệt hết cả nhóm bằng mắt. */}
+            <div className="mt-3 grid grid-cols-4 gap-1.5">
+              {([0, 1, 2, 3] as SrsRating[]).map((r) => (
+                <button
+                  key={r}
+                  onClick={() => onRate(activeWord.wn.word.id, r)}
+                  disabled={ratingWordId === activeWord.wn.word.id}
+                  className={`rounded-full px-2 py-2 text-xs font-semibold text-white shadow-sm transition disabled:opacity-50 ${
+                    [
+                      "bg-red-500 hover:bg-red-600",
+                      "bg-orange-500 hover:bg-orange-600",
+                      "bg-blue-500 hover:bg-blue-600",
+                      "bg-green-500 hover:bg-green-600",
+                    ][r]
+                  }`}
+                >
+                  {RATING_LABELS[r]}
+                </button>
+              ))}
+            </div>
+            <button
+              onClick={() => onToggleMastered(activeWord.wn.word.id)}
+              className="mt-2 w-full text-center text-xs font-medium text-green-600 underline decoration-dotted hover:text-green-700"
+            >
+              {masteredIds.has(activeWord.wn.word.id)
+                ? "↩️ Bỏ đánh dấu đã thuộc"
+                : "✅ Đã thuộc kỹ rồi — bỏ qua trong ôn tập"}
+            </button>
 
             <div className="mt-3 rounded-xl border border-border bg-surface-3/40 p-3">
               <div className="mb-2 text-xs font-semibold text-ink-muted">🗂️ Thêm từ này vào danh mục</div>

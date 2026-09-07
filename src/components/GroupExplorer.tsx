@@ -2,10 +2,10 @@
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
-import type { Language, RootEntry, SoundGroup, VocabWord } from "@/types/vocab";
+import type { Language, RootEntry, SoundGroup, SrsRating, VocabWord } from "@/types/vocab";
 import MindmapCanvas from "@/components/mindmap/MindmapCanvas";
 import GroupCollectionControls from "@/components/GroupCollectionControls";
-import { loadProgress, toggleBookmark } from "@/lib/progress";
+import { loadProgress, rateWord, toggleBookmark, toggleMastered } from "@/lib/progress";
 
 const LANG_LABEL: Record<Language, string> = {
   zh: "Tiếng Trung",
@@ -44,16 +44,22 @@ export default function GroupExplorer({
   const [mnemonicLoadingId, setMnemonicLoadingId] = useState<string | null>(null);
   const [expandingWordId, setExpandingWordId] = useState<string | null>(null);
   const [bookmarkedIds, setBookmarkedIds] = useState<Set<string>>(new Set());
+  const [masteredIds, setMasteredIds] = useState<Set<string>>(new Set());
+  const [ratingWordId, setRatingWordId] = useState<string | null>(null);
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
     let cancelled = false;
     loadProgress().then((progress) => {
       if (cancelled) return;
-      const ids = Object.entries(progress)
+      const bookmarked = Object.entries(progress)
         .filter(([, p]) => p.bookmarked)
         .map(([id]) => id);
-      setBookmarkedIds(new Set(ids));
+      setBookmarkedIds(new Set(bookmarked));
+      const mastered = Object.entries(progress)
+        .filter(([, p]) => p.mastered)
+        .map(([id]) => id);
+      setMasteredIds(new Set(mastered));
     });
     return () => {
       cancelled = true;
@@ -206,6 +212,38 @@ export default function GroupExplorer({
     }
   }
 
+  async function handleToggleMastered(wordId: string) {
+    setMasteredIds((prev) => {
+      const next = new Set(prev);
+      if (next.has(wordId)) next.delete(wordId);
+      else next.add(wordId);
+      return next;
+    });
+    try {
+      await toggleMastered(wordId);
+    } catch {
+      // rollback nếu lưu thất bại
+      setMasteredIds((prev) => {
+        const next = new Set(prev);
+        if (next.has(wordId)) next.delete(wordId);
+        else next.add(wordId);
+        return next;
+      });
+    }
+  }
+
+  async function handleRate(wordId: string, rating: SrsRating) {
+    if (ratingWordId) return;
+    setRatingWordId(wordId);
+    try {
+      await rateWord(wordId, rating);
+    } catch {
+      // im lặng bỏ qua — không chặn thao tác xem mindmap chỉ vì lưu điểm thất bại
+    } finally {
+      setRatingWordId(null);
+    }
+  }
+
   return (
     <main className="flex flex-1 flex-col items-center px-4 py-8 sm:py-12">
       <div className="w-full max-w-5xl">
@@ -263,6 +301,10 @@ export default function GroupExplorer({
             expandingWordId={expandingWordId}
             bookmarkedIds={bookmarkedIds}
             onToggleBookmark={handleToggleBookmark}
+            masteredIds={masteredIds}
+            onToggleMastered={handleToggleMastered}
+            onRate={handleRate}
+            ratingWordId={ratingWordId}
           />
         </div>
       </div>
