@@ -20,12 +20,14 @@ export default async function TestPlayPage({
   if (!VALID_MODES.includes(mode as QuizMode)) notFound();
 
   const reflex = query.reflex === "1";
+  const explainMode = query.explain === "1";
 
   return (
     <QuizSession
       lang={lang as Language | "mixed"}
       mode={mode as QuizMode}
       reflex={reflex}
+      explainMode={explainMode}
     />
   );
 }

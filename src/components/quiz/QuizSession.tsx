@@ -4,6 +4,7 @@ import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import Link from "next/link";
 import type { Language } from "@/types/vocab";
 import type { QuizMode, QuizQuestion } from "@/lib/quiz/types";
+import { speak } from "@/lib/tts";
 
 const REFLEX_SECONDS = 6;
 const BATCH_SIZE = 12;
@@ -40,6 +41,9 @@ interface Props {
   lang: Language | "mixed";
   mode: QuizMode;
   reflex: boolean;
+  /** Thay vì tự chuyển câu sau ANSWER_DELAY_MS, dừng lại hiện bảng giải thích đầy đủ (nghĩa, ví dụ,
+   * mẹo nhớ, chữ gốc nếu có) và chờ người dùng chủ động bấm "Câu tiếp theo". */
+  explainMode: boolean;
 }
 
 async function fetchQuestions(lang: Language | "mixed", mode: QuizMode): Promise<QuizQuestion[]> {
@@ -99,7 +103,7 @@ function ScoreRing({ percent }: { percent: number }) {
   );
 }
 
-export default function QuizSession({ lang, mode, reflex }: Props) {
+export default function QuizSession({ lang, mode, reflex, explainMode }: Props) {
   const [sessionKey, setSessionKey] = useState(0);
   const [questions, setQuestions] = useState<QuizQuestion[]>([]);
   const [index, setIndex] = useState(0);
@@ -167,6 +171,12 @@ export default function QuizSession({ lang, mode, reflex }: Props) {
     tickInterval.current = null;
   }, []);
 
+  const goToNext = useCallback(() => {
+    setSelectedOptionId(null);
+    setTimeLeft(REFLEX_SECONDS);
+    setIndex((i) => i + 1);
+  }, []);
+
   const handleAnswer = useCallback(
     (optionId: string | null) => {
       if (!current || selectedOptionId !== null) return;
@@ -190,14 +200,28 @@ export default function QuizSession({ lang, mode, reflex }: Props) {
 
       rateWord(current.answerWordId, isCorrect);
 
-      advanceTimeout.current = setTimeout(() => {
-        setSelectedOptionId(null);
-        setTimeLeft(REFLEX_SECONDS);
-        setIndex((i) => i + 1);
-      }, ANSWER_DELAY_MS);
+      // Chế độ "chờ xem giải thích": KHÔNG tự chuyển câu — người dùng đọc xong bảng giải thích rồi
+      // chủ động bấm "Câu tiếp theo" (xem goToNext, gọi từ nút bên dưới).
+      if (!explainMode) {
+        advanceTimeout.current = setTimeout(goToNext, ANSWER_DELAY_MS);
+      }
     },
-    [current, selectedOptionId, clearTimers],
+    [current, selectedOptionId, clearTimers, explainMode, goToNext],
   );
+
+  // Phát âm tự động: chỉ an toàn ở mode "meaning" — prompt đã hiển thị sẵn headword nên nghe phát âm
+  // không "lộ" đáp án. Ở mode "reading"/"cloze", đáp án CHÍNH LÀ cách đọc/từ đúng nên chỉ phát âm sau
+  // khi đã trả lời (không làm mất tác dụng luyện nghe/đoán của 2 mode này).
+  useEffect(() => {
+    if (!current || mode !== "meaning") return;
+    speak(current.answerHeadword, current.language);
+  }, [current?.id, mode, current?.answerHeadword, current?.language]);
+
+  useEffect(() => {
+    if (!current || mode === "meaning" || selectedOptionId === null) return;
+    speak(current.answerHeadword, current.language);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [selectedOptionId]);
 
   // Bộ đếm giờ chế độ Phản xạ — chạy lại mỗi khi sang câu mới.
   useEffect(() => {
@@ -363,7 +387,7 @@ export default function QuizSession({ lang, mode, reflex }: Props) {
 
       {/* Khung nội dung — giới hạn chiều rộng trên tablet/desktop để không bị dàn trải quá đà,
           vẫn full-bleed nền gradient phía sau. */}
-      <div className="relative mx-auto flex w-full max-w-2xl flex-1 flex-col">
+      <div className="relative mx-auto flex w-full max-w-2xl flex-1 flex-col overflow-y-auto">
         {/* HUD */}
         <div className="flex items-center justify-between gap-2">
           <Link
@@ -419,8 +443,20 @@ export default function QuizSession({ lang, mode, reflex }: Props) {
               {current.promptSubLabel}
             </div>
           )}
-          <div className="relative mt-2 text-2xl font-bold leading-snug sm:text-3xl md:text-4xl">
-            {current.promptLabel}
+          <div className="relative mt-2 flex items-center justify-center gap-2">
+            <div className="text-2xl font-bold leading-snug sm:text-3xl md:text-4xl">
+              {current.promptLabel}
+            </div>
+            {(mode === "meaning" || showResult) && (
+              <button
+                data-testid="quiz-speak"
+                onClick={() => speak(current.answerHeadword, current.language)}
+                aria-label="Nghe phát âm"
+                className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-white/15 text-base backdrop-blur-sm transition hover:bg-white/25 active:scale-95"
+              >
+                🔊
+              </button>
+            )}
           </div>
         </div>
 
@@ -467,6 +503,51 @@ export default function QuizSession({ lang, mode, reflex }: Props) {
             );
           })}
         </div>
+
+        {/* Chế độ "chờ xem giải thích": thay vì tự chuyển câu, hiện đầy đủ nghĩa/ví dụ/mẹo nhớ/chữ
+            gốc (nếu có) rồi chờ người dùng chủ động bấm sang câu kế — dừng lại lâu hơn để học sâu. */}
+        {explainMode && showResult && (
+          <div className="quiz-fade-in-up mt-3 shrink-0 rounded-2xl bg-white/95 p-4 text-left text-ink shadow-lg">
+            <div className="flex items-center gap-2">
+              <span className="text-xl font-bold">{current.answerHeadword}</span>
+              {current.answerReading && (
+                <span className="text-sm text-ink-muted">{current.answerReading}</span>
+              )}
+            </div>
+            <div className="mt-1 text-sm font-semibold text-brand-600">{current.answerMeaningVn}</div>
+
+            {current.answerExample && (
+              <div className="mt-2 text-sm text-ink">
+                {current.answerExample}
+                {current.answerExampleVn && (
+                  <div className="mt-0.5 text-xs italic text-ink-muted">{current.answerExampleVn}</div>
+                )}
+              </div>
+            )}
+
+            {current.answerMnemonicVn && (
+              <div className="mt-3 rounded-lg bg-amber-50 px-3 py-2 text-xs text-amber-800">
+                💡 {current.answerMnemonicVn}
+              </div>
+            )}
+
+            {current.answerRootChar && (
+              <div className="mt-3 rounded-lg bg-surface-3 px-3 py-2 text-xs text-ink-muted">
+                Gốc: <span className="font-medium text-ink">{current.answerRootChar}</span>
+                {current.answerRootHanViet ? ` (${current.answerRootHanViet})` : ""}
+                {current.answerRootMeaning ? ` — ${current.answerRootMeaning}` : ""}
+              </div>
+            )}
+
+            <button
+              data-testid="quiz-next"
+              onClick={goToNext}
+              className="mt-4 w-full rounded-full bg-gradient-to-r from-brand-600 to-accent-500 px-4 py-3 text-sm font-semibold text-white shadow-md transition hover:brightness-105 active:scale-95"
+            >
+              Câu tiếp theo →
+            </button>
+          </div>
+        )}
       </div>
     </div>
   );

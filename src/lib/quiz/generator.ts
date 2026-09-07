@@ -65,6 +65,22 @@ function buildOptions(
   return shuffle(options);
 }
 
+/** Các trường mô tả đầy đủ đáp án đúng — giống hệt nhau ở cả 3 mode, tách riêng để khỏi lặp lại. */
+function answerDetails(target: QuizWordEntry) {
+  return {
+    answerWordId: target.id,
+    answerHeadword: target.headword,
+    answerReading: target.reading,
+    answerMeaningVn: target.meaningVn,
+    answerExample: target.example,
+    answerExampleVn: target.exampleVn,
+    answerMnemonicVn: target.mnemonicVn,
+    answerRootChar: target.rootChar,
+    answerRootHanViet: target.rootHanViet,
+    answerRootMeaning: target.rootMeaning,
+  };
+}
+
 function buildQuestion(
   target: QuizWordEntry,
   pool: QuizWordEntry[],
@@ -83,7 +99,7 @@ function buildQuestion(
       promptLabel: target.headword,
       promptSubLabel: target.reading || undefined,
       options: buildOptions(target, distractors, labelOf),
-      answerWordId: target.id,
+      ...answerDetails(target),
     };
   }
 
@@ -98,7 +114,7 @@ function buildQuestion(
       mode,
       promptLabel: target.headword,
       options: buildOptions(target, distractors, labelOf),
-      answerWordId: target.id,
+      ...answerDetails(target),
     };
   }
 
@@ -114,7 +130,7 @@ function buildQuestion(
     mode,
     promptLabel: cloze,
     options: buildOptions(target, distractors, labelOf),
-    answerWordId: target.id,
+    ...answerDetails(target),
   };
 }
 

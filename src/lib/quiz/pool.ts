@@ -24,6 +24,10 @@ function fromGroups(groups: SoundGroup[], axisKind: QuizAxisKind): QuizWordEntry
           exampleVn: word.exampleVn,
           sourceKey: root.id,
           axisKind,
+          mnemonicVn: word.mnemonicVn,
+          rootChar: root.character,
+          rootHanViet: root.hanViet,
+          rootMeaning: root.meaningVn,
         });
       }
     }
@@ -63,6 +67,7 @@ async function buildVocabPoolUncached(lang: Language): Promise<QuizWordEntry[]> 
             exampleVn: word.exampleVn,
             sourceKey: branch.id,
             axisKind: "topic",
+            mnemonicVn: word.mnemonicVn,
           });
         }
       }

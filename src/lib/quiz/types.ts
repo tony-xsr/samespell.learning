@@ -20,6 +20,13 @@ export interface QuizWordEntry {
   /** id của root/branch chứa từ này — các từ cùng sourceKey là nhiễu "gần giống" ưu tiên hàng đầu. */
   sourceKey: string;
   axisKind: QuizAxisKind;
+  /** Mẹo nhớ AI-generated nếu từ đã có sẵn (không phải từ nào cũng có). */
+  mnemonicVn?: string;
+  /** Chữ gốc của nhóm đồng âm/hình/bẫy nghĩa chứa từ này — chỉ có ở axisKind sound/shape/false-friend/
+   * initial (chủ đề mindmap không tổ chức theo chữ gốc nên topic-axis luôn thiếu 3 trường này). */
+  rootChar?: string;
+  rootHanViet?: string;
+  rootMeaning?: string;
 }
 
 export interface QuizOption {
@@ -39,4 +46,16 @@ export interface QuizQuestion {
   options: QuizOption[];
   /** id của từ đúng — dùng để gọi POST /api/progress/rate sau khi trả lời. */
   answerWordId: string;
+  /** Chi tiết đầy đủ của từ đúng — dùng để phát âm (mọi mode) và hiển thị bảng giải thích đầy đủ khi
+   * bật chế độ "chờ xem giải thích" (xem QuizSession). Không phụ thuộc mode nên luôn có sẵn, kể cả ở
+   * mode reading/cloze nơi promptLabel không phải là headword. */
+  answerHeadword: string;
+  answerReading: string;
+  answerMeaningVn: string;
+  answerExample: string;
+  answerExampleVn: string;
+  answerMnemonicVn?: string;
+  answerRootChar?: string;
+  answerRootHanViet?: string;
+  answerRootMeaning?: string;
 }

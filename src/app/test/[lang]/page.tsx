@@ -70,18 +70,24 @@ export default async function TestModePicker({ params }: { params: Promise<{ lan
                   <div className="mt-0.5 text-xs text-ink-muted">{mode.desc}</div>
                 </div>
               </div>
-              <div className="mt-3 flex gap-2">
+              <div className="mt-3 grid grid-cols-3 gap-1.5">
                 <Link
                   href={`/test/${testLang}/${mode.id}`}
-                  className="flex-1 rounded-full bg-sky-500 px-3 py-2 text-center text-xs font-semibold text-white transition hover:bg-sky-600 hover:shadow-md active:scale-95"
+                  className="rounded-full bg-sky-500 px-2 py-2 text-center text-xs font-semibold text-white transition hover:bg-sky-600 hover:shadow-md active:scale-95"
                 >
                   ▶ Bắt đầu
                 </Link>
                 <Link
                   href={`/test/${testLang}/${mode.id}?reflex=1`}
-                  className="flex-1 rounded-full border border-sky-400 px-3 py-2 text-center text-xs font-semibold text-sky-600 transition hover:bg-sky-500/10 active:scale-95"
+                  className="rounded-full border border-sky-400 px-2 py-2 text-center text-xs font-semibold text-sky-600 transition hover:bg-sky-500/10 active:scale-95"
                 >
                   ⚡ Phản xạ
+                </Link>
+                <Link
+                  href={`/test/${testLang}/${mode.id}?explain=1`}
+                  className="rounded-full border border-amber-400 px-2 py-2 text-center text-xs font-semibold text-amber-600 transition hover:bg-amber-500/10 active:scale-95"
+                >
+                  📖 Giải thích
                 </Link>
               </div>
             </div>
