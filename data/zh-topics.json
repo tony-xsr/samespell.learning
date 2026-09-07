@@ -9869,6 +9869,1182 @@
           ]
         }
       ]
+    },
+    {
+      "id": "zh-topic-environment-nature",
+      "language": "zh",
+      "titleNative": "环境与自然",
+      "titleVn": "Môi trường và thiên nhiên",
+      "branches": [
+        {
+          "id": "natural-landscape",
+          "titleNative": "自然景观",
+          "titleVn": "Cảnh quan thiên nhiên",
+          "words": [
+            {
+              "id": "zh-topic-en-senlin",
+              "headword": "森林",
+              "reading": "sēnlín",
+              "meaningVn": "rừng",
+              "example": "这片森林非常茂密。",
+              "exampleVn": "Khu rừng này rất rậm rạp."
+            },
+            {
+              "id": "zh-topic-en-heliu",
+              "headword": "河流",
+              "reading": "héliú",
+              "meaningVn": "sông ngòi",
+              "example": "这条河流穿过整个城市。",
+              "exampleVn": "Con sông này chảy qua cả thành phố."
+            },
+            {
+              "id": "zh-topic-en-shanmai",
+              "headword": "山脉",
+              "reading": "shānmài",
+              "meaningVn": "dãy núi",
+              "example": "这座山脉很雄伟。",
+              "exampleVn": "Dãy núi này rất hùng vĩ."
+            },
+            {
+              "id": "zh-topic-en-haiyang",
+              "headword": "海洋",
+              "reading": "hǎiyáng",
+              "meaningVn": "đại dương",
+              "example": "海洋覆盖了地球大部分面积。",
+              "exampleVn": "Đại dương bao phủ phần lớn diện tích Trái Đất."
+            },
+            {
+              "id": "zh-topic-en-shamo",
+              "headword": "沙漠",
+              "reading": "shāmò",
+              "meaningVn": "sa mạc",
+              "example": "沙漠里非常干燥。",
+              "exampleVn": "Trong sa mạc rất khô hạn."
+            }
+          ]
+        },
+        {
+          "id": "environment-problem",
+          "titleNative": "环境问题",
+          "titleVn": "Vấn đề môi trường",
+          "words": [
+            {
+              "id": "zh-topic-en-wuran",
+              "headword": "污染",
+              "reading": "wūrǎn",
+              "meaningVn": "ô nhiễm",
+              "example": "空气污染越来越严重。",
+              "exampleVn": "Ô nhiễm không khí ngày càng nghiêm trọng."
+            },
+            {
+              "id": "zh-topic-en-laji",
+              "headword": "垃圾",
+              "reading": "lājī",
+              "meaningVn": "rác thải",
+              "example": "我们要做好垃圾分类。",
+              "exampleVn": "Chúng ta phải phân loại rác thải cho tốt."
+            },
+            {
+              "id": "zh-topic-en-wenshixiaoying",
+              "headword": "温室效应",
+              "reading": "wēnshì xiàoyìng",
+              "meaningVn": "hiệu ứng nhà kính",
+              "example": "温室效应导致全球变暖。",
+              "exampleVn": "Hiệu ứng nhà kính dẫn đến nóng lên toàn cầu."
+            },
+            {
+              "id": "zh-topic-en-qihoubianhua",
+              "headword": "气候变化",
+              "reading": "qìhòu biànhuà",
+              "meaningVn": "biến đổi khí hậu",
+              "example": "气候变化影响着每一个人。",
+              "exampleVn": "Biến đổi khí hậu ảnh hưởng đến mỗi người."
+            },
+            {
+              "id": "zh-topic-en-wumai",
+              "headword": "雾霾",
+              "reading": "wùmái",
+              "meaningVn": "sương mù ô nhiễm, khói bụi",
+              "example": "今天雾霾很严重，最好戴口罩。",
+              "exampleVn": "Hôm nay khói bụi rất nặng, tốt nhất nên đeo khẩu trang."
+            }
+          ]
+        },
+        {
+          "id": "environmental-action",
+          "titleNative": "环保行动",
+          "titleVn": "Hành động bảo vệ môi trường",
+          "words": [
+            {
+              "id": "zh-topic-en-huanbao",
+              "headword": "环保",
+              "reading": "huánbǎo",
+              "meaningVn": "bảo vệ môi trường",
+              "example": "我们应该支持环保活动。",
+              "exampleVn": "Chúng ta nên ủng hộ các hoạt động bảo vệ môi trường."
+            },
+            {
+              "id": "zh-topic-en-huishou",
+              "headword": "回收",
+              "reading": "huíshōu",
+              "meaningVn": "tái chế",
+              "example": "这些瓶子可以回收利用。",
+              "exampleVn": "Những chai này có thể tái chế sử dụng."
+            },
+            {
+              "id": "zh-topic-en-jieneng",
+              "headword": "节能",
+              "reading": "jiénéng",
+              "meaningVn": "tiết kiệm năng lượng",
+              "example": "节能灯泡更省电。",
+              "exampleVn": "Bóng đèn tiết kiệm năng lượng đỡ tốn điện hơn."
+            },
+            {
+              "id": "zh-topic-en-jianpai",
+              "headword": "减排",
+              "reading": "jiǎnpái",
+              "meaningVn": "giảm phát thải",
+              "example": "各国都在努力减排。",
+              "exampleVn": "Các nước đều đang nỗ lực giảm phát thải."
+            },
+            {
+              "id": "zh-topic-en-kechixu",
+              "headword": "可持续",
+              "reading": "kěchíxù",
+              "meaningVn": "bền vững",
+              "example": "我们需要可持续的发展方式。",
+              "exampleVn": "Chúng ta cần cách phát triển bền vững."
+            }
+          ]
+        },
+        {
+          "id": "flora-fauna",
+          "titleNative": "动植物",
+          "titleVn": "Động thực vật",
+          "words": [
+            {
+              "id": "zh-topic-en-yeshengdongwu",
+              "headword": "野生动物",
+              "reading": "yěshēng dòngwù",
+              "meaningVn": "động vật hoang dã",
+              "example": "这个森林里有很多野生动物。",
+              "exampleVn": "Trong khu rừng này có nhiều động vật hoang dã."
+            },
+            {
+              "id": "zh-topic-en-binweiwuzhong",
+              "headword": "濒危物种",
+              "reading": "bīnwēi wùzhǒng",
+              "meaningVn": "loài nguy cấp",
+              "example": "大熊猫是濒危物种。",
+              "exampleVn": "Gấu trúc là loài nguy cấp."
+            },
+            {
+              "id": "zh-topic-en-shengtaixitong",
+              "headword": "生态系统",
+              "reading": "shēngtài xìtǒng",
+              "meaningVn": "hệ sinh thái",
+              "example": "这片湿地是一个重要的生态系统。",
+              "exampleVn": "Vùng đất ngập nước này là một hệ sinh thái quan trọng."
+            },
+            {
+              "id": "zh-topic-en-zhibei",
+              "headword": "植被",
+              "reading": "zhíbèi",
+              "meaningVn": "thảm thực vật",
+              "example": "这个地区的植被很丰富。",
+              "exampleVn": "Thảm thực vật ở khu vực này rất phong phú."
+            },
+            {
+              "id": "zh-topic-en-baohuqu",
+              "headword": "保护区",
+              "reading": "bǎohùqū",
+              "meaningVn": "khu bảo tồn",
+              "example": "这里被划为自然保护区。",
+              "exampleVn": "Nơi đây được quy hoạch thành khu bảo tồn thiên nhiên."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-topic-beauty-fashion",
+      "language": "zh",
+      "titleNative": "美容与时尚",
+      "titleVn": "Làm đẹp và thời trang",
+      "branches": [
+        {
+          "id": "makeup-skincare",
+          "titleNative": "化妆护肤",
+          "titleVn": "Trang điểm và dưỡng da",
+          "words": [
+            {
+              "id": "zh-topic-bt-huazhuang",
+              "headword": "化妆",
+              "reading": "huàzhuāng",
+              "meaningVn": "trang điểm",
+              "example": "她每天早上都化妆。",
+              "exampleVn": "Mỗi sáng cô ấy đều trang điểm."
+            },
+            {
+              "id": "zh-topic-bt-hufu",
+              "headword": "护肤",
+              "reading": "hùfū",
+              "meaningVn": "dưỡng da",
+              "example": "护肤要坚持才有效果。",
+              "exampleVn": "Dưỡng da phải kiên trì mới có hiệu quả."
+            },
+            {
+              "id": "zh-topic-bt-kouhong",
+              "headword": "口红",
+              "reading": "kǒuhóng",
+              "meaningVn": "son môi",
+              "example": "这支口红颜色很好看。",
+              "exampleVn": "Thỏi son này màu rất đẹp."
+            },
+            {
+              "id": "zh-topic-bt-mianmo",
+              "headword": "面膜",
+              "reading": "miànmó",
+              "meaningVn": "mặt nạ (dưỡng da)",
+              "example": "她每周敷两次面膜。",
+              "exampleVn": "Mỗi tuần cô ấy đắp mặt nạ hai lần."
+            },
+            {
+              "id": "zh-topic-bt-fangshai",
+              "headword": "防晒",
+              "reading": "fángshài",
+              "meaningVn": "chống nắng",
+              "example": "出门前要涂防晒。",
+              "exampleVn": "Trước khi ra ngoài phải bôi kem chống nắng."
+            }
+          ]
+        },
+        {
+          "id": "clothing-style",
+          "titleNative": "服装穿搭",
+          "titleVn": "Quần áo và phối đồ",
+          "words": [
+            {
+              "id": "zh-topic-bt-shishang",
+              "headword": "时尚",
+              "reading": "shíshàng",
+              "meaningVn": "thời trang",
+              "example": "她对时尚很有品味。",
+              "exampleVn": "Cô ấy rất có gu về thời trang."
+            },
+            {
+              "id": "zh-topic-bt-dapei",
+              "headword": "搭配",
+              "reading": "dāpèi",
+              "meaningVn": "phối đồ",
+              "example": "这件外套跟裙子很搭配。",
+              "exampleVn": "Chiếc áo khoác này phối với váy rất hợp."
+            },
+            {
+              "id": "zh-topic-bt-chaoliu",
+              "headword": "潮流",
+              "reading": "cháoliú",
+              "meaningVn": "trào lưu, xu hướng",
+              "example": "这种风格现在很潮流。",
+              "exampleVn": "Phong cách này hiện đang rất thịnh hành."
+            },
+            {
+              "id": "zh-topic-bt-pinpai",
+              "headword": "品牌",
+              "reading": "pǐnpái",
+              "meaningVn": "thương hiệu",
+              "example": "她只买大品牌的衣服。",
+              "exampleVn": "Cô ấy chỉ mua quần áo thương hiệu lớn."
+            },
+            {
+              "id": "zh-topic-bt-fengge",
+              "headword": "风格",
+              "reading": "fēnggé",
+              "meaningVn": "phong cách",
+              "example": "每个人都有自己的风格。",
+              "exampleVn": "Mỗi người đều có phong cách riêng."
+            }
+          ]
+        },
+        {
+          "id": "hairstyle",
+          "titleNative": "发型",
+          "titleVn": "Kiểu tóc",
+          "words": [
+            {
+              "id": "zh-topic-bt-faxing",
+              "headword": "发型",
+              "reading": "fàxíng",
+              "meaningVn": "kiểu tóc",
+              "example": "这个发型很适合你。",
+              "exampleVn": "Kiểu tóc này rất hợp với bạn."
+            },
+            {
+              "id": "zh-topic-bt-ranfa",
+              "headword": "染发",
+              "reading": "rǎnfà",
+              "meaningVn": "nhuộm tóc",
+              "example": "她把头发染成了棕色。",
+              "exampleVn": "Cô ấy đã nhuộm tóc màu nâu."
+            },
+            {
+              "id": "zh-topic-bt-tangfa",
+              "headword": "烫发",
+              "reading": "tàngfà",
+              "meaningVn": "uốn tóc",
+              "example": "我打算去烫发。",
+              "exampleVn": "Tôi định đi uốn tóc."
+            },
+            {
+              "id": "zh-topic-bt-jianfa",
+              "headword": "剪发",
+              "reading": "jiǎnfà",
+              "meaningVn": "cắt tóc",
+              "example": "他每个月剪一次发。",
+              "exampleVn": "Mỗi tháng anh ấy cắt tóc một lần."
+            },
+            {
+              "id": "zh-topic-bt-zaoxing",
+              "headword": "造型",
+              "reading": "zàoxíng",
+              "meaningVn": "tạo kiểu",
+              "example": "理发师帮她做了一个新造型。",
+              "exampleVn": "Thợ làm tóc đã tạo cho cô ấy một kiểu mới."
+            }
+          ]
+        },
+        {
+          "id": "body-management",
+          "titleNative": "身材管理",
+          "titleVn": "Quản lý vóc dáng",
+          "words": [
+            {
+              "id": "zh-topic-bt-shencai",
+              "headword": "身材",
+              "reading": "shēncái",
+              "meaningVn": "vóc dáng",
+              "example": "她的身材很好。",
+              "exampleVn": "Vóc dáng cô ấy rất đẹp."
+            },
+            {
+              "id": "zh-topic-bt-miaotiao",
+              "headword": "苗条",
+              "reading": "miáotiao",
+              "meaningVn": "thon thả",
+              "example": "她一直保持苗条的身材。",
+              "exampleVn": "Cô ấy luôn giữ vóc dáng thon thả."
+            },
+            {
+              "id": "zh-topic-bt-shoushen",
+              "headword": "瘦身",
+              "reading": "shòushēn",
+              "meaningVn": "giảm béo, thon gọn",
+              "example": "她在做瘦身计划。",
+              "exampleVn": "Cô ấy đang thực hiện kế hoạch giảm béo."
+            },
+            {
+              "id": "zh-topic-bt-meibai",
+              "headword": "美白",
+              "reading": "měibái",
+              "meaningVn": "làm trắng da",
+              "example": "很多护肤品都主打美白功效。",
+              "exampleVn": "Nhiều mỹ phẩm quảng cáo công dụng làm trắng da."
+            },
+            {
+              "id": "zh-topic-bt-baoyang",
+              "headword": "保养",
+              "reading": "bǎoyǎng",
+              "meaningVn": "chăm sóc (da/cơ thể)",
+              "example": "她很注重皮肤保养。",
+              "exampleVn": "Cô ấy rất chú trọng chăm sóc làn da."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-topic-media-communication",
+      "language": "zh",
+      "titleNative": "沟通与传媒",
+      "titleVn": "Truyền thông và giao tiếp",
+      "branches": [
+        {
+          "id": "mass-media",
+          "titleNative": "大众传媒",
+          "titleVn": "Truyền thông đại chúng",
+          "words": [
+            {
+              "id": "zh-topic-mc-xinwen",
+              "headword": "新闻",
+              "reading": "xīnwén",
+              "meaningVn": "tin tức",
+              "example": "我每天早上看新闻。",
+              "exampleVn": "Mỗi sáng tôi xem tin tức."
+            },
+            {
+              "id": "zh-topic-mc-meiti",
+              "headword": "媒体",
+              "reading": "méitǐ",
+              "meaningVn": "truyền thông",
+              "example": "这件事引起了媒体的关注。",
+              "exampleVn": "Việc này thu hút sự chú ý của truyền thông."
+            },
+            {
+              "id": "zh-topic-mc-dianshitai",
+              "headword": "电视台",
+              "reading": "diànshìtái",
+              "meaningVn": "đài truyền hình",
+              "example": "他在一家电视台工作。",
+              "exampleVn": "Anh ấy làm việc ở một đài truyền hình."
+            },
+            {
+              "id": "zh-topic-mc-jizhe",
+              "headword": "记者",
+              "reading": "jìzhě",
+              "meaningVn": "nhà báo, phóng viên",
+              "example": "记者正在采访目击者。",
+              "exampleVn": "Phóng viên đang phỏng vấn nhân chứng."
+            },
+            {
+              "id": "zh-topic-mc-baodao",
+              "headword": "报道",
+              "reading": "bàodào",
+              "meaningVn": "đưa tin",
+              "example": "这家报纸报道了这条新闻。",
+              "exampleVn": "Tờ báo này đã đưa tin về sự việc này."
+            }
+          ]
+        },
+        {
+          "id": "interpersonal-communication",
+          "titleNative": "人际沟通",
+          "titleVn": "Giao tiếp giữa người với người",
+          "words": [
+            {
+              "id": "zh-topic-mc-jiaoliu",
+              "headword": "交流",
+              "reading": "jiāoliú",
+              "meaningVn": "giao lưu, trao đổi",
+              "example": "我们应该多交流意见。",
+              "exampleVn": "Chúng ta nên trao đổi ý kiến nhiều hơn."
+            },
+            {
+              "id": "zh-topic-mc-biaoda",
+              "headword": "表达",
+              "reading": "biǎodá",
+              "meaningVn": "diễn đạt, bày tỏ",
+              "example": "他不太会表达自己的感情。",
+              "exampleVn": "Anh ấy không giỏi bày tỏ cảm xúc của mình."
+            },
+            {
+              "id": "zh-topic-mc-qingting",
+              "headword": "倾听",
+              "reading": "qīngtīng",
+              "meaningVn": "lắng nghe",
+              "example": "朋友之间要学会倾听。",
+              "exampleVn": "Bạn bè với nhau phải học cách lắng nghe."
+            },
+            {
+              "id": "zh-topic-mc-wuhui",
+              "headword": "误会",
+              "reading": "wùhuì",
+              "meaningVn": "hiểu lầm",
+              "example": "他们之间有一个误会。",
+              "exampleVn": "Giữa họ có một sự hiểu lầm."
+            },
+            {
+              "id": "zh-topic-mc-shuofu",
+              "headword": "说服",
+              "reading": "shuōfú",
+              "meaningVn": "thuyết phục",
+              "example": "她终于说服了父母。",
+              "exampleVn": "Cuối cùng cô ấy đã thuyết phục được cha mẹ."
+            }
+          ]
+        },
+        {
+          "id": "communication-method",
+          "titleNative": "通讯方式",
+          "titleVn": "Phương thức liên lạc",
+          "words": [
+            {
+              "id": "zh-topic-mc-duanxin",
+              "headword": "短信",
+              "reading": "duǎnxìn",
+              "meaningVn": "tin nhắn SMS",
+              "example": "他给我发了一条短信。",
+              "exampleVn": "Anh ấy đã gửi cho tôi một tin nhắn."
+            },
+            {
+              "id": "zh-topic-mc-shipintonghua",
+              "headword": "视频通话",
+              "reading": "shìpín tōnghuà",
+              "meaningVn": "gọi video",
+              "example": "我们每周都视频通话。",
+              "exampleVn": "Mỗi tuần chúng tôi đều gọi video với nhau."
+            },
+            {
+              "id": "zh-topic-mc-youjian",
+              "headword": "邮件",
+              "reading": "yóujiàn",
+              "meaningVn": "email, thư điện tử",
+              "example": "请把文件通过邮件发给我。",
+              "exampleVn": "Hãy gửi tài liệu cho tôi qua email."
+            },
+            {
+              "id": "zh-topic-mc-lianxifangshi",
+              "headword": "联系方式",
+              "reading": "liánxì fāngshì",
+              "meaningVn": "cách liên lạc, thông tin liên hệ",
+              "example": "请留下你的联系方式。",
+              "exampleVn": "Hãy để lại thông tin liên hệ của bạn."
+            },
+            {
+              "id": "zh-topic-mc-yuyinxinxi",
+              "headword": "语音信息",
+              "reading": "yǔyīn xìnxī",
+              "meaningVn": "tin nhắn thoại",
+              "example": "她给我发了一条语音信息。",
+              "exampleVn": "Cô ấy gửi cho tôi một tin nhắn thoại."
+            }
+          ]
+        },
+        {
+          "id": "advertising-promotion",
+          "titleNative": "广告与宣传",
+          "titleVn": "Quảng cáo và tuyên truyền",
+          "words": [
+            {
+              "id": "zh-topic-mc-guanggao",
+              "headword": "广告",
+              "reading": "guǎnggào",
+              "meaningVn": "quảng cáo",
+              "example": "电视上有很多广告。",
+              "exampleVn": "Trên tivi có rất nhiều quảng cáo."
+            },
+            {
+              "id": "zh-topic-mc-xuanchuan",
+              "headword": "宣传",
+              "reading": "xuānchuán",
+              "meaningVn": "tuyên truyền, quảng bá",
+              "example": "公司在宣传新产品。",
+              "exampleVn": "Công ty đang quảng bá sản phẩm mới."
+            },
+            {
+              "id": "zh-topic-mc-daiyanren",
+              "headword": "代言人",
+              "reading": "dàiyánrén",
+              "meaningVn": "đại sứ thương hiệu, người đại diện phát ngôn",
+              "example": "她是这个品牌的代言人。",
+              "exampleVn": "Cô ấy là đại sứ thương hiệu của nhãn hàng này."
+            },
+            {
+              "id": "zh-topic-mc-yingxiao",
+              "headword": "营销",
+              "reading": "yíngxiāo",
+              "meaningVn": "marketing, tiếp thị",
+              "example": "这是一次成功的营销活动。",
+              "exampleVn": "Đây là một chiến dịch marketing thành công."
+            },
+            {
+              "id": "zh-topic-mc-koubei",
+              "headword": "口碑",
+              "reading": "kǒubēi",
+              "meaningVn": "tiếng tăm, đánh giá truyền miệng",
+              "example": "这家餐厅口碑很好。",
+              "exampleVn": "Nhà hàng này được đánh giá truyền miệng rất tốt."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-topic-holidays-anniversaries",
+      "language": "zh",
+      "titleNative": "节日与纪念日",
+      "titleVn": "Ngày lễ và ngày kỷ niệm",
+      "branches": [
+        {
+          "id": "traditional-holiday",
+          "titleNative": "传统节日",
+          "titleVn": "Lễ hội truyền thống",
+          "words": [
+            {
+              "id": "zh-topic-hd-chunjie",
+              "headword": "春节",
+              "reading": "chūnjié",
+              "meaningVn": "Tết Nguyên Đán",
+              "example": "春节是中国最重要的节日。",
+              "exampleVn": "Tết Nguyên Đán là lễ hội quan trọng nhất của Trung Quốc."
+            },
+            {
+              "id": "zh-topic-hd-zhongqiujie",
+              "headword": "中秋节",
+              "reading": "zhōngqiūjié",
+              "meaningVn": "Tết Trung Thu",
+              "example": "中秋节我们一起吃月饼。",
+              "exampleVn": "Tết Trung Thu chúng tôi cùng nhau ăn bánh trung thu."
+            },
+            {
+              "id": "zh-topic-hd-duanwujie",
+              "headword": "端午节",
+              "reading": "duānwǔjié",
+              "meaningVn": "Tết Đoan Ngọ",
+              "example": "端午节有赛龙舟的习俗。",
+              "exampleVn": "Tết Đoan Ngọ có tục lệ đua thuyền rồng."
+            },
+            {
+              "id": "zh-topic-hd-qingmingjie",
+              "headword": "清明节",
+              "reading": "qīngmíngjié",
+              "meaningVn": "Tiết Thanh Minh",
+              "example": "清明节人们会去扫墓。",
+              "exampleVn": "Tiết Thanh Minh mọi người sẽ đi tảo mộ."
+            },
+            {
+              "id": "zh-topic-hd-yuanxiaojie",
+              "headword": "元宵节",
+              "reading": "yuánxiāojié",
+              "meaningVn": "Tết Nguyên Tiêu",
+              "example": "元宵节晚上有灯会。",
+              "exampleVn": "Tối Tết Nguyên Tiêu có hội đèn lồng."
+            }
+          ]
+        },
+        {
+          "id": "modern-holiday",
+          "titleNative": "现代节日",
+          "titleVn": "Lễ hội hiện đại",
+          "words": [
+            {
+              "id": "zh-topic-hd-shengdanjie",
+              "headword": "圣诞节",
+              "reading": "shèngdànjié",
+              "meaningVn": "Giáng Sinh",
+              "example": "圣诞节快乐！",
+              "exampleVn": "Chúc mừng Giáng Sinh!"
+            },
+            {
+              "id": "zh-topic-hd-qingrenjie",
+              "headword": "情人节",
+              "reading": "qíngrénjié",
+              "meaningVn": "Lễ Tình Nhân",
+              "example": "情人节他送了她一束花。",
+              "exampleVn": "Ngày Lễ Tình Nhân anh ấy tặng cô ấy một bó hoa."
+            },
+            {
+              "id": "zh-topic-hd-guangguanjie",
+              "headword": "光棍节",
+              "reading": "guānggùnjié",
+              "meaningVn": "Ngày Độc Thân (11 tháng 11)",
+              "example": "光棍节很多人网购打折商品。",
+              "exampleVn": "Ngày Độc Thân nhiều người mua hàng giảm giá online."
+            },
+            {
+              "id": "zh-topic-hd-ertongjie",
+              "headword": "儿童节",
+              "reading": "értóngjié",
+              "meaningVn": "Ngày Quốc tế Thiếu nhi",
+              "example": "儿童节学校组织了活动。",
+              "exampleVn": "Ngày Quốc tế Thiếu nhi trường tổ chức hoạt động."
+            },
+            {
+              "id": "zh-topic-hd-funvjie",
+              "headword": "妇女节",
+              "reading": "fùnǚjié",
+              "meaningVn": "Ngày Quốc tế Phụ nữ",
+              "example": "妇女节公司给女员工放半天假。",
+              "exampleVn": "Ngày Quốc tế Phụ nữ công ty cho nữ nhân viên nghỉ nửa ngày."
+            }
+          ]
+        },
+        {
+          "id": "celebration-activity",
+          "titleNative": "庆祝活动",
+          "titleVn": "Hoạt động ăn mừng",
+          "words": [
+            {
+              "id": "zh-topic-hd-qingzhu",
+              "headword": "庆祝",
+              "reading": "qìngzhù",
+              "meaningVn": "ăn mừng",
+              "example": "我们要好好庆祝一下。",
+              "exampleVn": "Chúng ta phải ăn mừng thật tốt."
+            },
+            {
+              "id": "zh-topic-hd-juhui",
+              "headword": "聚会",
+              "reading": "jùhuì",
+              "meaningVn": "tụ họp",
+              "example": "周末朋友们有一个聚会。",
+              "exampleVn": "Cuối tuần bạn bè có một buổi tụ họp."
+            },
+            {
+              "id": "zh-topic-hd-yanhua",
+              "headword": "烟花",
+              "reading": "yānhuā",
+              "meaningVn": "pháo hoa",
+              "example": "新年的烟花很漂亮。",
+              "exampleVn": "Pháo hoa năm mới rất đẹp."
+            },
+            {
+              "id": "zh-topic-hd-hongbao",
+              "headword": "红包",
+              "reading": "hóngbāo",
+              "meaningVn": "lì xì, phong bao đỏ",
+              "example": "孩子们收到了很多红包。",
+              "exampleVn": "Bọn trẻ nhận được rất nhiều lì xì."
+            },
+            {
+              "id": "zh-topic-hd-bainian",
+              "headword": "拜年",
+              "reading": "bàinián",
+              "meaningVn": "chúc Tết",
+              "example": "我们去给爷爷奶奶拜年。",
+              "exampleVn": "Chúng tôi đi chúc Tết ông bà."
+            }
+          ]
+        },
+        {
+          "id": "personal-anniversary",
+          "titleNative": "个人纪念日",
+          "titleVn": "Ngày kỷ niệm cá nhân",
+          "words": [
+            {
+              "id": "zh-topic-hd-shengri",
+              "headword": "生日",
+              "reading": "shēngrì",
+              "meaningVn": "sinh nhật",
+              "example": "今天是她的生日。",
+              "exampleVn": "Hôm nay là sinh nhật của cô ấy."
+            },
+            {
+              "id": "zh-topic-hd-shengrihui",
+              "headword": "生日会",
+              "reading": "shēngrì huì",
+              "meaningVn": "buổi tiệc sinh nhật",
+              "example": "我们给他办了一个生日会。",
+              "exampleVn": "Chúng tôi đã tổ chức một buổi tiệc sinh nhật cho anh ấy."
+            },
+            {
+              "id": "zh-topic-hd-zhounianjinianri",
+              "headword": "周年纪念日",
+              "reading": "zhōunián jìniànrì",
+              "meaningVn": "ngày kỷ niệm (hằng năm)",
+              "example": "今天是我们认识的周年纪念日。",
+              "exampleVn": "Hôm nay là ngày kỷ niệm chúng ta quen nhau."
+            },
+            {
+              "id": "zh-topic-hd-jiri",
+              "headword": "忌日",
+              "reading": "jìrì",
+              "meaningVn": "ngày giỗ",
+              "example": "每年这一天是他父亲的忌日。",
+              "exampleVn": "Mỗi năm ngày này là ngày giỗ của cha anh ấy."
+            },
+            {
+              "id": "zh-topic-hd-manyue",
+              "headword": "满月",
+              "reading": "mǎnyuè",
+              "meaningVn": "đầy tháng (em bé)",
+              "example": "宝宝满月的时候我们摆了酒席。",
+              "exampleVn": "Lúc em bé đầy tháng chúng tôi đã mở tiệc."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-topic-accident-safety",
+      "language": "zh",
+      "titleNative": "事故与安全",
+      "titleVn": "Tai nạn và an toàn",
+      "branches": [
+        {
+          "id": "traffic-accident",
+          "titleNative": "交通事故",
+          "titleVn": "Tai nạn giao thông",
+          "words": [
+            {
+              "id": "zh-topic-as-chehuo",
+              "headword": "车祸",
+              "reading": "chēhuò",
+              "meaningVn": "tai nạn xe cộ",
+              "example": "路口发生了一起车祸。",
+              "exampleVn": "Ở ngã tư đã xảy ra một vụ tai nạn xe cộ."
+            },
+            {
+              "id": "zh-topic-as-zhuangche",
+              "headword": "撞车",
+              "reading": "zhuàngchē",
+              "meaningVn": "đâm xe",
+              "example": "两辆车撞车了。",
+              "exampleVn": "Hai chiếc xe đã đâm vào nhau."
+            },
+            {
+              "id": "zh-topic-as-weizhang",
+              "headword": "违章",
+              "reading": "wéizhāng",
+              "meaningVn": "vi phạm giao thông",
+              "example": "他因为违章被罚款了。",
+              "exampleVn": "Anh ấy bị phạt tiền vì vi phạm giao thông."
+            },
+            {
+              "id": "zh-topic-as-jiujia",
+              "headword": "酒驾",
+              "reading": "jiǔjià",
+              "meaningVn": "lái xe sau khi uống rượu",
+              "example": "酒驾是非常危险的行为。",
+              "exampleVn": "Lái xe khi say rượu là hành vi rất nguy hiểm."
+            },
+            {
+              "id": "zh-topic-as-chaosu",
+              "headword": "超速",
+              "reading": "chāosù",
+              "meaningVn": "vượt tốc độ",
+              "example": "他因为超速被交警拦下了。",
+              "exampleVn": "Anh ấy bị cảnh sát giao thông chặn lại vì vượt tốc độ."
+            }
+          ]
+        },
+        {
+          "id": "unexpected-incident",
+          "titleNative": "意外事件",
+          "titleVn": "Sự cố bất ngờ",
+          "words": [
+            {
+              "id": "zh-topic-as-shuaidao",
+              "headword": "摔倒",
+              "reading": "shuāidǎo",
+              "meaningVn": "ngã",
+              "example": "奶奶不小心摔倒了。",
+              "exampleVn": "Bà nội vô ý bị ngã."
+            },
+            {
+              "id": "zh-topic-as-zhongdu",
+              "headword": "中毒",
+              "reading": "zhòngdú",
+              "meaningVn": "trúng độc, ngộ độc",
+              "example": "他因为食物中毒住院了。",
+              "exampleVn": "Anh ấy nhập viện vì ngộ độc thực phẩm."
+            },
+            {
+              "id": "zh-topic-as-nishui",
+              "headword": "溺水",
+              "reading": "nìshuǐ",
+              "meaningVn": "đuối nước",
+              "example": "游泳时要小心溺水。",
+              "exampleVn": "Khi bơi phải cẩn thận đuối nước."
+            },
+            {
+              "id": "zh-topic-as-chudian",
+              "headword": "触电",
+              "reading": "chùdiàn",
+              "meaningVn": "bị điện giật",
+              "example": "他不小心触电了。",
+              "exampleVn": "Anh ấy vô ý bị điện giật."
+            },
+            {
+              "id": "zh-topic-as-zoushi",
+              "headword": "走失",
+              "reading": "zǒushī",
+              "meaningVn": "đi lạc, thất lạc",
+              "example": "孩子在商场里走失了。",
+              "exampleVn": "Đứa trẻ bị đi lạc trong trung tâm thương mại."
+            }
+          ]
+        },
+        {
+          "id": "fire-first-aid",
+          "titleNative": "火灾与急救",
+          "titleVn": "Hỏa hoạn và cấp cứu",
+          "words": [
+            {
+              "id": "zh-topic-as-huozai",
+              "headword": "火灾",
+              "reading": "huǒzāi",
+              "meaningVn": "hỏa hoạn",
+              "example": "昨晚这栋楼发生了火灾。",
+              "exampleVn": "Tối qua tòa nhà này đã xảy ra hỏa hoạn."
+            },
+            {
+              "id": "zh-topic-as-baojing",
+              "headword": "报警",
+              "reading": "bàojǐng",
+              "meaningVn": "báo cảnh sát, báo động",
+              "example": "发现情况要马上报警。",
+              "exampleVn": "Phát hiện tình huống phải báo cảnh sát ngay."
+            },
+            {
+              "id": "zh-topic-as-jijiu",
+              "headword": "急救",
+              "reading": "jíjiù",
+              "meaningVn": "cấp cứu",
+              "example": "他学过基本的急救知识。",
+              "exampleVn": "Anh ấy đã học kiến thức cấp cứu cơ bản."
+            },
+            {
+              "id": "zh-topic-as-xiaofangyuan",
+              "headword": "消防员",
+              "reading": "xiāofángyuán",
+              "meaningVn": "lính cứu hỏa",
+              "example": "消防员及时赶到了现场。",
+              "exampleVn": "Lính cứu hỏa đã kịp thời đến hiện trường."
+            },
+            {
+              "id": "zh-topic-as-miehuoqi",
+              "headword": "灭火器",
+              "reading": "mièhuǒqì",
+              "meaningVn": "bình chữa cháy",
+              "example": "这里配备了灭火器。",
+              "exampleVn": "Nơi đây được trang bị bình chữa cháy."
+            }
+          ]
+        },
+        {
+          "id": "safety-precaution",
+          "titleNative": "安全防范",
+          "titleVn": "Phòng ngừa an toàn",
+          "words": [
+            {
+              "id": "zh-topic-as-anquandai",
+              "headword": "安全带",
+              "reading": "ānquándài",
+              "meaningVn": "dây an toàn",
+              "example": "开车一定要系安全带。",
+              "exampleVn": "Lái xe nhất định phải thắt dây an toàn."
+            },
+            {
+              "id": "zh-topic-as-anquanmao",
+              "headword": "安全帽",
+              "reading": "ānquánmào",
+              "meaningVn": "mũ bảo hộ",
+              "example": "工地上必须戴安全帽。",
+              "exampleVn": "Ở công trường bắt buộc phải đội mũ bảo hộ."
+            },
+            {
+              "id": "zh-topic-as-yufang",
+              "headword": "预防",
+              "reading": "yùfáng",
+              "meaningVn": "phòng ngừa",
+              "example": "预防总比治疗好。",
+              "exampleVn": "Phòng ngừa luôn tốt hơn chữa trị."
+            },
+            {
+              "id": "zh-topic-as-jingti",
+              "headword": "警惕",
+              "reading": "jǐngtì",
+              "meaningVn": "cảnh giác",
+              "example": "大家要提高警惕。",
+              "exampleVn": "Mọi người phải nâng cao cảnh giác."
+            },
+            {
+              "id": "zh-topic-as-taosheng",
+              "headword": "逃生",
+              "reading": "táoshēng",
+              "meaningVn": "thoát hiểm",
+              "example": "大家按照指示逃生。",
+              "exampleVn": "Mọi người thoát hiểm theo chỉ dẫn."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-topic-pets",
+      "language": "zh",
+      "titleNative": "宠物",
+      "titleVn": "Thú cưng",
+      "branches": [
+        {
+          "id": "common-pet",
+          "titleNative": "常见宠物",
+          "titleVn": "Thú cưng phổ biến",
+          "words": [
+            {
+              "id": "zh-topic-pt-mao",
+              "headword": "猫",
+              "reading": "māo",
+              "meaningVn": "mèo",
+              "example": "我家养了一只猫。",
+              "exampleVn": "Nhà tôi nuôi một con mèo."
+            },
+            {
+              "id": "zh-topic-pt-gou",
+              "headword": "狗",
+              "reading": "gǒu",
+              "meaningVn": "chó",
+              "example": "他的狗很聪明。",
+              "exampleVn": "Con chó của anh ấy rất thông minh."
+            },
+            {
+              "id": "zh-topic-pt-cangshu",
+              "headword": "仓鼠",
+              "reading": "cāngshǔ",
+              "meaningVn": "chuột hamster",
+              "example": "妹妹养了一只仓鼠。",
+              "exampleVn": "Em gái nuôi một con chuột hamster."
+            },
+            {
+              "id": "zh-topic-pt-tuzi",
+              "headword": "兔子",
+              "reading": "tùzi",
+              "meaningVn": "thỏ",
+              "example": "兔子喜欢吃胡萝卜。",
+              "exampleVn": "Thỏ thích ăn cà rốt."
+            },
+            {
+              "id": "zh-topic-pt-jinyu",
+              "headword": "金鱼",
+              "reading": "jīnyú",
+              "meaningVn": "cá vàng",
+              "example": "鱼缸里有几条金鱼。",
+              "exampleVn": "Trong bể cá có vài con cá vàng."
+            }
+          ]
+        },
+        {
+          "id": "raising-pet",
+          "titleNative": "养宠物",
+          "titleVn": "Nuôi thú cưng",
+          "words": [
+            {
+              "id": "zh-topic-pt-yang",
+              "headword": "养",
+              "reading": "yǎng",
+              "meaningVn": "nuôi",
+              "example": "她一直想养一只猫。",
+              "exampleVn": "Cô ấy luôn muốn nuôi một con mèo."
+            },
+            {
+              "id": "zh-topic-pt-weishi",
+              "headword": "喂食",
+              "reading": "wèishí",
+              "meaningVn": "cho ăn",
+              "example": "记得给宠物喂食。",
+              "exampleVn": "Nhớ cho thú cưng ăn."
+            },
+            {
+              "id": "zh-topic-pt-liugou",
+              "headword": "遛狗",
+              "reading": "liùgǒu",
+              "meaningVn": "dắt chó đi dạo",
+              "example": "他每天早上遛狗。",
+              "exampleVn": "Mỗi sáng anh ấy dắt chó đi dạo."
+            },
+            {
+              "id": "zh-topic-pt-xunlian",
+              "headword": "训练",
+              "reading": "xùnliàn",
+              "meaningVn": "huấn luyện",
+              "example": "训练狗需要耐心。",
+              "exampleVn": "Huấn luyện chó cần sự kiên nhẫn."
+            },
+            {
+              "id": "zh-topic-pt-lingyang",
+              "headword": "领养",
+              "reading": "lǐngyǎng",
+              "meaningVn": "nhận nuôi",
+              "example": "他从收容所领养了一只狗。",
+              "exampleVn": "Anh ấy đã nhận nuôi một con chó từ trại cứu hộ."
+            }
+          ]
+        },
+        {
+          "id": "pet-care",
+          "titleNative": "宠物护理",
+          "titleVn": "Chăm sóc thú cưng",
+          "words": [
+            {
+              "id": "zh-topic-pt-shouyi",
+              "headword": "兽医",
+              "reading": "shòuyī",
+              "meaningVn": "bác sĩ thú y",
+              "example": "猫生病了要带去看兽医。",
+              "exampleVn": "Mèo bị ốm phải đưa đến bác sĩ thú y."
+            },
+            {
+              "id": "zh-topic-pt-yimiao",
+              "headword": "疫苗",
+              "reading": "yìmiáo",
+              "meaningVn": "vắc-xin",
+              "example": "小狗要按时打疫苗。",
+              "exampleVn": "Chó con phải tiêm vắc-xin đúng lịch."
+            },
+            {
+              "id": "zh-topic-pt-jueyu",
+              "headword": "绝育",
+              "reading": "juéyù",
+              "meaningVn": "triệt sản",
+              "example": "很多人给宠物做绝育手术。",
+              "exampleVn": "Nhiều người cho thú cưng làm phẫu thuật triệt sản."
+            },
+            {
+              "id": "zh-topic-pt-chongwumeirong",
+              "headword": "宠物美容",
+              "reading": "chǒngwù měiróng",
+              "meaningVn": "làm đẹp cho thú cưng",
+              "example": "我带狗去做宠物美容。",
+              "exampleVn": "Tôi đưa chó đi làm đẹp."
+            },
+            {
+              "id": "zh-topic-pt-chongwuyiliao",
+              "headword": "宠物医疗",
+              "reading": "chǒngwù yīliáo",
+              "meaningVn": "y tế cho thú cưng",
+              "example": "宠物医疗的费用不便宜。",
+              "exampleVn": "Chi phí y tế cho thú cưng không hề rẻ."
+            }
+          ]
+        },
+        {
+          "id": "human-pet-bond",
+          "titleNative": "人宠关系",
+          "titleVn": "Quan hệ người và thú cưng",
+          "words": [
+            {
+              "id": "zh-topic-pt-peiban",
+              "headword": "陪伴",
+              "reading": "péibàn",
+              "meaningVn": "đồng hành, bầu bạn",
+              "example": "宠物是很好的陪伴。",
+              "exampleVn": "Thú cưng là bạn đồng hành rất tốt."
+            },
+            {
+              "id": "zh-topic-pt-zhongcheng",
+              "headword": "忠诚",
+              "reading": "zhōngchéng",
+              "meaningVn": "trung thành",
+              "example": "狗对主人非常忠诚。",
+              "exampleVn": "Chó rất trung thành với chủ."
+            },
+            {
+              "id": "zh-topic-pt-sajiao",
+              "headword": "撒娇",
+              "reading": "sājiāo",
+              "meaningVn": "nũng nịu",
+              "example": "猫喜欢对主人撒娇。",
+              "exampleVn": "Mèo thích nũng nịu với chủ."
+            },
+            {
+              "id": "zh-topic-pt-zoudiu",
+              "headword": "走丢",
+              "reading": "zǒudiū",
+              "meaningVn": "đi lạc, thất lạc (thú cưng)",
+              "example": "她的猫走丢了。",
+              "exampleVn": "Con mèo của cô ấy bị đi lạc."
+            },
+            {
+              "id": "zh-topic-pt-shouyangliulangdongwu",
+              "headword": "收养流浪动物",
+              "reading": "shōuyǎng liúlàng dòngwù",
+              "meaningVn": "nhận nuôi động vật hoang",
+              "example": "越来越多人愿意收养流浪动物。",
+              "exampleVn": "Ngày càng nhiều người sẵn lòng nhận nuôi động vật hoang."
+            }
+          ]
+        }
+      ]
     }
   ]
 }
