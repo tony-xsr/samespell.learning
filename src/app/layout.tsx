@@ -7,7 +7,8 @@ import { NO_FLASH_SCRIPT } from "@/lib/theme";
 
 export const metadata: Metadata = {
   title: "SameSpell Learning",
-  description: "Học từ vựng Trung / Hàn / Nhật qua các nhóm đồng âm dị nghĩa",
+  description:
+    "Học từ vựng và ngữ pháp Trung / Nhật / Hàn / Anh qua các trục dễ nhầm (đồng âm, đồng dạng, sai nghĩa), mindmap chủ đề, kịch bản hội thoại và bài kiểm tra tự sinh.",
 };
 
 export default async function RootLayout({

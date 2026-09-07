@@ -3,10 +3,11 @@
 import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import type { SoundGroup, SrsRating } from "@/types/vocab";
+import type { TopicGroup } from "@/types/topic";
 import { loadProgress, rateWord, toggleBookmark, toggleMastered } from "@/lib/progress";
 import { isDue, RATING_LABELS } from "@/lib/srs";
 import { speak, ttsFailureMessage } from "@/lib/tts";
-import { buildCardsFromGroup, type CardInfo } from "@/lib/reviewCards";
+import { buildCardsFromGroup, buildCardsFromTopic, type CardInfo } from "@/lib/reviewCards";
 import { toPinyin } from "@/lib/zhPinyin";
 
 const RATING_STYLE: Record<SrsRating, string> = {
@@ -27,10 +28,15 @@ function shuffle<T>(arr: T[]): T[] {
 
 export default function ReviewSession({
   groups,
+  topics,
   title,
   backHref,
 }: {
-  groups: SoundGroup[];
+  /** Nguồn thẻ trục đồng âm/hình/bẫy nghĩa/phụ âm đầu — truyền 1 trong 2, KHÔNG truyền cả `groups`
+   * lẫn `topics` cùng lúc. */
+  groups?: SoundGroup[];
+  /** Nguồn thẻ mindmap chủ đề — xem `buildCardsFromTopic`. */
+  topics?: TopicGroup[];
   title: string;
   backHref: string;
 }) {
@@ -53,14 +59,32 @@ export default function ReviewSession({
     });
   }
 
+  const current = cards[index];
+
+  // Tự phát âm để "nghe cho quen": 1 lần ngay khi thẻ mới xuất hiện (mặt trước, chỉ có headword —
+  // chưa lộ nghĩa nên an toàn), và 1 lần nữa khi lật thẻ (củng cố lại phát âm sau khi đã thấy nghĩa).
+  useEffect(() => {
+    if (!current) return;
+    handleSpeak(current.word.headword, current.language);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [current?.word.id]);
+
+  useEffect(() => {
+    if (!current || !flipped) return;
+    handleSpeak(current.word.headword, current.language);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [flipped]);
+
   useEffect(() => {
     let cancelled = false;
     (async () => {
       const progress = await loadProgress();
       if (cancelled) return;
-      const allCards: CardInfo[] = groups
-        .flatMap((g) => buildCardsFromGroup(g, progress))
-        .filter((c) => !c.mastered);
+      const allCards: CardInfo[] = (
+        topics
+          ? topics.flatMap((t) => buildCardsFromTopic(t, progress))
+          : (groups ?? []).flatMap((g) => buildCardsFromGroup(g, progress))
+      ).filter((c) => !c.mastered);
       const due = allCards.filter((c) => isDue(progress[c.word.id]));
       setCards(shuffle(due.length > 0 ? due : allCards));
       setReady(true);
@@ -68,9 +92,7 @@ export default function ReviewSession({
     return () => {
       cancelled = true;
     };
-  }, [groups]);
-
-  const current = cards[index];
+  }, [groups, topics]);
 
   const examplePinyin = useMemo(() => {
     if (!current || current.language !== "zh") return "";
@@ -376,7 +398,8 @@ export default function ReviewSession({
               </div>
 
               <div className="mt-4 rounded-lg bg-surface-3 px-3 py-2 text-xs text-ink-muted">
-                Gốc: <span className="font-medium text-ink">{current.rootChar}</span>
+                {current.contextLabel ?? "Gốc"}:{" "}
+                <span className="font-medium text-ink">{current.rootChar}</span>
                 {current.rootHanViet ? ` (${current.rootHanViet})` : ""} — {current.rootMeaning}
                 {current.siblings.length > 0 && (
                   <div className="mt-1">

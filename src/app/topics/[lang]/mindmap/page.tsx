@@ -17,11 +17,23 @@ export default async function TopicMindmapIndexPage({
         <Link href="/topics" className="text-sm font-medium text-brand-600 hover:underline">
           ← {data.label}
         </Link>
-        <h1 className="mt-2 text-2xl font-bold tracking-tight text-ink">🧩 Mindmap theo chủ đề</h1>
-        <p className="mt-1 text-sm text-ink-muted">
-          Thử nghiệm: từ vựng gom theo chủ đề/cảm xúc/hoạt động liên quan (khác trục đồng âm) — chọn 1
-          chủ đề để xem dạng canvas toả nhánh, từ lõi mở rộng ra từ liên quan bằng nét đứt.
-        </p>
+        <div className="mt-2 flex flex-wrap items-end justify-between gap-3">
+          <div>
+            <h1 className="text-2xl font-bold tracking-tight text-ink">🧩 Mindmap theo chủ đề</h1>
+            <p className="mt-1 text-sm text-ink-muted">
+              Thử nghiệm: từ vựng gom theo chủ đề/cảm xúc/hoạt động liên quan (khác trục đồng âm) —
+              chọn 1 chủ đề để xem dạng canvas toả nhánh, từ lõi mở rộng ra từ liên quan bằng nét đứt.
+            </p>
+          </div>
+          {data.topics.length > 0 && (
+            <Link
+              href={`/topics/${lang}/review`}
+              className="rounded-full bg-gradient-to-r from-emerald-600 to-teal-500 px-4 py-2 text-sm font-semibold text-white shadow-md hover:brightness-105"
+            >
+              🗂️ Luyện tập ngẫu nhiên cả {data.label}
+            </Link>
+          )}
+        </div>
 
         <div className="mt-5 flex flex-col gap-2">
           {data.topics.map((topic) => (

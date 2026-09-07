@@ -18,9 +18,10 @@ export default async function Home() {
         <div className="rounded-3xl bg-gradient-to-br from-brand-600 to-accent-500 p-6 text-white shadow-lg">
           <h1 className="text-2xl font-bold tracking-tight sm:text-3xl">SameSpell Learning</h1>
           <p className="mt-2 text-sm text-white/90">
-            Học từ vựng qua các nhóm <span className="font-semibold">đồng âm dị nghĩa</span> — nhiều
-            chữ Hán đọc giống nhau nhưng nghĩa khác nhau. Học ~200 chữ gốc, hiểu được hàng trăm từ
-            ghép.
+            Học <span className="font-semibold">4 ngôn ngữ</span> — Trung, Nhật, Hàn, Anh — cùng lúc
+            qua các trục dễ nhầm: <span className="font-semibold">đồng âm, đồng dạng, sai nghĩa</span>.
+            Từ ~200 chữ gốc, mở rộng ra hàng nghìn từ qua mindmap ngữ pháp/chủ đề, kịch bản hội thoại,
+            và bài kiểm tra tự sinh không giới hạn.
           </p>
         </div>
 
