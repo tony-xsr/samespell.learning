@@ -88,6 +88,7 @@ export default function ReviewSession({
     setReviewedCount((c) => c + 1);
     setFlipped(false);
     setPendingExpandWord(false);
+    setTtsWarning(null);
     setIndex((i) => i + 1);
   }
 
@@ -111,6 +112,7 @@ export default function ReviewSession({
     setCards((cs) => cs.filter((c) => c.word.id !== wordId));
     setFlipped(false);
     setPendingExpandWord(false);
+    setTtsWarning(null);
     try {
       await toggleMastered(wordId);
     } catch {

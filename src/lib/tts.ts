@@ -47,15 +47,22 @@ export async function speak(text: string, language: Language, rate = 0.85): Prom
     voices.find((v) => v.lang.toLowerCase().startsWith(lang.split("-")[0].toLowerCase()));
   if (!voice) return { ok: false, reason: "no-voice" };
 
-  window.speechSynthesis.cancel();
-  const utterance = new SpeechSynthesisUtterance(text);
-  utterance.voice = voice;
-  utterance.lang = voice.lang;
-  utterance.rate = rate;
-  window.speechSynthesis.speak(utterance);
-  // Bug phổ biến ở Chrome/Windows: sau cancel(), engine đôi khi treo ở trạng thái "paused"
-  // khiến speak() kế tiếp không phát ra tiếng — resume() ngay sau để đảm bảo utterance chạy.
-  window.speechSynthesis.resume();
+  // Một số trình duyệt/thiết bị (đặc biệt WebView Android cũ) có thể throw ngay ở cancel()/speak()
+  // khi engine đọc to gặp trục trặc — bọc try/catch để lỗi này không rơi thành unhandled rejection
+  // và không kéo theo bất kỳ tương tác UI nào khác (như lật thẻ) bị ảnh hưởng.
+  try {
+    window.speechSynthesis.cancel();
+    const utterance = new SpeechSynthesisUtterance(text);
+    utterance.voice = voice;
+    utterance.lang = voice.lang;
+    utterance.rate = rate;
+    window.speechSynthesis.speak(utterance);
+    // Bug phổ biến ở Chrome/Windows: sau cancel(), engine đôi khi treo ở trạng thái "paused"
+    // khiến speak() kế tiếp không phát ra tiếng — resume() ngay sau để đảm bảo utterance chạy.
+    window.speechSynthesis.resume();
+  } catch {
+    return { ok: false, reason: "no-voice" };
+  }
   return { ok: true };
 }
 
