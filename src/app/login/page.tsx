@@ -4,7 +4,7 @@ import LoginForm from "@/components/LoginForm";
 export default function LoginPage() {
   return (
     <Suspense>
-      <LoginForm title="Đăng nhập SameSpell" endpoint="/api/auth/login" defaultRedirect="/" />
+      <LoginForm title="Đăng nhập Rootlingo" endpoint="/api/auth/login" defaultRedirect="/" />
     </Suspense>
   );
 }

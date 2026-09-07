@@ -6,7 +6,7 @@ import SiteHeader from "@/components/SiteHeader";
 import { NO_FLASH_SCRIPT } from "@/lib/theme";
 
 export const metadata: Metadata = {
-  title: "SameSpell Learning",
+  title: "Rootlingo",
   description:
     "Học từ vựng và ngữ pháp Trung / Nhật / Hàn / Anh qua các trục dễ nhầm (đồng âm, đồng dạng, sai nghĩa), mindmap chủ đề, kịch bản hội thoại và bài kiểm tra tự sinh.",
 };

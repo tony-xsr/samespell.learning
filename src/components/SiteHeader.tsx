@@ -44,7 +44,7 @@ export default function SiteHeader({ role }: { role: SessionRole }) {
     <header className="flex items-center justify-between gap-2 bg-gradient-to-r from-brand-600 to-brand-500 px-3 py-3 text-white shadow-md sm:px-4">
       <Link href="/" className="flex shrink-0 items-center gap-1.5 whitespace-nowrap text-sm font-bold tracking-tight">
         <span className="text-lg">📖</span>
-        <span>SameSpell</span>
+        <span>Rootlingo</span>
       </Link>
       <div className="flex min-w-0 items-center gap-1 overflow-x-auto sm:gap-2">
         <NavPill href="/my-vocab" icon="📚" label="Từ vựng của tôi" />

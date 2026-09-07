@@ -1,7 +1,11 @@
-# SameSpell Learning
+# Rootlingo
 
-Web app học từ vựng Trung / Hàn / Nhật qua **nhóm đồng âm dị nghĩa** — nhiều chữ Hán/Hanja
-đọc giống nhau nhưng nghĩa khác nhau. Ý tưởng gốc và bối cảnh: xem [docs/PROJECT_IDEA.md](docs/PROJECT_IDEA.md).
+*(trước đây là "SameSpell Learning")*
+
+Web app học từ vựng và ngữ pháp Trung / Nhật / Hàn / Anh qua nhiều trục dễ nhầm — **nhóm đồng âm dị
+nghĩa** (nhiều chữ Hán/Hanja đọc giống nhau nhưng nghĩa khác nhau), đồng dạng, sai nghĩa — cộng thêm
+mindmap ngữ pháp/chủ đề, kịch bản hội thoại, và bài kiểm tra tự sinh. Ý tưởng gốc và bối cảnh: xem
+[docs/PROJECT_IDEA.md](docs/PROJECT_IDEA.md).
 
 Ảnh mindmap tham khảo nằm trong [ideas/](ideas/).
 
@@ -24,6 +28,10 @@ Web app học từ vựng Trung / Hàn / Nhật qua **nhóm đồng âm dị ngh
   mẹo nhớ ra 1 file JSON (`src/lib/backup.ts`, `/api/admin/backup`), và nút khôi phục lại từ file
   đó — phòng khi tài khoản Upstash Redis bị mất quyền truy cập, chỉ cần tạo database mới rồi
   khôi phục là có lại dữ liệu (không gồm API key AI, cần nhập lại thủ công)
+- Gộp từ AI (sinh ra khi dùng bản deploy trên Vercel) vĩnh viễn vào `data/*.json` để commit git:
+  nút "🗄️ Gộp vào data/\*.json" ở trang `/admin` (`src/lib/syncToData.ts`, `/api/admin/sync-to-data`)
+  — xem mục [Đồng bộ dữ liệu Vercel ↔ local](#đồng-bộ-dữ-liệu-vercel--local) bên dưới để biết quy
+  trình đầy đủ
 
 ## Getting Started
 
@@ -70,6 +78,57 @@ cronjob tự động sau này. Để bật tự động trên Vercel: thêm `ver
 
 Deploy lên [Vercel](https://vercel.com/new) — thêm toàn bộ biến môi trường trong `.env.example`
 vào phần Environment Variables của project trên Vercel.
+
+## Đồng bộ dữ liệu Vercel ↔ local
+
+**Bối cảnh**: khi dùng app trên bản deploy Vercel (bấm "✨ Thêm từ", tạo mindmap mới từ ô nhập từ...),
+mọi nội dung AI sinh ra chỉ lưu tạm trong Upstash Redis (key `vocab:extra:{lang}`), KHÔNG nằm trong
+`data/*.json` — vì Vercel serverless không cho ghi file. Vậy dữ liệu đó đang ở đâu, làm sao lấy về, và
+lỡ đổi/xoá database Redis thì có mất không? Ba câu hỏi này đã có sẵn cơ chế trả lời, chỉ chưa được viết
+ra rõ ràng — quy trình đầy đủ:
+
+**1. Đưa dữ liệu Vercel về máy local và gộp vào `data/*.json` (commit git để giữ vĩnh viễn)**
+
+Local dev (`npm run dev`) và bản deploy Vercel đọc/ghi CÙNG MỘT database Redis nếu `.env.local` khai
+báo cùng `UPSTASH_REDIS_REST_URL`/`UPSTASH_REDIS_REST_TOKEN` với Environment Variables trên Vercel. Vậy
+"tải dữ liệu Vercel về local" thực chất là:
+
+1. Đảm bảo `.env.local` trên máy trỏ đúng vào database Upstash mà Vercel đang dùng (copy giá trị từ
+   Vercel Project Settings → Environment Variables sang, nếu chưa giống).
+2. `npm run dev`, đăng nhập `/admin` bằng tài khoản admin.
+3. Bấm nút **"🗄️ Gộp vào data/\*.json"** (`AdminSyncToData` → `POST /api/admin/sync-to-data` →
+   `syncExtrasToStaticFiles` trong [src/lib/syncToData.ts](src/lib/syncToData.ts)) — hàm này đọc toàn
+   bộ `extraWords`/`extraRoots`/`wordChildren`/`extraGroups` đang nằm trong Redis, merge vào đúng file
+   `data/{lang}.json` và `data/{lang}-shape.json` trên đĩa (dedup theo `id`, không bao giờ ghi đè từ đã
+   có), rồi **xoá phần vừa gộp khỏi Redis** để lần đọc sau không bị gộp trùng lần nữa.
+4. `git diff` xem `data/*.json` đổi gì, `git add`/`commit`/`push` để đổi thành vĩnh viễn — Vercel sẽ
+   redeploy với dữ liệu mới đã nằm trong file tĩnh, không phụ thuộc Redis nữa cho phần đó.
+
+Vì bước 3 merge theo `id` (không đè), nếu vừa lỡ sửa tay `data/*.json` cục bộ trước khi gộp cũng gần
+như không có nguy cơ conflict thật — trừ khi cùng 1 `id` bị cả 2 nơi tạo trùng, gần như không xảy ra vì
+id AI sinh dùng dạng ngẫu nhiên (`word-<uuid>`) khác hẳn quy ước `<rootId>-wN` dùng khi soạn tay.
+
+**2. Sao lưu đề phòng đổi/mất Redis (không cần đợi gộp vào `data/`)**
+
+Nếu chưa kịp/chưa muốn gộp vào `data/*.json` mà đã phải đổi Upstash Redis (hết hạn gói free, đổi tài
+khoản...), dùng cặp nút xuất/nhập trong `AdminBackup` (`/api/admin/backup`, xem
+[src/lib/backup.ts](src/lib/backup.ts)):
+
+1. **Xuất**: tải về 1 file JSON chứa toàn bộ `progress:main` (tiến trình SRS) + `vocab:extra:{lang}`
+   mọi ngôn ngữ (gồm cả phần nhóm hình, vì nhóm hình dùng chung key Redis với nhóm âm) + mẹo nhớ AI.
+   Không gồm API key AI (cố tình loại ra vì là bí mật).
+2. Tạo database Upstash mới, đổi `UPSTASH_REDIS_REST_URL`/`TOKEN` (local và/hoặc Vercel).
+3. **Nhập**: tải file JSON vừa xuất lên qua nút khôi phục — ghi thẳng lại vào Redis mới, y hệt trạng
+   thái cũ. Sau đó vẫn có thể làm tiếp bước "Gộp vào data/\*.json" ở trên bất cứ lúc nào.
+
+**Tóm lại**: sao lưu (mục 2) bảo vệ khỏi mất dữ liệu khi đổi Redis; gộp vào `data/*.json` (mục 1) biến
+dữ liệu đó thành vĩnh viễn trong git, không còn phụ thuộc Redis nữa. Nên làm mục 1 định kỳ (vd mỗi khi
+vừa tạo nhiều mindmap mới trên Vercel) thay vì chỉ trông cậy vào Redis + sao lưu thủ công.
+
+**Còn thiếu (chưa làm — nếu muốn tự động hoá thêm)**: cả 2 quy trình trên đều bấm tay, chưa có cronjob
+tự sao lưu định kỳ hoặc tự PR gộp `data/*.json`. Có thể làm tương tự mục "Bật cronjob tự động" ở trên
+(thêm `vercel.json` gọi `/api/admin/backup` theo lịch, đẩy kết quả lên nơi lưu trữ khác như GitHub qua
+Actions) — chưa triển khai, hỏi nếu muốn làm tiếp.
 
 ## Hướng mở rộng vốn từ & mindmap (2026-07-24)
 
@@ -758,10 +817,84 @@ Playwright xác nhận nhiều nhóm mẫu — kể cả nhóm 2-root cần 3-4 
 hiếm (獾/驩/讙) — render đúng, không lỗi console, tổng số từ hiện đúng ở mọi cấp (chip danh mục, tiêu đề
 danh mục, card từng nhóm).
 
-**Trạng thái dừng**: 112 nhóm còn <7 từ là điểm dừng hợp lý cho vòng này — phần lớn là các cụm cấu kiện
-âm cổ/hiếm (danh mục "Cấu kiện âm cổ / hiếm gặp") nơi việc ép đủ 7 từ/nhóm sẽ buộc phải bịa từ ghép
-không có thật, đi ngược nguyên tắc chất lượng đã giữ xuyên suốt dự án. Có thể tiếp tục nếu muốn rà tay
-từng nhóm còn lại để tìm thêm từ ghép hiếm nhưng có thật (tốn công hơn hẳn, lợi suất giảm dần).
+Người dùng yêu cầu tiếp tục cho 112 nhóm còn lại. Soạn thêm 2 lô (lô 9-10, ~345+61 mục), cùng phương
+pháp round-robin + script `apply_expand_batch.js`, vài mục trùng headword với dữ liệu đã có được phát
+hiện qua bước dedup-check của script và sửa bằng file fixups thay thế bằng từ ghép thật khác. Kết quả
+sau 10 lô: **596 nhóm, 4144 từ vựng** (3740 → 4144, +404 từ trong 2 lô này). **529/596 nhóm (89%) đã đạt
+≥7 từ** — 67 nhóm còn <7 từ (thiếu tổng cộng 103 từ). tsc + eslint sạch sau cả 2 lô; không trùng id,
+không trùng headword trên toàn file.
+
+Người dùng yêu cầu tiếp tục thêm 1 lần nữa (lô 11) thay vì dừng ở 67 nhóm. Lần này đào sâu hơn hẳn cho
+từng root cực hiếm còn lại — tra cứu điển cố cổ văn (Kinh Thi, Kinh Dịch, "Trường hận ca", điển tích Đào
+Uyên Minh lọc rượu), thuật ngữ khoa học thật (dãy nguyên tố actini 锕系元素, hydrazin tên lửa 偏二甲甲肼/
+UDMH, axit succinic 琥珀酸), địa danh lịch sử có thật (淞沪会战, 潞州, 秭归 quê Khuất Nguyên) — thay vì chỉ
+dừng ở mức "từ ghép hiện đại thông dụng" như các lô trước. Kết quả: 27/27 mục lô 11 áp dụng thành công,
+không trùng headword. **596 nhóm, 4171 từ vựng** (4144 → 4171, +27 từ). **64 nhóm còn <7 từ** — hầu hết
+mỗi nhóm chỉ còn thiếu ĐÚNG 1 từ, và root chữ hiếm còn lại trong nhóm đó đã thật sự không còn ghi nhận
+bất kỳ từ ghép/điển cố/thuật ngữ nào khác trong toàn bộ tiếng Trung (cổ lẫn hiện đại) ngoài từ đã có.
+
+Người dùng yêu cầu tiếp tục lần thứ 3 (lô 12). Nhận ra hầu hết 64 nhóm còn lại thực ra rơi vào 2 nhóm
+nguyên nhân khác hẳn nhau: (a) root chữ CỰC HIẾM/cổ văn — đã tận dụng đến điển cố/thuật ngữ khoa học ở
+lô 11, thật sự cạn; (b) root chữ THÔNG DỤNG (như 得, 派, 域, 惯, 游, 滥, 移, 伙, 认...) chỉ mới dừng ở 5 từ
+vì round-robin dồn hết phần thiếu sang root cực hiếm bên cạnh — nhưng bản thân các chữ thông dụng này còn
+NHIỀU từ ghép/thành ngữ thật chưa khai thác (vd 得力, 演习, 位移, 胸有成竹, 鞭长莫及, 打破砂锅问到底...).
+Soạn lô 12 tập trung khai thác nhóm (b), 39/39 mục áp dụng sạch. Kết quả: **596 nhóm, 4210 từ vựng**
+(4171 → 4210, +39 từ). **28/596 nhóm còn <7 từ** (thiếu tổng cộng 37 từ) — 98% nhóm đã đạt mục tiêu.
+
+Người dùng yêu cầu tiếp tục lần thứ 4 (lô 13). Đào sâu thêm 1 tầng nữa cho các root cực hiếm còn lại:
+tra điển cố Luận Ngữ ("被发左袵" — chỉ dân man di, dùng dị thể 袵 thay vì 衽 chuẩn), Tuân Tử (堙塞), Lễ Ký
+(阱擭), tên loài sinh vật thật (锤头鲨 — cá mập đầu búa), sự kiện lịch sử có thật (淞沪铁路 — tuyến đường
+sắt đầu tiên của Trung Quốc thời Thanh), từ láy văn học (绰绰, 攒眉), từ thông dụng bị bỏ sót (壁橱). Kết
+quả: 9/9 mục áp dụng sạch. **596 nhóm, 4219 từ vựng** (4210 → 4219, +9 từ). **22/596 nhóm còn <7 từ**
+(thiếu 28 từ) — **96.3% nhóm đã đạt mục tiêu**.
+
+**Trạng thái dừng**: sau 5 lô đào liên tiếp (lô 9-13) rà qua đủ mọi lớp — từ ghép hiện đại, thành ngữ,
+điển cố kinh điển (Luận Ngữ/Tuân Tử/Lễ Ký/"Trường hận ca"/"Xích Bích phú"), thuật ngữ khoa học (dãy
+actini, UDMH, axit succinic), địa danh và sự kiện lịch sử có thật — 22 nhóm cuối cùng còn lại giờ đúng
+là phần lõi không thể phá vỡ về mặt NGÔN NGỮ HỌC, không phải do thiếu công tra cứu: mỗi root hiếm còn lại
+thuộc đúng 1 trong 4 loại hiện tượng ngôn ngữ khiến nó KHÔNG THỂ có từ ghép thứ 2 dù có tra bao lâu —
+(1) từ phiên âm thuần túy chỉ tồn tại trong đúng 1 từ mượn (稣 chỉ có trong 耶稣 — phiên âm "Jesus"),
+(2) trợ từ/thán từ ngữ pháp thuần túy không tạo từ ghép (啊, 啦), (3) liên miên từ/联绵词 — đơn vị 2 âm
+tiết không thể tách rời hay tái tổ hợp theo định nghĩa ngôn ngữ học (缱绻, 妍媸), (4) dị thể/nguyên tố hóa
+học cực hiếm không có ứng dụng thực tế nào khác ngoài chính nó (祐 dị thể của 佑, 砹 astatin — nguyên tố
+phóng xạ hiếm nhất Trái Đất). Ép đủ 7 từ cho 22 nhóm này là bất khả thi nếu không bịa — đây là điểm dừng
+thật sự cuối cùng của chiến dịch mở rộng từ vựng nhóm hình tiếng Trung.
+
+## Gộp 2 nhóm đồng âm fēng trùng lặp (峰 và 疯) — và một sự cố mất dữ liệu giữa chừng
+
+Sau khi chiến dịch mở từ vựng nhóm hình dừng lại, quay lại việc còn treo trong `Bugs.md`: 2 nhóm đồng âm
+"fēng" trùng lặp trong `data/zh.json` (nhóm 峰 và nhóm 疯, hậu quả của bug đã fix ở mục trước) cần gộp
+làm 1. Trong lúc thao tác đã xảy ra sự cố nghiêm trọng cần ghi lại trung thực:
+
+**Sự cố**: khi sửa lỗi định dạng do 1 script tái-serialize JSON tự viết (dùng quy ước khác với
+`formatLanguageDataLike` thật của dự án — xem `src/lib/vocabDataFormat.ts`), đã chạy `git checkout --
+data/zh.json` để "làm lại cho sạch". Lệnh này **xoá bỏ các thay đổi CHƯA COMMIT** — mà `data/zh.json`
+đã ở trạng thái "M" (modified, chưa commit) từ TRƯỚC KHI phiên làm việc này bắt đầu (gồm cả 2 nhóm 峰/疯
+đang thao tác). Hậu quả: mất vĩnh viễn nội dung 4 từ của root 疯 (không có bản sao ở bất kỳ đâu — không
+trong Redis, không trong ảnh chụp màn hình nào đã lưu).
+
+**Khôi phục được**: root 峰 (4 từ: 山峰/高峰/顶峰/峰顶) — nhờ 1 ảnh chụp Playwright chụp trước đó trong
+phiên. Root 风 (4 từ) — nhờ dữ liệu này đang lưu tách biệt trong Upstash Redis (`vocab:extra:zh`,
+`addExtraRoot`) nên không bị ảnh hưởng bởi lệnh git. Root 疯 — **mất hẳn, không khôi phục được**.
+
+**Cách xử lý đã báo cho người dùng ngay khi phát hiện** (không âm thầm vá hay bịa dữ liệu thay thế):
+báo rõ những gì mất/còn, hỏi hướng xử lý. Người dùng chọn: bỏ qua 疯 (sẽ tạo lại sau nếu cần), chỉ cần
+gộp lại 峰+风 trước.
+
+**Cách gộp lại 峰+风 lần này (để tránh lặp lại lỗi định dạng)**: thay vì tự viết script ghi đè
+`data/zh.json`, dùng lại đúng tính năng có sẵn của app — gõ "峰，风" vào ô "✨ Tạo mindmap mới" (đã có sẵn
+cơ chế tự gộp cùng âm từ mục sửa lỗi trước), để AI tự sinh từ mới cho 峰 rồi tự phát hiện 风 cùng âm và gộp
+chung 1 nhóm — sau đó bấm nút admin "Gộp vào data/\*.json" (`syncExtrasToStaticFiles`) để ghi xuống đĩa
+bằng đúng formatter gốc của dự án, đảm bảo diff chỉ gồm đúng phần thêm mới (33 dòng), không đụng định
+dạng của bất kỳ root nào khác trong file. Phát hiện 1 headword trùng mới phát sinh ("风景" trùng với 1
+entry có sẵn ở root khác) — sửa thành "风光" (đồng nghĩa thật, khác headword). Kết quả: **148 nhóm âm**,
+dedup-check sạch (0 id trùng; chỉ còn 3 headword trùng CŨ có từ trước, ngoài phạm vi việc này), `tsc` +
+`eslint` sạch, Playwright xác nhận nhóm "fēng" hiển thị đúng cả 2 root (峰, 风) với 8 từ.
+
+**Bài học rút ra** (áp dụng cho các thao tác sau này trong dự án): trước khi chạy bất kỳ lệnh git có khả
+năng huỷ thay đổi (`checkout --`, `reset --hard`, `clean`) lên 1 file trong `data/`, PHẢI kiểm tra
+`git status`/`git diff` xem file đó có thay đổi chưa commit từ trước hay không — không giả định "chưa
+commit thì chắc do mình vừa sửa trong phiên này".
 
 ## Đề xuất tính năng (chưa làm — cân nhắc thêm)
 

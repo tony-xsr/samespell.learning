@@ -16,7 +16,7 @@ export default async function Home() {
     <main className="flex flex-1 flex-col items-center px-4 py-10 sm:py-16">
       <div className="w-full max-w-md">
         <div className="rounded-3xl bg-gradient-to-br from-brand-600 to-accent-500 p-6 text-white shadow-lg">
-          <h1 className="text-2xl font-bold tracking-tight sm:text-3xl">SameSpell Learning</h1>
+          <h1 className="text-2xl font-bold tracking-tight sm:text-3xl">Rootlingo</h1>
           <p className="mt-2 text-sm text-white/90">
             Học <span className="font-semibold">4 ngôn ngữ</span> — Trung, Nhật, Hàn, Anh — cùng lúc
             qua các trục dễ nhầm: <span className="font-semibold">đồng âm, đồng dạng, sai nghĩa</span>.

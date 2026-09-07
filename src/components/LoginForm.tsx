@@ -50,7 +50,7 @@ export default function LoginForm({
 
       <div className="mb-6 text-center text-white">
         <div className="text-4xl">📖</div>
-        <div className="mt-1 text-lg font-bold tracking-tight">SameSpell Learning</div>
+        <div className="mt-1 text-lg font-bold tracking-tight">Rootlingo</div>
       </div>
 
       <form
