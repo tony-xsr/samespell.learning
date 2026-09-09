@@ -5,6 +5,7 @@ import type { Language } from "@/types/vocab";
 import type { AntonymRoot, CharAntonymLanguageData, CharAntonymPair, ClusterWord } from "@/types/wordCluster";
 import { speak, ttsFailureMessage } from "@/lib/tts";
 import { useFullscreen } from "@/lib/useFullscreen";
+import ViewModeToggle, { type ViewMode } from "@/components/ui/ViewModeToggle";
 
 function WordCard({ word, language, tone }: { word: ClusterWord; language: Language; tone: "left" | "right" }) {
   const [error, setError] = useState<string | null>(null);
@@ -57,7 +58,7 @@ function RootColumn({ root, language, tone }: { root: AntonymRoot; language: Lan
   );
 }
 
-function PairCard({ pair, language }: { pair: CharAntonymPair; language: Language }) {
+function PairCard({ pair, language, layout }: { pair: CharAntonymPair; language: Language; layout: ViewMode }) {
   const {
     containerRef,
     isFullscreen,
@@ -72,6 +73,27 @@ function PairCard({ pair, language }: { pair: CharAntonymPair; language: Languag
   }, [isFullscreen]);
 
   if (!isFullscreen) {
+    if (layout === "grid") {
+      return (
+        <div ref={containerRef} className="h-full">
+          <button
+            type="button"
+            onClick={openFullscreen}
+            className="flex h-full w-full flex-col items-start gap-2 rounded-2xl border border-border bg-surface-2 p-3 text-left shadow-sm transition hover:border-amber-300 hover:shadow-md"
+          >
+            <span className="hanzi line-clamp-2 text-base font-medium text-ink">
+              <span className="text-brand-600">{pair.left.character}</span>
+              <span className="mx-2 text-ink-muted">⇔</span>
+              <span className="text-accent-600">{pair.right.character}</span>
+            </span>
+            <span className="mt-auto flex w-full items-center justify-between gap-2">
+              <span className="text-[11px] text-ink-muted">{pair.left.words.length + pair.right.words.length} từ</span>
+              <span className="flex-none text-amber-500">⛶</span>
+            </span>
+          </button>
+        </div>
+      );
+    }
     return (
       <div ref={containerRef}>
         <button
@@ -165,11 +187,19 @@ export default function CharAntonymBrowser({
   language: Language;
   data: CharAntonymLanguageData;
 }) {
+  const [viewMode, setViewMode] = useState<ViewMode>("grid");
+  const listClass = viewMode === "grid" ? "grid grid-cols-1 gap-2.5 sm:grid-cols-2 lg:grid-cols-3" : "flex flex-col gap-2";
+
   return (
-    <div className="flex flex-col gap-2">
-      {data.pairs.map((pair) => (
-        <PairCard key={pair.id} pair={pair} language={language} />
-      ))}
+    <div className="flex flex-col gap-3">
+      <div className="flex justify-end">
+        <ViewModeToggle mode={viewMode} onChange={setViewMode} />
+      </div>
+      <div className={listClass}>
+        {data.pairs.map((pair) => (
+          <PairCard key={pair.id} pair={pair} language={language} layout={viewMode} />
+        ))}
+      </div>
     </div>
   );
 }
