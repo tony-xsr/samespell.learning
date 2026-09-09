@@ -23981,6 +23981,1182 @@
           ]
         }
       ]
+    },
+    {
+      "id": "zh-topic-hotpot-culture",
+      "language": "zh",
+      "titleNative": "火锅文化",
+      "titleVn": "Văn hoá lẩu (hotpot)",
+      "branches": [
+        {
+          "id": "soup-base",
+          "titleNative": "锅底汤底",
+          "titleVn": "Nước lẩu và các loại nồi",
+          "words": [
+            {
+              "id": "zh-topic-hc-guodi",
+              "headword": "锅底",
+              "reading": "guōdǐ",
+              "meaningVn": "nước lẩu (nền nồi)",
+              "example": "他们点了一份麻辣锅底。",
+              "exampleVn": "Họ gọi một phần nước lẩu cay tê."
+            },
+            {
+              "id": "zh-topic-hc-yuanyangguo",
+              "headword": "鸳鸯锅",
+              "reading": "yuānyāngguō",
+              "meaningVn": "nồi uyên ương (2 ngăn)",
+              "example": "不能吃辣的人可以选鸳鸯锅。",
+              "exampleVn": "Người không ăn được cay có thể chọn nồi uyên ương."
+            },
+            {
+              "id": "zh-topic-hc-qingtangguo",
+              "headword": "清汤锅",
+              "reading": "qīngtāngguō",
+              "meaningVn": "nồi nước trong",
+              "example": "她更喜欢清汤锅。",
+              "exampleVn": "Cô ấy thích nồi nước trong hơn."
+            },
+            {
+              "id": "zh-topic-hc-niuyouguodi",
+              "headword": "牛油锅底",
+              "reading": "niúyóu guōdǐ",
+              "meaningVn": "nước lẩu mỡ bò",
+              "example": "重庆火锅一般用牛油锅底。",
+              "exampleVn": "Lẩu Trùng Khánh thường dùng nước lẩu mỡ bò."
+            },
+            {
+              "id": "zh-topic-hc-jiatang",
+              "headword": "加汤",
+              "reading": "jiātāng",
+              "meaningVn": "thêm nước dùng",
+              "example": "锅里水少了要加汤。",
+              "exampleVn": "Nước trong nồi ít thì phải thêm nước dùng."
+            }
+          ]
+        },
+        {
+          "id": "dipping",
+          "titleNative": "涮菜蘸料",
+          "titleVn": "Đồ nhúng và nước chấm",
+          "words": [
+            {
+              "id": "zh-topic-hc-shuan",
+              "headword": "涮",
+              "reading": "shuàn",
+              "meaningVn": "nhúng (lẩu)",
+              "example": "他把肉片放进锅里涮。",
+              "exampleVn": "Anh ấy cho lát thịt vào nồi nhúng."
+            },
+            {
+              "id": "zh-topic-hc-maodu",
+              "headword": "毛肚",
+              "reading": "máodǔ",
+              "meaningVn": "dạ dày bò (lá sách)",
+              "example": "毛肚要涮几秒钟就熟了。",
+              "exampleVn": "Dạ dày bò chỉ cần nhúng vài giây là chín."
+            },
+            {
+              "id": "zh-topic-hc-zhanliao",
+              "headword": "蘸料",
+              "reading": "zhànliào",
+              "meaningVn": "nước chấm",
+              "example": "芝麻酱蘸料很受欢迎。",
+              "exampleVn": "Nước chấm sốt vừng rất được ưa chuộng."
+            },
+            {
+              "id": "zh-topic-hc-majiang",
+              "headword": "麻酱",
+              "reading": "májiàng",
+              "meaningVn": "sốt vừng",
+              "example": "北京火锅常用麻酱调味。",
+              "exampleVn": "Lẩu Bắc Kinh thường dùng sốt vừng để nêm."
+            },
+            {
+              "id": "zh-topic-hc-shuanyangrou",
+              "headword": "涮羊肉",
+              "reading": "shuàn yángròu",
+              "meaningVn": "lẩu thịt cừu nhúng",
+              "example": "冬天最适合吃涮羊肉。",
+              "exampleVn": "Mùa đông thích hợp nhất để ăn lẩu thịt cừu nhúng."
+            }
+          ]
+        },
+        {
+          "id": "dining-etiquette",
+          "titleNative": "用餐方式与礼仪",
+          "titleVn": "Cách ăn và phép tắc",
+          "words": [
+            {
+              "id": "zh-topic-hc-weizuo",
+              "headword": "围坐",
+              "reading": "wéizuò",
+              "meaningVn": "ngồi quây quần",
+              "example": "一家人围坐在火锅旁。",
+              "exampleVn": "Cả nhà ngồi quây quần bên nồi lẩu."
+            },
+            {
+              "id": "zh-topic-hc-shengshufenkai",
+              "headword": "生熟分开",
+              "reading": "shēngshú fēnkāi",
+              "meaningVn": "tách riêng đồ sống chín",
+              "example": "吃火锅要注意生熟分开。",
+              "exampleVn": "Ăn lẩu cần chú ý tách riêng đồ sống và chín."
+            },
+            {
+              "id": "zh-topic-hc-gongkuai",
+              "headword": "公筷",
+              "reading": "gōngkuài",
+              "meaningVn": "đũa dùng chung",
+              "example": "现在很多人吃火锅都用公筷。",
+              "exampleVn": "Hiện nay nhiều người ăn lẩu đều dùng đũa chung."
+            },
+            {
+              "id": "zh-topic-hc-tangshang",
+              "headword": "烫伤",
+              "reading": "tàngshāng",
+              "meaningVn": "bị bỏng",
+              "example": "小心别被锅边烫伤。",
+              "exampleVn": "Cẩn thận đừng để bị bỏng bởi thành nồi."
+            },
+            {
+              "id": "zh-topic-hc-dabaoshengcai",
+              "headword": "打包剩菜",
+              "reading": "dǎbāo shèngcài",
+              "meaningVn": "gói mang về đồ ăn thừa",
+              "example": "吃不完可以打包剩菜带走。",
+              "exampleVn": "Ăn không hết có thể gói mang về đồ ăn thừa."
+            }
+          ]
+        },
+        {
+          "id": "regional-styles",
+          "titleNative": "地方流派",
+          "titleVn": "Trường phái vùng miền",
+          "words": [
+            {
+              "id": "zh-topic-hc-chongqinghuoguo",
+              "headword": "重庆火锅",
+              "reading": "chóngqìng huǒguō",
+              "meaningVn": "lẩu Trùng Khánh",
+              "example": "重庆火锅以麻辣著称。",
+              "exampleVn": "Lẩu Trùng Khánh nổi tiếng với vị cay tê."
+            },
+            {
+              "id": "zh-topic-hc-chaoshanniurouhuoguo",
+              "headword": "潮汕牛肉火锅",
+              "reading": "cháoshàn niúròu huǒguō",
+              "meaningVn": "lẩu bò Triều Sán",
+              "example": "潮汕牛肉火锅讲究现切现涮。",
+              "exampleVn": "Lẩu bò Triều Sán chú trọng thái tươi nhúng ngay."
+            },
+            {
+              "id": "zh-topic-hc-beijingtongguoshuanrou",
+              "headword": "北京铜锅涮肉",
+              "reading": "běijīng tóngguō shuànròu",
+              "meaningVn": "lẩu nồi đồng Bắc Kinh",
+              "example": "北京铜锅涮肉历史悠久。",
+              "exampleVn": "Lẩu nồi đồng Bắc Kinh có lịch sử lâu đời."
+            },
+            {
+              "id": "zh-topic-hc-yunnanjunguguo",
+              "headword": "云南菌菇锅",
+              "reading": "yúnnán jūngū guō",
+              "meaningVn": "lẩu nấm Vân Nam",
+              "example": "云南菌菇锅用了十几种野生菌。",
+              "exampleVn": "Lẩu nấm Vân Nam dùng hơn chục loại nấm rừng."
+            },
+            {
+              "id": "zh-topic-hc-taishimalaguo",
+              "headword": "台式麻辣锅",
+              "reading": "táishì málà guō",
+              "meaningVn": "lẩu cay tê kiểu Đài Loan",
+              "example": "台式麻辣锅通常配沙茶酱。",
+              "exampleVn": "Lẩu cay tê kiểu Đài Loan thường ăn kèm sốt sa tế."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-topic-postgrad-civilservice-exam",
+      "language": "zh",
+      "titleNative": "考研考公与体制内就业",
+      "titleVn": "Thi cao học và thi công chức, việc làm trong biên chế",
+      "branches": [
+        {
+          "id": "postgrad-prep",
+          "titleNative": "考研备考",
+          "titleVn": "Ôn thi cao học",
+          "words": [
+            {
+              "id": "zh-topic-pce-kaoyan",
+              "headword": "考研",
+              "reading": "kǎoyán",
+              "meaningVn": "thi cao học",
+              "example": "他决定大四毕业后考研。",
+              "exampleVn": "Cậu ấy quyết định thi cao học sau khi tốt nghiệp năm tư."
+            },
+            {
+              "id": "zh-topic-pce-erzhan",
+              "headword": "二战",
+              "reading": "èrzhàn",
+              "meaningVn": "thi lại lần hai",
+              "example": "第一次没考上,他打算二战。",
+              "exampleVn": "Lần đầu không đỗ, cậu ấy định thi lại lần hai."
+            },
+            {
+              "id": "zh-topic-pce-zhengzhiyingyu",
+              "headword": "政治英语",
+              "reading": "zhèngzhì yīngyǔ",
+              "meaningVn": "môn chính trị & tiếng Anh",
+              "example": "政治英语是考研的公共课。",
+              "exampleVn": "Chính trị và tiếng Anh là môn thi chung của kỳ thi cao học."
+            },
+            {
+              "id": "zh-topic-pce-zhuanyeke",
+              "headword": "专业课",
+              "reading": "zhuānyèkè",
+              "meaningVn": "môn chuyên ngành",
+              "example": "专业课的复习难度更大。",
+              "exampleVn": "Việc ôn môn chuyên ngành khó hơn nhiều."
+            },
+            {
+              "id": "zh-topic-pce-shangan",
+              "headword": "上岸",
+              "reading": "shàng'àn",
+              "meaningVn": "\"lên bờ\" (thi đỗ)",
+              "example": "她今年终于考研上岸了。",
+              "exampleVn": "Năm nay cô ấy cuối cùng cũng thi đỗ (\"lên bờ\")."
+            }
+          ]
+        },
+        {
+          "id": "postgrad-process",
+          "titleNative": "考研流程",
+          "titleVn": "Quy trình thi cao học",
+          "words": [
+            {
+              "id": "zh-topic-pce-chushi",
+              "headword": "初试",
+              "reading": "chūshì",
+              "meaningVn": "thi vòng 1",
+              "example": "初试成绩下个月公布。",
+              "exampleVn": "Điểm thi vòng 1 sẽ công bố tháng sau."
+            },
+            {
+              "id": "zh-topic-pce-fushi",
+              "headword": "复试",
+              "reading": "fùshì",
+              "meaningVn": "thi vòng 2",
+              "example": "通过初试才能参加复试。",
+              "exampleVn": "Phải qua vòng 1 mới được tham gia vòng 2."
+            },
+            {
+              "id": "zh-topic-pce-tiaoji",
+              "headword": "调剂",
+              "reading": "tiáojì",
+              "meaningVn": "điều chỉnh nguyện vọng",
+              "example": "分数不够时可以申请调剂。",
+              "exampleVn": "Khi điểm không đủ có thể xin điều chỉnh nguyện vọng."
+            },
+            {
+              "id": "zh-topic-pce-daoshilianxi",
+              "headword": "导师联系",
+              "reading": "dǎoshī liánxì",
+              "meaningVn": "liên hệ giáo viên hướng dẫn",
+              "example": "考研前最好提前导师联系。",
+              "exampleVn": "Trước khi thi cao học tốt nhất nên liên hệ giáo viên hướng dẫn trước."
+            },
+            {
+              "id": "zh-topic-pce-nilluqu",
+              "headword": "拟录取",
+              "reading": "nǐ lùqǔ",
+              "meaningVn": "dự kiến trúng tuyển",
+              "example": "学校公布了拟录取名单。",
+              "exampleVn": "Nhà trường đã công bố danh sách dự kiến trúng tuyển."
+            }
+          ]
+        },
+        {
+          "id": "civil-service-exam",
+          "titleNative": "考公与国考",
+          "titleVn": "Thi công chức và thi quốc gia",
+          "words": [
+            {
+              "id": "zh-topic-pce-kaogong",
+              "headword": "考公",
+              "reading": "kǎogōng",
+              "meaningVn": "thi công chức",
+              "example": "越来越多年轻人选择考公。",
+              "exampleVn": "Ngày càng nhiều người trẻ chọn thi công chức."
+            },
+            {
+              "id": "zh-topic-pce-guokao",
+              "headword": "国考",
+              "reading": "guókǎo",
+              "meaningVn": "kỳ thi công chức quốc gia",
+              "example": "国考的竞争非常激烈。",
+              "exampleVn": "Kỳ thi công chức quốc gia cạnh tranh vô cùng khốc liệt."
+            },
+            {
+              "id": "zh-topic-pce-shengkao",
+              "headword": "省考",
+              "reading": "shěngkǎo",
+              "meaningVn": "kỳ thi công chức cấp tỉnh",
+              "example": "他同时报考了国考和省考。",
+              "exampleVn": "Cậu ấy đăng ký thi cả kỳ thi quốc gia lẫn kỳ thi cấp tỉnh."
+            },
+            {
+              "id": "zh-topic-pce-xingce",
+              "headword": "行测",
+              "reading": "xíngcè",
+              "meaningVn": "môn thi năng lực hành chính",
+              "example": "行测题量很大,时间很紧张。",
+              "exampleVn": "Môn thi năng lực hành chính lượng câu hỏi rất nhiều, thời gian rất gấp."
+            },
+            {
+              "id": "zh-topic-pce-shenlun",
+              "headword": "申论",
+              "reading": "shēnlùn",
+              "meaningVn": "môn thi luận chính sách",
+              "example": "申论考察写作和分析能力。",
+              "exampleVn": "Môn thi luận chính sách kiểm tra khả năng viết và phân tích."
+            }
+          ]
+        },
+        {
+          "id": "tenured-jobs",
+          "titleNative": "编制与铁饭碗",
+          "titleVn": "Biên chế và \"bát cơm sắt\"",
+          "words": [
+            {
+              "id": "zh-topic-pce-bianzhi",
+              "headword": "编制",
+              "reading": "biānzhì",
+              "meaningVn": "biên chế",
+              "example": "这个岗位有事业编制。",
+              "exampleVn": "Vị trí này có biên chế sự nghiệp."
+            },
+            {
+              "id": "zh-topic-pce-tiefanwan",
+              "headword": "铁饭碗",
+              "reading": "tiěfànwǎn",
+              "meaningVn": "\"bát cơm sắt\"",
+              "example": "很多家长希望孩子有个铁饭碗。",
+              "exampleVn": "Nhiều phụ huynh mong con có một công việc ổn định \"bát cơm sắt\"."
+            },
+            {
+              "id": "zh-topic-pce-shiyedanwei",
+              "headword": "事业单位",
+              "reading": "shìyè dānwèi",
+              "meaningVn": "đơn vị sự nghiệp",
+              "example": "他考上了一家事业单位。",
+              "exampleVn": "Cậu ấy đã thi đỗ vào một đơn vị sự nghiệp nhà nước."
+            },
+            {
+              "id": "zh-topic-pce-tizhinei",
+              "headword": "体制内",
+              "reading": "tǐzhì nèi",
+              "meaningVn": "\"trong hệ thống\"",
+              "example": "体制内工作稳定但收入一般。",
+              "exampleVn": "Công việc \"trong hệ thống\" ổn định nhưng thu nhập bình thường."
+            },
+            {
+              "id": "zh-topic-pce-yingjiesheng",
+              "headword": "应届生",
+              "reading": "yìngjièshēng",
+              "meaningVn": "sinh viên mới tốt nghiệp",
+              "example": "很多岗位只招应届生。",
+              "exampleVn": "Nhiều vị trí chỉ tuyển sinh viên mới tốt nghiệp năm nay."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-topic-traditional-instruments-music",
+      "language": "zh",
+      "titleNative": "民乐与传统乐器",
+      "titleVn": "Âm nhạc dân tộc và nhạc cụ truyền thống",
+      "branches": [
+        {
+          "id": "traditional-instruments",
+          "titleNative": "传统乐器",
+          "titleVn": "Nhạc cụ truyền thống",
+          "words": [
+            {
+              "id": "zh-topic-tim-guzheng",
+              "headword": "古筝",
+              "reading": "gǔzhēng",
+              "meaningVn": "đàn cổ tranh",
+              "example": "她从八岁开始学古筝。",
+              "exampleVn": "Cô ấy học đàn cổ tranh từ năm tám tuổi."
+            },
+            {
+              "id": "zh-topic-tim-erhu",
+              "headword": "二胡",
+              "reading": "èrhú",
+              "meaningVn": "đàn nhị hồ",
+              "example": "二胡的音色很悲伤。",
+              "exampleVn": "Âm sắc của đàn nhị hồ rất buồn."
+            },
+            {
+              "id": "zh-topic-tim-dizi",
+              "headword": "笛子",
+              "reading": "dízi",
+              "meaningVn": "sáo trúc",
+              "example": "他用笛子吹了一首民歌。",
+              "exampleVn": "Anh ấy thổi sáo trúc một bài dân ca."
+            },
+            {
+              "id": "zh-topic-tim-pipa",
+              "headword": "琵琶",
+              "reading": "pípá",
+              "meaningVn": "đàn tỳ bà",
+              "example": "琵琶弹奏需要很强的指法。",
+              "exampleVn": "Chơi đàn tỳ bà cần kỹ thuật ngón tay rất tốt."
+            },
+            {
+              "id": "zh-topic-tim-guqin",
+              "headword": "古琴",
+              "reading": "gǔqín",
+              "meaningVn": "đàn cổ cầm",
+              "example": "古琴的历史比古筝更久远。",
+              "exampleVn": "Đàn cổ cầm có lịch sử lâu đời hơn đàn cổ tranh."
+            }
+          ]
+        },
+        {
+          "id": "ensemble-music",
+          "titleNative": "民乐合奏",
+          "titleVn": "Hoà tấu nhạc dân tộc",
+          "words": [
+            {
+              "id": "zh-topic-tim-minyuetuan",
+              "headword": "民乐团",
+              "reading": "mínyuètuán",
+              "meaningVn": "dàn nhạc dân tộc",
+              "example": "学校成立了一支民乐团。",
+              "exampleVn": "Trường đã thành lập một dàn nhạc dân tộc."
+            },
+            {
+              "id": "zh-topic-tim-hezou",
+              "headword": "合奏",
+              "reading": "hézòu",
+              "meaningVn": "hoà tấu",
+              "example": "几种乐器一起合奏非常好听。",
+              "exampleVn": "Vài loại nhạc cụ cùng hoà tấu nghe rất hay."
+            },
+            {
+              "id": "zh-topic-tim-zhihui",
+              "headword": "指挥",
+              "reading": "zhǐhuī",
+              "meaningVn": "nhạc trưởng",
+              "example": "指挥挥动指挥棒开始演奏。",
+              "exampleVn": "Nhạc trưởng vung đũa chỉ huy bắt đầu biểu diễn."
+            },
+            {
+              "id": "zh-topic-tim-qumu",
+              "headword": "曲目",
+              "reading": "qǔmù",
+              "meaningVn": "danh mục bản nhạc",
+              "example": "这场音乐会的曲目都是经典民乐。",
+              "exampleVn": "Danh mục bản nhạc của buổi hoà nhạc này đều là nhạc dân tộc kinh điển."
+            },
+            {
+              "id": "zh-topic-tim-minzuyinyuehui",
+              "headword": "民族音乐会",
+              "reading": "mínzú yīnyuèhuì",
+              "meaningVn": "buổi hoà nhạc dân tộc",
+              "example": "上周他们去看了一场民族音乐会。",
+              "exampleVn": "Tuần trước họ đã đi xem một buổi hoà nhạc dân tộc."
+            }
+          ]
+        },
+        {
+          "id": "opera-vocals",
+          "titleNative": "戏曲唱腔",
+          "titleVn": "Làn điệu hí khúc",
+          "words": [
+            {
+              "id": "zh-topic-tim-jingju",
+              "headword": "京剧",
+              "reading": "jīngjù",
+              "meaningVn": "Kinh kịch",
+              "example": "他对京剧很感兴趣。",
+              "exampleVn": "Anh ấy rất hứng thú với Kinh kịch."
+            },
+            {
+              "id": "zh-topic-tim-changqiang",
+              "headword": "唱腔",
+              "reading": "chàngqiāng",
+              "meaningVn": "làn điệu",
+              "example": "每种地方戏曲都有独特的唱腔。",
+              "exampleVn": "Mỗi loại hí khúc địa phương đều có làn điệu riêng biệt."
+            },
+            {
+              "id": "zh-topic-tim-shengdanjingchou",
+              "headword": "生旦净丑",
+              "reading": "shēng dàn jìng chǒu",
+              "meaningVn": "tứ đại vai diễn hí khúc",
+              "example": "生旦净丑是京剧的四大行当。",
+              "exampleVn": "Sinh, đán, tịnh, sửu là bốn vai diễn chính của Kinh kịch."
+            },
+            {
+              "id": "zh-topic-tim-yiyasheng",
+              "headword": "咿呀声",
+              "reading": "yīyā shēng",
+              "meaningVn": "tiếng ngân nga",
+              "example": "早上练功房传来咿呀声。",
+              "exampleVn": "Buổi sáng từ phòng luyện tập vang lên tiếng ngân nga."
+            },
+            {
+              "id": "zh-topic-tim-yueju",
+              "headword": "越剧",
+              "reading": "yuèjù",
+              "meaningVn": "Việt kịch",
+              "example": "越剧以唱腔柔美著称。",
+              "exampleVn": "Việt kịch nổi tiếng với làn điệu mềm mại."
+            }
+          ]
+        },
+        {
+          "id": "heritage-transmission",
+          "titleNative": "非遗传承人",
+          "titleVn": "Người truyền thừa di sản phi vật thể",
+          "words": [
+            {
+              "id": "zh-topic-tim-feiyi",
+              "headword": "非遗",
+              "reading": "fēiyí",
+              "meaningVn": "di sản phi vật thể (viết tắt)",
+              "example": "这项技艺已经被列入非遗名录。",
+              "exampleVn": "Kỹ nghệ này đã được đưa vào danh mục di sản phi vật thể."
+            },
+            {
+              "id": "zh-topic-tim-chuanchengren",
+              "headword": "传承人",
+              "reading": "chuánchéngrén",
+              "meaningVn": "người truyền thừa",
+              "example": "他是这门技艺唯一的传承人。",
+              "exampleVn": "Ông ấy là người duy nhất truyền thừa kỹ nghệ này."
+            },
+            {
+              "id": "zh-topic-tim-shituzhi",
+              "headword": "师徒制",
+              "reading": "shītúzhì",
+              "meaningVn": "chế độ thầy trò",
+              "example": "这门手艺沿用师徒制传授。",
+              "exampleVn": "Kỹ nghệ này vẫn truyền dạy theo chế độ thầy trò."
+            },
+            {
+              "id": "zh-topic-tim-binwei",
+              "headword": "濒危",
+              "reading": "bīnwēi",
+              "meaningVn": "nguy cơ mai một",
+              "example": "这种曲艺正面临濒危的处境。",
+              "exampleVn": "Loại hình nghệ thuật này đang đối mặt với nguy cơ mai một."
+            },
+            {
+              "id": "zh-topic-tim-huotaibaohu",
+              "headword": "活态保护",
+              "reading": "huótài bǎohù",
+              "meaningVn": "bảo tồn sống động",
+              "example": "政府提倡对非遗进行活态保护。",
+              "exampleVn": "Chính phủ khuyến khích bảo tồn sống động đối với di sản phi vật thể."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-topic-chess-mahjong-culture",
+      "language": "zh",
+      "titleNative": "棋牌文化:象棋围棋与麻将馆",
+      "titleVn": "Văn hoá cờ tướng, cờ vây và tiệm mạt chược",
+      "branches": [
+        {
+          "id": "xiangqi",
+          "titleNative": "象棋对弈",
+          "titleVn": "Đấu cờ tướng",
+          "words": [
+            {
+              "id": "zh-topic-cmc-xiangqi",
+              "headword": "象棋",
+              "reading": "xiàngqí",
+              "meaningVn": "cờ tướng",
+              "example": "爷爷每天下午都下象棋。",
+              "exampleVn": "Ông mỗi chiều đều chơi cờ tướng."
+            },
+            {
+              "id": "zh-topic-cmc-qipu",
+              "headword": "棋谱",
+              "reading": "qípǔ",
+              "meaningVn": "phổ cờ",
+              "example": "他买了一本象棋棋谱来研究。",
+              "exampleVn": "Anh ấy đã mua một cuốn phổ cờ tướng để nghiên cứu."
+            },
+            {
+              "id": "zh-topic-cmc-jiangsi",
+              "headword": "将死",
+              "reading": "jiàngsǐ",
+              "meaningVn": "chiếu bí",
+              "example": "他一步棋就将死了对方。",
+              "exampleVn": "Anh ấy chỉ một nước đã chiếu bí đối phương."
+            },
+            {
+              "id": "zh-topic-cmc-jumapao",
+              "headword": "车马炮",
+              "reading": "jūmǎpào",
+              "meaningVn": "xe mã pháo",
+              "example": "车马炮的配合决定了棋局走向。",
+              "exampleVn": "Sự phối hợp giữa xe, mã, pháo quyết định cục diện ván cờ."
+            },
+            {
+              "id": "zh-topic-cmc-qitan",
+              "headword": "棋摊",
+              "reading": "qítān",
+              "meaningVn": "sạp cờ vỉa hè",
+              "example": "公园门口摆着几个棋摊。",
+              "exampleVn": "Trước cổng công viên bày mấy sạp cờ."
+            }
+          ]
+        },
+        {
+          "id": "weiqi",
+          "titleNative": "围棋文化",
+          "titleVn": "Văn hoá cờ vây",
+          "words": [
+            {
+              "id": "zh-topic-cmc-weiqi",
+              "headword": "围棋",
+              "reading": "wéiqí",
+              "meaningVn": "cờ vây",
+              "example": "围棋起源于中国。",
+              "exampleVn": "Cờ vây có nguồn gốc từ Trung Quốc."
+            },
+            {
+              "id": "zh-topic-cmc-duanwei",
+              "headword": "段位",
+              "reading": "duànwèi",
+              "meaningVn": "đẳng cấp",
+              "example": "他的围棋段位已经是业余五段。",
+              "exampleVn": "Trình độ cờ vây của anh ấy đã là nghiệp dư năm đẳng."
+            },
+            {
+              "id": "zh-topic-cmc-luozi",
+              "headword": "落子",
+              "reading": "luòzǐ",
+              "meaningVn": "đặt quân cờ",
+              "example": "每一次落子都要深思熟虑。",
+              "exampleVn": "Mỗi lần đặt quân cờ đều phải suy nghĩ kỹ càng."
+            },
+            {
+              "id": "zh-topic-cmc-sihuoti",
+              "headword": "死活题",
+              "reading": "sǐhuótí",
+              "meaningVn": "bài toán sinh tử",
+              "example": "他每天都做几道死活题。",
+              "exampleVn": "Mỗi ngày anh ấy đều làm vài bài toán sinh tử."
+            },
+            {
+              "id": "zh-topic-cmc-dapu",
+              "headword": "打谱",
+              "reading": "dǎpǔ",
+              "meaningVn": "học lại ván cờ kinh điển",
+              "example": "他每天都花时间打谱学习。",
+              "exampleVn": "Mỗi ngày anh ấy đều dành thời gian học lại ván cờ kinh điển."
+            }
+          ]
+        },
+        {
+          "id": "mahjong-parlor",
+          "titleNative": "麻将馆",
+          "titleVn": "Tiệm mạt chược",
+          "words": [
+            {
+              "id": "zh-topic-cmc-majiangguan",
+              "headword": "麻将馆",
+              "reading": "májiàngguǎn",
+              "meaningVn": "tiệm mạt chược",
+              "example": "小区附近有一家麻将馆。",
+              "exampleVn": "Gần khu dân cư có một tiệm mạt chược."
+            },
+            {
+              "id": "zh-topic-cmc-cuomajiang",
+              "headword": "搓麻将",
+              "reading": "cuō májiàng",
+              "meaningVn": "chơi mạt chược",
+              "example": "大家聚在一起搓麻将。",
+              "exampleVn": "Mọi người tụ lại cùng nhau chơi mạt chược."
+            },
+            {
+              "id": "zh-topic-cmc-mapai",
+              "headword": "码牌",
+              "reading": "mǎpái",
+              "meaningVn": "xếp quân bài",
+              "example": "开局前大家一起码牌。",
+              "exampleVn": "Trước khi bắt đầu ván mọi người cùng xếp quân bài."
+            },
+            {
+              "id": "zh-topic-cmc-hupai",
+              "headword": "胡牌",
+              "reading": "húpái",
+              "meaningVn": "ù bài",
+              "example": "他这局胡牌了。",
+              "exampleVn": "Ván này anh ấy đã ù bài."
+            },
+            {
+              "id": "zh-topic-cmc-majiangsheng",
+              "headword": "麻将声",
+              "reading": "májiàng shēng",
+              "meaningVn": "tiếng va chạm quân mạt chược",
+              "example": "巷子里传来阵阵麻将声。",
+              "exampleVn": "Từ trong ngõ vang lên từng tiếng va chạm quân mạt chược."
+            }
+          ]
+        },
+        {
+          "id": "parlor-socializing",
+          "titleNative": "棋牌室社交",
+          "titleVn": "Giao lưu xã hội tại tiệm cờ bài",
+          "words": [
+            {
+              "id": "zh-topic-cmc-qipaishi",
+              "headword": "棋牌室",
+              "reading": "qípáishì",
+              "meaningVn": "phòng cờ bài",
+              "example": "小区新开了一家棋牌室。",
+              "exampleVn": "Khu dân cư vừa mở một phòng cờ bài mới."
+            },
+            {
+              "id": "zh-topic-cmc-chashuifei",
+              "headword": "茶水费",
+              "reading": "cháshuǐfèi",
+              "meaningVn": "phí trà nước",
+              "example": "打一下午麻将只收十块茶水费。",
+              "exampleVn": "Chơi mạt chược cả buổi chiều chỉ thu mười tệ phí trà nước."
+            },
+            {
+              "id": "zh-topic-cmc-laochake",
+              "headword": "老茶客",
+              "reading": "lǎocháke",
+              "meaningVn": "khách quen lâu năm",
+              "example": "这家棋牌室有很多老茶客。",
+              "exampleVn": "Phòng cờ bài này có rất nhiều khách quen lâu năm."
+            },
+            {
+              "id": "zh-topic-cmc-guanqibuyu",
+              "headword": "观棋不语",
+              "reading": "guānqí bùyǔ",
+              "meaningVn": "\"xem cờ không nói\"",
+              "example": "老人常说观棋不语真君子。",
+              "exampleVn": "Người già thường nói \"xem cờ không nói mới là quân tử\"."
+            },
+            {
+              "id": "zh-topic-cmc-linlishejiao",
+              "headword": "邻里社交",
+              "reading": "línlǐ shèjiāo",
+              "meaningVn": "giao lưu hàng xóm",
+              "example": "棋牌室成了邻里社交的好地方。",
+              "exampleVn": "Phòng cờ bài đã trở thành nơi giao lưu hàng xóm tốt."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-topic-chunyun-migration",
+      "language": "zh",
+      "titleNative": "春运:中国式新年迁徙",
+      "titleVn": "Xuân vận: cuộc di cư năm mới kiểu Trung Quốc",
+      "branches": [
+        {
+          "id": "ticket-grabbing",
+          "titleNative": "抢票",
+          "titleVn": "Săn vé",
+          "words": [
+            {
+              "id": "zh-topic-cym-chunyun",
+              "headword": "春运",
+              "reading": "chūnyùn",
+              "meaningVn": "Xuân vận",
+              "example": "春运期间火车票很难买。",
+              "exampleVn": "Trong dịp Xuân vận vé tàu rất khó mua."
+            },
+            {
+              "id": "zh-topic-cym-qiangpiaoruanjian",
+              "headword": "抢票软件",
+              "reading": "qiǎngpiào ruǎnjiàn",
+              "meaningVn": "phần mềm săn vé",
+              "example": "他用抢票软件才买到票。",
+              "exampleVn": "Anh ấy phải dùng phần mềm săn vé mới mua được vé."
+            },
+            {
+              "id": "zh-topic-cym-houbugoupiao",
+              "headword": "候补购票",
+              "reading": "hòubǔ gòupiào",
+              "meaningVn": "mua vé chờ bù",
+              "example": "没抢到票可以试试候补购票。",
+              "exampleVn": "Không săn được vé có thể thử mua vé chờ bù."
+            },
+            {
+              "id": "zh-topic-cym-yipiaonanqiu",
+              "headword": "一票难求",
+              "reading": "yīpiào nánqiú",
+              "meaningVn": "\"một vé khó cầu\"",
+              "example": "春节前的车票一票难求。",
+              "exampleVn": "Vé tàu trước Tết \"một vé khó cầu\"."
+            },
+            {
+              "id": "zh-topic-cym-fangpiaoshijian",
+              "headword": "放票时间",
+              "reading": "fàngpiào shíjiān",
+              "meaningVn": "thời điểm mở bán vé",
+              "example": "他设好闹钟提醒放票时间。",
+              "exampleVn": "Anh ấy đặt báo thức để nhắc thời điểm mở bán vé."
+            }
+          ]
+        },
+        {
+          "id": "homebound-wave",
+          "titleNative": "返乡潮",
+          "titleVn": "Làn sóng về quê",
+          "words": [
+            {
+              "id": "zh-topic-cym-fanxiang",
+              "headword": "返乡",
+              "reading": "fǎnxiāng",
+              "meaningVn": "về quê",
+              "example": "春节前是返乡高峰。",
+              "exampleVn": "Trước Tết là cao điểm về quê."
+            },
+            {
+              "id": "zh-topic-cym-chunyunkeliu",
+              "headword": "春运客流",
+              "reading": "chūnyùn kèliú",
+              "meaningVn": "lưu lượng hành khách Xuân vận",
+              "example": "今年春运客流预计创新高。",
+              "exampleVn": "Lưu lượng hành khách dịp Xuân vận năm nay dự kiến lập kỷ lục mới."
+            },
+            {
+              "id": "zh-topic-cym-fanxiangchunyun",
+              "headword": "反向春运",
+              "reading": "fǎnxiàng chūnyùn",
+              "meaningVn": "\"Xuân vận ngược\"",
+              "example": "越来越多老人选择反向春运。",
+              "exampleVn": "Ngày càng nhiều người già chọn \"Xuân vận ngược\"."
+            },
+            {
+              "id": "zh-topic-cym-motuochefanxiang",
+              "headword": "摩托车返乡",
+              "reading": "mótuōchē fǎnxiāng",
+              "meaningVn": "đoàn xe máy về quê",
+              "example": "每年都有摩托车返乡大军穿过广西。",
+              "exampleVn": "Mỗi năm đều có đoàn xe máy về quê đông đảo đi qua Quảng Tây."
+            },
+            {
+              "id": "zh-topic-cym-dabaoxiaobao",
+              "headword": "大包小包",
+              "reading": "dàbāo xiǎobāo",
+              "meaningVn": "hành lý lỉnh kỉnh",
+              "example": "旅客们提着大包小包赶路。",
+              "exampleVn": "Hành khách xách hành lý lỉnh kỉnh vội vã lên đường."
+            }
+          ]
+        },
+        {
+          "id": "transport-support",
+          "titleNative": "春运保障",
+          "titleVn": "Đảm bảo hậu cần Xuân vận",
+          "words": [
+            {
+              "id": "zh-topic-cym-tielujingcha",
+              "headword": "铁路警察",
+              "reading": "tiělù jǐngchá",
+              "meaningVn": "cảnh sát đường sắt",
+              "example": "铁路警察在站台维持秩序。",
+              "exampleVn": "Cảnh sát đường sắt duy trì trật tự trên sân ga."
+            },
+            {
+              "id": "zh-topic-cym-zhiyuanzhefuwu",
+              "headword": "志愿者服务",
+              "reading": "zhìyuànzhě fúwù",
+              "meaningVn": "dịch vụ tình nguyện viên",
+              "example": "车站里有志愿者服务台。",
+              "exampleVn": "Trong nhà ga có quầy dịch vụ tình nguyện viên."
+            },
+            {
+              "id": "zh-topic-cym-jiakailieche",
+              "headword": "加开列车",
+              "reading": "jiākāi lièchē",
+              "meaningVn": "tăng chuyến tàu",
+              "example": "铁路部门春运期间会加开列车。",
+              "exampleVn": "Ngành đường sắt sẽ tăng chuyến tàu trong dịp Xuân vận."
+            },
+            {
+              "id": "zh-topic-cym-yingjiyuan",
+              "headword": "应急预案",
+              "reading": "yìngjí yù'àn",
+              "meaningVn": "phương án ứng phó khẩn cấp",
+              "example": "车站制定了恶劣天气的应急预案。",
+              "exampleVn": "Nhà ga đã lập phương án ứng phó khẩn cấp cho thời tiết xấu."
+            },
+            {
+              "id": "zh-topic-cym-zhiliulvke",
+              "headword": "滞留旅客",
+              "reading": "zhìliú lǚkè",
+              "meaningVn": "hành khách bị mắc kẹt",
+              "example": "车站里有不少滞留旅客。",
+              "exampleVn": "Trong nhà ga có không ít hành khách bị mắc kẹt."
+            }
+          ]
+        },
+        {
+          "id": "reunion-anticipation",
+          "titleNative": "团圆期盼",
+          "titleVn": "Mong ngóng đoàn viên",
+          "words": [
+            {
+              "id": "zh-topic-cym-yiniangongyidu",
+              "headword": "一年一度",
+              "reading": "yī nián yī dù",
+              "meaningVn": "\"mỗi năm một lần\"",
+              "example": "春运是一年一度的人口大迁徙。",
+              "exampleVn": "Xuân vận là cuộc đại di cư dân số diễn ra mỗi năm một lần."
+            },
+            {
+              "id": "zh-topic-cym-guixinsijian",
+              "headword": "归心似箭",
+              "reading": "guīxīn sìjiàn",
+              "meaningVn": "\"lòng về như tên bắn\"",
+              "example": "快到春节了,大家都归心似箭。",
+              "exampleVn": "Sắp đến Tết rồi, ai nấy đều nôn nóng muốn về nhà."
+            },
+            {
+              "id": "zh-topic-cym-tuanyuan",
+              "headword": "团圆",
+              "reading": "tuányuán",
+              "meaningVn": "đoàn viên",
+              "example": "春运的意义就是让大家能团圆。",
+              "exampleVn": "Ý nghĩa của Xuân vận chính là để mọi người được đoàn viên."
+            },
+            {
+              "id": "zh-topic-cym-chunyunjiluping",
+              "headword": "春运纪录片",
+              "reading": "chūnyùn jìlùpiàn",
+              "meaningVn": "phim tài liệu về Xuân vận",
+              "example": "这部春运纪录片让人很感动。",
+              "exampleVn": "Bộ phim tài liệu về Xuân vận này khiến người xem rất xúc động."
+            },
+            {
+              "id": "zh-topic-cym-zhantaiyongbao",
+              "headword": "站台拥抱",
+              "reading": "zhàntái yōngbào",
+              "meaningVn": "cái ôm trên sân ga",
+              "example": "站台拥抱的画面让人感动。",
+              "exampleVn": "Hình ảnh cái ôm trên sân ga khiến người ta cảm động."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-topic-livestream-ecommerce",
+      "language": "zh",
+      "titleNative": "直播带货与社交电商",
+      "titleVn": "Bán hàng qua livestream và thương mại điện tử xã hội",
+      "branches": [
+        {
+          "id": "livestream-room",
+          "titleNative": "直播间",
+          "titleVn": "Phòng livestream",
+          "words": [
+            {
+              "id": "zh-topic-lse-zhibojian",
+              "headword": "直播间",
+              "reading": "zhíbōjiān",
+              "meaningVn": "phòng phát trực tiếp",
+              "example": "她每天晚上都在直播间卖货。",
+              "exampleVn": "Tối nào cô ấy cũng bán hàng trong phòng livestream."
+            },
+            {
+              "id": "zh-topic-lse-daihuozhubo",
+              "headword": "带货主播",
+              "reading": "dàihuò zhǔbō",
+              "meaningVn": "người dẫn livestream bán hàng",
+              "example": "这位带货主播很会介绍产品。",
+              "exampleVn": "Người dẫn livestream bán hàng này rất giỏi giới thiệu sản phẩm."
+            },
+            {
+              "id": "zh-topic-lse-changguan",
+              "headword": "场观",
+              "reading": "chǎngguān",
+              "meaningVn": "lượt xem phiên livestream",
+              "example": "这场直播的场观超过百万。",
+              "exampleVn": "Lượt xem của phiên livestream này vượt quá một triệu."
+            },
+            {
+              "id": "zh-topic-lse-shishipinglun",
+              "headword": "实时评论",
+              "reading": "shíshí pínglùn",
+              "meaningVn": "bình luận trực tiếp",
+              "example": "观众在实时评论里刷礼物。",
+              "exampleVn": "Khán giả gửi quà trong phần bình luận trực tiếp."
+            },
+            {
+              "id": "zh-topic-lse-zhongkongtai",
+              "headword": "中控台",
+              "reading": "zhōngkòngtái",
+              "meaningVn": "bàn điều khiển trung tâm",
+              "example": "助播在中控台核对订单。",
+              "exampleVn": "Trợ lý livestream đối chiếu đơn hàng ở bàn điều khiển trung tâm."
+            }
+          ]
+        },
+        {
+          "id": "sales-scripts",
+          "titleNative": "主播话术",
+          "titleVn": "Kỹ năng nói của người dẫn livestream",
+          "words": [
+            {
+              "id": "zh-topic-lse-huashu",
+              "headword": "话术",
+              "reading": "huàshù",
+              "meaningVn": "kỹ năng nói",
+              "example": "主播的话术很有说服力。",
+              "exampleVn": "Kỹ năng nói của người dẫn livestream rất có sức thuyết phục."
+            },
+            {
+              "id": "zh-topic-lse-biedan",
+              "headword": "憋单",
+              "reading": "biēdān",
+              "meaningVn": "\"ghìm đơn\"",
+              "example": "主播故意憋单制造紧张感。",
+              "exampleVn": "Người dẫn livestream cố tình \"ghìm đơn\" để tạo cảm giác căng thẳng."
+            },
+            {
+              "id": "zh-topic-lse-bidan",
+              "headword": "逼单",
+              "reading": "bīdān",
+              "meaningVn": "thúc chốt đơn",
+              "example": "主播不断逼单让观众下单。",
+              "exampleVn": "Người dẫn livestream liên tục thúc chốt đơn để khán giả đặt hàng."
+            },
+            {
+              "id": "zh-topic-lse-quanwangzuidijia",
+              "headword": "全网最低价",
+              "reading": "quánwǎng zuì dī jià",
+              "meaningVn": "giá thấp nhất toàn mạng",
+              "example": "主播承诺这是全网最低价。",
+              "exampleVn": "Người dẫn livestream cam kết đây là giá thấp nhất toàn mạng."
+            },
+            {
+              "id": "zh-topic-lse-miaosha",
+              "headword": "秒杀",
+              "reading": "miǎoshā",
+              "meaningVn": "flash sale",
+              "example": "十点整开始秒杀活动。",
+              "exampleVn": "Đúng mười giờ bắt đầu hoạt động flash sale."
+            }
+          ]
+        },
+        {
+          "id": "discount-mechanics",
+          "titleNative": "优惠机制",
+          "titleVn": "Cơ chế ưu đãi",
+          "words": [
+            {
+              "id": "zh-topic-lse-youhuiquan",
+              "headword": "优惠券",
+              "reading": "yōuhuìquàn",
+              "meaningVn": "phiếu giảm giá",
+              "example": "下单前记得领优惠券。",
+              "exampleVn": "Trước khi đặt hàng nhớ nhận phiếu giảm giá."
+            },
+            {
+              "id": "zh-topic-lse-manjian",
+              "headword": "满减",
+              "reading": "mǎnjiǎn",
+              "meaningVn": "giảm giá theo mức chi tiêu",
+              "example": "这家店经常做满减活动。",
+              "exampleVn": "Cửa hàng này thường tổ chức hoạt động giảm giá theo mức chi tiêu."
+            },
+            {
+              "id": "zh-topic-lse-pindan",
+              "headword": "拼单",
+              "reading": "pīndān",
+              "meaningVn": "ghép đơn",
+              "example": "她和朋友一起拼单凑满减。",
+              "exampleVn": "Cô ấy cùng bạn ghép đơn để đủ điều kiện giảm giá."
+            },
+            {
+              "id": "zh-topic-lse-dingjinpengzhang",
+              "headword": "定金膨胀",
+              "reading": "dìngjīn péngzhàng",
+              "meaningVn": "\"tiền cọc nở ra\"",
+              "example": "预售阶段可以享受定金膨胀优惠。",
+              "exampleVn": "Giai đoạn đặt trước có thể được hưởng ưu đãi \"tiền cọc nở ra\"."
+            },
+            {
+              "id": "zh-topic-lse-zengpin",
+              "headword": "赠品",
+              "reading": "zèngpǐn",
+              "meaningVn": "quà tặng kèm",
+              "example": "买两件送一个赠品。",
+              "exampleVn": "Mua hai món tặng kèm một quà."
+            }
+          ]
+        },
+        {
+          "id": "after-sales",
+          "titleNative": "售后与退货",
+          "titleVn": "Hậu mãi và trả hàng",
+          "words": [
+            {
+              "id": "zh-topic-lse-qitianwuliyoutuihuo",
+              "headword": "七天无理由退货",
+              "reading": "qītiān wúlǐyóu tuìhuò",
+              "meaningVn": "đổi trả 7 ngày không cần lý do",
+              "example": "这款产品支持七天无理由退货。",
+              "exampleVn": "Sản phẩm này hỗ trợ đổi trả trong 7 ngày không cần lý do."
+            },
+            {
+              "id": "zh-topic-lse-chapinglv",
+              "headword": "差评率",
+              "reading": "chàpínglǜ",
+              "meaningVn": "tỷ lệ đánh giá xấu",
+              "example": "这家店的差评率很低。",
+              "exampleVn": "Tỷ lệ đánh giá xấu của cửa hàng này rất thấp."
+            },
+            {
+              "id": "zh-topic-lse-kefu",
+              "headword": "客服",
+              "reading": "kèfú",
+              "meaningVn": "chăm sóc khách hàng",
+              "example": "有问题可以联系在线客服。",
+              "exampleVn": "Có vấn đề gì có thể liên hệ chăm sóc khách hàng trực tuyến."
+            },
+            {
+              "id": "zh-topic-lse-tousupingtai",
+              "headword": "投诉平台",
+              "reading": "tóusù píngtái",
+              "meaningVn": "nền tảng khiếu nại",
+              "example": "消费者可以通过投诉平台反映问题。",
+              "exampleVn": "Người tiêu dùng có thể phản ánh vấn đề qua nền tảng khiếu nại."
+            },
+            {
+              "id": "zh-topic-lse-jiahuo",
+              "headword": "假货",
+              "reading": "jiǎhuò",
+              "meaningVn": "hàng giả",
+              "example": "她担心网上买到假货。",
+              "exampleVn": "Cô ấy lo mua phải hàng giả trên mạng."
+            }
+          ]
+        }
+      ]
     }
   ]
 }
