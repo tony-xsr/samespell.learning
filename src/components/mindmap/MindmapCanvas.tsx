@@ -16,6 +16,7 @@ import { encodeWordItemId } from "@/types/personal";
 import type { PersonalCollections } from "@/types/personal";
 import { loadPersonalCollections } from "@/lib/personalCollections";
 import ListMembershipPicker from "@/components/ListMembershipPicker";
+import { useFullscreen } from "@/lib/useFullscreen";
 
 function InfoBadge({ onClick }: { onClick: (e: React.MouseEvent) => void }) {
   return (
@@ -141,6 +142,7 @@ export default function MindmapCanvas({
   ratingWordId: string | null;
 }) {
   const [orientation, setOrientation] = useState<MindmapOrientation>("horizontal");
+  const manualOrientationRef = useRef(false);
   const layout = useMemo(() => buildMindmapLayout(group, orientation), [group, orientation]);
   const [zoom, setZoom] = useState(1);
   const [activeWordId, setActiveWordId] = useState<string | null>(null);
@@ -150,13 +152,12 @@ export default function MindmapCanvas({
   const [pendingExpandWord, setPendingExpandWord] = useState<PositionedWord | null>(null);
   const [nodeOverrides, setNodeOverrides] = useState<Record<string, { x: number; y: number }>>({});
   const viewportRef = useRef<HTMLDivElement>(null);
-  const containerRef = useRef<HTMLDivElement>(null);
   const initializedForRef = useRef<string | null>(null);
   const dragRef = useRef<{ x: number; y: number; scrollLeft: number; scrollTop: number } | null>(null);
   const dragNodeRef = useRef<DragState | null>(null);
   const suppressClickRef = useRef<Set<string>>(new Set());
   const [isDragging, setIsDragging] = useState(false);
-  const [isFullscreen, setIsFullscreen] = useState(false);
+  const { containerRef, isFullscreen, toggleFullscreen, fullscreenClassName } = useFullscreen<HTMLDivElement>();
   const [ttsWarning, setTtsWarning] = useState<string | null>(null);
   const [collections, setCollections] = useState<PersonalCollections | null>(null);
 
@@ -169,24 +170,6 @@ export default function MindmapCanvas({
       cancelled = true;
     };
   }, []);
-
-  useEffect(() => {
-    function onFullscreenChange() {
-      setIsFullscreen(document.fullscreenElement === containerRef.current);
-    }
-    document.addEventListener("fullscreenchange", onFullscreenChange);
-    return () => document.removeEventListener("fullscreenchange", onFullscreenChange);
-  }, []);
-
-  function toggleFullscreen() {
-    if (document.fullscreenElement) {
-      document.exitFullscreen();
-    } else {
-      containerRef.current?.requestFullscreen().catch(() => {
-        // trình duyệt/thiết bị không hỗ trợ Fullscreen API — bỏ qua, không có gì để rollback
-      });
-    }
-  }
 
   // Phím tắt: +/- để zoom, 0 để về giữa, bỏ qua khi đang gõ vào 1 ô nhập liệu khác trên trang.
   useEffect(() => {
@@ -212,6 +195,8 @@ export default function MindmapCanvas({
   // phải kéo ngang rộng như layout trái/phải mặc định trên desktop.
   useEffect(() => {
     function update() {
+      // Người dùng đã tự chọn tay layout — không ghi đè nữa khi xoay máy/đổi kích thước cửa sổ.
+      if (manualOrientationRef.current) return;
       const portrait = window.innerWidth < PORTRAIT_BREAKPOINT && window.innerHeight >= window.innerWidth;
       setOrientation(portrait ? "vertical" : "horizontal");
     }
@@ -223,6 +208,11 @@ export default function MindmapCanvas({
       window.removeEventListener("orientationchange", update);
     };
   }, []);
+
+  function toggleOrientation() {
+    manualOrientationRef.current = true;
+    setOrientation((o) => (o === "horizontal" ? "vertical" : "horizontal"));
+  }
 
   // Đổi nhóm hoặc đổi hướng layout → vị trí đã kéo tay không còn hợp lệ, xoá đi để dùng layout mới.
   useEffect(() => {
@@ -498,7 +488,10 @@ export default function MindmapCanvas({
   }
 
   return (
-    <div ref={containerRef} className={`relative ${isFullscreen ? "flex h-full flex-col bg-surface p-3" : ""}`}>
+    <div
+      ref={containerRef}
+      className={`relative ${isFullscreen ? "flex h-full flex-col bg-surface p-3" : ""} ${fullscreenClassName}`}
+    >
       <div className="mb-2 flex items-center justify-end gap-1">
         <button
           onClick={() => setZoom((z) => Math.max(0.5, +(z - 0.1).toFixed(2)))}
@@ -521,6 +514,14 @@ export default function MindmapCanvas({
           aria-label="Về giữa"
         >
           ⟲
+        </button>
+        <button
+          onClick={toggleOrientation}
+          className="flex h-9 w-9 items-center justify-center rounded-full border border-border bg-surface-2 text-sm text-ink hover:border-brand-300 hover:bg-surface-3"
+          aria-label={orientation === "horizontal" ? "Chuyển sang layout dọc" : "Chuyển sang layout ngang"}
+          title={orientation === "horizontal" ? "Layout ngang (bấm để chuyển sang dọc)" : "Layout dọc (bấm để chuyển sang ngang)"}
+        >
+          {orientation === "horizontal" ? "↕" : "↔"}
         </button>
         <button
           onClick={toggleFullscreen}
