@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useState } from "react";
 import type { Language } from "@/types/vocab";
 import type {
   ClusterWord,
@@ -8,6 +8,7 @@ import type {
   SynonymAntonymPair,
   SynonymCluster,
 } from "@/types/wordCluster";
+import { useFullscreen } from "@/lib/useFullscreen";
 import { speak, ttsFailureMessage } from "@/lib/tts";
 
 function WordCard({
@@ -51,26 +52,18 @@ function WordCard({
 }
 
 function PairCard({ pair, language }: { pair: SynonymAntonymPair; language: Language }) {
-  const containerRef = useRef<HTMLDivElement>(null);
-  const [isFullscreen, setIsFullscreen] = useState(false);
+  const {
+    containerRef,
+    isFullscreen,
+    enterFullscreen: openFullscreen,
+    exitFullscreen: closeFullscreen,
+    fullscreenClassName,
+  } = useFullscreen<HTMLDivElement>();
   const [zoom, setZoom] = useState(1);
 
   useEffect(() => {
-    function onFullscreenChange() {
-      const active = document.fullscreenElement === containerRef.current;
-      setIsFullscreen(active);
-      if (!active) setZoom(1);
-    }
-    document.addEventListener("fullscreenchange", onFullscreenChange);
-    return () => document.removeEventListener("fullscreenchange", onFullscreenChange);
-  }, []);
-
-  function openFullscreen() {
-    containerRef.current?.requestFullscreen().catch(() => {});
-  }
-  function closeFullscreen() {
-    if (document.fullscreenElement) document.exitFullscreen();
-  }
+    if (!isFullscreen) setZoom(1);
+  }, [isFullscreen]);
 
   const synPreview = pair.synonymCluster.words.map((w) => w.headword).join("·");
   const antPreview = pair.antonymCluster.words.map((w) => w.headword).join("·");
@@ -95,7 +88,10 @@ function PairCard({ pair, language }: { pair: SynonymAntonymPair; language: Lang
   }
 
   return (
-    <div ref={containerRef} className="flex h-full flex-col justify-center overflow-auto bg-surface p-6 sm:p-10">
+    <div
+      ref={containerRef}
+      className={`flex h-full flex-col justify-center overflow-auto bg-surface p-6 sm:p-10 ${fullscreenClassName}`}
+    >
       <div className="mx-auto flex w-full max-w-3xl flex-col">
         <div className="mb-5 flex items-center justify-between gap-2">
           <span className="font-mono text-xs text-ink-muted">{pair.id}</span>
@@ -173,26 +169,18 @@ function PairCard({ pair, language }: { pair: SynonymAntonymPair; language: Lang
 }
 
 function SynClusterCard({ cluster, language }: { cluster: SynonymCluster; language: Language }) {
-  const containerRef = useRef<HTMLDivElement>(null);
-  const [isFullscreen, setIsFullscreen] = useState(false);
+  const {
+    containerRef,
+    isFullscreen,
+    enterFullscreen: openFullscreen,
+    exitFullscreen: closeFullscreen,
+    fullscreenClassName,
+  } = useFullscreen<HTMLDivElement>();
   const [zoom, setZoom] = useState(1);
 
   useEffect(() => {
-    function onFullscreenChange() {
-      const active = document.fullscreenElement === containerRef.current;
-      setIsFullscreen(active);
-      if (!active) setZoom(1);
-    }
-    document.addEventListener("fullscreenchange", onFullscreenChange);
-    return () => document.removeEventListener("fullscreenchange", onFullscreenChange);
-  }, []);
-
-  function openFullscreen() {
-    containerRef.current?.requestFullscreen().catch(() => {});
-  }
-  function closeFullscreen() {
-    if (document.fullscreenElement) document.exitFullscreen();
-  }
+    if (!isFullscreen) setZoom(1);
+  }, [isFullscreen]);
 
   const preview = cluster.words.map((w) => w.headword).join(" · ");
 
@@ -215,7 +203,10 @@ function SynClusterCard({ cluster, language }: { cluster: SynonymCluster; langua
   }
 
   return (
-    <div ref={containerRef} className="flex h-full flex-col justify-center overflow-auto bg-surface p-6 sm:p-10">
+    <div
+      ref={containerRef}
+      className={`flex h-full flex-col justify-center overflow-auto bg-surface p-6 sm:p-10 ${fullscreenClassName}`}
+    >
       <div className="mx-auto flex w-full max-w-xl flex-col">
         <div className="mb-5 flex items-center justify-between gap-2">
           <span className="font-mono text-xs text-ink-muted">{cluster.id}</span>
