@@ -1,10 +1,11 @@
 "use client";
 
-import { useEffect, useRef, useState, type MouseEvent } from "react";
+import { useEffect, useState, type MouseEvent } from "react";
 import type { Language } from "@/types/vocab";
 import type { ScenarioChain, ScenarioCluster, ScenarioEntry, ScenarioLanguageData, ScenarioNode, ScenarioPos } from "@/types/scenario";
 import { speak, ttsFailureMessage } from "@/lib/tts";
 import { loadScenarioProgress, toggleScenarioLearned } from "@/lib/scenarioProgress";
+import { useFullscreen } from "@/lib/useFullscreen";
 
 type LearnedFilter = "all" | "learned" | "unlearned";
 
@@ -133,27 +134,14 @@ function ScenarioChainCard({
   learned: boolean;
   onToggleLearned: () => void;
 }) {
-  const containerRef = useRef<HTMLDivElement>(null);
-  const [isFullscreen, setIsFullscreen] = useState(false);
+  const {
+    containerRef,
+    isFullscreen,
+    enterFullscreen: openFullscreen,
+    exitFullscreen: closeFullscreen,
+    fullscreenClassName,
+  } = useFullscreen<HTMLDivElement>();
   const [showTranslation, setShowTranslation] = useState(false);
-
-  useEffect(() => {
-    function onFullscreenChange() {
-      setIsFullscreen(document.fullscreenElement === containerRef.current);
-    }
-    document.addEventListener("fullscreenchange", onFullscreenChange);
-    return () => document.removeEventListener("fullscreenchange", onFullscreenChange);
-  }, []);
-
-  function openFullscreen() {
-    containerRef.current?.requestFullscreen().catch(() => {
-      // trình duyệt/thiết bị không hỗ trợ Fullscreen API — bỏ qua, không có gì để rollback
-    });
-  }
-
-  function closeFullscreen() {
-    if (document.fullscreenElement) document.exitFullscreen();
-  }
 
   if (!isFullscreen) {
     return (
@@ -183,7 +171,7 @@ function ScenarioChainCard({
   }
 
   return (
-    <div ref={containerRef} className="flex h-full flex-col overflow-hidden bg-surface">
+    <div ref={containerRef} className={`flex h-full flex-col overflow-hidden bg-surface ${fullscreenClassName}`}>
       <div className="flex items-center justify-between gap-2 border-b border-border px-6 py-3 sm:px-10">
         <span className="font-mono text-xs text-ink-muted">{chain.id}</span>
         <div className="flex items-center gap-2">
@@ -307,23 +295,13 @@ function ScenarioClusterCard({
   learned: boolean;
   onToggleLearned: () => void;
 }) {
-  const containerRef = useRef<HTMLDivElement>(null);
-  const [isFullscreen, setIsFullscreen] = useState(false);
-
-  useEffect(() => {
-    function onFullscreenChange() {
-      setIsFullscreen(document.fullscreenElement === containerRef.current);
-    }
-    document.addEventListener("fullscreenchange", onFullscreenChange);
-    return () => document.removeEventListener("fullscreenchange", onFullscreenChange);
-  }, []);
-
-  function openFullscreen() {
-    containerRef.current?.requestFullscreen().catch(() => {});
-  }
-  function closeFullscreen() {
-    if (document.fullscreenElement) document.exitFullscreen();
-  }
+  const {
+    containerRef,
+    isFullscreen,
+    enterFullscreen: openFullscreen,
+    exitFullscreen: closeFullscreen,
+    fullscreenClassName,
+  } = useFullscreen<HTMLDivElement>();
 
   const preview = cluster.words.map((w) => w.headword).join(" · ");
 
@@ -358,7 +336,10 @@ function ScenarioClusterCard({
   }
 
   return (
-    <div ref={containerRef} className="flex h-full flex-col justify-center overflow-auto bg-surface p-6 sm:p-10">
+    <div
+      ref={containerRef}
+      className={`flex h-full flex-col justify-center overflow-auto bg-surface p-6 sm:p-10 ${fullscreenClassName}`}
+    >
       <div className="mx-auto flex w-full max-w-2xl flex-col">
         <div className="mb-5 flex items-center justify-between gap-2">
           <span className="font-mono text-xs text-ink-muted">{cluster.id}</span>
