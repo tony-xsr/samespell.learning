@@ -11,7 +11,7 @@ export default async function SynonymsLanguagePage({ params }: { params: Promise
 
   return (
     <main className="flex flex-1 flex-col items-center px-4 py-8 sm:py-12">
-      <div className="w-full max-w-2xl">
+      <div className="w-full max-w-4xl">
         <Link href="/synonyms" className="text-sm font-medium text-brand-600 hover:underline">
           ← {data.label}
         </Link>
