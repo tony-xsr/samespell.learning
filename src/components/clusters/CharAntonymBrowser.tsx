@@ -1,9 +1,10 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useState } from "react";
 import type { Language } from "@/types/vocab";
 import type { AntonymRoot, CharAntonymLanguageData, CharAntonymPair, ClusterWord } from "@/types/wordCluster";
 import { speak, ttsFailureMessage } from "@/lib/tts";
+import { useFullscreen } from "@/lib/useFullscreen";
 
 function WordCard({ word, language, tone }: { word: ClusterWord; language: Language; tone: "left" | "right" }) {
   const [error, setError] = useState<string | null>(null);
@@ -57,26 +58,18 @@ function RootColumn({ root, language, tone }: { root: AntonymRoot; language: Lan
 }
 
 function PairCard({ pair, language }: { pair: CharAntonymPair; language: Language }) {
-  const containerRef = useRef<HTMLDivElement>(null);
-  const [isFullscreen, setIsFullscreen] = useState(false);
+  const {
+    containerRef,
+    isFullscreen,
+    enterFullscreen: openFullscreen,
+    exitFullscreen: closeFullscreen,
+    fullscreenClassName,
+  } = useFullscreen<HTMLDivElement>();
   const [zoom, setZoom] = useState(1);
 
   useEffect(() => {
-    function onFullscreenChange() {
-      const active = document.fullscreenElement === containerRef.current;
-      setIsFullscreen(active);
-      if (!active) setZoom(1);
-    }
-    document.addEventListener("fullscreenchange", onFullscreenChange);
-    return () => document.removeEventListener("fullscreenchange", onFullscreenChange);
-  }, []);
-
-  function openFullscreen() {
-    containerRef.current?.requestFullscreen().catch(() => {});
-  }
-  function closeFullscreen() {
-    if (document.fullscreenElement) document.exitFullscreen();
-  }
+    if (!isFullscreen) setZoom(1);
+  }, [isFullscreen]);
 
   if (!isFullscreen) {
     return (
@@ -101,7 +94,10 @@ function PairCard({ pair, language }: { pair: CharAntonymPair; language: Languag
   }
 
   return (
-    <div ref={containerRef} className="flex h-full flex-col justify-center overflow-auto bg-surface p-6 sm:p-10">
+    <div
+      ref={containerRef}
+      className={`flex h-full flex-col justify-center overflow-auto bg-surface p-6 sm:p-10 ${fullscreenClassName}`}
+    >
       <div className="mx-auto flex w-full max-w-3xl flex-col">
         <div className="mb-5 flex items-center justify-between gap-2">
           <span className="font-mono text-xs text-ink-muted">{pair.id}</span>
