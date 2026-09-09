@@ -21629,6 +21629,2358 @@
           ]
         }
       ]
+    },
+    {
+      "id": "zh-topic-textile-paper-crafts",
+      "language": "zh",
+      "titleNative": "手工艺术:缝纫刺绣与折纸",
+      "titleVn": "Nghệ thuật thủ công: may vá, thêu và origami",
+      "branches": [
+        {
+          "id": "sewing-tailoring",
+          "titleNative": "缝纫与裁剪",
+          "titleVn": "May vá và may đo",
+          "words": [
+            {
+              "id": "zh-topic-tpc-fengrenji",
+              "headword": "缝纫机",
+              "reading": "féngrènjī",
+              "meaningVn": "máy khâu",
+              "example": "她用缝纫机做了一条裙子。",
+              "exampleVn": "Cô ấy dùng máy khâu để may một chiếc váy."
+            },
+            {
+              "id": "zh-topic-tpc-caijian",
+              "headword": "裁剪",
+              "reading": "cáijiǎn",
+              "meaningVn": "cắt may",
+              "example": "裁剪布料前要先量尺寸。",
+              "exampleVn": "Trước khi cắt vải phải đo kích thước trước."
+            },
+            {
+              "id": "zh-topic-tpc-buliao",
+              "headword": "布料",
+              "reading": "bùliào",
+              "meaningVn": "vải",
+              "example": "这家店卖各种布料。",
+              "exampleVn": "Cửa hàng này bán đủ loại vải."
+            },
+            {
+              "id": "zh-topic-tpc-zhenxianhuo",
+              "headword": "针线活",
+              "reading": "zhēnxiànhuó",
+              "meaningVn": "việc kim chỉ",
+              "example": "奶奶的针线活特别好。",
+              "exampleVn": "Việc kim chỉ của bà rất khéo."
+            },
+            {
+              "id": "zh-topic-tpc-liangshendingzhi",
+              "headword": "量身定制",
+              "reading": "liàngshēn dìngzhì",
+              "meaningVn": "may đo theo số đo",
+              "example": "这套西装是量身定制的。",
+              "exampleVn": "Bộ vest này được may đo theo số đo riêng."
+            }
+          ]
+        },
+        {
+          "id": "embroidery",
+          "titleNative": "刺绣与十字绣",
+          "titleVn": "Thêu và thêu chữ thập",
+          "words": [
+            {
+              "id": "zh-topic-tpc-cixiu",
+              "headword": "刺绣",
+              "reading": "cìxiù",
+              "meaningVn": "thêu",
+              "example": "她从小就喜欢刺绣。",
+              "exampleVn": "Cô ấy thích thêu từ nhỏ."
+            },
+            {
+              "id": "zh-topic-tpc-shizixiu",
+              "headword": "十字绣",
+              "reading": "shízìxiù",
+              "meaningVn": "thêu chữ thập",
+              "example": "她花了半年绣完一幅十字绣。",
+              "exampleVn": "Cô ấy mất nửa năm để thêu xong một bức tranh thêu chữ thập."
+            },
+            {
+              "id": "zh-topic-tpc-xiuhuazhen",
+              "headword": "绣花针",
+              "reading": "xiùhuāzhēn",
+              "meaningVn": "kim thêu",
+              "example": "绣花针比普通针细很多。",
+              "exampleVn": "Kim thêu mảnh hơn kim thường rất nhiều."
+            },
+            {
+              "id": "zh-topic-tpc-xiubeng",
+              "headword": "绣绷",
+              "reading": "xiùbēng",
+              "meaningVn": "khung thêu",
+              "example": "布料要先固定在绣绷上。",
+              "exampleVn": "Vải phải được cố định trên khung thêu trước."
+            },
+            {
+              "id": "zh-topic-tpc-tuyang",
+              "headword": "图样",
+              "reading": "túyàng",
+              "meaningVn": "hoa văn mẫu",
+              "example": "她照着图样一针一线地绣。",
+              "exampleVn": "Cô ấy thêu từng mũi kim theo hoa văn mẫu."
+            }
+          ]
+        },
+        {
+          "id": "origami",
+          "titleNative": "折纸艺术",
+          "titleVn": "Nghệ thuật gấp giấy",
+          "words": [
+            {
+              "id": "zh-topic-tpc-zhezhi",
+              "headword": "折纸",
+              "reading": "zhézhǐ",
+              "meaningVn": "gấp giấy",
+              "example": "他教孩子们折纸。",
+              "exampleVn": "Anh ấy dạy bọn trẻ gấp giấy."
+            },
+            {
+              "id": "zh-topic-tpc-qianzhihe",
+              "headword": "千纸鹤",
+              "reading": "qiānzhǐhè",
+              "meaningVn": "hạc giấy nghìn con",
+              "example": "她折了一千只千纸鹤。",
+              "exampleVn": "Cô ấy đã gấp một nghìn con hạc giấy."
+            },
+            {
+              "id": "zh-topic-tpc-zhehen",
+              "headword": "折痕",
+              "reading": "zhéhén",
+              "meaningVn": "nếp gấp",
+              "example": "折痕要压得平整。",
+              "exampleVn": "Nếp gấp phải được ép cho phẳng."
+            },
+            {
+              "id": "zh-topic-tpc-litizhezhi",
+              "headword": "立体折纸",
+              "reading": "lìtǐ zhézhǐ",
+              "meaningVn": "origami 3D",
+              "example": "立体折纸比平面的更复杂。",
+              "exampleVn": "Origami 3D phức tạp hơn kiểu phẳng."
+            },
+            {
+              "id": "zh-topic-tpc-zhezhidashi",
+              "headword": "折纸大师",
+              "reading": "zhézhǐ dàshī",
+              "meaningVn": "bậc thầy gấp giấy",
+              "example": "这位折纸大师能做出栩栩如生的动物。",
+              "exampleVn": "Bậc thầy gấp giấy này có thể tạo ra những con vật sống động như thật."
+            }
+          ]
+        },
+        {
+          "id": "quilting",
+          "titleNative": "拼布与绗缝",
+          "titleVn": "Thủ công chần bông",
+          "words": [
+            {
+              "id": "zh-topic-tpc-pinbu",
+              "headword": "拼布",
+              "reading": "pīnbù",
+              "meaningVn": "vải ghép",
+              "example": "她用碎布做了一床拼布被子。",
+              "exampleVn": "Cô ấy dùng vải vụn làm một chiếc chăn vải ghép."
+            },
+            {
+              "id": "zh-topic-tpc-hangfeng",
+              "headword": "绗缝",
+              "reading": "hángféng",
+              "meaningVn": "chần bông",
+              "example": "绗缝可以让被子更保暖。",
+              "exampleVn": "Chần bông giúp chăn ấm hơn."
+            },
+            {
+              "id": "zh-topic-tpc-suibu",
+              "headword": "碎布",
+              "reading": "suìbù",
+              "meaningVn": "vải vụn",
+              "example": "她收集了很多颜色的碎布。",
+              "exampleVn": "Cô ấy đã sưu tầm rất nhiều mảnh vải vụn đủ màu."
+            },
+            {
+              "id": "zh-topic-tpc-tuanpinjie",
+              "headword": "图案拼接",
+              "reading": "tú'àn pīnjiē",
+              "meaningVn": "ghép nối hoa văn",
+              "example": "图案拼接需要很有耐心。",
+              "exampleVn": "Ghép nối hoa văn cần rất kiên nhẫn."
+            },
+            {
+              "id": "zh-topic-tpc-shougongbei",
+              "headword": "手工被",
+              "reading": "shǒugōngbèi",
+              "meaningVn": "chăn thủ công",
+              "example": "这床手工被是她花了三个月做的。",
+              "exampleVn": "Chiếc chăn thủ công này cô ấy đã làm mất ba tháng."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-topic-creative-professional-careers",
+      "language": "zh",
+      "titleNative": "创意与专业职业",
+      "titleVn": "Nghề nghiệp sáng tạo và chuyên môn",
+      "branches": [
+        {
+          "id": "ui-ux-design",
+          "titleNative": "UI/UX设计职业",
+          "titleVn": "Sự nghiệp thiết kế UI/UX",
+          "words": [
+            {
+              "id": "zh-topic-cpc-jiemiansheji",
+              "headword": "界面设计",
+              "reading": "jièmiàn shèjì",
+              "meaningVn": "thiết kế giao diện",
+              "example": "他负责这款手机应用的界面设计。",
+              "exampleVn": "Anh ấy phụ trách thiết kế giao diện cho ứng dụng điện thoại này."
+            },
+            {
+              "id": "zh-topic-cpc-yonghutiyan",
+              "headword": "用户体验",
+              "reading": "yònghù tǐyàn",
+              "meaningVn": "trải nghiệm người dùng",
+              "example": "好的用户体验能留住顾客。",
+              "exampleVn": "Trải nghiệm người dùng tốt có thể giữ chân khách hàng."
+            },
+            {
+              "id": "zh-topic-cpc-yuanxingtu",
+              "headword": "原型图",
+              "reading": "yuánxíngtú",
+              "meaningVn": "bản phác thảo giao diện",
+              "example": "设计师先做出原型图。",
+              "exampleVn": "Nhà thiết kế làm bản phác thảo giao diện trước."
+            },
+            {
+              "id": "zh-topic-cpc-jiaohushejishi",
+              "headword": "交互设计师",
+              "reading": "jiāohù shèjìshī",
+              "meaningVn": "nhà thiết kế tương tác",
+              "example": "她是一名资深交互设计师。",
+              "exampleVn": "Cô ấy là một nhà thiết kế tương tác kỳ cựu."
+            },
+            {
+              "id": "zh-topic-cpc-shejigao",
+              "headword": "设计稿",
+              "reading": "shèjìgǎo",
+              "meaningVn": "bản thiết kế",
+              "example": "客户对这版设计稿不满意。",
+              "exampleVn": "Khách hàng không hài lòng với bản thiết kế này."
+            }
+          ]
+        },
+        {
+          "id": "videography",
+          "titleNative": "影像创作职业",
+          "titleVn": "Sở thích làm phim video",
+          "words": [
+            {
+              "id": "zh-topic-cpc-shexiangshi",
+              "headword": "摄像师",
+              "reading": "shèxiàngshī",
+              "meaningVn": "thợ quay phim",
+              "example": "他是婚礼摄像师。",
+              "exampleVn": "Anh ấy là thợ quay phim cưới."
+            },
+            {
+              "id": "zh-topic-cpc-jianji",
+              "headword": "剪辑",
+              "reading": "jiǎnjí",
+              "meaningVn": "dựng phim",
+              "example": "这段视频的剪辑很流畅。",
+              "exampleVn": "Đoạn video này được dựng rất mượt."
+            },
+            {
+              "id": "zh-topic-cpc-fenjingjiaoben",
+              "headword": "分镜脚本",
+              "reading": "fēnjìng jiǎoběn",
+              "meaningVn": "kịch bản phân cảnh",
+              "example": "拍摄前要先画分镜脚本。",
+              "exampleVn": "Trước khi quay phải vẽ kịch bản phân cảnh trước."
+            },
+            {
+              "id": "zh-topic-cpc-tiaose",
+              "headword": "调色",
+              "reading": "tiáosè",
+              "meaningVn": "chỉnh màu",
+              "example": "后期调色让画面更有质感。",
+              "exampleVn": "Chỉnh màu hậu kỳ giúp hình ảnh có chất cảm hơn."
+            },
+            {
+              "id": "zh-topic-cpc-dulidianyingren",
+              "headword": "独立电影人",
+              "reading": "dúlì diànyǐngrén",
+              "meaningVn": "nhà làm phim độc lập",
+              "example": "他梦想成为一名独立电影人。",
+              "exampleVn": "Anh ấy mơ ước trở thành một nhà làm phim độc lập."
+            }
+          ]
+        },
+        {
+          "id": "translation-interpretation",
+          "titleNative": "翻译与口译职业",
+          "titleVn": "Sự nghiệp biên phiên dịch",
+          "words": [
+            {
+              "id": "zh-topic-cpc-biyi",
+              "headword": "笔译",
+              "reading": "bǐyì",
+              "meaningVn": "biên dịch",
+              "example": "她做笔译已经五年了。",
+              "exampleVn": "Cô ấy đã làm biên dịch được năm năm rồi."
+            },
+            {
+              "id": "zh-topic-cpc-kouyi",
+              "headword": "口译",
+              "reading": "kǒuyì",
+              "meaningVn": "phiên dịch",
+              "example": "同声口译对反应速度要求很高。",
+              "exampleVn": "Phiên dịch song song đòi hỏi phản xạ rất nhanh."
+            },
+            {
+              "id": "zh-topic-cpc-tongshengchuanyi",
+              "headword": "同声传译",
+              "reading": "tóngshēng chuányì",
+              "meaningVn": "phiên dịch song song",
+              "example": "会议现场有同声传译。",
+              "exampleVn": "Tại hội nghị có phiên dịch song song."
+            },
+            {
+              "id": "zh-topic-cpc-shuyuku",
+              "headword": "术语库",
+              "reading": "shùyǔkù",
+              "meaningVn": "kho thuật ngữ",
+              "example": "译者需要建立自己的术语库。",
+              "exampleVn": "Người dịch cần xây dựng kho thuật ngữ riêng."
+            },
+            {
+              "id": "zh-topic-cpc-yiwen",
+              "headword": "译文",
+              "reading": "yìwén",
+              "meaningVn": "bản dịch",
+              "example": "他反复检查译文的准确性。",
+              "exampleVn": "Anh ấy kiểm tra đi kiểm tra lại độ chính xác của bản dịch."
+            }
+          ]
+        },
+        {
+          "id": "private-tutoring",
+          "titleNative": "家教职业",
+          "titleVn": "Sự nghiệp dạy kèm",
+          "words": [
+            {
+              "id": "zh-topic-cpc-jiajiaolaoshi",
+              "headword": "家教老师",
+              "reading": "jiājiào lǎoshī",
+              "meaningVn": "gia sư",
+              "example": "她是一名兼职家教老师。",
+              "exampleVn": "Cô ấy là một gia sư bán thời gian."
+            },
+            {
+              "id": "zh-topic-cpc-shangmenshouke",
+              "headword": "上门授课",
+              "reading": "shàngmén shòukè",
+              "meaningVn": "dạy kèm tại nhà",
+              "example": "这位老师提供上门授课服务。",
+              "exampleVn": "Thầy giáo này cung cấp dịch vụ dạy kèm tại nhà."
+            },
+            {
+              "id": "zh-topic-cpc-jiaoxuejingyan",
+              "headword": "教学经验",
+              "reading": "jiàoxué jīngyàn",
+              "meaningVn": "kinh nghiệm giảng dạy",
+              "example": "招聘家教要求有教学经验。",
+              "exampleVn": "Tuyển gia sư yêu cầu có kinh nghiệm giảng dạy."
+            },
+            {
+              "id": "zh-topic-cpc-yincaishijiao",
+              "headword": "因材施教",
+              "reading": "yīncái shījiào",
+              "meaningVn": "dạy theo năng lực học sinh",
+              "example": "好的家教懂得因材施教。",
+              "exampleVn": "Gia sư giỏi biết cách dạy theo năng lực từng học sinh."
+            },
+            {
+              "id": "zh-topic-cpc-keshifei",
+              "headword": "课时费",
+              "reading": "kèshífèi",
+              "meaningVn": "học phí theo giờ",
+              "example": "这位家教的课时费不便宜。",
+              "exampleVn": "Học phí theo giờ của gia sư này không rẻ."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-topic-academic-study-abroad",
+      "language": "zh",
+      "titleNative": "学术深造与留学",
+      "titleVn": "Học thuật nâng cao và du học",
+      "branches": [
+        {
+          "id": "exchange-homeschool",
+          "titleNative": "交换生与在家教育",
+          "titleVn": "Sinh viên trao đổi và học tại nhà",
+          "words": [
+            {
+              "id": "zh-topic-asa-jiaohuansheng",
+              "headword": "交换生",
+              "reading": "jiāohuànshēng",
+              "meaningVn": "sinh viên trao đổi",
+              "example": "她今年去法国当交换生。",
+              "exampleVn": "Năm nay cô ấy sang Pháp làm sinh viên trao đổi."
+            },
+            {
+              "id": "zh-topic-asa-jisujiating",
+              "headword": "寄宿家庭",
+              "reading": "jìsù jiātíng",
+              "meaningVn": "gia đình bản xứ",
+              "example": "交换生通常住在寄宿家庭。",
+              "exampleVn": "Sinh viên trao đổi thường ở cùng gia đình bản xứ."
+            },
+            {
+              "id": "zh-topic-asa-wenhuachongji",
+              "headword": "文化冲击",
+              "reading": "wénhuà chōngjī",
+              "meaningVn": "sốc văn hóa",
+              "example": "刚出国时他经历了文化冲击。",
+              "exampleVn": "Khi mới ra nước ngoài anh ấy đã trải qua cú sốc văn hóa."
+            },
+            {
+              "id": "zh-topic-asa-zaijiajiaoyu",
+              "headword": "在家教育",
+              "reading": "zàijiā jiàoyù",
+              "meaningVn": "giáo dục tại nhà",
+              "example": "越来越多家庭选择在家教育。",
+              "exampleVn": "Ngày càng nhiều gia đình chọn giáo dục con tại nhà."
+            },
+            {
+              "id": "zh-topic-asa-zizhuxuexi",
+              "headword": "自主学习",
+              "reading": "zìzhǔ xuéxí",
+              "meaningVn": "tự học chủ động",
+              "example": "在家教育需要很强的自主学习能力。",
+              "exampleVn": "Giáo dục tại nhà đòi hỏi khả năng tự học chủ động rất cao."
+            }
+          ]
+        },
+        {
+          "id": "application-scholarship",
+          "titleNative": "申请大学与奖学金",
+          "titleVn": "Xét tuyển đại học và học bổng",
+          "words": [
+            {
+              "id": "zh-topic-asa-daxueshenqing",
+              "headword": "大学申请",
+              "reading": "dàxué shēnqǐng",
+              "meaningVn": "hồ sơ xin vào đại học",
+              "example": "他正在准备大学申请材料。",
+              "exampleVn": "Cậu ấy đang chuẩn bị hồ sơ xin vào đại học."
+            },
+            {
+              "id": "zh-topic-asa-gerenchenshu",
+              "headword": "个人陈述",
+              "reading": "gèrén chénshù",
+              "meaningVn": "bài luận cá nhân",
+              "example": "个人陈述要突出自己的特点。",
+              "exampleVn": "Bài luận cá nhân phải làm nổi bật đặc điểm của bản thân."
+            },
+            {
+              "id": "zh-topic-asa-tuijianxin",
+              "headword": "推荐信",
+              "reading": "tuījiànxìn",
+              "meaningVn": "thư giới thiệu",
+              "example": "他请教授写了一封推荐信。",
+              "exampleVn": "Cậu ấy nhờ giáo sư viết một lá thư giới thiệu."
+            },
+            {
+              "id": "zh-topic-asa-jiangxuejinshenqing",
+              "headword": "奖学金申请",
+              "reading": "jiǎngxuéjīn shēnqǐng",
+              "meaningVn": "hồ sơ xin học bổng",
+              "example": "奖学金申请的截止日期快到了。",
+              "exampleVn": "Hạn nộp hồ sơ xin học bổng sắp đến rồi."
+            },
+            {
+              "id": "zh-topic-asa-quaejiangxuejin",
+              "headword": "全额奖学金",
+              "reading": "quán'é jiǎngxuéjīn",
+              "meaningVn": "học bổng toàn phần",
+              "example": "她申请到了全额奖学金。",
+              "exampleVn": "Cô ấy đã xin được học bổng toàn phần."
+            }
+          ]
+        },
+        {
+          "id": "thesis-writing",
+          "titleNative": "论文写作",
+          "titleVn": "Viết luận văn",
+          "words": [
+            {
+              "id": "zh-topic-asa-lunwenxuanti",
+              "headword": "论文选题",
+              "reading": "lùnwén xuǎntí",
+              "meaningVn": "chọn đề tài luận văn",
+              "example": "论文选题花了他很长时间。",
+              "exampleVn": "Việc chọn đề tài luận văn khiến cậu ấy mất rất nhiều thời gian."
+            },
+            {
+              "id": "zh-topic-asa-wenxianzongshu",
+              "headword": "文献综述",
+              "reading": "wénxiàn zōngshù",
+              "meaningVn": "tổng quan tài liệu",
+              "example": "写文献综述需要读大量论文。",
+              "exampleVn": "Viết tổng quan tài liệu cần đọc rất nhiều bài báo khoa học."
+            },
+            {
+              "id": "zh-topic-asa-daoshi",
+              "headword": "导师",
+              "reading": "dǎoshī",
+              "meaningVn": "giáo viên hướng dẫn",
+              "example": "导师给了他很多修改意见。",
+              "exampleVn": "Giáo viên hướng dẫn đã cho cậu ấy nhiều góp ý sửa đổi."
+            },
+            {
+              "id": "zh-topic-asa-chazhong",
+              "headword": "查重",
+              "reading": "cházhòng",
+              "meaningVn": "kiểm tra đạo văn",
+              "example": "论文提交前要先查重。",
+              "exampleVn": "Trước khi nộp luận văn phải kiểm tra đạo văn trước."
+            },
+            {
+              "id": "zh-topic-asa-dabian",
+              "headword": "答辩",
+              "reading": "dábiàn",
+              "meaningVn": "bảo vệ luận văn",
+              "example": "他下周要进行论文答辩。",
+              "exampleVn": "Tuần sau cậu ấy phải bảo vệ luận văn."
+            }
+          ]
+        },
+        {
+          "id": "research-lab",
+          "titleNative": "科研实验室文化",
+          "titleVn": "Văn hoá phòng thí nghiệm nghiên cứu",
+          "words": [
+            {
+              "id": "zh-topic-asa-shiyanshi",
+              "headword": "实验室",
+              "reading": "shíyànshì",
+              "meaningVn": "phòng thí nghiệm",
+              "example": "他每天都在实验室做实验。",
+              "exampleVn": "Ngày nào cậu ấy cũng làm thí nghiệm trong phòng lab."
+            },
+            {
+              "id": "zh-topic-asa-ketizu",
+              "headword": "课题组",
+              "reading": "kètízǔ",
+              "meaningVn": "nhóm nghiên cứu",
+              "example": "他加入了一个新的课题组。",
+              "exampleVn": "Cậu ấy đã gia nhập một nhóm nghiên cứu mới."
+            },
+            {
+              "id": "zh-topic-asa-fabiaolunwen",
+              "headword": "发表论文",
+              "reading": "fābiǎo lùnwén",
+              "meaningVn": "công bố bài báo khoa học",
+              "example": "博士生需要发表论文才能毕业。",
+              "exampleVn": "Nghiên cứu sinh tiến sĩ cần công bố bài báo khoa học mới được tốt nghiệp."
+            },
+            {
+              "id": "zh-topic-asa-shiyanshuju",
+              "headword": "实验数据",
+              "reading": "shíyàn shùjù",
+              "meaningVn": "dữ liệu thí nghiệm",
+              "example": "他花了一周整理实验数据。",
+              "exampleVn": "Cậu ấy mất một tuần để xử lý dữ liệu thí nghiệm."
+            },
+            {
+              "id": "zh-topic-asa-xueshuhuiyi",
+              "headword": "学术会议",
+              "reading": "xuéshù huìyì",
+              "meaningVn": "hội nghị học thuật",
+              "example": "她受邀参加一场国际学术会议。",
+              "exampleVn": "Cô ấy được mời tham dự một hội nghị học thuật quốc tế."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-topic-winter-artistic-sports",
+      "language": "zh",
+      "titleNative": "冬季运动与花样运动",
+      "titleVn": "Thể thao mùa đông và thể thao biểu diễn",
+      "branches": [
+        {
+          "id": "ski-resort",
+          "titleNative": "滑雪场文化",
+          "titleVn": "Văn hoá làm việc tại khu nghỉ dưỡng trượt tuyết",
+          "words": [
+            {
+              "id": "zh-topic-was-huaxuechang",
+              "headword": "滑雪场",
+              "reading": "huáxuěchǎng",
+              "meaningVn": "khu trượt tuyết",
+              "example": "冬天这家滑雪场生意特别好。",
+              "exampleVn": "Mùa đông khu trượt tuyết này kinh doanh rất tốt."
+            },
+            {
+              "id": "zh-topic-was-lanche",
+              "headword": "缆车",
+              "reading": "lǎnchē",
+              "meaningVn": "cáp treo",
+              "example": "游客坐缆车上山滑雪。",
+              "exampleVn": "Du khách đi cáp treo lên núi trượt tuyết."
+            },
+            {
+              "id": "zh-topic-was-huaxuejiaolian",
+              "headword": "滑雪教练",
+              "reading": "huáxuě jiàoliàn",
+              "meaningVn": "huấn luyện viên trượt tuyết",
+              "example": "他请了一位滑雪教练。",
+              "exampleVn": "Anh ấy đã thuê một huấn luyện viên trượt tuyết."
+            },
+            {
+              "id": "zh-topic-was-xuedao",
+              "headword": "雪道",
+              "reading": "xuědào",
+              "meaningVn": "đường trượt tuyết",
+              "example": "初学者应该选择简单的雪道。",
+              "exampleVn": "Người mới nên chọn đường trượt tuyết đơn giản."
+            },
+            {
+              "id": "zh-topic-was-zaoxueji",
+              "headword": "造雪机",
+              "reading": "zàoxuějī",
+              "meaningVn": "máy tạo tuyết",
+              "example": "雪不够的时候会用造雪机。",
+              "exampleVn": "Khi tuyết không đủ sẽ dùng máy tạo tuyết."
+            }
+          ]
+        },
+        {
+          "id": "snowboarding",
+          "titleNative": "单板滑雪文化",
+          "titleVn": "Văn hoá trượt ván tuyết",
+          "words": [
+            {
+              "id": "zh-topic-was-danbanhuaxue",
+              "headword": "单板滑雪",
+              "reading": "dānbǎn huáxuě",
+              "meaningVn": "trượt ván tuyết",
+              "example": "他学了三年单板滑雪。",
+              "exampleVn": "Anh ấy đã học trượt ván tuyết được ba năm."
+            },
+            {
+              "id": "zh-topic-was-xueban",
+              "headword": "雪板",
+              "reading": "xuěbǎn",
+              "meaningVn": "ván trượt tuyết",
+              "example": "他买了一副新雪板。",
+              "exampleVn": "Anh ấy đã mua một đôi ván trượt tuyết mới."
+            },
+            {
+              "id": "zh-topic-was-pingditiaoyue",
+              "headword": "平地跳跃",
+              "reading": "píngdì tiàoyuè",
+              "meaningVn": "nhảy trên mặt phẳng",
+              "example": "他在练习平地跳跃的技巧。",
+              "exampleVn": "Anh ấy đang luyện kỹ thuật nhảy trên mặt phẳng."
+            },
+            {
+              "id": "zh-topic-was-xuepo",
+              "headword": "雪坡",
+              "reading": "xuěpō",
+              "meaningVn": "dốc tuyết",
+              "example": "这片雪坡比较陡。",
+              "exampleVn": "Dốc tuyết này khá dốc."
+            },
+            {
+              "id": "zh-topic-was-danbangongyuan",
+              "headword": "单板公园",
+              "reading": "dānbǎn gōngyuán",
+              "meaningVn": "công viên trượt ván",
+              "example": "单板公园里有各种障碍道具。",
+              "exampleVn": "Trong công viên trượt ván có đủ loại chướng ngại vật."
+            }
+          ]
+        },
+        {
+          "id": "ice-skating",
+          "titleNative": "滑冰与花样滑冰",
+          "titleVn": "Trượt băng và trượt băng nghệ thuật",
+          "words": [
+            {
+              "id": "zh-topic-was-huabing",
+              "headword": "滑冰",
+              "reading": "huábīng",
+              "meaningVn": "trượt băng",
+              "example": "冬天很多人去公园滑冰。",
+              "exampleVn": "Mùa đông nhiều người đến công viên trượt băng."
+            },
+            {
+              "id": "zh-topic-was-huayanghuabing",
+              "headword": "花样滑冰",
+              "reading": "huāyàng huábīng",
+              "meaningVn": "trượt băng nghệ thuật",
+              "example": "她从小学习花样滑冰。",
+              "exampleVn": "Cô ấy học trượt băng nghệ thuật từ nhỏ."
+            },
+            {
+              "id": "zh-topic-was-bingdao",
+              "headword": "冰刀",
+              "reading": "bīngdāo",
+              "meaningVn": "giày trượt băng",
+              "example": "一双好的冰刀很重要。",
+              "exampleVn": "Một đôi giày trượt băng tốt rất quan trọng."
+            },
+            {
+              "id": "zh-topic-was-xuanzhuantiaoyue",
+              "headword": "旋转跳跃",
+              "reading": "xuánzhuǎn tiàoyuè",
+              "meaningVn": "động tác xoay nhảy",
+              "example": "她的旋转跳跃动作非常标准。",
+              "exampleVn": "Động tác xoay nhảy của cô ấy rất chuẩn."
+            },
+            {
+              "id": "zh-topic-was-bingchang",
+              "headword": "冰场",
+              "reading": "bīngchǎng",
+              "meaningVn": "sân băng",
+              "example": "这个冰场周末人特别多。",
+              "exampleVn": "Sân băng này cuối tuần rất đông người."
+            }
+          ]
+        },
+        {
+          "id": "hockey",
+          "titleNative": "冰球文化",
+          "titleVn": "Văn hoá khúc côn cầu",
+          "words": [
+            {
+              "id": "zh-topic-was-bingqiu",
+              "headword": "冰球",
+              "reading": "bīngqiú",
+              "meaningVn": "khúc côn cầu trên băng",
+              "example": "他从小就喜欢打冰球。",
+              "exampleVn": "Anh ấy thích chơi khúc côn cầu từ nhỏ."
+            },
+            {
+              "id": "zh-topic-was-qiugan",
+              "headword": "球杆",
+              "reading": "qiúgān",
+              "meaningVn": "gậy đánh bóng",
+              "example": "他检查了一下自己的球杆。",
+              "exampleVn": "Anh ấy kiểm tra lại cây gậy đánh bóng của mình."
+            },
+            {
+              "id": "zh-topic-was-shoumenyuan",
+              "headword": "守门员",
+              "reading": "shǒuményuán",
+              "meaningVn": "thủ môn",
+              "example": "守门员成功扑救了那次射门。",
+              "exampleVn": "Thủ môn đã cản phá thành công cú sút đó."
+            },
+            {
+              "id": "zh-topic-was-hutuiban",
+              "headword": "护腿板",
+              "reading": "hùtuǐbǎn",
+              "meaningVn": "tấm bảo vệ ống chân",
+              "example": "守门员穿着厚厚的护腿板。",
+              "exampleVn": "Thủ môn mặc tấm bảo vệ ống chân dày."
+            },
+            {
+              "id": "zh-topic-was-bingqiulianse",
+              "headword": "冰球联赛",
+              "reading": "bīngqiú liánsài",
+              "meaningVn": "giải đấu khúc côn cầu",
+              "example": "这座城市有自己的冰球联赛。",
+              "exampleVn": "Thành phố này có giải đấu khúc côn cầu riêng."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-topic-niche-competitive-sports",
+      "language": "zh",
+      "titleNative": "小众竞技运动文化",
+      "titleVn": "Văn hoá thể thao cạnh tranh độc đáo",
+      "branches": [
+        {
+          "id": "fencing",
+          "titleNative": "击剑运动",
+          "titleVn": "Đấu kiếm",
+          "words": [
+            {
+              "id": "zh-topic-ncs-jijian",
+              "headword": "击剑",
+              "reading": "jījiàn",
+              "meaningVn": "đấu kiếm",
+              "example": "他从中学开始练习击剑。",
+              "exampleVn": "Anh ấy bắt đầu tập đấu kiếm từ cấp hai."
+            },
+            {
+              "id": "zh-topic-ncs-jiandaofu",
+              "headword": "剑道服",
+              "reading": "jiàndàofú",
+              "meaningVn": "trang phục đấu kiếm",
+              "example": "比赛前他穿好了剑道服。",
+              "exampleVn": "Trước trận đấu anh ấy đã mặc xong trang phục đấu kiếm."
+            },
+            {
+              "id": "zh-topic-ncs-huajian",
+              "headword": "花剑",
+              "reading": "huājiàn",
+              "meaningVn": "kiếm hoa",
+              "example": "花剑是击剑项目之一。",
+              "exampleVn": "Kiếm hoa là một trong các nội dung đấu kiếm."
+            },
+            {
+              "id": "zh-topic-ncs-humianzhao",
+              "headword": "护面罩",
+              "reading": "hùmiànzhào",
+              "meaningVn": "mặt nạ bảo hộ",
+              "example": "选手戴上护面罩准备比赛。",
+              "exampleVn": "Vận động viên đeo mặt nạ bảo hộ chuẩn bị thi đấu."
+            },
+            {
+              "id": "zh-topic-ncs-defenqu",
+              "headword": "得分区",
+              "reading": "défēnqū",
+              "meaningVn": "vùng ghi điểm",
+              "example": "击中对方的得分区才算得分。",
+              "exampleVn": "Chỉ khi chạm vào vùng ghi điểm của đối phương mới được tính điểm."
+            }
+          ]
+        },
+        {
+          "id": "gymnastics",
+          "titleNative": "体操运动",
+          "titleVn": "Thể dục dụng cụ",
+          "words": [
+            {
+              "id": "zh-topic-ncs-ticao",
+              "headword": "体操",
+              "reading": "tǐcāo",
+              "meaningVn": "thể dục dụng cụ",
+              "example": "她五岁就开始练体操。",
+              "exampleVn": "Cô ấy bắt đầu tập thể dục dụng cụ từ năm tuổi."
+            },
+            {
+              "id": "zh-topic-ncs-pinghengmu",
+              "headword": "平衡木",
+              "reading": "pínghéngmù",
+              "meaningVn": "xà thăng bằng",
+              "example": "她在平衡木上完成了高难度动作。",
+              "exampleVn": "Cô ấy đã hoàn thành động tác khó trên xà thăng bằng."
+            },
+            {
+              "id": "zh-topic-ncs-dangang",
+              "headword": "单杠",
+              "reading": "dāngàng",
+              "meaningVn": "xà đơn",
+              "example": "他在单杠上做引体向上。",
+              "exampleVn": "Anh ấy đu người trên xà đơn."
+            },
+            {
+              "id": "zh-topic-ncs-rourenxing",
+              "headword": "柔韧性",
+              "reading": "róurènxìng",
+              "meaningVn": "độ dẻo dai",
+              "example": "体操运动员需要极好的柔韧性。",
+              "exampleVn": "Vận động viên thể dục dụng cụ cần độ dẻo dai cực tốt."
+            },
+            {
+              "id": "zh-topic-ncs-tuanticao",
+              "headword": "团体操",
+              "reading": "tuántǐcāo",
+              "meaningVn": "thể dục đồng diễn",
+              "example": "学校组织了一场团体操表演。",
+              "exampleVn": "Nhà trường đã tổ chức một buổi biểu diễn thể dục đồng diễn."
+            }
+          ]
+        },
+        {
+          "id": "cheerleading",
+          "titleNative": "啦啦操文化",
+          "titleVn": "Văn hoá cổ vũ đội tuyển",
+          "words": [
+            {
+              "id": "zh-topic-ncs-laladui",
+              "headword": "啦啦队",
+              "reading": "lālāduì",
+              "meaningVn": "đội cổ vũ",
+              "example": "比赛现场有热闹的啦啦队。",
+              "exampleVn": "Tại trận đấu có đội cổ vũ rất sôi động."
+            },
+            {
+              "id": "zh-topic-ncs-lalacao",
+              "headword": "啦啦操",
+              "reading": "lālācāo",
+              "meaningVn": "thể dục cổ vũ",
+              "example": "她参加了学校的啦啦操队。",
+              "exampleVn": "Cô ấy tham gia đội thể dục cổ vũ của trường."
+            },
+            {
+              "id": "zh-topic-ncs-jiayoukouhao",
+              "headword": "加油口号",
+              "reading": "jiāyóu kǒuhào",
+              "meaningVn": "khẩu hiệu cổ vũ",
+              "example": "观众一起喊加油口号。",
+              "exampleVn": "Khán giả cùng nhau hô khẩu hiệu cổ vũ."
+            },
+            {
+              "id": "zh-topic-ncs-duixingbianhuan",
+              "headword": "队形变换",
+              "reading": "duìxíng biànhuàn",
+              "meaningVn": "đổi đội hình",
+              "example": "表演中有多次队形变换。",
+              "exampleVn": "Trong màn biểu diễn có nhiều lần đổi đội hình."
+            },
+            {
+              "id": "zh-topic-ncs-tuojudongzuo",
+              "headword": "托举动作",
+              "reading": "tuōjǔ dòngzuò",
+              "meaningVn": "động tác nâng đỡ",
+              "example": "托举动作需要队员之间高度信任。",
+              "exampleVn": "Động tác nâng đỡ đòi hỏi các thành viên phải tin tưởng nhau rất cao."
+            }
+          ]
+        },
+        {
+          "id": "street-dance",
+          "titleNative": "街舞文化",
+          "titleVn": "Văn hoá nhảy đường phố",
+          "words": [
+            {
+              "id": "zh-topic-ncs-jiewu",
+              "headword": "街舞",
+              "reading": "jiēwǔ",
+              "meaningVn": "nhảy đường phố",
+              "example": "他每天放学后都去练街舞。",
+              "exampleVn": "Ngày nào tan học cậu ấy cũng đi tập nhảy đường phố."
+            },
+            {
+              "id": "zh-topic-ncs-jietoudouwu",
+              "headword": "街头斗舞",
+              "reading": "jiētóu dòuwǔ",
+              "meaningVn": "đấu nhảy đường phố",
+              "example": "这次比赛是街头斗舞的形式。",
+              "exampleVn": "Cuộc thi lần này theo hình thức đấu nhảy đường phố."
+            },
+            {
+              "id": "zh-topic-ncs-wutuan",
+              "headword": "舞团",
+              "reading": "wǔtuán",
+              "meaningVn": "nhóm nhảy",
+              "example": "他加入了一个街舞舞团。",
+              "exampleVn": "Cậu ấy đã gia nhập một nhóm nhảy đường phố."
+            },
+            {
+              "id": "zh-topic-ncs-ziyoushi",
+              "headword": "自由式对战",
+              "reading": "zìyóushì duìzhàn",
+              "meaningVn": "đối đầu tự do (freestyle battle)",
+              "example": "决赛环节是自由式对战。",
+              "exampleVn": "Vòng chung kết là phần đối đầu tự do."
+            },
+            {
+              "id": "zh-topic-ncs-kadian",
+              "headword": "卡点",
+              "reading": "kǎdiǎn",
+              "meaningVn": "bắt nhịp chính xác theo nhạc",
+              "example": "他跳舞总能精准卡点。",
+              "exampleVn": "Anh ấy nhảy lúc nào cũng bắt nhịp rất chuẩn theo nhạc."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-topic-extreme-fitness-trends",
+      "language": "zh",
+      "titleNative": "极限健身新趋势",
+      "titleVn": "Xu hướng thể hình cực hạn mới",
+      "branches": [
+        {
+          "id": "crossfit",
+          "titleNative": "Crossfit健身",
+          "titleVn": "Crossfit",
+          "words": [
+            {
+              "id": "zh-topic-eft-gaoqiangdujianxiexunlian",
+              "headword": "高强度间歇训练",
+              "reading": "gāoqiángdù jiànxiē xùnliàn",
+              "meaningVn": "tập luyện cường độ cao ngắt quãng",
+              "example": "高强度间歇训练能快速燃烧脂肪。",
+              "exampleVn": "Tập luyện cường độ cao ngắt quãng có thể đốt mỡ nhanh chóng."
+            },
+            {
+              "id": "zh-topic-eft-xunlianying",
+              "headword": "训练营",
+              "reading": "xùnliànyíng",
+              "meaningVn": "trại tập luyện",
+              "example": "他每周去三次训练营。",
+              "exampleVn": "Mỗi tuần anh ấy đến trại tập luyện ba lần."
+            },
+            {
+              "id": "zh-topic-eft-shendun",
+              "headword": "深蹲",
+              "reading": "shēndūn",
+              "meaningVn": "squat",
+              "example": "教练纠正了他的深蹲姿势。",
+              "exampleVn": "Huấn luyện viên đã chỉnh lại tư thế squat của anh ấy."
+            },
+            {
+              "id": "zh-topic-eft-zhansheng",
+              "headword": "战绳",
+              "reading": "zhànshéng",
+              "meaningVn": "dây battle rope",
+              "example": "战绳训练能锻炼全身肌肉。",
+              "exampleVn": "Tập với dây battle rope có thể rèn luyện cơ toàn thân."
+            },
+            {
+              "id": "zh-topic-eft-ranzhi",
+              "headword": "燃脂",
+              "reading": "ránzhī",
+              "meaningVn": "đốt mỡ",
+              "example": "这套动作主要用来燃脂。",
+              "exampleVn": "Bài tập này chủ yếu dùng để đốt mỡ."
+            }
+          ]
+        },
+        {
+          "id": "bodybuilding",
+          "titleNative": "健美比赛",
+          "titleVn": "Thi đấu thể hình",
+          "words": [
+            {
+              "id": "zh-topic-eft-jianmei",
+              "headword": "健美",
+              "reading": "jiànměi",
+              "meaningVn": "thể hình",
+              "example": "他坚持健美训练已经五年了。",
+              "exampleVn": "Anh ấy đã kiên trì tập thể hình được năm năm."
+            },
+            {
+              "id": "zh-topic-eft-jirouxiantiao",
+              "headword": "肌肉线条",
+              "reading": "jīròu xiàntiáo",
+              "meaningVn": "đường nét cơ bắp",
+              "example": "他的肌肉线条非常明显。",
+              "exampleVn": "Đường nét cơ bắp của anh ấy rất rõ ràng."
+            },
+            {
+              "id": "zh-topic-eft-zengji",
+              "headword": "增肌",
+              "reading": "zēngjī",
+              "meaningVn": "tăng cơ",
+              "example": "增肌期间要摄入足够的蛋白质。",
+              "exampleVn": "Trong giai đoạn tăng cơ phải nạp đủ protein."
+            },
+            {
+              "id": "zh-topic-eft-beisai",
+              "headword": "备赛",
+              "reading": "bèisài",
+              "meaningVn": "chuẩn bị thi đấu",
+              "example": "他正在为健美比赛备赛。",
+              "exampleVn": "Anh ấy đang chuẩn bị cho cuộc thi thể hình."
+            },
+            {
+              "id": "zh-topic-eft-wutaizaoxing",
+              "headword": "舞台造型",
+              "reading": "wǔtái zàoxíng",
+              "meaningVn": "tạo dáng trên sân khấu",
+              "example": "选手需要展示标准的舞台造型。",
+              "exampleVn": "Thí sinh cần thể hiện tư thế tạo dáng chuẩn trên sân khấu."
+            }
+          ]
+        },
+        {
+          "id": "triathlon",
+          "titleNative": "铁人三项",
+          "titleVn": "Ba môn phối hợp",
+          "words": [
+            {
+              "id": "zh-topic-eft-tierensanxiang",
+              "headword": "铁人三项",
+              "reading": "tiěrén sānxiàng",
+              "meaningVn": "ba môn phối hợp",
+              "example": "他今年第一次参加铁人三项。",
+              "exampleVn": "Năm nay anh ấy lần đầu tham gia ba môn phối hợp."
+            },
+            {
+              "id": "zh-topic-eft-zhuanhuanqu",
+              "headword": "转换区",
+              "reading": "zhuǎnhuànqū",
+              "meaningVn": "khu vực chuyển tiếp",
+              "example": "选手在转换区更换装备。",
+              "exampleVn": "Vận động viên thay trang bị ở khu vực chuyển tiếp."
+            },
+            {
+              "id": "zh-topic-eft-nailixunlian",
+              "headword": "耐力训练",
+              "reading": "nàilì xùnliàn",
+              "meaningVn": "tập luyện sức bền",
+              "example": "铁人三项需要长期的耐力训练。",
+              "exampleVn": "Ba môn phối hợp cần tập luyện sức bền lâu dài."
+            },
+            {
+              "id": "zh-topic-eft-wansaishijian",
+              "headword": "完赛时间",
+              "reading": "wánsài shíjiān",
+              "meaningVn": "thời gian hoàn thành cuộc đua",
+              "example": "他的完赛时间比预期快。",
+              "exampleVn": "Thời gian hoàn thành cuộc đua của anh ấy nhanh hơn dự kiến."
+            },
+            {
+              "id": "zh-topic-eft-bujizhan",
+              "headword": "补给站",
+              "reading": "bǔjǐzhàn",
+              "meaningVn": "trạm tiếp tế",
+              "example": "沿途设有多个补给站。",
+              "exampleVn": "Dọc đường có bố trí nhiều trạm tiếp tế."
+            }
+          ]
+        },
+        {
+          "id": "mountain-biking",
+          "titleNative": "山地自行车文化",
+          "titleVn": "Văn hoá xe đạp địa hình",
+          "words": [
+            {
+              "id": "zh-topic-eft-shandizixingche",
+              "headword": "山地自行车",
+              "reading": "shāndì zìxíngchē",
+              "meaningVn": "xe đạp địa hình",
+              "example": "他周末喜欢骑山地自行车。",
+              "exampleVn": "Cuối tuần anh ấy thích đi xe đạp địa hình."
+            },
+            {
+              "id": "zh-topic-eft-yuexiesaidao",
+              "headword": "越野赛道",
+              "reading": "yuèyě sàidào",
+              "meaningVn": "đường đua địa hình",
+              "example": "这条越野赛道很有挑战性。",
+              "exampleVn": "Đường đua địa hình này rất thử thách."
+            },
+            {
+              "id": "zh-topic-eft-jianzhenxitong",
+              "headword": "减震系统",
+              "reading": "jiǎnzhèn xìtǒng",
+              "meaningVn": "hệ thống giảm xóc",
+              "example": "好的减震系统能提高骑行舒适度。",
+              "exampleVn": "Hệ thống giảm xóc tốt giúp tăng độ thoải mái khi đạp xe."
+            },
+            {
+              "id": "zh-topic-eft-huxihuzhou",
+              "headword": "护膝护肘",
+              "reading": "hùxī hùzhǒu",
+              "meaningVn": "bảo vệ đầu gối và khuỷu tay",
+              "example": "骑山地车一定要戴护膝护肘。",
+              "exampleVn": "Đi xe đạp địa hình nhất định phải đeo bảo vệ đầu gối và khuỷu tay."
+            },
+            {
+              "id": "zh-topic-eft-papo",
+              "headword": "爬坡",
+              "reading": "pápō",
+              "meaningVn": "leo dốc",
+              "example": "这段爬坡特别陡。",
+              "exampleVn": "Đoạn leo dốc này đặc biệt dốc."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-topic-square-dance-culture",
+      "language": "zh",
+      "titleNative": "广场舞文化现象",
+      "titleVn": "Hiện tượng văn hoá khiêu vũ quảng trường",
+      "branches": [
+        {
+          "id": "dance-troupes",
+          "titleNative": "广场舞队伍",
+          "titleVn": "Đội nhóm khiêu vũ quảng trường",
+          "words": [
+            {
+              "id": "zh-topic-sdc-lingwu",
+              "headword": "领舞",
+              "reading": "lǐngwǔ",
+              "meaningVn": "người múa dẫn đầu",
+              "example": "她是队里的领舞。",
+              "exampleVn": "Cô ấy là người múa dẫn đầu trong đội."
+            },
+            {
+              "id": "zh-topic-sdc-wuban",
+              "headword": "舞伴",
+              "reading": "wǔbàn",
+              "meaningVn": "bạn nhảy cùng",
+              "example": "大妈们经常互换舞伴练习。",
+              "exampleVn": "Các cô các bà thường đổi bạn nhảy để luyện tập."
+            },
+            {
+              "id": "zh-topic-sdc-yinxiangshebei",
+              "headword": "音响设备",
+              "reading": "yīnxiǎng shèbèi",
+              "meaningVn": "thiết bị âm thanh",
+              "example": "队里新买了一台音响设备。",
+              "exampleVn": "Đội vừa mua một bộ thiết bị âm thanh mới."
+            },
+            {
+              "id": "zh-topic-sdc-bianduì",
+              "headword": "编队",
+              "reading": "biānduì",
+              "meaningVn": "xếp đội hình",
+              "example": "她负责给大家编队。",
+              "exampleVn": "Cô ấy phụ trách xếp đội hình cho mọi người."
+            },
+            {
+              "id": "zh-topic-sdc-guangchangwudama",
+              "headword": "广场舞大妈",
+              "reading": "guǎngchǎngwǔ dàmā",
+              "meaningVn": "\"dì khiêu vũ quảng trường\"",
+              "example": "广场舞大妈是中国街头的一道风景。",
+              "exampleVn": "\"Các dì khiêu vũ quảng trường\" là một nét đặc trưng trên đường phố Trung Quốc."
+            }
+          ]
+        },
+        {
+          "id": "viral-songs",
+          "titleNative": "广场舞神曲",
+          "titleVn": "Ca khúc \"thần\" của khiêu vũ quảng trường",
+          "words": [
+            {
+              "id": "zh-topic-sdc-shenqu",
+              "headword": "神曲",
+              "reading": "shénqū",
+              "meaningVn": "bài hát gây sốt",
+              "example": "这首歌成了今年的广场舞神曲。",
+              "exampleVn": "Bài hát này đã trở thành ca khúc \"thần\" của khiêu vũ quảng trường năm nay."
+            },
+            {
+              "id": "zh-topic-sdc-xinaoge",
+              "headword": "洗脑歌",
+              "reading": "xǐnǎogē",
+              "meaningVn": "bài hát \"tẩy não\"",
+              "example": "这首洗脑歌让她一整天都哼个不停。",
+              "exampleVn": "Bài hát \"tẩy não\" này khiến cô ấy ngân nga suốt cả ngày."
+            },
+            {
+              "id": "zh-topic-sdc-qufeng",
+              "headword": "曲风",
+              "reading": "qǔfēng",
+              "meaningVn": "phong cách âm nhạc",
+              "example": "广场舞歌曲的曲风大多欢快。",
+              "exampleVn": "Phong cách âm nhạc của các bài khiêu vũ quảng trường phần lớn vui tươi."
+            },
+            {
+              "id": "zh-topic-sdc-jiepai",
+              "headword": "节拍",
+              "reading": "jiépāi",
+              "meaningVn": "nhịp phách",
+              "example": "这首歌的节拍很适合跳舞。",
+              "exampleVn": "Nhịp phách của bài hát này rất hợp để nhảy."
+            },
+            {
+              "id": "zh-topic-sdc-fantiao",
+              "headword": "翻跳",
+              "reading": "fāntiào",
+              "meaningVn": "nhảy theo/cover điệu nhảy",
+              "example": "很多年轻人也在网上翻跳广场舞。",
+              "exampleVn": "Nhiều người trẻ cũng cover các điệu khiêu vũ quảng trường trên mạng."
+            }
+          ]
+        },
+        {
+          "id": "competitions",
+          "titleNative": "广场舞比赛",
+          "titleVn": "Cuộc thi khiêu vũ quảng trường",
+          "words": [
+            {
+              "id": "zh-topic-sdc-guangchangwudasai",
+              "headword": "广场舞大赛",
+              "reading": "guǎngchǎngwǔ dàsài",
+              "meaningVn": "cuộc thi khiêu vũ quảng trường",
+              "example": "社区举办了一场广场舞大赛。",
+              "exampleVn": "Khu dân cư đã tổ chức một cuộc thi khiêu vũ quảng trường."
+            },
+            {
+              "id": "zh-topic-sdc-pingwei",
+              "headword": "评委",
+              "reading": "píngwěi",
+              "meaningVn": "ban giám khảo",
+              "example": "评委给每支队伍打分。",
+              "exampleVn": "Ban giám khảo chấm điểm cho từng đội."
+            },
+            {
+              "id": "zh-topic-sdc-duifu",
+              "headword": "队服",
+              "reading": "duìfú",
+              "meaningVn": "đồng phục đội",
+              "example": "她们统一穿着红色队服。",
+              "exampleVn": "Các thành viên trong đội mặc đồng phục màu đỏ đồng bộ."
+            },
+            {
+              "id": "zh-topic-sdc-pailian",
+              "headword": "排练",
+              "reading": "páiliàn",
+              "meaningVn": "tập luyện dàn dựng",
+              "example": "为了比赛她们每天排练两小时。",
+              "exampleVn": "Để chuẩn bị cho cuộc thi họ tập luyện hai tiếng mỗi ngày."
+            },
+            {
+              "id": "zh-topic-sdc-huojiangduiwu",
+              "headword": "获奖队伍",
+              "reading": "huòjiǎng duìwǔ",
+              "meaningVn": "đội đoạt giải",
+              "example": "获奖队伍受到了社区表彰。",
+              "exampleVn": "Đội đoạt giải đã được khu dân cư khen thưởng."
+            }
+          ]
+        },
+        {
+          "id": "noise-disputes",
+          "titleNative": "噪音纠纷与治理",
+          "titleVn": "Tranh chấp tiếng ồn và quản lý",
+          "words": [
+            {
+              "id": "zh-topic-sdc-zaoyinraomin",
+              "headword": "噪音扰民",
+              "reading": "zàoyīn rǎomín",
+              "meaningVn": "tiếng ồn gây phiền cho dân cư",
+              "example": "附近居民投诉广场舞噪音扰民。",
+              "exampleVn": "Cư dân xung quanh phàn nàn về tiếng ồn khiêu vũ quảng trường làm phiền."
+            },
+            {
+              "id": "zh-topic-sdc-tousu",
+              "headword": "投诉",
+              "reading": "tóusù",
+              "meaningVn": "khiếu nại",
+              "example": "有人向物业投诉了好几次。",
+              "exampleVn": "Có người đã khiếu nại với ban quản lý nhiều lần."
+            },
+            {
+              "id": "zh-topic-sdc-yinliangxianzhi",
+              "headword": "音量限制",
+              "reading": "yīnliàng xiànzhì",
+              "meaningVn": "giới hạn âm lượng",
+              "example": "社区规定了广场舞的音量限制。",
+              "exampleVn": "Khu dân cư đã quy định giới hạn âm lượng cho khiêu vũ quảng trường."
+            },
+            {
+              "id": "zh-topic-sdc-cuofenghuodong",
+              "headword": "错峰活动",
+              "reading": "cuòfēng huódòng",
+              "meaningVn": "hoạt động lệch giờ cao điểm",
+              "example": "大家协商采用错峰活动的方式。",
+              "exampleVn": "Mọi người đã thỏa thuận áp dụng hình thức hoạt động lệch giờ cao điểm."
+            },
+            {
+              "id": "zh-topic-sdc-shequxietiao",
+              "headword": "社区协调",
+              "reading": "shèqū xiétiáo",
+              "meaningVn": "hòa giải của khu dân cư",
+              "example": "这次纠纷最终通过社区协调解决了。",
+              "exampleVn": "Tranh chấp lần này cuối cùng đã được giải quyết thông qua hòa giải của khu dân cư."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-topic-highspeed-rail-culture",
+      "language": "zh",
+      "titleNative": "高铁与铁路出行文化",
+      "titleVn": "Văn hoá đi tàu cao tốc và đường sắt",
+      "branches": [
+        {
+          "id": "carriage-classes",
+          "titleNative": "车厢等级",
+          "titleVn": "Hạng toa tàu",
+          "words": [
+            {
+              "id": "zh-topic-hrc-yingzuo",
+              "headword": "硬座",
+              "reading": "yìngzuò",
+              "meaningVn": "ghế cứng",
+              "example": "学生票通常是硬座。",
+              "exampleVn": "Vé sinh viên thường là ghế cứng."
+            },
+            {
+              "id": "zh-topic-hrc-yingwo",
+              "headword": "硬卧",
+              "reading": "yìngwò",
+              "meaningVn": "giường nằm cứng",
+              "example": "长途旅行他选择了硬卧。",
+              "exampleVn": "Chuyến đi dài anh ấy chọn giường nằm cứng."
+            },
+            {
+              "id": "zh-topic-hrc-ruanwo",
+              "headword": "软卧",
+              "reading": "ruǎnwò",
+              "meaningVn": "giường nằm mềm",
+              "example": "软卧车厢比较安静舒适。",
+              "exampleVn": "Toa giường nằm mềm khá yên tĩnh và thoải mái."
+            },
+            {
+              "id": "zh-topic-hrc-shangwuzuo",
+              "headword": "商务座",
+              "reading": "shāngwùzuò",
+              "meaningVn": "ghế thương gia",
+              "example": "商务座的票价最贵。",
+              "exampleVn": "Vé ghế thương gia có giá đắt nhất."
+            },
+            {
+              "id": "zh-topic-hrc-erdengzuo",
+              "headword": "二等座",
+              "reading": "èrděngzuò",
+              "meaningVn": "ghế hạng hai",
+              "example": "大部分乘客买的是二等座。",
+              "exampleVn": "Phần lớn hành khách mua vé ghế hạng hai."
+            }
+          ]
+        },
+        {
+          "id": "boarding-security",
+          "titleNative": "检票与安检流程",
+          "titleVn": "Quy trình kiểm vé và an ninh",
+          "words": [
+            {
+              "id": "zh-topic-hrc-jianpiaokou",
+              "headword": "检票口",
+              "reading": "jiǎnpiàokǒu",
+              "meaningVn": "cửa soát vé",
+              "example": "请到三号检票口排队。",
+              "exampleVn": "Xin mời xếp hàng ở cửa soát vé số ba."
+            },
+            {
+              "id": "zh-topic-hrc-anjian",
+              "headword": "安检",
+              "reading": "ānjiǎn",
+              "meaningVn": "kiểm tra an ninh",
+              "example": "进站前要先过安检。",
+              "exampleVn": "Trước khi vào ga phải qua kiểm tra an ninh."
+            },
+            {
+              "id": "zh-topic-hrc-shimingzhi",
+              "headword": "实名制",
+              "reading": "shímíngzhì",
+              "meaningVn": "chế độ vé định danh",
+              "example": "火车票实行实名制购买。",
+              "exampleVn": "Vé tàu áp dụng chế độ mua theo tên thật."
+            },
+            {
+              "id": "zh-topic-hrc-jianpiaozhaji",
+              "headword": "检票闸机",
+              "reading": "jiǎnpiào zháqī",
+              "meaningVn": "cổng soát vé tự động",
+              "example": "刷身份证就能通过检票闸机。",
+              "exampleVn": "Chỉ cần quẹt căn cước là có thể qua cổng soát vé tự động."
+            },
+            {
+              "id": "zh-topic-hrc-houchetiing",
+              "headword": "候车厅",
+              "reading": "hòuchētīng",
+              "meaningVn": "phòng chờ tàu",
+              "example": "候车厅里坐满了乘客。",
+              "exampleVn": "Phòng chờ tàu chật kín hành khách."
+            }
+          ]
+        },
+        {
+          "id": "station-facilities",
+          "titleNative": "车站设施",
+          "titleVn": "Cơ sở vật chất nhà ga",
+          "words": [
+            {
+              "id": "zh-topic-hrc-zhantai",
+              "headword": "站台",
+              "reading": "zhàntái",
+              "meaningVn": "sân ga",
+              "example": "列车马上就要进站台了。",
+              "exampleVn": "Tàu sắp vào sân ga rồi."
+            },
+            {
+              "id": "zh-topic-hrc-dianzixianshiping",
+              "headword": "电子显示屏",
+              "reading": "diànzǐ xiǎnshìpíng",
+              "meaningVn": "màn hình hiển thị điện tử",
+              "example": "电子显示屏上显示了发车时间。",
+              "exampleVn": "Màn hình hiển thị điện tử hiện giờ tàu chạy."
+            },
+            {
+              "id": "zh-topic-hrc-zidongshoupiaoji",
+              "headword": "自动售票机",
+              "reading": "zìdòng shòupiàojī",
+              "meaningVn": "máy bán vé tự động",
+              "example": "他在自动售票机上买了票。",
+              "exampleVn": "Anh ấy đã mua vé tại máy bán vé tự động."
+            },
+            {
+              "id": "zh-topic-hrc-chuzhankou",
+              "headword": "出站口",
+              "reading": "chūzhànkǒu",
+              "meaningVn": "cửa ra ga",
+              "example": "出站口人非常多。",
+              "exampleVn": "Cửa ra ga đông người vô cùng."
+            },
+            {
+              "id": "zh-topic-hrc-gaotiekuaican",
+              "headword": "高铁快餐",
+              "reading": "gāotiě kuàicān",
+              "meaningVn": "suất ăn nhanh trên tàu cao tốc",
+              "example": "他在车上买了一份高铁快餐。",
+              "exampleVn": "Anh ấy đã mua một suất ăn nhanh trên tàu cao tốc."
+            }
+          ]
+        },
+        {
+          "id": "railway-crew",
+          "titleNative": "铁路乘务员",
+          "titleVn": "Nhân viên đường sắt",
+          "words": [
+            {
+              "id": "zh-topic-hrc-chengwuyuan",
+              "headword": "乘务员",
+              "reading": "chéngwùyuán",
+              "meaningVn": "nhân viên phục vụ trên tàu",
+              "example": "乘务员来检查车票了。",
+              "exampleVn": "Nhân viên phục vụ đến kiểm tra vé."
+            },
+            {
+              "id": "zh-topic-hrc-liechezhang",
+              "headword": "列车长",
+              "reading": "lièchēzhǎng",
+              "meaningVn": "trưởng tàu",
+              "example": "列车长负责整趟列车的安全。",
+              "exampleVn": "Trưởng tàu phụ trách an toàn của cả chuyến tàu."
+            },
+            {
+              "id": "zh-topic-hrc-guangbotishi",
+              "headword": "广播提示",
+              "reading": "guǎngbō tíshì",
+              "meaningVn": "thông báo qua loa phát thanh",
+              "example": "车厢里响起了广播提示。",
+              "exampleVn": "Trong toa tàu vang lên thông báo qua loa."
+            },
+            {
+              "id": "zh-topic-hrc-bupiao",
+              "headword": "补票",
+              "reading": "bǔpiào",
+              "meaningVn": "mua bù vé",
+              "example": "他上车后向乘务员补票。",
+              "exampleVn": "Sau khi lên tàu anh ấy đã mua bù vé với nhân viên phục vụ."
+            },
+            {
+              "id": "zh-topic-hrc-gaotiesiji",
+              "headword": "高铁司机",
+              "reading": "gāotiě sījī",
+              "meaningVn": "lái tàu cao tốc",
+              "example": "高铁司机需要经过严格培训。",
+              "exampleVn": "Lái tàu cao tốc cần trải qua đào tạo nghiêm ngặt."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-topic-yumcha-dimsum-culture",
+      "language": "zh",
+      "titleNative": "早茶点心文化",
+      "titleVn": "Văn hoá điểm tâm sáng (yum cha)",
+      "branches": [
+        {
+          "id": "classic-dimsum",
+          "titleNative": "经典点心",
+          "titleVn": "Điểm tâm kinh điển",
+          "words": [
+            {
+              "id": "zh-topic-ydc-xiajiao",
+              "headword": "虾饺",
+              "reading": "xiājiǎo",
+              "meaningVn": "há cảo tôm",
+              "example": "这家店的虾饺特别新鲜。",
+              "exampleVn": "Món há cảo tôm của quán này đặc biệt tươi."
+            },
+            {
+              "id": "zh-topic-ydc-chashaobao",
+              "headword": "叉烧包",
+              "reading": "chāshāobāo",
+              "meaningVn": "bánh bao xá xíu",
+              "example": "他点了一份叉烧包。",
+              "exampleVn": "Anh ấy gọi một suất bánh bao xá xíu."
+            },
+            {
+              "id": "zh-topic-ydc-liushabao",
+              "headword": "流沙包",
+              "reading": "liúshābāo",
+              "meaningVn": "bánh bao trứng muối chảy",
+              "example": "流沙包咬开会流出金黄的馅料。",
+              "exampleVn": "Cắn bánh bao trứng muối chảy sẽ chảy ra nhân vàng óng."
+            },
+            {
+              "id": "zh-topic-ydc-danta",
+              "headword": "蛋挞",
+              "reading": "dàntà",
+              "meaningVn": "bánh trứng tart",
+              "example": "刚出炉的蛋挞最好吃。",
+              "exampleVn": "Bánh trứng tart vừa ra lò ăn ngon nhất."
+            },
+            {
+              "id": "zh-topic-ydc-changfen",
+              "headword": "肠粉",
+              "reading": "chángfěn",
+              "meaningVn": "bánh cuốn tôm",
+              "example": "早茶必点的一道菜就是肠粉。",
+              "exampleVn": "Một món nhất định phải gọi khi ăn điểm tâm sáng là bánh cuốn."
+            }
+          ]
+        },
+        {
+          "id": "yumcha-customs",
+          "titleNative": "早茶习俗",
+          "titleVn": "Phong tục ăn điểm tâm sáng",
+          "words": [
+            {
+              "id": "zh-topic-ydc-yizhongliangjian",
+              "headword": "一盅两件",
+              "reading": "yīzhōng liǎngjiàn",
+              "meaningVn": "\"một chén hai món\"",
+              "example": "老广东人喜欢一盅两件地享受早茶。",
+              "exampleVn": "Người Quảng Đông cũ thích thưởng thức điểm tâm kiểu \"một chén hai món\"."
+            },
+            {
+              "id": "zh-topic-ydc-dianxinche",
+              "headword": "点心车",
+              "reading": "diǎnxīnchē",
+              "meaningVn": "xe đẩy điểm tâm",
+              "example": "服务员推着点心车走过来。",
+              "exampleVn": "Nhân viên đẩy xe điểm tâm đi tới."
+            },
+            {
+              "id": "zh-topic-ydc-pinzhuo",
+              "headword": "拼桌",
+              "reading": "pīnzhuō",
+              "meaningVn": "ghép bàn",
+              "example": "早茶时间店里很挤,经常需要拼桌。",
+              "exampleVn": "Giờ ăn điểm tâm sáng quán rất đông, thường phải ngồi ghép bàn."
+            },
+            {
+              "id": "zh-topic-ydc-tancha",
+              "headword": "叹茶",
+              "reading": "tàn chá",
+              "meaningVn": "\"thưởng trà\" (đi ăn điểm tâm sáng)",
+              "example": "周末一家人喜欢去叹茶。",
+              "exampleVn": "Cuối tuần cả nhà thích đi \"thưởng trà\" (ăn điểm tâm sáng)."
+            },
+            {
+              "id": "zh-topic-ydc-paiduidengwei",
+              "headword": "排队等位",
+              "reading": "páiduì děngwèi",
+              "meaningVn": "xếp hàng chờ bàn",
+              "example": "这家老店周末要排队等位。",
+              "exampleVn": "Quán lâu năm này cuối tuần phải xếp hàng chờ bàn."
+            }
+          ]
+        },
+        {
+          "id": "heritage-teahouses",
+          "titleNative": "老字号茶楼",
+          "titleVn": "Tiệm trà lâu đời",
+          "words": [
+            {
+              "id": "zh-topic-ydc-laozihao",
+              "headword": "老字号",
+              "reading": "lǎozìhao",
+              "meaningVn": "thương hiệu lâu đời",
+              "example": "这是一家百年老字号茶楼。",
+              "exampleVn": "Đây là một tiệm trà lâu đời trăm năm."
+            },
+            {
+              "id": "zh-topic-ydc-chalou",
+              "headword": "茶楼",
+              "reading": "chálóu",
+              "meaningVn": "tiệm trà kiểu Quảng Đông",
+              "example": "他们常去老字号茶楼喝早茶。",
+              "exampleVn": "Họ thường đến tiệm trà lâu đời để ăn điểm tâm sáng."
+            },
+            {
+              "id": "zh-topic-ydc-zhaopaidianxin",
+              "headword": "招牌点心",
+              "reading": "zhāopái diǎnxīn",
+              "meaningVn": "món điểm tâm đặc trưng",
+              "example": "这家店的招牌点心是虾饺。",
+              "exampleVn": "Món điểm tâm đặc trưng của quán này là há cảo tôm."
+            },
+            {
+              "id": "zh-topic-ydc-chuanchengshouyi",
+              "headword": "传承手艺",
+              "reading": "chuánchéng shǒuyì",
+              "meaningVn": "tay nghề gia truyền",
+              "example": "师傅的传承手艺已经有三代了。",
+              "exampleVn": "Tay nghề gia truyền của người thợ đã được ba đời."
+            },
+            {
+              "id": "zh-topic-ydc-huaijiufenwei",
+              "headword": "怀旧氛围",
+              "reading": "huáijiù fēnwéi",
+              "meaningVn": "không khí hoài cổ",
+              "example": "老茶楼有一种怀旧氛围。",
+              "exampleVn": "Tiệm trà cũ có một không khí hoài cổ."
+            }
+          ]
+        },
+        {
+          "id": "dimsum-techniques",
+          "titleNative": "点心制作工艺",
+          "titleVn": "Kỹ nghệ làm điểm tâm",
+          "words": [
+            {
+              "id": "zh-topic-ydc-zhenglong",
+              "headword": "蒸笼",
+              "reading": "zhēnglóng",
+              "meaningVn": "xửng hấp",
+              "example": "蒸笼里飘出阵阵香气。",
+              "exampleVn": "Từ xửng hấp bốc lên mùi thơm ngào ngạt."
+            },
+            {
+              "id": "zh-topic-ydc-ganpi",
+              "headword": "擀皮",
+              "reading": "gǎnpí",
+              "meaningVn": "cán vỏ bánh",
+              "example": "师傅正在擀皮包饺子。",
+              "exampleVn": "Người thợ đang cán vỏ bánh để gói há cảo."
+            },
+            {
+              "id": "zh-topic-ydc-baoxian",
+              "headword": "包馅",
+              "reading": "bāoxiàn",
+              "meaningVn": "gói nhân",
+              "example": "包馅的手法需要多年练习。",
+              "exampleVn": "Kỹ thuật gói nhân cần luyện tập nhiều năm."
+            },
+            {
+              "id": "zh-topic-ydc-huohou",
+              "headword": "火候",
+              "reading": "huǒhou",
+              "meaningVn": "độ lửa",
+              "example": "蒸点心的火候很关键。",
+              "exampleVn": "Độ lửa khi hấp điểm tâm rất quan trọng."
+            },
+            {
+              "id": "zh-topic-ydc-xianzuoxianmai",
+              "headword": "现做现卖",
+              "reading": "xiànzuò xiànmài",
+              "meaningVn": "làm ngay bán ngay",
+              "example": "这家店的点心都是现做现卖。",
+              "exampleVn": "Điểm tâm của quán này đều được làm ngay bán ngay."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-topic-crosstalk-folk-arts",
+      "language": "zh",
+      "titleNative": "相声与传统曲艺",
+      "titleVn": "Tương thanh và nghệ thuật kể chuyện truyền thống",
+      "branches": [
+        {
+          "id": "crosstalk-basics",
+          "titleNative": "相声基本功",
+          "titleVn": "Kỹ năng cơ bản của tương thanh",
+          "words": [
+            {
+              "id": "zh-topic-cfa-xiangsheng",
+              "headword": "相声",
+              "reading": "xiàngsheng",
+              "meaningVn": "tương thanh",
+              "example": "他从小就喜欢听相声。",
+              "exampleVn": "Anh ấy thích nghe tương thanh từ nhỏ."
+            },
+            {
+              "id": "zh-topic-cfa-shuoxuedouchang",
+              "headword": "说学逗唱",
+              "reading": "shuō xué dòu chàng",
+              "meaningVn": "\"nói học trêu hát\"",
+              "example": "说学逗唱是相声演员的基本功。",
+              "exampleVn": "\"Nói học trêu hát\" là kỹ năng cơ bản của diễn viên tương thanh."
+            },
+            {
+              "id": "zh-topic-cfa-guankou",
+              "headword": "贯口",
+              "reading": "guànkǒu",
+              "meaningVn": "đoạn thoại liên hoàn",
+              "example": "这段贯口他背了很久。",
+              "exampleVn": "Đoạn thoại liên hoàn này anh ấy đã học thuộc rất lâu."
+            },
+            {
+              "id": "zh-topic-cfa-xiangua",
+              "headword": "现挂",
+              "reading": "xiànguà",
+              "meaningVn": "ứng biến tại chỗ",
+              "example": "这段现挂让观众笑翻了。",
+              "exampleVn": "Đoạn ứng biến tại chỗ này khiến khán giả cười lăn."
+            },
+            {
+              "id": "zh-topic-cfa-dingchangshi",
+              "headword": "定场诗",
+              "reading": "dìngchǎngshī",
+              "meaningVn": "bài thơ mở màn",
+              "example": "演员先念了一段定场诗。",
+              "exampleVn": "Diễn viên đọc trước một bài thơ mở màn."
+            }
+          ]
+        },
+        {
+          "id": "performance-formats",
+          "titleNative": "相声表演形式",
+          "titleVn": "Hình thức biểu diễn tương thanh",
+          "words": [
+            {
+              "id": "zh-topic-cfa-dougen",
+              "headword": "逗哏",
+              "reading": "dòugén",
+              "meaningVn": "vai chọc cười",
+              "example": "他在组合里担任逗哏。",
+              "exampleVn": "Anh ấy đảm nhận vai chọc cười trong nhóm."
+            },
+            {
+              "id": "zh-topic-cfa-penggen",
+              "headword": "捧哏",
+              "reading": "pěnggén",
+              "meaningVn": "vai phụ họa",
+              "example": "捧哏的配合非常重要。",
+              "exampleVn": "Sự phối hợp của vai phụ họa rất quan trọng."
+            },
+            {
+              "id": "zh-topic-cfa-dankouxiangsheng",
+              "headword": "单口相声",
+              "reading": "dānkǒu xiàngsheng",
+              "meaningVn": "tương thanh độc thoại",
+              "example": "单口相声比对口相声更难说好。",
+              "exampleVn": "Tương thanh độc thoại khó diễn hay hơn tương thanh song đối."
+            },
+            {
+              "id": "zh-topic-cfa-duikouxiangsheng",
+              "headword": "对口相声",
+              "reading": "duìkǒu xiàngsheng",
+              "meaningVn": "tương thanh song đối",
+              "example": "大部分相声都是对口相声。",
+              "exampleVn": "Phần lớn tương thanh là loại song đối."
+            },
+            {
+              "id": "zh-topic-cfa-xiangshengyanyuan",
+              "headword": "相声演员",
+              "reading": "xiàngsheng yǎnyuán",
+              "meaningVn": "diễn viên tương thanh",
+              "example": "这位相声演员很受欢迎。",
+              "exampleVn": "Diễn viên tương thanh này rất được yêu thích."
+            }
+          ]
+        },
+        {
+          "id": "storytelling-arts",
+          "titleNative": "评书说书文化",
+          "titleVn": "Văn hoá kể chuyện, thuyết thư",
+          "words": [
+            {
+              "id": "zh-topic-cfa-pingshu",
+              "headword": "评书",
+              "reading": "píngshū",
+              "meaningVn": "bình thư",
+              "example": "爷爷每天下午都听评书。",
+              "exampleVn": "Ông mỗi chiều đều nghe kể chuyện bình thư."
+            },
+            {
+              "id": "zh-topic-cfa-shuoshuxiansheng",
+              "headword": "说书先生",
+              "reading": "shuōshū xiānsheng",
+              "meaningVn": "ông thầy kể chuyện",
+              "example": "说书先生的嗓音特别有磁性。",
+              "exampleVn": "Giọng của ông thầy kể chuyện đặc biệt có sức hút."
+            },
+            {
+              "id": "zh-topic-cfa-jingtangmu",
+              "headword": "惊堂木",
+              "reading": "jīngtángmù",
+              "meaningVn": "thanh mộc gõ bàn",
+              "example": "他一拍惊堂木,场子立刻安静下来。",
+              "exampleVn": "Ông ấy vừa gõ thanh mộc, cả sân lập tức im lặng."
+            },
+            {
+              "id": "zh-topic-cfa-xuannian",
+              "headword": "悬念",
+              "reading": "xuánniàn",
+              "meaningVn": "tình tiết hồi hộp",
+              "example": "每一回结尾都留下悬念。",
+              "exampleVn": "Mỗi hồi kết thúc đều để lại tình tiết hồi hộp."
+            },
+            {
+              "id": "zh-topic-cfa-shuchang",
+              "headword": "书场",
+              "reading": "shūchǎng",
+              "meaningVn": "rạp kể chuyện",
+              "example": "这家书场已经有上百年历史。",
+              "exampleVn": "Rạp kể chuyện này đã có lịch sử hàng trăm năm."
+            }
+          ]
+        },
+        {
+          "id": "regional-folk-arts",
+          "titleNative": "二人转与地方曲艺",
+          "titleVn": "Nhị nhân chuyển và nghệ thuật dân gian địa phương",
+          "words": [
+            {
+              "id": "zh-topic-cfa-errenzhuan",
+              "headword": "二人转",
+              "reading": "èrrénzhuàn",
+              "meaningVn": "nhị nhân chuyển",
+              "example": "二人转是东北特有的表演形式。",
+              "exampleVn": "Nhị nhân chuyển là hình thức biểu diễn đặc trưng của vùng Đông Bắc."
+            },
+            {
+              "id": "zh-topic-cfa-kuaiban",
+              "headword": "快板",
+              "reading": "kuàibǎn",
+              "meaningVn": "khoái bản",
+              "example": "他打着快板讲故事。",
+              "exampleVn": "Anh ấy vừa gõ khoái bản vừa kể chuyện."
+            },
+            {
+              "id": "zh-topic-cfa-lianhualuo",
+              "headword": "莲花落",
+              "reading": "liánhuālào",
+              "meaningVn": "Liên hoa lạc",
+              "example": "莲花落是一种古老的民间说唱艺术。",
+              "exampleVn": "Liên hoa lạc là một loại hình nghệ thuật hát kể dân gian cổ xưa."
+            },
+            {
+              "id": "zh-topic-cfa-fangyanbiaoyan",
+              "headword": "方言表演",
+              "reading": "fāngyán biǎoyǎn",
+              "meaningVn": "biểu diễn bằng phương ngữ",
+              "example": "这种曲艺通常用方言表演。",
+              "exampleVn": "Loại hình nghệ thuật này thường biểu diễn bằng phương ngữ."
+            },
+            {
+              "id": "zh-topic-cfa-minjianyiren",
+              "headword": "民间艺人",
+              "reading": "mínjiān yìrén",
+              "meaningVn": "nghệ nhân dân gian",
+              "example": "村里还有几位民间艺人。",
+              "exampleVn": "Trong làng vẫn còn vài nghệ nhân dân gian."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-topic-spring-gala-newyear-culture",
+      "language": "zh",
+      "titleNative": "春晚与贺岁文化",
+      "titleVn": "Văn hoá Xuân vãn và chúc Tết hiện đại",
+      "branches": [
+        {
+          "id": "gala-programs",
+          "titleNative": "春晚节目",
+          "titleVn": "Chương trình Xuân vãn",
+          "words": [
+            {
+              "id": "zh-topic-sgn-chunwan",
+              "headword": "春晚",
+              "reading": "chūnwǎn",
+              "meaningVn": "Xuân vãn",
+              "example": "全家人一起看春晚。",
+              "exampleVn": "Cả nhà cùng nhau xem Xuân vãn."
+            },
+            {
+              "id": "zh-topic-sgn-xiaopin",
+              "headword": "小品",
+              "reading": "xiǎopǐn",
+              "meaningVn": "tiểu phẩm hài",
+              "example": "今年的小品很搞笑。",
+              "exampleVn": "Tiểu phẩm hài năm nay rất buồn cười."
+            },
+            {
+              "id": "zh-topic-sgn-baomuyuan",
+              "headword": "报幕员",
+              "reading": "bàomùyuán",
+              "meaningVn": "người xướng tên tiết mục",
+              "example": "报幕员报出了下一个节目。",
+              "exampleVn": "Người xướng tên tiết mục thông báo tiết mục tiếp theo."
+            },
+            {
+              "id": "zh-topic-sgn-daojishi",
+              "headword": "倒计时",
+              "reading": "dàojìshí",
+              "meaningVn": "đếm ngược",
+              "example": "大家一起倒计时迎接新年。",
+              "exampleVn": "Mọi người cùng nhau đếm ngược đón năm mới."
+            },
+            {
+              "id": "zh-topic-sgn-shoushilv",
+              "headword": "收视率",
+              "reading": "shōushìlǜ",
+              "meaningVn": "tỉ suất người xem",
+              "example": "春晚的收视率一直很高。",
+              "exampleVn": "Tỉ suất người xem của Xuân vãn luôn rất cao."
+            }
+          ]
+        },
+        {
+          "id": "reunion-dinner",
+          "titleNative": "年夜饭",
+          "titleVn": "Bữa cơm tất niên",
+          "words": [
+            {
+              "id": "zh-topic-sgn-nianyefan",
+              "headword": "年夜饭",
+              "reading": "niányèfàn",
+              "meaningVn": "bữa cơm tất niên",
+              "example": "全家人围坐一起吃年夜饭。",
+              "exampleVn": "Cả nhà quây quần bên nhau ăn bữa cơm tất niên."
+            },
+            {
+              "id": "zh-topic-sgn-tuanyuanfan",
+              "headword": "团圆饭",
+              "reading": "tuányuánfàn",
+              "meaningVn": "bữa cơm sum họp",
+              "example": "无论多忙都要回家吃团圆饭。",
+              "exampleVn": "Dù bận đến mấy cũng phải về nhà ăn bữa cơm sum họp."
+            },
+            {
+              "id": "zh-topic-sgn-nianyefancaidan",
+              "headword": "年夜饭菜单",
+              "reading": "niányèfàn càidān",
+              "meaningVn": "thực đơn bữa cơm tất niên",
+              "example": "妈妈提前一周准备年夜饭菜单。",
+              "exampleVn": "Mẹ chuẩn bị thực đơn bữa cơm tất niên trước một tuần."
+            },
+            {
+              "id": "zh-topic-sgn-niangao",
+              "headword": "年糕",
+              "reading": "niángāo",
+              "meaningVn": "bánh tổ",
+              "example": "吃年糕象征年年高升。",
+              "exampleVn": "Ăn bánh tổ tượng trưng cho sự thăng tiến từng năm."
+            },
+            {
+              "id": "zh-topic-sgn-shousui",
+              "headword": "守岁",
+              "reading": "shǒusuì",
+              "meaningVn": "thức đêm giao thừa",
+              "example": "一家人守岁到凌晨。",
+              "exampleVn": "Cả nhà thức đến rạng sáng để đón giao thừa."
+            }
+          ]
+        },
+        {
+          "id": "newyear-greetings",
+          "titleNative": "拜年方式",
+          "titleVn": "Cách chúc Tết hiện đại",
+          "words": [
+            {
+              "id": "zh-topic-sgn-weixinbainian",
+              "headword": "微信拜年",
+              "reading": "wēixìn bàinián",
+              "meaningVn": "chúc Tết qua WeChat",
+              "example": "现在很多人选择微信拜年。",
+              "exampleVn": "Hiện nay nhiều người chọn chúc Tết qua WeChat."
+            },
+            {
+              "id": "zh-topic-sgn-bainianshipin",
+              "headword": "拜年视频",
+              "reading": "bàinián shìpín",
+              "meaningVn": "video chúc Tết",
+              "example": "他给亲戚发了一段拜年视频。",
+              "exampleVn": "Anh ấy đã gửi một đoạn video chúc Tết cho họ hàng."
+            },
+            {
+              "id": "zh-topic-sgn-qunfazhufu",
+              "headword": "群发祝福",
+              "reading": "qúnfā zhùfú",
+              "meaningVn": "gửi lời chúc hàng loạt",
+              "example": "有些人只是群发祝福,不够真诚。",
+              "exampleVn": "Có người chỉ gửi lời chúc hàng loạt, không đủ chân thành."
+            },
+            {
+              "id": "zh-topic-sgn-zhangbeihongbao",
+              "headword": "长辈红包",
+              "reading": "zhǎngbèi hóngbāo",
+              "meaningVn": "lì xì từ người lớn tuổi",
+              "example": "孩子们最期待长辈红包。",
+              "exampleVn": "Bọn trẻ mong chờ nhất là lì xì từ người lớn."
+            },
+            {
+              "id": "zh-topic-sgn-bainianli",
+              "headword": "拜年礼",
+              "reading": "bàiniánlǐ",
+              "meaningVn": "quà chúc Tết",
+              "example": "他准备了几份拜年礼送给邻居。",
+              "exampleVn": "Anh ấy đã chuẩn bị vài phần quà chúc Tết để tặng hàng xóm."
+            }
+          ]
+        },
+        {
+          "id": "newyear-films",
+          "titleNative": "贺岁档电影",
+          "titleVn": "Phim chiếu dịp Tết",
+          "words": [
+            {
+              "id": "zh-topic-sgn-hesuipian",
+              "headword": "贺岁片",
+              "reading": "hèsuìpiàn",
+              "meaningVn": "phim chiếu Tết",
+              "example": "今年的贺岁片阵容很强大。",
+              "exampleVn": "Dàn diễn viên phim chiếu Tết năm nay rất hùng hậu."
+            },
+            {
+              "id": "zh-topic-sgn-hesuidang",
+              "headword": "贺岁档",
+              "reading": "hèsuìdàng",
+              "meaningVn": "mùa phim Tết",
+              "example": "贺岁档竞争非常激烈。",
+              "exampleVn": "Mùa phim Tết cạnh tranh vô cùng khốc liệt."
+            },
+            {
+              "id": "zh-topic-sgn-piaofang",
+              "headword": "票房",
+              "reading": "piàofáng",
+              "meaningVn": "doanh thu phòng vé",
+              "example": "这部电影的票房打破了纪录。",
+              "exampleVn": "Doanh thu phòng vé của bộ phim này đã phá kỷ lục."
+            },
+            {
+              "id": "zh-topic-sgn-hejiahuandianying",
+              "headword": "合家欢电影",
+              "reading": "héjiāhuān diànyǐng",
+              "meaningVn": "phim cả nhà cùng xem",
+              "example": "这是一部合家欢电影。",
+              "exampleVn": "Đây là một bộ phim cả nhà cùng xem."
+            },
+            {
+              "id": "zh-topic-sgn-yushoupiao",
+              "headword": "预售票",
+              "reading": "yùshòupiào",
+              "meaningVn": "vé đặt trước",
+              "example": "他提前买了预售票。",
+              "exampleVn": "Anh ấy đã mua vé đặt trước từ sớm."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-topic-cultural-creative-merch",
+      "language": "zh",
+      "titleNative": "文创产品与博物馆周边",
+      "titleVn": "Sản phẩm văn hoá sáng tạo và đồ lưu niệm bảo tàng",
+      "branches": [
+        {
+          "id": "museum-merch",
+          "titleNative": "博物馆文创",
+          "titleVn": "Sản phẩm sáng tạo của bảo tàng",
+          "words": [
+            {
+              "id": "zh-topic-ccm-wenchuang",
+              "headword": "文创",
+              "reading": "wénchuàng",
+              "meaningVn": "sản phẩm văn hoá sáng tạo",
+              "example": "故宫的文创产品非常受欢迎。",
+              "exampleVn": "Sản phẩm văn hoá sáng tạo của Cố Cung rất được ưa chuộng."
+            },
+            {
+              "id": "zh-topic-ccm-wenchuangshangdian",
+              "headword": "文创商店",
+              "reading": "wénchuàng shāngdiàn",
+              "meaningVn": "cửa hàng sản phẩm sáng tạo",
+              "example": "参观完展览可以去文创商店逛逛。",
+              "exampleVn": "Xem triển lãm xong có thể ghé qua cửa hàng sản phẩm sáng tạo."
+            },
+            {
+              "id": "zh-topic-ccm-zhenguanzhibao",
+              "headword": "镇馆之宝",
+              "reading": "zhènguǎnzhībǎo",
+              "meaningVn": "bảo vật trấn giữ bảo tàng",
+              "example": "这件青铜器是博物馆的镇馆之宝。",
+              "exampleVn": "Món đồ đồng này là bảo vật trấn giữ của bảo tàng."
+            },
+            {
+              "id": "zh-topic-ccm-wenwufuke",
+              "headword": "文物复刻",
+              "reading": "wénwù fùkè",
+              "meaningVn": "phục chế văn vật",
+              "example": "商店里卖文物复刻摆件。",
+              "exampleVn": "Cửa hàng bán các món đồ trưng bày phục chế văn vật."
+            },
+            {
+              "id": "zh-topic-ccm-lianmingkuan",
+              "headword": "联名款",
+              "reading": "liánmíng kuǎn",
+              "meaningVn": "phiên bản hợp tác thương hiệu",
+              "example": "这款联名款一上架就卖光了。",
+              "exampleVn": "Phiên bản hợp tác thương hiệu này vừa lên kệ đã bán hết."
+            }
+          ]
+        },
+        {
+          "id": "ip-collaboration",
+          "titleNative": "IP联名",
+          "titleVn": "Hợp tác thương hiệu IP",
+          "words": [
+            {
+              "id": "zh-topic-ccm-zhishichanquan",
+              "headword": "知识产权",
+              "reading": "zhīshi chǎnquán",
+              "meaningVn": "sở hữu trí tuệ",
+              "example": "这个卡通形象的知识产权归公司所有。",
+              "exampleVn": "Sở hữu trí tuệ của hình tượng hoạt hình này thuộc về công ty."
+            },
+            {
+              "id": "zh-topic-ccm-shouquan",
+              "headword": "授权",
+              "reading": "shòuquán",
+              "meaningVn": "cấp phép",
+              "example": "这款玩具获得了官方授权。",
+              "exampleVn": "Món đồ chơi này đã được cấp phép chính thức."
+            },
+            {
+              "id": "zh-topic-ccm-kuajiehezuo",
+              "headword": "跨界合作",
+              "reading": "kuàjiè hézuò",
+              "meaningVn": "hợp tác xuyên ngành",
+              "example": "博物馆和奶茶品牌进行了跨界合作。",
+              "exampleVn": "Bảo tàng đã hợp tác xuyên ngành với thương hiệu trà sữa."
+            },
+            {
+              "id": "zh-topic-ccm-xiandingzhoubian",
+              "headword": "限定周边",
+              "reading": "xiàndìng zhōubiān",
+              "meaningVn": "đồ ngoại vi phiên bản giới hạn",
+              "example": "这批限定周边很快就售罄了。",
+              "exampleVn": "Lô đồ ngoại vi phiên bản giới hạn này nhanh chóng bán hết."
+            },
+            {
+              "id": "zh-topic-ccm-guzi",
+              "headword": "谷子",
+              "reading": "gǔzi",
+              "meaningVn": "\"hạt lúa\" (đồ ngoại vi IP)",
+              "example": "她花了很多钱买谷子。",
+              "exampleVn": "Cô ấy đã tiêu rất nhiều tiền để mua đồ ngoại vi."
+            }
+          ]
+        },
+        {
+          "id": "creative-food",
+          "titleNative": "文创美食",
+          "titleVn": "Ẩm thực sáng tạo văn hoá",
+          "words": [
+            {
+              "id": "zh-topic-ccm-wenchuangxuegao",
+              "headword": "文创雪糕",
+              "reading": "wénchuàng xuěgāo",
+              "meaningVn": "kem que hình văn vật",
+              "example": "故宫的文创雪糕造型很特别。",
+              "exampleVn": "Kem que hình văn vật của Cố Cung có tạo hình rất đặc biệt."
+            },
+            {
+              "id": "zh-topic-ccm-zaoxingtianpin",
+              "headword": "造型甜品",
+              "reading": "zàoxíng tiánpǐn",
+              "meaningVn": "món tráng miệng tạo hình",
+              "example": "这家咖啡馆推出了造型甜品。",
+              "exampleVn": "Quán cà phê này đã ra mắt món tráng miệng tạo hình đặc biệt."
+            },
+            {
+              "id": "zh-topic-ccm-dakapaizhao",
+              "headword": "打卡拍照",
+              "reading": "dǎkǎ pāizhào",
+              "meaningVn": "check-in chụp ảnh",
+              "example": "很多人来这里打卡拍照。",
+              "exampleVn": "Nhiều người đến đây để check-in chụp ảnh."
+            },
+            {
+              "id": "zh-topic-ccm-xianliangfashou",
+              "headword": "限量发售",
+              "reading": "xiànliàng fāshòu",
+              "meaningVn": "phát hành số lượng có hạn",
+              "example": "这款产品限量发售一千份。",
+              "exampleVn": "Sản phẩm này chỉ phát hành có hạn một nghìn suất."
+            },
+            {
+              "id": "zh-topic-ccm-wanghongdakadi",
+              "headword": "网红打卡地",
+              "reading": "wǎnghóng dǎkǎdì",
+              "meaningVn": "địa điểm check-in nổi tiếng mạng",
+              "example": "这家博物馆商店成了网红打卡地。",
+              "exampleVn": "Cửa hàng bảo tàng này đã trở thành địa điểm check-in nổi tiếng trên mạng."
+            }
+          ]
+        },
+        {
+          "id": "design-philosophy",
+          "titleNative": "文创设计理念",
+          "titleVn": "Triết lý thiết kế sản phẩm sáng tạo",
+          "words": [
+            {
+              "id": "zh-topic-ccm-chuantongyuansu",
+              "headword": "传统元素",
+              "reading": "chuántǒng yuánsù",
+              "meaningVn": "yếu tố truyền thống",
+              "example": "设计师将传统元素融入产品。",
+              "exampleVn": "Nhà thiết kế đã đưa yếu tố truyền thống vào sản phẩm."
+            },
+            {
+              "id": "zh-topic-ccm-nianqinghua",
+              "headword": "年轻化",
+              "reading": "niánqīnghuà",
+              "meaningVn": "trẻ hoá",
+              "example": "博物馆正在尝试品牌年轻化。",
+              "exampleVn": "Bảo tàng đang thử nghiệm trẻ hoá thương hiệu."
+            },
+            {
+              "id": "zh-topic-ccm-wenhuashuchu",
+              "headword": "文化输出",
+              "reading": "wénhuà shūchū",
+              "meaningVn": "xuất khẩu văn hoá",
+              "example": "这些产品也是一种文化输出。",
+              "exampleVn": "Những sản phẩm này cũng là một hình thức xuất khẩu văn hoá."
+            },
+            {
+              "id": "zh-topic-ccm-chuangyilinggan",
+              "headword": "创意灵感",
+              "reading": "chuàngyì línggǎn",
+              "meaningVn": "cảm hứng sáng tạo",
+              "example": "设计师从古画中获得创意灵感。",
+              "exampleVn": "Nhà thiết kế lấy cảm hứng sáng tạo từ những bức tranh cổ."
+            },
+            {
+              "id": "zh-topic-ccm-shiyongxingyumeiguanbingcun",
+              "headword": "实用性与美观并存",
+              "reading": "shíyòngxìng yǔ měiguān bìngcún",
+              "meaningVn": "vừa thực dụng vừa thẩm mỹ",
+              "example": "好的文创产品要做到实用性与美观并存。",
+              "exampleVn": "Sản phẩm sáng tạo văn hoá tốt phải vừa thực dụng vừa thẩm mỹ."
+            }
+          ]
+        }
+      ]
     }
   ]
 }
