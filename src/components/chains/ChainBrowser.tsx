@@ -1,9 +1,10 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useState } from "react";
 import type { Language } from "@/types/vocab";
 import type { ChainLanguageData, ChainNode, ClusterMemberWord, WordChain, WordCluster } from "@/types/chain";
 import { speak, ttsFailureMessage } from "@/lib/tts";
+import { useFullscreen } from "@/lib/useFullscreen";
 
 function isTieChar(node: ChainNode, chars: string[], index: number): boolean {
   if (index === 0 && node.sharedCharPrev && chars[0] === node.sharedCharPrev) return true;
@@ -77,31 +78,20 @@ function positionLabel(node: ChainNode): string {
 }
 
 function ChainCard({ chain, language }: { chain: WordChain; language: Language }) {
-  const containerRef = useRef<HTMLDivElement>(null);
-  const [isFullscreen, setIsFullscreen] = useState(false);
+  const {
+    containerRef,
+    isFullscreen,
+    enterFullscreen: openFullscreen,
+    exitFullscreen: closeFullscreen,
+    fullscreenClassName,
+  } = useFullscreen<HTMLDivElement>();
   const [openIndex, setOpenIndex] = useState<number | null>(null);
   const [ttsError, setTtsError] = useState<string | null>(null);
   const [zoom, setZoom] = useState(1);
 
   useEffect(() => {
-    function onFullscreenChange() {
-      const active = document.fullscreenElement === containerRef.current;
-      setIsFullscreen(active);
-      if (!active) setZoom(1);
-    }
-    document.addEventListener("fullscreenchange", onFullscreenChange);
-    return () => document.removeEventListener("fullscreenchange", onFullscreenChange);
-  }, []);
-
-  function openFullscreen() {
-    containerRef.current?.requestFullscreen().catch(() => {
-      // trình duyệt/thiết bị không hỗ trợ Fullscreen API — bỏ qua, không có gì để rollback
-    });
-  }
-
-  function closeFullscreen() {
-    if (document.fullscreenElement) document.exitFullscreen();
-  }
+    if (!isFullscreen) setZoom(1);
+  }, [isFullscreen]);
 
   async function handleSpeak(node: ChainNode) {
     setTtsError(null);
@@ -130,7 +120,7 @@ function ChainCard({ chain, language }: { chain: WordChain; language: Language }
   }
 
   return (
-    <div ref={containerRef} className="flex h-full flex-col overflow-hidden bg-surface">
+    <div ref={containerRef} className={`flex h-full flex-col overflow-hidden bg-surface ${fullscreenClassName}`}>
       <div className="flex items-center justify-between gap-2 border-b border-border px-6 py-3 sm:px-10">
         <span className="font-mono text-xs text-ink-muted">{chain.id}</span>
         <div className="flex items-center gap-1">
@@ -278,26 +268,18 @@ function ClusterWordCard({ word, language }: { word: ClusterMemberWord; language
 }
 
 function ClusterCard({ cluster, language }: { cluster: WordCluster; language: Language }) {
-  const containerRef = useRef<HTMLDivElement>(null);
-  const [isFullscreen, setIsFullscreen] = useState(false);
+  const {
+    containerRef,
+    isFullscreen,
+    enterFullscreen: openFullscreen,
+    exitFullscreen: closeFullscreen,
+    fullscreenClassName,
+  } = useFullscreen<HTMLDivElement>();
   const [zoom, setZoom] = useState(1);
 
   useEffect(() => {
-    function onFullscreenChange() {
-      const active = document.fullscreenElement === containerRef.current;
-      setIsFullscreen(active);
-      if (!active) setZoom(1);
-    }
-    document.addEventListener("fullscreenchange", onFullscreenChange);
-    return () => document.removeEventListener("fullscreenchange", onFullscreenChange);
-  }, []);
-
-  function openFullscreen() {
-    containerRef.current?.requestFullscreen().catch(() => {});
-  }
-  function closeFullscreen() {
-    if (document.fullscreenElement) document.exitFullscreen();
-  }
+    if (!isFullscreen) setZoom(1);
+  }, [isFullscreen]);
 
   const preview = cluster.words.map((w) => w.headword).join(" · ");
 
@@ -323,7 +305,10 @@ function ClusterCard({ cluster, language }: { cluster: WordCluster; language: La
   }
 
   return (
-    <div ref={containerRef} className="flex h-full flex-col justify-center overflow-auto bg-surface p-6 sm:p-10">
+    <div
+      ref={containerRef}
+      className={`flex h-full flex-col justify-center overflow-auto bg-surface p-6 sm:p-10 ${fullscreenClassName}`}
+    >
       <div className="mx-auto flex w-full max-w-2xl flex-col">
         <div className="mb-5 flex items-center justify-between gap-2">
           <span className="font-mono text-xs text-ink-muted">{cluster.id}</span>
