@@ -1,12 +1,13 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useRef, useState } from "react";
 import type { Language } from "@/types/vocab";
 import type { ResolvedGrammarBranchingStory } from "@/lib/grammarStories";
 import { curvePath } from "@/lib/mindmapLayout";
 import { branchColor } from "@/lib/mindmapColors";
 import { speak, ttsFailureMessage } from "@/lib/tts";
 import { useGrammarExtras } from "@/lib/useGrammarExtras";
+import { useFullscreen } from "@/lib/useFullscreen";
 import GrammarPointDetailModal from "@/components/grammar/GrammarPointDetailModal";
 import StoryNodeSentence from "@/components/grammar/StoryNodeSentence";
 
@@ -28,31 +29,14 @@ export default function GrammarBranchingStoryCanvas({
   lang: Language;
 }) {
   const viewportRef = useRef<HTMLDivElement>(null);
-  const containerRef = useRef<HTMLDivElement>(null);
   const dragRef = useRef<{ x: number; y: number; scrollLeft: number; scrollTop: number } | null>(null);
   const [isDragging, setIsDragging] = useState(false);
   const [zoom, setZoom] = useState(1);
   const [activePointId, setActivePointId] = useState<string | null>(null);
   const [ttsWarning, setTtsWarning] = useState<string | null>(null);
-  const [isFullscreen, setIsFullscreen] = useState(false);
+  const { containerRef, isFullscreen, toggleFullscreen, fullscreenClassName } = useFullscreen<HTMLDivElement>();
   const [revealed, setRevealed] = useState<Set<string>>(new Set());
   const { extras, addingExampleId, addingMnemonicId, aiError, addExample, addMnemonic } = useGrammarExtras(lang);
-
-  useEffect(() => {
-    function onFullscreenChange() {
-      setIsFullscreen(document.fullscreenElement === containerRef.current);
-    }
-    document.addEventListener("fullscreenchange", onFullscreenChange);
-    return () => document.removeEventListener("fullscreenchange", onFullscreenChange);
-  }, []);
-
-  function toggleFullscreen() {
-    if (document.fullscreenElement) {
-      document.exitFullscreen();
-    } else {
-      containerRef.current?.requestFullscreen().catch(() => {});
-    }
-  }
 
   function toggleReveal(id: string) {
     setRevealed((prev) => {
@@ -114,7 +98,10 @@ export default function GrammarBranchingStoryCanvas({
   const activeColor = activeItem ? branchColor(activeColorIndex) : null;
 
   return (
-    <div ref={containerRef} className={`relative ${isFullscreen ? "flex h-full flex-col bg-surface p-3" : ""}`}>
+    <div
+      ref={containerRef}
+      className={`relative ${isFullscreen ? "flex h-full flex-col bg-surface p-3" : ""} ${fullscreenClassName}`}
+    >
       <div className="mb-2 flex items-center justify-end gap-1">
         <button
           onClick={() => setZoom((z) => Math.max(0.5, +(z - 0.1).toFixed(2)))}
