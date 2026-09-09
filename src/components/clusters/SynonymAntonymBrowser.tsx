@@ -10,6 +10,8 @@ import type {
 } from "@/types/wordCluster";
 import { useFullscreen } from "@/lib/useFullscreen";
 import { speak, ttsFailureMessage } from "@/lib/tts";
+import ViewModeToggle, { type ViewMode } from "@/components/ui/ViewModeToggle";
+import BrowserTabs from "@/components/ui/BrowserTabs";
 
 function WordCard({
   word,
@@ -51,7 +53,7 @@ function WordCard({
   );
 }
 
-function PairCard({ pair, language }: { pair: SynonymAntonymPair; language: Language }) {
+function PairCard({ pair, language, layout }: { pair: SynonymAntonymPair; language: Language; layout: ViewMode }) {
   const {
     containerRef,
     isFullscreen,
@@ -69,6 +71,24 @@ function PairCard({ pair, language }: { pair: SynonymAntonymPair; language: Lang
   const antPreview = pair.antonymCluster.words.map((w) => w.headword).join("·");
 
   if (!isFullscreen) {
+    if (layout === "grid") {
+      return (
+        <div ref={containerRef} className="h-full">
+          <button
+            type="button"
+            onClick={openFullscreen}
+            className="flex h-full w-full flex-col items-start gap-2 rounded-2xl border border-border bg-surface-2 p-3 text-left shadow-sm transition hover:border-amber-300 hover:shadow-md"
+          >
+            <span className="hanzi line-clamp-2 text-sm font-medium text-ink">
+              <span className="text-brand-600">{synPreview}</span>
+              <span className="mx-2 text-ink-muted">⇕</span>
+              <span className="text-accent-600">{antPreview}</span>
+            </span>
+            <span className="mt-auto text-amber-500">⛶</span>
+          </button>
+        </div>
+      );
+    }
     return (
       <div ref={containerRef}>
         <button
@@ -168,7 +188,7 @@ function PairCard({ pair, language }: { pair: SynonymAntonymPair; language: Lang
   );
 }
 
-function SynClusterCard({ cluster, language }: { cluster: SynonymCluster; language: Language }) {
+function SynClusterCard({ cluster, language, layout }: { cluster: SynonymCluster; language: Language; layout: ViewMode }) {
   const {
     containerRef,
     isFullscreen,
@@ -185,6 +205,25 @@ function SynClusterCard({ cluster, language }: { cluster: SynonymCluster; langua
   const preview = cluster.words.map((w) => w.headword).join(" · ");
 
   if (!isFullscreen) {
+    if (layout === "grid") {
+      return (
+        <div ref={containerRef} className="h-full">
+          <button
+            type="button"
+            onClick={openFullscreen}
+            className="flex h-full w-full flex-col items-start gap-2 rounded-2xl border border-border bg-surface-2 p-3 text-left shadow-sm transition hover:border-amber-300 hover:shadow-md"
+          >
+            <span className="hanzi line-clamp-2 text-sm font-medium text-brand-600">{preview}</span>
+            <span className="mt-auto flex w-full items-center justify-between gap-2">
+              <span className="rounded-md bg-surface-3 px-2 py-0.5 text-[10px] font-bold text-ink-muted">
+                cụm gần nghĩa
+              </span>
+              <span className="flex-none text-amber-500">⛶</span>
+            </span>
+          </button>
+        </div>
+      );
+    }
     return (
       <div ref={containerRef}>
         <button
@@ -261,6 +300,8 @@ function SynClusterCard({ cluster, language }: { cluster: SynonymCluster; langua
   );
 }
 
+type SynTab = "pairs" | "clusters";
+
 export default function SynonymAntonymBrowser({
   language,
   data,
@@ -268,24 +309,44 @@ export default function SynonymAntonymBrowser({
   language: Language;
   data: SynonymAntonymLanguageData;
 }) {
+  const hasClusters = !!data.synonymClusters && data.synonymClusters.length > 0;
+  const [viewMode, setViewMode] = useState<ViewMode>("grid");
+  const [activeTab, setActiveTab] = useState<SynTab>("pairs");
+
+  const listClass = viewMode === "grid" ? "grid grid-cols-1 gap-2.5 sm:grid-cols-2 lg:grid-cols-3" : "flex flex-col gap-2";
+
   return (
-    <div className="flex flex-col gap-2">
-      {data.pairs.map((pair) => (
-        <PairCard key={pair.id} pair={pair} language={language} />
-      ))}
-      {data.synonymClusters && data.synonymClusters.length > 0 && (
-        <>
-          <div className="mt-2 flex items-center gap-2 px-1">
-            <span className="h-px flex-1 bg-border" />
-            <span className="text-xs font-bold uppercase tracking-wide text-ink-muted">
-              Cụm gần nghĩa (không có cụm trái nghĩa đối lập)
-            </span>
-            <span className="h-px flex-1 bg-border" />
-          </div>
-          {data.synonymClusters.map((cluster) => (
-            <SynClusterCard key={cluster.id} cluster={cluster} language={language} />
+    <div className="flex flex-col gap-3">
+      <div className="flex flex-wrap items-center justify-between gap-2">
+        {hasClusters ? (
+          <BrowserTabs
+            tabs={[
+              { id: "pairs", label: "⇕ Đồng nghĩa · trái nghĩa", count: data.pairs.length },
+              { id: "clusters", label: "Cụm gần nghĩa", count: data.synonymClusters!.length },
+            ]}
+            activeId={activeTab}
+            onChange={setActiveTab}
+          />
+        ) : (
+          <span />
+        )}
+        <ViewModeToggle mode={viewMode} onChange={setViewMode} />
+      </div>
+
+      {(!hasClusters || activeTab === "pairs") && (
+        <div className={listClass}>
+          {data.pairs.map((pair) => (
+            <PairCard key={pair.id} pair={pair} language={language} layout={viewMode} />
           ))}
-        </>
+        </div>
+      )}
+
+      {hasClusters && activeTab === "clusters" && (
+        <div className={listClass}>
+          {data.synonymClusters!.map((cluster) => (
+            <SynClusterCard key={cluster.id} cluster={cluster} language={language} layout={viewMode} />
+          ))}
+        </div>
       )}
     </div>
   );
