@@ -13,6 +13,7 @@ import { branchColor } from "@/lib/mindmapColors";
 import { speak, ttsFailureMessage } from "@/lib/tts";
 import { useGrammarExtras } from "@/lib/useGrammarExtras";
 import GrammarPointDetailModal from "@/components/grammar/GrammarPointDetailModal";
+import { useFullscreen } from "@/lib/useFullscreen";
 
 function SpeakBadge({ onClick }: { onClick: (e: React.MouseEvent) => void }) {
   return (
@@ -65,31 +66,14 @@ export default function GrammarMindmapCanvas({
   const [activePointId, setActivePointId] = useState<string | null>(null);
   const [nodeOverrides, setNodeOverrides] = useState<Record<string, { x: number; y: number }>>({});
   const viewportRef = useRef<HTMLDivElement>(null);
-  const containerRef = useRef<HTMLDivElement>(null);
   const initializedForRef = useRef<string | null>(null);
   const dragRef = useRef<{ x: number; y: number; scrollLeft: number; scrollTop: number } | null>(null);
   const dragNodeRef = useRef<DragState | null>(null);
   const suppressClickRef = useRef<Set<string>>(new Set());
   const [isDragging, setIsDragging] = useState(false);
-  const [isFullscreen, setIsFullscreen] = useState(false);
+  const { containerRef, isFullscreen, toggleFullscreen, fullscreenClassName } = useFullscreen<HTMLDivElement>();
   const [ttsWarning, setTtsWarning] = useState<string | null>(null);
   const { extras, addingExampleId, addingMnemonicId, aiError, addExample, addMnemonic } = useGrammarExtras(lang);
-
-  useEffect(() => {
-    function onFullscreenChange() {
-      setIsFullscreen(document.fullscreenElement === containerRef.current);
-    }
-    document.addEventListener("fullscreenchange", onFullscreenChange);
-    return () => document.removeEventListener("fullscreenchange", onFullscreenChange);
-  }, []);
-
-  function toggleFullscreen() {
-    if (document.fullscreenElement) {
-      document.exitFullscreen();
-    } else {
-      containerRef.current?.requestFullscreen().catch(() => {});
-    }
-  }
 
   useEffect(() => {
     function onKeyDown(e: KeyboardEvent) {
@@ -322,7 +306,10 @@ export default function GrammarMindmapCanvas({
   }
 
   return (
-    <div ref={containerRef} className={`relative ${isFullscreen ? "flex h-full flex-col bg-surface p-3" : ""}`}>
+    <div
+      ref={containerRef}
+      className={`relative ${isFullscreen ? "flex h-full flex-col bg-surface p-3" : ""} ${fullscreenClassName}`}
+    >
       <div className="mb-2 flex items-center justify-end gap-1">
         <button
           onClick={() => setZoom((z) => Math.max(0.35, +(z - 0.1).toFixed(2)))}
