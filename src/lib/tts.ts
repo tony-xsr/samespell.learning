@@ -21,6 +21,22 @@ export function isTtsSupported(): boolean {
   return typeof window !== "undefined" && "speechSynthesis" in window;
 }
 
+/** Trong số các giọng khớp locale, một số máy/trình duyệt có NHIỀU giọng cùng cài cho cùng 1 ngôn ngữ —
+ * ví dụ Windows thường có sẵn giọng SAPI cũ (vd "Microsoft Huihui" cho zh-CN) đọc khá máy móc, trong khi
+ * Chrome có thể lộ thêm giọng mạng chất lượng cao hơn nhiều (tên chứa "Google", "Online", "Natural"...)
+ * nếu máy đang có mạng. `voices.find()` đơn thuần theo `lang` sẽ lấy giọng ĐẦU TIÊN theo thứ tự do hệ
+ * điều hành/trình duyệt trả về (không theo chất lượng) — nên chủ động ưu tiên các giọng có tên khớp mẫu
+ * "nghe tự nhiên hơn" đã biết trước khi rơi về giọng đầu tiên tìm được. */
+const PREFERRED_VOICE_NAME_PATTERN = /google|natural|online|neural|premium|enhanced/i;
+
+function pickBestVoice(voices: SpeechSynthesisVoice[], lang: string): SpeechSynthesisVoice | undefined {
+  const exact = voices.filter((v) => v.lang === lang);
+  const prefixed = voices.filter((v) => v.lang.toLowerCase().startsWith(lang.split("-")[0].toLowerCase()));
+  const candidates = exact.length > 0 ? exact : prefixed;
+  if (candidates.length === 0) return undefined;
+  return candidates.find((v) => PREFERRED_VOICE_NAME_PATTERN.test(v.name)) ?? candidates[0];
+}
+
 function waitForVoices(): Promise<SpeechSynthesisVoice[]> {
   const existing = window.speechSynthesis.getVoices();
   if (existing.length > 0) return Promise.resolve(existing);
@@ -50,9 +66,7 @@ export async function speak(text: string, language: Language, rate = 0.85): Prom
   const voices = await waitForVoices();
   if (voices.length === 0) return { ok: false, reason: "no-voice" };
 
-  const voice =
-    voices.find((v) => v.lang === lang) ??
-    voices.find((v) => v.lang.toLowerCase().startsWith(lang.split("-")[0].toLowerCase()));
+  const voice = pickBestVoice(voices, lang);
   if (!voice) return { ok: false, reason: "no-voice" };
 
   // Một số trình duyệt/thiết bị (đặc biệt WebView Android cũ) có thể throw ngay ở cancel()/speak()
@@ -90,9 +104,7 @@ export async function speakAndWait(
   const voices = await waitForVoices();
   if (voices.length === 0) return { ok: false, reason: "no-voice" };
 
-  const voice =
-    voices.find((v) => v.lang === locale) ??
-    voices.find((v) => v.lang.toLowerCase().startsWith(locale.split("-")[0].toLowerCase()));
+  const voice = pickBestVoice(voices, locale);
   if (!voice) return { ok: false, reason: "no-voice" };
 
   return new Promise((resolve) => {
