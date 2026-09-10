@@ -450,6 +450,7 @@ export default function ChainBrowser({ language, data }: { language: Language; d
   const [autoPlaying, setAutoPlaying] = useState(false);
   const [autoPlayWordIndex, setAutoPlayWordIndex] = useState<number | null>(null);
   const [repeatCount, setRepeatCount] = useState(3);
+  const [autoMarkHard, setAutoMarkHard] = useState(false);
   const autoPlayCancelRef = useRef(false);
 
   const { containerRef, isFullscreen, enterFullscreen, exitFullscreen, fullscreenClassName } =
@@ -481,14 +482,30 @@ export default function ChainBrowser({ language, data }: { language: Language; d
   const currentId =
     openItem && (openItem.kind === "chains" ? data.chains[openItem.index]?.id : data.clusters?.[openItem.index]?.id);
 
-  /** Danh sách {từ, nghĩa} của cụm đang mở — dùng chung cho cả chuỗi nối đuôi (mỗi mắt xích) và chùm
-   * quanh 1 từ (mỗi từ thành viên), để vòng lặp tự động đọc không cần biết đang ở tab nào. */
-  function currentWords(): { headword: string; meaningVn: string }[] {
-    if (!openItem) return [];
-    if (openItem.kind === "chains") {
-      return data.chains[openItem.index]?.nodes.map((n) => ({ headword: n.headword, meaningVn: n.meaningVn })) ?? [];
+  /** Số lượng phần tử trong danh sách của 1 `OpenItem` cụ thể (không phải `openItem` hiện tại) — dùng
+   * khi vòng lặp tự động đọc cần biết còn chuỗi/cụm tiếp theo hay không mà không phụ thuộc state. */
+  function lengthFor(item: OpenItem): number {
+    return item.kind === "chains" ? data.chains.length : data.clusters?.length ?? 0;
+  }
+
+  function idFor(item: OpenItem): string | undefined {
+    return item.kind === "chains" ? data.chains[item.index]?.id : data.clusters?.[item.index]?.id;
+  }
+
+  /** Danh sách {từ, nghĩa} của 1 `OpenItem` cụ thể — dùng chung cho cả chuỗi nối đuôi (mỗi mắt xích) và
+   * chùm quanh 1 từ (mỗi từ thành viên), để vòng lặp tự động đọc không cần biết đang ở tab nào. Nhận
+   * tham số `item` tường minh (mặc định `openItem`) vì vòng lặp tự động sang chuỗi/cụm kế tiếp cần đọc
+   * danh sách từ của chuỗi/cụm SẮP mở, trước khi state `openItem` kịp cập nhật. */
+  function wordsFor(item: OpenItem | null): { headword: string; meaningVn: string }[] {
+    if (!item) return [];
+    if (item.kind === "chains") {
+      return data.chains[item.index]?.nodes.map((n) => ({ headword: n.headword, meaningVn: n.meaningVn })) ?? [];
     }
-    return data.clusters?.[openItem.index]?.words.map((w) => ({ headword: w.headword, meaningVn: w.meaningVn })) ?? [];
+    return data.clusters?.[item.index]?.words.map((w) => ({ headword: w.headword, meaningVn: w.meaningVn })) ?? [];
+  }
+
+  function currentWords(): { headword: string; meaningVn: string }[] {
+    return wordsFor(openItem);
   }
 
   function stopAutoPlay() {
@@ -502,29 +519,51 @@ export default function ChainBrowser({ language, data }: { language: Language; d
     return typeof window !== "undefined" && "speechSynthesis" in window;
   }
 
-  /** Vòng lặp tự động đọc: đọc từ (ngôn ngữ mục tiêu) → đọc nghĩa tiếng Việt lặp `repeatCount` lần →
-   * qua từ kế tiếp — dừng ngay khi `autoPlayCancelRef` bật (người dùng bấm Dừng, next/prev thủ công,
-   * đóng toàn màn hình, hoặc unmount). Nếu máy không có giọng đọc phù hợp, `speakAndWait` trả về
-   * `ok:false` gần như ngay lập tức — thêm khoảng nghỉ cố định để nhịp đọc vẫn hợp lý cho người dùng
-   * theo dõi bằng mắt, không lướt qua các từ quá nhanh khi im lặng. */
+  /** Vòng lặp tự động đọc: đọc TỪ GỐC lặp `repeatCount` lần, xen 1 lần đọc nghĩa tiếng Việt ngay sau
+   * lượt đọc từ gốc ĐẦU TIÊN (không đọc nghĩa lặp lại nhiều lần như bản cũ) → qua từ kế tiếp. Đọc hết
+   * 1 chuỗi/cụm thì (nếu bật `autoMarkHard`) tự động gắn mức độ nhớ "Khó" cho CẢ chuỗi/cụm đó — vì đây
+   * là nghe thụ động, không chủ động tự kiểm tra, nên mặc định coi là "chưa nhớ chắc" giống Anki khi
+   * chỉ nghe không trả lời — rồi tự động mở chuỗi/cụm kế tiếp trong cùng danh sách và tiếp tục đọc,
+   * dừng hẳn khi hết danh sách. Dừng ngay ở bất kỳ bước nào khi `autoPlayCancelRef` bật (người dùng bấm
+   * Dừng, next/prev thủ công, đóng toàn màn hình, hoặc unmount). Nếu máy không có giọng đọc phù hợp,
+   * `speakAndWait` trả về `ok:false` gần như ngay lập tức — thêm khoảng nghỉ cố định để nhịp đọc vẫn
+   * hợp lý cho người dùng theo dõi bằng mắt, không lướt qua các từ quá nhanh khi im lặng. */
   async function startAutoPlay() {
     if (!openItem) return;
     autoPlayCancelRef.current = false;
     setAutoPlaying(true);
-    const words = currentWords();
     const targetLocale = localeForLanguage(language);
-    for (let i = 0; i < words.length; i++) {
-      if (autoPlayCancelRef.current) return;
-      setAutoPlayWordIndex(i);
-      const wordResult = await speakAndWait(words[i].headword, targetLocale);
-      if (!wordResult.ok) await sleep(900);
-      if (autoPlayCancelRef.current) return;
-      for (let r = 0; r < repeatCount; r++) {
+    let cursor: OpenItem | null = openItem;
+
+    while (cursor) {
+      const words = wordsFor(cursor);
+      for (let i = 0; i < words.length; i++) {
         if (autoPlayCancelRef.current) return;
-        const meaningResult = await speakAndWait(words[i].meaningVn, VI_LOCALE);
-        if (!meaningResult.ok) await sleep(1200);
+        setAutoPlayWordIndex(i);
+        for (let r = 0; r < repeatCount; r++) {
+          if (autoPlayCancelRef.current) return;
+          const wordResult = await speakAndWait(words[i].headword, targetLocale);
+          if (!wordResult.ok) await sleep(900);
+          if (r === 0) {
+            if (autoPlayCancelRef.current) return;
+            const meaningResult = await speakAndWait(words[i].meaningVn, VI_LOCALE);
+            if (!meaningResult.ok) await sleep(1200);
+          }
+        }
       }
+      if (autoPlayCancelRef.current) return;
+
+      if (autoMarkHard) {
+        const id = idFor(cursor);
+        if (id) handleRate(id, 1); // 1 = "Khó" — không await để không làm chậm nhịp tự động next.
+      }
+
+      const total = lengthFor(cursor);
+      if (cursor.index + 1 >= total) break; // hết danh sách, dừng tự động
+      cursor = { ...cursor, index: cursor.index + 1 };
+      setOpenItem(cursor);
     }
+
     if (!autoPlayCancelRef.current) {
       setAutoPlaying(false);
       setAutoPlayWordIndex(null);
@@ -726,7 +765,7 @@ export default function ChainBrowser({ language, data }: { language: Language; d
               {autoPlaying ? "⏸ Dừng đọc" : "▶️ Tự động đọc"}
             </button>
             <div className="flex items-center gap-1.5 text-xs text-ink-muted">
-              <span>Lặp nghĩa:</span>
+              <span>Lặp từ gốc:</span>
               <ToolButton
                 onClick={() => setRepeatCount((c) => Math.max(1, c - 1))}
                 disabled={autoPlaying}
@@ -743,6 +782,20 @@ export default function ChainBrowser({ language, data }: { language: Language; d
                 +
               </ToolButton>
             </div>
+            <button
+              type="button"
+              onClick={() => setAutoMarkHard((v) => !v)}
+              disabled={autoPlaying}
+              className={`flex items-center gap-1.5 rounded-full border px-2.5 py-1 text-xs font-semibold transition disabled:cursor-not-allowed disabled:opacity-60 ${
+                autoMarkHard
+                  ? "border-orange-400 bg-orange-100 text-orange-700 dark:bg-orange-950/40 dark:text-orange-300"
+                  : "border-border bg-surface-2 text-ink-muted hover:border-orange-300"
+              }`}
+              aria-pressed={autoMarkHard}
+              title="Khi đọc xong 1 chuỗi/cụm, tự động gắn mức độ nhớ 'Khó' cho chuỗi/cụm đó (chỉ nghe thụ động nên mặc định coi là chưa nhớ chắc)"
+            >
+              {autoMarkHard ? "☑" : "☐"} Tự động đánh dấu Khó khi nghe
+            </button>
             {autoPlaying && autoPlayWordIndex !== null && (
               <span className="text-xs text-ink-muted">
                 Đang đọc {autoPlayWordIndex + 1}/{currentWords().length}…
