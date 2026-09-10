@@ -28,7 +28,13 @@ export default function ChainsHome() {
         <div className="mt-6 flex flex-col gap-3">
           {ALL_LANGS.map((lang) => {
             const data = getChainLanguageData(lang);
-            const total = data?.chains.length ?? 0;
+            // Trang chi tiết (`/chains/[lang]`) hiển thị 2 tab: "Nối đuôi" (data.chains) và "Chuỗi quanh
+            // 1 từ" (data.clusters) — số liệu ở đây phải cộng cả 2 mảng thì mới khớp, tránh hiển thị
+            // thiếu hẳn phần clusters (bug cũ: chỉ đếm chains.length, ví dụ zh có 57 chains + 820
+            // clusters nhưng menu từng chỉ báo "57 chuỗi").
+            const chainCount = data?.chains.length ?? 0;
+            const clusterCount = data?.clusters?.length ?? 0;
+            const total = chainCount + clusterCount;
             const disabled = total === 0;
             return (
               <Link
@@ -47,7 +53,9 @@ export default function ChainsHome() {
                   <div className="mt-0.5 text-xs text-ink-muted">
                     {total > 0 ? (
                       <span className="inline-flex items-center gap-1 rounded-full bg-amber-50 px-2 py-0.5 font-medium text-amber-700">
-                        {total} chuỗi
+                        {clusterCount > 0
+                          ? `${chainCount} chuỗi nối đuôi · ${clusterCount} chuỗi quanh 1 từ`
+                          : `${chainCount} chuỗi`}
                       </span>
                     ) : (
                       "Sắp ra mắt"
