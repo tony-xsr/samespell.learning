@@ -549,10 +549,26 @@
           "hanViet": "nhượng bộ",
           "meaningVn": "nhượng bộ",
           "sharedCharPrev": "让",
+          "sharedCharNext": "步"
+        },
+        {
+          "headword": "步行",
+          "reading": "bùxíng",
+          "hanViet": "bộ hành",
+          "meaningVn": "đi bộ",
+          "sharedCharPrev": "步",
+          "sharedCharNext": "行"
+        },
+        {
+          "headword": "行车",
+          "reading": "xíngchē",
+          "hanViet": "hành xa",
+          "meaningVn": "lái xe, xe chạy",
+          "sharedCharPrev": "行",
           "sharedCharNext": null
         }
       ],
-      "note": "Domino 7 mắt xích qua 化→学→校→长→大→学 (chữ 学 xuất hiện 2 lần ở 2 vị trí khác nhau trong cùng 1 chuỗi — vẫn hợp lệ vì đúng đuôi=đầu ở từng bước). Nối dài thêm qua 期→刊→登→记: 期刊→刊登→登记→记录. Dừng ở 记录 vì 录 hiếm khi đứng đầu từ ghép phổ biến trong tiếng Trung hiện đại. Nối dài thêm qua 录→音→响: 录音→音响→响声. Dừng ở 响声 vì 声 còn từ ghép tự do (声明/声称) để dành vòng sau. Nối dài thêm qua 声→明: 声明→明显. Nối dài thêm qua 显→示: 显示→示威. Nối dài thêm qua 威→胁: 威胁→胁迫. Nối dài thêm qua 迫→切: 迫切→切割. Nối dài thêm qua 割→让: 割让→让步."
+      "note": "Domino 7 mắt xích qua 化→学→校→长→大→学 (chữ 学 xuất hiện 2 lần ở 2 vị trí khác nhau trong cùng 1 chuỗi — vẫn hợp lệ vì đúng đuôi=đầu ở từng bước). Nối dài thêm qua 期→刊→登→记: 期刊→刊登→登记→记录. Dừng ở 记录 vì 录 hiếm khi đứng đầu từ ghép phổ biến trong tiếng Trung hiện đại. Nối dài thêm qua 录→音→响: 录音→音响→响声. Dừng ở 响声 vì 声 còn từ ghép tự do (声明/声称) để dành vòng sau. Nối dài thêm qua 声→明: 声明→明显. Nối dài thêm qua 显→示: 显示→示威. Nối dài thêm qua 威→胁: 威胁→胁迫. Nối dài thêm qua 迫→切: 迫切→切割. Nối dài thêm qua 割→让: 割让→让步. Nối dài thêm qua 步→行: 步行→行车."
     },
     {
       "id": "zh-chain-jiazu-zupu-puxi",
@@ -725,10 +741,42 @@
           "hanViet": "đạo tràng",
           "meaningVn": "đạo tràng (nơi tu tập, võ đường)",
           "sharedCharPrev": "道",
+          "sharedCharNext": "场"
+        },
+        {
+          "headword": "场面",
+          "reading": "chǎngmiàn",
+          "hanViet": "trường diện",
+          "meaningVn": "cảnh tượng, quang cảnh",
+          "sharedCharPrev": "场",
+          "sharedCharNext": "面"
+        },
+        {
+          "headword": "面孔",
+          "reading": "miànkǒng",
+          "hanViet": "diện khổng",
+          "meaningVn": "khuôn mặt",
+          "sharedCharPrev": "面",
+          "sharedCharNext": "孔"
+        },
+        {
+          "headword": "孔雀",
+          "reading": "kǒngquè",
+          "hanViet": "khổng tước",
+          "meaningVn": "con công",
+          "sharedCharPrev": "孔",
+          "sharedCharNext": "雀"
+        },
+        {
+          "headword": "雀跃",
+          "reading": "quèyuè",
+          "hanViet": "tước dược",
+          "meaningVn": "nhảy cẫng lên vì vui mừng",
+          "sharedCharPrev": "雀",
           "sharedCharNext": null
         }
       ],
-      "note": "Domino 12 mắt xích qua 族→谱→系→统→一→定→义→务→实→际→遇 (nối dài thêm từ bản 10 mắt xích trước đó). Nối dài thêm qua 到→来: 到来→来源. Nối dài thêm qua 源→头: 源头→头疼. Nối dài thêm qua 疼→痛: 疼痛→痛苦. Nối dài thêm qua 苦→难: 苦难→难道. Nối dài thêm 1 bước qua 道: 道场. Dừng ở 道场 vì 道理/道路/道歉/道具/道德 đều đã dùng hết ở nơi khác trong kho — 道 nay gần như cạn kiệt."
+      "note": "Domino 12 mắt xích qua 族→谱→系→统→一→定→义→务→实→际→遇 (nối dài thêm từ bản 10 mắt xích trước đó). Nối dài thêm qua 到→来: 到来→来源. Nối dài thêm qua 源→头: 源头→头疼. Nối dài thêm qua 疼→痛: 疼痛→痛苦. Nối dài thêm qua 苦→难: 苦难→难道. Nối dài thêm 1 bước qua 道: 道场. Dừng ở 道场 vì 道理/道路/道歉/道具/道德 đều đã dùng hết ở nơi khác trong kho — 道 nay gần như cạn kiệt. Nối dài thêm qua 场→面: 场面→面孔. Nối dài thêm qua 孔→雀: 孔雀→雀跃."
     },
     {
       "id": "zh-chain-shehui-huiyi-yiyuan",
@@ -893,10 +941,34 @@
           "hanViet": "trang viên",
           "meaningVn": "trang viên, đồn điền",
           "sharedCharPrev": "庄",
+          "sharedCharNext": "园"
+        },
+        {
+          "headword": "园区",
+          "reading": "yuánqū",
+          "hanViet": "viên khu",
+          "meaningVn": "khu vườn/khu công viên (khu vực quy hoạch)",
+          "sharedCharPrev": "园",
+          "sharedCharNext": "区"
+        },
+        {
+          "headword": "区域",
+          "reading": "qūyù",
+          "hanViet": "khu vực",
+          "meaningVn": "khu vực",
+          "sharedCharPrev": "区",
+          "sharedCharNext": "域"
+        },
+        {
+          "headword": "域名",
+          "reading": "yùmíng",
+          "hanViet": "vực danh",
+          "meaningVn": "tên miền",
+          "sharedCharPrev": "域",
           "sharedCharNext": null
         }
       ],
-      "note": "Domino 9 mắt xích qua 会→议→员→工→作→业→务→必 (nối dài thêm từ bản 7 mắt xích trước đó). Nối dài thêm qua 须→知→道: 须知→知道→道歉. Nối dài thêm qua 歉→意: 歉意→意外. Nối dài thêm qua 外→国: 外国→国家. Nối dài thêm qua 家→乡: 家乡→乡村. Nối dài thêm qua 村→庄: 村庄→庄园."
+      "note": "Domino 9 mắt xích qua 会→议→员→工→作→业→务→必 (nối dài thêm từ bản 7 mắt xích trước đó). Nối dài thêm qua 须→知→道: 须知→知道→道歉. Nối dài thêm qua 歉→意: 歉意→意外. Nối dài thêm qua 外→国: 外国→国家. Nối dài thêm qua 家→乡: 家乡→乡村. Nối dài thêm qua 村→庄: 村庄→庄园. Nối dài thêm qua 园→区: 园区→区域. Nối dài thêm 1 bước qua 域: 域名. Dừng ở 域名 vì 域 hầu như chỉ mở đầu đúng từ này trong tiếng Trung hiện đại."
     },
     {
       "id": "zh-chain-zunjing-jingli-limao",
@@ -1413,10 +1485,42 @@
           "hanViet": "nhập môn",
           "meaningVn": "nhập môn, mới học",
           "sharedCharPrev": "入",
+          "sharedCharNext": "门"
+        },
+        {
+          "headword": "门口",
+          "reading": "ménkǒu",
+          "hanViet": "môn khẩu",
+          "meaningVn": "cửa ra vào",
+          "sharedCharPrev": "门",
+          "sharedCharNext": "口"
+        },
+        {
+          "headword": "口红",
+          "reading": "kǒuhóng",
+          "hanViet": "khẩu hồng",
+          "meaningVn": "son môi",
+          "sharedCharPrev": "口",
+          "sharedCharNext": "红"
+        },
+        {
+          "headword": "红色",
+          "reading": "hóngsè",
+          "hanViet": "hồng sắc",
+          "meaningVn": "màu đỏ",
+          "sharedCharPrev": "红",
+          "sharedCharNext": "色"
+        },
+        {
+          "headword": "色泽",
+          "reading": "sèzé",
+          "hanViet": "sắc trạch",
+          "meaningVn": "sắc thái, độ bóng của màu",
+          "sharedCharPrev": "色",
           "sharedCharNext": null
         }
       ],
-      "note": "Domino 10 mắt xích qua 乐→器→官→方→法→律→师→范→围 (nối dài thêm từ bản 8 mắt xích trước đó). Chữ 乐 đọc \"yuè\" (nhạc) ở đây — chữ đa âm, còn đọc \"lè\" (vui) hoặc \"yào\" (thích) tuỳ nghĩa. Nối dài thêm qua 绕→道→具: 绕道→道具→具体. Nối dài thêm qua 体→现: 体现→现金. Nối dài thêm qua 金→融: 金融→融化. Nối dài thêm qua 化→验: 化验→验收. Nối dài thêm qua 收→入: 收入→入门."
+      "note": "Domino 10 mắt xích qua 乐→器→官→方→法→律→师→范→围 (nối dài thêm từ bản 8 mắt xích trước đó). Chữ 乐 đọc \"yuè\" (nhạc) ở đây — chữ đa âm, còn đọc \"lè\" (vui) hoặc \"yào\" (thích) tuỳ nghĩa. Nối dài thêm qua 绕→道→具: 绕道→道具→具体. Nối dài thêm qua 体→现: 体现→现金. Nối dài thêm qua 金→融: 金融→融化. Nối dài thêm qua 化→验: 化验→验收. Nối dài thêm qua 收→入: 收入→入门. Nối dài thêm qua 门→口: 门口→口红. Nối dài thêm qua 红→色: 红色→色泽."
     },
     {
       "id": "zh-chain-jiankang-fuxi-xiguan",
@@ -3645,10 +3749,34 @@
           "hanViet": "vãng sự",
           "meaningVn": "chuyện đã qua",
           "sharedCharPrev": "往",
+          "sharedCharNext": "事"
+        },
+        {
+          "headword": "事故",
+          "reading": "shìgù",
+          "hanViet": "sự cố",
+          "meaningVn": "sự cố, tai nạn",
+          "sharedCharPrev": "事",
+          "sharedCharNext": "故"
+        },
+        {
+          "headword": "故事",
+          "reading": "gùshi",
+          "hanViet": "cố sự",
+          "meaningVn": "câu chuyện",
+          "sharedCharPrev": "故",
+          "sharedCharNext": "事"
+        },
+        {
+          "headword": "事件",
+          "reading": "shìjiàn",
+          "hanViet": "sự kiện",
+          "meaningVn": "sự kiện",
+          "sharedCharPrev": "事",
           "sharedCharNext": null
         }
       ],
-      "note": "Domino 8 mắt xích qua 险→恶→劣→势→力→气→氛 (nối dài thêm từ bản 5 mắt xích trước đó, round 23). Nối dài thêm qua 围→墙→壁→画: 围墙→墙壁→壁画→画面. Dừng ở 画面 vì 面 đã dùng hết các từ ghép phổ biến (面对/表面/方面) trong kho từ hiện có. Nối dài thêm qua 面→积: 面积→积累. Nối dài thêm qua 累→计: 累计→计算. Nối dài thêm 1 bước qua 算: 算了. Dừng ở 算了 vì 了 là trợ từ ngữ pháp, không mở đầu từ ghép danh/động từ thông dụng. Nối dài thêm qua 了→起: 了不起→起来. Từ 了不起 có 3 âm tiết nhưng vẫn đúng luật domino (đầu=đuôi từng bước). Nối dài thêm qua 来→往: 来往→往事. Dừng ở 来 khi chọn 来往 vì 来源/来自/来到 đều đã dùng ở nơi khác trong kho."
+      "note": "Domino 8 mắt xích qua 险→恶→劣→势→力→气→氛 (nối dài thêm từ bản 5 mắt xích trước đó, round 23). Nối dài thêm qua 围→墙→壁→画: 围墙→墙壁→壁画→画面. Dừng ở 画面 vì 面 đã dùng hết các từ ghép phổ biến (面对/表面/方面) trong kho từ hiện có. Nối dài thêm qua 面→积: 面积→积累. Nối dài thêm qua 累→计: 累计→计算. Nối dài thêm 1 bước qua 算: 算了. Dừng ở 算了 vì 了 là trợ từ ngữ pháp, không mở đầu từ ghép danh/động từ thông dụng. Nối dài thêm qua 了→起: 了不起→起来. Từ 了不起 có 3 âm tiết nhưng vẫn đúng luật domino (đầu=đuôi từng bước). Nối dài thêm qua 来→往: 来往→往事. Dừng ở 来 khi chọn 来往 vì 来源/来自/来到 đều đã dùng ở nơi khác trong kho. Nối dài thêm qua 事→故: 事故→故事. Nối dài thêm 1 bước qua 事: 事件. Dừng ở 事件 vì 件数 đã dùng ở chuỗi khác trong kho, không còn từ ghép 件X phổ biến khác."
     },
     {
       "id": "zh-chain-yongqi-qigai-gainian",
@@ -4421,10 +4549,42 @@
           "hanViet": "khí ôn",
           "meaningVn": "nhiệt độ (khí hậu)",
           "sharedCharPrev": "气",
+          "sharedCharNext": "温"
+        },
+        {
+          "headword": "温柔",
+          "reading": "wēnróu",
+          "hanViet": "ôn nhu",
+          "meaningVn": "dịu dàng, ôn nhu",
+          "sharedCharPrev": "温",
+          "sharedCharNext": "柔"
+        },
+        {
+          "headword": "柔软",
+          "reading": "róuruǎn",
+          "hanViet": "nhu nhuyễn",
+          "meaningVn": "mềm mại, mềm dẻo",
+          "sharedCharPrev": "柔",
+          "sharedCharNext": "软"
+        },
+        {
+          "headword": "软件",
+          "reading": "ruǎnjiàn",
+          "hanViet": "nhuyễn kiện",
+          "meaningVn": "phần mềm",
+          "sharedCharPrev": "软",
+          "sharedCharNext": "件"
+        },
+        {
+          "headword": "件数",
+          "reading": "jiànshù",
+          "hanViet": "kiện số",
+          "meaningVn": "số lượng (kiện hàng/hạng mục)",
+          "sharedCharPrev": "件",
           "sharedCharNext": null
         }
       ],
-      "note": "Domino 8 mắt xích qua 持→续→集→合→适→应→用 (nối dài thêm từ bản 5 mắt xích trước đó, round 28), chủ đề kiên trì/liên tục. Nối dài thêm qua 途→径: 途径→径直. Dừng ở 径直 vì 直 hiếm khi đứng đầu từ ghép phổ biến (trực tiếp/一直 đều có 直 ở vị trí khác). Nối dài thêm qua 直→接→受: 直接→接受→受伤. Dừng ở 受伤 vì 伤 còn từ ghép tự do (伤心/伤害) để dành vòng sau. Nối dài thêm qua 伤→心: 伤心→心动. Dừng ở 心动 vì 心情/心理/心态/心疼 đều đã dùng ở nơi khác trong kho. Nối dài thêm qua 动→作: 动作→作用. Nối dài thêm qua 用→户: 用户→户口. Nối dài thêm qua 口→气: 口气→气温. Dừng ở 气温 vì 气候/气氛/气质 đều đã dùng ở nơi khác trong kho."
+      "note": "Domino 8 mắt xích qua 持→续→集→合→适→应→用 (nối dài thêm từ bản 5 mắt xích trước đó, round 28), chủ đề kiên trì/liên tục. Nối dài thêm qua 途→径: 途径→径直. Dừng ở 径直 vì 直 hiếm khi đứng đầu từ ghép phổ biến (trực tiếp/一直 đều có 直 ở vị trí khác). Nối dài thêm qua 直→接→受: 直接→接受→受伤. Dừng ở 受伤 vì 伤 còn từ ghép tự do (伤心/伤害) để dành vòng sau. Nối dài thêm qua 伤→心: 伤心→心动. Dừng ở 心动 vì 心情/心理/心态/心疼 đều đã dùng ở nơi khác trong kho. Nối dài thêm qua 动→作: 动作→作用. Nối dài thêm qua 用→户: 用户→户口. Nối dài thêm qua 口→气: 口气→气温. Dừng ở 气温 vì 气候/气氛/气质 đều đã dùng ở nơi khác trong kho. Nối dài thêm qua 温→柔: 温柔→柔软. (温暖 đã dùng ở nơi khác trong kho — chuỗi 'wennuan' — nên chọn nhánh 温柔 thay vì 温暖/温度 để tránh trùng và tránh 度 vốn đã cạn kiệt.) Nối dài thêm qua 软→件: 软件→件数."
     },
     {
       "id": "zh-chain-huanbao-baohu-huli",
@@ -4589,10 +4749,42 @@
           "hanViet": "khách quan",
           "meaningVn": "khách quan",
           "sharedCharPrev": "客",
+          "sharedCharNext": "观"
+        },
+        {
+          "headword": "观点",
+          "reading": "guāndiǎn",
+          "hanViet": "quan điểm",
+          "meaningVn": "quan điểm",
+          "sharedCharPrev": "观",
+          "sharedCharNext": "点"
+        },
+        {
+          "headword": "点击",
+          "reading": "diǎnjī",
+          "hanViet": "điểm kích",
+          "meaningVn": "nhấp chuột, click",
+          "sharedCharPrev": "点",
+          "sharedCharNext": "击"
+        },
+        {
+          "headword": "击败",
+          "reading": "jībài",
+          "hanViet": "kích bại",
+          "meaningVn": "đánh bại",
+          "sharedCharPrev": "击",
+          "sharedCharNext": "败"
+        },
+        {
+          "headword": "败仗",
+          "reading": "bàizhàng",
+          "hanViet": "bại trượng",
+          "meaningVn": "trận thua",
+          "sharedCharPrev": "败",
           "sharedCharNext": null
         }
       ],
-      "note": "Domino 7 mắt xích qua 保→护→理→事→实→力 (nối dài thêm từ bản 6 mắt xích trước đó, round 30), chủ đề bảo vệ môi trường/chăm sóc. Nối dài thêm qua 度→日→常→见: 度日→日常→常见→见识. Dừng ở 见识 vì 识 còn từ ghép tự do (识别/识字) để dành vòng sau. Nối dài thêm qua 识→字: 识字→字母. Nối dài thêm qua 母→亲: 母亲→亲切. Nối dài thêm qua 切→实: 切实→实惠. Nối dài thêm 1 bước qua 惠: 惠顾. Dừng ở 惠顾 vì 惠 gần cạn kiệt — hầu như chỉ còn từ trang trọng, ít dùng trong hội thoại thường ngày. Nối dài thêm qua 顾→客: 顾客→客观."
+      "note": "Domino 7 mắt xích qua 保→护→理→事→实→力 (nối dài thêm từ bản 6 mắt xích trước đó, round 30), chủ đề bảo vệ môi trường/chăm sóc. Nối dài thêm qua 度→日→常→见: 度日→日常→常见→见识. Dừng ở 见识 vì 识 còn từ ghép tự do (识别/识字) để dành vòng sau. Nối dài thêm qua 识→字: 识字→字母. Nối dài thêm qua 母→亲: 母亲→亲切. Nối dài thêm qua 切→实: 切实→实惠. Nối dài thêm 1 bước qua 惠: 惠顾. Dừng ở 惠顾 vì 惠 gần cạn kiệt — hầu như chỉ còn từ trang trọng, ít dùng trong hội thoại thường ngày. Nối dài thêm qua 顾→客: 顾客→客观. Nối dài thêm qua 观→点: 观点→点击. Nối dài thêm qua 击→败: 击败→败仗."
     },
     {
       "id": "zh-chain-ganxie-xieyi-yiyi",
@@ -7661,10 +7853,18 @@
           "hanViet": "lệnh bài",
           "meaningVn": "lệnh bài, thẻ bài (vật làm tin)",
           "sharedCharPrev": "令",
+          "sharedCharNext": "牌"
+        },
+        {
+          "headword": "牌子",
+          "reading": "páizi",
+          "hanViet": "bài tử",
+          "meaningVn": "biển hiệu, thương hiệu, tấm biển",
+          "sharedCharPrev": "牌",
           "sharedCharNext": null
         }
       ],
-      "note": "Domino 8 mắt xích: 感受→受益→益友→友情→情商→商品→品种→种植. Mắt xích 情商 là false friend đáng chú ý với tiếng Việt (xem ghi chú tại node). Nối dài round 87 (→16 mắt xích): thực vật→vật tư→tư kim(vốn)→kim tiền(tiền bạc)→tiền bao(ví tiền)→bao quát(bao gồm)→quát hiệu(dấu ngoặc)→hiệu lệnh. Nối dài round 88 (→24 mắt xích): lệnh nhân(khiến người ta)→nhân tính→tính hướng(khuynh hướng)→hướng đạo→đạo trí(dẫn đến)→trí mệnh(chí mạng)→mệnh lệnh→lệnh bài."
+      "note": "Domino 8 mắt xích: 感受→受益→益友→友情→情商→商品→品种→种植. Mắt xích 情商 là false friend đáng chú ý với tiếng Việt (xem ghi chú tại node). Nối dài round 87 (→16 mắt xích): thực vật→vật tư→tư kim(vốn)→kim tiền(tiền bạc)→tiền bao(ví tiền)→bao quát(bao gồm)→quát hiệu(dấu ngoặc)→hiệu lệnh. Nối dài round 88 (→24 mắt xích): lệnh nhân(khiến người ta)→nhân tính→tính hướng(khuynh hướng)→hướng đạo→đạo trí(dẫn đến)→trí mệnh(chí mạng)→mệnh lệnh→lệnh bài. Nối dài thêm 1 bước qua 牌: 牌子. Dừng ở 牌子 vì 子 là ký tự đã cạn kiệt hoàn toàn (đã ghi nhận từ trước)."
     }
   ],
   "clusters": [
