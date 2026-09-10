@@ -715,8 +715,28 @@ export default function ChainBrowser({ language, data }: { language: Language; d
         </div>
       )}
 
-      {isFullscreen && openItem && currentId && (
-        <div ref={containerRef} className={`flex h-full flex-col overflow-hidden bg-surface ${fullscreenClassName}`}>
+      {/* Container LUÔN được mount (ẩn bằng "hidden" khi chưa mở gì) thay vì chỉ render lúc
+          `isFullscreen` đã true — nếu không, `containerRef.current` sẽ luôn là `null` đúng lúc
+          `enterFullscreen()` chạy (phần tử chưa kịp có trong DOM ở lần mở đầu tiên), khiến Fullscreen
+          API thật KHÔNG BAO GIỜ được gọi (đã xác nhận bằng thực nghiệm: `requestFullscreen` 0 lần gọi)
+          — rơi vào phương án dự phòng CSS `position: fixed` mãi mãi. Phương án dự phòng đó không thể
+          che được `SiteHeader` của trang (nằm ngoài, cùng cấp) một cách đáng tin cậy trên mọi trình
+          duyệt/hệ điều hành, gây đúng 2 lỗi người dùng báo trên macOS Chrome: (1) không vào fullscreen
+          thật (dock vẫn hiện), (2) cuộn lên đầu vẫn bị che nội dung. Mount cố định từ đầu giúp
+          `containerRef.current` sẵn sàng NGAY TỪ LẦN BẤM ĐẦU TIÊN, để `enterFullscreen()` gọi được
+          `requestFullscreen()` thật — trình duyệt tự lo việc che phủ toàn bộ trang (kể cả header) một
+          cách đúng đắn qua "top layer" của Fullscreen API, không còn phụ thuộc CSS tự chế. Hiển thị/ẩn
+          panel dựa vào `openItem` (không phụ thuộc `isFullscreen`) để nếu fullscreen thật lỡ bị trình
+          duyệt tự thoát bất ngờ (vd. sự kiện `fullscreenchange` chập chờn khi macOS chuyển Space), panel
+          vẫn không tự đóng theo — chỉ đóng khi người dùng bấm nút thoát. */}
+      <div
+        ref={containerRef}
+        className={`fixed inset-0 z-40 flex h-full flex-col overflow-hidden bg-surface ${
+          openItem && currentId ? "visible" : "invisible pointer-events-none"
+        } ${fullscreenClassName}`}
+      >
+        {openItem && currentId && (
+          <>
           <div className="flex items-center justify-between gap-2 border-b border-border px-6 py-3 sm:px-10">
             <div className="flex min-w-0 items-center gap-2">
               <ToolButton onClick={() => step(-1)} disabled={openItem.index === 0} label="Cụm trước">
@@ -836,8 +856,9 @@ export default function ChainBrowser({ language, data }: { language: Language; d
               />
             </div>
           </div>
-        </div>
-      )}
+          </>
+        )}
+      </div>
     </div>
   );
 }
