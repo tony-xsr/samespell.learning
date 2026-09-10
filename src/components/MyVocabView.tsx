@@ -7,6 +7,7 @@ import type { Language } from "@/types/vocab";
 import { groupKindLabel } from "@/types/personal";
 import type { NewVocabEntry } from "@/lib/newVocabLog";
 import AnswerCardView from "@/components/AnswerCardView";
+import MyVocabAiAdd from "@/components/MyVocabAiAdd";
 import type { ResolvedGroupItem, ResolvedItem, ResolvedList } from "@/lib/personalCollectionsView";
 import {
   createList,
@@ -110,10 +111,12 @@ export default function MyVocabView({
   initialNewVocab,
   initialFavorites,
   initialLists,
+  readingsByLang,
 }: {
   initialNewVocab: NewVocabEntry[];
   initialFavorites: ResolvedGroupItem[];
   initialLists: ResolvedList[];
+  readingsByLang: Partial<Record<Language, string[]>>;
 }) {
   const router = useRouter();
   const [tab, setTab] = useState<Tab>("new");
@@ -153,6 +156,10 @@ export default function MyVocabView({
           Từ mới AI vừa giải thích, mindmap đã lưu yêu thích, và danh mục tự tổ chức của riêng bạn.
         </p>
 
+        <div className="mt-5">
+          <MyVocabAiAdd readingsByLang={readingsByLang} />
+        </div>
+
         <div className="mt-5 flex flex-wrap gap-2">
           {tabs.map((t) => (
             <button
@@ -179,7 +186,7 @@ export default function MyVocabView({
           <div className="mt-5 space-y-2">
             {initialNewVocab.length === 0 ? (
               <p className="text-sm text-ink-muted">
-                Chưa có từ nào — thử vào 1 trang ngôn ngữ và gõ 1 từ vào ô &ldquo;✨ Tạo mindmap mới&rdquo;.
+                Chưa có từ nào — gõ 1 từ vào ô &ldquo;✨ Thêm / phân tích từ vựng bằng AI&rdquo; ở trên.
               </p>
             ) : (
               initialNewVocab.map((entry) =>
