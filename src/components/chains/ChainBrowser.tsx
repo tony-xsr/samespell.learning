@@ -1,14 +1,18 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import type { Language, SrsRating } from "@/types/vocab";
 import type { ChainLanguageData, ChainNode, ClusterMemberWord, WordChain, WordCluster } from "@/types/chain";
-import { speak, ttsFailureMessage } from "@/lib/tts";
+import { localeForLanguage, speak, speakAndWait, ttsFailureMessage, VI_LOCALE } from "@/lib/tts";
 import { useFullscreen } from "@/lib/useFullscreen";
 import { loadProgress, rateWord, toggleBookmark, toggleMastered } from "@/lib/progress";
 import { RATING_LABELS } from "@/lib/srs";
 import ViewModeToggle, { type ViewMode } from "@/components/ui/ViewModeToggle";
 import BrowserTabs from "@/components/ui/BrowserTabs";
+
+function sleep(ms: number): Promise<void> {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
 
 function isTieChar(node: ChainNode, chars: string[], index: number): boolean {
   if (index === 0 && node.sharedCharPrev && chars[0] === node.sharedCharPrev) return true;
@@ -175,9 +179,30 @@ function ProgressControls({
   );
 }
 
-function ChainDetailPanel({ chain, language, zoom }: { chain: WordChain; language: Language; zoom: number }) {
+function ChainDetailPanel({
+  chain,
+  language,
+  zoom,
+  highlightIndex,
+}: {
+  chain: WordChain;
+  language: Language;
+  zoom: number;
+  /** Khi chế độ tự động đọc đang chạy, cha truyền chỉ số mắt xích đang đọc vào đây để đồng bộ ô đang
+   * mở + cuộn tới đúng vị trí — không dùng thì component tự quản lý bằng click thủ công như cũ. */
+  highlightIndex?: number;
+}) {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
   const [ttsError, setTtsError] = useState<string | null>(null);
+  const activeTileRef = useRef<HTMLDivElement | null>(null);
+
+  useEffect(() => {
+    if (highlightIndex !== undefined) setOpenIndex(highlightIndex);
+  }, [highlightIndex]);
+
+  useEffect(() => {
+    activeTileRef.current?.scrollIntoView({ behavior: "smooth", block: "nearest", inline: "center" });
+  }, [openIndex]);
 
   async function handleSpeak(node: ChainNode) {
     setTtsError(null);
@@ -193,7 +218,7 @@ function ChainDetailPanel({ chain, language, zoom }: { chain: WordChain; languag
         <div style={{ zoom }}>
           <div className="flex flex-wrap items-start justify-center gap-y-6">
             {chain.nodes.map((node, i) => (
-              <div key={i} className="flex items-start">
+              <div key={i} className="flex items-start" ref={openIndex === i ? activeTileRef : undefined}>
                 <div className="flex flex-col items-center gap-1.5">
                   <NodeTile
                     node={node}
@@ -261,15 +286,34 @@ function ChainDetailPanel({ chain, language, zoom }: { chain: WordChain; languag
   );
 }
 
-function ClusterWordCard({ word, language }: { word: ClusterMemberWord; language: Language }) {
+function ClusterWordCard({
+  word,
+  language,
+  active,
+}: {
+  word: ClusterMemberWord;
+  language: Language;
+  active?: boolean;
+}) {
   const [error, setError] = useState<string | null>(null);
+  const ref = useRef<HTMLDivElement | null>(null);
+
+  useEffect(() => {
+    if (active) ref.current?.scrollIntoView({ behavior: "smooth", block: "nearest" });
+  }, [active]);
+
   async function handleSpeak() {
     setError(null);
     const result = await speak(word.headword, language);
     if (!result.ok) setError(ttsFailureMessage(result.reason));
   }
   return (
-    <div className="rounded-xl border border-border-strong bg-surface-2 px-3.5 py-2.5 shadow-sm">
+    <div
+      ref={ref}
+      className={`rounded-xl border px-3.5 py-2.5 shadow-sm transition ${
+        active ? "border-amber-500 bg-surface-2 ring-2 ring-amber-200" : "border-border-strong bg-surface-2"
+      }`}
+    >
       <div className="flex items-center gap-2">
         <span className="hanzi text-lg font-medium text-ink">{word.headword}</span>
         {word.hanja && <span className="text-xs text-ink-muted">({word.hanja})</span>}
@@ -291,7 +335,17 @@ function ClusterWordCard({ word, language }: { word: ClusterMemberWord; language
   );
 }
 
-function ClusterDetailPanel({ cluster, language, zoom }: { cluster: WordCluster; language: Language; zoom: number }) {
+function ClusterDetailPanel({
+  cluster,
+  language,
+  zoom,
+  highlightIndex,
+}: {
+  cluster: WordCluster;
+  language: Language;
+  zoom: number;
+  highlightIndex?: number;
+}) {
   return (
     <div className="mx-auto flex w-full max-w-2xl flex-1 flex-col overflow-auto p-6 sm:p-10">
       <div style={{ zoom }} className="flex flex-col items-center gap-4">
@@ -303,7 +357,7 @@ function ClusterDetailPanel({ cluster, language, zoom }: { cluster: WordCluster;
         </div>
         <div className="grid w-full grid-cols-1 gap-2.5 sm:grid-cols-2">
           {cluster.words.map((w, i) => (
-            <ClusterWordCard key={i} word={w} language={language} />
+            <ClusterWordCard key={i} word={w} language={language} active={highlightIndex === i} />
           ))}
         </div>
         <p className="text-center text-sm text-ink-muted">{cluster.note}</p>
@@ -393,6 +447,10 @@ export default function ChainBrowser({ language, data }: { language: Language; d
   const [bookmarkedIds, setBookmarkedIds] = useState<Set<string>>(new Set());
   const [masteredIds, setMasteredIds] = useState<Set<string>>(new Set());
   const [ratingId, setRatingId] = useState<string | null>(null);
+  const [autoPlaying, setAutoPlaying] = useState(false);
+  const [autoPlayWordIndex, setAutoPlayWordIndex] = useState<number | null>(null);
+  const [repeatCount, setRepeatCount] = useState(3);
+  const autoPlayCancelRef = useRef(false);
 
   const { containerRef, isFullscreen, enterFullscreen, exitFullscreen, fullscreenClassName } =
     useFullscreen<HTMLDivElement>();
@@ -423,17 +481,83 @@ export default function ChainBrowser({ language, data }: { language: Language; d
   const currentId =
     openItem && (openItem.kind === "chains" ? data.chains[openItem.index]?.id : data.clusters?.[openItem.index]?.id);
 
+  /** Danh sách {từ, nghĩa} của cụm đang mở — dùng chung cho cả chuỗi nối đuôi (mỗi mắt xích) và chùm
+   * quanh 1 từ (mỗi từ thành viên), để vòng lặp tự động đọc không cần biết đang ở tab nào. */
+  function currentWords(): { headword: string; meaningVn: string }[] {
+    if (!openItem) return [];
+    if (openItem.kind === "chains") {
+      return data.chains[openItem.index]?.nodes.map((n) => ({ headword: n.headword, meaningVn: n.meaningVn })) ?? [];
+    }
+    return data.clusters?.[openItem.index]?.words.map((w) => ({ headword: w.headword, meaningVn: w.meaningVn })) ?? [];
+  }
+
+  function stopAutoPlay() {
+    autoPlayCancelRef.current = true;
+    setAutoPlaying(false);
+    setAutoPlayWordIndex(null);
+    if (isTtsSupportedHere()) window.speechSynthesis.cancel();
+  }
+
+  function isTtsSupportedHere(): boolean {
+    return typeof window !== "undefined" && "speechSynthesis" in window;
+  }
+
+  /** Vòng lặp tự động đọc: đọc từ (ngôn ngữ mục tiêu) → đọc nghĩa tiếng Việt lặp `repeatCount` lần →
+   * qua từ kế tiếp — dừng ngay khi `autoPlayCancelRef` bật (người dùng bấm Dừng, next/prev thủ công,
+   * đóng toàn màn hình, hoặc unmount). Nếu máy không có giọng đọc phù hợp, `speakAndWait` trả về
+   * `ok:false` gần như ngay lập tức — thêm khoảng nghỉ cố định để nhịp đọc vẫn hợp lý cho người dùng
+   * theo dõi bằng mắt, không lướt qua các từ quá nhanh khi im lặng. */
+  async function startAutoPlay() {
+    if (!openItem) return;
+    autoPlayCancelRef.current = false;
+    setAutoPlaying(true);
+    const words = currentWords();
+    const targetLocale = localeForLanguage(language);
+    for (let i = 0; i < words.length; i++) {
+      if (autoPlayCancelRef.current) return;
+      setAutoPlayWordIndex(i);
+      const wordResult = await speakAndWait(words[i].headword, targetLocale);
+      if (!wordResult.ok) await sleep(900);
+      if (autoPlayCancelRef.current) return;
+      for (let r = 0; r < repeatCount; r++) {
+        if (autoPlayCancelRef.current) return;
+        const meaningResult = await speakAndWait(words[i].meaningVn, VI_LOCALE);
+        if (!meaningResult.ok) await sleep(1200);
+      }
+    }
+    if (!autoPlayCancelRef.current) {
+      setAutoPlaying(false);
+      setAutoPlayWordIndex(null);
+    }
+  }
+
+  function toggleAutoPlay() {
+    if (autoPlaying) stopAutoPlay();
+    else startAutoPlay();
+  }
+
+  useEffect(() => {
+    // Dừng vòng lặp đọc nếu component bị gỡ khi đang chạy (chuyển trang, đóng tab...).
+    return () => {
+      autoPlayCancelRef.current = true;
+      if (isTtsSupportedHere()) window.speechSynthesis.cancel();
+    };
+  }, []);
+
   function openAt(kind: ChainTab, index: number) {
+    stopAutoPlay();
     setOpenItem({ kind, index });
     enterFullscreen();
   }
 
   function closeDetail() {
+    stopAutoPlay();
     exitFullscreen();
     setOpenItem(null);
   }
 
   function step(delta: number) {
+    stopAutoPlay();
     setOpenItem((cur) => {
       if (!cur) return cur;
       const len = cur.kind === "chains" ? data.chains.length : data.clusters?.length ?? 0;
@@ -589,15 +713,59 @@ export default function ChainBrowser({ language, data }: { language: Language; d
             </div>
           </div>
 
+          <div className="flex flex-wrap items-center gap-3 border-b border-border bg-surface-3/40 px-6 py-2 sm:px-10">
+            <button
+              type="button"
+              onClick={toggleAutoPlay}
+              className={`flex items-center gap-1.5 rounded-full border px-3 py-1.5 text-xs font-semibold shadow-sm transition ${
+                autoPlaying
+                  ? "border-red-400 bg-red-100 text-red-700 dark:bg-red-950/40 dark:text-red-300"
+                  : "border-brand-400 bg-brand-50 text-brand-700 hover:bg-brand-100 dark:bg-brand-950/30 dark:text-brand-300"
+              }`}
+            >
+              {autoPlaying ? "⏸ Dừng đọc" : "▶️ Tự động đọc"}
+            </button>
+            <div className="flex items-center gap-1.5 text-xs text-ink-muted">
+              <span>Lặp nghĩa:</span>
+              <ToolButton
+                onClick={() => setRepeatCount((c) => Math.max(1, c - 1))}
+                disabled={autoPlaying}
+                label="Giảm số lần lặp"
+              >
+                −
+              </ToolButton>
+              <span className="w-4 text-center font-semibold text-ink">{repeatCount}</span>
+              <ToolButton
+                onClick={() => setRepeatCount((c) => Math.min(6, c + 1))}
+                disabled={autoPlaying}
+                label="Tăng số lần lặp"
+              >
+                +
+              </ToolButton>
+            </div>
+            {autoPlaying && autoPlayWordIndex !== null && (
+              <span className="text-xs text-ink-muted">
+                Đang đọc {autoPlayWordIndex + 1}/{currentWords().length}…
+              </span>
+            )}
+          </div>
+
           <div className="flex flex-1 flex-col overflow-hidden">
             {openItem.kind === "chains" ? (
-              <ChainDetailPanel key={currentId} chain={data.chains[openItem.index]} language={language} zoom={zoom} />
+              <ChainDetailPanel
+                key={currentId}
+                chain={data.chains[openItem.index]}
+                language={language}
+                zoom={zoom}
+                highlightIndex={autoPlaying ? autoPlayWordIndex ?? undefined : undefined}
+              />
             ) : (
               <ClusterDetailPanel
                 key={currentId}
                 cluster={data.clusters![openItem.index]}
                 language={language}
                 zoom={zoom}
+                highlightIndex={autoPlaying ? autoPlayWordIndex ?? undefined : undefined}
               />
             )}
           </div>
