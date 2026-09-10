@@ -1,13 +1,14 @@
 import Link from "next/link";
 import { getSynonymAntonymData } from "@/lib/wordClusterStore";
 
-const LANG_ICON: Record<string, string> = { zh: "🇨🇳", ja: "🇯🇵", ko: "🇰🇷" };
+const LANG_ICON: Record<string, string> = { zh: "🇨🇳", ja: "🇯🇵", ko: "🇰🇷", en: "🇺🇸" };
 const LANG_LABEL: Record<string, string> = {
   zh: "Đồng nghĩa · trái nghĩa tiếng Trung",
   ja: "Đồng nghĩa · trái nghĩa tiếng Nhật",
   ko: "Đồng nghĩa · trái nghĩa tiếng Hàn",
+  en: "Đồng nghĩa · trái nghĩa tiếng Anh nâng cao",
 };
-const ALL_LANGS = ["zh", "ja", "ko"] as const;
+const ALL_LANGS = ["en", "zh", "ja", "ko"] as const;
 
 export default function SynonymsHome() {
   return (
