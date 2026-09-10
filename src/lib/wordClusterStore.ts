@@ -7,6 +7,7 @@ import type {
 import zhSynAnt from "../../data/zh-synonym-antonym.json";
 import jaSynAnt from "../../data/ja-synonym-antonym.json";
 import koSynAnt from "../../data/ko-synonym-antonym.json";
+import enSynAnt from "../../data/en-synonym-antonym.json";
 import zhCharAnt from "../../data/zh-char-antonym.json";
 import jaCharAnt from "../../data/ja-char-antonym.json";
 import koCharAnt from "../../data/ko-char-antonym.json";
@@ -17,6 +18,7 @@ const STATIC_SYN_ANT_DATA: Partial<Record<Language, SynonymAntonymLanguageData>>
   zh: zhSynAnt as SynonymAntonymLanguageData,
   ja: jaSynAnt as SynonymAntonymLanguageData,
   ko: koSynAnt as SynonymAntonymLanguageData,
+  en: enSynAnt as SynonymAntonymLanguageData,
 };
 
 const STATIC_CHAR_ANT_DATA: Partial<Record<Language, CharAntonymLanguageData>> = {
