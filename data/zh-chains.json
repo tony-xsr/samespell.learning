@@ -54027,6 +54027,1356 @@
         }
       ],
       "note": "达咩 (từ tiếng Nhật ダメ đa-mê) lan truyền qua anime; 达人 (từ tiếng Nhật 達人) nay là hậu tố phổ biến chỉ chuyên gia nghiệp dư. 达 gốc nghĩa \"đường thông suốt đi tới nơi\" (四通八达)."
+    },
+    {
+      "id": "zh-cluster-ji-self",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "己",
+      "centerReading": "jǐ",
+      "centerHanViet": "kỷ",
+      "centerMeaningVn": "bản thân, mình; can Kỷ (thứ 6)",
+      "words": [
+        {
+          "headword": "自己",
+          "reading": "zìjǐ",
+          "hanViet": "tự kỷ",
+          "meaningVn": "bản thân mình"
+        },
+        {
+          "headword": "知己",
+          "reading": "zhījǐ",
+          "hanViet": "tri kỷ",
+          "meaningVn": "người bạn hiểu mình sâu sắc"
+        },
+        {
+          "headword": "舍己为人",
+          "reading": "shě jǐ wèi rén",
+          "hanViet": "xả kỷ vị nhân",
+          "meaningVn": "quên mình vì người khác"
+        },
+        {
+          "headword": "身不由己",
+          "reading": "shēn bù yóu jǐ",
+          "hanViet": "thân bất do kỷ",
+          "meaningVn": "không tự làm chủ được mình, bị hoàn cảnh ép buộc"
+        }
+      ],
+      "note": "Ba chữ gần như giống hệt: 己 (jǐ, nét thứ ba KHÔNG chạm) — 已 (yǐ, \"đã\", nét chạm nửa) — 巳 (sì, chi Tị, nét bịt kín). Mẹo: 己 mở toang, 已 khép nửa, 巳 đóng chặt."
+    },
+    {
+      "id": "zh-cluster-yi-already",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "已",
+      "centerReading": "yǐ",
+      "centerHanViet": "dĩ",
+      "centerMeaningVn": "đã, xong; thôi, ngừng; quá",
+      "words": [
+        {
+          "headword": "已经",
+          "reading": "yǐjīng",
+          "hanViet": "dĩ kinh",
+          "meaningVn": "đã (rồi)"
+        },
+        {
+          "headword": "而已",
+          "reading": "éryǐ",
+          "hanViet": "nhi dĩ",
+          "meaningVn": "mà thôi, chỉ vậy thôi"
+        },
+        {
+          "headword": "已故",
+          "reading": "yǐgù",
+          "hanViet": "dĩ cố",
+          "meaningVn": "đã qua đời, cố (người)"
+        },
+        {
+          "headword": "木已成舟",
+          "reading": "mù yǐ chéng zhōu",
+          "hanViet": "mộc dĩ thành chu",
+          "meaningVn": "gỗ đã đóng thành thuyền — sự đã rồi, không sửa được"
+        }
+      ],
+      "note": "已 (yǐ, đã rồi) khác 己 (jǐ, bản thân) và 巳 (sì) chỉ ở độ cao của nét sổ thứ ba: 已 nhô lên nửa chừng. 已 còn nghĩa cổ \"ngừng\" (不能自已 = không kìm được)."
+    },
+    {
+      "id": "zh-cluster-wu-heavenly-stem",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "戊",
+      "centerReading": "wù",
+      "centerHanViet": "mậu",
+      "centerMeaningVn": "can Mậu (thứ 5 trong thiên can)",
+      "words": [
+        {
+          "headword": "戊戌变法",
+          "reading": "wùxū biànfǎ",
+          "hanViet": "mậu tuất biến pháp",
+          "meaningVn": "cuộc Duy Tân Mậu Tuất năm 1898 (còn gọi 百日维新)"
+        },
+        {
+          "headword": "戊子",
+          "reading": "wùzǐ",
+          "hanViet": "mậu tý",
+          "meaningVn": "năm/ngày Mậu Tý (tổ hợp can-chi)"
+        },
+        {
+          "headword": "戊夜",
+          "reading": "wùyè",
+          "hanViet": "mậu dạ",
+          "meaningVn": "canh năm, khoảng 3-5 giờ sáng (cách chia đêm xưa)"
+        }
+      ],
+      "note": "戊 rỗng ruột (không nét bên trong) — khác 戌 (xū, chi Tuất, thêm MỘT NÉT NGANG) và 戍 (shù, \"trấn giữ\", thêm MỘT CHẤM). Câu vè: 横戌 (ngang là Tuất) 点戍 (chấm là Thú) 戊中空 (Mậu giữa rỗng)."
+    },
+    {
+      "id": "zh-cluster-xu-earthly-branch",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "戌",
+      "centerReading": "xū",
+      "centerHanViet": "tuất",
+      "centerMeaningVn": "chi Tuất (thứ 11, cầm tinh con chó); giờ Tuất",
+      "words": [
+        {
+          "headword": "戌时",
+          "reading": "xūshí",
+          "hanViet": "tuất thời",
+          "meaningVn": "giờ Tuất, 19-21 giờ"
+        },
+        {
+          "headword": "戊戌",
+          "reading": "wùxū",
+          "hanViet": "mậu tuất",
+          "meaningVn": "tổ hợp can-chi Mậu Tuất"
+        },
+        {
+          "headword": "甲戌",
+          "reading": "jiǎxū",
+          "hanViet": "giáp tuất",
+          "meaningVn": "tổ hợp can-chi Giáp Tuất"
+        }
+      ],
+      "note": "戌 có MỘT NÉT NGANG ngắn bên trong — khác 戊 (wù, rỗng) và 戍 (shù, một chấm). 戌 dùng cho năm chó và giờ Tuất."
+    },
+    {
+      "id": "zh-cluster-shu-garrison",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "戍",
+      "centerReading": "shù",
+      "centerHanViet": "thú",
+      "centerMeaningVn": "đóng quân canh giữ (biên cương)",
+      "words": [
+        {
+          "headword": "戍边",
+          "reading": "shùbiān",
+          "hanViet": "thú biên",
+          "meaningVn": "trấn giữ biên giới"
+        },
+        {
+          "headword": "戍守",
+          "reading": "shùshǒu",
+          "hanViet": "thú thủ",
+          "meaningVn": "canh phòng, trấn giữ"
+        },
+        {
+          "headword": "卫戍",
+          "reading": "wèishù",
+          "hanViet": "vệ thú",
+          "meaningVn": "bảo vệ canh gác (卫戍区 = khu vực phòng thủ thủ đô)"
+        },
+        {
+          "headword": "戍卒",
+          "reading": "shùzú",
+          "hanViet": "thú tốt",
+          "meaningVn": "người lính đóng ở biên ải"
+        }
+      ],
+      "note": "戍 có MỘT CHẤM bên trong (như đốm lửa hiệu) — khác 戊 (wù, rỗng) và 戌 (xū, một ngang). 戍 luôn liên quan việc canh giữ nơi xa."
+    },
+    {
+      "id": "zh-cluster-rong-military",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "戎",
+      "centerReading": "róng",
+      "centerHanViet": "nhung",
+      "centerMeaningVn": "binh khí, việc binh; các tộc phía tây thời xưa",
+      "words": [
+        {
+          "headword": "戎马",
+          "reading": "róngmǎ",
+          "hanViet": "nhung mã",
+          "meaningVn": "ngựa chiến — chỉ đời sống quân ngũ (戎马生涯)"
+        },
+        {
+          "headword": "戎装",
+          "reading": "róngzhuāng",
+          "hanViet": "nhung trang",
+          "meaningVn": "quân phục, trang phục nhà binh"
+        },
+        {
+          "headword": "投笔从戎",
+          "reading": "tóu bǐ cóng róng",
+          "hanViet": "đầu bút tòng nhung",
+          "meaningVn": "ném bút theo nghiệp lính — bỏ văn theo võ"
+        },
+        {
+          "headword": "兵戎相见",
+          "reading": "bīng róng xiāng jiàn",
+          "hanViet": "binh nhung tương kiến",
+          "meaningVn": "gặp nhau bằng vũ khí — xảy ra chiến tranh"
+        }
+      ],
+      "note": "戎 có HAI NÉT NGANG (十 bên trong) — nhiều nét nhất trong nhóm 戊/戌/戍/戎. Nghĩa luôn gắn với quân sự."
+    },
+    {
+      "id": "zh-cluster-mao-rabbit-branch",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "卯",
+      "centerReading": "mǎo",
+      "centerHanViet": "mão",
+      "centerMeaningVn": "chi Mão (thứ 4, cầm tinh con mèo/thỏ); giờ Mão; lỗ mộng",
+      "words": [
+        {
+          "headword": "卯时",
+          "reading": "mǎoshí",
+          "hanViet": "mão thời",
+          "meaningVn": "giờ Mão, 5-7 giờ sáng"
+        },
+        {
+          "headword": "点卯",
+          "reading": "diǎnmǎo",
+          "hanViet": "điểm mão",
+          "meaningVn": "điểm danh đầu giờ làm (quan lại xưa điểm danh giờ Mão); nay = đến cho có mặt rồi thôi"
+        },
+        {
+          "headword": "卯榫",
+          "reading": "mǎosǔn",
+          "hanViet": "mão duẫn",
+          "meaningVn": "mộng và lỗ mộng — cách ghép gỗ không cần đinh"
+        },
+        {
+          "headword": "丁是丁卯是卯",
+          "reading": "dīng shì dīng mǎo shì mǎo",
+          "hanViet": "đinh thị đinh mão thị mão",
+          "meaningVn": "đâu ra đấy, rành mạch rõ ràng, không xuề xòa"
+        }
+      ],
+      "note": "卯 (mǎo) khác 卵 (luǎn, quả trứng) chỉ ở HAI CHẤM bên trong: 卵 có hai chấm, 卯 không có. 卯 = con thỏ/mèo trong 12 con giáp."
+    },
+    {
+      "id": "zh-cluster-luan-egg",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "卵",
+      "centerReading": "luǎn",
+      "centerHanViet": "noãn",
+      "centerMeaningVn": "trứng; tế bào trứng",
+      "words": [
+        {
+          "headword": "卵子",
+          "reading": "luǎnzǐ",
+          "hanViet": "noãn tử",
+          "meaningVn": "tế bào trứng"
+        },
+        {
+          "headword": "排卵",
+          "reading": "páiluǎn",
+          "hanViet": "bài noãn",
+          "meaningVn": "rụng trứng (chu kỳ sinh sản)"
+        },
+        {
+          "headword": "卵石",
+          "reading": "luǎnshí",
+          "hanViet": "noãn thạch",
+          "meaningVn": "đá cuội (nhẵn tròn như quả trứng)"
+        },
+        {
+          "headword": "以卵击石",
+          "reading": "yǐ luǎn jī shí",
+          "hanViet": "dĩ noãn kích thạch",
+          "meaningVn": "lấy trứng chọi đá — tự lượng sức yếu mà đối đầu kẻ mạnh"
+        }
+      ],
+      "note": "卵 = 卯 + hai chấm. Nhớ: quả trứng có lòng đỏ nên 卵 \"có chấm\", còn 卯 (chi Mão) rỗng. 卵 khác 卯 hoàn toàn về nghĩa."
+    },
+    {
+      "id": "zh-cluster-you-young",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "幼",
+      "centerReading": "yòu",
+      "centerHanViet": "ấu",
+      "centerMeaningVn": "nhỏ tuổi, non nớt",
+      "words": [
+        {
+          "headword": "幼儿",
+          "reading": "yòuér",
+          "hanViet": "ấu nhi",
+          "meaningVn": "trẻ nhỏ (thường 1-6 tuổi; 幼儿园 = mẫu giáo)"
+        },
+        {
+          "headword": "幼稚",
+          "reading": "yòuzhì",
+          "hanViet": "ấu trĩ",
+          "meaningVn": "non nớt, ngây thơ; (chê) trẻ con, thiếu chín chắn"
+        },
+        {
+          "headword": "年幼",
+          "reading": "niányòu",
+          "hanViet": "niên ấu",
+          "meaningVn": "còn nhỏ tuổi"
+        },
+        {
+          "headword": "扶老携幼",
+          "reading": "fú lǎo xié yòu",
+          "hanViet": "phù lão huề ấu",
+          "meaningVn": "dìu người già dắt trẻ nhỏ — cả nhà già trẻ cùng đi"
+        }
+      ],
+      "note": "幼 (yòu, nhỏ tuổi) bên phải là 力 (lực) — khác 幻 (huàn, ảo mộng) bên phải là 乚. Nhớ: trẻ con có SỨC (力) lớn lên, còn ảo mộng thì \"cong\" (乚) không thật."
+    },
+    {
+      "id": "zh-cluster-huan-illusion",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "幻",
+      "centerReading": "huàn",
+      "centerHanViet": "huyễn",
+      "centerMeaningVn": "hư ảo, không thật; biến hóa",
+      "words": [
+        {
+          "headword": "幻想",
+          "reading": "huànxiǎng",
+          "hanViet": "huyễn tưởng",
+          "meaningVn": "mơ tưởng viển vông; điều tưởng tượng không có thật"
+        },
+        {
+          "headword": "梦幻",
+          "reading": "mènghuàn",
+          "hanViet": "mộng huyễn",
+          "meaningVn": "như mơ, đẹp mà không thật"
+        },
+        {
+          "headword": "幻觉",
+          "reading": "huànjué",
+          "hanViet": "huyễn giác",
+          "meaningVn": "ảo giác (thấy/nghe thứ không tồn tại)"
+        },
+        {
+          "headword": "变幻莫测",
+          "reading": "biàn huàn mò cè",
+          "hanViet": "biến huyễn mạc trắc",
+          "meaningVn": "biến đổi khôn lường, không đoán trước được"
+        }
+      ],
+      "note": "幻 bên phải là 乚 (một nét cong) — khác 幼 (yòu) bên phải là 力 (ba nét). 幻 luôn mang nghĩa \"không thật\"."
+    },
+    {
+      "id": "zh-cluster-dai-wait-treat",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "待",
+      "centerReading": "dài",
+      "centerHanViet": "đãi",
+      "centerMeaningVn": "(dài) đợi; đối xử; cần; (dāi) ở lại",
+      "words": [
+        {
+          "headword": "等待",
+          "reading": "děngdài",
+          "hanViet": "đẳng đãi",
+          "meaningVn": "chờ đợi"
+        },
+        {
+          "headword": "对待",
+          "reading": "duìdài",
+          "hanViet": "đối đãi",
+          "meaningVn": "đối xử, cư xử (với ai/việc gì)"
+        },
+        {
+          "headword": "待遇",
+          "reading": "dàiyù",
+          "hanViet": "đãi ngộ",
+          "meaningVn": "chế độ đãi ngộ; sự đối xử được nhận"
+        },
+        {
+          "headword": "迫不及待",
+          "reading": "pò bù jí dài",
+          "hanViet": "bức bất cập đãi",
+          "meaningVn": "nôn nóng không đợi được, sốt ruột muốn làm ngay"
+        }
+      ],
+      "note": "待 (亻 + 寺) khác 侍 (shì, hầu hạ), 恃 (shì, ỷ vào), 峙 (zhì, đứng sừng sững) — cùng bên phải 寺, khác bộ bên trái (亻/忄/山). 待 đọc dāi trong khẩu ngữ \"ở lại\" (在家待着)."
+    },
+    {
+      "id": "zh-cluster-shi-serve-attend",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "侍",
+      "centerReading": "shì",
+      "centerHanViet": "thị",
+      "centerMeaningVn": "hầu hạ, phục dịch",
+      "words": [
+        {
+          "headword": "侍候",
+          "reading": "shìhòu",
+          "hanViet": "thị hậu",
+          "meaningVn": "hầu hạ, chăm sóc (người bệnh, người già)"
+        },
+        {
+          "headword": "侍卫",
+          "reading": "shìwèi",
+          "hanViet": "thị vệ",
+          "meaningVn": "lính bảo vệ bên cạnh vua chúa"
+        },
+        {
+          "headword": "服侍",
+          "reading": "fúshì",
+          "hanViet": "phục thị",
+          "meaningVn": "phục dịch, chăm nom"
+        },
+        {
+          "headword": "侍女",
+          "reading": "shìnǚ",
+          "hanViet": "thị nữ",
+          "meaningVn": "người hầu gái, thị nữ"
+        }
+      ],
+      "note": "侍 (亻 = người) đứng hầu người khác. Khác 待 (dài, đợi/đối xử) và 恃 (shì, ỷ lại) — ba chữ cùng 寺 bên phải."
+    },
+    {
+      "id": "zh-cluster-shi-rely-presume",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "恃",
+      "centerReading": "shì",
+      "centerHanViet": "thị",
+      "centerMeaningVn": "cậy, ỷ vào",
+      "words": [
+        {
+          "headword": "有恃无恐",
+          "reading": "yǒu shì wú kǒng",
+          "hanViet": "hữu thị vô khủng",
+          "meaningVn": "có chỗ dựa nên chẳng sợ gì — ỷ thế làm càn"
+        },
+        {
+          "headword": "恃才傲物",
+          "reading": "shì cái ào wù",
+          "hanViet": "thị tài ngạo vật",
+          "meaningVn": "cậy tài mà kiêu ngạo khinh người"
+        },
+        {
+          "headword": "仗恃",
+          "reading": "zhàngshì",
+          "hanViet": "trượng thị",
+          "meaningVn": "ỷ vào, dựa vào (thế lực, điều kiện)"
+        },
+        {
+          "headword": "有恃无恐地",
+          "reading": "yǒu shì wú kǒng de",
+          "hanViet": "hữu thị vô khủng địa",
+          "meaningVn": "một cách ngang nhiên vì có chỗ dựa"
+        }
+      ],
+      "note": "恃 (忄 = tâm) — trong lòng có chỗ dựa nên sinh ỷ lại. Khác 侍 (shì, hầu hạ) và 待 (dài, đợi). Thành ngữ 有恃无恐 là chỗ hay gặp nhất."
+    },
+    {
+      "id": "zh-cluster-zhi-stand-facing",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "峙",
+      "centerReading": "zhì",
+      "centerHanViet": "trĩ",
+      "centerMeaningVn": "đứng sừng sững, đối diện nhau",
+      "words": [
+        {
+          "headword": "对峙",
+          "reading": "duìzhì",
+          "hanViet": "đối trĩ",
+          "meaningVn": "hai bên đứng đối đầu, giằng co không nhường"
+        },
+        {
+          "headword": "耸峙",
+          "reading": "sǒngzhì",
+          "hanViet": "tủng trĩ",
+          "meaningVn": "(núi, tháp) vươn cao sừng sững"
+        },
+        {
+          "headword": "两峰对峙",
+          "reading": "liǎng fēng duì zhì",
+          "hanViet": "lưỡng phong đối trĩ",
+          "meaningVn": "hai ngọn núi đứng đối nhau"
+        },
+        {
+          "headword": "对峙局面",
+          "reading": "duìzhì júmiàn",
+          "hanViet": "đối trĩ cục diện",
+          "meaningVn": "thế đối đầu bế tắc giữa hai phía"
+        }
+      ],
+      "note": "峙 (山 = núi) — sừng sững như núi. Khác 待/侍/恃. 对峙 (đối đầu căng thẳng) là từ thời sự hay dùng."
+    },
+    {
+      "id": "zh-cluster-mu-bathe",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "沐",
+      "centerReading": "mù",
+      "centerHanViet": "mộc",
+      "centerMeaningVn": "gội đầu; tắm gội; thấm nhuần (ân huệ)",
+      "words": [
+        {
+          "headword": "沐浴",
+          "reading": "mùyù",
+          "hanViet": "mộc dục",
+          "meaningVn": "tắm rửa; (nghĩa bóng) đắm mình trong (ánh nắng, tình yêu)"
+        },
+        {
+          "headword": "栉风沐雨",
+          "reading": "zhì fēng mù yǔ",
+          "hanViet": "trất phong mộc vũ",
+          "meaningVn": "chải tóc bằng gió, gội đầu bằng mưa — dãi nắng dầm mưa vất vả"
+        },
+        {
+          "headword": "沐猴而冠",
+          "reading": "mù hóu ér guàn",
+          "hanViet": "mộc hầu nhi quán",
+          "meaningVn": "khỉ đội mũ người — kẻ bất tài khoác áo chức tước, hữu danh vô thực"
+        },
+        {
+          "headword": "如沐春风",
+          "reading": "rú mù chūn fēng",
+          "hanViet": "như mộc xuân phong",
+          "meaningVn": "như tắm trong gió xuân — được ai đó đối xử ấm áp dễ chịu"
+        }
+      ],
+      "note": "沐 (氵 + 木) khác 沫 (mò, bọt — 氵 + 末): 沐 dùng chữ 木 (mù), 沫 dùng chữ 末 (mò). 沐浴 (tắm) ≠ 泡沫 (bọt)."
+    },
+    {
+      "id": "zh-cluster-ju-restrain",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "拘",
+      "centerReading": "jū",
+      "centerHanViet": "câu",
+      "centerMeaningVn": "bắt giữ; gò bó; câu nệ",
+      "words": [
+        {
+          "headword": "拘束",
+          "reading": "jūshù",
+          "hanViet": "câu thúc",
+          "meaningVn": "gò bó, ngượng ngập không tự nhiên"
+        },
+        {
+          "headword": "拘留",
+          "reading": "jūliú",
+          "hanViet": "câu lưu",
+          "meaningVn": "tạm giữ, giam giữ (hành chính hoặc hình sự)"
+        },
+        {
+          "headword": "不拘小节",
+          "reading": "bù jū xiǎo jié",
+          "hanViet": "bất câu tiểu tiết",
+          "meaningVn": "không câu nệ tiểu tiết, xuề xòa chuyện vặt"
+        },
+        {
+          "headword": "拘泥",
+          "reading": "jūnì",
+          "hanViet": "câu nệ",
+          "meaningVn": "cứng nhắc bám vào lề lối, không linh hoạt"
+        }
+      ],
+      "note": "拘 (扌 + 句) khác 苟 (gǒu, cẩu thả — 艹 + 句) và 枸 (gǒu, trong 枸杞 kỷ tử — 木 + 句). Cùng 句 bên phải, khác bộ."
+    },
+    {
+      "id": "zh-cluster-gou-careless",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "苟",
+      "centerReading": "gǒu",
+      "centerHanViet": "cẩu",
+      "centerMeaningVn": "cẩu thả, tạm bợ; nếu như (văn ngôn)",
+      "words": [
+        {
+          "headword": "一丝不苟",
+          "reading": "yì sī bù gǒu",
+          "hanViet": "nhất ti bất cẩu",
+          "meaningVn": "không cẩu thả một li — làm việc cực kỳ nghiêm túc tỉ mỉ"
+        },
+        {
+          "headword": "苟且",
+          "reading": "gǒuqiě",
+          "hanViet": "cẩu thả",
+          "meaningVn": "qua loa cho xong; sống tạm bợ không lý tưởng (苟且偷生)"
+        },
+        {
+          "headword": "苟同",
+          "reading": "gǒutóng",
+          "hanViet": "cẩu đồng",
+          "meaningVn": "hùa theo cho xong (不敢苟同 = không dám tán đồng)"
+        },
+        {
+          "headword": "苟延残喘",
+          "reading": "gǒu yán cán chuǎn",
+          "hanViet": "cẩu diên tàn suyễn",
+          "meaningVn": "thoi thóp kéo dài hơi tàn — gắng gượng sống lay lắt"
+        }
+      ],
+      "note": "苟 (艹 đầu) khác 拘 (jū, bắt giữ — 扌). 一丝不苟 (rất nghiêm túc) và 苟且 (cẩu thả) là hai cực nghĩa cùng một chữ."
+    },
+    {
+      "id": "zh-cluster-hou-marquis",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "侯",
+      "centerReading": "hóu",
+      "centerHanViet": "hầu",
+      "centerMeaningVn": "tước Hầu (đứng thứ hai sau Công); họ Hầu",
+      "words": [
+        {
+          "headword": "王侯",
+          "reading": "wánghóu",
+          "hanViet": "vương hầu",
+          "meaningVn": "vua và các tước hầu — tầng lớp quyền quý"
+        },
+        {
+          "headword": "诸侯",
+          "reading": "zhūhóu",
+          "hanViet": "chư hầu",
+          "meaningVn": "các nước/lãnh chúa thần phục thiên tử thời phong kiến"
+        },
+        {
+          "headword": "侯爵",
+          "reading": "hóujué",
+          "hanViet": "hầu tước",
+          "meaningVn": "tước hầu (bậc quý tộc)"
+        },
+        {
+          "headword": "封侯",
+          "reading": "fēnghóu",
+          "hanViet": "phong hầu",
+          "meaningVn": "được phong tước hầu — thành đạt vinh hiển"
+        }
+      ],
+      "note": "侯 (hóu, tước hầu) KHÔNG có nét sổ đứng ở giữa — khác 候 (hòu, chờ đợi / khí hậu) CÓ thêm nét sổ. 时候, 气候 dùng 候; 诸侯 dùng 侯."
+    },
+    {
+      "id": "zh-cluster-zen-how",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "怎",
+      "centerReading": "zěn",
+      "centerHanViet": "chẩm",
+      "centerMeaningVn": "sao, thế nào, làm sao (từ để hỏi)",
+      "words": [
+        {
+          "headword": "怎么",
+          "reading": "zěnme",
+          "hanViet": "chẩm ma",
+          "meaningVn": "thế nào, làm sao, tại sao"
+        },
+        {
+          "headword": "怎样",
+          "reading": "zěnyàng",
+          "hanViet": "chẩm dạng",
+          "meaningVn": "như thế nào, ra sao"
+        },
+        {
+          "headword": "怎么办",
+          "reading": "zěnmebàn",
+          "hanViet": "chẩm ma bạn",
+          "meaningVn": "làm sao bây giờ, phải làm thế nào"
+        },
+        {
+          "headword": "怎奈",
+          "reading": "zěnnài",
+          "hanViet": "chẩm nại",
+          "meaningVn": "ngặt nỗi, khổ nỗi (văn viết: 怎奈天公不作美)"
+        }
+      ],
+      "note": "怎 (乍 + 心) — đọc zěn, KHÔNG đọc zhà. 乍 (zhà, thoạt, vừa mới) là chữ trên, nhưng cả chữ 怎 đọc theo âm riêng. Bộ 心 vì đây là chữ biểu đạt thắc mắc trong lòng."
+    },
+    {
+      "id": "zh-cluster-zhan-moisten-touch",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "沾",
+      "centerReading": "zhān",
+      "centerHanViet": "triêm",
+      "centerMeaningVn": "dính ướt; dính dáng; hưởng nhờ",
+      "words": [
+        {
+          "headword": "沾水",
+          "reading": "zhānshuǐ",
+          "hanViet": "triêm thủy",
+          "meaningVn": "chấm/dính nước"
+        },
+        {
+          "headword": "沾光",
+          "reading": "zhānguāng",
+          "hanViet": "triêm quang",
+          "meaningVn": "hưởng ké, được lợi lây nhờ quan hệ với ai"
+        },
+        {
+          "headword": "沾染",
+          "reading": "zhānrǎn",
+          "hanViet": "triêm nhiễm",
+          "meaningVn": "nhiễm phải (thói xấu, bụi bẩn, mầm bệnh)"
+        },
+        {
+          "headword": "滴水不沾",
+          "reading": "dī shuǐ bù zhān",
+          "hanViet": "trích thủy bất triêm",
+          "meaningVn": "một giọt cũng không đụng — hoàn toàn không dính dáng (thường nói về rượu)"
+        }
+      ],
+      "note": "沾 (氵 + 占) khác 玷 (diàn, tì vết — 王/玉 + 占): 沾 dính nước, 玷 là vết trên ngọc. Cùng 占 bên phải."
+    },
+    {
+      "id": "zh-cluster-dian-blemish-jade",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "玷",
+      "centerReading": "diàn",
+      "centerHanViet": "điếm",
+      "centerMeaningVn": "vết trên ngọc; làm ô uế danh dự",
+      "words": [
+        {
+          "headword": "玷污",
+          "reading": "diànwū",
+          "hanViet": "điếm ô",
+          "meaningVn": "làm nhơ bẩn, bôi nhọ (thanh danh, sự trong sạch)"
+        },
+        {
+          "headword": "白圭之玷",
+          "reading": "bái guī zhī diàn",
+          "hanViet": "bạch khuê chi điếm",
+          "meaningVn": "vết trên ngọc trắng — người tốt cũng có lúc lầm lỗi nhỏ"
+        },
+        {
+          "headword": "玷辱",
+          "reading": "diànrǔ",
+          "hanViet": "điếm nhục",
+          "meaningVn": "làm nhục, bôi tro trát trấu (vào danh dự)"
+        }
+      ],
+      "note": "玷 (王 = 玉 ngọc, bên trái) — vết trên ngọc. Khác 沾 (zhān, dính nước — 氵). Nghĩa bóng luôn về danh dự bị vấy bẩn."
+    },
+    {
+      "id": "zh-cluster-tian-quiet-calm",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "恬",
+      "centerReading": "tián",
+      "centerHanViet": "điềm",
+      "centerMeaningVn": "yên tĩnh, an nhiên; thản nhiên (dù đáng ra phải xấu hổ)",
+      "words": [
+        {
+          "headword": "恬静",
+          "reading": "tiánjìng",
+          "hanViet": "điềm tĩnh",
+          "meaningVn": "yên tĩnh, êm đềm (khung cảnh, tính cách)"
+        },
+        {
+          "headword": "恬淡",
+          "reading": "tiándàn",
+          "hanViet": "điềm đạm",
+          "meaningVn": "điềm đạm, không màng danh lợi"
+        },
+        {
+          "headword": "恬不知耻",
+          "reading": "tián bù zhī chǐ",
+          "hanViet": "điềm bất tri sỉ",
+          "meaningVn": "trơ ra không biết xấu hổ, mặt dày"
+        },
+        {
+          "headword": "恬适",
+          "reading": "tiánshì",
+          "hanViet": "điềm thích",
+          "meaningVn": "thư thái dễ chịu"
+        }
+      ],
+      "note": "恬 (忄 + 舌) khác 括 (kuò, bao gồm — 扌 + 舌) và 甜 (tián, ngọt — 舌 + 甘): 恬 đọc tián nhưng nghĩa \"yên tĩnh\", 甜 cũng tián nhưng nghĩa \"ngọt\"."
+    },
+    {
+      "id": "zh-cluster-tuo-expand-rubbing",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "拓",
+      "centerReading": "tuò",
+      "centerHanViet": "thác",
+      "centerMeaningVn": "(tuò) mở mang, khai phá; (tà) rập, in拓片",
+      "words": [
+        {
+          "headword": "开拓",
+          "reading": "kāituò",
+          "hanViet": "khai thác",
+          "meaningVn": "mở mang, khai phá (thị trường, tầm nhìn, vùng đất mới)"
+        },
+        {
+          "headword": "拓展",
+          "reading": "tuòzhǎn",
+          "hanViet": "thác triển",
+          "meaningVn": "mở rộng thêm (phạm vi, quan hệ, kỹ năng)"
+        },
+        {
+          "headword": "拓荒",
+          "reading": "tuòhuāng",
+          "hanViet": "thác hoang",
+          "meaningVn": "khai hoang, vỡ đất"
+        },
+        {
+          "headword": "拓片",
+          "reading": "tàpiàn",
+          "hanViet": "thác phiến",
+          "meaningVn": "bản rập (áp giấy lên bia đá, chà mực lấy hình chữ) — đọc tà"
+        }
+      ],
+      "note": "拓 (扌 + 石) đọc tuò khi nghĩa \"mở mang\" (开拓), đọc tà khi nghĩa \"rập bia\" (拓印, 拓本). Khác 招 (zhāo, vẫy gọi — 扌 + 召)."
+    },
+    {
+      "id": "zh-cluster-qian-dispatch",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "遣",
+      "centerReading": "qiǎn",
+      "centerHanViet": "khiển",
+      "centerMeaningVn": "phái đi; giải khuây; xua tan",
+      "words": [
+        {
+          "headword": "派遣",
+          "reading": "pàiqiǎn",
+          "hanViet": "phái khiển",
+          "meaningVn": "cử, phái (người) đi làm nhiệm vụ"
+        },
+        {
+          "headword": "消遣",
+          "reading": "xiāoqiǎn",
+          "hanViet": "tiêu khiển",
+          "meaningVn": "giải trí cho qua thời gian rỗi"
+        },
+        {
+          "headword": "调兵遣将",
+          "reading": "diào bīng qiǎn jiàng",
+          "hanViet": "điều binh khiển tướng",
+          "meaningVn": "điều động binh tướng — huy động, phân công nhân lực"
+        },
+        {
+          "headword": "差遣",
+          "reading": "chāiqiǎn",
+          "hanViet": "sai khiển",
+          "meaningVn": "sai bảo, cắt cử đi làm việc"
+        }
+      ],
+      "note": "遣 (辶 + 㟃) khác 遗 (yí, để sót lại / di sản — 辶 + 贵): 遣 là chủ động phái đi, 遗 là bỏ sót lại. Hai chữ đều có bộ 辶 (đi)."
+    },
+    {
+      "id": "zh-cluster-zong-synthesize",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "综",
+      "centerReading": "zōng",
+      "centerHanViet": "tổng",
+      "centerMeaningVn": "gộp lại, tổng hợp; sợi go trong khung cửi",
+      "words": [
+        {
+          "headword": "综合",
+          "reading": "zōnghé",
+          "hanViet": "tổng hợp",
+          "meaningVn": "gộp nhiều mặt lại xem xét chung"
+        },
+        {
+          "headword": "综述",
+          "reading": "zōngshù",
+          "hanViet": "tổng thuật",
+          "meaningVn": "bài viết tổng thuật, điểm lại tình hình nghiên cứu một lĩnh vực"
+        },
+        {
+          "headword": "错综复杂",
+          "reading": "cuò zōng fù zá",
+          "hanViet": "thác tổng phức tạp",
+          "meaningVn": "đan xen chồng chéo, rối rắm nhiều đầu mối"
+        },
+        {
+          "headword": "综艺",
+          "reading": "zōngyì",
+          "hanViet": "tổng nghệ",
+          "meaningVn": "chương trình tạp kỹ giải trí trên truyền hình"
+        }
+      ],
+      "note": "综 (纟 + 宗) khác 踪 (zōng, dấu vết — 足 + 宗) và 棕 (zōng, màu nâu / cây cọ — 木 + 宗). Cùng 宗 bên phải, khác bộ."
+    },
+    {
+      "id": "zh-cluster-zong-trace",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "踪",
+      "centerReading": "zōng",
+      "centerHanViet": "tung",
+      "centerMeaningVn": "dấu chân, tung tích",
+      "words": [
+        {
+          "headword": "踪迹",
+          "reading": "zōngjì",
+          "hanViet": "tung tích",
+          "meaningVn": "dấu vết để lại cho biết ai/vật đã ở đâu"
+        },
+        {
+          "headword": "失踪",
+          "reading": "shīzōng",
+          "hanViet": "thất tung",
+          "meaningVn": "mất tích, biến mất không rõ tung tích"
+        },
+        {
+          "headword": "行踪",
+          "reading": "xíngzōng",
+          "hanViet": "hành tung",
+          "meaningVn": "nơi chốn đi lại của một người (行踪不定 = đi lại thất thường)"
+        },
+        {
+          "headword": "无影无踪",
+          "reading": "wú yǐng wú zōng",
+          "hanViet": "vô ảnh vô tung",
+          "meaningVn": "không tăm không tích, biến mất hoàn toàn"
+        }
+      ],
+      "note": "踪 (足 = chân) — dấu chân để lại. Khác 综 (zōng, tổng hợp — 纟). 跟踪 (bám theo) dùng 踪."
+    },
+    {
+      "id": "zh-cluster-sa-scatter-lie",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "撒",
+      "centerReading": "sā",
+      "centerHanViet": "tát",
+      "centerMeaningVn": "(sā) buông ra, thả; giở trò; (sǎ) rắc, vãi",
+      "words": [
+        {
+          "headword": "撒谎",
+          "reading": "sāhuǎng",
+          "hanViet": "tát hoảng",
+          "meaningVn": "nói dối"
+        },
+        {
+          "headword": "撒娇",
+          "reading": "sājiāo",
+          "hanViet": "tát kiều",
+          "meaningVn": "nũng nịu, làm nũng để được chiều"
+        },
+        {
+          "headword": "撒手",
+          "reading": "sāshǒu",
+          "hanViet": "tát thủ",
+          "meaningVn": "buông tay; (nghĩa bóng) buông bỏ không quản; qua đời (撒手人寰)"
+        },
+        {
+          "headword": "撒种",
+          "reading": "sǎzhǒng",
+          "hanViet": "tát chủng",
+          "meaningVn": "gieo hạt, vãi hạt giống (đọc sǎ)"
+        }
+      ],
+      "note": "撒 đọc sā khi nghĩa \"buông / giở trò\" (撒谎, 撒娇, 撒野), đọc sǎ khi nghĩa \"rắc đều ra\" (撒盐, 撒种, 撒农药). Khác 撤 (chè, rút lui)."
+    },
+    {
+      "id": "zh-cluster-che-withdraw",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "撤",
+      "centerReading": "chè",
+      "centerHanViet": "triệt",
+      "centerMeaningVn": "rút đi, thu hồi; bỏ bớt",
+      "words": [
+        {
+          "headword": "撤退",
+          "reading": "chètuì",
+          "hanViet": "triệt thoái",
+          "meaningVn": "rút lui (quân đội, khỏi vị trí bất lợi)"
+        },
+        {
+          "headword": "撤销",
+          "reading": "chèxiāo",
+          "hanViet": "triệt tiêu",
+          "meaningVn": "hủy bỏ (quyết định, chức vụ, đơn kiện)"
+        },
+        {
+          "headword": "撤职",
+          "reading": "chèzhí",
+          "hanViet": "triệt chức",
+          "meaningVn": "cách chức"
+        },
+        {
+          "headword": "撤离",
+          "reading": "chèlí",
+          "hanViet": "triệt ly",
+          "meaningVn": "sơ tán, rời khỏi (khu vực nguy hiểm)"
+        }
+      ],
+      "note": "撤 (扌 + 育 + 攵) khác 撒 (sā/sǎ) chỉ ở phần giữa: 撤 có 育, 撒 có 散. Nghĩa cũng khác hẳn — 撤 là rút/bỏ, 撒 là thả/rắc."
+    },
+    {
+      "id": "zh-cluster-bian-distinguish",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "辨",
+      "centerReading": "biàn",
+      "centerHanViet": "biện",
+      "centerMeaningVn": "phân biệt, nhận rõ",
+      "words": [
+        {
+          "headword": "分辨",
+          "reading": "fēnbiàn",
+          "hanViet": "phân biện",
+          "meaningVn": "phân định rõ cái này với cái kia"
+        },
+        {
+          "headword": "辨别",
+          "reading": "biànbié",
+          "hanViet": "biện biệt",
+          "meaningVn": "nhận biết, phân biệt (thật giả, phương hướng)"
+        },
+        {
+          "headword": "辨认",
+          "reading": "biànrèn",
+          "hanViet": "biện nhận",
+          "meaningVn": "nhìn nhận ra (mặt người, chữ viết mờ)"
+        },
+        {
+          "headword": "明辨是非",
+          "reading": "míng biàn shì fēi",
+          "hanViet": "minh biện thị phi",
+          "meaningVn": "phân định rạch ròi đúng sai"
+        }
+      ],
+      "note": "Bốn chữ giữa là 辛+辛, khác nhau ở PHẦN GIỮA: 辨 (biàn, phân biệt — dấu 丶丨ở giữa), 辩 (biàn, tranh luận — 讠 lời nói), 辫 (biàn, bím tóc — 纟 sợi), 瓣 (bàn, cánh hoa/múi — 瓜 dưa)."
+    },
+    {
+      "id": "zh-cluster-bian-argue",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "辩",
+      "centerReading": "biàn",
+      "centerHanViet": "biện",
+      "centerMeaningVn": "tranh luận, biện bạch",
+      "words": [
+        {
+          "headword": "辩论",
+          "reading": "biànlùn",
+          "hanViet": "biện luận",
+          "meaningVn": "tranh luận (có tổ chức, hai phía đối đáp)"
+        },
+        {
+          "headword": "争辩",
+          "reading": "zhēngbiàn",
+          "hanViet": "tranh biện",
+          "meaningVn": "cãi lý, tranh cãi để bảo vệ ý mình"
+        },
+        {
+          "headword": "辩解",
+          "reading": "biànjiě",
+          "hanViet": "biện giải",
+          "meaningVn": "phân trần, giải thích để gỡ tội cho mình"
+        },
+        {
+          "headword": "狡辩",
+          "reading": "jiǎobiàn",
+          "hanViet": "giảo biện",
+          "meaningVn": "ngụy biện, cãi lấy được"
+        }
+      ],
+      "note": "辩 có 讠 (ngôn — lời nói) ở giữa — dùng miệng để cãi. Khác 辨 (biàn, phân biệt bằng mắt) — chỉ khác bộ ở giữa."
+    },
+    {
+      "id": "zh-cluster-ban-petal-clove",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "瓣",
+      "centerReading": "bàn",
+      "centerHanViet": "biện",
+      "centerMeaningVn": "cánh hoa; múi, tép; van (tim); (lượng từ) miếng",
+      "words": [
+        {
+          "headword": "花瓣",
+          "reading": "huābàn",
+          "hanViet": "hoa biện",
+          "meaningVn": "cánh hoa"
+        },
+        {
+          "headword": "蒜瓣",
+          "reading": "suànbàn",
+          "hanViet": "toán biện",
+          "meaningVn": "tép tỏi"
+        },
+        {
+          "headword": "瓣膜",
+          "reading": "bànmó",
+          "hanViet": "biện mô",
+          "meaningVn": "van tim (心脏瓣膜)"
+        },
+        {
+          "headword": "豆瓣",
+          "reading": "dòubàn",
+          "hanViet": "đậu biện",
+          "meaningVn": "đậu tương xay (豆瓣酱 = tương đậu); cũng là tên một trang đánh giá phim sách"
+        }
+      ],
+      "note": "瓣 có 瓜 (dưa) ở giữa — liên quan phần tách ra của thực vật. Khác 辨/辩/辫. 一瓣橘子 = một múi quýt."
+    },
+    {
+      "id": "zh-cluster-mu-dusk",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "暮",
+      "centerReading": "mù",
+      "centerHanViet": "mộ",
+      "centerMeaningVn": "chiều tà, hoàng hôn; cuối (một giai đoạn)",
+      "words": [
+        {
+          "headword": "暮色",
+          "reading": "mùsè",
+          "hanViet": "mộ sắc",
+          "meaningVn": "ánh chiều nhập nhoạng lúc trời sắp tối"
+        },
+        {
+          "headword": "迟暮",
+          "reading": "chímù",
+          "hanViet": "trì mộ",
+          "meaningVn": "tuổi già xế bóng (迟暮之年)"
+        },
+        {
+          "headword": "日暮",
+          "reading": "rìmù",
+          "hanViet": "nhật mộ",
+          "meaningVn": "trời chiều, mặt trời sắp lặn"
+        },
+        {
+          "headword": "朝三暮四",
+          "reading": "zhāo sān mù sì",
+          "hanViet": "triêu tam mộ tứ",
+          "meaningVn": "sáng ba chiều bốn — thay đổi thất thường, tráo trở"
+        }
+      ],
+      "note": "Nhóm 5 chữ cùng đầu 莫: 暮 (mù, chiều tà — 日 mặt trời lặn), 幕 (mù, màn che — 巾 vải), 墓 (mù, mộ — 土 đất), 慕 (mù, ngưỡng mộ — 小/心), 募 (mù, quyên góp — 力 sức)."
+    },
+    {
+      "id": "zh-cluster-mu-grave",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "墓",
+      "centerReading": "mù",
+      "centerHanViet": "mộ",
+      "centerMeaningVn": "mồ mả, phần mộ",
+      "words": [
+        {
+          "headword": "坟墓",
+          "reading": "fénmù",
+          "hanViet": "phần mộ",
+          "meaningVn": "mồ mả"
+        },
+        {
+          "headword": "墓碑",
+          "reading": "mùbēi",
+          "hanViet": "mộ bi",
+          "meaningVn": "bia mộ"
+        },
+        {
+          "headword": "墓地",
+          "reading": "mùdì",
+          "hanViet": "mộ địa",
+          "meaningVn": "nghĩa địa, khu chôn cất"
+        },
+        {
+          "headword": "扫墓",
+          "reading": "sǎomù",
+          "hanViet": "tảo mộ",
+          "meaningVn": "tảo mộ, dọn cỏ thắp hương phần mộ (dịp Thanh Minh)"
+        }
+      ],
+      "note": "墓 có 土 (đất) ở dưới — huyệt đất chôn người. Khác 幕 (màn — 巾) và 暮 (chiều — 日). Cùng đầu 莫."
+    },
+    {
+      "id": "zh-cluster-mu-admire",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "慕",
+      "centerReading": "mù",
+      "centerHanViet": "mộ",
+      "centerMeaningVn": "ngưỡng mộ, mến phục; nhớ tưởng",
+      "words": [
+        {
+          "headword": "羡慕",
+          "reading": "xiànmù",
+          "hanViet": "tiện mộ",
+          "meaningVn": "ước ao có được như người khác, thèm muốn"
+        },
+        {
+          "headword": "爱慕",
+          "reading": "àimù",
+          "hanViet": "ái mộ",
+          "meaningVn": "yêu mến, cảm mến (thường về tình cảm nam nữ)"
+        },
+        {
+          "headword": "仰慕",
+          "reading": "yǎngmù",
+          "hanViet": "ngưỡng mộ",
+          "meaningVn": "kính phục ngưỡng vọng (bậc tài đức)"
+        },
+        {
+          "headword": "慕名而来",
+          "reading": "mù míng ér lái",
+          "hanViet": "mộ danh nhi lai",
+          "meaningVn": "nghe tiếng mà tìm đến"
+        }
+      ],
+      "note": "慕 phần dưới là 忄 biến thể (bốn chấm = tâm) — chuyện của tấm lòng. Khác 募 (mù, quyên góp — 力 sức lực). 羡慕 (thèm muốn) ≠ 募捐 (quyên tiền)."
+    },
+    {
+      "id": "zh-cluster-fen-burn",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "焚",
+      "centerReading": "fén",
+      "centerHanViet": "phần",
+      "centerMeaningVn": "đốt cháy",
+      "words": [
+        {
+          "headword": "焚烧",
+          "reading": "fénshāo",
+          "hanViet": "phần thiêu",
+          "meaningVn": "đốt, thiêu hủy"
+        },
+        {
+          "headword": "焚香",
+          "reading": "fénxiāng",
+          "hanViet": "phần hương",
+          "meaningVn": "thắp hương, đốt trầm"
+        },
+        {
+          "headword": "玩火自焚",
+          "reading": "wán huǒ zì fén",
+          "hanViet": "ngoạn hỏa tự phần",
+          "meaningVn": "chơi lửa tự thiêu — làm chuyện nguy hiểm rồi tự hại mình"
+        },
+        {
+          "headword": "忧心如焚",
+          "reading": "yōu xīn rú fén",
+          "hanViet": "ưu tâm như phần",
+          "meaningVn": "lòng lo như lửa đốt, ruột gan như thiêu"
+        }
+      ],
+      "note": "焚 = 林 (rừng) + 火 (lửa) — hội ý \"đốt rừng\". Khác 婪 (lán, tham lam — 林 + 女). Cùng đầu 林, khác phần dưới (火/女)."
+    },
+    {
+      "id": "zh-cluster-miao-tiny-vast",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "渺",
+      "centerReading": "miǎo",
+      "centerHanViet": "diểu",
+      "centerMeaningVn": "nhỏ bé, mờ mịt; mênh mông",
+      "words": [
+        {
+          "headword": "渺小",
+          "reading": "miǎoxiǎo",
+          "hanViet": "diểu tiểu",
+          "meaningVn": "nhỏ nhoi, không đáng kể (so với vũ trụ, lịch sử)"
+        },
+        {
+          "headword": "渺茫",
+          "reading": "miǎománg",
+          "hanViet": "diểu mang",
+          "meaningVn": "mờ mịt xa vời (hi vọng, tương lai); mông lung khó nắm bắt"
+        },
+        {
+          "headword": "浩渺",
+          "reading": "hàomiǎo",
+          "hanViet": "hạo diểu",
+          "meaningVn": "(mặt nước, không gian) mênh mông bát ngát"
+        },
+        {
+          "headword": "渺无人烟",
+          "reading": "miǎo wú rén yān",
+          "hanViet": "diểu vô nhân yên",
+          "meaningVn": "vắng ngắt không bóng người, không một làn khói bếp"
+        }
+      ],
+      "note": "渺 (氵 + 眇) — vừa nghĩa \"nhỏ bé\" (渺小) vừa nghĩa \"mênh mông mờ mịt\" (浩渺). \"缥缈\" (piāomiǎo, phiêu diêu — mờ ảo) viết bằng 缈 (纟) chứ không phải 渺."
+    },
+    {
+      "id": "zh-cluster-cang-pale-grey",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "苍",
+      "centerReading": "cāng",
+      "centerHanViet": "thương",
+      "centerMeaningVn": "xanh sẫm; xám bạc; già nua",
+      "words": [
+        {
+          "headword": "苍白",
+          "reading": "cāngbái",
+          "hanViet": "thương bạch",
+          "meaningVn": "nhợt nhạt (sắc mặt); (lời lẽ, lý lẽ) yếu ớt thiếu sức thuyết phục"
+        },
+        {
+          "headword": "苍老",
+          "reading": "cānglǎo",
+          "hanViet": "thương lão",
+          "meaningVn": "già nua, cằn cỗi (dung mạo, giọng nói)"
+        },
+        {
+          "headword": "苍天",
+          "reading": "cāngtiān",
+          "hanViet": "thương thiên",
+          "meaningVn": "trời xanh, ông trời (苍天有眼)"
+        },
+        {
+          "headword": "白发苍苍",
+          "reading": "bái fà cāng cāng",
+          "hanViet": "bạch phát thương thương",
+          "meaningVn": "tóc bạc phơ (vì tuổi già)"
+        }
+      ],
+      "note": "苍 (艹 đầu) khác 沧 (cāng, sóng nước xanh sẫm — 氵) và 舱 (cāng, khoang tàu/máy bay — 舟). Cùng âm cāng, khác bộ (艹/氵/舟)."
+    },
+    {
+      "id": "zh-cluster-cang-vicissitude",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "沧",
+      "centerReading": "cāng",
+      "centerHanViet": "thương",
+      "centerMeaningVn": "(nước) xanh thẫm; lạnh (沧沧)",
+      "words": [
+        {
+          "headword": "沧桑",
+          "reading": "cāngsāng",
+          "hanViet": "thương tang",
+          "meaningVn": "bể dâu — sự đổi thay lớn lao của cuộc đời/thời cuộc (nói tắt của 沧海桑田)"
+        },
+        {
+          "headword": "沧海一粟",
+          "reading": "cāng hǎi yí sù",
+          "hanViet": "thương hải nhất túc",
+          "meaningVn": "một hạt thóc giữa biển khơi — cực kỳ nhỏ nhoi"
+        },
+        {
+          "headword": "饱经沧桑",
+          "reading": "bǎo jīng cāng sāng",
+          "hanViet": "bão kinh thương tang",
+          "meaningVn": "từng trải nhiều thăng trầm dâu bể"
+        },
+        {
+          "headword": "沧海桑田",
+          "reading": "cāng hǎi sāng tián",
+          "hanViet": "thương hải tang điền",
+          "meaningVn": "biển xanh hóa nương dâu — thế sự biến đổi khôn lường"
+        }
+      ],
+      "note": "沧 (氵 = nước) — biển xanh thẫm. Khác 苍 (cāng, xanh cây / xám tóc — 艹). 沧海 (biển) dùng 沧; 苍天 (trời) dùng 苍."
     }
   ],
   "todo": [
