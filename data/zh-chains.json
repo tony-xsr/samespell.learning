@@ -237,10 +237,42 @@
           "hanViet": "học kỳ",
           "meaningVn": "học kỳ",
           "sharedCharPrev": "学",
+          "sharedCharNext": "期"
+        },
+        {
+          "headword": "期刊",
+          "reading": "qīkān",
+          "hanViet": "kỳ san",
+          "meaningVn": "tạp chí định kỳ",
+          "sharedCharPrev": "期",
+          "sharedCharNext": "刊"
+        },
+        {
+          "headword": "刊登",
+          "reading": "kāndēng",
+          "hanViet": "san đăng",
+          "meaningVn": "đăng tải (báo chí)",
+          "sharedCharPrev": "刊",
+          "sharedCharNext": "登"
+        },
+        {
+          "headword": "登记",
+          "reading": "dēngjì",
+          "hanViet": "đăng ký",
+          "meaningVn": "đăng ký, ghi danh",
+          "sharedCharPrev": "登",
+          "sharedCharNext": "记"
+        },
+        {
+          "headword": "记录",
+          "reading": "jìlù",
+          "hanViet": "ký lục",
+          "meaningVn": "ghi chép, kỷ lục",
+          "sharedCharPrev": "记",
           "sharedCharNext": null
         }
       ],
-      "note": "Domino 7 mắt xích qua 化→学→校→长→大→学 (chữ 学 xuất hiện 2 lần ở 2 vị trí khác nhau trong cùng 1 chuỗi — vẫn hợp lệ vì đúng đuôi=đầu ở từng bước)."
+      "note": "Domino 7 mắt xích qua 化→学→校→长→大→学 (chữ 学 xuất hiện 2 lần ở 2 vị trí khác nhau trong cùng 1 chuỗi — vẫn hợp lệ vì đúng đuôi=đầu ở từng bước). Nối dài thêm qua 期→刊→登→记: 期刊→刊登→登记→记录. Dừng ở 记录 vì 录 hiếm khi đứng đầu từ ghép phổ biến trong tiếng Trung hiện đại."
     },
     {
       "id": "zh-chain-jiazu-zupu-puxi",
@@ -1397,10 +1429,42 @@
           "hanViet": "điếm phổ",
           "meaningVn": "cửa hàng, tiệm",
           "sharedCharPrev": "店",
+          "sharedCharNext": "铺"
+        },
+        {
+          "headword": "铺子",
+          "reading": "pùzi",
+          "hanViet": "phô tử",
+          "meaningVn": "cửa hàng nhỏ",
+          "sharedCharPrev": "铺",
+          "sharedCharNext": "子"
+        },
+        {
+          "headword": "子弹",
+          "reading": "zǐdàn",
+          "hanViet": "tử đạn",
+          "meaningVn": "viên đạn",
+          "sharedCharPrev": "子",
+          "sharedCharNext": "弹"
+        },
+        {
+          "headword": "弹药",
+          "reading": "dànyào",
+          "hanViet": "đạn dược",
+          "meaningVn": "đạn dược",
+          "sharedCharPrev": "弹",
+          "sharedCharNext": "药"
+        },
+        {
+          "headword": "药品",
+          "reading": "yàopǐn",
+          "hanViet": "dược phẩm",
+          "meaningVn": "dược phẩm, thuốc men",
+          "sharedCharPrev": "药",
           "sharedCharNext": null
         }
       ],
-      "note": "Domino 7 mắt xích qua 机→场→地→图→书→店 (nối dài thêm từ bản 6 mắt xích trước đó, round 14: đổi hướng khỏi 机会>会员 vì 员 hầu như chỉ đứng cuối từ, không nối dài được)."
+      "note": "Domino 7 mắt xích qua 机→场→地→图→书→店 (nối dài thêm từ bản 6 mắt xích trước đó, round 14: đổi hướng khỏi 机会>会员 vì 员 hầu như chỉ đứng cuối từ, không nối dài được). Nối dài thêm qua 铺→子→弹→药: 铺子→子弹→弹药→药品. Dừng ở 药品 vì 品 đã dùng hết các từ ghép phổ biến (品质/品格/品种) trong kho từ hiện có."
     },
     {
       "id": "zh-chain-tianqi-houbu-buchong",
@@ -2077,10 +2141,34 @@
           "hanViet": "cách cục",
           "meaningVn": "cục diện, bố cục",
           "sharedCharPrev": "格",
+          "sharedCharNext": "局"
+        },
+        {
+          "headword": "局部",
+          "reading": "júbù",
+          "hanViet": "cục bộ",
+          "meaningVn": "cục bộ, một phần",
+          "sharedCharPrev": "局",
+          "sharedCharNext": "部"
+        },
+        {
+          "headword": "部队",
+          "reading": "bùduì",
+          "hanViet": "bộ đội",
+          "meaningVn": "bộ đội, quân đội",
+          "sharedCharPrev": "部",
+          "sharedCharNext": "队"
+        },
+        {
+          "headword": "队伍",
+          "reading": "duìwǔ",
+          "hanViet": "đội ngũ",
+          "meaningVn": "đội ngũ",
+          "sharedCharPrev": "队",
           "sharedCharNext": null
         }
       ],
-      "note": "Domino 8 mắt xích qua 乐→观→察→觉→悟→性 (nối dài thêm từ bản 7 mắt xích trước đó, round 22)."
+      "note": "Domino 8 mắt xích qua 乐→观→察→觉→悟→性 (nối dài thêm từ bản 7 mắt xích trước đó, round 22). Nối dài thêm qua 局→部→队: 局部→部队→队伍. Dừng ở 队伍 vì 伍 hiếm khi đứng đầu từ ghép hiện đại (chỉ thấy ở vị trí sau: 入伍/退伍)."
     },
     {
       "id": "zh-chain-xinxin-xinli-zhihui",
