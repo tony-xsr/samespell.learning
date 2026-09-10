@@ -33353,7 +33353,7 @@
           "headword": "钢琴",
           "reading": "gāngqín",
           "hanViet": "cương cầm",
-          "meaningVn": "đàn piano"
+          "meaningVn": "đàn dương cầm"
         },
         {
           "headword": "弹琴",
@@ -33365,7 +33365,7 @@
           "headword": "小提琴",
           "reading": "xiǎotíqín",
           "hanViet": "tiểu đề cầm",
-          "meaningVn": "đàn violin"
+          "meaningVn": "đàn vĩ cầm"
         },
         {
           "headword": "口琴",
@@ -50987,7 +50987,7 @@
           "headword": "弹钢琴",
           "reading": "tán gāngqín",
           "hanViet": "đạn cương cầm",
-          "meaningVn": "chơi/đánh đàn piano"
+          "meaningVn": "chơi/đánh đàn dương cầm"
         },
         {
           "headword": "子弹",
@@ -63783,6 +63783,1140 @@
         }
       ],
       "note": "僭 (亻 = người) khác 谮 (zèn, gièm pha — 讠) và 潜 (qián, ngầm — 氵). 僭越 là tội lớn trong xã hội tôn ti phong kiến — \"是可忍孰不可忍\" (Khổng Tử giận Quý thị dùng vũ bát dật)."
+    },
+    {
+      "id": "zh-cluster-zi-unrestrained",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "恣",
+      "centerReading": "zì",
+      "centerHanViet": "tứ",
+      "centerMeaningVn": "buông thả, phóng túng, tùy tiện không kiêng dè",
+      "words": [
+        {
+          "headword": "恣意",
+          "reading": "zìyì",
+          "hanViet": "tứ ý",
+          "meaningVn": "tùy tiện làm theo ý mình bất chấp (恣意妄为, 恣意破坏)"
+        },
+        {
+          "headword": "放恣",
+          "reading": "fàngzì",
+          "hanViet": "phóng tứ",
+          "meaningVn": "buông tuồng, phóng đãng không kiềm chế"
+        },
+        {
+          "headword": "恣睢",
+          "reading": "zìsuī",
+          "hanViet": "tứ tuy",
+          "meaningVn": "hung hăng ngang ngược làm càn (暴戾恣睢)"
+        }
+      ],
+      "note": "恣 (心 ở dưới + 次) khác 咨 (zī, hỏi ý kiến — 口, 咨询), 资 (zī, vốn liếng — 贝, 资本), 姿 (zī, dáng vẻ — 女, 姿态). Bốn chữ cùng đầu 次, chỉ 恣 đọc zì (thanh 4) và có 心."
+    },
+    {
+      "id": "zh-cluster-zi-consult",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "咨",
+      "centerReading": "zī",
+      "centerHanViet": "tư",
+      "centerMeaningVn": "hỏi ý kiến, bàn bạc",
+      "words": [
+        {
+          "headword": "咨询",
+          "reading": "zīxún",
+          "hanViet": "tư tuân",
+          "meaningVn": "hỏi ý kiến chuyên môn, tư vấn (法律咨询, 心理咨询)"
+        },
+        {
+          "headword": "咨文",
+          "reading": "zīwén",
+          "hanViet": "tư văn",
+          "meaningVn": "thông điệp / văn bản báo cáo của người đứng đầu nhà nước (国情咨文)"
+        },
+        {
+          "headword": "咨嗟",
+          "reading": "zījiē",
+          "hanViet": "tư ta",
+          "meaningVn": "than thở (蜀道之难，难于上青天，侧身西望长咨嗟 — Lý Bạch)"
+        }
+      ],
+      "note": "咨 (口 = miệng, hỏi) khác 恣 (心, phóng túng), 姿 (女, dáng), 资 (贝, vốn). 咨 và 谘 là hai cách viết, nay dùng 咨. Đừng lẫn 咨询 với 资讯 (zīxùn, tin tức)."
+    },
+    {
+      "id": "zh-cluster-zi-posture",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "姿",
+      "centerReading": "zī",
+      "centerHanViet": "tư",
+      "centerMeaningVn": "dáng vẻ, tư thế; dung nhan",
+      "words": [
+        {
+          "headword": "姿态",
+          "reading": "zītài",
+          "hanViet": "tư thái",
+          "meaningVn": "tư thế, dáng điệu; thái độ biểu lộ ra (高姿态 = thái độ độ lượng nhún nhường)"
+        },
+        {
+          "headword": "姿势",
+          "reading": "zīshì",
+          "hanViet": "tư thế",
+          "meaningVn": "tư thế của cơ thể (坐姿, 睡姿)"
+        },
+        {
+          "headword": "英姿",
+          "reading": "yīngzī",
+          "hanViet": "anh tư",
+          "meaningVn": "dáng vẻ oai hùng đẹp đẽ (英姿飒爽)"
+        },
+        {
+          "headword": "搔首弄姿",
+          "reading": "sāo shǒu nòng zī",
+          "hanViet": "tao thủ lộng tư",
+          "meaningVn": "gãi đầu làm dáng — õng ẹo làm điệu bộ khoe khoang"
+        }
+      ],
+      "note": "姿 (女 = nữ, ở dưới) khác 咨 (口), 恣 (心), 资 (贝). 姿色 = nhan sắc; 多姿多彩 = muôn màu muôn vẻ."
+    },
+    {
+      "id": "zh-cluster-guang-rough-wild",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "犷",
+      "centerReading": "guǎng",
+      "centerHanViet": "quánh",
+      "centerMeaningVn": "thô lỗ hung dữ; hoang dã chưa thuần",
+      "words": [
+        {
+          "headword": "粗犷",
+          "reading": "cūguǎng",
+          "hanViet": "thô quánh",
+          "meaningVn": "thô ráp mạnh mẽ, hoang dã phóng khoáng (粗犷的性格, 粗犷的西北民歌)"
+        },
+        {
+          "headword": "犷悍",
+          "reading": "guǎnghàn",
+          "hanViet": "quánh hãn",
+          "meaningVn": "hung tợn dữ dằn"
+        }
+      ],
+      "note": "犷 (犭 = thú) khác 旷 (kuàng, trống trải / bỏ bê — 日, 空旷, 旷课), 矿 (kuàng, quặng mỏ — 石, 矿产), 圹 (kuàng, huyệt mộ — 土). Cùng gốc 广. 粗犷 mang sắc thái vừa thô vừa có sức."
+    },
+    {
+      "id": "zh-cluster-kuang-vast-neglect",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "旷",
+      "centerReading": "kuàng",
+      "centerHanViet": "khoáng",
+      "centerMeaningVn": "trống trải rộng rãi; bỏ bê, để trống; thoáng đãng trong lòng",
+      "words": [
+        {
+          "headword": "空旷",
+          "reading": "kōngkuàng",
+          "hanViet": "không khoáng",
+          "meaningVn": "trống trải mênh mông, không có gì che chắn"
+        },
+        {
+          "headword": "旷课",
+          "reading": "kuàngkè",
+          "hanViet": "khoáng khóa",
+          "meaningVn": "trốn học, cúp tiết (không xin phép)"
+        },
+        {
+          "headword": "旷工",
+          "reading": "kuànggōng",
+          "hanViet": "khoáng công",
+          "meaningVn": "nghỉ làm không lý do, bỏ ca"
+        },
+        {
+          "headword": "心旷神怡",
+          "reading": "xīn kuàng shén yí",
+          "hanViet": "tâm khoáng thần di",
+          "meaningVn": "lòng khoan khoái tinh thần sảng khoái (đứng trước cảnh đẹp)"
+        }
+      ],
+      "note": "旷 (日 = mặt trời, ánh sáng chan hòa) khác 犷 (犭, hung dữ), 圹 (土, huyệt mộ). 旷 gộp \"rộng thoáng\" (旷野) và \"bỏ trống\" (旷日持久 = kéo dài lê thê)."
+    },
+    {
+      "id": "zh-cluster-kuang-grave-pit",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "圹",
+      "centerReading": "kuàng",
+      "centerHanViet": "khoáng",
+      "centerMeaningVn": "huyệt mộ; đồng hoang",
+      "words": [
+        {
+          "headword": "墓圹",
+          "reading": "mùkuàng",
+          "hanViet": "mộ khoáng",
+          "meaningVn": "huyệt đào để hạ quan tài"
+        },
+        {
+          "headword": "圹埌",
+          "reading": "kuànglàng",
+          "hanViet": "khoáng lãng",
+          "meaningVn": "(đồng ruộng) mênh mông không bờ bến"
+        }
+      ],
+      "note": "圹 (土 = đất) khác 旷 (日, trống trải), 犷 (犭, hung dữ), 矿 (石, quặng). 圹 chuyên chỉ cái hố đất chôn người, hiếm gặp ngoài văn tế."
+    },
+    {
+      "id": "zh-cluster-yong-lane-corridor",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "甬",
+      "centerReading": "yǒng",
+      "centerHanViet": "dũng",
+      "centerMeaningVn": "lối đi có mái/hai bên tường; tên gọi tắt của Ninh Ba",
+      "words": [
+        {
+          "headword": "甬道",
+          "reading": "yǒngdào",
+          "hanViet": "dũng đạo",
+          "meaningVn": "lối đi lát gạch/đá giữa sân, hai bên có tường hoặc cây (甬路)"
+        },
+        {
+          "headword": "甬江",
+          "reading": "Yǒngjiāng",
+          "hanViet": "Dũng Giang",
+          "meaningVn": "sông Dũng (chảy qua Ninh Ba — 宁波 gọi tắt là 甬)"
+        },
+        {
+          "headword": "甬剧",
+          "reading": "Yǒngjù",
+          "hanViet": "Dũng kịch",
+          "meaningVn": "kịch Dũng (kịch chủng địa phương vùng Ninh Ba)"
+        }
+      ],
+      "note": "Họ chữ gốc 甬: 甬 (yǒng, lối đi), 涌 (yǒng, nước trào lên — 氵, 汹涌), 踊 (yǒng, nhảy lên — 足, 踊跃), 恿 (yǒng, xúi giục — 心, 怂恿), 蛹 (yǒng, con nhộng — 虫)."
+    },
+    {
+      "id": "zh-cluster-yong-incite",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "恿",
+      "centerReading": "yǒng",
+      "centerHanViet": "dũng",
+      "centerMeaningVn": "chỉ dùng trong 怂恿",
+      "words": [
+        {
+          "headword": "怂恿",
+          "reading": "sǒngyǒng",
+          "hanViet": "túng dũng",
+          "meaningVn": "xúi giục, kích động ai làm việc gì (thường là việc không nên)"
+        },
+        {
+          "headword": "从旁怂恿",
+          "reading": "cóng páng sǒngyǒng",
+          "hanViet": "tòng bàng túng dũng",
+          "meaningVn": "đứng bên cạnh xúi bẩy, thúc đẩy"
+        }
+      ],
+      "note": "恿 (心 ở dưới + 甬) chỉ đi với 怂. Khác 涌 (氵, nước trào), 踊 (足, nhảy). 怂恿 luôn hàm ý xúi người khác làm chuyện dại/xấu."
+    },
+    {
+      "id": "zh-cluster-yong-leap-eager",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "踊",
+      "centerReading": "yǒng",
+      "centerHanViet": "dũng",
+      "centerMeaningVn": "nhảy lên; hăng hái vọt lên",
+      "words": [
+        {
+          "headword": "踊跃",
+          "reading": "yǒngyuè",
+          "hanViet": "dũng dược",
+          "meaningVn": "hăng hái sôi nổi, tranh nhau tham gia (踊跃报名, 踊跃发言)"
+        },
+        {
+          "headword": "欢呼踊跃",
+          "reading": "huānhū yǒngyuè",
+          "hanViet": "hoan hô dũng dược",
+          "meaningVn": "reo hò nhảy nhót phấn khích"
+        }
+      ],
+      "note": "踊 (足 = chân) khác 涌 (氵, nước), 恿 (心, xúi giục). 踊跃 tả không khí tham gia nhiệt tình sôi nổi."
+    },
+    {
+      "id": "zh-cluster-qiao-watchtower",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "谯",
+      "centerReading": "qiáo",
+      "centerHanViet": "tiều",
+      "centerMeaningVn": "chòi canh trên cổng thành (谯楼); trách mắng (谯让)",
+      "words": [
+        {
+          "headword": "谯楼",
+          "reading": "qiáolóu",
+          "hanViet": "tiều lâu",
+          "meaningVn": "vọng lâu trên cổng thành để quan sát và đánh trống báo giờ/báo động"
+        },
+        {
+          "headword": "谯责",
+          "reading": "qiáozé",
+          "hanViet": "tiều trách",
+          "meaningVn": "quở trách, khiển trách (cách nói cổ, cũng viết 谴责 với 谴)"
+        },
+        {
+          "headword": "谯周",
+          "reading": "Qiáo Zhōu",
+          "hanViet": "Tiều Chu",
+          "meaningVn": "Tiều Chu — học giả nước Thục thời Tam Quốc, người khuyên Lưu Thiện đầu hàng"
+        }
+      ],
+      "note": "谯 (讠 + 焦) khác 憔 (qiáo, tiều tụy — 忄, 憔悴), 樵 (qiáo, đốn củi — 木, 樵夫), 醮 (jiào, làm chay — 酉, 打醮). Cùng gốc 焦."
+    },
+    {
+      "id": "zh-cluster-qiao-woodcutter",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "樵",
+      "centerReading": "qiáo",
+      "centerHanViet": "tiều",
+      "centerMeaningVn": "củi; đốn củi; người kiếm củi",
+      "words": [
+        {
+          "headword": "樵夫",
+          "reading": "qiáofū",
+          "hanViet": "tiều phu",
+          "meaningVn": "người đốn củi (một trong tứ dân ẩn dật: 渔樵耕读)"
+        },
+        {
+          "headword": "樵采",
+          "reading": "qiáocǎi",
+          "hanViet": "tiều thái",
+          "meaningVn": "vào rừng đốn củi hái rau"
+        },
+        {
+          "headword": "渔樵问答",
+          "reading": "yú qiáo wèndá",
+          "hanViet": "ngư tiều vấn đáp",
+          "meaningVn": "\"Ngư tiều vấn đáp\" — khúc cầm nổi tiếng, ông chài và tiều phu bàn chuyện thịnh suy"
+        }
+      ],
+      "note": "樵 (木 = gỗ) khác 憔 (忄, tiều tụy), 谯 (讠, chòi canh), 瞧 (qiáo, nhìn — 目, 瞧一瞧). 樵夫 và 渔父 là hình tượng ẩn sĩ quen thuộc."
+    },
+    {
+      "id": "zh-cluster-jiao-taoist-rite",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "醮",
+      "centerReading": "jiào",
+      "centerHanViet": "tiếu",
+      "centerMeaningVn": "lễ tế của đạo sĩ (打醮); (cổ) lễ cưới, đàn bà tái giá",
+      "words": [
+        {
+          "headword": "打醮",
+          "reading": "dǎjiào",
+          "hanViet": "đả tiếu",
+          "meaningVn": "làm lễ chay đạo giáo — đạo sĩ lập đàn tụng kinh cầu an, giải hạn, siêu độ"
+        },
+        {
+          "headword": "醮坛",
+          "reading": "jiàotán",
+          "hanViet": "tiếu đàn",
+          "meaningVn": "đàn tế do đạo sĩ lập để hành lễ"
+        },
+        {
+          "headword": "再醮",
+          "reading": "zàijiào",
+          "hanViet": "tái tiếu",
+          "meaningVn": "(phụ nữ) lấy chồng lần nữa (cách nói cũ, hàm ý coi thường trong lễ giáo phong kiến)"
+        }
+      ],
+      "note": "醮 (酉 = rượu, vì lễ tế có rót rượu) khác 樵 (木), 谯 (讠), 憔 (忄). 打醮 nay vẫn thấy ở các miếu đạo giáo dịp lễ lớn."
+    },
+    {
+      "id": "zh-cluster-zi-criticize",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "訾",
+      "centerReading": "zǐ",
+      "centerHanViet": "tí",
+      "centerMeaningVn": "(zǐ) chê bai, nói xấu; (zī) tính toán / họ Tí",
+      "words": [
+        {
+          "headword": "訾议",
+          "reading": "zǐyì",
+          "hanViet": "tí nghị",
+          "meaningVn": "bàn tán chê bai, dị nghị (无可訾议 = không có gì đáng chê trách)"
+        },
+        {
+          "headword": "訾毁",
+          "reading": "zǐhuǐ",
+          "hanViet": "tí hủy",
+          "meaningVn": "gièm pha bôi nhọ"
+        },
+        {
+          "headword": "不訾",
+          "reading": "bùzī",
+          "hanViet": "bất tí",
+          "meaningVn": "không tính đếm được — nhiều vô kể (价值不訾 = giá trị vô cùng, đọc zī)"
+        }
+      ],
+      "note": "訾 (言 ở dưới) đọc zǐ nghĩa \"chê bai\" (訾议), đọc zī nghĩa \"đo lường\" hoặc làm họ. Khác 訿 và 呰. Đừng lẫn 訾 với 赀 (zī, phạt tiền — 贝)."
+    },
+    {
+      "id": "zh-cluster-ni-hide-conceal",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "匿",
+      "centerReading": "nì",
+      "centerHanViet": "nặc",
+      "centerMeaningVn": "giấu, ẩn nấp; không để lộ tên",
+      "words": [
+        {
+          "headword": "藏匿",
+          "reading": "cángnì",
+          "hanViet": "tàng nặc",
+          "meaningVn": "giấu giếm (người, tang vật) không cho ai biết"
+        },
+        {
+          "headword": "匿名",
+          "reading": "nìmíng",
+          "hanViet": "nặc danh",
+          "meaningVn": "giấu tên (匿名信 = thư nặc danh; 匿名举报)"
+        },
+        {
+          "headword": "销声匿迹",
+          "reading": "xiāo shēng nì jì",
+          "hanViet": "tiêu thanh nặc tích",
+          "meaningVn": "tắt tiếng giấu tăm — biến mất hẳn, không còn xuất hiện"
+        },
+        {
+          "headword": "隐匿",
+          "reading": "yǐnnì",
+          "hanViet": "ẩn nặc",
+          "meaningVn": "ẩn giấu, che đậy (隐匿财产, 隐匿罪证)"
+        }
+      ],
+      "note": "匿 (匚 bao ngoài + 若) khác 慝 (tè, điều ác giấu kín — 心, 隐慝) và 匾 (biǎn, tấm biển — 匚 + 扁). 匿 luôn nghĩa \"giấu đi, ẩn kín\"."
+    },
+    {
+      "id": "zh-cluster-tan-sandalwood",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "檀",
+      "centerReading": "tán",
+      "centerHanViet": "đàn",
+      "centerMeaningVn": "cây đàn hương / gỗ đàn; màu nâu hồng nhạt (檀色)",
+      "words": [
+        {
+          "headword": "檀香",
+          "reading": "tánxiāng",
+          "hanViet": "đàn hương",
+          "meaningVn": "gỗ đàn hương thơm; hương đốt từ gỗ đó (檀香扇, 檀香皂)"
+        },
+        {
+          "headword": "紫檀",
+          "reading": "zǐtán",
+          "hanViet": "tử đàn",
+          "meaningVn": "gỗ trắc tím / đàn hương tía — gỗ quý làm đồ mỹ nghệ, đàn hương tía Ấn Độ rất đắt"
+        },
+        {
+          "headword": "檀郎",
+          "reading": "tánláng",
+          "hanViet": "đàn lang",
+          "meaningVn": "(văn thơ) chàng trai điển trai mà cô gái thầm yêu (từ điển Phan An tự Đàn Nô)"
+        },
+        {
+          "headword": "檀越",
+          "reading": "tányuè",
+          "hanViet": "đàn việt",
+          "meaningVn": "thí chủ, người cúng dường cho nhà chùa (檀越 = 檀那, phiên âm từ tiếng Phạn nghĩa \"bố thí\")"
+        }
+      ],
+      "note": "檀 (木) — 檀香 (đàn hương), 紫檀 (trắc tím), 黄檀, 青檀 (làm giấy tuyên). 檀越/檀那 là từ Phật giáo chỉ thí chủ. Khác 擅 (shàn, tự tiện — 扌, 擅自) và 澶 (chán, 澶渊 địa danh — 氵)."
+    },
+    {
+      "id": "zh-cluster-hua-birch",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "桦",
+      "centerReading": "huà",
+      "centerHanViet": "hoa",
+      "centerMeaningVn": "cây bạch dương / cây phong (桦树)",
+      "words": [
+        {
+          "headword": "白桦",
+          "reading": "báihuà",
+          "hanViet": "bạch hoa",
+          "meaningVn": "cây bạch dương (vỏ trắng bong thành mảnh mỏng, rừng bạch dương phương bắc rất đẹp)"
+        },
+        {
+          "headword": "桦树皮",
+          "reading": "huàshùpí",
+          "hanViet": "hoa thụ bì",
+          "meaningVn": "vỏ cây bạch dương (người phương bắc và dân tộc Ngạc Luân Xuân xưa dùng làm thuyền, đồ đựng)"
+        },
+        {
+          "headword": "桦林",
+          "reading": "huàlín",
+          "hanViet": "hoa lâm",
+          "meaningVn": "rừng bạch dương"
+        }
+      ],
+      "note": "桦 (木) — 白桦 là biểu tượng của rừng Xi-bê-ri và Đông Bắc Trung Quốc. Khác 华 (huá, hoa lệ / Trung Hoa — 华丽) và 哗 (huá, ồn ào — 口, 喧哗). Cùng phần 华."
+    },
+    {
+      "id": "zh-cluster-shan-fir-cedar",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "杉",
+      "centerReading": "shān",
+      "centerHanViet": "sam",
+      "centerMeaningVn": "(shān) cây sam / thông đuôi ngựa; (shā) 杉木 gỗ sa mộc (khẩu ngữ)",
+      "words": [
+        {
+          "headword": "水杉",
+          "reading": "shuǐshān",
+          "hanViet": "thủy sam",
+          "meaningVn": "cây thủy sam — \"hóa thạch sống\", loài cổ tưởng tuyệt chủng, phát hiện lại ở Hồ Bắc năm một chín bốn mươi mấy"
+        },
+        {
+          "headword": "云杉",
+          "reading": "yúnshān",
+          "hanViet": "vân sam",
+          "meaningVn": "cây vân sam (gỗ nhẹ, làm giấy, làm mặt đàn vĩ cầm, ghi-ta)"
+        },
+        {
+          "headword": "红杉",
+          "reading": "hóngshān",
+          "hanViet": "hồng sam",
+          "meaningVn": "cây cù tùng đỏ (cù tùng đỏ) — loài cây cao nhất thế giới, ở Ca-li-phoóc-ni-a"
+        }
+      ],
+      "note": "杉 (木 + 彡) đọc shān trong hầu hết từ (水杉, 云杉, 冷杉), đọc shā trong khẩu ngữ 杉木, 杉篙. Khác 衫 (shān, áo — 衤, 衬衫) và 彬 (bīn, 彬彬有礼 — 彡)."
+    },
+    {
+      "id": "zh-cluster-tong-paulownia",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "桐",
+      "centerReading": "tóng",
+      "centerHanViet": "đồng",
+      "centerMeaningVn": "cây ngô đồng, cây trẩu (họ nhiều loài: 梧桐, 油桐, 泡桐)",
+      "words": [
+        {
+          "headword": "梧桐",
+          "reading": "wútóng",
+          "hanViet": "ngô đồng",
+          "meaningVn": "cây ngô đồng (lá to xòe như bàn tay; \"梧桐引凤凰\" — chim phượng chỉ đậu cây ngô đồng)"
+        },
+        {
+          "headword": "油桐",
+          "reading": "yóutóng",
+          "hanViet": "du đồng",
+          "meaningVn": "cây trẩu (hạt ép ra 桐油 = dầu trẩu, quét thuyền, chống thấm gỗ, làm sơn)"
+        },
+        {
+          "headword": "泡桐",
+          "reading": "pāotóng",
+          "hanViet": "phao đồng",
+          "meaningVn": "cây bao đồng (mọc rất nhanh, gỗ nhẹ mềm, làm nhạc cụ, đồ nội thất rẻ — Lan Khảo trồng nhiều thời Tiêu Dụ Lộc)"
+        }
+      ],
+      "note": "桐 (木) — 梧桐 (ngô đồng) khác 悟 (wù, hiểu — 忄, 领悟). \"叶落知秋\" thường vẽ lá 梧桐. Đàn cổ cầm tốt làm bằng gỗ 桐 (mặt) và 梓 (đáy) — nên gọi 桐梓."
+    },
+    {
+      "id": "zh-cluster-yu-elm",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "榆",
+      "centerReading": "yú",
+      "centerHanViet": "du",
+      "centerMeaningVn": "cây du (榆树 — quả dẹt tròn gọi 榆钱, ăn được)",
+      "words": [
+        {
+          "headword": "榆钱",
+          "reading": "yúqián",
+          "hanViet": "du tiền",
+          "meaningVn": "quả cây du — cánh mỏng tròn như đồng xu, mọc thành chùm, xào hoặc trộn bột hấp ăn"
+        },
+        {
+          "headword": "桑榆",
+          "reading": "sāngyú",
+          "hanViet": "tang du",
+          "meaningVn": "cây dâu và cây du — nơi mặt trời lặn; ví tuổi già (失之东隅，收之桑榆 = mất buổi sớm, được lúc chiều)"
+        },
+        {
+          "headword": "榆木疙瘩",
+          "reading": "yúmù gēda",
+          "hanViet": "du mộc ngật đáp",
+          "meaningVn": "cục gỗ du — ví người cứng đầu, đầu óc chậm chạp không thông"
+        }
+      ],
+      "note": "榆 (木) khác 愉 (yú, vui — 忄, 愉快), 逾 (yú, vượt quá — 辶, 逾期), 谕 (yù, dụ bảo — 讠, 谕旨). Cùng phần 俞. \"榆木脑袋\" = đầu óc bã đậu."
+    },
+    {
+      "id": "zh-cluster-qiu-catalpa",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "楸",
+      "centerReading": "qiū",
+      "centerHanViet": "thu",
+      "centerMeaningVn": "cây thu / cây gỗ vàng (楸树 — gỗ tốt làm bàn cờ, quan tài, guốc)",
+      "words": [
+        {
+          "headword": "楸枰",
+          "reading": "qiūpíng",
+          "hanViet": "thu bình",
+          "meaningVn": "bàn cờ vây (làm bằng gỗ 楸 — nên 楸枰 = ván cờ, cuộc cờ)"
+        },
+        {
+          "headword": "楸树",
+          "reading": "qiūshù",
+          "hanViet": "thu thụ",
+          "meaningVn": "cây thu (hoa trắng có đốm tím, mọc thẳng cao, lá to)"
+        }
+      ],
+      "note": "楸 (木) khác 揪 (jiū, túm — 扌, 揪心), 秋 (qiū, mùa thu — 禾), 鳅 (qiū, cá chạch — 鱼, 泥鳅). Cùng phần 秋. Gỗ 楸 xưa dùng đóng quan tài loại tốt."
+    },
+    {
+      "id": "zh-cluster-gui-juniper-qin",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "桧",
+      "centerReading": "guì",
+      "centerHanViet": "cối",
+      "centerMeaningVn": "(guì) cây cối / bách xù (桧柏); (huì) trong tên người 秦桧",
+      "words": [
+        {
+          "headword": "桧柏",
+          "reading": "guìbǎi",
+          "hanViet": "cối bách",
+          "meaningVn": "cây bách xù / trắc bách diệp (lá hình vảy, trồng làm cây cảnh, viền lối đi)"
+        },
+        {
+          "headword": "秦桧",
+          "reading": "Qín Huì",
+          "hanViet": "Tần Cối",
+          "meaningVn": "Tần Cối — gian thần Nam Tống, người hãm hại Nhạc Phi (đọc Huì); tượng vợ chồng ông ta quỳ trước mộ Nhạc Phi"
+        },
+        {
+          "headword": "油炸桧",
+          "reading": "yóuzháguì",
+          "hanViet": "du tạc cối",
+          "meaningVn": "\"Cối rán\" — tên gọi dân gian của quẩy (油条) ở Hàng Châu, ngụ ý rán Tần Cối cho hả giận"
+        }
+      ],
+      "note": "桧 (木) đọc guì nghĩa cây bách xù, đọc huì trong tên 秦桧 (kiêng huý / phân biệt). Khác 侩 (kuài, 市侩 con buôn — 亻) và 刽 (guì, 刽子手 đao phủ — 刂). Cùng phần 会."
+    },
+    {
+      "id": "zh-cluster-lu-palm-tree",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "榈",
+      "centerReading": "lǘ",
+      "centerHanViet": "lư",
+      "centerMeaningVn": "chỉ dùng trong 棕榈",
+      "words": [
+        {
+          "headword": "棕榈",
+          "reading": "zōnglǘ",
+          "hanViet": "tông lư",
+          "meaningVn": "cây cọ / cây thốt nốt (棕榈树 — bẹ lá xơ 棕丝 làm chổi, dây thừng, đệm; lá làm quạt, mũ)"
+        },
+        {
+          "headword": "棕榈油",
+          "reading": "zōnglǘ yóu",
+          "hanViet": "tông lư du",
+          "meaningVn": "dầu cọ (棕榈油 — dầu ăn công nghiệp phổ biến, ép từ quả cây cọ dầu)"
+        }
+      ],
+      "note": "榈 (木) chỉ đi với 棕. 棕榈 là họ cây gồm cả cau (槟榔), dừa (椰子), cọ. Khác 闾 (lǘ, xóm làng / cổng làng — 门, 里闾) và 驴 (lǘ, con lừa — 马). Cùng phần 吕."
+    },
+    {
+      "id": "zh-cluster-diao-marten-sable",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "貂",
+      "centerReading": "diāo",
+      "centerHanViet": "điêu",
+      "centerMeaningVn": "con chồn zibelin / con marten (貂皮lông rất quý)",
+      "words": [
+        {
+          "headword": "貂皮",
+          "reading": "diāopí",
+          "hanViet": "điêu bì",
+          "meaningVn": "lông chồn zibelin — loại lông thú quý bậc nhất, làm áo khoác, mũ, khăn"
+        },
+        {
+          "headword": "狗尾续貂",
+          "reading": "gǒu wěi xù diāo",
+          "hanViet": "cẩu vĩ tục điêu",
+          "meaningVn": "lấy đuôi chó nối vào đuôi chồn — vật tốt phần đầu, phần sau chắp vá kém cỏi (gốc: quan chức nhiều quá, mũ hết lông chồn phải dùng đuôi chó)"
+        },
+        {
+          "headword": "貂蝉",
+          "reading": "Diāochán",
+          "hanViet": "Điêu Thuyền",
+          "meaningVn": "Điêu Thuyền — một trong tứ đại mỹ nhân (\"闭月\"), nhân vật trong «Tam Quốc Diễn Nghĩa»"
+        }
+      ],
+      "note": "貂 (豸 = loài thú lưng dài, ăn thịt) — con chồn. Khác 招 (zhāo, vẫy — 扌), 昭 (zhāo, sáng rõ — 日, 昭雪). Cùng phần 召."
+    },
+    {
+      "id": "zh-cluster-ta-otter",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "獭",
+      "centerReading": "tǎ",
+      "centerHanViet": "thát",
+      "centerMeaningVn": "con rái cá (水獭 rái cá sông, 海獭 rái cá biển, 旱獭 macmot cạn)",
+      "words": [
+        {
+          "headword": "水獭",
+          "reading": "shuǐtǎ",
+          "hanViet": "thủy thát",
+          "meaningVn": "con rái cá — bơi lặn giỏi, bắt cá, lông không thấm nước; bị săn lấy lông nên hiếm"
+        },
+        {
+          "headword": "旱獭",
+          "reading": "hàntǎ",
+          "hanViet": "hạn thát",
+          "meaningVn": "con macmot (土拨鼠 — sóc đất béo mập, ngủ đông; ổ chứa vi khuẩn dịch hạch)"
+        },
+        {
+          "headword": "獭祭鱼",
+          "reading": "tǎ jì yú",
+          "hanViet": "thát tế ngư",
+          "meaningVn": "\"rái cá bày cá tế\" — rái bắt cá xếp thành hàng như bày lễ; ví lối viết văn chất đống điển cố khoe khoang (獭祭)"
+        }
+      ],
+      "note": "獭 (犭 = thú) khác 懒 (lǎn, lười — 忄, 懒惰) và 赖 (lài, ăn vạ / dựa — 贝, 抵赖, 依赖). Cùng phần 赖. 李商隐 viết văn hay dùng điển nên bị gọi \"獭祭鱼\"."
+    },
+    {
+      "id": "zh-cluster-mo-tapir",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "貘",
+      "centerReading": "mò",
+      "centerHanViet": "mạch",
+      "centerMeaningVn": "con heo vòi — thú lớn mõm dài như vòi ngắn, sống ở rừng nhiệt đới Nam Mỹ và Đông Nam Á",
+      "words": [
+        {
+          "headword": "马来貘",
+          "reading": "mǎlái mò",
+          "hanViet": "mã lai mạch",
+          "meaningVn": "heo vòi Mã Lai (nửa thân trước đen, nửa sau trắng, sơ sinh có sọc dưa hấu)"
+        },
+        {
+          "headword": "貘貘",
+          "reading": "mòmò",
+          "hanViet": "mạch mạch",
+          "meaningVn": "(thần thoại Trung - Nhật) con thú ăn ác mộng — nằm mơ thấy ác mộng thì gọi 貘 tới ăn giúp"
+        }
+      ],
+      "note": "貘 (豸) — con heo vòi. Truyền thuyết Nhật Bản (từ Trung Hoa) coi 貘 (ba-cư) là thú ăn mộng dữ. Khác 漠 (mò, sa mạc — 氵, 沙漠), 寞 (mò, cô tịch — 宀, 寂寞), 蓦 (mò, chợt — 艹, 蓦然). Cùng đầu 莫."
+    },
+    {
+      "id": "zh-cluster-ma-mammoth",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "犸",
+      "centerReading": "mǎ",
+      "centerHanViet": "mã",
+      "centerMeaningVn": "chỉ dùng trong 猛犸",
+      "words": [
+        {
+          "headword": "猛犸",
+          "reading": "měngmǎ",
+          "hanViet": "mãnh mã",
+          "meaningVn": "voi ma-mút (猛犸象 — voi lông xù thời băng hà, tuyệt chủng; xác đông cứng còn tìm thấy ở Xi-bê-ri)"
+        },
+        {
+          "headword": "猛犸象牙",
+          "reading": "měngmǎ xiàngyá",
+          "hanViet": "mãnh mã tượng nha",
+          "meaningVn": "ngà voi ma-mút hóa thạch (được đào lên bán làm nguyên liệu chạm khắc thay ngà voi hiện đại)"
+        }
+      ],
+      "note": "犸 (犭) chỉ đi với 猛. Phiên âm từ tiếng Nga мамонт. Khác 吗 (ma/má — 口, trợ từ), 妈 (mā, mẹ — 女), 码 (mǎ, mã số — 石). Cùng phần 马."
+    },
+    {
+      "id": "zh-cluster-chan-graceful-moon",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "婵",
+      "centerReading": "chán",
+      "centerHanViet": "thiền",
+      "centerMeaningVn": "chỉ dùng trong 婵娟 / 婵媛",
+      "words": [
+        {
+          "headword": "婵娟",
+          "reading": "chánjuān",
+          "hanViet": "thiền quyên",
+          "meaningVn": "(văn thơ) dáng vẻ đẹp đẽ mềm mại; cũng chỉ mặt trăng sáng đẹp (但愿人长久，千里共婵娟 — Tô Thức)"
+        },
+        {
+          "headword": "婵媛",
+          "reading": "chányuán",
+          "hanViet": "thiền viện",
+          "meaningVn": "(dáng) đẹp yểu điệu; (tình) quyến luyến vấn vương (楚辞: 女婵媛以詈余)"
+        }
+      ],
+      "note": "婵 (女) chỉ đi với 娟 hoặc 媛. Khác 禅 (chán, thiền định — 礻, 坐禅) và 蝉 (chán, ve sầu — 虫). \"千里共婵娟\" = dù xa nhau vẫn cùng ngắm một vầng trăng."
+    },
+    {
+      "id": "zh-cluster-juan-graceful-pretty",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "娟",
+      "centerReading": "juān",
+      "centerHanViet": "quyên",
+      "centerMeaningVn": "xinh đẹp mềm mại (thường dùng cho phụ nữ, chữ viết, cảnh vật)",
+      "words": [
+        {
+          "headword": "婵娟",
+          "reading": "chánjuān",
+          "hanViet": "thiền quyên",
+          "meaningVn": "vẻ đẹp mềm mại; mặt trăng đẹp"
+        },
+        {
+          "headword": "娟秀",
+          "reading": "juānxiù",
+          "hanViet": "quyên tú",
+          "meaningVn": "xinh xắn thanh tú (字迹娟秀 = nét chữ đẹp mảnh mai)"
+        },
+        {
+          "headword": "娟娟",
+          "reading": "juānjuān",
+          "hanViet": "quyên quyên",
+          "meaningVn": "đẹp đẽ dịu dàng (娟娟月色)"
+        }
+      ],
+      "note": "娟 (女) khác 捐 (juān, quyên góp — 扌, 捐款) và 涓 (juān, dòng nước nhỏ — 氵, 涓涓细流, 涓滴归公). Cùng phần 肙."
+    },
+    {
+      "id": "zh-cluster-tong-grief-stricken",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "恸",
+      "centerReading": "tòng",
+      "centerHanViet": "đỗng",
+      "centerMeaningVn": "đau buồn cực độ, khóc thảm thiết",
+      "words": [
+        {
+          "headword": "悲恸",
+          "reading": "bēitòng",
+          "hanViet": "bi đỗng",
+          "meaningVn": "đau đớn khôn xiết (悲恸欲绝 = đau đến muốn chết)"
+        },
+        {
+          "headword": "恸哭",
+          "reading": "tòngkū",
+          "hanViet": "đỗng khốc",
+          "meaningVn": "gào khóc thảm thiết"
+        },
+        {
+          "headword": "大恸",
+          "reading": "dàtòng",
+          "hanViet": "đại đỗng",
+          "meaningVn": "vô cùng đau thương (闻讯大恸)"
+        }
+      ],
+      "note": "恸 (忄 + 动) khác 恫 (dòng, đe dọa — 忄 + 同, 恫吓) và 痛 (tòng, đau — 疒). 恸 nặng hơn 痛心, luôn kèm khóc lóc."
+    },
+    {
+      "id": "zh-cluster-dong-intimidate",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "恫",
+      "centerReading": "dòng",
+      "centerHanViet": "đỗng",
+      "centerMeaningVn": "(dòng) 恫吓 đe dọa; (tōng) đau khổ (văn cổ)",
+      "words": [
+        {
+          "headword": "恫吓",
+          "reading": "dònghè",
+          "hanViet": "đỗng hách",
+          "meaningVn": "hù dọa, đe nẹt cho sợ (虚张声势的恫吓)"
+        },
+        {
+          "headword": "恫疑虚喝",
+          "reading": "dòng yí xū hè",
+          "hanViet": "đỗng nghi hư hách",
+          "meaningVn": "làm bộ đe dọa, hư trương thanh thế để dọa người"
+        },
+        {
+          "headword": "民莫不恫",
+          "reading": "mín mò bù tōng",
+          "hanViet": "dân mạc bất đỗng",
+          "meaningVn": "dân không ai là không đau khổ (đọc tōng — «Kinh Thi»)"
+        }
+      ],
+      "note": "恫 (忄 + 同) khác 恸 (tòng, đau thương — 忄 + 动) và 洞 (dòng, cái hang — 氵). 恫吓 (đe dọa) hay bị đọc nhầm thành \"tónghè\", đúng là \"dònghè\"."
+    },
+    {
+      "id": "zh-cluster-dong-torso",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "胴",
+      "centerReading": "dòng",
+      "centerHanViet": "đỗng",
+      "centerMeaningVn": "thân mình (không kể đầu và tứ chi); ruột già động vật",
+      "words": [
+        {
+          "headword": "胴体",
+          "reading": "dòngtǐ",
+          "hanViet": "đỗng thể",
+          "meaningVn": "thân thể (thường chỉ thân hình lõa lồ của người, nhất là phụ nữ — trong văn học/hội họa)"
+        },
+        {
+          "headword": "胴部",
+          "reading": "dòngbù",
+          "hanViet": "đỗng bộ",
+          "meaningVn": "phần thân giữa của cơ thể"
+        }
+      ],
+      "note": "胴 (月 = thịt/thân thể + 同) khác 洞 (dòng, hang — 氵), 恫 (dòng, dọa — 忄), 侗 (dòng/tóng, dân tộc Đồng — 亻). Cùng phần 同."
+    },
+    {
+      "id": "zh-cluster-zhan-delirious",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "谵",
+      "centerReading": "zhān",
+      "centerHanViet": "chiêm",
+      "centerMeaningVn": "nói mê sảng, nói lảm nhảm không mạch lạc",
+      "words": [
+        {
+          "headword": "谵妄",
+          "reading": "zhānwàng",
+          "hanViet": "chiêm vọng",
+          "meaningVn": "(y học) trạng thái lú lẫn cấp — mất định hướng, ảo giác, kích động (sốt cao, cai rượu, hậu phẫu ở người già)"
+        },
+        {
+          "headword": "谵语",
+          "reading": "zhānyǔ",
+          "hanViet": "chiêm ngữ",
+          "meaningVn": "lời mê sảng (nói khi sốt cao hoặc mê man)"
+        }
+      ],
+      "note": "谵 (讠 + 詹) khác 瞻 (zhān, ngước nhìn — 目, 瞻仰), 檐 (yán, mái hiên — 木, 屋檐), 澹 (dàn, điềm đạm — 氵). Cùng gốc 詹. 谵妄 là thuật ngữ y khoa quan trọng (chứng lú lẫn cấp)."
+    },
+    {
+      "id": "zh-cluster-jing-yearn-for",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "憬",
+      "centerReading": "jǐng",
+      "centerHanViet": "cảnh",
+      "centerMeaningVn": "chỉ dùng trong 憧憬; tỉnh ngộ (憬悟)",
+      "words": [
+        {
+          "headword": "憧憬",
+          "reading": "chōngjǐng",
+          "hanViet": "sung cảnh",
+          "meaningVn": "hướng tới, mơ ước về (một tương lai, một cuộc sống tốt đẹp) với niềm khao khát"
+        },
+        {
+          "headword": "憬悟",
+          "reading": "jǐngwù",
+          "hanViet": "cảnh ngộ",
+          "meaningVn": "chợt hiểu ra, tỉnh ngộ (cách nói văn)"
+        },
+        {
+          "headword": "对未来充满憧憬",
+          "reading": "duì wèilái chōngmǎn jǐng",
+          "hanViet": "đối vị lai sung mãn cảnh",
+          "meaningVn": "tràn đầy khát vọng về tương lai"
+        }
+      ],
+      "note": "憬 (忄 + 景) khác 景 (jǐng, cảnh vật — 景色) và 儆 (jǐng, cảnh giới — 亻, 儆戒) và 璟 (jǐng, ánh ngọc — 王/玉). 憬 gần như chỉ sống trong 憧憬."
+    },
+    {
+      "id": "zh-cluster-chong-long-for",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "憧",
+      "centerReading": "chōng",
+      "centerHanViet": "sung",
+      "centerMeaningVn": "chỉ dùng trong 憧憬 / 憧憧 (lay động)",
+      "words": [
+        {
+          "headword": "憧憬",
+          "reading": "chōngjǐng",
+          "hanViet": "sung cảnh",
+          "meaningVn": "mơ ước hướng tới điều tốt đẹp"
+        },
+        {
+          "headword": "人影憧憧",
+          "reading": "rén yǐng chōngchōng",
+          "hanViet": "nhân ảnh sung sung",
+          "meaningVn": "bóng người lay động chập chờn qua lại (灯影憧憧)"
+        }
+      ],
+      "note": "憧 (忄 + 童) đọc chōng — khác 童 (tóng, trẻ con), 幢 (chuáng/zhuàng, tràng phan / lượng từ tòa nhà — 巾), 撞 (zhuàng, đâm va — 扌). 憧憬 luôn hướng về tương lai tươi sáng."
+    },
+    {
+      "id": "zh-cluster-nao-nagging",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "呶",
+      "centerReading": "náo",
+      "centerHanViet": "nao",
+      "centerMeaningVn": "chỉ dùng trong 呶呶",
+      "words": [
+        {
+          "headword": "呶呶不休",
+          "reading": "náo náo bù xiū",
+          "hanViet": "nao nao bất hưu",
+          "meaningVn": "nói lải nhải luyên thuyên không ngừng, huyên thuyên đến phát chán"
+        },
+        {
+          "headword": "呶呶",
+          "reading": "náonáo",
+          "hanViet": "nao nao",
+          "meaningVn": "nói nhiều nói dai, càu nhàu không dứt"
+        }
+      ],
+      "note": "呶 (口 + 奴) — chữ tượng thanh chỉ tiếng nói dai. Khác 怒 (nù, giận — 心), 努 (nǔ, gắng — 力), 弩 (nǔ, cây nỏ — 弓). Cùng phần 奴. Gần nghĩa 喋喋不休."
+    },
+    {
+      "id": "zh-cluster-gao-marsh-bank",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "皋",
+      "centerReading": "gāo",
+      "centerHanViet": "cao",
+      "centerMeaningVn": "bãi đất cao ven nước, bờ đầm; (cổ) tiếng hô kéo dài khi tế",
+      "words": [
+        {
+          "headword": "汉皋",
+          "reading": "Hàngāo",
+          "hanViet": "Hán Cao",
+          "meaningVn": "bến Hán Cao (bên sông Hán, gắn điển hai nàng tiên tặng ngọc bội cho Trịnh Giao Phủ)"
+        },
+        {
+          "headword": "皋陶",
+          "reading": "Gāo Yáo",
+          "hanViet": "Cao Dao",
+          "meaningVn": "Cao Dao — vị quan coi hình ngục thời vua Thuấn, được coi là ông tổ ngành tư pháp (đọc Gāo Yáo, KHÔNG đọc Gāo Táo)"
+        },
+        {
+          "headword": "东皋",
+          "reading": "dōnggāo",
+          "hanViet": "đông cao",
+          "meaningVn": "gò cao phía đông làng (登东皋以舒啸 — Đào Uyên Minh «Quy Khứ Lai Từ»)"
+        }
+      ],
+      "note": "Họ chữ gốc 皋: 皋 (gāo, bãi bờ), 睾 (gāo, tinh hoàn — 目, 睾丸), 槔 (gāo, gàu tát nước 桔槔 — 木), 嗥 (háo, sói tru — 口), 翱 (áo, bay lượn — 羽, 翱翔)."
+    },
+    {
+      "id": "zh-cluster-gao-testicle",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "睾",
+      "centerReading": "gāo",
+      "centerHanViet": "cao",
+      "centerMeaningVn": "tinh hoàn, hòn dái (睾丸)",
+      "words": [
+        {
+          "headword": "睾丸",
+          "reading": "gāowán",
+          "hanViet": "cao hoàn",
+          "meaningVn": "tinh hoàn (tuyến sinh dục nam, sản xuất tinh trùng và nội tiết tố nam)"
+        },
+        {
+          "headword": "睾酮",
+          "reading": "gāotóng",
+          "hanViet": "cao đồng",
+          "meaningVn": "nội tiết tố nam (nội tiết tố nam)"
+        }
+      ],
+      "note": "睾 (phần trên có 目) khác 睪 (yì, rình bắt — chữ gốc của 译, 泽, 择, 驿) — hình cực giống, chỉ khác vài nét ở dưới. 睾 gāo chỉ dùng trong 睾丸, 睾酮."
+    },
+    {
+      "id": "zh-cluster-gao-well-sweep",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "槔",
+      "centerReading": "gāo",
+      "centerHanViet": "cao",
+      "centerMeaningVn": "chỉ dùng trong 桔槔",
+      "words": [
+        {
+          "headword": "桔槔",
+          "reading": "jiégāo",
+          "hanViet": "cát cao",
+          "meaningVn": "cần vọt tát nước — đòn bẩy gỗ một đầu buộc gàu, một đầu buộc vật nặng, dùng múc nước tưới ruộng thời cổ"
+        },
+        {
+          "headword": "桔槔汲水",
+          "reading": "jiégāo jí shuǐ",
+          "hanViet": "cát cao cấp thủy",
+          "meaningVn": "dùng cần vọt múc nước"
+        }
+      ],
+      "note": "槔 (木) chỉ đi với 桔 (ở đây 桔 đọc jié, không phải jú như 桔子 = quýt). «Trang Tử» kể chuyện lão nông không chịu dùng 桔槔 vì \"有机械者必有机心\" (có máy móc ắt sinh lòng cơ tâm)."
+    },
+    {
+      "id": "zh-cluster-hao-howl",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "嗥",
+      "centerReading": "háo",
+      "centerHanViet": "hào",
+      "centerMeaningVn": "(chó sói, thú dữ) tru, hú",
+      "words": [
+        {
+          "headword": "狼嗥",
+          "reading": "lángháo",
+          "hanViet": "lang hào",
+          "meaningVn": "tiếng sói tru (dài, rợn người, thường vào đêm trăng)"
+        },
+        {
+          "headword": "嗥叫",
+          "reading": "háojiào",
+          "hanViet": "hào khiếu",
+          "meaningVn": "gào rú (thú dữ); (nghĩa xấu) la hét ầm ĩ"
+        },
+        {
+          "headword": "鬼哭狼嗥",
+          "reading": "guǐ kū láng háo",
+          "hanViet": "quỷ khốc lang hào",
+          "meaningVn": "ma khóc sói tru — tiếng kêu la thảm thiết inh ỏi hỗn loạn"
+        }
+      ],
+      "note": "嗥 (口 + 皋) cũng viết 嚎 (口 + 豪). Khác 皋 (gāo, bãi bờ), 翱 (áo, bay lượn). 狼嗥 và 虎啸 (hổ gầm) là hai âm thanh biểu tượng của rừng hoang."
+    },
+    {
+      "id": "zh-cluster-ao-soar",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "翱",
+      "centerReading": "áo",
+      "centerHanViet": "cao",
+      "centerMeaningVn": "chỉ dùng trong 翱翔",
+      "words": [
+        {
+          "headword": "翱翔",
+          "reading": "áoxiáng",
+          "hanViet": "cao tường",
+          "meaningVn": "(chim, máy bay) lượn vòng bay bổng trên cao (không vỗ cánh, chao liệng)"
+        },
+        {
+          "headword": "展翅翱翔",
+          "reading": "zhǎn chì áoxiáng",
+          "hanViet": "triển sí cao tường",
+          "meaningVn": "dang cánh bay lượn tự do trên bầu trời"
+        },
+        {
+          "headword": "翱翔天际",
+          "reading": "áoxiáng tiānjì",
+          "hanViet": "cao tường thiên tế",
+          "meaningVn": "chao lượn nơi chân trời"
+        }
+      ],
+      "note": "翱 (羽 = lông vũ + 皋) chỉ đi với 翔. Khác 遨 (áo, ngao du — 辶, 遨游) và 鏊 (ào, cái chảo bẹt — 金). 翱翔 nhấn vào chao liệng thảnh thơi, khác 飞 (bay nói chung)."
     }
   ],
   "todo": [
