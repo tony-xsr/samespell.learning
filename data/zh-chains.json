@@ -645,10 +645,26 @@
           "hanViet": "khố tồn",
           "meaningVn": "hàng tồn kho",
           "sharedCharPrev": "库",
+          "sharedCharNext": "存"
+        },
+        {
+          "headword": "存款",
+          "reading": "cúnkuǎn",
+          "hanViet": "tồn khoản",
+          "meaningVn": "tiền gửi tiết kiệm",
+          "sharedCharPrev": "存",
+          "sharedCharNext": "款"
+        },
+        {
+          "headword": "款式",
+          "reading": "kuǎnshì",
+          "hanViet": "khoản thức",
+          "meaningVn": "kiểu dáng, mẫu mã",
+          "sharedCharPrev": "款",
           "sharedCharNext": null
         }
       ],
-      "note": "Domino 7 mắt xích qua 化→学→校→长→大→学 (chữ 学 xuất hiện 2 lần ở 2 vị trí khác nhau trong cùng 1 chuỗi — vẫn hợp lệ vì đúng đuôi=đầu ở từng bước). Nối dài thêm qua 期→刊→登→记: 期刊→刊登→登记→记录. Dừng ở 记录 vì 录 hiếm khi đứng đầu từ ghép phổ biến trong tiếng Trung hiện đại. Nối dài thêm qua 录→音→响: 录音→音响→响声. Dừng ở 响声 vì 声 còn từ ghép tự do (声明/声称) để dành vòng sau. Nối dài thêm qua 声→明: 声明→明显. Nối dài thêm qua 显→示: 显示→示威. Nối dài thêm qua 威→胁: 威胁→胁迫. Nối dài thêm qua 迫→切: 迫切→切割. Nối dài thêm qua 割→让: 割让→让步. Nối dài thêm qua 步→行: 步行→行车. Nối dài thêm qua 车→费: 车费→费用. Nối dài thêm qua 用→具: 用具→具有. Nối dài thêm qua 有→关: 有关→关系. Nối dài thêm qua 系→列: 系列→列车. Nối dài thêm qua 车→库: 车库→库存."
+      "note": "Domino 7 mắt xích qua 化→学→校→长→大→学 (chữ 学 xuất hiện 2 lần ở 2 vị trí khác nhau trong cùng 1 chuỗi — vẫn hợp lệ vì đúng đuôi=đầu ở từng bước). Nối dài thêm qua 期→刊→登→记: 期刊→刊登→登记→记录. Dừng ở 记录 vì 录 hiếm khi đứng đầu từ ghép phổ biến trong tiếng Trung hiện đại. Nối dài thêm qua 录→音→响: 录音→音响→响声. Dừng ở 响声 vì 声 còn từ ghép tự do (声明/声称) để dành vòng sau. Nối dài thêm qua 声→明: 声明→明显. Nối dài thêm qua 显→示: 显示→示威. Nối dài thêm qua 威→胁: 威胁→胁迫. Nối dài thêm qua 迫→切: 迫切→切割. Nối dài thêm qua 割→让: 割让→让步. Nối dài thêm qua 步→行: 步行→行车. Nối dài thêm qua 车→费: 车费→费用. Nối dài thêm qua 用→具: 用具→具有. Nối dài thêm qua 有→关: 有关→关系. Nối dài thêm qua 系→列: 系列→列车. Nối dài thêm qua 车→库: 车库→库存. Nối dài thêm qua 存→款: 存款→款式."
     },
     {
       "id": "zh-chain-jiazu-zupu-puxi",
@@ -1173,10 +1189,34 @@
           "hanViet": "giá tiền",
           "meaningVn": "giá cả",
           "sharedCharPrev": "价",
+          "sharedCharNext": "钱"
+        },
+        {
+          "headword": "钱财",
+          "reading": "qiáncái",
+          "hanViet": "tiền tài",
+          "meaningVn": "tiền của, tài sản",
+          "sharedCharPrev": "钱",
+          "sharedCharNext": "财"
+        },
+        {
+          "headword": "财富",
+          "reading": "cáifù",
+          "hanViet": "tài phú",
+          "meaningVn": "của cải, tài sản",
+          "sharedCharPrev": "财",
+          "sharedCharNext": "富"
+        },
+        {
+          "headword": "富裕",
+          "reading": "fùyù",
+          "hanViet": "phú dụ",
+          "meaningVn": "giàu có, sung túc",
+          "sharedCharPrev": "富",
           "sharedCharNext": null
         }
       ],
-      "note": "Domino 9 mắt xích qua 会→议→员→工→作→业→务→必 (nối dài thêm từ bản 7 mắt xích trước đó). Nối dài thêm qua 须→知→道: 须知→知道→道歉. Nối dài thêm qua 歉→意: 歉意→意外. Nối dài thêm qua 外→国: 外国→国家. Nối dài thêm qua 家→乡: 家乡→乡村. Nối dài thêm qua 村→庄: 村庄→庄园. Nối dài thêm qua 园→区: 园区→区域. Nối dài thêm 1 bước qua 域: 域名. Dừng ở 域名 vì 域 hầu như chỉ mở đầu đúng từ này trong tiếng Trung hiện đại. Nối dài thêm qua 名→声: 名声→声调. Nối dài thêm qua 调→整: 调整→整齐. Nối dài thêm qua 齐→全: 齐全→全部. Nối dài thêm qua 部→门: 部门→门票. Nối dài thêm qua 票→价: 票价→价钱."
+      "note": "Domino 9 mắt xích qua 会→议→员→工→作→业→务→必 (nối dài thêm từ bản 7 mắt xích trước đó). Nối dài thêm qua 须→知→道: 须知→知道→道歉. Nối dài thêm qua 歉→意: 歉意→意外. Nối dài thêm qua 外→国: 外国→国家. Nối dài thêm qua 家→乡: 家乡→乡村. Nối dài thêm qua 村→庄: 村庄→庄园. Nối dài thêm qua 园→区: 园区→区域. Nối dài thêm 1 bước qua 域: 域名. Dừng ở 域名 vì 域 hầu như chỉ mở đầu đúng từ này trong tiếng Trung hiện đại. Nối dài thêm qua 名→声: 名声→声调. Nối dài thêm qua 调→整: 调整→整齐. Nối dài thêm qua 齐→全: 齐全→全部. Nối dài thêm qua 部→门: 部门→门票. Nối dài thêm qua 票→价: 票价→价钱. Nối dài thêm 1 bước qua 钱: 钱财. Dừng ở 钱财 vì 钱包 đã dùng ở nơi khác trong kho, không còn từ ghép 钱X phổ biến khác. Nối dài thêm qua 财→富: 财富→富裕."
     },
     {
       "id": "zh-chain-zunjing-jingli-limao",
@@ -1397,10 +1437,18 @@
           "hanViet": "hành lý",
           "meaningVn": "hành lý",
           "sharedCharPrev": "行",
+          "sharedCharNext": "李"
+        },
+        {
+          "headword": "李子",
+          "reading": "lǐzi",
+          "hanViet": "lý tử",
+          "meaningVn": "quả mận",
+          "sharedCharPrev": "李",
           "sharedCharNext": null
         }
       ],
-      "note": "Domino 11 mắt xích qua 大→小→说→明→白→天→空→气→味→道 (nối dài thêm từ bản 9 mắt xích trước đó) — cùng cặp chữ trái nghĩa dùng ở mode 'Cặp chữ trái nghĩa' trong bản mockup. Nối dài thêm qua 德→行: 德行→行李. Dừng ở 行李 vì 李 phần lớn là danh từ riêng/tên trái cây, ít từ ghép thông dụng khác."
+      "note": "Domino 11 mắt xích qua 大→小→说→明→白→天→空→气→味→道 (nối dài thêm từ bản 9 mắt xích trước đó) — cùng cặp chữ trái nghĩa dùng ở mode 'Cặp chữ trái nghĩa' trong bản mockup. Nối dài thêm qua 德→行: 德行→行李. Dừng ở 行李 vì 李 phần lớn là danh từ riêng/tên trái cây, ít từ ghép thông dụng khác. Nối dài thêm 1 bước qua 李: 李子. Dừng ở 李子 vì 李 phần lớn là danh từ riêng (họ người), 子 lại là ký tự đã cạn kiệt hoàn toàn."
     },
     {
       "id": "zh-chain-waiyu-yuyan-yanlun",
@@ -1520,7 +1568,7 @@
           "sharedCharNext": null
         }
       ],
-      "note": "Domino 12 mắt xích qua 语→言→论→文→字→典→礼→物→质→疑 (nối dài thêm từ bản 10 mắt xích trước đó). Nối dài thêm qua 候→车: 候车→车辆. Dừng ở 车辆 vì 辆 là lượng từ, hầu như không mở đầu từ ghép khác."
+      "note": "Domino 12 mắt xích qua 语→言→论→文→字→典→礼→物→质→疑 (nối dài thêm từ bản 10 mắt xích trước đó). Nối dài thêm qua 候→车: 候车→车辆. Dừng ở 车辆 vì 辆 là lượng từ, hầu như không mở đầu từ ghép khác. Ký tự 辆 (từ 车辆) là lượng từ (đơn vị đếm xe cộ), hầu như không mở đầu từ ghép danh/động từ nào khác trong tiếng Trung hiện đại — điểm dừng vĩnh viễn."
     },
     {
       "id": "zh-chain-yinyue-qiguan-fali",
@@ -1800,7 +1848,7 @@
           "sharedCharNext": null
         }
       ],
-      "note": "Domino 10 mắt xích qua 乐→器→官→方→法→律→师→范→围 (nối dài thêm từ bản 8 mắt xích trước đó). Chữ 乐 đọc \"yuè\" (nhạc) ở đây — chữ đa âm, còn đọc \"lè\" (vui) hoặc \"yào\" (thích) tuỳ nghĩa. Nối dài thêm qua 绕→道→具: 绕道→道具→具体. Nối dài thêm qua 体→现: 体现→现金. Nối dài thêm qua 金→融: 金融→融化. Nối dài thêm qua 化→验: 化验→验收. Nối dài thêm qua 收→入: 收入→入门. Nối dài thêm qua 门→口: 门口→口红. Nối dài thêm qua 红→色: 红色→色泽. Nối dài thêm 1 bước qua 泽: 泽被. Dừng ở 泽被 vì 泽 hầu như chỉ còn từ ghép văn viết hiếm dùng này. Nối dài thêm qua 被→动: 被动→动手. Nối dài thêm qua 手→指: 手指→指导. Dừng ở 手 khi chọn 手指 vì 手机 đã là headword của chuỗi khác trong kho. Nối dài thêm qua 导→游: 导游→游戏. Nối dài thêm qua 戏→曲: 戏曲→曲线."
+      "note": "Domino 10 mắt xích qua 乐→器→官→方→法→律→师→范→围 (nối dài thêm từ bản 8 mắt xích trước đó). Chữ 乐 đọc \"yuè\" (nhạc) ở đây — chữ đa âm, còn đọc \"lè\" (vui) hoặc \"yào\" (thích) tuỳ nghĩa. Nối dài thêm qua 绕→道→具: 绕道→道具→具体. Nối dài thêm qua 体→现: 体现→现金. Nối dài thêm qua 金→融: 金融→融化. Nối dài thêm qua 化→验: 化验→验收. Nối dài thêm qua 收→入: 收入→入门. Nối dài thêm qua 门→口: 门口→口红. Nối dài thêm qua 红→色: 红色→色泽. Nối dài thêm 1 bước qua 泽: 泽被. Dừng ở 泽被 vì 泽 hầu như chỉ còn từ ghép văn viết hiếm dùng này. Nối dài thêm qua 被→动: 被动→动手. Nối dài thêm qua 手→指: 手指→指导. Dừng ở 手 khi chọn 手指 vì 手机 đã là headword của chuỗi khác trong kho. Nối dài thêm qua 导→游: 导游→游戏. Nối dài thêm qua 戏→曲: 戏曲→曲线. Ký tự 线 (từ 曲线) nay đã cạn kiệt: 线索/线条 đều đã dùng trong kho, không còn từ ghép 线X phổ biến nào khác."
     },
     {
       "id": "zh-chain-jiankang-fuxi-xiguan",
@@ -2397,10 +2445,26 @@
           "hanViet": "tâm tư",
           "meaningVn": "tâm tư, tâm trạng, ý định",
           "sharedCharPrev": "心",
+          "sharedCharNext": "思"
+        },
+        {
+          "headword": "思念",
+          "reading": "sīniàn",
+          "hanViet": "tư niệm",
+          "meaningVn": "nhớ nhung",
+          "sharedCharPrev": "思",
+          "sharedCharNext": "念"
+        },
+        {
+          "headword": "念叨",
+          "reading": "niàndao",
+          "hanViet": "niệm đao",
+          "meaningVn": "nhắc đi nhắc lại, càm ràm",
+          "sharedCharPrev": "念",
           "sharedCharNext": null
         }
       ],
-      "note": "Domino 4 mắt xích qua 影→响→应. Nối dài thêm qua 该→死→亡→命→脉→搏: 该死→死亡→亡命→命脉→脉搏→搏斗. Dừng ở 搏斗 vì 斗 (đấu) dẫn tới 争 vốn đã dùng nhiều lần trong kho từ hiện có. Nối dài thêm qua 斗→争: 斗争→争论. Dừng ở 争论 vì 论坛/论证 đã dùng ở chuỗi khác, còn 论文 để dành vòng sau. Nối dài thêm qua 论→点: 论点→点心. Dừng ở 论点 vì 论文/论述/论据/论调/论坛 đều đã dùng ở nơi khác trong kho. Nối dài thêm 1 bước qua 心: 心思. Dừng ở 心思 vì 心情/心理/心态/心疼/心动/心愿 đều đã dùng ở nơi khác trong kho — 心 nay gần như cạn kiệt."
+      "note": "Domino 4 mắt xích qua 影→响→应. Nối dài thêm qua 该→死→亡→命→脉→搏: 该死→死亡→亡命→命脉→脉搏→搏斗. Dừng ở 搏斗 vì 斗 (đấu) dẫn tới 争 vốn đã dùng nhiều lần trong kho từ hiện có. Nối dài thêm qua 斗→争: 斗争→争论. Dừng ở 争论 vì 论坛/论证 đã dùng ở chuỗi khác, còn 论文 để dành vòng sau. Nối dài thêm qua 论→点: 论点→点心. Dừng ở 论点 vì 论文/论述/论据/论调/论坛 đều đã dùng ở nơi khác trong kho. Nối dài thêm 1 bước qua 心: 心思. Dừng ở 心思 vì 心情/心理/心态/心疼/心动/心愿 đều đã dùng ở nơi khác trong kho — 心 nay gần như cạn kiệt. Nối dài thêm qua 思→念: 思念→念叨. Dừng ở 念叨 vì 念头 đã dùng ở nơi khác trong kho, không còn từ ghép 念X phổ biến khác — 怀念 (định dùng ban đầu) bị loại vì bắt đầu bằng 怀 chứ không phải 念, không nối được đúng luật domino."
     },
     {
       "id": "zh-chain-lvxing-xingdong-liliang",
@@ -4056,7 +4120,7 @@
           "sharedCharNext": null
         }
       ],
-      "note": "Domino 8 mắt xích qua 险→恶→劣→势→力→气→氛 (nối dài thêm từ bản 5 mắt xích trước đó, round 23). Nối dài thêm qua 围→墙→壁→画: 围墙→墙壁→壁画→画面. Dừng ở 画面 vì 面 đã dùng hết các từ ghép phổ biến (面对/表面/方面) trong kho từ hiện có. Nối dài thêm qua 面→积: 面积→积累. Nối dài thêm qua 累→计: 累计→计算. Nối dài thêm 1 bước qua 算: 算了. Dừng ở 算了 vì 了 là trợ từ ngữ pháp, không mở đầu từ ghép danh/động từ thông dụng. Nối dài thêm qua 了→起: 了不起→起来. Từ 了不起 có 3 âm tiết nhưng vẫn đúng luật domino (đầu=đuôi từng bước). Nối dài thêm qua 来→往: 来往→往事. Dừng ở 来 khi chọn 来往 vì 来源/来自/来到 đều đã dùng ở nơi khác trong kho. Nối dài thêm qua 事→故: 事故→故事. Nối dài thêm 1 bước qua 事: 事件. Dừng ở 事件 vì 件数 đã dùng ở chuỗi khác trong kho, không còn từ ghép 件X phổ biến khác."
+      "note": "Domino 8 mắt xích qua 险→恶→劣→势→力→气→氛 (nối dài thêm từ bản 5 mắt xích trước đó, round 23). Nối dài thêm qua 围→墙→壁→画: 围墙→墙壁→壁画→画面. Dừng ở 画面 vì 面 đã dùng hết các từ ghép phổ biến (面对/表面/方面) trong kho từ hiện có. Nối dài thêm qua 面→积: 面积→积累. Nối dài thêm qua 累→计: 累计→计算. Nối dài thêm 1 bước qua 算: 算了. Dừng ở 算了 vì 了 là trợ từ ngữ pháp, không mở đầu từ ghép danh/động từ thông dụng. Nối dài thêm qua 了→起: 了不起→起来. Từ 了不起 có 3 âm tiết nhưng vẫn đúng luật domino (đầu=đuôi từng bước). Nối dài thêm qua 来→往: 来往→往事. Dừng ở 来 khi chọn 来往 vì 来源/来自/来到 đều đã dùng ở nơi khác trong kho. Nối dài thêm qua 事→故: 事故→故事. Nối dài thêm 1 bước qua 事: 事件. Dừng ở 事件 vì 件数 đã dùng ở chuỗi khác trong kho, không còn từ ghép 件X phổ biến khác. Ký tự 件 (từ 事件) đã được ghi nhận cạn kiệt từ round trước: 件数 (từ ghép duy nhất còn lại lúc đó) đã dùng ở chuỗi khác."
     },
     {
       "id": "zh-chain-yongqi-qigai-gainian",
@@ -7672,7 +7736,7 @@
           "sharedCharNext": null
         }
       ],
-      "note": "Domino 22 mắt xích qua 气→象→征→服→务→工→人→生→命→运→气→势→必→然→而→且→慢→性→情→理 (nối dài thêm round 65): nguyên khí→...→tính tình→tình lý→để ý đoái hoài. Mẹo nhớ: 理 có bộ 玉(ngọc) — vân ngọc tự nhiên, quy luật, lẽ phải; 睬 có bộ 目(mắt) — liếc mắt nhìn tới, để ý."
+      "note": "Domino 22 mắt xích qua 气→象→征→服→务→工→人→生→命→运→气→势→必→然→而→且→慢→性→情→理 (nối dài thêm round 65): nguyên khí→...→tính tình→tình lý→để ý đoái hoài. Mẹo nhớ: 理 có bộ 玉(ngọc) — vân ngọc tự nhiên, quy luật, lẽ phải; 睬 có bộ 目(mắt) — liếc mắt nhìn tới, để ý. Ký tự 睬 (từ 理睬) là ký tự bị ràng buộc (bound morpheme), trong tiếng Trung hiện đại chỉ xuất hiện trong 理睬/不理不睬, không có từ ghép 2 chữ độc lập nào bắt đầu bằng 睬 — điểm dừng vĩnh viễn."
     },
     {
       "id": "zh-chain-moulve-lvetu-tuan-anli",
@@ -37595,6 +37659,1932 @@
         }
       ],
       "note": "Mẹo nhớ: 幅 có bộ 巾(vải) → nghĩa gốc 'khổ rộng của tấm vải' → đơn vị đo tranh/vải, mở rộng nghĩa 'độ rộng, mức độ' → 幅度. LƯU Ý: 幅 (fú) đồng âm hoàn toàn với CẢ 服 lẫn 福 (chưa học nhưng thường gặp)."
+    },
+    {
+      "id": "zh-cluster-pan-plate",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "盘",
+      "centerReading": "pán",
+      "centerHanViet": "bàn/mâm",
+      "centerMeaningVn": "cái mâm/đĩa tròn; khu vực, phạm vi",
+      "words": [
+        {
+          "headword": "盘子",
+          "reading": "pánzi",
+          "hanViet": "bàn tử",
+          "meaningVn": "cái đĩa (đựng thức ăn)"
+        },
+        {
+          "headword": "键盘",
+          "reading": "jiànpán",
+          "hanViet": "kiện bàn",
+          "meaningVn": "bàn phím"
+        },
+        {
+          "headword": "光盘",
+          "reading": "guāngpán",
+          "hanViet": "quang bàn",
+          "meaningVn": "đĩa quang (CD/DVD)"
+        },
+        {
+          "headword": "地盘",
+          "reading": "dìpán",
+          "hanViet": "địa bàn",
+          "meaningVn": "địa bàn, lãnh địa (nghĩa bóng: phạm vi kiểm soát)"
+        }
+      ],
+      "note": "盘 gốc nghĩa \"cái mâm/đĩa tròn\", mở rộng thành bất kỳ vật hình bàn tròn (键盘 xếp phím thành mặt phẳng) hoặc khu vực kiểm soát (地盘)."
+    },
+    {
+      "id": "zh-cluster-ju-evidence",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "据",
+      "centerReading": "jù",
+      "centerHanViet": "cứ",
+      "centerMeaningVn": "dựa vào, căn cứ",
+      "words": [
+        {
+          "headword": "数据",
+          "reading": "shùjù",
+          "hanViet": "số cứ",
+          "meaningVn": "dữ liệu, số liệu"
+        },
+        {
+          "headword": "证据",
+          "reading": "zhèngjù",
+          "hanViet": "chứng cứ",
+          "meaningVn": "bằng chứng"
+        },
+        {
+          "headword": "依据",
+          "reading": "yījù",
+          "hanViet": "y cứ",
+          "meaningVn": "căn cứ, dựa theo"
+        },
+        {
+          "headword": "据说",
+          "reading": "jùshuō",
+          "hanViet": "cứ thuyết",
+          "meaningVn": "nghe nói, theo lời đồn"
+        }
+      ],
+      "note": "据 nghĩa gốc là \"dựa vào, căn cứ\" — 据说 dùng mở đầu câu khi thông tin chưa chắc chắn 100%, giống \"nghe đâu\" trong tiếng Việt."
+    },
+    {
+      "id": "zh-cluster-ku-warehouse",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "库",
+      "centerReading": "kù",
+      "centerHanViet": "khố",
+      "centerMeaningVn": "nhà kho, nơi lưu trữ",
+      "words": [
+        {
+          "headword": "车库",
+          "reading": "chēkù",
+          "hanViet": "xa khố",
+          "meaningVn": "nhà để xe, ga-ra"
+        },
+        {
+          "headword": "仓库",
+          "reading": "cāngkù",
+          "hanViet": "thương khố",
+          "meaningVn": "kho hàng"
+        },
+        {
+          "headword": "题库",
+          "reading": "tíkù",
+          "hanViet": "đề khố",
+          "meaningVn": "ngân hàng câu hỏi, đề thi"
+        },
+        {
+          "headword": "宝库",
+          "reading": "bǎokù",
+          "hanViet": "bảo khố",
+          "meaningVn": "kho báu"
+        }
+      ],
+      "note": "库 nghĩa \"nhà kho, nơi lưu trữ\" — thời hiện đại mở rộng nghĩa bóng sang \"kho dữ liệu/kho câu hỏi\" (题库) chứ không chỉ kho vật chất."
+    },
+    {
+      "id": "zh-cluster-chuan-transmit",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "传",
+      "centerReading": "chuán",
+      "centerHanViet": "truyền",
+      "centerMeaningVn": "truyền đạt, truyền lại",
+      "words": [
+        {
+          "headword": "传播",
+          "reading": "chuánbō",
+          "hanViet": "truyền bá",
+          "meaningVn": "truyền bá, lan truyền"
+        },
+        {
+          "headword": "传统",
+          "reading": "chuántǒng",
+          "hanViet": "truyền thống",
+          "meaningVn": "truyền thống"
+        },
+        {
+          "headword": "宣传",
+          "reading": "xuānchuán",
+          "hanViet": "tuyên truyền",
+          "meaningVn": "tuyên truyền, quảng bá"
+        },
+        {
+          "headword": "遗传",
+          "reading": "yíchuán",
+          "hanViet": "di truyền",
+          "meaningVn": "di truyền"
+        }
+      ],
+      "note": "传 vừa mang nghĩa \"truyền đạt thông tin\" (传播/宣传) vừa mang nghĩa \"truyền qua thế hệ\" (传统/遗传) — hai nhánh nghĩa dễ nhầm lẫn khi mới học."
+    },
+    {
+      "id": "zh-cluster-bo-broadcast",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "播",
+      "centerReading": "bō",
+      "centerHanViet": "phát (播)",
+      "centerMeaningVn": "gieo (hạt); phát sóng, truyền tải",
+      "words": [
+        {
+          "headword": "播放",
+          "reading": "bōfàng",
+          "hanViet": "phát phóng",
+          "meaningVn": "phát (nhạc/video)"
+        },
+        {
+          "headword": "直播",
+          "reading": "zhíbō",
+          "hanViet": "trực phát",
+          "meaningVn": "phát trực tiếp, livestream"
+        },
+        {
+          "headword": "广播",
+          "reading": "guǎngbō",
+          "hanViet": "quảng phát",
+          "meaningVn": "phát thanh, radio"
+        },
+        {
+          "headword": "播种",
+          "reading": "bōzhǒng",
+          "hanViet": "phát chủng",
+          "meaningVn": "gieo hạt (nghĩa gốc nông nghiệp)"
+        }
+      ],
+      "note": "播 gốc nghĩa nông nghiệp \"gieo hạt\" (播种), thời hiện đại mở rộng nghĩa \"phát sóng, truyền tải nội dung\" (播放/直播/广播)."
+    },
+    {
+      "id": "zh-cluster-pin-frequency",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "频",
+      "centerReading": "pín",
+      "centerHanViet": "tần",
+      "centerMeaningVn": "tần suất, lặp lại",
+      "words": [
+        {
+          "headword": "频道",
+          "reading": "píndào",
+          "hanViet": "tần đạo",
+          "meaningVn": "kênh (truyền hình/phát sóng)"
+        },
+        {
+          "headword": "频率",
+          "reading": "pínlǜ",
+          "hanViet": "tần suất",
+          "meaningVn": "tần suất, tần số"
+        },
+        {
+          "headword": "视频",
+          "reading": "shìpín",
+          "hanViet": "thị tần",
+          "meaningVn": "video"
+        },
+        {
+          "headword": "频繁",
+          "reading": "pínfán",
+          "hanViet": "tần phồn",
+          "meaningVn": "thường xuyên, dồn dập"
+        }
+      ],
+      "note": "频 nghĩa \"tần suất, lặp lại\" — 频道 vốn nghĩa đen \"kênh tần số\" phát thanh nhưng nay dùng cả cho kênh YouTube cá nhân."
+    },
+    {
+      "id": "zh-cluster-zhi-direct",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "直",
+      "centerReading": "zhí",
+      "centerHanViet": "trực",
+      "centerMeaningVn": "thẳng, trực tiếp, liên tục",
+      "words": [
+        {
+          "headword": "直接",
+          "reading": "zhíjiē",
+          "hanViet": "trực tiếp",
+          "meaningVn": "trực tiếp"
+        },
+        {
+          "headword": "一直",
+          "reading": "yīzhí",
+          "hanViet": "nhất trực",
+          "meaningVn": "luôn luôn, mãi mãi"
+        },
+        {
+          "headword": "直到",
+          "reading": "zhídào",
+          "hanViet": "trực đáo",
+          "meaningVn": "cho đến khi"
+        },
+        {
+          "headword": "直播",
+          "reading": "zhíbō",
+          "hanViet": "trực phát",
+          "meaningVn": "phát trực tiếp, livestream"
+        }
+      ],
+      "note": "直 nghĩa gốc \"thẳng\" mở rộng thành \"trực tiếp, liên tục\" — 直播 nối cả 2 nghĩa: \"thẳng\" (không qua trung gian) và livestream hiện đại (từ này cũng xuất hiện ở cụm 播 vì chứa cả 2 tâm tự, hoàn toàn bình thường)."
+    },
+    {
+      "id": "zh-cluster-zhang-account",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "账",
+      "centerReading": "zhàng",
+      "centerHanViet": "trướng (sổ sách)",
+      "centerMeaningVn": "sổ sách, tài khoản (tài chính)",
+      "words": [
+        {
+          "headword": "账号",
+          "reading": "zhànghào",
+          "hanViet": "trướng hiệu",
+          "meaningVn": "tài khoản (số hiệu)"
+        },
+        {
+          "headword": "账户",
+          "reading": "zhànghù",
+          "hanViet": "trướng hộ",
+          "meaningVn": "tài khoản (ngân hàng)"
+        },
+        {
+          "headword": "记账",
+          "reading": "jìzhàng",
+          "hanViet": "ký trướng",
+          "meaningVn": "ghi sổ, ghi chép chi tiêu"
+        },
+        {
+          "headword": "欠账",
+          "reading": "qiànzhàng",
+          "hanViet": "khiếm trướng",
+          "meaningVn": "nợ tiền, còn thiếu nợ"
+        }
+      ],
+      "note": "账 chuyên dùng cho lĩnh vực tài chính/sổ sách — LƯU Ý phân biệt 账 (tài khoản, bộ 贝=tiền) với 帐 (màn/trướng, bộ 巾=vải) dù cả hai đôi khi bị viết lẫn."
+    },
+    {
+      "id": "zh-cluster-hao-number",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "号",
+      "centerReading": "hào",
+      "centerHanViet": "hiệu/số",
+      "centerMeaningVn": "con số, ký hiệu, danh hiệu",
+      "words": [
+        {
+          "headword": "号码",
+          "reading": "hàomǎ",
+          "hanViet": "hiệu mã",
+          "meaningVn": "con số, mã số"
+        },
+        {
+          "headword": "信号",
+          "reading": "xìnhào",
+          "hanViet": "tín hiệu",
+          "meaningVn": "tín hiệu"
+        },
+        {
+          "headword": "口号",
+          "reading": "kǒuhào",
+          "hanViet": "khẩu hiệu",
+          "meaningVn": "khẩu hiệu"
+        },
+        {
+          "headword": "号召",
+          "reading": "hàozhào",
+          "hanViet": "hiệu triệu",
+          "meaningVn": "kêu gọi, hiệu triệu"
+        }
+      ],
+      "note": "号 vừa nghĩa \"con số/ký hiệu\" (号码/信号) vừa nghĩa \"danh hiệu, lời kêu gọi\" (口号/号召)."
+    },
+    {
+      "id": "zh-cluster-deng-login",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "登",
+      "centerReading": "dēng",
+      "centerHanViet": "đăng",
+      "centerMeaningVn": "bước lên cao; ghi vào hệ thống",
+      "words": [
+        {
+          "headword": "登录",
+          "reading": "dēnglù",
+          "hanViet": "đăng lục",
+          "meaningVn": "đăng nhập"
+        },
+        {
+          "headword": "登记",
+          "reading": "dēngjì",
+          "hanViet": "đăng ký",
+          "meaningVn": "đăng ký, ghi danh"
+        },
+        {
+          "headword": "登场",
+          "reading": "dēngchǎng",
+          "hanViet": "đăng trường",
+          "meaningVn": "xuất hiện, ra sân khấu"
+        },
+        {
+          "headword": "攀登",
+          "reading": "pāndēng",
+          "hanViet": "phan đăng",
+          "meaningVn": "leo núi, leo trèo"
+        }
+      ],
+      "note": "登 nghĩa gốc \"bước lên cao\" (攀登) mở rộng thành \"ghi vào hệ thống\" (登录/登记) trong thời đại số."
+    },
+    {
+      "id": "zh-cluster-zhu-focus",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "注",
+      "centerReading": "zhù",
+      "centerHanViet": "chú",
+      "centerMeaningVn": "rót vào, dồn vào; chú ý, ghi vào",
+      "words": [
+        {
+          "headword": "注册",
+          "reading": "zhùcè",
+          "hanViet": "chú sách",
+          "meaningVn": "đăng ký (tài khoản/công ty)"
+        },
+        {
+          "headword": "注意",
+          "reading": "zhùyì",
+          "hanViet": "chú ý",
+          "meaningVn": "chú ý"
+        },
+        {
+          "headword": "注重",
+          "reading": "zhùzhòng",
+          "hanViet": "chú trọng",
+          "meaningVn": "coi trọng, chú trọng"
+        },
+        {
+          "headword": "备注",
+          "reading": "bèizhù",
+          "hanViet": "bị chú",
+          "meaningVn": "ghi chú"
+        }
+      ],
+      "note": "注 nghĩa gốc \"rót vào, dồn vào\" — 注意 nghĩa đen là \"dồn tâm trí vào\", 注册 là \"ghi/rót thông tin vào hệ thống\"."
+    },
+    {
+      "id": "zh-cluster-chu-store",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "储",
+      "centerReading": "chǔ",
+      "centerHanViet": "trữ",
+      "centerMeaningVn": "cất giữ để dùng sau",
+      "words": [
+        {
+          "headword": "储存",
+          "reading": "chǔcún",
+          "hanViet": "trữ tồn",
+          "meaningVn": "lưu trữ, cất giữ"
+        },
+        {
+          "headword": "储蓄",
+          "reading": "chǔxù",
+          "hanViet": "trữ súc",
+          "meaningVn": "tiết kiệm (tiền)"
+        },
+        {
+          "headword": "仓储",
+          "reading": "cāngchǔ",
+          "hanViet": "thương trữ",
+          "meaningVn": "kho bãi lưu trữ (logistics)"
+        }
+      ],
+      "note": "储 luôn đi với ý nghĩa \"cất giữ để dùng sau\" — 储蓄 (gửi tiết kiệm ngân hàng) và 储存 (lưu trữ dữ liệu/hàng hoá) dùng chung gốc nghĩa này."
+    },
+    {
+      "id": "zh-cluster-chong-charge",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "充",
+      "centerReading": "chōng",
+      "centerHanViet": "sung/sạc",
+      "centerMeaningVn": "làm đầy, nạp đầy",
+      "words": [
+        {
+          "headword": "充电",
+          "reading": "chōngdiàn",
+          "hanViet": "sung điện",
+          "meaningVn": "sạc điện"
+        },
+        {
+          "headword": "充满",
+          "reading": "chōngmǎn",
+          "hanViet": "sung mãn",
+          "meaningVn": "tràn đầy, đầy ắp"
+        },
+        {
+          "headword": "充分",
+          "reading": "chōngfèn",
+          "hanViet": "sung phận",
+          "meaningVn": "đầy đủ, thoả đáng"
+        },
+        {
+          "headword": "补充",
+          "reading": "bǔchōng",
+          "hanViet": "bổ sung",
+          "meaningVn": "bổ sung"
+        }
+      ],
+      "note": "充 nghĩa gốc \"làm đầy\" — từ nghĩa vật lý (充电/充满) mở rộng sang nghĩa trừu tượng \"đầy đủ, thoả đáng\" (充分)."
+    },
+    {
+      "id": "zh-cluster-cha-insert",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "插",
+      "centerReading": "chā",
+      "centerHanViet": "sáp/chèn",
+      "centerMeaningVn": "cắm vào, chèn vào",
+      "words": [
+        {
+          "headword": "插座",
+          "reading": "chāzuò",
+          "hanViet": "sáp tọa",
+          "meaningVn": "ổ cắm điện"
+        },
+        {
+          "headword": "插入",
+          "reading": "chārù",
+          "hanViet": "sáp nhập",
+          "meaningVn": "chèn vào, cắm vào"
+        },
+        {
+          "headword": "插图",
+          "reading": "chātú",
+          "hanViet": "sáp đồ",
+          "meaningVn": "hình minh hoạ (trong sách)"
+        },
+        {
+          "headword": "插曲",
+          "reading": "chāqǔ",
+          "hanViet": "sáp khúc",
+          "meaningVn": "nhạc chèn (phim), tình tiết bất ngờ (nghĩa bóng)"
+        }
+      ],
+      "note": "插曲 nghĩa đen \"đoạn nhạc chèn vào phim\" nhưng thường dùng nghĩa bóng chỉ \"1 tình tiết bất ngờ xen vào giữa câu chuyện chính\"."
+    },
+    {
+      "id": "zh-cluster-an-press",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "按",
+      "centerReading": "àn",
+      "centerHanViet": "án/ấn",
+      "centerMeaningVn": "ấn xuống bằng tay; theo, dựa theo",
+      "words": [
+        {
+          "headword": "按钮",
+          "reading": "ànniǔ",
+          "hanViet": "án nữu",
+          "meaningVn": "nút bấm"
+        },
+        {
+          "headword": "按照",
+          "reading": "ànzhào",
+          "hanViet": "án chiếu",
+          "meaningVn": "theo, dựa theo"
+        },
+        {
+          "headword": "按时",
+          "reading": "ànshí",
+          "hanViet": "án thời",
+          "meaningVn": "đúng giờ"
+        },
+        {
+          "headword": "按摩",
+          "reading": "ànmó",
+          "hanViet": "án ma",
+          "meaningVn": "mát-xa, xoa bóp"
+        }
+      ],
+      "note": "按 nghĩa gốc \"ấn xuống bằng tay\" (按钮/按摩) mở rộng nghĩa giới từ \"theo, dựa theo\" (按照/按时)."
+    },
+    {
+      "id": "zh-cluster-yao-remote",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "遥",
+      "centerReading": "yáo",
+      "centerHanViet": "dao (xa)",
+      "centerMeaningVn": "khoảng cách xa",
+      "words": [
+        {
+          "headword": "遥控",
+          "reading": "yáokòng",
+          "hanViet": "dao khống",
+          "meaningVn": "điều khiển từ xa"
+        },
+        {
+          "headword": "遥远",
+          "reading": "yáoyuǎn",
+          "hanViet": "dao viễn",
+          "meaningVn": "xa xôi"
+        },
+        {
+          "headword": "遥望",
+          "reading": "yáowàng",
+          "hanViet": "dao vọng",
+          "meaningVn": "nhìn xa, ngóng trông từ xa"
+        }
+      ],
+      "note": "遥 luôn mang nghĩa \"khoảng cách xa\" — 遥控器 (thiết bị điều khiển từ xa cho tivi, máy lạnh...) là từ vựng công nghệ quen thuộc nhất chứa chữ này."
+    },
+    {
+      "id": "zh-cluster-sao-sweep",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "扫",
+      "centerReading": "sǎo",
+      "centerHanViet": "tảo/quét",
+      "centerMeaningVn": "quét bằng chổi hoặc bằng máy/mắt điện tử",
+      "words": [
+        {
+          "headword": "扫描",
+          "reading": "sǎomiáo",
+          "hanViet": "tảo miêu",
+          "meaningVn": "quét (máy scan, mã QR)"
+        },
+        {
+          "headword": "扫地",
+          "reading": "sǎodì",
+          "hanViet": "tảo địa",
+          "meaningVn": "quét nhà"
+        },
+        {
+          "headword": "打扫",
+          "reading": "dǎsǎo",
+          "hanViet": "đả tảo",
+          "meaningVn": "dọn dẹp"
+        },
+        {
+          "headword": "扫码",
+          "reading": "sǎomǎ",
+          "hanViet": "tảo mã",
+          "meaningVn": "quét mã (QR)"
+        }
+      ],
+      "note": "扫 nghĩa gốc \"quét bằng chổi\" (扫地) mở rộng hoàn hảo sang nghĩa \"quét bằng máy/mắt điện tử\" thời hiện đại (扫描/扫码)."
+    },
+    {
+      "id": "zh-cluster-jie-cut",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "截",
+      "centerReading": "jié",
+      "centerHanViet": "tiệt (cắt/chặn)",
+      "centerMeaningVn": "cắt đứt, chặn lại",
+      "words": [
+        {
+          "headword": "截图",
+          "reading": "jiétú",
+          "hanViet": "tiệt đồ",
+          "meaningVn": "chụp màn hình"
+        },
+        {
+          "headword": "截止",
+          "reading": "jiézhǐ",
+          "hanViet": "tiệt chỉ",
+          "meaningVn": "hết hạn, kết thúc (thời hạn)"
+        },
+        {
+          "headword": "截取",
+          "reading": "jiéqǔ",
+          "hanViet": "tiệt thủ",
+          "meaningVn": "cắt lấy 1 đoạn"
+        }
+      ],
+      "note": "截 nghĩa gốc \"cắt đứt, chặn lại\" — 截图 (chụp/\"cắt\" lại hình ảnh màn hình) là từ công nghệ điển hình dùng nghĩa bóng của 截."
+    },
+    {
+      "id": "zh-cluster-guang-wide",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "广",
+      "centerReading": "guǎng",
+      "centerHanViet": "quảng",
+      "centerMeaningVn": "rộng lớn",
+      "words": [
+        {
+          "headword": "广告",
+          "reading": "guǎnggào",
+          "hanViet": "quảng cáo",
+          "meaningVn": "quảng cáo"
+        },
+        {
+          "headword": "广泛",
+          "reading": "guǎngfàn",
+          "hanViet": "quảng phiếm",
+          "meaningVn": "rộng rãi, phổ biến"
+        },
+        {
+          "headword": "广场",
+          "reading": "guǎngchǎng",
+          "hanViet": "quảng trường",
+          "meaningVn": "quảng trường"
+        },
+        {
+          "headword": "推广",
+          "reading": "tuīguǎng",
+          "hanViet": "thôi quảng",
+          "meaningVn": "quảng bá, phổ biến rộng"
+        }
+      ],
+      "note": "广 nghĩa gốc \"rộng lớn\" — 广告 nghĩa đen \"thông báo rộng rãi\", chính là gốc Hán Việt của từ \"quảng cáo\" trong tiếng Việt."
+    },
+    {
+      "id": "zh-cluster-cu-urge",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "促",
+      "centerReading": "cù",
+      "centerHanViet": "xúc",
+      "centerMeaningVn": "thúc đẩy nhanh hơn",
+      "words": [
+        {
+          "headword": "促销",
+          "reading": "cùxiāo",
+          "hanViet": "xúc tiêu",
+          "meaningVn": "khuyến mãi, thúc đẩy bán hàng"
+        },
+        {
+          "headword": "促进",
+          "reading": "cùjìn",
+          "hanViet": "xúc tiến",
+          "meaningVn": "thúc đẩy"
+        },
+        {
+          "headword": "督促",
+          "reading": "dūcù",
+          "hanViet": "đốc xúc",
+          "meaningVn": "đôn đốc, giám sát thúc giục"
+        }
+      ],
+      "note": "促 luôn mang nghĩa \"thúc đẩy nhanh hơn\" — 促销 là từ thương mại rất phổ biến khi mua sắm online."
+    },
+    {
+      "id": "zh-cluster-du-poison",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "毒",
+      "centerReading": "dú",
+      "centerHanViet": "độc",
+      "centerMeaningVn": "chất độc, có hại",
+      "words": [
+        {
+          "headword": "病毒",
+          "reading": "bìngdú",
+          "hanViet": "bệnh độc",
+          "meaningVn": "vi-rút (bệnh lẫn máy tính)"
+        },
+        {
+          "headword": "毒品",
+          "reading": "dúpǐn",
+          "hanViet": "độc phẩm",
+          "meaningVn": "ma túy"
+        },
+        {
+          "headword": "中毒",
+          "reading": "zhòngdú",
+          "hanViet": "trúng độc",
+          "meaningVn": "trúng độc, ngộ độc"
+        },
+        {
+          "headword": "杀毒",
+          "reading": "shādú",
+          "hanViet": "sát độc",
+          "meaningVn": "diệt vi-rút (phần mềm)"
+        }
+      ],
+      "note": "病毒 vừa dùng cho y học (vi-rút gây bệnh) vừa dùng cho công nghệ (vi-rút máy tính) — 杀毒软件 (phần mềm diệt virus) là từ khoá công nghệ quen thuộc."
+    },
+    {
+      "id": "zh-cluster-fen-powder",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "粉",
+      "centerReading": "fěn",
+      "centerHanViet": "phấn",
+      "centerMeaningVn": "bột mịn, phấn; (mượn âm) người hâm mộ",
+      "words": [
+        {
+          "headword": "粉丝",
+          "reading": "fěnsī",
+          "hanViet": "phấn ti",
+          "meaningVn": "người hâm mộ (fan) — MƯỢN ÂM \"fans\", nghĩa đen gốc là \"miến/bún tàu\""
+        },
+        {
+          "headword": "粉色",
+          "reading": "fěnsè",
+          "hanViet": "phấn sắc",
+          "meaningVn": "màu hồng (phấn)"
+        },
+        {
+          "headword": "面粉",
+          "reading": "miànfěn",
+          "hanViet": "diện phấn",
+          "meaningVn": "bột mì"
+        },
+        {
+          "headword": "粉笔",
+          "reading": "fěnbǐ",
+          "hanViet": "phấn bút",
+          "meaningVn": "phấn viết bảng"
+        }
+      ],
+      "note": "粉丝 là ví dụ kinh điển của từ mượn âm (phiên âm \"fans\") trùng ngẫu nhiên với từ có sẵn nghĩa \"miến\" — người mới học dễ nhầm 2 nghĩa hoàn toàn khác nhau của cùng 1 từ."
+    },
+    {
+      "id": "zh-cluster-fu-pay",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "付",
+      "centerReading": "fù",
+      "centerHanViet": "phó (trả/chi)",
+      "centerMeaningVn": "giao, trả (tiền/công sức)",
+      "words": [
+        {
+          "headword": "付款",
+          "reading": "fùkuǎn",
+          "hanViet": "phó khoản",
+          "meaningVn": "thanh toán, trả tiền"
+        },
+        {
+          "headword": "支付",
+          "reading": "zhīfù",
+          "hanViet": "chi phó",
+          "meaningVn": "chi trả, thanh toán"
+        },
+        {
+          "headword": "付出",
+          "reading": "fùchū",
+          "hanViet": "phó xuất",
+          "meaningVn": "bỏ ra, trả giá (công sức)"
+        }
+      ],
+      "note": "付 nghĩa gốc \"giao, trả\" — 支付/付款 là 2 từ thanh toán phổ biến nhất khi mua sắm online."
+    },
+    {
+      "id": "zh-cluster-zhe-discount",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "折",
+      "centerReading": "zhé",
+      "centerHanViet": "chiết (gấp/giảm giá)",
+      "centerMeaningVn": "gấp lại; giảm giá theo tỷ lệ",
+      "words": [
+        {
+          "headword": "打折",
+          "reading": "dǎzhé",
+          "hanViet": "đả chiết",
+          "meaningVn": "giảm giá, khuyến mãi"
+        },
+        {
+          "headword": "折扣",
+          "reading": "zhékòu",
+          "hanViet": "chiết khấu",
+          "meaningVn": "chiết khấu, giảm giá"
+        },
+        {
+          "headword": "折叠",
+          "reading": "zhédié",
+          "hanViet": "chiết điệp",
+          "meaningVn": "gập lại, có thể gấp"
+        }
+      ],
+      "note": "折 vừa nghĩa \"gấp lại\" (折叠) vừa nghĩa \"giảm giá theo tỷ lệ\" (打折/折扣) — CẢNH BÁO: thang giảm giá Trung Quốc tính theo \"còn lại bao nhiêu\", vd 9折 nghĩa là còn 90% giá (tức giảm 10%), KHÔNG PHẢI giảm 90% như nhiều người mới học lầm tưởng."
+    },
+    {
+      "id": "zh-cluster-jian-item",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "件",
+      "centerReading": "jiàn",
+      "centerHanViet": "kiện",
+      "centerMeaningVn": "lượng từ đếm đồ vật/sự việc; kiện hàng, bộ phận",
+      "words": [
+        {
+          "headword": "附件",
+          "reading": "fùjiàn",
+          "hanViet": "phụ kiện",
+          "meaningVn": "tệp đính kèm, phụ kiện"
+        },
+        {
+          "headword": "零件",
+          "reading": "língjiàn",
+          "hanViet": "linh kiện",
+          "meaningVn": "linh kiện, phụ tùng"
+        },
+        {
+          "headword": "配件",
+          "reading": "pèijiàn",
+          "hanViet": "phối kiện",
+          "meaningVn": "phụ kiện đi kèm"
+        },
+        {
+          "headword": "快件",
+          "reading": "kuàijiàn",
+          "hanViet": "khoái kiện",
+          "meaningVn": "bưu kiện chuyển phát nhanh"
+        }
+      ],
+      "note": "件 vốn là lượng từ đếm đồ vật/sự việc (一件事), mở rộng thành danh từ chỉ \"kiện hàng/bộ phận\" (附件/零件/配件) trong đời sống hiện đại — đặc biệt phổ biến khi nói về email (附件) và mua sắm online."
+    },
+    {
+      "id": "zh-cluster-duan-terminal",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "端",
+      "centerReading": "duān",
+      "centerHanViet": "đoan",
+      "centerMeaningVn": "đầu mối, điểm cuối",
+      "words": [
+        {
+          "headword": "终端",
+          "reading": "zhōngduān",
+          "hanViet": "chung đoan",
+          "meaningVn": "thiết bị đầu cuối (máy tính, điện thoại...)"
+        },
+        {
+          "headword": "顶端",
+          "reading": "dǐngduān",
+          "hanViet": "đỉnh đoan",
+          "meaningVn": "đỉnh, chóp"
+        },
+        {
+          "headword": "端口",
+          "reading": "duānkǒu",
+          "hanViet": "đoan khẩu",
+          "meaningVn": "cổng kết nối (thiết bị/mạng)"
+        },
+        {
+          "headword": "极端",
+          "reading": "jíduān",
+          "hanViet": "cực đoan",
+          "meaningVn": "cực đoan, thái quá"
+        }
+      ],
+      "note": "端 nghĩa gốc \"đầu mối, điểm cuối\" — 终端 (thiết bị đầu cuối) là thuật ngữ công nghệ, còn 极端 mang nghĩa bóng \"đi đến cùng cực\" của một quan điểm/hành vi."
+    },
+    {
+      "id": "zh-cluster-kou-port",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "口",
+      "centerReading": "kǒu",
+      "centerHanViet": "khẩu",
+      "centerMeaningVn": "miệng, cửa ngõ, lối ra vào",
+      "words": [
+        {
+          "headword": "入口",
+          "reading": "rùkǒu",
+          "hanViet": "nhập khẩu",
+          "meaningVn": "lối vào, cổng vào"
+        },
+        {
+          "headword": "出口",
+          "reading": "chūkǒu",
+          "hanViet": "xuất khẩu",
+          "meaningVn": "lối ra; (nghĩa khác) xuất khẩu hàng hoá"
+        },
+        {
+          "headword": "接口",
+          "reading": "jiēkǒu",
+          "hanViet": "tiếp khẩu",
+          "meaningVn": "cổng kết nối, giao diện kết nối"
+        },
+        {
+          "headword": "门口",
+          "reading": "ménkǒu",
+          "hanViet": "môn khẩu",
+          "meaningVn": "cửa ra vào"
+        }
+      ],
+      "note": "口 nghĩa gốc \"miệng, cửa ngõ\" — 出口 là ví dụ điển hình 1 từ mang 2 nghĩa hoàn toàn khác nhau tuỳ ngữ cảnh: \"lối ra\" (toà nhà) hoặc \"xuất khẩu\" (thương mại)."
+    },
+    {
+      "id": "zh-cluster-xian-online",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "线",
+      "centerReading": "xiàn",
+      "centerHanViet": "tuyến",
+      "centerMeaningVn": "sợi dây, đường thẳng",
+      "words": [
+        {
+          "headword": "在线",
+          "reading": "zàixiàn",
+          "hanViet": "tại tuyến",
+          "meaningVn": "trực tuyến, online"
+        },
+        {
+          "headword": "连线",
+          "reading": "liánxiàn",
+          "hanViet": "liên tuyến",
+          "meaningVn": "kết nối trực tuyến, gọi video nối máy"
+        },
+        {
+          "headword": "热线",
+          "reading": "rèxiàn",
+          "hanViet": "nhiệt tuyến",
+          "meaningVn": "đường dây nóng"
+        },
+        {
+          "headword": "路线",
+          "reading": "lùxiàn",
+          "hanViet": "lộ tuyến",
+          "meaningVn": "tuyến đường, lộ trình"
+        }
+      ],
+      "note": "线 nghĩa gốc \"sợi dây, đường thẳng\" — 在线 (trực tuyến) là từ công nghệ dùng nghĩa bóng \"luôn kết nối trên đường dây mạng\"."
+    },
+    {
+      "id": "zh-cluster-lan-cable",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "缆",
+      "centerReading": "lǎn",
+      "centerHanViet": "lãm (dây cáp)",
+      "centerMeaningVn": "dây cáp lớn, chắc chắn",
+      "words": [
+        {
+          "headword": "电缆",
+          "reading": "diànlǎn",
+          "hanViet": "điện lãm",
+          "meaningVn": "dây cáp điện"
+        },
+        {
+          "headword": "光缆",
+          "reading": "guānglǎn",
+          "hanViet": "quang lãm",
+          "meaningVn": "cáp quang"
+        },
+        {
+          "headword": "缆车",
+          "reading": "lǎnchē",
+          "hanViet": "lãm xa",
+          "meaningVn": "cáp treo"
+        }
+      ],
+      "note": "缆 luôn gắn với \"dây cáp lớn, chắc chắn\" — 光缆 (cáp quang) là hạ tầng cốt lõi của internet tốc độ cao ngày nay."
+    },
+    {
+      "id": "zh-cluster-bao-package",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "包",
+      "centerReading": "bāo",
+      "centerHanViet": "bao/gói",
+      "centerMeaningVn": "bao bọc, gói lại",
+      "words": [
+        {
+          "headword": "包裹",
+          "reading": "bāoguǒ",
+          "hanViet": "bao khoả",
+          "meaningVn": "bưu kiện, gói hàng"
+        },
+        {
+          "headword": "背包",
+          "reading": "bēibāo",
+          "hanViet": "bối bao",
+          "meaningVn": "ba lô"
+        },
+        {
+          "headword": "红包",
+          "reading": "hóngbāo",
+          "hanViet": "hồng bao",
+          "meaningVn": "bao lì xì, tiền thưởng (kể cả chuyển khoản)"
+        },
+        {
+          "headword": "包邮",
+          "reading": "bāoyóu",
+          "hanViet": "bao bưu",
+          "meaningVn": "miễn phí vận chuyển (mua hàng online)"
+        }
+      ],
+      "note": "红包 xưa chỉ phong bao lì xì giấy, nay còn dùng cho \"lì xì điện tử\" chuyển qua app — 包邮 (bao trọn phí bưu điện) là từ khoá quen thuộc khi mua sắm online ở Trung Quốc."
+    },
+    {
+      "id": "zh-cluster-ji-mail",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "寄",
+      "centerReading": "jì",
+      "centerHanViet": "ký (gửi)",
+      "centerMeaningVn": "gửi đồ vật/tình cảm đi xa",
+      "words": [
+        {
+          "headword": "邮寄",
+          "reading": "yóujì",
+          "hanViet": "bưu ký",
+          "meaningVn": "gửi qua đường bưu điện"
+        },
+        {
+          "headword": "寄出",
+          "reading": "jìchū",
+          "hanViet": "ký xuất",
+          "meaningVn": "gửi đi"
+        },
+        {
+          "headword": "寄托",
+          "reading": "jìtuō",
+          "hanViet": "ký thác",
+          "meaningVn": "gửi gắm, ký thác (nghĩa bóng: tình cảm/hy vọng)"
+        }
+      ],
+      "note": "寄 nghĩa gốc \"gửi đồ vật đi xa\" (邮寄/寄出), mở rộng nghĩa bóng thành \"gửi gắm tình cảm/hy vọng\" (寄托 — vd 寄托希望 = gửi gắm hy vọng)."
+    },
+    {
+      "id": "zh-cluster-tui-return",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "退",
+      "centerReading": "tuì",
+      "centerHanViet": "thoái",
+      "centerMeaningVn": "lùi lại, rút lui",
+      "words": [
+        {
+          "headword": "退货",
+          "reading": "tuìhuò",
+          "hanViet": "thoái hoá",
+          "meaningVn": "trả lại hàng"
+        },
+        {
+          "headword": "退款",
+          "reading": "tuìkuǎn",
+          "hanViet": "thoái khoản",
+          "meaningVn": "hoàn tiền"
+        },
+        {
+          "headword": "退出",
+          "reading": "tuìchū",
+          "hanViet": "thoái xuất",
+          "meaningVn": "thoát ra, rút lui"
+        },
+        {
+          "headword": "退休",
+          "reading": "tuìxiū",
+          "hanViet": "thoái hưu",
+          "meaningVn": "nghỉ hưu"
+        }
+      ],
+      "note": "退 nghĩa gốc \"lùi lại, rút lui\" — 退货/退款 là 2 từ thiết yếu khi mua sắm online gặp vấn đề, còn 退休 dùng nghĩa bóng \"rút lui khỏi công việc\"."
+    },
+    {
+      "id": "zh-cluster-huo-goods",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "货",
+      "centerReading": "huò",
+      "centerHanViet": "hoá",
+      "centerMeaningVn": "hàng hoá trong thương mại",
+      "words": [
+        {
+          "headword": "发货",
+          "reading": "fāhuò",
+          "hanViet": "phát hoá",
+          "meaningVn": "giao hàng (từ người bán)"
+        },
+        {
+          "headword": "收货",
+          "reading": "shōuhuò",
+          "hanViet": "thu hoá",
+          "meaningVn": "nhận hàng"
+        },
+        {
+          "headword": "货物",
+          "reading": "huòwù",
+          "hanViet": "hoá vật",
+          "meaningVn": "hàng hoá"
+        },
+        {
+          "headword": "退货",
+          "reading": "tuìhuò",
+          "hanViet": "thoái hoá",
+          "meaningVn": "trả lại hàng"
+        }
+      ],
+      "note": "货 luôn gắn với \"hàng hoá trong thương mại\" — 发货/收货/退货 là bộ 3 từ theo dõi trạng thái đơn hàng khi mua sắm online, gần như bắt buộc phải biết."
+    },
+    {
+      "id": "zh-cluster-cang-storage",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "仓",
+      "centerReading": "cāng",
+      "centerHanViet": "thương (kho)",
+      "centerMeaningVn": "nơi chứa, kho chứa",
+      "words": [
+        {
+          "headword": "仓库",
+          "reading": "cāngkù",
+          "hanViet": "thương khố",
+          "meaningVn": "kho hàng"
+        },
+        {
+          "headword": "仓储",
+          "reading": "cāngchǔ",
+          "hanViet": "thương trữ",
+          "meaningVn": "kho bãi lưu trữ (logistics)"
+        },
+        {
+          "headword": "清仓",
+          "reading": "qīngcāng",
+          "hanViet": "thanh thương",
+          "meaningVn": "xả kho, thanh lý hàng tồn"
+        }
+      ],
+      "note": "仓库/仓储 cũng xuất hiện ở cụm 库/储 (trung tâm khác trong kho từ) — hoàn toàn bình thường vì 1 từ ghép có thể thuộc nhiều cụm nếu chứa nhiều ký tự trung tâm khác nhau. 清仓 là từ thường thấy trong các đợt sale lớn."
+    },
+    {
+      "id": "zh-cluster-pei-delivery",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "配",
+      "centerReading": "pèi",
+      "centerHanViet": "phối",
+      "centerMeaningVn": "ghép đôi, kết hợp, phân bổ",
+      "words": [
+        {
+          "headword": "配送",
+          "reading": "pèisòng",
+          "hanViet": "phối tống",
+          "meaningVn": "giao hàng, vận chuyển"
+        },
+        {
+          "headword": "搭配",
+          "reading": "dāpèi",
+          "hanViet": "đáp phối",
+          "meaningVn": "phối hợp, kết hợp (trang phục, món ăn...)"
+        },
+        {
+          "headword": "配合",
+          "reading": "pèihé",
+          "hanViet": "phối hợp",
+          "meaningVn": "phối hợp, hợp tác"
+        },
+        {
+          "headword": "分配",
+          "reading": "fēnpèi",
+          "hanViet": "phân phối",
+          "meaningVn": "phân phối, phân bổ"
+        }
+      ],
+      "note": "配 nghĩa gốc \"ghép đôi, kết hợp\" — 配送 chuyên dùng cho giao hàng logistics, còn 搭配 dùng phổ biến khi nói về phối đồ/phối món ăn."
+    },
+    {
+      "id": "zh-cluster-fu-service",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "服",
+      "centerReading": "fú",
+      "centerHanViet": "phục",
+      "centerMeaningVn": "quần áo; phục vụ, tuân theo",
+      "words": [
+        {
+          "headword": "服务",
+          "reading": "fúwù",
+          "hanViet": "phục vụ",
+          "meaningVn": "dịch vụ, phục vụ"
+        },
+        {
+          "headword": "客服",
+          "reading": "kèfú",
+          "hanViet": "khách phục",
+          "meaningVn": "chăm sóc khách hàng (viết tắt của 客户服务)"
+        },
+        {
+          "headword": "衣服",
+          "reading": "yīfu",
+          "hanViet": "y phục",
+          "meaningVn": "quần áo"
+        },
+        {
+          "headword": "说服",
+          "reading": "shuōfú",
+          "hanViet": "thuyết phục",
+          "meaningVn": "thuyết phục"
+        }
+      ],
+      "note": "服 vừa nghĩa \"quần áo\" (衣服) vừa nghĩa \"phục vụ/tuân theo\" (服务/说服) — 客服 là từ viết tắt cực kỳ phổ biến trong mua sắm online (bộ phận chăm sóc khách hàng)."
+    },
+    {
+      "id": "zh-cluster-ping-review",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "评",
+      "centerReading": "píng",
+      "centerHanViet": "bình",
+      "centerMeaningVn": "bàn luận, đánh giá",
+      "words": [
+        {
+          "headword": "评价",
+          "reading": "píngjià",
+          "hanViet": "bình giá",
+          "meaningVn": "đánh giá, nhận xét"
+        },
+        {
+          "headword": "评论",
+          "reading": "pínglùn",
+          "hanViet": "bình luận",
+          "meaningVn": "bình luận"
+        },
+        {
+          "headword": "评分",
+          "reading": "píngfēn",
+          "hanViet": "bình phân",
+          "meaningVn": "chấm điểm, xếp hạng sao"
+        },
+        {
+          "headword": "好评",
+          "reading": "hǎopíng",
+          "hanViet": "hảo bình",
+          "meaningVn": "đánh giá tốt, review tích cực"
+        }
+      ],
+      "note": "好评/差评 (đánh giá tốt/xấu) là cặp từ không thể thiếu khi mua sắm online — 评价/评论/评分 đều xoay quanh việc để lại nhận xét sau khi trải nghiệm sản phẩm/dịch vụ."
+    },
+    {
+      "id": "zh-cluster-shai-share",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "晒",
+      "centerReading": "shài",
+      "centerHanViet": "sái (phơi nắng)",
+      "centerMeaningVn": "phơi ngoài nắng; phơi bày ra cho mọi người xem",
+      "words": [
+        {
+          "headword": "晒单",
+          "reading": "shàidān",
+          "hanViet": "sái đơn",
+          "meaningVn": "khoe đơn hàng vừa mua (thuật ngữ mạng xã hội)"
+        },
+        {
+          "headword": "晒太阳",
+          "reading": "shài tàiyáng",
+          "hanViet": "sái thái dương",
+          "meaningVn": "phơi nắng, tắm nắng"
+        },
+        {
+          "headword": "暴晒",
+          "reading": "bàoshài",
+          "hanViet": "bạo sái",
+          "meaningVn": "phơi nắng gắt, dãi nắng"
+        }
+      ],
+      "note": "晒 nghĩa gốc \"phơi ngoài nắng\" (晒太阳/暴晒), nhưng giới trẻ Trung Quốc mượn nghĩa bóng \"phơi bày ra cho mọi người xem\" để tạo ra 晒单 (khoe đơn hàng mua sắm) — một hiện tượng mạng xã hội đặc trưng thời mua sắm online."
+    },
+    {
+      "id": "zh-cluster-dan-order",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "单",
+      "centerReading": "dān",
+      "centerHanViet": "đơn",
+      "centerMeaningVn": "tờ giấy ghi thông tin, danh sách",
+      "words": [
+        {
+          "headword": "订单",
+          "reading": "dìngdān",
+          "hanViet": "đính đơn",
+          "meaningVn": "đơn đặt hàng"
+        },
+        {
+          "headword": "菜单",
+          "reading": "càidān",
+          "hanViet": "thái đơn",
+          "meaningVn": "thực đơn"
+        },
+        {
+          "headword": "账单",
+          "reading": "zhàngdān",
+          "hanViet": "trướng đơn",
+          "meaningVn": "hoá đơn, bảng kê"
+        },
+        {
+          "headword": "清单",
+          "reading": "qīngdān",
+          "hanViet": "thanh đơn",
+          "meaningVn": "danh sách, bảng kê"
+        }
+      ],
+      "note": "单 nghĩa gốc \"tờ giấy ghi thông tin\" — hầu hết từ ghép đều chỉ 1 loại \"phiếu/danh sách\" cụ thể: 订单 (đặt hàng), 菜单 (gọi món), 账单 (thanh toán), 清单 (liệt kê)."
+    },
+    {
+      "id": "zh-cluster-wei-maintain",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "维",
+      "centerReading": "wéi",
+      "centerHanViet": "duy",
+      "centerMeaningVn": "giữ gìn, duy trì",
+      "words": [
+        {
+          "headword": "维修",
+          "reading": "wéixiū",
+          "hanViet": "duy tu",
+          "meaningVn": "bảo trì, sửa chữa"
+        },
+        {
+          "headword": "维护",
+          "reading": "wéihù",
+          "hanViet": "duy hộ",
+          "meaningVn": "bảo vệ, duy trì"
+        },
+        {
+          "headword": "思维",
+          "reading": "sīwéi",
+          "hanViet": "tư duy",
+          "meaningVn": "tư duy, cách suy nghĩ"
+        },
+        {
+          "headword": "维生素",
+          "reading": "wéishēngsù",
+          "hanViet": "duy sinh tố",
+          "meaningVn": "vitamin"
+        }
+      ],
+      "note": "维 nghĩa gốc \"giữ gìn, duy trì\" — 维修/维护 dùng cho máy móc/thiết bị, còn 思维 mang nghĩa trừu tượng \"cách vận hành tư duy\"."
+    },
+    {
+      "id": "zh-cluster-ya-pressure",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "压",
+      "centerReading": "yā",
+      "centerHanViet": "áp",
+      "centerMeaningVn": "đè, ép",
+      "words": [
+        {
+          "headword": "压力",
+          "reading": "yālì",
+          "hanViet": "áp lực",
+          "meaningVn": "áp lực"
+        },
+        {
+          "headword": "压抑",
+          "reading": "yāyì",
+          "hanViet": "áp ức",
+          "meaningVn": "kìm nén, đè nén (cảm xúc)"
+        },
+        {
+          "headword": "减压",
+          "reading": "jiǎnyā",
+          "hanViet": "giảm áp",
+          "meaningVn": "giảm áp lực, giải tỏa căng thẳng"
+        },
+        {
+          "headword": "血压",
+          "reading": "xuèyā",
+          "hanViet": "huyết áp",
+          "meaningVn": "huyết áp"
+        }
+      ],
+      "note": "压 nghĩa gốc \"đè, ép\" — mở rộng thành \"áp lực tâm lý\" (压力/压抑) song song với nghĩa y học \"huyết áp\" (血压)."
+    },
+    {
+      "id": "zh-cluster-yu-depressed",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "郁",
+      "centerReading": "yù",
+      "centerHanViet": "uất",
+      "centerMeaningVn": "u ám, dồn nén trong lòng",
+      "words": [
+        {
+          "headword": "抑郁",
+          "reading": "yìyù",
+          "hanViet": "ức uất",
+          "meaningVn": "trầm cảm, u uất"
+        },
+        {
+          "headword": "忧郁",
+          "reading": "yōuyù",
+          "hanViet": "ưu uất",
+          "meaningVn": "u sầu, u uất"
+        },
+        {
+          "headword": "郁闷",
+          "reading": "yùmèn",
+          "hanViet": "uất muộn",
+          "meaningVn": "bứt rứt, u uất khó chịu"
+        }
+      ],
+      "note": "郁 luôn gắn với cảm giác \"u ám, dồn nén trong lòng\" — 抑郁症 (trầm cảm) là thuật ngữ y học tâm lý ngày càng được nhắc đến nhiều."
+    },
+    {
+      "id": "zh-cluster-lv-worry",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "虑",
+      "centerReading": "lǜ",
+      "centerHanViet": "lự",
+      "centerMeaningVn": "suy nghĩ, cân nhắc",
+      "words": [
+        {
+          "headword": "焦虑",
+          "reading": "jiāolǜ",
+          "hanViet": "tiêu lự",
+          "meaningVn": "lo âu"
+        },
+        {
+          "headword": "考虑",
+          "reading": "kǎolǜ",
+          "hanViet": "khảo lự",
+          "meaningVn": "suy xét, cân nhắc"
+        },
+        {
+          "headword": "顾虑",
+          "reading": "gùlǜ",
+          "hanViet": "cố lự",
+          "meaningVn": "lo ngại, e dè"
+        }
+      ],
+      "note": "虑 nghĩa gốc \"suy nghĩ, cân nhắc\" — 焦虑 thiên về cảm xúc lo âu, 考虑 thiên về hành động suy xét lý trí."
+    },
+    {
+      "id": "zh-cluster-jiao-anxious",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "焦",
+      "centerReading": "jiāo",
+      "centerHanViet": "tiêu",
+      "centerMeaningVn": "cháy khét",
+      "words": [
+        {
+          "headword": "焦虑",
+          "reading": "jiāolǜ",
+          "hanViet": "tiêu lự",
+          "meaningVn": "lo âu"
+        },
+        {
+          "headword": "焦急",
+          "reading": "jiāojí",
+          "hanViet": "tiêu cấp",
+          "meaningVn": "nóng lòng, sốt ruột"
+        },
+        {
+          "headword": "心焦",
+          "reading": "xīnjiāo",
+          "hanViet": "tâm tiêu",
+          "meaningVn": "lòng nóng như lửa đốt"
+        }
+      ],
+      "note": "焦 nghĩa gốc \"cháy khét\" — mượn hình ảnh \"cháy\" để diễn tả trạng thái tâm lý nóng ruột, lo lắng (焦虑/焦急)."
+    },
+    {
+      "id": "zh-cluster-huan-relieve",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "缓",
+      "centerReading": "huǎn",
+      "centerHanViet": "hoãn",
+      "centerMeaningVn": "chậm lại",
+      "words": [
+        {
+          "headword": "缓解",
+          "reading": "huǎnjiě",
+          "hanViet": "hoãn giải",
+          "meaningVn": "làm dịu, giảm bớt (áp lực, đau)"
+        },
+        {
+          "headword": "缓和",
+          "reading": "huǎnhé",
+          "hanViet": "hoãn hoà",
+          "meaningVn": "hòa hoãn, dịu lại"
+        },
+        {
+          "headword": "舒缓",
+          "reading": "shūhuǎn",
+          "hanViet": "thư hoãn",
+          "meaningVn": "thư thái, chậm rãi (nhạc/tâm trạng)"
+        }
+      ],
+      "note": "缓 nghĩa gốc \"chậm lại\" — trong ngữ cảnh cảm xúc, 缓解/舒缓 đều mang nghĩa \"làm cho dịu bớt căng thẳng\"."
+    },
+    {
+      "id": "zh-cluster-ming-meditate",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "冥",
+      "centerReading": "míng",
+      "centerHanViet": "minh",
+      "centerMeaningVn": "u tối, sâu lắng",
+      "words": [
+        {
+          "headword": "冥想",
+          "reading": "míngxiǎng",
+          "hanViet": "minh tưởng",
+          "meaningVn": "thiền định"
+        }
+      ],
+      "note": "冥 hầu như chỉ xuất hiện trong 冥想 (thiền, thực hành tĩnh tâm) ở nghĩa hiện đại — 1 từ đơn nhưng rất quan trọng trong lĩnh vực chăm sóc sức khỏe tinh thần."
+    },
+    {
+      "id": "zh-cluster-yu-heal",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "愈",
+      "centerReading": "yù",
+      "centerHanViet": "dũ",
+      "centerMeaningVn": "khỏi bệnh, lành lại",
+      "words": [
+        {
+          "headword": "治愈",
+          "reading": "zhìyù",
+          "hanViet": "trị dũ",
+          "meaningVn": "chữa lành"
+        },
+        {
+          "headword": "愈合",
+          "reading": "yùhé",
+          "hanViet": "dũ hợp",
+          "meaningVn": "lành lại (vết thương)"
+        },
+        {
+          "headword": "痊愈",
+          "reading": "quányù",
+          "hanViet": "thuyên dũ",
+          "meaningVn": "bình phục hoàn toàn"
+        }
+      ],
+      "note": "愈 nghĩa gốc \"khỏi bệnh, lành lại\" — 治愈系 (dòng \"chữa lành\") là trào lưu văn hoá phổ biến trong phim ảnh/âm nhạc Trung Quốc gần đây."
+    },
+    {
+      "id": "zh-cluster-gu-lonely",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "孤",
+      "centerReading": "gū",
+      "centerHanViet": "cô",
+      "centerMeaningVn": "một mình, tách biệt",
+      "words": [
+        {
+          "headword": "孤独",
+          "reading": "gūdú",
+          "hanViet": "cô độc",
+          "meaningVn": "cô đơn"
+        },
+        {
+          "headword": "孤单",
+          "reading": "gūdān",
+          "hanViet": "cô đơn",
+          "meaningVn": "lẻ loi, cô độc"
+        },
+        {
+          "headword": "孤立",
+          "reading": "gūlì",
+          "hanViet": "cô lập",
+          "meaningVn": "bị cô lập"
+        }
+      ],
+      "note": "孤 luôn mang nghĩa \"một mình, tách biệt\" — 孤独 (trạng thái nội tâm) khác 孤立 (bị người khác cô lập, mang tính bị động)."
+    },
+    {
+      "id": "zh-cluster-du-alone",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "独",
+      "centerReading": "dú",
+      "centerHanViet": "độc",
+      "centerMeaningVn": "chỉ một, riêng lẻ",
+      "words": [
+        {
+          "headword": "孤独",
+          "reading": "gūdú",
+          "hanViet": "cô độc",
+          "meaningVn": "cô đơn"
+        },
+        {
+          "headword": "独自",
+          "reading": "dúzì",
+          "hanViet": "độc tự",
+          "meaningVn": "một mình, tự mình"
+        },
+        {
+          "headword": "独立",
+          "reading": "dúlì",
+          "hanViet": "độc lập",
+          "meaningVn": "độc lập"
+        }
+      ],
+      "note": "独 nghĩa \"chỉ một, riêng lẻ\" — 独立 mang nghĩa tích cực (tự chủ) trong khi 孤独 lại thiên về cảm giác tiêu cực (cô đơn)."
+    },
+    {
+      "id": "zh-cluster-ji-solitude",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "寂",
+      "centerReading": "jì",
+      "centerHanViet": "tịch",
+      "centerMeaningVn": "vắng lặng, cô quạnh",
+      "words": [
+        {
+          "headword": "寂寞",
+          "reading": "jìmò",
+          "hanViet": "tịch mịch",
+          "meaningVn": "cô quạnh, buồn tẻ vì cô đơn"
+        },
+        {
+          "headword": "寂静",
+          "reading": "jìjìng",
+          "hanViet": "tịch tĩnh",
+          "meaningVn": "tĩnh lặng, yên ắng"
+        }
+      ],
+      "note": "寂寞 khác 孤独 ở chỗ: 孤独 có thể là trạng thái CHỌN LỰA (thích ở một mình), còn 寂寞 luôn mang sắc thái tiêu cực, buồn bã vì thiếu người đồng hành."
+    },
+    {
+      "id": "zh-cluster-yi-suppress",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "抑",
+      "centerReading": "yì",
+      "centerHanViet": "ức",
+      "centerMeaningVn": "đè xuống, kìm lại",
+      "words": [
+        {
+          "headword": "抑郁",
+          "reading": "yìyù",
+          "hanViet": "ức uất",
+          "meaningVn": "trầm cảm"
+        },
+        {
+          "headword": "压抑",
+          "reading": "yāyì",
+          "hanViet": "áp ức",
+          "meaningVn": "kìm nén"
+        },
+        {
+          "headword": "抑制",
+          "reading": "yìzhì",
+          "hanViet": "ức chế",
+          "meaningVn": "ức chế, kiềm chế"
+        }
+      ],
+      "note": "抑 nghĩa gốc \"đè xuống, kìm lại\" — cùng gốc nghĩa với 压 (áp) nhưng 抑 thiên về kìm nén nội tâm nhiều hơn là áp lực bên ngoài."
+    },
+    {
+      "id": "zh-cluster-pei-accompany",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "陪",
+      "centerReading": "péi",
+      "centerHanViet": "bồi",
+      "centerMeaningVn": "đi cùng, ở bên cạnh",
+      "words": [
+        {
+          "headword": "陪伴",
+          "reading": "péibàn",
+          "hanViet": "bồi bạn",
+          "meaningVn": "đồng hành, ở bên cạnh"
+        },
+        {
+          "headword": "陪同",
+          "reading": "péitóng",
+          "hanViet": "bồi đồng",
+          "meaningVn": "đi cùng, tháp tùng"
+        }
+      ],
+      "note": "陪伴 là từ khoá quan trọng trong chăm sóc sức khỏe tinh thần — \"sự đồng hành\" được xem là liều thuốc tinh thần hiệu quả."
+    },
+    {
+      "id": "zh-cluster-qing-confide",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "倾",
+      "centerReading": "qīng",
+      "centerHanViet": "khuynh",
+      "centerMeaningVn": "nghiêng, dồn hết vào",
+      "words": [
+        {
+          "headword": "倾诉",
+          "reading": "qīngsù",
+          "hanViet": "khuynh tố",
+          "meaningVn": "giãi bày, tâm sự hết lòng"
+        },
+        {
+          "headword": "倾听",
+          "reading": "qīngtīng",
+          "hanViet": "khuynh thính",
+          "meaningVn": "lắng nghe (chăm chú, thấu cảm)"
+        }
+      ],
+      "note": "倾诉/倾听 là cặp từ bổ trợ nhau — một bên giãi bày, một bên lắng nghe — nền tảng của liệu pháp tâm lý trò chuyện."
+    },
+    {
+      "id": "zh-cluster-xuan-vent",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "宣",
+      "centerReading": "xuān",
+      "centerHanViet": "tuyên",
+      "centerMeaningVn": "công bố, tỏ ra ngoài",
+      "words": [
+        {
+          "headword": "宣泄",
+          "reading": "xuānxiè",
+          "hanViet": "tuyên tiết",
+          "meaningVn": "giải tỏa, trút bỏ (cảm xúc tiêu cực)"
+        },
+        {
+          "headword": "宣布",
+          "reading": "xuānbù",
+          "hanViet": "tuyên bố",
+          "meaningVn": "tuyên bố, công bố"
+        }
+      ],
+      "note": "宣泄 nghĩa đen \"tuyên/xả ra\" — mô tả hành động giải tỏa cảm xúc dồn nén (khóc, la hét, viết nhật ký...)."
+    },
+    {
+      "id": "zh-cluster-zheng-mindful",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "正",
+      "centerReading": "zhèng",
+      "centerHanViet": "chính",
+      "centerMeaningVn": "ngay thẳng, đúng đắn",
+      "words": [
+        {
+          "headword": "正念",
+          "reading": "zhèngniàn",
+          "hanViet": "chính niệm",
+          "meaningVn": "chánh niệm (thuật ngữ Phật giáo/tâm lý học hiện đại)"
+        },
+        {
+          "headword": "纠正",
+          "reading": "jiūzhèng",
+          "hanViet": "củ chính",
+          "meaningVn": "sửa chữa, uốn nắn"
+        }
+      ],
+      "note": "正念 (chánh niệm) là khái niệm gốc Phật giáo được tâm lý học hiện đại mượn lại để chỉ \"sự tập trung vào hiện tại, không phán xét\"."
+    },
+    {
+      "id": "zh-cluster-zhuan-focus",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "专",
+      "centerReading": "zhuān",
+      "centerHanViet": "chuyên",
+      "centerMeaningVn": "dồn hết vào một việc",
+      "words": [
+        {
+          "headword": "专注",
+          "reading": "zhuānzhù",
+          "hanViet": "chuyên chú",
+          "meaningVn": "tập trung chú ý"
+        },
+        {
+          "headword": "专心",
+          "reading": "zhuānxīn",
+          "hanViet": "chuyên tâm",
+          "meaningVn": "chuyên tâm, dồn hết tâm trí"
+        }
+      ],
+      "note": "专注/专心 gần nghĩa nhau, đều chỉ trạng thái tập trung cao độ — thường được luyện tập qua 冥想 (thiền)."
+    },
+    {
+      "id": "zh-cluster-chen-sink",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "沉",
+      "centerReading": "chén",
+      "centerHanViet": "trầm",
+      "centerMeaningVn": "chìm xuống",
+      "words": [
+        {
+          "headword": "沉浸",
+          "reading": "chénjìn",
+          "hanViet": "trầm tẩm",
+          "meaningVn": "đắm chìm (trong cảm xúc/hoạt động)"
+        },
+        {
+          "headword": "沉默",
+          "reading": "chénmò",
+          "hanViet": "trầm mặc",
+          "meaningVn": "im lặng, trầm mặc"
+        },
+        {
+          "headword": "沉重",
+          "reading": "chénzhòng",
+          "hanViet": "trầm trọng",
+          "meaningVn": "nặng nề (tâm trạng)"
+        }
+      ],
+      "note": "沉 nghĩa gốc \"chìm xuống\" — cả 3 từ đều mượn hình ảnh \"chìm\" để diễn tả trạng thái tâm lý sâu, nặng hoặc mất kết nối với xung quanh."
+    },
+    {
+      "id": "zh-cluster-nao-upset",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "恼",
+      "centerReading": "nǎo",
+      "centerHanViet": "não (bực bội)",
+      "centerMeaningVn": "cảm xúc khó chịu, bực bội",
+      "words": [
+        {
+          "headword": "烦恼",
+          "reading": "fánnǎo",
+          "hanViet": "phiền não",
+          "meaningVn": "phiền muộn"
+        },
+        {
+          "headword": "苦恼",
+          "reading": "kǔnǎo",
+          "hanViet": "khổ não",
+          "meaningVn": "khổ não, phiền muộn"
+        },
+        {
+          "headword": "恼火",
+          "reading": "nǎohuǒ",
+          "hanViet": "não hoả",
+          "meaningVn": "bực bội, tức giận"
+        }
+      ],
+      "note": "恼 luôn liên quan đến cảm xúc khó chịu, bực bội — khác 脑 (não bộ, cơ quan) dù phát âm giống hệt, dễ viết nhầm."
+    },
+    {
+      "id": "zh-cluster-beng-collapse",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "崩",
+      "centerReading": "bēng",
+      "centerHanViet": "băng (sụp đổ)",
+      "centerMeaningVn": "sụp đổ, vỡ ra",
+      "words": [
+        {
+          "headword": "崩溃",
+          "reading": "bēngkuì",
+          "hanViet": "băng hội",
+          "meaningVn": "sụp đổ, suy sụp (tinh thần)"
+        }
+      ],
+      "note": "崩溃 là từ mạng phổ biến diễn tả trạng thái quá tải tâm lý, \"muốn sụp đổ\" — thường dùng khi deadline dồn dập hoặc căng thẳng tích tụ."
+    },
+    {
+      "id": "zh-cluster-liao-chat",
+      "language": "zh",
+      "kind": "cluster",
+      "centerChar": "聊",
+      "centerReading": "liáo",
+      "centerHanViet": "liêu",
+      "centerMeaningVn": "trò chuyện",
+      "words": [
+        {
+          "headword": "聊天",
+          "reading": "liáotiān",
+          "hanViet": "liêu thiên",
+          "meaningVn": "trò chuyện, tán gẫu"
+        },
+        {
+          "headword": "无聊",
+          "reading": "wúliáo",
+          "hanViet": "vô liêu",
+          "meaningVn": "buồn chán, vô vị"
+        },
+        {
+          "headword": "闲聊",
+          "reading": "xiánliáo",
+          "hanViet": "nhàn liêu",
+          "meaningVn": "tán gẫu, chuyện phiếm"
+        }
+      ],
+      "note": "聊天 (trò chuyện) là hoạt động xã hội cơ bản; 无聊 lại mang nghĩa hoàn toàn khác — \"buồn chán\" chứ không phải \"không trò chuyện\"."
     }
   ],
   "todo": [
