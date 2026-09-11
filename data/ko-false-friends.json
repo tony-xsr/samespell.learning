@@ -2773,6 +2773,402 @@
           ]
         }
       ]
+    },
+    {
+      "id": "ko-ff-gi3",
+      "language": "ko",
+      "reading": "起",
+      "groupKind": "false-friend",
+      "note": "起 (khởi) vốn nghĩa 'dậy lên, bắt đầu', 기립 giữ nghĩa vật lý cụ thể (đứng dậy), còn 기원 lệch thành khái niệm trừu tượng về NGUỒN GỐC/khởi nguyên của một sự vật — song song với tiếng Nhật 起立/起源.",
+      "roots": [
+        {
+          "id": "ko-ff-gi3-root",
+          "character": "起",
+          "hanViet": "khởi",
+          "meaningVn": "khởi (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-gi3-w1",
+              "headword": "기립",
+              "reading": "girip",
+              "meaningVn": "đứng dậy",
+              "example": "선생님이 오시면 기립해 주세요.",
+              "exampleVn": "Khi thầy giáo đến hãy đứng dậy."
+            },
+            {
+              "id": "ko-ff-gi3-w2",
+              "headword": "기원",
+              "reading": "giwon",
+              "meaningVn": "nguồn gốc, khởi nguyên",
+              "example": "이 풍습의 기원은 고대에 있어요.",
+              "exampleVn": "Nguồn gốc của phong tục này có từ thời cổ đại."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ff-jeon2",
+      "language": "ko",
+      "reading": "展",
+      "groupKind": "false-friend",
+      "note": "展 (triển) vốn nghĩa 'trải ra, mở rộng', 진전 giữ nghĩa trừu tượng (sự tiến triển, tiến bộ), còn 전시 lệch thành hành động cụ thể TRƯNG BÀY vật phẩm — song song với tiếng Nhật 進展/展示.",
+      "roots": [
+        {
+          "id": "ko-ff-jeon2-root",
+          "character": "展",
+          "hanViet": "triển",
+          "meaningVn": "triển (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-jeon2-w1",
+              "headword": "진전",
+              "reading": "jinjeon",
+              "meaningVn": "tiến triển",
+              "example": "협상이 순조롭게 진전되고 있어요.",
+              "exampleVn": "Cuộc đàm phán đang tiến triển thuận lợi."
+            },
+            {
+              "id": "ko-ff-jeon2-w2",
+              "headword": "전시",
+              "reading": "jeonsi",
+              "meaningVn": "trưng bày, triển lãm",
+              "example": "미술관에서 그림을 전시하고 있어요.",
+              "exampleVn": "Bảo tàng mỹ thuật đang trưng bày tranh."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ff-geuk",
+      "language": "ko",
+      "reading": "極",
+      "groupKind": "false-friend",
+      "note": "極 (cực) vốn nghĩa 'điểm tận cùng, cực điểm', 적극적 lệch thành TÍNH CÁCH con người (tích cực, chủ động), còn 북극 giữ nghĩa vật lý cụ thể (một ĐỊA ĐIỂM địa lý - Bắc Cực) — song song với tiếng Nhật 積極的/北極.",
+      "roots": [
+        {
+          "id": "ko-ff-geuk-root",
+          "character": "極",
+          "hanViet": "cực",
+          "meaningVn": "cực (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-geuk-w1",
+              "headword": "적극적",
+              "reading": "jeokgeukjeok",
+              "meaningVn": "tích cực, chủ động",
+              "example": "그는 항상 적극적으로 발언해요.",
+              "exampleVn": "Anh ấy luôn phát biểu một cách tích cực."
+            },
+            {
+              "id": "ko-ff-geuk-w2",
+              "headword": "북극",
+              "reading": "bukgeuk",
+              "meaningVn": "Bắc Cực",
+              "example": "북극에는 얼음이 많아요.",
+              "exampleVn": "Ở Bắc Cực có rất nhiều băng."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ff-je2",
+      "language": "ko",
+      "reading": "際",
+      "groupKind": "false-friend",
+      "note": "際 (tế) vốn nghĩa 'biên giới, ranh giới, lúc', 국제 giữ nghĩa gần gốc (giữa các quốc gia), còn 실제 lệch thành trạng từ/danh từ trừu tượng chỉ THỰC TẾ/trong thực tiễn — song song với tiếng Nhật 国際/実際.",
+      "roots": [
+        {
+          "id": "ko-ff-je2-root",
+          "character": "際",
+          "hanViet": "tế",
+          "meaningVn": "tế (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-je2-w1",
+              "headword": "국제",
+              "reading": "gukje",
+              "meaningVn": "quốc tế",
+              "example": "국제 회의에 참가했어요.",
+              "exampleVn": "Tôi đã tham gia hội nghị quốc tế."
+            },
+            {
+              "id": "ko-ff-je2-w2",
+              "headword": "실제",
+              "reading": "silje",
+              "meaningVn": "thực tế",
+              "example": "실제로 한번 해 봅시다.",
+              "exampleVn": "Hãy thử làm trong thực tế xem."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ff-hyeong2",
+      "language": "ko",
+      "reading": "型",
+      "groupKind": "false-friend",
+      "note": "型 (hình) vốn nghĩa 'khuôn mẫu, kiểu dáng', 대형 giữ nghĩa vật lý cụ thể (kích cỡ lớn), còn 전형적 lệch thành TÍNH TỪ trừu tượng (mang tính tiêu biểu, điển hình) — song song với tiếng Nhật 大型/典型的.",
+      "roots": [
+        {
+          "id": "ko-ff-hyeong2-root",
+          "character": "型",
+          "hanViet": "hình",
+          "meaningVn": "hình (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-hyeong2-w1",
+              "headword": "대형",
+              "reading": "daehyeong",
+              "meaningVn": "cỡ lớn",
+              "example": "대형 트럭이 지나가요.",
+              "exampleVn": "Một chiếc xe tải cỡ lớn đang đi qua."
+            },
+            {
+              "id": "ko-ff-hyeong2-w2",
+              "headword": "전형적",
+              "reading": "jeonhyeongjeok",
+              "meaningVn": "điển hình, tiêu biểu",
+              "example": "이것은 전형적인 예시예요.",
+              "exampleVn": "Đây là một ví dụ điển hình."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ff-hyo",
+      "language": "ko",
+      "reading": "效",
+      "groupKind": "false-friend",
+      "note": "效 (hiệu, dạng phồn thể của 効) vốn nghĩa 'tác dụng, hiệu quả', 효과 giữ nghĩa sát gốc (kết quả/tác dụng nói chung), còn 유효 lệch thành khái niệm PHÁP LÝ/thủ tục cụ thể (có hiệu lực, hợp lệ) — song song với tiếng Nhật 効果/有効.",
+      "roots": [
+        {
+          "id": "ko-ff-hyo-root",
+          "character": "效",
+          "hanViet": "hiệu",
+          "meaningVn": "hiệu (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-hyo-w1",
+              "headword": "효과",
+              "reading": "hyogwa",
+              "meaningVn": "hiệu quả",
+              "example": "이 약은 바로 효과가 나요.",
+              "exampleVn": "Loại thuốc này có hiệu quả ngay lập tức."
+            },
+            {
+              "id": "ko-ff-hyo-w2",
+              "headword": "유효",
+              "reading": "yuhyo",
+              "meaningVn": "có hiệu lực, hợp lệ",
+              "example": "이 표는 오늘까지 유효해요.",
+              "exampleVn": "Vé này có hiệu lực đến hôm nay."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ff-dok2",
+      "language": "ko",
+      "reading": "獨",
+      "groupKind": "false-friend",
+      "note": "獨 (độc, dạng phồn thể của 独) vốn nghĩa 'một mình, riêng lẻ', 독신 giữ nghĩa cụ thể (tình trạng xã hội - độc thân), còn 독특 lệch thành TÍNH TỪ trừu tượng (độc đáo, riêng biệt) — song song với tiếng Nhật 独身/独特.",
+      "roots": [
+        {
+          "id": "ko-ff-dok2-root",
+          "character": "獨",
+          "hanViet": "độc",
+          "meaningVn": "độc (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-dok2-w1",
+              "headword": "독신",
+              "reading": "doksin",
+              "meaningVn": "độc thân",
+              "example": "그는 아직 독신이에요.",
+              "exampleVn": "Anh ấy vẫn còn độc thân."
+            },
+            {
+              "id": "ko-ff-dok2-w2",
+              "headword": "독특",
+              "reading": "dokteuk",
+              "meaningVn": "độc đáo, riêng biệt",
+              "example": "이 가게는 독특한 분위기가 있어요.",
+              "exampleVn": "Quán này có bầu không khí độc đáo."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ff-pum2",
+      "language": "ko",
+      "reading": "品",
+      "groupKind": "false-friend",
+      "note": "品 (phẩm) vốn nghĩa 'đồ vật, phẩm chất', 작품 giữ nghĩa cụ thể (một TÁC PHẨM/sản phẩm sáng tạo), còn 인품 lệch hẳn thành khái niệm về NHÂN CÁCH con người, không còn là một đồ vật.",
+      "roots": [
+        {
+          "id": "ko-ff-pum2-root",
+          "character": "品",
+          "hanViet": "phẩm",
+          "meaningVn": "phẩm (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-pum2-w1",
+              "headword": "작품",
+              "reading": "jakpum",
+              "meaningVn": "tác phẩm",
+              "example": "이 작품은 정말 아름다워요.",
+              "exampleVn": "Tác phẩm này rất đẹp."
+            },
+            {
+              "id": "ko-ff-pum2-w2",
+              "headword": "인품",
+              "reading": "inpum",
+              "meaningVn": "nhân phẩm, nhân cách",
+              "example": "그는 인품이 훌륭한 사람이에요.",
+              "exampleVn": "Anh ấy là người có nhân cách tuyệt vời."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ff-sang4",
+      "language": "ko",
+      "reading": "常",
+      "groupKind": "false-friend",
+      "note": "常 (thường) vốn nghĩa 'thường xuyên, bình thường', 일상 giữ nghĩa sát gốc (đời sống thường ngày), còn 비상 lệch hẳn thành khái niệm về TÌNH TRẠNG KHẨN CẤP, trái ngược hoàn toàn với 'bình thường' — song song với tiếng Nhật 日常/非常.",
+      "roots": [
+        {
+          "id": "ko-ff-sang4-root",
+          "character": "常",
+          "hanViet": "thường",
+          "meaningVn": "thường (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-sang4-w1",
+              "headword": "일상",
+              "reading": "ilsang",
+              "meaningVn": "thường ngày, hàng ngày",
+              "example": "일상 생활을 소중히 여겨야 해요.",
+              "exampleVn": "Hãy trân trọng cuộc sống thường ngày."
+            },
+            {
+              "id": "ko-ff-sang4-w2",
+              "headword": "비상",
+              "reading": "bisang",
+              "meaningVn": "khẩn cấp",
+              "example": "비상시에는 여기로 나가 주세요.",
+              "exampleVn": "Trong trường hợp khẩn cấp hãy ra theo lối này."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ff-gu2",
+      "language": "ko",
+      "reading": "求",
+      "groupKind": "false-friend",
+      "note": "求 (cầu) vốn nghĩa 'tìm kiếm, yêu cầu', 요구 giữ nghĩa trừu tượng (đòi hỏi, yêu cầu), còn 구인 lệch thành hoạt động KINH TẾ/xã hội cụ thể (tuyển dụng lao động) — song song với tiếng Nhật 要求/求人.",
+      "roots": [
+        {
+          "id": "ko-ff-gu2-root",
+          "character": "求",
+          "hanViet": "cầu",
+          "meaningVn": "cầu (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-gu2-w1",
+              "headword": "요구",
+              "reading": "yogu",
+              "meaningVn": "yêu cầu, đòi hỏi",
+              "example": "그의 요구는 너무 엄격해요.",
+              "exampleVn": "Yêu cầu của anh ấy quá khắt khe."
+            },
+            {
+              "id": "ko-ff-gu2-w2",
+              "headword": "구인",
+              "reading": "guin",
+              "meaningVn": "tuyển dụng",
+              "example": "이 회사는 구인 중이에요.",
+              "exampleVn": "Công ty này đang tuyển dụng."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ff-jong2",
+      "language": "ko",
+      "reading": "種",
+      "groupKind": "false-friend",
+      "note": "種 (chủng) vốn nghĩa 'hạt giống, loại', 종류 giữ nghĩa trừu tượng chung (phân loại nói chung), còn 인종 lệch thành khái niệm XÃ HỘI nhạy cảm cụ thể (chủng tộc con người) — song song với tiếng Nhật 種類/人種.",
+      "roots": [
+        {
+          "id": "ko-ff-jong2-root",
+          "character": "種",
+          "hanViet": "chủng",
+          "meaningVn": "chủng (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-jong2-w1",
+              "headword": "종류",
+              "reading": "jongnyu",
+              "meaningVn": "chủng loại, loại",
+              "example": "꽃의 종류가 아주 많아요.",
+              "exampleVn": "Có rất nhiều loại hoa."
+            },
+            {
+              "id": "ko-ff-jong2-w2",
+              "headword": "인종",
+              "reading": "injong",
+              "meaningVn": "chủng tộc",
+              "example": "인종에 따른 차별은 안 돼요.",
+              "exampleVn": "Không được phân biệt đối xử vì chủng tộc."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ff-non",
+      "language": "ko",
+      "reading": "論",
+      "groupKind": "false-friend",
+      "note": "論 (luận) vốn nghĩa 'bàn luận, lý lẽ', 의논 giữ nghĩa sát gốc (hoạt động bàn bạc qua lại), còn 논문 lệch thành DANH TỪ cụ thể chỉ một VĂN BẢN học thuật (luận văn) — song song với tiếng Nhật 議論/論文.",
+      "roots": [
+        {
+          "id": "ko-ff-non-root",
+          "character": "論",
+          "hanViet": "luận",
+          "meaningVn": "luận (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-non-w1",
+              "headword": "의논",
+              "reading": "uinon",
+              "meaningVn": "bàn bạc, thảo luận",
+              "example": "이 문제에 대해 의논해 봅시다.",
+              "exampleVn": "Hãy cùng bàn bạc về vấn đề này."
+            },
+            {
+              "id": "ko-ff-non-w2",
+              "headword": "논문",
+              "reading": "nonmun",
+              "meaningVn": "luận văn",
+              "example": "졸업 논문을 쓰고 있어요.",
+              "exampleVn": "Tôi đang viết luận văn tốt nghiệp."
+            }
+          ]
+        }
+      ]
     }
   ]
 }
