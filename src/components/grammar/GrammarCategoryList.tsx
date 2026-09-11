@@ -143,9 +143,25 @@ export default function GrammarCategoryList({
         {filteredCategories.map((cat) => (
           <details key={cat.id} open className="group rounded-2xl border border-border">
             <summary className="cursor-pointer list-none">
-              <div className="flex items-center gap-2 rounded-2xl bg-surface-2 px-4 py-3 hover:bg-surface-3">
+              <div className="flex flex-wrap items-center gap-2 rounded-2xl bg-surface-2 px-4 py-3 hover:bg-surface-3">
                 <span className="text-base font-bold text-ink">{cat.titleVn}</span>
                 <span className="text-sm font-medium text-ink-muted">{cat.points.length} điểm</span>
+                {/* Luyện riêng NHÓM NÀY thay vì toàn bộ — stopPropagation để bấm link không làm
+                    <details> đóng/mở theo (click vẫn "chạm" tới <summary> nên phải chặn nổi bọt). */}
+                <Link
+                  href={`/grammar/${lang}/review?category=${cat.id}`}
+                  onClick={(e) => e.stopPropagation()}
+                  className="rounded-full bg-gradient-to-r from-brand-600 to-accent-500 px-3 py-1 text-xs font-semibold text-white shadow-sm hover:brightness-105"
+                >
+                  🗂️ Luyện tập
+                </Link>
+                <Link
+                  href={`/grammar/${lang}/test?category=${cat.id}`}
+                  onClick={(e) => e.stopPropagation()}
+                  className="rounded-full bg-gradient-to-r from-sky-600 to-sky-400 px-3 py-1 text-xs font-semibold text-white shadow-sm hover:brightness-105"
+                >
+                  🧪 Trắc nghiệm
+                </Link>
                 <span className="ml-auto text-ink-muted transition-transform group-open:rotate-90">▶</span>
               </div>
             </summary>
