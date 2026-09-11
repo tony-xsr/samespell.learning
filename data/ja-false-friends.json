@@ -1,0 +1,402 @@
+{
+  "language": "ja",
+  "label": "Bẫy nghĩa",
+  "groups": [
+    {
+      "id": "ja-ff-ka",
+      "language": "ja",
+      "reading": "火",
+      "groupKind": "false-friend",
+      "note": "火 (hỏa) vốn nghĩa 'lửa', 火事 giữ nghĩa cụ thể (tai nạn do lửa gây ra), còn 火曜日 lệch hẳn thành tên một ngày trong tuần (theo ngũ hành), không còn liên quan lửa theo nghĩa thông thường.",
+      "roots": [
+        {
+          "id": "ja-ff-ka-root",
+          "character": "火",
+          "hanViet": "hỏa",
+          "meaningVn": "hỏa (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-ka-w1",
+              "headword": "火事",
+              "reading": "kaji",
+              "meaningVn": "hỏa hoạn, vụ cháy",
+              "example": "近所で火事があった。",
+              "exampleVn": "Gần nhà tôi đã xảy ra hỏa hoạn."
+            },
+            {
+              "id": "ja-ff-ka-w2",
+              "headword": "火曜日",
+              "reading": "kayoubi",
+              "meaningVn": "thứ Ba",
+              "example": "火曜日に会議があります。",
+              "exampleVn": "Thứ Ba có cuộc họp."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-shu",
+      "language": "ja",
+      "reading": "手",
+      "groupKind": "false-friend",
+      "note": "手 (thủ) vốn nghĩa 'tay', 手紙 (giấy-tay) lệch thành 'thư từ' (vốn là giấy viết tay xưa), còn 上手 (tay-trên) lệch hẳn thành tính từ chỉ sự THÀNH THẠO/giỏi giang, không còn liên quan đến tay.",
+      "roots": [
+        {
+          "id": "ja-ff-shu-root",
+          "character": "手",
+          "hanViet": "thủ",
+          "meaningVn": "thủ (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-shu-w1",
+              "headword": "手紙",
+              "reading": "tegami",
+              "meaningVn": "lá thư, bức thư",
+              "example": "友達に手紙を書いた。",
+              "exampleVn": "Tôi đã viết thư cho bạn."
+            },
+            {
+              "id": "ja-ff-shu-w2",
+              "headword": "上手",
+              "reading": "jouzu",
+              "meaningVn": "giỏi, khéo léo",
+              "example": "彼女は歌が上手です。",
+              "exampleVn": "Cô ấy hát rất giỏi."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-ki",
+      "language": "ja",
+      "reading": "気",
+      "groupKind": "false-friend",
+      "note": "気 (khí) vốn nghĩa 'khí, năng lượng', 天気 giữ nghĩa cụ thể về hiện tượng tự nhiên (thời tiết), còn 気分 lệch hẳn sang trạng thái tâm lý trừu tượng bên trong con người.",
+      "roots": [
+        {
+          "id": "ja-ff-ki-root",
+          "character": "気",
+          "hanViet": "khí",
+          "meaningVn": "khí (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-ki-w1",
+              "headword": "天気",
+              "reading": "tenki",
+              "meaningVn": "thời tiết",
+              "example": "今日は天気がいいです。",
+              "exampleVn": "Hôm nay thời tiết đẹp."
+            },
+            {
+              "id": "ja-ff-ki-w2",
+              "headword": "気分",
+              "reading": "kibun",
+              "meaningVn": "tâm trạng, cảm giác",
+              "example": "今日は気分がいいです。",
+              "exampleVn": "Hôm nay tôi cảm thấy vui vẻ."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-kao",
+      "language": "ja",
+      "reading": "顔",
+      "groupKind": "false-friend",
+      "note": "顔 (nhan) vốn nghĩa 'mặt', 顔色 vẫn giữ nghĩa cụ thể (biểu hiện trên khuôn mặt), còn 顔負け (thua-mặt) lệch hẳn thành thành ngữ trừu tượng chỉ việc bị VƯỢT TRỘI/kém cạnh, không còn nói về khuôn mặt thật.",
+      "roots": [
+        {
+          "id": "ja-ff-kao-root",
+          "character": "顔",
+          "hanViet": "nhan",
+          "meaningVn": "nhan (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-kao-w1",
+              "headword": "顔色",
+              "reading": "kaoiro",
+              "meaningVn": "sắc mặt, vẻ mặt",
+              "example": "彼の顔色が悪い。",
+              "exampleVn": "Sắc mặt anh ấy không tốt."
+            },
+            {
+              "id": "ja-ff-kao-w2",
+              "headword": "顔負け",
+              "reading": "kaomake",
+              "meaningVn": "phải chào thua, kém cạnh hẳn",
+              "example": "プロも顔負けの腕前だ。",
+              "exampleVn": "Tay nghề giỏi đến mức cả dân chuyên nghiệp cũng phải chào thua."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-kou",
+      "language": "ja",
+      "reading": "口",
+      "groupKind": "false-friend",
+      "note": "口 (khẩu) vốn nghĩa 'miệng', 人口 (miệng người) lệch thành đơn vị đếm ĐẦU NGƯỜI tức dân số, còn 口実 lệch hẳn thành khái niệm trừu tượng 'lý do nguỵ tạo', không còn liên quan miệng.",
+      "roots": [
+        {
+          "id": "ja-ff-kou-root",
+          "character": "口",
+          "hanViet": "khẩu",
+          "meaningVn": "khẩu (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-kou-w1",
+              "headword": "人口",
+              "reading": "jinkou",
+              "meaningVn": "dân số",
+              "example": "この町の人口は少ない。",
+              "exampleVn": "Dân số thị trấn này ít."
+            },
+            {
+              "id": "ja-ff-kou-w2",
+              "headword": "口実",
+              "reading": "koujitsu",
+              "meaningVn": "cái cớ, lý do biện minh",
+              "example": "忙しいという口実で断った。",
+              "exampleVn": "Anh ấy từ chối với cái cớ là bận rộn."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-moku",
+      "language": "ja",
+      "reading": "目",
+      "groupKind": "false-friend",
+      "note": "目 (mục) vốn nghĩa 'mắt', 目次 lệch thành 'mục/khoản' trong danh sách (đã trừu tượng hoá), còn trong 真面目 (mặt thật-mắt) lệch hẳn hoàn toàn thành tính từ chỉ TÍNH CÁCH nghiêm túc, không còn liên quan đến mắt.",
+      "roots": [
+        {
+          "id": "ja-ff-moku-root",
+          "character": "目",
+          "hanViet": "mục",
+          "meaningVn": "mục (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-moku-w1",
+              "headword": "目次",
+              "reading": "mokuji",
+              "meaningVn": "mục lục",
+              "example": "本の目次を見た。",
+              "exampleVn": "Tôi đã xem mục lục cuốn sách."
+            },
+            {
+              "id": "ja-ff-moku-w2",
+              "headword": "真面目",
+              "reading": "majime",
+              "meaningVn": "nghiêm túc, chăm chỉ",
+              "example": "彼はとても真面目な学生だ。",
+              "exampleVn": "Anh ấy là một học sinh rất nghiêm túc."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-sui",
+      "language": "ja",
+      "reading": "水",
+      "groupKind": "false-friend",
+      "note": "水 (thủy) vốn nghĩa 'nước', 水曜日 lệch thành tên ngày trong tuần (theo ngũ hành, giống 火曜日), còn 水臭い (mùi nước) lệch hẳn thành thành ngữ chỉ thái độ XA CÁCH/giữ kẽ giữa người thân, không liên quan 'nước' theo nghĩa đen.",
+      "roots": [
+        {
+          "id": "ja-ff-sui-root",
+          "character": "水",
+          "hanViet": "thủy",
+          "meaningVn": "thủy (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-sui-w1",
+              "headword": "水曜日",
+              "reading": "suiyoubi",
+              "meaningVn": "thứ Tư",
+              "example": "水曜日から出張です。",
+              "exampleVn": "Từ thứ Tư tôi đi công tác."
+            },
+            {
+              "id": "ja-ff-sui-w2",
+              "headword": "水臭い",
+              "reading": "mizukusai",
+              "meaningVn": "khách sáo, giữ kẽ",
+              "example": "そんなに水臭いこと言わないで。",
+              "exampleVn": "Đừng nói khách sáo như vậy."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-hana",
+      "language": "ja",
+      "reading": "花",
+      "groupKind": "false-friend",
+      "note": "花 (hoa) vốn nghĩa 'hoa', 花見 vẫn giữ nghĩa cụ thể (ngắm hoa thật), còn 花形 (hình hoa) lệch hẳn thành ẩn dụ chỉ NHÂN VẬT NỔI BẬT/xuất sắc nhất, không còn nói về hoa thật.",
+      "roots": [
+        {
+          "id": "ja-ff-hana-root",
+          "character": "花",
+          "hanViet": "hoa",
+          "meaningVn": "hoa (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-hana-w1",
+              "headword": "花見",
+              "reading": "hanami",
+              "meaningVn": "ngắm hoa (anh đào)",
+              "example": "春に花見に行きます。",
+              "exampleVn": "Mùa xuân tôi đi ngắm hoa."
+            },
+            {
+              "id": "ja-ff-hana-w2",
+              "headword": "花形",
+              "reading": "hanagata",
+              "meaningVn": "ngôi sao, nhân vật nổi bật",
+              "example": "彼はチームの花形選手だ。",
+              "exampleVn": "Anh ấy là ngôi sao của đội."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-tou",
+      "language": "ja",
+      "reading": "頭",
+      "groupKind": "false-friend",
+      "note": "頭 (đầu) vốn nghĩa 'đầu', 頭痛 giữ nghĩa cụ thể (đau ở đầu thật), còn 台頭 (đầu trên đài) lệch hẳn thành khái niệm trừu tượng chỉ sự NỔI LÊN/giành ảnh hưởng, không còn liên quan bộ phận cơ thể.",
+      "roots": [
+        {
+          "id": "ja-ff-tou-root",
+          "character": "頭",
+          "hanViet": "đầu",
+          "meaningVn": "đầu (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-tou-w1",
+              "headword": "頭痛",
+              "reading": "zutsuu",
+              "meaningVn": "đau đầu",
+              "example": "頭痛がひどいです。",
+              "exampleVn": "Tôi bị đau đầu dữ dội."
+            },
+            {
+              "id": "ja-ff-tou-w2",
+              "headword": "台頭",
+              "reading": "taitou",
+              "meaningVn": "trỗi dậy, nổi lên",
+              "example": "新しい勢力が台頭してきた。",
+              "exampleVn": "Một thế lực mới đã trỗi dậy."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-soku",
+      "language": "ja",
+      "reading": "足",
+      "groupKind": "false-friend",
+      "note": "足 (túc) vốn nghĩa 'chân', 足跡 giữ nghĩa cụ thể (dấu vết bàn chân thật), còn 遠足 (chân xa) lệch thành danh từ chỉ HOẠT ĐỘNG đi chơi/dã ngoại, không còn nói về bàn chân.",
+      "roots": [
+        {
+          "id": "ja-ff-soku-root",
+          "character": "足",
+          "hanViet": "túc",
+          "meaningVn": "túc (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-soku-w1",
+              "headword": "足跡",
+              "reading": "ashiato",
+              "meaningVn": "dấu chân",
+              "example": "雪の上に足跡が残った。",
+              "exampleVn": "Dấu chân còn lại trên tuyết."
+            },
+            {
+              "id": "ja-ff-soku-w2",
+              "headword": "遠足",
+              "reading": "ensoku",
+              "meaningVn": "chuyến dã ngoại, đi chơi xa",
+              "example": "来週、遠足があります。",
+              "exampleVn": "Tuần sau có chuyến dã ngoại."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-shin",
+      "language": "ja",
+      "reading": "心",
+      "groupKind": "false-friend",
+      "note": "心 (tâm) vốn nghĩa 'tim, tâm hồn', 心配 giữ nghĩa trừu tượng về CẢM XÚC (lo lắng), còn 中心 lại lệch sang nghĩa hoàn toàn CỤ THỂ/vật lý chỉ vị trí trung tâm, không liên quan cảm xúc.",
+      "roots": [
+        {
+          "id": "ja-ff-shin-root",
+          "character": "心",
+          "hanViet": "tâm",
+          "meaningVn": "tâm (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-shin-w1",
+              "headword": "心配",
+              "reading": "shinpai",
+              "meaningVn": "lo lắng",
+              "example": "息子の将来が心配だ。",
+              "exampleVn": "Tôi lo lắng về tương lai của con trai."
+            },
+            {
+              "id": "ja-ff-shin-w2",
+              "headword": "中心",
+              "reading": "chuushin",
+              "meaningVn": "trung tâm",
+              "example": "駅は町の中心にある。",
+              "exampleVn": "Ga tàu nằm ở trung tâm thị trấn."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-mi",
+      "language": "ja",
+      "reading": "身",
+      "groupKind": "false-friend",
+      "note": "身 (thân) vốn nghĩa 'thân thể, bản thân', 身分 lệch thành khái niệm về ĐỊA VỊ XÃ HỘI, còn 出身 lệch thành khái niệm về NƠI SINH RA/quê quán, hai hướng trừu tượng hoá khác nhau từ cùng 1 gốc 'thân'.",
+      "roots": [
+        {
+          "id": "ja-ff-mi-root",
+          "character": "身",
+          "hanViet": "thân",
+          "meaningVn": "thân (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-mi-w1",
+              "headword": "身分",
+              "reading": "mibun",
+              "meaningVn": "thân phận, địa vị xã hội",
+              "example": "身分証明書を見せてください。",
+              "exampleVn": "Vui lòng cho xem giấy tờ tùy thân."
+            },
+            {
+              "id": "ja-ff-mi-w2",
+              "headword": "出身",
+              "reading": "shusshin",
+              "meaningVn": "quê quán, xuất thân",
+              "example": "彼は大阪出身です。",
+              "exampleVn": "Anh ấy quê ở Osaka."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
