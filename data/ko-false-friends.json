@@ -1981,6 +1981,402 @@
           ]
         }
       ]
+    },
+    {
+      "id": "ko-ff-sang2",
+      "language": "ko",
+      "reading": "想",
+      "groupKind": "false-friend",
+      "note": "想 (tưởng) vốn nghĩa 'suy nghĩ, tưởng tượng', 감상 giữ nghĩa cụ thể (cảm nghĩ về một sự việc thực tế), còn 공상 lệch hẳn thành khái niệm về SUY NGHĨ VIỄN VÔNG/tưởng tượng không có căn cứ.",
+      "roots": [
+        {
+          "id": "ko-ff-sang2-root",
+          "character": "想",
+          "hanViet": "tưởng",
+          "meaningVn": "tưởng (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-sang2-w1",
+              "headword": "감상",
+              "reading": "gamsang",
+              "meaningVn": "cảm tưởng, cảm nghĩ",
+              "example": "영화를 보고 감상을 말해 주세요.",
+              "exampleVn": "Xem phim xong hãy nói cảm tưởng của bạn."
+            },
+            {
+              "id": "ko-ff-sang2-w2",
+              "headword": "공상",
+              "reading": "gongsang",
+              "meaningVn": "ảo tưởng, tưởng tượng viển vông",
+              "example": "그는 항상 공상에 잠겨 있어요.",
+              "exampleVn": "Anh ấy lúc nào cũng chìm trong tưởng tượng viển vông."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ff-an4",
+      "language": "ko",
+      "reading": "案",
+      "groupKind": "false-friend",
+      "note": "案 (án) vốn nghĩa 'kế hoạch, phương án', 안내 lệch thành hành động cụ thể HƯỚNG DẪN chỉ đường, còn 제안 giữ nghĩa trừu tượng gần gốc hơn (đưa ra một Ý TƯỞNG) — song song với tiếng Nhật 案内/提案.",
+      "roots": [
+        {
+          "id": "ko-ff-an4-root",
+          "character": "案",
+          "hanViet": "án",
+          "meaningVn": "án (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-an4-w1",
+              "headword": "안내",
+              "reading": "annae",
+              "meaningVn": "hướng dẫn, chỉ dẫn",
+              "example": "직원이 길을 안내해 줬어요.",
+              "exampleVn": "Nhân viên đã hướng dẫn đường cho tôi."
+            },
+            {
+              "id": "ko-ff-an4-w2",
+              "headword": "제안",
+              "reading": "jean",
+              "meaningVn": "đề xuất, đề án",
+              "example": "좋은 제안이 있어요.",
+              "exampleVn": "Tôi có một đề xuất hay."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ff-gi2",
+      "language": "ko",
+      "reading": "記",
+      "groupKind": "false-friend",
+      "note": "記 (ký) vốn nghĩa 'ghi chép', 일기 giữ nghĩa cụ thể (ghi chép cá nhân hằng ngày), còn 기록 lệch thành khái niệm về THÀNH TÍCH/dữ liệu được lưu giữ chính thức — song song với tiếng Nhật 日記/記録.",
+      "roots": [
+        {
+          "id": "ko-ff-gi2-root",
+          "character": "記",
+          "hanViet": "ký",
+          "meaningVn": "ký (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-gi2-w1",
+              "headword": "일기",
+              "reading": "ilgi",
+              "meaningVn": "nhật ký",
+              "example": "매일 밤 일기를 써요.",
+              "exampleVn": "Mỗi tối tôi đều viết nhật ký."
+            },
+            {
+              "id": "ko-ff-gi2-w2",
+              "headword": "기록",
+              "reading": "girok",
+              "meaningVn": "kỷ lục, ghi chép",
+              "example": "그는 세계 기록을 세웠어요.",
+              "exampleVn": "Anh ấy đã lập kỷ lục thế giới."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ff-ho2",
+      "language": "ko",
+      "reading": "號",
+      "groupKind": "false-friend",
+      "note": "號 (hiệu) vốn nghĩa 'dấu hiệu, tên gọi', 번호 giữ nghĩa cụ thể (con số định danh), còn 기호 lệch thành khái niệm trừu tượng về BIỂU TƯỢNG/ký hiệu quy ước.",
+      "roots": [
+        {
+          "id": "ko-ff-ho2-root",
+          "character": "號",
+          "hanViet": "hiệu",
+          "meaningVn": "hiệu (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-ho2-w1",
+              "headword": "번호",
+              "reading": "beonho",
+              "meaningVn": "số hiệu, số điện thoại",
+              "example": "전화번호를 알려 주세요.",
+              "exampleVn": "Hãy cho tôi biết số điện thoại."
+            },
+            {
+              "id": "ko-ff-ho2-w2",
+              "headword": "기호",
+              "reading": "giho",
+              "meaningVn": "ký hiệu",
+              "example": "이 기호는 무슨 뜻이에요?",
+              "exampleVn": "Ký hiệu này nghĩa là gì vậy?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ff-sok",
+      "language": "ko",
+      "reading": "束",
+      "groupKind": "false-friend",
+      "note": "束 (thúc) vốn nghĩa 'bó lại, ràng buộc', 약속 lệch thành khái niệm trừu tượng 'lời hứa, cam kết', còn 결속 giữ khá sát nghĩa gốc (sự gắn bó, liên kết chặt chẽ).",
+      "roots": [
+        {
+          "id": "ko-ff-sok-root",
+          "character": "束",
+          "hanViet": "thúc",
+          "meaningVn": "thúc (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-sok-w1",
+              "headword": "약속",
+              "reading": "yaksok",
+              "meaningVn": "hứa hẹn, lời hứa",
+              "example": "약속을 꼭 지키세요.",
+              "exampleVn": "Hãy nhất định giữ lời hứa."
+            },
+            {
+              "id": "ko-ff-sok-w2",
+              "headword": "결속",
+              "reading": "gyeolsok",
+              "meaningVn": "đoàn kết, liên kết",
+              "example": "팀의 결속이 강해졌어요.",
+              "exampleVn": "Sự đoàn kết của đội đã trở nên mạnh mẽ hơn."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ff-yu2",
+      "language": "ko",
+      "reading": "遊",
+      "groupKind": "false-friend",
+      "note": "遊 (du) vốn nghĩa 'đi chơi, dạo chơi', 유원지 giữ nghĩa cụ thể (một ĐỊA ĐIỂM giải trí), còn 유목 lệch thành khái niệm về LỐI SỐNG du mục của một cộng đồng — song song với tiếng Nhật 遊園地/遊牧.",
+      "roots": [
+        {
+          "id": "ko-ff-yu2-root",
+          "character": "遊",
+          "hanViet": "du",
+          "meaningVn": "du (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-yu2-w1",
+              "headword": "유원지",
+              "reading": "yuwonji",
+              "meaningVn": "công viên giải trí",
+              "example": "주말에 유원지에 갔어요.",
+              "exampleVn": "Cuối tuần tôi đã đi công viên giải trí."
+            },
+            {
+              "id": "ko-ff-yu2-w2",
+              "headword": "유목",
+              "reading": "yumok",
+              "meaningVn": "du mục",
+              "example": "그들은 유목 생활을 해요.",
+              "exampleVn": "Họ sống cuộc sống du mục."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ff-geon",
+      "language": "ko",
+      "reading": "建",
+      "groupKind": "false-friend",
+      "note": "建 (kiến) vốn nghĩa 'xây dựng, dựng lên', 건물 giữ nghĩa cụ thể (một công trình vật chất), còn 건국 lệch thành khái niệm LỊCH SỬ/chính trị trừu tượng về việc thành lập quốc gia.",
+      "roots": [
+        {
+          "id": "ko-ff-geon-root",
+          "character": "建",
+          "hanViet": "kiến",
+          "meaningVn": "kiến (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-geon-w1",
+              "headword": "건물",
+              "reading": "geonmul",
+              "meaningVn": "toà nhà, kiến trúc",
+              "example": "저 건물은 정말 높아요.",
+              "exampleVn": "Toà nhà đó thật sự rất cao."
+            },
+            {
+              "id": "ko-ff-geon-w2",
+              "headword": "건국",
+              "reading": "geonguk",
+              "meaningVn": "lập quốc, dựng nước",
+              "example": "이 나라는 건국 오십 주년을 맞았어요.",
+              "exampleVn": "Đất nước này đã kỷ niệm năm mươi năm lập quốc."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ff-jil",
+      "language": "ko",
+      "reading": "質",
+      "groupKind": "false-friend",
+      "note": "質 (chất) vốn nghĩa 'bản chất, phẩm chất', 품질 giữ nghĩa cụ thể (chất lượng sản phẩm), còn 질문 lệch hẳn thành hành động HỎI, không liên quan đến 'chất lượng' vật chất — song song với tiếng Nhật 品質/質問.",
+      "roots": [
+        {
+          "id": "ko-ff-jil-root",
+          "character": "質",
+          "hanViet": "chất",
+          "meaningVn": "chất (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-jil-w1",
+              "headword": "품질",
+              "reading": "pumjil",
+              "meaningVn": "chất lượng",
+              "example": "이 제품은 품질이 좋아요.",
+              "exampleVn": "Sản phẩm này có chất lượng tốt."
+            },
+            {
+              "id": "ko-ff-jil-w2",
+              "headword": "질문",
+              "reading": "jilmun",
+              "meaningVn": "câu hỏi",
+              "example": "질문이 있으면 손을 드세요.",
+              "exampleVn": "Nếu có câu hỏi thì giơ tay lên."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ff-byeon",
+      "language": "ko",
+      "reading": "變",
+      "groupKind": "false-friend",
+      "note": "變 (biến) vốn nghĩa 'thay đổi', 변화 giữ nghĩa sát gốc, còn 사변 lệch thành khái niệm về một SỰ KIỆN LỚN/biến cố (thường mang tính lịch sử, chính trị), không chỉ đơn thuần là 'thay đổi'.",
+      "roots": [
+        {
+          "id": "ko-ff-byeon-root",
+          "character": "變",
+          "hanViet": "biến",
+          "meaningVn": "biến (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-byeon-w1",
+              "headword": "변화",
+              "reading": "byeonhwa",
+              "meaningVn": "biến hoá, thay đổi",
+              "example": "날씨가 급격히 변화했어요.",
+              "exampleVn": "Thời tiết đã thay đổi đột ngột."
+            },
+            {
+              "id": "ko-ff-byeon-w2",
+              "headword": "사변",
+              "reading": "sabyeon",
+              "meaningVn": "biến cố, sự biến",
+              "example": "역사적인 사변이 일어났어요.",
+              "exampleVn": "Một biến cố mang tính lịch sử đã xảy ra."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ff-jeong4",
+      "language": "ko",
+      "reading": "情",
+      "groupKind": "false-friend",
+      "note": "情 (tình) vốn nghĩa 'tình cảm', 정보 lệch hẳn thành khái niệm hiện đại về DỮ LIỆU/thông tin khách quan, còn 인정 giữ nghĩa gần gốc hơn (lòng người, sự cảm thông xã hội).",
+      "roots": [
+        {
+          "id": "ko-ff-jeong4-root",
+          "character": "情",
+          "hanViet": "tình",
+          "meaningVn": "tình (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-jeong4-w1",
+              "headword": "정보",
+              "reading": "jeongbo",
+              "meaningVn": "thông tin",
+              "example": "더 많은 정보가 필요해요.",
+              "exampleVn": "Tôi cần thêm nhiều thông tin hơn."
+            },
+            {
+              "id": "ko-ff-jeong4-w2",
+              "headword": "인정",
+              "reading": "injeong",
+              "meaningVn": "tình người, nhân tình",
+              "example": "그는 인정이 많은 사람이에요.",
+              "exampleVn": "Anh ấy là người giàu tình cảm với mọi người."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ff-hwa3",
+      "language": "ko",
+      "reading": "化",
+      "groupKind": "false-friend",
+      "note": "化 (hoá) vốn nghĩa 'biến đổi, chuyển hoá', 문화 lệch thành khái niệm XÃ HỘI rộng lớn (văn hoá), còn 화장 lệch thành hành động cụ thể LÀM ĐẸP (trang điểm) — song song với tiếng Nhật 文化/化粧.",
+      "roots": [
+        {
+          "id": "ko-ff-hwa3-root",
+          "character": "化",
+          "hanViet": "hoá",
+          "meaningVn": "hoá (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-hwa3-w1",
+              "headword": "문화",
+              "reading": "munhwa",
+              "meaningVn": "văn hoá",
+              "example": "한국 문화에 관심이 많아요.",
+              "exampleVn": "Tôi rất quan tâm đến văn hoá Hàn Quốc."
+            },
+            {
+              "id": "ko-ff-hwa3-w2",
+              "headword": "화장",
+              "reading": "hwajang",
+              "meaningVn": "trang điểm",
+              "example": "그녀는 화장을 예쁘게 했어요.",
+              "exampleVn": "Cô ấy đã trang điểm rất đẹp."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ff-gwa",
+      "language": "ko",
+      "reading": "過",
+      "groupKind": "false-friend",
+      "note": "過 (quá) vốn nghĩa 'đi qua, vượt qua', 과거 lệch thành khái niệm về THỜI GIAN đã qua (quá khứ), còn 통과 giữ nghĩa gần gốc hơn (hành động vượt qua một kỳ thi/kiểm tra) — anchor riêng của tiếng Hàn round này (thay cho JA 究, vì từ Hán-Hàn tương ứng 'cùng cực' hoá ra dùng chữ 窮 khác hẳn, không phải biến thể shinjitai/phồn thể của cùng 1 chữ).",
+      "roots": [
+        {
+          "id": "ko-ff-gwa-root",
+          "character": "過",
+          "hanViet": "quá",
+          "meaningVn": "quá (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-gwa-w1",
+              "headword": "과거",
+              "reading": "gwageo",
+              "meaningVn": "quá khứ",
+              "example": "과거를 잊고 싶어요.",
+              "exampleVn": "Tôi muốn quên đi quá khứ."
+            },
+            {
+              "id": "ko-ff-gwa-w2",
+              "headword": "통과",
+              "reading": "tonggwa",
+              "meaningVn": "thông qua, vượt qua",
+              "example": "시험에 통과했어요.",
+              "exampleVn": "Tôi đã vượt qua kỳ thi."
+            }
+          ]
+        }
+      ]
     }
   ]
 }
