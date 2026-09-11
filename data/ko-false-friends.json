@@ -397,6 +397,402 @@
           ]
         }
       ]
+    },
+    {
+      "id": "ko-ff-myeong",
+      "language": "ko",
+      "reading": "名",
+      "groupKind": "false-friend",
+      "note": "名 (danh) vốn nghĩa 'tên gọi', 명단 giữ nghĩa cụ thể (danh sách tên người), còn 유명 (có-tên) lệch hẳn thành tính từ trừu tượng chỉ sự NỔI TIẾNG, không còn là một cái tên cụ thể nào.",
+      "roots": [
+        {
+          "id": "ko-ff-myeong-root",
+          "character": "名",
+          "hanViet": "danh",
+          "meaningVn": "danh (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-myeong-w1",
+              "headword": "명단",
+              "reading": "myeongdan",
+              "meaningVn": "danh sách (tên)",
+              "example": "합격자 명단이 발표되었어요.",
+              "exampleVn": "Danh sách người trúng tuyển đã được công bố."
+            },
+            {
+              "id": "ko-ff-myeong-w2",
+              "headword": "유명",
+              "reading": "yumyeong",
+              "meaningVn": "nổi tiếng",
+              "example": "그는 아시아에서 유명한 배우예요.",
+              "exampleVn": "Anh ấy là diễn viên nổi tiếng ở châu Á."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ff-ryeok",
+      "language": "ko",
+      "reading": "力",
+      "groupKind": "false-friend",
+      "note": "力 (lực) vốn nghĩa 'sức mạnh', 능력 lệch thành khái niệm trừu tượng chỉ NĂNG LỰC/khả năng con người, còn 마력 lại lệch sang đơn vị đo công suất kỹ thuật CỤ THỂ, không liên quan đến sức người.",
+      "roots": [
+        {
+          "id": "ko-ff-ryeok-root",
+          "character": "力",
+          "hanViet": "lực",
+          "meaningVn": "lực (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-ryeok-w1",
+              "headword": "능력",
+              "reading": "neungnyeok",
+              "meaningVn": "năng lực, khả năng",
+              "example": "그녀는 언어 능력이 뛰어나요.",
+              "exampleVn": "Cô ấy có năng lực ngôn ngữ xuất sắc."
+            },
+            {
+              "id": "ko-ff-ryeok-w2",
+              "headword": "마력",
+              "reading": "maryeok",
+              "meaningVn": "mã lực (đơn vị đo công suất)",
+              "example": "이 차는 마력이 매우 높아요.",
+              "exampleVn": "Chiếc xe này có mã lực rất cao."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ff-ga",
+      "language": "ko",
+      "reading": "家",
+      "groupKind": "false-friend",
+      "note": "家 (gia) vốn nghĩa 'nhà, gia đình', 가족 giữ nghĩa cụ thể, còn 작가 (nhà-làm) lệch hẳn thành hậu tố chỉ NGƯỜI LÀM NGHỀ (nhà văn), không còn liên quan đến 'nhà' theo nghĩa nơi ở.",
+      "roots": [
+        {
+          "id": "ko-ff-ga-root",
+          "character": "家",
+          "hanViet": "gia",
+          "meaningVn": "gia (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-ga-w1",
+              "headword": "가족",
+              "reading": "gajok",
+              "meaningVn": "gia đình",
+              "example": "저는 가족과 함께 살아요.",
+              "exampleVn": "Tôi sống cùng gia đình."
+            },
+            {
+              "id": "ko-ff-ga-w2",
+              "headword": "작가",
+              "reading": "jakga",
+              "meaningVn": "nhà văn",
+              "example": "그는 유명한 소설 작가예요.",
+              "exampleVn": "Anh ấy là nhà văn tiểu thuyết nổi tiếng."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ff-bal",
+      "language": "ko",
+      "reading": "發",
+      "groupKind": "false-friend",
+      "note": "發 (phát) vốn nghĩa 'phát ra, nảy sinh', 발전 lệch thành khái niệm trừu tượng 'phát triển', còn 출발 giữ nghĩa cụ thể hơn về hành động RỜI ĐI/khởi hành.",
+      "roots": [
+        {
+          "id": "ko-ff-bal-root",
+          "character": "發",
+          "hanViet": "phát",
+          "meaningVn": "phát (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-bal-w1",
+              "headword": "발전",
+              "reading": "baljeon",
+              "meaningVn": "phát triển",
+              "example": "이 나라는 빠르게 발전하고 있어요.",
+              "exampleVn": "Đất nước này đang phát triển nhanh chóng."
+            },
+            {
+              "id": "ko-ff-bal-w2",
+              "headword": "출발",
+              "reading": "chulbal",
+              "meaningVn": "khởi hành, xuất phát",
+              "example": "기차는 아홉 시에 출발해요.",
+              "exampleVn": "Tàu khởi hành lúc chín giờ."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ff-si",
+      "language": "ko",
+      "reading": "時",
+      "groupKind": "false-friend",
+      "note": "時 (thời) vốn nghĩa 'thời gian', 시간 giữ nguyên nghĩa gốc, còn 임시 lệch hẳn thành tính từ chỉ tính chất 'tạm bợ, không lâu dài', không còn nói về thời gian cụ thể.",
+      "roots": [
+        {
+          "id": "ko-ff-si-root",
+          "character": "時",
+          "hanViet": "thời",
+          "meaningVn": "thời (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-si-w1",
+              "headword": "시간",
+              "reading": "sigan",
+              "meaningVn": "thời gian",
+              "example": "시간이 없어서 서둘러야 해요.",
+              "exampleVn": "Vì không có thời gian nên phải vội vàng."
+            },
+            {
+              "id": "ko-ff-si-w2",
+              "headword": "임시",
+              "reading": "imsi",
+              "meaningVn": "tạm thời",
+              "example": "이건 임시 방편일 뿐이에요.",
+              "exampleVn": "Đây chỉ là biện pháp tạm thời thôi."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ff-rip",
+      "language": "ko",
+      "reading": "立",
+      "groupKind": "false-friend",
+      "note": "立 (lập) vốn nghĩa 'đứng, dựng lên', 독립 lệch thành khái niệm trừu tượng về TRẠNG THÁI tự chủ, còn 설립 lệch thành khái niệm về HÀNH ĐỘNG sáng lập tổ chức — hai hướng trừu tượng hoá khác nhau.",
+      "roots": [
+        {
+          "id": "ko-ff-rip-root",
+          "character": "立",
+          "hanViet": "lập",
+          "meaningVn": "lập (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-rip-w1",
+              "headword": "독립",
+              "reading": "dongnip",
+              "meaningVn": "độc lập",
+              "example": "그는 부모로부터 독립했어요.",
+              "exampleVn": "Anh ấy đã sống độc lập, tách khỏi bố mẹ."
+            },
+            {
+              "id": "ko-ff-rip-w2",
+              "headword": "설립",
+              "reading": "seollip",
+              "meaningVn": "thành lập",
+              "example": "이 회사는 작년에 설립되었어요.",
+              "exampleVn": "Công ty này được thành lập vào năm ngoái."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ff-seong",
+      "language": "ko",
+      "reading": "聲",
+      "groupKind": "false-friend",
+      "note": "聲 (thanh) vốn nghĩa 'âm thanh, tiếng', 음성 giữ nghĩa cụ thể (giọng nói thật), còn 명성 (tên-tiếng) lệch hẳn thành khái niệm trừu tượng 'danh tiếng xã hội', không còn là âm thanh vật lý.",
+      "roots": [
+        {
+          "id": "ko-ff-seong-root",
+          "character": "聲",
+          "hanViet": "thanh",
+          "meaningVn": "thanh (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-seong-w1",
+              "headword": "음성",
+              "reading": "eumseong",
+              "meaningVn": "âm thanh (giọng nói)",
+              "example": "그의 음성이 아주 부드러워요.",
+              "exampleVn": "Giọng nói của anh ấy rất nhẹ nhàng."
+            },
+            {
+              "id": "ko-ff-seong-w2",
+              "headword": "명성",
+              "reading": "myeongseong",
+              "meaningVn": "danh tiếng, tiếng tăm",
+              "example": "그 식당은 명성이 자자해요.",
+              "exampleVn": "Nhà hàng đó rất nổi danh."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ff-hak",
+      "language": "ko",
+      "reading": "學",
+      "groupKind": "false-friend",
+      "note": "學 (học) vốn nghĩa 'học tập', 학생 giữ nghĩa cụ thể (người đang học), còn 유학 lệch thành khái niệm hẹp hơn chỉ HOẠT ĐỘNG du học ở nước ngoài.",
+      "roots": [
+        {
+          "id": "ko-ff-hak-root",
+          "character": "學",
+          "hanViet": "học",
+          "meaningVn": "học (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-hak-w1",
+              "headword": "학생",
+              "reading": "haksaeng",
+              "meaningVn": "học sinh",
+              "example": "저는 대학교 학생이에요.",
+              "exampleVn": "Tôi là sinh viên đại học."
+            },
+            {
+              "id": "ko-ff-hak-w2",
+              "headword": "유학",
+              "reading": "yuhak",
+              "meaningVn": "du học",
+              "example": "그녀는 미국으로 유학을 갔어요.",
+              "exampleVn": "Cô ấy đã đi du học Mỹ."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ff-bang",
+      "language": "ko",
+      "reading": "方",
+      "groupKind": "false-friend",
+      "note": "方 (phương) vốn nghĩa 'phương hướng, cách thức', 방법 giữ nghĩa trừu tượng về CÁCH THỨC, còn 지방 lại lệch sang nghĩa CỤ THỂ chỉ một VÙNG ĐẤT/địa phương, không liên quan đến 'cách làm'.",
+      "roots": [
+        {
+          "id": "ko-ff-bang-root",
+          "character": "方",
+          "hanViet": "phương",
+          "meaningVn": "phương (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-bang-w1",
+              "headword": "방법",
+              "reading": "bangbeop",
+              "meaningVn": "phương pháp",
+              "example": "더 좋은 방법을 찾아봅시다.",
+              "exampleVn": "Hãy tìm phương pháp tốt hơn."
+            },
+            {
+              "id": "ko-ff-bang-w2",
+              "headword": "지방",
+              "reading": "jibang",
+              "meaningVn": "địa phương, vùng miền",
+              "example": "이 지방은 특산물이 유명해요.",
+              "exampleVn": "Địa phương này nổi tiếng với đặc sản."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ff-sil",
+      "language": "ko",
+      "reading": "實",
+      "groupKind": "false-friend",
+      "note": "實 (thực) vốn nghĩa 'thật, thực tế', 실력 lệch thành khái niệm về NĂNG LỰC thật sự của một người, còn 사실 lệch thành khái niệm về SỰ THẬT khách quan của một sự việc — hai hướng khác nhau.",
+      "roots": [
+        {
+          "id": "ko-ff-sil-root",
+          "character": "實",
+          "hanViet": "thực",
+          "meaningVn": "thực (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-sil-w1",
+              "headword": "실력",
+              "reading": "sillyeok",
+              "meaningVn": "thực lực, năng lực thật sự",
+              "example": "그의 실력은 정말 대단해요.",
+              "exampleVn": "Thực lực của anh ấy thật sự đáng nể."
+            },
+            {
+              "id": "ko-ff-sil-w2",
+              "headword": "사실",
+              "reading": "sasil",
+              "meaningVn": "sự thật",
+              "example": "그것은 사실이 아니에요.",
+              "exampleVn": "Điều đó không phải là sự thật."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ff-pyo",
+      "language": "ko",
+      "reading": "表",
+      "groupKind": "false-friend",
+      "note": "表 (biểu) vốn nghĩa 'bày tỏ, biểu hiện ra ngoài', 표정 giữ nghĩa khá cụ thể (biểu hiện trên khuôn mặt), còn 대표 lệch hẳn thành khái niệm trừu tượng chỉ VAI TRÒ đại diện, không còn liên quan biểu hiện gương mặt.",
+      "roots": [
+        {
+          "id": "ko-ff-pyo-root",
+          "character": "表",
+          "hanViet": "biểu",
+          "meaningVn": "biểu (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-pyo-w1",
+              "headword": "표정",
+              "reading": "pyojeong",
+              "meaningVn": "biểu cảm, nét mặt",
+              "example": "그녀의 표정이 어두워요.",
+              "exampleVn": "Nét mặt cô ấy có vẻ buồn."
+            },
+            {
+              "id": "ko-ff-pyo-w2",
+              "headword": "대표",
+              "reading": "daepyo",
+              "meaningVn": "đại diện",
+              "example": "그가 우리 팀의 대표예요.",
+              "exampleVn": "Anh ấy là đại diện của đội chúng tôi."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ff-gyeol",
+      "language": "ko",
+      "reading": "決",
+      "groupKind": "false-friend",
+      "note": "決 (quyết) vốn nghĩa 'quyết đoán, dứt khoát', 결정 giữ nghĩa khá sát gốc (đưa ra quyết định), còn 해결 (giải-quyết) lệch thành khái niệm về hành động GIẢI QUYẾT vấn đề, nhấn mạnh kết quả xử lý hơn là bản thân sự quyết đoán.",
+      "roots": [
+        {
+          "id": "ko-ff-gyeol-root",
+          "character": "決",
+          "hanViet": "quyết",
+          "meaningVn": "quyết (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-gyeol-w1",
+              "headword": "결정",
+              "reading": "gyeoljeong",
+              "meaningVn": "quyết định",
+              "example": "중요한 결정을 내려야 해요.",
+              "exampleVn": "Phải đưa ra quyết định quan trọng."
+            },
+            {
+              "id": "ko-ff-gyeol-w2",
+              "headword": "해결",
+              "reading": "haegyeol",
+              "meaningVn": "giải quyết",
+              "example": "이 문제를 빨리 해결해야 해요.",
+              "exampleVn": "Phải giải quyết vấn đề này nhanh chóng."
+            }
+          ]
+        }
+      ]
     }
   ]
 }
