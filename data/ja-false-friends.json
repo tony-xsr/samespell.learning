@@ -1585,6 +1585,402 @@
           ]
         }
       ]
+    },
+    {
+      "id": "ja-ff-suu",
+      "language": "ja",
+      "reading": "数",
+      "groupKind": "false-friend",
+      "note": "数 (số) vốn nghĩa 'con số, đếm', 数学 giữ nghĩa cụ thể (MÔN HỌC về số), còn 手数料 (tay-số-liệu) lệch hẳn thành khái niệm trừu tượng 'phí thủ tục, phí dịch vụ', không còn là một con số đơn thuần.",
+      "roots": [
+        {
+          "id": "ja-ff-suu-root",
+          "character": "数",
+          "hanViet": "số",
+          "meaningVn": "số (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-suu-w1",
+              "headword": "数学",
+              "reading": "suugaku",
+              "meaningVn": "toán học",
+              "example": "数学のテストがあります。",
+              "exampleVn": "Có bài kiểm tra toán học."
+            },
+            {
+              "id": "ja-ff-suu-w2",
+              "headword": "手数料",
+              "reading": "tesuuryou",
+              "meaningVn": "phí thủ tục, phí dịch vụ",
+              "example": "振込には手数料がかかります。",
+              "exampleVn": "Chuyển khoản sẽ mất phí dịch vụ."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-fuku",
+      "language": "ja",
+      "reading": "服",
+      "groupKind": "false-friend",
+      "note": "服 (phục) vốn nghĩa 'quần áo', 洋服 giữ nghĩa cụ thể (trang phục), còn 服従 lệch hẳn thành khái niệm trừu tượng về THÁI ĐỘ 'phục tùng, vâng lời', không liên quan đến quần áo.",
+      "roots": [
+        {
+          "id": "ja-ff-fuku-root",
+          "character": "服",
+          "hanViet": "phục",
+          "meaningVn": "phục (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-fuku-w1",
+              "headword": "洋服",
+              "reading": "youfuku",
+              "meaningVn": "âu phục, quần áo kiểu Tây",
+              "example": "新しい洋服を買いました。",
+              "exampleVn": "Tôi đã mua quần áo mới."
+            },
+            {
+              "id": "ja-ff-fuku-w2",
+              "headword": "服従",
+              "reading": "fukujuu",
+              "meaningVn": "phục tùng, vâng lời",
+              "example": "彼は命令に服従した。",
+              "exampleVn": "Anh ta đã phục tùng mệnh lệnh."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-chaku",
+      "language": "ja",
+      "reading": "着",
+      "groupKind": "false-friend",
+      "note": "着 (trước) vốn nghĩa 'mặc, đến', 到着 giữ nghĩa về HÀNH ĐỘNG di chuyển (đến nơi), còn 着物 lệch thành DANH TỪ RIÊNG chỉ một loại trang phục Nhật Bản (kimono).",
+      "roots": [
+        {
+          "id": "ja-ff-chaku-root",
+          "character": "着",
+          "hanViet": "trước",
+          "meaningVn": "trước (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-chaku-w1",
+              "headword": "到着",
+              "reading": "touchaku",
+              "meaningVn": "đến nơi",
+              "example": "飛行機が空港に到着しました。",
+              "exampleVn": "Máy bay đã đến sân bay."
+            },
+            {
+              "id": "ja-ff-chaku-w2",
+              "headword": "着物",
+              "reading": "kimono",
+              "meaningVn": "kimono, áo mặc",
+              "example": "母は着物を着ています。",
+              "exampleVn": "Mẹ tôi đang mặc kimono."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-ji2",
+      "language": "ja",
+      "reading": "持",
+      "groupKind": "false-friend",
+      "note": "持 (trì) vốn nghĩa 'cầm, giữ', 持参 giữ nghĩa khá cụ thể (mang theo vật gì đó), còn 支持 lệch hẳn thành khái niệm trừu tượng 'ủng hộ' (ý kiến, quan điểm), không phải cầm nắm vật lý.",
+      "roots": [
+        {
+          "id": "ja-ff-ji2-root",
+          "character": "持",
+          "hanViet": "trì",
+          "meaningVn": "trì (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-ji2-w1",
+              "headword": "持参",
+              "reading": "jisan",
+              "meaningVn": "mang theo",
+              "example": "お弁当を持参してください。",
+              "exampleVn": "Hãy mang theo cơm hộp."
+            },
+            {
+              "id": "ja-ff-ji2-w2",
+              "headword": "支持",
+              "reading": "shiji",
+              "meaningVn": "ủng hộ",
+              "example": "多くの人が彼を支持しています。",
+              "exampleVn": "Nhiều người ủng hộ anh ấy."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-shuu",
+      "language": "ja",
+      "reading": "集",
+      "groupKind": "false-friend",
+      "note": "集 (tập) vốn nghĩa 'tụ họp, gom lại', 集合 giữ nghĩa sát gốc, còn 編集 lệch thành hoạt động CHUYÊN MÔN xử lý nội dung (biên tập), khác hẳn việc 'tụ họp' đơn thuần.",
+      "roots": [
+        {
+          "id": "ja-ff-shuu-root",
+          "character": "集",
+          "hanViet": "tập",
+          "meaningVn": "tập (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-shuu-w1",
+              "headword": "集合",
+              "reading": "shuugou",
+              "meaningVn": "tập hợp",
+              "example": "九時に駅前に集合します。",
+              "exampleVn": "Chín giờ tập hợp trước ga."
+            },
+            {
+              "id": "ja-ff-shuu-w2",
+              "headword": "編集",
+              "reading": "henshuu",
+              "meaningVn": "biên tập",
+              "example": "動画を編集しています。",
+              "exampleVn": "Tôi đang biên tập video."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-sou",
+      "language": "ja",
+      "reading": "送",
+      "groupKind": "false-friend",
+      "note": "送 (tống) vốn nghĩa 'gửi, đưa đi', 送料 giữ nghĩa cụ thể (phí gửi hàng), còn 放送 (phóng-tống) lệch hẳn thành khái niệm về TRUYỀN THÔNG 'phát sóng', không phải gửi đồ vật.",
+      "roots": [
+        {
+          "id": "ja-ff-sou-root",
+          "character": "送",
+          "hanViet": "tống",
+          "meaningVn": "tống (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-sou-w1",
+              "headword": "送料",
+              "reading": "souryou",
+              "meaningVn": "phí vận chuyển",
+              "example": "送料は無料です。",
+              "exampleVn": "Phí vận chuyển miễn phí."
+            },
+            {
+              "id": "ja-ff-sou-w2",
+              "headword": "放送",
+              "reading": "housou",
+              "meaningVn": "phát sóng",
+              "example": "このドラマは来週放送されます。",
+              "exampleVn": "Bộ phim này sẽ được phát sóng vào tuần sau."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-dai2",
+      "language": "ja",
+      "reading": "台",
+      "groupKind": "false-friend",
+      "note": "台 (đài) vốn nghĩa 'cái bệ, giá đỡ', 台風 (đài-phong) đã trừu tượng hoá hoàn toàn thành HIỆN TƯỢNG THỜI TIẾT (bão), còn 舞台 lệch thành ĐỊA ĐIỂM biểu diễn cụ thể (sân khấu) — hai hướng khác hẳn nhau.",
+      "roots": [
+        {
+          "id": "ja-ff-dai2-root",
+          "character": "台",
+          "hanViet": "đài",
+          "meaningVn": "đài (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-dai2-w1",
+              "headword": "台風",
+              "reading": "taifuu",
+              "meaningVn": "bão",
+              "example": "台風が近づいています。",
+              "exampleVn": "Bão đang đến gần."
+            },
+            {
+              "id": "ja-ff-dai2-w2",
+              "headword": "舞台",
+              "reading": "butai",
+              "meaningVn": "sân khấu",
+              "example": "彼女は舞台に立った。",
+              "exampleVn": "Cô ấy đã đứng trên sân khấu."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-kai2",
+      "language": "ja",
+      "reading": "界",
+      "groupKind": "false-friend",
+      "note": "界 (giới) vốn nghĩa 'ranh giới, phạm vi', 世界 giữ nghĩa về KHÔNG GIAN rộng lớn (thế giới), còn 限界 lệch thành khái niệm trừu tượng về một ĐIỂM DỪNG/ngưỡng chịu đựng.",
+      "roots": [
+        {
+          "id": "ja-ff-kai2-root",
+          "character": "界",
+          "hanViet": "giới",
+          "meaningVn": "giới (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-kai2-w1",
+              "headword": "世界",
+              "reading": "sekai",
+              "meaningVn": "thế giới",
+              "example": "世界には多くの国があります。",
+              "exampleVn": "Trên thế giới có nhiều quốc gia."
+            },
+            {
+              "id": "ja-ff-kai2-w2",
+              "headword": "限界",
+              "reading": "genkai",
+              "meaningVn": "giới hạn",
+              "example": "もう体力の限界です。",
+              "exampleVn": "Đã đến giới hạn thể lực rồi."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-yuu",
+      "language": "ja",
+      "reading": "由",
+      "groupKind": "false-friend",
+      "note": "由 (do) vốn nghĩa 'nguyên do, từ đâu', 自由 lệch thành khái niệm triết học lớn 'tự do', còn 理由 giữ nghĩa gần gốc hơn, chỉ NGUYÊN NHÂN cụ thể của một sự việc.",
+      "roots": [
+        {
+          "id": "ja-ff-yuu-root",
+          "character": "由",
+          "hanViet": "do",
+          "meaningVn": "do (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-yuu-w1",
+              "headword": "自由",
+              "reading": "jiyuu",
+              "meaningVn": "tự do",
+              "example": "自由な時間が欲しいです。",
+              "exampleVn": "Tôi muốn có thời gian tự do."
+            },
+            {
+              "id": "ja-ff-yuu-w2",
+              "headword": "理由",
+              "reading": "riyuu",
+              "meaningVn": "lý do",
+              "example": "遅れた理由を説明してください。",
+              "exampleVn": "Hãy giải thích lý do bạn đến muộn."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-kan",
+      "language": "ja",
+      "reading": "感",
+      "groupKind": "false-friend",
+      "note": "感 (cảm) vốn nghĩa 'cảm nhận, cảm xúc', 感動 giữ nghĩa về phản ứng cảm xúc trước sự việc ĐÃ XẢY RA, còn 予感 lệch thành cảm giác về điều gì đó SẮP XẢY RA trong tương lai.",
+      "roots": [
+        {
+          "id": "ja-ff-kan-root",
+          "character": "感",
+          "hanViet": "cảm",
+          "meaningVn": "cảm (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-kan-w1",
+              "headword": "感動",
+              "reading": "kandou",
+              "meaningVn": "cảm động",
+              "example": "その映画に感動しました。",
+              "exampleVn": "Tôi đã cảm động vì bộ phim đó."
+            },
+            {
+              "id": "ja-ff-kan-w2",
+              "headword": "予感",
+              "reading": "yokan",
+              "meaningVn": "linh cảm, dự cảm",
+              "example": "悪い予感がします。",
+              "exampleVn": "Tôi có linh cảm không lành."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-shin3",
+      "language": "ja",
+      "reading": "神",
+      "groupKind": "false-friend",
+      "note": "神 (thần) vốn nghĩa 'thần linh', 神社 giữ nghĩa cụ thể (một ĐỊA ĐIỂM tôn giáo), còn 神経 lệch hẳn thành khái niệm Y HỌC/SINH LÝ 'hệ thần kinh' (hoặc nghĩa bóng 'sự nhạy cảm, để ý'), không liên quan thần linh.",
+      "roots": [
+        {
+          "id": "ja-ff-shin3-root",
+          "character": "神",
+          "hanViet": "thần",
+          "meaningVn": "thần (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-shin3-w1",
+              "headword": "神社",
+              "reading": "jinja",
+              "meaningVn": "đền thờ Thần đạo",
+              "example": "お正月に神社へ行きます。",
+              "exampleVn": "Vào dịp Tết tôi đi đền thờ."
+            },
+            {
+              "id": "ja-ff-shin3-w2",
+              "headword": "神経",
+              "reading": "shinkei",
+              "meaningVn": "thần kinh, sự nhạy cảm",
+              "example": "彼は神経が細かいです。",
+              "exampleVn": "Anh ấy rất nhạy cảm, tỉ mỉ."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-mei2",
+      "language": "ja",
+      "reading": "命",
+      "groupKind": "false-friend",
+      "note": "命 (mệnh) vốn nghĩa 'mệnh lệnh, sinh mệnh', 命令 giữ nghĩa sát gốc (ra lệnh), còn 運命 lệch thành khái niệm triết học trừu tượng 'số phận, vận mệnh', mang sắc thái khác hẳn 'ra lệnh'.",
+      "roots": [
+        {
+          "id": "ja-ff-mei2-root",
+          "character": "命",
+          "hanViet": "mệnh",
+          "meaningVn": "mệnh (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-mei2-w1",
+              "headword": "命令",
+              "reading": "meirei",
+              "meaningVn": "mệnh lệnh",
+              "example": "上司の命令に従います。",
+              "exampleVn": "Tôi tuân theo mệnh lệnh của cấp trên."
+            },
+            {
+              "id": "ja-ff-mei2-w2",
+              "headword": "運命",
+              "reading": "unmei",
+              "meaningVn": "số phận, vận mệnh",
+              "example": "これは運命の出会いです。",
+              "exampleVn": "Đây là cuộc gặp gỡ định mệnh."
+            }
+          ]
+        }
+      ]
     }
   ]
 }
