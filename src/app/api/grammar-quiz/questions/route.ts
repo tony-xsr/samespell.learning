@@ -26,6 +26,8 @@ export async function GET(req: NextRequest) {
   }
 
   const count = Number.isFinite(countParam) ? Math.min(30, Math.max(5, Math.round(countParam))) : 12;
+  // Chỉ luyện 1 nhóm chức năng — cùng lý do với ôn thẻ lật (xem GrammarCategoryList "🧪 Trắc nghiệm").
+  const categoryId = searchParams.get("category") || undefined;
 
   const data = getGrammarData(lang);
   if (!data) {
@@ -33,7 +35,15 @@ export async function GET(req: NextRequest) {
   }
 
   try {
-    const pool = buildGrammarQuizPool(data);
+    const pool = buildGrammarQuizPool(data, categoryId);
+    // Nhóm quá nhỏ (<4 điểm) không đủ để tạo nhiễu — báo lỗi rõ ràng thay vì trả về mảng rỗng khiến
+    // giao diện hiện màn "Kết quả 0/0" khó hiểu.
+    if (categoryId && pool.length < 4) {
+      return NextResponse.json(
+        { error: `Nhóm này chỉ có ${pool.length} điểm ngữ pháp — cần tối thiểu 4 điểm để làm trắc nghiệm.` },
+        { status: 400 },
+      );
+    }
     const questions: GrammarQuizQuestion[] = generateGrammarQuestions(pool, mode, count, lang);
     return NextResponse.json({ questions });
   } catch (e) {
