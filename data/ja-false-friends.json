@@ -397,6 +397,402 @@
           ]
         }
       ]
+    },
+    {
+      "id": "ja-ff-mei",
+      "language": "ja",
+      "reading": "名",
+      "groupKind": "false-friend",
+      "note": "名 (danh) vốn nghĩa 'tên gọi', 名前 giữ nguyên nghĩa cụ thể, còn 有名 (có-tên) lệch hẳn thành tính từ trừu tượng chỉ sự NỔI TIẾNG, không còn là một cái tên cụ thể nào.",
+      "roots": [
+        {
+          "id": "ja-ff-mei-root",
+          "character": "名",
+          "hanViet": "danh",
+          "meaningVn": "danh (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-mei-w1",
+              "headword": "名前",
+              "reading": "namae",
+              "meaningVn": "tên gọi",
+              "example": "あなたの名前は何ですか。",
+              "exampleVn": "Tên của bạn là gì?"
+            },
+            {
+              "id": "ja-ff-mei-w2",
+              "headword": "有名",
+              "reading": "yuumei",
+              "meaningVn": "nổi tiếng",
+              "example": "彼は日本で有名な歌手です。",
+              "exampleVn": "Anh ấy là ca sĩ nổi tiếng ở Nhật."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-ryoku",
+      "language": "ja",
+      "reading": "力",
+      "groupKind": "false-friend",
+      "note": "力 (lực) vốn nghĩa 'sức mạnh', 力士 lệch thành danh từ chỉ MỘT NGHỀ/vận động viên cụ thể, còn 協力 lệch thành khái niệm trừu tượng 'hợp tác', không liên quan trực tiếp đến sức mạnh cơ bắp.",
+      "roots": [
+        {
+          "id": "ja-ff-ryoku-root",
+          "character": "力",
+          "hanViet": "lực",
+          "meaningVn": "lực (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-ryoku-w1",
+              "headword": "力士",
+              "reading": "rikishi",
+              "meaningVn": "đô vật sumo",
+              "example": "あの力士はとても強い。",
+              "exampleVn": "Đô vật sumo đó rất khỏe."
+            },
+            {
+              "id": "ja-ff-ryoku-w2",
+              "headword": "協力",
+              "reading": "kyouryoku",
+              "meaningVn": "hợp tác",
+              "example": "みんなで協力して仕事をした。",
+              "exampleVn": "Mọi người đã hợp tác cùng làm việc."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-jin",
+      "language": "ja",
+      "reading": "人",
+      "groupKind": "false-friend",
+      "note": "人 (nhân) vốn nghĩa 'người', 人形 (hình người) lệch thành một VẬT THỂ cụ thể (búp bê), còn 人気 (khí của người) lệch hẳn thành khái niệm trừu tượng chỉ MỨC ĐỘ YÊU THÍCH của công chúng.",
+      "roots": [
+        {
+          "id": "ja-ff-jin-root",
+          "character": "人",
+          "hanViet": "nhân",
+          "meaningVn": "nhân (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-jin-w1",
+              "headword": "人形",
+              "reading": "ningyou",
+              "meaningVn": "búp bê, hình nhân",
+              "example": "娘は人形が大好きです。",
+              "exampleVn": "Con gái tôi rất thích búp bê."
+            },
+            {
+              "id": "ja-ff-jin-w2",
+              "headword": "人気",
+              "reading": "ninki",
+              "meaningVn": "sự nổi tiếng, được yêu thích",
+              "example": "このアニメは若者に人気があります。",
+              "exampleVn": "Bộ anime này được giới trẻ yêu thích."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-ji",
+      "language": "ja",
+      "reading": "時",
+      "groupKind": "false-friend",
+      "note": "時 (thời) vốn nghĩa 'thời gian', 時間 giữ nguyên nghĩa gốc, còn 時々 lệch hẳn thành trạng từ chỉ TẦN SUẤT 'thỉnh thoảng', không còn nói về thời gian cụ thể.",
+      "roots": [
+        {
+          "id": "ja-ff-ji-root",
+          "character": "時",
+          "hanViet": "thời",
+          "meaningVn": "thời (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-ji-w1",
+              "headword": "時間",
+              "reading": "jikan",
+              "meaningVn": "thời gian",
+              "example": "もう時間がありません。",
+              "exampleVn": "Không còn thời gian nữa rồi."
+            },
+            {
+              "id": "ja-ff-ji-w2",
+              "headword": "時々",
+              "reading": "tokidoki",
+              "meaningVn": "thỉnh thoảng",
+              "example": "時々彼女と映画を見ます。",
+              "exampleVn": "Thỉnh thoảng tôi xem phim cùng bạn gái."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-gen",
+      "language": "ja",
+      "reading": "元",
+      "groupKind": "false-friend",
+      "note": "元 (nguyên) vốn nghĩa 'gốc, ban đầu', 元気 lệch thành khái niệm trừu tượng về SỨC KHỎE/tinh thần, còn 地元 lệch thành khái niệm CỤ THỂ về nơi chốn (quê nhà, địa phương).",
+      "roots": [
+        {
+          "id": "ja-ff-gen-root",
+          "character": "元",
+          "hanViet": "nguyên",
+          "meaningVn": "nguyên (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-gen-w1",
+              "headword": "元気",
+              "reading": "genki",
+              "meaningVn": "khỏe mạnh, vui vẻ",
+              "example": "お元気ですか。",
+              "exampleVn": "Bạn có khỏe không?"
+            },
+            {
+              "id": "ja-ff-gen-w2",
+              "headword": "地元",
+              "reading": "jimoto",
+              "meaningVn": "địa phương, quê nhà",
+              "example": "彼は地元の学校に通っている。",
+              "exampleVn": "Anh ấy đang học ở trường địa phương."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-ritsu",
+      "language": "ja",
+      "reading": "立",
+      "groupKind": "false-friend",
+      "note": "立 (lập) vốn nghĩa 'đứng, dựng', 立派 lệch hẳn thành tính từ khen ngợi 'tuyệt vời, hoành tráng', còn 立場 giữ gần với ẩn dụ ban đầu hơn (vị trí đứng → lập trường).",
+      "roots": [
+        {
+          "id": "ja-ff-ritsu-root",
+          "character": "立",
+          "hanViet": "lập",
+          "meaningVn": "lập (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-ritsu-w1",
+              "headword": "立派",
+              "reading": "rippa",
+              "meaningVn": "tuyệt vời, hoành tráng",
+              "example": "彼は立派な家に住んでいる。",
+              "exampleVn": "Anh ấy sống trong một căn nhà hoành tráng."
+            },
+            {
+              "id": "ja-ff-ritsu-w2",
+              "headword": "立場",
+              "reading": "tachiba",
+              "meaningVn": "lập trường, vị trí",
+              "example": "彼女の立場を理解してください。",
+              "exampleVn": "Xin hãy hiểu lập trường của cô ấy."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-jou",
+      "language": "ja",
+      "reading": "場",
+      "groupKind": "false-friend",
+      "note": "場 (trường) vốn nghĩa 'nơi chốn, địa điểm', 工場 giữ nghĩa cụ thể (một loại địa điểm - nhà máy), còn 場合 lệch hẳn thành khái niệm trừu tượng 'trường hợp, tình huống', không còn là một địa điểm vật lý.",
+      "roots": [
+        {
+          "id": "ja-ff-jou-root",
+          "character": "場",
+          "hanViet": "trường",
+          "meaningVn": "trường (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-jou-w1",
+              "headword": "工場",
+              "reading": "koujou",
+              "meaningVn": "nhà máy",
+              "example": "父は工場で働いています。",
+              "exampleVn": "Bố tôi làm việc ở nhà máy."
+            },
+            {
+              "id": "ja-ff-jou-w2",
+              "headword": "場合",
+              "reading": "baai",
+              "meaningVn": "trường hợp",
+              "example": "雨の場合は中止します。",
+              "exampleVn": "Trong trường hợp mưa thì sẽ hủy."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-kai",
+      "language": "ja",
+      "reading": "会",
+      "groupKind": "false-friend",
+      "note": "会 (hội) vốn nghĩa 'gặp gỡ, hội họp', 会社 lệch thành danh từ cụ thể chỉ một TỔ CHỨC (công ty), còn 都会 lệch thành khái niệm về một LOẠI KHÔNG GIAN đô thị, hai hướng cụ thể hoá khác nhau.",
+      "roots": [
+        {
+          "id": "ja-ff-kai-root",
+          "character": "会",
+          "hanViet": "hội",
+          "meaningVn": "hội (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-kai-w1",
+              "headword": "会社",
+              "reading": "kaisha",
+              "meaningVn": "công ty",
+              "example": "毎日会社に行きます。",
+              "exampleVn": "Mỗi ngày tôi đi làm ở công ty."
+            },
+            {
+              "id": "ja-ff-kai-w2",
+              "headword": "都会",
+              "reading": "tokai",
+              "meaningVn": "thành thị, đô thị",
+              "example": "彼は都会の生活が好きです。",
+              "exampleVn": "Anh ấy thích cuộc sống thành thị."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-ie",
+      "language": "ja",
+      "reading": "家",
+      "groupKind": "false-friend",
+      "note": "家 (gia) vốn nghĩa 'nhà, gia đình', 家族 giữ nghĩa cụ thể, còn 作家 (nhà-làm) lệch hẳn thành hậu tố chỉ NGƯỜI LÀM NGHỀ (nhà văn), không còn liên quan đến 'nhà' theo nghĩa nơi ở.",
+      "roots": [
+        {
+          "id": "ja-ff-ie-root",
+          "character": "家",
+          "hanViet": "gia",
+          "meaningVn": "gia (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-ie-w1",
+              "headword": "家族",
+              "reading": "kazoku",
+              "meaningVn": "gia đình",
+              "example": "家族と旅行に行きました。",
+              "exampleVn": "Tôi đã đi du lịch cùng gia đình."
+            },
+            {
+              "id": "ja-ff-ie-w2",
+              "headword": "作家",
+              "reading": "sakka",
+              "meaningVn": "nhà văn",
+              "example": "彼女は有名な作家です。",
+              "exampleVn": "Cô ấy là nhà văn nổi tiếng."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-koe",
+      "language": "ja",
+      "reading": "声",
+      "groupKind": "false-friend",
+      "note": "声 (thanh) vốn nghĩa 'âm thanh, tiếng nói', 音声 giữ nghĩa cụ thể, còn 声優 (thanh-giỏi) lệch hẳn thành danh từ chỉ MỘT NGHỀ NGHIỆP (diễn viên lồng tiếng), không chỉ đơn thuần là âm thanh.",
+      "roots": [
+        {
+          "id": "ja-ff-koe-root",
+          "character": "声",
+          "hanViet": "thanh",
+          "meaningVn": "thanh (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-koe-w1",
+              "headword": "音声",
+              "reading": "onsei",
+              "meaningVn": "âm thanh",
+              "example": "この機械は音声で操作できる。",
+              "exampleVn": "Máy này có thể điều khiển bằng giọng nói."
+            },
+            {
+              "id": "ja-ff-koe-w2",
+              "headword": "声優",
+              "reading": "seiyuu",
+              "meaningVn": "diễn viên lồng tiếng",
+              "example": "彼は有名な声優です。",
+              "exampleVn": "Anh ấy là diễn viên lồng tiếng nổi tiếng."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-sei",
+      "language": "ja",
+      "reading": "生",
+      "groupKind": "false-friend",
+      "note": "生 (sinh) vốn nghĩa 'sự sống, sinh ra', 生徒 lệch thành danh từ chỉ NGƯỜI ĐANG HỌC (học sinh), còn 一生 lệch thành khái niệm trừu tượng về THỜI GIAN 'cả đời, suốt đời', khác hẳn hướng nghĩa của 生徒.",
+      "roots": [
+        {
+          "id": "ja-ff-sei-root",
+          "character": "生",
+          "hanViet": "sinh",
+          "meaningVn": "sinh (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-sei-w1",
+              "headword": "生徒",
+              "reading": "seito",
+              "meaningVn": "học sinh",
+              "example": "このクラスには生徒が三十人いる。",
+              "exampleVn": "Lớp này có ba mươi học sinh."
+            },
+            {
+              "id": "ja-ff-sei-w2",
+              "headword": "一生",
+              "reading": "isshou",
+              "meaningVn": "cả đời, suốt đời",
+              "example": "一生忘れられない思い出です。",
+              "exampleVn": "Đó là kỷ niệm không thể quên suốt đời."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-tsuu",
+      "language": "ja",
+      "reading": "通",
+      "groupKind": "false-friend",
+      "note": "通 (thông) vốn nghĩa 'đi qua, thông suốt', 通学 giữ nghĩa khá cụ thể (đi đến trường), còn 普通 lệch hẳn thành tính từ trừu tượng 'bình thường, thông thường', không còn liên quan đến việc DI CHUYỂN.",
+      "roots": [
+        {
+          "id": "ja-ff-tsuu-root",
+          "character": "通",
+          "hanViet": "thông",
+          "meaningVn": "thông (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-tsuu-w1",
+              "headword": "通学",
+              "reading": "tsuugaku",
+              "meaningVn": "đi học (đến trường)",
+              "example": "電車で通学しています。",
+              "exampleVn": "Tôi đi học bằng tàu điện."
+            },
+            {
+              "id": "ja-ff-tsuu-w2",
+              "headword": "普通",
+              "reading": "futsuu",
+              "meaningVn": "bình thường, thông thường",
+              "example": "これは普通のことです。",
+              "exampleVn": "Đây là chuyện bình thường."
+            }
+          ]
+        }
+      ]
     }
   ]
 }
