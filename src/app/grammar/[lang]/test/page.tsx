@@ -17,10 +17,22 @@ const MODES = [
   },
 ] as const;
 
-export default async function GrammarTestModePicker({ params }: { params: Promise<{ lang: string }> }) {
+export default async function GrammarTestModePicker({
+  params,
+  searchParams,
+}: {
+  params: Promise<{ lang: string }>;
+  searchParams: Promise<{ [key: string]: string | string[] | undefined }>;
+}) {
   const { lang } = await params;
+  const query = await searchParams;
   const data = getGrammarData(lang);
   if (!data) notFound();
+
+  // ?category=<id> — chỉ luyện trắc nghiệm 1 nhóm chức năng thay vì toàn bộ điểm ngữ pháp.
+  const categoryParam = typeof query.category === "string" ? query.category : undefined;
+  const category = categoryParam ? data.categories.find((c) => c.id === categoryParam) : undefined;
+  const categoryQuery = category ? `category=${encodeURIComponent(category.id)}` : "";
 
   return (
     <main className="flex flex-1 flex-col items-center px-4 py-10 sm:py-16">
@@ -32,8 +44,9 @@ export default async function GrammarTestModePicker({ params }: { params: Promis
         <div className="quiz-fade-in-up mt-3 rounded-3xl bg-gradient-to-br from-sky-600 to-sky-400 p-6 text-white shadow-lg">
           <h1 className="text-2xl font-bold tracking-tight sm:text-3xl">🧪 Trắc nghiệm ngữ pháp</h1>
           <p className="mt-2 text-sm text-white/90">
-            Chọn 1 dạng bài để bắt đầu — mỗi lần vào lại sẽ ra bộ câu hỏi mới, ưu tiên nhiễu từ các cụm
-            cấu trúc dễ nhầm nếu có.
+            {category
+              ? `Chỉ luyện nhóm "${category.titleVn}" (${category.points.length} điểm) — mỗi lần vào lại sẽ ra bộ câu hỏi mới.`
+              : "Chọn 1 dạng bài để bắt đầu — mỗi lần vào lại sẽ ra bộ câu hỏi mới, ưu tiên nhiễu từ các cụm cấu trúc dễ nhầm nếu có."}
           </p>
         </div>
 
@@ -55,19 +68,19 @@ export default async function GrammarTestModePicker({ params }: { params: Promis
               </div>
               <div className="mt-3 grid grid-cols-3 gap-1.5">
                 <Link
-                  href={`/grammar/${lang}/test/${mode.id}`}
+                  href={`/grammar/${lang}/test/${mode.id}${categoryQuery ? `?${categoryQuery}` : ""}`}
                   className="rounded-full bg-sky-500 px-2 py-2 text-center text-xs font-semibold text-white transition hover:bg-sky-600 hover:shadow-md active:scale-95"
                 >
                   ▶ Bắt đầu
                 </Link>
                 <Link
-                  href={`/grammar/${lang}/test/${mode.id}?reflex=1`}
+                  href={`/grammar/${lang}/test/${mode.id}?reflex=1${categoryQuery ? `&${categoryQuery}` : ""}`}
                   className="rounded-full border border-sky-400 px-2 py-2 text-center text-xs font-semibold text-sky-600 transition hover:bg-sky-500/10 active:scale-95"
                 >
                   ⚡ Phản xạ
                 </Link>
                 <Link
-                  href={`/grammar/${lang}/test/${mode.id}?explain=1`}
+                  href={`/grammar/${lang}/test/${mode.id}?explain=1${categoryQuery ? `&${categoryQuery}` : ""}`}
                   className="rounded-full border border-amber-400 px-2 py-2 text-center text-xs font-semibold text-amber-600 transition hover:bg-amber-500/10 active:scale-95"
                 >
                   📖 Giải thích
