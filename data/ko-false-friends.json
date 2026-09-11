@@ -1,0 +1,402 @@
+{
+  "language": "ko",
+  "label": "Bẫy nghĩa",
+  "groups": [
+    {
+      "id": "ko-ff-gi",
+      "language": "ko",
+      "reading": "氣",
+      "groupKind": "false-friend",
+      "note": "氣 (khí) vốn nghĩa 'khí, năng lượng', nhưng 기온 giữ nghĩa CỤ THỂ về nhiệt độ không khí, còn 용기 lại lệch hẳn sang nghĩa TRỪU TƯỢNG chỉ phẩm chất can đảm, không còn liên quan đến khí trời.",
+      "roots": [
+        {
+          "id": "ko-ff-gi-root",
+          "character": "氣",
+          "hanViet": "khí",
+          "meaningVn": "khí (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-gi-w1",
+              "headword": "기온",
+              "reading": "gion",
+              "meaningVn": "nhiệt độ",
+              "example": "오늘 기온이 많이 올랐어요.",
+              "exampleVn": "Hôm nay nhiệt độ đã tăng lên nhiều."
+            },
+            {
+              "id": "ko-ff-gi-w2",
+              "headword": "용기",
+              "reading": "yonggi",
+              "meaningVn": "dũng khí, can đảm",
+              "example": "그는 용기를 내서 고백했어요.",
+              "exampleVn": "Anh ấy đã lấy hết can đảm để tỏ tình."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ff-su",
+      "language": "ko",
+      "reading": "手",
+      "groupKind": "false-friend",
+      "note": "手 (thủ) vốn nghĩa 'tay', 수단 lệch thành khái niệm trừu tượng 'phương tiện, cách thức', còn 가수 (ca-tay) lệch hẳn thành hậu tố chỉ NGƯỜI LÀM NGHỀ (người hát), không còn liên quan bàn tay.",
+      "roots": [
+        {
+          "id": "ko-ff-su-root",
+          "character": "手",
+          "hanViet": "thủ",
+          "meaningVn": "thủ (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-su-w1",
+              "headword": "수단",
+              "reading": "sudan",
+              "meaningVn": "phương tiện, cách thức",
+              "example": "이것 말고 다른 수단이 없어요.",
+              "exampleVn": "Không có phương tiện nào khác ngoài cái này."
+            },
+            {
+              "id": "ko-ff-su-w2",
+              "headword": "가수",
+              "reading": "gasu",
+              "meaningVn": "ca sĩ",
+              "example": "그녀는 유명한 가수예요.",
+              "exampleVn": "Cô ấy là một ca sĩ nổi tiếng."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ff-sim",
+      "language": "ko",
+      "reading": "心",
+      "groupKind": "false-friend",
+      "note": "心 (tâm) vốn nghĩa 'tim, tâm hồn', 심리 giữ nghĩa trừu tượng về tâm lý con người, còn 중심 lại lệch sang nghĩa hoàn toàn CỤ THỂ/vật lý chỉ vị trí trung tâm, không liên quan cảm xúc.",
+      "roots": [
+        {
+          "id": "ko-ff-sim-root",
+          "character": "心",
+          "hanViet": "tâm",
+          "meaningVn": "tâm (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-sim-w1",
+              "headword": "심리",
+              "reading": "simni",
+              "meaningVn": "tâm lý",
+              "example": "그의 행동은 심리 상태를 보여준다.",
+              "exampleVn": "Hành động của anh ta thể hiện trạng thái tâm lý."
+            },
+            {
+              "id": "ko-ff-sim-w2",
+              "headword": "중심",
+              "reading": "jungsim",
+              "meaningVn": "trung tâm",
+              "example": "서울의 중심에 큰 공원이 있어요.",
+              "exampleVn": "Ở trung tâm Seoul có một công viên lớn."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ff-du",
+      "language": "ko",
+      "reading": "頭",
+      "groupKind": "false-friend",
+      "note": "頭 (đầu) vốn nghĩa 'đầu', 두통 giữ nghĩa cụ thể (đau ở đầu thật), còn 몰두 (chìm-đầu) lệch hẳn thành thành ngữ trừu tượng chỉ sự CHUYÊN TÂM/mải mê vào việc gì đó.",
+      "roots": [
+        {
+          "id": "ko-ff-du-root",
+          "character": "頭",
+          "hanViet": "đầu",
+          "meaningVn": "đầu (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-du-w1",
+              "headword": "두통",
+              "reading": "dutong",
+              "meaningVn": "đau đầu",
+              "example": "어제부터 두통이 심해요.",
+              "exampleVn": "Từ hôm qua tôi bị đau đầu dữ dội."
+            },
+            {
+              "id": "ko-ff-du-w2",
+              "headword": "몰두",
+              "reading": "moldu",
+              "meaningVn": "mải mê, chuyên tâm",
+              "example": "그는 연구에 몰두하고 있어요.",
+              "exampleVn": "Anh ấy đang mải mê nghiên cứu."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ff-jok",
+      "language": "ko",
+      "reading": "足",
+      "groupKind": "false-friend",
+      "note": "足 (túc) vốn nghĩa 'chân', 족적 giữ nghĩa khá cụ thể (dấu vết để lại), còn 만족 (đầy-chân) lệch hẳn thành khái niệm trừu tượng hoàn toàn 'sự hài lòng', không còn liên quan đến chân.",
+      "roots": [
+        {
+          "id": "ko-ff-jok-root",
+          "character": "足",
+          "hanViet": "túc",
+          "meaningVn": "túc (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-jok-w1",
+              "headword": "족적",
+              "reading": "jokjeok",
+              "meaningVn": "dấu chân, dấu vết",
+              "example": "조사관들은 용의자의 족적을 쫓았다.",
+              "exampleVn": "Các điều tra viên đã truy theo dấu vết của nghi phạm."
+            },
+            {
+              "id": "ko-ff-jok-w2",
+              "headword": "만족",
+              "reading": "manjok",
+              "meaningVn": "hài lòng, thỏa mãn",
+              "example": "결과에 만족을 느꼈어요.",
+              "exampleVn": "Tôi cảm thấy hài lòng với kết quả."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ff-gu",
+      "language": "ko",
+      "reading": "口",
+      "groupKind": "false-friend",
+      "note": "口 (khẩu) vốn nghĩa 'miệng', 인구 (miệng người) lệch thành đơn vị đếm ĐẦU NGƯỜI tức dân số, còn 구실 lệch hẳn thành khái niệm trừu tượng 'lý do nguỵ tạo', không còn liên quan miệng.",
+      "roots": [
+        {
+          "id": "ko-ff-gu-root",
+          "character": "口",
+          "hanViet": "khẩu",
+          "meaningVn": "khẩu (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-gu-w1",
+              "headword": "인구",
+              "reading": "ingu",
+              "meaningVn": "dân số",
+              "example": "이 도시의 인구가 계속 늘고 있어요.",
+              "exampleVn": "Dân số thành phố này vẫn đang tiếp tục tăng."
+            },
+            {
+              "id": "ko-ff-gu-w2",
+              "headword": "구실",
+              "reading": "gusil",
+              "meaningVn": "cái cớ, lý do biện minh",
+              "example": "바쁘다는 구실로 약속을 취소했다.",
+              "exampleVn": "Anh ta hủy hẹn với cái cớ là bận rộn."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ff-mok",
+      "language": "ko",
+      "reading": "目",
+      "groupKind": "false-friend",
+      "note": "目 (mục) vốn nghĩa 'mắt', 목차 lệch thành 'mục/khoản' trong danh sách, còn 명목 (tên-mắt) lệch hẳn thành khái niệm trừu tượng 'danh nghĩa, cái cớ bề ngoài', không còn liên quan đến mắt.",
+      "roots": [
+        {
+          "id": "ko-ff-mok-root",
+          "character": "目",
+          "hanViet": "mục",
+          "meaningVn": "mục (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-mok-w1",
+              "headword": "목차",
+              "reading": "mokcha",
+              "meaningVn": "mục lục",
+              "example": "책의 목차를 먼저 확인했어요.",
+              "exampleVn": "Tôi đã kiểm tra mục lục sách trước."
+            },
+            {
+              "id": "ko-ff-mok-w2",
+              "headword": "명목",
+              "reading": "myeongmok",
+              "meaningVn": "danh nghĩa, cái cớ",
+              "example": "봉사라는 명목으로 돈을 걷었다.",
+              "exampleVn": "Họ đã thu tiền dưới danh nghĩa từ thiện."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ff-hwa",
+      "language": "ko",
+      "reading": "火",
+      "groupKind": "false-friend",
+      "note": "火 (hỏa) vốn nghĩa 'lửa', 화재 giữ nghĩa cụ thể (tai nạn do lửa), còn 화요일 lệch hẳn thành tên một ngày trong tuần (theo ngũ hành), không còn liên quan lửa theo nghĩa thông thường.",
+      "roots": [
+        {
+          "id": "ko-ff-hwa-root",
+          "character": "火",
+          "hanViet": "hỏa",
+          "meaningVn": "hỏa (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-hwa-w1",
+              "headword": "화재",
+              "reading": "hwajae",
+              "meaningVn": "hỏa hoạn",
+              "example": "어젯밤 아파트에서 화재가 났어요.",
+              "exampleVn": "Tối qua đã xảy ra hỏa hoạn ở chung cư."
+            },
+            {
+              "id": "ko-ff-hwa-w2",
+              "headword": "화요일",
+              "reading": "hwayoil",
+              "meaningVn": "thứ Ba",
+              "example": "화요일에 병원에 가야 해요.",
+              "exampleVn": "Thứ Ba tôi phải đi khám bệnh."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ff-an",
+      "language": "ko",
+      "reading": "顔",
+      "groupKind": "false-friend",
+      "note": "顔 (nhan) vốn nghĩa 'mặt', 안면 giữ nghĩa khá cụ thể (khuôn mặt/diện mạo), còn 동안 (mặt trẻ con) lệch thành khái niệm hiện đại chỉ NGOẠI HÌNH trẻ trung so với tuổi thật.",
+      "roots": [
+        {
+          "id": "ko-ff-an-root",
+          "character": "顔",
+          "hanViet": "nhan",
+          "meaningVn": "nhan (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-an-w1",
+              "headword": "안면",
+              "reading": "anmyeon",
+              "meaningVn": "khuôn mặt, diện mạo",
+              "example": "사고로 안면에 상처를 입었어요.",
+              "exampleVn": "Anh ấy bị thương ở mặt do tai nạn."
+            },
+            {
+              "id": "ko-ff-an-w2",
+              "headword": "동안",
+              "reading": "dongan",
+              "meaningVn": "mặt trẻ trung, trông trẻ hơn tuổi",
+              "example": "그녀는 동안이라서 나이보다 어려 보여요.",
+              "exampleVn": "Cô ấy có gương mặt trẻ trung nên trông trẻ hơn tuổi thật."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ff-jeong",
+      "language": "ko",
+      "reading": "情",
+      "groupKind": "false-friend",
+      "note": "情 (tình) vốn nghĩa 'tình cảm', 감정 giữ nghĩa trừu tượng về cảm xúc, còn 사정 lại lệch hẳn sang nghĩa 'tình hình, hoàn cảnh khách quan', gần như không còn liên quan đến cảm xúc cá nhân.",
+      "roots": [
+        {
+          "id": "ko-ff-jeong-root",
+          "character": "情",
+          "hanViet": "tình",
+          "meaningVn": "tình (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-jeong-w1",
+              "headword": "감정",
+              "reading": "gamjeong",
+              "meaningVn": "cảm xúc, tình cảm",
+              "example": "그녀는 감정을 잘 숨기지 못해요.",
+              "exampleVn": "Cô ấy không giấu được cảm xúc của mình."
+            },
+            {
+              "id": "ko-ff-jeong-w2",
+              "headword": "사정",
+              "reading": "sajeong",
+              "meaningVn": "tình hình, hoàn cảnh",
+              "example": "집안 사정이 좋지 않아요.",
+              "exampleVn": "Hoàn cảnh gia đình không tốt."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ff-sang",
+      "language": "ko",
+      "reading": "上",
+      "groupKind": "false-friend",
+      "note": "上 (thượng) vốn nghĩa 'trên, phía trên', 상류 giữ nghĩa khá cụ thể (tầng lớp/dòng chảy phía trên), còn 이상 lại lệch hẳn thành từ chỉ SỐ LƯỢNG 'trở lên, hơn', mang tính ngữ pháp nhiều hơn là nghĩa 'trên'.",
+      "roots": [
+        {
+          "id": "ko-ff-sang-root",
+          "character": "上",
+          "hanViet": "thượng",
+          "meaningVn": "thượng (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-sang-w1",
+              "headword": "상류",
+              "reading": "sangnyu",
+              "meaningVn": "thượng lưu, thượng nguồn",
+              "example": "그는 상류 사회 출신이에요.",
+              "exampleVn": "Anh ấy xuất thân từ tầng lớp thượng lưu."
+            },
+            {
+              "id": "ko-ff-sang-w2",
+              "headword": "이상",
+              "reading": "isang",
+              "meaningVn": "trở lên, hơn",
+              "example": "스무 살 이상만 입장 가능해요.",
+              "exampleVn": "Chỉ những người từ hai mươi tuổi trở lên mới được vào."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ff-saeng",
+      "language": "ko",
+      "reading": "生",
+      "groupKind": "false-friend",
+      "note": "生 (sinh) vốn nghĩa 'sự sống, sinh ra', 생명 giữ nghĩa khá cụ thể (mạng sống), còn 발생 (phát-sinh) lệch thành động từ trừu tượng 'xảy ra, phát sinh' cho bất kỳ sự việc nào, không nhất thiết liên quan đến sự sống.",
+      "roots": [
+        {
+          "id": "ko-ff-saeng-root",
+          "character": "生",
+          "hanViet": "sinh",
+          "meaningVn": "sinh (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-saeng-w1",
+              "headword": "생명",
+              "reading": "saengmyeong",
+              "meaningVn": "sinh mạng, mạng sống",
+              "example": "의사는 환자의 생명을 구했어요.",
+              "exampleVn": "Bác sĩ đã cứu sống bệnh nhân."
+            },
+            {
+              "id": "ko-ff-saeng-w2",
+              "headword": "발생",
+              "reading": "balsaeng",
+              "meaningVn": "phát sinh, xảy ra",
+              "example": "사고가 발생했어요.",
+              "exampleVn": "Tai nạn đã xảy ra."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
