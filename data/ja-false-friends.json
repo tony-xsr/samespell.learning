@@ -1189,6 +1189,402 @@
           ]
         }
       ]
+    },
+    {
+      "id": "ja-ff-wa",
+      "language": "ja",
+      "reading": "話",
+      "groupKind": "false-friend",
+      "note": "話 (thoại) vốn nghĩa 'nói chuyện', 電話 giữ nghĩa cụ thể (một THIẾT BỊ liên lạc), còn 話題 lệch thành khái niệm trừu tượng chỉ CHỦ ĐỀ đang được bàn luận.",
+      "roots": [
+        {
+          "id": "ja-ff-wa-root",
+          "character": "話",
+          "hanViet": "thoại",
+          "meaningVn": "thoại (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-wa-w1",
+              "headword": "電話",
+              "reading": "denwa",
+              "meaningVn": "điện thoại",
+              "example": "友達に電話をかけました。",
+              "exampleVn": "Tôi đã gọi điện thoại cho bạn."
+            },
+            {
+              "id": "ja-ff-wa-w2",
+              "headword": "話題",
+              "reading": "wadai",
+              "meaningVn": "chủ đề (câu chuyện)",
+              "example": "その話題について話しましょう。",
+              "exampleVn": "Hãy nói về chủ đề đó."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-go",
+      "language": "ja",
+      "reading": "語",
+      "groupKind": "false-friend",
+      "note": "語 (ngữ) vốn nghĩa 'lời nói, từ ngữ', 単語 giữ nghĩa cụ thể (một từ đơn lẻ), còn 物語 lệch hẳn thành danh từ chỉ MỘT THỂ LOẠI tác phẩm (câu chuyện, truyện kể).",
+      "roots": [
+        {
+          "id": "ja-ff-go-root",
+          "character": "語",
+          "hanViet": "ngữ",
+          "meaningVn": "ngữ (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-go-w1",
+              "headword": "単語",
+              "reading": "tango",
+              "meaningVn": "từ vựng",
+              "example": "毎日新しい単語を覚えます。",
+              "exampleVn": "Mỗi ngày tôi học từ vựng mới."
+            },
+            {
+              "id": "ja-ff-go-w2",
+              "headword": "物語",
+              "reading": "monogatari",
+              "meaningVn": "câu chuyện, truyện kể",
+              "example": "これは昔からある物語です。",
+              "exampleVn": "Đây là câu chuyện có từ xa xưa."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-raku",
+      "language": "ja",
+      "reading": "楽",
+      "groupKind": "false-friend",
+      "note": "楽 (lạc) vốn nghĩa 'vui vẻ, dễ chịu', 楽天的 lệch thành tính từ chỉ TÍNH CÁCH lạc quan, còn 気楽 lệch thành trạng thái TÂM LÝ thư giãn nhất thời — hai hướng trừu tượng hoá khác nhau.",
+      "roots": [
+        {
+          "id": "ja-ff-raku-root",
+          "character": "楽",
+          "hanViet": "lạc",
+          "meaningVn": "lạc (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-raku-w1",
+              "headword": "楽天的",
+              "reading": "rakutenteki",
+              "meaningVn": "lạc quan",
+              "example": "彼はいつも楽天的です。",
+              "exampleVn": "Anh ấy lúc nào cũng lạc quan."
+            },
+            {
+              "id": "ja-ff-raku-w2",
+              "headword": "気楽",
+              "reading": "kiraku",
+              "meaningVn": "thoải mái, nhẹ nhõm",
+              "example": "もっと気楽に考えてください。",
+              "exampleVn": "Hãy suy nghĩ thoải mái hơn."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-kou3",
+      "language": "ja",
+      "reading": "好",
+      "groupKind": "false-friend",
+      "note": "好 (hảo) vốn nghĩa 'tốt, thích', 好調 lệch thành tính từ trừu tượng chỉ TÌNH TRẠNG thuận lợi, còn 愛好家 lệch hẳn thành danh từ chỉ MỘT LOẠI NGƯỜI (người đam mê sở thích gì đó).",
+      "roots": [
+        {
+          "id": "ja-ff-kou3-root",
+          "character": "好",
+          "hanViet": "hảo",
+          "meaningVn": "hảo (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-kou3-w1",
+              "headword": "好調",
+              "reading": "kouchou",
+              "meaningVn": "tình trạng tốt, thuận lợi",
+              "example": "チームは好調です。",
+              "exampleVn": "Đội đang trong tình trạng tốt."
+            },
+            {
+              "id": "ja-ff-kou3-w2",
+              "headword": "愛好家",
+              "reading": "aikouka",
+              "meaningVn": "người yêu thích, đam mê",
+              "example": "彼は登山の愛好家です。",
+              "exampleVn": "Anh ấy là người đam mê leo núi."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-aku",
+      "language": "ja",
+      "reading": "悪",
+      "groupKind": "false-friend",
+      "note": "悪 (ác) vốn nghĩa 'xấu, ác', 悪化 lệch thành ĐỘNG TỪ chỉ sự suy thoái/xấu đi, còn 悪魔 lệch hẳn thành danh từ cụ thể chỉ MỘT SINH VẬT siêu nhiên (ác quỷ).",
+      "roots": [
+        {
+          "id": "ja-ff-aku-root",
+          "character": "悪",
+          "hanViet": "ác",
+          "meaningVn": "ác (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-aku-w1",
+              "headword": "悪化",
+              "reading": "akka",
+              "meaningVn": "xấu đi, trở nên tồi tệ",
+              "example": "病状が悪化しました。",
+              "exampleVn": "Bệnh tình đã trở nên tồi tệ hơn."
+            },
+            {
+              "id": "ja-ff-aku-w2",
+              "headword": "悪魔",
+              "reading": "akuma",
+              "meaningVn": "ác quỷ",
+              "example": "その映画には悪魔が出てきます。",
+              "exampleVn": "Trong bộ phim đó có ác quỷ xuất hiện."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-hei",
+      "language": "ja",
+      "reading": "平",
+      "groupKind": "false-friend",
+      "note": "平 (bình) vốn nghĩa 'bằng phẳng, yên ổn', 平和 giữ nghĩa trừu tượng ở tầm XÃ HỘI/chính trị (hoà bình), còn 平気 lệch hẳn sang tầm CÁ NHÂN chỉ trạng thái bình thản, không bận tâm.",
+      "roots": [
+        {
+          "id": "ja-ff-hei-root",
+          "character": "平",
+          "hanViet": "bình",
+          "meaningVn": "bình (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-hei-w1",
+              "headword": "平和",
+              "reading": "heiwa",
+              "meaningVn": "hoà bình",
+              "example": "世界の平和を願います。",
+              "exampleVn": "Tôi mong ước hoà bình thế giới."
+            },
+            {
+              "id": "ja-ff-hei-w2",
+              "headword": "平気",
+              "reading": "heiki",
+              "meaningVn": "bình thản, không bận tâm",
+              "example": "彼は失敗しても平気です。",
+              "exampleVn": "Anh ấy dù thất bại cũng chẳng bận tâm."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-zen",
+      "language": "ja",
+      "reading": "全",
+      "groupKind": "false-friend",
+      "note": "全 (toàn) vốn nghĩa 'toàn bộ, tất cả', 全部 giữ nghĩa sát gốc về SỐ LƯỢNG, còn trong 安全 (an-toàn) lệch hẳn thành tính từ về sự AN TOÀN, không liên quan đến 'tất cả' nữa.",
+      "roots": [
+        {
+          "id": "ja-ff-zen-root",
+          "character": "全",
+          "hanViet": "toàn",
+          "meaningVn": "toàn (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-zen-w1",
+              "headword": "全部",
+              "reading": "zenbu",
+              "meaningVn": "tất cả",
+              "example": "全部で三千円です。",
+              "exampleVn": "Tổng cộng là ba nghìn yên."
+            },
+            {
+              "id": "ja-ff-zen-w2",
+              "headword": "安全",
+              "reading": "anzen",
+              "meaningVn": "an toàn",
+              "example": "安全のためにヘルメットをかぶってください。",
+              "exampleVn": "Vì an toàn, hãy đội mũ bảo hiểm."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-sei2",
+      "language": "ja",
+      "reading": "正",
+      "groupKind": "false-friend",
+      "note": "正 (chính) vốn nghĩa 'ngay thẳng, đúng đắn', 正直 giữ nghĩa trừu tượng về TÍNH CÁCH đạo đức, còn 正月 lệch hẳn thành DANH TỪ RIÊNG chỉ một dịp lễ cụ thể (Tết).",
+      "roots": [
+        {
+          "id": "ja-ff-sei2-root",
+          "character": "正",
+          "hanViet": "chính",
+          "meaningVn": "chính (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-sei2-w1",
+              "headword": "正直",
+              "reading": "shoujiki",
+              "meaningVn": "thật thà, trung thực",
+              "example": "正直に話してください。",
+              "exampleVn": "Hãy nói thật đi."
+            },
+            {
+              "id": "ja-ff-sei2-w2",
+              "headword": "正月",
+              "reading": "shougatsu",
+              "meaningVn": "Tết, năm mới",
+              "example": "正月に家族と過ごします。",
+              "exampleVn": "Tôi đón Tết cùng gia đình."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-dou",
+      "language": "ja",
+      "reading": "動",
+      "groupKind": "false-friend",
+      "note": "動 (động) vốn nghĩa 'chuyển động, hoạt động', 運動 giữ nghĩa cụ thể (vận động thể chất), còn 自動 lệch hẳn thành tính từ chỉ tính chất MÁY MÓC/công nghệ (tự động), không liên quan đến việc vận động cơ thể.",
+      "roots": [
+        {
+          "id": "ja-ff-dou-root",
+          "character": "動",
+          "hanViet": "động",
+          "meaningVn": "động (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-dou-w1",
+              "headword": "運動",
+              "reading": "undou",
+              "meaningVn": "vận động, tập thể dục",
+              "example": "毎朝運動をしています。",
+              "exampleVn": "Mỗi sáng tôi đều tập thể dục."
+            },
+            {
+              "id": "ja-ff-dou-w2",
+              "headword": "自動",
+              "reading": "jidou",
+              "meaningVn": "tự động",
+              "example": "このドアは自動です。",
+              "exampleVn": "Cánh cửa này tự động."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-shoku",
+      "language": "ja",
+      "reading": "食",
+      "groupKind": "false-friend",
+      "note": "食 (thực) vốn nghĩa 'ăn', 食事 giữ nghĩa cụ thể (hành động/bữa ăn), còn 食欲 lệch thành khái niệm trừu tượng chỉ MONG MUỐN/cảm giác thèm ăn, không phải bản thân hành động ăn.",
+      "roots": [
+        {
+          "id": "ja-ff-shoku-root",
+          "character": "食",
+          "hanViet": "thực",
+          "meaningVn": "thực (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-shoku-w1",
+              "headword": "食事",
+              "reading": "shokuji",
+              "meaningVn": "bữa ăn",
+              "example": "家族と食事をしました。",
+              "exampleVn": "Tôi đã ăn cơm cùng gia đình."
+            },
+            {
+              "id": "ja-ff-shoku-w2",
+              "headword": "食欲",
+              "reading": "shokuyoku",
+              "meaningVn": "cảm giác thèm ăn",
+              "example": "最近食欲がありません。",
+              "exampleVn": "Dạo này tôi không có cảm giác thèm ăn."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-ken",
+      "language": "ja",
+      "reading": "見",
+      "groupKind": "false-friend",
+      "note": "見 (kiến) vốn nghĩa 'nhìn, thấy', 意見 (ý-kiến) lệch hẳn thành khái niệm trừu tượng hoàn toàn (quan điểm, ý kiến), còn 見物 giữ khá sát nghĩa gốc (hành động ngắm nhìn, tham quan).",
+      "roots": [
+        {
+          "id": "ja-ff-ken-root",
+          "character": "見",
+          "hanViet": "kiến",
+          "meaningVn": "kiến (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-ken-w1",
+              "headword": "意見",
+              "reading": "iken",
+              "meaningVn": "ý kiến, quan điểm",
+              "example": "あなたの意見を聞かせてください。",
+              "exampleVn": "Hãy cho tôi nghe ý kiến của bạn."
+            },
+            {
+              "id": "ja-ff-ken-w2",
+              "headword": "見物",
+              "reading": "kenbutsu",
+              "meaningVn": "tham quan, ngắm cảnh",
+              "example": "お祭りを見物しました。",
+              "exampleVn": "Tôi đã đi xem lễ hội."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-sho",
+      "language": "ja",
+      "reading": "書",
+      "groupKind": "false-friend",
+      "note": "書 (thư) vốn nghĩa 'sách, chữ viết', 辞書 giữ nghĩa cụ thể (một LOẠI SÁCH), còn 書類 lệch thành khái niệm rộng hơn chỉ VĂN BẢN/giấy tờ hành chính nói chung, không nhất thiết là sách.",
+      "roots": [
+        {
+          "id": "ja-ff-sho-root",
+          "character": "書",
+          "hanViet": "thư",
+          "meaningVn": "thư (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-sho-w1",
+              "headword": "辞書",
+              "reading": "jisho",
+              "meaningVn": "từ điển",
+              "example": "辞書で言葉を調べます。",
+              "exampleVn": "Tôi tra từ trong từ điển."
+            },
+            {
+              "id": "ja-ff-sho-w2",
+              "headword": "書類",
+              "reading": "shorui",
+              "meaningVn": "giấy tờ, tài liệu",
+              "example": "書類にサインしてください。",
+              "exampleVn": "Hãy ký vào giấy tờ."
+            }
+          ]
+        }
+      ]
     }
   ]
 }
