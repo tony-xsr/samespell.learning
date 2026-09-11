@@ -56909,6 +56909,2358 @@
           ]
         }
       ]
+    },
+    {
+      "id": "zh-topic-home-broadband-isp-plans",
+      "language": "zh",
+      "titleNative": "家庭宽带与运营商套餐",
+      "titleVn": "Internet cáp quang gia đình & gói cước nhà mạng",
+      "branches": [
+        {
+          "id": "broadband-types",
+          "titleNative": "宽带类型",
+          "titleVn": "Các loại đường truyền",
+          "words": [
+            {
+              "id": "zh-topic-broadband-guangxiankuandai",
+              "headword": "光纤宽带",
+              "reading": "guāngxiān kuāndài",
+              "meaningVn": "internet cáp quang",
+              "example": "现在家家户户基本都装了光纤宽带。",
+              "exampleVn": "Bây giờ nhà nhà cơ bản đều đã lắp internet cáp quang."
+            },
+            {
+              "id": "zh-topic-broadband-baizhaokuandai",
+              "headword": "百兆宽带",
+              "reading": "bǎizhào kuāndài",
+              "meaningVn": "gói mạng tốc độ trăm Mbps",
+              "example": "以前一百兆宽带就算很快了。",
+              "exampleVn": "Trước kia gói mạng trăm Mbps đã coi là nhanh lắm rồi."
+            },
+            {
+              "id": "zh-topic-broadband-qianzhaokuandai",
+              "headword": "千兆宽带",
+              "reading": "qiānzhào kuāndài",
+              "meaningVn": "gói mạng tốc độ nghìn Mbps",
+              "example": "打游戏的他升级成了千兆宽带。",
+              "exampleVn": "Anh chàng chơi game đã nâng cấp lên gói mạng nghìn Mbps."
+            },
+            {
+              "id": "zh-topic-broadband-wuxianluyouqi",
+              "headword": "无线路由器",
+              "reading": "wúxiàn lùyóuqì",
+              "meaningVn": "bộ phát wifi không dây",
+              "example": "客厅新买了一台无线路由器。",
+              "exampleVn": "Phòng khách mới mua một bộ phát wifi không dây."
+            },
+            {
+              "id": "zh-topic-broadband-wangluofugaimangqu",
+              "headword": "网络覆盖盲区",
+              "reading": "wǎngluò fùgài mángqū",
+              "meaningVn": "vùng sóng mạng không phủ tới",
+              "example": "卧室是家里网络覆盖盲区。",
+              "exampleVn": "Phòng ngủ là vùng sóng mạng không phủ tới trong nhà."
+            }
+          ]
+        },
+        {
+          "id": "installation-maintenance",
+          "titleNative": "安装维护",
+          "titleVn": "Lắp đặt & bảo trì",
+          "words": [
+            {
+              "id": "zh-topic-broadband-zhuangweishifu",
+              "headword": "装维师傅",
+              "reading": "zhuāngwéi shīfu",
+              "meaningVn": "nhân viên kỹ thuật lắp đặt và bảo trì",
+              "example": "装维师傅上门只用了半小时。",
+              "exampleVn": "Nhân viên kỹ thuật lắp đặt đến nhà chỉ mất nửa tiếng."
+            },
+            {
+              "id": "zh-topic-broadband-guangxianruhu",
+              "headword": "光纤入户",
+              "reading": "guāngxiān rùhù",
+              "meaningVn": "kéo cáp quang vào tận nhà",
+              "example": "光纤入户那天施工队钻了墙。",
+              "exampleVn": "Ngày kéo cáp quang vào nhà đội thi công phải khoan tường."
+            },
+            {
+              "id": "zh-topic-broadband-buxianzouguan",
+              "headword": "布线走管",
+              "reading": "bùxiàn zǒuguǎn",
+              "meaningVn": "đi dây trong ống luồn",
+              "example": "装修时提前做好布线走管。",
+              "exampleVn": "Lúc sửa nhà làm trước việc đi dây trong ống luồn."
+            },
+            {
+              "id": "zh-topic-broadband-wangsuceshi",
+              "headword": "网速测试",
+              "reading": "wǎngsù cèshì",
+              "meaningVn": "kiểm tra tốc độ mạng",
+              "example": "感觉变慢了,她做了个网速测试。",
+              "exampleVn": "Cảm thấy chậm đi, cô ấy làm một lần kiểm tra tốc độ mạng."
+            },
+            {
+              "id": "zh-topic-broadband-baoxiushangmen",
+              "headword": "报修上门",
+              "reading": "bàoxiū shàngmén",
+              "meaningVn": "báo hỏng để kỹ thuật đến sửa",
+              "example": "断网了,她打电话报修上门。",
+              "exampleVn": "Mất mạng, cô ấy gọi điện báo hỏng để kỹ thuật đến sửa."
+            }
+          ]
+        },
+        {
+          "id": "isp-plans",
+          "titleNative": "套餐资费",
+          "titleVn": "Gói cước & chi phí",
+          "words": [
+            {
+              "id": "zh-topic-broadband-yunyingshangtaocan",
+              "headword": "运营商套餐",
+              "reading": "yùnyíngshāng tàocān",
+              "meaningVn": "gói cước của nhà mạng",
+              "example": "三大运营商套餐价格差不多。",
+              "exampleVn": "Gói cước của ba nhà mạng lớn giá cả gần như nhau."
+            },
+            {
+              "id": "zh-topic-broadband-kuandaibaonian",
+              "headword": "宽带包年",
+              "reading": "kuāndài bāonián",
+              "meaningVn": "gói cước internet trọn năm",
+              "example": "宽带包年比按月付更划算。",
+              "exampleVn": "Gói cước internet trọn năm lời hơn trả theo tháng."
+            },
+            {
+              "id": "zh-topic-broadband-ronghetaocan",
+              "headword": "融合套餐",
+              "reading": "rónghé tàocān",
+              "meaningVn": "gói cước tích hợp",
+              "example": "她办了一个融合套餐,又送宽带又送手机流量。",
+              "exampleVn": "Cô ấy đăng ký một gói tích hợp, vừa tặng internet vừa tặng data điện thoại."
+            },
+            {
+              "id": "zh-topic-broadband-xiehaozhuanwang",
+              "headword": "携号转网",
+              "reading": "xiéhào zhuǎnwǎng",
+              "meaningVn": "chuyển mạng giữ số",
+              "example": "他通过携号转网换了运营商。",
+              "exampleVn": "Anh ấy chuyển nhà mạng thông qua chuyển mạng giữ số."
+            },
+            {
+              "id": "zh-topic-broadband-heyueqiweiyuejin",
+              "headword": "合约期违约金",
+              "reading": "héyuēqī wéiyuējīn",
+              "meaningVn": "phí phạt vi phạm thời hạn hợp đồng",
+              "example": "提前解约要交合约期违约金。",
+              "exampleVn": "Hủy hợp đồng trước hạn phải nộp phí phạt vi phạm thời hạn hợp đồng."
+            }
+          ]
+        },
+        {
+          "id": "usage-experience",
+          "titleNative": "使用体验",
+          "titleVn": "Trải nghiệm sử dụng",
+          "words": [
+            {
+              "id": "zh-topic-broadband-gaofengqikadun",
+              "headword": "高峰期卡顿",
+              "reading": "gāofēngqī kǎdùn",
+              "meaningVn": "giật lag giờ cao điểm",
+              "example": "晚上八点常常出现高峰期卡顿。",
+              "exampleVn": "Tám giờ tối thường xuyên xảy ra giật lag giờ cao điểm."
+            },
+            {
+              "id": "zh-topic-broadband-cengwang",
+              "headword": "蹭网",
+              "reading": "cèngwǎng",
+              "meaningVn": "dùng ké wifi",
+              "example": "邻居总想蹭网,她把密码改了。",
+              "exampleVn": "Hàng xóm cứ muốn dùng ké wifi, cô ấy đã đổi mật khẩu."
+            },
+            {
+              "id": "zh-topic-broadband-mimadingqigenghuan",
+              "headword": "密码定期更换",
+              "reading": "mìmǎ dìngqī gēnghuàn",
+              "meaningVn": "đổi mật khẩu định kỳ",
+              "example": "为了安全,建议密码定期更换。",
+              "exampleVn": "Để an toàn, khuyến nghị đổi mật khẩu định kỳ."
+            },
+            {
+              "id": "zh-topic-broadband-kefutousudianhua",
+              "headword": "客服投诉电话",
+              "reading": "kèfú tóusù diànhuà",
+              "meaningVn": "số điện thoại khiếu nại chăm sóc khách hàng",
+              "example": "网速太慢,她拨打了客服投诉电话。",
+              "exampleVn": "Mạng quá chậm, cô ấy gọi số điện thoại khiếu nại chăm sóc khách hàng."
+            },
+            {
+              "id": "zh-topic-broadband-zhuangjizengpin",
+              "headword": "装机赠品",
+              "reading": "zhuāngjī zèngpǐn",
+              "meaningVn": "quà tặng kèm khi lắp đặt",
+              "example": "办套餐还送了一个装机赠品。",
+              "exampleVn": "Đăng ký gói cước còn được tặng kèm một món quà khi lắp đặt."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-topic-home-ac-installation-repair",
+      "language": "zh",
+      "titleNative": "家庭空调安装与维修",
+      "titleVn": "Lắp đặt & sửa chữa điều hòa gia đình",
+      "branches": [
+        {
+          "id": "ac-types",
+          "titleNative": "空调类型",
+          "titleVn": "Các loại điều hòa",
+          "words": [
+            {
+              "id": "zh-topic-acinstall-guajikongtiao",
+              "headword": "挂机空调",
+              "reading": "guàjī kōngtiáo",
+              "meaningVn": "điều hòa treo tường",
+              "example": "卧室装的是挂机空调。",
+              "exampleVn": "Phòng ngủ lắp điều hòa treo tường."
+            },
+            {
+              "id": "zh-topic-acinstall-guijikongtiao",
+              "headword": "柜机空调",
+              "reading": "guìjī kōngtiáo",
+              "meaningVn": "điều hòa tủ đứng",
+              "example": "客厅面积大,选了柜机空调。",
+              "exampleVn": "Phòng khách diện tích lớn, chọn điều hòa tủ đứng."
+            },
+            {
+              "id": "zh-topic-acinstall-zhongyangkongtiao",
+              "headword": "中央空调",
+              "reading": "zhōngyāng kōngtiáo",
+              "meaningVn": "điều hòa trung tâm",
+              "example": "新房装修时直接上了中央空调。",
+              "exampleVn": "Lúc sửa nhà mới lắp thẳng điều hòa trung tâm."
+            },
+            {
+              "id": "zh-topic-acinstall-bianpinkongtiao",
+              "headword": "变频空调",
+              "reading": "biànpín kōngtiáo",
+              "meaningVn": "điều hòa biến tần (inverter)",
+              "example": "变频空调比定频的更省电。",
+              "exampleVn": "Điều hòa biến tần tiết kiệm điện hơn loại tần số cố định."
+            },
+            {
+              "id": "zh-topic-acinstall-yidongkongtiao",
+              "headword": "移动空调",
+              "reading": "yídòng kōngtiáo",
+              "meaningVn": "điều hòa di động",
+              "example": "出租屋不能打孔,只能用移动空调。",
+              "exampleVn": "Nhà thuê không được khoan tường, chỉ có thể dùng điều hòa di động."
+            }
+          ]
+        },
+        {
+          "id": "installation-process",
+          "titleNative": "安装流程",
+          "titleVn": "Quy trình lắp đặt",
+          "words": [
+            {
+              "id": "zh-topic-acinstall-dakongchuanqiang",
+              "headword": "打孔穿墙",
+              "reading": "dǎkǒng chuānqiáng",
+              "meaningVn": "khoan lỗ xuyên tường",
+              "example": "师傅先打孔穿墙,再走管线。",
+              "exampleVn": "Thợ trước tiên khoan lỗ xuyên tường, rồi mới đi ống dẫn."
+            },
+            {
+              "id": "zh-topic-acinstall-shiwaijiguding",
+              "headword": "室外机固定",
+              "reading": "shìwàijī gùdìng",
+              "meaningVn": "cố định cục nóng ngoài trời",
+              "example": "室外机固定一定要牢固。",
+              "exampleVn": "Cố định cục nóng ngoài trời nhất định phải chắc chắn."
+            },
+            {
+              "id": "zh-topic-acinstall-tongguanlianjie",
+              "headword": "铜管连接",
+              "reading": "tóngguǎn liánjiē",
+              "meaningVn": "nối ống đồng",
+              "example": "铜管连接处要仔细检查有没有漏气。",
+              "exampleVn": "Chỗ nối ống đồng phải kiểm tra kỹ có bị rò khí không."
+            },
+            {
+              "id": "zh-topic-acinstall-paishuiguanzouxiang",
+              "headword": "排水管走向",
+              "reading": "páishuǐguǎn zǒuxiàng",
+              "meaningVn": "hướng đi của ống thoát nước",
+              "example": "排水管走向设计不好会漏水。",
+              "exampleVn": "Thiết kế hướng đi của ống thoát nước không tốt sẽ bị rò nước."
+            },
+            {
+              "id": "zh-topic-acinstall-yuliuanzhuangkongwei",
+              "headword": "预留安装孔位",
+              "reading": "yùliú ānzhuāng kǒngwèi",
+              "meaningVn": "chừa sẵn lỗ để lắp đặt",
+              "example": "装修时提前预留安装孔位。",
+              "exampleVn": "Lúc sửa nhà chừa sẵn lỗ để lắp đặt từ trước."
+            }
+          ]
+        },
+        {
+          "id": "repair-maintenance",
+          "titleNative": "维修保养",
+          "titleVn": "Sửa chữa & bảo dưỡng",
+          "words": [
+            {
+              "id": "zh-topic-acinstall-jiafu",
+              "headword": "加氟",
+              "reading": "jiāfú",
+              "meaningVn": "nạp ga làm lạnh",
+              "example": "空调不制冷了,师傅说要加氟。",
+              "exampleVn": "Điều hòa không lạnh nữa, thợ nói phải nạp ga làm lạnh."
+            },
+            {
+              "id": "zh-topic-acinstall-qingxilvwang",
+              "headword": "清洗滤网",
+              "reading": "qīngxǐ lǜwǎng",
+              "meaningVn": "vệ sinh tấm lọc",
+              "example": "每个月都要清洗滤网。",
+              "exampleVn": "Mỗi tháng đều phải vệ sinh tấm lọc."
+            },
+            {
+              "id": "zh-topic-acinstall-zhilengxiaoguocha",
+              "headword": "制冷效果差",
+              "reading": "zhìlěng xiàoguǒ chà",
+              "meaningVn": "hiệu quả làm lạnh kém",
+              "example": "用了五年,制冷效果差了很多。",
+              "exampleVn": "Dùng năm năm rồi, hiệu quả làm lạnh kém đi nhiều."
+            },
+            {
+              "id": "zh-topic-acinstall-yasuojiguzhang",
+              "headword": "压缩机故障",
+              "reading": "yāsuōjī gùzhàng",
+              "meaningVn": "hỏng máy nén",
+              "example": "检修后发现是压缩机故障。",
+              "exampleVn": "Kiểm tra xong phát hiện là hỏng máy nén."
+            },
+            {
+              "id": "zh-topic-acinstall-yijifeiyong",
+              "headword": "移机费用",
+              "reading": "yíjī fèiyòng",
+              "meaningVn": "chi phí di dời máy",
+              "example": "搬家还要另外付移机费用。",
+              "exampleVn": "Chuyển nhà còn phải trả thêm chi phí di dời máy."
+            }
+          ]
+        },
+        {
+          "id": "usage-consumption",
+          "titleNative": "使用与消费",
+          "titleVn": "Sử dụng & tiêu dùng",
+          "words": [
+            {
+              "id": "zh-topic-acinstall-nengxiaodengji",
+              "headword": "能效等级",
+              "reading": "néngxiào děngjí",
+              "meaningVn": "cấp hiệu suất năng lượng",
+              "example": "买空调要看能效等级。",
+              "exampleVn": "Mua điều hòa phải xem cấp hiệu suất năng lượng."
+            },
+            {
+              "id": "zh-topic-acinstall-kongtiaobing",
+              "headword": "空调病",
+              "reading": "kōngtiáobìng",
+              "meaningVn": "'bệnh điều hòa'",
+              "example": "吹空调太久容易得空调病。",
+              "exampleVn": "Ngồi điều hòa quá lâu dễ mắc 'bệnh điều hòa'."
+            },
+            {
+              "id": "zh-topic-acinstall-dianfeibiaosheng",
+              "headword": "电费飙升",
+              "reading": "diànfèi biāoshēng",
+              "meaningVn": "tiền điện tăng vọt",
+              "example": "夏天一到,电费飙升很明显。",
+              "exampleVn": "Vừa vào hè, tiền điện tăng vọt rất rõ."
+            },
+            {
+              "id": "zh-topic-acinstall-shifubaojiaxianjing",
+              "headword": "师傅报价陷阱",
+              "reading": "shīfu bàojià xiànjǐng",
+              "meaningVn": "bẫy báo giá của thợ",
+              "example": "加氟时要小心师傅报价陷阱。",
+              "exampleVn": "Lúc nạp ga phải cẩn thận bẫy báo giá của thợ."
+            },
+            {
+              "id": "zh-topic-acinstall-wangjipaiduianzhuang",
+              "headword": "旺季排队安装",
+              "reading": "wàngjì páiduì ānzhuāng",
+              "meaningVn": "xếp hàng chờ lắp đặt mùa cao điểm",
+              "example": "六月是旺季排队安装的高峰。",
+              "exampleVn": "Tháng Sáu là cao điểm xếp hàng chờ lắp đặt mùa cao điểm."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-topic-kids-swimming-drowning-prevention",
+      "language": "zh",
+      "titleNative": "儿童游泳培训与防溺水教育",
+      "titleVn": "Học bơi cho trẻ em & giáo dục phòng chống đuối nước",
+      "branches": [
+        {
+          "id": "swimming-courses",
+          "titleNative": "游泳课程",
+          "titleVn": "Khóa học bơi",
+          "words": [
+            {
+              "id": "zh-topic-kidsswim-ertongyouyongpeixun",
+              "headword": "儿童游泳培训",
+              "reading": "értóng yóuyǒng péixùn",
+              "meaningVn": "đào tạo bơi lội cho trẻ em",
+              "example": "暑假她给孩子报了儿童游泳培训。",
+              "exampleVn": "Kỳ nghỉ hè cô ấy đăng ký cho con khóa đào tạo bơi lội cho trẻ em."
+            },
+            {
+              "id": "zh-topic-kidsswim-yingeryouyong",
+              "headword": "婴儿游泳",
+              "reading": "yīng'ér yóuyǒng",
+              "meaningVn": "bơi lội cho trẻ sơ sinh",
+              "example": "月子中心还提供婴儿游泳服务。",
+              "exampleVn": "Trung tâm chăm sóc sau sinh còn có dịch vụ bơi lội cho trẻ sơ sinh."
+            },
+            {
+              "id": "zh-topic-kidsswim-wayongqimeng",
+              "headword": "蛙泳启蒙",
+              "reading": "wāyǒng qǐméng",
+              "meaningVn": "khai tâm bơi ếch",
+              "example": "孩子第一课学的是蛙泳启蒙。",
+              "exampleVn": "Buổi học đầu tiên của con là khai tâm bơi ếch."
+            },
+            {
+              "id": "zh-topic-kidsswim-bieqilianxi",
+              "headword": "憋气练习",
+              "reading": "biēqì liànxí",
+              "meaningVn": "luyện tập nín thở",
+              "example": "下水前先做憋气练习。",
+              "exampleVn": "Trước khi xuống nước làm luyện tập nín thở trước."
+            },
+            {
+              "id": "zh-topic-kidsswim-fubanfuzhu",
+              "headword": "浮板辅助",
+              "reading": "fúbǎn fǔzhù",
+              "meaningVn": "ván bơi hỗ trợ",
+              "example": "刚开始学游泳都要用浮板辅助。",
+              "exampleVn": "Mới bắt đầu học bơi đều phải dùng ván bơi hỗ trợ."
+            }
+          ]
+        },
+        {
+          "id": "pool-safety",
+          "titleNative": "泳池安全",
+          "titleVn": "An toàn hồ bơi",
+          "words": [
+            {
+              "id": "zh-topic-kidsswim-jiushengyuan",
+              "headword": "救生员",
+              "reading": "jiùshēngyuán",
+              "meaningVn": "nhân viên cứu hộ",
+              "example": "泳池边一直有救生员值守。",
+              "exampleVn": "Bên hồ bơi luôn có nhân viên cứu hộ trực."
+            },
+            {
+              "id": "zh-topic-kidsswim-yongchishuizhijiance",
+              "headword": "泳池水质检测",
+              "reading": "yǒngchí shuǐzhì jiǎncè",
+              "meaningVn": "kiểm tra chất lượng nước hồ bơi",
+              "example": "每天都要做泳池水质检测。",
+              "exampleVn": "Mỗi ngày đều phải kiểm tra chất lượng nước hồ bơi."
+            },
+            {
+              "id": "zh-topic-kidsswim-shenshuiqujingshi",
+              "headword": "深水区警示",
+              "reading": "shēnshuǐqū jǐngshì",
+              "meaningVn": "cảnh báo khu vực nước sâu",
+              "example": "深水区警示牌立在最显眼的位置。",
+              "exampleVn": "Biển cảnh báo khu vực nước sâu đặt ở vị trí dễ thấy nhất."
+            },
+            {
+              "id": "zh-topic-kidsswim-jiushengquan",
+              "headword": "救生圈",
+              "reading": "jiùshēngquān",
+              "meaningVn": "phao cứu sinh",
+              "example": "孩子不太会游,先套上救生圈。",
+              "exampleVn": "Con chưa biết bơi lắm, đeo phao cứu sinh trước."
+            },
+            {
+              "id": "zh-topic-kidsswim-yongchijiankong",
+              "headword": "泳池监控",
+              "reading": "yǒngchí jiānkòng",
+              "meaningVn": "camera giám sát hồ bơi",
+              "example": "泳池监控二十四小时不间断。",
+              "exampleVn": "Camera giám sát hồ bơi hoạt động không ngừng hai mươi bốn giờ."
+            }
+          ]
+        },
+        {
+          "id": "drowning-prevention",
+          "titleNative": "防溺水教育",
+          "titleVn": "Giáo dục phòng chống đuối nước",
+          "words": [
+            {
+              "id": "zh-topic-kidsswim-fangnishuijiaoyu",
+              "headword": "防溺水教育",
+              "reading": "fángnìshuǐ jiàoyù",
+              "meaningVn": "giáo dục phòng chống đuối nước",
+              "example": "学校每年暑假前都做防溺水教育。",
+              "exampleVn": "Trường mỗi năm trước kỳ nghỉ hè đều làm giáo dục phòng chống đuối nước."
+            },
+            {
+              "id": "zh-topic-kidsswim-yewaishuiyujinzhiyouyong",
+              "headword": "野外水域禁止游泳",
+              "reading": "yěwài shuǐyù jìnzhǐ yóuyǒng",
+              "meaningVn": "cấm bơi ở vùng nước hoang dã",
+              "example": "河边立着野外水域禁止游泳的牌子。",
+              "exampleVn": "Ven sông cắm biển cấm bơi ở vùng nước hoang dã."
+            },
+            {
+              "id": "zh-topic-kidsswim-nishuijijiu",
+              "headword": "溺水急救",
+              "reading": "nìshuǐ jíjiù",
+              "meaningVn": "sơ cứu đuối nước",
+              "example": "家长也要学会基本的溺水急救。",
+              "exampleVn": "Phụ huynh cũng phải học cách sơ cứu đuối nước cơ bản."
+            },
+            {
+              "id": "zh-topic-kidsswim-jiazhangkanhuzeren",
+              "headword": "家长看护责任",
+              "reading": "jiāzhǎng kānhù zérèn",
+              "meaningVn": "trách nhiệm trông coi của phụ huynh",
+              "example": "游泳时家长看护责任不能疏忽。",
+              "exampleVn": "Lúc bơi trách nhiệm trông coi của phụ huynh không được lơ là."
+            },
+            {
+              "id": "zh-topic-kidsswim-shuqianquantixing",
+              "headword": "暑期安全提醒",
+              "reading": "shǔqī ānquán tíxǐng",
+              "meaningVn": "nhắc nhở an toàn dịp hè",
+              "example": "班级群里发了暑期安全提醒。",
+              "exampleVn": "Nhóm chat lớp đã gửi nhắc nhở an toàn dịp hè."
+            }
+          ]
+        },
+        {
+          "id": "certification-competition",
+          "titleNative": "考级与竞技",
+          "titleVn": "Thi chứng chỉ & thi đấu",
+          "words": [
+            {
+              "id": "zh-topic-kidsswim-youyongkaoji",
+              "headword": "游泳考级",
+              "reading": "yóuyǒng kǎojí",
+              "meaningVn": "thi lấy chứng chỉ bơi lội",
+              "example": "孩子顺利通过了游泳考级。",
+              "exampleVn": "Con đã thi qua chứng chỉ bơi lội thuận lợi."
+            },
+            {
+              "id": "zh-topic-kidsswim-ziyouyonghuanqi",
+              "headword": "自由泳换气",
+              "reading": "zìyóuyǒng huànqì",
+              "meaningVn": "kỹ thuật thở khi bơi tự do",
+              "example": "自由泳换气是最难掌握的部分。",
+              "exampleVn": "Kỹ thuật thở khi bơi tự do là phần khó nắm bắt nhất."
+            },
+            {
+              "id": "zh-topic-kidsswim-shaoeryouyongbisai",
+              "headword": "少儿游泳比赛",
+              "reading": "shào'ér yóuyǒng bǐsài",
+              "meaningVn": "cuộc thi bơi lội thiếu nhi",
+              "example": "她报名参加了少儿游泳比赛。",
+              "exampleVn": "Cô bé đăng ký tham gia cuộc thi bơi lội thiếu nhi."
+            },
+            {
+              "id": "zh-topic-kidsswim-tinengceshi",
+              "headword": "体能测试",
+              "reading": "tǐnéng cèshì",
+              "meaningVn": "kiểm tra thể lực",
+              "example": "入队前要先做体能测试。",
+              "exampleVn": "Trước khi vào đội phải làm kiểm tra thể lực trước."
+            },
+            {
+              "id": "zh-topic-kidsswim-jiaolianzizhizhengshu",
+              "headword": "教练资质证书",
+              "reading": "jiàoliàn zīzhì zhèngshū",
+              "meaningVn": "chứng chỉ hành nghề huấn luyện viên",
+              "example": "报班前先看教练资质证书。",
+              "exampleVn": "Trước khi đăng ký lớp xem trước chứng chỉ hành nghề huấn luyện viên."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-topic-renovation-supervision-inspection",
+      "language": "zh",
+      "titleNative": "装修监理与验房师",
+      "titleVn": "Giám sát thi công & thẩm định nhà trước khi nhận",
+      "branches": [
+        {
+          "id": "supervision-duties",
+          "titleNative": "监理职责",
+          "titleVn": "Trách nhiệm giám sát",
+          "words": [
+            {
+              "id": "zh-topic-renoinspect-zhuangxiujianli",
+              "headword": "装修监理",
+              "reading": "zhuāngxiū jiānlǐ",
+              "meaningVn": "giám sát thi công sửa nhà",
+              "example": "她请了装修监理全程盯着施工。",
+              "exampleVn": "Cô ấy thuê giám sát thi công theo dõi suốt quá trình xây dựng."
+            },
+            {
+              "id": "zh-topic-renoinspect-yinbigongchengyanshou",
+              "headword": "隐蔽工程验收",
+              "reading": "yǐnbì gōngchéng yànshōu",
+              "meaningVn": "nghiệm thu hạng mục ẩn",
+              "example": "水电铺完要做隐蔽工程验收。",
+              "exampleVn": "Điện nước lắp xong phải nghiệm thu hạng mục ẩn."
+            },
+            {
+              "id": "zh-topic-renoinspect-cailiaojinchanghedui",
+              "headword": "材料进场核对",
+              "reading": "cáiliào jìnchǎng héduì",
+              "meaningVn": "kiểm tra đối chiếu vật liệu khi nhập công trình",
+              "example": "每批材料进场核对型号和数量。",
+              "exampleVn": "Mỗi lô vật liệu nhập công trình đều kiểm tra đối chiếu mã hàng và số lượng."
+            },
+            {
+              "id": "zh-topic-renoinspect-gongqibakong",
+              "headword": "工期把控",
+              "reading": "gōngqī bǎkòng",
+              "meaningVn": "kiểm soát tiến độ thi công",
+              "example": "监理的主要工作是工期把控。",
+              "exampleVn": "Công việc chính của giám sát là kiểm soát tiến độ thi công."
+            },
+            {
+              "id": "zh-topic-renoinspect-shigonggongyijiancha",
+              "headword": "施工工艺检查",
+              "reading": "shīgōng gōngyì jiǎnchá",
+              "meaningVn": "kiểm tra kỹ thuật thi công",
+              "example": "每个阶段都要做施工工艺检查。",
+              "exampleVn": "Mỗi giai đoạn đều phải kiểm tra kỹ thuật thi công."
+            }
+          ]
+        },
+        {
+          "id": "inspection-service",
+          "titleNative": "验房服务",
+          "titleVn": "Dịch vụ thẩm định nhà",
+          "words": [
+            {
+              "id": "zh-topic-renoinspect-yanfangshi",
+              "headword": "验房师",
+              "reading": "yànfángshī",
+              "meaningVn": "chuyên viên thẩm định nhà",
+              "example": "交房前她请了验房师陪同。",
+              "exampleVn": "Trước khi nhận nhà cô ấy thuê chuyên viên thẩm định nhà đi cùng."
+            },
+            {
+              "id": "zh-topic-renoinspect-maopifangyanshou",
+              "headword": "毛坯房验收",
+              "reading": "máopīfáng yànshōu",
+              "meaningVn": "nghiệm thu nhà thô",
+              "example": "毛坯房验收要重点看墙面和管线。",
+              "exampleVn": "Nghiệm thu nhà thô phải chú trọng xem tường và đường ống."
+            },
+            {
+              "id": "zh-topic-renoinspect-jingzhuangfangyanshou",
+              "headword": "精装房验收",
+              "reading": "jīngzhuāngfáng yànshōu",
+              "meaningVn": "nghiệm thu nhà hoàn thiện",
+              "example": "精装房验收清单有上百项。",
+              "exampleVn": "Danh mục nghiệm thu nhà hoàn thiện có tới cả trăm mục."
+            },
+            {
+              "id": "zh-topic-renoinspect-konggujiance",
+              "headword": "空鼓检测",
+              "reading": "kōnggǔ jiǎncè",
+              "meaningVn": "kiểm tra tường/gạch bị rỗng",
+              "example": "师傅用小锤子做空鼓检测。",
+              "exampleVn": "Thợ dùng búa nhỏ để kiểm tra tường bị rỗng."
+            },
+            {
+              "id": "zh-topic-renoinspect-shenloupaicha",
+              "headword": "渗漏排查",
+              "reading": "shènlòu páichá",
+              "meaningVn": "rà soát thấm dột",
+              "example": "卫生间做了闭水试验做渗漏排查。",
+              "exampleVn": "Nhà vệ sinh làm thử nghiệm bịt nước để rà soát thấm dột."
+            }
+          ]
+        },
+        {
+          "id": "common-issues",
+          "titleNative": "常见问题",
+          "titleVn": "Vấn đề thường gặp",
+          "words": [
+            {
+              "id": "zh-topic-renoinspect-zhuangxiuxianjing",
+              "headword": "装修陷阱",
+              "reading": "zhuāngxiū xiànjǐng",
+              "meaningVn": "bẫy trong sửa nhà",
+              "example": "低价合同背后往往藏着装修陷阱。",
+              "exampleVn": "Hợp đồng giá rẻ đằng sau thường ẩn chứa bẫy trong sửa nhà."
+            },
+            {
+              "id": "zh-topic-renoinspect-zengxiangjiajia",
+              "headword": "增项加价",
+              "reading": "zēngxiàng jiājià",
+              "meaningVn": "phát sinh hạng mục tăng giá",
+              "example": "施工过程中不断出现增项加价。",
+              "exampleVn": "Trong quá trình thi công liên tục phát sinh hạng mục tăng giá."
+            },
+            {
+              "id": "zh-topic-renoinspect-tougongjianliao",
+              "headword": "偷工减料",
+              "reading": "tōugōng jiǎnliào",
+              "meaningVn": "ăn bớt vật liệu, làm ẩu",
+              "example": "没人监督很容易偷工减料。",
+              "exampleVn": "Không ai giám sát rất dễ bị ăn bớt vật liệu."
+            },
+            {
+              "id": "zh-topic-renoinspect-qiangmianliefeng",
+              "headword": "墙面裂缝",
+              "reading": "qiángmiàn lièfèng",
+              "meaningVn": "vết nứt trên tường",
+              "example": "入住半年后墙面裂缝越来越明显。",
+              "exampleVn": "Ở được nửa năm vết nứt trên tường ngày càng rõ."
+            },
+            {
+              "id": "zh-topic-renoinspect-shuidiangaizaojiufen",
+              "headword": "水电改造纠纷",
+              "reading": "shuǐdiàn gǎizào jiūfēn",
+              "meaningVn": "tranh chấp cải tạo điện nước",
+              "example": "这起水电改造纠纷闹上了法庭。",
+              "exampleVn": "Vụ tranh chấp cải tạo điện nước này đưa nhau ra tòa."
+            }
+          ]
+        },
+        {
+          "id": "rights-protection",
+          "titleNative": "维权流程",
+          "titleVn": "Quy trình bảo vệ quyền lợi",
+          "words": [
+            {
+              "id": "zh-topic-renoinspect-zhuangxiuhetongtiaokuan",
+              "headword": "装修合同条款",
+              "reading": "zhuāngxiū hétong tiáokuǎn",
+              "meaningVn": "điều khoản hợp đồng sửa nhà",
+              "example": "签字前一定要看清装修合同条款。",
+              "exampleVn": "Trước khi ký nhất định phải đọc kỹ điều khoản hợp đồng sửa nhà."
+            },
+            {
+              "id": "zh-topic-renoinspect-zhenggaitongzhidan",
+              "headword": "整改通知单",
+              "reading": "zhěnggǎi tōngzhīdān",
+              "meaningVn": "phiếu thông báo yêu cầu khắc phục",
+              "example": "验房师开了一份整改通知单。",
+              "exampleVn": "Chuyên viên thẩm định nhà lập một phiếu thông báo yêu cầu khắc phục."
+            },
+            {
+              "id": "zh-topic-renoinspect-baoxiuqi",
+              "headword": "保修期",
+              "reading": "bǎoxiūqī",
+              "meaningVn": "thời hạn bảo hành",
+              "example": "水电工程的保修期一般是两年。",
+              "exampleVn": "Thời hạn bảo hành công trình điện nước thường là hai năm."
+            },
+            {
+              "id": "zh-topic-renoinspect-disanfangjiancejigou",
+              "headword": "第三方检测机构",
+              "reading": "dìsānfāng jiǎncè jīgòu",
+              "meaningVn": "cơ quan kiểm định độc lập",
+              "example": "有争议可以找第三方检测机构鉴定。",
+              "exampleVn": "Có tranh chấp có thể tìm cơ quan kiểm định độc lập để giám định."
+            },
+            {
+              "id": "zh-topic-renoinspect-xiaofeizhetousupingtai",
+              "headword": "消费者投诉平台",
+              "reading": "xiāofèizhě tóusù píngtái",
+              "meaningVn": "nền tảng khiếu nại người tiêu dùng",
+              "example": "维权无果后她在消费者投诉平台发帖。",
+              "exampleVn": "Bảo vệ quyền lợi không thành cô ấy đăng bài trên nền tảng khiếu nại người tiêu dùng."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-topic-kids-bicycle-balance-bike",
+      "language": "zh",
+      "titleNative": "儿童自行车与平衡车启蒙",
+      "titleVn": "Xe đạp trẻ em & xe thăng bằng khai tâm",
+      "branches": [
+        {
+          "id": "bike-selection",
+          "titleNative": "车型选择",
+          "titleVn": "Lựa chọn loại xe",
+          "words": [
+            {
+              "id": "zh-topic-kidsbike-pinghengche",
+              "headword": "平衡车",
+              "reading": "pínghéngchē",
+              "meaningVn": "xe thăng bằng",
+              "example": "两岁的孩子已经能骑平衡车了。",
+              "exampleVn": "Con hai tuổi đã đi được xe thăng bằng rồi."
+            },
+            {
+              "id": "zh-topic-kidsbike-ertongzixingche",
+              "headword": "儿童自行车",
+              "reading": "értóng zìxíngchē",
+              "meaningVn": "xe đạp trẻ em",
+              "example": "四岁生日她收到一辆儿童自行车。",
+              "exampleVn": "Sinh nhật bốn tuổi cô bé nhận được một chiếc xe đạp trẻ em."
+            },
+            {
+              "id": "zh-topic-kidsbike-fuzhulun",
+              "headword": "辅助轮",
+              "reading": "fǔzhùlún",
+              "meaningVn": "bánh xe phụ trợ",
+              "example": "刚学骑车时装了辅助轮。",
+              "exampleVn": "Lúc mới học đi xe đạp lắp bánh xe phụ trợ."
+            },
+            {
+              "id": "zh-topic-kidsbike-chejiachicun",
+              "headword": "车架尺寸",
+              "reading": "chējià chǐcùn",
+              "meaningVn": "kích cỡ khung xe",
+              "example": "买车前要量好孩子身高选车架尺寸。",
+              "exampleVn": "Trước khi mua xe phải đo chiều cao của con để chọn kích cỡ khung xe."
+            },
+            {
+              "id": "zh-topic-kidsbike-zhedieertongche",
+              "headword": "折叠儿童车",
+              "reading": "zhédié értóngchē",
+              "meaningVn": "xe đạp trẻ em gấp gọn",
+              "example": "折叠儿童车方便带出门旅行。",
+              "exampleVn": "Xe đạp trẻ em gấp gọn tiện mang theo khi đi du lịch."
+            }
+          ]
+        },
+        {
+          "id": "learning-process",
+          "titleNative": "学习过程",
+          "titleVn": "Quá trình học",
+          "words": [
+            {
+              "id": "zh-topic-kidsbike-xueqiche",
+              "headword": "学骑车",
+              "reading": "xué qíchē",
+              "meaningVn": "học đi xe đạp",
+              "example": "周末爸爸教她学骑车。",
+              "exampleVn": "Cuối tuần bố dạy cô bé học đi xe đạp."
+            },
+            {
+              "id": "zh-topic-kidsbike-shuaidaocashang",
+              "headword": "摔倒擦伤",
+              "reading": "shuāidǎo cāshāng",
+              "meaningVn": "ngã trầy xước",
+              "example": "练习时难免会摔倒擦伤。",
+              "exampleVn": "Lúc luyện tập khó tránh khỏi ngã trầy xước."
+            },
+            {
+              "id": "zh-topic-kidsbike-zhangwopinghenggan",
+              "headword": "掌握平衡感",
+              "reading": "zhǎngwò pínghénggǎn",
+              "meaningVn": "nắm được cảm giác thăng bằng",
+              "example": "骑平衡车能更快掌握平衡感。",
+              "exampleVn": "Đi xe thăng bằng có thể nắm được cảm giác thăng bằng nhanh hơn."
+            },
+            {
+              "id": "zh-topic-kidsbike-fuchepeipao",
+              "headword": "扶车陪跑",
+              "reading": "fúchē péipǎo",
+              "meaningVn": "đỡ xe chạy theo cùng",
+              "example": "爸爸扶车陪跑了整整一个下午。",
+              "exampleVn": "Bố đỡ xe chạy theo cùng suốt cả một buổi chiều."
+            },
+            {
+              "id": "zh-topic-kidsbike-chaifuzhulunshiji",
+              "headword": "拆辅助轮时机",
+              "reading": "chāi fǔzhùlún shíjī",
+              "meaningVn": "thời điểm tháo bánh phụ",
+              "example": "什么时候是拆辅助轮时机很关键。",
+              "exampleVn": "Thời điểm nào tháo bánh phụ rất quan trọng."
+            }
+          ]
+        },
+        {
+          "id": "gear-safety",
+          "titleNative": "装备与安全",
+          "titleVn": "Trang bị & an toàn",
+          "words": [
+            {
+              "id": "zh-topic-kidsbike-ertongqixingtoukui",
+              "headword": "儿童骑行头盔",
+              "reading": "értóng qíxíng tóukuī",
+              "meaningVn": "mũ bảo hiểm xe đạp trẻ em",
+              "example": "出门必须戴儿童骑行头盔。",
+              "exampleVn": "Ra ngoài bắt buộc phải đội mũ bảo hiểm xe đạp trẻ em."
+            },
+            {
+              "id": "zh-topic-kidsbike-huwanhuxi",
+              "headword": "护腕护膝",
+              "reading": "hùwàn hùxī",
+              "meaningVn": "bảo vệ cổ tay và đầu gối",
+              "example": "练习时戴上护腕护膝更安全。",
+              "exampleVn": "Lúc luyện tập đeo bảo vệ cổ tay và đầu gối sẽ an toàn hơn."
+            },
+            {
+              "id": "zh-topic-kidsbike-fanguangtiao",
+              "headword": "反光条",
+              "reading": "fǎnguāngtiáo",
+              "meaningVn": "dải phản quang",
+              "example": "车身贴了反光条,晚上更安全。",
+              "exampleVn": "Thân xe dán dải phản quang, buổi tối an toàn hơn."
+            },
+            {
+              "id": "zh-topic-kidsbike-chelingchedeng",
+              "headword": "车铃车灯",
+              "reading": "chēlíng chēdēng",
+              "meaningVn": "chuông đèn xe",
+              "example": "她给孩子的车装了车铃车灯。",
+              "exampleVn": "Cô ấy lắp chuông đèn xe cho xe của con."
+            },
+            {
+              "id": "zh-topic-kidsbike-gongyuanlianxichangdi",
+              "headword": "公园练习场地",
+              "reading": "gōngyuán liànxí chǎngdì",
+              "meaningVn": "khu vực luyện tập trong công viên",
+              "example": "公园练习场地宽敞又安全。",
+              "exampleVn": "Khu vực luyện tập trong công viên vừa rộng rãi vừa an toàn."
+            }
+          ]
+        },
+        {
+          "id": "family-activities",
+          "titleNative": "亲子活动",
+          "titleVn": "Hoạt động gia đình",
+          "words": [
+            {
+              "id": "zh-topic-kidsbike-jiatingqixingri",
+              "headword": "家庭骑行日",
+              "reading": "jiātíng qíxíngrì",
+              "meaningVn": "ngày đạp xe cùng gia đình",
+              "example": "周日是他们家固定的家庭骑行日。",
+              "exampleVn": "Chủ nhật là ngày đạp xe cùng gia đình cố định của nhà họ."
+            },
+            {
+              "id": "zh-topic-kidsbike-pinghengchebisai",
+              "headword": "平衡车比赛",
+              "reading": "pínghéngchē bǐsài",
+              "meaningVn": "cuộc thi xe thăng bằng",
+              "example": "小区举办了一场平衡车比赛。",
+              "exampleVn": "Khu dân cư tổ chức một cuộc thi xe thăng bằng."
+            },
+            {
+              "id": "zh-topic-kidsbike-shequqixingshequn",
+              "headword": "社区骑行社群",
+              "reading": "shèqū qíxíng shèqún",
+              "meaningVn": "cộng đồng đạp xe khu dân cư",
+              "example": "她加入了社区骑行社群认识了不少朋友。",
+              "exampleVn": "Cô ấy gia nhập cộng đồng đạp xe khu dân cư và quen được nhiều bạn."
+            },
+            {
+              "id": "zh-topic-kidsbike-qixingluxianguihua",
+              "headword": "骑行路线规划",
+              "reading": "qíxíng lùxiàn guīhuà",
+              "meaningVn": "lên kế hoạch tuyến đường đạp xe",
+              "example": "出发前她做好了骑行路线规划。",
+              "exampleVn": "Trước khi xuất phát cô ấy đã lên kế hoạch tuyến đường đạp xe."
+            },
+            {
+              "id": "zh-topic-kidsbike-chengjiuganjili",
+              "headword": "成就感激励",
+              "reading": "chéngjiùgǎn jīlì",
+              "meaningVn": "khích lệ bằng cảm giác thành tựu",
+              "example": "学会骑车带来的成就感激励着孩子。",
+              "exampleVn": "Cảm giác thành tựu khi học được đi xe đạp khích lệ đứa trẻ."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-topic-home-laundry-drying",
+      "language": "zh",
+      "titleNative": "家庭洗衣与干衣方式",
+      "titleVn": "Giặt giũ & phơi sấy đồ trong gia đình",
+      "branches": [
+        {
+          "id": "washing-equipment",
+          "titleNative": "洗衣设备",
+          "titleVn": "Thiết bị giặt",
+          "words": [
+            {
+              "id": "zh-topic-laundry-guntongxiyiji",
+              "headword": "滚筒洗衣机",
+              "reading": "gǔntǒng xǐyījī",
+              "meaningVn": "máy giặt cửa trước",
+              "example": "滚筒洗衣机洗得更干净,也更省水。",
+              "exampleVn": "Máy giặt cửa trước giặt sạch hơn, cũng tiết kiệm nước hơn."
+            },
+            {
+              "id": "zh-topic-laundry-bolunxiyiji",
+              "headword": "波轮洗衣机",
+              "reading": "bōlún xǐyījī",
+              "meaningVn": "máy giặt cửa trên",
+              "example": "老一辈更习惯用波轮洗衣机。",
+              "exampleVn": "Thế hệ trước quen dùng máy giặt cửa trên hơn."
+            },
+            {
+              "id": "zh-topic-laundry-xihongyitiji",
+              "headword": "洗烘一体机",
+              "reading": "xǐhōng yìtǐjī",
+              "meaningVn": "máy giặt kết hợp sấy",
+              "example": "小户型很适合装洗烘一体机。",
+              "exampleVn": "Căn hộ diện tích nhỏ rất thích hợp lắp máy giặt kết hợp sấy."
+            },
+            {
+              "id": "zh-topic-laundry-minixiyiji",
+              "headword": "迷你洗衣机",
+              "reading": "mínǐ xǐyījī",
+              "meaningVn": "máy giặt mini",
+              "example": "单身公寓放了一台迷你洗衣机。",
+              "exampleVn": "Căn hộ độc thân đặt một chiếc máy giặt mini."
+            },
+            {
+              "id": "zh-topic-laundry-chujungongneng",
+              "headword": "除菌功能",
+              "reading": "chújūn gōngnéng",
+              "meaningVn": "chức năng diệt khuẩn",
+              "example": "这款洗衣机有除菌功能。",
+              "exampleVn": "Chiếc máy giặt này có chức năng diệt khuẩn."
+            }
+          ]
+        },
+        {
+          "id": "drying-methods",
+          "titleNative": "干衣方式",
+          "titleVn": "Cách làm khô đồ",
+          "words": [
+            {
+              "id": "zh-topic-laundry-hongganji",
+              "headword": "烘干机",
+              "reading": "hōnggānjī",
+              "meaningVn": "máy sấy quần áo",
+              "example": "下雨天全靠烘干机救急。",
+              "exampleVn": "Ngày mưa toàn dựa vào máy sấy để cứu nguy."
+            },
+            {
+              "id": "zh-topic-laundry-ziranliangshai",
+              "headword": "自然晾晒",
+              "reading": "zìrán liàngshài",
+              "meaningVn": "phơi tự nhiên",
+              "example": "阳光好的时候还是喜欢自然晾晒。",
+              "exampleVn": "Lúc trời nắng đẹp vẫn thích phơi tự nhiên hơn."
+            },
+            {
+              "id": "zh-topic-laundry-chushilianggan",
+              "headword": "除湿晾干",
+              "reading": "chúshī liànggān",
+              "meaningVn": "làm khô bằng máy hút ẩm",
+              "example": "梅雨季只能靠除湿晾干。",
+              "exampleVn": "Mùa mưa dầm chỉ có thể dựa vào làm khô bằng máy hút ẩm."
+            },
+            {
+              "id": "zh-topic-laundry-yangtailiangyijia",
+              "headword": "阳台晾衣架",
+              "reading": "yángtái liàngyījià",
+              "meaningVn": "giá phơi đồ ban công",
+              "example": "阳台晾衣架挂满了衣服。",
+              "exampleVn": "Giá phơi đồ ban công treo đầy quần áo."
+            },
+            {
+              "id": "zh-topic-laundry-meiyujichaoshi",
+              "headword": "梅雨季潮湿",
+              "reading": "méiyǔjì cháoshī",
+              "meaningVn": "độ ẩm cao mùa mưa dầm",
+              "example": "梅雨季潮湿,衣服总也干不了。",
+              "exampleVn": "Độ ẩm cao mùa mưa dầm, quần áo mãi không khô được."
+            }
+          ]
+        },
+        {
+          "id": "laundry-products",
+          "titleNative": "洗涤用品",
+          "titleVn": "Sản phẩm giặt tẩy",
+          "words": [
+            {
+              "id": "zh-topic-laundry-xiyiningzhu",
+              "headword": "洗衣凝珠",
+              "reading": "xǐyī níngzhū",
+              "meaningVn": "viên nang giặt",
+              "example": "她换成了更方便的洗衣凝珠。",
+              "exampleVn": "Cô ấy đổi sang dùng viên nang giặt tiện hơn."
+            },
+            {
+              "id": "zh-topic-laundry-xiyiye",
+              "headword": "洗衣液",
+              "reading": "xǐyīyè",
+              "meaningVn": "nước giặt",
+              "example": "这瓶洗衣液是无香型的。",
+              "exampleVn": "Chai nước giặt này là loại không mùi thơm."
+            },
+            {
+              "id": "zh-topic-laundry-roushunji",
+              "headword": "柔顺剂",
+              "reading": "róushùnjì",
+              "meaningVn": "nước xả vải",
+              "example": "加一点柔顺剂衣服会更柔软。",
+              "exampleVn": "Thêm một chút nước xả vải quần áo sẽ mềm mại hơn."
+            },
+            {
+              "id": "zh-topic-laundry-xiaoduye",
+              "headword": "消毒液",
+              "reading": "xiāodúyè",
+              "meaningVn": "dung dịch sát khuẩn",
+              "example": "内衣内裤最好加消毒液清洗。",
+              "exampleVn": "Đồ lót tốt nhất nên thêm dung dịch sát khuẩn để giặt."
+            },
+            {
+              "id": "zh-topic-laundry-quziji",
+              "headword": "去渍剂",
+              "reading": "qùzìjì",
+              "meaningVn": "chất tẩy vết bẩn",
+              "example": "孩子衣服上的污渍用去渍剂就好了。",
+              "exampleVn": "Vết bẩn trên quần áo của con dùng chất tẩy vết bẩn là được."
+            }
+          ]
+        },
+        {
+          "id": "laundry-habits",
+          "titleNative": "洗衣习惯",
+          "titleVn": "Thói quen giặt giũ",
+          "words": [
+            {
+              "id": "zh-topic-laundry-fenleixidi",
+              "headword": "分类洗涤",
+              "reading": "fēnlèi xǐdí",
+              "meaningVn": "giặt phân loại",
+              "example": "深色浅色要分类洗涤。",
+              "exampleVn": "Màu đậm màu nhạt phải giặt phân loại."
+            },
+            {
+              "id": "zh-topic-laundry-tieshenyiwudanduxi",
+              "headword": "贴身衣物单独洗",
+              "reading": "tiēshēn yīwù dāndú xǐ",
+              "meaningVn": "giặt riêng đồ lót",
+              "example": "她坚持贴身衣物单独洗。",
+              "exampleVn": "Cô ấy kiên trì giặt riêng đồ lót."
+            },
+            {
+              "id": "zh-topic-laundry-xiyijichugoubaoyang",
+              "headword": "洗衣机除垢保养",
+              "reading": "xǐyījī chúgòu bǎoyǎng",
+              "meaningVn": "vệ sinh tẩy cặn bảo dưỡng máy giặt",
+              "example": "定期做洗衣机除垢保养很重要。",
+              "exampleVn": "Định kỳ vệ sinh tẩy cặn bảo dưỡng máy giặt rất quan trọng."
+            },
+            {
+              "id": "zh-topic-laundry-yiwusuoshui",
+              "headword": "衣物缩水",
+              "reading": "yīwù suōshuǐ",
+              "meaningVn": "quần áo bị co rút",
+              "example": "热水洗容易导致衣物缩水。",
+              "exampleVn": "Giặt nước nóng dễ khiến quần áo bị co rút."
+            },
+            {
+              "id": "zh-topic-laundry-yiweicanliu",
+              "headword": "异味残留",
+              "reading": "yìwèi cánliú",
+              "meaningVn": "mùi hôi còn sót lại",
+              "example": "没及时晾干会有异味残留。",
+              "exampleVn": "Không kịp phơi khô sẽ có mùi hôi còn sót lại."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-topic-elderly-denture-restoration",
+      "language": "zh",
+      "titleNative": "老年义齿修复与镶牙",
+      "titleVn": "Phục hình răng giả cho người già",
+      "branches": [
+        {
+          "id": "tooth-loss-issues",
+          "titleNative": "缺牙问题",
+          "titleVn": "Vấn đề mất răng",
+          "words": [
+            {
+              "id": "zh-topic-elderdenture-yachiqueshi",
+              "headword": "牙齿缺失",
+              "reading": "yáchǐ quēshī",
+              "meaningVn": "mất răng",
+              "example": "老人牙齿缺失后吃饭都困难。",
+              "exampleVn": "Người già mất răng rồi ăn cơm cũng khó khăn."
+            },
+            {
+              "id": "zh-topic-elderdenture-jujuegongnengxiajiang",
+              "headword": "咀嚼功能下降",
+              "reading": "jǔjué gōngnéng xiàjiàng",
+              "meaningVn": "chức năng nhai suy giảm",
+              "example": "咀嚼功能下降影响了营养吸收。",
+              "exampleVn": "Chức năng nhai suy giảm ảnh hưởng đến hấp thu dinh dưỡng."
+            },
+            {
+              "id": "zh-topic-elderdenture-yayinweisuo",
+              "headword": "牙龈萎缩",
+              "reading": "yáyín wěisuō",
+              "meaningVn": "tụt lợi",
+              "example": "年纪大了牙龈萎缩很常见。",
+              "exampleVn": "Tuổi cao rồi tụt lợi là chuyện thường gặp."
+            },
+            {
+              "id": "zh-topic-elderdenture-mianbutaxian",
+              "headword": "面部塌陷",
+              "reading": "miànbù tāxiàn",
+              "meaningVn": "khuôn mặt bị hóp lại",
+              "example": "缺牙太久会导致面部塌陷。",
+              "exampleVn": "Mất răng quá lâu sẽ khiến khuôn mặt bị hóp lại."
+            },
+            {
+              "id": "zh-topic-elderdenture-fayinhanhu",
+              "headword": "发音含糊",
+              "reading": "fāyīn hánhu",
+              "meaningVn": "phát âm không rõ",
+              "example": "缺了门牙说话发音含糊。",
+              "exampleVn": "Mất răng cửa nói chuyện phát âm không rõ."
+            }
+          ]
+        },
+        {
+          "id": "denture-types",
+          "titleNative": "义齿类型",
+          "titleVn": "Các loại răng giả",
+          "words": [
+            {
+              "id": "zh-topic-elderdenture-huodongyichi",
+              "headword": "活动义齿",
+              "reading": "huódòng yìchǐ",
+              "meaningVn": "răng giả tháo lắp",
+              "example": "老人选择了价格实惠的活动义齿。",
+              "exampleVn": "Cụ chọn răng giả tháo lắp giá cả phải chăng."
+            },
+            {
+              "id": "zh-topic-elderdenture-gudingyichi",
+              "headword": "固定义齿",
+              "reading": "gùdìng yìchǐ",
+              "meaningVn": "răng giả cố định",
+              "example": "固定义齿使用起来更方便。",
+              "exampleVn": "Răng giả cố định dùng tiện hơn."
+            },
+            {
+              "id": "zh-topic-elderdenture-dankezhongzhiya",
+              "headword": "单颗种植牙",
+              "reading": "dānkē zhòngzhíyá",
+              "meaningVn": "cấy ghép implant một răng đơn lẻ",
+              "example": "她做了一颗单颗种植牙。",
+              "exampleVn": "Cô ấy làm một chiếc implant một răng đơn lẻ."
+            },
+            {
+              "id": "zh-topic-elderdenture-quankouyichi",
+              "headword": "全口义齿",
+              "reading": "quánkǒu yìchǐ",
+              "meaningVn": "hàm giả toàn phần",
+              "example": "牙齿全掉了只能做全口义齿。",
+              "exampleVn": "Răng rụng hết rồi chỉ có thể làm hàm giả toàn phần."
+            },
+            {
+              "id": "zh-topic-elderdenture-quanciyaguan",
+              "headword": "全瓷牙冠",
+              "reading": "quáncí yáguān",
+              "meaningVn": "mão răng toàn sứ",
+              "example": "这颗牙套了全瓷牙冠。",
+              "exampleVn": "Chiếc răng này bọc mão răng toàn sứ."
+            }
+          ]
+        },
+        {
+          "id": "treatment-process",
+          "titleNative": "治疗过程",
+          "titleVn": "Quá trình điều trị",
+          "words": [
+            {
+              "id": "zh-topic-elderdenture-kouqiangjianchapinggu",
+              "headword": "口腔检查评估",
+              "reading": "kǒuqiāng jiǎnchá pínggū",
+              "meaningVn": "khám và đánh giá răng miệng",
+              "example": "治疗前先做口腔检查评估。",
+              "exampleVn": "Trước khi điều trị làm khám và đánh giá răng miệng trước."
+            },
+            {
+              "id": "zh-topic-elderdenture-qumo",
+              "headword": "取模",
+              "reading": "qǔmó",
+              "meaningVn": "lấy dấu răng",
+              "example": "医生给她取模做假牙。",
+              "exampleVn": "Bác sĩ lấy dấu răng cho bà để làm răng giả."
+            },
+            {
+              "id": "zh-topic-elderdenture-shidaitiaozheng",
+              "headword": "试戴调整",
+              "reading": "shìdài tiáozhěng",
+              "meaningVn": "đeo thử và điều chỉnh",
+              "example": "做好后还要试戴调整几次。",
+              "exampleVn": "Làm xong còn phải đeo thử và điều chỉnh mấy lần."
+            },
+            {
+              "id": "zh-topic-elderdenture-zhongzhitiyuheqi",
+              "headword": "种植体愈合期",
+              "reading": "zhòngzhítǐ yùhéqī",
+              "meaningVn": "giai đoạn lành thương của trụ implant",
+              "example": "种植体愈合期一般要三个月。",
+              "exampleVn": "Giai đoạn lành thương của trụ implant thường mất ba tháng."
+            },
+            {
+              "id": "zh-topic-elderdenture-fuzhentiaomo",
+              "headword": "复诊调磨",
+              "reading": "fùzhěn tiáomó",
+              "meaningVn": "tái khám để mài chỉnh",
+              "example": "戴上不舒服要复诊调磨。",
+              "exampleVn": "Đeo vào không thoải mái phải tái khám để mài chỉnh."
+            }
+          ]
+        },
+        {
+          "id": "cost-adaptation",
+          "titleNative": "费用与适应",
+          "titleVn": "Chi phí & thích nghi",
+          "words": [
+            {
+              "id": "zh-topic-elderdenture-xiangyafeiyong",
+              "headword": "镶牙费用",
+              "reading": "xiāngyá fèiyòng",
+              "meaningVn": "chi phí làm răng giả",
+              "example": "镶牙费用因材质不同差别很大。",
+              "exampleVn": "Chi phí làm răng giả chênh lệch rất nhiều tùy chất liệu."
+            },
+            {
+              "id": "zh-topic-elderdenture-yiliaofenqidaikuan",
+              "headword": "医疗分期贷款",
+              "reading": "yīliáo fēnqī dàikuǎn",
+              "meaningVn": "vay trả góp y tế",
+              "example": "费用太高,她办了医疗分期贷款。",
+              "exampleVn": "Chi phí quá cao, bà làm thủ tục vay trả góp y tế."
+            },
+            {
+              "id": "zh-topic-elderdenture-shiyingqibushi",
+              "headword": "适应期不适",
+              "reading": "shìyìngqī bùshì",
+              "meaningVn": "khó chịu trong giai đoạn thích nghi",
+              "example": "刚戴假牙都会有适应期不适。",
+              "exampleVn": "Vừa đeo răng giả đều sẽ có khó chịu trong giai đoạn thích nghi."
+            },
+            {
+              "id": "zh-topic-elderdenture-richangqingjiehuli",
+              "headword": "日常清洁护理",
+              "reading": "rìcháng qīngjié hùlǐ",
+              "meaningVn": "vệ sinh chăm sóc hằng ngày",
+              "example": "假牙的日常清洁护理很重要。",
+              "exampleVn": "Vệ sinh chăm sóc hằng ngày cho răng giả rất quan trọng."
+            },
+            {
+              "id": "zh-topic-elderdenture-dingqifuchagenghuan",
+              "headword": "定期复查更换",
+              "reading": "dìngqī fùchá gēnghuàn",
+              "meaningVn": "tái khám định kỳ và thay mới",
+              "example": "活动义齿需要定期复查更换。",
+              "exampleVn": "Răng giả tháo lắp cần tái khám định kỳ và thay mới."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-topic-outdoor-fitness-equipment-elderly",
+      "language": "zh",
+      "titleNative": "老年广场健身器材与户外健身角",
+      "titleVn": "Dụng cụ thể dục ngoài trời cho người già",
+      "branches": [
+        {
+          "id": "common-equipment",
+          "titleNative": "常见器材",
+          "titleVn": "Thiết bị thường thấy",
+          "words": [
+            {
+              "id": "zh-topic-outdoorgym-manbuji",
+              "headword": "漫步机",
+              "reading": "mànbùjī",
+              "meaningVn": "máy đi bộ ngoài trời",
+              "example": "早晨很多老人在用漫步机。",
+              "exampleVn": "Buổi sáng nhiều người già đang dùng máy đi bộ ngoài trời."
+            },
+            {
+              "id": "zh-topic-outdoorgym-jianqiji",
+              "headword": "健骑机",
+              "reading": "jiànqíjī",
+              "meaningVn": "máy đạp xe ngoài trời",
+              "example": "健骑机能锻炼腿部力量。",
+              "exampleVn": "Máy đạp xe ngoài trời có thể rèn luyện sức mạnh chân."
+            },
+            {
+              "id": "zh-topic-outdoorgym-taikongmanbuqi",
+              "headword": "太空漫步器",
+              "reading": "tàikōng mànbùqì",
+              "meaningVn": "máy đi bộ trên không",
+              "example": "太空漫步器排队的人最多。",
+              "exampleVn": "Máy đi bộ trên không có nhiều người xếp hàng nhất."
+            },
+            {
+              "id": "zh-topic-outdoorgym-niuyaoqi",
+              "headword": "扭腰器",
+              "reading": "niǔyāoqì",
+              "meaningVn": "máy xoay eo",
+              "example": "她每天都要用扭腰器活动一下。",
+              "exampleVn": "Bà mỗi ngày đều dùng máy xoay eo để vận động một chút."
+            },
+            {
+              "id": "zh-topic-outdoorgym-dangangshuanggang",
+              "headword": "单杠双杠",
+              "reading": "dāngàng shuānggàng",
+              "meaningVn": "xà đơn xà kép",
+              "example": "年轻人更爱用单杠双杠锻炼。",
+              "exampleVn": "Người trẻ thích dùng xà đơn xà kép để tập luyện hơn."
+            }
+          ]
+        },
+        {
+          "id": "usage-scenes",
+          "titleNative": "使用场景",
+          "titleVn": "Bối cảnh sử dụng",
+          "words": [
+            {
+              "id": "zh-topic-outdoorgym-shequjianshenjiao",
+              "headword": "社区健身角",
+              "reading": "shèqū jiànshēnjiǎo",
+              "meaningVn": "góc thể dục khu dân cư",
+              "example": "社区健身角每天早晚都很热闹。",
+              "exampleVn": "Góc thể dục khu dân cư sáng tối nào cũng nhộn nhịp."
+            },
+            {
+              "id": "zh-topic-outdoorgym-chenlian",
+              "headword": "晨练",
+              "reading": "chénliàn",
+              "meaningVn": "tập thể dục buổi sáng",
+              "example": "爷爷坚持晨练已经十年了。",
+              "exampleVn": "Ông nội kiên trì tập thể dục buổi sáng đã mười năm rồi."
+            },
+            {
+              "id": "zh-topic-outdoorgym-paiduidenghouqixie",
+              "headword": "排队等候器械",
+              "reading": "páiduì děnghòu qìxiè",
+              "meaningVn": "xếp hàng chờ dùng dụng cụ",
+              "example": "热门器材总要排队等候器械。",
+              "exampleVn": "Dụng cụ hot lúc nào cũng phải xếp hàng chờ."
+            },
+            {
+              "id": "zh-topic-outdoorgym-qicaishiyongshuoming",
+              "headword": "器材使用说明",
+              "reading": "qìcái shǐyòng shuōmíng",
+              "meaningVn": "hướng dẫn sử dụng thiết bị",
+              "example": "第一次用要看清器材使用说明。",
+              "exampleVn": "Lần đầu dùng phải xem kỹ hướng dẫn sử dụng thiết bị."
+            },
+            {
+              "id": "zh-topic-outdoorgym-ertongwuyongfengxian",
+              "headword": "儿童误用风险",
+              "reading": "értóng wùyòng fēngxiǎn",
+              "meaningVn": "nguy cơ trẻ em dùng sai cách",
+              "example": "这类器材有儿童误用风险。",
+              "exampleVn": "Loại thiết bị này có nguy cơ trẻ em dùng sai cách."
+            }
+          ]
+        },
+        {
+          "id": "maintenance-management",
+          "titleNative": "维护管理",
+          "titleVn": "Bảo trì quản lý",
+          "words": [
+            {
+              "id": "zh-topic-outdoorgym-qicailaohua",
+              "headword": "器材老化",
+              "reading": "qìcái lǎohuà",
+              "meaningVn": "thiết bị xuống cấp",
+              "example": "这套器材老化得比较严重了。",
+              "exampleVn": "Bộ thiết bị này xuống cấp khá nghiêm trọng rồi."
+            },
+            {
+              "id": "zh-topic-outdoorgym-dingqijianxiu",
+              "headword": "定期检修",
+              "reading": "dìngqī jiǎnxiū",
+              "meaningVn": "kiểm tra sửa chữa định kỳ",
+              "example": "物业每季度都做定期检修。",
+              "exampleVn": "Ban quản lý mỗi quý đều làm kiểm tra sửa chữa định kỳ."
+            },
+            {
+              "id": "zh-topic-outdoorgym-sunhuaibaoxiu",
+              "headword": "损坏报修",
+              "reading": "sǔnhuài bàoxiū",
+              "meaningVn": "báo hỏng để sửa",
+              "example": "发现器材损坏要及时损坏报修。",
+              "exampleVn": "Phát hiện thiết bị hỏng phải kịp thời báo hỏng để sửa."
+            },
+            {
+              "id": "zh-topic-outdoorgym-anquanjingshipai",
+              "headword": "安全警示牌",
+              "reading": "ānquán jǐngshìpái",
+              "meaningVn": "biển cảnh báo an toàn",
+              "example": "器材旁立着安全警示牌。",
+              "exampleVn": "Bên cạnh thiết bị cắm biển cảnh báo an toàn."
+            },
+            {
+              "id": "zh-topic-outdoorgym-wuyeweihuzeren",
+              "headword": "物业维护责任",
+              "reading": "wùyè wéihù zérèn",
+              "meaningVn": "trách nhiệm bảo trì của ban quản lý",
+              "example": "器材维护属于物业维护责任范围。",
+              "exampleVn": "Bảo trì thiết bị thuộc phạm vi trách nhiệm bảo trì của ban quản lý."
+            }
+          ]
+        },
+        {
+          "id": "fitness-benefits",
+          "titleNative": "健身效果",
+          "titleVn": "Hiệu quả tập luyện",
+          "words": [
+            {
+              "id": "zh-topic-outdoorgym-guanjiehuodongdu",
+              "headword": "关节活动度",
+              "reading": "guānjié huódòngdù",
+              "meaningVn": "độ linh hoạt của khớp",
+              "example": "适当运动能改善关节活动度。",
+              "exampleVn": "Vận động vừa phải có thể cải thiện độ linh hoạt của khớp."
+            },
+            {
+              "id": "zh-topic-outdoorgym-youyangduanlian",
+              "headword": "有氧锻炼",
+              "reading": "yǒuyǎng duànliàn",
+              "meaningVn": "tập luyện hiếu khí",
+              "example": "漫步机属于温和的有氧锻炼。",
+              "exampleVn": "Máy đi bộ ngoài trời thuộc dạng tập luyện hiếu khí nhẹ nhàng."
+            },
+            {
+              "id": "zh-topic-outdoorgym-shejiaojianshenjiehe",
+              "headword": "社交健身结合",
+              "reading": "shèjiāo jiànshēn jiéhé",
+              "meaningVn": "kết hợp giao lưu xã hội với tập luyện",
+              "example": "广场健身也是一种社交健身结合。",
+              "exampleVn": "Tập thể dục ngoài quảng trường cũng là một cách kết hợp giao lưu xã hội với tập luyện."
+            },
+            {
+              "id": "zh-topic-outdoorgym-shiduduanlianyuanze",
+              "headword": "适度锻炼原则",
+              "reading": "shìdù duànliàn yuánzé",
+              "meaningVn": "nguyên tắc tập luyện vừa phải",
+              "example": "医生强调要遵守适度锻炼原则。",
+              "exampleVn": "Bác sĩ nhấn mạnh phải tuân thủ nguyên tắc tập luyện vừa phải."
+            },
+            {
+              "id": "zh-topic-outdoorgym-yundongsunshangyufang",
+              "headword": "运动损伤预防",
+              "reading": "yùndòng sǔnshāng yùfáng",
+              "meaningVn": "phòng ngừa chấn thương khi vận động",
+              "example": "热身能帮助运动损伤预防。",
+              "exampleVn": "Khởi động có thể giúp phòng ngừa chấn thương khi vận động."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-topic-community-free-clinic-mobile-checkup",
+      "language": "zh",
+      "titleNative": "社区义诊与流动体检车",
+      "titleVn": "Khám bệnh miễn phí cộng đồng & xe khám sức khỏe lưu động",
+      "branches": [
+        {
+          "id": "free-clinic-activities",
+          "titleNative": "义诊活动",
+          "titleVn": "Hoạt động khám miễn phí",
+          "words": [
+            {
+              "id": "zh-topic-freeclinic-yizhenhuodong",
+              "headword": "义诊活动",
+              "reading": "yìzhěn huódòng",
+              "meaningVn": "hoạt động khám bệnh miễn phí",
+              "example": "社区周末组织了义诊活动。",
+              "exampleVn": "Khu dân cư cuối tuần tổ chức hoạt động khám bệnh miễn phí."
+            },
+            {
+              "id": "zh-topic-freeclinic-zhuanjiazuozhen",
+              "headword": "专家坐诊",
+              "reading": "zhuānjiā zuòzhěn",
+              "meaningVn": "chuyên gia ngồi khám trực tiếp",
+              "example": "这次活动请了三甲医院专家坐诊。",
+              "exampleVn": "Hoạt động lần này mời chuyên gia bệnh viện tuyến trên đến ngồi khám trực tiếp."
+            },
+            {
+              "id": "zh-topic-freeclinic-mianfeicexueya",
+              "headword": "免费测血压",
+              "reading": "miǎnfèi cè xuèyā",
+              "meaningVn": "đo huyết áp miễn phí",
+              "example": "老人排队等着免费测血压。",
+              "exampleVn": "Người già xếp hàng chờ đo huyết áp miễn phí."
+            },
+            {
+              "id": "zh-topic-freeclinic-jiankangzixuntai",
+              "headword": "健康咨询台",
+              "reading": "jiànkāng zīxúntái",
+              "meaningVn": "quầy tư vấn sức khỏe",
+              "example": "健康咨询台前围了不少居民。",
+              "exampleVn": "Trước quầy tư vấn sức khỏe vây quanh không ít cư dân."
+            },
+            {
+              "id": "zh-topic-freeclinic-yizhenpaidui",
+              "headword": "义诊排队",
+              "reading": "yìzhěn páiduì",
+              "meaningVn": "xếp hàng khám miễn phí",
+              "example": "一大早就有人来义诊排队。",
+              "exampleVn": "Từ sáng sớm đã có người đến xếp hàng khám miễn phí."
+            }
+          ]
+        },
+        {
+          "id": "mobile-checkup",
+          "titleNative": "流动体检",
+          "titleVn": "Khám sức khỏe lưu động",
+          "words": [
+            {
+              "id": "zh-topic-freeclinic-liudongtijianche",
+              "headword": "流动体检车",
+              "reading": "liúdòng tǐjiǎnchē",
+              "meaningVn": "xe khám sức khỏe lưu động",
+              "example": "流动体检车开进了偏远山村。",
+              "exampleVn": "Xe khám sức khỏe lưu động đã chạy vào tận thôn núi xa xôi."
+            },
+            {
+              "id": "zh-topic-freeclinic-chezaichaoshengjianchashebei",
+              "headword": "车载超声检查设备",
+              "reading": "chēzài chāoshēng jiǎnchá shèbèi",
+              "meaningVn": "thiết bị siêu âm lưu động trên xe",
+              "example": "车载超声检查设备能现场出结果。",
+              "exampleVn": "Thiết bị siêu âm lưu động trên xe có thể cho kết quả ngay tại chỗ."
+            },
+            {
+              "id": "zh-topic-freeclinic-xuechangguijiance",
+              "headword": "血常规检测",
+              "reading": "xuèchángguī jiǎncè",
+              "meaningVn": "xét nghiệm máu thường quy",
+              "example": "抽完血做血常规检测。",
+              "exampleVn": "Lấy máu xong làm xét nghiệm máu thường quy."
+            },
+            {
+              "id": "zh-topic-freeclinic-xiaxiangxunhuiyiliao",
+              "headword": "下乡巡回医疗",
+              "reading": "xiàxiāng xúnhuí yīliáo",
+              "meaningVn": "y tế lưu động về nông thôn",
+              "example": "医疗队每年都会下乡巡回医疗。",
+              "exampleVn": "Đội y tế mỗi năm đều về nông thôn làm y tế lưu động."
+            },
+            {
+              "id": "zh-topic-freeclinic-tijianbaogaojiedu",
+              "headword": "体检报告解读",
+              "reading": "tǐjiǎn bàogào jiědú",
+              "meaningVn": "giải thích kết quả khám sức khỏe",
+              "example": "医生现场做体检报告解读。",
+              "exampleVn": "Bác sĩ giải thích kết quả khám sức khỏe ngay tại chỗ."
+            }
+          ]
+        },
+        {
+          "id": "screening-items",
+          "titleNative": "筛查项目",
+          "titleVn": "Các hạng mục sàng lọc",
+          "words": [
+            {
+              "id": "zh-topic-freeclinic-manbingshaicha",
+              "headword": "慢病筛查",
+              "reading": "mànbìng shāichá",
+              "meaningVn": "sàng lọc bệnh mãn tính",
+              "example": "义诊重点做了慢病筛查。",
+              "exampleVn": "Khám miễn phí chú trọng làm sàng lọc bệnh mãn tính."
+            },
+            {
+              "id": "zh-topic-freeclinic-tangniaobingchushai",
+              "headword": "糖尿病初筛",
+              "reading": "tángniàobìng chūshāi",
+              "meaningVn": "sàng lọc sơ bộ tiểu đường",
+              "example": "糖尿病初筛只要扎一下手指。",
+              "exampleVn": "Sàng lọc sơ bộ tiểu đường chỉ cần chích một cái ở ngón tay."
+            },
+            {
+              "id": "zh-topic-freeclinic-zhongliubiaozhiwujiance",
+              "headword": "肿瘤标志物检测",
+              "reading": "zhǒngliú biāozhìwù jiǎncè",
+              "meaningVn": "xét nghiệm dấu ấn ung thư",
+              "example": "这次义诊还免费做了肿瘤标志物检测。",
+              "exampleVn": "Đợt khám miễn phí này còn làm miễn phí xét nghiệm dấu ấn ung thư."
+            },
+            {
+              "id": "zh-topic-freeclinic-gumidujiance",
+              "headword": "骨密度检测",
+              "reading": "gǔmìdù jiǎncè",
+              "meaningVn": "đo mật độ xương",
+              "example": "老人们排队做骨密度检测。",
+              "exampleVn": "Các cụ xếp hàng đo mật độ xương."
+            },
+            {
+              "id": "zh-topic-freeclinic-shilitinglishaicha",
+              "headword": "视力听力筛查",
+              "reading": "shìlì tīnglì shāichá",
+              "meaningVn": "sàng lọc thị lực và thính lực",
+              "example": "儿童专场还有视力听力筛查。",
+              "exampleVn": "Buổi khám dành riêng cho trẻ em còn có sàng lọc thị lực và thính lực."
+            }
+          ]
+        },
+        {
+          "id": "health-significance",
+          "titleNative": "健康意义",
+          "titleVn": "Ý nghĩa sức khỏe",
+          "words": [
+            {
+              "id": "zh-topic-freeclinic-jicengyiliaoziyuan",
+              "headword": "基层医疗资源",
+              "reading": "jīcéng yīliáo zīyuán",
+              "meaningVn": "nguồn lực y tế cơ sở",
+              "example": "义诊弥补了基层医疗资源的不足。",
+              "exampleVn": "Khám miễn phí bù đắp cho sự thiếu hụt nguồn lực y tế cơ sở."
+            },
+            {
+              "id": "zh-topic-freeclinic-zaofaxianzaozhiliao",
+              "headword": "早发现早治疗",
+              "reading": "zǎofāxiàn zǎozhìliáo",
+              "meaningVn": "phát hiện sớm, điều trị sớm",
+              "example": "筛查的意义就是早发现早治疗。",
+              "exampleVn": "Ý nghĩa của sàng lọc chính là phát hiện sớm, điều trị sớm."
+            },
+            {
+              "id": "zh-topic-freeclinic-yiliaoziyuanxiachen",
+              "headword": "医疗资源下沉",
+              "reading": "yīliáo zīyuán xiàchén",
+              "meaningVn": "đưa nguồn lực y tế về cơ sở",
+              "example": "这是医疗资源下沉的具体实践。",
+              "exampleVn": "Đây là thực tiễn cụ thể của việc đưa nguồn lực y tế về cơ sở."
+            },
+            {
+              "id": "zh-topic-freeclinic-jiankangdanganjianli",
+              "headword": "健康档案建立",
+              "reading": "jiànkāng dàng'àn jiànlì",
+              "meaningVn": "lập hồ sơ sức khỏe",
+              "example": "义诊过程中同步做健康档案建立。",
+              "exampleVn": "Trong quá trình khám miễn phí đồng thời làm lập hồ sơ sức khỏe."
+            },
+            {
+              "id": "zh-topic-freeclinic-qunzhongmanyidu",
+              "headword": "群众满意度",
+              "reading": "qúnzhòng mǎnyìdù",
+              "meaningVn": "mức độ hài lòng của người dân",
+              "example": "这类活动的群众满意度很高。",
+              "exampleVn": "Mức độ hài lòng của người dân với loại hoạt động này rất cao."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-topic-elderly-nutrition-chronic-disease-diet",
+      "language": "zh",
+      "titleNative": "老年营养餐与慢病饮食管理",
+      "titleVn": "Suất ăn dinh dưỡng & quản lý ăn uống cho người già mắc bệnh mãn tính",
+      "branches": [
+        {
+          "id": "nutrition-meal-setup",
+          "titleNative": "营养餐配置",
+          "titleVn": "Bố trí suất ăn dinh dưỡng",
+          "words": [
+            {
+              "id": "zh-topic-elderdiet-laonianyingyangcan",
+              "headword": "老年营养餐",
+              "reading": "lǎonián yíngyǎngcān",
+              "meaningVn": "suất ăn dinh dưỡng cho người già",
+              "example": "社区食堂推出了老年营养餐。",
+              "exampleVn": "Bếp ăn cộng đồng ra mắt suất ăn dinh dưỡng cho người già."
+            },
+            {
+              "id": "zh-topic-elderdiet-yingyangshipeican",
+              "headword": "营养师配餐",
+              "reading": "yíngyǎngshī pèicān",
+              "meaningVn": "chuyên viên dinh dưỡng lên thực đơn",
+              "example": "这份菜单是营养师配餐设计的。",
+              "exampleVn": "Thực đơn này do chuyên viên dinh dưỡng thiết kế."
+            },
+            {
+              "id": "zh-topic-elderdiet-ruanlanyixiaohua",
+              "headword": "软烂易消化",
+              "reading": "ruǎnlàn yì xiāohuà",
+              "meaningVn": "mềm nhừ dễ tiêu hóa",
+              "example": "老人的饭菜要做得软烂易消化。",
+              "exampleVn": "Cơm của người già phải nấu mềm nhừ dễ tiêu hóa."
+            },
+            {
+              "id": "zh-topic-elderdiet-shaoshiduocan",
+              "headword": "少食多餐",
+              "reading": "shǎoshí duōcān",
+              "meaningVn": "ăn ít bữa nhiều lần",
+              "example": "医生建议老人少食多餐。",
+              "exampleVn": "Bác sĩ khuyên người già ăn ít bữa nhiều lần."
+            },
+            {
+              "id": "zh-topic-elderdiet-yingyangdapeijunheng",
+              "headword": "营养搭配均衡",
+              "reading": "yíngyǎng dāpèi jūnhéng",
+              "meaningVn": "kết hợp dinh dưỡng cân bằng",
+              "example": "每餐都要做到营养搭配均衡。",
+              "exampleVn": "Mỗi bữa đều phải làm được kết hợp dinh dưỡng cân bằng."
+            }
+          ]
+        },
+        {
+          "id": "chronic-disease-diet",
+          "titleNative": "慢病饮食",
+          "titleVn": "Ăn uống cho bệnh mãn tính",
+          "words": [
+            {
+              "id": "zh-topic-elderdiet-diyandizhi",
+              "headword": "低盐低脂",
+              "reading": "dīyán dīzhī",
+              "meaningVn": "ít muối ít béo",
+              "example": "医生要求她饮食低盐低脂。",
+              "exampleVn": "Bác sĩ yêu cầu bà ăn uống ít muối ít béo."
+            },
+            {
+              "id": "zh-topic-elderdiet-tangniaobingshipu",
+              "headword": "糖尿病食谱",
+              "reading": "tángniàobìng shípǔ",
+              "meaningVn": "thực đơn cho người tiểu đường",
+              "example": "家里专门准备了一本糖尿病食谱。",
+              "exampleVn": "Nhà chuẩn bị riêng một cuốn thực đơn cho người tiểu đường."
+            },
+            {
+              "id": "zh-topic-elderdiet-gaoxueyayinshijinji",
+              "headword": "高血压饮食禁忌",
+              "reading": "gāoxuèyā yǐnshí jìnjì",
+              "meaningVn": "kiêng kỵ ăn uống cho người cao huyết áp",
+              "example": "腌制食品是高血压饮食禁忌之一。",
+              "exampleVn": "Đồ muối là một trong những món kiêng kỵ ăn uống cho người cao huyết áp."
+            },
+            {
+              "id": "zh-topic-elderdiet-kongzhishengtangzhishu",
+              "headword": "控制升糖指数",
+              "reading": "kòngzhì shēngtáng zhǐshù",
+              "meaningVn": "kiểm soát chỉ số đường huyết",
+              "example": "选主食要注意控制升糖指数。",
+              "exampleVn": "Chọn tinh bột phải chú ý kiểm soát chỉ số đường huyết."
+            },
+            {
+              "id": "zh-topic-elderdiet-dipiaolingyinshi",
+              "headword": "低嘌呤饮食",
+              "reading": "dīpiàolìng yǐnshí",
+              "meaningVn": "chế độ ăn ít purin",
+              "example": "痛风的老人要坚持低嘌呤饮食。",
+              "exampleVn": "Người già bị gout phải kiên trì chế độ ăn ít purin."
+            }
+          ]
+        },
+        {
+          "id": "swallowing-difficulty-care",
+          "titleNative": "咀吞困难照护",
+          "titleVn": "Chăm sóc khó nhai nuốt",
+          "words": [
+            {
+              "id": "zh-topic-elderdiet-tunyankunnan",
+              "headword": "吞咽困难",
+              "reading": "tūnyàn kùnnán",
+              "meaningVn": "khó nuốt",
+              "example": "中风后老人出现了吞咽困难。",
+              "exampleVn": "Sau đột quỵ cụ xuất hiện tình trạng khó nuốt."
+            },
+            {
+              "id": "zh-topic-elderdiet-huzhuangshiwu",
+              "headword": "糊状食物",
+              "reading": "hùzhuàng shíwù",
+              "meaningVn": "thức ăn dạng sệt",
+              "example": "医生建议改吃糊状食物。",
+              "exampleVn": "Bác sĩ khuyên đổi sang ăn thức ăn dạng sệt."
+            },
+            {
+              "id": "zh-topic-elderdiet-bisiweiyang",
+              "headword": "鼻饲喂养",
+              "reading": "bísì wèiyǎng",
+              "meaningVn": "nuôi ăn qua ống thông mũi",
+              "example": "无法进食只能鼻饲喂养。",
+              "exampleVn": "Không thể ăn được chỉ có thể nuôi ăn qua ống thông mũi."
+            },
+            {
+              "id": "zh-topic-elderdiet-qiangkefengxian",
+              "headword": "呛咳风险",
+              "reading": "qiàngké fēngxiǎn",
+              "meaningVn": "nguy cơ sặc ho",
+              "example": "吃饭太快有呛咳风险。",
+              "exampleVn": "Ăn quá nhanh có nguy cơ sặc ho."
+            },
+            {
+              "id": "zh-topic-elderdiet-jinshitiwei",
+              "headword": "进食体位",
+              "reading": "jìnshí tǐwèi",
+              "meaningVn": "tư thế khi ăn",
+              "example": "进食体位要保持坐直。",
+              "exampleVn": "Tư thế khi ăn phải giữ ngồi thẳng."
+            }
+          ]
+        },
+        {
+          "id": "home-practice",
+          "titleNative": "居家实践",
+          "titleVn": "Thực hành tại nhà",
+          "words": [
+            {
+              "id": "zh-topic-elderdiet-shicaicaigouqingdan",
+              "headword": "食材采购清单",
+              "reading": "shícái cǎigòu qīngdān",
+              "meaningVn": "danh sách nguyên liệu cần mua",
+              "example": "她按食材采购清单去买菜。",
+              "exampleVn": "Cô ấy đi mua đồ theo danh sách nguyên liệu cần mua."
+            },
+            {
+              "id": "zh-topic-elderdiet-yingyangbuliangshaicha",
+              "headword": "营养不良筛查",
+              "reading": "yíngyǎng bùliáng shāichá",
+              "meaningVn": "sàng lọc suy dinh dưỡng",
+              "example": "体检时做了营养不良筛查。",
+              "exampleVn": "Lúc khám sức khỏe làm sàng lọc suy dinh dưỡng."
+            },
+            {
+              "id": "zh-topic-elderdiet-jiashuzuofanfudan",
+              "headword": "家属做饭负担",
+              "reading": "jiāshǔ zuòfàn fùdān",
+              "meaningVn": "gánh nặng nấu ăn của người thân",
+              "example": "每天变着花样做饭是家属做饭负担。",
+              "exampleVn": "Ngày nào cũng phải đổi món nấu ăn là gánh nặng nấu ăn của người thân."
+            },
+            {
+              "id": "zh-topic-elderdiet-songcanshangmenfuwu",
+              "headword": "送餐上门服务",
+              "reading": "sòngcān shàngmén fúwù",
+              "meaningVn": "dịch vụ giao suất ăn tận nhà",
+              "example": "子女给老人订了送餐上门服务。",
+              "exampleVn": "Con cái đặt dịch vụ giao suất ăn tận nhà cho cha mẹ."
+            },
+            {
+              "id": "zh-topic-elderdiet-dingqiyingyangpinggu",
+              "headword": "定期营养评估",
+              "reading": "dìngqī yíngyǎng pínggū",
+              "meaningVn": "đánh giá dinh dưỡng định kỳ",
+              "example": "医院建议每季度做定期营养评估。",
+              "exampleVn": "Bệnh viện khuyến nghị mỗi quý làm đánh giá dinh dưỡng định kỳ."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-topic-toy-safety-recall",
+      "language": "zh",
+      "titleNative": "儿童玩具安全与召回",
+      "titleVn": "An toàn đồ chơi trẻ em & thu hồi sản phẩm",
+      "branches": [
+        {
+          "id": "safety-standards",
+          "titleNative": "安全标准",
+          "titleVn": "Tiêu chuẩn an toàn",
+          "words": [
+            {
+              "id": "zh-topic-toysafety-wanjuanquanbiaozhun",
+              "headword": "玩具安全标准",
+              "reading": "wánjù ānquán biāozhǔn",
+              "meaningVn": "tiêu chuẩn an toàn đồ chơi",
+              "example": "国家对玩具安全标准有严格规定。",
+              "exampleVn": "Nhà nước có quy định nghiêm ngặt về tiêu chuẩn an toàn đồ chơi."
+            },
+            {
+              "id": "zh-topic-toysafety-chayanhegezheng",
+              "headword": "查验合格证",
+              "reading": "cháyàn hégézhèng",
+              "meaningVn": "kiểm tra giấy chứng nhận đạt chuẩn",
+              "example": "买玩具前记得查验合格证。",
+              "exampleVn": "Trước khi mua đồ chơi nhớ kiểm tra giấy chứng nhận đạt chuẩn."
+            },
+            {
+              "id": "zh-topic-toysafety-shilingbiaozhi",
+              "headword": "适龄标识",
+              "reading": "shìlíng biāozhì",
+              "meaningVn": "nhãn độ tuổi phù hợp",
+              "example": "包装上都印着适龄标识。",
+              "exampleVn": "Trên bao bì đều in nhãn độ tuổi phù hợp."
+            },
+            {
+              "id": "zh-topic-toysafety-caizhijiancebaogao",
+              "headword": "材质检测报告",
+              "reading": "cáizhì jiǎncè bàogào",
+              "meaningVn": "báo cáo kiểm định chất liệu",
+              "example": "正规商家会提供材质检测报告。",
+              "exampleVn": "Người bán chính quy sẽ cung cấp báo cáo kiểm định chất liệu."
+            },
+            {
+              "id": "zh-topic-toysafety-youdutuliaofengxian",
+              "headword": "有毒涂料风险",
+              "reading": "yǒudú túliào fēngxiǎn",
+              "meaningVn": "nguy cơ sơn phủ độc hại",
+              "example": "劣质玩具存在有毒涂料风险。",
+              "exampleVn": "Đồ chơi kém chất lượng tồn tại nguy cơ sơn phủ độc hại."
+            }
+          ]
+        },
+        {
+          "id": "common-hazards",
+          "titleNative": "常见隐患",
+          "titleVn": "Nguy cơ thường gặp",
+          "words": [
+            {
+              "id": "zh-topic-toysafety-xiaolingjianwutun",
+              "headword": "小零件误吞",
+              "reading": "xiǎo língjiàn wùtūn",
+              "meaningVn": "nuốt nhầm linh kiện nhỏ",
+              "example": "低龄儿童最怕小零件误吞。",
+              "exampleVn": "Trẻ nhỏ tuổi sợ nhất là nuốt nhầm linh kiện nhỏ."
+            },
+            {
+              "id": "zh-topic-toysafety-shengxianchanraofengxian",
+              "headword": "绳线缠绕风险",
+              "reading": "shéngxiàn chánrào fēngxiǎn",
+              "meaningVn": "nguy cơ dây quấn vào người",
+              "example": "带绳子的玩具有绳线缠绕风险。",
+              "exampleVn": "Đồ chơi có dây có nguy cơ dây quấn vào người."
+            },
+            {
+              "id": "zh-topic-toysafety-jianruibianjiao",
+              "headword": "尖锐边角",
+              "reading": "jiānruì biānjiǎo",
+              "meaningVn": "góc cạnh sắc nhọn",
+              "example": "这款玩具的尖锐边角容易划伤孩子。",
+              "exampleVn": "Góc cạnh sắc nhọn của món đồ chơi này dễ làm trầy trẻ."
+            },
+            {
+              "id": "zh-topic-toysafety-dianchixielou",
+              "headword": "电池泄漏",
+              "reading": "diànchí xièlòu",
+              "meaningVn": "pin bị rò rỉ",
+              "example": "发现电池泄漏要立刻停止使用。",
+              "exampleVn": "Phát hiện pin bị rò rỉ phải lập tức ngừng sử dụng."
+            },
+            {
+              "id": "zh-topic-toysafety-zaoyinchaobiaowanju",
+              "headword": "噪音超标玩具",
+              "reading": "zàoyīn chāobiāo wánjù",
+              "meaningVn": "đồ chơi phát tiếng ồn vượt ngưỡng",
+              "example": "噪音超标玩具可能损伤听力。",
+              "exampleVn": "Đồ chơi phát tiếng ồn vượt ngưỡng có thể gây hại thính lực."
+            }
+          ]
+        },
+        {
+          "id": "recall-mechanism",
+          "titleNative": "召回机制",
+          "titleVn": "Cơ chế thu hồi",
+          "words": [
+            {
+              "id": "zh-topic-toysafety-chanpinzhaohuitongzhi",
+              "headword": "产品召回通知",
+              "reading": "chǎnpǐn zhàohuí tōngzhī",
+              "meaningVn": "thông báo thu hồi sản phẩm",
+              "example": "官网发布了产品召回通知。",
+              "exampleVn": "Trang web chính thức đăng thông báo thu hồi sản phẩm."
+            },
+            {
+              "id": "zh-topic-toysafety-picibianhaochaxun",
+              "headword": "批次编号查询",
+              "reading": "pīcì biānhào cháxún",
+              "meaningVn": "tra cứu số lô sản xuất",
+              "example": "家长可以做批次编号查询确认。",
+              "exampleVn": "Phụ huynh có thể tra cứu số lô sản xuất để xác nhận."
+            },
+            {
+              "id": "zh-topic-toysafety-tuihuanhuoliucheng",
+              "headword": "退换货流程",
+              "reading": "tuìhuànhuò liúchéng",
+              "meaningVn": "quy trình đổi trả hàng",
+              "example": "召回的退换货流程很简单。",
+              "exampleVn": "Quy trình đổi trả hàng khi thu hồi rất đơn giản."
+            },
+            {
+              "id": "zh-topic-toysafety-jianguanbumentongbao",
+              "headword": "监管部门通报",
+              "reading": "jiānguǎn bùmén tōngbào",
+              "meaningVn": "thông báo của cơ quan quản lý",
+              "example": "监管部门通报了这批不合格产品。",
+              "exampleVn": "Cơ quan quản lý đã thông báo về lô sản phẩm không đạt chuẩn này."
+            },
+            {
+              "id": "zh-topic-toysafety-kuajingdianshangjianguannan",
+              "headword": "跨境电商监管难",
+              "reading": "kuàjìng diànshāng jiānguǎn nán",
+              "meaningVn": "khó khăn quản lý thương mại điện tử xuyên biên giới",
+              "example": "跨境电商监管难让召回更复杂。",
+              "exampleVn": "Khó khăn quản lý thương mại điện tử xuyên biên giới khiến việc thu hồi phức tạp hơn."
+            }
+          ]
+        },
+        {
+          "id": "parent-response",
+          "titleNative": "家长应对",
+          "titleVn": "Cách phụ huynh ứng phó",
+          "words": [
+            {
+              "id": "zh-topic-toysafety-goumaizhengguiqudao",
+              "headword": "购买正规渠道",
+              "reading": "gòumǎi zhèngguī qúdào",
+              "meaningVn": "mua qua kênh chính hãng",
+              "example": "她一直坚持购买正规渠道的玩具。",
+              "exampleVn": "Cô ấy luôn kiên trì mua đồ chơi qua kênh chính hãng."
+            },
+            {
+              "id": "zh-topic-toysafety-dingqijianchawanju",
+              "headword": "定期检查玩具",
+              "reading": "dìngqī jiǎnchá wánjù",
+              "meaningVn": "kiểm tra đồ chơi định kỳ",
+              "example": "家长要定期检查玩具有没有破损。",
+              "exampleVn": "Phụ huynh phải kiểm tra đồ chơi định kỳ xem có bị hỏng không."
+            },
+            {
+              "id": "zh-topic-toysafety-sunhuaiwanjudiuqi",
+              "headword": "损坏玩具丢弃",
+              "reading": "sǔnhuài wánjù diūqì",
+              "meaningVn": "vứt bỏ đồ chơi bị hỏng",
+              "example": "发现损坏就要损坏玩具丢弃。",
+              "exampleVn": "Phát hiện hỏng thì phải vứt bỏ đồ chơi bị hỏng."
+            },
+            {
+              "id": "zh-topic-toysafety-peibanwanshuajiandu",
+              "headword": "陪伴玩耍监督",
+              "reading": "péibàn wánshuǎ jiāndū",
+              "meaningVn": "giám sát khi con chơi cùng",
+              "example": "小年龄段建议陪伴玩耍监督。",
+              "exampleVn": "Độ tuổi nhỏ khuyến nghị giám sát khi con chơi cùng."
+            },
+            {
+              "id": "zh-topic-toysafety-anquanyishijiaoyu",
+              "headword": "安全意识教育",
+              "reading": "ānquán yìshí jiàoyù",
+              "meaningVn": "giáo dục ý thức an toàn",
+              "example": "从小对孩子做安全意识教育。",
+              "exampleVn": "Giáo dục ý thức an toàn cho con từ nhỏ."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-topic-formaldehyde-removal-renovation-pollution",
+      "language": "zh",
+      "titleNative": "家庭除甲醛与装修污染治理",
+      "titleVn": "Khử formaldehyde & xử lý ô nhiễm sau sửa nhà",
+      "branches": [
+        {
+          "id": "pollution-sources",
+          "titleNative": "污染来源",
+          "titleVn": "Nguồn gây ô nhiễm",
+          "words": [
+            {
+              "id": "zh-topic-formaldehyde-zhuangxiuwuran",
+              "headword": "装修污染",
+              "reading": "zhuāngxiū wūrǎn",
+              "meaningVn": "ô nhiễm do sửa nhà",
+              "example": "新房的装修污染让全家人担心。",
+              "exampleVn": "Ô nhiễm do sửa nhà của căn hộ mới khiến cả nhà lo lắng."
+            },
+            {
+              "id": "zh-topic-formaldehyde-renzaobancai",
+              "headword": "人造板材",
+              "reading": "rénzào bǎncái",
+              "meaningVn": "ván gỗ công nghiệp",
+              "example": "衣柜大多用的是人造板材。",
+              "exampleVn": "Tủ quần áo phần lớn dùng ván gỗ công nghiệp."
+            },
+            {
+              "id": "zh-topic-formaldehyde-liezhijiaoshui",
+              "headword": "劣质胶水",
+              "reading": "lièzhì jiāoshuǐ",
+              "meaningVn": "keo dán kém chất lượng",
+              "example": "劣质胶水是甲醛的主要来源之一。",
+              "exampleVn": "Keo dán kém chất lượng là một trong những nguồn gây formaldehyde chính."
+            },
+            {
+              "id": "zh-topic-formaldehyde-xinjiajuyiwei",
+              "headword": "新家具异味",
+              "reading": "xīn jiājù yìwèi",
+              "meaningVn": "mùi lạ từ đồ nội thất mới",
+              "example": "新家具异味久久不散。",
+              "exampleVn": "Mùi lạ từ đồ nội thất mới mãi không tan."
+            },
+            {
+              "id": "zh-topic-formaldehyde-youqihuifawu",
+              "headword": "油漆挥发物",
+              "reading": "yóuqī huīfāwù",
+              "meaningVn": "chất bay hơi từ sơn",
+              "example": "刷完墙,油漆挥发物很刺鼻。",
+              "exampleVn": "Sơn tường xong, chất bay hơi từ sơn rất nồng."
+            }
+          ]
+        },
+        {
+          "id": "testing-methods",
+          "titleNative": "检测方式",
+          "titleVn": "Cách kiểm tra",
+          "words": [
+            {
+              "id": "zh-topic-formaldehyde-jiaquanjianceyi",
+              "headword": "甲醛检测仪",
+              "reading": "jiǎquán jiǎncèyí",
+              "meaningVn": "máy đo formaldehyde",
+              "example": "她买了一台甲醛检测仪自测。",
+              "exampleVn": "Cô ấy mua một máy đo formaldehyde để tự kiểm tra."
+            },
+            {
+              "id": "zh-topic-formaldehyde-disanfangkongqijiance",
+              "headword": "第三方空气检测",
+              "reading": "dìsānfāng kōngqì jiǎncè",
+              "meaningVn": "kiểm tra chất lượng không khí độc lập",
+              "example": "入住前请了第三方空气检测。",
+              "exampleVn": "Trước khi dọn vào ở đã thuê kiểm tra chất lượng không khí độc lập."
+            },
+            {
+              "id": "zh-topic-formaldehyde-jiancedianweixuanze",
+              "headword": "检测点位选择",
+              "reading": "jiǎncè diǎnwèi xuǎnzé",
+              "meaningVn": "chọn vị trí đo kiểm tra",
+              "example": "检测点位选择要覆盖每个房间。",
+              "exampleVn": "Chọn vị trí đo kiểm tra phải bao quát từng phòng."
+            },
+            {
+              "id": "zh-topic-formaldehyde-nongduchaobiaoshuzhi",
+              "headword": "浓度超标数值",
+              "reading": "nóngdù chāobiāo shùzhí",
+              "meaningVn": "chỉ số nồng độ vượt ngưỡng",
+              "example": "报告显示卧室的浓度超标数值较高。",
+              "exampleVn": "Báo cáo cho thấy chỉ số nồng độ vượt ngưỡng ở phòng ngủ khá cao."
+            },
+            {
+              "id": "zh-topic-formaldehyde-fucezhouqi",
+              "headword": "复测周期",
+              "reading": "fùcè zhōuqī",
+              "meaningVn": "chu kỳ đo lại",
+              "example": "治理后要按复测周期再测一次。",
+              "exampleVn": "Xử lý xong phải đo lại một lần theo chu kỳ đo lại."
+            }
+          ]
+        },
+        {
+          "id": "treatment-methods",
+          "titleNative": "治理方法",
+          "titleVn": "Phương pháp xử lý",
+          "words": [
+            {
+              "id": "zh-topic-formaldehyde-kaichuangtongfengsanwei",
+              "headword": "开窗通风散味",
+              "reading": "kāichuāng tōngfēng sànwèi",
+              "meaningVn": "mở cửa sổ thông gió để tan mùi",
+              "example": "最简单有效的还是开窗通风散味。",
+              "exampleVn": "Đơn giản hiệu quả nhất vẫn là mở cửa sổ thông gió để tan mùi."
+            },
+            {
+              "id": "zh-topic-formaldehyde-huoxingtanxifu",
+              "headword": "活性炭吸附",
+              "reading": "huóxìngtàn xīfù",
+              "meaningVn": "hấp thụ bằng than hoạt tính",
+              "example": "房间里放了几包活性炭吸附。",
+              "exampleVn": "Trong phòng đặt mấy túi than hoạt tính để hấp thụ."
+            },
+            {
+              "id": "zh-topic-formaldehyde-guangchumeipentu",
+              "headword": "光触媒喷涂",
+              "reading": "guāngchùméi pēntú",
+              "meaningVn": "phun chất xúc tác quang",
+              "example": "请了专业团队做光触媒喷涂。",
+              "exampleVn": "Thuê đội chuyên nghiệp đến phun chất xúc tác quang."
+            },
+            {
+              "id": "zh-topic-formaldehyde-xinfengxitong",
+              "headword": "新风系统",
+              "reading": "xīnfēng xìtǒng",
+              "meaningVn": "hệ thống thông gió lấy khí tươi",
+              "example": "装了新风系统,空气流通好多了。",
+              "exampleVn": "Lắp hệ thống thông gió lấy khí tươi, không khí lưu thông tốt hơn nhiều."
+            },
+            {
+              "id": "zh-topic-formaldehyde-lvzhifuzhujinghua",
+              "headword": "绿植辅助净化",
+              "reading": "lǜzhí fǔzhù jìnghuà",
+              "meaningVn": "cây xanh hỗ trợ thanh lọc không khí",
+              "example": "客厅摆了几盆绿植辅助净化。",
+              "exampleVn": "Phòng khách bày mấy chậu cây xanh để hỗ trợ thanh lọc không khí."
+            }
+          ]
+        },
+        {
+          "id": "move-in-safety",
+          "titleNative": "入住安全",
+          "titleVn": "An toàn khi dọn vào ở",
+          "words": [
+            {
+              "id": "zh-topic-formaldehyde-kongzhitongfengqi",
+              "headword": "空置通风期",
+              "reading": "kōngzhì tōngfēngqī",
+              "meaningVn": "thời gian để trống thông gió",
+              "example": "装修完留了三个月空置通风期。",
+              "exampleVn": "Sửa nhà xong để trống thông gió ba tháng."
+            },
+            {
+              "id": "zh-topic-formaldehyde-yunfuertongminganqunti",
+              "headword": "孕妇儿童敏感群体",
+              "reading": "yùnfù értóng mǐngǎn qúntǐ",
+              "meaningVn": "nhóm nhạy cảm là phụ nữ mang thai và trẻ em",
+              "example": "孕妇儿童敏感群体更要谨慎入住。",
+              "exampleVn": "Nhóm nhạy cảm là phụ nữ mang thai và trẻ em càng phải thận trọng khi dọn vào ở."
+            },
+            {
+              "id": "zh-topic-formaldehyde-ruzhuqianfujian",
+              "headword": "入住前复检",
+              "reading": "rùzhù qián fùjiǎn",
+              "meaningVn": "kiểm tra lại trước khi dọn vào ở",
+              "example": "入住前复检合格才放心。",
+              "exampleVn": "Kiểm tra lại trước khi dọn vào ở đạt chuẩn mới yên tâm."
+            },
+            {
+              "id": "zh-topic-formaldehyde-changqishifangzhouqi",
+              "headword": "长期释放周期",
+              "reading": "chángqī shìfàng zhōuqī",
+              "meaningVn": "chu kỳ phát thải kéo dài",
+              "example": "甲醛有长期释放周期,不能掉以轻心。",
+              "exampleVn": "Formaldehyde có chu kỳ phát thải kéo dài, không được chủ quan."
+            },
+            {
+              "id": "zh-topic-formaldehyde-huanbaocailiaoxuanze",
+              "headword": "环保材料选择",
+              "reading": "huánbǎo cáiliào xuǎnzé",
+              "meaningVn": "lựa chọn vật liệu thân thiện môi trường",
+              "example": "从源头做好环保材料选择最重要。",
+              "exampleVn": "Làm tốt việc lựa chọn vật liệu thân thiện môi trường ngay từ đầu là quan trọng nhất."
+            }
+          ]
+        }
+      ]
     }
   ]
 }
