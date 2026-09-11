@@ -16,11 +16,14 @@ export default async function GrammarTestPlayPage({
   const { lang, mode } = await params;
   const query = await searchParams;
 
-  if (!getGrammarData(lang)) notFound();
+  const data = getGrammarData(lang);
+  if (!data) notFound();
   if (!VALID_MODES.includes(mode as GrammarQuizMode)) notFound();
 
   const reflex = query.reflex === "1";
   const explainMode = query.explain === "1";
+  const categoryParam = typeof query.category === "string" ? query.category : undefined;
+  const category = categoryParam ? data.categories.find((c) => c.id === categoryParam) : undefined;
 
   return (
     <GrammarQuizSession
@@ -28,6 +31,8 @@ export default async function GrammarTestPlayPage({
       mode={mode as GrammarQuizMode}
       reflex={reflex}
       explainMode={explainMode}
+      categoryId={category?.id}
+      categoryTitle={category?.titleVn}
     />
   );
 }
