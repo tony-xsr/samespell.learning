@@ -2,6 +2,8 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getGrammarData, getTimeAxisPoints } from "@/lib/grammarStore";
 import type { GrammarAspect, GrammarPoint, GrammarTimeSlot } from "@/types/grammar";
+import type { Language } from "@/types/vocab";
+import GrammarTimelineCell from "@/components/grammar/GrammarTimelineCell";
 
 const TIME_ORDER: GrammarTimeSlot[] = [
   "qua-khu-xa",
@@ -26,28 +28,6 @@ const ASPECT_LABEL: Record<GrammarAspect, string> = {
   "kinh-nghiem": "Kinh nghiệm",
   "du-dinh": "Dự định",
 };
-
-function Cell({ points }: { points: GrammarPoint[] }) {
-  if (points.length === 0) {
-    return <div className="flex min-h-[88px] items-center justify-center text-xs text-ink-muted/50">—</div>;
-  }
-  return (
-    <div className="flex min-h-[88px] flex-col gap-1.5 p-1.5">
-      {points.map((p) => (
-        <div key={p.id} className="rounded-lg border border-border bg-surface-2 px-2 py-1.5">
-          <div className="text-sm font-bold text-brand-600">{p.pattern}</div>
-          <div className="text-xs text-ink-muted">{p.meaningVn}</div>
-          {p.examples[0] && (
-            <div className="mt-1 text-xs">
-              <div className="text-ink">{p.examples[0].sentence}</div>
-              <div className="text-ink-muted">{p.examples[0].translationVn}</div>
-            </div>
-          )}
-        </div>
-      ))}
-    </div>
-  );
-}
 
 export default async function GrammarTimelinePage({
   params,
@@ -105,7 +85,7 @@ export default async function GrammarTimelinePage({
                   </th>
                   {TIME_ORDER.map((time) => (
                     <td key={time} className="rounded-xl border border-border bg-surface align-top">
-                      <Cell points={grid.get(`${time}::${aspect}`) ?? []} />
+                      <GrammarTimelineCell points={grid.get(`${time}::${aspect}`) ?? []} lang={lang as Language} />
                     </td>
                   ))}
                 </tr>
