@@ -63965,6 +63965,2358 @@
           ]
         }
       ]
+    },
+    {
+      "id": "zh-topic-ebike-charging-fire-safety",
+      "language": "zh",
+      "titleNative": "电动自行车集中充电与消防安全",
+      "titleVn": "Sạc tập trung xe đạp điện & an toàn phòng cháy",
+      "branches": [
+        {
+          "id": "charging-methods",
+          "titleNative": "充电方式",
+          "titleVn": "Phương thức sạc điện",
+          "words": [
+            {
+              "id": "zh-topic-ebikecharging-diandongzixingchejizhongchongdianzhuang",
+              "headword": "电动自行车集中充电桩",
+              "reading": "diàndòng zìxíngchē jízhōng chōngdiànzhuāng",
+              "meaningVn": "trạm sạc tập trung xe đạp điện",
+              "example": "小区新装了电动自行车集中充电桩。",
+              "exampleVn": "Khu dân cư mới lắp trạm sạc tập trung xe đạp điện."
+            },
+            {
+              "id": "zh-topic-ebikecharging-loudaoweiguichongdian",
+              "headword": "楼道违规充电",
+              "reading": "lóudào wéiguī chōngdiàn",
+              "meaningVn": "sạc điện trái phép ở hành lang",
+              "example": "物业贴出通知,禁止楼道违规充电。",
+              "exampleVn": "Ban quản lý dán thông báo, cấm sạc điện trái phép ở hành lang."
+            },
+            {
+              "id": "zh-topic-ebikecharging-ruhuchongdianfengxian",
+              "headword": "入户充电风险",
+              "reading": "rùhù chōngdiàn fēngxiǎn",
+              "meaningVn": "nguy cơ khi mang vào nhà sạc",
+              "example": "消防宣传反复提醒入户充电风险。",
+              "exampleVn": "Tuyên truyền phòng cháy nhắc đi nhắc lại nguy cơ khi mang vào nhà sạc."
+            },
+            {
+              "id": "zh-topic-ebikecharging-dianchihuandiangui",
+              "headword": "电池换电柜",
+              "reading": "diànchí huàndiànguì",
+              "meaningVn": "tủ đổi pin",
+              "example": "小区门口新增了一台电池换电柜。",
+              "exampleVn": "Trước cổng khu dân cư có thêm một tủ đổi pin."
+            },
+            {
+              "id": "zh-topic-ebikecharging-manchongyukuaichong",
+              "headword": "慢充与快充",
+              "reading": "mànchōng yǔ kuàichōng",
+              "meaningVn": "sạc chậm và sạc nhanh",
+              "example": "慢充与快充对电池寿命影响不同。",
+              "exampleVn": "Sạc chậm và sạc nhanh ảnh hưởng khác nhau đến tuổi thọ pin."
+            }
+          ]
+        },
+        {
+          "id": "fire-hazards",
+          "titleNative": "火灾隐患",
+          "titleVn": "Nguy cơ hỏa hoạn",
+          "words": [
+            {
+              "id": "zh-topic-ebikecharging-dianchiziran",
+              "headword": "电池自燃",
+              "reading": "diànchí zìrán",
+              "meaningVn": "pin tự bốc cháy",
+              "example": "新闻报道了一起电池自燃事故。",
+              "exampleVn": "Bản tin đưa tin về một vụ pin tự bốc cháy."
+            },
+            {
+              "id": "zh-topic-ebikecharging-liezhichongdianqi",
+              "headword": "劣质充电器",
+              "reading": "lièzhì chōngdiànqì",
+              "meaningVn": "bộ sạc kém chất lượng",
+              "example": "事故起因是使用了劣质充电器。",
+              "exampleVn": "Nguyên nhân vụ việc là do dùng bộ sạc kém chất lượng."
+            },
+            {
+              "id": "zh-topic-ebikecharging-guochongbaohuqueshi",
+              "headword": "过充保护缺失",
+              "reading": "guòchōng bǎohù quēshī",
+              "meaningVn": "thiếu bảo vệ chống sạc quá mức",
+              "example": "便宜车型往往过充保护缺失。",
+              "exampleVn": "Các dòng xe giá rẻ thường thiếu bảo vệ chống sạc quá mức."
+            },
+            {
+              "id": "zh-topic-ebikecharging-xianlulaohuadahuo",
+              "headword": "线路老化打火",
+              "reading": "xiànlù lǎohuà dǎhuǒ",
+              "meaningVn": "dây điện cũ phát tia lửa",
+              "example": "检修时发现是线路老化打火引起的。",
+              "exampleVn": "Khi kiểm tra phát hiện là do dây điện cũ phát tia lửa gây ra."
+            },
+            {
+              "id": "zh-topic-ebikecharging-loudaoduifangzawu",
+              "headword": "楼道堆放杂物",
+              "reading": "lóudào duīfàng záwù",
+              "meaningVn": "chất đồ tạp ở hành lang",
+              "example": "楼道堆放杂物会加剧火灾蔓延。",
+              "exampleVn": "Chất đồ tạp ở hành lang sẽ làm hỏa hoạn lan nhanh hơn."
+            }
+          ]
+        },
+        {
+          "id": "safety-management-ebike",
+          "titleNative": "安全管理",
+          "titleVn": "Quản lý an toàn",
+          "words": [
+            {
+              "id": "zh-topic-ebikecharging-zhinengchongdianguishuaka",
+              "headword": "智能充电柜刷卡",
+              "reading": "zhìnéng chōngdiànguì shuākǎ",
+              "meaningVn": "quẹt thẻ tại tủ sạc thông minh",
+              "example": "居民只需智能充电柜刷卡即可充电。",
+              "exampleVn": "Cư dân chỉ cần quẹt thẻ tại tủ sạc thông minh là có thể sạc điện."
+            },
+            {
+              "id": "zh-topic-ebikecharging-chongdianshijianxianzhi",
+              "headword": "充电时间限制",
+              "reading": "chōngdiàn shíjiān xiànzhì",
+              "meaningVn": "giới hạn thời gian sạc",
+              "example": "系统设置了充电时间限制,超时自动断电。",
+              "exampleVn": "Hệ thống đặt giới hạn thời gian sạc, quá giờ sẽ tự động ngắt điện."
+            },
+            {
+              "id": "zh-topic-ebikecharging-xiaofangtongdaochangtong",
+              "headword": "消防通道畅通",
+              "reading": "xiāofáng tōngdào chàngtōng",
+              "meaningVn": "lối thoát hiểm cứu hỏa thông thoáng",
+              "example": "物业每天检查消防通道畅通情况。",
+              "exampleVn": "Ban quản lý mỗi ngày kiểm tra tình trạng lối thoát hiểm cứu hỏa thông thoáng."
+            },
+            {
+              "id": "zh-topic-ebikecharging-wuyedingqixuncha",
+              "headword": "物业定期巡查",
+              "reading": "wùyè dìngqī xúnchá",
+              "meaningVn": "ban quản lý tuần tra định kỳ",
+              "example": "物业定期巡查充电区域。",
+              "exampleVn": "Ban quản lý tuần tra định kỳ khu vực sạc điện."
+            },
+            {
+              "id": "zh-topic-ebikecharging-weiguichongdianfakuan",
+              "headword": "违规充电罚款",
+              "reading": "wéiguī chōngdiàn fákuǎn",
+              "meaningVn": "phạt tiền khi sạc trái phép",
+              "example": "再次发现将处以违规充电罚款。",
+              "exampleVn": "Nếu phát hiện lần nữa sẽ bị phạt tiền khi sạc trái phép."
+            }
+          ]
+        },
+        {
+          "id": "emergency-awareness-ebike",
+          "titleNative": "应急与宣传",
+          "titleVn": "Ứng phó khẩn cấp & tuyên truyền",
+          "words": [
+            {
+              "id": "zh-topic-ebikecharging-diandongchehuozaipujiu",
+              "headword": "电动车火灾扑救",
+              "reading": "diàndòngchē huǒzāi pūjiù",
+              "meaningVn": "dập lửa cháy xe điện",
+              "example": "居民学习了电动车火灾扑救的正确方法。",
+              "exampleVn": "Cư dân đã học cách dập lửa cháy xe điện đúng cách."
+            },
+            {
+              "id": "zh-topic-ebikecharging-taoshengzijiuchangshi",
+              "headword": "逃生自救常识",
+              "reading": "táoshēng zìjiù chángshí",
+              "meaningVn": "kiến thức tự cứu thoát hiểm",
+              "example": "社区讲座普及逃生自救常识。",
+              "exampleVn": "Buổi hội thảo cộng đồng phổ biến kiến thức tự cứu thoát hiểm."
+            },
+            {
+              "id": "zh-topic-ebikecharging-shequxiaofangxuanchuan",
+              "headword": "社区消防宣传",
+              "reading": "shèqū xiāofáng xuānchuán",
+              "meaningVn": "tuyên truyền phòng cháy khu dân cư",
+              "example": "这个月社区消防宣传特别频繁。",
+              "exampleVn": "Tháng này tuyên truyền phòng cháy khu dân cư diễn ra đặc biệt thường xuyên."
+            },
+            {
+              "id": "zh-topic-ebikecharging-goumaizhengguidianchi",
+              "headword": "购买正规电池",
+              "reading": "gòumǎi zhèngguī diànchí",
+              "meaningVn": "mua pin chính hãng",
+              "example": "专家建议一定要购买正规电池。",
+              "exampleVn": "Chuyên gia khuyên nhất định phải mua pin chính hãng."
+            },
+            {
+              "id": "zh-topic-ebikecharging-yijiuhuanxinbutie",
+              "headword": "以旧换新补贴",
+              "reading": "yǐjiù huànxīn bǔtiē",
+              "meaningVn": "trợ cấp đổi cũ lấy mới",
+              "example": "政府推出了电动车以旧换新补贴。",
+              "exampleVn": "Chính phủ đã đưa ra trợ cấp đổi cũ lấy mới cho xe điện."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-topic-home-electrical-leakage-safety",
+      "language": "zh",
+      "titleNative": "家庭防漏电与漏电保护器",
+      "titleVn": "Phòng chống rò điện & thiết bị bảo vệ rò điện gia đình",
+      "branches": [
+        {
+          "id": "leakage-basics",
+          "titleNative": "漏电基础",
+          "titleVn": "Kiến thức cơ bản về rò điện",
+          "words": [
+            {
+              "id": "zh-topic-electricalsafety-loudian",
+              "headword": "漏电",
+              "reading": "lòudiàn",
+              "meaningVn": "rò điện",
+              "example": "洗衣机漏电导致她被轻微电击。",
+              "exampleVn": "Máy giặt bị rò điện khiến cô ấy bị điện giật nhẹ."
+            },
+            {
+              "id": "zh-topic-electricalsafety-loudianbaohuqi",
+              "headword": "漏电保护器",
+              "reading": "lòudiàn bǎohùqì",
+              "meaningVn": "thiết bị bảo vệ chống rò điện",
+              "example": "配电箱里装了漏电保护器。",
+              "exampleVn": "Trong tủ điện có lắp thiết bị bảo vệ chống rò điện."
+            },
+            {
+              "id": "zh-topic-electricalsafety-chudianfengxian",
+              "headword": "触电风险",
+              "reading": "chùdiàn fēngxiǎn",
+              "meaningVn": "nguy cơ điện giật",
+              "example": "潮湿环境下触电风险更高。",
+              "exampleVn": "Trong môi trường ẩm ướt nguy cơ điện giật cao hơn."
+            },
+            {
+              "id": "zh-topic-electricalsafety-jiedixian",
+              "headword": "接地线",
+              "reading": "jiēdìxiàn",
+              "meaningVn": "dây tiếp đất",
+              "example": "大功率电器都要接好接地线。",
+              "exampleVn": "Thiết bị công suất lớn đều phải nối tốt dây tiếp đất."
+            },
+            {
+              "id": "zh-topic-electricalsafety-jueyuanlaohua",
+              "headword": "绝缘老化",
+              "reading": "juéyuán lǎohuà",
+              "meaningVn": "lớp cách điện bị lão hóa",
+              "example": "老房子的电线绝缘老化严重。",
+              "exampleVn": "Dây điện của nhà cũ bị lớp cách điện lão hóa nghiêm trọng."
+            }
+          ]
+        },
+        {
+          "id": "common-hazards-electrical",
+          "titleNative": "常见隐患",
+          "titleVn": "Nguy cơ thường gặp",
+          "words": [
+            {
+              "id": "zh-topic-electricalsafety-chazuojinshui",
+              "headword": "插座进水",
+              "reading": "chāzuò jìnshuǐ",
+              "meaningVn": "ổ cắm bị vào nước",
+              "example": "阳台插座进水引发了跳闸。",
+              "exampleVn": "Ổ cắm ban công bị vào nước gây nhảy aptomat."
+            },
+            {
+              "id": "zh-topic-electricalsafety-dianxianpopi",
+              "headword": "电线破皮",
+              "reading": "diànxiàn pòpí",
+              "meaningVn": "dây điện bị tróc vỏ",
+              "example": "检查发现有一处电线破皮。",
+              "exampleVn": "Kiểm tra phát hiện có một chỗ dây điện bị tróc vỏ."
+            },
+            {
+              "id": "zh-topic-electricalsafety-jiatingchaofuheyongdian",
+              "headword": "家庭超负荷用电",
+              "reading": "jiātíng chāofùhè yòngdiàn",
+              "meaningVn": "hộ gia đình dùng điện vượt tải",
+              "example": "夏天空调一开就容易家庭超负荷用电。",
+              "exampleVn": "Mùa hè bật điều hòa lên là dễ dùng điện vượt tải trong nhà."
+            },
+            {
+              "id": "zh-topic-electricalsafety-duotouchazuoguozai",
+              "headword": "多头插座过载",
+              "reading": "duōtóu chāzuò guòzài",
+              "meaningVn": "ổ cắm chia nhiều đầu bị quá tải",
+              "example": "多头插座过载是常见的起火原因。",
+              "exampleVn": "Ổ cắm chia nhiều đầu bị quá tải là nguyên nhân gây cháy thường gặp."
+            },
+            {
+              "id": "zh-topic-electricalsafety-weishengjianweizuodengdianwei",
+              "headword": "卫生间未做等电位",
+              "reading": "wèishēngjiān wèi zuò děngdiànwèi",
+              "meaningVn": "nhà vệ sinh chưa làm liên kết đẳng thế",
+              "example": "验房师提醒卫生间未做等电位。",
+              "exampleVn": "Chuyên viên thẩm định nhà nhắc nhà vệ sinh chưa làm liên kết đẳng thế."
+            }
+          ]
+        },
+        {
+          "id": "installation-testing",
+          "titleNative": "安装与检测",
+          "titleVn": "Lắp đặt & kiểm tra",
+          "words": [
+            {
+              "id": "zh-topic-electricalsafety-loudianbaohuqianzhuangweizhi",
+              "headword": "漏电保护器安装位置",
+              "reading": "lòudiàn bǎohùqì ānzhuāng wèizhì",
+              "meaningVn": "vị trí lắp thiết bị bảo vệ chống rò điện",
+              "example": "电工确定了漏电保护器安装位置。",
+              "exampleVn": "Thợ điện đã xác định vị trí lắp thiết bị bảo vệ chống rò điện."
+            },
+            {
+              "id": "zh-topic-electricalsafety-dingqiceshianniu",
+              "headword": "定期测试按钮",
+              "reading": "dìngqī cèshì ànniǔ",
+              "meaningVn": "nút kiểm tra định kỳ",
+              "example": "每月按一次定期测试按钮。",
+              "exampleVn": "Mỗi tháng bấm một lần nút kiểm tra định kỳ."
+            },
+            {
+              "id": "zh-topic-electricalsafety-diangongshangmenjianxiu",
+              "headword": "电工上门检修",
+              "reading": "diàngōng shàngmén jiǎnxiū",
+              "meaningVn": "thợ điện đến tận nhà sửa chữa",
+              "example": "跳闸后她请了电工上门检修。",
+              "exampleVn": "Sau khi nhảy aptomat cô ấy đã thuê thợ điện đến tận nhà sửa chữa."
+            },
+            {
+              "id": "zh-topic-electricalsafety-laojiuxianlugaizao",
+              "headword": "老旧线路改造",
+              "reading": "lǎojiù xiànlù gǎizào",
+              "meaningVn": "cải tạo đường dây điện cũ",
+              "example": "装修时顺便做了老旧线路改造。",
+              "exampleVn": "Lúc sửa nhà tiện thể làm luôn cải tạo đường dây điện cũ."
+            },
+            {
+              "id": "zh-topic-electricalsafety-jiedidianzujiance",
+              "headword": "接地电阻检测",
+              "reading": "jiēdì diànzǔ jiǎncè",
+              "meaningVn": "đo điện trở tiếp đất",
+              "example": "验收时要做接地电阻检测。",
+              "exampleVn": "Lúc nghiệm thu phải đo điện trở tiếp đất."
+            }
+          ]
+        },
+        {
+          "id": "safe-usage-habits",
+          "titleNative": "用电安全习惯",
+          "titleVn": "Thói quen dùng điện an toàn",
+          "words": [
+            {
+              "id": "zh-topic-electricalsafety-shishoubumokaiguan",
+              "headword": "湿手不摸开关",
+              "reading": "shīshǒu bù mō kāiguān",
+              "meaningVn": "tay ướt không chạm công tắc",
+              "example": "妈妈教孩子湿手不摸开关。",
+              "exampleVn": "Mẹ dạy con tay ướt không chạm công tắc."
+            },
+            {
+              "id": "zh-topic-electricalsafety-dagonglvdianqizhuanxian",
+              "headword": "大功率电器专线",
+              "reading": "dàgōnglǜ diànqì zhuānxiàn",
+              "meaningVn": "đường dây riêng cho thiết bị công suất lớn",
+              "example": "空调最好接大功率电器专线。",
+              "exampleVn": "Điều hòa tốt nhất nên nối đường dây riêng cho thiết bị công suất lớn."
+            },
+            {
+              "id": "zh-topic-electricalsafety-dingqijianchalaohuaxianlu",
+              "headword": "定期检查老化线路",
+              "reading": "dìngqī jiǎnchá lǎohuà xiànlù",
+              "meaningVn": "kiểm tra định kỳ đường dây cũ",
+              "example": "建议每年定期检查老化线路。",
+              "exampleVn": "Khuyến nghị mỗi năm kiểm tra định kỳ đường dây cũ."
+            },
+            {
+              "id": "zh-topic-electricalsafety-ertongchazuobaohugai",
+              "headword": "儿童插座保护盖",
+              "reading": "értóng chāzuò bǎohùgài",
+              "meaningVn": "nắp bảo vệ ổ cắm cho trẻ em",
+              "example": "家里所有插座都装了儿童插座保护盖。",
+              "exampleVn": "Tất cả ổ cắm trong nhà đều lắp nắp bảo vệ ổ cắm cho trẻ em."
+            },
+            {
+              "id": "zh-topic-electricalsafety-leiyutianbachatou",
+              "headword": "雷雨天拔插头",
+              "reading": "léiyǔtiān bá chātóu",
+              "meaningVn": "rút phích cắm ngày mưa giông",
+              "example": "雷雨天拔插头能保护家电。",
+              "exampleVn": "Rút phích cắm ngày mưa giông có thể bảo vệ đồ điện."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-topic-kids-adhd-inattention",
+      "language": "zh",
+      "titleNative": "儿童多动症与注意力不集中",
+      "titleVn": "Chứng tăng động & kém tập trung ở trẻ em",
+      "branches": [
+        {
+          "id": "adhd-symptoms",
+          "titleNative": "症状表现",
+          "titleVn": "Biểu hiện triệu chứng",
+          "words": [
+            {
+              "id": "zh-topic-adhd-duodongzheng",
+              "headword": "多动症",
+              "reading": "duōdòngzhèng",
+              "meaningVn": "chứng tăng động",
+              "example": "老师建议家长带孩子检查是否有多动症。",
+              "exampleVn": "Cô giáo khuyên phụ huynh đưa con đi kiểm tra xem có bị chứng tăng động không."
+            },
+            {
+              "id": "zh-topic-adhd-zhuyilibujizhong",
+              "headword": "注意力不集中",
+              "reading": "zhùyìlì bù jízhōng",
+              "meaningVn": "kém tập trung chú ý",
+              "example": "孩子上课总是注意力不集中。",
+              "exampleVn": "Con lúc học luôn kém tập trung chú ý."
+            },
+            {
+              "id": "zh-topic-adhd-zuobuzhu",
+              "headword": "坐不住",
+              "reading": "zuòbuzhù",
+              "meaningVn": "không ngồi yên được",
+              "example": "他上课坐不住,总想动来动去。",
+              "exampleVn": "Cậu bé ngồi học không ngồi yên được, cứ muốn cựa quậy."
+            },
+            {
+              "id": "zh-topic-adhd-chongdongxingwei",
+              "headword": "冲动行为",
+              "reading": "chōngdòng xíngwéi",
+              "meaningVn": "hành vi bốc đồng",
+              "example": "孩子有时会出现冲动行为。",
+              "exampleVn": "Đôi khi con xuất hiện hành vi bốc đồng."
+            },
+            {
+              "id": "zh-topic-adhd-diusanlasi",
+              "headword": "丢三落四",
+              "reading": "diūsānlàsì",
+              "meaningVn": "hay quên đồ, đãng trí",
+              "example": "他做作业总是丢三落四。",
+              "exampleVn": "Cậu bé làm bài tập lúc nào cũng hay quên đồ."
+            }
+          ]
+        },
+        {
+          "id": "diagnosis-assessment",
+          "titleNative": "诊断评估",
+          "titleVn": "Chẩn đoán & đánh giá",
+          "words": [
+            {
+              "id": "zh-topic-adhd-ertongxingweiliangbiao",
+              "headword": "儿童行为量表",
+              "reading": "értóng xíngwéi liàngbiǎo",
+              "meaningVn": "thang đo hành vi trẻ em",
+              "example": "医生用儿童行为量表做初步评估。",
+              "exampleVn": "Bác sĩ dùng thang đo hành vi trẻ em để đánh giá sơ bộ."
+            },
+            {
+              "id": "zh-topic-adhd-zhuanzhuliceshi",
+              "headword": "专注力测试",
+              "reading": "zhuānzhùlì cèshì",
+              "meaningVn": "kiểm tra khả năng tập trung",
+              "example": "孩子做了一次专注力测试。",
+              "exampleVn": "Cháu bé đã làm một lần kiểm tra khả năng tập trung."
+            },
+            {
+              "id": "zh-topic-adhd-ertongjingshenkejiuzhen",
+              "headword": "儿童精神科就诊",
+              "reading": "értóng jīngshénkē jiùzhěn",
+              "meaningVn": "khám tại khoa tâm thần nhi",
+              "example": "家长带孩子去做了儿童精神科就诊。",
+              "exampleVn": "Phụ huynh đưa con đi khám tại khoa tâm thần nhi."
+            },
+            {
+              "id": "zh-topic-adhd-duodongzhengwuzhenfengxian",
+              "headword": "多动症误诊风险",
+              "reading": "duōdòngzhèng wùzhěn fēngxiǎn",
+              "meaningVn": "nguy cơ chẩn đoán nhầm chứng tăng động",
+              "example": "医生提醒要注意多动症误诊风险。",
+              "exampleVn": "Bác sĩ nhắc phải chú ý nguy cơ chẩn đoán nhầm chứng tăng động."
+            },
+            {
+              "id": "zh-topic-adhd-gonghuanbingpinggu",
+              "headword": "共患病评估",
+              "reading": "gòng huànbìng pínggū",
+              "meaningVn": "đánh giá bệnh đi kèm",
+              "example": "医生同时做了共患病评估。",
+              "exampleVn": "Bác sĩ đồng thời làm đánh giá bệnh đi kèm."
+            }
+          ]
+        },
+        {
+          "id": "intervention-methods",
+          "titleNative": "干预方法",
+          "titleVn": "Phương pháp can thiệp",
+          "words": [
+            {
+              "id": "zh-topic-adhd-xingweijiaozhengxunlian",
+              "headword": "行为矫正训练",
+              "reading": "xíngwéi jiǎozhèng xùnliàn",
+              "meaningVn": "huấn luyện điều chỉnh hành vi",
+              "example": "孩子每周参加行为矫正训练。",
+              "exampleVn": "Con mỗi tuần tham gia huấn luyện điều chỉnh hành vi."
+            },
+            {
+              "id": "zh-topic-adhd-ganjuetonghexunlian",
+              "headword": "感觉统合训练",
+              "reading": "gǎnjué tǒnghé xùnliàn",
+              "meaningVn": "huấn luyện tích hợp cảm giác",
+              "example": "医生建议做感觉统合训练。",
+              "exampleVn": "Bác sĩ khuyên làm huấn luyện tích hợp cảm giác."
+            },
+            {
+              "id": "zh-topic-adhd-zhuanzhuliyouxi",
+              "headword": "专注力游戏",
+              "reading": "zhuānzhùlì yóuxì",
+              "meaningVn": "trò chơi rèn luyện tập trung",
+              "example": "老师设计了几个专注力游戏。",
+              "exampleVn": "Cô giáo thiết kế mấy trò chơi rèn luyện tập trung."
+            },
+            {
+              "id": "zh-topic-adhd-jiaxiaopeihefangan",
+              "headword": "家校配合方案",
+              "reading": "jiāxiào pèihé fāng'àn",
+              "meaningVn": "phương án phối hợp gia đình - nhà trường",
+              "example": "老师和家长一起制定了家校配合方案。",
+              "exampleVn": "Cô giáo cùng phụ huynh lập ra phương án phối hợp gia đình - nhà trường."
+            },
+            {
+              "id": "zh-topic-adhd-guilvzuoxianpai",
+              "headword": "规律作息安排",
+              "reading": "guīlǜ zuòxī ānpái",
+              "meaningVn": "sắp xếp sinh hoạt điều độ",
+              "example": "医生强调规律作息安排很重要。",
+              "exampleVn": "Bác sĩ nhấn mạnh sắp xếp sinh hoạt điều độ rất quan trọng."
+            }
+          ]
+        },
+        {
+          "id": "parental-awareness",
+          "titleNative": "家长认知与支持",
+          "titleVn": "Nhận thức & hỗ trợ của phụ huynh",
+          "words": [
+            {
+              "id": "zh-topic-adhd-jiazhangjiaolvqingxu",
+              "headword": "家长焦虑情绪",
+              "reading": "jiāzhǎng jiāolǜ qíngxù",
+              "meaningVn": "tâm trạng lo âu của phụ huynh",
+              "example": "确诊后妈妈也出现了家长焦虑情绪。",
+              "exampleVn": "Sau khi chẩn đoán mẹ cũng xuất hiện tâm trạng lo âu."
+            },
+            {
+              "id": "zh-topic-adhd-duodongzhengbingchigan",
+              "headword": "多动症病耻感",
+              "reading": "duōdòngzhèng bìngchǐgǎn",
+              "meaningVn": "cảm giác xấu hổ vì bệnh tăng động",
+              "example": "有些家长因为多动症病耻感而拒绝就医。",
+              "exampleVn": "Một số phụ huynh vì cảm giác xấu hổ vì bệnh tăng động mà từ chối đi khám."
+            },
+            {
+              "id": "zh-topic-adhd-yaowuzhiliaozhengyi",
+              "headword": "药物治疗争议",
+              "reading": "yàowù zhìliáo zhēngyì",
+              "meaningVn": "tranh cãi về điều trị bằng thuốc",
+              "example": "是否用药一直存在药物治疗争议。",
+              "exampleVn": "Có nên dùng thuốc hay không luôn tồn tại tranh cãi về điều trị bằng thuốc."
+            },
+            {
+              "id": "zh-topic-adhd-xuexiaoteshuzhaogu",
+              "headword": "学校特殊照顾",
+              "reading": "xuéxiào tèshū zhàogù",
+              "meaningVn": "sự quan tâm đặc biệt của nhà trường",
+              "example": "学校给了孩子一些学校特殊照顾。",
+              "exampleVn": "Nhà trường đã dành cho con một số sự quan tâm đặc biệt."
+            },
+            {
+              "id": "zh-topic-adhd-jiazhanghuzhuxiaozu",
+              "headword": "家长互助小组",
+              "reading": "jiāzhǎng hùzhù xiǎozǔ",
+              "meaningVn": "nhóm phụ huynh hỗ trợ lẫn nhau",
+              "example": "她加入了一个家长互助小组。",
+              "exampleVn": "Cô ấy đã gia nhập một nhóm phụ huynh hỗ trợ lẫn nhau."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-topic-kids-body-safety-education",
+      "language": "zh",
+      "titleNative": "儿童性教育启蒙与身体安全教育",
+      "titleVn": "Khai tâm giáo dục giới tính & giáo dục an toàn cơ thể cho trẻ em",
+      "branches": [
+        {
+          "id": "education-content",
+          "titleNative": "启蒙内容",
+          "titleVn": "Nội dung khai tâm",
+          "words": [
+            {
+              "id": "zh-topic-bodysafetyedu-xingjiaoyuqimeng",
+              "headword": "性教育启蒙",
+              "reading": "xìngjiàoyù qǐméng",
+              "meaningVn": "khai tâm giáo dục giới tính",
+              "example": "幼儿园开始重视性教育启蒙。",
+              "exampleVn": "Trường mẫu giáo bắt đầu chú trọng khai tâm giáo dục giới tính."
+            },
+            {
+              "id": "zh-topic-bodysafetyedu-shentibuweirenzhi",
+              "headword": "身体部位认知",
+              "reading": "shēntǐ bùwèi rènzhī",
+              "meaningVn": "nhận biết các bộ phận cơ thể",
+              "example": "课程第一步是身体部位认知。",
+              "exampleVn": "Bước đầu tiên của khóa học là nhận biết các bộ phận cơ thể."
+            },
+            {
+              "id": "zh-topic-bodysafetyedu-yinsibuwei",
+              "headword": "隐私部位",
+              "reading": "yǐnsī bùwèi",
+              "meaningVn": "vùng kín",
+              "example": "老师用绘本讲解什么是隐私部位。",
+              "exampleVn": "Cô giáo dùng sách tranh giải thích thế nào là vùng kín."
+            },
+            {
+              "id": "zh-topic-bodysafetyedu-nannvshentichayi",
+              "headword": "男女身体差异",
+              "reading": "nánnǚ shēntǐ chāyì",
+              "meaningVn": "sự khác biệt cơ thể nam nữ",
+              "example": "课堂上简单介绍了男女身体差异。",
+              "exampleVn": "Trong giờ học giới thiệu đơn giản về sự khác biệt cơ thể nam nữ."
+            },
+            {
+              "id": "zh-topic-bodysafetyedu-xingjiaoyuhuibenjiaoxue",
+              "headword": "性教育绘本教学",
+              "reading": "xìngjiàoyù huìběn jiàoxué",
+              "meaningVn": "dạy bằng sách tranh giáo dục giới tính",
+              "example": "学校采用性教育绘本教学的方式。",
+              "exampleVn": "Nhà trường áp dụng cách dạy bằng sách tranh giáo dục giới tính."
+            }
+          ]
+        },
+        {
+          "id": "body-autonomy",
+          "titleNative": "身体自主权",
+          "titleVn": "Quyền tự chủ cơ thể",
+          "words": [
+            {
+              "id": "zh-topic-bodysafetyedu-shentizizhuquan",
+              "headword": "身体自主权",
+              "reading": "shēntǐ zìzhǔquán",
+              "meaningVn": "quyền tự chủ cơ thể",
+              "example": "家长从小教孩子认识身体自主权。",
+              "exampleVn": "Phụ huynh dạy con nhận thức về quyền tự chủ cơ thể từ nhỏ."
+            },
+            {
+              "id": "zh-topic-bodysafetyedu-buyuanyikeyijujue",
+              "headword": "不愿意可以拒绝",
+              "reading": "bùyuànyì kěyǐ jùjué",
+              "meaningVn": "không muốn thì có thể từ chối",
+              "example": "老师告诉孩子们不愿意可以拒绝。",
+              "exampleVn": "Cô giáo nói với các em không muốn thì có thể từ chối."
+            },
+            {
+              "id": "zh-topic-bodysafetyedu-haodechupengyubuhaodechupeng",
+              "headword": "好的触碰与不好的触碰",
+              "reading": "hǎo de chùpèng yǔ bùhǎo de chùpèng",
+              "meaningVn": "đụng chạm tốt và đụng chạm không tốt",
+              "example": "绘本区分了好的触碰与不好的触碰。",
+              "exampleVn": "Sách tranh phân biệt đụng chạm tốt và đụng chạm không tốt."
+            },
+            {
+              "id": "zh-topic-bodysafetyedu-shuobudequanli",
+              "headword": "说不的权利",
+              "reading": "shuōbù de quánlì",
+              "meaningVn": "quyền được nói không",
+              "example": "孩子要知道自己有说不的权利。",
+              "exampleVn": "Trẻ cần biết mình có quyền được nói không."
+            },
+            {
+              "id": "zh-topic-bodysafetyedu-xinrendechengnianren",
+              "headword": "信任的成年人",
+              "reading": "xìnrèn de chéngniánrén",
+              "meaningVn": "người lớn đáng tin cậy",
+              "example": "课程教孩子如何找到信任的成年人。",
+              "exampleVn": "Khóa học dạy trẻ cách tìm người lớn đáng tin cậy."
+            }
+          ]
+        },
+        {
+          "id": "abuse-prevention",
+          "titleNative": "防性侵教育",
+          "titleVn": "Giáo dục phòng chống xâm hại",
+          "words": [
+            {
+              "id": "zh-topic-bodysafetyedu-fangxingqinjiaoyu",
+              "headword": "防性侵教育",
+              "reading": "fáng xìngqīn jiàoyù",
+              "meaningVn": "giáo dục phòng chống xâm hại tình dục",
+              "example": "学校每学期都开展防性侵教育。",
+              "exampleVn": "Nhà trường mỗi học kỳ đều triển khai giáo dục phòng chống xâm hại tình dục."
+            },
+            {
+              "id": "zh-topic-bodysafetyedu-anquandemimiyubuanquandemimi",
+              "headword": "安全的秘密与不安全的秘密",
+              "reading": "ānquán de mìmì yǔ bù ānquán de mìmì",
+              "meaningVn": "bí mật an toàn và bí mật không an toàn",
+              "example": "老师讲解了安全的秘密与不安全的秘密的区别。",
+              "exampleVn": "Cô giáo giảng giải sự khác biệt giữa bí mật an toàn và bí mật không an toàn."
+            },
+            {
+              "id": "zh-topic-bodysafetyedu-moshengrenjingtiyishi",
+              "headword": "陌生人警惕意识",
+              "reading": "mòshēngrén jǐngtì yìshí",
+              "meaningVn": "ý thức cảnh giác với người lạ",
+              "example": "课堂培养孩子的陌生人警惕意识。",
+              "exampleVn": "Giờ học rèn luyện ý thức cảnh giác với người lạ cho trẻ."
+            },
+            {
+              "id": "zh-topic-bodysafetyedu-qiuzhuqudao",
+              "headword": "求助渠道",
+              "reading": "qiúzhù qúdào",
+              "meaningVn": "kênh cầu cứu",
+              "example": "老师列出了几种求助渠道。",
+              "exampleVn": "Cô giáo liệt kê ra mấy kênh cầu cứu."
+            },
+            {
+              "id": "zh-topic-bodysafetyedu-xiaoyuanfangxingqinanquanjiaoyu",
+              "headword": "校园防性侵安全教育",
+              "reading": "xiàoyuán fáng xìngqīn ānquán jiàoyù",
+              "meaningVn": "giáo dục an toàn phòng xâm hại học đường",
+              "example": "这是本学期的校园防性侵安全教育课程。",
+              "exampleVn": "Đây là chương trình giáo dục an toàn phòng xâm hại học đường của học kỳ này."
+            }
+          ]
+        },
+        {
+          "id": "parental-practice",
+          "titleNative": "家长实践",
+          "titleVn": "Thực hành của phụ huynh",
+          "words": [
+            {
+              "id": "zh-topic-bodysafetyedu-zhengquechenghushentibuwei",
+              "headword": "正确称呼身体部位",
+              "reading": "zhèngquè chēnghu shēntǐ bùwèi",
+              "meaningVn": "gọi đúng tên các bộ phận cơ thể",
+              "example": "专家建议从小正确称呼身体部位。",
+              "exampleVn": "Chuyên gia khuyên gọi đúng tên các bộ phận cơ thể từ nhỏ."
+            },
+            {
+              "id": "zh-topic-bodysafetyedu-zirantanrandetaidu",
+              "headword": "自然坦然的态度",
+              "reading": "zìrán tǎnrán de tàidu",
+              "meaningVn": "thái độ tự nhiên thoải mái",
+              "example": "家长要用自然坦然的态度和孩子交流。",
+              "exampleVn": "Phụ huynh nên dùng thái độ tự nhiên thoải mái để trò chuyện với con."
+            },
+            {
+              "id": "zh-topic-bodysafetyedu-qinzihuibengongdu",
+              "headword": "亲子绘本共读",
+              "reading": "qīnzǐ huìběn gòngdú",
+              "meaningVn": "cha mẹ và con cùng đọc sách tranh",
+              "example": "晚上她安排了亲子绘本共读时间。",
+              "exampleVn": "Buổi tối cô ấy sắp xếp thời gian cha mẹ và con cùng đọc sách tranh."
+            },
+            {
+              "id": "zh-topic-bodysafetyedu-huibigangaxinli",
+              "headword": "回避尴尬心理",
+              "reading": "huíbì gāngà xīnlǐ",
+              "meaningVn": "tâm lý né tránh vì ngại ngùng",
+              "example": "不少家长因为回避尴尬心理而不敢开口。",
+              "exampleVn": "Không ít phụ huynh vì tâm lý né tránh vì ngại ngùng mà không dám mở lời."
+            },
+            {
+              "id": "zh-topic-bodysafetyedu-xuexiaojiatingxietongjiaoyu",
+              "headword": "学校家庭协同教育",
+              "reading": "xuéxiào jiātíng xiétóng jiàoyù",
+              "meaningVn": "giáo dục phối hợp giữa nhà trường và gia đình",
+              "example": "这门课程强调学校家庭协同教育。",
+              "exampleVn": "Môn học này nhấn mạnh giáo dục phối hợp giữa nhà trường và gia đình."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-topic-elderly-grey-hair-dyeing-scalp-care",
+      "language": "zh",
+      "titleNative": "老年白发染发与头皮护理",
+      "titleVn": "Nhuộm tóc bạc & chăm sóc da đầu cho người già",
+      "branches": [
+        {
+          "id": "grey-hair-issues",
+          "titleNative": "白发问题",
+          "titleVn": "Vấn đề tóc bạc",
+          "words": [
+            {
+              "id": "zh-topic-hairdyeelderly-baifa",
+              "headword": "白发",
+              "reading": "báifà",
+              "meaningVn": "tóc bạc",
+              "example": "奶奶最近白发多了不少。",
+              "exampleVn": "Gần đây tóc bạc của bà nhiều lên không ít."
+            },
+            {
+              "id": "zh-topic-hairdyeelderly-shaobaitou",
+              "headword": "少白头",
+              "reading": "shàobáitóu",
+              "meaningVn": "tóc bạc sớm",
+              "example": "他三十岁就有少白头的困扰。",
+              "exampleVn": "Anh ấy ba mươi tuổi đã có nỗi lo tóc bạc sớm."
+            },
+            {
+              "id": "zh-topic-hairdyeelderly-yalixingbaifa",
+              "headword": "压力性白发",
+              "reading": "yālìxìng báifà",
+              "meaningVn": "tóc bạc do căng thẳng",
+              "example": "加班太多导致压力性白发。",
+              "exampleVn": "Tăng ca quá nhiều dẫn đến tóc bạc do căng thẳng."
+            },
+            {
+              "id": "zh-topic-hairdyeelderly-yichuanxingbaifa",
+              "headword": "遗传性白发",
+              "reading": "yíchuánxìng báifà",
+              "meaningVn": "tóc bạc do di truyền",
+              "example": "家里几代人都有遗传性白发。",
+              "exampleVn": "Mấy đời trong nhà đều có tóc bạc do di truyền."
+            },
+            {
+              "id": "zh-topic-hairdyeelderly-baifabilizengduo",
+              "headword": "白发比例增多",
+              "reading": "báifà bǐlì zēngduō",
+              "meaningVn": "tỷ lệ tóc bạc tăng lên",
+              "example": "进入六十岁后白发比例增多明显。",
+              "exampleVn": "Sau khi bước qua sáu mươi tuổi tỷ lệ tóc bạc tăng lên rõ rệt."
+            }
+          ]
+        },
+        {
+          "id": "dyeing-choices",
+          "titleNative": "染发选择",
+          "titleVn": "Lựa chọn nhuộm tóc",
+          "words": [
+            {
+              "id": "zh-topic-hairdyeelderly-zhiwuranfaji",
+              "headword": "植物染发剂",
+              "reading": "zhíwù rǎnfàjì",
+              "meaningVn": "thuốc nhuộm tóc thảo dược",
+              "example": "她选用了刺激性较小的植物染发剂。",
+              "exampleVn": "Bà chọn dùng thuốc nhuộm tóc thảo dược ít kích ứng hơn."
+            },
+            {
+              "id": "zh-topic-hairdyeelderly-huaxueranfaji",
+              "headword": "化学染发剂",
+              "reading": "huàxué rǎnfàjì",
+              "meaningVn": "thuốc nhuộm tóc hóa học",
+              "example": "化学染发剂遮盖白发效果更持久。",
+              "exampleVn": "Thuốc nhuộm tóc hóa học che phủ tóc bạc hiệu quả lâu hơn."
+            },
+            {
+              "id": "zh-topic-hairdyeelderly-ranfagaozijidongshou",
+              "headword": "染发膏自己动手",
+              "reading": "rǎnfàgāo zìjǐ dòngshǒu",
+              "meaningVn": "tự nhuộm tóc tại nhà",
+              "example": "为了省钱她选择染发膏自己动手。",
+              "exampleVn": "Để tiết kiệm tiền bà chọn tự nhuộm tóc tại nhà."
+            },
+            {
+              "id": "zh-topic-hairdyeelderly-lifadianzhuanyeranfa",
+              "headword": "理发店专业染发",
+              "reading": "lǐfàdiàn zhuānyè rǎnfà",
+              "meaningVn": "nhuộm tóc chuyên nghiệp tại tiệm",
+              "example": "她更信赖理发店专业染发。",
+              "exampleVn": "Bà tin tưởng hơn vào nhuộm tóc chuyên nghiệp tại tiệm."
+            },
+            {
+              "id": "zh-topic-hairdyeelderly-ranfapinlv",
+              "headword": "染发频率",
+              "reading": "rǎnfà pínlǜ",
+              "meaningVn": "tần suất nhuộm tóc",
+              "example": "医生建议控制染发频率。",
+              "exampleVn": "Bác sĩ khuyên kiểm soát tần suất nhuộm tóc."
+            }
+          ]
+        },
+        {
+          "id": "scalp-health",
+          "titleNative": "头皮健康",
+          "titleVn": "Sức khỏe da đầu",
+          "words": [
+            {
+              "id": "zh-topic-hairdyeelderly-toupiguominceshi",
+              "headword": "头皮过敏测试",
+              "reading": "tóupí guòmǐn cèshì",
+              "meaningVn": "thử phản ứng dị ứng da đầu",
+              "example": "染发前她做了头皮过敏测试。",
+              "exampleVn": "Trước khi nhuộm bà đã thử phản ứng dị ứng da đầu."
+            },
+            {
+              "id": "zh-topic-hairdyeelderly-ranfajiciji",
+              "headword": "染发剂刺激",
+              "reading": "rǎnfàjì cìjī",
+              "meaningVn": "kích ứng do thuốc nhuộm",
+              "example": "头皮出现了染发剂刺激的红疹。",
+              "exampleVn": "Da đầu xuất hiện mẩn đỏ do kích ứng thuốc nhuộm."
+            },
+            {
+              "id": "zh-topic-hairdyeelderly-toupipingzhangshousun",
+              "headword": "头皮屏障受损",
+              "reading": "tóupí píngzhàng shòusǔn",
+              "meaningVn": "hàng rào bảo vệ da đầu bị tổn thương",
+              "example": "频繁染发会导致头皮屏障受损。",
+              "exampleVn": "Nhuộm tóc thường xuyên sẽ khiến hàng rào bảo vệ da đầu bị tổn thương."
+            },
+            {
+              "id": "zh-topic-hairdyeelderly-ranfadaozhituofa",
+              "headword": "染发导致脱发",
+              "reading": "rǎnfà dǎozhì tuōfà",
+              "meaningVn": "nhuộm tóc gây rụng tóc",
+              "example": "有人担心染发导致脱发。",
+              "exampleVn": "Có người lo lắng nhuộm tóc gây rụng tóc."
+            },
+            {
+              "id": "zh-topic-hairdyeelderly-toupihulijinghua",
+              "headword": "头皮护理精华",
+              "reading": "tóupí hùlǐ jīnghuá",
+              "meaningVn": "tinh chất chăm sóc da đầu",
+              "example": "染后她会用头皮护理精华修复。",
+              "exampleVn": "Sau khi nhuộm bà sẽ dùng tinh chất chăm sóc da đầu để phục hồi."
+            }
+          ]
+        },
+        {
+          "id": "safety-tips-hairdye",
+          "titleNative": "安全提示",
+          "titleVn": "Lưu ý an toàn",
+          "words": [
+            {
+              "id": "zh-topic-hairdyeelderly-ranfaqianpifuceshi",
+              "headword": "染发前皮肤测试",
+              "reading": "rǎnfà qián pífū cèshì",
+              "meaningVn": "thử da trước khi nhuộm",
+              "example": "理发师建议染发前皮肤测试。",
+              "exampleVn": "Thợ làm tóc khuyên thử da trước khi nhuộm."
+            },
+            {
+              "id": "zh-topic-hairdyeelderly-yunqibimianranfa",
+              "headword": "孕期避免染发",
+              "reading": "yùnqī bìmiǎn rǎnfà",
+              "meaningVn": "tránh nhuộm tóc khi mang thai",
+              "example": "医生建议孕期避免染发。",
+              "exampleVn": "Bác sĩ khuyên tránh nhuộm tóc khi mang thai."
+            },
+            {
+              "id": "zh-topic-hairdyeelderly-huaxuechengfenzhimin",
+              "headword": "化学成分致敏",
+              "reading": "huàxué chéngfèn zhìmǐn",
+              "meaningVn": "thành phần hóa học gây dị ứng",
+              "example": "部分染发剂的化学成分致敏率较高。",
+              "exampleVn": "Một số thuốc nhuộm có thành phần hóa học gây dị ứng tỷ lệ khá cao."
+            },
+            {
+              "id": "zh-topic-hairdyeelderly-ranhouqingjietoupi",
+              "headword": "染后清洁头皮",
+              "reading": "rǎn hòu qīngjié tóupí",
+              "meaningVn": "vệ sinh da đầu sau khi nhuộm",
+              "example": "染后清洁头皮能减少残留刺激。",
+              "exampleVn": "Vệ sinh da đầu sau khi nhuộm có thể giảm kích ứng còn sót lại."
+            },
+            {
+              "id": "zh-topic-hairdyeelderly-xuanzezhengguipinpai",
+              "headword": "选择正规品牌",
+              "reading": "xuǎnzé zhèngguī pǐnpái",
+              "meaningVn": "chọn thương hiệu chính hãng",
+              "example": "专家提醒一定要选择正规品牌。",
+              "exampleVn": "Chuyên gia nhắc nhất định phải chọn thương hiệu chính hãng."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-topic-elderly-insomnia-sleep-aid",
+      "language": "zh",
+      "titleNative": "老年失眠与助眠调理",
+      "titleVn": "Mất ngủ & điều hòa giấc ngủ cho người già",
+      "branches": [
+        {
+          "id": "insomnia-types",
+          "titleNative": "失眠类型",
+          "titleVn": "Các loại mất ngủ",
+          "words": [
+            {
+              "id": "zh-topic-insomnia-rushuikunnan",
+              "headword": "入睡困难",
+              "reading": "rùshuì kùnnán",
+              "meaningVn": "khó vào giấc ngủ",
+              "example": "爷爷最近总是入睡困难。",
+              "exampleVn": "Gần đây ông nội lúc nào cũng khó vào giấc ngủ."
+            },
+            {
+              "id": "zh-topic-insomnia-zaoxing",
+              "headword": "早醒",
+              "reading": "zǎoxǐng",
+              "meaningVn": "tỉnh giấc quá sớm",
+              "example": "她凌晨四点就早醒,再也睡不着。",
+              "exampleVn": "Bà bốn giờ sáng đã tỉnh giấc quá sớm, không ngủ lại được nữa."
+            },
+            {
+              "id": "zh-topic-insomnia-shuimianqian",
+              "headword": "睡眠浅",
+              "reading": "shuìmián qiǎn",
+              "meaningVn": "ngủ không sâu giấc",
+              "example": "年纪大了睡眠浅是常见现象。",
+              "exampleVn": "Tuổi cao rồi ngủ không sâu giấc là hiện tượng thường gặp."
+            },
+            {
+              "id": "zh-topic-insomnia-zhouyediandao",
+              "headword": "昼夜颠倒",
+              "reading": "zhòuyè diāndǎo",
+              "meaningVn": "đảo lộn ngày đêm",
+              "example": "住院后老人昼夜颠倒更严重了。",
+              "exampleVn": "Sau khi nằm viện tình trạng đảo lộn ngày đêm của cụ nghiêm trọng hơn."
+            },
+            {
+              "id": "zh-topic-insomnia-manxingshimian",
+              "headword": "慢性失眠",
+              "reading": "mànxìng shīmián",
+              "meaningVn": "mất ngủ mãn tính",
+              "example": "医生诊断她患有慢性失眠。",
+              "exampleVn": "Bác sĩ chẩn đoán bà mắc chứng mất ngủ mãn tính."
+            }
+          ]
+        },
+        {
+          "id": "cause-analysis",
+          "titleNative": "原因分析",
+          "titleVn": "Phân tích nguyên nhân",
+          "words": [
+            {
+              "id": "zh-topic-insomnia-jiaolvqingxuyingxiangshuimian",
+              "headword": "焦虑情绪影响睡眠",
+              "reading": "jiāolǜ qíngxù yǐngxiǎng shuìmián",
+              "meaningVn": "lo âu ảnh hưởng đến giấc ngủ",
+              "example": "医生认为是焦虑情绪影响睡眠。",
+              "exampleVn": "Bác sĩ cho rằng đó là do lo âu ảnh hưởng đến giấc ngủ."
+            },
+            {
+              "id": "zh-topic-insomnia-manxingbingyingxiangshuimian",
+              "headword": "慢性病影响睡眠",
+              "reading": "mànxìngbìng yǐngxiǎng shuìmián",
+              "meaningVn": "bệnh mãn tính ảnh hưởng đến giấc ngủ",
+              "example": "关节疼痛这种慢性病影响睡眠。",
+              "exampleVn": "Đau khớp loại bệnh mãn tính này ảnh hưởng đến giấc ngủ."
+            },
+            {
+              "id": "zh-topic-insomnia-yaowufuzuoyongshimian",
+              "headword": "药物副作用失眠",
+              "reading": "yàowù fùzuòyòng shīmián",
+              "meaningVn": "mất ngủ do tác dụng phụ của thuốc",
+              "example": "医生调整了引起药物副作用失眠的药方。",
+              "exampleVn": "Bác sĩ đã điều chỉnh đơn thuốc gây mất ngủ do tác dụng phụ."
+            },
+            {
+              "id": "zh-topic-insomnia-tuiheisufenmijianshao",
+              "headword": "褪黑素分泌减少",
+              "reading": "tuìhēisù fēnmì jiǎnshǎo",
+              "meaningVn": "giảm tiết melatonin",
+              "example": "年龄增长会导致褪黑素分泌减少。",
+              "exampleVn": "Tuổi tác tăng lên sẽ khiến giảm tiết melatonin."
+            },
+            {
+              "id": "zh-topic-insomnia-baitianjiuzuoshaodong",
+              "headword": "白天久坐少动",
+              "reading": "báitiān jiǔzuò shǎodòng",
+              "meaningVn": "ban ngày ngồi lâu ít vận động",
+              "example": "白天久坐少动也会影响晚上睡眠。",
+              "exampleVn": "Ban ngày ngồi lâu ít vận động cũng sẽ ảnh hưởng đến giấc ngủ ban đêm."
+            }
+          ]
+        },
+        {
+          "id": "sleep-aid-methods",
+          "titleNative": "助眠方法",
+          "titleVn": "Phương pháp hỗ trợ giấc ngủ",
+          "words": [
+            {
+              "id": "zh-topic-insomnia-shuiqianpaojiao",
+              "headword": "睡前泡脚",
+              "reading": "shuìqián pàojiǎo",
+              "meaningVn": "ngâm chân trước khi ngủ",
+              "example": "她每晚坚持睡前泡脚。",
+              "exampleVn": "Mỗi tối bà kiên trì ngâm chân trước khi ngủ."
+            },
+            {
+              "id": "zh-topic-insomnia-zhumianyinyue",
+              "headword": "助眠音乐",
+              "reading": "zhùmián yīnyuè",
+              "meaningVn": "nhạc hỗ trợ giấc ngủ",
+              "example": "睡前听点助眠音乐能放松心情。",
+              "exampleVn": "Nghe chút nhạc hỗ trợ giấc ngủ trước khi ngủ có thể thư giãn tâm trạng."
+            },
+            {
+              "id": "zh-topic-insomnia-guilvzuoxishijian",
+              "headword": "规律作息时间",
+              "reading": "guīlǜ zuòxī shíjiān",
+              "meaningVn": "giờ giấc sinh hoạt điều độ",
+              "example": "医生建议她保持规律作息时间。",
+              "exampleVn": "Bác sĩ khuyên bà giữ giờ giấc sinh hoạt điều độ."
+            },
+            {
+              "id": "zh-topic-insomnia-tuiheisubuchongji",
+              "headword": "褪黑素补充剂",
+              "reading": "tuìhēisù bǔchōngjì",
+              "meaningVn": "viên bổ sung melatonin",
+              "example": "医生给她开了褪黑素补充剂。",
+              "exampleVn": "Bác sĩ kê cho bà viên bổ sung melatonin."
+            },
+            {
+              "id": "zh-topic-insomnia-shuiqianbimiandianzipingmu",
+              "headword": "睡前避免电子屏幕",
+              "reading": "shuìqián bìmiǎn diànzǐ píngmù",
+              "meaningVn": "tránh màn hình điện tử trước khi ngủ",
+              "example": "专家建议睡前避免电子屏幕。",
+              "exampleVn": "Chuyên gia khuyên tránh màn hình điện tử trước khi ngủ."
+            }
+          ]
+        },
+        {
+          "id": "medical-treatment-insomnia",
+          "titleNative": "就医与治疗",
+          "titleVn": "Khám bệnh & điều trị",
+          "words": [
+            {
+              "id": "zh-topic-insomnia-shuimianjiance",
+              "headword": "睡眠监测",
+              "reading": "shuìmián jiāncè",
+              "meaningVn": "theo dõi giấc ngủ",
+              "example": "医院给她安排了一晚睡眠监测。",
+              "exampleVn": "Bệnh viện sắp xếp cho bà một đêm theo dõi giấc ngủ."
+            },
+            {
+              "id": "zh-topic-insomnia-anmianyaoyilaifengxian",
+              "headword": "安眠药依赖风险",
+              "reading": "ānmiányào yīlài fēngxiǎn",
+              "meaningVn": "nguy cơ lệ thuộc thuốc ngủ",
+              "example": "医生提醒安眠药依赖风险不能忽视。",
+              "exampleVn": "Bác sĩ nhắc nguy cơ lệ thuộc thuốc ngủ không thể xem nhẹ."
+            },
+            {
+              "id": "zh-topic-insomnia-renzhixingweiliaofa",
+              "headword": "认知行为疗法",
+              "reading": "rènzhī xíngwéi liáofǎ",
+              "meaningVn": "liệu pháp nhận thức hành vi",
+              "example": "医生推荐尝试认知行为疗法。",
+              "exampleVn": "Bác sĩ khuyên thử liệu pháp nhận thức hành vi."
+            },
+            {
+              "id": "zh-topic-insomnia-zhongyitiaolishimian",
+              "headword": "中医调理失眠",
+              "reading": "zhōngyī tiáolǐ shīmián",
+              "meaningVn": "điều hòa mất ngủ bằng đông y",
+              "example": "她选择了中医调理失眠。",
+              "exampleVn": "Bà chọn điều hòa mất ngủ bằng đông y."
+            },
+            {
+              "id": "zh-topic-insomnia-shuimianmenzhenjiuzhen",
+              "headword": "睡眠门诊就诊",
+              "reading": "shuìmián ménzhěn jiùzhěn",
+              "meaningVn": "khám tại phòng khám giấc ngủ",
+              "example": "失眠严重后她去做了睡眠门诊就诊。",
+              "exampleVn": "Sau khi mất ngủ nghiêm trọng bà đã đi khám tại phòng khám giấc ngủ."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-topic-kids-allergic-rhinitis-seasonal-allergy",
+      "language": "zh",
+      "titleNative": "儿童过敏性鼻炎与季节性过敏",
+      "titleVn": "Viêm mũi dị ứng & dị ứng theo mùa ở trẻ em",
+      "branches": [
+        {
+          "id": "symptoms-rhinitis",
+          "titleNative": "症状表现",
+          "titleVn": "Biểu hiện triệu chứng",
+          "words": [
+            {
+              "id": "zh-topic-rhinitis-dapentiliubiti",
+              "headword": "打喷嚏流鼻涕",
+              "reading": "dǎ pēntì liú bítì",
+              "meaningVn": "hắt hơi sổ mũi",
+              "example": "换季时孩子经常打喷嚏流鼻涕。",
+              "exampleVn": "Lúc giao mùa con thường xuyên hắt hơi sổ mũi."
+            },
+            {
+              "id": "zh-topic-rhinitis-biseyejianjiazhong",
+              "headword": "鼻塞夜间加重",
+              "reading": "bísè yèjiān jiāzhòng",
+              "meaningVn": "nghẹt mũi nặng hơn về đêm",
+              "example": "孩子鼻塞夜间加重,影响睡眠。",
+              "exampleVn": "Nghẹt mũi của con nặng hơn về đêm, ảnh hưởng giấc ngủ."
+            },
+            {
+              "id": "zh-topic-rhinitis-guominxingheiyanquan",
+              "headword": "过敏性黑眼圈",
+              "reading": "guòmǐnxìng hēiyǎnquān",
+              "meaningVn": "quầng thâm mắt do dị ứng",
+              "example": "医生一眼就看出孩子有过敏性黑眼圈。",
+              "exampleVn": "Bác sĩ nhìn một cái đã nhận ra con có quầng thâm mắt do dị ứng."
+            },
+            {
+              "id": "zh-topic-rhinitis-roubizicuoyanjing",
+              "headword": "揉鼻子搓眼睛",
+              "reading": "róu bízi cuō yǎnjing",
+              "meaningVn": "dụi mũi dụi mắt",
+              "example": "孩子总是揉鼻子搓眼睛。",
+              "exampleVn": "Con lúc nào cũng dụi mũi dụi mắt."
+            },
+            {
+              "id": "zh-topic-rhinitis-fanfuqingsangzi",
+              "headword": "反复清嗓子",
+              "reading": "fǎnfù qīng sǎngzi",
+              "meaningVn": "hắng giọng liên tục",
+              "example": "过敏期间孩子会反复清嗓子。",
+              "exampleVn": "Trong thời gian dị ứng con sẽ hắng giọng liên tục."
+            }
+          ]
+        },
+        {
+          "id": "allergy-causes",
+          "titleNative": "过敏原因",
+          "titleVn": "Nguyên nhân dị ứng",
+          "words": [
+            {
+              "id": "zh-topic-rhinitis-huafenguomin",
+              "headword": "花粉过敏",
+              "reading": "huāfěn guòmǐn",
+              "meaningVn": "dị ứng phấn hoa",
+              "example": "春天是花粉过敏的高发期。",
+              "exampleVn": "Mùa xuân là giai đoạn dị ứng phấn hoa phổ biến nhất."
+            },
+            {
+              "id": "zh-topic-rhinitis-chenmanguomin",
+              "headword": "尘螨过敏",
+              "reading": "chénmǎn guòmǐn",
+              "meaningVn": "dị ứng mạt bụi",
+              "example": "检测结果显示孩子对尘螨过敏。",
+              "exampleVn": "Kết quả xét nghiệm cho thấy con bị dị ứng mạt bụi."
+            },
+            {
+              "id": "zh-topic-rhinitis-chongwupixieguomin",
+              "headword": "宠物皮屑过敏",
+              "reading": "chǒngwù píxiè guòmǐn",
+              "meaningVn": "dị ứng lông/vảy da thú cưng",
+              "example": "养猫后才发现孩子宠物皮屑过敏。",
+              "exampleVn": "Nuôi mèo rồi mới phát hiện con bị dị ứng lông vảy da thú cưng."
+            },
+            {
+              "id": "zh-topic-rhinitis-jijiejiaotiyoufa",
+              "headword": "季节交替诱发",
+              "reading": "jìjié jiāotì yòufā",
+              "meaningVn": "khởi phát khi giao mùa",
+              "example": "症状常在季节交替诱发下加重。",
+              "exampleVn": "Triệu chứng thường nặng hơn khi khởi phát vào lúc giao mùa."
+            },
+            {
+              "id": "zh-topic-rhinitis-kongqiwuranjiazhongzhengzhuang",
+              "headword": "空气污染加重症状",
+              "reading": "kōngqì wūrǎn jiāzhòng zhèngzhuàng",
+              "meaningVn": "ô nhiễm không khí làm nặng triệu chứng",
+              "example": "雾霾天空气污染加重症状明显。",
+              "exampleVn": "Ngày sương mù ô nhiễm không khí làm nặng triệu chứng rõ rệt."
+            }
+          ]
+        },
+        {
+          "id": "diagnosis-testing",
+          "titleNative": "诊断与检测",
+          "titleVn": "Chẩn đoán & xét nghiệm",
+          "words": [
+            {
+              "id": "zh-topic-rhinitis-guominyuanshaicha",
+              "headword": "过敏原筛查",
+              "reading": "guòmǐnyuán shāichá",
+              "meaningVn": "sàng lọc dị nguyên",
+              "example": "医生建议先做过敏原筛查。",
+              "exampleVn": "Bác sĩ khuyên làm sàng lọc dị nguyên trước."
+            },
+            {
+              "id": "zh-topic-rhinitis-bineijingjiancha",
+              "headword": "鼻内镜检查",
+              "reading": "bí nèijìng jiǎnchá",
+              "meaningVn": "nội soi mũi",
+              "example": "医生通过鼻内镜检查确诊。",
+              "exampleVn": "Bác sĩ xác chẩn thông qua nội soi mũi."
+            },
+            {
+              "id": "zh-topic-rhinitis-guominyuganmaoqufen",
+              "headword": "过敏与感冒区分",
+              "reading": "guòmǐn yǔ gǎnmào qūfēn",
+              "meaningVn": "phân biệt dị ứng và cảm cúm",
+              "example": "家长常常搞不清过敏与感冒区分。",
+              "exampleVn": "Phụ huynh thường không phân biệt rõ dị ứng và cảm cúm."
+            },
+            {
+              "id": "zh-topic-rhinitis-pifudiancishiyan",
+              "headword": "皮肤点刺试验",
+              "reading": "pífū diǎncì shìyàn",
+              "meaningVn": "xét nghiệm lẩy da",
+              "example": "孩子做了皮肤点刺试验找过敏原。",
+              "exampleVn": "Con đã làm xét nghiệm lẩy da để tìm dị nguyên."
+            },
+            {
+              "id": "zh-topic-rhinitis-xueqingteyixingkangtijiance",
+              "headword": "血清特异性抗体检测",
+              "reading": "xuèqīng tèyìxìng kàngtǐ jiǎncè",
+              "meaningVn": "xét nghiệm kháng thể đặc hiệu trong huyết thanh",
+              "example": "医院还做了血清特异性抗体检测。",
+              "exampleVn": "Bệnh viện còn làm xét nghiệm kháng thể đặc hiệu trong huyết thanh."
+            }
+          ]
+        },
+        {
+          "id": "treatment-prevention",
+          "titleNative": "治疗与预防",
+          "titleVn": "Điều trị & phòng ngừa",
+          "words": [
+            {
+              "id": "zh-topic-rhinitis-kangzuanyaowu",
+              "headword": "抗组胺药物",
+              "reading": "kàngzǔ'àn yàowù",
+              "meaningVn": "thuốc kháng histamin",
+              "example": "医生开了抗组胺药物缓解症状。",
+              "exampleVn": "Bác sĩ kê thuốc kháng histamin để giảm triệu chứng."
+            },
+            {
+              "id": "zh-topic-rhinitis-bipenjisu",
+              "headword": "鼻喷激素",
+              "reading": "bí pēn jīsù",
+              "meaningVn": "xịt mũi chứa corticoid",
+              "example": "严重时会用到鼻喷激素。",
+              "exampleVn": "Khi nghiêm trọng sẽ dùng đến xịt mũi chứa corticoid."
+            },
+            {
+              "id": "zh-topic-rhinitis-shengliyanshuixibi",
+              "headword": "生理盐水洗鼻",
+              "reading": "shēnglǐ yánshuǐ xǐbí",
+              "meaningVn": "rửa mũi bằng nước muối sinh lý",
+              "example": "每天用生理盐水洗鼻能缓解鼻塞。",
+              "exampleVn": "Mỗi ngày rửa mũi bằng nước muối sinh lý có thể giảm nghẹt mũi."
+            },
+            {
+              "id": "zh-topic-rhinitis-jianshaojiechuguominyuan",
+              "headword": "减少接触过敏原",
+              "reading": "jiǎnshǎo jiēchù guòmǐnyuán",
+              "meaningVn": "giảm tiếp xúc dị nguyên",
+              "example": "最有效的办法还是减少接触过敏原。",
+              "exampleVn": "Cách hiệu quả nhất vẫn là giảm tiếp xúc dị nguyên."
+            },
+            {
+              "id": "zh-topic-rhinitis-jiayongkongqijinghuaqi",
+              "headword": "家用空气净化器",
+              "reading": "jiāyòng kōngqì jìnghuàqì",
+              "meaningVn": "máy lọc không khí gia đình",
+              "example": "卧室放了一台家用空气净化器。",
+              "exampleVn": "Phòng ngủ đặt một chiếc máy lọc không khí gia đình."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-topic-elderly-osteoporosis-calcium-fall-prevention",
+      "language": "zh",
+      "titleNative": "老年骨质疏松与补钙防摔",
+      "titleVn": "Loãng xương & bổ sung canxi phòng té ngã cho người già",
+      "branches": [
+        {
+          "id": "osteoporosis-basics",
+          "titleNative": "骨质疏松基础",
+          "titleVn": "Kiến thức cơ bản về loãng xương",
+          "words": [
+            {
+              "id": "zh-topic-osteoporosis-laonianguzhishusongzheng",
+              "headword": "老年骨质疏松症",
+              "reading": "lǎonián gǔzhì shūsōngzhèng",
+              "meaningVn": "bệnh loãng xương ở người già",
+              "example": "体检结果显示她患有老年骨质疏松症。",
+              "exampleVn": "Kết quả khám sức khỏe cho thấy bà mắc bệnh loãng xương ở người già."
+            },
+            {
+              "id": "zh-topic-osteoporosis-guliangjianshao",
+              "headword": "骨量减少",
+              "reading": "gǔliàng jiǎnshǎo",
+              "meaningVn": "giảm khối lượng xương",
+              "example": "检查报告提示骨量减少。",
+              "exampleVn": "Báo cáo kiểm tra cho thấy giảm khối lượng xương."
+            },
+            {
+              "id": "zh-topic-osteoporosis-juejinghouguliushi",
+              "headword": "绝经后骨流失",
+              "reading": "juéjīng hòu gǔ liúshī",
+              "meaningVn": "mất xương sau mãn kinh",
+              "example": "绝经后骨流失速度会加快。",
+              "exampleVn": "Tốc độ mất xương sau mãn kinh sẽ tăng nhanh."
+            },
+            {
+              "id": "zh-topic-osteoporosis-guzhefengxianzengjia",
+              "headword": "骨折风险增加",
+              "reading": "gǔzhé fēngxiǎn zēngjiā",
+              "meaningVn": "tăng nguy cơ gãy xương",
+              "example": "骨质疏松会让骨折风险增加。",
+              "exampleVn": "Loãng xương sẽ khiến nguy cơ gãy xương tăng lên."
+            },
+            {
+              "id": "zh-topic-osteoporosis-tuobeiwanyao",
+              "headword": "驼背弯腰",
+              "reading": "tuóbèi wānyāo",
+              "meaningVn": "gù lưng khom người",
+              "example": "严重的骨质疏松会导致驼背弯腰。",
+              "exampleVn": "Loãng xương nghiêm trọng sẽ dẫn đến gù lưng khom người."
+            }
+          ]
+        },
+        {
+          "id": "testing-assessment",
+          "titleNative": "检测评估",
+          "titleVn": "Kiểm tra & đánh giá",
+          "words": [
+            {
+              "id": "zh-topic-osteoporosis-gumidushaicha",
+              "headword": "骨密度筛查",
+              "reading": "gǔmìdù shāichá",
+              "meaningVn": "sàng lọc mật độ xương",
+              "example": "社区义诊提供免费骨密度筛查。",
+              "exampleVn": "Khám miễn phí cộng đồng cung cấp sàng lọc mật độ xương miễn phí."
+            },
+            {
+              "id": "zh-topic-osteoporosis-shuangnenggumidujiance",
+              "headword": "双能骨密度检测",
+              "reading": "shuāngnéng gǔmìdù jiǎncè",
+              "meaningVn": "đo mật độ xương năng lượng kép",
+              "example": "医院用双能骨密度检测做精确诊断。",
+              "exampleVn": "Bệnh viện dùng đo mật độ xương năng lượng kép để chẩn đoán chính xác."
+            },
+            {
+              "id": "zh-topic-osteoporosis-gumidujiancepingfen",
+              "headword": "骨密度检测评分",
+              "reading": "gǔmìdù jiǎncè píngfēn",
+              "meaningVn": "điểm số đo mật độ xương",
+              "example": "报告上有一项骨密度检测评分。",
+              "exampleVn": "Trên báo cáo có một mục điểm số đo mật độ xương."
+            },
+            {
+              "id": "zh-topic-osteoporosis-gudaixiezhibiao",
+              "headword": "骨代谢指标",
+              "reading": "gǔ dàixiè zhǐbiāo",
+              "meaningVn": "chỉ số chuyển hóa xương",
+              "example": "化验单上还有骨代谢指标。",
+              "exampleVn": "Trên phiếu xét nghiệm còn có chỉ số chuyển hóa xương."
+            },
+            {
+              "id": "zh-topic-osteoporosis-diedaofengxianpinggu",
+              "headword": "跌倒风险评估",
+              "reading": "diēdǎo fēngxiǎn pínggū",
+              "meaningVn": "đánh giá nguy cơ té ngã",
+              "example": "医生同时做了跌倒风险评估。",
+              "exampleVn": "Bác sĩ đồng thời làm đánh giá nguy cơ té ngã."
+            }
+          ]
+        },
+        {
+          "id": "calcium-nutrition",
+          "titleNative": "补钙与营养",
+          "titleVn": "Bổ sung canxi & dinh dưỡng",
+          "words": [
+            {
+              "id": "zh-topic-osteoporosis-gaijibuchong",
+              "headword": "钙剂补充",
+              "reading": "gàijì bǔchōng",
+              "meaningVn": "bổ sung viên canxi",
+              "example": "医生建议她每天做钙剂补充。",
+              "exampleVn": "Bác sĩ khuyên bà mỗi ngày bổ sung viên canxi."
+            },
+            {
+              "id": "zh-topic-osteoporosis-buchongweishengsucujingaixishou",
+              "headword": "补充维生素促进钙吸收",
+              "reading": "bǔchōng wéishēngsù cùjìn gài xīshōu",
+              "meaningVn": "bổ sung vitamin giúp hấp thu canxi",
+              "example": "单纯补钙还不够,要补充维生素促进钙吸收。",
+              "exampleVn": "Chỉ bổ sung canxi thôi chưa đủ, phải bổ sung vitamin giúp hấp thu canxi."
+            },
+            {
+              "id": "zh-topic-osteoporosis-gaogaishiwu",
+              "headword": "高钙食物",
+              "reading": "gāogài shíwù",
+              "meaningVn": "thực phẩm giàu canxi",
+              "example": "牛奶和豆制品都是高钙食物。",
+              "exampleVn": "Sữa và các sản phẩm từ đậu đều là thực phẩm giàu canxi."
+            },
+            {
+              "id": "zh-topic-osteoporosis-shaitaiyangbugai",
+              "headword": "晒太阳补钙",
+              "reading": "shài tàiyáng bǔgài",
+              "meaningVn": "phơi nắng để bổ sung canxi",
+              "example": "每天上午晒太阳补钙半小时。",
+              "exampleVn": "Mỗi buổi sáng phơi nắng để bổ sung canxi nửa tiếng."
+            },
+            {
+              "id": "zh-topic-osteoporosis-bimianguoliangkafeiyin",
+              "headword": "避免过量咖啡因",
+              "reading": "bìmiǎn guòliàng kāfēiyīn",
+              "meaningVn": "tránh caffeine quá mức",
+              "example": "医生提醒要避免过量咖啡因。",
+              "exampleVn": "Bác sĩ nhắc phải tránh caffeine quá mức."
+            }
+          ]
+        },
+        {
+          "id": "fall-fracture-prevention",
+          "titleNative": "防摔骨折",
+          "titleVn": "Phòng ngừa té ngã gãy xương",
+          "words": [
+            {
+              "id": "zh-topic-osteoporosis-kuanbuguzhe",
+              "headword": "髋部骨折",
+              "reading": "kuānbù gǔzhé",
+              "meaningVn": "gãy xương hông",
+              "example": "老年人最怕的就是髋部骨折。",
+              "exampleVn": "Điều người già sợ nhất chính là gãy xương hông."
+            },
+            {
+              "id": "zh-topic-osteoporosis-jiazhongfanghuagaizao",
+              "headword": "家中防滑改造",
+              "reading": "jiāzhōng fánghuá gǎizào",
+              "meaningVn": "cải tạo chống trơn trượt trong nhà",
+              "example": "子女给老人做了家中防滑改造。",
+              "exampleVn": "Con cái đã làm cải tạo chống trơn trượt trong nhà cho cụ."
+            },
+            {
+              "id": "zh-topic-osteoporosis-zhuxingqifuzhu",
+              "headword": "助行器辅助",
+              "reading": "zhùxíngqì fǔzhù",
+              "meaningVn": "hỗ trợ bằng khung tập đi",
+              "example": "出门时她需要助行器辅助。",
+              "exampleVn": "Lúc ra ngoài bà cần hỗ trợ bằng khung tập đi."
+            },
+            {
+              "id": "zh-topic-osteoporosis-fuzhongyundongqiangjianguge",
+              "headword": "负重运动强健骨骼",
+              "reading": "fùzhòng yùndòng qiángjiàn gǔgé",
+              "meaningVn": "vận động chịu lực tăng cường xương chắc khỏe",
+              "example": "医生建议适度做负重运动强健骨骼。",
+              "exampleVn": "Bác sĩ khuyên vận động chịu lực vừa phải để tăng cường xương chắc khỏe."
+            },
+            {
+              "id": "zh-topic-osteoporosis-guzheshuhoukangfuqi",
+              "headword": "骨折术后康复期",
+              "reading": "gǔzhé shùhòu kāngfùqī",
+              "meaningVn": "giai đoạn phục hồi sau phẫu thuật gãy xương",
+              "example": "骨折术后康复期需要三个月左右。",
+              "exampleVn": "Giai đoạn phục hồi sau phẫu thuật gãy xương cần khoảng ba tháng."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-topic-home-dishwasher-kitchen-appliances",
+      "language": "zh",
+      "titleNative": "家庭洗碗机与厨房小家电",
+      "titleVn": "Máy rửa bát & đồ gia dụng bếp nhỏ",
+      "branches": [
+        {
+          "id": "dishwashers",
+          "titleNative": "洗碗机",
+          "titleVn": "Máy rửa bát",
+          "words": [
+            {
+              "id": "zh-topic-kitchenappliance-xiwanji",
+              "headword": "洗碗机",
+              "reading": "xǐwǎnjī",
+              "meaningVn": "máy rửa bát",
+              "example": "新厨房装了一台洗碗机。",
+              "exampleVn": "Bếp mới lắp một chiếc máy rửa bát."
+            },
+            {
+              "id": "zh-topic-kitchenappliance-qianrushianzhuang",
+              "headword": "嵌入式安装",
+              "reading": "qiànrùshì ānzhuāng",
+              "meaningVn": "lắp đặt âm tủ",
+              "example": "洗碗机做了嵌入式安装,更美观。",
+              "exampleVn": "Máy rửa bát được lắp đặt âm tủ, trông đẹp hơn."
+            },
+            {
+              "id": "zh-topic-kitchenappliance-xiwanjizhuanyongxidikuai",
+              "headword": "洗碗机专用洗涤块",
+              "reading": "xǐwǎnjī zhuānyòng xǐdíkuài",
+              "meaningVn": "viên rửa chuyên dụng cho máy rửa bát",
+              "example": "她网购了洗碗机专用洗涤块。",
+              "exampleVn": "Cô ấy đặt mua online viên rửa chuyên dụng cho máy rửa bát."
+            },
+            {
+              "id": "zh-topic-kitchenappliance-canjuyuchuli",
+              "headword": "餐具预处理",
+              "reading": "cānjù yùchǔlǐ",
+              "meaningVn": "xử lý sơ bộ chén đĩa trước khi rửa",
+              "example": "放入洗碗机前要做餐具预处理。",
+              "exampleVn": "Trước khi cho vào máy rửa bát phải xử lý sơ bộ chén đĩa."
+            },
+            {
+              "id": "zh-topic-kitchenappliance-jieshuijiedianxiaoguo",
+              "headword": "节水节电效果",
+              "reading": "jiéshuǐ jiédiàn xiàoguǒ",
+              "meaningVn": "hiệu quả tiết kiệm nước điện",
+              "example": "这款洗碗机的节水节电效果很好。",
+              "exampleVn": "Chiếc máy rửa bát này có hiệu quả tiết kiệm nước điện rất tốt."
+            }
+          ]
+        },
+        {
+          "id": "small-cooking-appliances",
+          "titleNative": "烹饪小家电",
+          "titleVn": "Đồ gia dụng nấu ăn nhỏ",
+          "words": [
+            {
+              "id": "zh-topic-kitchenappliance-kongqizhaguo",
+              "headword": "空气炸锅",
+              "reading": "kōngqì zháguō",
+              "meaningVn": "nồi chiên không dầu",
+              "example": "她用空气炸锅做鸡翅很方便。",
+              "exampleVn": "Cô ấy dùng nồi chiên không dầu làm cánh gà rất tiện."
+            },
+            {
+              "id": "zh-topic-kitchenappliance-pobiji",
+              "headword": "破壁机",
+              "reading": "pòbìjī",
+              "meaningVn": "máy xay đa năng tốc độ cao",
+              "example": "早餐豆浆都用破壁机打。",
+              "exampleVn": "Sữa đậu nành bữa sáng đều dùng máy xay đa năng tốc độ cao xay."
+            },
+            {
+              "id": "zh-topic-kitchenappliance-duogongnengdianfanbao",
+              "headword": "多功能电饭煲",
+              "reading": "duōgōngnéng diànfànbāo",
+              "meaningVn": "nồi cơm điện đa năng",
+              "example": "多功能电饭煲还能煮粥炖汤。",
+              "exampleVn": "Nồi cơm điện đa năng còn có thể nấu cháo hầm canh."
+            },
+            {
+              "id": "zh-topic-kitchenappliance-diankaoxiang",
+              "headword": "电烤箱",
+              "reading": "diànkǎoxiāng",
+              "meaningVn": "lò nướng điện",
+              "example": "周末她用电烤箱烤蛋糕。",
+              "exampleVn": "Cuối tuần cô ấy dùng lò nướng điện nướng bánh."
+            },
+            {
+              "id": "zh-topic-kitchenappliance-mandunguo",
+              "headword": "慢炖锅",
+              "reading": "màndùnguō",
+              "meaningVn": "nồi hầm chậm",
+              "example": "慢炖锅炖出来的汤特别香浓。",
+              "exampleVn": "Canh hầm bằng nồi hầm chậm đặc biệt thơm đậm đà."
+            }
+          ]
+        },
+        {
+          "id": "usage-maintenance-kitchen",
+          "titleNative": "使用与保养",
+          "titleVn": "Sử dụng & bảo dưỡng",
+          "words": [
+            {
+              "id": "zh-topic-kitchenappliance-qingjielvwang",
+              "headword": "清洁滤网",
+              "reading": "qīngjié lǜwǎng",
+              "meaningVn": "vệ sinh lưới lọc",
+              "example": "每周都要清洁滤网。",
+              "exampleVn": "Mỗi tuần đều phải vệ sinh lưới lọc."
+            },
+            {
+              "id": "zh-topic-kitchenappliance-chugoubaoyang",
+              "headword": "除垢保养",
+              "reading": "chúgòu bǎoyǎng",
+              "meaningVn": "tẩy cặn bảo dưỡng",
+              "example": "定期给电器做除垢保养。",
+              "exampleVn": "Định kỳ tẩy cặn bảo dưỡng cho thiết bị điện."
+            },
+            {
+              "id": "zh-topic-kitchenappliance-shiyongshuomingshuyuedu",
+              "headword": "使用说明书阅读",
+              "reading": "shǐyòng shuōmíngshū yuèdú",
+              "meaningVn": "đọc hướng dẫn sử dụng",
+              "example": "第一次用之前要做使用说明书阅读。",
+              "exampleVn": "Trước lần dùng đầu tiên phải đọc hướng dẫn sử dụng."
+            },
+            {
+              "id": "zh-topic-kitchenappliance-shouhoubaoxiuka",
+              "headword": "售后保修卡",
+              "reading": "shòuhòu bǎoxiūkǎ",
+              "meaningVn": "phiếu bảo hành sau bán",
+              "example": "购买时记得保留售后保修卡。",
+              "exampleVn": "Lúc mua nhớ giữ lại phiếu bảo hành sau bán."
+            },
+            {
+              "id": "zh-topic-kitchenappliance-xiaojiadianshouna",
+              "headword": "小家电收纳",
+              "reading": "xiǎojiādiàn shōunà",
+              "meaningVn": "sắp xếp cất giữ thiết bị điện gia dụng nhỏ",
+              "example": "她专门买了柜子做小家电收纳。",
+              "exampleVn": "Cô ấy mua riêng một tủ để sắp xếp cất giữ thiết bị điện gia dụng nhỏ."
+            }
+          ]
+        },
+        {
+          "id": "buying-trends-kitchen",
+          "titleNative": "选购与趋势",
+          "titleVn": "Mua sắm & xu hướng",
+          "words": [
+            {
+              "id": "zh-topic-kitchenappliance-chufangxiaojiadianzhongcao",
+              "headword": "厨房小家电种草",
+              "reading": "chúfáng xiǎojiādiàn zhòngcǎo",
+              "meaningVn": "bị thuyết phục mua đồ gia dụng bếp nhỏ",
+              "example": "刷视频总是被厨房小家电种草。",
+              "exampleVn": "Lướt video lúc nào cũng bị thuyết phục mua đồ gia dụng bếp nhỏ."
+            },
+            {
+              "id": "zh-topic-kitchenappliance-wanghongchujufanche",
+              "headword": "网红厨具翻车",
+              "reading": "wǎnghóng chújù fānchē",
+              "meaningVn": "dụng cụ bếp hot mạng bị vỡ mộng chất lượng",
+              "example": "不少网红厨具翻车的评论让她很谨慎。",
+              "exampleVn": "Không ít bình luận về dụng cụ bếp hot mạng bị vỡ mộng chất lượng khiến cô ấy thận trọng."
+            },
+            {
+              "id": "zh-topic-kitchenappliance-xingjiabiduibi",
+              "headword": "性价比对比",
+              "reading": "xìngjiàbǐ duìbǐ",
+              "meaningVn": "so sánh tỷ lệ giá trị",
+              "example": "买之前她做了详细的性价比对比。",
+              "exampleVn": "Trước khi mua cô ấy đã làm so sánh tỷ lệ giá trị chi tiết."
+            },
+            {
+              "id": "zh-topic-kitchenappliance-chufangkongjianguihua",
+              "headword": "厨房空间规划",
+              "reading": "chúfáng kōngjiān guīhuà",
+              "meaningVn": "quy hoạch không gian bếp",
+              "example": "装修时要提前做好厨房空间规划。",
+              "exampleVn": "Lúc sửa nhà phải làm trước quy hoạch không gian bếp."
+            },
+            {
+              "id": "zh-topic-kitchenappliance-chudianyijiuhuanxinbutie",
+              "headword": "厨电以旧换新补贴",
+              "reading": "chúdiàn yǐjiù huànxīn bǔtiē",
+              "meaningVn": "trợ cấp đổi cũ lấy mới đồ điện bếp",
+              "example": "这次她用上了厨电以旧换新补贴。",
+              "exampleVn": "Lần này cô ấy đã dùng trợ cấp đổi cũ lấy mới đồ điện bếp."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-topic-kids-potty-training-independence",
+      "language": "zh",
+      "titleNative": "儿童如厕训练与如厕独立",
+      "titleVn": "Huấn luyện đi vệ sinh & tự lập đi vệ sinh ở trẻ em",
+      "branches": [
+        {
+          "id": "training-timing",
+          "titleNative": "训练时机",
+          "titleVn": "Thời điểm huấn luyện",
+          "words": [
+            {
+              "id": "zh-topic-pottytraining-ertongrucexunlian",
+              "headword": "儿童如厕训练",
+              "reading": "értóng rúcè xùnliàn",
+              "meaningVn": "huấn luyện đi vệ sinh cho trẻ",
+              "example": "很多妈妈两岁左右开始儿童如厕训练。",
+              "exampleVn": "Nhiều bà mẹ bắt đầu huấn luyện đi vệ sinh cho trẻ vào khoảng hai tuổi."
+            },
+            {
+              "id": "zh-topic-pottytraining-rucexunlianxinhao",
+              "headword": "如厕训练信号",
+              "reading": "rúcè xùnliàn xìnhào",
+              "meaningVn": "dấu hiệu sẵn sàng huấn luyện đi vệ sinh",
+              "example": "医生教家长识别如厕训练信号。",
+              "exampleVn": "Bác sĩ dạy phụ huynh nhận biết dấu hiệu sẵn sàng huấn luyện đi vệ sinh."
+            },
+            {
+              "id": "zh-topic-pottytraining-shenglichengshudu",
+              "headword": "生理成熟度",
+              "reading": "shēnglǐ chéngshúdù",
+              "meaningVn": "mức độ trưởng thành sinh lý",
+              "example": "要根据孩子的生理成熟度决定开始时间。",
+              "exampleVn": "Phải căn cứ vào mức độ trưởng thành sinh lý của con để quyết định thời điểm bắt đầu."
+            },
+            {
+              "id": "zh-topic-pottytraining-rucexunliannianling",
+              "headword": "如厕训练年龄",
+              "reading": "rúcè xùnliàn niánlíng",
+              "meaningVn": "độ tuổi huấn luyện đi vệ sinh",
+              "example": "如厕训练年龄因人而异。",
+              "exampleVn": "Độ tuổi huấn luyện đi vệ sinh khác nhau ở mỗi trẻ."
+            },
+            {
+              "id": "zh-topic-pottytraining-xunlianguochengfanfutuibu",
+              "headword": "训练过程反复退步",
+              "reading": "xùnliàn guòchéng fǎnfù tuìbù",
+              "meaningVn": "thoái lùi lặp lại trong quá trình huấn luyện",
+              "example": "家长不要因为训练过程反复退步而焦虑。",
+              "exampleVn": "Phụ huynh đừng vì thoái lùi lặp lại trong quá trình huấn luyện mà lo lắng."
+            }
+          ]
+        },
+        {
+          "id": "training-methods-potty",
+          "titleNative": "训练方法",
+          "titleVn": "Phương pháp huấn luyện",
+          "words": [
+            {
+              "id": "zh-topic-pottytraining-ertongrucexunlianxiaomatong",
+              "headword": "儿童如厕训练小马桶",
+              "reading": "értóng rúcè xùnliàn xiǎo mǎtǒng",
+              "meaningVn": "bô tập ngồi cho trẻ",
+              "example": "她给孩子买了一个儿童如厕训练小马桶。",
+              "exampleVn": "Cô ấy mua cho con một chiếc bô tập ngồi cho trẻ."
+            },
+            {
+              "id": "zh-topic-pottytraining-rucexunlianku",
+              "headword": "如厕训练裤",
+              "reading": "rúcè xùnliàn kù",
+              "meaningVn": "quần tập đi vệ sinh",
+              "example": "开始用如厕训练裤代替纸尿裤。",
+              "exampleVn": "Bắt đầu dùng quần tập đi vệ sinh thay cho tã giấy."
+            },
+            {
+              "id": "zh-topic-pottytraining-zhengxiangjilitiezhi",
+              "headword": "正向激励贴纸",
+              "reading": "zhèngxiàng jīlì tiēzhǐ",
+              "meaningVn": "sticker khích lệ tích cực",
+              "example": "每次成功都贴一张正向激励贴纸。",
+              "exampleVn": "Mỗi lần thành công đều dán một tấm sticker khích lệ tích cực."
+            },
+            {
+              "id": "zh-topic-pottytraining-rucexunlianhuiben",
+              "headword": "如厕训练绘本",
+              "reading": "rúcè xùnliàn huìběn",
+              "meaningVn": "sách tranh dạy đi vệ sinh",
+              "example": "睡前给孩子读如厕训练绘本。",
+              "exampleVn": "Trước khi ngủ đọc sách tranh dạy đi vệ sinh cho con."
+            },
+            {
+              "id": "zh-topic-pottytraining-rucexunlianshijianbiao",
+              "headword": "如厕训练时间表",
+              "reading": "rúcè xùnliàn shíjiānbiǎo",
+              "meaningVn": "thời gian biểu huấn luyện đi vệ sinh",
+              "example": "她制定了一份如厕训练时间表。",
+              "exampleVn": "Cô ấy lập ra một thời gian biểu huấn luyện đi vệ sinh."
+            }
+          ]
+        },
+        {
+          "id": "common-difficulties-potty",
+          "titleNative": "常见困难",
+          "titleVn": "Khó khăn thường gặp",
+          "words": [
+            {
+              "id": "zh-topic-pottytraining-bieniaobiebian",
+              "headword": "憋尿憋便",
+              "reading": "biēniào biēbiàn",
+              "meaningVn": "nhịn tiểu nhịn đại tiện",
+              "example": "有些孩子会因为贪玩憋尿憋便。",
+              "exampleVn": "Một số trẻ vì mải chơi mà nhịn tiểu nhịn đại tiện."
+            },
+            {
+              "id": "zh-topic-pottytraining-rucexunliankangju",
+              "headword": "如厕训练抗拒",
+              "reading": "rúcè xùnliàn kàngjù",
+              "meaningVn": "phản kháng khi huấn luyện đi vệ sinh",
+              "example": "孩子出现了明显的如厕训练抗拒。",
+              "exampleVn": "Con xuất hiện phản kháng rõ rệt khi huấn luyện đi vệ sinh."
+            },
+            {
+              "id": "zh-topic-pottytraining-yejianniaochuang",
+              "headword": "夜间尿床",
+              "reading": "yèjiān niàochuáng",
+              "meaningVn": "đái dầm ban đêm",
+              "example": "白天学会了,夜间尿床还需要时间。",
+              "exampleVn": "Ban ngày đã học được, đái dầm ban đêm còn cần thêm thời gian."
+            },
+            {
+              "id": "zh-topic-pottytraining-gonggongcesuokongju",
+              "headword": "公共厕所恐惧",
+              "reading": "gōnggòng cèsuǒ kǒngjù",
+              "meaningVn": "sợ nhà vệ sinh công cộng",
+              "example": "孩子对公共厕所恐惧,不敢自己去。",
+              "exampleVn": "Con sợ nhà vệ sinh công cộng, không dám tự đi."
+            },
+            {
+              "id": "zh-topic-pottytraining-youeryuanrucepeihe",
+              "headword": "幼儿园如厕配合",
+              "reading": "yòu'éryuán rúcè pèihé",
+              "meaningVn": "phối hợp đi vệ sinh ở trường mẫu giáo",
+              "example": "老师会协助幼儿园如厕配合。",
+              "exampleVn": "Cô giáo sẽ hỗ trợ phối hợp đi vệ sinh ở trường mẫu giáo."
+            }
+          ]
+        },
+        {
+          "id": "independence-skills",
+          "titleNative": "独立能力培养",
+          "titleVn": "Rèn luyện khả năng tự lập",
+          "words": [
+            {
+              "id": "zh-topic-pottytraining-zijituochuankuzi",
+              "headword": "自己脱穿裤子",
+              "reading": "zìjǐ tuōchuān kùzi",
+              "meaningVn": "tự cởi mặc quần",
+              "example": "现在他能自己脱穿裤子了。",
+              "exampleVn": "Bây giờ cậu bé đã có thể tự cởi mặc quần."
+            },
+            {
+              "id": "zh-topic-pottytraining-rucehouxishouxiguan",
+              "headword": "如厕后洗手习惯",
+              "reading": "rúcè hòu xǐshǒu xíguàn",
+              "meaningVn": "thói quen rửa tay sau khi đi vệ sinh",
+              "example": "从小培养如厕后洗手习惯很重要。",
+              "exampleVn": "Rèn luyện thói quen rửa tay sau khi đi vệ sinh từ nhỏ rất quan trọng."
+            },
+            {
+              "id": "zh-topic-pottytraining-rucedulixinhaoshibie",
+              "headword": "如厕独立信号识别",
+              "reading": "rúcè dúlì xìnhào shíbié",
+              "meaningVn": "nhận biết tín hiệu cần đi vệ sinh độc lập",
+              "example": "孩子渐渐学会了如厕独立信号识别。",
+              "exampleVn": "Con dần dần học được cách nhận biết tín hiệu cần đi vệ sinh độc lập."
+            },
+            {
+              "id": "zh-topic-pottytraining-nannvfenceyishi",
+              "headword": "男女分厕意识",
+              "reading": "nánnǚ fēncè yìshí",
+              "meaningVn": "ý thức phân biệt nhà vệ sinh nam nữ",
+              "example": "上幼儿园后开始建立男女分厕意识。",
+              "exampleVn": "Sau khi đi học mẫu giáo bắt đầu hình thành ý thức phân biệt nhà vệ sinh nam nữ."
+            },
+            {
+              "id": "zh-topic-pottytraining-rucexunlianwanchengqingzhu",
+              "headword": "如厕训练完成庆祝",
+              "reading": "rúcè xùnliàn wánchéng qìngzhù",
+              "meaningVn": "ăn mừng hoàn thành huấn luyện đi vệ sinh",
+              "example": "全家一起为如厕训练完成庆祝。",
+              "exampleVn": "Cả nhà cùng nhau ăn mừng hoàn thành huấn luyện đi vệ sinh."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-topic-elderly-cane-hiking-pole-selection",
+      "language": "zh",
+      "titleNative": "老年拐杖登山杖与助行辅具选择",
+      "titleVn": "Gậy chống, gậy leo núi & lựa chọn dụng cụ trợ giúp đi lại cho người già",
+      "branches": [
+        {
+          "id": "cane-types",
+          "titleNative": "拐杖类型",
+          "titleVn": "Các loại gậy chống",
+          "words": [
+            {
+              "id": "zh-topic-cane-dandianguaizhang",
+              "headword": "单点拐杖",
+              "reading": "dāndiǎn guǎizhàng",
+              "meaningVn": "gậy chống một chân",
+              "example": "爷爷出门都拄着单点拐杖。",
+              "exampleVn": "Ông nội ra ngoài đều chống gậy chống một chân."
+            },
+            {
+              "id": "zh-topic-cane-sijiaoguaizhang",
+              "headword": "四脚拐杖",
+              "reading": "sìjiǎo guǎizhàng",
+              "meaningVn": "gậy chống bốn chân",
+              "example": "医生建议她换成更稳的四脚拐杖。",
+              "exampleVn": "Bác sĩ khuyên bà đổi sang gậy chống bốn chân ổn định hơn."
+            },
+            {
+              "id": "zh-topic-cane-dengshanzhang",
+              "headword": "登山杖",
+              "reading": "dēngshānzhàng",
+              "meaningVn": "gậy leo núi",
+              "example": "她买了一副登山杖准备去爬山。",
+              "exampleVn": "Bà mua một đôi gậy leo núi để chuẩn bị đi leo núi."
+            },
+            {
+              "id": "zh-topic-cane-zhuxingjia",
+              "headword": "助行架",
+              "reading": "zhùxíngjià",
+              "meaningVn": "khung tập đi",
+              "example": "术后康复期她用助行架练习走路。",
+              "exampleVn": "Giai đoạn phục hồi sau phẫu thuật bà dùng khung tập đi để luyện tập đi lại."
+            },
+            {
+              "id": "zh-topic-cane-zuodengguaizhang",
+              "headword": "坐凳拐杖",
+              "reading": "zuòdèng guǎizhàng",
+              "meaningVn": "gậy chống có ghế ngồi",
+              "example": "走累了可以用坐凳拐杖坐下休息。",
+              "exampleVn": "Đi mệt có thể dùng gậy chống có ghế ngồi để ngồi nghỉ."
+            }
+          ]
+        },
+        {
+          "id": "selection-points",
+          "titleNative": "选择要点",
+          "titleVn": "Điểm cần lưu ý khi chọn",
+          "words": [
+            {
+              "id": "zh-topic-cane-guaizhanggaodutiaojie",
+              "headword": "拐杖高度调节",
+              "reading": "guǎizhàng gāodù tiáojié",
+              "meaningVn": "điều chỉnh chiều cao gậy chống",
+              "example": "购买时要试拐杖高度调节是否合适。",
+              "exampleVn": "Lúc mua phải thử xem điều chỉnh chiều cao gậy chống có phù hợp không."
+            },
+            {
+              "id": "zh-topic-cane-fanghuazhangtou",
+              "headword": "防滑杖头",
+              "reading": "fánghuá zhàngtóu",
+              "meaningVn": "đầu gậy chống trơn trượt",
+              "example": "雨天要选带防滑杖头的拐杖。",
+              "exampleVn": "Ngày mưa phải chọn gậy chống có đầu gậy chống trơn trượt."
+            },
+            {
+              "id": "zh-topic-cane-shoubingrentigongxuesheji",
+              "headword": "手柄人体工学设计",
+              "reading": "shǒubǐng réntǐ gōngxué shèjì",
+              "meaningVn": "thiết kế tay cầm công thái học",
+              "example": "这款拐杖的手柄人体工学设计很舒适。",
+              "exampleVn": "Tay cầm thiết kế công thái học của chiếc gậy chống này rất thoải mái."
+            },
+            {
+              "id": "zh-topic-cane-caizhiqingbianxing",
+              "headword": "材质轻便性",
+              "reading": "cáizhì qīngbiànxìng",
+              "meaningVn": "độ nhẹ và tiện lợi của chất liệu",
+              "example": "老人更看重材质轻便性。",
+              "exampleVn": "Người già coi trọng độ nhẹ và tiện lợi của chất liệu hơn."
+            },
+            {
+              "id": "zh-topic-cane-shounazhediesheji",
+              "headword": "收纳折叠设计",
+              "reading": "shōunà zhédié shèjì",
+              "meaningVn": "thiết kế gấp gọn để cất",
+              "example": "出门旅游她选了收纳折叠设计的拐杖。",
+              "exampleVn": "Đi du lịch bà chọn gậy chống có thiết kế gấp gọn để cất."
+            }
+          ]
+        },
+        {
+          "id": "usage-techniques-cane",
+          "titleNative": "使用技巧",
+          "titleVn": "Kỹ thuật sử dụng",
+          "words": [
+            {
+              "id": "zh-topic-cane-jianceshouchiguai",
+              "headword": "健侧手持拐",
+              "reading": "jiàncè shǒu chí guǎi",
+              "meaningVn": "cầm gậy ở tay bên khỏe",
+              "example": "康复师教她健侧手持拐。",
+              "exampleVn": "Kỹ thuật viên phục hồi chức năng dạy bà cầm gậy ở tay bên khỏe."
+            },
+            {
+              "id": "zh-topic-cane-shangxialoutiguaizhangzishi",
+              "headword": "上下楼梯拐杖姿势",
+              "reading": "shàngxià lóutī guǎizhàng zīshì",
+              "meaningVn": "tư thế chống gậy khi lên xuống cầu thang",
+              "example": "上下楼梯拐杖姿势要格外小心。",
+              "exampleVn": "Tư thế chống gậy khi lên xuống cầu thang phải đặc biệt cẩn thận."
+            },
+            {
+              "id": "zh-topic-cane-guaizhangdahuafengxian",
+              "headword": "拐杖打滑风险",
+              "reading": "guǎizhàng dǎhuá fēngxiǎn",
+              "meaningVn": "nguy cơ gậy chống bị trượt",
+              "example": "湿滑地面要注意拐杖打滑风险。",
+              "exampleVn": "Nền trơn ướt phải chú ý nguy cơ gậy chống bị trượt."
+            },
+            {
+              "id": "zh-topic-cane-zhengquebutaixunlian",
+              "headword": "正确步态训练",
+              "reading": "zhèngquè bùtài xùnliàn",
+              "meaningVn": "luyện tập dáng đi đúng",
+              "example": "康复师带她做正确步态训练。",
+              "exampleVn": "Kỹ thuật viên phục hồi chức năng hướng dẫn bà luyện tập dáng đi đúng."
+            },
+            {
+              "id": "zh-topic-cane-kangfushizhidaoshiyong",
+              "headword": "康复师指导使用",
+              "reading": "kāngfùshī zhǐdǎo shǐyòng",
+              "meaningVn": "hướng dẫn sử dụng bởi kỹ thuật viên phục hồi chức năng",
+              "example": "第一次使用最好有康复师指导使用。",
+              "exampleVn": "Lần đầu sử dụng tốt nhất nên có kỹ thuật viên phục hồi chức năng hướng dẫn."
+            }
+          ]
+        },
+        {
+          "id": "scenarios-psychology",
+          "titleNative": "场景与心理",
+          "titleVn": "Bối cảnh & tâm lý",
+          "words": [
+            {
+              "id": "zh-topic-cane-huwaitubudengshanzhang",
+              "headword": "户外徒步登山杖",
+              "reading": "hùwài túbù dēngshānzhàng",
+              "meaningVn": "gậy leo núi khi đi bộ ngoài trời",
+              "example": "周末她带着户外徒步登山杖去公园。",
+              "exampleVn": "Cuối tuần bà mang theo gậy leo núi khi đi bộ ngoài trời đến công viên."
+            },
+            {
+              "id": "zh-topic-cane-shuhouguoduqishiyong",
+              "headword": "术后过渡期使用",
+              "reading": "shùhòu guòdùqī shǐyòng",
+              "meaningVn": "sử dụng trong giai đoạn chuyển tiếp sau phẫu thuật",
+              "example": "拐杖只是术后过渡期使用的工具。",
+              "exampleVn": "Gậy chống chỉ là công cụ sử dụng trong giai đoạn chuyển tiếp sau phẫu thuật."
+            },
+            {
+              "id": "zh-topic-cane-jujuezhuguaixinli",
+              "headword": "拒绝拄拐心理",
+              "reading": "jùjué zhǔguǎi xīnlǐ",
+              "meaningVn": "tâm lý từ chối chống gậy",
+              "example": "不少老人有拒绝拄拐心理。",
+              "exampleVn": "Không ít người già có tâm lý từ chối chống gậy."
+            },
+            {
+              "id": "zh-topic-cane-gonggongchanghezizunxin",
+              "headword": "公共场合自尊心",
+              "reading": "gōnggòng chǎnghé zìzūnxīn",
+              "meaningVn": "lòng tự trọng nơi công cộng",
+              "example": "子女要理解老人的公共场合自尊心。",
+              "exampleVn": "Con cái phải hiểu lòng tự trọng nơi công cộng của cha mẹ."
+            },
+            {
+              "id": "zh-topic-cane-guaizhangzhuangshigexinghua",
+              "headword": "拐杖装饰个性化",
+              "reading": "guǎizhàng zhuāngshì gèxìnghuà",
+              "meaningVn": "trang trí cá nhân hóa gậy chống",
+              "example": "她给拐杖做了拐杖装饰个性化。",
+              "exampleVn": "Bà đã làm trang trí cá nhân hóa cho chiếc gậy chống của mình."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-topic-kids-independent-sleep-room-training",
+      "language": "zh",
+      "titleNative": "儿童独立入睡与分房训练",
+      "titleVn": "Tự ngủ một mình & huấn luyện ngủ riêng phòng cho trẻ em",
+      "branches": [
+        {
+          "id": "timing-sleeptraining",
+          "titleNative": "分房时机",
+          "titleVn": "Thời điểm huấn luyện ngủ riêng",
+          "words": [
+            {
+              "id": "zh-topic-sleeptraining-ertongfenfangxunlian",
+              "headword": "儿童分房训练",
+              "reading": "értóng fēnfáng xùnliàn",
+              "meaningVn": "huấn luyện ngủ riêng phòng cho trẻ",
+              "example": "这个暑假她开始做儿童分房训练。",
+              "exampleVn": "Kỳ nghỉ hè này cô ấy bắt đầu làm huấn luyện ngủ riêng phòng cho con."
+            },
+            {
+              "id": "zh-topic-sleeptraining-dulirushui",
+              "headword": "独立入睡",
+              "reading": "dúlì rùshuì",
+              "meaningVn": "tự ngủ một mình",
+              "example": "孩子终于学会了独立入睡。",
+              "exampleVn": "Con cuối cùng cũng học được cách tự ngủ một mình."
+            },
+            {
+              "id": "zh-topic-sleeptraining-jisuifenfangheshi",
+              "headword": "几岁分房合适",
+              "reading": "jǐ suì fēnfáng héshì",
+              "meaningVn": "mấy tuổi thì nên ngủ riêng phòng",
+              "example": "家长们经常讨论几岁分房合适。",
+              "exampleVn": "Các phụ huynh thường xuyên thảo luận mấy tuổi thì nên ngủ riêng phòng."
+            },
+            {
+              "id": "zh-topic-sleeptraining-fenchuangxianyufenfang",
+              "headword": "分床先于分房",
+              "reading": "fēnchuáng xiānyú fēnfáng",
+              "meaningVn": "tách giường trước khi tách phòng",
+              "example": "专家建议分床先于分房。",
+              "exampleVn": "Chuyên gia khuyên tách giường trước khi tách phòng."
+            },
+            {
+              "id": "zh-topic-sleeptraining-fenfangqianxinlizhunbei",
+              "headword": "分房前心理准备",
+              "reading": "fēnfáng qián xīnlǐ zhǔnbèi",
+              "meaningVn": "chuẩn bị tâm lý trước khi ngủ riêng phòng",
+              "example": "分房前心理准备要提前一个月开始。",
+              "exampleVn": "Chuẩn bị tâm lý trước khi ngủ riêng phòng phải bắt đầu trước một tháng."
+            }
+          ]
+        },
+        {
+          "id": "training-methods-sleep",
+          "titleNative": "训练方法",
+          "titleVn": "Phương pháp huấn luyện",
+          "words": [
+            {
+              "id": "zh-topic-sleeptraining-shuiqianyishigan",
+              "headword": "睡前仪式感",
+              "reading": "shuìqián yíshìgǎn",
+              "meaningVn": "nghi thức trước khi ngủ",
+              "example": "她给孩子建立了睡前仪式感。",
+              "exampleVn": "Cô ấy đã xây dựng nghi thức trước khi ngủ cho con."
+            },
+            {
+              "id": "zh-topic-sleeptraining-anfuwanou",
+              "headword": "安抚玩偶",
+              "reading": "ānfǔ wán'ǒu",
+              "meaningVn": "thú nhồi bông làm dịu",
+              "example": "孩子抱着安抚玩偶才能睡着。",
+              "exampleVn": "Con phải ôm thú nhồi bông làm dịu mới ngủ được."
+            },
+            {
+              "id": "zh-topic-sleeptraining-jianjinshichelifa",
+              "headword": "渐进式撤离法",
+              "reading": "jiànjìnshì chèlífǎ",
+              "meaningVn": "phương pháp rút lui dần dần",
+              "example": "她用渐进式撤离法帮孩子适应。",
+              "exampleVn": "Cô ấy dùng phương pháp rút lui dần dần để giúp con thích nghi."
+            },
+            {
+              "id": "zh-topic-sleeptraining-yedengpeiban",
+              "headword": "夜灯陪伴",
+              "reading": "yèdēng péibàn",
+              "meaningVn": "đèn ngủ đồng hành",
+              "example": "房间里留了一盏夜灯陪伴。",
+              "exampleVn": "Trong phòng để lại một chiếc đèn ngủ đồng hành."
+            },
+            {
+              "id": "zh-topic-sleeptraining-gudingrushuishijian",
+              "headword": "固定入睡时间",
+              "reading": "gùdìng rùshuì shíjiān",
+              "meaningVn": "giờ ngủ cố định",
+              "example": "每天保持固定入睡时间很重要。",
+              "exampleVn": "Mỗi ngày giữ giờ ngủ cố định rất quan trọng."
+            }
+          ]
+        },
+        {
+          "id": "common-setbacks",
+          "titleNative": "常见反复",
+          "titleVn": "Trở ngại thường gặp",
+          "words": [
+            {
+              "id": "zh-topic-sleeptraining-banyekunaozhaofumu",
+              "headword": "半夜哭闹找父母",
+              "reading": "bànyè kūnào zhǎo fùmǔ",
+              "meaningVn": "nửa đêm khóc quấy tìm bố mẹ",
+              "example": "头几天孩子总是半夜哭闹找父母。",
+              "exampleVn": "Mấy ngày đầu con lúc nào cũng nửa đêm khóc quấy tìm bố mẹ."
+            },
+            {
+              "id": "zh-topic-sleeptraining-emengjingxing",
+              "headword": "噩梦惊醒",
+              "reading": "èmèng jīngxǐng",
+              "meaningVn": "giật mình tỉnh giấc vì ác mộng",
+              "example": "有天晚上孩子噩梦惊醒。",
+              "exampleVn": "Có một tối con giật mình tỉnh giấc vì ác mộng."
+            },
+            {
+              "id": "zh-topic-sleeptraining-fenfangxunlianshibaichonglai",
+              "headword": "分房训练失败重来",
+              "reading": "fēnfáng xùnliàn shībài chónglái",
+              "meaningVn": "huấn luyện ngủ riêng thất bại phải làm lại",
+              "example": "第一次分房训练失败重来是很正常的。",
+              "exampleVn": "Lần đầu huấn luyện ngủ riêng thất bại phải làm lại là chuyện rất bình thường."
+            },
+            {
+              "id": "zh-topic-sleeptraining-shengbingqijianzantingxunlian",
+              "headword": "生病期间暂停训练",
+              "reading": "shēngbìng qījiān zàntíng xùnliàn",
+              "meaningVn": "tạm dừng huấn luyện khi bị ốm",
+              "example": "孩子感冒了,她生病期间暂停训练。",
+              "exampleVn": "Con bị cảm, cô ấy tạm dừng huấn luyện khi bị ốm."
+            },
+            {
+              "id": "zh-topic-sleeptraining-tongbanrushuiduibiyali",
+              "headword": "同伴入睡对比压力",
+              "reading": "tóngbàn rùshuì duìbǐ yālì",
+              "meaningVn": "áp lực so sánh với bạn bè về việc tự ngủ",
+              "example": "孩子因为同伴入睡对比压力而着急。",
+              "exampleVn": "Con vì áp lực so sánh với bạn bè về việc tự ngủ mà sốt ruột."
+            }
+          ]
+        },
+        {
+          "id": "parental-mindset",
+          "titleNative": "家长心态",
+          "titleVn": "Tâm thế của phụ huynh",
+          "words": [
+            {
+              "id": "zh-topic-sleeptraining-jiazhangfenlijiaolv",
+              "headword": "家长分离焦虑",
+              "reading": "jiāzhǎng fēnlí jiāolǜ",
+              "meaningVn": "lo âu chia ly của phụ huynh",
+              "example": "其实家长分离焦虑比孩子还严重。",
+              "exampleVn": "Thực ra lo âu chia ly của phụ huynh còn nghiêm trọng hơn của con."
+            },
+            {
+              "id": "zh-topic-sleeptraining-jianchiyutuoxiepingheng",
+              "headword": "坚持与妥协平衡",
+              "reading": "jiānchí yǔ tuǒxié pínghéng",
+              "meaningVn": "cân bằng giữa kiên trì và nhượng bộ",
+              "example": "训练中要把握坚持与妥协平衡。",
+              "exampleVn": "Trong quá trình huấn luyện phải nắm được cân bằng giữa kiên trì và nhượng bộ."
+            },
+            {
+              "id": "zh-topic-sleeptraining-zubeiguannianchongtu",
+              "headword": "祖辈观念冲突",
+              "reading": "zǔbèi guānniàn chōngtū",
+              "meaningVn": "xung đột quan niệm với ông bà",
+              "example": "分房训练常引发祖辈观念冲突。",
+              "exampleVn": "Huấn luyện ngủ riêng thường gây ra xung đột quan niệm với ông bà."
+            },
+            {
+              "id": "zh-topic-sleeptraining-fuqijiaoyulinianyizhi",
+              "headword": "夫妻教育理念一致",
+              "reading": "fūqī jiàoyù lǐniàn yīzhì",
+              "meaningVn": "thống nhất quan điểm giáo dục giữa vợ chồng",
+              "example": "这件事需要夫妻教育理念一致。",
+              "exampleVn": "Việc này cần thống nhất quan điểm giáo dục giữa vợ chồng."
+            },
+            {
+              "id": "zh-topic-sleeptraining-naixinqixiansheding",
+              "headword": "耐心期限设定",
+              "reading": "nàixīn qīxiàn shèdìng",
+              "meaningVn": "đặt ra thời hạn kiên nhẫn",
+              "example": "专家建议给自己做耐心期限设定。",
+              "exampleVn": "Chuyên gia khuyên tự đặt ra thời hạn kiên nhẫn cho bản thân."
+            }
+          ]
+        }
+      ]
     }
   ]
 }
