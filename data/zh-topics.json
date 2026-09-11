@@ -59261,6 +59261,2358 @@
           ]
         }
       ]
+    },
+    {
+      "id": "zh-topic-home-disinfection-baby-items",
+      "language": "zh",
+      "titleNative": "家庭消毒与母婴用品消毒",
+      "titleVn": "Khử trùng gia đình & đồ dùng mẹ và bé",
+      "branches": [
+        {
+          "id": "disinfect-methods",
+          "titleNative": "消毒方式",
+          "titleVn": "Các cách khử trùng",
+          "words": [
+            {
+              "id": "zh-topic-disinfect-ziwaixianxiaodu",
+              "headword": "紫外线消毒",
+              "reading": "zǐwàixiàn xiāodú",
+              "meaningVn": "khử trùng bằng tia UV",
+              "example": "母婴店的用品柜每天都用紫外线消毒。",
+              "exampleVn": "Tủ đồ ở cửa hàng mẹ và bé mỗi ngày đều được khử trùng bằng tia UV."
+            },
+            {
+              "id": "zh-topic-disinfect-zhufeixiaodu",
+              "headword": "煮沸消毒",
+              "reading": "zhǔfèi xiāodú",
+              "meaningVn": "khử trùng bằng đun sôi",
+              "example": "奶瓶最传统的做法就是煮沸消毒。",
+              "exampleVn": "Cách truyền thống nhất với bình sữa chính là khử trùng bằng đun sôi."
+            },
+            {
+              "id": "zh-topic-disinfect-zhengqixiaodu",
+              "headword": "蒸汽消毒",
+              "reading": "zhēngqì xiāodú",
+              "meaningVn": "khử trùng bằng hơi nước",
+              "example": "蒸汽消毒比煮沸更省时省力。",
+              "exampleVn": "Khử trùng bằng hơi nước tiết kiệm thời gian và công sức hơn đun sôi."
+            },
+            {
+              "id": "zh-topic-disinfect-chouyangxiaoduji",
+              "headword": "臭氧消毒机",
+              "reading": "chòuyǎng xiāodújī",
+              "meaningVn": "máy khử trùng ozone",
+              "example": "她在婴儿房放了一台臭氧消毒机。",
+              "exampleVn": "Cô ấy đặt một máy khử trùng ozone trong phòng của bé."
+            },
+            {
+              "id": "zh-topic-disinfect-xiaodugui",
+              "headword": "消毒柜",
+              "reading": "xiāodúguì",
+              "meaningVn": "tủ khử trùng",
+              "example": "碗筷用完直接放进消毒柜。",
+              "exampleVn": "Bát đũa dùng xong cho thẳng vào tủ khử trùng."
+            }
+          ]
+        },
+        {
+          "id": "baby-item-disinfect",
+          "titleNative": "母婴用品消毒",
+          "titleVn": "Khử trùng đồ dùng mẹ và bé",
+          "words": [
+            {
+              "id": "zh-topic-disinfect-naipingxiaoduqi",
+              "headword": "奶瓶消毒器",
+              "reading": "nǎipíng xiāodúqì",
+              "meaningVn": "máy tiệt trùng bình sữa",
+              "example": "新手妈妈的必备清单里有奶瓶消毒器。",
+              "exampleVn": "Trong danh sách đồ cần thiết của mẹ mới sinh có máy tiệt trùng bình sữa."
+            },
+            {
+              "id": "zh-topic-disinfect-naizuixiaodu",
+              "headword": "奶嘴消毒",
+              "reading": "nǎizuǐ xiāodú",
+              "meaningVn": "tiệt trùng núm vú giả",
+              "example": "掉地上的奶嘴要重新奶嘴消毒才能用。",
+              "exampleVn": "Núm vú giả rơi xuống đất phải tiệt trùng lại mới được dùng."
+            },
+            {
+              "id": "zh-topic-disinfect-yingercanjuxiaodu",
+              "headword": "婴儿餐具消毒",
+              "reading": "yīng'ér cānjù xiāodú",
+              "meaningVn": "tiệt trùng đồ ăn cho trẻ sơ sinh",
+              "example": "每次辅食后都要做婴儿餐具消毒。",
+              "exampleVn": "Sau mỗi bữa ăn dặm đều phải tiệt trùng đồ ăn cho trẻ sơ sinh."
+            },
+            {
+              "id": "zh-topic-disinfect-wanjuxiaodushijin",
+              "headword": "玩具消毒湿巾",
+              "reading": "wánjù xiāodú shījīn",
+              "meaningVn": "khăn ướt khử trùng đồ chơi",
+              "example": "出门随身带一包玩具消毒湿巾很方便。",
+              "exampleVn": "Ra ngoài mang theo một gói khăn ướt khử trùng đồ chơi rất tiện."
+            },
+            {
+              "id": "zh-topic-disinfect-daichanbaoxiaoduyongpin",
+              "headword": "待产包消毒用品",
+              "reading": "dàichǎnbāo xiāodú yòngpǐn",
+              "meaningVn": "đồ khử trùng trong túi đồ đi sinh",
+              "example": "待产包消毒用品是产检时护士特别提醒准备的。",
+              "exampleVn": "Đồ khử trùng trong túi đồ đi sinh là thứ y tá đặc biệt nhắc chuẩn bị khi khám thai."
+            }
+          ]
+        },
+        {
+          "id": "home-disinfect-scenes",
+          "titleNative": "家居消毒场景",
+          "titleVn": "Bối cảnh khử trùng trong nhà",
+          "words": [
+            {
+              "id": "zh-topic-disinfect-xuanguanxiaodupenwu",
+              "headword": "玄关消毒喷雾",
+              "reading": "xuánguān xiāodú pēnwù",
+              "meaningVn": "xịt khử trùng lối vào nhà",
+              "example": "回家第一件事是给鞋子喷玄关消毒喷雾。",
+              "exampleVn": "Việc đầu tiên khi về nhà là xịt khử trùng lối vào nhà lên giày."
+            },
+            {
+              "id": "zh-topic-disinfect-dimianxiaoduye",
+              "headword": "地面消毒液",
+              "reading": "dìmiàn xiāodúyè",
+              "meaningVn": "dung dịch khử trùng sàn nhà",
+              "example": "拖地时加一点地面消毒液更放心。",
+              "exampleVn": "Lau nhà thêm chút dung dịch khử trùng sàn nhà sẽ yên tâm hơn."
+            },
+            {
+              "id": "zh-topic-disinfect-matongxiaodukuai",
+              "headword": "马桶消毒块",
+              "reading": "mǎtǒng xiāodúkuài",
+              "meaningVn": "viên khử trùng bồn cầu",
+              "example": "她每个月都换一次马桶消毒块。",
+              "exampleVn": "Mỗi tháng cô ấy đều thay một lần viên khử trùng bồn cầu."
+            },
+            {
+              "id": "zh-topic-disinfect-maojindingqixiaodu",
+              "headword": "毛巾定期消毒",
+              "reading": "máojīn dìngqī xiāodú",
+              "meaningVn": "khử trùng khăn mặt định kỳ",
+              "example": "家里规定毛巾定期消毒,避免细菌滋生。",
+              "exampleVn": "Nhà quy định khử trùng khăn mặt định kỳ để tránh vi khuẩn sinh sôi."
+            },
+            {
+              "id": "zh-topic-disinfect-chongwuyongpinxiaodu",
+              "headword": "宠物用品消毒",
+              "reading": "chǒngwù yòngpǐn xiāodú",
+              "meaningVn": "khử trùng đồ dùng cho thú cưng",
+              "example": "家里养猫后她也开始做宠物用品消毒。",
+              "exampleVn": "Từ khi nuôi mèo cô ấy cũng bắt đầu khử trùng đồ dùng cho thú cưng."
+            }
+          ]
+        },
+        {
+          "id": "disinfect-pitfalls",
+          "titleNative": "消毒误区与安全",
+          "titleVn": "Sai lầm & an toàn khi khử trùng",
+          "words": [
+            {
+              "id": "zh-topic-disinfect-guoduxiaodu",
+              "headword": "过度消毒",
+              "reading": "guòdù xiāodú",
+              "meaningVn": "khử trùng quá mức",
+              "example": "医生提醒过度消毒反而不利于孩子免疫力发育。",
+              "exampleVn": "Bác sĩ nhắc nhở khử trùng quá mức lại không tốt cho sự phát triển miễn dịch của trẻ."
+            },
+            {
+              "id": "zh-topic-disinfect-xiaodujicanliu",
+              "headword": "消毒剂残留",
+              "reading": "xiāodújì cánliú",
+              "meaningVn": "hóa chất khử trùng còn tồn dư",
+              "example": "消毒后一定要冲洗干净,避免消毒剂残留。",
+              "exampleVn": "Sau khi khử trùng nhất định phải rửa sạch, tránh hóa chất khử trùng còn tồn dư."
+            },
+            {
+              "id": "zh-topic-disinfect-ertongwushifengxian",
+              "headword": "儿童误食风险",
+              "reading": "értóng wùshí fēngxiǎn",
+              "meaningVn": "nguy cơ trẻ nuốt nhầm",
+              "example": "消毒块要放高处,防止儿童误食风险。",
+              "exampleVn": "Viên khử trùng phải để chỗ cao, phòng nguy cơ trẻ nuốt nhầm."
+            },
+            {
+              "id": "zh-topic-disinfect-tongfengliangganbuzhou",
+              "headword": "通风晾干步骤",
+              "reading": "tōngfēng liànggān bùzhòu",
+              "meaningVn": "bước thông gió phơi khô",
+              "example": "消毒完别忘了通风晾干步骤。",
+              "exampleVn": "Khử trùng xong đừng quên bước thông gió phơi khô."
+            },
+            {
+              "id": "zh-topic-disinfect-anshuomingshuyongliang",
+              "headword": "按说明书用量",
+              "reading": "àn shuōmíngshū yòngliàng",
+              "meaningVn": "dùng đúng liều theo hướng dẫn",
+              "example": "使用消毒液一定要按说明书用量。",
+              "exampleVn": "Dùng dung dịch khử trùng nhất định phải đúng liều theo hướng dẫn."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-topic-elderly-mobility-scooter",
+      "language": "zh",
+      "titleNative": "老年电动代步车与助行车",
+      "titleVn": "Xe điện đi lại & xe trợ lực cho người già",
+      "branches": [
+        {
+          "id": "scooter-types",
+          "titleNative": "代步车类型",
+          "titleVn": "Các loại xe thay thế đi bộ",
+          "words": [
+            {
+              "id": "zh-topic-mobilityscooter-laoniandiandongdaibuche",
+              "headword": "老年电动代步车",
+              "reading": "lǎonián diàndòng dàibùchē",
+              "meaningVn": "xe điện đi lại cho người già",
+              "example": "爷爷买了一辆老年电动代步车方便出门。",
+              "exampleVn": "Ông nội mua một chiếc xe điện đi lại cho người già để tiện ra ngoài."
+            },
+            {
+              "id": "zh-topic-mobilityscooter-laonianzhuxingche",
+              "headword": "老年助行车",
+              "reading": "lǎonián zhùxíngchē",
+              "meaningVn": "xe tập đi có động cơ trợ lực cho người già",
+              "example": "术后恢复期奶奶用老年助行车走路。",
+              "exampleVn": "Giai đoạn hồi phục sau phẫu thuật bà dùng xe tập đi có động cơ trợ lực để đi lại."
+            },
+            {
+              "id": "zh-topic-mobilityscooter-diandonglunyi",
+              "headword": "电动轮椅",
+              "reading": "diàndòng lúnyǐ",
+              "meaningVn": "xe lăn điện",
+              "example": "腿脚不便的老人换成了电动轮椅。",
+              "exampleVn": "Cụ đi lại khó khăn đã đổi sang dùng xe lăn điện."
+            },
+            {
+              "id": "zh-topic-mobilityscooter-silundaibuche",
+              "headword": "四轮代步车",
+              "reading": "sìlún dàibùchē",
+              "meaningVn": "xe thay thế đi bộ bốn bánh",
+              "example": "四轮代步车比三轮的更稳。",
+              "exampleVn": "Xe thay thế đi bộ bốn bánh ổn định hơn loại ba bánh."
+            },
+            {
+              "id": "zh-topic-mobilityscooter-zhediedaibuche",
+              "headword": "折叠代步车",
+              "reading": "zhédié dàibùchē",
+              "meaningVn": "xe thay thế đi bộ gấp gọn",
+              "example": "出门旅游她带了一辆折叠代步车。",
+              "exampleVn": "Đi du lịch bà mang theo một chiếc xe thay thế đi bộ gấp gọn."
+            }
+          ]
+        },
+        {
+          "id": "buying-choosing",
+          "titleNative": "购买与选择",
+          "titleVn": "Mua & lựa chọn",
+          "words": [
+            {
+              "id": "zh-topic-mobilityscooter-mandianxuhangjuli",
+              "headword": "满电续航距离",
+              "reading": "mǎndiàn xùháng jùlí",
+              "meaningVn": "quãng đường đi hết một lần sạc đầy",
+              "example": "这款代步车满电续航距离能到三十公里。",
+              "exampleVn": "Chiếc xe thay thế đi bộ này quãng đường đi hết một lần sạc đầy được tới ba mươi cây số."
+            },
+            {
+              "id": "zh-topic-mobilityscooter-zaizhongbiaozhun",
+              "headword": "载重标准",
+              "reading": "zàizhòng biāozhǔn",
+              "meaningVn": "tiêu chuẩn tải trọng",
+              "example": "买之前先看清楚载重标准。",
+              "exampleVn": "Trước khi mua phải xem rõ tiêu chuẩn tải trọng."
+            },
+            {
+              "id": "zh-topic-mobilityscooter-zuoyishushidu",
+              "headword": "座椅舒适度",
+              "reading": "zuòyǐ shūshìdù",
+              "meaningVn": "độ thoải mái của ghế ngồi",
+              "example": "老人最在意的是座椅舒适度。",
+              "exampleVn": "Điều người già quan tâm nhất là độ thoải mái của ghế ngồi."
+            },
+            {
+              "id": "zh-topic-mobilityscooter-shangpaiguiding",
+              "headword": "上牌规定",
+              "reading": "shàngpái guīdìng",
+              "meaningVn": "quy định đăng ký biển số",
+              "example": "不同城市对代步车上牌规定不一样。",
+              "exampleVn": "Mỗi thành phố có quy định đăng ký biển số khác nhau cho loại xe này."
+            },
+            {
+              "id": "zh-topic-mobilityscooter-mendianshijiatiyan",
+              "headword": "门店试驾体验",
+              "reading": "méndiàn shìjià tǐyàn",
+              "meaningVn": "trải nghiệm lái thử tại cửa hàng",
+              "example": "购买前一定要做门店试驾体验。",
+              "exampleVn": "Trước khi mua nhất định phải trải nghiệm lái thử tại cửa hàng."
+            }
+          ]
+        },
+        {
+          "id": "usage-scenarios",
+          "titleNative": "使用场景",
+          "titleVn": "Bối cảnh sử dụng",
+          "words": [
+            {
+              "id": "zh-topic-mobilityscooter-xiaoqudaibuchuxing",
+              "headword": "小区代步出行",
+              "reading": "xiǎoqū dàibù chūxíng",
+              "meaningVn": "đi lại trong khu dân cư",
+              "example": "代步车最常见的用途就是小区代步出行。",
+              "exampleVn": "Công dụng phổ biến nhất của loại xe này chính là đi lại trong khu dân cư."
+            },
+            {
+              "id": "zh-topic-mobilityscooter-maicaichuxingxuqiu",
+              "headword": "买菜出行需求",
+              "reading": "mǎicài chūxíng xūqiú",
+              "meaningVn": "nhu cầu đi chợ mua đồ",
+              "example": "代步车正好满足了老人买菜出行需求。",
+              "exampleVn": "Xe thay thế đi bộ vừa đáp ứng đúng nhu cầu đi chợ mua đồ của người già."
+            },
+            {
+              "id": "zh-topic-mobilityscooter-gongyuansanbudaibu",
+              "headword": "公园散步代步",
+              "reading": "gōngyuán sànbù dàibù",
+              "meaningVn": "đi dạo công viên bằng xe thay bộ",
+              "example": "傍晚她常骑着代步车去公园散步代步。",
+              "exampleVn": "Chiều tối bà thường lái xe đi dạo công viên bằng xe thay bộ."
+            },
+            {
+              "id": "zh-topic-mobilityscooter-diantijinchunanti",
+              "headword": "电梯进出难题",
+              "reading": "diàntī jìnchū nántí",
+              "meaningVn": "khó khăn ra vào thang máy",
+              "example": "老小区电梯窄,代步车常遇到电梯进出难题。",
+              "exampleVn": "Khu tập thể cũ thang máy hẹp, xe thay thế đi bộ thường gặp khó khăn ra vào thang máy."
+            },
+            {
+              "id": "zh-topic-mobilityscooter-xiepotongxingnengli",
+              "headword": "斜坡通行能力",
+              "reading": "xiépō tōngxíng nénglì",
+              "meaningVn": "khả năng di chuyển qua dốc",
+              "example": "选车时要测试斜坡通行能力。",
+              "exampleVn": "Lúc chọn xe phải kiểm tra khả năng di chuyển qua dốc."
+            }
+          ]
+        },
+        {
+          "id": "safety-maintenance",
+          "titleNative": "安全与维护",
+          "titleVn": "An toàn & bảo trì",
+          "words": [
+            {
+              "id": "zh-topic-mobilityscooter-dianchilaohua",
+              "headword": "电池老化",
+              "reading": "diànchí lǎohuà",
+              "meaningVn": "pin bị lão hóa",
+              "example": "用了三年,电池老化明显。",
+              "exampleVn": "Dùng ba năm rồi, pin bị lão hóa rõ rệt."
+            },
+            {
+              "id": "zh-topic-mobilityscooter-chongdiananquanyinhuan",
+              "headword": "充电安全隐患",
+              "reading": "chōngdiàn ānquán yǐnhuàn",
+              "meaningVn": "nguy cơ mất an toàn khi sạc điện",
+              "example": "楼道充电存在充电安全隐患。",
+              "exampleVn": "Sạc điện ở hành lang tồn tại nguy cơ mất an toàn khi sạc điện."
+            },
+            {
+              "id": "zh-topic-mobilityscooter-shacheshiling",
+              "headword": "刹车失灵",
+              "reading": "shāchē shīlíng",
+              "meaningVn": "phanh bị mất tác dụng",
+              "example": "下坡时刹车失灵非常危险。",
+              "exampleVn": "Xuống dốc mà phanh bị mất tác dụng thì rất nguy hiểm."
+            },
+            {
+              "id": "zh-topic-mobilityscooter-yutianfanghuacuoshi",
+              "headword": "雨天防滑措施",
+              "reading": "yǔtiān fánghuá cuòshī",
+              "meaningVn": "biện pháp chống trơn trượt ngày mưa",
+              "example": "雨天骑车要做好雨天防滑措施。",
+              "exampleVn": "Ngày mưa lái xe phải làm tốt biện pháp chống trơn trượt ngày mưa."
+            },
+            {
+              "id": "zh-topic-mobilityscooter-dingqibaoyangjiancha",
+              "headword": "定期保养检查",
+              "reading": "dìngqī bǎoyǎng jiǎnchá",
+              "meaningVn": "kiểm tra bảo dưỡng định kỳ",
+              "example": "门店建议每半年做一次定期保养检查。",
+              "exampleVn": "Cửa hàng khuyến nghị nửa năm làm một lần kiểm tra bảo dưỡng định kỳ."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-topic-kids-scooter-roller-skating",
+      "language": "zh",
+      "titleNative": "儿童滑板车与轮滑培训",
+      "titleVn": "Xe scooter trẻ em & đào tạo trượt patin",
+      "branches": [
+        {
+          "id": "scooter-types-kids",
+          "titleNative": "滑板车类型",
+          "titleVn": "Các loại xe scooter",
+          "words": [
+            {
+              "id": "zh-topic-scooterskate-ertonghuabanche",
+              "headword": "儿童滑板车",
+              "reading": "értóng huábǎnchē",
+              "meaningVn": "xe scooter trẻ em",
+              "example": "公园里到处都是骑儿童滑板车的孩子。",
+              "exampleVn": "Trong công viên đâu đâu cũng thấy trẻ em cưỡi xe scooter trẻ em."
+            },
+            {
+              "id": "zh-topic-scooterskate-lianglunhuabanche",
+              "headword": "两轮滑板车",
+              "reading": "liǎnglún huábǎnchē",
+              "meaningVn": "scooter hai bánh",
+              "example": "大一点的孩子更爱玩两轮滑板车。",
+              "exampleVn": "Trẻ lớn hơn một chút thích chơi scooter hai bánh hơn."
+            },
+            {
+              "id": "zh-topic-scooterskate-sanlunhuabanche",
+              "headword": "三轮滑板车",
+              "reading": "sānlún huábǎnchē",
+              "meaningVn": "scooter ba bánh",
+              "example": "刚学走路稳的孩子适合三轮滑板车。",
+              "exampleVn": "Trẻ vừa đi vững thích hợp với scooter ba bánh."
+            },
+            {
+              "id": "zh-topic-scooterskate-shanguanglunhuabanche",
+              "headword": "闪光轮滑板车",
+              "reading": "shǎnguāng lún huábǎnchē",
+              "meaningVn": "scooter bánh phát sáng",
+              "example": "晚上骑闪光轮滑板车特别酷。",
+              "exampleVn": "Buổi tối lái scooter bánh phát sáng trông đặc biệt ngầu."
+            },
+            {
+              "id": "zh-topic-scooterskate-huabanchetoukui",
+              "headword": "滑板车头盔",
+              "reading": "huábǎnchē tóukuī",
+              "meaningVn": "mũ bảo hiểm đi scooter",
+              "example": "出门前妈妈一定要给孩子戴滑板车头盔。",
+              "exampleVn": "Trước khi ra ngoài mẹ nhất định phải đội mũ bảo hiểm đi scooter cho con."
+            }
+          ]
+        },
+        {
+          "id": "roller-skating-training",
+          "titleNative": "轮滑培训",
+          "titleVn": "Đào tạo trượt patin",
+          "words": [
+            {
+              "id": "zh-topic-scooterskate-lunhuapeixunban",
+              "headword": "轮滑培训班",
+              "reading": "lúnhuá péixùnbān",
+              "meaningVn": "lớp đào tạo trượt patin",
+              "example": "暑假她给儿子报了轮滑培训班。",
+              "exampleVn": "Kỳ nghỉ hè cô ấy đăng ký cho con trai lớp đào tạo trượt patin."
+            },
+            {
+              "id": "zh-topic-scooterskate-hanbingxie",
+              "headword": "旱冰鞋",
+              "reading": "hànbīngxié",
+              "meaningVn": "giày trượt patin",
+              "example": "第一双旱冰鞋是妈妈买的生日礼物。",
+              "exampleVn": "Đôi giày trượt patin đầu tiên là món quà sinh nhật mẹ mua."
+            },
+            {
+              "id": "zh-topic-scooterskate-lunhuakaoji",
+              "headword": "轮滑考级",
+              "reading": "lúnhuá kǎojí",
+              "meaningVn": "thi lấy chứng chỉ trượt patin",
+              "example": "他顺利通过了轮滑考级三级。",
+              "exampleVn": "Cậu bé đã thi qua chứng chỉ trượt patin cấp ba thuận lợi."
+            },
+            {
+              "id": "zh-topic-scooterskate-huayanglunhua",
+              "headword": "花样轮滑",
+              "reading": "huāyàng lúnhuá",
+              "meaningVn": "trượt patin nghệ thuật",
+              "example": "她在比赛上表演了一段花样轮滑。",
+              "exampleVn": "Cô bé đã biểu diễn một đoạn trượt patin nghệ thuật tại cuộc thi."
+            },
+            {
+              "id": "zh-topic-scooterskate-jingsulunhua",
+              "headword": "竞速轮滑",
+              "reading": "jìngsù lúnhuá",
+              "meaningVn": "trượt patin tốc độ",
+              "example": "竞速轮滑对腿部力量要求很高。",
+              "exampleVn": "Trượt patin tốc độ đòi hỏi rất cao về sức mạnh đôi chân."
+            }
+          ]
+        },
+        {
+          "id": "learning-process-skate",
+          "titleNative": "学习过程",
+          "titleVn": "Quá trình học",
+          "words": [
+            {
+              "id": "zh-topic-scooterskate-shentipinghengxunlian",
+              "headword": "身体平衡训练",
+              "reading": "shēntǐ pínghéng xùnliàn",
+              "meaningVn": "luyện tập thăng bằng cơ thể",
+              "example": "上课前先做十分钟身体平衡训练。",
+              "exampleVn": "Trước giờ học làm mười phút luyện tập thăng bằng cơ thể trước."
+            },
+            {
+              "id": "zh-topic-scooterskate-shuaidaobaohuzishi",
+              "headword": "摔倒保护姿势",
+              "reading": "shuāidǎo bǎohù zīshì",
+              "meaningVn": "tư thế bảo vệ khi ngã",
+              "example": "教练第一课就教摔倒保护姿势。",
+              "exampleVn": "Buổi học đầu tiên huấn luyện viên đã dạy tư thế bảo vệ khi ngã."
+            },
+            {
+              "id": "zh-topic-scooterskate-jiaolianyiduiyizhidao",
+              "headword": "教练一对一指导",
+              "reading": "jiàoliàn yīduìyī zhǐdǎo",
+              "meaningVn": "huấn luyện viên hướng dẫn một kèm một",
+              "example": "进阶班可以选择教练一对一指导。",
+              "exampleVn": "Lớp nâng cao có thể chọn huấn luyện viên hướng dẫn một kèm một."
+            },
+            {
+              "id": "zh-topic-scooterskate-lunhuachangdi",
+              "headword": "轮滑场地",
+              "reading": "lúnhuá chǎngdì",
+              "meaningVn": "sân trượt patin",
+              "example": "小区新建了一个轮滑场地。",
+              "exampleVn": "Khu dân cư mới xây một sân trượt patin."
+            },
+            {
+              "id": "zh-topic-scooterskate-lunhuahujuzhuangbei",
+              "headword": "轮滑护具装备",
+              "reading": "lúnhuá hùjù zhuāngbèi",
+              "meaningVn": "trang bị bảo hộ trượt patin",
+              "example": "上课必须穿戴齐全轮滑护具装备。",
+              "exampleVn": "Vào lớp bắt buộc phải mặc đầy đủ trang bị bảo hộ trượt patin."
+            }
+          ]
+        },
+        {
+          "id": "activities-safety-skate",
+          "titleNative": "活动与安全",
+          "titleVn": "Hoạt động & an toàn",
+          "words": [
+            {
+              "id": "zh-topic-scooterskate-lunhuabisai",
+              "headword": "轮滑比赛",
+              "reading": "lúnhuá bǐsài",
+              "meaningVn": "cuộc thi trượt patin",
+              "example": "她第一次参加轮滑比赛就拿了名次。",
+              "exampleVn": "Lần đầu tham gia cuộc thi trượt patin cô bé đã đạt được thứ hạng."
+            },
+            {
+              "id": "zh-topic-scooterskate-gongyuanhuaxing",
+              "headword": "公园滑行",
+              "reading": "gōngyuán huáxíng",
+              "meaningVn": "trượt trong công viên",
+              "example": "周末孩子们最爱在公园滑行。",
+              "exampleVn": "Cuối tuần bọn trẻ thích nhất là trượt trong công viên."
+            },
+            {
+              "id": "zh-topic-scooterskate-kepengshuaishang",
+              "headword": "磕碰摔伤",
+              "reading": "kēpèng shuāishāng",
+              "meaningVn": "va chạm té ngã bị thương",
+              "example": "没戴护具容易磕碰摔伤。",
+              "exampleVn": "Không đeo đồ bảo hộ dễ bị va chạm té ngã bị thương."
+            },
+            {
+              "id": "zh-topic-scooterskate-jiaotonganquantixing",
+              "headword": "交通安全提醒",
+              "reading": "jiāotōng ānquán tíxǐng",
+              "meaningVn": "nhắc nhở an toàn giao thông",
+              "example": "教练反复做交通安全提醒,不能在马路上玩。",
+              "exampleVn": "Huấn luyện viên nhắc đi nhắc lại nhắc nhở an toàn giao thông, không được chơi trên đường lớn."
+            },
+            {
+              "id": "zh-topic-scooterskate-ertongshejiaohuodong",
+              "headword": "儿童社交活动",
+              "reading": "értóng shèjiāo huódòng",
+              "meaningVn": "hoạt động giao lưu xã hội cho trẻ em",
+              "example": "轮滑班也成了孩子的儿童社交活动。",
+              "exampleVn": "Lớp trượt patin cũng trở thành hoạt động giao lưu xã hội cho trẻ em."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-topic-window-security-grille-renovation",
+      "language": "zh",
+      "titleNative": "家庭防盗网与防护窗改造",
+      "titleVn": "Lưới chống trộm & cải tạo cửa sổ bảo vệ gia đình",
+      "branches": [
+        {
+          "id": "protection-products",
+          "titleNative": "防护产品",
+          "titleVn": "Sản phẩm bảo vệ",
+          "words": [
+            {
+              "id": "zh-topic-windowguard-fangdaowang",
+              "headword": "防盗网",
+              "reading": "fángdàowǎng",
+              "meaningVn": "lưới chống trộm",
+              "example": "老房子的窗户都装了防盗网。",
+              "exampleVn": "Cửa sổ nhà cũ đều đã lắp lưới chống trộm."
+            },
+            {
+              "id": "zh-topic-windowguard-fanghuchuang",
+              "headword": "防护窗",
+              "reading": "fánghùchuāng",
+              "meaningVn": "cửa sổ bảo vệ",
+              "example": "高层住户更倾向安装防护窗。",
+              "exampleVn": "Hộ dân ở tầng cao thường ưu tiên lắp cửa sổ bảo vệ."
+            },
+            {
+              "id": "zh-topic-windowguard-yinxingfangdaochuang",
+              "headword": "隐形防盗窗",
+              "reading": "yǐnxíng fángdàochuāng",
+              "meaningVn": "cửa sổ chống trộm dạng ẩn",
+              "example": "新装修她选了美观的隐形防盗窗。",
+              "exampleVn": "Sửa nhà lần này cô ấy chọn cửa sổ chống trộm dạng ẩn cho đẹp mắt."
+            },
+            {
+              "id": "zh-topic-windowguard-yangtaifangzhuiwang",
+              "headword": "阳台防坠网",
+              "reading": "yángtái fángzhuìwǎng",
+              "meaningVn": "lưới chống rơi ban công",
+              "example": "有孩子的家庭一定要装阳台防坠网。",
+              "exampleVn": "Gia đình có trẻ nhỏ nhất định phải lắp lưới chống rơi ban công."
+            },
+            {
+              "id": "zh-topic-windowguard-ertongfanghulan",
+              "headword": "儿童防护栏",
+              "reading": "értóng fánghùlán",
+              "meaningVn": "lan can bảo vệ trẻ em",
+              "example": "飘窗上加了一道儿童防护栏。",
+              "exampleVn": "Cửa sổ lồi được lắp thêm một lớp lan can bảo vệ trẻ em."
+            }
+          ]
+        },
+        {
+          "id": "install-removal",
+          "titleNative": "安装与拆除",
+          "titleVn": "Lắp đặt & tháo dỡ",
+          "words": [
+            {
+              "id": "zh-topic-windowguard-laojiufangdaowangchaichu",
+              "headword": "老旧防盗网拆除",
+              "reading": "lǎojiù fángdàowǎng chāichú",
+              "meaningVn": "tháo dỡ lưới chống trộm cũ",
+              "example": "小区统一组织老旧防盗网拆除。",
+              "exampleVn": "Khu dân cư tổ chức thống nhất tháo dỡ lưới chống trộm cũ."
+            },
+            {
+              "id": "zh-topic-windowguard-tongyiguihuaanzhuang",
+              "headword": "统一规划安装",
+              "reading": "tǒngyī guīhuà ānzhuāng",
+              "meaningVn": "lắp đặt theo quy hoạch thống nhất",
+              "example": "新小区要求防护窗统一规划安装。",
+              "exampleVn": "Khu dân cư mới yêu cầu cửa sổ bảo vệ phải lắp đặt theo quy hoạch thống nhất."
+            },
+            {
+              "id": "zh-topic-windowguard-wuyeshenpiliucheng",
+              "headword": "物业审批流程",
+              "reading": "wùyè shěnpī liúchéng",
+              "meaningVn": "quy trình ban quản lý phê duyệt",
+              "example": "私自安装前要先走物业审批流程。",
+              "exampleVn": "Trước khi tự ý lắp đặt phải qua quy trình ban quản lý phê duyệt trước."
+            },
+            {
+              "id": "zh-topic-windowguard-wailimianmeiguanyaoqiu",
+              "headword": "外立面美观要求",
+              "reading": "wàilìmiàn měiguān yāoqiú",
+              "meaningVn": "yêu cầu thẩm mỹ mặt ngoài tòa nhà",
+              "example": "小区对外立面美观要求很严格。",
+              "exampleVn": "Khu dân cư có yêu cầu thẩm mỹ mặt ngoài tòa nhà rất nghiêm ngặt."
+            },
+            {
+              "id": "zh-topic-windowguard-anzhuangzizhizhengming",
+              "headword": "安装资质证明",
+              "reading": "ānzhuāng zīzhì zhèngmíng",
+              "meaningVn": "chứng nhận đủ điều kiện lắp đặt",
+              "example": "正规公司都能出示安装资质证明。",
+              "exampleVn": "Công ty chính quy đều có thể xuất trình chứng nhận đủ điều kiện lắp đặt."
+            }
+          ]
+        },
+        {
+          "id": "safety-hazards-window",
+          "titleNative": "安全隐患",
+          "titleVn": "Nguy cơ mất an toàn",
+          "words": [
+            {
+              "id": "zh-topic-windowguard-gaokongzhuiwuyinhuan",
+              "headword": "高空坠物隐患",
+              "reading": "gāokōng zhuìwù yǐnhuàn",
+              "meaningVn": "nguy cơ vật rơi từ trên cao",
+              "example": "老旧防盗网松动是高空坠物隐患之一。",
+              "exampleVn": "Lưới chống trộm cũ bị lỏng là một trong những nguy cơ vật rơi từ trên cao."
+            },
+            {
+              "id": "zh-topic-windowguard-fangdaowangshengxiu",
+              "headword": "防盗网生锈",
+              "reading": "fángdàowǎng shēngxiù",
+              "meaningVn": "lưới chống trộm bị gỉ sét",
+              "example": "靠海边的房子防盗网生锈特别快。",
+              "exampleVn": "Nhà gần biển lưới chống trộm bị gỉ sét đặc biệt nhanh."
+            },
+            {
+              "id": "zh-topic-windowguard-taoshengtongdaoshouzu",
+              "headword": "逃生通道受阻",
+              "reading": "táoshēng tōngdào shòuzǔ",
+              "meaningVn": "lối thoát hiểm bị cản trở",
+              "example": "封闭式防盗网可能导致逃生通道受阻。",
+              "exampleVn": "Lưới chống trộm dạng bịt kín có thể khiến lối thoát hiểm bị cản trở."
+            },
+            {
+              "id": "zh-topic-windowguard-xiaofangtongdaozhanyong",
+              "headword": "消防通道占用",
+              "reading": "xiāofáng tōngdào zhànyòng",
+              "meaningVn": "chiếm dụng lối thoát hiểm cứu hỏa",
+              "example": "检查发现有住户消防通道占用防护网材料。",
+              "exampleVn": "Kiểm tra phát hiện có hộ dân chiếm dụng lối thoát hiểm cứu hỏa bằng vật liệu lưới bảo vệ."
+            },
+            {
+              "id": "zh-topic-windowguard-kaichuangxianweiqi",
+              "headword": "开窗限位器",
+              "reading": "kāichuāng xiànwèiqì",
+              "meaningVn": "thiết bị hạn chế độ mở cửa sổ",
+              "example": "没装防护网的窗户可以先装开窗限位器。",
+              "exampleVn": "Cửa sổ chưa lắp lưới bảo vệ có thể lắp thiết bị hạn chế độ mở cửa sổ trước."
+            }
+          ]
+        },
+        {
+          "id": "policy-disputes",
+          "titleNative": "政策与纠纷",
+          "titleVn": "Chính sách & tranh chấp",
+          "words": [
+            {
+              "id": "zh-topic-windowguard-qiangzhichaichutongzhi",
+              "headword": "强制拆除通知",
+              "reading": "qiángzhì chāichú tōngzhī",
+              "meaningVn": "thông báo cưỡng chế tháo dỡ",
+              "example": "不合规的防盗网收到了强制拆除通知。",
+              "exampleVn": "Lưới chống trộm không đạt chuẩn đã nhận được thông báo cưỡng chế tháo dỡ."
+            },
+            {
+              "id": "zh-topic-windowguard-linlianzhuangjiufen",
+              "headword": "邻里安装纠纷",
+              "reading": "línlǐ ānzhuāng jiūfēn",
+              "meaningVn": "tranh chấp hàng xóm về việc lắp đặt",
+              "example": "因为遮光问题引发了邻里安装纠纷。",
+              "exampleVn": "Vì vấn đề che sáng mà xảy ra tranh chấp hàng xóm về việc lắp đặt."
+            },
+            {
+              "id": "zh-topic-windowguard-tongyijiazhuangguifan",
+              "headword": "统一加装规范",
+              "reading": "tǒngyī jiāzhuāng guīfàn",
+              "meaningVn": "quy chuẩn lắp đặt thống nhất",
+              "example": "街道办发布了统一加装规范。",
+              "exampleVn": "Ủy ban phường đã ban hành quy chuẩn lắp đặt thống nhất."
+            },
+            {
+              "id": "zh-topic-windowguard-jiazhuangpeitaosheshi",
+              "headword": "加装配套设施",
+              "reading": "jiāzhuāng pèitào shèshī",
+              "meaningVn": "hạng mục lắp đặt kèm theo",
+              "example": "老旧小区改造包含加装配套设施。",
+              "exampleVn": "Cải tạo khu dân cư cũ bao gồm hạng mục lắp đặt kèm theo."
+            },
+            {
+              "id": "zh-topic-windowguard-fanghuwangjiazhuangfeiyong",
+              "headword": "防护网加装费用",
+              "reading": "fánghùwǎng jiāzhuāng fèiyòng",
+              "meaningVn": "chi phí lắp đặt lưới bảo vệ",
+              "example": "这次防护网加装费用由业主自行承担。",
+              "exampleVn": "Lần này chi phí lắp đặt lưới bảo vệ do chủ hộ tự chi trả."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-topic-pest-control-service",
+      "language": "zh",
+      "titleNative": "家庭灭鼠灭蟑与除虫服务",
+      "titleVn": "Diệt chuột diệt gián & dịch vụ diệt côn trùng gia đình",
+      "branches": [
+        {
+          "id": "common-pests",
+          "titleNative": "常见虫害",
+          "titleVn": "Sâu hại thường gặp",
+          "words": [
+            {
+              "id": "zh-topic-pestcontrol-zhanglangzisheng",
+              "headword": "蟑螂滋生",
+              "reading": "zhāngláng zīshēng",
+              "meaningVn": "gián sinh sôi",
+              "example": "厨房潮湿角落容易蟑螂滋生。",
+              "exampleVn": "Góc bếp ẩm ướt dễ khiến gián sinh sôi."
+            },
+            {
+              "id": "zh-topic-pestcontrol-laoshuchumo",
+              "headword": "老鼠出没",
+              "reading": "lǎoshǔ chūmò",
+              "meaningVn": "chuột xuất hiện",
+              "example": "阳台最近总有老鼠出没。",
+              "exampleVn": "Gần đây ban công lúc nào cũng có chuột xuất hiện."
+            },
+            {
+              "id": "zh-topic-pestcontrol-baiyizhushi",
+              "headword": "白蚁蛀蚀",
+              "reading": "báiyǐ zhùshí",
+              "meaningVn": "mối gặm nhấm",
+              "example": "老木门被白蚁蛀蚀得很严重。",
+              "exampleVn": "Cửa gỗ cũ bị mối gặm nhấm rất nghiêm trọng."
+            },
+            {
+              "id": "zh-topic-pestcontrol-chuangshidingyao",
+              "headword": "床虱叮咬",
+              "reading": "chuángshī dīngyǎo",
+              "meaningVn": "rệp giường cắn",
+              "example": "住旅馆时她被床虱叮咬了好几处。",
+              "exampleVn": "Ở khách sạn cô ấy bị rệp giường cắn mấy chỗ."
+            },
+            {
+              "id": "zh-topic-pestcontrol-wenchongzishengdi",
+              "headword": "蚊虫滋生地",
+              "reading": "wénchóng zīshēngdì",
+              "meaningVn": "nơi muỗi sinh sôi",
+              "example": "楼下积水成了蚊虫滋生地。",
+              "exampleVn": "Nước đọng ở tầng dưới trở thành nơi muỗi sinh sôi."
+            }
+          ]
+        },
+        {
+          "id": "control-methods",
+          "titleNative": "灭虫方式",
+          "titleVn": "Phương pháp diệt côn trùng",
+          "words": [
+            {
+              "id": "zh-topic-pestcontrol-zhanshuban",
+              "headword": "粘鼠板",
+              "reading": "zhānshǔbǎn",
+              "meaningVn": "bẫy dính chuột",
+              "example": "厨房角落放了几张粘鼠板。",
+              "exampleVn": "Góc bếp đặt mấy tấm bẫy dính chuột."
+            },
+            {
+              "id": "zh-topic-pestcontrol-miezhangjiaoer",
+              "headword": "灭蟑胶饵",
+              "reading": "mièzhāng jiāoěr",
+              "meaningVn": "mồi keo diệt gián",
+              "example": "橱柜缝隙挤了一些灭蟑胶饵。",
+              "exampleVn": "Khe tủ bếp được bơm vào một ít mồi keo diệt gián."
+            },
+            {
+              "id": "zh-topic-pestcontrol-baiyifangzhi",
+              "headword": "白蚁防治",
+              "reading": "báiyǐ fángzhì",
+              "meaningVn": "phòng trừ mối",
+              "example": "新房装修前先做白蚁防治。",
+              "exampleVn": "Trước khi sửa nhà mới làm phòng trừ mối trước."
+            },
+            {
+              "id": "zh-topic-pestcontrol-chaoshengboquchongqi",
+              "headword": "超声波驱虫器",
+              "reading": "chāoshēngbō qūchóngqì",
+              "meaningVn": "máy đuổi côn trùng sóng siêu âm",
+              "example": "她在家里插了一个超声波驱虫器。",
+              "exampleVn": "Cô ấy cắm một máy đuổi côn trùng sóng siêu âm trong nhà."
+            },
+            {
+              "id": "zh-topic-pestcontrol-zhuanyemiechonggongsi",
+              "headword": "专业灭虫公司",
+              "reading": "zhuānyè mièchóng gōngsī",
+              "meaningVn": "công ty diệt côn trùng chuyên nghiệp",
+              "example": "蟑螂太多只能请专业灭虫公司。",
+              "exampleVn": "Gián quá nhiều đành phải thuê công ty diệt côn trùng chuyên nghiệp."
+            }
+          ]
+        },
+        {
+          "id": "onsite-service",
+          "titleNative": "上门服务",
+          "titleVn": "Dịch vụ tận nơi",
+          "words": [
+            {
+              "id": "zh-topic-pestcontrol-miechongfuwushangmen",
+              "headword": "灭虫服务上门",
+              "reading": "mièchóng fúwù shàngmén",
+              "meaningVn": "dịch vụ diệt côn trùng tận nhà",
+              "example": "她在手机上预约了灭虫服务上门。",
+              "exampleVn": "Cô ấy đặt lịch dịch vụ diệt côn trùng tận nhà trên điện thoại."
+            },
+            {
+              "id": "zh-topic-pestcontrol-chonghaipinggu",
+              "headword": "虫害评估",
+              "reading": "chónghài pínggū",
+              "meaningVn": "đánh giá mức độ sâu hại",
+              "example": "师傅上门先做虫害评估。",
+              "exampleVn": "Thợ đến nhà trước tiên làm đánh giá mức độ sâu hại."
+            },
+            {
+              "id": "zh-topic-pestcontrol-yaojianquanjiangeqi",
+              "headword": "药剂安全间隔期",
+              "reading": "yàojì ānquán jiàngéqī",
+              "meaningVn": "thời gian cách ly an toàn của hóa chất",
+              "example": "喷药后要遵守药剂安全间隔期。",
+              "exampleVn": "Sau khi phun thuốc phải tuân thủ thời gian cách ly an toàn của hóa chất."
+            },
+            {
+              "id": "zh-topic-pestcontrol-miechongshouhoubaoxiu",
+              "headword": "灭虫售后保修",
+              "reading": "mièchóng shòuhòu bǎoxiū",
+              "meaningVn": "bảo hành sau dịch vụ diệt côn trùng",
+              "example": "这家公司提供三个月灭虫售后保修。",
+              "exampleVn": "Công ty này cung cấp ba tháng bảo hành sau dịch vụ diệt côn trùng."
+            },
+            {
+              "id": "zh-topic-pestcontrol-fuchahuifang",
+              "headword": "复查回访",
+              "reading": "fùchá huífǎng",
+              "meaningVn": "tái khám kiểm tra lại",
+              "example": "一周后师傅会做一次复查回访。",
+              "exampleVn": "Một tuần sau thợ sẽ làm một lần tái khám kiểm tra lại."
+            }
+          ]
+        },
+        {
+          "id": "prevention-measures",
+          "titleNative": "预防措施",
+          "titleVn": "Biện pháp phòng ngừa",
+          "words": [
+            {
+              "id": "zh-topic-pestcontrol-shiwumifengchucun",
+              "headword": "食物密封储存",
+              "reading": "shíwù mìfēng chǔcún",
+              "meaningVn": "bảo quản thực phẩm kín",
+              "example": "米面等食物要做到食物密封储存。",
+              "exampleVn": "Gạo bột và các loại thực phẩm khác phải bảo quản thực phẩm kín."
+            },
+            {
+              "id": "zh-topic-pestcontrol-xiashuidaofanghu",
+              "headword": "下水道防护",
+              "reading": "xiàshuǐdào fánghù",
+              "meaningVn": "bảo vệ đường ống thoát nước",
+              "example": "装了地漏盖做下水道防护。",
+              "exampleVn": "Lắp nắp cống để bảo vệ đường ống thoát nước."
+            },
+            {
+              "id": "zh-topic-pestcontrol-menchuangmifengtiao",
+              "headword": "门窗密封条",
+              "reading": "ménchuāng mìfēngtiáo",
+              "meaningVn": "ron cao su bịt kín cửa",
+              "example": "老房子加装了门窗密封条。",
+              "exampleVn": "Nhà cũ được lắp thêm ron cao su bịt kín cửa."
+            },
+            {
+              "id": "zh-topic-pestcontrol-lajijishiqingli",
+              "headword": "垃圾及时清理",
+              "reading": "lājī jíshí qīnglǐ",
+              "meaningVn": "dọn rác kịp thời",
+              "example": "预防虫害最基本的就是垃圾及时清理。",
+              "exampleVn": "Cơ bản nhất để phòng sâu hại chính là dọn rác kịp thời."
+            },
+            {
+              "id": "zh-topic-pestcontrol-zhuangxiufangchongchuli",
+              "headword": "装修防虫处理",
+              "reading": "zhuāngxiū fángchóng chǔlǐ",
+              "meaningVn": "xử lý chống côn trùng khi sửa nhà",
+              "example": "装修合同里加了一项装修防虫处理。",
+              "exampleVn": "Hợp đồng sửa nhà thêm vào một mục xử lý chống côn trùng khi sửa nhà."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-topic-student-nutrition-breakfast-meal-plan",
+      "language": "zh",
+      "titleNative": "学生营养早餐与营养餐计划",
+      "titleVn": "Bữa sáng dinh dưỡng & chương trình bữa ăn học sinh",
+      "branches": [
+        {
+          "id": "nutrition-breakfast",
+          "titleNative": "营养早餐",
+          "titleVn": "Bữa sáng dinh dưỡng",
+          "words": [
+            {
+              "id": "zh-topic-schoolmeal-xueshengyingyangzaocan",
+              "headword": "学生营养早餐",
+              "reading": "xuésheng yíngyǎng zǎocān",
+              "meaningVn": "bữa sáng dinh dưỡng cho học sinh",
+              "example": "学校食堂开始供应学生营养早餐。",
+              "exampleVn": "Nhà ăn của trường bắt đầu cung cấp bữa sáng dinh dưỡng cho học sinh."
+            },
+            {
+              "id": "zh-topic-schoolmeal-zaocannai",
+              "headword": "早餐奶",
+              "reading": "zǎocānnǎi",
+              "meaningVn": "sữa ăn sáng",
+              "example": "妈妈每天给他准备一盒早餐奶。",
+              "exampleVn": "Mỗi ngày mẹ chuẩn bị cho cậu một hộp sữa ăn sáng."
+            },
+            {
+              "id": "zh-topic-schoolmeal-jidansheruliang",
+              "headword": "鸡蛋摄入量",
+              "reading": "jīdàn shèrùliàng",
+              "meaningVn": "lượng trứng tiêu thụ",
+              "example": "营养师建议增加孩子的鸡蛋摄入量。",
+              "exampleVn": "Chuyên viên dinh dưỡng khuyên tăng lượng trứng tiêu thụ của trẻ."
+            },
+            {
+              "id": "zh-topic-schoolmeal-zaocandianxuanze",
+              "headword": "早餐店选择",
+              "reading": "zǎocāndiàn xuǎnzé",
+              "meaningVn": "lựa chọn quán ăn sáng",
+              "example": "上学路上的早餐店选择很多。",
+              "exampleVn": "Trên đường đi học có rất nhiều lựa chọn quán ăn sáng."
+            },
+            {
+              "id": "zh-topic-schoolmeal-buchizaocanweihai",
+              "headword": "不吃早餐危害",
+              "reading": "bù chī zǎocān wēihài",
+              "meaningVn": "tác hại của việc bỏ bữa sáng",
+              "example": "健康课上老师讲了不吃早餐危害。",
+              "exampleVn": "Trong giờ học sức khỏe cô giáo giảng về tác hại của việc bỏ bữa sáng."
+            }
+          ]
+        },
+        {
+          "id": "meal-plan",
+          "titleNative": "营养餐计划",
+          "titleVn": "Chương trình bữa ăn dinh dưỡng",
+          "words": [
+            {
+              "id": "zh-topic-schoolmeal-xueshengyingyangcanjihua",
+              "headword": "学生营养餐计划",
+              "reading": "xuésheng yíngyǎngcān jìhuà",
+              "meaningVn": "chương trình bữa ăn dinh dưỡng học sinh",
+              "example": "这所学校参与了学生营养餐计划。",
+              "exampleVn": "Trường này đã tham gia chương trình bữa ăn dinh dưỡng học sinh."
+            },
+            {
+              "id": "zh-topic-schoolmeal-nongcunyiwujiaoyuyingyanggaishanjihua",
+              "headword": "农村义务教育营养改善计划",
+              "reading": "nóngcūn yìwù jiàoyù yíngyǎng gǎishàn jìhuà",
+              "meaningVn": "chương trình cải thiện dinh dưỡng giáo dục bắt buộc nông thôn",
+              "example": "农村义务教育营养改善计划惠及了不少山区孩子。",
+              "exampleVn": "Chương trình cải thiện dinh dưỡng giáo dục bắt buộc nông thôn đã mang lợi ích cho không ít trẻ em vùng núi."
+            },
+            {
+              "id": "zh-topic-schoolmeal-yingyangcanbiaozhun",
+              "headword": "营养餐标准",
+              "reading": "yíngyǎngcān biāozhǔn",
+              "meaningVn": "tiêu chuẩn bữa ăn dinh dưỡng",
+              "example": "每份餐都要符合营养餐标准。",
+              "exampleVn": "Mỗi suất ăn đều phải đạt tiêu chuẩn bữa ăn dinh dưỡng."
+            },
+            {
+              "id": "zh-topic-schoolmeal-zhongyangchufangpeisong",
+              "headword": "中央厨房配送",
+              "reading": "zhōngyāng chúfáng pèisòng",
+              "meaningVn": "giao hàng từ bếp ăn trung tâm",
+              "example": "几所学校共用一个中央厨房配送。",
+              "exampleVn": "Mấy trường học dùng chung một bếp ăn trung tâm để giao hàng."
+            },
+            {
+              "id": "zh-topic-schoolmeal-shitangmingchuliangzao",
+              "headword": "食堂明厨亮灶",
+              "reading": "shítáng míngchú liàngzào",
+              "meaningVn": "bếp ăn minh bạch công khai",
+              "example": "家长可以透过食堂明厨亮灶系统看到后厨。",
+              "exampleVn": "Phụ huynh có thể nhìn thấy khu bếp qua hệ thống bếp ăn minh bạch công khai."
+            }
+          ]
+        },
+        {
+          "id": "food-safety-oversight",
+          "titleNative": "食品安全监管",
+          "titleVn": "Giám sát an toàn thực phẩm",
+          "words": [
+            {
+              "id": "zh-topic-schoolmeal-xuexiaopeicanzhidu",
+              "headword": "学校陪餐制度",
+              "reading": "xuéxiào péicān zhìdù",
+              "meaningVn": "chế độ giáo viên ăn cùng học sinh",
+              "example": "学校实行了学校陪餐制度多年。",
+              "exampleVn": "Nhà trường đã thực hiện chế độ giáo viên ăn cùng học sinh nhiều năm."
+            },
+            {
+              "id": "zh-topic-schoolmeal-shicaisuyuan",
+              "headword": "食材溯源",
+              "reading": "shícái sùyuán",
+              "meaningVn": "truy xuất nguồn gốc nguyên liệu",
+              "example": "每批食材都要能食材溯源。",
+              "exampleVn": "Mỗi lô nguyên liệu đều phải truy xuất được nguồn gốc."
+            },
+            {
+              "id": "zh-topic-schoolmeal-liuyangzhidu",
+              "headword": "留样制度",
+              "reading": "liúyàng zhìdù",
+              "meaningVn": "chế độ lưu mẫu thức ăn",
+              "example": "食堂严格执行留样制度四十八小时。",
+              "exampleVn": "Nhà ăn nghiêm túc thực hiện chế độ lưu mẫu thức ăn bốn mươi tám giờ."
+            },
+            {
+              "id": "zh-topic-schoolmeal-xiaoyuanshipinanquanjiancha",
+              "headword": "校园食品安全检查",
+              "reading": "xiàoyuán shípǐn ānquán jiǎnchá",
+              "meaningVn": "kiểm tra an toàn thực phẩm học đường",
+              "example": "教育局突击进行校园食品安全检查。",
+              "exampleVn": "Sở giáo dục đột xuất tiến hành kiểm tra an toàn thực phẩm học đường."
+            },
+            {
+              "id": "zh-topic-schoolmeal-jiazhangshanshikaifangri",
+              "headword": "家长膳食开放日",
+              "reading": "jiāzhǎng shànshí kāifàngrì",
+              "meaningVn": "ngày phụ huynh tham quan bữa ăn",
+              "example": "这学期学校举办了家长膳食开放日。",
+              "exampleVn": "Học kỳ này nhà trường tổ chức ngày phụ huynh tham quan bữa ăn."
+            }
+          ]
+        },
+        {
+          "id": "special-needs-meal",
+          "titleNative": "特殊需求",
+          "titleVn": "Nhu cầu đặc biệt",
+          "words": [
+            {
+              "id": "zh-topic-schoolmeal-guominyuanbiaozhi",
+              "headword": "过敏源标识",
+              "reading": "guòmǐnyuán biāozhì",
+              "meaningVn": "nhãn cảnh báo dị nguyên",
+              "example": "菜单上都印有过敏源标识。",
+              "exampleVn": "Trên thực đơn đều in nhãn cảnh báo dị nguyên."
+            },
+            {
+              "id": "zh-topic-schoolmeal-tiaoshipianshi",
+              "headword": "挑食偏食",
+              "reading": "tiāoshí piānshí",
+              "meaningVn": "kén ăn thiên lệch",
+              "example": "老师注意到班里有几个孩子挑食偏食。",
+              "exampleVn": "Cô giáo để ý thấy trong lớp có mấy bé kén ăn thiên lệch."
+            },
+            {
+              "id": "zh-topic-schoolmeal-ertongfeipangganyu",
+              "headword": "儿童肥胖干预",
+              "reading": "értóng féipàng gānyù",
+              "meaningVn": "can thiệp béo phì ở trẻ em",
+              "example": "学校配合医院做儿童肥胖干预项目。",
+              "exampleVn": "Trường phối hợp với bệnh viện làm dự án can thiệp béo phì ở trẻ em."
+            },
+            {
+              "id": "zh-topic-schoolmeal-pinkunshengyingyangbuzhu",
+              "headword": "贫困生营养补助",
+              "reading": "pínkùnshēng yíngyǎng bǔzhù",
+              "meaningVn": "trợ cấp dinh dưỡng cho học sinh nghèo",
+              "example": "申请贫困生营养补助需要提交证明材料。",
+              "exampleVn": "Xin trợ cấp dinh dưỡng cho học sinh nghèo cần nộp giấy tờ chứng minh."
+            },
+            {
+              "id": "zh-topic-schoolmeal-jisushengcanfeibutie",
+              "headword": "寄宿生餐费补贴",
+              "reading": "jìsùshēng cānfèi bǔtiē",
+              "meaningVn": "trợ cấp tiền ăn cho học sinh nội trú",
+              "example": "乡镇学校发放了寄宿生餐费补贴。",
+              "exampleVn": "Trường ở thị trấn đã phát trợ cấp tiền ăn cho học sinh nội trú."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-topic-elderly-hospital-escort-service",
+      "language": "zh",
+      "titleNative": "老年陪诊服务与就医陪护",
+      "titleVn": "Dịch vụ đồng hành khám bệnh & chăm sóc người bệnh cho người già",
+      "branches": [
+        {
+          "id": "escort-service",
+          "titleNative": "陪诊服务",
+          "titleVn": "Dịch vụ đồng hành khám bệnh",
+          "words": [
+            {
+              "id": "zh-topic-hospitalescort-peizhenshi",
+              "headword": "陪诊师",
+              "reading": "péizhěnshī",
+              "meaningVn": "người đồng hành khám bệnh",
+              "example": "子女不在身边,她请了陪诊师。",
+              "exampleVn": "Con cái không ở bên, bà thuê người đồng hành khám bệnh."
+            },
+            {
+              "id": "zh-topic-hospitalescort-daiwenzhen",
+              "headword": "代问诊",
+              "reading": "dài wènzhěn",
+              "meaningVn": "thay mặt hỏi bệnh",
+              "example": "陪诊师帮不识字的老人代问诊。",
+              "exampleVn": "Người đồng hành khám bệnh giúp cụ không biết chữ thay mặt hỏi bệnh."
+            },
+            {
+              "id": "zh-topic-hospitalescort-daiquyao",
+              "headword": "代取药",
+              "reading": "dài qǔyào",
+              "meaningVn": "lấy thuốc hộ",
+              "example": "她请邻居帮忙代取药。",
+              "exampleVn": "Bà nhờ hàng xóm lấy thuốc hộ."
+            },
+            {
+              "id": "zh-topic-hospitalescort-daipaiduiguahao",
+              "headword": "代排队挂号",
+              "reading": "dài páiduì guàhào",
+              "meaningVn": "xếp hàng đăng ký khám hộ",
+              "example": "一早就有人代排队挂号。",
+              "exampleVn": "Từ sáng sớm đã có người xếp hàng đăng ký khám hộ."
+            },
+            {
+              "id": "zh-topic-hospitalescort-yuanneipeitong",
+              "headword": "院内陪同",
+              "reading": "yuànnèi péitóng",
+              "meaningVn": "đi cùng trong bệnh viện",
+              "example": "老人做检查全程有院内陪同。",
+              "exampleVn": "Cụ làm xét nghiệm có người đi cùng trong bệnh viện suốt quá trình."
+            }
+          ]
+        },
+        {
+          "id": "service-process",
+          "titleNative": "服务流程",
+          "titleVn": "Quy trình dịch vụ",
+          "words": [
+            {
+              "id": "zh-topic-hospitalescort-xianshangyuyuepeizhen",
+              "headword": "线上预约陪诊",
+              "reading": "xiànshàng yùyuē péizhěn",
+              "meaningVn": "đặt lịch dịch vụ đồng hành khám bệnh trực tuyến",
+              "example": "她提前一天线上预约陪诊。",
+              "exampleVn": "Bà đặt lịch dịch vụ đồng hành khám bệnh trực tuyến trước một ngày."
+            },
+            {
+              "id": "zh-topic-hospitalescort-peizhenshoufeibiaozhun",
+              "headword": "陪诊收费标准",
+              "reading": "péizhěn shōufèi biāozhǔn",
+              "meaningVn": "tiêu chuẩn phí dịch vụ đồng hành khám bệnh",
+              "example": "不同平台的陪诊收费标准差别不大。",
+              "exampleVn": "Tiêu chuẩn phí dịch vụ đồng hành khám bệnh giữa các nền tảng không chênh lệch nhiều."
+            },
+            {
+              "id": "zh-topic-hospitalescort-fuwushichangjifei",
+              "headword": "服务时长计费",
+              "reading": "fúwù shícháng jìfèi",
+              "meaningVn": "tính phí theo thời gian dịch vụ",
+              "example": "这家平台按服务时长计费。",
+              "exampleVn": "Nền tảng này tính phí theo thời gian dịch vụ."
+            },
+            {
+              "id": "zh-topic-hospitalescort-peizhenjilufankui",
+              "headword": "陪诊记录反馈",
+              "reading": "péizhěn jìlù fǎnkuì",
+              "meaningVn": "ghi chép phản hồi buổi đồng hành khám bệnh",
+              "example": "服务结束后会收到陪诊记录反馈。",
+              "exampleVn": "Sau khi dịch vụ kết thúc sẽ nhận được ghi chép phản hồi buổi đồng hành khám bệnh."
+            },
+            {
+              "id": "zh-topic-hospitalescort-jinjiqingkuangchuli",
+              "headword": "紧急情况处理",
+              "reading": "jǐnjí qíngkuàng chǔlǐ",
+              "meaningVn": "xử lý tình huống khẩn cấp",
+              "example": "陪诊师也要接受紧急情况处理培训。",
+              "exampleVn": "Người đồng hành khám bệnh cũng phải được đào tạo xử lý tình huống khẩn cấp."
+            }
+          ]
+        },
+        {
+          "id": "hospital-companion-care",
+          "titleNative": "就医陪护",
+          "titleVn": "Chăm sóc người bệnh",
+          "words": [
+            {
+              "id": "zh-topic-hospitalescort-zhuyuanpeihu",
+              "headword": "住院陪护",
+              "reading": "zhùyuàn péihù",
+              "meaningVn": "chăm sóc người bệnh nội trú",
+              "example": "老伴住院期间她一直住院陪护。",
+              "exampleVn": "Trong thời gian chồng nằm viện bà luôn ở lại chăm sóc người bệnh nội trú."
+            },
+            {
+              "id": "zh-topic-hospitalescort-hugongguyong",
+              "headword": "护工雇佣",
+              "reading": "hùgōng gùyōng",
+              "meaningVn": "thuê người chăm sóc bệnh nhân",
+              "example": "子女工作忙就做了护工雇佣。",
+              "exampleVn": "Con cái bận công việc nên thuê người chăm sóc bệnh nhân."
+            },
+            {
+              "id": "zh-topic-hospitalescort-peihuchuang",
+              "headword": "陪护床",
+              "reading": "péihùchuáng",
+              "meaningVn": "giường dành cho người chăm sóc",
+              "example": "病房里加了一张陪护床。",
+              "exampleVn": "Phòng bệnh được kê thêm một chiếc giường dành cho người chăm sóc."
+            },
+            {
+              "id": "zh-topic-hospitalescort-fanshenpaibei",
+              "headword": "翻身拍背",
+              "reading": "fānshēn pāibèi",
+              "meaningVn": "lật người vỗ lưng cho bệnh nhân",
+              "example": "护工每两小时给老人翻身拍背一次。",
+              "exampleVn": "Người chăm sóc cứ hai tiếng lại lật người vỗ lưng cho cụ một lần."
+            },
+            {
+              "id": "zh-topic-hospitalescort-shuhouzhaoliao",
+              "headword": "术后照料",
+              "reading": "shùhòu zhàoliào",
+              "meaningVn": "chăm sóc sau phẫu thuật",
+              "example": "出院后还需要一周的术后照料。",
+              "exampleVn": "Sau khi xuất viện còn cần một tuần chăm sóc sau phẫu thuật."
+            }
+          ]
+        },
+        {
+          "id": "industry-trust",
+          "titleNative": "行业与信任",
+          "titleVn": "Ngành nghề & niềm tin",
+          "words": [
+            {
+              "id": "zh-topic-hospitalescort-xinxingzhiyerenzheng",
+              "headword": "新兴职业认证",
+              "reading": "xīnxīng zhíyè rènzhèng",
+              "meaningVn": "chứng nhận nghề nghiệp mới nổi",
+              "example": "陪诊师目前还没有统一的新兴职业认证。",
+              "exampleVn": "Người đồng hành khám bệnh hiện vẫn chưa có chứng nhận nghề nghiệp mới nổi thống nhất."
+            },
+            {
+              "id": "zh-topic-hospitalescort-zinvyidiweituo",
+              "headword": "子女异地委托",
+              "reading": "zǐnǚ yìdì wěituō",
+              "meaningVn": "con cái ở xa ủy thác chăm sóc",
+              "example": "这单是典型的子女异地委托。",
+              "exampleVn": "Đơn này là trường hợp điển hình con cái ở xa ủy thác chăm sóc."
+            },
+            {
+              "id": "zh-topic-hospitalescort-yinsibaohuxieyi",
+              "headword": "隐私保护协议",
+              "reading": "yǐnsī bǎohù xiéyì",
+              "meaningVn": "thỏa thuận bảo vệ quyền riêng tư",
+              "example": "下单前平台会签一份隐私保护协议。",
+              "exampleVn": "Trước khi đặt dịch vụ nền tảng sẽ ký một bản thỏa thuận bảo vệ quyền riêng tư."
+            },
+            {
+              "id": "zh-topic-hospitalescort-fuwukoubeipingjia",
+              "headword": "服务口碑评价",
+              "reading": "fúwù kǒubēi píngjià",
+              "meaningVn": "đánh giá uy tín dịch vụ",
+              "example": "选陪诊师前她先看了服务口碑评价。",
+              "exampleVn": "Trước khi chọn người đồng hành khám bệnh bà xem trước đánh giá uy tín dịch vụ."
+            },
+            {
+              "id": "zh-topic-hospitalescort-shoufeiluanxiangzhengzhi",
+              "headword": "收费乱象整治",
+              "reading": "shōufèi luànxiàng zhěngzhì",
+              "meaningVn": "chấn chỉnh tình trạng thu phí lộn xộn",
+              "example": "相关部门正在推动收费乱象整治。",
+              "exampleVn": "Cơ quan liên quan đang thúc đẩy chấn chỉnh tình trạng thu phí lộn xộn."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-topic-roof-bathroom-waterproofing",
+      "language": "zh",
+      "titleNative": "家庭屋顶防水与卫生间补漏",
+      "titleVn": "Chống thấm mái nhà & xử lý rò rỉ nhà vệ sinh",
+      "branches": [
+        {
+          "id": "waterproof-materials",
+          "titleNative": "防水材料",
+          "titleVn": "Vật liệu chống thấm",
+          "words": [
+            {
+              "id": "zh-topic-waterproofing-fangshuituliao",
+              "headword": "防水涂料",
+              "reading": "fángshuǐ túliào",
+              "meaningVn": "sơn chống thấm",
+              "example": "卫生间墙面刷了两遍防水涂料。",
+              "exampleVn": "Tường nhà vệ sinh được sơn hai lớp sơn chống thấm."
+            },
+            {
+              "id": "zh-topic-waterproofing-fangshuijuancai",
+              "headword": "防水卷材",
+              "reading": "fángshuǐ juǎncái",
+              "meaningVn": "màng chống thấm dạng cuộn",
+              "example": "屋顶铺的是高分子防水卷材。",
+              "exampleVn": "Mái nhà được trải màng chống thấm dạng cuộn cao phân tử."
+            },
+            {
+              "id": "zh-topic-waterproofing-dulouwang",
+              "headword": "堵漏王",
+              "reading": "dǔlòuwáng",
+              "meaningVn": "keo bịt rò rỉ chuyên dụng",
+              "example": "漏水点先用堵漏王临时处理。",
+              "exampleVn": "Chỗ rò nước trước tiên dùng keo bịt rò rỉ chuyên dụng xử lý tạm thời."
+            },
+            {
+              "id": "zh-topic-waterproofing-mifengjiao",
+              "headword": "密封胶",
+              "reading": "mìfēngjiāo",
+              "meaningVn": "keo dán kín",
+              "example": "窗框缝隙打了一圈密封胶。",
+              "exampleVn": "Khe khung cửa sổ được bơm một vòng keo dán kín."
+            },
+            {
+              "id": "zh-topic-waterproofing-fangshuijiangliao",
+              "headword": "防水浆料",
+              "reading": "fángshuǐ jiāngliào",
+              "meaningVn": "vữa chống thấm",
+              "example": "阳台地面刷了一层防水浆料。",
+              "exampleVn": "Sàn ban công được quét một lớp vữa chống thấm."
+            }
+          ]
+        },
+        {
+          "id": "roof-waterproofing",
+          "titleNative": "屋顶防水",
+          "titleVn": "Chống thấm mái nhà",
+          "words": [
+            {
+              "id": "zh-topic-waterproofing-wudingfangshuigongcheng",
+              "headword": "屋顶防水工程",
+              "reading": "wūdǐng fángshuǐ gōngchéng",
+              "meaningVn": "công trình chống thấm mái nhà",
+              "example": "顶楼住户共同分摊了屋顶防水工程费用。",
+              "exampleVn": "Các hộ tầng thượng cùng chia sẻ chi phí công trình chống thấm mái nhà."
+            },
+            {
+              "id": "zh-topic-waterproofing-nverqiangshenshui",
+              "headword": "女儿墙渗水",
+              "reading": "nǚ'érqiáng shènshuǐ",
+              "meaningVn": "tường chắn mái bị thấm nước",
+              "example": "雨季一到就出现女儿墙渗水。",
+              "exampleVn": "Cứ vào mùa mưa là xuất hiện tường chắn mái bị thấm nước."
+            },
+            {
+              "id": "zh-topic-waterproofing-wumianpaishuipodu",
+              "headword": "屋面排水坡度",
+              "reading": "wūmiàn páishuǐ pōdù",
+              "meaningVn": "độ dốc thoát nước mái nhà",
+              "example": "设计时就要计算好屋面排水坡度。",
+              "exampleVn": "Lúc thiết kế phải tính toán kỹ độ dốc thoát nước mái nhà."
+            },
+            {
+              "id": "zh-topic-waterproofing-gerefangshuiyitihua",
+              "headword": "隔热防水一体化",
+              "reading": "gérè fángshuǐ yìtǐhuà",
+              "meaningVn": "cách nhiệt kết hợp chống thấm",
+              "example": "新材料实现了隔热防水一体化。",
+              "exampleVn": "Vật liệu mới đã thực hiện được cách nhiệt kết hợp chống thấm."
+            },
+            {
+              "id": "zh-topic-waterproofing-laojiuwudingfanxin",
+              "headword": "老旧屋顶翻新",
+              "reading": "lǎojiù wūdǐng fānxīn",
+              "meaningVn": "cải tạo mái nhà cũ",
+              "example": "小区申请了老旧屋顶翻新专项资金。",
+              "exampleVn": "Khu dân cư đã xin được kinh phí chuyên biệt để cải tạo mái nhà cũ."
+            }
+          ]
+        },
+        {
+          "id": "bathroom-leak-repair",
+          "titleNative": "卫生间补漏",
+          "titleVn": "Xử lý rò rỉ nhà vệ sinh",
+          "words": [
+            {
+              "id": "zh-topic-waterproofing-weishengjianloushui",
+              "headword": "卫生间漏水",
+              "reading": "wèishēngjiān lòushuǐ",
+              "meaningVn": "nhà vệ sinh bị rò nước",
+              "example": "楼下投诉说卫生间漏水到他们家。",
+              "exampleVn": "Tầng dưới phàn nàn nhà vệ sinh bị rò nước xuống nhà họ."
+            },
+            {
+              "id": "zh-topic-waterproofing-louxiatianhuabanshenshui",
+              "headword": "楼下天花板渗水",
+              "reading": "lóuxià tiānhuābǎn shènshuǐ",
+              "meaningVn": "trần nhà tầng dưới bị thấm nước",
+              "example": "楼下天花板渗水已经发霉发黑。",
+              "exampleVn": "Trần nhà tầng dưới bị thấm nước đã mốc đen."
+            },
+            {
+              "id": "zh-topic-waterproofing-diloufanwei",
+              "headword": "地漏反味",
+              "reading": "dìlòu fǎnwèi",
+              "meaningVn": "cống thoát sàn bốc mùi ngược",
+              "example": "天气一热就有地漏反味的问题。",
+              "exampleVn": "Cứ trời nóng lên là có vấn đề cống thoát sàn bốc mùi ngược."
+            },
+            {
+              "id": "zh-topic-waterproofing-cizhuanfengxishenlou",
+              "headword": "瓷砖缝隙渗漏",
+              "reading": "cízhuān fèngxì shènlòu",
+              "meaningVn": "thấm nước qua khe gạch men",
+              "example": "师傅检查后发现是瓷砖缝隙渗漏。",
+              "exampleVn": "Thợ kiểm tra xong phát hiện là thấm nước qua khe gạch men."
+            },
+            {
+              "id": "zh-topic-waterproofing-jubukaicaoweixiu",
+              "headword": "局部开槽维修",
+              "reading": "júbù kāicáo wéixiū",
+              "meaningVn": "đục rãnh sửa chữa cục bộ",
+              "example": "不用全部砸掉,局部开槽维修就行。",
+              "exampleVn": "Không cần đập hết cả, đục rãnh sửa chữa cục bộ là được."
+            }
+          ]
+        },
+        {
+          "id": "construction-warranty",
+          "titleNative": "施工与保修",
+          "titleVn": "Thi công & bảo hành",
+          "words": [
+            {
+              "id": "zh-topic-waterproofing-bishuishiyan",
+              "headword": "闭水试验",
+              "reading": "bìshuǐ shìyàn",
+              "meaningVn": "thử nghiệm bịt nước",
+              "example": "防水层做完必须做闭水试验。",
+              "exampleVn": "Lớp chống thấm làm xong bắt buộc phải làm thử nghiệm bịt nước."
+            },
+            {
+              "id": "zh-topic-waterproofing-fangshuicengbaoxiunianxian",
+              "headword": "防水层保修年限",
+              "reading": "fángshuǐcéng bǎoxiū niánxiàn",
+              "meaningVn": "thời hạn bảo hành lớp chống thấm",
+              "example": "合同上写明了防水层保修年限。",
+              "exampleVn": "Hợp đồng ghi rõ thời hạn bảo hành lớp chống thấm."
+            },
+            {
+              "id": "zh-topic-waterproofing-kaifashangzhibaozeren",
+              "headword": "开发商质保责任",
+              "reading": "kāifāshāng zhìbǎo zérèn",
+              "meaningVn": "trách nhiệm bảo hành của chủ đầu tư",
+              "example": "新房漏水属于开发商质保责任。",
+              "exampleVn": "Nhà mới bị rò nước thuộc trách nhiệm bảo hành của chủ đầu tư."
+            },
+            {
+              "id": "zh-topic-waterproofing-linlixieshangweixiu",
+              "headword": "邻里协商维修",
+              "reading": "línlǐ xiéshāng wéixiū",
+              "meaningVn": "hàng xóm thương lượng sửa chữa",
+              "example": "漏水问题最后靠邻里协商维修解决。",
+              "exampleVn": "Vấn đề rò nước cuối cùng được giải quyết nhờ hàng xóm thương lượng sửa chữa."
+            },
+            {
+              "id": "zh-topic-waterproofing-fangshuigongchengyanshou",
+              "headword": "防水工程验收",
+              "reading": "fángshuǐ gōngchéng yànshōu",
+              "meaningVn": "nghiệm thu công trình chống thấm",
+              "example": "施工结束要做防水工程验收。",
+              "exampleVn": "Thi công xong phải làm nghiệm thu công trình chống thấm."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-topic-elderly-cataract-eye-disease",
+      "language": "zh",
+      "titleNative": "老年白内障手术与眼病防治",
+      "titleVn": "Phẫu thuật đục thủy tinh thể & phòng chống bệnh mắt cho người già",
+      "branches": [
+        {
+          "id": "cataract-basics",
+          "titleNative": "白内障基础",
+          "titleVn": "Kiến thức cơ bản về đục thủy tinh thể",
+          "words": [
+            {
+              "id": "zh-topic-cataract-baineizhang",
+              "headword": "白内障",
+              "reading": "báinèizhàng",
+              "meaningVn": "đục thủy tinh thể",
+              "example": "奶奶最近确诊了白内障。",
+              "exampleVn": "Gần đây bà nội được chẩn đoán bị đục thủy tinh thể."
+            },
+            {
+              "id": "zh-topic-cataract-jingzhuangtihunzhuo",
+              "headword": "晶状体混浊",
+              "reading": "jīngzhuàngtǐ hùnzhuó",
+              "meaningVn": "thủy tinh thể bị đục",
+              "example": "检查显示他的晶状体混浊已经很明显。",
+              "exampleVn": "Kết quả kiểm tra cho thấy thủy tinh thể của ông đã bị đục rõ rệt."
+            },
+            {
+              "id": "zh-topic-cataract-shilimohujiazhong",
+              "headword": "视力模糊加重",
+              "reading": "shìlì móhu jiāzhòng",
+              "meaningVn": "thị lực mờ nặng hơn",
+              "example": "这半年她的视力模糊加重了不少。",
+              "exampleVn": "Nửa năm nay thị lực của bà mờ nặng hơn nhiều."
+            },
+            {
+              "id": "zh-topic-cataract-laohuayanjiazhong",
+              "headword": "老花眼加重",
+              "reading": "lǎohuāyǎn jiāzhòng",
+              "meaningVn": "lão thị nặng hơn",
+              "example": "看报纸越来越吃力,老花眼加重了。",
+              "exampleVn": "Đọc báo ngày càng khó khăn, lão thị nặng hơn rồi."
+            },
+            {
+              "id": "zh-topic-cataract-weiguangliulei",
+              "headword": "畏光流泪",
+              "reading": "wèiguāng liúlèi",
+              "meaningVn": "sợ ánh sáng chảy nước mắt",
+              "example": "出门晒太阳容易畏光流泪。",
+              "exampleVn": "Ra ngoài phơi nắng dễ bị sợ ánh sáng chảy nước mắt."
+            }
+          ]
+        },
+        {
+          "id": "surgical-treatment",
+          "titleNative": "手术治疗",
+          "titleVn": "Điều trị phẫu thuật",
+          "words": [
+            {
+              "id": "zh-topic-cataract-baineizhangshoushu",
+              "headword": "白内障手术",
+              "reading": "báinèizhàng shǒushù",
+              "meaningVn": "phẫu thuật đục thủy tinh thể",
+              "example": "医生建议她尽早做白内障手术。",
+              "exampleVn": "Bác sĩ khuyên bà nên sớm làm phẫu thuật đục thủy tinh thể."
+            },
+            {
+              "id": "zh-topic-cataract-rengongjingtizhiru",
+              "headword": "人工晶体植入",
+              "reading": "réngōng jīngtǐ zhírù",
+              "meaningVn": "cấy ghép thủy tinh thể nhân tạo",
+              "example": "手术过程中会做人工晶体植入。",
+              "exampleVn": "Trong quá trình phẫu thuật sẽ tiến hành cấy ghép thủy tinh thể nhân tạo."
+            },
+            {
+              "id": "zh-topic-cataract-chaoshengruhuashoushu",
+              "headword": "超声乳化手术",
+              "reading": "chāoshēng rǔhuà shǒushù",
+              "meaningVn": "phẫu thuật phaco",
+              "example": "现在多采用超声乳化手术,恢复更快。",
+              "exampleVn": "Hiện nay chủ yếu dùng phẫu thuật phaco, hồi phục nhanh hơn."
+            },
+            {
+              "id": "zh-topic-cataract-rijianshoushumoshi",
+              "headword": "日间手术模式",
+              "reading": "rìjiān shǒushù móshì",
+              "meaningVn": "hình thức phẫu thuật trong ngày",
+              "example": "医院推出了白内障日间手术模式。",
+              "exampleVn": "Bệnh viện đã triển khai hình thức phẫu thuật trong ngày cho ca đục thủy tinh thể."
+            },
+            {
+              "id": "zh-topic-cataract-shuhoufucha",
+              "headword": "术后复查",
+              "reading": "shùhòu fùchá",
+              "meaningVn": "tái khám sau phẫu thuật",
+              "example": "出院第二天就要回医院术后复查。",
+              "exampleVn": "Ngày thứ hai sau xuất viện phải quay lại bệnh viện tái khám sau phẫu thuật."
+            }
+          ]
+        },
+        {
+          "id": "other-elderly-eye-diseases",
+          "titleNative": "其他老年眼病",
+          "titleVn": "Các bệnh mắt khác ở người già",
+          "words": [
+            {
+              "id": "zh-topic-cataract-qingguangyan",
+              "headword": "青光眼",
+              "reading": "qīngguāngyǎn",
+              "meaningVn": "bệnh tăng nhãn áp",
+              "example": "青光眼如果不及时治疗可能致盲。",
+              "exampleVn": "Bệnh tăng nhãn áp nếu không điều trị kịp thời có thể gây mù."
+            },
+            {
+              "id": "zh-topic-cataract-huangbanbianxing",
+              "headword": "黄斑变性",
+              "reading": "huángbān biànxìng",
+              "meaningVn": "thoái hóa điểm vàng",
+              "example": "老年性黄斑变性会影响中心视力。",
+              "exampleVn": "Thoái hóa điểm vàng do tuổi già sẽ ảnh hưởng đến thị lực trung tâm."
+            },
+            {
+              "id": "zh-topic-cataract-tangniaobingshiwangmobingbian",
+              "headword": "糖尿病视网膜病变",
+              "reading": "tángniàobìng shìwǎngmó bìngbiàn",
+              "meaningVn": "bệnh võng mạc do tiểu đường",
+              "example": "血糖控制不好容易引发糖尿病视网膜病变。",
+              "exampleVn": "Kiểm soát đường huyết không tốt dễ dẫn đến bệnh võng mạc do tiểu đường."
+            },
+            {
+              "id": "zh-topic-cataract-ganyanzheng",
+              "headword": "干眼症",
+              "reading": "gānyǎnzhèng",
+              "meaningVn": "hội chứng khô mắt",
+              "example": "长时间看电视也会加重干眼症。",
+              "exampleVn": "Xem tivi lâu cũng sẽ làm nặng thêm hội chứng khô mắt."
+            },
+            {
+              "id": "zh-topic-cataract-feiwenzheng",
+              "headword": "飞蚊症",
+              "reading": "fēiwénzhèng",
+              "meaningVn": "hiện tượng ruồi bay",
+              "example": "眼前总有黑影飘动,是典型的飞蚊症。",
+              "exampleVn": "Trước mắt lúc nào cũng có bóng đen bay lượn, đó là hiện tượng ruồi bay điển hình."
+            }
+          ]
+        },
+        {
+          "id": "postop-care-prevention",
+          "titleNative": "术后护理与预防",
+          "titleVn": "Chăm sóc sau mổ & phòng ngừa",
+          "words": [
+            {
+              "id": "zh-topic-cataract-shuhouguifanyongyao",
+              "headword": "术后规范用药",
+              "reading": "shùhòu guīfàn yòngyào",
+              "meaningVn": "dùng thuốc đúng quy định sau phẫu thuật",
+              "example": "护士反复叮嘱术后规范用药。",
+              "exampleVn": "Y tá nhắc đi nhắc lại việc dùng thuốc đúng quy định sau phẫu thuật."
+            },
+            {
+              "id": "zh-topic-cataract-bimianrouyan",
+              "headword": "避免揉眼",
+              "reading": "bìmiǎn róuyǎn",
+              "meaningVn": "tránh dụi mắt",
+              "example": "医生特别提醒术后要避免揉眼。",
+              "exampleVn": "Bác sĩ đặc biệt nhắc nhở sau phẫu thuật phải tránh dụi mắt."
+            },
+            {
+              "id": "zh-topic-cataract-dingqiyanketijian",
+              "headword": "定期眼科体检",
+              "reading": "dìngqī yǎnkē tǐjiǎn",
+              "meaningVn": "khám mắt định kỳ",
+              "example": "六十岁以后建议每年做定期眼科体检。",
+              "exampleVn": "Sau sáu mươi tuổi khuyến nghị mỗi năm khám mắt định kỳ."
+            },
+            {
+              "id": "zh-topic-cataract-fanglanguangyanjing",
+              "headword": "防蓝光眼镜",
+              "reading": "fáng lánguāng yǎnjìng",
+              "meaningVn": "kính chống ánh sáng xanh",
+              "example": "看手机久了她会戴防蓝光眼镜。",
+              "exampleVn": "Xem điện thoại lâu bà sẽ đeo kính chống ánh sáng xanh."
+            },
+            {
+              "id": "zh-topic-cataract-yingyanghuyan",
+              "headword": "营养护眼",
+              "reading": "yíngyǎng hùyǎn",
+              "meaningVn": "dinh dưỡng bảo vệ mắt",
+              "example": "多吃深色蔬菜有助于营养护眼。",
+              "exampleVn": "Ăn nhiều rau màu đậm giúp ích cho dinh dưỡng bảo vệ mắt."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-topic-elderly-hospice-palliative-care",
+      "language": "zh",
+      "titleNative": "老年临终关怀与安宁疗护",
+      "titleVn": "Chăm sóc cuối đời & chăm sóc giảm nhẹ cho người già",
+      "branches": [
+        {
+          "id": "hospice-concept",
+          "titleNative": "安宁疗护概念",
+          "titleVn": "Khái niệm chăm sóc giảm nhẹ",
+          "words": [
+            {
+              "id": "zh-topic-hospicecare-linzhongguanhuai",
+              "headword": "临终关怀",
+              "reading": "línzhōng guānhuái",
+              "meaningVn": "chăm sóc cuối đời",
+              "example": "这家医院开设了临终关怀病区。",
+              "exampleVn": "Bệnh viện này đã mở khu chăm sóc cuối đời."
+            },
+            {
+              "id": "zh-topic-hospicecare-anningliaohu",
+              "headword": "安宁疗护",
+              "reading": "ānníng liáohù",
+              "meaningVn": "chăm sóc giảm nhẹ cuối đời",
+              "example": "越来越多城市开始推广安宁疗护。",
+              "exampleVn": "Ngày càng nhiều thành phố bắt đầu phổ biến chăm sóc giảm nhẹ cuối đời."
+            },
+            {
+              "id": "zh-topic-hospicecare-shuhuanyiliao",
+              "headword": "舒缓医疗",
+              "reading": "shūhuǎn yīliáo",
+              "meaningVn": "y học giảm nhẹ",
+              "example": "舒缓医疗的目标是减轻痛苦而非治愈。",
+              "exampleVn": "Mục tiêu của y học giảm nhẹ là giảm đau khổ chứ không phải chữa khỏi."
+            },
+            {
+              "id": "zh-topic-hospicecare-shengmingmoqizhaohu",
+              "headword": "生命末期照护",
+              "reading": "shēngmìng mòqī zhàohù",
+              "meaningVn": "chăm sóc giai đoạn cuối đời",
+              "example": "团队为患者提供生命末期照护。",
+              "exampleVn": "Đội ngũ cung cấp chăm sóc giai đoạn cuối đời cho bệnh nhân."
+            },
+            {
+              "id": "zh-topic-hospicecare-shanzhongguannian",
+              "headword": "善终观念",
+              "reading": "shànzhōng guānniàn",
+              "meaningVn": "quan niệm về cái chết an lành",
+              "example": "社会正在慢慢接受善终观念。",
+              "exampleVn": "Xã hội đang dần dần chấp nhận quan niệm về cái chết an lành."
+            }
+          ]
+        },
+        {
+          "id": "service-content",
+          "titleNative": "服务内容",
+          "titleVn": "Nội dung dịch vụ",
+          "words": [
+            {
+              "id": "zh-topic-hospicecare-tengtongguanli",
+              "headword": "疼痛管理",
+              "reading": "téngtòng guǎnlǐ",
+              "meaningVn": "kiểm soát cơn đau",
+              "example": "医护团队每天评估患者的疼痛管理效果。",
+              "exampleVn": "Đội ngũ y tế mỗi ngày đánh giá hiệu quả kiểm soát cơn đau của bệnh nhân."
+            },
+            {
+              "id": "zh-topic-hospicecare-xinlishudaozhichi",
+              "headword": "心理疏导支持",
+              "reading": "xīnlǐ shūdǎo zhīchí",
+              "meaningVn": "hỗ trợ tư vấn tâm lý",
+              "example": "志愿者定期为患者提供心理疏导支持。",
+              "exampleVn": "Tình nguyện viên định kỳ hỗ trợ tư vấn tâm lý cho bệnh nhân."
+            },
+            {
+              "id": "zh-topic-hospicecare-jiashupeibanzhichi",
+              "headword": "家属陪伴支持",
+              "reading": "jiāshǔ péibàn zhīchí",
+              "meaningVn": "hỗ trợ người thân đồng hành",
+              "example": "病房鼓励家属陪伴支持患者。",
+              "exampleVn": "Phòng bệnh khuyến khích người thân đồng hành hỗ trợ bệnh nhân."
+            },
+            {
+              "id": "zh-topic-hospicecare-linzhongguanhuaibingfang",
+              "headword": "临终关怀病房",
+              "reading": "línzhōng guānhuái bìngfáng",
+              "meaningVn": "phòng bệnh chăm sóc cuối đời",
+              "example": "临终关怀病房布置得温馨安静。",
+              "exampleVn": "Phòng bệnh chăm sóc cuối đời được bài trí ấm cúng yên tĩnh."
+            },
+            {
+              "id": "zh-topic-hospicecare-jujiaanningfuwu",
+              "headword": "居家安宁服务",
+              "reading": "jūjiā ānníng fúwù",
+              "meaningVn": "dịch vụ chăm sóc giảm nhẹ tại nhà",
+              "example": "有些家庭选择居家安宁服务而非住院。",
+              "exampleVn": "Một số gia đình chọn dịch vụ chăm sóc giảm nhẹ tại nhà thay vì nằm viện."
+            }
+          ]
+        },
+        {
+          "id": "doctor-patient-communication",
+          "titleNative": "医患沟通",
+          "titleVn": "Giao tiếp bác sĩ - bệnh nhân",
+          "words": [
+            {
+              "id": "zh-topic-hospicecare-bingqinggaozhifangshi",
+              "headword": "病情告知方式",
+              "reading": "bìngqíng gàozhī fāngshì",
+              "meaningVn": "cách thông báo tình trạng bệnh",
+              "example": "医生会和家属商量病情告知方式。",
+              "exampleVn": "Bác sĩ sẽ bàn bạc với người thân về cách thông báo tình trạng bệnh."
+            },
+            {
+              "id": "zh-topic-hospicecare-yuliyiliaozhishi",
+              "headword": "预立医疗指示",
+              "reading": "yùlì yīliáo zhǐshì",
+              "meaningVn": "chỉ thị y tế lập trước",
+              "example": "不少老人开始了解预立医疗指示。",
+              "exampleVn": "Không ít người già bắt đầu tìm hiểu về chỉ thị y tế lập trước."
+            },
+            {
+              "id": "zh-topic-hospicecare-fangqiqiangjiuqianzi",
+              "headword": "放弃抢救签字",
+              "reading": "fàngqì qiǎngjiù qiānzì",
+              "meaningVn": "ký giấy từ chối cấp cứu",
+              "example": "家属经过长时间考虑才决定放弃抢救签字。",
+              "exampleVn": "Người thân cân nhắc rất lâu mới quyết định ký giấy từ chối cấp cứu."
+            },
+            {
+              "id": "zh-topic-hospicecare-shengqianyuzhu",
+              "headword": "生前预嘱",
+              "reading": "shēngqián yùzhǔ",
+              "meaningVn": "di chúc sống",
+              "example": "老人提前写好了自己的生前预嘱。",
+              "exampleVn": "Cụ đã viết sẵn trước di chúc sống của mình."
+            },
+            {
+              "id": "zh-topic-hospicecare-linzhongpeibanjiqiao",
+              "headword": "临终陪伴技巧",
+              "reading": "línzhōng péibàn jìqiǎo",
+              "meaningVn": "kỹ năng đồng hành lúc cuối đời",
+              "example": "护士培训了家属临终陪伴技巧。",
+              "exampleVn": "Y tá đã đào tạo cho người thân kỹ năng đồng hành lúc cuối đời."
+            }
+          ]
+        },
+        {
+          "id": "social-perception-challenges",
+          "titleNative": "社会认知与挑战",
+          "titleVn": "Nhận thức xã hội & thách thức",
+          "words": [
+            {
+              "id": "zh-topic-hospicecare-chuantongguannianzuli",
+              "headword": "传统观念阻力",
+              "reading": "chuántǒng guānniàn zǔlì",
+              "meaningVn": "lực cản từ quan niệm truyền thống",
+              "example": "推广安宁疗护面临传统观念阻力。",
+              "exampleVn": "Việc phổ biến chăm sóc giảm nhẹ cuối đời đang gặp lực cản từ quan niệm truyền thống."
+            },
+            {
+              "id": "zh-topic-hospicecare-yiliaoziyuanfugaibuzu",
+              "headword": "医疗资源覆盖不足",
+              "reading": "yīliáo zīyuán fùgài bùzú",
+              "meaningVn": "nguồn lực y tế bao phủ chưa đủ",
+              "example": "偏远地区医疗资源覆盖不足。",
+              "exampleVn": "Vùng sâu vùng xa nguồn lực y tế bao phủ chưa đủ."
+            },
+            {
+              "id": "zh-topic-hospicecare-zhuanyerencaiquekou",
+              "headword": "专业人才缺口",
+              "reading": "zhuānyè réncái quēkǒu",
+              "meaningVn": "thiếu hụt nhân lực chuyên môn",
+              "example": "这个领域目前专业人才缺口很大。",
+              "exampleVn": "Lĩnh vực này hiện đang thiếu hụt nhân lực chuyên môn rất lớn."
+            },
+            {
+              "id": "zh-topic-hospicecare-gongzhongjiaoyutuiguang",
+              "headword": "公众教育推广",
+              "reading": "gōngzhòng jiàoyù tuīguǎng",
+              "meaningVn": "tuyên truyền giáo dục cộng đồng",
+              "example": "医院联合社区做公众教育推广。",
+              "exampleVn": "Bệnh viện phối hợp với khu dân cư làm tuyên truyền giáo dục cộng đồng."
+            },
+            {
+              "id": "zh-topic-hospicecare-jiashuaishangfudao",
+              "headword": "家属哀伤辅导",
+              "reading": "jiāshǔ āishāng fǔdǎo",
+              "meaningVn": "tư vấn nỗi đau mất mát cho người thân",
+              "example": "患者离世后团队还会做家属哀伤辅导。",
+              "exampleVn": "Sau khi bệnh nhân qua đời đội ngũ còn tiến hành tư vấn nỗi đau mất mát cho người thân."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-topic-pet-boarding-shipping-service",
+      "language": "zh",
+      "titleNative": "宠物寄养与宠物托运服务",
+      "titleVn": "Gửi nuôi & vận chuyển thú cưng",
+      "branches": [
+        {
+          "id": "boarding-service",
+          "titleNative": "寄养服务",
+          "titleVn": "Dịch vụ gửi nuôi",
+          "words": [
+            {
+              "id": "zh-topic-petboarding-chongwuduanqijiyang",
+              "headword": "宠物短期寄养",
+              "reading": "chǒngwù duǎnqī jìyǎng",
+              "meaningVn": "gửi nuôi ngắn hạn thú cưng",
+              "example": "出差一周她把猫送去宠物短期寄养。",
+              "exampleVn": "Đi công tác một tuần cô ấy gửi mèo đi gửi nuôi ngắn hạn."
+            },
+            {
+              "id": "zh-topic-petboarding-jiyangjiating",
+              "headword": "寄养家庭",
+              "reading": "jìyǎng jiātíng",
+              "meaningVn": "gia đình nhận nuôi hộ",
+              "example": "这家平台会先审核寄养家庭的条件。",
+              "exampleVn": "Nền tảng này sẽ thẩm định điều kiện của gia đình nhận nuôi hộ trước."
+            },
+            {
+              "id": "zh-topic-petboarding-chongwujiudian",
+              "headword": "宠物酒店",
+              "reading": "chǒngwù jiǔdiàn",
+              "meaningVn": "khách sạn thú cưng",
+              "example": "春节期间宠物酒店一房难求。",
+              "exampleVn": "Dịp Tết khách sạn thú cưng cháy phòng."
+            },
+            {
+              "id": "zh-topic-petboarding-jiyanghuanjingpinggu",
+              "headword": "寄养环境评估",
+              "reading": "jìyǎng huánjìng pínggū",
+              "meaningVn": "đánh giá môi trường gửi nuôi",
+              "example": "送去之前她做了一次寄养环境评估。",
+              "exampleVn": "Trước khi gửi cô ấy đã làm một lần đánh giá môi trường gửi nuôi."
+            },
+            {
+              "id": "zh-topic-petboarding-jiesongfuwu",
+              "headword": "接送服务",
+              "reading": "jiēsòng fúwù",
+              "meaningVn": "dịch vụ đưa đón",
+              "example": "平台还提供上门接送服务。",
+              "exampleVn": "Nền tảng còn cung cấp dịch vụ đưa đón tận nhà."
+            }
+          ]
+        },
+        {
+          "id": "shipping-service",
+          "titleNative": "托运服务",
+          "titleVn": "Dịch vụ vận chuyển",
+          "words": [
+            {
+              "id": "zh-topic-petboarding-chongwutuoyun",
+              "headword": "宠物托运",
+              "reading": "chǒngwù tuōyùn",
+              "meaningVn": "vận chuyển thú cưng",
+              "example": "搬去外地她只能选择宠物托运。",
+              "exampleVn": "Chuyển đến nơi khác cô ấy chỉ có thể chọn vận chuyển thú cưng."
+            },
+            {
+              "id": "zh-topic-petboarding-kongyuntuoyunxiang",
+              "headword": "空运托运箱",
+              "reading": "kōngyùn tuōyùnxiāng",
+              "meaningVn": "lồng vận chuyển đường hàng không",
+              "example": "航空公司对空运托运箱尺寸有要求。",
+              "exampleVn": "Hãng hàng không có yêu cầu về kích thước lồng vận chuyển đường hàng không."
+            },
+            {
+              "id": "zh-topic-petboarding-tuoyunjiankangzhengming",
+              "headword": "托运健康证明",
+              "reading": "tuōyùn jiànkāng zhèngmíng",
+              "meaningVn": "giấy chứng nhận sức khỏe để vận chuyển",
+              "example": "托运前必须办好托运健康证明。",
+              "exampleVn": "Trước khi vận chuyển bắt buộc phải làm xong giấy chứng nhận sức khỏe."
+            },
+            {
+              "id": "zh-topic-petboarding-changtutuoyunfengxian",
+              "headword": "长途托运风险",
+              "reading": "chángtú tuōyùn fēngxiǎn",
+              "meaningVn": "rủi ro vận chuyển đường dài",
+              "example": "老年宠物的长途托运风险更高。",
+              "exampleVn": "Rủi ro vận chuyển đường dài đối với thú cưng lớn tuổi cao hơn."
+            },
+            {
+              "id": "zh-topic-petboarding-luodijianyi",
+              "headword": "落地检疫",
+              "reading": "luòdì jiǎnyì",
+              "meaningVn": "kiểm dịch khi đến nơi",
+              "example": "跨省托运有时需要落地检疫。",
+              "exampleVn": "Vận chuyển liên tỉnh đôi khi cần kiểm dịch khi đến nơi."
+            }
+          ]
+        },
+        {
+          "id": "cost-selection",
+          "titleNative": "费用与选择",
+          "titleVn": "Chi phí & lựa chọn",
+          "words": [
+            {
+              "id": "zh-topic-petboarding-jiyangjiage",
+              "headword": "寄养价格",
+              "reading": "jìyǎng jiàgé",
+              "meaningVn": "giá gửi nuôi",
+              "example": "节假日寄养价格会上涨。",
+              "exampleVn": "Vào dịp lễ tết giá gửi nuôi sẽ tăng lên."
+            },
+            {
+              "id": "zh-topic-petboarding-tuoyunfeiyongbaojia",
+              "headword": "托运费用报价",
+              "reading": "tuōyùn fèiyòng bàojià",
+              "meaningVn": "báo giá phí vận chuyển",
+              "example": "她对比了三家的托运费用报价。",
+              "exampleVn": "Cô ấy so sánh báo giá phí vận chuyển của ba nơi."
+            },
+            {
+              "id": "zh-topic-petboarding-koubeijiyangjigou",
+              "headword": "口碑寄养机构",
+              "reading": "kǒubēi jìyǎng jīgòu",
+              "meaningVn": "cơ sở gửi nuôi có uy tín",
+              "example": "朋友推荐了一家口碑寄养机构。",
+              "exampleVn": "Bạn giới thiệu một cơ sở gửi nuôi có uy tín."
+            },
+            {
+              "id": "zh-topic-petboarding-shidikaocha",
+              "headword": "实地考察",
+              "reading": "shídì kǎochá",
+              "meaningVn": "khảo sát thực tế",
+              "example": "送猫前她先去实地考察了环境。",
+              "exampleVn": "Trước khi gửi mèo cô ấy đến khảo sát thực tế môi trường trước."
+            },
+            {
+              "id": "zh-topic-petboarding-jiyanghetongtiaokuan",
+              "headword": "寄养合同条款",
+              "reading": "jìyǎng hétong tiáokuǎn",
+              "meaningVn": "điều khoản hợp đồng gửi nuôi",
+              "example": "签字前一定要看清寄养合同条款。",
+              "exampleVn": "Trước khi ký nhất định phải đọc kỹ điều khoản hợp đồng gửi nuôi."
+            }
+          ]
+        },
+        {
+          "id": "precautions-pet",
+          "titleNative": "注意事项",
+          "titleVn": "Lưu ý",
+          "words": [
+            {
+              "id": "zh-topic-petboarding-chongwufenlijiaolv",
+              "headword": "宠物分离焦虑",
+              "reading": "chǒngwù fēnlí jiāolǜ",
+              "meaningVn": "lo âu chia ly ở thú cưng",
+              "example": "第一次寄养,狗狗出现了宠物分离焦虑。",
+              "exampleVn": "Lần đầu gửi nuôi, chú chó xuất hiện lo âu chia ly."
+            },
+            {
+              "id": "zh-topic-petboarding-yimiaojiezhongzhengming",
+              "headword": "疫苗接种证明",
+              "reading": "yìmiáo jiēzhòng zhèngmíng",
+              "meaningVn": "giấy chứng nhận tiêm phòng",
+              "example": "寄养机构要求提供疫苗接种证明。",
+              "exampleVn": "Cơ sở gửi nuôi yêu cầu cung cấp giấy chứng nhận tiêm phòng."
+            },
+            {
+              "id": "zh-topic-petboarding-jiyangqijianshengbing",
+              "headword": "寄养期间生病",
+              "reading": "jìyǎng qījiān shēngbìng",
+              "meaningVn": "bị bệnh trong thời gian gửi nuôi",
+              "example": "万一寄养期间生病,机构会及时联系。",
+              "exampleVn": "Lỡ bị bệnh trong thời gian gửi nuôi, cơ sở sẽ liên hệ kịp thời."
+            },
+            {
+              "id": "zh-topic-petboarding-tuoyunyingjifanying",
+              "headword": "托运应激反应",
+              "reading": "tuōyùn yìngjī fǎnyìng",
+              "meaningVn": "phản ứng stress khi vận chuyển",
+              "example": "有些宠物托运应激反应比较明显。",
+              "exampleVn": "Một số thú cưng có phản ứng stress khi vận chuyển khá rõ."
+            },
+            {
+              "id": "zh-topic-petboarding-chongwujinjilianxiren",
+              "headword": "宠物紧急联系人",
+              "reading": "chǒngwù jǐnjí liánxìrén",
+              "meaningVn": "người liên hệ khẩn cấp cho thú cưng",
+              "example": "表格上要填写宠物紧急联系人信息。",
+              "exampleVn": "Trên mẫu đơn phải điền thông tin người liên hệ khẩn cấp cho thú cưng."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-topic-mosquito-prevention-summer-products",
+      "language": "zh",
+      "titleNative": "家庭驱蚊防虫与夏季防蚊产品",
+      "titleVn": "Đuổi muỗi phòng côn trùng & sản phẩm chống muỗi mùa hè",
+      "branches": [
+        {
+          "id": "repellent-products",
+          "titleNative": "驱蚊产品",
+          "titleVn": "Sản phẩm đuổi muỗi",
+          "words": [
+            {
+              "id": "zh-topic-mosquito-dianwenxiangye",
+              "headword": "电蚊香液",
+              "reading": "diànwénxiāngyè",
+              "meaningVn": "dung dịch hương muỗi điện",
+              "example": "夏天晚上她都会插上电蚊香液。",
+              "exampleVn": "Buổi tối mùa hè cô ấy đều cắm dung dịch hương muỗi điện."
+            },
+            {
+              "id": "zh-topic-mosquito-quwenshouhuan",
+              "headword": "驱蚊手环",
+              "reading": "qūwén shǒuhuán",
+              "meaningVn": "vòng tay đuổi muỗi",
+              "example": "带孩子去公园会戴驱蚊手环。",
+              "exampleVn": "Đưa con đi công viên sẽ đeo vòng tay đuổi muỗi."
+            },
+            {
+              "id": "zh-topic-mosquito-hualushui",
+              "headword": "花露水",
+              "reading": "huālùshuǐ",
+              "meaningVn": "nước hoa hồng chống muỗi",
+              "example": "小时候夏天离不开花露水。",
+              "exampleVn": "Hồi nhỏ mùa hè không thể thiếu nước hoa hồng chống muỗi."
+            },
+            {
+              "id": "zh-topic-mosquito-wenzhang",
+              "headword": "蚊帐",
+              "reading": "wénzhàng",
+              "meaningVn": "màn chống muỗi",
+              "example": "老家的床上至今还挂着蚊帐。",
+              "exampleVn": "Giường ở quê đến giờ vẫn còn treo màn chống muỗi."
+            },
+            {
+              "id": "zh-topic-mosquito-miewendeng",
+              "headword": "灭蚊灯",
+              "reading": "mièwéndēng",
+              "meaningVn": "đèn diệt muỗi",
+              "example": "客厅角落放了一台灭蚊灯。",
+              "exampleVn": "Góc phòng khách đặt một chiếc đèn diệt muỗi."
+            }
+          ]
+        },
+        {
+          "id": "prevention-measures-mosquito",
+          "titleNative": "防蚊措施",
+          "titleVn": "Biện pháp phòng muỗi",
+          "words": [
+            {
+              "id": "zh-topic-mosquito-shachuangfanghu",
+              "headword": "纱窗防护",
+              "reading": "shāchuāng fánghù",
+              "meaningVn": "bảo vệ bằng lưới chống muỗi cửa sổ",
+              "example": "家里所有窗户都装了纱窗防护。",
+              "exampleVn": "Tất cả cửa sổ trong nhà đều lắp bảo vệ bằng lưới chống muỗi."
+            },
+            {
+              "id": "zh-topic-mosquito-qinglijishui",
+              "headword": "清理积水",
+              "reading": "qīnglǐ jīshuǐ",
+              "meaningVn": "dọn dẹp nước đọng",
+              "example": "阳台花盆下要定期清理积水。",
+              "exampleVn": "Dưới chậu hoa ban công phải định kỳ dọn dẹp nước đọng."
+            },
+            {
+              "id": "zh-topic-mosquito-yangtaiquwenzhiwu",
+              "headword": "阳台驱蚊植物",
+              "reading": "yángtái qūwén zhíwù",
+              "meaningVn": "cây đuổi muỗi trên ban công",
+              "example": "她在阳台种了几盆阳台驱蚊植物。",
+              "exampleVn": "Cô ấy trồng mấy chậu cây đuổi muỗi trên ban công."
+            },
+            {
+              "id": "zh-topic-mosquito-menchuangmifengfangwen",
+              "headword": "门窗密封防蚊",
+              "reading": "ménchuāng mìfēng fángwén",
+              "meaningVn": "bịt kín cửa chống muỗi",
+              "example": "老房子做了门窗密封防蚊改造。",
+              "exampleVn": "Nhà cũ đã cải tạo bịt kín cửa chống muỗi."
+            },
+            {
+              "id": "zh-topic-mosquito-yingerwenzhangche",
+              "headword": "婴儿蚊帐车",
+              "reading": "yīng'ér wénzhàngchē",
+              "meaningVn": "xe đẩy có màn chống muỗi cho trẻ sơ sinh",
+              "example": "带娃出门她都推婴儿蚊帐车。",
+              "exampleVn": "Đưa con ra ngoài cô ấy đều đẩy xe có màn chống muỗi cho trẻ sơ sinh."
+            }
+          ]
+        },
+        {
+          "id": "bite-treatment",
+          "titleNative": "蚊虫叮咬处理",
+          "titleVn": "Xử lý muỗi côn trùng cắn",
+          "words": [
+            {
+              "id": "zh-topic-mosquito-wenchongdingyaohongzhong",
+              "headword": "蚊虫叮咬红肿",
+              "reading": "wénchóng dīngyǎo hóngzhǒng",
+              "meaningVn": "vết muỗi đốt sưng đỏ",
+              "example": "孩子腿上全是蚊虫叮咬红肿。",
+              "exampleVn": "Chân của bé toàn là vết muỗi đốt sưng đỏ."
+            },
+            {
+              "id": "zh-topic-mosquito-zhiyangyaogao",
+              "headword": "止痒药膏",
+              "reading": "zhǐyǎng yàogāo",
+              "meaningVn": "kem bôi chống ngứa",
+              "example": "被咬后她涂了止痒药膏。",
+              "exampleVn": "Bị đốt xong cô ấy bôi kem bôi chống ngứa."
+            },
+            {
+              "id": "zh-topic-mosquito-lengfuxiaozhong",
+              "headword": "冷敷消肿",
+              "reading": "lěngfū xiāozhǒng",
+              "meaningVn": "chườm lạnh giảm sưng",
+              "example": "肿得厉害就先冷敷消肿。",
+              "exampleVn": "Sưng nặng thì trước tiên chườm lạnh giảm sưng."
+            },
+            {
+              "id": "zh-topic-mosquito-guominxingshuipao",
+              "headword": "过敏性水泡",
+              "reading": "guòmǐnxìng shuǐpào",
+              "meaningVn": "bọng nước do dị ứng",
+              "example": "有些孩子被咬后会起过敏性水泡。",
+              "exampleVn": "Một số trẻ bị đốt xong sẽ nổi bọng nước do dị ứng."
+            },
+            {
+              "id": "zh-topic-mosquito-bimianzhuanaoganran",
+              "headword": "避免抓挠感染",
+              "reading": "bìmiǎn zhuānáo gǎnrǎn",
+              "meaningVn": "tránh gãi gây nhiễm trùng",
+              "example": "妈妈提醒孩子要避免抓挠感染。",
+              "exampleVn": "Mẹ nhắc con phải tránh gãi gây nhiễm trùng."
+            }
+          ]
+        },
+        {
+          "id": "season-region",
+          "titleNative": "季节与地域",
+          "titleVn": "Mùa & khu vực",
+          "words": [
+            {
+              "id": "zh-topic-mosquito-meiyujiwenchonggaofa",
+              "headword": "梅雨季蚊虫高发",
+              "reading": "méiyǔjì wénchóng gāofā",
+              "meaningVn": "mùa mưa dầm muỗi phát sinh nhiều",
+              "example": "梅雨季蚊虫高发,要格外注意防护。",
+              "exampleVn": "Mùa mưa dầm muỗi phát sinh nhiều, phải đặc biệt chú ý phòng tránh."
+            },
+            {
+              "id": "zh-topic-mosquito-nanfangwenchonggengxiongmeng",
+              "headword": "南方蚊虫更凶猛",
+              "reading": "nánfāng wénchóng gèng xiōngměng",
+              "meaningVn": "muỗi miền Nam dữ hơn",
+              "example": "朋友都说南方蚊虫更凶猛。",
+              "exampleVn": "Bạn bè đều nói muỗi miền Nam dữ hơn."
+            },
+            {
+              "id": "zh-topic-mosquito-denggereyujing",
+              "headword": "登革热预警",
+              "reading": "dēnggérè yùjǐng",
+              "meaningVn": "cảnh báo sốt xuất huyết",
+              "example": "社区发布了登革热预警通知。",
+              "exampleVn": "Khu dân cư đã phát thông báo cảnh báo sốt xuất huyết."
+            },
+            {
+              "id": "zh-topic-mosquito-quwenchanpinxuangouwuqu",
+              "headword": "驱蚊产品选购误区",
+              "reading": "qūwén chǎnpǐn xuǎngòu wùqū",
+              "meaningVn": "sai lầm khi chọn mua sản phẩm đuổi muỗi",
+              "example": "文章提醒大家常见的驱蚊产品选购误区。",
+              "exampleVn": "Bài viết nhắc mọi người những sai lầm thường gặp khi chọn mua sản phẩm đuổi muỗi."
+            },
+            {
+              "id": "zh-topic-mosquito-huwailuyingfangwen",
+              "headword": "户外露营防蚊",
+              "reading": "hùwài lùyíng fángwén",
+              "meaningVn": "chống muỗi khi cắm trại ngoài trời",
+              "example": "去露营前她准备了户外露营防蚊装备。",
+              "exampleVn": "Trước khi đi cắm trại cô ấy chuẩn bị đồ chống muỗi khi cắm trại ngoài trời."
+            }
+          ]
+        }
+      ]
     }
   ]
 }
