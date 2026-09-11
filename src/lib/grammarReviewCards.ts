@@ -38,12 +38,22 @@ export function storyCardId(storyId: string): string {
 }
 
 /** Xây toàn bộ danh sách thẻ ôn tập (chuẩn + trắc nghiệm) từ dữ liệu Trục A/C của 1 ngôn ngữ. Chạy
- * được ở cả server lẫn client (thuần hàm biến đổi dữ liệu, không đụng Redis/fs). */
-export function buildGrammarCards(data: GrammarLanguageData): GrammarCardInfo[] {
+ * được ở cả server lẫn client (thuần hàm biến đổi dữ liệu, không đụng Redis/fs).
+ *
+ * `categoryId`: khi truyền vào, CHỈ lấy thẻ thuộc 1 nhóm chức năng cụ thể — người dùng phản hồi bấm
+ * "Luyện tập" ở trang ngữ pháp là luyện HẾT toàn bộ điểm (mọi nhóm trộn lẫn), muốn mỗi nhóm có phần
+ * luyện tập riêng. Thẻ "standard" lọc thẳng theo category của điểm; thẻ "confusion"/"story" chỉ giữ
+ * lại nếu TOÀN BỘ điểm liên quan đều thuộc category đó (không lộ điểm nhóm khác vào 1 phiên luyện
+ * đang cố ý thu hẹp phạm vi) — không truyền `categoryId` thì giữ nguyên hành vi cũ (luyện tất cả). */
+export function buildGrammarCards(data: GrammarLanguageData, categoryId?: string): GrammarCardInfo[] {
   const allPoints = data.categories.flatMap((c) => c.points);
   const pointById = new Map(allPoints.map((p) => [p.id, p]));
+  const categoryByPointId = new Map<string, string>();
+  for (const c of data.categories) for (const p of c.points) categoryByPointId.set(p.id, c.id);
+  const inScope = (pointId: string) => !categoryId || categoryByPointId.get(pointId) === categoryId;
 
-  const standardCards: StandardGrammarCard[] = allPoints.map((p) => ({
+  const scopedPoints = categoryId ? allPoints.filter((p) => inScope(p.id)) : allPoints;
+  const standardCards: StandardGrammarCard[] = scopedPoints.map((p) => ({
     kind: "standard",
     id: p.id,
     point: p,
@@ -51,6 +61,7 @@ export function buildGrammarCards(data: GrammarLanguageData): GrammarCardInfo[] 
 
   const confusionCards: ConfusionGrammarCard[] = [];
   for (const group of data.confusionGroups) {
+    if (!group.pointIds.every(inScope)) continue;
     const points = group.pointIds.map((id) => pointById.get(id)).filter((p): p is GrammarPoint => !!p);
     if (points.length < 2) continue;
     const source = points.find((p) => p.examples[0]);
@@ -71,6 +82,7 @@ export function buildGrammarCards(data: GrammarLanguageData): GrammarCardInfo[] 
   const storyCards: StoryGrammarCard[] = getGrammarStories(data.language)
     .map((story) => resolveStory(data, story))
     .filter((story) => story.steps.length >= 2)
+    .filter((story) => story.steps.every((step) => inScope(step.point.id)))
     .map((story) => ({ kind: "story", id: storyCardId(story.id), story }));
 
   return [...standardCards, ...confusionCards, ...storyCards];
