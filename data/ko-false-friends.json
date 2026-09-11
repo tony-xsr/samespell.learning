@@ -1585,6 +1585,402 @@
           ]
         }
       ]
+    },
+    {
+      "id": "ko-ff-su2",
+      "language": "ko",
+      "reading": "數",
+      "groupKind": "false-friend",
+      "note": "數 (số) vốn nghĩa 'con số, đếm', 수학 giữ nghĩa cụ thể (MÔN HỌC về số), còn 수수료 lệch hẳn thành khái niệm trừu tượng 'phí thủ tục', không còn là một con số đơn thuần — song song với tiếng Nhật 数学/手数料.",
+      "roots": [
+        {
+          "id": "ko-ff-su2-root",
+          "character": "數",
+          "hanViet": "số",
+          "meaningVn": "số (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-su2-w1",
+              "headword": "수학",
+              "reading": "suhak",
+              "meaningVn": "toán học",
+              "example": "저는 수학을 잘 못해요.",
+              "exampleVn": "Tôi không giỏi toán."
+            },
+            {
+              "id": "ko-ff-su2-w2",
+              "headword": "수수료",
+              "reading": "susuryo",
+              "meaningVn": "phí thủ tục",
+              "example": "송금할 때 수수료가 있어요.",
+              "exampleVn": "Khi chuyển tiền có phí thủ tục."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ff-bok",
+      "language": "ko",
+      "reading": "服",
+      "groupKind": "false-friend",
+      "note": "服 (phục) vốn nghĩa 'quần áo', 양복 giữ nghĩa cụ thể (trang phục), còn 복종 lệch hẳn thành khái niệm trừu tượng về THÁI ĐỘ 'phục tùng, vâng lời' — song song với tiếng Nhật 洋服/服従.",
+      "roots": [
+        {
+          "id": "ko-ff-bok-root",
+          "character": "服",
+          "hanViet": "phục",
+          "meaningVn": "phục (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-bok-w1",
+              "headword": "양복",
+              "reading": "yangbok",
+              "meaningVn": "âu phục, vest",
+              "example": "결혼식에 양복을 입었어요.",
+              "exampleVn": "Tôi mặc vest đi đám cưới."
+            },
+            {
+              "id": "ko-ff-bok-w2",
+              "headword": "복종",
+              "reading": "bokjong",
+              "meaningVn": "phục tùng",
+              "example": "그는 명령에 복종했어요.",
+              "exampleVn": "Anh ta đã phục tùng mệnh lệnh."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ff-chak",
+      "language": "ko",
+      "reading": "着",
+      "groupKind": "false-friend",
+      "note": "着 (trước) vốn nghĩa 'mặc, đến', 도착 giữ nghĩa về HÀNH ĐỘNG di chuyển (đến nơi), còn 착용 lệch thành hành động SỬ DỤNG/mặc đồ dùng gì đó lên người, khác hướng với việc di chuyển.",
+      "roots": [
+        {
+          "id": "ko-ff-chak-root",
+          "character": "着",
+          "hanViet": "trước",
+          "meaningVn": "trước (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-chak-w1",
+              "headword": "도착",
+              "reading": "dochak",
+              "meaningVn": "đến nơi",
+              "example": "기차가 역에 도착했어요.",
+              "exampleVn": "Tàu đã đến ga."
+            },
+            {
+              "id": "ko-ff-chak-w2",
+              "headword": "착용",
+              "reading": "chagyong",
+              "meaningVn": "mặc, đeo (sử dụng)",
+              "example": "안전벨트를 착용하세요.",
+              "exampleVn": "Hãy thắt dây an toàn."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ff-ji",
+      "language": "ko",
+      "reading": "持",
+      "groupKind": "false-friend",
+      "note": "持 (trì) vốn nghĩa 'cầm, giữ', 지지 lệch hẳn thành khái niệm trừu tượng 'ủng hộ' (ý kiến, quan điểm), còn 지참 giữ nghĩa khá cụ thể (mang theo vật gì đó) — song song với tiếng Nhật 支持/持参.",
+      "roots": [
+        {
+          "id": "ko-ff-ji-root",
+          "character": "持",
+          "hanViet": "trì",
+          "meaningVn": "trì (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-ji-w1",
+              "headword": "지지",
+              "reading": "jiji",
+              "meaningVn": "ủng hộ",
+              "example": "많은 사람들이 그를 지지해요.",
+              "exampleVn": "Nhiều người ủng hộ anh ấy."
+            },
+            {
+              "id": "ko-ff-ji-w2",
+              "headword": "지참",
+              "reading": "jicham",
+              "meaningVn": "mang theo",
+              "example": "신분증을 지참하세요.",
+              "exampleVn": "Hãy mang theo giấy tờ tùy thân."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ff-jip",
+      "language": "ko",
+      "reading": "集",
+      "groupKind": "false-friend",
+      "note": "集 (tập) vốn nghĩa 'tụ họp, gom lại', 집합 giữ nghĩa sát gốc, còn 집중 lệch thành khái niệm trừu tượng về sự CHÚ TÂM/tập trung tinh thần, khác hẳn việc 'tụ họp' vật lý.",
+      "roots": [
+        {
+          "id": "ko-ff-jip-root",
+          "character": "集",
+          "hanViet": "tập",
+          "meaningVn": "tập (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-jip-w1",
+              "headword": "집합",
+              "reading": "jiphap",
+              "meaningVn": "tập hợp",
+              "example": "아홉 시에 여기로 집합하세요.",
+              "exampleVn": "Chín giờ hãy tập hợp ở đây."
+            },
+            {
+              "id": "ko-ff-jip-w2",
+              "headword": "집중",
+              "reading": "jipjung",
+              "meaningVn": "tập trung",
+              "example": "공부에 집중해야 해요.",
+              "exampleVn": "Phải tập trung vào việc học."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ff-song",
+      "language": "ko",
+      "reading": "送",
+      "groupKind": "false-friend",
+      "note": "送 (tống) vốn nghĩa 'gửi, đưa đi', 발송 giữ nghĩa cụ thể (gửi đồ đi), còn 방송 lệch hẳn thành khái niệm về TRUYỀN THÔNG 'phát sóng' — song song với tiếng Nhật 送料/放送.",
+      "roots": [
+        {
+          "id": "ko-ff-song-root",
+          "character": "送",
+          "hanViet": "tống",
+          "meaningVn": "tống (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-song-w1",
+              "headword": "발송",
+              "reading": "balsong",
+              "meaningVn": "gửi đi",
+              "example": "오늘 소포를 발송했어요.",
+              "exampleVn": "Hôm nay tôi đã gửi bưu kiện đi."
+            },
+            {
+              "id": "ko-ff-song-w2",
+              "headword": "방송",
+              "reading": "bangsong",
+              "meaningVn": "phát sóng",
+              "example": "이 드라마는 다음 주에 방송돼요.",
+              "exampleVn": "Bộ phim này sẽ phát sóng vào tuần sau."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ff-gye",
+      "language": "ko",
+      "reading": "界",
+      "groupKind": "false-friend",
+      "note": "界 (giới) vốn nghĩa 'ranh giới, phạm vi', 세계 giữ nghĩa về KHÔNG GIAN rộng lớn (thế giới), còn 한계 lệch thành khái niệm trừu tượng về một ĐIỂM DỪNG/ngưỡng chịu đựng — song song với tiếng Nhật 世界/限界.",
+      "roots": [
+        {
+          "id": "ko-ff-gye-root",
+          "character": "界",
+          "hanViet": "giới",
+          "meaningVn": "giới (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-gye-w1",
+              "headword": "세계",
+              "reading": "segye",
+              "meaningVn": "thế giới",
+              "example": "세계 여행을 하고 싶어요.",
+              "exampleVn": "Tôi muốn đi du lịch vòng quanh thế giới."
+            },
+            {
+              "id": "ko-ff-gye-w2",
+              "headword": "한계",
+              "reading": "hangye",
+              "meaningVn": "giới hạn",
+              "example": "체력의 한계를 느꼈어요.",
+              "exampleVn": "Tôi đã cảm nhận được giới hạn thể lực."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ff-yu",
+      "language": "ko",
+      "reading": "由",
+      "groupKind": "false-friend",
+      "note": "由 (do) vốn nghĩa 'nguyên do, từ đâu', 자유 lệch thành khái niệm triết học lớn 'tự do', còn 이유 giữ nghĩa gần gốc hơn, chỉ NGUYÊN NHÂN cụ thể của một sự việc — song song với tiếng Nhật 自由/理由.",
+      "roots": [
+        {
+          "id": "ko-ff-yu-root",
+          "character": "由",
+          "hanViet": "do",
+          "meaningVn": "do (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-yu-w1",
+              "headword": "자유",
+              "reading": "jayu",
+              "meaningVn": "tự do",
+              "example": "저는 자유 시간이 필요해요.",
+              "exampleVn": "Tôi cần thời gian tự do."
+            },
+            {
+              "id": "ko-ff-yu-w2",
+              "headword": "이유",
+              "reading": "iyu",
+              "meaningVn": "lý do",
+              "example": "늦은 이유를 말해 주세요.",
+              "exampleVn": "Hãy nói lý do bạn đến muộn."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ff-gam",
+      "language": "ko",
+      "reading": "感",
+      "groupKind": "false-friend",
+      "note": "感 (cảm) vốn nghĩa 'cảm nhận, cảm xúc', 감동 giữ nghĩa về phản ứng cảm xúc trước sự việc ĐÃ XẢY RA, còn 예감 lệch thành cảm giác về điều gì đó SẮP XẢY RA trong tương lai — song song với tiếng Nhật 感動/予感.",
+      "roots": [
+        {
+          "id": "ko-ff-gam-root",
+          "character": "感",
+          "hanViet": "cảm",
+          "meaningVn": "cảm (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-gam-w1",
+              "headword": "감동",
+              "reading": "gamdong",
+              "meaningVn": "cảm động",
+              "example": "그 영화를 보고 감동했어요.",
+              "exampleVn": "Tôi đã cảm động khi xem bộ phim đó."
+            },
+            {
+              "id": "ko-ff-gam-w2",
+              "headword": "예감",
+              "reading": "yegam",
+              "meaningVn": "linh cảm, dự cảm",
+              "example": "나쁜 예감이 들어요.",
+              "exampleVn": "Tôi có linh cảm không lành."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ff-sin3",
+      "language": "ko",
+      "reading": "神",
+      "groupKind": "false-friend",
+      "note": "神 (thần) vốn nghĩa 'thần linh', 정신 lệch hẳn thành khái niệm triết học/tâm lý về Ý THỨC con người (tinh thần), còn 신경 lệch thành khái niệm Y HỌC 'hệ thần kinh' (hoặc nghĩa bóng 'nhạy cảm, hay để ý') — cả 2 đều đã rời xa 'thần linh' theo 2 hướng khác nhau.",
+      "roots": [
+        {
+          "id": "ko-ff-sin3-root",
+          "character": "神",
+          "hanViet": "thần",
+          "meaningVn": "thần (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-sin3-w1",
+              "headword": "정신",
+              "reading": "jeongsin",
+              "meaningVn": "tinh thần, ý thức",
+              "example": "정신을 차리세요.",
+              "exampleVn": "Hãy tỉnh táo lại đi."
+            },
+            {
+              "id": "ko-ff-sin3-w2",
+              "headword": "신경",
+              "reading": "singyeong",
+              "meaningVn": "thần kinh, sự để ý",
+              "example": "그는 신경이 예민해요.",
+              "exampleVn": "Anh ấy rất nhạy cảm, dễ căng thẳng."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ff-myeong2",
+      "language": "ko",
+      "reading": "命",
+      "groupKind": "false-friend",
+      "note": "命 (mệnh) vốn nghĩa 'mệnh lệnh, sinh mệnh', 명령 giữ nghĩa sát gốc (ra lệnh), còn 운명 lệch thành khái niệm triết học trừu tượng 'số phận, vận mệnh' — song song với tiếng Nhật 命令/運命.",
+      "roots": [
+        {
+          "id": "ko-ff-myeong2-root",
+          "character": "命",
+          "hanViet": "mệnh",
+          "meaningVn": "mệnh (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-myeong2-w1",
+              "headword": "명령",
+              "reading": "myeongnyeong",
+              "meaningVn": "mệnh lệnh",
+              "example": "상사의 명령을 따랐어요.",
+              "exampleVn": "Tôi đã tuân theo mệnh lệnh của cấp trên."
+            },
+            {
+              "id": "ko-ff-myeong2-w2",
+              "headword": "운명",
+              "reading": "unmyeong",
+              "meaningVn": "số phận, vận mệnh",
+              "example": "이건 운명적인 만남이에요.",
+              "exampleVn": "Đây là cuộc gặp gỡ định mệnh."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ff-bi",
+      "language": "ko",
+      "reading": "費",
+      "groupKind": "false-friend",
+      "note": "費 (phí) vốn nghĩa 'tiêu tốn, chi phí', 비용 giữ nghĩa trung tính (khoản chi phí cần thiết), còn 낭비 lệch hẳn thành động từ mang sắc thái TIÊU CỰC 'lãng phí, phung phí', khác hẳn khái niệm trung tính 'chi phí'.",
+      "roots": [
+        {
+          "id": "ko-ff-bi-root",
+          "character": "費",
+          "hanViet": "phí",
+          "meaningVn": "phí (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-bi-w1",
+              "headword": "비용",
+              "reading": "biyong",
+              "meaningVn": "chi phí",
+              "example": "여행 비용이 많이 들어요.",
+              "exampleVn": "Chi phí du lịch tốn khá nhiều."
+            },
+            {
+              "id": "ko-ff-bi-w2",
+              "headword": "낭비",
+              "reading": "nangbi",
+              "meaningVn": "lãng phí",
+              "example": "돈을 낭비하지 마세요.",
+              "exampleVn": "Đừng lãng phí tiền bạc."
+            }
+          ]
+        }
+      ]
     }
   ]
 }
