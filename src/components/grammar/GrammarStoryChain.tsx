@@ -4,6 +4,7 @@ import { useState } from "react";
 import type { Language } from "@/types/vocab";
 import type { ResolvedGrammarStory } from "@/lib/grammarStories";
 import StoryNodeSentence from "@/components/grammar/StoryNodeSentence";
+import { speak } from "@/lib/tts";
 
 export default function GrammarStoryChain({ story, lang }: { story: ResolvedGrammarStory; lang: Language }) {
   // Ẩn nghĩa tiếng Việt mặc định — hiện cả câu gốc lẫn nghĩa cùng lúc thì không luyện được phản xạ
@@ -40,9 +41,18 @@ export default function GrammarStoryChain({ story, lang }: { story: ResolvedGram
               return (
                 <div key={step.point.id} className="flex flex-col items-stretch gap-2 md:flex-row md:items-center">
                   <div className="shrink-0 rounded-xl border border-border bg-surface p-4 shadow-sm md:w-56">
-                    <span className="inline-block rounded-full bg-brand-50 px-2 py-0.5 text-[10px] font-semibold text-brand-700 dark:bg-brand-900/40 dark:text-brand-300">
-                      {step.timeLabelVn}
-                    </span>
+                    <div className="flex items-center justify-between gap-1">
+                      <span className="inline-block rounded-full bg-brand-50 px-2 py-0.5 text-[10px] font-semibold text-brand-700 dark:bg-brand-900/40 dark:text-brand-300">
+                        {step.timeLabelVn}
+                      </span>
+                      <button
+                        onClick={() => speak(step.example.sentence, lang)}
+                        aria-label="Đọc câu"
+                        className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full border border-border bg-surface text-xs hover:bg-surface-3"
+                      >
+                        🔊
+                      </button>
+                    </div>
                     <StoryNodeSentence
                       sentence={step.example.sentence}
                       lang={lang}
