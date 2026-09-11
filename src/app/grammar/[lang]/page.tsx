@@ -42,6 +42,12 @@ export default async function GrammarLangPage({
               🗂️ Luyện tập
             </Link>
             <Link
+              href={`/grammar/${lang}/test`}
+              className="rounded-full bg-gradient-to-r from-sky-600 to-sky-400 px-4 py-2 text-sm font-semibold text-white shadow-md hover:brightness-105"
+            >
+              🧪 Trắc nghiệm
+            </Link>
+            <Link
               href={`/grammar/${lang}/wizard`}
               className="rounded-full border-2 border-dashed border-brand-400 px-4 py-2 text-sm font-semibold text-brand-600 hover:bg-brand-500/5"
             >
