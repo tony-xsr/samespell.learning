@@ -11,6 +11,8 @@ import en from "../../data/en.json";
 import zhShape from "../../data/zh-shape.json";
 import jaShape from "../../data/ja-shape.json";
 import zhFalseFriends from "../../data/zh-false-friends.json";
+import jaFalseFriends from "../../data/ja-false-friends.json";
+import koFalseFriends from "../../data/ko-false-friends.json";
 import zhInitials from "../../data/zh-initials.json";
 import enShape from "../../data/en-shape.json";
 
@@ -35,9 +37,13 @@ const STATIC_SHAPE_DATA: Partial<Record<Language, LanguageData>> = {
 };
 
 // Dữ liệu "bẫy nghĩa" (1 chữ dùng chung giữa 2+ từ ghép nhưng nghĩa lệch/trôi nhau) — trục nhầm lẫn
-// thứ ba, hiện chỉ có cho tiếng Trung (ja/ko chưa viết).
+// thứ ba. zh có 1002 nhóm (soạn từ lâu); ja/ko bắt đầu từ batch 1 (12 nhóm/24 từ mỗi ngôn ngữ) —
+// hiện tượng này áp dụng tốt cho cả 2 ngôn ngữ vì từ Hán-Nhật (on'yomi)/Hán-Hàn (한자어) cũng có chung
+// đặc điểm 1 chữ Hán/Hanja trôi nghĩa khác nhau giữa các từ ghép, y hệt tiếng Trung/Hán-Việt.
 const STATIC_FALSE_FRIEND_DATA: Partial<Record<Language, LanguageData>> = {
   zh: zhFalseFriends as LanguageData,
+  ja: jaFalseFriends as LanguageData,
+  ko: koFalseFriends as LanguageData,
 };
 
 // Dữ liệu "cùng âm đầu pinyin" (chỉ trùng phụ âm đầu, không liên quan âm/nghĩa) — trục nhầm lẫn thứ
