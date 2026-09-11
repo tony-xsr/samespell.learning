@@ -793,6 +793,402 @@
           ]
         }
       ]
+    },
+    {
+      "id": "ja-ff-gaku",
+      "language": "ja",
+      "reading": "学",
+      "groupKind": "false-friend",
+      "note": "学 (học) vốn nghĩa 'học tập', 学校 giữ nghĩa cụ thể (nơi học), còn 見学 (nhìn-học) lệch thành hoạt động THAM QUAN THỰC TẾ, không phải việc học trong lớp.",
+      "roots": [
+        {
+          "id": "ja-ff-gaku-root",
+          "character": "学",
+          "hanViet": "học",
+          "meaningVn": "học (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-gaku-w1",
+              "headword": "学校",
+              "reading": "gakkou",
+              "meaningVn": "trường học",
+              "example": "毎日学校に行きます。",
+              "exampleVn": "Mỗi ngày tôi đi học."
+            },
+            {
+              "id": "ja-ff-gaku-w2",
+              "headword": "見学",
+              "reading": "kengaku",
+              "meaningVn": "tham quan, học tập thực tế",
+              "example": "工場を見学しました。",
+              "exampleVn": "Chúng tôi đã đi tham quan nhà máy."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-de",
+      "language": "ja",
+      "reading": "出",
+      "groupKind": "false-friend",
+      "note": "出 (xuất) vốn nghĩa 'ra, xuất phát', 出発 giữ nghĩa khá sát gốc (khởi hành, đi ra), còn 出前 (ra trước) lệch hẳn thành danh từ CHUYÊN BIỆT chỉ dịch vụ giao đồ ăn tận nơi.",
+      "roots": [
+        {
+          "id": "ja-ff-de-root",
+          "character": "出",
+          "hanViet": "xuất",
+          "meaningVn": "xuất (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-de-w1",
+              "headword": "出発",
+              "reading": "shuppatsu",
+              "meaningVn": "khởi hành",
+              "example": "明日の朝出発します。",
+              "exampleVn": "Sáng mai tôi sẽ khởi hành."
+            },
+            {
+              "id": "ja-ff-de-w2",
+              "headword": "出前",
+              "reading": "demae",
+              "meaningVn": "giao đồ ăn tận nơi",
+              "example": "寿司の出前を頼んだ。",
+              "exampleVn": "Tôi đã đặt giao sushi tận nơi."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-nyuu",
+      "language": "ja",
+      "reading": "入",
+      "groupKind": "false-friend",
+      "note": "入 (nhập) vốn nghĩa 'vào, gia nhập', 入学 giữ nghĩa cụ thể (nhập học), còn 加入 lệch thành khái niệm trừu tượng hơn về việc THAM GIA một tổ chức/hội nhóm bất kỳ.",
+      "roots": [
+        {
+          "id": "ja-ff-nyuu-root",
+          "character": "入",
+          "hanViet": "nhập",
+          "meaningVn": "nhập (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-nyuu-w1",
+              "headword": "入学",
+              "reading": "nyuugaku",
+              "meaningVn": "nhập học",
+              "example": "来月大学に入学します。",
+              "exampleVn": "Tháng sau tôi sẽ nhập học đại học."
+            },
+            {
+              "id": "ja-ff-nyuu-w2",
+              "headword": "加入",
+              "reading": "kanyuu",
+              "meaningVn": "gia nhập, tham gia",
+              "example": "保険に加入しました。",
+              "exampleVn": "Tôi đã tham gia bảo hiểm."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-jou2",
+      "language": "ja",
+      "reading": "上",
+      "groupKind": "false-friend",
+      "note": "上 (thượng) vốn nghĩa 'trên, phía trên', 上司 lệch thành danh từ chỉ VAI VẾ xã hội (cấp trên), còn 上京 (lên kinh đô) lệch thành động từ chỉ HÀNH ĐỘNG di chuyển địa lý cụ thể (lên Tokyo).",
+      "roots": [
+        {
+          "id": "ja-ff-jou2-root",
+          "character": "上",
+          "hanViet": "thượng",
+          "meaningVn": "thượng (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-jou2-w1",
+              "headword": "上司",
+              "reading": "joushi",
+              "meaningVn": "cấp trên, sếp",
+              "example": "上司に相談しました。",
+              "exampleVn": "Tôi đã bàn bạc với cấp trên."
+            },
+            {
+              "id": "ja-ff-jou2-w2",
+              "headword": "上京",
+              "reading": "joukyou",
+              "meaningVn": "lên Tokyo (từ tỉnh khác)",
+              "example": "大学のために上京しました。",
+              "exampleVn": "Tôi đã lên Tokyo để học đại học."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-shita",
+      "language": "ja",
+      "reading": "下",
+      "groupKind": "false-friend",
+      "note": "下 (hạ) vốn nghĩa 'dưới, phía dưới', 地下 giữ nghĩa cụ thể (vị trí dưới mặt đất), còn 下宿 (nghỉ dưới) lệch hẳn thành danh từ chuyên biệt chỉ MỘT LOẠI NHÀ Ở (nhà trọ/ký túc xá tư).",
+      "roots": [
+        {
+          "id": "ja-ff-shita-root",
+          "character": "下",
+          "hanViet": "hạ",
+          "meaningVn": "hạ (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-shita-w1",
+              "headword": "地下",
+              "reading": "chika",
+              "meaningVn": "hầm ngầm, dưới mặt đất",
+              "example": "地下にレストランがあります。",
+              "exampleVn": "Có nhà hàng ở tầng hầm."
+            },
+            {
+              "id": "ja-ff-shita-w2",
+              "headword": "下宿",
+              "reading": "geshuku",
+              "meaningVn": "nhà trọ, ký túc xá tư",
+              "example": "大学の近くで下宿しています。",
+              "exampleVn": "Tôi đang ở trọ gần trường đại học."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-dai",
+      "language": "ja",
+      "reading": "大",
+      "groupKind": "false-friend",
+      "note": "大 (đại) vốn nghĩa 'to lớn', 大学 giữ nghĩa cụ thể (trường lớn = đại học), còn 大丈夫 (đại trượng phu) lệch hẳn hoàn toàn thành cụm từ nghĩa 'ổn, không sao đâu', không còn liên quan gì đến 'to lớn' hay 'trượng phu'.",
+      "roots": [
+        {
+          "id": "ja-ff-dai-root",
+          "character": "大",
+          "hanViet": "đại",
+          "meaningVn": "đại (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-dai-w1",
+              "headword": "大学",
+              "reading": "daigaku",
+              "meaningVn": "đại học",
+              "example": "弟は大学生です。",
+              "exampleVn": "Em trai tôi là sinh viên đại học."
+            },
+            {
+              "id": "ja-ff-dai-w2",
+              "headword": "大丈夫",
+              "reading": "daijoubu",
+              "meaningVn": "ổn, không sao",
+              "example": "心配しないで、大丈夫です。",
+              "exampleVn": "Đừng lo, không sao đâu."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-shou",
+      "language": "ja",
+      "reading": "小",
+      "groupKind": "false-friend",
+      "note": "小 (tiểu) vốn nghĩa 'nhỏ', 小説 lệch thành danh từ chỉ THỂ LOẠI văn học (tiểu thuyết), còn 小学校 giữ nghĩa khá cụ thể (một cấp học - trường tiểu học).",
+      "roots": [
+        {
+          "id": "ja-ff-shou-root",
+          "character": "小",
+          "hanViet": "tiểu",
+          "meaningVn": "tiểu (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-shou-w1",
+              "headword": "小説",
+              "reading": "shousetsu",
+              "meaningVn": "tiểu thuyết",
+              "example": "彼女は小説を書いています。",
+              "exampleVn": "Cô ấy đang viết tiểu thuyết."
+            },
+            {
+              "id": "ja-ff-shou-w2",
+              "headword": "小学校",
+              "reading": "shougakkou",
+              "meaningVn": "trường tiểu học",
+              "example": "息子は小学校に通っています。",
+              "exampleVn": "Con trai tôi đang học tiểu học."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-shin2",
+      "language": "ja",
+      "reading": "新",
+      "groupKind": "false-friend",
+      "note": "新 (tân) vốn nghĩa 'mới', 新聞 (tân-nghe) lệch thành danh từ cố định chỉ BÁO CHÍ, còn 新幹線 lệch thành TÊN RIÊNG của một loại tàu cao tốc cụ thể.",
+      "roots": [
+        {
+          "id": "ja-ff-shin2-root",
+          "character": "新",
+          "hanViet": "tân",
+          "meaningVn": "tân (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-shin2-w1",
+              "headword": "新聞",
+              "reading": "shinbun",
+              "meaningVn": "báo chí",
+              "example": "父は毎朝新聞を読みます。",
+              "exampleVn": "Bố tôi đọc báo mỗi sáng."
+            },
+            {
+              "id": "ja-ff-shin2-w2",
+              "headword": "新幹線",
+              "reading": "shinkansen",
+              "meaningVn": "tàu cao tốc",
+              "example": "新幹線で大阪へ行きます。",
+              "exampleVn": "Tôi đi Osaka bằng tàu cao tốc."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-kou2",
+      "language": "ja",
+      "reading": "高",
+      "groupKind": "false-friend",
+      "note": "高 (cao) vốn nghĩa 'cao', 高校 lệch thành tên gọi rút gọn của MỘT CẤP HỌC (trường cấp 3), còn 高価 giữ nghĩa khá sát gốc nhưng chuyển hẳn sang miêu tả GIÁ CẢ đắt đỏ.",
+      "roots": [
+        {
+          "id": "ja-ff-kou2-root",
+          "character": "高",
+          "hanViet": "cao",
+          "meaningVn": "cao (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-kou2-w1",
+              "headword": "高校",
+              "reading": "koukou",
+              "meaningVn": "trường cấp 3",
+              "example": "姉は高校の先生です。",
+              "exampleVn": "Chị tôi là giáo viên cấp 3."
+            },
+            {
+              "id": "ja-ff-kou2-w2",
+              "headword": "高価",
+              "reading": "kouka",
+              "meaningVn": "đắt tiền, giá cao",
+              "example": "これは高価な時計です。",
+              "exampleVn": "Đây là chiếc đồng hồ đắt tiền."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-an2",
+      "language": "ja",
+      "reading": "安",
+      "groupKind": "false-friend",
+      "note": "安 (an) vốn nghĩa 'yên ổn, an toàn', 安定 giữ nghĩa khá sát gốc (ổn định), còn 安易 lệch hẳn thành tính từ mang sắc thái TIÊU CỰC (dễ dãi, hời hợt), khác hẳn ý 'an toàn'.",
+      "roots": [
+        {
+          "id": "ja-ff-an2-root",
+          "character": "安",
+          "hanViet": "an",
+          "meaningVn": "an (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-an2-w1",
+              "headword": "安定",
+              "reading": "antei",
+              "meaningVn": "ổn định",
+              "example": "経済が安定してきた。",
+              "exampleVn": "Kinh tế đã dần ổn định."
+            },
+            {
+              "id": "ja-ff-an2-w2",
+              "headword": "安易",
+              "reading": "an'i",
+              "meaningVn": "dễ dãi, hời hợt",
+              "example": "安易に約束しない方がいい。",
+              "exampleVn": "Không nên hứa hẹn một cách dễ dãi."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-koto",
+      "language": "ja",
+      "reading": "事",
+      "groupKind": "false-friend",
+      "note": "事 (sự) vốn nghĩa 'sự việc', 事件 lệch thành danh từ CHUYÊN CHỈ những sự việc nghiêm trọng (vụ án, sự cố), còn 事務所 (nơi-việc-sự) lệch hẳn thành danh từ chỉ MỘT ĐỊA ĐIỂM cụ thể (văn phòng).",
+      "roots": [
+        {
+          "id": "ja-ff-koto-root",
+          "character": "事",
+          "hanViet": "sự",
+          "meaningVn": "sự (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-koto-w1",
+              "headword": "事件",
+              "reading": "jiken",
+              "meaningVn": "vụ việc, sự kiện (nghiêm trọng)",
+              "example": "昨夜、事件が起きた。",
+              "exampleVn": "Tối qua đã xảy ra một vụ việc."
+            },
+            {
+              "id": "ja-ff-koto-w2",
+              "headword": "事務所",
+              "reading": "jimusho",
+              "meaningVn": "văn phòng",
+              "example": "弁護士の事務所を訪ねた。",
+              "exampleVn": "Tôi đã đến thăm văn phòng luật sư."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-i2",
+      "language": "ja",
+      "reading": "意",
+      "groupKind": "false-friend",
+      "note": "意 (ý) vốn nghĩa 'ý nghĩ, ý định', 意味 giữ nghĩa sát gốc (ý nghĩa), còn 得意 (đắc-ý) lệch hẳn thành tính từ chỉ sự GIỎI GIANG/sở trường của một người, không còn liên quan đến 'ý nghĩa'.",
+      "roots": [
+        {
+          "id": "ja-ff-i2-root",
+          "character": "意",
+          "hanViet": "ý",
+          "meaningVn": "ý (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-i2-w1",
+              "headword": "意味",
+              "reading": "imi",
+              "meaningVn": "ý nghĩa",
+              "example": "この言葉の意味が分かりません。",
+              "exampleVn": "Tôi không hiểu ý nghĩa của từ này."
+            },
+            {
+              "id": "ja-ff-i2-w2",
+              "headword": "得意",
+              "reading": "tokui",
+              "meaningVn": "giỏi, sở trường",
+              "example": "彼は数学が得意です。",
+              "exampleVn": "Anh ấy giỏi môn toán."
+            }
+          ]
+        }
+      ]
     }
   ]
 }
