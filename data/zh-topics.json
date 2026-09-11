@@ -49853,6 +49853,2358 @@
           ]
         }
       ]
+    },
+    {
+      "id": "zh-topic-plagiarism-check-academic-integrity",
+      "language": "zh",
+      "titleNative": "论文查重与学术不端",
+      "titleVn": "Kiểm tra đạo văn & liêm chính học thuật",
+      "branches": [
+        {
+          "id": "check-system",
+          "titleNative": "查重系统",
+          "titleVn": "Hệ thống kiểm tra đạo văn",
+          "words": [
+            {
+              "id": "zh-topic-plagcheck-lunwenchachong",
+              "headword": "论文查重",
+              "reading": "lùnwén cháchóng",
+              "meaningVn": "kiểm tra trùng lặp luận văn",
+              "example": "交稿前一定要先做一次论文查重。",
+              "exampleVn": "Trước khi nộp bài nhất định phải kiểm tra trùng lặp luận văn trước một lần."
+            },
+            {
+              "id": "zh-topic-plagcheck-zhiwangchachong",
+              "headword": "知网查重",
+              "reading": "zhīwǎng cháchóng",
+              "meaningVn": "kiểm tra trùng lặp qua hệ thống CNKI",
+              "example": "学校统一用知网查重出最终结果。",
+              "exampleVn": "Trường thống nhất dùng hệ thống CNKI để ra kết quả cuối cùng."
+            },
+            {
+              "id": "zh-topic-plagcheck-chachongbaogao",
+              "headword": "查重报告",
+              "reading": "cháchóng bàogào",
+              "meaningVn": "báo cáo kết quả kiểm tra trùng lặp",
+              "example": "查重报告显示重复率是百分之十二。",
+              "exampleVn": "Báo cáo kết quả kiểm tra trùng lặp cho thấy tỉ lệ trùng lặp là mười hai phần trăm."
+            },
+            {
+              "id": "zh-topic-plagcheck-xiangsidubaifenbi",
+              "headword": "相似度百分比",
+              "reading": "xiāngsìdù bǎifēnbǐ",
+              "meaningVn": "tỉ lệ phần trăm giống nhau",
+              "example": "学校要求相似度百分比不能超过百分之十五。",
+              "exampleVn": "Trường yêu cầu tỉ lệ phần trăm giống nhau không được vượt quá mười lăm phần trăm."
+            },
+            {
+              "id": "zh-topic-plagcheck-chachongxitonggengxin",
+              "headword": "查重系统更新",
+              "reading": "cháchóng xìtǒng gēngxīn",
+              "meaningVn": "cập nhật hệ thống kiểm tra trùng lặp",
+              "example": "查重系统更新后,数据库收录了更多论文。",
+              "exampleVn": "Sau khi hệ thống kiểm tra trùng lặp cập nhật, cơ sở dữ liệu thu thập được nhiều luận văn hơn."
+            }
+          ]
+        },
+        {
+          "id": "reduce-similarity",
+          "titleNative": "降重技巧",
+          "titleVn": "Kỹ thuật giảm tỉ lệ trùng lặp",
+          "words": [
+            {
+              "id": "zh-topic-plagcheck-jiangchong",
+              "headword": "降重",
+              "reading": "jiàngchóng",
+              "meaningVn": "giảm tỉ lệ trùng lặp",
+              "example": "她熬了两个晚上给论文降重。",
+              "exampleVn": "Cô ấy thức hai đêm liền để giảm tỉ lệ trùng lặp cho luận văn."
+            },
+            {
+              "id": "zh-topic-plagcheck-tongyicitihuan",
+              "headword": "同义词替换",
+              "reading": "tóngyìcí tìhuàn",
+              "meaningVn": "thay bằng từ đồng nghĩa",
+              "example": "降重最简单的办法就是同义词替换。",
+              "exampleVn": "Cách đơn giản nhất để giảm trùng lặp chính là thay bằng từ đồng nghĩa."
+            },
+            {
+              "id": "zh-topic-plagcheck-jushigaixie",
+              "headword": "句式改写",
+              "reading": "jùshì gǎixiě",
+              "meaningVn": "viết lại cấu trúc câu",
+              "example": "光换词不够,还要做句式改写。",
+              "exampleVn": "Chỉ đổi từ thôi chưa đủ, còn phải viết lại cấu trúc câu."
+            },
+            {
+              "id": "zh-topic-plagcheck-rengongjiangchong",
+              "headword": "人工降重",
+              "reading": "réngōng jiàngchóng",
+              "meaningVn": "giảm trùng lặp thủ công",
+              "example": "人工降重比软件靠谱,但特别费时间。",
+              "exampleVn": "Giảm trùng lặp thủ công đáng tin hơn phần mềm, nhưng cực kỳ tốn thời gian."
+            },
+            {
+              "id": "zh-topic-plagcheck-jiangchongruanjian",
+              "headword": "降重软件",
+              "reading": "jiàngchóng ruǎnjiàn",
+              "meaningVn": "phần mềm giảm tỉ lệ trùng lặp",
+              "example": "网上的降重软件效果参差不齐。",
+              "exampleVn": "Phần mềm giảm tỉ lệ trùng lặp trên mạng hiệu quả không đồng đều."
+            }
+          ]
+        },
+        {
+          "id": "misconduct-behavior",
+          "titleNative": "学术不端行为",
+          "titleVn": "Hành vi vi phạm liêm chính học thuật",
+          "words": [
+            {
+              "id": "zh-topic-plagcheck-xueshubuduan",
+              "headword": "学术不端",
+              "reading": "xuéshù bùduān",
+              "meaningVn": "vi phạm liêm chính học thuật",
+              "example": "一旦被认定学术不端,后果很严重。",
+              "exampleVn": "Một khi bị xác định vi phạm liêm chính học thuật, hậu quả rất nghiêm trọng."
+            },
+            {
+              "id": "zh-topic-plagcheck-chaoxipiaoqie",
+              "headword": "抄袭剽窃",
+              "reading": "chāoxí piáoqiè",
+              "meaningVn": "đạo văn",
+              "example": "那篇文章被证实存在抄袭剽窃。",
+              "exampleVn": "Bài báo đó được xác nhận có hành vi đạo văn."
+            },
+            {
+              "id": "zh-topic-plagcheck-shiyanshujuzaojia",
+              "headword": "实验数据造假",
+              "reading": "shíyàn shùjù zàojiǎ",
+              "meaningVn": "làm giả số liệu thí nghiệm",
+              "example": "有学生为了发表论文,实验数据造假。",
+              "exampleVn": "Có sinh viên để đăng được bài báo đã làm giả số liệu thí nghiệm."
+            },
+            {
+              "id": "zh-topic-plagcheck-yigaoduotou",
+              "headword": "一稿多投",
+              "reading": "yìgǎo duōtóu",
+              "meaningVn": "gửi cùng một bài đến nhiều nơi",
+              "example": "期刊明确禁止一稿多投。",
+              "exampleVn": "Tạp chí quy định rõ cấm gửi cùng một bài đến nhiều nơi."
+            },
+            {
+              "id": "zh-topic-plagcheck-daixielunwen",
+              "headword": "代写论文",
+              "reading": "dàixiě lùnwén",
+              "meaningVn": "viết luận văn thuê",
+              "example": "网上有不少人偷偷做代写论文的生意。",
+              "exampleVn": "Trên mạng không ít người lén lút làm nghề viết luận văn thuê."
+            }
+          ]
+        },
+        {
+          "id": "consequences",
+          "titleNative": "后果与惩戒",
+          "titleVn": "Hậu quả & xử lý kỷ luật",
+          "words": [
+            {
+              "id": "zh-topic-plagcheck-chexiaoxuewei",
+              "headword": "撤销学位",
+              "reading": "chèxiāo xuéwèi",
+              "meaningVn": "thu hồi bằng cấp",
+              "example": "查出造假后,学校对他做出撤销学位的处理。",
+              "exampleVn": "Sau khi phát hiện làm giả, trường ra quyết định thu hồi bằng cấp đối với anh ta."
+            },
+            {
+              "id": "zh-topic-plagcheck-yanqidabian",
+              "headword": "延期答辩",
+              "reading": "yánqī dábiàn",
+              "meaningVn": "hoãn bảo vệ luận văn",
+              "example": "查重不合格,只能延期答辩。",
+              "exampleVn": "Kiểm tra trùng lặp không đạt, chỉ có thể hoãn bảo vệ luận văn."
+            },
+            {
+              "id": "zh-topic-plagcheck-xueshuchengxindangan",
+              "headword": "学术诚信档案",
+              "reading": "xuéshù chéngxìn dàng'àn",
+              "meaningVn": "hồ sơ liêm chính học thuật",
+              "example": "违规记录会记入学术诚信档案。",
+              "exampleVn": "Ghi chép vi phạm sẽ được lưu vào hồ sơ liêm chính học thuật."
+            },
+            {
+              "id": "zh-topic-plagcheck-tongbaopiping",
+              "headword": "通报批评",
+              "reading": "tōngbào pīpíng",
+              "meaningVn": "thông báo phê bình công khai",
+              "example": "学校对涉事学生进行了通报批评。",
+              "exampleVn": "Trường đã ra thông báo phê bình công khai đối với sinh viên liên quan."
+            },
+            {
+              "id": "zh-topic-plagcheck-chachongbuguoguan",
+              "headword": "查重不过关",
+              "reading": "cháchóng bú guòguān",
+              "meaningVn": "không đạt yêu cầu kiểm tra trùng lặp",
+              "example": "查重不过关的论文一律不能提交。",
+              "exampleVn": "Luận văn không đạt yêu cầu kiểm tra trùng lặp đều không được phép nộp."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-topic-thesis-defense-graduation-project",
+      "language": "zh",
+      "titleNative": "毕业答辩与毕业设计",
+      "titleVn": "Bảo vệ luận văn & đồ án tốt nghiệp",
+      "branches": [
+        {
+          "id": "topic-proposal",
+          "titleNative": "选题开题",
+          "titleVn": "Chọn đề tài & báo cáo mở đầu",
+          "words": [
+            {
+              "id": "zh-topic-graddefense-xuanti",
+              "headword": "选题",
+              "reading": "xuǎntí",
+              "meaningVn": "chọn đề tài",
+              "example": "选题定不下来,他愁了整整一个月。",
+              "exampleVn": "Chọn đề tài không quyết được, anh ấy lo lắng nguyên một tháng trời."
+            },
+            {
+              "id": "zh-topic-graddefense-kaitibaogao",
+              "headword": "开题报告",
+              "reading": "kāití bàogào",
+              "meaningVn": "báo cáo mở đầu đề tài",
+              "example": "开题报告要在十月底之前提交。",
+              "exampleVn": "Báo cáo mở đầu đề tài phải nộp trước cuối tháng Mười."
+            },
+            {
+              "id": "zh-topic-graddefense-xiangguanwenxianshuli",
+              "headword": "相关文献梳理",
+              "reading": "xiāngguān wénxiàn shūlǐ",
+              "meaningVn": "rà soát tài liệu liên quan",
+              "example": "开题前要做好相关文献梳理。",
+              "exampleVn": "Trước khi mở đầu đề tài phải làm tốt việc rà soát tài liệu liên quan."
+            },
+            {
+              "id": "zh-topic-graddefense-yanjiufangfa",
+              "headword": "研究方法",
+              "reading": "yánjiū fāngfǎ",
+              "meaningVn": "phương pháp nghiên cứu",
+              "example": "导师建议她换一种研究方法。",
+              "exampleVn": "Giáo viên hướng dẫn khuyên cô ấy đổi một phương pháp nghiên cứu khác."
+            },
+            {
+              "id": "zh-topic-graddefense-daoshiyijian",
+              "headword": "导师意见",
+              "reading": "dǎoshī yìjiàn",
+              "meaningVn": "ý kiến của giáo viên hướng dẫn",
+              "example": "每一稿都要根据导师意见修改。",
+              "exampleVn": "Mỗi bản thảo đều phải sửa theo ý kiến của giáo viên hướng dẫn."
+            }
+          ]
+        },
+        {
+          "id": "writing-process",
+          "titleNative": "撰写过程",
+          "titleVn": "Quá trình viết",
+          "words": [
+            {
+              "id": "zh-topic-graddefense-chugao",
+              "headword": "初稿",
+              "reading": "chūgǎo",
+              "meaningVn": "bản thảo đầu tiên",
+              "example": "初稿写得又乱又长。",
+              "exampleVn": "Bản thảo đầu tiên viết vừa lộn xộn vừa dài."
+            },
+            {
+              "id": "zh-topic-graddefense-fanfuxiugai",
+              "headword": "反复修改",
+              "reading": "fǎnfù xiūgǎi",
+              "meaningVn": "sửa đi sửa lại",
+              "example": "这篇论文反复修改了七八次。",
+              "exampleVn": "Bài luận văn này sửa đi sửa lại bảy tám lần."
+            },
+            {
+              "id": "zh-topic-graddefense-geshipaiban",
+              "headword": "格式排版",
+              "reading": "géshì páibǎn",
+              "meaningVn": "trình bày định dạng",
+              "example": "学校对格式排版有严格要求。",
+              "exampleVn": "Trường có yêu cầu nghiêm ngặt về trình bày định dạng."
+            },
+            {
+              "id": "zh-topic-graddefense-zhixiebufen",
+              "headword": "致谢部分",
+              "reading": "zhìxiè bùfen",
+              "meaningVn": "phần lời cảm ơn",
+              "example": "致谢部分她写得又长又感人。",
+              "exampleVn": "Phần lời cảm ơn cô ấy viết vừa dài vừa cảm động."
+            },
+            {
+              "id": "zh-topic-graddefense-aoyegangao",
+              "headword": "熬夜赶稿",
+              "reading": "áoyè gǎngǎo",
+              "meaningVn": "thức đêm chạy deadline bài viết",
+              "example": "截止日前一周,他天天熬夜赶稿。",
+              "exampleVn": "Một tuần trước hạn chót, ngày nào anh ấy cũng thức đêm chạy deadline."
+            }
+          ]
+        },
+        {
+          "id": "blind-review-defense",
+          "titleNative": "盲审与答辩",
+          "titleVn": "Phản biện kín & bảo vệ",
+          "words": [
+            {
+              "id": "zh-topic-graddefense-mangshen",
+              "headword": "盲审",
+              "reading": "mángshěn",
+              "meaningVn": "phản biện kín (giấu tên tác giả)",
+              "example": "这所学校的硕士论文一律要经过盲审。",
+              "exampleVn": "Luận văn thạc sĩ của trường này đều phải qua phản biện kín."
+            },
+            {
+              "id": "zh-topic-graddefense-waishenzhuanjia",
+              "headword": "外审专家",
+              "reading": "wàishěn zhuānjiā",
+              "meaningVn": "chuyên gia phản biện ngoài trường",
+              "example": "论文会随机分给外审专家评阅。",
+              "exampleVn": "Luận văn sẽ được phân ngẫu nhiên cho chuyên gia phản biện ngoài trường chấm."
+            },
+            {
+              "id": "zh-topic-graddefense-dabianweiyuanhui",
+              "headword": "答辩委员会",
+              "reading": "dábiàn wěiyuánhuì",
+              "meaningVn": "hội đồng bảo vệ",
+              "example": "答辩委员会由五位老师组成。",
+              "exampleVn": "Hội đồng bảo vệ gồm năm giáo viên."
+            },
+            {
+              "id": "zh-topic-graddefense-dabianhuandengpian",
+              "headword": "答辩幻灯片",
+              "reading": "dábiàn huàndēngpiàn",
+              "meaningVn": "slide trình chiếu buổi bảo vệ",
+              "example": "答辩幻灯片她改到凌晨才定稿。",
+              "exampleVn": "Slide trình chiếu buổi bảo vệ cô ấy sửa đến rạng sáng mới chốt được."
+            },
+            {
+              "id": "zh-topic-graddefense-tiwenhuanjie",
+              "headword": "提问环节",
+              "reading": "tíwèn huánjié",
+              "meaningVn": "phần hỏi đáp",
+              "example": "提问环节老师问得又刁又细。",
+              "exampleVn": "Phần hỏi đáp giáo viên hỏi vừa hóc búa vừa chi tiết."
+            }
+          ]
+        },
+        {
+          "id": "graduation-project",
+          "titleNative": "毕业设计",
+          "titleVn": "Đồ án tốt nghiệp",
+          "words": [
+            {
+              "id": "zh-topic-graddefense-biyesheji",
+              "headword": "毕业设计",
+              "reading": "bìyè shèjì",
+              "meaningVn": "đồ án tốt nghiệp",
+              "example": "工科学生大多要做实体的毕业设计。",
+              "exampleVn": "Sinh viên khối kỹ thuật phần lớn phải làm đồ án tốt nghiệp thực thể."
+            },
+            {
+              "id": "zh-topic-graddefense-shiwumoxing",
+              "headword": "实物模型",
+              "reading": "shíwù móxíng",
+              "meaningVn": "mô hình thực tế",
+              "example": "他花了半个月做出一个实物模型。",
+              "exampleVn": "Anh ấy mất nửa tháng để làm ra một mô hình thực tế."
+            },
+            {
+              "id": "zh-topic-graddefense-zhidaolaoshi",
+              "headword": "指导老师",
+              "reading": "zhǐdǎo lǎoshī",
+              "meaningVn": "giáo viên hướng dẫn",
+              "example": "指导老师每周都要检查进度。",
+              "exampleVn": "Giáo viên hướng dẫn mỗi tuần đều kiểm tra tiến độ."
+            },
+            {
+              "id": "zh-topic-graddefense-dabiantongguo",
+              "headword": "答辩通过",
+              "reading": "dábiàn tōngguò",
+              "meaningVn": "bảo vệ thành công",
+              "example": "答辩通过的那一刻,她哭了出来。",
+              "exampleVn": "Khoảnh khắc bảo vệ thành công, cô ấy đã bật khóc."
+            },
+            {
+              "id": "zh-topic-graddefense-yanbibudabian",
+              "headword": "延毕补答辩",
+              "reading": "yánbì bǔ dábiàn",
+              "meaningVn": "bảo vệ bổ sung do tốt nghiệp muộn",
+              "example": "没通过的学生要参加下学期的延毕补答辩。",
+              "exampleVn": "Sinh viên không qua phải tham gia buổi bảo vệ bổ sung do tốt nghiệp muộn học kỳ sau."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-topic-migrant-wage-labor-arbitration",
+      "language": "zh",
+      "titleNative": "农民工讨薪与劳动仲裁",
+      "titleVn": "Đòi lương cho lao động nhập cư & trọng tài lao động",
+      "branches": [
+        {
+          "id": "wage-arrears",
+          "titleNative": "欠薪问题",
+          "titleVn": "Vấn đề nợ lương",
+          "words": [
+            {
+              "id": "zh-topic-wagerecovery-qianxin",
+              "headword": "欠薪",
+              "reading": "qiànxīn",
+              "meaningVn": "nợ lương",
+              "example": "工地欠薪的问题拖了大半年。",
+              "exampleVn": "Vấn đề nợ lương ở công trường kéo dài hơn nửa năm."
+            },
+            {
+              "id": "zh-topic-wagerecovery-tuoqiangongzi",
+              "headword": "拖欠工资",
+              "reading": "tuōqiàn gōngzī",
+              "meaningVn": "chậm trả lương",
+              "example": "公司拖欠工资已经三个月了。",
+              "exampleVn": "Công ty chậm trả lương đã ba tháng rồi."
+            },
+            {
+              "id": "zh-topic-wagerecovery-baogongtoupaolu",
+              "headword": "包工头跑路",
+              "reading": "bāogōngtóu pǎolù",
+              "meaningVn": "cai thầu bỏ trốn",
+              "example": "包工头跑路后,工人们才知道被骗了。",
+              "exampleVn": "Sau khi cai thầu bỏ trốn, công nhân mới biết bị lừa."
+            },
+            {
+              "id": "zh-topic-wagerecovery-gongchengkuantuoyan",
+              "headword": "工程款拖延",
+              "reading": "gōngchéngkuǎn tuōyán",
+              "meaningVn": "chậm thanh toán tiền công trình",
+              "example": "开发商工程款拖延导致连锁欠薪。",
+              "exampleVn": "Chủ đầu tư chậm thanh toán tiền công trình dẫn đến nợ lương dây chuyền."
+            },
+            {
+              "id": "zh-topic-wagerecovery-taoxin",
+              "headword": "讨薪",
+              "reading": "tǎoxīn",
+              "meaningVn": "đòi lương",
+              "example": "年底是农民工讨薪最集中的时候。",
+              "exampleVn": "Cuối năm là lúc lao động nhập cư đòi lương tập trung nhất."
+            }
+          ]
+        },
+        {
+          "id": "rights-channels",
+          "titleNative": "维权渠道",
+          "titleVn": "Kênh bảo vệ quyền lợi",
+          "words": [
+            {
+              "id": "zh-topic-wagerecovery-laodongjianchadadui",
+              "headword": "劳动监察大队",
+              "reading": "láodòng jiānchá dàduì",
+              "meaningVn": "đội thanh tra lao động",
+              "example": "他们去劳动监察大队投诉了老板。",
+              "exampleVn": "Họ đã đến đội thanh tra lao động tố cáo ông chủ."
+            },
+            {
+              "id": "zh-topic-wagerecovery-tousurexian",
+              "headword": "投诉热线",
+              "reading": "tóusù rèxiàn",
+              "meaningVn": "đường dây nóng khiếu nại",
+              "example": "拨打投诉热线是最快的求助方式。",
+              "exampleVn": "Gọi đường dây nóng khiếu nại là cách cầu cứu nhanh nhất."
+            },
+            {
+              "id": "zh-topic-wagerecovery-mianfeifalvzixun",
+              "headword": "免费法律咨询",
+              "reading": "miǎnfèi fǎlǜ zīxún",
+              "meaningVn": "tư vấn pháp lý miễn phí",
+              "example": "社区提供免费法律咨询帮工人写材料。",
+              "exampleVn": "Khu dân cư cung cấp tư vấn pháp lý miễn phí giúp công nhân soạn hồ sơ."
+            },
+            {
+              "id": "zh-topic-wagerecovery-jititaoxin",
+              "headword": "集体讨薪",
+              "reading": "jítǐ tǎoxīn",
+              "meaningVn": "cùng nhau đòi lương tập thể",
+              "example": "几十名工人选择集体讨薪。",
+              "exampleVn": "Mấy chục công nhân chọn cách cùng nhau đòi lương tập thể."
+            },
+            {
+              "id": "zh-topic-wagerecovery-gongzibaozhengjin",
+              "headword": "工资保证金",
+              "reading": "gōngzī bǎozhèngjīn",
+              "meaningVn": "quỹ bảo đảm tiền lương",
+              "example": "建筑企业必须缴纳工资保证金。",
+              "exampleVn": "Doanh nghiệp xây dựng bắt buộc phải nộp quỹ bảo đảm tiền lương."
+            }
+          ]
+        },
+        {
+          "id": "arbitration-process",
+          "titleNative": "劳动仲裁流程",
+          "titleVn": "Quy trình trọng tài lao động",
+          "words": [
+            {
+              "id": "zh-topic-wagerecovery-laodongzhongcai",
+              "headword": "劳动仲裁",
+              "reading": "láodòng zhòngcái",
+              "meaningVn": "trọng tài lao động",
+              "example": "协商不成,他申请了劳动仲裁。",
+              "exampleVn": "Thương lượng không thành, anh ấy xin trọng tài lao động."
+            },
+            {
+              "id": "zh-topic-wagerecovery-laodonghetongzhengju",
+              "headword": "劳动合同证据",
+              "reading": "láodòng hétong zhèngjù",
+              "meaningVn": "bằng chứng hợp đồng lao động",
+              "example": "没有劳动合同证据,维权会更难。",
+              "exampleVn": "Không có bằng chứng hợp đồng lao động, việc bảo vệ quyền lợi sẽ khó hơn."
+            },
+            {
+              "id": "zh-topic-wagerecovery-zhongcaicaijueshu",
+              "headword": "仲裁裁决书",
+              "reading": "zhòngcái cáijuéshū",
+              "meaningVn": "văn bản phán quyết trọng tài",
+              "example": "仲裁裁决书判定公司必须补发工资。",
+              "exampleVn": "Văn bản phán quyết trọng tài phán quyết công ty phải trả bù lương."
+            },
+            {
+              "id": "zh-topic-wagerecovery-shenqingqiangzhizhixing",
+              "headword": "申请强制执行",
+              "reading": "shēnqǐng qiángzhì zhíxíng",
+              "meaningVn": "xin thi hành cưỡng chế",
+              "example": "公司拒不履行,只能申请强制执行。",
+              "exampleVn": "Công ty từ chối thực hiện, chỉ có thể xin thi hành cưỡng chế."
+            },
+            {
+              "id": "zh-topic-wagerecovery-juzhengzeren",
+              "headword": "举证责任",
+              "reading": "jǔzhèng zérèn",
+              "meaningVn": "trách nhiệm cung cấp bằng chứng",
+              "example": "这类案件的举证责任有时会转移给用人单位。",
+              "exampleVn": "Trách nhiệm cung cấp bằng chứng trong loại vụ việc này đôi khi chuyển sang phía đơn vị sử dụng lao động."
+            }
+          ]
+        },
+        {
+          "id": "policy-guarantee",
+          "titleNative": "政策与保障",
+          "titleVn": "Chính sách & bảo đảm",
+          "words": [
+            {
+              "id": "zh-topic-wagerecovery-shimingzhiguanli",
+              "headword": "实名制管理",
+              "reading": "shímíngzhì guǎnlǐ",
+              "meaningVn": "quản lý theo danh tính thật",
+              "example": "工地全面推行实名制管理。",
+              "exampleVn": "Công trường triển khai toàn diện quản lý theo danh tính thật."
+            },
+            {
+              "id": "zh-topic-wagerecovery-gongzizhuanhu",
+              "headword": "工资专户",
+              "reading": "gōngzī zhuānhù",
+              "meaningVn": "tài khoản riêng để trả lương",
+              "example": "农民工工资必须打入工资专户。",
+              "exampleVn": "Lương của lao động nhập cư bắt buộc phải chuyển vào tài khoản riêng để trả lương."
+            },
+            {
+              "id": "zh-topic-wagerecovery-nongmingonggongziyuefu",
+              "headword": "农民工工资月付",
+              "reading": "nóngmíngōng gōngzī yuèfù",
+              "meaningVn": "trả lương hằng tháng cho lao động nhập cư",
+              "example": "新规定要求农民工工资月付。",
+              "exampleVn": "Quy định mới yêu cầu trả lương hằng tháng cho lao động nhập cư."
+            },
+            {
+              "id": "zh-topic-wagerecovery-heimingdanzhidu",
+              "headword": "黑名单制度",
+              "reading": "hēimíngdān zhìdù",
+              "meaningVn": "chế độ danh sách đen",
+              "example": "恶意欠薪企业会被列入黑名单制度。",
+              "exampleVn": "Doanh nghiệp cố tình nợ lương sẽ bị đưa vào chế độ danh sách đen."
+            },
+            {
+              "id": "zh-topic-wagerecovery-chunjieqianzhuanxiangxingdong",
+              "headword": "春节前专项行动",
+              "reading": "chūnjié qián zhuānxiàng xíngdòng",
+              "meaningVn": "chiến dịch chuyên đề trước Tết",
+              "example": "春节前专项行动帮不少工人拿回了工资。",
+              "exampleVn": "Chiến dịch chuyên đề trước Tết đã giúp không ít công nhân lấy lại được lương."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-topic-pet-funeral-cemetery",
+      "language": "zh",
+      "titleNative": "宠物殡葬与宠物公墓",
+      "titleVn": "Hậu sự cho thú cưng & nghĩa trang thú cưng",
+      "branches": [
+        {
+          "id": "funeral-services",
+          "titleNative": "殡葬服务",
+          "titleVn": "Dịch vụ hậu sự",
+          "words": [
+            {
+              "id": "zh-topic-petfuneral-chongwubinzangfuwu",
+              "headword": "宠物殡葬服务",
+              "reading": "chǒngwù bìnzàng fúwù",
+              "meaningVn": "dịch vụ hậu sự cho thú cưng",
+              "example": "她为陪伴十年的狗预约了宠物殡葬服务。",
+              "exampleVn": "Cô ấy đặt dịch vụ hậu sự cho chú chó đã đồng hành mười năm."
+            },
+            {
+              "id": "zh-topic-petfuneral-chongwuhuohua",
+              "headword": "宠物火化",
+              "reading": "chǒngwù huǒhuà",
+              "meaningVn": "hỏa táng thú cưng",
+              "example": "宠物火化的费用按体重计算。",
+              "exampleVn": "Chi phí hỏa táng thú cưng được tính theo cân nặng."
+            },
+            {
+              "id": "zh-topic-petfuneral-shangmenjieyun",
+              "headword": "上门接运",
+              "reading": "shàngmén jiēyùn",
+              "meaningVn": "đến tận nhà đưa đi",
+              "example": "公司提供上门接运的服务。",
+              "exampleVn": "Công ty cung cấp dịch vụ đến tận nhà đưa đi."
+            },
+            {
+              "id": "zh-topic-petfuneral-danduhuohua",
+              "headword": "单独火化",
+              "reading": "dāndú huǒhuà",
+              "meaningVn": "hỏa táng riêng",
+              "example": "单独火化能拿回专属的骨灰。",
+              "exampleVn": "Hỏa táng riêng thì lấy lại được tro cốt riêng của thú cưng."
+            },
+            {
+              "id": "zh-topic-petfuneral-guhuihedingzhi",
+              "headword": "骨灰盒定制",
+              "reading": "gǔhuīhé dìngzhì",
+              "meaningVn": "đặt làm riêng hũ đựng tro cốt",
+              "example": "她选了骨灰盒定制,刻上了狗狗的名字。",
+              "exampleVn": "Cô ấy chọn đặt làm riêng hũ đựng tro cốt, khắc tên chú chó lên đó."
+            }
+          ]
+        },
+        {
+          "id": "memorial-methods",
+          "titleNative": "纪念方式",
+          "titleVn": "Cách thức tưởng niệm",
+          "words": [
+            {
+              "id": "zh-topic-petfuneral-chongwugongmu",
+              "headword": "宠物公墓",
+              "reading": "chǒngwù gōngmù",
+              "meaningVn": "nghĩa trang thú cưng",
+              "example": "郊区新建了一座宠物公墓。",
+              "exampleVn": "Ngoại ô mới xây một nghĩa trang thú cưng."
+            },
+            {
+              "id": "zh-topic-petfuneral-jinianxiangkuang",
+              "headword": "纪念相框",
+              "reading": "jìniàn xiàngkuàng",
+              "meaningVn": "khung ảnh tưởng niệm",
+              "example": "书桌上摆着一个纪念相框。",
+              "exampleVn": "Trên bàn làm việc bày một khung ảnh tưởng niệm."
+            },
+            {
+              "id": "zh-topic-petfuneral-zhuayinshoumo",
+              "headword": "爪印手模",
+              "reading": "zhuǎyìn shǒumó",
+              "meaningVn": "dấu chân làm kỷ niệm",
+              "example": "店员帮她做了一个爪印手模留念。",
+              "exampleVn": "Nhân viên giúp cô ấy làm một dấu chân kỷ niệm để lưu giữ."
+            },
+            {
+              "id": "zh-topic-petfuneral-chongwuguhuisahai",
+              "headword": "宠物骨灰撒海",
+              "reading": "chǒngwù gǔhuī sǎhǎi",
+              "meaningVn": "rải tro cốt thú cưng xuống biển",
+              "example": "有人选择宠物骨灰撒海,让它自由。",
+              "exampleVn": "Có người chọn rải tro cốt thú cưng xuống biển, để nó được tự do."
+            },
+            {
+              "id": "zh-topic-petfuneral-xianshangjinianguan",
+              "headword": "线上纪念馆",
+              "reading": "xiànshàng jìniànguǎn",
+              "meaningVn": "nhà tưởng niệm trực tuyến",
+              "example": "她给猫开了一个线上纪念馆。",
+              "exampleVn": "Cô ấy mở một nhà tưởng niệm trực tuyến cho con mèo."
+            }
+          ]
+        },
+        {
+          "id": "emotional-processing",
+          "titleNative": "情感处理",
+          "titleVn": "Xử lý cảm xúc",
+          "words": [
+            {
+              "id": "zh-topic-petfuneral-chongwulishi",
+              "headword": "宠物离世",
+              "reading": "chǒngwù líshì",
+              "meaningVn": "thú cưng qua đời",
+              "example": "宠物离世后她一个星期没缓过来。",
+              "exampleVn": "Sau khi thú cưng qua đời, cô ấy mất cả một tuần mới bình tâm lại."
+            },
+            {
+              "id": "zh-topic-petfuneral-beishangqingxu",
+              "headword": "悲伤情绪",
+              "reading": "bēishāng qíngxù",
+              "meaningVn": "cảm xúc đau buồn",
+              "example": "身边朋友很难理解这种悲伤情绪。",
+              "exampleVn": "Bạn bè xung quanh rất khó hiểu được cảm xúc đau buồn này."
+            },
+            {
+              "id": "zh-topic-petfuneral-peibanduonian",
+              "headword": "陪伴多年",
+              "reading": "péibàn duōnián",
+              "meaningVn": "đồng hành nhiều năm",
+              "example": "陪伴多年的猫走了,她像失去了家人。",
+              "exampleVn": "Con mèo đồng hành nhiều năm ra đi, cô ấy như mất đi người thân."
+            },
+            {
+              "id": "zh-topic-petfuneral-zaiyangyizhideyouyu",
+              "headword": "再养一只的犹豫",
+              "reading": "zài yǎng yì zhī de yóuyù",
+              "meaningVn": "sự do dự khi định nuôi con khác",
+              "example": "很多人有再养一只的犹豫,怕再经历一次失去。",
+              "exampleVn": "Nhiều người có sự do dự khi định nuôi con khác, sợ phải trải qua mất mát lần nữa."
+            },
+            {
+              "id": "zh-topic-petfuneral-chongwuxinlishudao",
+              "headword": "宠物心理疏导",
+              "reading": "chǒngwù xīnlǐ shūdǎo",
+              "meaningVn": "hỗ trợ tâm lý sau khi mất thú cưng",
+              "example": "有机构专门提供宠物心理疏导服务。",
+              "exampleVn": "Có tổ chức chuyên cung cấp dịch vụ hỗ trợ tâm lý sau khi mất thú cưng."
+            }
+          ]
+        },
+        {
+          "id": "industry-problems",
+          "titleNative": "行业乱象",
+          "titleVn": "Vấn đề của ngành",
+          "words": [
+            {
+              "id": "zh-topic-petfuneral-wuzhengjingying",
+              "headword": "无证经营",
+              "reading": "wúzhèng jīngyíng",
+              "meaningVn": "kinh doanh không giấy phép",
+              "example": "不少宠物殡葬商家属于无证经营。",
+              "exampleVn": "Không ít cửa hàng dịch vụ hậu sự thú cưng thuộc diện kinh doanh không giấy phép."
+            },
+            {
+              "id": "zh-topic-petfuneral-jiagebutouming",
+              "headword": "价格不透明",
+              "reading": "jiàgé bù tòumíng",
+              "meaningVn": "giá cả không minh bạch",
+              "example": "这个行业价格不透明,乱收费很常见。",
+              "exampleVn": "Ngành này giá cả không minh bạch, thu phí lung tung rất thường gặp."
+            },
+            {
+              "id": "zh-topic-petfuneral-suiyidiuqi",
+              "headword": "随意丢弃",
+              "reading": "suíyì diūqì",
+              "meaningVn": "vứt bỏ tùy tiện",
+              "example": "有黑心商家把遗体随意丢弃。",
+              "exampleVn": "Có cửa hàng vô lương tâm vứt bỏ thi thể tùy tiện."
+            },
+            {
+              "id": "zh-topic-petfuneral-hangyebiaozhunqueshi",
+              "headword": "行业标准缺失",
+              "reading": "hángyè biāozhǔn quēshī",
+              "meaningVn": "thiếu tiêu chuẩn ngành",
+              "example": "行业标准缺失让消费者很难辨别真假。",
+              "exampleVn": "Thiếu tiêu chuẩn ngành khiến người tiêu dùng rất khó phân biệt thật giả."
+            },
+            {
+              "id": "zh-topic-petfuneral-xuanzezhengguijigou",
+              "headword": "选择正规机构",
+              "reading": "xuǎnzé zhèngguī jīgòu",
+              "meaningVn": "chọn cơ sở chính quy",
+              "example": "专家建议一定要选择正规机构。",
+              "exampleVn": "Chuyên gia khuyên nhất định phải chọn cơ sở chính quy."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-topic-teen-mental-health-counseling",
+      "language": "zh",
+      "titleNative": "青少年心理咨询与情绪辅导",
+      "titleVn": "Tư vấn tâm lý & hỗ trợ cảm xúc cho thanh thiếu niên",
+      "branches": [
+        {
+          "id": "common-issues",
+          "titleNative": "常见问题",
+          "titleVn": "Vấn đề thường gặp",
+          "words": [
+            {
+              "id": "zh-topic-teenmind-qingshaonianyiyu",
+              "headword": "青少年抑郁",
+              "reading": "qīngshàonián yìyù",
+              "meaningVn": "trầm cảm ở thanh thiếu niên",
+              "example": "青少年抑郁的比例这几年在上升。",
+              "exampleVn": "Tỉ lệ trầm cảm ở thanh thiếu niên mấy năm nay đang tăng."
+            },
+            {
+              "id": "zh-topic-teenmind-jiaolvqingxu",
+              "headword": "焦虑情绪",
+              "reading": "jiāolǜ qíngxù",
+              "meaningVn": "cảm xúc lo âu",
+              "example": "考试前她的焦虑情绪特别明显。",
+              "exampleVn": "Trước kỳ thi cảm xúc lo âu của cô bé đặc biệt rõ."
+            },
+            {
+              "id": "zh-topic-teenmind-xuexijuandai",
+              "headword": "学习倦怠",
+              "reading": "xuéxí juàndài",
+              "meaningVn": "kiệt sức trong học tập",
+              "example": "长期高压导致他出现学习倦怠。",
+              "exampleVn": "Áp lực cao kéo dài khiến cậu ấy kiệt sức trong học tập."
+            },
+            {
+              "id": "zh-topic-teenmind-tongbanguanxiyali",
+              "headword": "同伴关系压力",
+              "reading": "tóngbàn guānxì yālì",
+              "meaningVn": "áp lực từ mối quan hệ bạn bè",
+              "example": "同伴关系压力有时比考试压力更大。",
+              "exampleVn": "Áp lực từ mối quan hệ bạn bè đôi khi còn lớn hơn áp lực thi cử."
+            },
+            {
+              "id": "zh-topic-teenmind-wangluochengyinqingxiang",
+              "headword": "网络成瘾倾向",
+              "reading": "wǎngluò chéngyǐn qīngxiàng",
+              "meaningVn": "xu hướng nghiện mạng",
+              "example": "家长发现孩子有网络成瘾倾向。",
+              "exampleVn": "Phụ huynh phát hiện con có xu hướng nghiện mạng."
+            }
+          ]
+        },
+        {
+          "id": "counseling-channels",
+          "titleNative": "咨询渠道",
+          "titleVn": "Kênh tư vấn",
+          "words": [
+            {
+              "id": "zh-topic-teenmind-xuexiaoxinlizixunshi",
+              "headword": "学校心理咨询室",
+              "reading": "xuéxiào xīnlǐ zīxúnshì",
+              "meaningVn": "phòng tư vấn tâm lý trường học",
+              "example": "她主动去了学校心理咨询室聊了聊。",
+              "exampleVn": "Cô bé chủ động đến phòng tư vấn tâm lý trường học nói chuyện."
+            },
+            {
+              "id": "zh-topic-teenmind-zhuanzhixinlilaoshi",
+              "headword": "专职心理老师",
+              "reading": "zhuānzhí xīnlǐ lǎoshī",
+              "meaningVn": "giáo viên tâm lý chuyên trách",
+              "example": "学校新聘了一位专职心理老师。",
+              "exampleVn": "Trường vừa tuyển thêm một giáo viên tâm lý chuyên trách."
+            },
+            {
+              "id": "zh-topic-teenmind-xinlirexian",
+              "headword": "心理热线",
+              "reading": "xīnlǐ rèxiàn",
+              "meaningVn": "đường dây nóng tâm lý",
+              "example": "深夜睡不着,他拨通了心理热线。",
+              "exampleVn": "Đêm khuya không ngủ được, cậu ấy gọi đường dây nóng tâm lý."
+            },
+            {
+              "id": "zh-topic-teenmind-jiazhangketang",
+              "headword": "家长课堂",
+              "reading": "jiāzhǎng kètáng",
+              "meaningVn": "lớp học dành cho phụ huynh",
+              "example": "学校开设了家长课堂讲情绪教育。",
+              "exampleVn": "Trường mở lớp học dành cho phụ huynh giảng về giáo dục cảm xúc."
+            },
+            {
+              "id": "zh-topic-teenmind-nimingqingsuxinxiang",
+              "headword": "匿名倾诉信箱",
+              "reading": "nìmíng qīngsù xìnxiāng",
+              "meaningVn": "hòm thư giãi bày ẩn danh",
+              "example": "走廊里放着一个匿名倾诉信箱。",
+              "exampleVn": "Ở hành lang đặt một hòm thư giãi bày ẩn danh."
+            }
+          ]
+        },
+        {
+          "id": "intervention-methods",
+          "titleNative": "干预方式",
+          "titleVn": "Phương thức can thiệp",
+          "words": [
+            {
+              "id": "zh-topic-teenmind-qingxufudao",
+              "headword": "情绪辅导",
+              "reading": "qíngxù fǔdǎo",
+              "meaningVn": "hỗ trợ điều chỉnh cảm xúc",
+              "example": "老师给情绪激动的学生做了情绪辅导。",
+              "exampleVn": "Giáo viên đã hỗ trợ điều chỉnh cảm xúc cho học sinh đang kích động."
+            },
+            {
+              "id": "zh-topic-teenmind-xinlijiankangpucha",
+              "headword": "心理健康普查",
+              "reading": "xīnlǐ jiànkāng pǔchá",
+              "meaningVn": "khảo sát sức khỏe tâm lý toàn diện",
+              "example": "学校每学期都做一次心理健康普查。",
+              "exampleVn": "Trường mỗi học kỳ đều làm một lần khảo sát sức khỏe tâm lý toàn diện."
+            },
+            {
+              "id": "zh-topic-teenmind-weijiganyu",
+              "headword": "危机干预",
+              "reading": "wēijī gānyù",
+              "meaningVn": "can thiệp khủng hoảng",
+              "example": "发现苗头不对,老师立刻启动危机干预。",
+              "exampleVn": "Phát hiện dấu hiệu bất ổn, giáo viên lập tức khởi động can thiệp khủng hoảng."
+            },
+            {
+              "id": "zh-topic-teenmind-jiaxiaoliandong",
+              "headword": "家校联动",
+              "reading": "jiāxiào liándòng",
+              "meaningVn": "phối hợp giữa gia đình và nhà trường",
+              "example": "这类问题离不开家校联动。",
+              "exampleVn": "Loại vấn đề này không thể thiếu sự phối hợp giữa gia đình và nhà trường."
+            },
+            {
+              "id": "zh-topic-teenmind-zhuanjiezhuanyejigou",
+              "headword": "转介专业机构",
+              "reading": "zhuǎnjiè zhuānyè jīgòu",
+              "meaningVn": "chuyển đến cơ sở chuyên khoa",
+              "example": "情况严重的会被转介专业机构。",
+              "exampleVn": "Trường hợp nghiêm trọng sẽ được chuyển đến cơ sở chuyên khoa."
+            }
+          ]
+        },
+        {
+          "id": "social-perception",
+          "titleNative": "社会认知",
+          "titleVn": "Nhận thức xã hội",
+          "words": [
+            {
+              "id": "zh-topic-teenmind-bingchigan",
+              "headword": "病耻感",
+              "reading": "bìngchǐgǎn",
+              "meaningVn": "cảm giác xấu hổ vì bệnh tật",
+              "example": "很多孩子因为病耻感不敢求助。",
+              "exampleVn": "Nhiều em vì cảm giác xấu hổ mà không dám tìm sự giúp đỡ."
+            },
+            {
+              "id": "zh-topic-teenmind-jiazhangguannianzhuanbian",
+              "headword": "家长观念转变",
+              "reading": "jiāzhǎng guānniàn zhuǎnbiàn",
+              "meaningVn": "sự thay đổi trong quan niệm của phụ huynh",
+              "example": "这几年家长观念转变了不少。",
+              "exampleVn": "Mấy năm nay quan niệm của phụ huynh đã thay đổi khá nhiều."
+            },
+            {
+              "id": "zh-topic-teenmind-xinlijiankangkecheng",
+              "headword": "心理健康课程",
+              "reading": "xīnlǐ jiànkāng kèchéng",
+              "meaningVn": "môn học sức khỏe tâm lý",
+              "example": "有些学校已经开设心理健康课程。",
+              "exampleVn": "Một số trường đã mở môn học sức khỏe tâm lý."
+            },
+            {
+              "id": "zh-topic-teenmind-tongbanzhichixiaozu",
+              "headword": "同伴支持小组",
+              "reading": "tóngbàn zhīchí xiǎozǔ",
+              "meaningVn": "nhóm hỗ trợ đồng trang lứa",
+              "example": "学校组织了同伴支持小组互相倾听。",
+              "exampleVn": "Trường tổ chức nhóm hỗ trợ đồng trang lứa để lắng nghe nhau."
+            },
+            {
+              "id": "zh-topic-teenmind-zaofaxianzaoganyu",
+              "headword": "早发现早干预",
+              "reading": "zǎofāxiàn zǎogānyù",
+              "meaningVn": "phát hiện sớm, can thiệp sớm",
+              "example": "专家一直强调早发现早干预的重要性。",
+              "exampleVn": "Chuyên gia luôn nhấn mạnh tầm quan trọng của việc phát hiện sớm, can thiệp sớm."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-topic-secondhand-electronics-trade-in",
+      "language": "zh",
+      "titleNative": "二手数码回收与以旧换新",
+      "titleVn": "Thu hồi đồ điện tử cũ & đổi cũ lấy mới",
+      "branches": [
+        {
+          "id": "recycling-methods",
+          "titleNative": "回收方式",
+          "titleVn": "Hình thức thu hồi",
+          "words": [
+            {
+              "id": "zh-topic-digitalrecycle-shumayijiuhuanxinhuodong",
+              "headword": "数码以旧换新活动",
+              "reading": "shùmǎ yǐjiù huànxīn huódòng",
+              "meaningVn": "chương trình đổi cũ lấy mới đồ số",
+              "example": "手机店经常搞数码以旧换新活动。",
+              "exampleVn": "Cửa hàng điện thoại thường xuyên tổ chức chương trình đổi cũ lấy mới đồ số."
+            },
+            {
+              "id": "zh-topic-digitalrecycle-yuyueshangmenqujian",
+              "headword": "预约上门取件",
+              "reading": "yùyuē shàngmén qǔjiàn",
+              "meaningVn": "đặt lịch đến tận nhà lấy đồ",
+              "example": "不想出门,她选了预约上门取件。",
+              "exampleVn": "Không muốn ra ngoài, cô ấy chọn đặt lịch đến tận nhà lấy đồ."
+            },
+            {
+              "id": "zh-topic-digitalrecycle-mendianhuishou",
+              "headword": "门店回收",
+              "reading": "méndiàn huíshōu",
+              "meaningVn": "thu hồi tại cửa hàng",
+              "example": "门店回收当场就能拿到钱。",
+              "exampleVn": "Thu hồi tại cửa hàng thì nhận tiền ngay tại chỗ."
+            },
+            {
+              "id": "zh-topic-digitalrecycle-xianshanggujia",
+              "headword": "线上估价",
+              "reading": "xiànshàng gūjià",
+              "meaningVn": "định giá trực tuyến",
+              "example": "线上估价只要拍几张照片。",
+              "exampleVn": "Định giá trực tuyến chỉ cần chụp mấy tấm ảnh."
+            },
+            {
+              "id": "zh-topic-digitalrecycle-yiwuhuanwupingtai",
+              "headword": "以物换物平台",
+              "reading": "yǐwù huànwù píngtái",
+              "meaningVn": "nền tảng đổi đồ lấy đồ",
+              "example": "他在以物换物平台上换了个新耳机。",
+              "exampleVn": "Anh ấy đổi được cái tai nghe mới trên nền tảng đổi đồ lấy đồ."
+            }
+          ]
+        },
+        {
+          "id": "valuation-assessment",
+          "titleNative": "估价评估",
+          "titleVn": "Định giá & đánh giá",
+          "words": [
+            {
+              "id": "zh-topic-digitalrecycle-chengsepinggu",
+              "headword": "成色评估",
+              "reading": "chéngsè pínggū",
+              "meaningVn": "đánh giá tình trạng ngoại hình",
+              "example": "手机的成色评估决定最终回收价。",
+              "exampleVn": "Đánh giá tình trạng ngoại hình của điện thoại quyết định giá thu hồi cuối cùng."
+            },
+            {
+              "id": "zh-topic-digitalrecycle-jiancebaogao",
+              "headword": "检测报告",
+              "reading": "jiǎncè bàogào",
+              "meaningVn": "báo cáo kiểm định",
+              "example": "平台会出一份详细的检测报告。",
+              "exampleVn": "Nền tảng sẽ đưa ra một báo cáo kiểm định chi tiết."
+            },
+            {
+              "id": "zh-topic-digitalrecycle-dianchijiankangdu",
+              "headword": "电池健康度",
+              "reading": "diànchí jiànkāngdù",
+              "meaningVn": "độ khỏe của pin",
+              "example": "电池健康度低于八成会影响价格。",
+              "exampleVn": "Độ khỏe của pin dưới tám mươi phần trăm sẽ ảnh hưởng đến giá."
+            },
+            {
+              "id": "zh-topic-digitalrecycle-gongnengjiance",
+              "headword": "功能检测",
+              "reading": "gōngnéng jiǎncè",
+              "meaningVn": "kiểm tra chức năng",
+              "example": "功能检测包括屏幕、摄像头和按键。",
+              "exampleVn": "Kiểm tra chức năng bao gồm màn hình, camera và các nút bấm."
+            },
+            {
+              "id": "zh-topic-digitalrecycle-bianzhisudu",
+              "headword": "贬值速度",
+              "reading": "biǎnzhí sùdù",
+              "meaningVn": "tốc độ mất giá",
+              "example": "新手机第一年的贬值速度最快。",
+              "exampleVn": "Tốc độ mất giá của điện thoại mới nhanh nhất trong năm đầu tiên."
+            }
+          ]
+        },
+        {
+          "id": "data-security",
+          "titleNative": "数据安全",
+          "titleVn": "An toàn dữ liệu",
+          "words": [
+            {
+              "id": "zh-topic-digitalrecycle-yinsishujuqingchu",
+              "headword": "隐私数据清除",
+              "reading": "yǐnsī shùjù qīngchú",
+              "meaningVn": "xóa dữ liệu riêng tư",
+              "example": "卖手机前一定要做隐私数据清除。",
+              "exampleVn": "Trước khi bán điện thoại nhất định phải xóa dữ liệu riêng tư."
+            },
+            {
+              "id": "zh-topic-digitalrecycle-huifuchuchangshezhi",
+              "headword": "恢复出厂设置",
+              "reading": "huīfù chūchǎng shèzhì",
+              "meaningVn": "khôi phục cài đặt gốc",
+              "example": "恢复出厂设置只是第一步,还不够彻底。",
+              "exampleVn": "Khôi phục cài đặt gốc chỉ là bước đầu, vẫn chưa triệt để."
+            },
+            {
+              "id": "zh-topic-digitalrecycle-gerenxinxixielouyinhuan",
+              "headword": "个人信息泄露隐患",
+              "reading": "gèrén xìnxī xièlòu yǐnhuàn",
+              "meaningVn": "nguy cơ tiềm ẩn rò rỉ thông tin cá nhân",
+              "example": "处理不当会有个人信息泄露隐患。",
+              "exampleVn": "Xử lý không đúng cách sẽ có nguy cơ tiềm ẩn rò rỉ thông tin cá nhân."
+            },
+            {
+              "id": "zh-topic-digitalrecycle-zhanghaojiebang",
+              "headword": "账号解绑",
+              "reading": "zhànghào jiěbǎng",
+              "meaningVn": "hủy liên kết tài khoản",
+              "example": "卖之前记得先账号解绑。",
+              "exampleVn": "Trước khi bán nhớ hủy liên kết tài khoản trước."
+            },
+            {
+              "id": "zh-topic-digitalrecycle-yingjianxiaohuifuwu",
+              "headword": "硬件销毁服务",
+              "reading": "yìngjiàn xiāohuǐ fúwù",
+              "meaningVn": "dịch vụ tiêu hủy phần cứng",
+              "example": "涉密单位一般用硬件销毁服务处理旧设备。",
+              "exampleVn": "Đơn vị liên quan đến bí mật thường dùng dịch vụ tiêu hủy phần cứng để xử lý thiết bị cũ."
+            }
+          ]
+        },
+        {
+          "id": "circular-economy",
+          "titleNative": "循环经济",
+          "titleVn": "Kinh tế tuần hoàn",
+          "words": [
+            {
+              "id": "zh-topic-digitalrecycle-fanxinji",
+              "headword": "翻新机",
+              "reading": "fānxīnjī",
+              "meaningVn": "máy tân trang",
+              "example": "市面上有些翻新机冒充全新机卖。",
+              "exampleVn": "Trên thị trường có máy tân trang giả làm máy mới để bán."
+            },
+            {
+              "id": "zh-topic-digitalrecycle-chaijieliyong",
+              "headword": "拆解利用",
+              "reading": "chāijiě lìyòng",
+              "meaningVn": "tháo rời để tái sử dụng",
+              "example": "旧手机可以拆解利用提取贵金属。",
+              "exampleVn": "Điện thoại cũ có thể tháo rời để tái sử dụng, chiết xuất kim loại quý."
+            },
+            {
+              "id": "zh-topic-digitalrecycle-dianzilaji",
+              "headword": "电子垃圾",
+              "reading": "diànzǐ lājī",
+              "meaningVn": "rác thải điện tử",
+              "example": "随意丢弃会造成严重的电子垃圾污染。",
+              "exampleVn": "Vứt bỏ tùy tiện sẽ gây ô nhiễm rác thải điện tử nghiêm trọng."
+            },
+            {
+              "id": "zh-topic-digitalrecycle-lvsexiaofeilinian",
+              "headword": "绿色消费理念",
+              "reading": "lǜsè xiāofèi lǐniàn",
+              "meaningVn": "quan niệm tiêu dùng xanh",
+              "example": "以旧换新也是一种绿色消费理念的体现。",
+              "exampleVn": "Đổi cũ lấy mới cũng là một biểu hiện của quan niệm tiêu dùng xanh."
+            },
+            {
+              "id": "zh-topic-digitalrecycle-huishoushangzizhi",
+              "headword": "回收商资质",
+              "reading": "huíshōushāng zīzhì",
+              "meaningVn": "tư cách pháp nhân của đơn vị thu hồi",
+              "example": "选回收平台要看回收商资质。",
+              "exampleVn": "Chọn nền tảng thu hồi phải xem tư cách pháp nhân của đơn vị thu hồi."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-topic-child-height-growth-hormone",
+      "language": "zh",
+      "titleNative": "儿童身高管理与生长激素",
+      "titleVn": "Quản lý chiều cao & hormone tăng trưởng ở trẻ em",
+      "branches": [
+        {
+          "id": "height-monitoring",
+          "titleNative": "身高监测",
+          "titleVn": "Theo dõi chiều cao",
+          "words": [
+            {
+              "id": "zh-topic-childheight-shengaoguanli",
+              "headword": "身高管理",
+              "reading": "shēngāo guǎnlǐ",
+              "meaningVn": "quản lý chiều cao",
+              "example": "越来越多家长开始重视身高管理。",
+              "exampleVn": "Ngày càng nhiều phụ huynh bắt đầu coi trọng quản lý chiều cao."
+            },
+            {
+              "id": "zh-topic-childheight-shengzhangquxian",
+              "headword": "生长曲线",
+              "reading": "shēngzhǎng qūxiàn",
+              "meaningVn": "biểu đồ tăng trưởng",
+              "example": "医生根据生长曲线判断孩子发育是否正常。",
+              "exampleVn": "Bác sĩ dựa vào biểu đồ tăng trưởng để phán đoán sự phát triển của trẻ có bình thường hay không."
+            },
+            {
+              "id": "zh-topic-childheight-gulingjiance",
+              "headword": "骨龄检测",
+              "reading": "gǔlíng jiǎncè",
+              "meaningVn": "kiểm tra tuổi xương",
+              "example": "医院建议每年做一次骨龄检测。",
+              "exampleVn": "Bệnh viện khuyến nghị mỗi năm kiểm tra tuổi xương một lần."
+            },
+            {
+              "id": "zh-topic-childheight-yucechengnianshengao",
+              "headword": "预测成年身高",
+              "reading": "yùcè chéngnián shēngāo",
+              "meaningVn": "dự đoán chiều cao khi trưởng thành",
+              "example": "根据骨龄可以预测成年身高。",
+              "exampleVn": "Dựa vào tuổi xương có thể dự đoán chiều cao khi trưởng thành."
+            },
+            {
+              "id": "zh-topic-childheight-dingqitijian",
+              "headword": "定期体检",
+              "reading": "dìngqī tǐjiǎn",
+              "meaningVn": "khám sức khỏe định kỳ",
+              "example": "定期体检能及时发现生长问题。",
+              "exampleVn": "Khám sức khỏe định kỳ có thể phát hiện kịp thời vấn đề tăng trưởng."
+            }
+          ]
+        },
+        {
+          "id": "medical-intervention",
+          "titleNative": "医学干预",
+          "titleVn": "Can thiệp y tế",
+          "words": [
+            {
+              "id": "zh-topic-childheight-shengzhangjisu",
+              "headword": "生长激素",
+              "reading": "shēngzhǎng jīsù",
+              "meaningVn": "hormone tăng trưởng",
+              "example": "医生评估后才能决定是否打生长激素。",
+              "exampleVn": "Bác sĩ đánh giá xong mới quyết định có nên tiêm hormone tăng trưởng hay không."
+            },
+            {
+              "id": "zh-topic-childheight-erkeneifenmike",
+              "headword": "儿科内分泌科",
+              "reading": "érkē nèifēnmìkē",
+              "meaningVn": "khoa nội tiết nhi",
+              "example": "身高问题一般要挂儿科内分泌科的号。",
+              "exampleVn": "Vấn đề chiều cao thường phải đăng ký khám ở khoa nội tiết nhi."
+            },
+            {
+              "id": "zh-topic-childheight-aixiaozheng",
+              "headword": "矮小症",
+              "reading": "ǎixiǎozhèng",
+              "meaningVn": "chứng lùn",
+              "example": "确诊矮小症后要及早干预。",
+              "exampleVn": "Sau khi chẩn đoán chứng lùn phải can thiệp sớm."
+            },
+            {
+              "id": "zh-topic-childheight-xingzaoshu",
+              "headword": "性早熟",
+              "reading": "xìngzǎoshú",
+              "meaningVn": "dậy thì sớm",
+              "example": "性早熟可能会影响最终身高。",
+              "exampleVn": "Dậy thì sớm có thể ảnh hưởng đến chiều cao cuối cùng."
+            },
+            {
+              "id": "zh-topic-childheight-jisuzhusheliaocheng",
+              "headword": "激素注射疗程",
+              "reading": "jīsù zhùshè liáochéng",
+              "meaningVn": "liệu trình tiêm hormone",
+              "example": "激素注射疗程通常要持续好几年。",
+              "exampleVn": "Liệu trình tiêm hormone thường phải kéo dài mấy năm."
+            }
+          ]
+        },
+        {
+          "id": "parent-anxiety",
+          "titleNative": "家长焦虑",
+          "titleVn": "Nỗi lo của phụ huynh",
+          "words": [
+            {
+              "id": "zh-topic-childheight-shengaojiaolv",
+              "headword": "身高焦虑",
+              "reading": "shēngāo jiāolǜ",
+              "meaningVn": "lo âu về chiều cao",
+              "example": "不少家长有很深的身高焦虑。",
+              "exampleVn": "Không ít phụ huynh có nỗi lo âu về chiều cao rất sâu sắc."
+            },
+            {
+              "id": "zh-topic-childheight-tonglingduibi",
+              "headword": "同龄对比",
+              "reading": "tónglíng duìbǐ",
+              "meaningVn": "so sánh với bạn cùng lứa",
+              "example": "家长忍不住做同龄对比。",
+              "exampleVn": "Phụ huynh không kìm được việc so sánh với bạn cùng lứa."
+            },
+            {
+              "id": "zh-topic-childheight-genfengdazhen",
+              "headword": "跟风打针",
+              "reading": "gēnfēng dǎzhēn",
+              "meaningVn": "chích thuốc theo trào lưu",
+              "example": "专家提醒不要盲目跟风打针。",
+              "exampleVn": "Chuyên gia nhắc nhở đừng mù quáng chích thuốc theo trào lưu."
+            },
+            {
+              "id": "zh-topic-childheight-feiyonggaoang",
+              "headword": "费用高昂",
+              "reading": "fèiyòng gāo'áng",
+              "meaningVn": "chi phí đắt đỏ",
+              "example": "一个疗程下来费用高昂,压力不小。",
+              "exampleVn": "Một liệu trình xong chi phí đắt đỏ, áp lực không nhỏ."
+            },
+            {
+              "id": "zh-topic-childheight-mangmubugai",
+              "headword": "盲目补钙",
+              "reading": "mángmù bǔgài",
+              "meaningVn": "bổ sung canxi mù quáng",
+              "example": "盲目补钙不一定能帮孩子长高。",
+              "exampleVn": "Bổ sung canxi mù quáng chưa chắc giúp trẻ cao lên."
+            }
+          ]
+        },
+        {
+          "id": "natural-growth-methods",
+          "titleNative": "自然增高方式",
+          "titleVn": "Cách tăng chiều cao tự nhiên",
+          "words": [
+            {
+              "id": "zh-topic-childheight-yingyangdapei",
+              "headword": "营养搭配",
+              "reading": "yíngyǎng dāpèi",
+              "meaningVn": "kết hợp dinh dưỡng",
+              "example": "医生建议注意营养搭配,不要偏食。",
+              "exampleVn": "Bác sĩ khuyên chú ý kết hợp dinh dưỡng, đừng kén ăn."
+            },
+            {
+              "id": "zh-topic-childheight-chongzushuimian",
+              "headword": "充足睡眠",
+              "reading": "chōngzú shuìmián",
+              "meaningVn": "ngủ đủ giấc",
+              "example": "生长激素在充足睡眠时分泌最多。",
+              "exampleVn": "Hormone tăng trưởng tiết ra nhiều nhất khi ngủ đủ giấc."
+            },
+            {
+              "id": "zh-topic-childheight-tiaoshengyundong",
+              "headword": "跳绳运动",
+              "reading": "tiàoshéng yùndòng",
+              "meaningVn": "nhảy dây",
+              "example": "跳绳运动被认为有助于长高。",
+              "exampleVn": "Nhảy dây được cho là có ích cho việc phát triển chiều cao."
+            },
+            {
+              "id": "zh-topic-childheight-lashenxunlian",
+              "headword": "拉伸训练",
+              "reading": "lāshēn xùnliàn",
+              "meaningVn": "bài tập kéo giãn",
+              "example": "睡前做一些拉伸训练也有帮助。",
+              "exampleVn": "Trước khi ngủ làm vài bài tập kéo giãn cũng có ích."
+            },
+            {
+              "id": "zh-topic-childheight-shengzhangfayuguanjianqi",
+              "headword": "生长发育关键期",
+              "reading": "shēngzhǎng fāyù guānjiànqī",
+              "meaningVn": "giai đoạn then chốt của phát triển",
+              "example": "青春期是生长发育关键期。",
+              "exampleVn": "Tuổi dậy thì là giai đoạn then chốt của phát triển."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-topic-postpartum-pelvic-floor-recovery",
+      "language": "zh",
+      "titleNative": "产后康复与盆底肌修复",
+      "titleVn": "Phục hồi sau sinh & phục hồi sàn chậu",
+      "branches": [
+        {
+          "id": "body-assessment",
+          "titleNative": "身体评估",
+          "titleVn": "Đánh giá cơ thể",
+          "words": [
+            {
+              "id": "zh-topic-postpartumrecover-chanhoufucha",
+              "headword": "产后复查",
+              "reading": "chǎnhòu fùchá",
+              "meaningVn": "tái khám sau sinh",
+              "example": "生完孩子六周要做产后复查。",
+              "exampleVn": "Sinh con xong sáu tuần phải đi tái khám sau sinh."
+            },
+            {
+              "id": "zh-topic-postpartumrecover-pendijipinggu",
+              "headword": "盆底肌评估",
+              "reading": "péndǐjī pínggū",
+              "meaningVn": "đánh giá sàn chậu",
+              "example": "医生先做了一次盆底肌评估。",
+              "exampleVn": "Bác sĩ trước tiên làm một lần đánh giá sàn chậu."
+            },
+            {
+              "id": "zh-topic-postpartumrecover-fuzhijifenlijiance",
+              "headword": "腹直肌分离检测",
+              "reading": "fùzhíjī fēnlí jiǎncè",
+              "meaningVn": "kiểm tra tách cơ bụng thẳng",
+              "example": "腹直肌分离检测显示分离了两指宽。",
+              "exampleVn": "Kiểm tra tách cơ bụng thẳng cho thấy tách rộng hai ngón tay."
+            },
+            {
+              "id": "zh-topic-postpartumrecover-titaipinggu",
+              "headword": "体态评估",
+              "reading": "tǐtài pínggū",
+              "meaningVn": "đánh giá tư thế cơ thể",
+              "example": "康复师先做体态评估再定方案。",
+              "exampleVn": "Chuyên viên phục hồi trước tiên đánh giá tư thế cơ thể rồi mới định phương án."
+            },
+            {
+              "id": "zh-topic-postpartumrecover-eluguancha",
+              "headword": "恶露观察",
+              "reading": "èlù guānchá",
+              "meaningVn": "theo dõi sản dịch",
+              "example": "护士教她怎么做恶露观察。",
+              "exampleVn": "Y tá dạy cô ấy cách theo dõi sản dịch."
+            }
+          ]
+        },
+        {
+          "id": "recovery-training",
+          "titleNative": "康复训练",
+          "titleVn": "Bài tập phục hồi",
+          "words": [
+            {
+              "id": "zh-topic-postpartumrecover-pendijixiufu",
+              "headword": "盆底肌修复",
+              "reading": "péndǐjī xiūfù",
+              "meaningVn": "phục hồi sàn chậu",
+              "example": "盆底肌修复要坚持训练三个月以上。",
+              "exampleVn": "Phục hồi sàn chậu phải kiên trì tập luyện trên ba tháng."
+            },
+            {
+              "id": "zh-topic-postpartumrecover-kaigeeryundong",
+              "headword": "凯格尔运动",
+              "reading": "kǎigé'ěr yùndòng",
+              "meaningVn": "bài tập Kegel",
+              "example": "医生教她每天做凯格尔运动。",
+              "exampleVn": "Bác sĩ dạy cô ấy mỗi ngày làm bài tập Kegel."
+            },
+            {
+              "id": "zh-topic-postpartumrecover-fuzhijixiufuxunlian",
+              "headword": "腹直肌修复训练",
+              "reading": "fùzhíjī xiūfù xùnliàn",
+              "meaningVn": "bài tập phục hồi cơ bụng thẳng",
+              "example": "她每天坚持做腹直肌修复训练。",
+              "exampleVn": "Cô ấy mỗi ngày kiên trì làm bài tập phục hồi cơ bụng thẳng."
+            },
+            {
+              "id": "zh-topic-postpartumrecover-chanhouyujia",
+              "headword": "产后瑜伽",
+              "reading": "chǎnhòu yújiā",
+              "meaningVn": "yoga sau sinh",
+              "example": "产后瑜伽课一周开两次。",
+              "exampleVn": "Lớp yoga sau sinh mở hai buổi một tuần."
+            },
+            {
+              "id": "zh-topic-postpartumrecover-diancijiyiqi",
+              "headword": "电刺激仪器",
+              "reading": "diàncìjī yíqì",
+              "meaningVn": "máy kích thích điện",
+              "example": "电刺激仪器能帮助肌肉恢复力量。",
+              "exampleVn": "Máy kích thích điện có thể giúp cơ phục hồi sức mạnh."
+            }
+          ]
+        },
+        {
+          "id": "recovery-centers",
+          "titleNative": "产康机构",
+          "titleVn": "Cơ sở phục hồi sau sinh",
+          "words": [
+            {
+              "id": "zh-topic-postpartumrecover-chanhoukangfuzhongxin",
+              "headword": "产后康复中心",
+              "reading": "chǎnhòu kāngfù zhōngxīn",
+              "meaningVn": "trung tâm phục hồi sau sinh",
+              "example": "小区附近新开了一家产后康复中心。",
+              "exampleVn": "Gần khu dân cư mới mở một trung tâm phục hồi sau sinh."
+            },
+            {
+              "id": "zh-topic-postpartumrecover-chankangshi",
+              "headword": "产康师",
+              "reading": "chǎnkāngshī",
+              "meaningVn": "chuyên viên phục hồi sau sinh",
+              "example": "产康师手法很专业。",
+              "exampleVn": "Tay nghề của chuyên viên phục hồi sau sinh rất chuyên nghiệp."
+            },
+            {
+              "id": "zh-topic-postpartumrecover-yiduiyiliaocheng",
+              "headword": "一对一疗程",
+              "reading": "yīduìyī liáochéng",
+              "meaningVn": "liệu trình một kèm một",
+              "example": "她选了一对一疗程,效果更明显。",
+              "exampleVn": "Cô ấy chọn liệu trình một kèm một, hiệu quả rõ rệt hơn."
+            },
+            {
+              "id": "zh-topic-postpartumrecover-taocanjiage",
+              "headword": "套餐价格",
+              "reading": "tàocān jiàgé",
+              "meaningVn": "giá gói dịch vụ",
+              "example": "不同套餐价格差别很大。",
+              "exampleVn": "Giá gói dịch vụ khác nhau chênh lệch rất lớn."
+            },
+            {
+              "id": "zh-topic-postpartumrecover-yuyuepaidui",
+              "headword": "预约排队",
+              "reading": "yùyuē páiduì",
+              "meaningVn": "đặt lịch xếp hàng chờ",
+              "example": "热门时段要提前预约排队。",
+              "exampleVn": "Khung giờ đông khách phải đặt lịch xếp hàng chờ trước."
+            }
+          ]
+        },
+        {
+          "id": "common-troubles",
+          "titleNative": "常见困扰",
+          "titleVn": "Rắc rối thường gặp",
+          "words": [
+            {
+              "id": "zh-topic-postpartumrecover-louniao",
+              "headword": "漏尿",
+              "reading": "lòuniào",
+              "meaningVn": "rò rỉ nước tiểu",
+              "example": "打喷嚏时漏尿让她很尴尬。",
+              "exampleVn": "Hắt hơi bị rò rỉ nước tiểu khiến cô ấy rất ngại ngùng."
+            },
+            {
+              "id": "zh-topic-postpartumrecover-yaobeisuantong",
+              "headword": "腰背酸痛",
+              "reading": "yāobèi suāntòng",
+              "meaningVn": "đau nhức lưng",
+              "example": "抱孩子太久导致腰背酸痛。",
+              "exampleVn": "Bế con quá lâu khiến đau nhức lưng."
+            },
+            {
+              "id": "zh-topic-postpartumrecover-renshenwen",
+              "headword": "妊娠纹",
+              "reading": "rènshēnwén",
+              "meaningVn": "vết rạn da khi mang thai",
+              "example": "肚子上的妊娠纹一直没消。",
+              "exampleVn": "Vết rạn da trên bụng mãi không mờ đi."
+            },
+            {
+              "id": "zh-topic-postpartumrecover-chanhoutuofa",
+              "headword": "产后脱发",
+              "reading": "chǎnhòu tuōfà",
+              "meaningVn": "rụng tóc sau sinh",
+              "example": "产后脱发让她一度很焦虑。",
+              "exampleVn": "Rụng tóc sau sinh từng khiến cô ấy rất lo lắng."
+            },
+            {
+              "id": "zh-topic-postpartumrecover-shencaijiaolvfufa",
+              "headword": "身材焦虑复发",
+              "reading": "shēncái jiāolǜ fùfā",
+              "meaningVn": "lo âu về vóc dáng tái phát",
+              "example": "生完孩子,身材焦虑复发了。",
+              "exampleVn": "Sinh con xong, nỗi lo âu về vóc dáng lại tái phát."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-topic-designated-driving-service",
+      "language": "zh",
+      "titleNative": "代驾服务与酒后代驾",
+      "titleVn": "Dịch vụ lái xe hộ & lái hộ sau khi uống rượu",
+      "branches": [
+        {
+          "id": "service-basics",
+          "titleNative": "服务基础",
+          "titleVn": "Cơ bản về dịch vụ",
+          "words": [
+            {
+              "id": "zh-topic-designateddriver-daijiafuwu",
+              "headword": "代驾服务",
+              "reading": "dàijià fúwù",
+              "meaningVn": "dịch vụ lái xe hộ",
+              "example": "聚餐结束他叫了代驾服务。",
+              "exampleVn": "Tan tiệc anh ấy gọi dịch vụ lái xe hộ."
+            },
+            {
+              "id": "zh-topic-designateddriver-jiuhoudaijia",
+              "headword": "酒后代驾",
+              "reading": "jiǔhòu dàijià",
+              "meaningVn": "lái hộ sau khi uống rượu",
+              "example": "喝了酒就该用酒后代驾。",
+              "exampleVn": "Đã uống rượu thì nên dùng dịch vụ lái hộ sau khi uống rượu."
+            },
+            {
+              "id": "zh-topic-designateddriver-wangyuedaijia",
+              "headword": "网约代驾",
+              "reading": "wǎngyuē dàijià",
+              "meaningVn": "gọi tài xế lái hộ qua app",
+              "example": "现在叫网约代驾几分钟就到。",
+              "exampleVn": "Bây giờ gọi tài xế lái hộ qua app mấy phút là tới."
+            },
+            {
+              "id": "zh-topic-designateddriver-daijiashifu",
+              "headword": "代驾师傅",
+              "reading": "dàijià shīfu",
+              "meaningVn": "tài xế lái hộ",
+              "example": "代驾师傅骑着折叠车赶来。",
+              "exampleVn": "Tài xế lái hộ đạp xe gấp vội đến."
+            },
+            {
+              "id": "zh-topic-designateddriver-jiedanfanwei",
+              "headword": "接单范围",
+              "reading": "jiēdān fànwéi",
+              "meaningVn": "phạm vi nhận đơn",
+              "example": "这个区域不在代驾接单范围内。",
+              "exampleVn": "Khu vực này không nằm trong phạm vi nhận đơn của dịch vụ lái hộ."
+            }
+          ]
+        },
+        {
+          "id": "booking-process",
+          "titleNative": "叫车流程",
+          "titleVn": "Quy trình gọi xe",
+          "words": [
+            {
+              "id": "zh-topic-designateddriver-yijianhujiao",
+              "headword": "一键呼叫",
+              "reading": "yíjiàn hūjiào",
+              "meaningVn": "gọi xe chỉ một chạm",
+              "example": "打开软件一键呼叫就行。",
+              "exampleVn": "Mở phần mềm lên gọi xe chỉ một chạm là được."
+            },
+            {
+              "id": "zh-topic-designateddriver-yugufeiyong",
+              "headword": "预估费用",
+              "reading": "yùgū fèiyòng",
+              "meaningVn": "chi phí dự tính",
+              "example": "下单前先看一下预估费用。",
+              "exampleVn": "Trước khi đặt xem trước chi phí dự tính."
+            },
+            {
+              "id": "zh-topic-designateddriver-dengdaishichang",
+              "headword": "等待时长",
+              "reading": "děngdài shícháng",
+              "meaningVn": "thời gian chờ",
+              "example": "高峰期等待时长会拉长。",
+              "exampleVn": "Giờ cao điểm thời gian chờ sẽ kéo dài."
+            },
+            {
+              "id": "zh-topic-designateddriver-zhediezixingche",
+              "headword": "折叠自行车",
+              "reading": "zhédié zìxíngchē",
+              "meaningVn": "xe đạp gấp",
+              "example": "代驾师傅带着折叠自行车方便返程。",
+              "exampleVn": "Tài xế lái hộ mang theo xe đạp gấp để tiện quay về."
+            },
+            {
+              "id": "zh-topic-designateddriver-yejianjiajia",
+              "headword": "夜间加价",
+              "reading": "yèjiān jiājià",
+              "meaningVn": "phụ thu ban đêm",
+              "example": "凌晨叫代驾会有夜间加价。",
+              "exampleVn": "Gọi dịch vụ lái hộ lúc nửa đêm sẽ có phụ thu ban đêm."
+            }
+          ]
+        },
+        {
+          "id": "industry-rules",
+          "titleNative": "行业规则",
+          "titleVn": "Quy tắc ngành",
+          "words": [
+            {
+              "id": "zh-topic-designateddriver-daijiabaoxian",
+              "headword": "代驾保险",
+              "reading": "dàijià bǎoxiǎn",
+              "meaningVn": "bảo hiểm dịch vụ lái hộ",
+              "example": "正规平台都会配代驾保险。",
+              "exampleVn": "Nền tảng chính quy đều có kèm bảo hiểm dịch vụ lái hộ."
+            },
+            {
+              "id": "zh-topic-designateddriver-jialingyaoqiu",
+              "headword": "驾龄要求",
+              "reading": "jiàlíng yāoqiú",
+              "meaningVn": "yêu cầu về số năm kinh nghiệm lái",
+              "example": "注册代驾对驾龄要求至少三年。",
+              "exampleVn": "Đăng ký làm tài xế lái hộ yêu cầu ít nhất ba năm kinh nghiệm lái."
+            },
+            {
+              "id": "zh-topic-designateddriver-pingtaichoucheng",
+              "headword": "平台抽成",
+              "reading": "píngtái chōuchéng",
+              "meaningVn": "nền tảng trích phần trăm hoa hồng",
+              "example": "平台抽成让不少师傅觉得不划算。",
+              "exampleVn": "Nền tảng trích phần trăm hoa hồng khiến không ít tài xế thấy không đáng."
+            },
+            {
+              "id": "zh-topic-designateddriver-chapingtousu",
+              "headword": "差评投诉",
+              "reading": "chàpíng tóusù",
+              "meaningVn": "đánh giá xấu & khiếu nại",
+              "example": "开车太急被顾客差评投诉。",
+              "exampleVn": "Lái xe quá gấp bị khách hàng đánh giá xấu và khiếu nại."
+            },
+            {
+              "id": "zh-topic-designateddriver-daijiajiufen",
+              "headword": "代驾纠纷",
+              "reading": "dàijià jiūfēn",
+              "meaningVn": "tranh chấp dịch vụ lái hộ",
+              "example": "代驾途中出事故引发了代驾纠纷。",
+              "exampleVn": "Xảy ra tai nạn giữa chừng gây ra tranh chấp dịch vụ lái hộ."
+            }
+          ]
+        },
+        {
+          "id": "safety-meaning",
+          "titleNative": "安全意义",
+          "titleVn": "Ý nghĩa an toàn",
+          "words": [
+            {
+              "id": "zh-topic-designateddriver-jiuhoujiashi",
+              "headword": "酒后驾驶",
+              "reading": "jiǔhòu jiàshǐ",
+              "meaningVn": "lái xe sau khi uống rượu",
+              "example": "酒后驾驶是严重的违法行为。",
+              "exampleVn": "Lái xe sau khi uống rượu là hành vi vi phạm pháp luật nghiêm trọng."
+            },
+            {
+              "id": "zh-topic-designateddriver-zuijiaruxing",
+              "headword": "醉驾入刑",
+              "reading": "zuìjià rùxíng",
+              "meaningVn": "lái xe khi say bị xử lý hình sự",
+              "example": "醉驾入刑之后,喝酒不开车成了共识。",
+              "exampleVn": "Từ khi lái xe khi say bị xử lý hình sự, uống rượu không lái xe đã thành nhận thức chung."
+            },
+            {
+              "id": "zh-topic-designateddriver-quanjiuwenhua",
+              "headword": "劝酒文化",
+              "reading": "quànjiǔ wénhuà",
+              "meaningVn": "văn hóa mời/ép rượu",
+              "example": "聚餐时的劝酒文化让人很有压力。",
+              "exampleVn": "Văn hóa mời rượu trong bữa tiệc khiến người ta rất áp lực."
+            },
+            {
+              "id": "zh-topic-designateddriver-daijiayishitisheng",
+              "headword": "代驾意识提升",
+              "reading": "dàijià yìshí tíshēng",
+              "meaningVn": "nâng cao ý thức dùng dịch vụ lái hộ",
+              "example": "这几年大家的代驾意识提升了不少。",
+              "exampleVn": "Mấy năm nay ý thức dùng dịch vụ lái hộ của mọi người đã tăng lên khá nhiều."
+            },
+            {
+              "id": "zh-topic-designateddriver-lingjiujiachangyi",
+              "headword": "零酒驾倡议",
+              "reading": "líng jiǔjià chàngyì",
+              "meaningVn": "lời kêu gọi không lái xe khi đã uống rượu",
+              "example": "饭店门口贴着零酒驾倡议的海报。",
+              "exampleVn": "Trước cửa nhà hàng dán áp phích kêu gọi không lái xe khi đã uống rượu."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-topic-elderly-hearing-aid-health",
+      "language": "zh",
+      "titleNative": "老年助听器与听力健康",
+      "titleVn": "Máy trợ thính & sức khỏe thính giác người già",
+      "branches": [
+        {
+          "id": "hearing-problems",
+          "titleNative": "听力问题",
+          "titleVn": "Vấn đề thính lực",
+          "words": [
+            {
+              "id": "zh-topic-hearingaid-laonianxingerlong",
+              "headword": "老年性耳聋",
+              "reading": "lǎoniánxìng ěrlóng",
+              "meaningVn": "điếc do tuổi già",
+              "example": "老年性耳聋是自然衰老的一部分。",
+              "exampleVn": "Điếc do tuổi già là một phần của quá trình lão hóa tự nhiên."
+            },
+            {
+              "id": "zh-topic-hearingaid-tinglixiajiang",
+              "headword": "听力下降",
+              "reading": "tīnglì xiàjiàng",
+              "meaningVn": "suy giảm thính lực",
+              "example": "最近半年他听力下降得很明显。",
+              "exampleVn": "Nửa năm gần đây thính lực của ông ấy suy giảm rất rõ."
+            },
+            {
+              "id": "zh-topic-hearingaid-erming",
+              "headword": "耳鸣",
+              "reading": "ěrmíng",
+              "meaningVn": "ù tai",
+              "example": "晚上安静的时候耳鸣更严重。",
+              "exampleVn": "Buổi tối yên tĩnh thì ù tai càng nặng hơn."
+            },
+            {
+              "id": "zh-topic-hearingaid-tinglijiance",
+              "headword": "听力检测",
+              "reading": "tīnglì jiǎncè",
+              "meaningVn": "kiểm tra thính lực",
+              "example": "建议每年做一次听力检测。",
+              "exampleVn": "Khuyến nghị mỗi năm kiểm tra thính lực một lần."
+            },
+            {
+              "id": "zh-topic-hearingaid-shuangertinglichayi",
+              "headword": "双耳听力差异",
+              "reading": "shuāng'ěr tīnglì chāyì",
+              "meaningVn": "chênh lệch thính lực hai tai",
+              "example": "检测发现他有双耳听力差异。",
+              "exampleVn": "Kiểm tra phát hiện ông có chênh lệch thính lực hai tai."
+            }
+          ]
+        },
+        {
+          "id": "hearing-aid-types",
+          "titleNative": "助听器类型",
+          "titleVn": "Các loại máy trợ thính",
+          "words": [
+            {
+              "id": "zh-topic-hearingaid-shuzizhutingqi",
+              "headword": "数字助听器",
+              "reading": "shùzì zhùtīngqì",
+              "meaningVn": "máy trợ thính kỹ thuật số",
+              "example": "数字助听器比老式的效果好很多。",
+              "exampleVn": "Máy trợ thính kỹ thuật số hiệu quả tốt hơn loại cũ nhiều."
+            },
+            {
+              "id": "zh-topic-hearingaid-erbeishi",
+              "headword": "耳背式",
+              "reading": "ěrbèishì",
+              "meaningVn": "kiểu đeo sau tai",
+              "example": "老人一般更适应耳背式。",
+              "exampleVn": "Người già thường thích nghi với kiểu đeo sau tai hơn."
+            },
+            {
+              "id": "zh-topic-hearingaid-shenerdaoshi",
+              "headword": "深耳道式",
+              "reading": "shēn ěrdàoshì",
+              "meaningVn": "kiểu nhét sâu trong ống tai",
+              "example": "深耳道式更隐蔽,但价格更贵。",
+              "exampleVn": "Kiểu nhét sâu trong ống tai kín đáo hơn, nhưng giá cũng đắt hơn."
+            },
+            {
+              "id": "zh-topic-hearingaid-shuzijiangzaogongneng",
+              "headword": "数字降噪功能",
+              "reading": "shùzì jiàngzào gōngnéng",
+              "meaningVn": "chức năng giảm ồn kỹ thuật số",
+              "example": "数字降噪功能让嘈杂环境也能听清。",
+              "exampleVn": "Chức năng giảm ồn kỹ thuật số giúp nghe rõ ngay cả trong môi trường ồn ào."
+            },
+            {
+              "id": "zh-topic-hearingaid-lanyalianjie",
+              "headword": "蓝牙连接",
+              "reading": "lányá liánjiē",
+              "meaningVn": "kết nối Bluetooth",
+              "example": "新款支持蓝牙连接,能直接接电话。",
+              "exampleVn": "Mẫu mới hỗ trợ kết nối Bluetooth, nghe điện thoại trực tiếp được."
+            }
+          ]
+        },
+        {
+          "id": "fitting-adaptation",
+          "titleNative": "验配与适应",
+          "titleVn": "Đo lắp & thích nghi",
+          "words": [
+            {
+              "id": "zh-topic-hearingaid-yanpeishi",
+              "headword": "验配师",
+              "reading": "yànpèishī",
+              "meaningVn": "kỹ thuật viên đo lắp máy trợ thính",
+              "example": "验配师根据听力图调试参数。",
+              "exampleVn": "Kỹ thuật viên đo lắp máy trợ thính chỉnh thông số theo biểu đồ thính lực."
+            },
+            {
+              "id": "zh-topic-hearingaid-shidaitiyan",
+              "headword": "试戴体验",
+              "reading": "shìdài tǐyàn",
+              "meaningVn": "trải nghiệm đeo thử",
+              "example": "门店提供一周的试戴体验。",
+              "exampleVn": "Cửa hàng cung cấp trải nghiệm đeo thử một tuần."
+            },
+            {
+              "id": "zh-topic-hearingaid-tiaoshiyinliang",
+              "headword": "调试音量",
+              "reading": "tiáoshì yīnliàng",
+              "meaningVn": "chỉnh âm lượng",
+              "example": "回家后还需要多次调试音量。",
+              "exampleVn": "Về nhà rồi vẫn cần chỉnh âm lượng nhiều lần."
+            },
+            {
+              "id": "zh-topic-hearingaid-shiyingqi",
+              "headword": "适应期",
+              "reading": "shìyìngqī",
+              "meaningVn": "giai đoạn làm quen",
+              "example": "刚戴上有个适应期,会觉得不舒服。",
+              "exampleVn": "Vừa đeo vào có một giai đoạn làm quen, sẽ thấy khó chịu."
+            },
+            {
+              "id": "zh-topic-hearingaid-dingqibaoyang",
+              "headword": "定期保养",
+              "reading": "dìngqī bǎoyǎng",
+              "meaningVn": "bảo dưỡng định kỳ",
+              "example": "助听器需要定期保养延长寿命。",
+              "exampleVn": "Máy trợ thính cần bảo dưỡng định kỳ để kéo dài tuổi thọ."
+            }
+          ]
+        },
+        {
+          "id": "social-attention",
+          "titleNative": "社会关注",
+          "titleVn": "Sự quan tâm của xã hội",
+          "words": [
+            {
+              "id": "zh-topic-hearingaid-goutongzhangai",
+              "headword": "沟通障碍",
+              "reading": "gōutōng zhàng'ài",
+              "meaningVn": "trở ngại giao tiếp",
+              "example": "听力问题带来的沟通障碍容易被忽视。",
+              "exampleVn": "Trở ngại giao tiếp do vấn đề thính lực gây ra rất dễ bị bỏ qua."
+            },
+            {
+              "id": "zh-topic-hearingaid-shejiaohuibi",
+              "headword": "社交回避",
+              "reading": "shèjiāo huíbì",
+              "meaningVn": "né tránh giao tiếp xã hội",
+              "example": "听不清让他慢慢开始社交回避。",
+              "exampleVn": "Nghe không rõ khiến ông dần bắt đầu né tránh giao tiếp xã hội."
+            },
+            {
+              "id": "zh-topic-hearingaid-jiageanggui",
+              "headword": "价格昂贵",
+              "reading": "jiàgé ángguì",
+              "meaningVn": "giá cả đắt đỏ",
+              "example": "好的助听器价格昂贵,不是人人都买得起。",
+              "exampleVn": "Máy trợ thính tốt giá cả đắt đỏ, không phải ai cũng mua nổi."
+            },
+            {
+              "id": "zh-topic-hearingaid-yibaobaoxiaofanwei",
+              "headword": "医保报销范围",
+              "reading": "yībǎo bàoxiāo fànwéi",
+              "meaningVn": "phạm vi bảo hiểm y tế chi trả",
+              "example": "助听器目前还不在医保报销范围。",
+              "exampleVn": "Máy trợ thính hiện vẫn chưa nằm trong phạm vi bảo hiểm y tế chi trả."
+            },
+            {
+              "id": "zh-topic-hearingaid-tinglijiankangxuanchuan",
+              "headword": "听力健康宣传",
+              "reading": "tīnglì jiànkāng xuānchuán",
+              "meaningVn": "tuyên truyền sức khỏe thính giác",
+              "example": "社区定期做听力健康宣传活动。",
+              "exampleVn": "Khu dân cư định kỳ tổ chức hoạt động tuyên truyền sức khỏe thính giác."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-topic-autonomous-robotaxi",
+      "language": "zh",
+      "titleNative": "自动驾驶出租车",
+      "titleVn": "Taxi tự lái (robotaxi)",
+      "branches": [
+        {
+          "id": "vehicle-technology",
+          "titleNative": "车辆技术",
+          "titleVn": "Công nghệ xe",
+          "words": [
+            {
+              "id": "zh-topic-robotaxi-zidongjiashichuzuche",
+              "headword": "自动驾驶出租车",
+              "reading": "zìdòng jiàshǐ chūzūchē",
+              "meaningVn": "taxi tự lái",
+              "example": "这座城市已经能打到自动驾驶出租车。",
+              "exampleVn": "Thành phố này đã có thể gọi được taxi tự lái."
+            },
+            {
+              "id": "zh-topic-robotaxi-jiguangleida",
+              "headword": "激光雷达",
+              "reading": "jīguāng léidá",
+              "meaningVn": "cảm biến lidar",
+              "example": "车顶装着好几个激光雷达。",
+              "exampleVn": "Trên nóc xe lắp mấy cái cảm biến lidar."
+            },
+            {
+              "id": "zh-topic-robotaxi-gaojingditu",
+              "headword": "高精地图",
+              "reading": "gāojīng dìtú",
+              "meaningVn": "bản đồ độ chính xác cao",
+              "example": "车辆依靠高精地图判断路况。",
+              "exampleVn": "Xe dựa vào bản đồ độ chính xác cao để phán đoán tình trạng đường."
+            },
+            {
+              "id": "zh-topic-robotaxi-zidongboche",
+              "headword": "自动泊车",
+              "reading": "zìdòng bóchē",
+              "meaningVn": "tự động đỗ xe",
+              "example": "到达目的地后车辆自动泊车。",
+              "exampleVn": "Đến nơi rồi xe tự động đỗ."
+            },
+            {
+              "id": "zh-topic-robotaxi-yuanchengjieguan",
+              "headword": "远程接管",
+              "reading": "yuǎnchéng jiēguǎn",
+              "meaningVn": "điều khiển từ xa khi cần",
+              "example": "遇到复杂路况会启动远程接管。",
+              "exampleVn": "Gặp tình huống đường phức tạp sẽ khởi động điều khiển từ xa."
+            }
+          ]
+        },
+        {
+          "id": "operation-model",
+          "titleNative": "运营模式",
+          "titleVn": "Mô hình vận hành",
+          "words": [
+            {
+              "id": "zh-topic-robotaxi-shifanyunyingqu",
+              "headword": "示范运营区",
+              "reading": "shìfàn yùnyíngqū",
+              "meaningVn": "khu vực vận hành thí điểm",
+              "example": "目前只在示范运营区内提供服务。",
+              "exampleVn": "Hiện tại chỉ cung cấp dịch vụ trong khu vực vận hành thí điểm."
+            },
+            {
+              "id": "zh-topic-robotaxi-anquanyuan",
+              "headword": "安全员",
+              "reading": "ānquányuán",
+              "meaningVn": "nhân viên an toàn ngồi trên xe",
+              "example": "早期车上还配有安全员。",
+              "exampleVn": "Giai đoạn đầu trên xe còn có nhân viên an toàn."
+            },
+            {
+              "id": "zh-topic-robotaxi-wurenhuayunying",
+              "headword": "无人化运营",
+              "reading": "wúrénhuà yùnyíng",
+              "meaningVn": "vận hành không người lái",
+              "example": "部分路线已经实现无人化运营。",
+              "exampleVn": "Một số tuyến đã thực hiện được vận hành không người lái."
+            },
+            {
+              "id": "zh-topic-robotaxi-yijianjiaoche",
+              "headword": "一键叫车",
+              "reading": "yíjiàn jiàochē",
+              "meaningVn": "gọi xe chỉ một chạm",
+              "example": "打开小程序一键叫车。",
+              "exampleVn": "Mở mini-app gọi xe chỉ một chạm."
+            },
+            {
+              "id": "zh-topic-robotaxi-yunyingpaizhao",
+              "headword": "运营牌照",
+              "reading": "yùnyíng páizhào",
+              "meaningVn": "giấy phép vận hành",
+              "example": "公司拿到了当地的运营牌照。",
+              "exampleVn": "Công ty đã lấy được giấy phép vận hành tại địa phương."
+            }
+          ]
+        },
+        {
+          "id": "riding-experience",
+          "titleNative": "乘坐体验",
+          "titleVn": "Trải nghiệm ngồi xe",
+          "words": [
+            {
+              "id": "zh-topic-robotaxi-shoucitiyan",
+              "headword": "首次体验",
+              "reading": "shǒucì tǐyàn",
+              "meaningVn": "trải nghiệm lần đầu",
+              "example": "首次体验时她全程紧张地盯着方向盘。",
+              "exampleVn": "Trải nghiệm lần đầu cô ấy căng thẳng nhìn chằm chằm vào vô lăng suốt hành trình."
+            },
+            {
+              "id": "zh-topic-robotaxi-cheneipingmutishi",
+              "headword": "车内屏幕提示",
+              "reading": "chēnèi píngmù tíshì",
+              "meaningVn": "thông báo trên màn hình trong xe",
+              "example": "车内屏幕提示会显示下一步动作。",
+              "exampleVn": "Thông báo trên màn hình trong xe sẽ hiển thị động tác tiếp theo."
+            },
+            {
+              "id": "zh-topic-robotaxi-jishache",
+              "headword": "急刹车",
+              "reading": "jíshāchē",
+              "meaningVn": "phanh gấp",
+              "example": "突然窜出的行人让车急刹车。",
+              "exampleVn": "Người đi bộ đột ngột lao ra khiến xe phanh gấp."
+            },
+            {
+              "id": "zh-topic-robotaxi-raoxingzhangaiwu",
+              "headword": "绕行障碍物",
+              "reading": "ràoxíng zhàng'àiwù",
+              "meaningVn": "đi vòng tránh chướng ngại vật",
+              "example": "车辆自动绕行障碍物,没有停顿。",
+              "exampleVn": "Xe tự động đi vòng tránh chướng ngại vật, không hề khựng lại."
+            },
+            {
+              "id": "zh-topic-robotaxi-chengkeanquangan",
+              "headword": "乘客安全感",
+              "reading": "chéngkè ānquángǎn",
+              "meaningVn": "cảm giác an toàn của hành khách",
+              "example": "平稳的驾驶提升了乘客安全感。",
+              "exampleVn": "Việc lái xe êm ái làm tăng cảm giác an toàn của hành khách."
+            }
+          ]
+        },
+        {
+          "id": "social-discussion",
+          "titleNative": "社会讨论",
+          "titleVn": "Thảo luận xã hội",
+          "words": [
+            {
+              "id": "zh-topic-robotaxi-wangyuechesijishiye",
+              "headword": "网约车司机失业",
+              "reading": "wǎngyuēchē sījī shīyè",
+              "meaningVn": "tài xế xe công nghệ mất việc",
+              "example": "有人担心自动驾驶会导致网约车司机失业。",
+              "exampleVn": "Có người lo rằng tự lái sẽ khiến tài xế xe công nghệ mất việc."
+            },
+            {
+              "id": "zh-topic-robotaxi-zerenrending",
+              "headword": "责任认定",
+              "reading": "zérèn rèndìng",
+              "meaningVn": "xác định trách nhiệm",
+              "example": "出事故后责任认定是最大的难题。",
+              "exampleVn": "Sau tai nạn, xác định trách nhiệm là vấn đề khó nhất."
+            },
+            {
+              "id": "zh-topic-robotaxi-luquanzhengyi",
+              "headword": "路权争议",
+              "reading": "lùquán zhēngyì",
+              "meaningVn": "tranh cãi về quyền sử dụng đường",
+              "example": "自动驾驶车辆引发了路权争议。",
+              "exampleVn": "Xe tự lái đã gây ra tranh cãi về quyền sử dụng đường."
+            },
+            {
+              "id": "zh-topic-robotaxi-jishuxinrendu",
+              "headword": "技术信任度",
+              "reading": "jìshù xìnrèndù",
+              "meaningVn": "mức độ tin tưởng vào công nghệ",
+              "example": "公众对这项技术信任度还在提升中。",
+              "exampleVn": "Mức độ tin tưởng của công chúng vào công nghệ này vẫn đang tăng lên."
+            },
+            {
+              "id": "zh-topic-robotaxi-weilaijiaotongtujing",
+              "headword": "未来交通图景",
+              "reading": "wèilái jiāotōng tújǐng",
+              "meaningVn": "viễn cảnh giao thông tương lai",
+              "example": "这被看作未来交通图景的雏形。",
+              "exampleVn": "Điều này được xem là hình mẫu ban đầu của viễn cảnh giao thông tương lai."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-topic-student-tutoring-gig",
+      "language": "zh",
+      "titleNative": "家教兼职与试讲",
+      "titleVn": "Làm gia sư sinh viên & giảng thử",
+      "branches": [
+        {
+          "id": "finding-tutoring-jobs",
+          "titleNative": "找家教渠道",
+          "titleVn": "Kênh tìm việc gia sư",
+          "words": [
+            {
+              "id": "zh-topic-tutorgig-jiajiaozhongjie",
+              "headword": "家教中介",
+              "reading": "jiājiào zhōngjiè",
+              "meaningVn": "trung tâm môi giới gia sư",
+              "example": "他在家教中介登记了自己的信息。",
+              "exampleVn": "Anh ấy đăng ký thông tin của mình ở trung tâm môi giới gia sư."
+            },
+            {
+              "id": "zh-topic-tutorgig-xiaoyuanzhongjielan",
+              "headword": "校园中介栏",
+              "reading": "xiàoyuán zhōngjiè lán",
+              "meaningVn": "bảng thông báo môi giới trong trường",
+              "example": "校园中介栏贴满了家教招聘信息。",
+              "exampleVn": "Bảng thông báo môi giới trong trường dán đầy thông tin tuyển gia sư."
+            },
+            {
+              "id": "zh-topic-tutorgig-jiazhangzhijielianxi",
+              "headword": "家长直接联系",
+              "reading": "jiāzhǎng zhíjiē liánxì",
+              "meaningVn": "phụ huynh liên hệ trực tiếp",
+              "example": "有的家长直接联系在校学生做家教。",
+              "exampleVn": "Có phụ huynh liên hệ trực tiếp với sinh viên trong trường để làm gia sư."
+            },
+            {
+              "id": "zh-topic-tutorgig-shurenjieshao",
+              "headword": "熟人介绍",
+              "reading": "shúrén jièshào",
+              "meaningVn": "người quen giới thiệu",
+              "example": "这份家教是熟人介绍的,比较放心。",
+              "exampleVn": "Công việc gia sư này do người quen giới thiệu, khá yên tâm."
+            },
+            {
+              "id": "zh-topic-tutorgig-jiajiaopingtaizhuce",
+              "headword": "家教平台注册",
+              "reading": "jiājiào píngtái zhùcè",
+              "meaningVn": "đăng ký trên nền tảng gia sư",
+              "example": "她在家教平台注册后很快接到了单子。",
+              "exampleVn": "Cô ấy đăng ký trên nền tảng gia sư xong rất nhanh nhận được đơn."
+            }
+          ]
+        },
+        {
+          "id": "trial-lesson",
+          "titleNative": "试讲环节",
+          "titleVn": "Vòng giảng thử",
+          "words": [
+            {
+              "id": "zh-topic-tutorgig-shijiang",
+              "headword": "试讲",
+              "reading": "shìjiǎng",
+              "meaningVn": "giảng thử",
+              "example": "第一次上门先要试讲半小时。",
+              "exampleVn": "Lần đầu đến nhà phải giảng thử nửa tiếng trước."
+            },
+            {
+              "id": "zh-topic-tutorgig-beikejiaoan",
+              "headword": "备课教案",
+              "reading": "bèikè jiào'àn",
+              "meaningVn": "giáo án chuẩn bị bài giảng",
+              "example": "试讲前她认真准备了备课教案。",
+              "exampleVn": "Trước khi giảng thử cô ấy chuẩn bị kỹ giáo án."
+            },
+            {
+              "id": "zh-topic-tutorgig-jiazhangzaichangpangting",
+              "headword": "家长在场旁听",
+              "reading": "jiāzhǎng zàichǎng pángtīng",
+              "meaningVn": "phụ huynh có mặt dự thính",
+              "example": "第一节课家长在场旁听。",
+              "exampleVn": "Buổi học đầu tiên phụ huynh có mặt dự thính."
+            },
+            {
+              "id": "zh-topic-tutorgig-jiangkejiezou",
+              "headword": "讲课节奏",
+              "reading": "jiǎngkè jiézòu",
+              "meaningVn": "nhịp độ giảng bài",
+              "example": "家长觉得他讲课节奏太快。",
+              "exampleVn": "Phụ huynh thấy nhịp độ giảng bài của cậu ấy quá nhanh."
+            },
+            {
+              "id": "zh-topic-tutorgig-shuangfangmanyidu",
+              "headword": "双方满意度",
+              "reading": "shuāngfāng mǎnyìdù",
+              "meaningVn": "mức độ hài lòng của cả hai bên",
+              "example": "试讲结束后再确认双方满意度。",
+              "exampleVn": "Giảng thử xong mới xác nhận mức độ hài lòng của cả hai bên."
+            }
+          ]
+        },
+        {
+          "id": "teaching-arrangement",
+          "titleNative": "教学安排",
+          "titleVn": "Sắp xếp dạy học",
+          "words": [
+            {
+              "id": "zh-topic-tutorgig-dancikechou",
+              "headword": "单次课酬",
+              "reading": "dāncì kèchóu",
+              "meaningVn": "thù lao mỗi buổi dạy",
+              "example": "这门课的单次课酬是两百块。",
+              "exampleVn": "Thù lao mỗi buổi dạy của môn này là hai trăm tệ."
+            },
+            {
+              "id": "zh-topic-tutorgig-dandufudao",
+              "headword": "单独辅导",
+              "reading": "dāndú fǔdǎo",
+              "meaningVn": "kèm riêng",
+              "example": "家长希望是单独辅导,不是拼班。",
+              "exampleVn": "Phụ huynh muốn kèm riêng, không phải học ghép lớp."
+            },
+            {
+              "id": "zh-topic-tutorgig-shangmenjiajiao",
+              "headword": "上门家教",
+              "reading": "shàngmén jiājiào",
+              "meaningVn": "gia sư đến tận nhà học sinh",
+              "example": "他每周三次上门家教。",
+              "exampleVn": "Mỗi tuần cậu ấy đến tận nhà học sinh dạy ba buổi."
+            },
+            {
+              "id": "zh-topic-tutorgig-xianshangjiajiao",
+              "headword": "线上家教",
+              "reading": "xiànshàng jiājiào",
+              "meaningVn": "gia sư trực tuyến",
+              "example": "线上家教省了不少路上的时间。",
+              "exampleVn": "Gia sư trực tuyến tiết kiệm được không ít thời gian đi lại."
+            },
+            {
+              "id": "zh-topic-tutorgig-paikechongtu",
+              "headword": "排课冲突",
+              "reading": "páikè chōngtū",
+              "meaningVn": "trùng lịch dạy",
+              "example": "这周排课冲突,只能推掉一节。",
+              "exampleVn": "Tuần này trùng lịch dạy, đành phải hủy một buổi."
+            }
+          ]
+        },
+        {
+          "id": "professional-experience",
+          "titleNative": "职业体验",
+          "titleVn": "Trải nghiệm nghề nghiệp",
+          "words": [
+            {
+              "id": "zh-topic-tutorgig-zhuanshenghuofei",
+              "headword": "赚生活费",
+              "reading": "zhuàn shēnghuófèi",
+              "meaningVn": "kiếm tiền sinh hoạt",
+              "example": "做家教是她赚生活费的主要方式。",
+              "exampleVn": "Làm gia sư là cách chính cô ấy kiếm tiền sinh hoạt."
+            },
+            {
+              "id": "zh-topic-tutorgig-jileijiaoxuejingyan",
+              "headword": "积累教学经验",
+              "reading": "jīlěi jiàoxué jīngyàn",
+              "meaningVn": "tích lũy kinh nghiệm giảng dạy",
+              "example": "做家教也能积累教学经验。",
+              "exampleVn": "Làm gia sư cũng có thể tích lũy kinh nghiệm giảng dạy."
+            },
+            {
+              "id": "zh-topic-tutorgig-xionghaizinanguan",
+              "headword": "熊孩子难管",
+              "reading": "xióng háizi nán guǎn",
+              "meaningVn": "học trò nghịch khó dạy",
+              "example": "遇到熊孩子难管,她也很头疼。",
+              "exampleVn": "Gặp học trò nghịch khó dạy, cô ấy cũng rất đau đầu."
+            },
+            {
+              "id": "zh-topic-tutorgig-jiazhanglinshiquxiaoke",
+              "headword": "家长临时取消课",
+              "reading": "jiāzhǎng línshí qǔxiāo kè",
+              "meaningVn": "phụ huynh hủy buổi học đột xuất",
+              "example": "家长临时取消课让他白跑一趟。",
+              "exampleVn": "Phụ huynh hủy buổi học đột xuất khiến cậu ấy đi lại vô ích."
+            },
+            {
+              "id": "zh-topic-tutorgig-zhuanhangzuolaoshidexiangfa",
+              "headword": "转行做老师的想法",
+              "reading": "zhuǎnháng zuò lǎoshī de xiǎngfǎ",
+              "meaningVn": "ý định chuyển hẳn sang nghề giáo",
+              "example": "这段经历让她有了转行做老师的想法。",
+              "exampleVn": "Trải nghiệm này khiến cô ấy có ý định chuyển hẳn sang nghề giáo."
+            }
+          ]
+        }
+      ]
     }
   ]
 }
