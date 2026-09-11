@@ -2773,6 +2773,402 @@
           ]
         }
       ]
+    },
+    {
+      "id": "ja-ff-ki3",
+      "language": "ja",
+      "reading": "起",
+      "groupKind": "false-friend",
+      "note": "起 (khởi) vốn nghĩa 'dậy lên, bắt đầu', 起立 giữ nghĩa vật lý cụ thể (đứng dậy), còn 起源 lệch thành khái niệm trừu tượng về NGUỒN GỐC/khởi nguyên của một sự vật, không còn là hành động cơ thể.",
+      "roots": [
+        {
+          "id": "ja-ff-ki3-root",
+          "character": "起",
+          "hanViet": "khởi",
+          "meaningVn": "khởi (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-ki3-w1",
+              "headword": "起立",
+              "reading": "kiritsu",
+              "meaningVn": "đứng dậy",
+              "example": "先生が来たら起立してください。",
+              "exampleVn": "Khi thầy giáo đến hãy đứng dậy."
+            },
+            {
+              "id": "ja-ff-ki3-w2",
+              "headword": "起源",
+              "reading": "kigen",
+              "meaningVn": "nguồn gốc, khởi nguyên",
+              "example": "この習慣の起源は古代にあります。",
+              "exampleVn": "Nguồn gốc của phong tục này có từ thời cổ đại."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-ten",
+      "language": "ja",
+      "reading": "展",
+      "groupKind": "false-friend",
+      "note": "展 (triển) vốn nghĩa 'trải ra, mở rộng', 進展 giữ nghĩa trừu tượng (sự tiến triển, tiến bộ), còn 展示 lệch thành hành động cụ thể TRƯNG BÀY vật phẩm, hẹp hơn nhiều so với 'tiến triển' nói chung.",
+      "roots": [
+        {
+          "id": "ja-ff-ten-root",
+          "character": "展",
+          "hanViet": "triển",
+          "meaningVn": "triển (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-ten-w1",
+              "headword": "進展",
+              "reading": "shinten",
+              "meaningVn": "tiến triển",
+              "example": "交渉は順調に進展しています。",
+              "exampleVn": "Cuộc đàm phán đang tiến triển thuận lợi."
+            },
+            {
+              "id": "ja-ff-ten-w2",
+              "headword": "展示",
+              "reading": "tenji",
+              "meaningVn": "trưng bày, triển lãm",
+              "example": "美術館で絵画を展示しています。",
+              "exampleVn": "Bảo tàng mỹ thuật đang trưng bày tranh."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-kyoku",
+      "language": "ja",
+      "reading": "極",
+      "groupKind": "false-friend",
+      "note": "極 (cực) vốn nghĩa 'điểm tận cùng, cực điểm', 積極的 lệch thành TÍNH CÁCH con người (tích cực, chủ động), còn 北極 giữ nghĩa vật lý cụ thể (một ĐỊA ĐIỂM địa lý - Bắc Cực), 2 hướng hoàn toàn khác nhau.",
+      "roots": [
+        {
+          "id": "ja-ff-kyoku-root",
+          "character": "極",
+          "hanViet": "cực",
+          "meaningVn": "cực (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-kyoku-w1",
+              "headword": "積極的",
+              "reading": "sekkyokuteki",
+              "meaningVn": "tích cực, chủ động",
+              "example": "彼はいつも積極的に発言します。",
+              "exampleVn": "Anh ấy luôn phát biểu một cách tích cực."
+            },
+            {
+              "id": "ja-ff-kyoku-w2",
+              "headword": "北極",
+              "reading": "hokkyoku",
+              "meaningVn": "Bắc Cực",
+              "example": "北極には氷がたくさんあります。",
+              "exampleVn": "Ở Bắc Cực có rất nhiều băng."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-sai",
+      "language": "ja",
+      "reading": "際",
+      "groupKind": "false-friend",
+      "note": "際 (tế) vốn nghĩa 'biên giới, ranh giới, lúc', 国際 giữ nghĩa gần gốc (giữa các quốc gia), còn 実際 lệch thành trạng từ/danh từ trừu tượng chỉ THỰC TẾ/trong thực tiễn, không còn liên quan đến 'ranh giới'.",
+      "roots": [
+        {
+          "id": "ja-ff-sai-root",
+          "character": "際",
+          "hanViet": "tế",
+          "meaningVn": "tế (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-sai-w1",
+              "headword": "国際",
+              "reading": "kokusai",
+              "meaningVn": "quốc tế",
+              "example": "国際会議に参加しました。",
+              "exampleVn": "Tôi đã tham gia hội nghị quốc tế."
+            },
+            {
+              "id": "ja-ff-sai-w2",
+              "headword": "実際",
+              "reading": "jissai",
+              "meaningVn": "thực tế",
+              "example": "実際にやってみましょう。",
+              "exampleVn": "Hãy thử làm trong thực tế xem."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-kei2",
+      "language": "ja",
+      "reading": "型",
+      "groupKind": "false-friend",
+      "note": "型 (hình) vốn nghĩa 'khuôn mẫu, kiểu dáng', 大型 giữ nghĩa vật lý cụ thể (kích cỡ lớn), còn 典型的 lệch thành TÍNH TỪ trừu tượng (mang tính tiêu biểu, điển hình), không còn liên quan đến kích cỡ.",
+      "roots": [
+        {
+          "id": "ja-ff-kei2-root",
+          "character": "型",
+          "hanViet": "hình",
+          "meaningVn": "hình (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-kei2-w1",
+              "headword": "大型",
+              "reading": "ougata",
+              "meaningVn": "cỡ lớn",
+              "example": "大型のトラックが通ります。",
+              "exampleVn": "Một chiếc xe tải cỡ lớn đang đi qua."
+            },
+            {
+              "id": "ja-ff-kei2-w2",
+              "headword": "典型的",
+              "reading": "tenkeiteki",
+              "meaningVn": "điển hình, tiêu biểu",
+              "example": "これは典型的な例です。",
+              "exampleVn": "Đây là một ví dụ điển hình."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-kou5",
+      "language": "ja",
+      "reading": "効",
+      "groupKind": "false-friend",
+      "note": "効 (hiệu, dạng shinjitai của 效) vốn nghĩa 'tác dụng, hiệu quả', 効果 giữ nghĩa sát gốc (kết quả/tác dụng nói chung), còn 有効 lệch thành khái niệm PHÁP LÝ/thủ tục cụ thể (có hiệu lực, hợp lệ), hẹp hơn 'hiệu quả' chung chung.",
+      "roots": [
+        {
+          "id": "ja-ff-kou5-root",
+          "character": "効",
+          "hanViet": "hiệu",
+          "meaningVn": "hiệu (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-kou5-w1",
+              "headword": "効果",
+              "reading": "kouka",
+              "meaningVn": "hiệu quả",
+              "example": "この薬はすぐに効果が出ます。",
+              "exampleVn": "Loại thuốc này có hiệu quả ngay lập tức."
+            },
+            {
+              "id": "ja-ff-kou5-w2",
+              "headword": "有効",
+              "reading": "yuukou",
+              "meaningVn": "có hiệu lực, hợp lệ",
+              "example": "このチケットは今日まで有効です。",
+              "exampleVn": "Vé này có hiệu lực đến hôm nay."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-doku2",
+      "language": "ja",
+      "reading": "独",
+      "groupKind": "false-friend",
+      "note": "独 (độc, dạng shinjitai của 獨) vốn nghĩa 'một mình, riêng lẻ', 独身 giữ nghĩa cụ thể (tình trạng xã hội - độc thân), còn 独特 lệch thành TÍNH TỪ trừu tượng (độc đáo, riêng biệt), không còn liên quan đến hôn nhân.",
+      "roots": [
+        {
+          "id": "ja-ff-doku2-root",
+          "character": "独",
+          "hanViet": "độc",
+          "meaningVn": "độc (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-doku2-w1",
+              "headword": "独身",
+              "reading": "dokushin",
+              "meaningVn": "độc thân",
+              "example": "彼はまだ独身です。",
+              "exampleVn": "Anh ấy vẫn còn độc thân."
+            },
+            {
+              "id": "ja-ff-doku2-w2",
+              "headword": "独特",
+              "reading": "dokutoku",
+              "meaningVn": "độc đáo, riêng biệt",
+              "example": "この店には独特の雰囲気があります。",
+              "exampleVn": "Quán này có bầu không khí độc đáo."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-hin",
+      "language": "ja",
+      "reading": "品",
+      "groupKind": "false-friend",
+      "note": "品 (phẩm) vốn nghĩa 'đồ vật, phẩm chất', 作品 giữ nghĩa cụ thể (một TÁC PHẨM/sản phẩm sáng tạo), còn 上品 lệch hẳn thành TÍNH TỪ mô tả CON NGƯỜI (thanh lịch, sang trọng), không còn là một đồ vật.",
+      "roots": [
+        {
+          "id": "ja-ff-hin-root",
+          "character": "品",
+          "hanViet": "phẩm",
+          "meaningVn": "phẩm (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-hin-w1",
+              "headword": "作品",
+              "reading": "sakuhin",
+              "meaningVn": "tác phẩm",
+              "example": "この作品はとても美しいです。",
+              "exampleVn": "Tác phẩm này rất đẹp."
+            },
+            {
+              "id": "ja-ff-hin-w2",
+              "headword": "上品",
+              "reading": "jouhin",
+              "meaningVn": "thanh lịch, sang trọng",
+              "example": "彼女はいつも上品な服を着ています。",
+              "exampleVn": "Cô ấy luôn mặc quần áo thanh lịch."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-jou4",
+      "language": "ja",
+      "reading": "常",
+      "groupKind": "false-friend",
+      "note": "常 (thường) vốn nghĩa 'thường xuyên, bình thường', 日常 giữ nghĩa sát gốc (đời sống thường ngày), còn 非常 lệch hẳn thành khái niệm về TÌNH TRẠNG KHẨN CẤP, trái ngược hoàn toàn với 'bình thường'.",
+      "roots": [
+        {
+          "id": "ja-ff-jou4-root",
+          "character": "常",
+          "hanViet": "thường",
+          "meaningVn": "thường (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-jou4-w1",
+              "headword": "日常",
+              "reading": "nichijou",
+              "meaningVn": "thường ngày, hàng ngày",
+              "example": "日常の生活を大切にしましょう。",
+              "exampleVn": "Hãy trân trọng cuộc sống thường ngày."
+            },
+            {
+              "id": "ja-ff-jou4-w2",
+              "headword": "非常",
+              "reading": "hijou",
+              "meaningVn": "khẩn cấp",
+              "example": "非常の場合はここから出てください。",
+              "exampleVn": "Trong trường hợp khẩn cấp hãy ra theo lối này."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-kyuu2",
+      "language": "ja",
+      "reading": "求",
+      "groupKind": "false-friend",
+      "note": "求 (cầu) vốn nghĩa 'tìm kiếm, yêu cầu', 要求 giữ nghĩa trừu tượng (đòi hỏi, yêu cầu), còn 求人 lệch thành hoạt động KINH TẾ/xã hội cụ thể (tuyển dụng lao động), hẹp hơn nhiều so với 'yêu cầu' nói chung.",
+      "roots": [
+        {
+          "id": "ja-ff-kyuu2-root",
+          "character": "求",
+          "hanViet": "cầu",
+          "meaningVn": "cầu (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-kyuu2-w1",
+              "headword": "要求",
+              "reading": "youkyuu",
+              "meaningVn": "yêu cầu, đòi hỏi",
+              "example": "彼の要求は厳しすぎます。",
+              "exampleVn": "Yêu cầu của anh ấy quá khắt khe."
+            },
+            {
+              "id": "ja-ff-kyuu2-w2",
+              "headword": "求人",
+              "reading": "kyuujin",
+              "meaningVn": "tuyển dụng",
+              "example": "この会社は求人を出しています。",
+              "exampleVn": "Công ty này đang đăng tin tuyển dụng."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-shu3",
+      "language": "ja",
+      "reading": "種",
+      "groupKind": "false-friend",
+      "note": "種 (chủng) vốn nghĩa 'hạt giống, loại', 種類 giữ nghĩa trừu tượng chung (phân loại nói chung), còn 人種 lệch thành khái niệm XÃ HỘI nhạy cảm cụ thể (chủng tộc con người), hẹp và nặng nề hơn nhiều so với 'loại' chung chung.",
+      "roots": [
+        {
+          "id": "ja-ff-shu3-root",
+          "character": "種",
+          "hanViet": "chủng",
+          "meaningVn": "chủng (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-shu3-w1",
+              "headword": "種類",
+              "reading": "shurui",
+              "meaningVn": "chủng loại, loại",
+              "example": "たくさんの種類の花があります。",
+              "exampleVn": "Có rất nhiều loại hoa."
+            },
+            {
+              "id": "ja-ff-shu3-w2",
+              "headword": "人種",
+              "reading": "jinshu",
+              "meaningVn": "chủng tộc",
+              "example": "人種による差別はいけません。",
+              "exampleVn": "Không được phân biệt đối xử vì chủng tộc."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-ron",
+      "language": "ja",
+      "reading": "論",
+      "groupKind": "false-friend",
+      "note": "論 (luận) vốn nghĩa 'bàn luận, lý lẽ', 議論 giữ nghĩa sát gốc (hoạt động tranh luận, bàn bạc), còn 論文 lệch thành DANH TỪ cụ thể chỉ một VĂN BẢN học thuật (luận văn), không còn là một hoạt động.",
+      "roots": [
+        {
+          "id": "ja-ff-ron-root",
+          "character": "論",
+          "hanViet": "luận",
+          "meaningVn": "luận (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-ron-w1",
+              "headword": "議論",
+              "reading": "giron",
+              "meaningVn": "tranh luận, bàn luận",
+              "example": "この問題について議論しましょう。",
+              "exampleVn": "Hãy cùng tranh luận về vấn đề này."
+            },
+            {
+              "id": "ja-ff-ron-w2",
+              "headword": "論文",
+              "reading": "ronbun",
+              "meaningVn": "luận văn",
+              "example": "卒業論文を書いています。",
+              "exampleVn": "Tôi đang viết luận văn tốt nghiệp."
+            }
+          ]
+        }
+      ]
     }
   ]
 }
