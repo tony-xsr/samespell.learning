@@ -793,6 +793,402 @@
           ]
         }
       ]
+    },
+    {
+      "id": "ko-ff-dae",
+      "language": "ko",
+      "reading": "大",
+      "groupKind": "false-friend",
+      "note": "大 (đại) vốn nghĩa 'to lớn', 대학 giữ nghĩa cụ thể (nơi học lớn = đại học), còn 확대 (khuếch-đại) lệch thành ĐỘNG TỪ chỉ hành động mở rộng/phóng to, khác hẳn tính từ 'to lớn' tĩnh.",
+      "roots": [
+        {
+          "id": "ko-ff-dae-root",
+          "character": "大",
+          "hanViet": "đại",
+          "meaningVn": "đại (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-dae-w1",
+              "headword": "대학",
+              "reading": "daehak",
+              "meaningVn": "đại học",
+              "example": "저는 대학에서 경제학을 공부해요.",
+              "exampleVn": "Tôi học kinh tế học ở đại học."
+            },
+            {
+              "id": "ko-ff-dae-w2",
+              "headword": "확대",
+              "reading": "hwakdae",
+              "meaningVn": "mở rộng, phóng to",
+              "example": "사진을 확대해서 보세요.",
+              "exampleVn": "Hãy phóng to bức ảnh lên xem."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ff-so2",
+      "language": "ko",
+      "reading": "小",
+      "groupKind": "false-friend",
+      "note": "小 (tiểu) vốn nghĩa 'nhỏ', 소설 lệch thành danh từ chỉ THỂ LOẠI văn học (tiểu thuyết), còn 최소 (tối-tiểu) lệch thành tính từ SO SÁNH CỰC CẤP 'nhỏ nhất', mang tính ngữ pháp hơn.",
+      "roots": [
+        {
+          "id": "ko-ff-so2-root",
+          "character": "小",
+          "hanViet": "tiểu",
+          "meaningVn": "tiểu (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-so2-w1",
+              "headword": "소설",
+              "reading": "soseol",
+              "meaningVn": "tiểu thuyết",
+              "example": "이 소설은 정말 재미있어요.",
+              "exampleVn": "Cuốn tiểu thuyết này thật sự thú vị."
+            },
+            {
+              "id": "ko-ff-so2-w2",
+              "headword": "최소",
+              "reading": "choeso",
+              "meaningVn": "tối thiểu, nhỏ nhất",
+              "example": "최소 세 시간이 걸려요.",
+              "exampleVn": "Mất tối thiểu ba tiếng đồng hồ."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ff-sin2",
+      "language": "ko",
+      "reading": "新",
+      "groupKind": "false-friend",
+      "note": "新 (tân) vốn nghĩa 'mới', 신문 (tân-nghe) lệch thành danh từ cố định chỉ BÁO CHÍ, còn 최신 (tối-tân) lệch thành tính từ so sánh cực cấp 'mới nhất'.",
+      "roots": [
+        {
+          "id": "ko-ff-sin2-root",
+          "character": "新",
+          "hanViet": "tân",
+          "meaningVn": "tân (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-sin2-w1",
+              "headword": "신문",
+              "reading": "sinmun",
+              "meaningVn": "báo chí",
+              "example": "아버지는 아침마다 신문을 읽어요.",
+              "exampleVn": "Bố tôi đọc báo mỗi sáng."
+            },
+            {
+              "id": "ko-ff-sin2-w2",
+              "headword": "최신",
+              "reading": "choesin",
+              "meaningVn": "mới nhất",
+              "example": "이것은 최신 모델이에요.",
+              "exampleVn": "Đây là mẫu mới nhất."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ff-go2",
+      "language": "ko",
+      "reading": "高",
+      "groupKind": "false-friend",
+      "note": "高 (cao) vốn nghĩa 'cao', 고교 lệch thành tên gọi rút gọn MỘT CẤP HỌC (trường cấp 3), còn 고가 giữ khá sát gốc nhưng chuyển hẳn sang miêu tả GIÁ CẢ đắt đỏ.",
+      "roots": [
+        {
+          "id": "ko-ff-go2-root",
+          "character": "高",
+          "hanViet": "cao",
+          "meaningVn": "cao (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-go2-w1",
+              "headword": "고교",
+              "reading": "gogyo",
+              "meaningVn": "trường cấp 3",
+              "example": "그는 고교 시절 축구 선수였어요.",
+              "exampleVn": "Anh ấy từng là cầu thủ bóng đá thời cấp 3."
+            },
+            {
+              "id": "ko-ff-go2-w2",
+              "headword": "고가",
+              "reading": "goga",
+              "meaningVn": "đắt tiền, giá cao",
+              "example": "이 가방은 고가 제품이에요.",
+              "exampleVn": "Chiếc túi này là sản phẩm đắt tiền."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ff-an3",
+      "language": "ko",
+      "reading": "安",
+      "groupKind": "false-friend",
+      "note": "安 (an) vốn nghĩa 'yên ổn', 안정 giữ nghĩa khá sát gốc (ổn định), còn 안이 lệch hẳn thành tính từ mang sắc thái TIÊU CỰC (dễ dãi, hời hợt) — chữ Hán và cách đọc gần giống hệt tiếng Nhật 安易/an'i, cùng 1 hướng lệch nghĩa.",
+      "roots": [
+        {
+          "id": "ko-ff-an3-root",
+          "character": "安",
+          "hanViet": "an",
+          "meaningVn": "an (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-an3-w1",
+              "headword": "안정",
+              "reading": "anjeong",
+              "meaningVn": "ổn định",
+              "example": "요즘 마음이 안정을 찾았어요.",
+              "exampleVn": "Dạo này tâm trạng tôi đã tìm lại được sự ổn định."
+            },
+            {
+              "id": "ko-ff-an3-w2",
+              "headword": "안이",
+              "reading": "ani",
+              "meaningVn": "dễ dãi, hời hợt",
+              "example": "안이하게 생각하면 안 돼요.",
+              "exampleVn": "Không được suy nghĩ một cách hời hợt."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ff-sa2",
+      "language": "ko",
+      "reading": "事",
+      "groupKind": "false-friend",
+      "note": "事 (sự) vốn nghĩa 'sự việc', 사건 lệch thành danh từ CHUYÊN CHỈ sự việc nghiêm trọng (vụ án), còn 사무소 lệch hẳn thành danh từ chỉ MỘT ĐỊA ĐIỂM cụ thể (văn phòng) — song song hoàn toàn với tiếng Nhật 事件/事務所.",
+      "roots": [
+        {
+          "id": "ko-ff-sa2-root",
+          "character": "事",
+          "hanViet": "sự",
+          "meaningVn": "sự (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-sa2-w1",
+              "headword": "사건",
+              "reading": "sageon",
+              "meaningVn": "vụ việc, sự kiện (nghiêm trọng)",
+              "example": "어젯밤 이상한 사건이 일어났어요.",
+              "exampleVn": "Tối qua đã xảy ra một vụ việc kỳ lạ."
+            },
+            {
+              "id": "ko-ff-sa2-w2",
+              "headword": "사무소",
+              "reading": "samuso",
+              "meaningVn": "văn phòng",
+              "example": "변호사 사무소에 다녀왔어요.",
+              "exampleVn": "Tôi đã đến văn phòng luật sư."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ff-ui2",
+      "language": "ko",
+      "reading": "意",
+      "groupKind": "false-friend",
+      "note": "意 (ý) vốn nghĩa 'ý nghĩ', 의미 giữ nghĩa sát gốc (ý nghĩa), còn 주의 (chú-ý) lệch thành danh từ chỉ HÀNH ĐỘNG cụ thể (cẩn thận, lưu tâm), thiên về hành vi hơn là khái niệm trừu tượng.",
+      "roots": [
+        {
+          "id": "ko-ff-ui2-root",
+          "character": "意",
+          "hanViet": "ý",
+          "meaningVn": "ý (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-ui2-w1",
+              "headword": "의미",
+              "reading": "uimi",
+              "meaningVn": "ý nghĩa",
+              "example": "이 단어의 의미를 모르겠어요.",
+              "exampleVn": "Tôi không hiểu ý nghĩa của từ này."
+            },
+            {
+              "id": "ko-ff-ui2-w2",
+              "headword": "주의",
+              "reading": "juui",
+              "meaningVn": "chú ý, cẩn thận",
+              "example": "길을 건널 때 주의하세요.",
+              "exampleVn": "Hãy chú ý khi qua đường."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ff-chul",
+      "language": "ko",
+      "reading": "出",
+      "groupKind": "false-friend",
+      "note": "出 (xuất) vốn nghĩa 'ra, đi ra', 출구 giữ nghĩa cụ thể (lối ra vật lý), còn 수출 lệch hẳn thành khái niệm KINH TẾ/thương mại (xuất khẩu), không còn là một lối đi vật lý.",
+      "roots": [
+        {
+          "id": "ko-ff-chul-root",
+          "character": "出",
+          "hanViet": "xuất",
+          "meaningVn": "xuất (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-chul-w1",
+              "headword": "출구",
+              "reading": "chulgu",
+              "meaningVn": "lối ra",
+              "example": "비상 출구가 어디예요?",
+              "exampleVn": "Lối thoát hiểm ở đâu vậy?"
+            },
+            {
+              "id": "ko-ff-chul-w2",
+              "headword": "수출",
+              "reading": "suchul",
+              "meaningVn": "xuất khẩu",
+              "example": "이 회사는 자동차를 수출해요.",
+              "exampleVn": "Công ty này xuất khẩu ô tô."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ff-ip",
+      "language": "ko",
+      "reading": "入",
+      "groupKind": "false-friend",
+      "note": "入 (nhập) vốn nghĩa 'vào', 입학 giữ nghĩa cụ thể (nhập học), còn 수입 lệch hẳn thành khái niệm KINH TẾ/thương mại (nhập khẩu), song song đối lập với 수출 ở trên.",
+      "roots": [
+        {
+          "id": "ko-ff-ip-root",
+          "character": "入",
+          "hanViet": "nhập",
+          "meaningVn": "nhập (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-ip-w1",
+              "headword": "입학",
+              "reading": "iphak",
+              "meaningVn": "nhập học",
+              "example": "내년에 초등학교에 입학해요.",
+              "exampleVn": "Sang năm cháu sẽ nhập học tiểu học."
+            },
+            {
+              "id": "ko-ff-ip-w2",
+              "headword": "수입",
+              "reading": "suip",
+              "meaningVn": "nhập khẩu",
+              "example": "이 과일은 수입 제품이에요.",
+              "exampleVn": "Loại trái cây này là hàng nhập khẩu."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ff-ha2",
+      "language": "ko",
+      "reading": "下",
+      "groupKind": "false-friend",
+      "note": "下 (hạ) vốn nghĩa 'dưới', 지하 giữ nghĩa cụ thể (vị trí dưới mặt đất), còn 하숙 lệch hẳn thành danh từ chuyên biệt chỉ MỘT LOẠI NHÀ Ở (nhà trọ sinh viên) — song song hoàn toàn với tiếng Nhật 地下/下宿.",
+      "roots": [
+        {
+          "id": "ko-ff-ha2-root",
+          "character": "下",
+          "hanViet": "hạ",
+          "meaningVn": "hạ (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-ha2-w1",
+              "headword": "지하",
+              "reading": "jiha",
+              "meaningVn": "hầm ngầm, dưới mặt đất",
+              "example": "지하에 주차장이 있어요.",
+              "exampleVn": "Có bãi đỗ xe ở tầng hầm."
+            },
+            {
+              "id": "ko-ff-ha2-w2",
+              "headword": "하숙",
+              "reading": "hasuk",
+              "meaningVn": "nhà trọ sinh viên",
+              "example": "대학교 근처에서 하숙을 해요.",
+              "exampleVn": "Tôi ở trọ gần trường đại học."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ff-jeong2",
+      "language": "ko",
+      "reading": "定",
+      "groupKind": "false-friend",
+      "note": "定 (định) vốn nghĩa 'quyết định, ấn định', 예정 giữ nghĩa trừu tượng về KẾ HOẠCH tương lai, còn 정착 (định-bám) lệch hẳn thành khái niệm về hành động AN CƯ/bén rễ lâu dài tại một nơi.",
+      "roots": [
+        {
+          "id": "ko-ff-jeong2-root",
+          "character": "定",
+          "hanViet": "định",
+          "meaningVn": "định (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-jeong2-w1",
+              "headword": "예정",
+              "reading": "yejeong",
+              "meaningVn": "dự định, kế hoạch",
+              "example": "다음 주에 이사할 예정이에요.",
+              "exampleVn": "Tuần sau tôi dự định chuyển nhà."
+            },
+            {
+              "id": "ko-ff-jeong2-w2",
+              "headword": "정착",
+              "reading": "jeongchak",
+              "meaningVn": "định cư, an cư",
+              "example": "그는 부산에 정착했어요.",
+              "exampleVn": "Anh ấy đã định cư ở Busan."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ff-yong",
+      "language": "ko",
+      "reading": "用",
+      "groupKind": "false-friend",
+      "note": "用 (dụng) vốn nghĩa 'sử dụng, dùng', 이용 giữ nghĩa khá sát gốc (sử dụng, tận dụng), còn 용도 lệch thành danh từ hẹp hơn chỉ MỤC ĐÍCH SỬ DỤNG cụ thể của một vật/công cụ.",
+      "roots": [
+        {
+          "id": "ko-ff-yong-root",
+          "character": "用",
+          "hanViet": "dụng",
+          "meaningVn": "dụng (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-yong-w1",
+              "headword": "이용",
+              "reading": "iyong",
+              "meaningVn": "sử dụng, tận dụng",
+              "example": "대중교통을 이용하세요.",
+              "exampleVn": "Hãy sử dụng phương tiện công cộng."
+            },
+            {
+              "id": "ko-ff-yong-w2",
+              "headword": "용도",
+              "reading": "yongdo",
+              "meaningVn": "công dụng, mục đích sử dụng",
+              "example": "이 도구는 용도가 다양해요.",
+              "exampleVn": "Dụng cụ này có công dụng đa dạng."
+            }
+          ]
+        }
+      ]
     }
   ]
 }
