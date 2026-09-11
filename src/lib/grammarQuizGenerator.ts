@@ -3,10 +3,13 @@ import type { GrammarLanguageData } from "@/types/grammar";
 import type { GrammarQuizEntry, GrammarQuizMode, GrammarQuizOption, GrammarQuizQuestion } from "@/lib/grammarQuizTypes";
 
 /** Làm phẳng toàn bộ điểm ngữ pháp của 1 ngôn ngữ thành pool để sinh câu hỏi — thuần hàm biến đổi dữ
- * liệu tĩnh (không async, không cần cache như `lib/quiz/pool.ts` vì không phải merge nhiều nguồn). */
-export function buildGrammarQuizPool(data: GrammarLanguageData): GrammarQuizEntry[] {
+ * liệu tĩnh (không async, không cần cache như `lib/quiz/pool.ts` vì không phải merge nhiều nguồn).
+ * `categoryId`: chỉ lấy điểm thuộc 1 nhóm chức năng cụ thể — cùng lý do với `buildGrammarCards` bên
+ * ôn thẻ lật (mỗi nhóm có phần luyện tập riêng thay vì trộn hết 351/343 điểm vào 1 phiên). */
+export function buildGrammarQuizPool(data: GrammarLanguageData, categoryId?: string): GrammarQuizEntry[] {
   const entries: GrammarQuizEntry[] = [];
   for (const category of data.categories) {
+    if (categoryId && category.id !== categoryId) continue;
     for (const point of category.points) {
       const ex = point.examples[0];
       if (!ex) continue; // mọi điểm hiện đều có ví dụ, nhưng phòng hờ dữ liệu tương lai thiếu
