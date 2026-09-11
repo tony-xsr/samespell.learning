@@ -3169,6 +3169,402 @@
           ]
         }
       ]
+    },
+    {
+      "id": "ko-ff-in2",
+      "language": "ko",
+      "reading": "認",
+      "groupKind": "false-friend",
+      "note": "認 (nhận) vốn nghĩa 'nhận biết, thừa nhận', 인식 giữ nghĩa trừu tượng (nhận thức, khả năng hiểu biết), còn 공인 lệch thành khái niệm XÃ HỘI/pháp lý cụ thể (được công nhận chính thức) — song song với tiếng Nhật 認識/公認.",
+      "roots": [
+        {
+          "id": "ko-ff-in2-root",
+          "character": "認",
+          "hanViet": "nhận",
+          "meaningVn": "nhận (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-in2-w1",
+              "headword": "인식",
+              "reading": "insik",
+              "meaningVn": "nhận thức",
+              "example": "문제를 올바르게 인식해 주세요.",
+              "exampleVn": "Hãy nhận thức đúng đắn về vấn đề."
+            },
+            {
+              "id": "ko-ff-in2-w2",
+              "headword": "공인",
+              "reading": "gongin",
+              "meaningVn": "công nhận chính thức",
+              "example": "그는 공인 회계사예요.",
+              "exampleVn": "Anh ấy là kế toán viên được công nhận chính thức."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ff-tae2",
+      "language": "ko",
+      "reading": "態",
+      "groupKind": "false-friend",
+      "note": "態 (thái) vốn nghĩa 'dáng vẻ, trạng thái', 태도 giữ nghĩa cụ thể (thái độ của một CON NGƯỜI), còn 사태 lệch thành khái niệm rộng hơn về TÌNH THẾ/diễn biến sự việc — song song với tiếng Nhật 態度/事態.",
+      "roots": [
+        {
+          "id": "ko-ff-tae2-root",
+          "character": "態",
+          "hanViet": "thái",
+          "meaningVn": "thái (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-tae2-w1",
+              "headword": "태도",
+              "reading": "taedo",
+              "meaningVn": "thái độ",
+              "example": "그의 태도는 정말 무례해요.",
+              "exampleVn": "Thái độ của anh ấy rất thất lễ."
+            },
+            {
+              "id": "ko-ff-tae2-w2",
+              "headword": "사태",
+              "reading": "satae",
+              "meaningVn": "tình thế, sự việc",
+              "example": "사태가 심각해지고 있어요.",
+              "exampleVn": "Tình thế đang trở nên nghiêm trọng."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ff-sik2",
+      "language": "ko",
+      "reading": "識",
+      "groupKind": "false-friend",
+      "note": "識 (thức) vốn nghĩa 'biết, nhận thức', 의식 giữ nghĩa trừu tượng cá nhân (ý thức, sự tỉnh táo), còn 상식 lệch thành khái niệm XÃ HỘI (lẽ thường, kiến thức phổ thông) — song song với tiếng Nhật 意識/常識.",
+      "roots": [
+        {
+          "id": "ko-ff-sik2-root",
+          "character": "識",
+          "hanViet": "thức",
+          "meaningVn": "thức (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-sik2-w1",
+              "headword": "의식",
+              "reading": "uisik",
+              "meaningVn": "ý thức",
+              "example": "그는 의식을 잃었어요.",
+              "exampleVn": "Anh ấy đã mất ý thức."
+            },
+            {
+              "id": "ko-ff-sik2-w2",
+              "headword": "상식",
+              "reading": "sangsik",
+              "meaningVn": "lẽ thường, kiến thức phổ thông",
+              "example": "그것은 상식이에요.",
+              "exampleVn": "Đó là lẽ thường ai cũng biết."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ff-geom",
+      "language": "ko",
+      "reading": "檢",
+      "groupKind": "false-friend",
+      "note": "檢 (kiểm, dạng phồn thể của 検) vốn nghĩa 'kiểm tra, xem xét', 검사 giữ nghĩa cụ thể (hành động kiểm tra vật lý/kỹ thuật), còn 검토 lệch thành hành động TƯ DUY trừu tượng (cân nhắc, xem xét kỹ một vấn đề) — song song với tiếng Nhật 検査/検討.",
+      "roots": [
+        {
+          "id": "ko-ff-geom-root",
+          "character": "檢",
+          "hanViet": "kiểm",
+          "meaningVn": "kiểm (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-geom-w1",
+              "headword": "검사",
+              "reading": "geomsa",
+              "meaningVn": "kiểm tra",
+              "example": "건강 검진에서 검사를 받았어요.",
+              "exampleVn": "Tôi đã được kiểm tra trong đợt khám sức khỏe."
+            },
+            {
+              "id": "ko-ff-geom-w2",
+              "headword": "검토",
+              "reading": "geomto",
+              "meaningVn": "xem xét, cân nhắc",
+              "example": "이 제안을 검토해 주세요.",
+              "exampleVn": "Hãy xem xét đề xuất này."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ff-jun3",
+      "language": "ko",
+      "reading": "準",
+      "groupKind": "false-friend",
+      "note": "準 (chuẩn) vốn nghĩa 'chuẩn mực, chuẩn bị', 준비 giữ nghĩa hành động cụ thể (chuẩn bị), còn 표준 lệch thành DANH TỪ trừu tượng chỉ một MỨC CHUẨN/quy chuẩn để so sánh — song song với tiếng Nhật 準備/標準.",
+      "roots": [
+        {
+          "id": "ko-ff-jun3-root",
+          "character": "準",
+          "hanViet": "chuẩn",
+          "meaningVn": "chuẩn (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-jun3-w1",
+              "headword": "준비",
+              "reading": "junbi",
+              "meaningVn": "chuẩn bị",
+              "example": "여행 준비를 하고 있어요.",
+              "exampleVn": "Tôi đang chuẩn bị cho chuyến du lịch."
+            },
+            {
+              "id": "ko-ff-jun3-w2",
+              "headword": "표준",
+              "reading": "pyojun",
+              "meaningVn": "tiêu chuẩn",
+              "example": "이것은 업계의 표준이에요.",
+              "exampleVn": "Đây là tiêu chuẩn của ngành."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ff-ji3",
+      "language": "ko",
+      "reading": "支",
+      "groupKind": "false-friend",
+      "note": "支 (chi) vốn nghĩa 'chống đỡ, nhánh', 지점 giữ nghĩa vật lý cụ thể (một ĐỊA ĐIỂM - chi nhánh cửa hàng), còn 지배 lệch thành khái niệm trừu tượng về QUYỀN LỰC (chi phối, thống trị) — song song với tiếng Nhật 支店/支配.",
+      "roots": [
+        {
+          "id": "ko-ff-ji3-root",
+          "character": "支",
+          "hanViet": "chi",
+          "meaningVn": "chi (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-ji3-w1",
+              "headword": "지점",
+              "reading": "jijeom",
+              "meaningVn": "chi nhánh",
+              "example": "이 가게의 지점이 늘어났어요.",
+              "exampleVn": "Chi nhánh của cửa hàng này đã tăng lên."
+            },
+            {
+              "id": "ko-ff-ji3-w2",
+              "headword": "지배",
+              "reading": "jibae",
+              "meaningVn": "chi phối, thống trị",
+              "example": "그는 회사를 지배하고 있어요.",
+              "exampleVn": "Anh ấy đang chi phối công ty."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ff-po2",
+      "language": "ko",
+      "reading": "布",
+      "groupKind": "false-friend",
+      "note": "布 (bố) vốn nghĩa 'vải, rải ra', 분포 giữ nghĩa trừu tượng (sự phân bố, phân tán), còn 모포 lệch thành DANH TỪ cụ thể chỉ một VẬT DỤNG bằng vải (cái chăn) — song song với tiếng Nhật 分布/毛布.",
+      "roots": [
+        {
+          "id": "ko-ff-po2-root",
+          "character": "布",
+          "hanViet": "bố",
+          "meaningVn": "bố (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-po2-w1",
+              "headword": "분포",
+              "reading": "bunpo",
+              "meaningVn": "phân bố",
+              "example": "이 식물은 전 세계에 분포해 있어요.",
+              "exampleVn": "Loài thực vật này phân bố khắp thế giới."
+            },
+            {
+              "id": "ko-ff-po2-w2",
+              "headword": "모포",
+              "reading": "mopo",
+              "meaningVn": "chăn, mền",
+              "example": "추워서 모포를 덮었어요.",
+              "exampleVn": "Vì lạnh nên tôi đã đắp chăn."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ff-jeok2",
+      "language": "ko",
+      "reading": "適",
+      "groupKind": "false-friend",
+      "note": "適 (thích) vốn nghĩa 'thích hợp, vừa vặn', 적당 giữ nghĩa sát gốc (vừa phải, thích hợp về mức độ), còn 쾌적 lệch hẳn sang cảm giác THỂ CHẤT (thoải mái, dễ chịu), không giữ nghĩa 'thích hợp' nữa.",
+      "roots": [
+        {
+          "id": "ko-ff-jeok2-root",
+          "character": "適",
+          "hanViet": "thích",
+          "meaningVn": "thích (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-jeok2-w1",
+              "headword": "적당",
+              "reading": "jeokdang",
+              "meaningVn": "vừa phải, thích hợp",
+              "example": "이 정도면 적당해요.",
+              "exampleVn": "Mức độ này là vừa phải."
+            },
+            {
+              "id": "ko-ff-jeok2-w2",
+              "headword": "쾌적",
+              "reading": "kwaejeok",
+              "meaningVn": "thoải mái, dễ chịu",
+              "example": "이 호텔은 정말 쾌적해요.",
+              "exampleVn": "Khách sạn này rất thoải mái."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ff-gang2",
+      "language": "ko",
+      "reading": "講",
+      "groupKind": "false-friend",
+      "note": "講 (giảng) vốn nghĩa 'giảng giải, bàn luận', 강의 giữ nghĩa hành động cụ thể (bài giảng, hoạt động giảng dạy), còn 강당 lệch thành DANH TỪ chỉ một ĐỊA ĐIỂM (giảng đường, hội trường) — song song với tiếng Nhật 講義/講堂.",
+      "roots": [
+        {
+          "id": "ko-ff-gang2-root",
+          "character": "講",
+          "hanViet": "giảng",
+          "meaningVn": "giảng (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-gang2-w1",
+              "headword": "강의",
+              "reading": "gangui",
+              "meaningVn": "bài giảng",
+              "example": "오늘 강의는 정말 재미있었어요.",
+              "exampleVn": "Bài giảng hôm nay rất thú vị."
+            },
+            {
+              "id": "ko-ff-gang2-w2",
+              "headword": "강당",
+              "reading": "gangdang",
+              "meaningVn": "giảng đường, hội trường",
+              "example": "강당에서 행사가 열려요.",
+              "exampleVn": "Buổi lễ sẽ được tổ chức tại giảng đường."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ff-sok2",
+      "language": "ko",
+      "reading": "屬",
+      "groupKind": "false-friend",
+      "note": "屬 (thuộc, dạng phồn thể của 属) vốn nghĩa 'thuộc về, phụ thuộc', 소속 giữ nghĩa trừu tượng (sự trực thuộc một tổ chức), còn 금속 lệch hẳn thành DANH TỪ chỉ một CHẤT LIỆU vật lý (kim loại) — song song với tiếng Nhật 所属/金属.",
+      "roots": [
+        {
+          "id": "ko-ff-sok2-root",
+          "character": "屬",
+          "hanViet": "thuộc",
+          "meaningVn": "thuộc (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-sok2-w1",
+              "headword": "소속",
+              "reading": "sosok",
+              "meaningVn": "trực thuộc",
+              "example": "그는 어느 부서에 소속되어 있어요?",
+              "exampleVn": "Anh ấy trực thuộc phòng ban nào?"
+            },
+            {
+              "id": "ko-ff-sok2-w2",
+              "headword": "금속",
+              "reading": "geumsok",
+              "meaningVn": "kim loại",
+              "example": "이 제품은 금속으로 만들어졌어요.",
+              "exampleVn": "Sản phẩm này được làm bằng kim loại."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ff-ja2",
+      "language": "ko",
+      "reading": "資",
+      "groupKind": "false-friend",
+      "note": "資 (tư) vốn nghĩa 'của cải, tư liệu', 자료 giữ nghĩa cụ thể (tài liệu nói chung), còn 자본 lệch thành khái niệm KINH TẾ trừu tượng (tư bản, vốn liếng) — song song với tiếng Nhật 資料/資本.",
+      "roots": [
+        {
+          "id": "ko-ff-ja2-root",
+          "character": "資",
+          "hanViet": "tư",
+          "meaningVn": "tư (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-ja2-w1",
+              "headword": "자료",
+              "reading": "jaryo",
+              "meaningVn": "tài liệu",
+              "example": "회의 자료를 준비했어요.",
+              "exampleVn": "Tôi đã chuẩn bị tài liệu cho cuộc họp."
+            },
+            {
+              "id": "ko-ff-ja2-w2",
+              "headword": "자본",
+              "reading": "jabon",
+              "meaningVn": "tư bản, vốn",
+              "example": "이 사업에는 많은 자본이 필요해요.",
+              "exampleVn": "Việc kinh doanh này cần nhiều vốn."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ff-geup",
+      "language": "ko",
+      "reading": "給",
+      "groupKind": "false-friend",
+      "note": "給 (cấp) vốn nghĩa 'cấp, ban cho', 급료 lệch thành DANH TỪ cụ thể chỉ một KHOẢN TIỀN (tiền lương), còn 공급 giữ nghĩa trừu tượng gần gốc hơn (hành động cung cấp nói chung) — song song với tiếng Nhật 給料/供給.",
+      "roots": [
+        {
+          "id": "ko-ff-geup-root",
+          "character": "給",
+          "hanViet": "cấp",
+          "meaningVn": "cấp (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-geup-w1",
+              "headword": "급료",
+              "reading": "geumnyo",
+              "meaningVn": "tiền lương",
+              "example": "이번 달 급료가 들어왔어요.",
+              "exampleVn": "Tiền lương tháng này đã vào tài khoản."
+            },
+            {
+              "id": "ko-ff-geup-w2",
+              "headword": "공급",
+              "reading": "gonggeup",
+              "meaningVn": "cung cấp",
+              "example": "전력 공급이 끊겼어요.",
+              "exampleVn": "Việc cung cấp điện đã bị ngừng."
+            }
+          ]
+        }
+      ]
     }
   ]
 }
