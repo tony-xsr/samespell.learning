@@ -34,10 +34,15 @@ export default function GrammarReviewSession({
   data,
   lang,
   backHref,
+  categoryId,
+  categoryTitle,
 }: {
   data: GrammarLanguageData;
   lang: string;
   backHref: string;
+  /** Truyền vào để chỉ luyện 1 nhóm chức năng thay vì toàn bộ điểm ngữ pháp — xem `buildGrammarCards`. */
+  categoryId?: string;
+  categoryTitle?: string;
 }) {
   const [ready, setReady] = useState(false);
   const [cards, setCards] = useState<RuntimeCard[]>([]);
@@ -64,7 +69,7 @@ export default function GrammarReviewSession({
     (async () => {
       const progress = await loadGrammarProgress();
       if (cancelled) return;
-      const allCards: RuntimeCard[] = buildGrammarCards(data)
+      const allCards: RuntimeCard[] = buildGrammarCards(data, categoryId)
         .map((c) => ({ ...c, bookmarked: progress[c.id]?.bookmarked }))
         .filter((c) => !progress[c.id]?.mastered);
       const due = allCards.filter((c) => isDue(progress[c.id]));
@@ -74,7 +79,7 @@ export default function GrammarReviewSession({
     return () => {
       cancelled = true;
     };
-  }, [data]);
+  }, [data, categoryId]);
 
   const current = cards[index];
 
@@ -155,7 +160,11 @@ export default function GrammarReviewSession({
   if (cards.length === 0) {
     return (
       <main className="flex flex-1 flex-col items-center justify-center gap-4 px-4 text-center">
-        <p className="text-lg font-medium text-ink">Chưa có điểm ngữ pháp nào để ôn tập.</p>
+        <p className="text-lg font-medium text-ink">
+          {categoryTitle
+            ? `Chưa có điểm ngữ pháp nào để ôn tập trong nhóm "${categoryTitle}".`
+            : "Chưa có điểm ngữ pháp nào để ôn tập."}
+        </p>
         <Link href={backHref} className="text-sm text-brand-600 hover:underline">
           ← Quay lại
         </Link>
@@ -204,7 +213,8 @@ export default function GrammarReviewSession({
           </span>
         </div>
         <p className="mb-3 text-center text-xs font-medium text-ink-muted">
-          {data.label} —{" "}
+          {data.label}
+          {categoryTitle ? ` · ${categoryTitle}` : ""} —{" "}
           {current.kind === "confusion"
             ? "⚡ Chọn đúng cấu trúc"
             : current.kind === "story"
