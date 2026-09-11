@@ -1981,6 +1981,402 @@
           ]
         }
       ]
+    },
+    {
+      "id": "ja-ff-kyuu",
+      "language": "ja",
+      "reading": "究",
+      "groupKind": "false-friend",
+      "note": "究 (cứu) vốn nghĩa 'nghiên cứu, tìm tòi', 研究 giữ nghĩa sát gốc (hoạt động học thuật), còn 究極 lệch thành tính từ chỉ MỨC ĐỘ CAO NHẤT/tối thượng, không còn là hành động nghiên cứu.",
+      "roots": [
+        {
+          "id": "ja-ff-kyuu-root",
+          "character": "究",
+          "hanViet": "cứu",
+          "meaningVn": "cứu (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-kyuu-w1",
+              "headword": "研究",
+              "reading": "kenkyuu",
+              "meaningVn": "nghiên cứu",
+              "example": "大学で医学を研究しています。",
+              "exampleVn": "Tôi đang nghiên cứu y học ở trường đại học."
+            },
+            {
+              "id": "ja-ff-kyuu-w2",
+              "headword": "究極",
+              "reading": "kyuukyoku",
+              "meaningVn": "cực hạn, tối thượng",
+              "example": "これは究極の選択です。",
+              "exampleVn": "Đây là sự lựa chọn tối thượng."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-sou2",
+      "language": "ja",
+      "reading": "想",
+      "groupKind": "false-friend",
+      "note": "想 (tưởng) vốn nghĩa 'suy nghĩ, tưởng tượng', 感想 giữ nghĩa cụ thể (cảm nghĩ về một sự việc thực tế), còn 理想 lệch thành khái niệm triết học về ĐIỀU HOÀN HẢO mong muốn.",
+      "roots": [
+        {
+          "id": "ja-ff-sou2-root",
+          "character": "想",
+          "hanViet": "tưởng",
+          "meaningVn": "tưởng (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-sou2-w1",
+              "headword": "感想",
+              "reading": "kansou",
+              "meaningVn": "cảm tưởng, cảm nghĩ",
+              "example": "映画の感想を教えてください。",
+              "exampleVn": "Hãy cho tôi biết cảm nghĩ của bạn về bộ phim."
+            },
+            {
+              "id": "ja-ff-sou2-w2",
+              "headword": "理想",
+              "reading": "risou",
+              "meaningVn": "lý tưởng",
+              "example": "彼は理想の仕事を見つけた。",
+              "exampleVn": "Anh ấy đã tìm được công việc lý tưởng."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-an",
+      "language": "ja",
+      "reading": "案",
+      "groupKind": "false-friend",
+      "note": "案 (án) vốn nghĩa 'kế hoạch, phương án', 案内 lệch thành hành động cụ thể HƯỚNG DẪN chỉ đường, còn 提案 giữ nghĩa trừu tượng gần gốc hơn (đưa ra một Ý TƯỞNG).",
+      "roots": [
+        {
+          "id": "ja-ff-an-root",
+          "character": "案",
+          "hanViet": "án",
+          "meaningVn": "án (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-an-w1",
+              "headword": "案内",
+              "reading": "annai",
+              "meaningVn": "hướng dẫn, chỉ dẫn",
+              "example": "駅まで案内してください。",
+              "exampleVn": "Hãy hướng dẫn tôi đến ga."
+            },
+            {
+              "id": "ja-ff-an-w2",
+              "headword": "提案",
+              "reading": "teian",
+              "meaningVn": "đề xuất, đề án",
+              "example": "新しい提案があります。",
+              "exampleVn": "Tôi có một đề xuất mới."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-ki2",
+      "language": "ja",
+      "reading": "記",
+      "groupKind": "false-friend",
+      "note": "記 (ký) vốn nghĩa 'ghi chép', 日記 giữ nghĩa cụ thể (ghi chép cá nhân hằng ngày), còn 記録 lệch thành khái niệm về THÀNH TÍCH/dữ liệu được lưu giữ chính thức.",
+      "roots": [
+        {
+          "id": "ja-ff-ki2-root",
+          "character": "記",
+          "hanViet": "ký",
+          "meaningVn": "ký (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-ki2-w1",
+              "headword": "日記",
+              "reading": "nikki",
+              "meaningVn": "nhật ký",
+              "example": "毎晩日記をつけています。",
+              "exampleVn": "Mỗi tối tôi đều viết nhật ký."
+            },
+            {
+              "id": "ja-ff-ki2-w2",
+              "headword": "記録",
+              "reading": "kiroku",
+              "meaningVn": "kỷ lục, ghi chép",
+              "example": "彼は世界記録を作った。",
+              "exampleVn": "Anh ấy đã lập kỷ lục thế giới."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-gou",
+      "language": "ja",
+      "reading": "号",
+      "groupKind": "false-friend",
+      "note": "号 (hiệu) vốn nghĩa 'dấu hiệu, tên gọi', 番号 giữ nghĩa cụ thể (con số định danh), còn 号泣 (hiệu-khấp) lệch hẳn thành động từ chỉ hành động KHÓC LỚN/nức nở, hoàn toàn khác 'số hiệu'.",
+      "roots": [
+        {
+          "id": "ja-ff-gou-root",
+          "character": "号",
+          "hanViet": "hiệu",
+          "meaningVn": "hiệu (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-gou-w1",
+              "headword": "番号",
+              "reading": "bangou",
+              "meaningVn": "số hiệu, số điện thoại",
+              "example": "電話番号を教えてください。",
+              "exampleVn": "Hãy cho tôi biết số điện thoại."
+            },
+            {
+              "id": "ja-ff-gou-w2",
+              "headword": "号泣",
+              "reading": "goukyuu",
+              "meaningVn": "khóc nức nở",
+              "example": "彼女はその映画を見て号泣した。",
+              "exampleVn": "Cô ấy đã khóc nức nở khi xem bộ phim đó."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-soku2",
+      "language": "ja",
+      "reading": "束",
+      "groupKind": "false-friend",
+      "note": "束 (thúc) vốn nghĩa 'bó lại, ràng buộc', 約束 lệch thành khái niệm trừu tượng 'lời hứa, cam kết', còn 花束 giữ nghĩa cụ thể (một VẬT THỂ - bó hoa).",
+      "roots": [
+        {
+          "id": "ja-ff-soku2-root",
+          "character": "束",
+          "hanViet": "thúc",
+          "meaningVn": "thúc (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-soku2-w1",
+              "headword": "約束",
+              "reading": "yakusoku",
+              "meaningVn": "hứa hẹn, lời hứa",
+              "example": "約束を守ってください。",
+              "exampleVn": "Hãy giữ lời hứa."
+            },
+            {
+              "id": "ja-ff-soku2-w2",
+              "headword": "花束",
+              "reading": "hanataba",
+              "meaningVn": "bó hoa",
+              "example": "彼女に花束を渡した。",
+              "exampleVn": "Tôi đã tặng bó hoa cho cô ấy."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-yuu2",
+      "language": "ja",
+      "reading": "遊",
+      "groupKind": "false-friend",
+      "note": "遊 (du) vốn nghĩa 'đi chơi, dạo chơi', 遊園地 giữ nghĩa cụ thể (một ĐỊA ĐIỂM giải trí), còn 遊牧 lệch thành khái niệm về LỐI SỐNG du mục của một cộng đồng.",
+      "roots": [
+        {
+          "id": "ja-ff-yuu2-root",
+          "character": "遊",
+          "hanViet": "du",
+          "meaningVn": "du (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-yuu2-w1",
+              "headword": "遊園地",
+              "reading": "yuuenchi",
+              "meaningVn": "công viên giải trí",
+              "example": "週末に遊園地へ行きました。",
+              "exampleVn": "Cuối tuần tôi đã đi công viên giải trí."
+            },
+            {
+              "id": "ja-ff-yuu2-w2",
+              "headword": "遊牧",
+              "reading": "yuuboku",
+              "meaningVn": "du mục",
+              "example": "彼らは遊牧民です。",
+              "exampleVn": "Họ là dân du mục."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-ken2",
+      "language": "ja",
+      "reading": "建",
+      "groupKind": "false-friend",
+      "note": "建 (kiến) vốn nghĩa 'xây dựng, dựng lên', 建物 giữ nghĩa cụ thể (một công trình vật chất), còn 建前 lệch hẳn thành khái niệm văn hoá XÃ HỘI trừu tượng (vẻ ngoài/lời nói xã giao, đối lập với suy nghĩ thật).",
+      "roots": [
+        {
+          "id": "ja-ff-ken2-root",
+          "character": "建",
+          "hanViet": "kiến",
+          "meaningVn": "kiến (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-ken2-w1",
+              "headword": "建物",
+              "reading": "tatemono",
+              "meaningVn": "toà nhà, kiến trúc",
+              "example": "あの建物はとても高いです。",
+              "exampleVn": "Toà nhà đó rất cao."
+            },
+            {
+              "id": "ja-ff-ken2-w2",
+              "headword": "建前",
+              "reading": "tatemae",
+              "meaningVn": "vẻ ngoài, lời nói xã giao",
+              "example": "それは建前に過ぎません。",
+              "exampleVn": "Đó chỉ là lời nói xã giao thôi."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-shitsu",
+      "language": "ja",
+      "reading": "質",
+      "groupKind": "false-friend",
+      "note": "質 (chất) vốn nghĩa 'bản chất, phẩm chất', 品質 giữ nghĩa cụ thể (chất lượng sản phẩm), còn 質問 lệch hẳn thành hành động HỎI, không liên quan đến 'chất lượng' vật chất.",
+      "roots": [
+        {
+          "id": "ja-ff-shitsu-root",
+          "character": "質",
+          "hanViet": "chất",
+          "meaningVn": "chất (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-shitsu-w1",
+              "headword": "品質",
+              "reading": "hinshitsu",
+              "meaningVn": "chất lượng",
+              "example": "この製品は品質が良いです。",
+              "exampleVn": "Sản phẩm này có chất lượng tốt."
+            },
+            {
+              "id": "ja-ff-shitsu-w2",
+              "headword": "質問",
+              "reading": "shitsumon",
+              "meaningVn": "câu hỏi",
+              "example": "質問があれば聞いてください。",
+              "exampleVn": "Nếu có câu hỏi thì hãy hỏi."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-hen",
+      "language": "ja",
+      "reading": "変",
+      "groupKind": "false-friend",
+      "note": "変 (biến) vốn nghĩa 'thay đổi', 変化 giữ nghĩa sát gốc, còn 大変 lệch thành trạng từ/tính từ chỉ MỨC ĐỘ hoặc CẢM NHẬN chủ quan (vất vả, rất), khác 'thay đổi' khách quan.",
+      "roots": [
+        {
+          "id": "ja-ff-hen-root",
+          "character": "変",
+          "hanViet": "biến",
+          "meaningVn": "biến (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-hen-w1",
+              "headword": "変化",
+              "reading": "henka",
+              "meaningVn": "biến hoá, thay đổi",
+              "example": "天気が急に変化しました。",
+              "exampleVn": "Thời tiết đã đột nhiên thay đổi."
+            },
+            {
+              "id": "ja-ff-hen-w2",
+              "headword": "大変",
+              "reading": "taihen",
+              "meaningVn": "vất vả, khó khăn",
+              "example": "引っ越しは大変でした。",
+              "exampleVn": "Chuyển nhà thật vất vả."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-jou3",
+      "language": "ja",
+      "reading": "情",
+      "groupKind": "false-friend",
+      "note": "情 (tình) vốn nghĩa 'tình cảm', 情報 lệch hẳn thành khái niệm hiện đại về DỮ LIỆU/thông tin khách quan, còn 事情 giữ nghĩa gần với 'hoàn cảnh' hơn (tình hình cụ thể của một sự việc).",
+      "roots": [
+        {
+          "id": "ja-ff-jou3-root",
+          "character": "情",
+          "hanViet": "tình",
+          "meaningVn": "tình (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-jou3-w1",
+              "headword": "情報",
+              "reading": "jouhou",
+              "meaningVn": "thông tin",
+              "example": "もっと情報が必要です。",
+              "exampleVn": "Tôi cần thêm thông tin."
+            },
+            {
+              "id": "ja-ff-jou3-w2",
+              "headword": "事情",
+              "reading": "jijou",
+              "meaningVn": "tình hình, hoàn cảnh",
+              "example": "家庭の事情で休みます。",
+              "exampleVn": "Tôi nghỉ vì hoàn cảnh gia đình."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-ka2",
+      "language": "ja",
+      "reading": "化",
+      "groupKind": "false-friend",
+      "note": "化 (hoá) vốn nghĩa 'biến đổi, chuyển hoá', 文化 lệch thành khái niệm XÃ HỘI rộng lớn (văn hoá), còn 化粧 lệch thành hành động cụ thể LÀM ĐẸP (trang điểm).",
+      "roots": [
+        {
+          "id": "ja-ff-ka2-root",
+          "character": "化",
+          "hanViet": "hoá",
+          "meaningVn": "hoá (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-ka2-w1",
+              "headword": "文化",
+              "reading": "bunka",
+              "meaningVn": "văn hoá",
+              "example": "日本の文化に興味があります。",
+              "exampleVn": "Tôi quan tâm đến văn hoá Nhật Bản."
+            },
+            {
+              "id": "ja-ff-ka2-w2",
+              "headword": "化粧",
+              "reading": "keshou",
+              "meaningVn": "trang điểm",
+              "example": "彼女は化粧をしています。",
+              "exampleVn": "Cô ấy đang trang điểm."
+            }
+          ]
+        }
+      ]
     }
   ]
 }
