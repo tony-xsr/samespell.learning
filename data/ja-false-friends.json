@@ -3169,6 +3169,402 @@
           ]
         }
       ]
+    },
+    {
+      "id": "ja-ff-nin",
+      "language": "ja",
+      "reading": "認",
+      "groupKind": "false-friend",
+      "note": "認 (nhận) vốn nghĩa 'nhận biết, thừa nhận', 認識 giữ nghĩa trừu tượng (nhận thức, khả năng hiểu biết), còn 公認 lệch thành khái niệm XÃ HỘI/pháp lý cụ thể (được công nhận chính thức), hẹp hơn nhiều so với 'nhận thức' nói chung.",
+      "roots": [
+        {
+          "id": "ja-ff-nin-root",
+          "character": "認",
+          "hanViet": "nhận",
+          "meaningVn": "nhận (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-nin-w1",
+              "headword": "認識",
+              "reading": "ninshiki",
+              "meaningVn": "nhận thức",
+              "example": "問題を正しく認識してください。",
+              "exampleVn": "Hãy nhận thức đúng đắn về vấn đề."
+            },
+            {
+              "id": "ja-ff-nin-w2",
+              "headword": "公認",
+              "reading": "kounin",
+              "meaningVn": "công nhận chính thức",
+              "example": "彼は公認会計士です。",
+              "exampleVn": "Anh ấy là kế toán viên được công nhận chính thức."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-tai3",
+      "language": "ja",
+      "reading": "態",
+      "groupKind": "false-friend",
+      "note": "態 (thái) vốn nghĩa 'dáng vẻ, trạng thái', 態度 giữ nghĩa cụ thể (thái độ của một CON NGƯỜI), còn 事態 lệch thành khái niệm rộng hơn về TÌNH THẾ/diễn biến sự việc, không chỉ về một cá nhân.",
+      "roots": [
+        {
+          "id": "ja-ff-tai3-root",
+          "character": "態",
+          "hanViet": "thái",
+          "meaningVn": "thái (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-tai3-w1",
+              "headword": "態度",
+              "reading": "taido",
+              "meaningVn": "thái độ",
+              "example": "彼の態度はとても失礼です。",
+              "exampleVn": "Thái độ của anh ấy rất thất lễ."
+            },
+            {
+              "id": "ja-ff-tai3-w2",
+              "headword": "事態",
+              "reading": "jitai",
+              "meaningVn": "tình thế, sự việc",
+              "example": "事態は深刻になっています。",
+              "exampleVn": "Tình thế đang trở nên nghiêm trọng."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-shiki2",
+      "language": "ja",
+      "reading": "識",
+      "groupKind": "false-friend",
+      "note": "識 (thức) vốn nghĩa 'biết, nhận thức', 意識 giữ nghĩa trừu tượng cá nhân (ý thức, sự tỉnh táo), còn 常識 lệch thành khái niệm XÃ HỘI (lẽ thường, kiến thức phổ thông mà ai cũng nên biết), không chỉ về một cá nhân.",
+      "roots": [
+        {
+          "id": "ja-ff-shiki2-root",
+          "character": "識",
+          "hanViet": "thức",
+          "meaningVn": "thức (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-shiki2-w1",
+              "headword": "意識",
+              "reading": "ishiki",
+              "meaningVn": "ý thức",
+              "example": "彼は意識を失いました。",
+              "exampleVn": "Anh ấy đã mất ý thức."
+            },
+            {
+              "id": "ja-ff-shiki2-w2",
+              "headword": "常識",
+              "reading": "joushiki",
+              "meaningVn": "lẽ thường, kiến thức phổ thông",
+              "example": "それは常識です。",
+              "exampleVn": "Đó là lẽ thường ai cũng biết."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-ken5",
+      "language": "ja",
+      "reading": "検",
+      "groupKind": "false-friend",
+      "note": "検 (kiểm, dạng shinjitai của 檢) vốn nghĩa 'kiểm tra, xem xét', 検査 giữ nghĩa cụ thể (hành động kiểm tra vật lý/kỹ thuật), còn 検討 lệch thành hành động TƯ DUY trừu tượng (cân nhắc, xem xét kỹ một vấn đề), không cần kiểm tra vật lý.",
+      "roots": [
+        {
+          "id": "ja-ff-ken5-root",
+          "character": "検",
+          "hanViet": "kiểm",
+          "meaningVn": "kiểm (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-ken5-w1",
+              "headword": "検査",
+              "reading": "kensa",
+              "meaningVn": "kiểm tra",
+              "example": "健康診断で検査を受けました。",
+              "exampleVn": "Tôi đã được kiểm tra trong đợt khám sức khỏe."
+            },
+            {
+              "id": "ja-ff-ken5-w2",
+              "headword": "検討",
+              "reading": "kentou",
+              "meaningVn": "xem xét, cân nhắc",
+              "example": "この提案を検討してください。",
+              "exampleVn": "Hãy xem xét đề xuất này."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-jun2",
+      "language": "ja",
+      "reading": "準",
+      "groupKind": "false-friend",
+      "note": "準 (chuẩn) vốn nghĩa 'chuẩn mực, chuẩn bị', 準備 giữ nghĩa hành động cụ thể (chuẩn bị), còn 標準 lệch thành DANH TỪ trừu tượng chỉ một MỨC CHUẨN/quy chuẩn để so sánh, không còn là một hành động.",
+      "roots": [
+        {
+          "id": "ja-ff-jun2-root",
+          "character": "準",
+          "hanViet": "chuẩn",
+          "meaningVn": "chuẩn (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-jun2-w1",
+              "headword": "準備",
+              "reading": "junbi",
+              "meaningVn": "chuẩn bị",
+              "example": "旅行の準備をしています。",
+              "exampleVn": "Tôi đang chuẩn bị cho chuyến du lịch."
+            },
+            {
+              "id": "ja-ff-jun2-w2",
+              "headword": "標準",
+              "reading": "hyoujun",
+              "meaningVn": "tiêu chuẩn",
+              "example": "これは業界の標準です。",
+              "exampleVn": "Đây là tiêu chuẩn của ngành."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-shi3",
+      "language": "ja",
+      "reading": "支",
+      "groupKind": "false-friend",
+      "note": "支 (chi) vốn nghĩa 'chống đỡ, nhánh', 支店 giữ nghĩa vật lý cụ thể (một ĐỊA ĐIỂM - chi nhánh cửa hàng), còn 支配 lệch thành khái niệm trừu tượng về QUYỀN LỰC (chi phối, thống trị), không còn liên quan đến địa điểm.",
+      "roots": [
+        {
+          "id": "ja-ff-shi3-root",
+          "character": "支",
+          "hanViet": "chi",
+          "meaningVn": "chi (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-shi3-w1",
+              "headword": "支店",
+              "reading": "shiten",
+              "meaningVn": "chi nhánh",
+              "example": "この店の支店が増えました。",
+              "exampleVn": "Chi nhánh của cửa hàng này đã tăng lên."
+            },
+            {
+              "id": "ja-ff-shi3-w2",
+              "headword": "支配",
+              "reading": "shihai",
+              "meaningVn": "chi phối, thống trị",
+              "example": "彼は会社を支配しています。",
+              "exampleVn": "Anh ấy đang chi phối công ty."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-fu2",
+      "language": "ja",
+      "reading": "布",
+      "groupKind": "false-friend",
+      "note": "布 (bố) vốn nghĩa 'vải, rải ra', 分布 giữ nghĩa trừu tượng (sự phân bố, phân tán), còn 毛布 lệch thành DANH TỪ cụ thể chỉ một VẬT DỤNG bằng vải (cái chăn), không còn liên quan đến 'phân bố'.",
+      "roots": [
+        {
+          "id": "ja-ff-fu2-root",
+          "character": "布",
+          "hanViet": "bố",
+          "meaningVn": "bố (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-fu2-w1",
+              "headword": "分布",
+              "reading": "bunpu",
+              "meaningVn": "phân bố",
+              "example": "この植物は世界中に分布しています。",
+              "exampleVn": "Loài thực vật này phân bố khắp thế giới."
+            },
+            {
+              "id": "ja-ff-fu2-w2",
+              "headword": "毛布",
+              "reading": "moufu",
+              "meaningVn": "chăn, mền",
+              "example": "寒いので毛布をかけました。",
+              "exampleVn": "Vì lạnh nên tôi đã đắp chăn."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-teki",
+      "language": "ja",
+      "reading": "適",
+      "groupKind": "false-friend",
+      "note": "適 (thích) vốn nghĩa 'thích hợp, vừa vặn', 適当 giữ nghĩa gốc trên danh nghĩa (thích đáng, phù hợp) nhưng trong khẩu ngữ lại lệch thành nghĩa TIÊU CỰC (qua loa, làm cho có), còn 快適 lệch hẳn sang cảm giác THỂ CHẤT (thoải mái, dễ chịu).",
+      "roots": [
+        {
+          "id": "ja-ff-teki-root",
+          "character": "適",
+          "hanViet": "thích",
+          "meaningVn": "thích (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-teki-w1",
+              "headword": "適当",
+              "reading": "tekitou",
+              "meaningVn": "qua loa, tùy tiện",
+              "example": "彼はいつも適当に返事をします。",
+              "exampleVn": "Anh ấy lúc nào cũng trả lời qua loa."
+            },
+            {
+              "id": "ja-ff-teki-w2",
+              "headword": "快適",
+              "reading": "kaiteki",
+              "meaningVn": "thoải mái, dễ chịu",
+              "example": "このホテルはとても快適です。",
+              "exampleVn": "Khách sạn này rất thoải mái."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-kou6",
+      "language": "ja",
+      "reading": "講",
+      "groupKind": "false-friend",
+      "note": "講 (giảng) vốn nghĩa 'giảng giải, bàn luận', 講義 giữ nghĩa hành động cụ thể (bài giảng, hoạt động giảng dạy), còn 講堂 lệch thành DANH TỪ chỉ một ĐỊA ĐIỂM (giảng đường, hội trường), không còn là một hoạt động.",
+      "roots": [
+        {
+          "id": "ja-ff-kou6-root",
+          "character": "講",
+          "hanViet": "giảng",
+          "meaningVn": "giảng (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-kou6-w1",
+              "headword": "講義",
+              "reading": "kougi",
+              "meaningVn": "bài giảng",
+              "example": "今日の講義は面白かったです。",
+              "exampleVn": "Bài giảng hôm nay rất thú vị."
+            },
+            {
+              "id": "ja-ff-kou6-w2",
+              "headword": "講堂",
+              "reading": "koudou",
+              "meaningVn": "giảng đường, hội trường",
+              "example": "講堂で式典が行われます。",
+              "exampleVn": "Buổi lễ sẽ được tổ chức tại giảng đường."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-zoku2",
+      "language": "ja",
+      "reading": "属",
+      "groupKind": "false-friend",
+      "note": "属 (thuộc, dạng shinjitai của 屬) vốn nghĩa 'thuộc về, phụ thuộc', 所属 giữ nghĩa trừu tượng (sự trực thuộc một tổ chức), còn 金属 lệch hẳn thành DANH TỪ chỉ một CHẤT LIỆU vật lý (kim loại), không còn liên quan đến 'thuộc về'.",
+      "roots": [
+        {
+          "id": "ja-ff-zoku2-root",
+          "character": "属",
+          "hanViet": "thuộc",
+          "meaningVn": "thuộc (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-zoku2-w1",
+              "headword": "所属",
+              "reading": "shozoku",
+              "meaningVn": "trực thuộc",
+              "example": "彼はどの部署に所属していますか。",
+              "exampleVn": "Anh ấy trực thuộc phòng ban nào?"
+            },
+            {
+              "id": "ja-ff-zoku2-w2",
+              "headword": "金属",
+              "reading": "kinzoku",
+              "meaningVn": "kim loại",
+              "example": "この製品は金属でできています。",
+              "exampleVn": "Sản phẩm này được làm bằng kim loại."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-shi4",
+      "language": "ja",
+      "reading": "資",
+      "groupKind": "false-friend",
+      "note": "資 (tư) vốn nghĩa 'của cải, tư liệu', 資料 giữ nghĩa cụ thể (tài liệu nói chung), còn 資本 lệch thành khái niệm KINH TẾ trừu tượng (tư bản, vốn liếng), hẹp hơn và mang tính chuyên ngành hơn 'tài liệu' chung chung.",
+      "roots": [
+        {
+          "id": "ja-ff-shi4-root",
+          "character": "資",
+          "hanViet": "tư",
+          "meaningVn": "tư (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-shi4-w1",
+              "headword": "資料",
+              "reading": "shiryou",
+              "meaningVn": "tài liệu",
+              "example": "会議の資料を準備しました。",
+              "exampleVn": "Tôi đã chuẩn bị tài liệu cho cuộc họp."
+            },
+            {
+              "id": "ja-ff-shi4-w2",
+              "headword": "資本",
+              "reading": "shihon",
+              "meaningVn": "tư bản, vốn",
+              "example": "この事業には多くの資本が必要です。",
+              "exampleVn": "Việc kinh doanh này cần nhiều vốn."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-kyuu3",
+      "language": "ja",
+      "reading": "給",
+      "groupKind": "false-friend",
+      "note": "給 (cấp) vốn nghĩa 'cấp, ban cho', 給料 lệch thành DANH TỪ cụ thể chỉ một KHOẢN TIỀN (tiền lương), còn 供給 giữ nghĩa trừu tượng gần gốc hơn (hành động cung cấp nói chung), không chỉ giới hạn ở tiền bạc.",
+      "roots": [
+        {
+          "id": "ja-ff-kyuu3-root",
+          "character": "給",
+          "hanViet": "cấp",
+          "meaningVn": "cấp (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-kyuu3-w1",
+              "headword": "給料",
+              "reading": "kyuuryou",
+              "meaningVn": "tiền lương",
+              "example": "今月の給料が入りました。",
+              "exampleVn": "Tiền lương tháng này đã vào tài khoản."
+            },
+            {
+              "id": "ja-ff-kyuu3-w2",
+              "headword": "供給",
+              "reading": "kyoukyuu",
+              "meaningVn": "cung cấp",
+              "example": "電力の供給が止まりました。",
+              "exampleVn": "Việc cung cấp điện đã bị ngừng."
+            }
+          ]
+        }
+      ]
     }
   ]
 }
