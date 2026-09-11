@@ -42,11 +42,23 @@ interface Props {
   /** Thay vì tự chuyển câu sau ANSWER_DELAY_MS, dừng lại hiện bảng giải thích đầy đủ (nghĩa/sắc thái/
    * ví dụ/lỗi hay gặp/mẹo nhớ) và chờ người dùng chủ động bấm "Câu tiếp theo". */
   explainMode: boolean;
+  /** Chỉ luyện trắc nghiệm 1 nhóm chức năng thay vì toàn bộ điểm ngữ pháp — xem `GrammarCategoryList`
+   * "🧪 Trắc nghiệm" ở mỗi nhóm. */
+  categoryId?: string;
+  categoryTitle?: string;
 }
 
-async function fetchQuestions(lang: Language, mode: GrammarQuizMode): Promise<GrammarQuizQuestion[]> {
-  const res = await fetch(`/api/grammar-quiz/questions?lang=${lang}&mode=${mode}&count=${BATCH_SIZE}`);
-  if (!res.ok) throw new Error("Không tải được câu hỏi.");
+async function fetchQuestions(
+  lang: Language,
+  mode: GrammarQuizMode,
+  categoryId?: string,
+): Promise<GrammarQuizQuestion[]> {
+  const categoryQuery = categoryId ? `&category=${encodeURIComponent(categoryId)}` : "";
+  const res = await fetch(`/api/grammar-quiz/questions?lang=${lang}&mode=${mode}&count=${BATCH_SIZE}${categoryQuery}`);
+  if (!res.ok) {
+    const data = await res.json().catch(() => null);
+    throw new Error(data?.error || "Không tải được câu hỏi.");
+  }
   const data = await res.json();
   return Array.isArray(data.questions) ? data.questions : [];
 }
@@ -97,7 +109,7 @@ function ScoreRing({ percent }: { percent: number }) {
   );
 }
 
-export default function GrammarQuizSession({ lang, mode, reflex, explainMode }: Props) {
+export default function GrammarQuizSession({ lang, mode, reflex, explainMode, categoryId, categoryTitle }: Props) {
   const [sessionKey, setSessionKey] = useState(0);
   const [questions, setQuestions] = useState<GrammarQuizQuestion[]>([]);
   const [index, setIndex] = useState(0);
@@ -123,14 +135,14 @@ export default function GrammarQuizSession({ lang, mode, reflex, explainMode }: 
     setLoading(true);
     setErrorMsg(null);
     try {
-      const qs = await fetchQuestions(lang, mode);
+      const qs = await fetchQuestions(lang, mode, categoryId);
       setQuestions(qs);
-    } catch {
-      setErrorMsg("Không tải được câu hỏi. Vui lòng thử lại.");
+    } catch (e) {
+      setErrorMsg(e instanceof Error ? e.message : "Không tải được câu hỏi. Vui lòng thử lại.");
     } finally {
       setLoading(false);
     }
-  }, [lang, mode]);
+  }, [lang, mode, categoryId]);
 
   useEffect(() => {
     setQuestions([]);
@@ -143,21 +155,21 @@ export default function GrammarQuizSession({ lang, mode, reflex, explainMode }: 
     setSelectedOptionId(null);
     loadInitial();
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [lang, mode, sessionKey]);
+  }, [lang, mode, categoryId, sessionKey]);
 
   // Tự tải thêm câu hỏi khi sắp hết batch hiện tại.
   useEffect(() => {
-    if (loading || finished || fetchingMore) return;
+    if (loading || finished || fetchingMore || errorMsg) return;
     if (questions.length - index > REFETCH_THRESHOLD) return;
     setFetchingMore(true);
-    fetchQuestions(lang, mode)
+    fetchQuestions(lang, mode, categoryId)
       .then((more) => setQuestions((prev) => [...prev, ...more]))
       .catch(() => {
         /* im lặng — vẫn còn câu hiện tại để làm tiếp */
       })
       .finally(() => setFetchingMore(false));
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [index, questions.length, loading, finished]);
+  }, [index, questions.length, loading, finished, errorMsg]);
 
   const clearTimers = useCallback(() => {
     if (advanceTimeout.current) clearTimeout(advanceTimeout.current);
@@ -235,6 +247,9 @@ export default function GrammarQuizSession({ lang, mode, reflex, explainMode }: 
   }, [reflex, current?.id, finished]);
 
   useEffect(() => () => clearTimers(), [clearTimers]);
+
+  // Giữ nguyên phạm vi nhóm khi chuyển qua lại giữa phiên luyện ↔ trang chọn chế độ.
+  const pickerHref = `/grammar/${lang}/test${categoryId ? `?category=${encodeURIComponent(categoryId)}` : ""}`;
 
   const confettiPieces = useMemo(
     () =>
@@ -327,7 +342,7 @@ export default function GrammarQuizSession({ lang, mode, reflex, explainMode }: 
               🔁 Làm lại
             </button>
             <Link
-              href={`/grammar/${lang}/test`}
+              href={pickerHref}
               className="rounded-full border-2 border-white/70 px-5 py-3 text-center text-sm font-semibold text-white transition hover:bg-white/10 active:scale-95"
             >
               Đổi chế độ
@@ -379,7 +394,7 @@ export default function GrammarQuizSession({ lang, mode, reflex, explainMode }: 
         {/* HUD */}
         <div className="flex items-center justify-between gap-2">
           <Link
-            href={`/grammar/${lang}/test`}
+            href={pickerHref}
             aria-label="Quay lại"
             className="rounded-full bg-white/15 px-3 py-1.5 text-sm backdrop-blur-sm transition hover:bg-white/25 active:scale-95"
           >
@@ -419,6 +434,7 @@ export default function GrammarQuizSession({ lang, mode, reflex, explainMode }: 
 
         <p className="relative mt-3 shrink-0 text-center text-xs font-medium text-white/70">
           {QUESTION_COPY[mode]}
+          {categoryTitle ? ` · ${categoryTitle}` : ""}
         </p>
 
         {/* Câu hỏi */}
