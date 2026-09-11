@@ -2377,6 +2377,402 @@
           ]
         }
       ]
+    },
+    {
+      "id": "ja-ff-ben",
+      "language": "ja",
+      "reading": "便",
+      "groupKind": "false-friend",
+      "note": "便 (tiện) vốn nghĩa 'thuận tiện, dễ dàng', 便利 giữ nghĩa sát gốc (tính từ chỉ sự thuận tiện), còn 郵便 lệch hẳn thành DANH TỪ chỉ hệ thống/dịch vụ bưu chính, không còn mang nghĩa 'tiện lợi'.",
+      "roots": [
+        {
+          "id": "ja-ff-ben-root",
+          "character": "便",
+          "hanViet": "tiện",
+          "meaningVn": "tiện (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-ben-w1",
+              "headword": "便利",
+              "reading": "benri",
+              "meaningVn": "tiện lợi",
+              "example": "スマホはとても便利です。",
+              "exampleVn": "Điện thoại thông minh rất tiện lợi."
+            },
+            {
+              "id": "ja-ff-ben-w2",
+              "headword": "郵便",
+              "reading": "yuubin",
+              "meaningVn": "bưu điện, bưu chính",
+              "example": "郵便で手紙を送りました。",
+              "exampleVn": "Tôi đã gửi thư qua đường bưu điện."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-kou4",
+      "language": "ja",
+      "reading": "行",
+      "groupKind": "false-friend",
+      "note": "行 (hành) vốn nghĩa 'đi, hành động', 旅行 giữ nghĩa cụ thể (hành động đi du lịch), còn 銀行 lệch hẳn thành DANH TỪ chỉ một TỔ CHỨC tài chính, không còn liên quan đến 'đi lại'.",
+      "roots": [
+        {
+          "id": "ja-ff-kou4-root",
+          "character": "行",
+          "hanViet": "hành",
+          "meaningVn": "hành (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-kou4-w1",
+              "headword": "銀行",
+              "reading": "ginkou",
+              "meaningVn": "ngân hàng",
+              "example": "銀行でお金を下ろしました。",
+              "exampleVn": "Tôi đã rút tiền ở ngân hàng."
+            },
+            {
+              "id": "ja-ff-kou4-w2",
+              "headword": "旅行",
+              "reading": "ryokou",
+              "meaningVn": "du lịch",
+              "example": "夏休みに旅行に行きます。",
+              "exampleVn": "Tôi sẽ đi du lịch vào kỳ nghỉ hè."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-choku",
+      "language": "ja",
+      "reading": "直",
+      "groupKind": "false-friend",
+      "note": "直 (trực) vốn nghĩa 'thẳng, ngay', 直接 giữ nghĩa sát gốc (trực tiếp, không qua trung gian), còn 直感 lệch thành khái niệm NHẬN THỨC trừu tượng (trực giác, linh cảm), không còn nghĩa vật lý 'thẳng'.",
+      "roots": [
+        {
+          "id": "ja-ff-choku-root",
+          "character": "直",
+          "hanViet": "trực",
+          "meaningVn": "trực (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-choku-w1",
+              "headword": "直接",
+              "reading": "chokusetsu",
+              "meaningVn": "trực tiếp",
+              "example": "彼に直接聞いてください。",
+              "exampleVn": "Hãy hỏi trực tiếp anh ấy."
+            },
+            {
+              "id": "ja-ff-choku-w2",
+              "headword": "直感",
+              "reading": "chokkan",
+              "meaningVn": "trực giác, linh cảm",
+              "example": "彼女の直感は当たることが多い。",
+              "exampleVn": "Trực giác của cô ấy thường đúng."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-shu2",
+      "language": "ja",
+      "reading": "主",
+      "groupKind": "false-friend",
+      "note": "主 (chủ) vốn nghĩa 'người đứng đầu, làm chủ', 主人 giữ nghĩa cụ thể (một CON NGƯỜI, chủ nhân), còn 民主 lệch thành khái niệm CHÍNH TRỊ trừu tượng (chế độ dân chủ), không chỉ một cá nhân.",
+      "roots": [
+        {
+          "id": "ja-ff-shu2-root",
+          "character": "主",
+          "hanViet": "chủ",
+          "meaningVn": "chủ (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-shu2-w1",
+              "headword": "主人",
+              "reading": "shujin",
+              "meaningVn": "chủ nhân",
+              "example": "この店の主人は親切です。",
+              "exampleVn": "Chủ quán này rất tốt bụng."
+            },
+            {
+              "id": "ja-ff-shu2-w2",
+              "headword": "民主",
+              "reading": "minshu",
+              "meaningVn": "dân chủ",
+              "example": "民主主義を大切にしましょう。",
+              "exampleVn": "Hãy trân trọng nền dân chủ."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-kyaku",
+      "language": "ja",
+      "reading": "客",
+      "groupKind": "false-friend",
+      "note": "客 (khách) vốn nghĩa 'người khách, người ngoài', 観客 giữ nghĩa cụ thể (một CON NGƯỜI cụ thể - khán giả), còn 客観的 lệch thành TÍNH TỪ trừu tượng (khách quan), không chỉ về con người nữa.",
+      "roots": [
+        {
+          "id": "ja-ff-kyaku-root",
+          "character": "客",
+          "hanViet": "khách",
+          "meaningVn": "khách (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-kyaku-w1",
+              "headword": "観客",
+              "reading": "kankyaku",
+              "meaningVn": "khán giả",
+              "example": "観客が拍手をしました。",
+              "exampleVn": "Khán giả đã vỗ tay."
+            },
+            {
+              "id": "ja-ff-kyaku-w2",
+              "headword": "客観的",
+              "reading": "kyakkanteki",
+              "meaningVn": "khách quan",
+              "example": "客観的に考えてください。",
+              "exampleVn": "Hãy suy nghĩ một cách khách quan."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-men2",
+      "language": "ja",
+      "reading": "面",
+      "groupKind": "false-friend",
+      "note": "面 (diện) vốn nghĩa 'mặt, bề mặt', 場面 lệch thành khái niệm trừu tượng về một CẢNH/tình huống, còn 面接 lệch thành hành động cụ thể GẶP MẶT phỏng vấn, cả 2 đều xa nghĩa vật lý 'bề mặt'.",
+      "roots": [
+        {
+          "id": "ja-ff-men2-root",
+          "character": "面",
+          "hanViet": "diện",
+          "meaningVn": "diện (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-men2-w1",
+              "headword": "場面",
+              "reading": "bamen",
+              "meaningVn": "cảnh, tình huống",
+              "example": "その場面はとても感動的でした。",
+              "exampleVn": "Cảnh đó rất cảm động."
+            },
+            {
+              "id": "ja-ff-men2-w2",
+              "headword": "面接",
+              "reading": "mensetsu",
+              "meaningVn": "phỏng vấn",
+              "example": "明日、面接があります。",
+              "exampleVn": "Ngày mai tôi có buổi phỏng vấn."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-se",
+      "language": "ja",
+      "reading": "世",
+      "groupKind": "false-friend",
+      "note": "世 (thế) vốn nghĩa 'đời, thế gian', 世紀 giữ nghĩa gần gốc (đơn vị thời gian một trăm năm), còn 出世 lệch hẳn thành khái niệm XÃ HỘI (thăng tiến, thành đạt trong sự nghiệp), không còn liên quan tới 'thời đại'.",
+      "roots": [
+        {
+          "id": "ja-ff-se-root",
+          "character": "世",
+          "hanViet": "thế",
+          "meaningVn": "thế (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-se-w1",
+              "headword": "世紀",
+              "reading": "seiki",
+              "meaningVn": "thế kỷ",
+              "example": "これは二十一世紀の技術です。",
+              "exampleVn": "Đây là công nghệ của thế kỷ hai mốt."
+            },
+            {
+              "id": "ja-ff-se-w2",
+              "headword": "出世",
+              "reading": "shusse",
+              "meaningVn": "thăng tiến, thành đạt",
+              "example": "彼は会社で出世しました。",
+              "exampleVn": "Anh ấy đã thăng tiến trong công ty."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-sou3",
+      "language": "ja",
+      "reading": "相",
+      "groupKind": "false-friend",
+      "note": "相 (tương) vốn nghĩa 'lẫn nhau, cùng nhau', 相談 giữ nghĩa gần gốc (bàn bạc qua lại), còn 首相 lệch hẳn thành DANH TỪ chỉ một CHỨC VỤ chính trị cụ thể (thủ tướng), không còn nghĩa 'tương hỗ'.",
+      "roots": [
+        {
+          "id": "ja-ff-sou3-root",
+          "character": "相",
+          "hanViet": "tương",
+          "meaningVn": "tương (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-sou3-w1",
+              "headword": "相談",
+              "reading": "soudan",
+              "meaningVn": "tư vấn, bàn bạc",
+              "example": "先生に相談してみます。",
+              "exampleVn": "Tôi sẽ thử bàn bạc với thầy giáo."
+            },
+            {
+              "id": "ja-ff-sou3-w2",
+              "headword": "首相",
+              "reading": "shushou",
+              "meaningVn": "thủ tướng",
+              "example": "首相が演説をしました。",
+              "exampleVn": "Thủ tướng đã có bài phát biểu."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-mi2",
+      "language": "ja",
+      "reading": "味",
+      "groupKind": "false-friend",
+      "note": "味 (vị) vốn nghĩa 'mùi vị, hương vị', 珍味 giữ nghĩa sát gốc (một MÓN ĂN cụ thể có vị lạ, ngon), còn 興味 lệch hẳn thành cảm xúc trừu tượng SỰ QUAN TÂM/hứng thú, không còn liên quan tới ẩm thực.",
+      "roots": [
+        {
+          "id": "ja-ff-mi2-root",
+          "character": "味",
+          "hanViet": "vị",
+          "meaningVn": "vị (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-mi2-w1",
+              "headword": "珍味",
+              "reading": "chinmi",
+              "meaningVn": "món ngon đặc sản",
+              "example": "この店の珍味を食べてみたい。",
+              "exampleVn": "Tôi muốn thử món ngon đặc sản của quán này."
+            },
+            {
+              "id": "ja-ff-mi2-w2",
+              "headword": "興味",
+              "reading": "kyoumi",
+              "meaningVn": "hứng thú, sự quan tâm",
+              "example": "音楽に興味があります。",
+              "exampleVn": "Tôi có hứng thú với âm nhạc."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-rou",
+      "language": "ja",
+      "reading": "労",
+      "groupKind": "false-friend",
+      "note": "労 (lao, dạng shinjitai của 勞) vốn nghĩa 'lao động, vất vả', 労働 giữ nghĩa sát gốc (hoạt động làm việc), còn 過労 lệch thành khái niệm Y TẾ/xã hội cụ thể (kiệt sức do làm việc quá độ), một hiện tượng chứ không chỉ 'vất vả' chung chung.",
+      "roots": [
+        {
+          "id": "ja-ff-rou-root",
+          "character": "労",
+          "hanViet": "lao",
+          "meaningVn": "lao (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-rou-w1",
+              "headword": "労働",
+              "reading": "roudou",
+              "meaningVn": "lao động",
+              "example": "彼は毎日長時間労働しています。",
+              "exampleVn": "Anh ấy lao động nhiều giờ mỗi ngày."
+            },
+            {
+              "id": "ja-ff-rou-w2",
+              "headword": "過労",
+              "reading": "karou",
+              "meaningVn": "kiệt sức vì làm việc quá sức",
+              "example": "過労で倒れてしまいました。",
+              "exampleVn": "Tôi đã ngã bệnh vì kiệt sức do làm việc quá sức."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-ken3",
+      "language": "ja",
+      "reading": "験",
+      "groupKind": "false-friend",
+      "note": "験 (nghiệm, dạng shinjitai của 驗) vốn nghĩa 'thử, trải nghiệm', 経験 giữ nghĩa sát gốc (trải qua, tích luỹ kinh nghiệm), còn 試験 lệch thành DANH TỪ cụ thể chỉ một KỲ THI/bài kiểm tra, hẹp hơn nhiều so với 'trải nghiệm' nói chung.",
+      "roots": [
+        {
+          "id": "ja-ff-ken3-root",
+          "character": "験",
+          "hanViet": "nghiệm",
+          "meaningVn": "nghiệm (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-ken3-w1",
+              "headword": "経験",
+              "reading": "keiken",
+              "meaningVn": "kinh nghiệm",
+              "example": "貴重な経験をしました。",
+              "exampleVn": "Tôi đã có một trải nghiệm quý giá."
+            },
+            {
+              "id": "ja-ff-ken3-w2",
+              "headword": "試験",
+              "reading": "shiken",
+              "meaningVn": "kỳ thi, bài kiểm tra",
+              "example": "来週、試験があります。",
+              "exampleVn": "Tuần sau tôi có kỳ thi."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-ken4",
+      "language": "ja",
+      "reading": "険",
+      "groupKind": "false-friend",
+      "note": "険 (hiểm, dạng shinjitai của 險) vốn nghĩa 'nguy hiểm, hiểm trở', 危険 giữ nghĩa sát gốc (tính từ chỉ sự nguy hiểm), còn 保険 lệch hẳn thành DANH TỪ chỉ một SẢN PHẨM tài chính/pháp lý (bảo hiểm), khác hẳn nghĩa 'nguy hiểm'.",
+      "roots": [
+        {
+          "id": "ja-ff-ken4-root",
+          "character": "険",
+          "hanViet": "hiểm",
+          "meaningVn": "hiểm (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-ken4-w1",
+              "headword": "危険",
+              "reading": "kiken",
+              "meaningVn": "nguy hiểm",
+              "example": "ここは危険な場所です。",
+              "exampleVn": "Đây là nơi nguy hiểm."
+            },
+            {
+              "id": "ja-ff-ken4-w2",
+              "headword": "保険",
+              "reading": "hoken",
+              "meaningVn": "bảo hiểm",
+              "example": "健康保険に入っています。",
+              "exampleVn": "Tôi có tham gia bảo hiểm y tế."
+            }
+          ]
+        }
+      ]
     }
   ]
 }
