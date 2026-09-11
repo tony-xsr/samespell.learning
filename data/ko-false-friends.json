@@ -2377,6 +2377,402 @@
           ]
         }
       ]
+    },
+    {
+      "id": "ko-ff-pyeon2",
+      "language": "ko",
+      "reading": "便",
+      "groupKind": "false-friend",
+      "note": "便 (tiện) vốn nghĩa 'thuận tiện, dễ dàng', 편리 giữ nghĩa sát gốc (tính từ chỉ sự thuận tiện), còn 우편 lệch hẳn thành DANH TỪ chỉ hệ thống/dịch vụ bưu chính, không còn mang nghĩa 'tiện lợi' — song song với tiếng Nhật 便利/郵便.",
+      "roots": [
+        {
+          "id": "ko-ff-pyeon2-root",
+          "character": "便",
+          "hanViet": "tiện",
+          "meaningVn": "tiện (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-pyeon2-w1",
+              "headword": "편리",
+              "reading": "pyeolli",
+              "meaningVn": "tiện lợi",
+              "example": "스마트폰은 정말 편리해요.",
+              "exampleVn": "Điện thoại thông minh thật sự rất tiện lợi."
+            },
+            {
+              "id": "ko-ff-pyeon2-w2",
+              "headword": "우편",
+              "reading": "upyeon",
+              "meaningVn": "bưu điện, bưu chính",
+              "example": "우편으로 편지를 보냈어요.",
+              "exampleVn": "Tôi đã gửi thư qua đường bưu điện."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ff-haeng",
+      "language": "ko",
+      "reading": "行",
+      "groupKind": "false-friend",
+      "note": "行 (hành) vốn nghĩa 'đi, hành động', 여행 giữ nghĩa cụ thể (hành động đi du lịch), còn 은행 lệch hẳn thành DANH TỪ chỉ một TỔ CHỨC tài chính, không còn liên quan đến 'đi lại' — song song với tiếng Nhật 銀行/旅行.",
+      "roots": [
+        {
+          "id": "ko-ff-haeng-root",
+          "character": "行",
+          "hanViet": "hành",
+          "meaningVn": "hành (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-haeng-w1",
+              "headword": "은행",
+              "reading": "eunhaeng",
+              "meaningVn": "ngân hàng",
+              "example": "은행에서 돈을 찾았어요.",
+              "exampleVn": "Tôi đã rút tiền ở ngân hàng."
+            },
+            {
+              "id": "ko-ff-haeng-w2",
+              "headword": "여행",
+              "reading": "yeohaeng",
+              "meaningVn": "du lịch",
+              "example": "여름 방학에 여행을 가요.",
+              "exampleVn": "Tôi sẽ đi du lịch vào kỳ nghỉ hè."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ff-jik2",
+      "language": "ko",
+      "reading": "直",
+      "groupKind": "false-friend",
+      "note": "直 (trực) vốn nghĩa 'thẳng, ngay', 직접 giữ nghĩa sát gốc (trực tiếp, không qua trung gian), còn 직감 lệch thành khái niệm NHẬN THỨC trừu tượng (trực giác, linh cảm) — song song với tiếng Nhật 直接/直感.",
+      "roots": [
+        {
+          "id": "ko-ff-jik2-root",
+          "character": "直",
+          "hanViet": "trực",
+          "meaningVn": "trực (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-jik2-w1",
+              "headword": "직접",
+              "reading": "jikjeop",
+              "meaningVn": "trực tiếp",
+              "example": "그에게 직접 물어보세요.",
+              "exampleVn": "Hãy hỏi trực tiếp anh ấy."
+            },
+            {
+              "id": "ko-ff-jik2-w2",
+              "headword": "직감",
+              "reading": "jikgam",
+              "meaningVn": "trực giác, linh cảm",
+              "example": "그녀의 직감은 자주 맞아요.",
+              "exampleVn": "Trực giác của cô ấy thường đúng."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ff-ju2",
+      "language": "ko",
+      "reading": "主",
+      "groupKind": "false-friend",
+      "note": "主 (chủ) vốn nghĩa 'người đứng đầu, làm chủ', 주인 giữ nghĩa cụ thể (một CON NGƯỜI, chủ nhân), còn 민주 lệch thành khái niệm CHÍNH TRỊ trừu tượng (chế độ dân chủ) — song song với tiếng Nhật 主人/民主.",
+      "roots": [
+        {
+          "id": "ko-ff-ju2-root",
+          "character": "主",
+          "hanViet": "chủ",
+          "meaningVn": "chủ (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-ju2-w1",
+              "headword": "주인",
+              "reading": "juin",
+              "meaningVn": "chủ nhân",
+              "example": "이 가게 주인은 친절해요.",
+              "exampleVn": "Chủ quán này rất tốt bụng."
+            },
+            {
+              "id": "ko-ff-ju2-w2",
+              "headword": "민주",
+              "reading": "minju",
+              "meaningVn": "dân chủ",
+              "example": "민주주의를 소중히 여겨야 해요.",
+              "exampleVn": "Chúng ta phải trân trọng nền dân chủ."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ff-gaek",
+      "language": "ko",
+      "reading": "客",
+      "groupKind": "false-friend",
+      "note": "客 (khách) vốn nghĩa 'người khách, người ngoài', 관객 giữ nghĩa cụ thể (một CON NGƯỜI cụ thể - khán giả), còn 객관적 lệch thành TÍNH TỪ trừu tượng (khách quan) — song song với tiếng Nhật 観客/客観的.",
+      "roots": [
+        {
+          "id": "ko-ff-gaek-root",
+          "character": "客",
+          "hanViet": "khách",
+          "meaningVn": "khách (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-gaek-w1",
+              "headword": "관객",
+              "reading": "gwangaek",
+              "meaningVn": "khán giả",
+              "example": "관객들이 박수를 쳤어요.",
+              "exampleVn": "Khán giả đã vỗ tay."
+            },
+            {
+              "id": "ko-ff-gaek-w2",
+              "headword": "객관적",
+              "reading": "gaekgwanjeok",
+              "meaningVn": "khách quan",
+              "example": "객관적으로 생각해 보세요.",
+              "exampleVn": "Hãy suy nghĩ một cách khách quan."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ff-myeon2",
+      "language": "ko",
+      "reading": "面",
+      "groupKind": "false-friend",
+      "note": "面 (diện) vốn nghĩa 'mặt, bề mặt', 장면 lệch thành khái niệm trừu tượng về một CẢNH/tình huống, còn 면접 lệch thành hành động cụ thể GẶP MẶT phỏng vấn — song song với tiếng Nhật 場面/面接.",
+      "roots": [
+        {
+          "id": "ko-ff-myeon2-root",
+          "character": "面",
+          "hanViet": "diện",
+          "meaningVn": "diện (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-myeon2-w1",
+              "headword": "장면",
+              "reading": "jangmyeon",
+              "meaningVn": "cảnh, tình huống",
+              "example": "그 장면은 정말 감동적이었어요.",
+              "exampleVn": "Cảnh đó thật sự rất cảm động."
+            },
+            {
+              "id": "ko-ff-myeon2-w2",
+              "headword": "면접",
+              "reading": "myeonjeop",
+              "meaningVn": "phỏng vấn",
+              "example": "내일 면접이 있어요.",
+              "exampleVn": "Ngày mai tôi có buổi phỏng vấn."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ff-se2",
+      "language": "ko",
+      "reading": "世",
+      "groupKind": "false-friend",
+      "note": "世 (thế) vốn nghĩa 'đời, thế gian', 세기 giữ nghĩa gần gốc (đơn vị thời gian một trăm năm), còn 출세 lệch hẳn thành khái niệm XÃ HỘI (thăng tiến, thành đạt trong sự nghiệp) — song song với tiếng Nhật 世紀/出世.",
+      "roots": [
+        {
+          "id": "ko-ff-se2-root",
+          "character": "世",
+          "hanViet": "thế",
+          "meaningVn": "thế (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-se2-w1",
+              "headword": "세기",
+              "reading": "segi",
+              "meaningVn": "thế kỷ",
+              "example": "이것은 이십일 세기 기술이에요.",
+              "exampleVn": "Đây là công nghệ của thế kỷ hai mốt."
+            },
+            {
+              "id": "ko-ff-se2-w2",
+              "headword": "출세",
+              "reading": "chulse",
+              "meaningVn": "thăng tiến, thành đạt",
+              "example": "그는 회사에서 출세했어요.",
+              "exampleVn": "Anh ấy đã thăng tiến trong công ty."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ff-sang3",
+      "language": "ko",
+      "reading": "相",
+      "groupKind": "false-friend",
+      "note": "相 (tương) vốn nghĩa 'lẫn nhau, cùng nhau', 상담 giữ nghĩa gần gốc (bàn bạc qua lại), còn 수상 lệch hẳn thành DANH TỪ chỉ một CHỨC VỤ chính trị cụ thể (thủ tướng) — song song với tiếng Nhật 相談/首相.",
+      "roots": [
+        {
+          "id": "ko-ff-sang3-root",
+          "character": "相",
+          "hanViet": "tương",
+          "meaningVn": "tương (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-sang3-w1",
+              "headword": "상담",
+              "reading": "sangdam",
+              "meaningVn": "tư vấn, bàn bạc",
+              "example": "선생님과 상담해 볼게요.",
+              "exampleVn": "Tôi sẽ thử bàn bạc với thầy giáo."
+            },
+            {
+              "id": "ko-ff-sang3-w2",
+              "headword": "수상",
+              "reading": "susang",
+              "meaningVn": "thủ tướng",
+              "example": "수상이 연설을 했어요.",
+              "exampleVn": "Thủ tướng đã có bài phát biểu."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ff-mi3",
+      "language": "ko",
+      "reading": "味",
+      "groupKind": "false-friend",
+      "note": "味 (vị) vốn nghĩa 'mùi vị, hương vị', 진미 giữ nghĩa sát gốc (một MÓN ĂN cụ thể có vị lạ, ngon), còn 흥미 lệch hẳn thành cảm xúc trừu tượng SỰ QUAN TÂM/hứng thú — song song với tiếng Nhật 珍味/興味.",
+      "roots": [
+        {
+          "id": "ko-ff-mi3-root",
+          "character": "味",
+          "hanViet": "vị",
+          "meaningVn": "vị (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-mi3-w1",
+              "headword": "진미",
+              "reading": "jinmi",
+              "meaningVn": "món ngon đặc sản",
+              "example": "이 식당의 진미를 먹어 보고 싶어요.",
+              "exampleVn": "Tôi muốn thử món ngon đặc sản của quán này."
+            },
+            {
+              "id": "ko-ff-mi3-w2",
+              "headword": "흥미",
+              "reading": "heungmi",
+              "meaningVn": "hứng thú, sự quan tâm",
+              "example": "음악에 흥미가 있어요.",
+              "exampleVn": "Tôi có hứng thú với âm nhạc."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ff-no2",
+      "language": "ko",
+      "reading": "勞",
+      "groupKind": "false-friend",
+      "note": "勞 (lao, dạng phồn thể của 労) vốn nghĩa 'lao động, vất vả', 노동 giữ nghĩa sát gốc (hoạt động làm việc), còn 과로 lệch thành khái niệm Y TẾ/xã hội cụ thể (kiệt sức do làm việc quá độ) — song song với tiếng Nhật 労働/過労.",
+      "roots": [
+        {
+          "id": "ko-ff-no2-root",
+          "character": "勞",
+          "hanViet": "lao",
+          "meaningVn": "lao (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-no2-w1",
+              "headword": "노동",
+              "reading": "nodong",
+              "meaningVn": "lao động",
+              "example": "그는 매일 장시간 노동을 해요.",
+              "exampleVn": "Anh ấy lao động nhiều giờ mỗi ngày."
+            },
+            {
+              "id": "ko-ff-no2-w2",
+              "headword": "과로",
+              "reading": "gwaro",
+              "meaningVn": "kiệt sức vì làm việc quá sức",
+              "example": "과로로 쓰러지고 말았어요.",
+              "exampleVn": "Tôi đã ngã bệnh vì kiệt sức do làm việc quá sức."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ff-heom",
+      "language": "ko",
+      "reading": "驗",
+      "groupKind": "false-friend",
+      "note": "驗 (nghiệm, dạng phồn thể của 験) vốn nghĩa 'thử, trải nghiệm', 경험 giữ nghĩa sát gốc (trải qua, tích luỹ kinh nghiệm), còn 시험 lệch thành DANH TỪ cụ thể chỉ một KỲ THI/bài kiểm tra — song song với tiếng Nhật 経験/試験.",
+      "roots": [
+        {
+          "id": "ko-ff-heom-root",
+          "character": "驗",
+          "hanViet": "nghiệm",
+          "meaningVn": "nghiệm (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-heom-w1",
+              "headword": "경험",
+              "reading": "gyeongheom",
+              "meaningVn": "kinh nghiệm",
+              "example": "귀중한 경험을 했어요.",
+              "exampleVn": "Tôi đã có một trải nghiệm quý giá."
+            },
+            {
+              "id": "ko-ff-heom-w2",
+              "headword": "시험",
+              "reading": "siheom",
+              "meaningVn": "kỳ thi, bài kiểm tra",
+              "example": "다음 주에 시험이 있어요.",
+              "exampleVn": "Tuần sau tôi có kỳ thi."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ff-heom2",
+      "language": "ko",
+      "reading": "險",
+      "groupKind": "false-friend",
+      "note": "險 (hiểm, dạng phồn thể của 険) vốn nghĩa 'nguy hiểm, hiểm trở', 위험 giữ nghĩa sát gốc (tính từ chỉ sự nguy hiểm), còn 보험 lệch hẳn thành DANH TỪ chỉ một SẢN PHẨM tài chính/pháp lý (bảo hiểm) — song song với tiếng Nhật 危険/保険.",
+      "roots": [
+        {
+          "id": "ko-ff-heom2-root",
+          "character": "險",
+          "hanViet": "hiểm",
+          "meaningVn": "hiểm (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-heom2-w1",
+              "headword": "위험",
+              "reading": "wiheom",
+              "meaningVn": "nguy hiểm",
+              "example": "여기는 위험한 곳이에요.",
+              "exampleVn": "Đây là nơi nguy hiểm."
+            },
+            {
+              "id": "ko-ff-heom2-w2",
+              "headword": "보험",
+              "reading": "boheom",
+              "meaningVn": "bảo hiểm",
+              "example": "건강 보험에 가입했어요.",
+              "exampleVn": "Tôi có tham gia bảo hiểm y tế."
+            }
+          ]
+        }
+      ]
     }
   ]
 }
