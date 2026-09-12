@@ -14,6 +14,21 @@ function norm(label: string): string {
   return label.trim().toLowerCase();
 }
 
+/** Xáo trộn `pool` nhưng đưa các từ "đến hạn ôn" hoặc "vừa trả lời sai gần đây" (có id nằm trong
+ * `priorityIds`, tính từ `progress:main` — xem route.ts) lên ĐẦU, xáo trộn riêng bên trong mỗi nhóm.
+ * Không loại bỏ từ nào khỏi pool, chỉ đổi thứ tự ưu tiên: nhờ vòng lặp ở generateQuestions duyệt
+ * candidates theo con trỏ tăng dần (có cycle), một khi nhóm ưu tiên đã hỏi hết thì tự động rơi sang
+ * nhóm còn lại như bình thường. */
+function buildPrioritizedCandidates(pool: QuizWordEntry[], priorityIds?: Set<string>): QuizWordEntry[] {
+  if (!priorityIds || priorityIds.size === 0) return shuffle(pool);
+  const priority: QuizWordEntry[] = [];
+  const rest: QuizWordEntry[] = [];
+  for (const entry of pool) {
+    (priorityIds.has(entry.id) ? priority : rest).push(entry);
+  }
+  return [...shuffle(priority), ...shuffle(rest)];
+}
+
 /** Chọn `n` từ nhiễu cho `target`, ưu tiên cùng `sourceKey` (nhiễu "gần giống" khó nhất) → cùng
  * `axisKind` → ngẫu nhiên toàn pool. Loại các từ có nhãn (theo `labelOf`) trùng đáp án đúng hoặc
  * trùng nhau để tránh 2 lựa chọn nhìn giống hệt nhau trên màn hình. */
@@ -134,19 +149,23 @@ function buildQuestion(
   };
 }
 
-/** Sinh `count` câu hỏi ngẫu nhiên từ `pool`. Mỗi lần gọi ra kết quả khác nhau (không seed cố định)
- * — với pool hàng nghìn từ × 3 dạng câu × xáo trộn nhiễu, số tổ hợp câu hỏi có thể sinh ra là hàng
- * chục nghìn trở lên mà không cần soạn tay bất kỳ nội dung nào. */
+/** Sinh `count` câu hỏi từ `pool`. Nếu có `priorityIds` (các từ đến hạn ôn/vừa sai theo SRS), những
+ * từ đó được hỏi TRƯỚC, còn lại mới random đều như cũ — nhờ vậy câu đã trả lời sai ở lượt trước sẽ ưu
+ * tiên xuất hiện lại ở lượt sau thay vì chìm vào random tuyệt đối trên toàn bộ kho từ. Không có
+ * `priorityIds` (hoặc rỗng) thì hành vi y hệt trước đây: random đều toàn `pool`, không seed cố định —
+ * với pool hàng nghìn từ × 3 dạng câu × xáo trộn nhiễu, số tổ hợp câu hỏi có thể sinh ra là hàng chục
+ * nghìn trở lên mà không cần soạn tay bất kỳ nội dung nào. */
 export function generateQuestions(
   pool: QuizWordEntry[],
   mode: QuizMode,
   count: number,
   language: Language,
+  priorityIds?: Set<string>,
 ): QuizQuestion[] {
   if (pool.length < 4) return [];
 
   const questions: QuizQuestion[] = [];
-  const candidates = shuffle(pool);
+  const candidates = buildPrioritizedCandidates(pool, priorityIds);
   let cursor = 0;
   let attempts = 0;
   const maxAttempts = pool.length * 2 + count * 4;
