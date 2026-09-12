@@ -449,6 +449,9 @@ export default function MindmapCanvas({
           <div className="text-sm font-semibold whitespace-nowrap text-ink">
             {isMastered && "✅ "}
             {word.headword}
+            {word.hanViet && (
+              <span className="ml-1 text-xs font-normal text-ink-muted italic">({word.hanViet})</span>
+            )}
           </div>
           <div className="text-[11px] text-ink-muted italic">{word.reading}</div>
           <div className={`text-xs font-medium ${color.text}`}>{word.meaningVn}</div>
@@ -718,6 +721,11 @@ export default function MindmapCanvas({
               <div>
                 <div className="text-3xl font-bold text-ink">{activeWord.wn.word.headword}</div>
                 <div className="mt-0.5 text-lg text-ink-muted italic">{activeWord.wn.word.reading}</div>
+                {activeWord.wn.word.hanViet && (
+                  <div className="mt-0.5 text-sm text-ink-muted">
+                    <span className="font-semibold">Hán Việt:</span> {activeWord.wn.word.hanViet}
+                  </div>
+                )}
                 <div className={`mt-1 text-base font-semibold ${activeWord.color.text}`}>
                   {activeWord.wn.word.meaningVn}
                 </div>
