@@ -208,44 +208,23 @@ function ScenarioChainCard({
       <div className="flex flex-1 flex-col overflow-auto p-6 sm:p-10">
         <h2 className="text-center text-base font-semibold text-ink">{chain.titleVn}</h2>
 
-        {/* Dải nhảy nhanh theo bước — chỉ hiện khi chuỗi khá dài (>4 bước), giúp dễ định hướng thay vì
-            phải cuộn qua nhiều thẻ mới thấy hết, đúng góp ý "khó nhìn nếu có nhiều context trong đó". */}
-        {chain.nodes.length > 4 && (
-          <div className="mt-3 flex flex-wrap justify-center gap-1.5" aria-label="Điều hướng theo bước">
-            {chain.nodes.map((_, i) => (
-              <button
-                key={i}
-                type="button"
-                onClick={() => {
-                  document
-                    .getElementById(`${chain.id}-step-${i}`)
-                    ?.scrollIntoView({ behavior: "smooth", block: "center", inline: "center" });
-                }}
-                className="flex h-6 w-6 flex-none items-center justify-center rounded-full border border-border bg-surface-2 text-[10px] font-bold text-ink-muted transition hover:border-rose-300 hover:text-rose-500"
-                aria-label={`Đi tới bước ${i + 1}`}
-              >
-                {i + 1}
-              </button>
-            ))}
-          </div>
-        )}
-
-        <div className="relative mt-5">
-          <div className="overflow-x-auto pb-2">
-            <div className="flex flex-col items-stretch gap-2 md:flex-row md:flex-nowrap md:items-start md:gap-3">
-              {chain.nodes.map((node, i) => (
-                <div key={i} className="flex flex-col items-stretch gap-2 md:flex-row md:items-start">
-                  <StepCard node={node} language={language} index={i} stepId={`${chain.id}-step-${i}`} />
-                  {i < chain.nodes.length - 1 && (
-                    <span className="shrink-0 self-center text-lg text-rose-400" aria-hidden>
-                      <span className="md:hidden">↓</span>
-                      <span className="hidden md:inline">→</span>
-                    </span>
-                  )}
-                </div>
-              ))}
+        {/* Chảy trái→phải, hết dòng thì tự xuống dòng tiếp (flex-wrap) — thấy được TOÀN BỘ chuỗi trên
+            màn hình cùng lúc thay vì phải cuộn/kéo qua 1 hàng hoặc 1 cột dài duy nhất như trước, đúng
+            góp ý "vẽ nối từ trái qua phải từ trên xuống dưới, show hết kịch bản trên UI hiện tại". */}
+        <div className="mx-auto mt-5 flex max-w-3xl flex-row flex-wrap items-start justify-center gap-x-3 gap-y-4">
+          {chain.nodes.map((node, i) => (
+            // Dưới breakpoint md, 1 thẻ chiếm trọn hàng nên bước tiếp theo luôn rơi XUỐNG DƯỚI — xếp
+            // dọc + mũi tên ↓; từ md trở lên thường xếp được ≥2 thẻ/hàng — xếp ngang + mũi tên →.
+            <div key={i} className="flex flex-col items-center gap-2 md:flex-row">
+              <StepCard node={node} language={language} index={i} stepId={`${chain.id}-step-${i}`} />
+              {i < chain.nodes.length - 1 && (
+                <span className="shrink-0 text-lg text-rose-400" aria-hidden>
+                  <span className="md:hidden">↓</span>
+                  <span className="hidden md:inline">→</span>
+                </span>
+              )}
             </div>
-          </div>
+          ))}
         </div>
 
         <div className="mx-auto mt-6 flex w-full max-w-2xl flex-col gap-2 rounded-xl border border-border bg-surface-2 p-4">
