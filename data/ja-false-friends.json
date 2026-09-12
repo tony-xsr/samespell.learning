@@ -4357,6 +4357,402 @@
           ]
         }
       ]
+    },
+    {
+      "id": "ja-ff-sou4",
+      "language": "ja",
+      "reading": "総",
+      "groupKind": "false-friend",
+      "note": "総 (tổng, dạng shinjitai của 總) vốn nghĩa 'tổng cộng, toàn bộ', 総合 giữ nghĩa trừu tượng (tổng hợp, kết hợp nhiều thứ), còn 総理 lệch thành DANH TỪ cụ thể chỉ một CHỨC VỤ chính trị (thủ tướng, viết tắt của 総理大臣), không còn là một phép cộng.",
+      "roots": [
+        {
+          "id": "ja-ff-sou4-root",
+          "character": "総",
+          "hanViet": "tổng",
+          "meaningVn": "tổng (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-sou4-w1",
+              "headword": "総合",
+              "reading": "sougou",
+              "meaningVn": "tổng hợp",
+              "example": "総合的に判断してください。",
+              "exampleVn": "Hãy phán đoán một cách tổng hợp."
+            },
+            {
+              "id": "ja-ff-sou4-w2",
+              "headword": "総理",
+              "reading": "souri",
+              "meaningVn": "thủ tướng",
+              "example": "総理が記者会見をしました。",
+              "exampleVn": "Thủ tướng đã tổ chức họp báo."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-atsu",
+      "language": "ja",
+      "reading": "圧",
+      "groupKind": "false-friend",
+      "note": "圧 (áp, dạng shinjitai của 壓) vốn nghĩa 'đè nén, áp lực', 圧力 giữ nghĩa trừu tượng chung (áp lực nói chung, có thể vật lý hoặc tâm lý), còn 圧勝 lệch thành DANH TỪ cụ thể chỉ một KẾT QUẢ (thắng áp đảo), không còn liên quan đến 'áp lực' đè nén.",
+      "roots": [
+        {
+          "id": "ja-ff-atsu-root",
+          "character": "圧",
+          "hanViet": "áp",
+          "meaningVn": "áp (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-atsu-w1",
+              "headword": "圧力",
+              "reading": "atsuryoku",
+              "meaningVn": "áp lực",
+              "example": "仕事の圧力を感じています。",
+              "exampleVn": "Tôi đang cảm thấy áp lực công việc."
+            },
+            {
+              "id": "ja-ff-atsu-w2",
+              "headword": "圧勝",
+              "reading": "asshou",
+              "meaningVn": "thắng áp đảo",
+              "example": "彼のチームが圧勝しました。",
+              "exampleVn": "Đội của anh ấy đã thắng áp đảo."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-ha2",
+      "language": "ja",
+      "reading": "破",
+      "groupKind": "false-friend",
+      "note": "破 (phá) vốn nghĩa 'phá vỡ, làm hỏng', 破壊 giữ nghĩa vật lý cụ thể (phá huỷ một vật thể), còn 突破 lệch thành hành động trừu tượng (vượt qua, đột phá một giới hạn/khó khăn), không còn là hành động làm hỏng.",
+      "roots": [
+        {
+          "id": "ja-ff-ha2-root",
+          "character": "破",
+          "hanViet": "phá",
+          "meaningVn": "phá (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-ha2-w1",
+              "headword": "破壊",
+              "reading": "hakai",
+              "meaningVn": "phá huỷ",
+              "example": "地震で建物が破壊されました。",
+              "exampleVn": "Toà nhà đã bị phá huỷ vì động đất."
+            },
+            {
+              "id": "ja-ff-ha2-w2",
+              "headword": "突破",
+              "reading": "toppa",
+              "meaningVn": "vượt qua, đột phá",
+              "example": "困難を突破しました。",
+              "exampleVn": "Chúng tôi đã vượt qua khó khăn."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-i5",
+      "language": "ja",
+      "reading": "維",
+      "groupKind": "false-friend",
+      "note": "維 (duy) vốn nghĩa 'sợi, dây buộc', 維持 giữ nghĩa trừu tượng (duy trì một trạng thái), còn 繊維 lệch về DANH TỪ vật lý cụ thể (sợi vải, chất xơ), gần nghĩa gốc 'sợi' hơn nhưng chỉ một vật liệu cụ thể chứ không phải hành động duy trì.",
+      "roots": [
+        {
+          "id": "ja-ff-i5-root",
+          "character": "維",
+          "hanViet": "duy",
+          "meaningVn": "duy (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-i5-w1",
+              "headword": "維持",
+              "reading": "iji",
+              "meaningVn": "duy trì",
+              "example": "健康を維持することが大切です。",
+              "exampleVn": "Việc duy trì sức khoẻ rất quan trọng."
+            },
+            {
+              "id": "ja-ff-i5-w2",
+              "headword": "繊維",
+              "reading": "sen'i",
+              "meaningVn": "sợi, chất xơ",
+              "example": "この服は天然繊維でできています。",
+              "exampleVn": "Bộ quần áo này được làm từ sợi tự nhiên."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-kan2",
+      "language": "ja",
+      "reading": "監",
+      "groupKind": "false-friend",
+      "note": "監 (giám) vốn nghĩa 'giám sát, trông coi', 監督 giữ nghĩa hành động cụ thể (giám sát, chỉ đạo - cũng là CHỨC DANH đạo diễn phim), còn 監禁 lệch hẳn thành hành động PHÁP LÝ nghiêm trọng (giam cầm, nhốt giữ), không còn là 'giám sát' đơn thuần.",
+      "roots": [
+        {
+          "id": "ja-ff-kan2-root",
+          "character": "監",
+          "hanViet": "giám",
+          "meaningVn": "giám (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-kan2-w1",
+              "headword": "監督",
+              "reading": "kantoku",
+              "meaningVn": "giám sát, đạo diễn",
+              "example": "彼はこの映画の監督です。",
+              "exampleVn": "Anh ấy là đạo diễn của bộ phim này."
+            },
+            {
+              "id": "ja-ff-kan2-w2",
+              "headword": "監禁",
+              "reading": "kankin",
+              "meaningVn": "giam cầm",
+              "example": "彼は不当に監禁されました。",
+              "exampleVn": "Anh ấy đã bị giam cầm một cách bất công."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-i3",
+      "language": "ja",
+      "reading": "移",
+      "groupKind": "false-friend",
+      "note": "移 (di) vốn nghĩa 'di chuyển, dời đổi', 移動 giữ nghĩa chung (di chuyển bất kỳ thứ gì), còn 移民 lệch thành DANH TỪ chỉ một NHÓM XÃ HỘI cụ thể (di dân, người nhập cư), hẹp hơn nhiều so với 'di chuyển' nói chung.",
+      "roots": [
+        {
+          "id": "ja-ff-i3-root",
+          "character": "移",
+          "hanViet": "di",
+          "meaningVn": "di (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-i3-w1",
+              "headword": "移動",
+              "reading": "idou",
+              "meaningVn": "di chuyển",
+              "example": "電車で移動しました。",
+              "exampleVn": "Tôi đã di chuyển bằng tàu điện."
+            },
+            {
+              "id": "ja-ff-i3-w2",
+              "headword": "移民",
+              "reading": "imin",
+              "meaningVn": "di dân, người nhập cư",
+              "example": "多くの移民がこの国に来ます。",
+              "exampleVn": "Nhiều người nhập cư đến nước này."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-en2",
+      "language": "ja",
+      "reading": "延",
+      "groupKind": "false-friend",
+      "note": "延 (diên) vốn nghĩa 'kéo dài, trì hoãn', 延長 giữ nghĩa trừu tượng gần gốc (kéo dài thời gian), còn 延焼 lệch thành hiện tượng VẬT LÝ cụ thể (cháy lan sang chỗ khác), một nghĩa hẹp và chuyên biệt hơn nhiều.",
+      "roots": [
+        {
+          "id": "ja-ff-en2-root",
+          "character": "延",
+          "hanViet": "diên",
+          "meaningVn": "diên (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-en2-w1",
+              "headword": "延長",
+              "reading": "enchou",
+              "meaningVn": "kéo dài",
+              "example": "会議の時間を延長しました。",
+              "exampleVn": "Chúng tôi đã kéo dài thời gian họp."
+            },
+            {
+              "id": "ja-ff-en2-w2",
+              "headword": "延焼",
+              "reading": "enshou",
+              "meaningVn": "cháy lan",
+              "example": "火事が隣の家に延焼しました。",
+              "exampleVn": "Đám cháy đã lan sang nhà bên cạnh."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-kaku2",
+      "language": "ja",
+      "reading": "革",
+      "groupKind": "false-friend",
+      "note": "革 (cách) vốn nghĩa 'da thuộc, thay đổi', 改革 giữ nghĩa trừu tượng (cải cách một hệ thống/chế độ), còn 革靴 lệch về DANH TỪ vật lý cụ thể (giày da), quay về nghĩa gốc 'da' nhưng chỉ một vật dụng cụ thể chứ không phải sự thay đổi.",
+      "roots": [
+        {
+          "id": "ja-ff-kaku2-root",
+          "character": "革",
+          "hanViet": "cách",
+          "meaningVn": "cách (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-kaku2-w1",
+              "headword": "改革",
+              "reading": "kaikaku",
+              "meaningVn": "cải cách",
+              "example": "教育制度を改革する必要があります。",
+              "exampleVn": "Cần phải cải cách chế độ giáo dục."
+            },
+            {
+              "id": "ja-ff-kaku2-w2",
+              "headword": "革靴",
+              "reading": "kawagutsu",
+              "meaningVn": "giày da",
+              "example": "彼は黒い革靴を履いています。",
+              "exampleVn": "Anh ấy đang đi giày da màu đen."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-kan3",
+      "language": "ja",
+      "reading": "簡",
+      "groupKind": "false-friend",
+      "note": "簡 (giản) vốn nghĩa 'đơn giản, gọn nhẹ', 簡単 giữ nghĩa trừu tượng chung (đơn giản, dễ dàng, áp dụng cho mọi việc), còn 簡潔 lệch thành TÍNH TỪ hẹp hơn mô tả PHONG CÁCH ngôn ngữ/văn viết (ngắn gọn, súc tích).",
+      "roots": [
+        {
+          "id": "ja-ff-kan3-root",
+          "character": "簡",
+          "hanViet": "giản",
+          "meaningVn": "giản (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-kan3-w1",
+              "headword": "簡単",
+              "reading": "kantan",
+              "meaningVn": "đơn giản, dễ dàng",
+              "example": "この問題は簡単です。",
+              "exampleVn": "Vấn đề này đơn giản."
+            },
+            {
+              "id": "ja-ff-kan3-w2",
+              "headword": "簡潔",
+              "reading": "kanketsu",
+              "meaningVn": "ngắn gọn, súc tích",
+              "example": "簡潔に説明してください。",
+              "exampleVn": "Hãy giải thích một cách ngắn gọn."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-jun4",
+      "language": "ja",
+      "reading": "純",
+      "groupKind": "false-friend",
+      "note": "純 (thuần) vốn nghĩa 'thuần khiết, nguyên chất', 純粋 giữ nghĩa trừu tượng gần gốc (thuần khiết, không pha tạp), còn 単純 lệch thành TÍNH TỪ mô tả MỨC ĐỘ PHỨC TẠP (đơn giản, không rắc rối), một khái niệm khác hẳn 'độ tinh khiết'.",
+      "roots": [
+        {
+          "id": "ja-ff-jun4-root",
+          "character": "純",
+          "hanViet": "thuần",
+          "meaningVn": "thuần (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-jun4-w1",
+              "headword": "純粋",
+              "reading": "junsui",
+              "meaningVn": "thuần khiết, thuần tuý",
+              "example": "彼の愛は純粋です。",
+              "exampleVn": "Tình yêu của anh ấy thật thuần khiết."
+            },
+            {
+              "id": "ja-ff-jun4-w2",
+              "headword": "単純",
+              "reading": "tanjun",
+              "meaningVn": "đơn giản",
+              "example": "話はそんなに単純ではありません。",
+              "exampleVn": "Câu chuyện không đơn giản như vậy."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-satsu2",
+      "language": "ja",
+      "reading": "殺",
+      "groupKind": "false-friend",
+      "note": "殺 (sát) vốn nghĩa 'giết, sát hại', 殺人 giữ nghĩa sát gốc (giết người), còn 相殺 lệch hẳn thành khái niệm KẾ TOÁN/tài chính (bù trừ, khấu trừ lẫn nhau), một bước nhảy nghĩa hoàn toàn xa lạ so với 'giết chóc'.",
+      "roots": [
+        {
+          "id": "ja-ff-satsu2-root",
+          "character": "殺",
+          "hanViet": "sát",
+          "meaningVn": "sát (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-satsu2-w1",
+              "headword": "殺人",
+              "reading": "satsujin",
+              "meaningVn": "giết người",
+              "example": "その殺人事件はまだ未解決です。",
+              "exampleVn": "Vụ giết người đó vẫn chưa được giải quyết."
+            },
+            {
+              "id": "ja-ff-satsu2-w2",
+              "headword": "相殺",
+              "reading": "sousai",
+              "meaningVn": "bù trừ, khấu trừ",
+              "example": "利益と損失を相殺しました。",
+              "exampleVn": "Đã bù trừ giữa lợi nhuận và thua lỗ."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-sou5",
+      "language": "ja",
+      "reading": "装",
+      "groupKind": "false-friend",
+      "note": "装 (trang, dạng shinjitai của 裝) vốn nghĩa 'trang bị, ăn mặc', 服装 giữ nghĩa cụ thể cá nhân (trang phục, quần áo), còn 装置 lệch thành DANH TỪ chỉ một THIẾT BỊ kỹ thuật/máy móc, không còn liên quan đến ăn mặc.",
+      "roots": [
+        {
+          "id": "ja-ff-sou5-root",
+          "character": "装",
+          "hanViet": "trang",
+          "meaningVn": "trang (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-sou5-w1",
+              "headword": "服装",
+              "reading": "fukusou",
+              "meaningVn": "trang phục",
+              "example": "式典にふさわしい服装をしてください。",
+              "exampleVn": "Hãy mặc trang phục phù hợp với buổi lễ."
+            },
+            {
+              "id": "ja-ff-sou5-w2",
+              "headword": "装置",
+              "reading": "souchi",
+              "meaningVn": "thiết bị",
+              "example": "この工場には最新の装置があります。",
+              "exampleVn": "Nhà máy này có thiết bị hiện đại nhất."
+            }
+          ]
+        }
+      ]
     }
   ]
 }
