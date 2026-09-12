@@ -7,6 +7,10 @@ export interface VocabWord {
   meaningVn: string;
   example: string;
   exampleVn: string;
+  /** Cách đọc Hán Việt của TỪ GHÉP này (khác `RootEntry.hanViet`, vốn chỉ là cách đọc của 1 CHỮ neo).
+   * Optional vì phần lớn dữ liệu cũ (trục âm/hình chính) chưa có — chỉ bắt buộc điền cho nội dung mới
+   * ở trục bẫy nghĩa trở đi. Để trống/không set nếu từ không có Hán Việt tự nhiên (từ thuần Nhật/Hàn). */
+  hanViet?: string;
   grammarPoint?: string;
   grammarExplanationVn?: string;
   mnemonicVn?: string;
