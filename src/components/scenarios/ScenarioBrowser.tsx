@@ -58,14 +58,14 @@ const POS_STYLE: Record<ScenarioPos, string> = {
   phrase: "border-slate-400 bg-slate-50 text-slate-700 dark:bg-slate-800/60 dark:text-slate-300",
 };
 
-function StepCard({ node, language, index }: { node: ScenarioNode; language: Language; index: number }) {
+function StepCard({ node, language, index, stepId }: { node: ScenarioNode; language: Language; index: number; stepId?: string }) {
   const [error, setError] = useState<string | null>(null);
   // Mặc định ẨN nghĩa tiếng Việt — chỉ hiện tiếng gốc + cách đọc, để luyện phản xạ đọc-hiểu thay vì
-  // nhìn thấy nghĩa ngay. Bấm vào thẻ để hiện/ẩn nghĩa CỦA RIÊNG thẻ đó (không ảnh hưởng các thẻ khác).
+  // nhìn thấy nghĩa ngay. Bấm vào dòng "chạm để xem nghĩa" (KHÔNG phải cả thẻ) để hiện/ẩn nghĩa CỦA
+  // RIÊNG thẻ đó — cả thẻ giờ dùng để PHÁT ÂM khi chạm, tách biệt 2 hành động theo yêu cầu người dùng.
   const [revealed, setRevealed] = useState(false);
 
-  async function handleSpeak(e: MouseEvent) {
-    e.stopPropagation();
+  async function speakNode() {
     setError(null);
     const result = await speak(node.headword, language);
     if (!result.ok) setError(ttsFailureMessage(result.reason));
@@ -73,15 +73,17 @@ function StepCard({ node, language, index }: { node: ScenarioNode; language: Lan
 
   return (
     <div
+      id={stepId}
       role="button"
       tabIndex={0}
-      onClick={() => setRevealed((r) => !r)}
+      onClick={speakNode}
       onKeyDown={(e) => {
         if (e.key === "Enter" || e.key === " ") {
           e.preventDefault();
-          setRevealed((r) => !r);
+          speakNode();
         }
       }}
+      aria-label={`Phát âm ${node.headword}`}
       className="flex w-64 shrink-0 cursor-pointer flex-col gap-1.5 rounded-xl border border-border bg-surface p-4 text-left shadow-sm transition hover:border-rose-300 sm:w-72"
     >
       <div className="flex items-center gap-2">
@@ -93,7 +95,10 @@ function StepCard({ node, language, index }: { node: ScenarioNode; language: Lan
         </span>
         <button
           type="button"
-          onClick={handleSpeak}
+          onClick={(e) => {
+            e.stopPropagation();
+            speakNode();
+          }}
           className="ml-auto flex h-6 w-6 flex-none items-center justify-center rounded-full border border-border bg-surface-3 text-[11px] hover:bg-brand-50"
           aria-label="Phát âm"
         >
@@ -102,18 +107,28 @@ function StepCard({ node, language, index }: { node: ScenarioNode; language: Lan
       </div>
       <p className="text-base font-medium leading-snug text-ink">{node.headword}</p>
       <p className="text-xs italic text-brand-600">{node.reading}</p>
-      {revealed ? (
-        <>
-          {node.hanViet && (
-            <span className="inline-block w-fit rounded bg-surface-3 px-1.5 py-0.5 text-[10px] font-bold text-ink-muted">
-              Hán Việt: {node.hanViet}
-            </span>
-          )}
-          <p className="text-xs text-ink-muted">{node.meaningVn}</p>
-        </>
-      ) : (
-        <span className="text-[11px] text-ink-muted/70">👁 chạm để xem nghĩa</span>
-      )}
+      <button
+        type="button"
+        onClick={(e) => {
+          e.stopPropagation();
+          setRevealed((r) => !r);
+        }}
+        className="flex w-fit flex-col items-start gap-1 text-left"
+        aria-label={revealed ? "Ẩn nghĩa" : "Xem nghĩa"}
+      >
+        {revealed ? (
+          <>
+            {node.hanViet && (
+              <span className="inline-block w-fit rounded bg-surface-3 px-1.5 py-0.5 text-[10px] font-bold text-ink-muted">
+                Hán Việt: {node.hanViet}
+              </span>
+            )}
+            <span className="text-xs text-ink-muted">{node.meaningVn}</span>
+          </>
+        ) : (
+          <span className="text-[11px] text-ink-muted/70 underline decoration-dotted">👁 chạm để xem nghĩa</span>
+        )}
+      </button>
       {error && <p className="text-[11px] text-red-600 dark:text-red-400">{error}</p>}
     </div>
   );
@@ -193,12 +208,34 @@ function ScenarioChainCard({
       <div className="flex flex-1 flex-col overflow-auto p-6 sm:p-10">
         <h2 className="text-center text-base font-semibold text-ink">{chain.titleVn}</h2>
 
+        {/* Dải nhảy nhanh theo bước — chỉ hiện khi chuỗi khá dài (>4 bước), giúp dễ định hướng thay vì
+            phải cuộn qua nhiều thẻ mới thấy hết, đúng góp ý "khó nhìn nếu có nhiều context trong đó". */}
+        {chain.nodes.length > 4 && (
+          <div className="mt-3 flex flex-wrap justify-center gap-1.5" aria-label="Điều hướng theo bước">
+            {chain.nodes.map((_, i) => (
+              <button
+                key={i}
+                type="button"
+                onClick={() => {
+                  document
+                    .getElementById(`${chain.id}-step-${i}`)
+                    ?.scrollIntoView({ behavior: "smooth", block: "center", inline: "center" });
+                }}
+                className="flex h-6 w-6 flex-none items-center justify-center rounded-full border border-border bg-surface-2 text-[10px] font-bold text-ink-muted transition hover:border-rose-300 hover:text-rose-500"
+                aria-label={`Đi tới bước ${i + 1}`}
+              >
+                {i + 1}
+              </button>
+            ))}
+          </div>
+        )}
+
         <div className="relative mt-5">
           <div className="overflow-x-auto pb-2">
             <div className="flex flex-col items-stretch gap-2 md:flex-row md:flex-nowrap md:items-start md:gap-3">
               {chain.nodes.map((node, i) => (
                 <div key={i} className="flex flex-col items-stretch gap-2 md:flex-row md:items-start">
-                  <StepCard node={node} language={language} index={i} />
+                  <StepCard node={node} language={language} index={i} stepId={`${chain.id}-step-${i}`} />
                   {i < chain.nodes.length - 1 && (
                     <span className="shrink-0 self-center text-lg text-rose-400" aria-hidden>
                       <span className="md:hidden">↓</span>
@@ -236,8 +273,7 @@ function ClusterWordCard({ word, language }: { word: ScenarioNode; language: Lan
   const [error, setError] = useState<string | null>(null);
   const [revealed, setRevealed] = useState(false);
 
-  async function handleSpeak(e: MouseEvent) {
-    e.stopPropagation();
+  async function speakWord() {
     setError(null);
     const result = await speak(word.headword, language);
     if (!result.ok) setError(ttsFailureMessage(result.reason));
@@ -247,13 +283,14 @@ function ClusterWordCard({ word, language }: { word: ScenarioNode; language: Lan
     <div
       role="button"
       tabIndex={0}
-      onClick={() => setRevealed((r) => !r)}
+      onClick={speakWord}
       onKeyDown={(e) => {
         if (e.key === "Enter" || e.key === " ") {
           e.preventDefault();
-          setRevealed((r) => !r);
+          speakWord();
         }
       }}
+      aria-label={`Phát âm ${word.headword}`}
       className="cursor-pointer rounded-xl border border-border-strong bg-surface-2 px-3.5 py-2.5 text-left shadow-sm transition hover:border-rose-300"
     >
       <div className="flex items-center gap-2">
@@ -264,21 +301,34 @@ function ClusterWordCard({ word, language }: { word: ScenarioNode; language: Lan
         <span className="text-xs italic text-brand-600">{word.reading}</span>
         <button
           type="button"
-          onClick={handleSpeak}
+          onClick={(e) => {
+            e.stopPropagation();
+            speakWord();
+          }}
           className="ml-auto flex h-6 w-6 flex-none items-center justify-center rounded-full border border-border bg-surface-3 text-[11px] hover:bg-brand-50"
           aria-label="Phát âm"
         >
           🔊
         </button>
       </div>
-      {revealed ? (
-        <p className="mt-1 text-xs text-ink-muted">
-          {word.hanViet && <span className="font-semibold text-ink">{word.hanViet} — </span>}
-          {word.meaningVn}
-        </p>
-      ) : (
-        <span className="mt-1 block text-[11px] text-ink-muted/70">👁 chạm để xem nghĩa</span>
-      )}
+      <button
+        type="button"
+        onClick={(e) => {
+          e.stopPropagation();
+          setRevealed((r) => !r);
+        }}
+        className="mt-1 block w-fit text-left"
+        aria-label={revealed ? "Ẩn nghĩa" : "Xem nghĩa"}
+      >
+        {revealed ? (
+          <span className="text-xs text-ink-muted">
+            {word.hanViet && <span className="font-semibold text-ink">{word.hanViet} — </span>}
+            {word.meaningVn}
+          </span>
+        ) : (
+          <span className="text-[11px] text-ink-muted/70 underline decoration-dotted">👁 chạm để xem nghĩa</span>
+        )}
+      </button>
       {error && <p className="mt-1 text-[11px] text-red-600 dark:text-red-400">{error}</p>}
     </div>
   );
