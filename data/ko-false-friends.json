@@ -4753,6 +4753,402 @@
           ]
         }
       ]
+    },
+    {
+      "id": "ko-ff-wan2",
+      "language": "ko",
+      "reading": "完",
+      "groupKind": "false-friend",
+      "note": "完 (hoàn) vốn nghĩa 'xong, đầy đủ', 완성 giữ nghĩa hành động cụ thể (hoàn thành một việc), còn 완벽 lệch thành TÍNH TỪ trừu tượng mô tả CHẤT LƯỢNG (hoàn hảo, không tì vết) — song song với tiếng Nhật 完成/完璧.",
+      "roots": [
+        {
+          "id": "ko-ff-wan2-root",
+          "character": "完",
+          "hanViet": "hoàn",
+          "meaningVn": "hoàn (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-wan2-w1",
+              "headword": "완성",
+              "reading": "wanseong",
+              "meaningVn": "hoàn thành",
+              "example": "프로젝트가 완성되었어요.",
+              "exampleVn": "Dự án đã hoàn thành."
+            },
+            {
+              "id": "ko-ff-wan2-w2",
+              "headword": "완벽",
+              "reading": "wanbyeok",
+              "meaningVn": "hoàn hảo",
+              "example": "그녀의 발음은 완벽해요.",
+              "exampleVn": "Phát âm của cô ấy hoàn hảo."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ff-gak2",
+      "language": "ko",
+      "reading": "覺",
+      "groupKind": "false-friend",
+      "note": "覺 (giác, dạng phồn thể của 覚) vốn nghĩa 'cảm nhận, tỉnh giác', 감각 giữ nghĩa cụ thể (cảm giác của giác quan), còn 각오 lệch thành trạng thái TÂM LÝ trừu tượng (quyết tâm, chuẩn bị tinh thần đối mặt khó khăn) — song song với tiếng Nhật 感覚/覚悟.",
+      "roots": [
+        {
+          "id": "ko-ff-gak2-root",
+          "character": "覺",
+          "hanViet": "giác",
+          "meaningVn": "giác (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-gak2-w1",
+              "headword": "감각",
+              "reading": "gamgak",
+              "meaningVn": "cảm giác",
+              "example": "손끝의 감각이 없어졌어요.",
+              "exampleVn": "Đầu ngón tay đã mất cảm giác."
+            },
+            {
+              "id": "ko-ff-gak2-w2",
+              "headword": "각오",
+              "reading": "gago",
+              "meaningVn": "quyết tâm, chuẩn bị tinh thần",
+              "example": "그는 실패를 각오하고 있었어요.",
+              "exampleVn": "Anh ấy đã chuẩn bị tinh thần cho thất bại."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ff-on3",
+      "language": "ko",
+      "reading": "溫",
+      "groupKind": "false-friend",
+      "note": "溫 (ôn, dạng phồn thể của 温) vốn nghĩa 'ấm, ôn hoà', 온도 giữ nghĩa trừu tượng (một PHÉP ĐO nhiệt độ), còn 온천 lệch thành DANH TỪ cụ thể chỉ một ĐỊA ĐIỂM (suối nước nóng) — song song với tiếng Nhật 温度/温泉.",
+      "roots": [
+        {
+          "id": "ko-ff-on3-root",
+          "character": "溫",
+          "hanViet": "ôn",
+          "meaningVn": "ôn (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-on3-w1",
+              "headword": "온도",
+              "reading": "ondo",
+              "meaningVn": "nhiệt độ",
+              "example": "오늘 온도는 삼십 도예요.",
+              "exampleVn": "Nhiệt độ hôm nay là ba mươi độ."
+            },
+            {
+              "id": "ko-ff-on3-w2",
+              "headword": "온천",
+              "reading": "oncheon",
+              "meaningVn": "suối nước nóng",
+              "example": "주말에 온천에 갔어요.",
+              "exampleVn": "Cuối tuần tôi đã đi suối nước nóng."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ff-jang4",
+      "language": "ko",
+      "reading": "障",
+      "groupKind": "false-friend",
+      "note": "障 (chướng) vốn nghĩa 'cản trở, chướng ngại', 장애 giữ nghĩa gần gốc (trở ngại, rào cản), còn 보장 lệch gần như ĐỐI LẬP thành khái niệm BẢO VỆ (bảo đảm, đảm bảo an toàn) — song song với tiếng Nhật 障害/保障.",
+      "roots": [
+        {
+          "id": "ko-ff-jang4-root",
+          "character": "障",
+          "hanViet": "chướng",
+          "meaningVn": "chướng (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-jang4-w1",
+              "headword": "장애",
+              "reading": "jangae",
+              "meaningVn": "chướng ngại, trở ngại",
+              "example": "많은 장애를 극복했어요.",
+              "exampleVn": "Tôi đã vượt qua nhiều trở ngại."
+            },
+            {
+              "id": "ko-ff-jang4-w2",
+              "headword": "보장",
+              "reading": "bojang",
+              "meaningVn": "bảo đảm",
+              "example": "사회 보장 제도에 대해 배웠어요.",
+              "exampleVn": "Tôi đã tìm hiểu về chế độ bảo đảm xã hội."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ff-kwae2",
+      "language": "ko",
+      "reading": "快",
+      "groupKind": "false-friend",
+      "note": "快 (khoái) vốn nghĩa 'vui vẻ, dễ chịu', 쾌청 giữ nghĩa cụ thể (mô tả THỜI TIẾT trời quang đãng), còn 쾌감 lệch thành cảm giác TÂM LÝ/thể chất trừu tượng (khoái cảm) — song song với tiếng Nhật 快晴/快感.",
+      "roots": [
+        {
+          "id": "ko-ff-kwae2-root",
+          "character": "快",
+          "hanViet": "khoái",
+          "meaningVn": "khoái (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-kwae2-w1",
+              "headword": "쾌청",
+              "reading": "kwaecheong",
+              "meaningVn": "trời quang đãng, nắng đẹp",
+              "example": "오늘은 쾌청해요.",
+              "exampleVn": "Hôm nay trời quang đãng."
+            },
+            {
+              "id": "ko-ff-kwae2-w2",
+              "headword": "쾌감",
+              "reading": "kwaegam",
+              "meaningVn": "khoái cảm, cảm giác dễ chịu",
+              "example": "운동한 후의 쾌감을 좋아해요.",
+              "exampleVn": "Tôi thích cảm giác khoái cảm sau khi tập thể dục."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ff-sang6",
+      "language": "ko",
+      "reading": "狀",
+      "groupKind": "false-friend",
+      "note": "狀 (trạng, dạng phồn thể của 状) vốn nghĩa 'hình trạng, tình trạng', 상태 giữ nghĩa trừu tượng (trạng thái chung của một sự vật), còn 초대장 lệch thành DANH TỪ vật lý cụ thể (một loại VĂN BẢN - thiệp mời) — song song với tiếng Nhật 状態/招待状.",
+      "roots": [
+        {
+          "id": "ko-ff-sang6-root",
+          "character": "狀",
+          "hanViet": "trạng",
+          "meaningVn": "trạng (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-sang6-w1",
+              "headword": "상태",
+              "reading": "sangtae",
+              "meaningVn": "trạng thái",
+              "example": "건강 상태가 좋아졌어요.",
+              "exampleVn": "Trạng thái sức khỏe đã tốt hơn."
+            },
+            {
+              "id": "ko-ff-sang6-w2",
+              "headword": "초대장",
+              "reading": "chodaejang",
+              "meaningVn": "thiệp mời",
+              "example": "결혼식 초대장이 도착했어요.",
+              "exampleVn": "Thiệp mời đám cưới đã đến."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ff-yeon4",
+      "language": "ko",
+      "reading": "演",
+      "groupKind": "false-friend",
+      "note": "演 (diễn) vốn nghĩa 'diễn, trình diễn', 연기 giữ nghĩa cụ thể (kỹ năng diễn xuất của một cá nhân), còn 공연 lệch thành DANH TỪ chỉ một SỰ KIỆN công khai (buổi biểu diễn) — song song với tiếng Nhật 演技/公演.",
+      "roots": [
+        {
+          "id": "ko-ff-yeon4-root",
+          "character": "演",
+          "hanViet": "diễn",
+          "meaningVn": "diễn (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-yeon4-w1",
+              "headword": "연기",
+              "reading": "yeongi",
+              "meaningVn": "diễn xuất",
+              "example": "그의 연기는 아주 자연스러워요.",
+              "exampleVn": "Diễn xuất của anh ấy rất tự nhiên."
+            },
+            {
+              "id": "ko-ff-yeon4-w2",
+              "headword": "공연",
+              "reading": "gongyeon",
+              "meaningVn": "buổi biểu diễn",
+              "example": "다음 달에 공연이 있어요.",
+              "exampleVn": "Tháng sau có một buổi biểu diễn."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ff-seo2",
+      "language": "ko",
+      "reading": "序",
+      "groupKind": "false-friend",
+      "note": "序 (tự) vốn nghĩa 'thứ tự, mở đầu', 순서 giữ nghĩa trừu tượng chung (thứ tự, trình tự), còn 서문 lệch thành DANH TỪ cụ thể chỉ một THỂ LOẠI văn bản (lời tựa của sách) — song song với tiếng Nhật 順序/序文.",
+      "roots": [
+        {
+          "id": "ko-ff-seo2-root",
+          "character": "序",
+          "hanViet": "tự",
+          "meaningVn": "tự (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-seo2-w1",
+              "headword": "순서",
+              "reading": "sunseo",
+              "meaningVn": "thứ tự, trình tự",
+              "example": "작업 순서를 확인해 주세요.",
+              "exampleVn": "Hãy kiểm tra trình tự công việc."
+            },
+            {
+              "id": "ko-ff-seo2-w2",
+              "headword": "서문",
+              "reading": "seomun",
+              "meaningVn": "lời tựa",
+              "example": "이 책의 서문은 아주 흥미로워요.",
+              "exampleVn": "Lời tựa của cuốn sách này rất thú vị."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ff-aek2",
+      "language": "ko",
+      "reading": "額",
+      "groupKind": "false-friend",
+      "note": "額 (ngạch) vốn nghĩa 'số lượng, trán', 금액 giữ nghĩa trừu tượng (một con số tiền), còn 액자 lệch thành DANH TỪ vật lý cụ thể (khung tranh) — song song với tiếng Nhật 金額/額縁.",
+      "roots": [
+        {
+          "id": "ko-ff-aek2-root",
+          "character": "額",
+          "hanViet": "ngạch",
+          "meaningVn": "ngạch (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-aek2-w1",
+              "headword": "금액",
+              "reading": "geumaek",
+              "meaningVn": "số tiền",
+              "example": "총 금액을 알려 주세요.",
+              "exampleVn": "Hãy cho tôi biết tổng số tiền."
+            },
+            {
+              "id": "ko-ff-aek2-w2",
+              "headword": "액자",
+              "reading": "aekja",
+              "meaningVn": "khung tranh",
+              "example": "이 그림에 맞는 액자를 찾고 있어요.",
+              "exampleVn": "Tôi đang tìm khung tranh phù hợp với bức tranh này."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ff-hwa4",
+      "language": "ko",
+      "reading": "貨",
+      "groupKind": "false-friend",
+      "note": "貨 (hoá) vốn nghĩa 'hàng hoá, của cải', 화물 giữ nghĩa cụ thể (hàng hoá vận chuyển), còn 통화 lệch thành khái niệm KINH TẾ trừu tượng (tiền tệ) — song song với tiếng Nhật 貨物/通貨. LƯU Ý: 통화 tiếng Hàn còn 1 nghĩa KHÁC hoàn toàn (cuộc gọi điện thoại, chữ Hán 通話 khác hẳn 通貨) — cùng cách viết hangul, khác hanja, 1 bẫy đồng âm thật sự trong tiếng Hàn.",
+      "roots": [
+        {
+          "id": "ko-ff-hwa4-root",
+          "character": "貨",
+          "hanViet": "hoá",
+          "meaningVn": "hoá (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-hwa4-w1",
+              "headword": "화물",
+              "reading": "hwamul",
+              "meaningVn": "hàng hoá",
+              "example": "화물 열차가 지나갔어요.",
+              "exampleVn": "Đoàn tàu chở hàng hoá đã đi qua."
+            },
+            {
+              "id": "ko-ff-hwa4-w2",
+              "headword": "통화",
+              "reading": "tonghwa",
+              "meaningVn": "tiền tệ",
+              "example": "원은 한국의 통화예요.",
+              "exampleVn": "Won là tiền tệ của Hàn Quốc."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ff-hon2",
+      "language": "ko",
+      "reading": "混",
+      "groupKind": "false-friend",
+      "note": "混 (hỗn) vốn nghĩa 'trộn lẫn, hỗn tạp', 혼란 lệch thành trạng thái XÃ HỘI/tâm lý trừu tượng (hỗn loạn), còn 혼합 giữ nghĩa vật lý cụ thể gần gốc hơn (trộn lẫn các chất/vật liệu) — song song với tiếng Nhật 混乱/混合.",
+      "roots": [
+        {
+          "id": "ko-ff-hon2-root",
+          "character": "混",
+          "hanViet": "hỗn",
+          "meaningVn": "hỗn (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-hon2-w1",
+              "headword": "혼란",
+              "reading": "hollan",
+              "meaningVn": "hỗn loạn",
+              "example": "행사장은 혼란스러웠어요.",
+              "exampleVn": "Hội trường đã hỗn loạn."
+            },
+            {
+              "id": "ko-ff-hon2-w2",
+              "headword": "혼합",
+              "reading": "honhap",
+              "meaningVn": "hỗn hợp, trộn lẫn",
+              "example": "두 가지 색을 혼합했어요.",
+              "exampleVn": "Tôi đã trộn lẫn hai màu."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ff-gwan2",
+      "language": "ko",
+      "reading": "慣",
+      "groupKind": "false-friend",
+      "note": "慣 (quán) vốn nghĩa 'quen, thói quen', 습관 giữ nghĩa cụ thể cá nhân (thói quen sinh hoạt), còn 관용구 lệch thành khái niệm NGÔN NGỮ trừu tượng (thành ngữ, một thể loại từ vựng) — song song với tiếng Nhật 習慣/慣用句.",
+      "roots": [
+        {
+          "id": "ko-ff-gwan2-root",
+          "character": "慣",
+          "hanViet": "quán",
+          "meaningVn": "quán (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-gwan2-w1",
+              "headword": "습관",
+              "reading": "seupgwan",
+              "meaningVn": "thói quen",
+              "example": "일찍 일어나는 습관이 있어요.",
+              "exampleVn": "Tôi có thói quen dậy sớm."
+            },
+            {
+              "id": "ko-ff-gwan2-w2",
+              "headword": "관용구",
+              "reading": "gwanyonggu",
+              "meaningVn": "thành ngữ",
+              "example": "이 관용구의 뜻을 모르겠어요.",
+              "exampleVn": "Tôi không hiểu nghĩa của thành ngữ này."
+            }
+          ]
+        }
+      ]
     }
   ]
 }
