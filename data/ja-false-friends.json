@@ -3565,6 +3565,798 @@
           ]
         }
       ]
+    },
+    {
+      "id": "ja-ff-sei3",
+      "language": "ja",
+      "reading": "制",
+      "groupKind": "false-friend",
+      "note": "制 (chế) vốn nghĩa 'chế định, quy tắc', 制度 giữ nghĩa trừu tượng (hệ thống quy định, chế độ), còn 制服 lệch thành DANH TỪ cụ thể chỉ một VẬT DỤNG (đồng phục), không còn là một hệ thống quy tắc.",
+      "roots": [
+        {
+          "id": "ja-ff-sei3-root",
+          "character": "制",
+          "hanViet": "chế",
+          "meaningVn": "chế (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-sei3-w1",
+              "headword": "制度",
+              "reading": "seido",
+              "meaningVn": "chế độ",
+              "example": "この国の教育制度は優れています。",
+              "exampleVn": "Chế độ giáo dục của nước này rất tốt."
+            },
+            {
+              "id": "ja-ff-sei3-w2",
+              "headword": "制服",
+              "reading": "seifuku",
+              "meaningVn": "đồng phục",
+              "example": "学校の制服を着ています。",
+              "exampleVn": "Tôi đang mặc đồng phục học sinh."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-zou2",
+      "language": "ja",
+      "reading": "造",
+      "groupKind": "false-friend",
+      "note": "造 (tạo) vốn nghĩa 'tạo ra, chế tạo', 造成 giữ nghĩa hành động cụ thể (san lấp, tạo dựng mặt bằng), còn 構造 lệch thành DANH TỪ trừu tượng chỉ CẤU TRÚC bên trong của một sự vật, không còn là một hành động.",
+      "roots": [
+        {
+          "id": "ja-ff-zou2-root",
+          "character": "造",
+          "hanViet": "tạo",
+          "meaningVn": "tạo (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-zou2-w1",
+              "headword": "造成",
+              "reading": "zousei",
+              "meaningVn": "tạo dựng, san lấp",
+              "example": "新しい住宅地を造成しています。",
+              "exampleVn": "Người ta đang san lấp một khu dân cư mới."
+            },
+            {
+              "id": "ja-ff-zou2-w2",
+              "headword": "構造",
+              "reading": "kouzou",
+              "meaningVn": "cấu trúc",
+              "example": "この建物の構造は複雑です。",
+              "exampleVn": "Cấu trúc của toà nhà này rất phức tạp."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-shou3",
+      "language": "ja",
+      "reading": "象",
+      "groupKind": "false-friend",
+      "note": "象 (tượng) vốn nghĩa 'hình tượng, hiện tượng', 対象 giữ nghĩa trừu tượng (đối tượng, mục tiêu hướng đến), còn 印象 lệch thành khái niệm CẢM XÚC chủ quan (ấn tượng, cảm nhận cá nhân), khác hẳn 'đối tượng' khách quan.",
+      "roots": [
+        {
+          "id": "ja-ff-shou3-root",
+          "character": "象",
+          "hanViet": "tượng",
+          "meaningVn": "tượng (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-shou3-w1",
+              "headword": "対象",
+              "reading": "taishou",
+              "meaningVn": "đối tượng",
+              "example": "この調査の対象は学生です。",
+              "exampleVn": "Đối tượng của cuộc khảo sát này là học sinh."
+            },
+            {
+              "id": "ja-ff-shou3-w2",
+              "headword": "印象",
+              "reading": "inshou",
+              "meaningVn": "ấn tượng",
+              "example": "彼の第一印象はとても良かったです。",
+              "exampleVn": "Ấn tượng đầu tiên của anh ấy rất tốt."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-kyou4",
+      "language": "ja",
+      "reading": "境",
+      "groupKind": "false-friend",
+      "note": "境 (cảnh) vốn nghĩa 'cảnh giới, biên giới', 環境 lệch thành khái niệm rộng trừu tượng (môi trường sống nói chung), còn 境界 giữ nghĩa cụ thể gần gốc hơn (một RANH GIỚI/đường phân chia rõ ràng).",
+      "roots": [
+        {
+          "id": "ja-ff-kyou4-root",
+          "character": "境",
+          "hanViet": "cảnh",
+          "meaningVn": "cảnh (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-kyou4-w1",
+              "headword": "環境",
+              "reading": "kankyou",
+              "meaningVn": "môi trường",
+              "example": "環境を大切にしましょう。",
+              "exampleVn": "Hãy trân trọng môi trường."
+            },
+            {
+              "id": "ja-ff-kyou4-w2",
+              "headword": "境界",
+              "reading": "kyoukai",
+              "meaningVn": "ranh giới",
+              "example": "二つの国の境界はここです。",
+              "exampleVn": "Ranh giới giữa hai nước là ở đây."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-han2",
+      "language": "ja",
+      "reading": "犯",
+      "groupKind": "false-friend",
+      "note": "犯 (phạm) vốn nghĩa 'phạm phải, xâm phạm', 犯罪 giữ nghĩa trừu tượng chung (tội phạm nói chung), còn 侵犯 lệch thành hành động cụ thể XÂM PHẠM (lãnh thổ, quyền lợi), hẹp hơn nhiều so với 'tội phạm' chung chung.",
+      "roots": [
+        {
+          "id": "ja-ff-han2-root",
+          "character": "犯",
+          "hanViet": "phạm",
+          "meaningVn": "phạm (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-han2-w1",
+              "headword": "犯罪",
+              "reading": "hanzai",
+              "meaningVn": "tội phạm",
+              "example": "この地域は犯罪が少ないです。",
+              "exampleVn": "Khu vực này ít tội phạm."
+            },
+            {
+              "id": "ja-ff-han2-w2",
+              "headword": "侵犯",
+              "reading": "shinpan",
+              "meaningVn": "xâm phạm",
+              "example": "領土を侵犯してはいけません。",
+              "exampleVn": "Không được xâm phạm lãnh thổ."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-go3",
+      "language": "ja",
+      "reading": "護",
+      "groupKind": "false-friend",
+      "note": "護 (hộ) vốn nghĩa 'bảo vệ, che chở', 保護 giữ nghĩa trừu tượng chung (bảo vệ nói chung), còn 看護 lệch thành hoạt động NGHỀ NGHIỆP cụ thể (điều dưỡng, chăm sóc bệnh nhân), hẹp hơn nhiều so với 'bảo vệ' chung chung.",
+      "roots": [
+        {
+          "id": "ja-ff-go3-root",
+          "character": "護",
+          "hanViet": "hộ",
+          "meaningVn": "hộ (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-go3-w1",
+              "headword": "保護",
+              "reading": "hogo",
+              "meaningVn": "bảo hộ, bảo vệ",
+              "example": "動物を保護しましょう。",
+              "exampleVn": "Hãy bảo vệ động vật."
+            },
+            {
+              "id": "ja-ff-go3-w2",
+              "headword": "看護",
+              "reading": "kango",
+              "meaningVn": "điều dưỡng, chăm sóc",
+              "example": "彼女は看護の仕事をしています。",
+              "exampleVn": "Cô ấy làm công việc điều dưỡng."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-zai",
+      "language": "ja",
+      "reading": "罪",
+      "groupKind": "false-friend",
+      "note": "罪 (tội) vốn nghĩa 'tội lỗi', 謝罪 giữ nghĩa hành động cụ thể (xin lỗi vì tội lỗi), còn 無罪 lệch thành khái niệm PHÁP LÝ trừu tượng (vô tội, một phán quyết), không còn là một hành động xin lỗi.",
+      "roots": [
+        {
+          "id": "ja-ff-zai-root",
+          "character": "罪",
+          "hanViet": "tội",
+          "meaningVn": "tội (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-zai-w1",
+              "headword": "謝罪",
+              "reading": "shazai",
+              "meaningVn": "tạ tội, xin lỗi",
+              "example": "彼は公に謝罪しました。",
+              "exampleVn": "Anh ấy đã công khai tạ tội."
+            },
+            {
+              "id": "ja-ff-zai-w2",
+              "headword": "無罪",
+              "reading": "muzai",
+              "meaningVn": "vô tội",
+              "example": "裁判で無罪になりました。",
+              "exampleVn": "Anh ấy đã được tuyên vô tội tại toà."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-iki",
+      "language": "ja",
+      "reading": "域",
+      "groupKind": "false-friend",
+      "note": "域 (vực) vốn nghĩa 'vùng, khu vực', 地域 giữ nghĩa vật lý cụ thể (một KHU VỰC địa lý), còn 領域 lệch thành khái niệm trừu tượng (lĩnh vực chuyên môn/thẩm quyền), không còn liên quan đến địa lý.",
+      "roots": [
+        {
+          "id": "ja-ff-iki-root",
+          "character": "域",
+          "hanViet": "vực",
+          "meaningVn": "vực (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-iki-w1",
+              "headword": "地域",
+              "reading": "chiiki",
+              "meaningVn": "khu vực, địa phương",
+              "example": "この地域は静かです。",
+              "exampleVn": "Khu vực này yên tĩnh."
+            },
+            {
+              "id": "ja-ff-iki-w2",
+              "headword": "領域",
+              "reading": "ryouiki",
+              "meaningVn": "lĩnh vực",
+              "example": "彼は医学の領域で有名です。",
+              "exampleVn": "Anh ấy nổi tiếng trong lĩnh vực y học."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-ritsu2",
+      "language": "ja",
+      "reading": "律",
+      "groupKind": "false-friend",
+      "note": "律 (luật) vốn nghĩa 'luật lệ, quy tắc', 法律 giữ nghĩa rộng về XÃ HỘI (pháp luật quốc gia), còn 規律 lệch thành khái niệm hẹp hơn về KỶ LUẬT cá nhân/tổ chức (trật tự, nề nếp), không mang tính pháp lý quốc gia.",
+      "roots": [
+        {
+          "id": "ja-ff-ritsu2-root",
+          "character": "律",
+          "hanViet": "luật",
+          "meaningVn": "luật (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-ritsu2-w1",
+              "headword": "法律",
+              "reading": "houritsu",
+              "meaningVn": "pháp luật",
+              "example": "この行為は法律に違反しています。",
+              "exampleVn": "Hành vi này vi phạm pháp luật."
+            },
+            {
+              "id": "ja-ff-ritsu2-w2",
+              "headword": "規律",
+              "reading": "kiritsu",
+              "meaningVn": "kỷ luật, trật tự",
+              "example": "軍隊には厳しい規律があります。",
+              "exampleVn": "Quân đội có kỷ luật nghiêm ngặt."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-mitsu2",
+      "language": "ja",
+      "reading": "密",
+      "groupKind": "false-friend",
+      "note": "密 (mật) vốn nghĩa 'kín đáo, dày đặc', 秘密 giữ nghĩa cụ thể (bí mật, một điều được giấu kín), còn 密接 lệch thành TÍNH TỪ trừu tượng mô tả MỐI QUAN HỆ (mật thiết, gắn bó chặt chẽ), không còn là một điều bí mật.",
+      "roots": [
+        {
+          "id": "ja-ff-mitsu2-root",
+          "character": "密",
+          "hanViet": "mật",
+          "meaningVn": "mật (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-mitsu2-w1",
+              "headword": "秘密",
+              "reading": "himitsu",
+              "meaningVn": "bí mật",
+              "example": "これは私だけの秘密です。",
+              "exampleVn": "Đây là bí mật chỉ mình tôi biết."
+            },
+            {
+              "id": "ja-ff-mitsu2-w2",
+              "headword": "密接",
+              "reading": "missetsu",
+              "meaningVn": "mật thiết, gắn bó chặt chẽ",
+              "example": "二つの問題は密接に関係しています。",
+              "exampleVn": "Hai vấn đề này liên quan mật thiết với nhau."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-ken6",
+      "language": "ja",
+      "reading": "権",
+      "groupKind": "false-friend",
+      "note": "権 (quyền, dạng shinjitai của 權) vốn nghĩa 'quyền lực', 権利 giữ nghĩa trừu tượng cá nhân/pháp lý (quyền lợi mà một người có), còn 政権 lệch thành DANH TỪ cụ thể chỉ một THỰC THỂ chính trị (chính quyền, một chính phủ), không chỉ là một quyền lợi.",
+      "roots": [
+        {
+          "id": "ja-ff-ken6-root",
+          "character": "権",
+          "hanViet": "quyền",
+          "meaningVn": "quyền (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-ken6-w1",
+              "headword": "権利",
+              "reading": "kenri",
+              "meaningVn": "quyền lợi",
+              "example": "誰にでも教育を受ける権利があります。",
+              "exampleVn": "Ai cũng có quyền được giáo dục."
+            },
+            {
+              "id": "ja-ff-ken6-w2",
+              "headword": "政権",
+              "reading": "seiken",
+              "meaningVn": "chính quyền",
+              "example": "新しい政権が発足しました。",
+              "exampleVn": "Chính quyền mới đã được thành lập."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-shoku2",
+      "language": "ja",
+      "reading": "職",
+      "groupKind": "false-friend",
+      "note": "職 (chức) vốn nghĩa 'chức vụ, nghề nghiệp', 職業 giữ nghĩa danh từ chung (nghề nghiệp như một phạm trù), còn 就職 lệch thành HÀNH ĐỘNG cụ thể (xin được việc làm), không còn là một danh từ chỉ phạm trù nghề nghiệp.",
+      "roots": [
+        {
+          "id": "ja-ff-shoku2-root",
+          "character": "職",
+          "hanViet": "chức",
+          "meaningVn": "chức (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-shoku2-w1",
+              "headword": "職業",
+              "reading": "shokugyou",
+              "meaningVn": "nghề nghiệp",
+              "example": "あなたの職業は何ですか。",
+              "exampleVn": "Nghề nghiệp của bạn là gì?"
+            },
+            {
+              "id": "ja-ff-shoku2-w2",
+              "headword": "就職",
+              "reading": "shuushoku",
+              "meaningVn": "xin việc, có việc làm",
+              "example": "来年、就職する予定です。",
+              "exampleVn": "Năm sau tôi dự định đi xin việc."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-shuu2",
+      "language": "ja",
+      "reading": "収",
+      "groupKind": "false-friend",
+      "note": "収 (thu, dạng shinjitai của 收) vốn nghĩa 'thu vào, thu nhận', 収集 giữ nghĩa hành động cụ thể (sưu tập đồ vật), còn 収縮 lệch thành hiện tượng VẬT LÝ/sinh học trừu tượng (co lại, co rút), không còn là một hành động thu thập chủ động.",
+      "roots": [
+        {
+          "id": "ja-ff-shuu2-root",
+          "character": "収",
+          "hanViet": "thu",
+          "meaningVn": "thu (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-shuu2-w1",
+              "headword": "収集",
+              "reading": "shuushuu",
+              "meaningVn": "sưu tập",
+              "example": "彼は切手を収集しています。",
+              "exampleVn": "Anh ấy đang sưu tập tem."
+            },
+            {
+              "id": "ja-ff-shuu2-w2",
+              "headword": "収縮",
+              "reading": "shuushuku",
+              "meaningVn": "co lại, co rút",
+              "example": "筋肉が収縮しました。",
+              "exampleVn": "Cơ bắp đã co lại."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-zai2",
+      "language": "ja",
+      "reading": "財",
+      "groupKind": "false-friend",
+      "note": "財 (tài) vốn nghĩa 'của cải, tài sản', 財産 giữ nghĩa trừu tượng chung (tài sản nói chung), còn 財閥 lệch thành DANH TỪ cụ thể chỉ một THỰC THỂ kinh tế (tài phiệt, tập đoàn lớn), không còn là của cải chung chung.",
+      "roots": [
+        {
+          "id": "ja-ff-zai2-root",
+          "character": "財",
+          "hanViet": "tài",
+          "meaningVn": "tài (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-zai2-w1",
+              "headword": "財産",
+              "reading": "zaisan",
+              "meaningVn": "tài sản",
+              "example": "彼は多くの財産を持っています。",
+              "exampleVn": "Anh ấy có nhiều tài sản."
+            },
+            {
+              "id": "ja-ff-zai2-w2",
+              "headword": "財閥",
+              "reading": "zaibatsu",
+              "meaningVn": "tài phiệt, tập đoàn lớn",
+              "example": "この会社は大財閥の一つです。",
+              "exampleVn": "Công ty này là một trong những tập đoàn tài phiệt lớn."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-seki2",
+      "language": "ja",
+      "reading": "積",
+      "groupKind": "false-friend",
+      "note": "積 (tích) vốn nghĩa 'chồng chất, tích luỹ', 面積 giữ nghĩa vật lý cụ thể (diện tích, một con số đo lường), còn 蓄積 lệch thành khái niệm trừu tượng theo THỜI GIAN (tích lũy dần dần), không còn là một phép đo.",
+      "roots": [
+        {
+          "id": "ja-ff-seki2-root",
+          "character": "積",
+          "hanViet": "tích",
+          "meaningVn": "tích (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-seki2-w1",
+              "headword": "面積",
+              "reading": "menseki",
+              "meaningVn": "diện tích",
+              "example": "この部屋の面積は狭いです。",
+              "exampleVn": "Diện tích căn phòng này chật hẹp."
+            },
+            {
+              "id": "ja-ff-seki2-w2",
+              "headword": "蓄積",
+              "reading": "chikuseki",
+              "meaningVn": "tích lũy",
+              "example": "経験を蓄積することが大切です。",
+              "exampleVn": "Việc tích lũy kinh nghiệm rất quan trọng."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-dou3",
+      "language": "ja",
+      "reading": "導",
+      "groupKind": "false-friend",
+      "note": "導 (đạo) vốn nghĩa 'dẫn dắt', 指導 giữ nghĩa cụ thể (hướng dẫn một CON NGƯỜI), còn 導入 lệch thành hành động TỔ CHỨC/hệ thống trừu tượng (du nhập, đưa một hệ thống/công nghệ mới vào áp dụng), không liên quan đến việc dẫn dắt người.",
+      "roots": [
+        {
+          "id": "ja-ff-dou3-root",
+          "character": "導",
+          "hanViet": "đạo",
+          "meaningVn": "đạo (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-dou3-w1",
+              "headword": "指導",
+              "reading": "shidou",
+              "meaningVn": "chỉ đạo, hướng dẫn",
+              "example": "先生が学生を指導しています。",
+              "exampleVn": "Thầy giáo đang hướng dẫn học sinh."
+            },
+            {
+              "id": "ja-ff-dou3-w2",
+              "headword": "導入",
+              "reading": "dounyuu",
+              "meaningVn": "du nhập, đưa vào áp dụng",
+              "example": "新しいシステムを導入しました。",
+              "exampleVn": "Chúng tôi đã đưa vào áp dụng hệ thống mới."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-shuu3",
+      "language": "ja",
+      "reading": "就",
+      "groupKind": "false-friend",
+      "note": "就 (tựu) vốn nghĩa 'đạt tới, tựu thành', 就任 giữ nghĩa hành động cụ thể (nhậm chức, bắt đầu một vị trí), còn 成就 lệch thành khái niệm trừu tượng (thành tựu, sự đạt được một MỤC TIÊU), không chỉ giới hạn ở một chức vụ.",
+      "roots": [
+        {
+          "id": "ja-ff-shuu3-root",
+          "character": "就",
+          "hanViet": "tựu",
+          "meaningVn": "tựu (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-shuu3-w1",
+              "headword": "就任",
+              "reading": "shunin",
+              "meaningVn": "nhậm chức",
+              "example": "新しい社長が就任しました。",
+              "exampleVn": "Giám đốc mới đã nhậm chức."
+            },
+            {
+              "id": "ja-ff-shuu3-w2",
+              "headword": "成就",
+              "reading": "jouju",
+              "meaningVn": "thành tựu, đạt được",
+              "example": "彼の夢がついに成就しました。",
+              "exampleVn": "Cuối cùng ước mơ của anh ấy đã thành hiện thực."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-shi5",
+      "language": "ja",
+      "reading": "施",
+      "groupKind": "false-friend",
+      "note": "施 (thi) vốn nghĩa 'thi hành, thực hiện', 施設 lệch thành DANH TỪ cụ thể chỉ một CÔNG TRÌNH vật chất (cơ sở vật chất), còn 実施 giữ nghĩa hành động trừu tượng gần gốc hơn (thực thi một kế hoạch/chính sách).",
+      "roots": [
+        {
+          "id": "ja-ff-shi5-root",
+          "character": "施",
+          "hanViet": "thi",
+          "meaningVn": "thi (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-shi5-w1",
+              "headword": "施設",
+              "reading": "shisetsu",
+              "meaningVn": "cơ sở, thiết bị",
+              "example": "この地域には福祉施設があります。",
+              "exampleVn": "Khu vực này có cơ sở phúc lợi."
+            },
+            {
+              "id": "ja-ff-shi5-w2",
+              "headword": "実施",
+              "reading": "jisshi",
+              "meaningVn": "thực thi, thực hiện",
+              "example": "新しい政策を実施します。",
+              "exampleVn": "Chúng tôi sẽ thực thi chính sách mới."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-zai3",
+      "language": "ja",
+      "reading": "済",
+      "groupKind": "false-friend",
+      "note": "済 (tế, dạng shinjitai của 濟) vốn nghĩa 'cứu tế, hoàn thành', 経済 giữ nghĩa rộng trừu tượng (kinh tế nói chung), còn 返済 lệch thành hành động TÀI CHÍNH cụ thể (hoàn trả nợ), hẹp hơn nhiều so với 'kinh tế' chung chung.",
+      "roots": [
+        {
+          "id": "ja-ff-zai3-root",
+          "character": "済",
+          "hanViet": "tế",
+          "meaningVn": "tế (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-zai3-w1",
+              "headword": "経済",
+              "reading": "keizai",
+              "meaningVn": "kinh tế",
+              "example": "この国の経済は成長しています。",
+              "exampleVn": "Kinh tế của nước này đang tăng trưởng."
+            },
+            {
+              "id": "ja-ff-zai3-w2",
+              "headword": "返済",
+              "reading": "hensai",
+              "meaningVn": "hoàn trả nợ",
+              "example": "ローンを返済しなければなりません。",
+              "exampleVn": "Tôi phải hoàn trả khoản vay."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-tei2",
+      "language": "ja",
+      "reading": "提",
+      "groupKind": "false-friend",
+      "note": "提 (đề) vốn nghĩa 'đưa ra, đề xuất', 提出 giữ nghĩa hành động cụ thể (nộp/đưa ra một VĂN BẢN), còn 前提 lệch thành khái niệm LOGIC trừu tượng (tiền đề, điều kiện tiên quyết cho một lập luận), không còn là một hành động nộp giấy tờ.",
+      "roots": [
+        {
+          "id": "ja-ff-tei2-root",
+          "character": "提",
+          "hanViet": "đề",
+          "meaningVn": "đề (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-tei2-w1",
+              "headword": "提出",
+              "reading": "teishutsu",
+              "meaningVn": "nộp, đưa ra",
+              "example": "レポートを提出してください。",
+              "exampleVn": "Hãy nộp báo cáo."
+            },
+            {
+              "id": "ja-ff-tei2-w2",
+              "headword": "前提",
+              "reading": "zentei",
+              "meaningVn": "tiền đề",
+              "example": "その計画には前提条件があります。",
+              "exampleVn": "Kế hoạch đó có điều kiện tiền đề."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-zoku3",
+      "language": "ja",
+      "reading": "続",
+      "groupKind": "false-friend",
+      "note": "続 (tục, dạng shinjitai của 續) vốn nghĩa 'tiếp tục, nối tiếp', 続行 giữ nghĩa hành động cụ thể (tiếp tục thực hiện một việc đang làm), còn 連続 lệch thành TÍNH TỪ/danh từ trừu tượng mô tả một CHUỖI sự kiện liên tiếp, không chỉ một hành động đơn lẻ.",
+      "roots": [
+        {
+          "id": "ja-ff-zoku3-root",
+          "character": "続",
+          "hanViet": "tục",
+          "meaningVn": "tục (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-zoku3-w1",
+              "headword": "続行",
+              "reading": "zokkou",
+              "meaningVn": "tiếp tục thực hiện",
+              "example": "会議を続行しましょう。",
+              "exampleVn": "Hãy tiếp tục cuộc họp."
+            },
+            {
+              "id": "ja-ff-zoku3-w2",
+              "headword": "連続",
+              "reading": "renzoku",
+              "meaningVn": "liên tục",
+              "example": "三日連続で雨が降っています。",
+              "exampleVn": "Trời mưa liên tục ba ngày."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-ken7",
+      "language": "ja",
+      "reading": "券",
+      "groupKind": "false-friend",
+      "note": "券 (khoán) vốn nghĩa 'giấy chứng nhận, vé', 旅券 giữ nghĩa cụ thể (một loại GIẤY TỜ - hộ chiếu), còn 証券 lệch thành khái niệm TÀI CHÍNH trừu tượng (chứng khoán), không còn là một loại giấy tờ cá nhân.",
+      "roots": [
+        {
+          "id": "ja-ff-ken7-root",
+          "character": "券",
+          "hanViet": "khoán",
+          "meaningVn": "khoán (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-ken7-w1",
+              "headword": "旅券",
+              "reading": "ryoken",
+              "meaningVn": "hộ chiếu",
+              "example": "海外旅行には旅券が必要です。",
+              "exampleVn": "Đi du lịch nước ngoài cần có hộ chiếu."
+            },
+            {
+              "id": "ja-ff-ken7-w2",
+              "headword": "証券",
+              "reading": "shouken",
+              "meaningVn": "chứng khoán",
+              "example": "彼は証券会社で働いています。",
+              "exampleVn": "Anh ấy làm việc tại công ty chứng khoán."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-hai2",
+      "language": "ja",
+      "reading": "敗",
+      "groupKind": "false-friend",
+      "note": "敗 (bại) vốn nghĩa 'thua, thất bại', 失敗 giữ nghĩa chung (thất bại trong bất kỳ việc gì), còn 腐敗 lệch hẳn thành khái niệm XÃ HỘI/đạo đức (tham nhũng, thối nát), không còn liên quan đến 'thua cuộc'.",
+      "roots": [
+        {
+          "id": "ja-ff-hai2-root",
+          "character": "敗",
+          "hanViet": "bại",
+          "meaningVn": "bại (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-hai2-w1",
+              "headword": "失敗",
+              "reading": "shippai",
+              "meaningVn": "thất bại",
+              "example": "今回の計画は失敗しました。",
+              "exampleVn": "Kế hoạch lần này đã thất bại."
+            },
+            {
+              "id": "ja-ff-hai2-w2",
+              "headword": "腐敗",
+              "reading": "fuhai",
+              "meaningVn": "tham nhũng, thối nát",
+              "example": "政治の腐敗をなくすべきです。",
+              "exampleVn": "Cần phải xoá bỏ tham nhũng chính trị."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-kin2",
+      "language": "ja",
+      "reading": "均",
+      "groupKind": "false-friend",
+      "note": "均 (quân) vốn nghĩa 'đều, ngang bằng', 平均 giữ nghĩa trừu tượng THỐNG KÊ (bình quân, giá trị trung bình), còn 均衡 lệch thành khái niệm rộng hơn về TRẠNG THÁI cân bằng tổng thể, không chỉ là một phép tính trung bình.",
+      "roots": [
+        {
+          "id": "ja-ff-kin2-root",
+          "character": "均",
+          "hanViet": "quân",
+          "meaningVn": "quân (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-kin2-w1",
+              "headword": "平均",
+              "reading": "heikin",
+              "meaningVn": "bình quân, trung bình",
+              "example": "平均寿命が延びています。",
+              "exampleVn": "Tuổi thọ trung bình đang tăng lên."
+            },
+            {
+              "id": "ja-ff-kin2-w2",
+              "headword": "均衡",
+              "reading": "kinkou",
+              "meaningVn": "cân bằng",
+              "example": "経済の均衡を保つことが重要です。",
+              "exampleVn": "Việc duy trì cân bằng kinh tế rất quan trọng."
+            }
+          ]
+        }
+      ]
     }
   ]
 }
