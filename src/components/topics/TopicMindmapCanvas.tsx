@@ -2,6 +2,7 @@
 
 import { useEffect, useMemo, useRef, useState } from "react";
 import type { TopicGroup } from "@/types/topic";
+import type { SrsRating } from "@/types/vocab";
 import {
   buildTopicMindmapLayout,
   type PositionedWord,
@@ -11,6 +12,8 @@ import { curvePath } from "@/lib/mindmapLayout";
 import { branchColor, type BranchColor } from "@/lib/mindmapColors";
 import { speak, ttsFailureMessage } from "@/lib/tts";
 import { useFullscreen } from "@/lib/useFullscreen";
+import { RATING_LABELS } from "@/lib/srs";
+import { loadProgress, rateWord, toggleBookmark, toggleMastered } from "@/lib/progress";
 
 function SpeakBadge({ onClick }: { onClick: (e: React.MouseEvent) => void }) {
   return (
@@ -32,6 +35,22 @@ function InfoBadge({ onClick }: { onClick: (e: React.MouseEvent) => void }) {
       className="absolute -bottom-2 -left-2 flex h-6 w-6 items-center justify-center rounded-full border border-border bg-surface-2 text-[11px] font-bold text-ink-muted shadow hover:bg-surface-3"
     >
       i
+    </button>
+  );
+}
+
+function FavoriteBadge({ active, onClick }: { active: boolean; onClick: (e: React.MouseEvent) => void }) {
+  return (
+    <button
+      onClick={onClick}
+      aria-label={active ? "Bỏ yêu thích" : "Đánh dấu yêu thích"}
+      className={`absolute -top-2 -left-2 flex h-6 w-6 items-center justify-center rounded-full border text-xs shadow ${
+        active
+          ? "border-amber-400 bg-amber-100 text-amber-600"
+          : "border-border bg-surface-2 text-ink-muted hover:bg-surface-3"
+      }`}
+    >
+      {active ? "★" : "☆"}
     </button>
   );
 }
@@ -74,6 +93,74 @@ export default function TopicMindmapCanvas({ topic }: { topic: TopicGroup }) {
   const [isDragging, setIsDragging] = useState(false);
   const { containerRef, isFullscreen, toggleFullscreen, fullscreenClassName } = useFullscreen<HTMLDivElement>();
   const [ttsWarning, setTtsWarning] = useState<string | null>(null);
+  // Favorite/đã thuộc/độ khó — dùng chung đúng `progress:main` + `/api/progress/*` mà ReviewSession
+  // (chế độ ôn tập của chính Topics) đã đọc/ghi cho cùng những word id này; Mindmap chỉ chưa hiển thị
+  // trước đây, giống hệt mẫu đã có ở MindmapCanvas.tsx (Nhóm âm) — sao chép lại cùng cơ chế.
+  const [bookmarkedIds, setBookmarkedIds] = useState<Set<string>>(new Set());
+  const [masteredIds, setMasteredIds] = useState<Set<string>>(new Set());
+  const [ratingWordId, setRatingWordId] = useState<string | null>(null);
+
+  useEffect(() => {
+    let cancelled = false;
+    loadProgress().then((progress) => {
+      if (cancelled) return;
+      setBookmarkedIds(new Set(Object.entries(progress).filter(([, p]) => p.bookmarked).map(([id]) => id)));
+      setMasteredIds(new Set(Object.entries(progress).filter(([, p]) => p.mastered).map(([id]) => id)));
+    });
+    return () => {
+      cancelled = true;
+    };
+  }, []);
+
+  async function handleToggleBookmark(wordId: string) {
+    setBookmarkedIds((prev) => {
+      const next = new Set(prev);
+      if (next.has(wordId)) next.delete(wordId);
+      else next.add(wordId);
+      return next;
+    });
+    try {
+      await toggleBookmark(wordId);
+    } catch {
+      setBookmarkedIds((prev) => {
+        const next = new Set(prev);
+        if (next.has(wordId)) next.delete(wordId);
+        else next.add(wordId);
+        return next;
+      });
+    }
+  }
+
+  async function handleToggleMastered(wordId: string) {
+    setMasteredIds((prev) => {
+      const next = new Set(prev);
+      if (next.has(wordId)) next.delete(wordId);
+      else next.add(wordId);
+      return next;
+    });
+    try {
+      await toggleMastered(wordId);
+    } catch {
+      setMasteredIds((prev) => {
+        const next = new Set(prev);
+        if (next.has(wordId)) next.delete(wordId);
+        else next.add(wordId);
+        return next;
+      });
+    }
+  }
+
+  async function handleRate(wordId: string, rating: SrsRating) {
+    if (ratingWordId) return;
+    setRatingWordId(wordId);
+    try {
+      await rateWord(wordId, rating);
+    } catch {
+      // im lặng bỏ qua — không chặn thao tác xem mindmap chỉ vì lưu điểm thất bại
+    } finally {
+      setRatingWordId(null);
+    }
+  }
 
   useEffect(() => {
     function onKeyDown(e: KeyboardEvent) {
@@ -320,6 +407,8 @@ export default function TopicMindmapCanvas({ topic }: { topic: TopicGroup }) {
 
   function renderWordNode(pw: PositionedWord, color: BranchColor, isCore: boolean): React.ReactNode {
     const word = pw.word;
+    const isBookmarked = bookmarkedIds.has(word.id);
+    const isMastered = masteredIds.has(word.id);
     const p = pos(word.id, pw.x, pw.y);
     return (
       <div key={word.id}>
@@ -328,14 +417,24 @@ export default function TopicMindmapCanvas({ topic }: { topic: TopicGroup }) {
           style={{ left: p.x, top: p.y, width: 168, touchAction: "none" }}
           className={`absolute -translate-x-1/2 -translate-y-1/2 cursor-grab rounded-lg border px-2.5 py-1.5 text-center shadow-sm active:scale-95 active:cursor-grabbing ${
             isCore ? `border-2 ${color.border} ${color.bg}` : `${color.border} bg-surface-2`
-          }`}
+          } ${isMastered ? "opacity-50 ring-2 ring-emerald-400" : ""}`}
           onPointerDown={(e) => handleNodeDragStart(e, word.id, pw.x, pw.y)}
           onClick={() => handleNodeClick(word.id, () => handleSpeak(word.headword))}
         >
-          <div className="text-sm font-semibold whitespace-nowrap text-ink">{word.headword}</div>
+          <div className="text-sm font-semibold whitespace-nowrap text-ink">
+            {isMastered && "✅ "}
+            {word.headword}
+          </div>
           {word.reading && <div className="text-[11px] text-ink-muted italic">{word.reading}</div>}
           <div className={`text-xs font-medium ${color.text}`}>{word.meaningVn}</div>
 
+          <FavoriteBadge
+            active={isBookmarked}
+            onClick={(e) => {
+              e.stopPropagation();
+              handleToggleBookmark(word.id);
+            }}
+          />
           <SpeakBadge
             onClick={(e) => {
               e.stopPropagation();
@@ -518,6 +617,36 @@ export default function TopicMindmapCanvas({ topic }: { topic: TopicGroup }) {
               </div>
               <div className="mt-1.5 text-sm text-ink-muted">{activeWord.wn.word.exampleVn}</div>
             </div>
+
+            {/* Chấm điểm SRS + đánh dấu đã thuộc ngay tại đây — cùng cơ chế `/api/progress/rate` mà
+                ReviewSession (chế độ ôn tập của Topics) đã dùng, khỏi phải rời mindmap. */}
+            <div className="mt-4 grid grid-cols-4 gap-1.5">
+              {([0, 1, 2, 3] as SrsRating[]).map((r) => (
+                <button
+                  key={r}
+                  onClick={() => handleRate(activeWord.wn.word.id, r)}
+                  disabled={ratingWordId === activeWord.wn.word.id}
+                  className={`rounded-full px-2 py-2 text-xs font-semibold text-white shadow-sm transition disabled:opacity-50 ${
+                    [
+                      "bg-red-500 hover:bg-red-600",
+                      "bg-orange-500 hover:bg-orange-600",
+                      "bg-blue-500 hover:bg-blue-600",
+                      "bg-green-500 hover:bg-green-600",
+                    ][r]
+                  }`}
+                >
+                  {RATING_LABELS[r]}
+                </button>
+              ))}
+            </div>
+            <button
+              onClick={() => handleToggleMastered(activeWord.wn.word.id)}
+              className="mt-2 w-full text-center text-xs font-medium text-green-600 underline decoration-dotted hover:text-green-700"
+            >
+              {masteredIds.has(activeWord.wn.word.id)
+                ? "↩️ Bỏ đánh dấu đã thuộc"
+                : "✅ Đã thuộc kỹ rồi — bỏ qua trong ôn tập"}
+            </button>
           </div>
         </div>
       )}
