@@ -4753,6 +4753,402 @@
           ]
         }
       ]
+    },
+    {
+      "id": "ja-ff-kan4",
+      "language": "ja",
+      "reading": "完",
+      "groupKind": "false-friend",
+      "note": "完 (hoàn) vốn nghĩa 'xong, đầy đủ', 完成 giữ nghĩa hành động cụ thể (hoàn thành một việc), còn 完璧 lệch thành TÍNH TỪ trừu tượng mô tả CHẤT LƯỢNG (hoàn hảo, không tì vết), không còn là một hành động.",
+      "roots": [
+        {
+          "id": "ja-ff-kan4-root",
+          "character": "完",
+          "hanViet": "hoàn",
+          "meaningVn": "hoàn (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-kan4-w1",
+              "headword": "完成",
+              "reading": "kansei",
+              "meaningVn": "hoàn thành",
+              "example": "プロジェクトが完成しました。",
+              "exampleVn": "Dự án đã hoàn thành."
+            },
+            {
+              "id": "ja-ff-kan4-w2",
+              "headword": "完璧",
+              "reading": "kanpeki",
+              "meaningVn": "hoàn hảo",
+              "example": "彼女の発音は完璧です。",
+              "exampleVn": "Phát âm của cô ấy hoàn hảo."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-kaku3",
+      "language": "ja",
+      "reading": "覚",
+      "groupKind": "false-friend",
+      "note": "覚 (giác, dạng shinjitai của 覺) vốn nghĩa 'cảm nhận, tỉnh giác', 感覚 giữ nghĩa cụ thể (cảm giác của giác quan), còn 覚悟 lệch thành trạng thái TÂM LÝ trừu tượng (quyết tâm, chuẩn bị tinh thần đối mặt khó khăn), khác hẳn 'cảm giác' vật lý.",
+      "roots": [
+        {
+          "id": "ja-ff-kaku3-root",
+          "character": "覚",
+          "hanViet": "giác",
+          "meaningVn": "giác (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-kaku3-w1",
+              "headword": "感覚",
+              "reading": "kankaku",
+              "meaningVn": "cảm giác",
+              "example": "指先の感覚がなくなった。",
+              "exampleVn": "Đầu ngón tay đã mất cảm giác."
+            },
+            {
+              "id": "ja-ff-kaku3-w2",
+              "headword": "覚悟",
+              "reading": "kakugo",
+              "meaningVn": "quyết tâm, chuẩn bị tinh thần",
+              "example": "彼は失敗を覚悟していた。",
+              "exampleVn": "Anh ấy đã chuẩn bị tinh thần cho thất bại."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-on2",
+      "language": "ja",
+      "reading": "温",
+      "groupKind": "false-friend",
+      "note": "温 (ôn) vốn nghĩa 'ấm, ôn hoà', 温度 giữ nghĩa trừu tượng (một PHÉP ĐO nhiệt độ), còn 温泉 lệch thành DANH TỪ cụ thể chỉ một ĐỊA ĐIỂM (suối nước nóng), không còn là một con số đo lường.",
+      "roots": [
+        {
+          "id": "ja-ff-on2-root",
+          "character": "温",
+          "hanViet": "ôn",
+          "meaningVn": "ôn (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-on2-w1",
+              "headword": "温度",
+              "reading": "ondo",
+              "meaningVn": "nhiệt độ",
+              "example": "今日の温度は三十度です。",
+              "exampleVn": "Nhiệt độ hôm nay là ba mươi độ."
+            },
+            {
+              "id": "ja-ff-on2-w2",
+              "headword": "温泉",
+              "reading": "onsen",
+              "meaningVn": "suối nước nóng",
+              "example": "週末に温泉に行きました。",
+              "exampleVn": "Cuối tuần tôi đã đi suối nước nóng."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-shou5",
+      "language": "ja",
+      "reading": "障",
+      "groupKind": "false-friend",
+      "note": "障 (chướng) vốn nghĩa 'cản trở, chướng ngại', 障害 giữ nghĩa gần gốc (trở ngại, rào cản), còn 保障 lệch gần như ĐỐI LẬP thành khái niệm BẢO VỆ (bảo đảm, đảm bảo an toàn), gần như ngược hẳn với 'cản trở'.",
+      "roots": [
+        {
+          "id": "ja-ff-shou5-root",
+          "character": "障",
+          "hanViet": "chướng",
+          "meaningVn": "chướng (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-shou5-w1",
+              "headword": "障害",
+              "reading": "shougai",
+              "meaningVn": "chướng ngại, trở ngại",
+              "example": "多くの障害を乗り越えました。",
+              "exampleVn": "Tôi đã vượt qua nhiều trở ngại."
+            },
+            {
+              "id": "ja-ff-shou5-w2",
+              "headword": "保障",
+              "reading": "hoshou",
+              "meaningVn": "bảo đảm",
+              "example": "社会保障制度について学びました。",
+              "exampleVn": "Tôi đã tìm hiểu về chế độ bảo đảm xã hội."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-kai3",
+      "language": "ja",
+      "reading": "快",
+      "groupKind": "false-friend",
+      "note": "快 (khoái) vốn nghĩa 'vui vẻ, dễ chịu', 快晴 giữ nghĩa cụ thể (mô tả THỜI TIẾT trời quang đãng), còn 快感 lệch thành cảm giác TÂM LÝ/thể chất trừu tượng (khoái cảm), không còn liên quan đến thời tiết.",
+      "roots": [
+        {
+          "id": "ja-ff-kai3-root",
+          "character": "快",
+          "hanViet": "khoái",
+          "meaningVn": "khoái (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-kai3-w1",
+              "headword": "快晴",
+              "reading": "kaisei",
+              "meaningVn": "trời quang đãng, nắng đẹp",
+              "example": "今日は快晴です。",
+              "exampleVn": "Hôm nay trời quang đãng."
+            },
+            {
+              "id": "ja-ff-kai3-w2",
+              "headword": "快感",
+              "reading": "kaikan",
+              "meaningVn": "khoái cảm, cảm giác dễ chịu",
+              "example": "運動した後の快感が好きです。",
+              "exampleVn": "Tôi thích cảm giác khoái cảm sau khi tập thể dục."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-jou5",
+      "language": "ja",
+      "reading": "状",
+      "groupKind": "false-friend",
+      "note": "状 (trạng, dạng shinjitai của 狀) vốn nghĩa 'hình trạng, tình trạng', 状態 giữ nghĩa trừu tượng (trạng thái chung của một sự vật), còn 招待状 lệch thành DANH TỪ vật lý cụ thể (một loại VĂN BẢN - thiệp mời), không còn là một trạng thái.",
+      "roots": [
+        {
+          "id": "ja-ff-jou5-root",
+          "character": "状",
+          "hanViet": "trạng",
+          "meaningVn": "trạng (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-jou5-w1",
+              "headword": "状態",
+              "reading": "joutai",
+              "meaningVn": "trạng thái",
+              "example": "健康状態が良くなりました。",
+              "exampleVn": "Trạng thái sức khỏe đã tốt hơn."
+            },
+            {
+              "id": "ja-ff-jou5-w2",
+              "headword": "招待状",
+              "reading": "shoutaijou",
+              "meaningVn": "thiệp mời",
+              "example": "結婚式の招待状が届きました。",
+              "exampleVn": "Thiệp mời đám cưới đã đến."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-en3",
+      "language": "ja",
+      "reading": "演",
+      "groupKind": "false-friend",
+      "note": "演 (diễn) vốn nghĩa 'diễn, trình diễn', 演技 giữ nghĩa cụ thể (kỹ năng diễn xuất của một cá nhân), còn 公演 lệch thành DANH TỪ chỉ một SỰ KIỆN công khai (buổi biểu diễn), không chỉ là một kỹ năng cá nhân.",
+      "roots": [
+        {
+          "id": "ja-ff-en3-root",
+          "character": "演",
+          "hanViet": "diễn",
+          "meaningVn": "diễn (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-en3-w1",
+              "headword": "演技",
+              "reading": "engi",
+              "meaningVn": "diễn xuất",
+              "example": "彼の演技はとても自然です。",
+              "exampleVn": "Diễn xuất của anh ấy rất tự nhiên."
+            },
+            {
+              "id": "ja-ff-en3-w2",
+              "headword": "公演",
+              "reading": "kouen",
+              "meaningVn": "buổi biểu diễn",
+              "example": "来月、公演があります。",
+              "exampleVn": "Tháng sau có một buổi biểu diễn."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-jo2",
+      "language": "ja",
+      "reading": "序",
+      "groupKind": "false-friend",
+      "note": "序 (tự) vốn nghĩa 'thứ tự, mở đầu', 順序 giữ nghĩa trừu tượng chung (thứ tự, trình tự), còn 序文 lệch thành DANH TỪ cụ thể chỉ một THỂ LOẠI văn bản (lời tựa của sách), không chỉ là khái niệm trừu tượng về thứ tự.",
+      "roots": [
+        {
+          "id": "ja-ff-jo2-root",
+          "character": "序",
+          "hanViet": "tự",
+          "meaningVn": "tự (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-jo2-w1",
+              "headword": "順序",
+              "reading": "junjo",
+              "meaningVn": "thứ tự, trình tự",
+              "example": "作業の順序を確認してください。",
+              "exampleVn": "Hãy kiểm tra trình tự công việc."
+            },
+            {
+              "id": "ja-ff-jo2-w2",
+              "headword": "序文",
+              "reading": "jobun",
+              "meaningVn": "lời tựa",
+              "example": "この本の序文はとても興味深いです。",
+              "exampleVn": "Lời tựa của cuốn sách này rất thú vị."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-gaku2",
+      "language": "ja",
+      "reading": "額",
+      "groupKind": "false-friend",
+      "note": "額 (ngạch) vốn nghĩa 'số lượng, trán', 金額 giữ nghĩa trừu tượng (một con số tiền), còn 額縁 lệch thành DANH TỪ vật lý cụ thể (khung tranh), quay về nghĩa 'phần viền/mặt trước' nhưng là một vật dụng.",
+      "roots": [
+        {
+          "id": "ja-ff-gaku2-root",
+          "character": "額",
+          "hanViet": "ngạch",
+          "meaningVn": "ngạch (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-gaku2-w1",
+              "headword": "金額",
+              "reading": "kingaku",
+              "meaningVn": "số tiền",
+              "example": "合計金額を教えてください。",
+              "exampleVn": "Hãy cho tôi biết tổng số tiền."
+            },
+            {
+              "id": "ja-ff-gaku2-w2",
+              "headword": "額縁",
+              "reading": "gakubuchi",
+              "meaningVn": "khung tranh",
+              "example": "この絵に合う額縁を探しています。",
+              "exampleVn": "Tôi đang tìm khung tranh phù hợp với bức tranh này."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-ka3",
+      "language": "ja",
+      "reading": "貨",
+      "groupKind": "false-friend",
+      "note": "貨 (hoá) vốn nghĩa 'hàng hoá, của cải', 貨物 giữ nghĩa cụ thể (hàng hoá vận chuyển), còn 通貨 lệch thành khái niệm KINH TẾ trừu tượng (tiền tệ), không còn là một vật thể có thể vận chuyển.",
+      "roots": [
+        {
+          "id": "ja-ff-ka3-root",
+          "character": "貨",
+          "hanViet": "hoá",
+          "meaningVn": "hoá (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-ka3-w1",
+              "headword": "貨物",
+              "reading": "kamotsu",
+              "meaningVn": "hàng hoá",
+              "example": "貨物列車が通り過ぎました。",
+              "exampleVn": "Đoàn tàu chở hàng hoá đã đi qua."
+            },
+            {
+              "id": "ja-ff-ka3-w2",
+              "headword": "通貨",
+              "reading": "tsuuka",
+              "meaningVn": "tiền tệ",
+              "example": "円は日本の通貨です。",
+              "exampleVn": "Yên là tiền tệ của Nhật Bản."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-kon2",
+      "language": "ja",
+      "reading": "混",
+      "groupKind": "false-friend",
+      "note": "混 (hỗn) vốn nghĩa 'trộn lẫn, hỗn tạp', 混乱 lệch thành trạng thái XÃ HỘI/tâm lý trừu tượng (hỗn loạn), còn 混合 giữ nghĩa vật lý cụ thể gần gốc hơn (trộn lẫn các chất/vật liệu).",
+      "roots": [
+        {
+          "id": "ja-ff-kon2-root",
+          "character": "混",
+          "hanViet": "hỗn",
+          "meaningVn": "hỗn (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-kon2-w1",
+              "headword": "混乱",
+              "reading": "konran",
+              "meaningVn": "hỗn loạn",
+              "example": "会場は混乱していました。",
+              "exampleVn": "Hội trường đã hỗn loạn."
+            },
+            {
+              "id": "ja-ff-kon2-w2",
+              "headword": "混合",
+              "reading": "kongou",
+              "meaningVn": "hỗn hợp, trộn lẫn",
+              "example": "二つの色を混合しました。",
+              "exampleVn": "Tôi đã trộn lẫn hai màu."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-kan5",
+      "language": "ja",
+      "reading": "慣",
+      "groupKind": "false-friend",
+      "note": "慣 (quán) vốn nghĩa 'quen, thói quen', 習慣 giữ nghĩa cụ thể cá nhân (thói quen sinh hoạt), còn 慣用句 lệch thành khái niệm NGÔN NGỮ trừu tượng (thành ngữ, một thể loại từ vựng), không còn là một thói quen cá nhân.",
+      "roots": [
+        {
+          "id": "ja-ff-kan5-root",
+          "character": "慣",
+          "hanViet": "quán",
+          "meaningVn": "quán (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-kan5-w1",
+              "headword": "習慣",
+              "reading": "shuukan",
+              "meaningVn": "thói quen",
+              "example": "早起きの習慣があります。",
+              "exampleVn": "Tôi có thói quen dậy sớm."
+            },
+            {
+              "id": "ja-ff-kan5-w2",
+              "headword": "慣用句",
+              "reading": "kan'youku",
+              "meaningVn": "thành ngữ",
+              "example": "この慣用句の意味が分かりません。",
+              "exampleVn": "Tôi không hiểu nghĩa của thành ngữ này."
+            }
+          ]
+        }
+      ]
     }
   ]
 }
