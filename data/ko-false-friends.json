@@ -4357,6 +4357,402 @@
           ]
         }
       ]
+    },
+    {
+      "id": "ko-ff-chong2",
+      "language": "ko",
+      "reading": "總",
+      "groupKind": "false-friend",
+      "note": "總 (tổng, dạng phồn thể của 総) vốn nghĩa 'tổng cộng, toàn bộ', 종합 giữ nghĩa trừu tượng (tổng hợp, kết hợp nhiều thứ), còn 총리 lệch thành DANH TỪ cụ thể chỉ một CHỨC VỤ chính trị (thủ tướng) — song song với tiếng Nhật 総合/総理.",
+      "roots": [
+        {
+          "id": "ko-ff-chong2-root",
+          "character": "總",
+          "hanViet": "tổng",
+          "meaningVn": "tổng (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-chong2-w1",
+              "headword": "종합",
+              "reading": "jonghap",
+              "meaningVn": "tổng hợp",
+              "example": "종합적으로 판단해 주세요.",
+              "exampleVn": "Hãy phán đoán một cách tổng hợp."
+            },
+            {
+              "id": "ko-ff-chong2-w2",
+              "headword": "총리",
+              "reading": "chongni",
+              "meaningVn": "thủ tướng",
+              "example": "총리가 기자 회견을 했어요.",
+              "exampleVn": "Thủ tướng đã tổ chức họp báo."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ff-ap2",
+      "language": "ko",
+      "reading": "壓",
+      "groupKind": "false-friend",
+      "note": "壓 (áp, dạng phồn thể của 圧) vốn nghĩa 'đè nén, áp lực', 압력 giữ nghĩa trừu tượng chung (áp lực nói chung), còn 압승 lệch thành DANH TỪ cụ thể chỉ một KẾT QUẢ (thắng áp đảo) — song song với tiếng Nhật 圧力/圧勝.",
+      "roots": [
+        {
+          "id": "ko-ff-ap2-root",
+          "character": "壓",
+          "hanViet": "áp",
+          "meaningVn": "áp (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-ap2-w1",
+              "headword": "압력",
+              "reading": "amnyeok",
+              "meaningVn": "áp lực",
+              "example": "일 때문에 압력을 느껴요.",
+              "exampleVn": "Tôi đang cảm thấy áp lực công việc."
+            },
+            {
+              "id": "ko-ff-ap2-w2",
+              "headword": "압승",
+              "reading": "apseung",
+              "meaningVn": "thắng áp đảo",
+              "example": "그의 팀이 압승했어요.",
+              "exampleVn": "Đội của anh ấy đã thắng áp đảo."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ff-pa2",
+      "language": "ko",
+      "reading": "破",
+      "groupKind": "false-friend",
+      "note": "破 (phá) vốn nghĩa 'phá vỡ, làm hỏng', 파괴 giữ nghĩa vật lý cụ thể (phá huỷ một vật thể), còn 돌파 lệch thành hành động trừu tượng (vượt qua, đột phá một giới hạn/khó khăn) — song song với tiếng Nhật 破壊/突破.",
+      "roots": [
+        {
+          "id": "ko-ff-pa2-root",
+          "character": "破",
+          "hanViet": "phá",
+          "meaningVn": "phá (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-pa2-w1",
+              "headword": "파괴",
+              "reading": "pagoe",
+              "meaningVn": "phá huỷ",
+              "example": "지진으로 건물이 파괴되었어요.",
+              "exampleVn": "Toà nhà đã bị phá huỷ vì động đất."
+            },
+            {
+              "id": "ko-ff-pa2-w2",
+              "headword": "돌파",
+              "reading": "dolpa",
+              "meaningVn": "vượt qua, đột phá",
+              "example": "어려움을 돌파했어요.",
+              "exampleVn": "Chúng tôi đã vượt qua khó khăn."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ff-yu3",
+      "language": "ko",
+      "reading": "維",
+      "groupKind": "false-friend",
+      "note": "維 (duy) vốn nghĩa 'sợi, dây buộc', 유지 giữ nghĩa trừu tượng (duy trì một trạng thái), còn 섬유 lệch về DANH TỪ vật lý cụ thể (sợi vải, chất xơ) — song song với tiếng Nhật 維持/繊維.",
+      "roots": [
+        {
+          "id": "ko-ff-yu3-root",
+          "character": "維",
+          "hanViet": "duy",
+          "meaningVn": "duy (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-yu3-w1",
+              "headword": "유지",
+              "reading": "yuji",
+              "meaningVn": "duy trì",
+              "example": "건강을 유지하는 것이 중요해요.",
+              "exampleVn": "Việc duy trì sức khoẻ rất quan trọng."
+            },
+            {
+              "id": "ko-ff-yu3-w2",
+              "headword": "섬유",
+              "reading": "seomyu",
+              "meaningVn": "sợi, chất xơ",
+              "example": "이 옷은 천연 섬유로 만들어졌어요.",
+              "exampleVn": "Bộ quần áo này được làm từ sợi tự nhiên."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ff-gam2",
+      "language": "ko",
+      "reading": "監",
+      "groupKind": "false-friend",
+      "note": "監 (giám) vốn nghĩa 'giám sát, trông coi', 감독 giữ nghĩa hành động cụ thể (giám sát, chỉ đạo - cũng là CHỨC DANH đạo diễn phim), còn 감금 lệch hẳn thành hành động PHÁP LÝ nghiêm trọng (giam cầm, nhốt giữ) — song song với tiếng Nhật 監督/監禁.",
+      "roots": [
+        {
+          "id": "ko-ff-gam2-root",
+          "character": "監",
+          "hanViet": "giám",
+          "meaningVn": "giám (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-gam2-w1",
+              "headword": "감독",
+              "reading": "gamdok",
+              "meaningVn": "giám sát, đạo diễn",
+              "example": "그는 이 영화의 감독이에요.",
+              "exampleVn": "Anh ấy là đạo diễn của bộ phim này."
+            },
+            {
+              "id": "ko-ff-gam2-w2",
+              "headword": "감금",
+              "reading": "gamgeum",
+              "meaningVn": "giam cầm",
+              "example": "그는 부당하게 감금되었어요.",
+              "exampleVn": "Anh ấy đã bị giam cầm một cách bất công."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ff-i4",
+      "language": "ko",
+      "reading": "移",
+      "groupKind": "false-friend",
+      "note": "移 (di) vốn nghĩa 'di chuyển, dời đổi', 이동 giữ nghĩa chung (di chuyển bất kỳ thứ gì), còn 이민 lệch thành DANH TỪ chỉ một NHÓM XÃ HỘI cụ thể (di dân, người nhập cư) — song song với tiếng Nhật 移動/移民.",
+      "roots": [
+        {
+          "id": "ko-ff-i4-root",
+          "character": "移",
+          "hanViet": "di",
+          "meaningVn": "di (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-i4-w1",
+              "headword": "이동",
+              "reading": "idong",
+              "meaningVn": "di chuyển",
+              "example": "지하철로 이동했어요.",
+              "exampleVn": "Tôi đã di chuyển bằng tàu điện."
+            },
+            {
+              "id": "ko-ff-i4-w2",
+              "headword": "이민",
+              "reading": "imin",
+              "meaningVn": "di dân, người nhập cư",
+              "example": "많은 이민자가 이 나라에 와요.",
+              "exampleVn": "Nhiều người nhập cư đến nước này."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ff-yeon3",
+      "language": "ko",
+      "reading": "延",
+      "groupKind": "false-friend",
+      "note": "延 (diên) vốn nghĩa 'kéo dài, trì hoãn', 연장 giữ nghĩa trừu tượng gần gốc (kéo dài thời gian), còn 연소 lệch thành hiện tượng VẬT LÝ cụ thể (cháy lan sang chỗ khác) — song song với tiếng Nhật 延長/延焼.",
+      "roots": [
+        {
+          "id": "ko-ff-yeon3-root",
+          "character": "延",
+          "hanViet": "diên",
+          "meaningVn": "diên (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-yeon3-w1",
+              "headword": "연장",
+              "reading": "yeonjang",
+              "meaningVn": "kéo dài",
+              "example": "회의 시간을 연장했어요.",
+              "exampleVn": "Chúng tôi đã kéo dài thời gian họp."
+            },
+            {
+              "id": "ko-ff-yeon3-w2",
+              "headword": "연소",
+              "reading": "yeonso",
+              "meaningVn": "cháy lan",
+              "example": "불이 옆집으로 연소되었어요.",
+              "exampleVn": "Đám cháy đã lan sang nhà bên cạnh."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ff-hyeok2",
+      "language": "ko",
+      "reading": "革",
+      "groupKind": "false-friend",
+      "note": "革 (cách) vốn nghĩa 'da thuộc, thay đổi', 개혁 giữ nghĩa trừu tượng (cải cách một hệ thống/chế độ), còn 혁대 lệch về DANH TỪ vật lý cụ thể (thắt lưng da), quay về nghĩa gốc 'da' nhưng chỉ một vật dụng cụ thể — song song với tiếng Nhật 改革/革靴.",
+      "roots": [
+        {
+          "id": "ko-ff-hyeok2-root",
+          "character": "革",
+          "hanViet": "cách",
+          "meaningVn": "cách (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-hyeok2-w1",
+              "headword": "개혁",
+              "reading": "gaehyeok",
+              "meaningVn": "cải cách",
+              "example": "교육 제도를 개혁할 필요가 있어요.",
+              "exampleVn": "Cần phải cải cách chế độ giáo dục."
+            },
+            {
+              "id": "ko-ff-hyeok2-w2",
+              "headword": "혁대",
+              "reading": "hyeokdae",
+              "meaningVn": "thắt lưng da",
+              "example": "그는 검은 혁대를 매고 있어요.",
+              "exampleVn": "Anh ấy đang thắt thắt lưng da màu đen."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ff-gan2",
+      "language": "ko",
+      "reading": "簡",
+      "groupKind": "false-friend",
+      "note": "簡 (giản) vốn nghĩa 'đơn giản, gọn nhẹ', 간단 giữ nghĩa trừu tượng chung (đơn giản, dễ dàng), còn 간결 lệch thành TÍNH TỪ hẹp hơn mô tả PHONG CÁCH ngôn ngữ/văn viết (ngắn gọn, súc tích) — song song với tiếng Nhật 簡単/簡潔.",
+      "roots": [
+        {
+          "id": "ko-ff-gan2-root",
+          "character": "簡",
+          "hanViet": "giản",
+          "meaningVn": "giản (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-gan2-w1",
+              "headword": "간단",
+              "reading": "gandan",
+              "meaningVn": "đơn giản, dễ dàng",
+              "example": "이 문제는 간단해요.",
+              "exampleVn": "Vấn đề này đơn giản."
+            },
+            {
+              "id": "ko-ff-gan2-w2",
+              "headword": "간결",
+              "reading": "gangyeol",
+              "meaningVn": "ngắn gọn, súc tích",
+              "example": "간결하게 설명해 주세요.",
+              "exampleVn": "Hãy giải thích một cách ngắn gọn."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ff-sun2",
+      "language": "ko",
+      "reading": "純",
+      "groupKind": "false-friend",
+      "note": "純 (thuần) vốn nghĩa 'thuần khiết, nguyên chất', 순수 giữ nghĩa trừu tượng gần gốc (thuần khiết, không pha tạp), còn 단순 lệch thành TÍNH TỪ mô tả MỨC ĐỘ PHỨC TẠP (đơn giản, không rắc rối) — song song với tiếng Nhật 純粋/単純.",
+      "roots": [
+        {
+          "id": "ko-ff-sun2-root",
+          "character": "純",
+          "hanViet": "thuần",
+          "meaningVn": "thuần (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-sun2-w1",
+              "headword": "순수",
+              "reading": "sunsu",
+              "meaningVn": "thuần khiết, thuần tuý",
+              "example": "그의 사랑은 순수해요.",
+              "exampleVn": "Tình yêu của anh ấy thật thuần khiết."
+            },
+            {
+              "id": "ko-ff-sun2-w2",
+              "headword": "단순",
+              "reading": "dansun",
+              "meaningVn": "đơn giản",
+              "example": "이야기는 그렇게 단순하지 않아요.",
+              "exampleVn": "Câu chuyện không đơn giản như vậy."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ff-sal2",
+      "language": "ko",
+      "reading": "殺",
+      "groupKind": "false-friend",
+      "note": "殺 (sát) vốn nghĩa 'giết, sát hại', 살인 giữ nghĩa sát gốc (giết người), còn 상쇄 lệch hẳn thành khái niệm KẾ TOÁN/tài chính (bù trừ, khấu trừ lẫn nhau) — song song với tiếng Nhật 殺人/相殺.",
+      "roots": [
+        {
+          "id": "ko-ff-sal2-root",
+          "character": "殺",
+          "hanViet": "sát",
+          "meaningVn": "sát (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-sal2-w1",
+              "headword": "살인",
+              "reading": "sarin",
+              "meaningVn": "giết người",
+              "example": "그 살인 사건은 아직 미해결이에요.",
+              "exampleVn": "Vụ giết người đó vẫn chưa được giải quyết."
+            },
+            {
+              "id": "ko-ff-sal2-w2",
+              "headword": "상쇄",
+              "reading": "sangswae",
+              "meaningVn": "bù trừ, khấu trừ",
+              "example": "이익과 손실을 상쇄했어요.",
+              "exampleVn": "Đã bù trừ giữa lợi nhuận và thua lỗ."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ff-jang3",
+      "language": "ko",
+      "reading": "裝",
+      "groupKind": "false-friend",
+      "note": "裝 (trang, dạng phồn thể của 装) vốn nghĩa 'trang bị, ăn mặc', 복장 giữ nghĩa cụ thể cá nhân (trang phục, quần áo), còn 장치 lệch thành DANH TỪ chỉ một THIẾT BỊ kỹ thuật/máy móc — song song với tiếng Nhật 服装/装置.",
+      "roots": [
+        {
+          "id": "ko-ff-jang3-root",
+          "character": "裝",
+          "hanViet": "trang",
+          "meaningVn": "trang (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-jang3-w1",
+              "headword": "복장",
+              "reading": "bokjang",
+              "meaningVn": "trang phục",
+              "example": "행사에 맞는 복장을 해 주세요.",
+              "exampleVn": "Hãy mặc trang phục phù hợp với buổi lễ."
+            },
+            {
+              "id": "ko-ff-jang3-w2",
+              "headword": "장치",
+              "reading": "jangchi",
+              "meaningVn": "thiết bị",
+              "example": "이 공장에는 최신 장치가 있어요.",
+              "exampleVn": "Nhà máy này có thiết bị hiện đại nhất."
+            }
+          ]
+        }
+      ]
     }
   ]
 }
