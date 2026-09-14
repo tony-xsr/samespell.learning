@@ -7691,6 +7691,426 @@
           ]
         }
       ]
+    },
+    {
+      "id": "ja-ff-tei4",
+      "language": "ja",
+      "reading": "抵",
+      "groupKind": "false-friend",
+      "note": "抵 (để) vốn nghĩa 'chống lại, chạm đến', 抵触 giữ nghĩa gần gốc (vi phạm/xung đột với luật lệ), còn 抵当 lệch thành khái niệm TÀI CHÍNH cụ thể (thế chấp, tài sản đảm bảo khoản vay).",
+      "roots": [
+        {
+          "id": "ja-ff-tei4-root",
+          "character": "抵",
+          "hanViet": "để",
+          "meaningVn": "để (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-tei4-w1",
+              "headword": "抵触",
+              "reading": "teishoku",
+              "hanViet": "để xúc",
+              "meaningVn": "vi phạm, xung đột (luật)",
+              "example": "法律に抵触します。",
+              "exampleVn": "Vi phạm pháp luật."
+            },
+            {
+              "id": "ja-ff-tei4-w2",
+              "headword": "抵当",
+              "reading": "teitou",
+              "hanViet": "để đương",
+              "meaningVn": "thế chấp",
+              "example": "家を抵当に入れました。",
+              "exampleVn": "Đã thế chấp nhà."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-bai2",
+      "language": "ja",
+      "reading": "培",
+      "groupKind": "false-friend",
+      "note": "培 (bồi) vốn nghĩa 'vun trồng, bồi dưỡng', 栽培 giữ nghĩa NÔNG NGHIỆP cụ thể (trồng trọt cây cối), còn 培養 lệch thành khái niệm SINH HỌC/GIÁO DỤC trừu tượng hơn (nuôi cấy tế bào, hoặc bồi dưỡng nhân tài).",
+      "roots": [
+        {
+          "id": "ja-ff-bai2-root",
+          "character": "培",
+          "hanViet": "bồi",
+          "meaningVn": "bồi (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-bai2-w1",
+              "headword": "栽培",
+              "reading": "saibai",
+              "hanViet": "tài bồi",
+              "meaningVn": "trồng trọt",
+              "example": "野菜を栽培しています。",
+              "exampleVn": "Tôi đang trồng rau."
+            },
+            {
+              "id": "ja-ff-bai2-w2",
+              "headword": "培養",
+              "reading": "baiyou",
+              "hanViet": "bồi dưỡng",
+              "meaningVn": "nuôi cấy, bồi dưỡng",
+              "example": "細菌を培養します。",
+              "exampleVn": "Nuôi cấy vi khuẩn."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-rei3",
+      "language": "ja",
+      "reading": "隷",
+      "groupKind": "false-friend",
+      "note": "隷 (lệ) vốn nghĩa 'nô lệ, lệ thuộc', 奴隷 giữ nghĩa cụ thể (nô lệ, một loại người), còn 隷属 lệch thành khái niệm trừu tượng (lệ thuộc — ví dụ một quốc gia lệ thuộc kinh tế vào nước khác).",
+      "roots": [
+        {
+          "id": "ja-ff-rei3-root",
+          "character": "隷",
+          "hanViet": "lệ",
+          "meaningVn": "lệ (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-rei3-w1",
+              "headword": "奴隷",
+              "reading": "dorei",
+              "hanViet": "nô lệ",
+              "meaningVn": "nô lệ",
+              "example": "奴隷制度が廃止されました。",
+              "exampleVn": "Chế độ nô lệ đã bị bãi bỏ."
+            },
+            {
+              "id": "ja-ff-rei3-w2",
+              "headword": "隷属",
+              "reading": "reizoku",
+              "hanViet": "lệ thuộc",
+              "meaningVn": "lệ thuộc",
+              "example": "他国に隷属しています。",
+              "exampleVn": "Đang lệ thuộc vào nước khác."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-juu6",
+      "language": "ja",
+      "reading": "縦",
+      "groupKind": "false-friend",
+      "note": "縦 (tung) vốn nghĩa 'chiều dọc, buông thả', 縦横 giữ nghĩa gần gốc (tung hoành, cả nghĩa đen 'dọc ngang' lẫn nghĩa bóng 'tự do tung hoành'), còn 縦断 lệch thành hành động ĐỊA LÝ cụ thể (đi xuyên suốt một vùng theo chiều dọc).",
+      "roots": [
+        {
+          "id": "ja-ff-juu6-root",
+          "character": "縦",
+          "hanViet": "tung",
+          "meaningVn": "tung (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-juu6-w1",
+              "headword": "縦横",
+              "reading": "juuou",
+              "hanViet": "tung hoành",
+              "meaningVn": "dọc ngang, tung hoành",
+              "example": "彼は縦横に活躍しています。",
+              "exampleVn": "Anh ấy đang tung hoành hoạt động."
+            },
+            {
+              "id": "ja-ff-juu6-w2",
+              "headword": "縦断",
+              "reading": "juudan",
+              "hanViet": "tung đoạn",
+              "meaningVn": "xuyên suốt (theo chiều dọc)",
+              "example": "日本列島を縦断しました。",
+              "exampleVn": "Đã đi xuyên suốt quần đảo Nhật Bản theo chiều dọc."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-sui4",
+      "language": "ja",
+      "reading": "衰",
+      "groupKind": "false-friend",
+      "note": "衰 (suy) vốn nghĩa 'suy yếu', 衰退 giữ nghĩa CHUNG (suy thoái, có thể về kinh tế/tổ chức), còn 老衰 lệch thành khái niệm cụ thể về TUỔI GIÀ (già yếu, suy nhược vì tuổi tác).",
+      "roots": [
+        {
+          "id": "ja-ff-sui4-root",
+          "character": "衰",
+          "hanViet": "suy",
+          "meaningVn": "suy (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-sui4-w1",
+              "headword": "衰退",
+              "reading": "suitai",
+              "hanViet": "suy thoái",
+              "meaningVn": "suy thoái",
+              "example": "産業が衰退しています。",
+              "exampleVn": "Ngành công nghiệp đang suy thoái."
+            },
+            {
+              "id": "ja-ff-sui4-w2",
+              "headword": "老衰",
+              "reading": "rousui",
+              "hanViet": "lão suy",
+              "meaningVn": "già yếu (do tuổi tác)",
+              "example": "老衰で亡くなりました。",
+              "exampleVn": "Đã qua đời vì già yếu."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-setsu3",
+      "language": "ja",
+      "reading": "摂",
+      "groupKind": "false-friend",
+      "note": "摂 (nhiếp) vốn nghĩa 'nạp vào, thay thế/nắm giữ', 摂取 lệch thành khái niệm SINH HỌC cụ thể (hấp thụ dinh dưỡng), còn 摂政 giữ nghĩa CHÍNH TRỊ gần gốc hơn (nhiếp chính, người tạm thời nắm quyền thay).",
+      "roots": [
+        {
+          "id": "ja-ff-setsu3-root",
+          "character": "摂",
+          "hanViet": "nhiếp",
+          "meaningVn": "nhiếp (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-setsu3-w1",
+              "headword": "摂取",
+              "reading": "sesshu",
+              "hanViet": "nhiếp thủ",
+              "meaningVn": "hấp thụ (dinh dưỡng)",
+              "example": "栄養を摂取します。",
+              "exampleVn": "Hấp thụ dinh dưỡng."
+            },
+            {
+              "id": "ja-ff-setsu3-w2",
+              "headword": "摂政",
+              "reading": "sessei",
+              "hanViet": "nhiếp chính",
+              "meaningVn": "nhiếp chính",
+              "example": "王の摂政を務めました。",
+              "exampleVn": "Đã làm nhiếp chính cho vua."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-ri3",
+      "language": "ja",
+      "reading": "履",
+      "groupKind": "false-friend",
+      "note": "履 (lý) vốn nghĩa 'giày, bước đi, trải qua', 履歴 giữ nghĩa gần gốc hơn (lý lịch, những gì đã trải qua), còn 履行 lệch thành hành động PHÁP LÝ cụ thể (thực hiện nghĩa vụ hợp đồng).",
+      "roots": [
+        {
+          "id": "ja-ff-ri3-root",
+          "character": "履",
+          "hanViet": "lý",
+          "meaningVn": "lý (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-ri3-w1",
+              "headword": "履歴",
+              "reading": "rireki",
+              "hanViet": "lý lịch",
+              "meaningVn": "lý lịch",
+              "example": "履歴書を提出しました。",
+              "exampleVn": "Đã nộp sơ yếu lý lịch."
+            },
+            {
+              "id": "ja-ff-ri3-w2",
+              "headword": "履行",
+              "reading": "rikou",
+              "hanViet": "lý hành",
+              "meaningVn": "thực hiện (nghĩa vụ)",
+              "example": "契約を履行します。",
+              "exampleVn": "Thực hiện hợp đồng."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-rui2",
+      "language": "ja",
+      "reading": "累",
+      "groupKind": "false-friend",
+      "note": "累 (luỹ) vốn nghĩa 'chồng chất, liên luỵ', 累積 giữ nghĩa SỐ HỌC cụ thể (tổng luỹ kế), còn 累犯 lệch thành khái niệm PHÁP LÝ (tái phạm tội — thuật ngữ pháp lý chuẩn của Nhật/Hàn, khác với 'tái phạm' 再犯 quen dùng trong tiếng Việt dù cùng nghĩa).",
+      "roots": [
+        {
+          "id": "ja-ff-rui2-root",
+          "character": "累",
+          "hanViet": "luỹ",
+          "meaningVn": "luỹ (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-rui2-w1",
+              "headword": "累積",
+              "reading": "ruiseki",
+              "hanViet": "luỹ tích",
+              "meaningVn": "tích luỹ (số liệu)",
+              "example": "借金が累積しています。",
+              "exampleVn": "Nợ đang tích luỹ."
+            },
+            {
+              "id": "ja-ff-rui2-w2",
+              "headword": "累犯",
+              "reading": "ruihan",
+              "hanViet": "luỹ phạm",
+              "meaningVn": "tái phạm (pháp lý)",
+              "example": "累犯として重い刑を受けました。",
+              "exampleVn": "Bị xử phạt nặng vì là kẻ tái phạm."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-taku3",
+      "language": "ja",
+      "reading": "卓",
+      "groupKind": "false-friend",
+      "note": "卓 (trác) vốn nghĩa 'cao vượt, cái bàn', 卓越 giữ nghĩa TRỪU TƯỢNG (trác việt, xuất sắc vượt trội), còn 食卓 lệch thành DANH TỪ VẬT THỂ cụ thể (bàn ăn) — 2 nghĩa gốc 'cao vượt' và 'cái bàn' của cùng 1 chữ tách hẳn ra 2 hướng.",
+      "roots": [
+        {
+          "id": "ja-ff-taku3-root",
+          "character": "卓",
+          "hanViet": "trác",
+          "meaningVn": "trác (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-taku3-w1",
+              "headword": "卓越",
+              "reading": "takuetsu",
+              "hanViet": "trác việt",
+              "meaningVn": "trác việt, xuất sắc",
+              "example": "卓越した技術です。",
+              "exampleVn": "Đó là kỹ thuật trác việt."
+            },
+            {
+              "id": "ja-ff-taku3-w2",
+              "headword": "食卓",
+              "reading": "shokutaku",
+              "hanViet": "thực trác",
+              "meaningVn": "bàn ăn",
+              "example": "食卓を囲んで話しました。",
+              "exampleVn": "Đã trò chuyện quanh bàn ăn."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-shou6",
+      "language": "ja",
+      "reading": "症",
+      "groupKind": "false-friend",
+      "note": "症 (chứng) vốn nghĩa 'triệu chứng bệnh', 症状 giữ nghĩa gần gốc (chứng trạng, biểu hiện bệnh), còn 重症 lệch thành tính từ MỨC ĐỘ (bệnh nặng, nghiêm trọng).",
+      "roots": [
+        {
+          "id": "ja-ff-shou6-root",
+          "character": "症",
+          "hanViet": "chứng",
+          "meaningVn": "chứng (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-shou6-w1",
+              "headword": "症状",
+              "reading": "shoujou",
+              "hanViet": "chứng trạng",
+              "meaningVn": "triệu chứng",
+              "example": "症状が悪化しました。",
+              "exampleVn": "Triệu chứng đã trở nặng."
+            },
+            {
+              "id": "ja-ff-shou6-w2",
+              "headword": "重症",
+              "reading": "juushou",
+              "hanViet": "trọng chứng",
+              "meaningVn": "bệnh nặng",
+              "example": "重症患者を治療します。",
+              "exampleVn": "Điều trị bệnh nhân nặng."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-shin6",
+      "language": "ja",
+      "reading": "慎",
+      "groupKind": "false-friend",
+      "note": "慎 (thận) vốn nghĩa 'thận trọng, kiêng dè', 慎重 giữ nghĩa gần gốc (thận trọng), còn 謹慎 lệch thành một HÌNH PHẠT/kỷ luật cụ thể (cấm túc, tự kiểm điểm). ĐẶC BIỆT thú vị: Hán Việt LITERAL của 謹慎 chính là 'cẩn thận' — trùng y hệt từ tiếng Việt thông dụng nghĩa 'careful', trong khi nghĩa thật của 謹慎/근신 lại là 'bị phạt cấm túc' — một bẫy nghĩa GIỮA Hán Việt và JA/KO, không chỉ giữa JA và KO!",
+      "roots": [
+        {
+          "id": "ja-ff-shin6-root",
+          "character": "慎",
+          "hanViet": "thận",
+          "meaningVn": "thận (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-shin6-w1",
+              "headword": "慎重",
+              "reading": "shinchou",
+              "hanViet": "thận trọng",
+              "meaningVn": "thận trọng",
+              "example": "慎重に判断してください。",
+              "exampleVn": "Xin hãy phán đoán thận trọng."
+            },
+            {
+              "id": "ja-ff-shin6-w2",
+              "headword": "謹慎",
+              "reading": "kinshin",
+              "hanViet": "cẩn thận",
+              "meaningVn": "cấm túc, kỷ luật",
+              "example": "一週間の謹慎を命じられました。",
+              "exampleVn": "Bị ra lệnh cấm túc một tuần."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-kei6",
+      "language": "ja",
+      "reading": "傾",
+      "groupKind": "false-friend",
+      "note": "傾 (khuynh) vốn nghĩa 'nghiêng', 傾向 lệch thành khái niệm TRỪU TƯỢNG (khuynh hướng, xu hướng chung), còn 傾斜 giữ nghĩa VẬT LÝ gần gốc hơn (độ nghiêng, độ dốc thực tế).",
+      "roots": [
+        {
+          "id": "ja-ff-kei6-root",
+          "character": "傾",
+          "hanViet": "khuynh",
+          "meaningVn": "khuynh (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-kei6-w1",
+              "headword": "傾向",
+              "reading": "keikou",
+              "hanViet": "khuynh hướng",
+              "meaningVn": "khuynh hướng",
+              "example": "最近の傾向を分析します。",
+              "exampleVn": "Phân tích khuynh hướng gần đây."
+            },
+            {
+              "id": "ja-ff-kei6-w2",
+              "headword": "傾斜",
+              "reading": "keisha",
+              "hanViet": "khuynh tà",
+              "meaningVn": "độ nghiêng, độ dốc",
+              "example": "急な傾斜があります。",
+              "exampleVn": "Có độ dốc lớn."
+            }
+          ]
+        }
+      ]
     }
   ]
 }
