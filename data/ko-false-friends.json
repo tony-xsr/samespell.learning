@@ -7691,6 +7691,426 @@
           ]
         }
       ]
+    },
+    {
+      "id": "ko-ff-jeo6",
+      "language": "ko",
+      "reading": "抵",
+      "groupKind": "false-friend",
+      "note": "抵 (để) vốn nghĩa 'chống lại, chạm đến', 저촉 giữ nghĩa gần gốc (vi phạm/xung đột với luật lệ), còn 저당 lệch thành khái niệm TÀI CHÍNH cụ thể (thế chấp) — song song với tiếng Nhật 抵触/抵当.",
+      "roots": [
+        {
+          "id": "ko-ff-jeo6-root",
+          "character": "抵",
+          "hanViet": "để",
+          "meaningVn": "để (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-jeo6-w1",
+              "headword": "저촉",
+              "reading": "jeochok",
+              "hanViet": "để xúc",
+              "meaningVn": "vi phạm, xung đột (luật)",
+              "example": "법률에 저촉돼요.",
+              "exampleVn": "Vi phạm pháp luật."
+            },
+            {
+              "id": "ko-ff-jeo6-w2",
+              "headword": "저당",
+              "reading": "jeodang",
+              "hanViet": "để đương",
+              "meaningVn": "thế chấp",
+              "example": "집을 저당 잡혔어요.",
+              "exampleVn": "Đã thế chấp nhà."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ff-bae2",
+      "language": "ko",
+      "reading": "培",
+      "groupKind": "false-friend",
+      "note": "培 (bồi) vốn nghĩa 'vun trồng, bồi dưỡng', 재배 giữ nghĩa NÔNG NGHIỆP cụ thể (trồng trọt cây cối), còn 배양 lệch thành khái niệm SINH HỌC/GIÁO DỤC trừu tượng hơn (nuôi cấy tế bào) — song song với tiếng Nhật 栽培/培養.",
+      "roots": [
+        {
+          "id": "ko-ff-bae2-root",
+          "character": "培",
+          "hanViet": "bồi",
+          "meaningVn": "bồi (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-bae2-w1",
+              "headword": "재배",
+              "reading": "jaebae",
+              "hanViet": "tài bồi",
+              "meaningVn": "trồng trọt",
+              "example": "채소를 재배하고 있어요.",
+              "exampleVn": "Tôi đang trồng rau."
+            },
+            {
+              "id": "ko-ff-bae2-w2",
+              "headword": "배양",
+              "reading": "baeyang",
+              "hanViet": "bồi dưỡng",
+              "meaningVn": "nuôi cấy, bồi dưỡng",
+              "example": "세균을 배양해요.",
+              "exampleVn": "Nuôi cấy vi khuẩn."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ff-ye2",
+      "language": "ko",
+      "reading": "隷",
+      "groupKind": "false-friend",
+      "note": "隷 (lệ) vốn nghĩa 'nô lệ, lệ thuộc', 노예 giữ nghĩa cụ thể (nô lệ, một loại người), còn 예속 lệch thành khái niệm trừu tượng (lệ thuộc) — song song với tiếng Nhật 奴隷/隷属.",
+      "roots": [
+        {
+          "id": "ko-ff-ye2-root",
+          "character": "隷",
+          "hanViet": "lệ",
+          "meaningVn": "lệ (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-ye2-w1",
+              "headword": "노예",
+              "reading": "noye",
+              "hanViet": "nô lệ",
+              "meaningVn": "nô lệ",
+              "example": "노예 제도가 폐지됐어요.",
+              "exampleVn": "Chế độ nô lệ đã bị bãi bỏ."
+            },
+            {
+              "id": "ko-ff-ye2-w2",
+              "headword": "예속",
+              "reading": "yesok",
+              "hanViet": "lệ thuộc",
+              "meaningVn": "lệ thuộc",
+              "example": "다른 나라에 예속돼 있어요.",
+              "exampleVn": "Đang lệ thuộc vào nước khác."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ff-jong4",
+      "language": "ko",
+      "reading": "縦",
+      "groupKind": "false-friend",
+      "note": "縦 (tung) vốn nghĩa 'chiều dọc, buông thả', 종횡 giữ nghĩa gần gốc (tung hoành), còn 종단 lệch thành hành động ĐỊA LÝ cụ thể (đi xuyên suốt một vùng theo chiều dọc) — song song với tiếng Nhật 縦横/縦断.",
+      "roots": [
+        {
+          "id": "ko-ff-jong4-root",
+          "character": "縦",
+          "hanViet": "tung",
+          "meaningVn": "tung (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-jong4-w1",
+              "headword": "종횡",
+              "reading": "jonghoeng",
+              "hanViet": "tung hoành",
+              "meaningVn": "dọc ngang, tung hoành",
+              "example": "그는 종횡으로 활약하고 있어요.",
+              "exampleVn": "Anh ấy đang tung hoành hoạt động."
+            },
+            {
+              "id": "ko-ff-jong4-w2",
+              "headword": "종단",
+              "reading": "jongdan",
+              "hanViet": "tung đoạn",
+              "meaningVn": "xuyên suốt (theo chiều dọc)",
+              "example": "한반도를 종단했어요.",
+              "exampleVn": "Đã đi xuyên suốt bán đảo Triều Tiên theo chiều dọc."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ff-soe2",
+      "language": "ko",
+      "reading": "衰",
+      "groupKind": "false-friend",
+      "note": "衰 (suy) vốn nghĩa 'suy yếu', 쇠퇴 giữ nghĩa CHUNG (suy thoái), còn 노쇠 lệch thành khái niệm cụ thể về TUỔI GIÀ (già yếu, suy nhược vì tuổi tác) — song song với tiếng Nhật 衰退/老衰.",
+      "roots": [
+        {
+          "id": "ko-ff-soe2-root",
+          "character": "衰",
+          "hanViet": "suy",
+          "meaningVn": "suy (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-soe2-w1",
+              "headword": "쇠퇴",
+              "reading": "soetoe",
+              "hanViet": "suy thoái",
+              "meaningVn": "suy thoái",
+              "example": "산업이 쇠퇴하고 있어요.",
+              "exampleVn": "Ngành công nghiệp đang suy thoái."
+            },
+            {
+              "id": "ko-ff-soe2-w2",
+              "headword": "노쇠",
+              "reading": "nosoe",
+              "hanViet": "lão suy",
+              "meaningVn": "già yếu (do tuổi tác)",
+              "example": "노쇠로 돌아가셨어요.",
+              "exampleVn": "Đã qua đời vì già yếu."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ff-seop2",
+      "language": "ko",
+      "reading": "摂",
+      "groupKind": "false-friend",
+      "note": "摂 (nhiếp) vốn nghĩa 'nạp vào, thay thế/nắm giữ', 섭취 lệch thành khái niệm SINH HỌC cụ thể (hấp thụ dinh dưỡng), còn 섭정 giữ nghĩa CHÍNH TRỊ gần gốc hơn (nhiếp chính) — song song với tiếng Nhật 摂取/摂政.",
+      "roots": [
+        {
+          "id": "ko-ff-seop2-root",
+          "character": "摂",
+          "hanViet": "nhiếp",
+          "meaningVn": "nhiếp (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-seop2-w1",
+              "headword": "섭취",
+              "reading": "seopchwi",
+              "hanViet": "nhiếp thủ",
+              "meaningVn": "hấp thụ (dinh dưỡng)",
+              "example": "영양을 섭취해요.",
+              "exampleVn": "Hấp thụ dinh dưỡng."
+            },
+            {
+              "id": "ko-ff-seop2-w2",
+              "headword": "섭정",
+              "reading": "seopjeong",
+              "hanViet": "nhiếp chính",
+              "meaningVn": "nhiếp chính",
+              "example": "왕의 섭정을 맡았어요.",
+              "exampleVn": "Đã làm nhiếp chính cho vua."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ff-i9",
+      "language": "ko",
+      "reading": "履",
+      "groupKind": "false-friend",
+      "note": "履 (lý) vốn nghĩa 'giày, bước đi, trải qua', 이력 giữ nghĩa gần gốc hơn (lý lịch), còn 이행 lệch thành hành động PHÁP LÝ cụ thể (thực hiện nghĩa vụ hợp đồng) — song song với tiếng Nhật 履歴/履行.",
+      "roots": [
+        {
+          "id": "ko-ff-i9-root",
+          "character": "履",
+          "hanViet": "lý",
+          "meaningVn": "lý (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-i9-w1",
+              "headword": "이력",
+              "reading": "iryeok",
+              "hanViet": "lý lịch",
+              "meaningVn": "lý lịch",
+              "example": "이력서를 제출했어요.",
+              "exampleVn": "Đã nộp sơ yếu lý lịch."
+            },
+            {
+              "id": "ko-ff-i9-w2",
+              "headword": "이행",
+              "reading": "ihaeng",
+              "hanViet": "lý hành",
+              "meaningVn": "thực hiện (nghĩa vụ)",
+              "example": "계약을 이행해요.",
+              "exampleVn": "Thực hiện hợp đồng."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ff-nu2",
+      "language": "ko",
+      "reading": "累",
+      "groupKind": "false-friend",
+      "note": "累 (luỹ) vốn nghĩa 'chồng chất, liên luỵ', 누적 giữ nghĩa SỐ HỌC cụ thể (tổng luỹ kế), còn 누범 lệch thành khái niệm PHÁP LÝ (tái phạm tội) — song song với tiếng Nhật 累積/累犯.",
+      "roots": [
+        {
+          "id": "ko-ff-nu2-root",
+          "character": "累",
+          "hanViet": "luỹ",
+          "meaningVn": "luỹ (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-nu2-w1",
+              "headword": "누적",
+              "reading": "nujeok",
+              "hanViet": "luỹ tích",
+              "meaningVn": "tích luỹ (số liệu)",
+              "example": "빚이 누적되고 있어요.",
+              "exampleVn": "Nợ đang tích luỹ."
+            },
+            {
+              "id": "ko-ff-nu2-w2",
+              "headword": "누범",
+              "reading": "nubeom",
+              "hanViet": "luỹ phạm",
+              "meaningVn": "tái phạm (pháp lý)",
+              "example": "누범으로 중형을 받았어요.",
+              "exampleVn": "Bị xử phạt nặng vì là kẻ tái phạm."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ff-tak2",
+      "language": "ko",
+      "reading": "卓",
+      "groupKind": "false-friend",
+      "note": "卓 (trác) vốn nghĩa 'cao vượt, cái bàn', 탁월 giữ nghĩa TRỪU TƯỢNG (trác việt, xuất sắc vượt trội), còn 식탁 lệch thành DANH TỪ VẬT THỂ cụ thể (bàn ăn) — song song với tiếng Nhật 卓越/食卓.",
+      "roots": [
+        {
+          "id": "ko-ff-tak2-root",
+          "character": "卓",
+          "hanViet": "trác",
+          "meaningVn": "trác (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-tak2-w1",
+              "headword": "탁월",
+              "reading": "tagwol",
+              "hanViet": "trác việt",
+              "meaningVn": "trác việt, xuất sắc",
+              "example": "탁월한 기술이에요.",
+              "exampleVn": "Đó là kỹ thuật trác việt."
+            },
+            {
+              "id": "ko-ff-tak2-w2",
+              "headword": "식탁",
+              "reading": "siktak",
+              "hanViet": "thực trác",
+              "meaningVn": "bàn ăn",
+              "example": "식탁에 둘러앉아 이야기했어요.",
+              "exampleVn": "Đã trò chuyện quanh bàn ăn."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ff-jeung3",
+      "language": "ko",
+      "reading": "症",
+      "groupKind": "false-friend",
+      "note": "症 (chứng) vốn nghĩa 'triệu chứng bệnh', 증상 giữ nghĩa gần gốc (chứng trạng), còn 중증 lệch thành tính từ MỨC ĐỘ (bệnh nặng, nghiêm trọng) — song song với tiếng Nhật 症状/重症.",
+      "roots": [
+        {
+          "id": "ko-ff-jeung3-root",
+          "character": "症",
+          "hanViet": "chứng",
+          "meaningVn": "chứng (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-jeung3-w1",
+              "headword": "증상",
+              "reading": "jeungsang",
+              "hanViet": "chứng trạng",
+              "meaningVn": "triệu chứng",
+              "example": "증상이 악화됐어요.",
+              "exampleVn": "Triệu chứng đã trở nặng."
+            },
+            {
+              "id": "ko-ff-jeung3-w2",
+              "headword": "중증",
+              "reading": "jungjeung",
+              "hanViet": "trọng chứng",
+              "meaningVn": "bệnh nặng",
+              "example": "중증 환자를 치료해요.",
+              "exampleVn": "Điều trị bệnh nhân nặng."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ff-sin4",
+      "language": "ko",
+      "reading": "慎",
+      "groupKind": "false-friend",
+      "note": "慎 (thận) vốn nghĩa 'thận trọng, kiêng dè', 신중 giữ nghĩa gần gốc (thận trọng), còn 근신 lệch thành một HÌNH PHẠT/kỷ luật cụ thể (cấm túc, tự kiểm điểm) — song song với tiếng Nhật 慎重/謹慎. ĐẶC BIỆT thú vị: Hán Việt LITERAL của 謹慎 chính là 'cẩn thận' — trùng y hệt từ tiếng Việt thông dụng nghĩa 'careful', trong khi nghĩa thật của 謹慎/근신 lại là 'bị phạt cấm túc'.",
+      "roots": [
+        {
+          "id": "ko-ff-sin4-root",
+          "character": "慎",
+          "hanViet": "thận",
+          "meaningVn": "thận (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-sin4-w1",
+              "headword": "신중",
+              "reading": "sinjung",
+              "hanViet": "thận trọng",
+              "meaningVn": "thận trọng",
+              "example": "신중하게 판단해 주세요.",
+              "exampleVn": "Xin hãy phán đoán thận trọng."
+            },
+            {
+              "id": "ko-ff-sin4-w2",
+              "headword": "근신",
+              "reading": "geunsin",
+              "hanViet": "cẩn thận",
+              "meaningVn": "cấm túc, kỷ luật",
+              "example": "일주일 근신 처분을 받았어요.",
+              "exampleVn": "Bị ra lệnh cấm túc một tuần."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ff-gyeong5",
+      "language": "ko",
+      "reading": "傾",
+      "groupKind": "false-friend",
+      "note": "傾 (khuynh) vốn nghĩa 'nghiêng', 경향 lệch thành khái niệm TRỪU TƯỢNG (khuynh hướng, xu hướng chung), còn 경사 giữ nghĩa VẬT LÝ gần gốc hơn (độ nghiêng, độ dốc thực tế) — song song với tiếng Nhật 傾向/傾斜.",
+      "roots": [
+        {
+          "id": "ko-ff-gyeong5-root",
+          "character": "傾",
+          "hanViet": "khuynh",
+          "meaningVn": "khuynh (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-gyeong5-w1",
+              "headword": "경향",
+              "reading": "gyeonghyang",
+              "hanViet": "khuynh hướng",
+              "meaningVn": "khuynh hướng",
+              "example": "최근 경향을 분석해요.",
+              "exampleVn": "Phân tích khuynh hướng gần đây."
+            },
+            {
+              "id": "ko-ff-gyeong5-w2",
+              "headword": "경사",
+              "reading": "gyeongsa",
+              "hanViet": "khuynh tà",
+              "meaningVn": "độ nghiêng, độ dốc",
+              "example": "급한 경사가 있어요.",
+              "exampleVn": "Có độ dốc lớn."
+            }
+          ]
+        }
+      ]
     }
   ]
 }
