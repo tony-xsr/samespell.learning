@@ -822,7 +822,7 @@
     {
       "id": "ko-scenario-exercise-healthy",
       "kind": "scenario-chain",
-      "titleVn": "Tập thể dục, mệt nhưng khỏe hơn",
+      "titleVn": "Tập thể dục, mệt nhưng khỏe hơn, tắm rửa thư giãn và duy trì tập luyện đều đặn",
       "nodes": [
         {
           "headword": "운동하다",
@@ -851,16 +851,30 @@
           "hanViet": "kiện khang",
           "meaningVn": "khỏe mạnh hơn",
           "pos": "adjective"
+        },
+        {
+          "headword": "샤워하고 쉬다",
+          "reading": "syawohago swida",
+          "hanViet": null,
+          "meaningVn": "tắm và nghỉ ngơi",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "매일 운동을 계속하다",
+          "reading": "maeil undong-eul gyesokhada",
+          "hanViet": "vận động",
+          "meaningVn": "tiếp tục tập luyện mỗi ngày",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Tôi tập thể dục, đổ mồ hôi, rất mệt, nhưng cảm thấy khỏe mạnh hơn.",
-      "example": "운동을 해서 땀을 흘리고 피곤했지만 더 건강해진 것 같아요.",
-      "note": "Mục 11.9 mở rộng round 4 — dạng thể thao/sức khỏe, cùng khuôn 'trả giá để được lợi' với ko-scenario-exam-pass/ko-scenario-job-interview-success. 피곤하다 (bì khốn) và 건강하다 (kiện khang) là các từ Hán-Hàn quen thuộc, tái dùng nhất quán với các chuỗi trước."
+      "exampleVn": "Tôi tập thể dục, đổ mồ hôi, mệt nhưng khỏe mạnh hơn, tắm rửa thư giãn, và duy trì tập luyện mỗi ngày.",
+      "example": "운동하고, 땀을 흘리고, 피곤하지만, 건강해지고, 샤워하고 쉬고, 매일 운동을 계속하고 있다.",
+      "note": "Mục 11.9 mở rộng round 4 — dạng thể thao/sức khỏe, cùng khuôn 'trả giá để được lợi' với ko-scenario-exam-pass/ko-scenario-job-interview-success. 피곤하다 (bì khốn) và 건강하다 (kiện khang) là các từ Hán-Hàn quen thuộc, tái dùng nhất quán với các chuỗi trước. Mở rộng round 3 — thêm 'tắm rửa thư giãn' và 'duy trì tập luyện đều đặn', 2 hành động thường theo sau ngay việc tập thể dục trong đời thực."
     },
     {
       "id": "ko-scenario-cooking-mishap",
       "kind": "scenario-chain",
-      "titleVn": "Nấu ăn bị cháy, gọi đồ ăn ngoài",
+      "titleVn": "Nấu ăn bị cháy, gọi đồ ăn ngoài, rút kinh nghiệm và cuối cùng cũng ăn no",
       "nodes": [
         {
           "headword": "요리하다",
@@ -889,11 +903,25 @@
           "hanViet": "phối đạt",
           "meaningVn": "gọi đồ ăn giao tận nơi",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "다음엔 더 조심하다",
+          "reading": "daeumen deo josimhada",
+          "hanViet": null,
+          "meaningVn": "lần sau cẩn thận hơn",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "배부르게 먹다",
+          "reading": "baebureuge meokda",
+          "hanViet": null,
+          "meaningVn": "ăn no",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Tôi nấu ăn nhưng bị cháy khê, thất vọng, nên gọi đồ ăn ngoài.",
-      "example": "요리를 했는데 태워서 실망했어요. 그래서 배달을 시켰어요.",
-      "note": "Mục 11.9 mở rộng round 4 — dạng sinh hoạt/nấu ăn. 배달 (phối đạt) chỉ áp dụng cho phần danh từ 'giao hàng', ghép với 시키다 (thuần Hàn, 'sai khiến/đặt') thành cụm động từ."
+      "exampleVn": "Tôi nấu cơm, bị cháy khê, thất vọng, gọi đồ ăn ngoài, rút kinh nghiệm lần sau chú ý hơn, và cuối cùng cũng ăn no.",
+      "example": "요리하다가 태워서 실망했지만, 배달을 시키고, 다음엔 더 조심하기로 하고, 배부르게 먹었다.",
+      "note": "Mục 11.9 mở rộng round 4 — dạng sinh hoạt/nấu ăn. 배달 (phối đạt) chỉ áp dụng cho phần danh từ 'giao hàng', ghép với 시키다 (thuần Hàn, 'sai khiến/đặt') thành cụm động từ. Mở rộng round 4 — thêm 'rút kinh nghiệm' và 'ăn no', khép lại mạch chuyện nấu ăn hỏng bằng kết cục vui vẻ."
     },
     {
       "id": "ko-scenario-pet-sick-recovery",
@@ -1452,7 +1480,7 @@
     {
       "id": "ko-scenario-reunion-old-friend",
       "kind": "scenario-chain",
-      "titleVn": "Gặp lại bạn cũ sau nhiều năm",
+      "titleVn": "Gặp lại bạn cũ sau nhiều năm, trao đổi liên lạc và hẹn gặp lại lần sau",
       "nodes": [
         {
           "headword": "오랜만에 만나다",
@@ -1481,16 +1509,30 @@
           "hanViet": null,
           "meaningVn": "vui mừng (khi gặp lại)",
           "pos": "emotion"
+        },
+        {
+          "headword": "연락처를 교환하다",
+          "reading": "yeollakcheoreul gyohwanhada",
+          "hanViet": "giao hoán",
+          "meaningVn": "trao đổi thông tin liên lạc",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "앞으로도 자주 연락하기로 약속하다",
+          "reading": "apeurodo jaju yeollakhagiro yaksokhada",
+          "hanViet": "ước thúc",
+          "meaningVn": "hẹn sẽ thường xuyên liên lạc sau này",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Nhiều năm không gặp, tôi tình cờ gặp lại bạn cũ, cảm thấy hoài niệm, và nói chuyện rất vui.",
-      "example": "오랜만에 옛 친구를 만나서 그립고 반가웠어요.",
-      "note": "Mục 11.9 mở rộng round 6 — dạng gặp lại/hoài niệm. 그립다 tái dùng từ ko-scenario-homesick-abroad ('집이 그립다'). 반갑다 là từ thuần Hàn đặc trưng, riêng biệt cho cảm giác 'vui vì gặp lại/nhận được điều mong đợi', không có từ tương đương 1-1 rõ ràng trong tiếng Việt (gần nhất là 'vui mừng')."
+      "exampleVn": "Gặp lại bạn cũ sau nhiều năm không gặp, hoài niệm, nói chuyện rất vui, trao đổi thông tin liên lạc, và hẹn sau này thường xuyên liên lạc.",
+      "example": "오랜만에 만나서, 옛 친구를 우연히 만나서, 그립고, 반갑고, 연락처를 교환하고, 앞으로도 자주 연락하기로 약속했다.",
+      "note": "Mục 11.9 mở rộng round 6 — dạng gặp lại/hoài niệm. 그립다 tái dùng từ ko-scenario-homesick-abroad ('집이 그립다'). 반갑다 là từ thuần Hàn đặc trưng, riêng biệt cho cảm giác 'vui vì gặp lại/nhận được điều mong đợi', không có từ tương đương 1-1 rõ ràng trong tiếng Việt (gần nhất là 'vui mừng'). Mở rộng round 3 — thêm 'trao đổi liên lạc' và 'hẹn gặp lại lần sau', kết thúc mạch chuyện gặp lại bạn cũ bằng hành động thực tế duy trì mối quan hệ."
     },
     {
       "id": "ko-scenario-overwork-rest",
       "kind": "scenario-chain",
-      "titleVn": "Làm việc quá sức, nghỉ ngơi rồi hồi phục",
+      "titleVn": "Làm việc quá sức, nghỉ ngơi hồi phục, ngủ ngon và quay lại làm việc thoải mái hơn",
       "nodes": [
         {
           "headword": "너무 열심히 일하다",
@@ -1519,11 +1561,25 @@
           "hanViet": null,
           "meaningVn": "lấy lại tinh thần, sức lực",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "푹 자다",
+          "reading": "puk jada",
+          "hanViet": null,
+          "meaningVn": "ngủ say",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "기분 좋게 일에 복귀하다",
+          "reading": "gibun jokke ire bokgwihada",
+          "hanViet": "phục quy",
+          "meaningVn": "quay lại làm việc với tâm trạng tốt",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Tôi làm việc quá mệt, kiệt sức, quyết định nghỉ ngơi, rồi hồi phục tinh thần.",
-      "example": "너무 열심히 일해서 지쳤는데 쉬기로 하고 기운을 되찾았어요.",
-      "note": "Mục 11.9 mở rộng round 6 — dạng sức khỏe tinh thần/burnout nơi công sở, bổ sung góc nhìn tinh thần cho ko-scenario-exercise-healthy (thể chất). Toàn bộ từ thuần Hàn; 기운 có gốc Hán 氣運 (khí vận) nhưng cách dùng hiện tại đã bản địa hóa, để null cho an toàn."
+      "exampleVn": "Làm việc quá mệt, kiệt sức, quyết định nghỉ ngơi, hồi phục tinh thần, ngủ được một giấc ngon, và quay lại làm việc với tâm trạng thoải mái hơn.",
+      "example": "너무 열심히 일해서 지치고, 쉬기로 하고, 기운을 되찾고, 푹 자고, 기분 좋게 일에 복귀했다.",
+      "note": "Mục 11.9 mở rộng round 6 — dạng sức khỏe tinh thần/burnout nơi công sở, bổ sung góc nhìn tinh thần cho ko-scenario-exercise-healthy (thể chất). Toàn bộ từ thuần Hàn; 기운 có gốc Hán 氣運 (khí vận) nhưng cách dùng hiện tại đã bản địa hóa, để null cho an toàn. Mở rộng round 5 — thêm 'ngủ ngon' và 'quay lại làm việc thoải mái hơn', khép lại mạch chuyện làm việc quá sức bằng kết quả tích cực."
     },
     {
       "id": "ko-scenario-quit-smoking",
@@ -1573,7 +1629,7 @@
     {
       "id": "ko-scenario-volunteer-work",
       "kind": "scenario-chain",
-      "titleVn": "Làm tình nguyện, giúp đỡ người khác, cảm thấy ý nghĩa",
+      "titleVn": "Làm tình nguyện ý nghĩa, kết bạn mới và quyết định tham gia thường xuyên hơn",
       "nodes": [
         {
           "headword": "봉사활동에 참여하다",
@@ -1602,11 +1658,25 @@
           "hanViet": "mãn túc",
           "meaningVn": "cảm thấy mãn nguyện",
           "pos": "emotion"
+        },
+        {
+          "headword": "다른 봉사자들과 친해지다",
+          "reading": "dareun bongsajadeulgwa chinhaejida",
+          "hanViet": "phụng sự",
+          "meaningVn": "thân với tình nguyện viên khác",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "더 자주 참여하기로 하다",
+          "reading": "deo jaju chamyeohagiro hada",
+          "hanViet": "tham dự",
+          "meaningVn": "quyết định tham gia thường xuyên hơn",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Tôi tham gia hoạt động tình nguyện, giúp đỡ người khác, cảm thấy rất có ý nghĩa và mãn nguyện.",
-      "example": "봉사활동에 참여해서 남을 돕고 보람을 느끼고 만족했어요.",
-      "note": "Mục 11.9 mở rộng round 6 — dạng hoạt động xã hội/thiện nguyện. 봉사 (phụng sự) khớp rất đẹp cả âm lẫn nghĩa với tiếng Việt 'phụng sự'. 보람 là từ thuần Hàn đặc trưng, không dịch 1-1 được (gần nghĩa 'sự đáng công/ý nghĩa của nỗ lực'), tương tự やりがい tiếng Nhật. 만족 (mãn túc) khớp với cả ZH/JA."
+      "exampleVn": "Tham gia hoạt động tình nguyện, giúp đỡ người khác, rất có ý nghĩa, cảm thấy mãn nguyện, quen biết những tình nguyện viên khác, và quyết định tham gia thường xuyên hơn.",
+      "example": "봉사활동에 참여해서 남을 돕고, 보람을 느끼고, 만족하고, 다른 봉사자들과 친해지고, 더 자주 참여하기로 했다.",
+      "note": "Mục 11.9 mở rộng round 6 — dạng hoạt động xã hội/thiện nguyện. 봉사 (phụng sự) khớp rất đẹp cả âm lẫn nghĩa với tiếng Việt 'phụng sự'. 보람 là từ thuần Hàn đặc trưng, không dịch 1-1 được (gần nghĩa 'sự đáng công/ý nghĩa của nỗ lực'), tương tự やりがい tiếng Nhật. 만족 (mãn túc) khớp với cả ZH/JA. Mở rộng round 4 — thêm 'kết bạn mới' và 'quyết định tham gia thường xuyên hơn', kết quả tự nhiên của một trải nghiệm tình nguyện ý nghĩa."
     },
     {
       "id": "ko-scenario-haircut-bad",
@@ -1791,7 +1861,7 @@
     {
       "id": "ko-scenario-adopt-new-pet",
       "kind": "scenario-chain",
-      "titleVn": "Nhận nuôi thú cưng mới, hồi hộp xen lẫn hạnh phúc",
+      "titleVn": "Nhận nuôi thú cưng mới, đặt tên và dần trở nên thân thiết",
       "nodes": [
         {
           "headword": "반려동물을 입양하다",
@@ -1820,16 +1890,30 @@
           "hanViet": "hạnh phúc",
           "meaningVn": "thật sự hạnh phúc",
           "pos": "emotion"
+        },
+        {
+          "headword": "이름을 지어주다",
+          "reading": "ireumeul jieojuda",
+          "hanViet": null,
+          "meaningVn": "đặt tên cho",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "점점 친해지다",
+          "reading": "jeomjeom chinhaejida",
+          "hanViet": null,
+          "meaningVn": "dần dần trở nên thân thiết",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Tôi nhận nuôi một thú cưng mới, lần đầu gặp mặt vừa hồi hộp vừa phấn khích, cảm thấy rất hạnh phúc.",
-      "example": "반려동물을 입양했는데 처음 만났을 때 긴장되면서도 설렜어요. 정말 행복했어요.",
-      "note": "Mục 11.9 mở rộng round 7 — dạng thú cưng góc nhìn tích cực, bổ sung cho ko-scenario-pet-sick-recovery. 설레다 là từ thuần Hàn đặc trưng diễn tả 'cảm giác xao xuyến/nôn nao khi mong chờ điều gì đó' — không có từ tiếng Việt tương đương 1-1 (gần nhất 'xao xuyến/hồi hộp mong chờ'), giống 보람/やりがい ở tính 'không dịch 1-1 được'. 입양 (nhập dưỡng) chỉ mang tính tham khảo cấu tạo chữ."
+      "exampleVn": "Tôi nhận nuôi thú cưng, lần đầu gặp mặt, vừa hồi hộp vừa phấn khích, cảm thấy rất hạnh phúc, đặt tên cho nó, và dần dần trở nên thân thiết.",
+      "example": "반려동물을 입양해서, 처음 만나서, 긴장되면서도 설레고, 정말 행복해서, 이름을 지어주고, 점점 친해지고 있다.",
+      "note": "Mục 11.9 mở rộng round 7 — dạng thú cưng góc nhìn tích cực, bổ sung cho ko-scenario-pet-sick-recovery. 설레다 là từ thuần Hàn đặc trưng diễn tả 'cảm giác xao xuyến/nôn nao khi mong chờ điều gì đó' — không có từ tiếng Việt tương đương 1-1 (gần nhất 'xao xuyến/hồi hộp mong chờ'), giống 보람/やりがい ở tính 'không dịch 1-1 được'. 입양 (nhập dưỡng) chỉ mang tính tham khảo cấu tạo chữ. Mở rộng round 3 — thêm 'đặt tên' và 'dần trở nên thân thiết', 2 bước tự nhiên tiếp theo sau khi nhận nuôi thú cưng mới."
     },
     {
       "id": "ko-scenario-graduation-ceremony",
       "kind": "scenario-chain",
-      "titleVn": "Lễ tốt nghiệp xúc động, cha mẹ tự hào",
+      "titleVn": "Lễ tốt nghiệp xúc động, cha mẹ tự hào, tặng hoa thầy cô và ăn mừng cùng bạn bè",
       "nodes": [
         {
           "headword": "졸업식에 참석하다",
@@ -1858,16 +1942,30 @@
           "hanViet": "kỷ niệm",
           "meaningVn": "chụp ảnh lưu niệm",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "선생님께 꽃을 드리다",
+          "reading": "seonsaengnim-kke kkoch-eul deurida",
+          "hanViet": "tiên sinh",
+          "meaningVn": "tặng hoa cho thầy cô",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "친구들과 축하하다",
+          "reading": "chingudeul-gwa chukhahada",
+          "hanViet": "chúc hạ",
+          "meaningVn": "ăn mừng cùng bạn bè",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Tôi tham gia lễ tốt nghiệp, rất xúc động, cha mẹ rất tự hào, chúng tôi chụp ảnh lưu niệm.",
-      "example": "졸업식에 참석해서 감동했어요. 부모님이 자랑스러워하셔서 사진을 찍어 기념했어요.",
-      "note": "Mục 11.9 mở rộng round 7. 졸업 (tốt nghiệp) khớp CHÍNH XÁC với dạng chuẩn tiếng Việt, giống hệt 卒業 tiếng Nhật (cùng gốc 卒=tốt), khác 毕业 tiếng Trung ('tất nghiệp', gốc 畢). 기념 (kỷ niệm) khớp hoàn hảo, giống 記念 tiếng Nhật, khác 留念 (lưu niệm) tiếng Trung dù cùng nghĩa 'lưu giữ kỷ niệm'."
+      "exampleVn": "Tôi tham gia lễ tốt nghiệp, rất xúc động, cha mẹ rất tự hào, chụp ảnh lưu niệm, tặng hoa cho thầy cô, và ăn mừng cùng bạn bè.",
+      "example": "졸업식에 참석해서 감동하고, 부모님이 자랑스러워하시고, 사진을 찍어 기념하고, 선생님께 꽃을 드리고, 친구들과 축하했다.",
+      "note": "Mục 11.9 mở rộng round 7. 졸업 (tốt nghiệp) khớp CHÍNH XÁC với dạng chuẩn tiếng Việt, giống hệt 卒業 tiếng Nhật (cùng gốc 卒=tốt), khác 毕业 tiếng Trung ('tất nghiệp', gốc 畢). 기념 (kỷ niệm) khớp hoàn hảo, giống 記念 tiếng Nhật, khác 留念 (lưu niệm) tiếng Trung dù cùng nghĩa 'lưu giữ kỷ niệm'. Mở rộng round 2 (theo mẫu round 1) — thêm 'tặng hoa thầy cô' và 'ăn mừng cùng bạn bè', 2 hành động thường theo sau ngay lễ tốt nghiệp trong đời thực."
     },
     {
       "id": "ko-scenario-salary-raise",
       "kind": "scenario-chain",
-      "titleVn": "Xin tăng lương, hồi hộp rồi vui vì được duyệt",
+      "titleVn": "Xin tăng lương thành công, báo tin vui gia đình và mời đồng nghiệp ăn mừng",
       "nodes": [
         {
           "headword": "연봉 인상을 요청하다",
@@ -1896,11 +1994,25 @@
           "hanViet": null,
           "meaningVn": "vui",
           "pos": "emotion"
+        },
+        {
+          "headword": "가족에게 이 좋은 소식을 전하다",
+          "reading": "gajoge ige joeun sosig-eul jeonhada",
+          "hanViet": "tiêu tức",
+          "meaningVn": "báo tin vui này cho gia đình",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "동료들에게 한턱내다",
+          "reading": "dongryodeul-ege hanteoknaeda",
+          "hanViet": "đồng liêu",
+          "meaningVn": "mời đồng nghiệp ăn mừng",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Tôi xin tăng lương, rất hồi hộp, nhưng sếp đồng ý, tôi rất vui.",
-      "example": "연봉 인상을 요청해서 긴장했는데 사장님이 동의해 주셔서 기뻤어요.",
-      "note": "Mục 11.9 mở rộng round 8 — dạng công sở/đàm phán lương. LƯU Ý THÚ VỊ: 사장 (社長) Hán Việt 'xã trưởng' — trong tiếng Hàn/Trung/Nhật nghĩa 'giám đốc/chủ công ty', nhưng tiếng Việt lịch sử 'xã trưởng' lại nghĩa 'người đứng đầu làng xã' — cùng chữ Hán, nghĩa lệch hoàn toàn theo bối cảnh văn hóa khác nhau. 연봉 (niên bổng) và 동의 (đồng ý) khớp tốt."
+      "exampleVn": "Tôi xin tăng lương, rất hồi hộp, nhưng sếp đồng ý, tôi rất vui, báo tin vui này cho gia đình, và mời đồng nghiệp ăn mừng.",
+      "example": "연봉 인상을 요청하고, 긴장했지만, 사장님이 동의해 주셔서, 기뻐서, 가족에게 이 좋은 소식을 전하고, 동료들에게 한턱냈다.",
+      "note": "Mục 11.9 mở rộng round 8 — dạng công sở/đàm phán lương. LƯU Ý THÚ VỊ: 사장 (社長) Hán Việt 'xã trưởng' — trong tiếng Hàn/Trung/Nhật nghĩa 'giám đốc/chủ công ty', nhưng tiếng Việt lịch sử 'xã trưởng' lại nghĩa 'người đứng đầu làng xã' — cùng chữ Hán, nghĩa lệch hoàn toàn theo bối cảnh văn hóa khác nhau. 연봉 (niên bổng) và 동의 (đồng ý) khớp tốt. Mở rộng round 2 — thêm 'báo tin gia đình' và 'mời đồng nghiệp ăn mừng', nối tiếp mạch công sở sau khi được duyệt tăng lương."
     },
     {
       "id": "ko-scenario-losing-phone-panic",
@@ -2085,7 +2197,7 @@
     {
       "id": "ko-scenario-first-date",
       "kind": "scenario-chain",
-      "titleVn": "Buổi hẹn hò đầu tiên, hồi hộp và lãng mạn",
+      "titleVn": "Buổi hẹn hò đầu tiên hồi hộp lãng mạn, hẹn gặp lại rồi chính thức yêu nhau",
       "nodes": [
         {
           "headword": "첫 데이트",
@@ -2114,16 +2226,30 @@
           "hanViet": null,
           "meaningVn": "lãng mạn",
           "pos": "adjective"
+        },
+        {
+          "headword": "다음 만남을 약속하다",
+          "reading": "daeum mannam-eul yaksokhada",
+          "hanViet": "ước thúc",
+          "meaningVn": "hẹn gặp lại lần 2",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "정식으로 사귀다",
+          "reading": "jeongsig-euro sagwida",
+          "hanViet": "chính thức",
+          "meaningVn": "chính thức yêu nhau",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Buổi hẹn hò đầu tiên, tôi vừa hồi hộp vừa mong đợi, chúng tôi nói chuyện rất hợp, cảm thấy rất lãng mạn.",
-      "example": "첫 데이트라서 긴장되면서도 설렜는데 대화가 잘 통해서 로맨틱했어요.",
-      "note": "Mục 11.9 mở rộng round 8 — dạng tình cảm/hẹn hò, ngữ cảnh lý tưởng để tái dùng 설레다 (round 7) đúng nghĩa gốc nhất 'xao xuyến khi mong chờ'. 로맨틱하다 mượn trực tiếp từ tiếng Anh 'romantic' giống ロマンチック tiếng Nhật, khác 浪漫 tiếng Trung là từ Hán bản địa hóa. 대화 (đối thoại) khớp hoàn hảo."
+      "exampleVn": "Đây là buổi hẹn hò đầu tiên của tôi, vừa hồi hộp vừa mong đợi, nói chuyện rất hợp, rất lãng mạn, hẹn gặp lại lần 2, và chính thức yêu nhau.",
+      "example": "첫 데이트에서 긴장되면서도 설레고, 대화가 잘 통하고, 로맨틱했고, 다음 만남을 약속하고, 정식으로 사귀게 됐다.",
+      "note": "Mục 11.9 mở rộng round 8 — dạng tình cảm/hẹn hò, ngữ cảnh lý tưởng để tái dùng 설레다 (round 7) đúng nghĩa gốc nhất 'xao xuyến khi mong chờ'. 로맨틱하다 mượn trực tiếp từ tiếng Anh 'romantic' giống ロマンチック tiếng Nhật, khác 浪漫 tiếng Trung là từ Hán bản địa hóa. 대화 (đối thoại) khớp hoàn hảo. Mở rộng round 2 — thêm 'hẹn gặp lại lần 2' và 'chính thức yêu nhau', nối tiếp tự nhiên mạch chuyện tình cảm sau buổi hẹn đầu."
     },
     {
       "id": "ko-scenario-small-business-start",
       "kind": "scenario-chain",
-      "titleVn": "Khởi nghiệp nhỏ, hồi hộp và rủi ro nhưng đầy hy vọng",
+      "titleVn": "Khởi nghiệp nhỏ đầy hy vọng, đón khách đầu tiên và dần ổn định kinh doanh",
       "nodes": [
         {
           "headword": "창업하다",
@@ -2152,11 +2278,25 @@
           "hanViet": "hy vọng",
           "meaningVn": "có hy vọng",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "첫 손님을 맞이하다",
+          "reading": "cheot sonnimeul majihada",
+          "hanViet": null,
+          "meaningVn": "đón vị khách đầu tiên",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "점점 사업이 안정되다",
+          "reading": "jeomjeom sa-eobi anjeongdoeda",
+          "hanViet": "an định",
+          "meaningVn": "việc kinh doanh dần ổn định",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Tôi bắt đầu khởi nghiệp, vừa phấn khích vừa sợ hãi, chấp nhận rủi ro, tràn đầy hy vọng.",
-      "example": "창업해서 설레면서도 불안했지만 위험을 감수하고 희망을 가졌어요.",
-      "note": "Mục 11.9 mở rộng round 9. 창업 (sáng nghiệp) TRÙNG chữ Hán với 创业 tiếng Trung (cùng 創業), khác 起業 tiếng Nhật (khởi nghiệp) — trong khi từ tiếng Việt chuẩn hiện đại lại là 'khởi nghiệp', khớp về mặt từ với tiếng Nhật hơn (xem ghi chú so sánh ở zh/ja-scenario-small-business-start). 위험(nguy hiểm)/감수(cam thụ) khớp tốt."
+      "exampleVn": "Bắt đầu khởi nghiệp, vừa phấn khích vừa sợ hãi, chấp nhận rủi ro, tràn đầy hy vọng, đón vị khách đầu tiên, và việc kinh doanh dần dần ổn định.",
+      "example": "창업해서 설레면서도 불안했지만, 위험을 감수하고, 희망을 가지고, 첫 손님을 맞이하고, 점점 사업이 안정됐다.",
+      "note": "Mục 11.9 mở rộng round 9. 창업 (sáng nghiệp) TRÙNG chữ Hán với 创业 tiếng Trung (cùng 創業), khác 起業 tiếng Nhật (khởi nghiệp) — trong khi từ tiếng Việt chuẩn hiện đại lại là 'khởi nghiệp', khớp về mặt từ với tiếng Nhật hơn (xem ghi chú so sánh ở zh/ja-scenario-small-business-start). 위험(nguy hiểm)/감수(cam thụ) khớp tốt. Mở rộng round 5 — thêm 'đón khách đầu tiên' và 'kinh doanh dần ổn định', 2 cột mốc thực tế tiếp theo sau giai đoạn khởi nghiệp đầy hy vọng."
     },
     {
       "id": "ko-scenario-long-distance-love",
@@ -2206,7 +2346,7 @@
     {
       "id": "ko-scenario-power-outage",
       "kind": "scenario-chain",
-      "titleVn": "Bất ngờ mất điện, bất tiện rồi trở lại bình thường",
+      "titleVn": "Bất ngờ mất điện, bất tiện rồi trở lại bình thường, mua đèn dự phòng và thấy an tâm hơn",
       "nodes": [
         {
           "headword": "갑자기 정전되다",
@@ -2235,11 +2375,25 @@
           "hanViet": "chính thường",
           "meaningVn": "trở lại bình thường",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "비상용 랜턴을 사다",
+          "reading": "bisangyong raenteoneul sada",
+          "hanViet": "phi thường dụng",
+          "meaningVn": "mua đèn dự phòng khẩn cấp",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "마음이 놓이다",
+          "reading": "ma-eumi nohida",
+          "hanViet": null,
+          "meaningVn": "trong lòng cảm thấy yên tâm hơn",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Đột nhiên mất điện, rất bất tiện, chúng tôi thắp nến, sau đó trở lại bình thường.",
-      "example": "갑자기 정전돼서 불편했는데 촛불을 켜고 다시 정상으로 돌아왔어요.",
-      "note": "Mục 11.9 mở rộng round 9 — dạng sự cố sinh hoạt tại nhà. 불편 (bất tiện) khớp hoàn hảo, giống hệt 不便 tiếng Nhật — trái ngược với false-friend 方便/phương tiện bên tiếng Trung (xem zh-scenario-power-outage). 촛불 tái dùng từ ko-scenario-birthday-party."
+      "exampleVn": "Đột nhiên mất điện, rất bất tiện, chúng tôi thắp nến, sau đó trở lại bình thường, mua thêm đèn dự phòng, và trong lòng thấy an tâm hơn.",
+      "example": "갑자기 정전돼서 불편했는데 촛불을 켜고 다시 정상으로 돌아왔고, 비상용 랜턴을 사서 마음이 놓였어요.",
+      "note": "Mục 11.9 mở rộng round 9 — dạng sự cố sinh hoạt tại nhà. 불편 (bất tiện) khớp hoàn hảo, giống hệt 不便 tiếng Nhật — trái ngược với false-friend 方便/phương tiện bên tiếng Trung (xem zh-scenario-power-outage). 촛불 tái dùng từ ko-scenario-birthday-party. Mở rộng round 6 — thêm 'mua đèn dự phòng' và 'an tâm hơn', khép lại mạch chuyện mất điện bằng bài học rút kinh nghiệm chuẩn bị trước."
     },
     {
       "id": "ko-scenario-work-deadline-rush",
@@ -2469,7 +2623,7 @@
     {
       "id": "ko-scenario-team-conflict-resolve",
       "kind": "scenario-chain",
-      "titleVn": "Nhóm bất đồng ý kiến, thảo luận rồi đạt đồng thuận",
+      "titleVn": "Nhóm bất đồng ý kiến, giao tiếp rồi đạt đồng thuận, quan hệ hòa thuận và hiệu suất tăng lên",
       "nodes": [
         {
           "headword": "의견이 다르다",
@@ -2498,11 +2652,25 @@
           "hanViet": "hợp ý",
           "meaningVn": "đạt được thỏa thuận",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "관계가 더 좋아지다",
+          "reading": "gwan-gyega deo joajida",
+          "hanViet": "quan hệ",
+          "meaningVn": "quan hệ trở nên tốt hơn",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "업무 효율이 오르다",
+          "reading": "eommu hyoyuri oreuda",
+          "hanViet": "nghiệp vụ, hiệu suất",
+          "meaningVn": "hiệu suất công việc được nâng cao",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Nhóm chúng tôi bất đồng ý kiến, không khí căng thẳng, nhưng giao tiếp cẩn thận, cuối cùng đạt được đồng thuận.",
-      "example": "의견이 달라서 분위기가 안 좋았는데 잘 이야기해서 합의했어요.",
-      "note": "Mục 11.9 mở rộng round 10 — dạng làm việc nhóm/công sở. 의견 (ý kiến) khớp hoàn hảo. 합의 (hợp ý) khớp với 合意 tiếng Nhật, cùng khớp khái niệm 'đồng thuận' tốt hơn 共识 tiếng Trung."
+      "exampleVn": "Nhóm chúng tôi bất đồng ý kiến, không khí căng thẳng, nhưng giao tiếp cẩn thận, đạt được đồng thuận, quan hệ trở nên hòa thuận hơn, và hiệu suất công việc được nâng cao.",
+      "example": "의견이 달라서 분위기가 안 좋았는데 잘 이야기해서 합의했고, 관계가 더 좋아지고, 업무 효율이 올랐어요.",
+      "note": "Mục 11.9 mở rộng round 10 — dạng làm việc nhóm/công sở. 의견 (ý kiến) khớp hoàn hảo. 합의 (hợp ý) khớp với 合意 tiếng Nhật, cùng khớp khái niệm 'đồng thuận' tốt hơn 共识 tiếng Trung. Mở rộng round 6 — thêm 'quan hệ hòa thuận hơn' và 'hiệu suất tăng lên', kết quả lâu dài của việc giải quyết xung đột nhóm hiệu quả."
     },
     {
       "id": "ko-scenario-car-breakdown",
@@ -2552,7 +2720,7 @@
     {
       "id": "ko-scenario-winning-prize",
       "kind": "scenario-chain",
-      "titleVn": "Trúng thưởng bất ngờ, vui mừng chia sẻ cùng gia đình",
+      "titleVn": "Trúng thưởng bất ngờ, khoe với mọi người và dùng tiền thưởng đi du lịch",
       "nodes": [
         {
           "headword": "경품에 당첨되다",
@@ -2581,16 +2749,30 @@
           "hanViet": "gia tộc",
           "meaningVn": "chia sẻ cùng gia đình",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "사람들에게 자랑하다",
+          "reading": "saramdeul-ege jaranghada",
+          "hanViet": null,
+          "meaningVn": "khoe với mọi người",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "상금으로 여행을 가다",
+          "reading": "sanggeum-euro yeohaeng-eul gada",
+          "hanViet": "lữ hành",
+          "meaningVn": "dùng tiền thưởng đi du lịch",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Tôi trúng thưởng, rất ngạc nhiên, vui đến mức nhảy lên, chia sẻ cùng gia đình.",
-      "example": "경품에 당첨돼서 깜짝 놀랐고 너무 기뻐서 뛰었어요. 가족과 나눴어요.",
-      "note": "Mục 11.9 mở rộng round 10 — cùng hiện tượng KHÔNG false-friend như tiếng Nhật: 가족 (gia tộc) khớp SẠCH với 'gia đình', khác 家人/gia nhân bên tiếng Trung (nghĩa 'người hầu' trong tiếng Việt). 경품/당첨 để null vì cấu tạo Hán-Hàn không chuẩn hóa rõ trong tiếng Việt hiện đại."
+      "exampleVn": "Tôi trúng thưởng, rất ngạc nhiên, vui đến mức nhảy lên, chia sẻ cùng gia đình, khoe với mọi người, và dùng tiền thưởng đi du lịch.",
+      "example": "경품에 당첨돼서, 깜짝 놀라고, 너무 기뻐서 뛰고, 가족과 나누고, 사람들에게 자랑하고, 상금으로 여행을 갔다.",
+      "note": "Mục 11.9 mở rộng round 10 — cùng hiện tượng KHÔNG false-friend như tiếng Nhật: 가족 (gia tộc) khớp SẠCH với 'gia đình', khác 家人/gia nhân bên tiếng Trung (nghĩa 'người hầu' trong tiếng Việt). 경품/당첨 để null vì cấu tạo Hán-Hàn không chuẩn hóa rõ trong tiếng Việt hiện đại. Mở rộng round 2 — thêm 'khoe với mọi người' và 'dùng tiền thưởng đi du lịch', 2 phản ứng đời thường phổ biến sau khi trúng thưởng. Cố tình tránh dùng từ mượn Latin kiểu 'SNS' — dùng 'mọi người' chung chung thay vì chỉ đích danh mạng xã hội."
     },
     {
       "id": "ko-scenario-surprise-party",
       "kind": "scenario-chain",
-      "titleVn": "Bạn bè tổ chức tiệc bất ngờ, xúc động vì được yêu thương",
+      "titleVn": "Bạn bè tổ chức tiệc bất ngờ xúc động, thổi nến cắt bánh và chụp ảnh kỷ niệm",
       "nodes": [
         {
           "headword": "친구들이 깜짝 파티를 준비하다",
@@ -2619,11 +2801,25 @@
           "hanViet": null,
           "meaningVn": "cảm thấy được yêu thương",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "촛불을 끄고 케이크를 자르다",
+          "reading": "chosbureul kkeugo keikeureul jareuda",
+          "hanViet": null,
+          "meaningVn": "thổi nến rồi cắt bánh",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "다 같이 기념사진을 찍다",
+          "reading": "da gachi ginyeomsajineul jjikda",
+          "hanViet": "kỷ niệm",
+          "meaningVn": "mọi người cùng chụp ảnh kỷ niệm",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Bạn bè tôi chuẩn bị một bất ngờ, tôi hoàn toàn không ngờ tới, vô cùng xúc động, cảm thấy được yêu thương.",
-      "example": "친구들이 깜짝 파티를 준비해 줘서 전혀 몰랐어요. 너무 감동했고 사랑받는다고 느꼈어요.",
-      "note": "Mục 11.9 mở rộng round 10 — dạng tình bạn/bất ngờ tích cực. 파티 mượn từ tiếng Anh 'party'; 깜짝 là từ thuần Hàn diễn tả 'bất ngờ, giật mình' rất thông dụng. 감동 (cảm động) khớp hoàn hảo, giống hệt ZH/JA."
+      "exampleVn": "Bạn bè chuẩn bị bất ngờ, tôi hoàn toàn không ngờ tới, vô cùng xúc động, cảm thấy được yêu thương, thổi nến cắt bánh, và cùng nhau chụp ảnh lưu niệm.",
+      "example": "친구들이 깜짝 파티를 준비해서, 전혀 몰랐고, 너무 감동했고, 사랑받는다고 느끼고, 촛불을 끄고 케이크를 자르고, 다 같이 기념사진을 찍었다.",
+      "note": "Mục 11.9 mở rộng round 10 — dạng tình bạn/bất ngờ tích cực. 파티 mượn từ tiếng Anh 'party'; 깜짝 là từ thuần Hàn diễn tả 'bất ngờ, giật mình' rất thông dụng. 감동 (cảm động) khớp hoàn hảo, giống hệt ZH/JA. Mở rộng round 3 — thêm 'thổi nến cắt bánh' và 'chụp ảnh kỷ niệm', 2 nghi thức kinh điển của một bữa tiệc sinh nhật/mừng bất ngờ."
     },
     {
       "id": "ko-scenario-getting-scammed",
@@ -2673,7 +2869,7 @@
     {
       "id": "ko-scenario-difficult-customer",
       "kind": "scenario-chain",
-      "titleVn": "Gặp khách hàng khó tính, kiên nhẫn rồi khách hài lòng",
+      "titleVn": "Gặp khách hàng khó tính, kiên nhẫn rồi khách hài lòng, được sếp khen và tự tin hơn khi tiếp khách",
       "nodes": [
         {
           "headword": "까다로운 고객을 만나다",
@@ -2702,11 +2898,25 @@
           "hanViet": "thành tựu cảm",
           "meaningVn": "cảm thấy có thành tựu",
           "pos": "emotion"
+        },
+        {
+          "headword": "상사에게 칭찬을 받다",
+          "reading": "sangsaege chingchaneul batda",
+          "hanViet": "thượng tư, xưng tán",
+          "meaningVn": "được cấp trên khen ngợi",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "손님 응대에 더 자신감이 생기다",
+          "reading": "sonnim eungdaee deo jasingami saenggida",
+          "hanViet": "ứng đối, tự tín cảm",
+          "meaningVn": "tự tin hơn khi tiếp đón khách hàng",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Tôi gặp khách hàng khó tính, kiên nhẫn giải thích, khách hàng hài lòng, tôi cảm thấy rất có thành tựu.",
-      "example": "까다로운 고객을 만나서 참을성 있게 설명했더니 고객이 만족해서 성취감을 느꼈어요.",
-      "note": "Mục 11.9 mở rộng round 11 — dạng công sở/dịch vụ khách hàng. 고객 (cố khách) khớp gốc chữ với 顾客 tiếng Trung. 설명 (thuyết minh) khớp hoàn hảo."
+      "exampleVn": "Tôi gặp khách hàng khó tính, kiên nhẫn giải thích, khách hàng hài lòng, cảm thấy rất có thành tựu, được cấp trên khen ngợi, và tự tin hơn khi tiếp đón khách hàng.",
+      "example": "까다로운 고객을 만나서 참을성 있게 설명했더니 고객이 만족해서 성취감을 느끼고, 상사에게 칭찬을 받고, 손님 응대에 더 자신감이 생겼어요.",
+      "note": "Mục 11.9 mở rộng round 11 — dạng công sở/dịch vụ khách hàng. 고객 (cố khách) khớp gốc chữ với 顾客 tiếng Trung. 설명 (thuyết minh) khớp hoàn hảo. Mở rộng round 6 — thêm 'được sếp khen' và 'tự tin hơn khi tiếp khách', kết quả nghề nghiệp tích cực sau khi xử lý tốt tình huống khó."
     },
     {
       "id": "ko-scenario-new-city-adjust",
@@ -2801,7 +3011,7 @@
     {
       "id": "ko-scenario-wedding-attend",
       "kind": "scenario-chain",
-      "titleVn": "Dự đám cưới bạn thân, xúc động và chúc phúc",
+      "titleVn": "Dự đám cưới bạn thân xúc động, chụp ảnh cùng cô dâu chú rể và vui chơi đến khuya",
       "nodes": [
         {
           "headword": "결혼식에 참석하다",
@@ -2830,16 +3040,30 @@
           "hanViet": "chúc phúc",
           "meaningVn": "chúc phúc cho hai người",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "신랑 신부와 사진을 찍다",
+          "reading": "sillang sinbuwa sajineul jjikda",
+          "hanViet": "tân lang tân phụ",
+          "meaningVn": "chụp ảnh với cô dâu chú rể",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "피로연이 끝날 때까지 즐기다",
+          "reading": "pironyeoni kkeutnal ttaekkaji jeulgida",
+          "hanViet": "phi lộ yến",
+          "meaningVn": "vui chơi đến khi tiệc kết thúc",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Tôi tham dự đám cưới, cô dâu chú rể trao nhẫn, tôi xúc động rơi lệ, chúc phúc cho họ.",
-      "example": "결혼식에 참석해서 반지를 교환하는 걸 보고 감동해서 울었어요. 두 사람을 축복했어요.",
-      "note": "Mục 11.9 mở rộng round 11 — dạng lễ nghi trọng đại/tình bạn. 결혼식 (kết hôn thức) khớp hoàn hảo, giống hệt 結婚式 tiếng Nhật. 교환 (giao hoán) và 축복 (chúc phúc) khớp hoàn hảo."
+      "exampleVn": "Tham dự đám cưới, chứng kiến cô dâu chú rể trao nhẫn, xúc động rơi lệ, chúc phúc cho họ, chụp ảnh cùng cô dâu chú rể, và vui chơi tiệc cưới đến khuya.",
+      "example": "결혼식에 참석해서 반지를 교환하는 것을 보고, 감동해서 울고, 두 사람을 축복하고, 신랑 신부와 사진을 찍고, 피로연이 끝날 때까지 즐겼다.",
+      "note": "Mục 11.9 mở rộng round 11 — dạng lễ nghi trọng đại/tình bạn. 결혼식 (kết hôn thức) khớp hoàn hảo, giống hệt 結婚式 tiếng Nhật. 교환 (giao hoán) và 축복 (chúc phúc) khớp hoàn hảo. Mở rộng round 4 — thêm 'chụp ảnh cùng cô dâu chú rể' và 'vui chơi đến khuya', 2 hoạt động kinh điển sau nghi thức trao nhẫn."
     },
     {
       "id": "ko-scenario-insomnia-improve",
       "kind": "scenario-chain",
-      "titleVn": "Mất ngủ kéo dài, mệt mỏi rồi giấc ngủ cải thiện",
+      "titleVn": "Mất ngủ kéo dài, mệt mỏi rồi giấc ngủ cải thiện, tinh thần phấn chấn và chất lượng cuộc sống tăng lên",
       "nodes": [
         {
           "headword": "불면증이 계속되다",
@@ -2868,11 +3092,25 @@
           "hanViet": "thụy miên cải thiện",
           "meaningVn": "giấc ngủ được cải thiện",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "기운이 넘치다",
+          "reading": "giuni neomchida",
+          "hanViet": "khí vận",
+          "meaningVn": "sinh lực tràn đầy",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "삶의 질이 높아지다",
+          "reading": "salmui jiri nopajida",
+          "hanViet": "chất",
+          "meaningVn": "chất lượng cuộc sống được nâng cao",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Tôi mất ngủ kéo dài, rất mệt mỏi, điều chỉnh giờ giấc sinh hoạt, giấc ngủ dần cải thiện.",
-      "example": "불면증이 계속돼서 너무 피곤했는데 생활 리듬을 조절해서 수면이 개선됐어요.",
-      "note": "Mục 11.9 mở rộng round 11 — dạng sức khỏe/giấc ngủ, bổ sung cho ko-scenario-overwork-rest. 불면증 (bất miên chứng) khớp gốc chữ với 不眠 tiếng Nhật. 수면 (thụy miên)/개선 (cải thiện) khớp hoàn hảo, giống hệt ZH/JA."
+      "exampleVn": "Tôi mất ngủ kéo dài, rất mệt mỏi, điều chỉnh giờ giấc sinh hoạt, giấc ngủ dần cải thiện, tinh thần trở nên sung mãn hơn, và chất lượng cuộc sống được nâng cao.",
+      "example": "불면증이 계속돼서 너무 피곤했는데 생활 리듬을 조절해서 수면이 개선됐고, 기운이 넘치고, 삶의 질이 높아졌어요.",
+      "note": "Mục 11.9 mở rộng round 11 — dạng sức khỏe/giấc ngủ, bổ sung cho ko-scenario-overwork-rest. 불면증 (bất miên chứng) khớp gốc chữ với 不眠 tiếng Nhật. 수면 (thụy miên)/개선 (cải thiện) khớp hoàn hảo, giống hệt ZH/JA. Mở rộng round 6 — thêm 'tinh thần sung mãn' và 'chất lượng cuộc sống tăng lên', kết quả lâu dài của việc cải thiện giấc ngủ thành công."
     },
     {
       "id": "ko-scenario-home-renovation-diy",
@@ -2922,7 +3160,7 @@
     {
       "id": "ko-scenario-grandma-recipe",
       "kind": "scenario-chain",
-      "titleVn": "Bà dạy nấu ăn theo công thức gia truyền, ấm áp",
+      "titleVn": "Bà dạy nấu ăn theo công thức gia truyền, ấm áp, tự tay nấu cho gia đình ăn và ai cũng hài lòng",
       "nodes": [
         {
           "headword": "할머니가 요리를 가르치다",
@@ -2951,11 +3189,25 @@
           "hanViet": null,
           "meaningVn": "lòng cảm thấy ấm áp",
           "pos": "emotion"
+        },
+        {
+          "headword": "직접 만들어서 가족에게 대접하다",
+          "reading": "jikjeop mandeureoseo gajogege daejeophada",
+          "hanViet": "trực tiếp, đãi tiếp",
+          "meaningVn": "tự tay nấu cho gia đình ăn",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "모두 만족하다",
+          "reading": "modu manjokhada",
+          "hanViet": "mãn túc",
+          "meaningVn": "mọi người đều hài lòng",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Bà nội dạy tôi nấu ăn theo công thức truyền thống, tôi học một cách nghiêm túc, cảm thấy rất ấm áp.",
-      "example": "할머니가 요리를 가르쳐 주셔서 전통 레시피를 진지하게 배우니까 마음이 따뜻해졌어요.",
-      "note": "Mục 11.9 mở rộng round 12 — dạng gia đình/truyền thống ấm áp. 진지 (真摯, chân chí, 'nghiêm túc/chân thành') khớp TRỰC TIẾP với khái niệm tiếng Việt — đối lập thú vị với 真剣/shinken tiếng Nhật ('chân kiếm', ẩn dụ từ 'kiếm thật') cho cùng nghĩa 'nghiêm túc' nhưng cấu tạo chữ hoàn toàn khác."
+      "exampleVn": "Bà dạy tôi nấu ăn, công thức gia truyền, tôi học một cách nghiêm túc, cảm thấy rất ấm áp, tự tay nấu cho gia đình ăn, và ai cũng cảm thấy hài lòng.",
+      "example": "할머니가 요리를 가르쳐 주셔서 전통 레시피를 진지하게 배우니까 마음이 따뜻해졌고, 직접 만들어서 가족에게 대접했더니 모두 만족했어요.",
+      "note": "Mục 11.9 mở rộng round 12 — dạng gia đình/truyền thống ấm áp. 진지 (真摯, chân chí, 'nghiêm túc/chân thành') khớp TRỰC TIẾP với khái niệm tiếng Việt — đối lập thú vị với 真剣/shinken tiếng Nhật ('chân kiếm', ẩn dụ từ 'kiếm thật') cho cùng nghĩa 'nghiêm túc' nhưng cấu tạo chữ hoàn toàn khác. Mở rộng round 7 — thêm 'tự tay nấu cho gia đình' và 'mọi người hài lòng', khép lại mạch chuyện học nấu ăn gia truyền bằng thành quả cụ thể."
     },
     {
       "id": "ko-scenario-loved-one-surgery-wait",
@@ -3140,7 +3392,7 @@
     {
       "id": "ko-scenario-new-sibling-born",
       "kind": "scenario-chain",
-      "titleVn": "Em trai chào đời, hồi hộp và tràn đầy yêu thương",
+      "titleVn": "Em trai chào đời tràn đầy yêu thương, cả nhà đặt tên và chụp ảnh gia đình đầu tiên",
       "nodes": [
         {
           "headword": "남동생이 태어나다",
@@ -3169,16 +3421,30 @@
           "hanViet": null,
           "meaningVn": "tràn đầy tình yêu thương",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "온 가족이 함께 아기 이름을 짓다",
+          "reading": "on gajogi hamkke agi ireumeul jitda",
+          "hanViet": "gia tộc",
+          "meaningVn": "cả nhà cùng đặt tên em bé",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "첫 가족사진을 찍다",
+          "reading": "cheot gajoksajineul jjikda",
+          "hanViet": "gia tộc",
+          "meaningVn": "chụp ảnh gia đình đầu tiên",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Em trai tôi chào đời, tôi vừa hồi hộp vừa xúc động, bế em, tràn đầy tình yêu thương.",
-      "example": "남동생이 태어나서 긴장되고 감격스러웠어요. 안아 주면서 사랑으로 가득해졌어요.",
-      "note": "Mục 11.9 mở rộng round 13 — dạng gia đình/em bé mới chào đời. 감격 (cảm kích, 感激) khớp tốt với cảm xúc 'xúc động sâu sắc' — cùng nhóm với 感動/cảm động tiếng Nhật, cả hai đều KHÔNG bị false-friend như 激动/kích động bên tiếng Trung. Ba cách diễn đạt cùng 1 cảm xúc 'moved' qua 3 ngôn ngữ là ví dụ so sánh rất tốt."
+      "exampleVn": "Em trai chào đời, vừa hồi hộp vừa xúc động, bế em bé, tràn đầy tình yêu thương, cả nhà cùng đặt tên cho em bé, và chụp bức ảnh gia đình đầu tiên.",
+      "example": "남동생이 태어나서 긴장되고 감격스럽고, 안아 주고, 사랑으로 가득해지고, 온 가족이 함께 아기 이름을 짓고, 첫 가족사진을 찍었다.",
+      "note": "Mục 11.9 mở rộng round 13 — dạng gia đình/em bé mới chào đời. 감격 (cảm kích, 感激) khớp tốt với cảm xúc 'xúc động sâu sắc' — cùng nhóm với 感動/cảm động tiếng Nhật, cả hai đều KHÔNG bị false-friend như 激动/kích động bên tiếng Trung. Ba cách diễn đạt cùng 1 cảm xúc 'moved' qua 3 ngôn ngữ là ví dụ so sánh rất tốt. Mở rộng round 4 — thêm 'cả nhà đặt tên' và 'chụp ảnh gia đình đầu tiên', 2 cột mốc thường gặp ngay sau khi em bé chào đời."
     },
     {
       "id": "ko-scenario-retirement-day",
       "kind": "scenario-chain",
-      "titleVn": "Nghỉ hưu, lưu luyến rồi tận hưởng tự do",
+      "titleVn": "Nghỉ hưu tận hưởng tự do, đồng nghiệp tổ chức tiệc chia tay và bắt đầu theo đuổi sở thích",
       "nodes": [
         {
           "headword": "은퇴하다",
@@ -3207,16 +3473,30 @@
           "hanViet": null,
           "meaningVn": "bắt đầu cuộc sống mới",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "동료들이 송별회를 열어 주다",
+          "reading": "dongryodeuri songbyeolhoereul yeoreo juda",
+          "hanViet": "tống biệt",
+          "meaningVn": "đồng nghiệp tổ chức tiệc tiễn biệt",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "자신의 취미를 즐기기 시작하다",
+          "reading": "jasin-ui chwimireul jeulgigi sijakhada",
+          "hanViet": "thú vị",
+          "meaningVn": "bắt đầu tận hưởng sở thích riêng",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Tôi nghỉ hưu, có chút lưu luyến, nhưng cuối cùng được tự do, bắt đầu cuộc sống mới.",
-      "example": "은퇴해서 아쉬웠지만 드디어 자유로워져서 새로운 삶을 시작했어요.",
-      "note": "Mục 11.9 mở rộng round 13 — dạng chuyển giao giai đoạn cuộc đời. 은퇴 (ẩn thoái, 隱退, 'lui vào ở ẩn') là cách diễn đạt khá thơ mộng cho 'nghỉ hưu', khác cấu tạo 退休/定年退職 ở ZH/JA. 자유 (tự do) khớp hoàn hảo."
+      "exampleVn": "Nghỉ hưu, có chút lưu luyến, cuối cùng được tự do, bắt đầu cuộc sống mới, đồng nghiệp tổ chức tiệc chia tay cho tôi, và bắt đầu theo đuổi sở thích riêng.",
+      "example": "은퇴해서 아쉽지만, 드디어 자유로워져서, 새로운 삶을 시작하고, 동료들이 송별회를 열어 주고, 자신의 취미를 즐기기 시작했다.",
+      "note": "Mục 11.9 mở rộng round 13 — dạng chuyển giao giai đoạn cuộc đời. 은퇴 (ẩn thoái, 隱退, 'lui vào ở ẩn') là cách diễn đạt khá thơ mộng cho 'nghỉ hưu', khác cấu tạo 退休/定年退職 ở ZH/JA. 자유 (tự do) khớp hoàn hảo. Mở rộng round 4 — thêm 'tiệc chia tay của đồng nghiệp' và 'theo đuổi sở thích riêng', khép lại mạch chuyện nghỉ hưu bằng 1 chương mới của cuộc sống."
     },
     {
       "id": "ko-scenario-pet-passing-grief",
       "kind": "scenario-chain",
-      "titleVn": "Thú cưng qua đời, đau buồn rồi mãi mãi tưởng nhớ",
+      "titleVn": "Thú cưng qua đời, đau buồn rồi mãi mãi tưởng nhớ, nhìn lại ảnh cũ và dần vượt qua nỗi buồn",
       "nodes": [
         {
           "headword": "반려동물이 죽다",
@@ -3245,16 +3525,30 @@
           "hanViet": "vĩnh viễn ký ức",
           "meaningVn": "mãi mãi ghi nhớ",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "옛날 사진을 보다",
+          "reading": "yennal sajineul boda",
+          "hanViet": null,
+          "meaningVn": "nhìn những bức ảnh cũ",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "천천히 슬픔에서 벗어나다",
+          "reading": "cheoncheonhi seulpeumeseo beoseonada",
+          "hanViet": null,
+          "meaningVn": "dần dần vượt qua nỗi buồn",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Thú cưng của tôi qua đời, tôi vô cùng đau buồn, chôn cất nó, mãi mãi tưởng nhớ.",
-      "example": "반려동물이 죽어서 너무 슬펐어요. 땅에 묻어 주고 영원히 기억할 거예요.",
-      "note": "Mục 11.9 mở rộng round 13 — dạng mất mát/tang lễ. 영원 (vĩnh viễn) và 기억 (ký ức) khớp hoàn hảo. 죽다 là động từ 'chết' trực tiếp/trung tính thuần Hàn, khác 去世 (khứ thế, uyển ngữ trang trọng) bên tiếng Trung."
+      "exampleVn": "Thú cưng qua đời, rất đau buồn, chôn cất nó, mãi mãi tưởng nhớ, nhìn lại những bức ảnh cũ, và dần dần vượt qua nỗi buồn.",
+      "example": "반려동물이 죽어서 너무 슬펐어요. 땅에 묻어 주고 영원히 기억할 거예요. 옛날 사진을 보면서 천천히 슬픔에서 벗어났어요.",
+      "note": "Mục 11.9 mở rộng round 13 — dạng mất mát/tang lễ. 영원 (vĩnh viễn) và 기억 (ký ức) khớp hoàn hảo. 죽다 là động từ 'chết' trực tiếp/trung tính thuần Hàn, khác 去世 (khứ thế, uyển ngữ trang trọng) bên tiếng Trung. Mở rộng round 7 — thêm 'nhìn ảnh cũ' và 'dần vượt qua nỗi buồn', quá trình chữa lành thực tế sau khi mất thú cưng."
     },
     {
       "id": "ko-scenario-job-resignation-passion",
       "kind": "scenario-chain",
-      "titleVn": "Nghỉ việc theo đuổi ước mơ, kiên trì rồi thành công",
+      "titleVn": "Nghỉ việc theo đuổi ước mơ, kiên trì rồi thành công, chia sẻ kinh nghiệm và truyền cảm hứng cho nhiều người",
       "nodes": [
         {
           "headword": "꿈을 위해 퇴사하다",
@@ -3283,16 +3577,30 @@
           "hanViet": null,
           "meaningVn": "cuối cùng thực hiện được ước mơ",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "성공 경험을 나누다",
+          "reading": "seonggong gyeongheomeul nanuda",
+          "hanViet": "thành công, kinh nghiệm",
+          "meaningVn": "chia sẻ kinh nghiệm thành công",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "더 많은 사람에게 힘을 주다",
+          "reading": "deo maneun saramege himeul juda",
+          "hanViet": null,
+          "meaningVn": "truyền cảm hứng cho nhiều người hơn",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Tôi nghỉ việc để theo đuổi ước mơ, gia đình lo lắng, tôi kiên trì với lựa chọn của mình, cuối cùng thực hiện được ước mơ.",
-      "example": "꿈을 위해 퇴사해서 가족이 걱정했지만 자신의 선택을 믿고 드디어 꿈을 이뤘어요.",
-      "note": "Mục 11.9 mở rộng round 13 — dạng quyết định lớn trong sự nghiệp. 퇴사 (thoái xã, 退社, 'rời công ty') là từ Hán Việt cổ vẫn được nhận diện qua chữ 社='công ty' (như 会社=hội xã cũ). 가족 (gia tộc) tiếp tục khớp sạch."
+      "exampleVn": "Nghỉ việc theo đuổi ước mơ, gia đình lo lắng, kiên trì với lựa chọn của mình, cuối cùng thực hiện được ước mơ, chia sẻ kinh nghiệm thành công, và truyền cảm hứng cho nhiều người hơn.",
+      "example": "꿈을 위해 퇴사해서 가족이 걱정했지만 자신의 선택을 믿고 드디어 꿈을 이루었고, 성공 경험을 나누며 더 많은 사람에게 힘을 주었어요.",
+      "note": "Mục 11.9 mở rộng round 13 — dạng quyết định lớn trong sự nghiệp. 퇴사 (thoái xã, 退社, 'rời công ty') là từ Hán Việt cổ vẫn được nhận diện qua chữ 社='công ty' (như 会社=hội xã cũ). 가족 (gia tộc) tiếp tục khớp sạch. Mở rộng round 8 — thêm 'chia sẻ kinh nghiệm thành công' và 'truyền cảm hứng cho người khác', kết quả lan tỏa tích cực của việc theo đuổi ước mơ thành công."
     },
     {
       "id": "ko-scenario-university-admission-wait",
       "kind": "scenario-chain",
-      "titleVn": "Chờ kết quả đại học, hồi hộp rồi vui mừng khôn xiết",
+      "titleVn": "Chờ kết quả đại học, vui mừng khôn xiết, báo tin gia đình và chuẩn bị nhập học",
       "nodes": [
         {
           "headword": "대학 합격 발표를 기다리다",
@@ -3321,16 +3629,30 @@
           "hanViet": null,
           "meaningVn": "vui đến mức như bay lên được",
           "pos": "idiom"
+        },
+        {
+          "headword": "부모님께 이 소식을 전하다",
+          "reading": "bumonimkke i sosigeul jeonhada",
+          "hanViet": "tiêu tức",
+          "meaningVn": "báo tin này cho bố mẹ",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "입학 준비를 하다",
+          "reading": "ipak junbireul hada",
+          "hanViet": "nhập học",
+          "meaningVn": "chuẩn bị nhập học",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Tôi chờ kết quả tuyển sinh đại học, đứng ngồi không yên, nhận được giấy báo trúng tuyển, vui mừng khôn xiết.",
-      "example": "대학 합격 발표를 기다리면서 안절부절못했는데 합격해서 너무 기뻐서 날아갈 것 같았어요.",
-      "note": "Mục 11.9 mở rộng round 13 — dạng học tập/ngưỡng cửa cuộc đời. 발표 (phát biểu) cùng nuance như tiếng Nhật (xem ja-scenario-university-admission-wait). 대학/합격 khớp tốt, giống hệt tiếng Nhật."
+      "exampleVn": "Tôi chờ kết quả tuyển sinh đại học, đứng ngồi không yên, nhận được giấy báo trúng tuyển, vui mừng khôn xiết, báo tin này cho bố mẹ, và chuẩn bị hành lý nhập học.",
+      "example": "대학 합격 발표를 기다리다가, 안절부절못했지만, 합격해서, 너무 기뻐서 날아갈 것 같았고, 부모님께 이 소식을 전하고, 입학 준비를 하고 있다.",
+      "note": "Mục 11.9 mở rộng round 13 — dạng học tập/ngưỡng cửa cuộc đời. 발표 (phát biểu) cùng nuance như tiếng Nhật (xem ja-scenario-university-admission-wait). 대학/합격 khớp tốt, giống hệt tiếng Nhật. Mở rộng round 3 — thêm 'báo tin gia đình' và 'chuẩn bị nhập học', khép lại mạch chuyện thi đại học bằng bước chuyển tiếp thực tế sang cuộc sống sinh viên."
     },
     {
       "id": "ko-scenario-breakup-heal",
       "kind": "scenario-chain",
-      "titleVn": "Chia tay, đau lòng rồi dần chữa lành",
+      "titleVn": "Chia tay, đau lòng rồi dần chữa lành, tái tạo tinh thần và bắt đầu cuộc sống mới",
       "nodes": [
         {
           "headword": "헤어지다",
@@ -3359,16 +3681,30 @@
           "hanViet": "khắc phục",
           "meaningVn": "dần dần vượt qua",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "다시 기운을 차리다",
+          "reading": "dasi giuneul charida",
+          "hanViet": "khí vận",
+          "meaningVn": "lấy lại tinh thần một lần nữa",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "새로운 삶을 시작하다",
+          "reading": "saeroun salmeul sijakhada",
+          "hanViet": "thủy tác",
+          "meaningVn": "bắt đầu cuộc sống mới",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Tôi chia tay, đau lòng, một mình lặng lẽ chữa lành, dần dần vượt qua.",
-      "example": "헤어져서 가슴이 찢어졌지만 혼자 조용히 아픔을 달래고 점점 극복했어요.",
-      "note": "Mục 11.9 mở rộng round 13 — dạng tình cảm/chia ly. Tái dùng thành công cụm 가슴이 찢어지다 (tim xé nát) đã xác nhận tự nhiên ở ko-scenario-cluster-love (round 2), lần này trong ngữ cảnh chia tay rất hợp lý."
+      "exampleVn": "Tôi chia tay, đau lòng, một mình lặng lẽ chữa lành, dần dần vượt qua, lấy lại tinh thần, và bắt đầu cuộc sống mới.",
+      "example": "헤어져서 가슴이 찢어졌지만 혼자 조용히 아픔을 달래고 점점 극복했고, 다시 기운을 차리고, 새로운 삶을 시작했어요.",
+      "note": "Mục 11.9 mở rộng round 13 — dạng tình cảm/chia ly. Tái dùng thành công cụm 가슴이 찢어지다 (tim xé nát) đã xác nhận tự nhiên ở ko-scenario-cluster-love (round 2), lần này trong ngữ cảnh chia tay rất hợp lý. Mở rộng round 6 — thêm 'lấy lại tinh thần' và 'bắt đầu cuộc sống mới', khép lại mạch chuyện chia tay bằng một khởi đầu tích cực."
     },
     {
       "id": "ko-scenario-photography-hobby",
       "kind": "scenario-chain",
-      "titleVn": "Say mê chụp ảnh, kiên trì rồi chụp được ảnh đẹp",
+      "titleVn": "Say mê chụp ảnh, chụp được ảnh đẹp, chia sẻ mọi người và tham gia câu lạc bộ",
       "nodes": [
         {
           "headword": "사진에 빠지다",
@@ -3397,16 +3733,30 @@
           "hanViet": "thành tựu cảm",
           "meaningVn": "cảm thấy có thành tựu",
           "pos": "emotion"
+        },
+        {
+          "headword": "사람들과 공유하다",
+          "reading": "saramdeulgwa gongyuhada",
+          "hanViet": "cộng hữu",
+          "meaningVn": "chia sẻ với mọi người",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "사진 동아리에 가입하다",
+          "reading": "sajin dong-arie gaipada",
+          "hanViet": "gia nhập",
+          "meaningVn": "tham gia câu lạc bộ nhiếp ảnh",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Tôi yêu thích chụp ảnh, chụp đi chụp lại nhiều lần, cuối cùng chụp được bức ảnh đẹp, cảm thấy rất có thành tựu.",
-      "example": "사진에 빠져서 여러 번 찍다가 드디어 좋은 사진을 찍어서 성취감을 느꼈어요.",
-      "note": "Mục 11.9 mở rộng round 14 — dạng sở thích/nghệ thuật cá nhân. 사진 (tả chân) khớp gốc chữ hoàn toàn với 写真 tiếng Nhật (cùng 寫真/사진), mang cùng nuance gần false-friend: 'tả chân' tiếng Việt là thuật ngữ nghệ thuật/văn học, không chỉ 'ảnh chụp' thông thường."
+      "exampleVn": "Yêu thích chụp ảnh, chụp đi chụp lại nhiều lần, cuối cùng chụp được ảnh đẹp, rất có cảm giác thành tựu, chia sẻ cho mọi người xem, và tham gia câu lạc bộ nhiếp ảnh.",
+      "example": "사진에 빠져서 여러 번 찍었고, 드디어 좋은 사진을 찍어서 성취감을 느끼고, 사람들과 공유하고, 사진 동아리에 가입했다.",
+      "note": "Mục 11.9 mở rộng round 14 — dạng sở thích/nghệ thuật cá nhân. 사진 (tả chân) khớp gốc chữ hoàn toàn với 写真 tiếng Nhật (cùng 寫真/사진), mang cùng nuance gần false-friend: 'tả chân' tiếng Việt là thuật ngữ nghệ thuật/văn học, không chỉ 'ảnh chụp' thông thường. Mở rộng round 5 — thêm 'chia sẻ với mọi người' và 'tham gia câu lạc bộ', 2 bước phát triển tự nhiên của một sở thích chụp ảnh nghiêm túc."
     },
     {
       "id": "ko-scenario-charity-fundraising",
       "kind": "scenario-chain",
-      "titleVn": "Tổ chức gây quỹ từ thiện, khó khăn rồi giúp được nhiều người",
+      "titleVn": "Gây quỹ từ thiện giúp được nhiều người, thấy nụ cười của họ và quyết tâm tiếp tục lâu dài",
       "nodes": [
         {
           "headword": "모금 활동을 하다",
@@ -3435,16 +3785,30 @@
           "hanViet": null,
           "meaningVn": "đã giúp đỡ được nhiều người",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "도움을 받은 사람의 미소를 보다",
+          "reading": "doumeul badeun saramui misoreul boda",
+          "hanViet": "vi tiếu",
+          "meaningVn": "nhìn thấy nụ cười của người được giúp",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "앞으로도 계속하기로 하다",
+          "reading": "apeurodo gyesokhagiro hada",
+          "hanViet": "kế tục",
+          "meaningVn": "quyết định tiếp tục sau này",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Tôi tổ chức hoạt động gây quỹ từ thiện, gặp khó khăn, nhưng quyên góp được tiền, đã giúp đỡ được nhiều người.",
-      "example": "모금 활동을 하면서 어려움을 겪었지만 기부금을 모아서 많은 사람을 도왔어요.",
-      "note": "Mục 11.9 mở rộng round 14. LƯU Ý: câu tiếng Hàn tự nhiên dùng 어려움 (từ thuần Hàn) thay vì 곤란/困難 cho 'khó khăn' ở đây — nhưng 곤란하다 VẪN TỒN TẠI trong tiếng Hàn với NGHĨA TRUNG TÍNH 'khó khăn/lúng túng', mang CÙNG rủi ro false-friend nguy hiểm với 'khốn nạn' tiếng Việt như 困难/困難 bên ZH/JA (xem cảnh báo đầy đủ ở zh-scenario-charity-fundraising) — chỉ là cách diễn đạt tự nhiên ở câu này tình cờ né được từ đó. 모금 (mộ kim) khớp với 募金 tiếng Nhật."
+      "exampleVn": "Tổ chức hoạt động gây quỹ, gặp khó khăn, quyên góp được tiền từ thiện, đã giúp đỡ được nhiều người, nhìn thấy nụ cười của người được giúp, và quyết định kiên trì lâu dài.",
+      "example": "모금 활동을 하다가 어려움을 겪었지만, 기부금을 모아서 많은 사람을 도왔고, 도움을 받은 사람의 미소를 보고, 앞으로도 계속하기로 했다.",
+      "note": "Mục 11.9 mở rộng round 14. LƯU Ý: câu tiếng Hàn tự nhiên dùng 어려움 (từ thuần Hàn) thay vì 곤란/困難 cho 'khó khăn' ở đây — nhưng 곤란하다 VẪN TỒN TẠI trong tiếng Hàn với NGHĨA TRUNG TÍNH 'khó khăn/lúng túng', mang CÙNG rủi ro false-friend nguy hiểm với 'khốn nạn' tiếng Việt như 困难/困難 bên ZH/JA (xem cảnh báo đầy đủ ở zh-scenario-charity-fundraising) — chỉ là cách diễn đạt tự nhiên ở câu này tình cờ né được từ đó. 모금 (mộ kim) khớp với 募金 tiếng Nhật. Mở rộng round 5 — thêm 'nụ cười của người được giúp' và 'quyết tâm tiếp tục lâu dài', khép lại mạch chuyện từ thiện bằng động lực để duy trì hoạt động."
     },
     {
       "id": "ko-scenario-elderly-smartphone-learn",
       "kind": "scenario-chain",
-      "titleVn": "Ông học dùng điện thoại thông minh, bối rối rồi vui mừng",
+      "titleVn": "Ông học dùng điện thoại thông minh, bối rối rồi vui mừng, gọi được video và gần gũi hơn với cháu",
       "nodes": [
         {
           "headword": "할아버지가 스마트폰을 배우다",
@@ -3473,11 +3837,25 @@
           "hanViet": null,
           "meaningVn": "học được rồi thật sự vui mừng",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "영상 통화를 할 수 있게 되다",
+          "reading": "yeongsang tonghwareul hal su itge doeda",
+          "hanViet": "영상 통화, thông thoại",
+          "meaningVn": "có thể thực hiện cuộc gọi video",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "손주와 더 가까워지다",
+          "reading": "sonjuwa deo gakkawojida",
+          "hanViet": null,
+          "meaningVn": "trở nên gần gũi hơn với cháu",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Ông tôi học dùng điện thoại thông minh, lúc đầu rất bối rối, tôi kiên nhẫn dạy ông, học được rồi ông rất vui.",
-      "example": "할아버지가 스마트폰을 배우는데 처음에는 헷갈려 하셨지만 참을성 있게 가르쳐 드렸더니 배우고 나서 정말 기뻐하셨어요.",
-      "note": "Mục 11.9 mở rộng round 14 — dạng liên thế hệ/công nghệ. 스마트폰 mượn trực tiếp từ tiếng Anh 'smartphone'. Toàn bộ động từ chính đều thuần Hàn, không có Hán Việt rõ ràng."
+      "exampleVn": "Ông học dùng điện thoại thông minh, ban đầu rất bối rối, kiên nhẫn dạy ông, học được rồi rất vui mừng, giờ có thể gọi video, và trở nên gần gũi hơn với cháu.",
+      "example": "할아버지가 스마트폰을 배우는데 처음에는 헷갈려 하셨지만 참을성 있게 가르쳐 드렸더니 배우고 나서 정말 기뻐하셨고, 영상 통화를 할 수 있게 되어서 손주와 더 가까워졌어요.",
+      "note": "Mục 11.9 mở rộng round 14 — dạng liên thế hệ/công nghệ. 스마트폰 mượn trực tiếp từ tiếng Anh 'smartphone'. Toàn bộ động từ chính đều thuần Hàn, không có Hán Việt rõ ràng. Mở rộng round 7 — thêm 'gọi được video' và 'gần gũi hơn với cháu', kết quả thiết thực của việc kiên nhẫn dạy người lớn tuổi dùng công nghệ."
     },
     {
       "id": "ko-scenario-marathon-finish",
@@ -3527,7 +3905,7 @@
     {
       "id": "ko-scenario-first-time-alone",
       "kind": "scenario-chain",
-      "titleVn": "Lần đầu sống một mình, cô đơn rồi trở nên độc lập",
+      "titleVn": "Lần đầu sống một mình, cô đơn rồi trở nên độc lập, mời bạn bè đến chơi và tận hưởng không gian riêng",
       "nodes": [
         {
           "headword": "처음으로 혼자 살다",
@@ -3556,16 +3934,30 @@
           "hanViet": "độc lập",
           "meaningVn": "trở nên độc lập hơn",
           "pos": "adjective"
+        },
+        {
+          "headword": "친구를 집에 초대하다",
+          "reading": "chingureul jibe chodaehada",
+          "hanViet": "chiêu đãi",
+          "meaningVn": "mời bạn bè đến nhà chơi",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "자기만의 공간을 즐기다",
+          "reading": "jagimanui gonggangeul jeulgida",
+          "hanViet": "không gian",
+          "meaningVn": "tận hưởng không gian riêng của mình",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Lần đầu tiên sống một mình, tôi cảm thấy cô đơn, học cách tự chăm sóc bản thân, trở nên độc lập hơn.",
-      "example": "처음으로 혼자 살면서 외로움을 느꼈지만 스스로를 돌보는 법을 배우고 더 독립적이 되었어요.",
-      "note": "Mục 11.9 mở rộng round 14 — dạng trưởng thành/tự lập, bổ sung ko-scenario-new-city-adjust. 독립 (độc lập) khớp hoàn hảo, giống hệt tiếng Trung, khác 自立/tự lập bên tiếng Nhật."
+      "exampleVn": "Lần đầu sống một mình, cảm thấy cô đơn, học cách tự chăm sóc bản thân, trở nên độc lập hơn, mời bạn bè đến nhà chơi, và tận hưởng không gian riêng của mình.",
+      "example": "처음으로 혼자 살면서 외로움을 느꼈지만 스스로를 돌보는 법을 배우고 더 독립적이 되었고, 친구를 집에 초대하며 자기만의 공간을 즐기게 되었어요.",
+      "note": "Mục 11.9 mở rộng round 14 — dạng trưởng thành/tự lập, bổ sung ko-scenario-new-city-adjust. 독립 (độc lập) khớp hoàn hảo, giống hệt tiếng Trung, khác 自立/tự lập bên tiếng Nhật. Mở rộng round 8 — thêm 'mời bạn bè đến chơi' và 'tận hưởng không gian riêng', giai đoạn thích nghi tích cực sau khi vượt qua cảm giác cô đơn ban đầu."
     },
     {
       "id": "ko-scenario-meditation-practice",
       "kind": "scenario-chain",
-      "titleVn": "Học thiền, khó tập trung rồi nội tâm bình yên",
+      "titleVn": "Học thiền nội tâm bình yên, học cách hít thở đúng và cảm nhận thay đổi tích cực",
       "nodes": [
         {
           "headword": "명상을 시작하다",
@@ -3594,16 +3986,30 @@
           "hanViet": "bình ổn",
           "meaningVn": "tâm hồn bình yên",
           "pos": "adjective"
+        },
+        {
+          "headword": "올바른 호흡법을 익히다",
+          "reading": "olbareun hoheumbeobeul ikida",
+          "hanViet": "hô hấp pháp",
+          "meaningVn": "học được cách hít thở đúng",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "삶의 긍정적인 변화를 느끼다",
+          "reading": "salmui geungjeongjeogin byeonhwareul neukkida",
+          "hanViet": "biến hoá",
+          "meaningVn": "cảm nhận thay đổi tích cực trong cuộc sống",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Tôi bắt đầu thiền, rất khó tập trung chú ý, nhưng kiên trì luyện tập, nội tâm dần bình yên.",
-      "example": "명상을 시작했는데 집중하기 어려웠지만 꾸준히 연습해서 마음이 평온해졌어요.",
-      "note": "Mục 11.9 mở rộng round 14 — dạng sức khỏe tinh thần/chánh niệm, bổ sung ko-scenario-insomnia-improve. 명상 (minh tưởng) khớp với 冥想/瞑想 ở ZH/JA. 평온 (bình ổn) là từ hay dùng cho trạng thái tâm lý 'bình yên, ổn định'."
+      "exampleVn": "Bắt đầu thiền, rất khó tập trung chú ý, kiên trì luyện tập, nội tâm bình yên, học được cách hít thở đúng, và cảm nhận được sự thay đổi tích cực trong cuộc sống.",
+      "example": "명상을 시작해서 집중하기 어려웠지만, 꾸준히 연습해서 마음이 평온해지고, 올바른 호흡법을 익히고, 삶의 긍정적인 변화를 느끼고 있다.",
+      "note": "Mục 11.9 mở rộng round 14 — dạng sức khỏe tinh thần/chánh niệm, bổ sung ko-scenario-insomnia-improve. 명상 (minh tưởng) khớp với 冥想/瞑想 ở ZH/JA. 평온 (bình ổn) là từ hay dùng cho trạng thái tâm lý 'bình yên, ổn định'. Mở rộng round 5 — thêm 'học cách hít thở đúng' và 'cảm nhận thay đổi tích cực', kết quả lâu dài thực tế của việc kiên trì tập thiền."
     },
     {
       "id": "ko-scenario-flight-missed-rebook",
       "kind": "scenario-chain",
-      "titleVn": "Lỡ chuyến bay, hoảng loạn rồi đến nơi thuận lợi",
+      "titleVn": "Lỡ chuyến bay, hoảng loạn rồi đến nơi thuận lợi, thở phào nhẹ nhõm và kịp tham gia cuộc họp",
       "nodes": [
         {
           "headword": "비행기를 놓치다",
@@ -3632,16 +4038,30 @@
           "hanViet": "vô sự",
           "meaningVn": "đến nơi an toàn",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "안도의 한숨을 쉬다",
+          "reading": "andoui hansumeul swida",
+          "hanViet": "an đảo",
+          "meaningVn": "thở phào nhẹ nhõm",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "제시간에 회의에 참석하다",
+          "reading": "jesigane hoeuie chamseokhada",
+          "hanViet": "hội nghị, tham tịch",
+          "meaningVn": "kịp tham gia cuộc họp đúng giờ",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Tôi lỡ chuyến bay, vô cùng hoảng loạn, đặt lại vé, cuối cùng đến nơi thuận lợi.",
-      "example": "비행기를 놓쳐서 너무 당황했는데 표를 다시 예매해서 무사히 도착했어요.",
-      "note": "Mục 11.9 mở rộng round 15 — dạng du lịch/sự cố di chuyển, bổ sung ko-scenario-traffic-jam-late bằng bối cảnh sân bay. 예매 (dự mãi, 'mua trước') khớp tốt với khái niệm 'đặt vé trước'. 무사 (vô sự) khớp tốt với 'an toàn'."
+      "exampleVn": "Lỡ chuyến bay, rất hoảng loạn, đặt lại vé, đến nơi an toàn, thở phào nhẹ nhõm, và kịp tham gia cuộc họp đúng giờ.",
+      "example": "비행기를 놓쳐서 너무 당황했지만 표를 다시 예매해서 무사히 도착했고, 안도의 한숨을 쉬며 제시간에 회의에 참석했어요.",
+      "note": "Mục 11.9 mở rộng round 15 — dạng du lịch/sự cố di chuyển, bổ sung ko-scenario-traffic-jam-late bằng bối cảnh sân bay. 예매 (dự mãi, 'mua trước') khớp tốt với khái niệm 'đặt vé trước'. 무사 (vô sự) khớp tốt với 'an toàn'. Mở rộng round 8 — thêm 'thở phào nhẹ nhõm' và 'kịp tham gia cuộc họp', kết quả tích cực sau khi xử lý ổn thỏa sự cố lỡ chuyến bay."
     },
     {
       "id": "ko-scenario-pregnancy-announce",
       "kind": "scenario-chain",
-      "titleVn": "Báo tin có thai, hồi hộp rồi cả nhà vui mừng",
+      "titleVn": "Báo tin có thai, hồi hộp rồi cả nhà vui mừng, bắt đầu chuẩn bị đồ cho bé và mong chờ sinh mệnh mới",
       "nodes": [
         {
           "headword": "임신하다",
@@ -3670,16 +4090,30 @@
           "hanViet": "gia tộc",
           "meaningVn": "cả gia đình đều vui mừng",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "아기용품을 준비하기 시작하다",
+          "reading": "agiyongpumeul junbihagi sijakhada",
+          "hanViet": "용품, 준비",
+          "meaningVn": "bắt đầu chuẩn bị đồ dùng cho em bé",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "새 생명을 설레는 마음으로 기다리다",
+          "reading": "sae saengmyeongeul seolleneun ma-eumeuro gidarida",
+          "hanViet": "생명",
+          "meaningVn": "mong chờ sinh mệnh mới với tâm trạng háo hức",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Tôi có thai, báo tin cho gia đình, vừa hồi hộp vừa mong đợi, cả nhà đều rất vui.",
-      "example": "임신해서 가족에게 알렸는데 긴장되면서도 기대됐어요. 온 가족이 기뻐했어요.",
-      "note": "Mục 11.9 mở rộng round 15 — dạng gia đình/tin vui trọng đại, bổ sung ko-scenario-new-sibling-born. 임신 (nhâm thần) khớp hoàn hảo với 妊娠 tiếng Nhật, khác 怀孕 tiếng Trung. 가족 (gia tộc) tiếp tục khớp sạch."
+      "exampleVn": "Tôi có thai, báo tin cho gia đình, vừa hồi hộp vừa mong đợi, cả nhà đều rất vui mừng, bắt đầu chuẩn bị đồ dùng cho em bé, và tràn đầy mong đợi đón chào sinh mệnh mới.",
+      "example": "임신해서 가족에게 알렸는데 긴장되면서도 기대됐어요. 온 가족이 기뻐했고, 아기용품을 준비하기 시작하면서 새 생명을 설레는 마음으로 기다리고 있어요.",
+      "note": "Mục 11.9 mở rộng round 15 — dạng gia đình/tin vui trọng đại, bổ sung ko-scenario-new-sibling-born. 임신 (nhâm thần) khớp hoàn hảo với 妊娠 tiếng Nhật, khác 怀孕 tiếng Trung. 가족 (gia tộc) tiếp tục khớp sạch. Mở rộng round 7 — thêm 'chuẩn bị đồ cho bé' và 'mong chờ sinh mệnh mới', 2 bước chuẩn bị tự nhiên tiếp theo sau khi báo tin vui."
     },
     {
       "id": "ko-scenario-friend-broken-promise",
       "kind": "scenario-chain",
-      "titleVn": "Bạn thất hứa, thất vọng rồi tha thứ",
+      "titleVn": "Bạn thất hứa, thất vọng rồi tha thứ, cùng nhau trò chuyện và tình bạn càng thêm sâu sắc",
       "nodes": [
         {
           "headword": "친구가 약속을 어기다",
@@ -3708,16 +4142,30 @@
           "hanViet": "quan hệ hồi phục",
           "meaningVn": "mối quan hệ được hồi phục",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "같이 밥을 먹으며 이야기하다",
+          "reading": "gachi babeul meogeumyeo iyagihada",
+          "hanViet": null,
+          "meaningVn": "cùng nhau ăn uống trò chuyện",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "우정이 더 깊어지다",
+          "reading": "ujeongi deo gipeojida",
+          "hanViet": "hữu tình",
+          "meaningVn": "tình bạn càng thêm sâu sắc",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Bạn tôi thất hứa, tôi rất thất vọng, nhưng quyết định tha thứ cho anh ấy, mối quan hệ được khôi phục.",
-      "example": "친구가 약속을 어겨서 실망했지만 용서하기로 해서 관계가 회복됐어요.",
-      "note": "Mục 11.9 mở rộng round 15 — dạng tình bạn/tha thứ. 약속 (ước thúc) khớp hoàn hảo với 約束 tiếng Nhật. 용서 (dung thứ, 容恕) khớp trực tiếp — chữ 恕 (thứ) chính là chữ dùng trong 'tha thứ' tiếng Việt. 관계 (quan hệ) khớp hoàn hảo."
+      "exampleVn": "Bạn thất hứa, rất thất vọng, quyết định tha thứ cho bạn, mối quan hệ được hàn gắn, cùng nhau ăn uống trò chuyện, và tình bạn càng thêm sâu sắc.",
+      "example": "친구가 약속을 어겨서 실망했지만 용서하기로 했고, 관계가 회복되어 같이 밥을 먹으며 이야기하니 우정이 더 깊어졌어요.",
+      "note": "Mục 11.9 mở rộng round 15 — dạng tình bạn/tha thứ. 약속 (ước thúc) khớp hoàn hảo với 約束 tiếng Nhật. 용서 (dung thứ, 容恕) khớp trực tiếp — chữ 恕 (thứ) chính là chữ dùng trong 'tha thứ' tiếng Việt. 관계 (quan hệ) khớp hoàn hảo. Mở rộng round 8 — thêm 'cùng nhau trò chuyện' và 'tình bạn sâu sắc hơn', kết quả tích cực lâu dài sau khi tha thứ và hàn gắn."
     },
     {
       "id": "ko-scenario-learn-to-say-no",
       "kind": "scenario-chain",
-      "titleVn": "Học cách từ chối, áp lực rồi tự tin hơn",
+      "titleVn": "Học cách từ chối, áp lực rồi tự tin hơn, có nhiều thời gian hơn cho bản thân và cuộc sống nhẹ nhàng hơn",
       "nodes": [
         {
           "headword": "항상 부탁을 들어주다",
@@ -3746,16 +4194,30 @@
           "hanViet": null,
           "meaningVn": "tự tin hơn",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "자기 일을 할 시간이 늘어나다",
+          "reading": "jagi ireul hal siganyi neureonada",
+          "hanViet": null,
+          "meaningVn": "thời gian dành cho việc của mình tăng lên",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "삶이 더 편해지다",
+          "reading": "salmi deo pyeonhaejida",
+          "hanViet": null,
+          "meaningVn": "cuộc sống trở nên nhẹ nhàng, thoải mái hơn",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Tôi luôn đồng ý với người khác, áp lực rất lớn, học cách từ chối, trở nên tự tin hơn.",
-      "example": "항상 부탁을 들어줘서 스트레스를 받았는데 거절하는 법을 배워서 더 자신감이 생겼어요.",
-      "note": "Mục 11.9 mở rộng round 15 — dạng tâm lý/ranh giới cá nhân. 거절 (cự tuyệt) khớp hoàn hảo, giống hệt 拒绝 tiếng Trung. 스트레스 mượn từ tiếng Anh 'stress'."
+      "exampleVn": "Tôi luôn đồng ý với người khác, áp lực rất lớn, học cách từ chối, tự tin hơn, có nhiều thời gian hơn để làm việc của mình, và cuộc sống trở nên nhẹ nhàng hơn.",
+      "example": "항상 부탁을 들어줘서 스트레스를 받았는데 거절하는 법을 배워서 더 자신감이 생겼고, 자기 일을 할 시간이 늘어나서 삶이 더 편해졌어요.",
+      "note": "Mục 11.9 mở rộng round 15 — dạng tâm lý/ranh giới cá nhân. 거절 (cự tuyệt) khớp hoàn hảo, giống hệt 拒绝 tiếng Trung. 스트레스 mượn từ tiếng Anh 'stress'. Mở rộng round 7 — thêm 'nhiều thời gian hơn cho bản thân' và 'cuộc sống nhẹ nhàng hơn', lợi ích lâu dài của việc học cách từ chối."
     },
     {
       "id": "ko-scenario-food-poisoning-recovery",
       "kind": "scenario-chain",
-      "titleVn": "Ngộ độc thực phẩm, khó chịu rồi dần khỏe lại",
+      "titleVn": "Ngộ độc thực phẩm, khó chịu rồi dần khỏe lại, chú ý vệ sinh ăn uống và không dám ăn bừa bãi nữa",
       "nodes": [
         {
           "headword": "식중독에 걸리다",
@@ -3784,16 +4246,30 @@
           "hanViet": "kiện khang",
           "meaningVn": "dần dần khỏe lại",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "음식 위생에 신경 쓰다",
+          "reading": "eumsik wisaenge singyeong sseuda",
+          "hanViet": "vệ sinh",
+          "meaningVn": "chú ý vệ sinh ăn uống",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "다시는 아무거나 먹지 않다",
+          "reading": "dasineun amugeona meokji anta",
+          "hanViet": null,
+          "meaningVn": "không còn dám ăn uống bừa bãi nữa",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Tôi ăn phải đồ hỏng, nôn mửa tiêu chảy, đi khám bác sĩ, dần dần hồi phục sức khỏe.",
-      "example": "식중독에 걸려서 구토와 설사가 심했는데 병원에 가서 점점 건강해졌어요.",
-      "note": "Mục 11.9 mở rộng round 15 — dạng y tế đời thường, bổ sung ko-scenario-cold-recovery. 식중독 (thực trúng độc) khớp CHÍNH XÁC với khái niệm 'ngộ độc thực phẩm' (food poisoning) — ví dụ rất đẹp về thuật ngữ y khoa Hán Việt. 병원 (bệnh viện) khớp chuẩn."
+      "exampleVn": "Bị ngộ độc thực phẩm, nôn mửa và tiêu chảy nặng, đi khám bác sĩ, dần dần khỏe lại, chú ý vệ sinh ăn uống, và không còn dám ăn uống bừa bãi nữa.",
+      "example": "식중독에 걸려서 구토와 설사가 심했지만 병원에 가서 점점 건강해졌고, 음식 위생에 신경 쓰며 다시는 아무거나 먹지 않게 되었어요.",
+      "note": "Mục 11.9 mở rộng round 15 — dạng y tế đời thường, bổ sung ko-scenario-cold-recovery. 식중독 (thực trúng độc) khớp CHÍNH XÁC với khái niệm 'ngộ độc thực phẩm' (food poisoning) — ví dụ rất đẹp về thuật ngữ y khoa Hán Việt. 병원 (bệnh viện) khớp chuẩn. Mở rộng round 8 — thêm 'chú ý vệ sinh ăn uống' và 'không dám ăn bừa bãi nữa', bài học thực tế rút ra sau trận ngộ độc thực phẩm."
     },
     {
       "id": "ko-scenario-business-failure-recover",
       "kind": "scenario-chain",
-      "titleVn": "Kinh doanh thất bại, nợ nần rồi quật khởi trở lại",
+      "titleVn": "Kinh doanh thất bại, nợ nần rồi quật khởi trở lại, mở công ty mới và sự nghiệp thịnh vượng",
       "nodes": [
         {
           "headword": "사업에 실패하다",
@@ -3822,16 +4298,30 @@
           "hanViet": "tái khởi",
           "meaningVn": "quật khởi trở lại",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "새 회사를 차리다",
+          "reading": "sae hoesareul charida",
+          "hanViet": "hội xã",
+          "meaningVn": "mở công ty mới",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "사업이 나날이 번창하다",
+          "reading": "sa-eobi nanari beonchanghada",
+          "hanViet": "sự nghiệp, phồn xương",
+          "meaningVn": "sự nghiệp ngày càng thịnh vượng",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Việc kinh doanh của tôi thất bại, nợ nần chồng chất, tôi làm lại từ đầu, cuối cùng quật khởi trở lại.",
-      "example": "사업에 실패해서 빚더미에 앉았지만 처음부터 다시 시작해서 재기했어요.",
-      "note": "Mục 11.9 mở rộng round 15 — dạng kinh doanh/nghị lực. 사업 (sự nghiệp) và 재기 (tái khởi) khớp hoàn hảo, giống hệt 事業/再起 tiếng Nhật — cả hai đều là nửa sau tương đương của thành ngữ 东山再起 (Đông Sơn tái khởi) tiếng Trung."
+      "exampleVn": "Kinh doanh thất bại, nợ nần chồng chất, làm lại từ đầu, quật khởi trở lại, mở công ty mới, và sự nghiệp ngày càng phát triển thịnh vượng.",
+      "example": "사업에 실패해서 빚더미에 앉았지만 처음부터 다시 시작해서 재기했고, 새 회사를 차려서 사업이 나날이 번창했어요.",
+      "note": "Mục 11.9 mở rộng round 15 — dạng kinh doanh/nghị lực. 사업 (sự nghiệp) và 재기 (tái khởi) khớp hoàn hảo, giống hệt 事業/再起 tiếng Nhật — cả hai đều là nửa sau tương đương của thành ngữ 东山再起 (Đông Sơn tái khởi) tiếng Trung. Mở rộng round 9 — thêm 'mở công ty mới' và 'sự nghiệp thịnh vượng', kết quả tích cực lâu dài sau khi quật khởi từ thất bại kinh doanh."
     },
     {
       "id": "ko-scenario-community-garden",
       "kind": "scenario-chain",
-      "titleVn": "Hàng xóm cùng làm vườn, xa lạ rồi thân thiết",
+      "titleVn": "Hàng xóm cùng làm vườn, xa lạ rồi thân thiết, chia sẻ rau củ thu hoạch và tổ chức tiệc cộng đồng",
       "nodes": [
         {
           "headword": "이웃과 함께 정원을 가꾸다",
@@ -3860,16 +4350,30 @@
           "hanViet": null,
           "meaningVn": "trở nên thân thiết hơn",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "수확한 채소를 나누다",
+          "reading": "suhwakhan chaesoreul nanuda",
+          "hanViet": "thu hoạch, thái sơ",
+          "meaningVn": "chia sẻ rau củ đã thu hoạch cho nhau",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "동네 모임을 열다",
+          "reading": "dongne moimeul yeolda",
+          "hanViet": null,
+          "meaningVn": "tổ chức buổi tụ họp khu phố",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Hàng xóm cùng nhau trồng vườn hoa, lúc đầu không quen biết nhau, cùng nhau lao động, mối quan hệ trở nên thân thiết hơn.",
-      "example": "이웃과 함께 정원을 가꾸면서 처음에는 어색했지만 함께 일하면서 더 친해졌어요.",
-      "note": "Mục 11.9 mở rộng round 16 — dạng cộng đồng/hàng xóm, bổ sung ko-scenario-noisy-neighbor bằng góc nhìn gắn kết tích cực. 정원 (đình viên) là từ Hán Việt cổ khớp tốt với 'khu vườn/sân vườn'. 친해지다 tái dùng từ ko-scenario-first-day-new-job."
+      "exampleVn": "Hàng xóm cùng nhau làm vườn, ban đầu còn xa lạ, cùng nhau lao động, mối quan hệ trở nên gần gũi hơn, chia sẻ rau củ thu hoạch được, và tổ chức buổi tụ họp cộng đồng.",
+      "example": "이웃과 함께 정원을 가꾸면서 처음에는 어색했지만 함께 일하고 더 친해졌고, 수확한 채소를 나누며 동네 모임을 열게 되었어요.",
+      "note": "Mục 11.9 mở rộng round 16 — dạng cộng đồng/hàng xóm, bổ sung ko-scenario-noisy-neighbor bằng góc nhìn gắn kết tích cực. 정원 (đình viên) là từ Hán Việt cổ khớp tốt với 'khu vườn/sân vườn'. 친해지다 tái dùng từ ko-scenario-first-day-new-job. Mở rộng round 9 — thêm 'chia sẻ thu hoạch' và 'tổ chức tiệc cộng đồng', kết quả gắn kết cộng đồng sâu sắc hơn từ khu vườn chung."
     },
     {
       "id": "ko-scenario-give-up-seat-bus",
       "kind": "scenario-chain",
-      "titleVn": "Nhường ghế cho người già trên xe buýt, ấm lòng",
+      "titleVn": "Nhường ghế cho người già trên xe buýt, ấm lòng, hình thành thói quen nhường ghế và lan tỏa lòng tốt",
       "nodes": [
         {
           "headword": "할머니께 자리를 양보하다",
@@ -3898,16 +4402,30 @@
           "hanViet": "hạnh phúc",
           "meaningVn": "cảm thấy tâm trạng hạnh phúc",
           "pos": "emotion"
+        },
+        {
+          "headword": "자리를 양보하는 습관이 생기다",
+          "reading": "jarireul yangbohaneun seupgwani saengida",
+          "hanViet": "tập quán",
+          "meaningVn": "hình thành thói quen nhường ghế",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "친절을 널리 퍼뜨리다",
+          "reading": "chinjeoreul neolli peotteurida",
+          "hanViet": "thân thiết",
+          "meaningVn": "lan tỏa sự tử tế",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Tôi nhường ghế cho người già, trong lòng cảm thấy ấm áp, người già cảm ơn, tôi cảm thấy rất hạnh phúc.",
-      "example": "할머니께 자리를 양보해서 마음이 따뜻해졌어요. 감사 인사를 받아서 행복한 기분이 들었어요.",
-      "note": "Mục 11.9 mở rộng round 16 — dạng tử tế đời thường/giao thông công cộng. FALSE-FRIEND đáng chú ý: 인사 (nhân sự, trong 감사 인사='lời cảm ơn/lời chào') tiếng Hàn dùng cho 'lời chào hỏi/cảm ơn' hằng ngày, nhưng tiếng Việt 'nhân sự' CHỈ nghĩa 'nguồn nhân lực/phòng nhân sự' trong công ty — hoàn toàn khác vực nghĩa. 양보 (nhượng bộ) khớp tốt với 'nhường nhịn'."
+      "exampleVn": "Nhường ghế cho người già, trong lòng cảm thấy ấm áp, người già cảm ơn, cảm thấy rất hạnh phúc, hình thành thói quen nhường ghế, và lan tỏa lòng tốt.",
+      "example": "할머니께 자리를 양보해서 마음이 따뜻해지고 감사 인사를 받아 행복한 기분이 들었고, 자리를 양보하는 습관이 생기며 친절을 널리 퍼뜨리게 되었어요.",
+      "note": "Mục 11.9 mở rộng round 16 — dạng tử tế đời thường/giao thông công cộng. FALSE-FRIEND đáng chú ý: 인사 (nhân sự, trong 감사 인사='lời cảm ơn/lời chào') tiếng Hàn dùng cho 'lời chào hỏi/cảm ơn' hằng ngày, nhưng tiếng Việt 'nhân sự' CHỈ nghĩa 'nguồn nhân lực/phòng nhân sự' trong công ty — hoàn toàn khác vực nghĩa. 양보 (nhượng bộ) khớp tốt với 'nhường nhịn'. Mở rộng round 9 — thêm 'thói quen nhường ghế' và 'lan tỏa lòng tốt', hành động nhỏ trở thành thói quen tích cực lan tỏa trong cộng đồng."
     },
     {
       "id": "ko-scenario-mistake-regain-trust",
       "kind": "scenario-chain",
-      "titleVn": "Mắc lỗi trong công việc, xin lỗi rồi lấy lại niềm tin",
+      "titleVn": "Mắc lỗi trong công việc, xin lỗi rồi lấy lại niềm tin, làm việc chăm chỉ hơn và có cơ hội thăng chức",
       "nodes": [
         {
           "headword": "업무에서 실수를 하다",
@@ -3936,16 +4454,30 @@
           "hanViet": "tín lại hồi phục",
           "meaningVn": "lấy lại được niềm tin",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "이전보다 더 열심히 일하다",
+          "reading": "ijeonboda deo yeolsimhi ilhada",
+          "hanViet": null,
+          "meaningVn": "làm việc chăm chỉ hơn trước",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "승진 기회를 얻다",
+          "reading": "seungjin gihoereul eotda",
+          "hanViet": "thăng tiến, cơ hội",
+          "meaningVn": "có được cơ hội thăng chức",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Tôi làm việc mắc lỗi, sếp rất thất vọng, tôi chân thành xin lỗi, cuối cùng lấy lại được niềm tin.",
-      "example": "업무에서 실수를 해서 상사가 실망했지만 진심으로 사과해서 신뢰를 회복했어요.",
-      "note": "Mục 11.9 mở rộng round 16. FALSE-FRIEND ĐÁNG CHÚ Ý: 실수 (thất thủ, 'lỗi nhỏ/sai sót thường ngày') ghép chữ Hán Việt ra 'thất thủ' — nhưng tiếng Việt 'thất thủ' nghĩa 'thua trận, để mất thành trì' (bối cảnh quân sự/lịch sử, VD 'thất thủ Sài Gòn'), hoàn toàn khác sắc thái với 'mắc lỗi nhỏ trong công việc'. 진심 (chân tâm) và 신뢰 (tín lại) khớp tốt."
+      "exampleVn": "Mắc lỗi trong công việc, cấp trên rất thất vọng, chân thành xin lỗi, lấy lại được niềm tin, làm việc nỗ lực gấp đôi, và có được cơ hội thăng chức.",
+      "example": "업무에서 실수를 해서 상사가 실망했지만 진심으로 사과해서 신뢰를 회복했고, 이전보다 더 열심히 일해서 승진 기회를 얻었어요.",
+      "note": "Mục 11.9 mở rộng round 16. FALSE-FRIEND ĐÁNG CHÚ Ý: 실수 (thất thủ, 'lỗi nhỏ/sai sót thường ngày') ghép chữ Hán Việt ra 'thất thủ' — nhưng tiếng Việt 'thất thủ' nghĩa 'thua trận, để mất thành trì' (bối cảnh quân sự/lịch sử, VD 'thất thủ Sài Gòn'), hoàn toàn khác sắc thái với 'mắc lỗi nhỏ trong công việc'. 진심 (chân tâm) và 신뢰 (tín lại) khớp tốt. Mở rộng round 9 — thêm 'nỗ lực gấp đôi' và 'cơ hội thăng chức', kết quả nghề nghiệp tích cực sau khi khắc phục sai lầm và lấy lại niềm tin."
     },
     {
       "id": "ko-scenario-long-awaited-vacation",
       "kind": "scenario-chain",
-      "titleVn": "Kỳ nghỉ mong đợi đã lâu, cuối cùng cũng đến",
+      "titleVn": "Kỳ nghỉ mong đợi đã lâu, cuối cùng cũng đến, chụp nhiều ảnh đẹp và mang kỷ niệm về nhà",
       "nodes": [
         {
           "headword": "오랫동안 기다린 휴가",
@@ -3974,16 +4506,30 @@
           "hanViet": "sảng khoái",
           "meaningVn": "tâm trạng sảng khoái",
           "pos": "adjective"
+        },
+        {
+          "headword": "사진을 많이 찍다",
+          "reading": "sajineul mani jjikda",
+          "hanViet": null,
+          "meaningVn": "chụp rất nhiều ảnh",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "좋은 추억을 안고 돌아오다",
+          "reading": "joeun chueogeul angko dorawoda",
+          "hanViet": "hồi ức",
+          "meaningVn": "mang theo kỷ niệm đẹp trở về",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Kỳ nghỉ mong đợi đã lâu cuối cùng cũng đến, tôi hoàn toàn thư giãn, tâm trạng rất vui vẻ.",
-      "example": "오랫동안 기다린 휴가가 드디어 와서 완전히 쉬었어요. 기분이 상쾌해졌어요.",
-      "note": "Mục 11.9 mở rộng round 16 — dạng nghỉ ngơi/thư giãn tích cực đơn thuần. 휴가 (hưu hạ) khớp hoàn hảo với 休暇 tiếng Nhật. 완전(hoàn toàn)/상쾌(sảng khoái) khớp hoàn hảo với tiếng Việt."
+      "exampleVn": "Kỳ nghỉ mong đợi đã lâu, cuối cùng cũng đến, nghỉ ngơi hoàn toàn, tâm trạng vui vẻ, chụp rất nhiều ảnh, và mang theo kỷ niệm đẹp trở về nhà.",
+      "example": "오랫동안 기다린 휴가가 드디어 와서 완전히 쉬고 기분이 상쾌해졌고, 사진을 많이 찍으며 좋은 추억을 안고 돌아왔어요.",
+      "note": "Mục 11.9 mở rộng round 16 — dạng nghỉ ngơi/thư giãn tích cực đơn thuần. 휴가 (hưu hạ) khớp hoàn hảo với 休暇 tiếng Nhật. 완전(hoàn toàn)/상쾌(sảng khoái) khớp hoàn hảo với tiếng Việt. Mở rộng round 10 — thêm 'chụp nhiều ảnh' và 'mang kỷ niệm về nhà', khép lại mạch chuyện kỳ nghỉ bằng những khoảnh khắc lưu giữ được."
     },
     {
       "id": "ko-scenario-house-fire-evacuate",
       "kind": "scenario-chain",
-      "titleVn": "Hỏa hoạn bất ngờ, hoảng hốt rồi thoát hiểm an toàn",
+      "titleVn": "Hỏa hoạn bất ngờ, hoảng hốt rồi thoát hiểm an toàn, kiểm tra máy báo khói và chú ý an toàn phòng cháy hơn",
       "nodes": [
         {
           "headword": "갑자기 불이 나다",
@@ -4012,16 +4558,30 @@
           "hanViet": "vô sự",
           "meaningVn": "sống sót an toàn",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "화재경보기를 점검하다",
+          "reading": "hwajaegyeongbogireul jeomgeomhada",
+          "hanViet": "hỏa tai cảnh báo khí, điểm kiểm",
+          "meaningVn": "kiểm tra máy báo cháy",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "소방 안전에 더 신경 쓰다",
+          "reading": "sobang anjeone deo singyeong sseuda",
+          "hanViet": "tiêu phòng, an toàn",
+          "meaningVn": "chú ý an toàn phòng cháy chữa cháy hơn",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Bất ngờ xảy ra hỏa hoạn, tôi hoảng hốt mất bình tĩnh, nhanh chóng sơ tán, thoát hiểm an toàn.",
-      "example": "갑자기 불이 나서 당황했는데 서둘러 대피해서 무사히 살아남았어요.",
-      "note": "Mục 11.9 mở rộng round 16 — dạng tình huống khẩn cấp nghiêm trọng. 대피 (đãi tị) chứa chữ 避 (tị) liên quan đến 避難/tị nạn tiếng Nhật nhưng ghép khác. 무사 (vô sự) khớp tốt với 'an toàn/sống sót'."
+      "exampleVn": "Đột nhiên xảy ra hỏa hoạn, hoảng loạn, nhanh chóng sơ tán, thoát hiểm an toàn, kiểm tra máy báo khói, và chú ý an toàn phòng cháy chữa cháy hơn.",
+      "example": "갑자기 불이 나서 당황했지만 서둘러 대피해서 무사히 살아남았고, 화재경보기를 점검하며 소방 안전에 더 신경 쓰게 되었어요.",
+      "note": "Mục 11.9 mở rộng round 16 — dạng tình huống khẩn cấp nghiêm trọng. 대피 (đãi tị) chứa chữ 避 (tị) liên quan đến 避難/tị nạn tiếng Nhật nhưng ghép khác. 무사 (vô sự) khớp tốt với 'an toàn/sống sót'. Mở rộng round 9 — thêm 'kiểm tra máy báo khói' và 'chú ý an toàn phòng cháy hơn', bài học phòng ngừa rút ra sau sự cố hỏa hoạn."
     },
     {
       "id": "ko-scenario-roller-coaster-first-time",
       "kind": "scenario-chain",
-      "titleVn": "Lần đầu ngồi tàu lượn siêu tốc, sợ hãi mà kích thích",
+      "titleVn": "Lần đầu ngồi tàu lượn siêu tốc, sợ hãi mà kích thích, muốn chơi lại lần nữa và đã vượt qua nỗi sợ",
       "nodes": [
         {
           "headword": "처음으로 롤러코스터를 타다",
@@ -4050,16 +4610,30 @@
           "hanViet": null,
           "meaningVn": "thật sự kích thích, hồi hộp",
           "pos": "adjective"
+        },
+        {
+          "headword": "또 타고 싶어지다",
+          "reading": "tto tago sipeojida",
+          "hanViet": null,
+          "meaningVn": "lại muốn được ngồi thêm lần nữa",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "두려움을 극복하다",
+          "reading": "duryeoumeul geukbokhada",
+          "hanViet": "khắc phục",
+          "meaningVn": "vượt qua nỗi sợ hãi",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Lần đầu tiên tôi ngồi tàu lượn siêu tốc, vô cùng sợ hãi, hét liên tục, nhưng cảm thấy rất kích thích.",
-      "example": "처음으로 롤러코스터를 타서 너무 무서웠어요. 계속 소리를 지르면서 정말 짜릿했어요.",
-      "note": "Mục 11.9 mở rộng round 16 — dạng giải trí/cảm giác mạnh. 롤러코스터 mượn trực tiếp từ tiếng Anh 'roller coaster', khác cách gọi tự sáng tạo ジェットコースター ('jet coaster') bên tiếng Nhật. 짜릿하다 là từ thuần Hàn đặc trưng diễn tả cảm giác mạnh/hồi hộp thích thú, không có Hán Việt tương đương."
+      "exampleVn": "Lần đầu ngồi tàu lượn siêu tốc, rất sợ hãi, la hét liên tục, cảm thấy rất kích thích, muốn được chơi lại lần nữa, và đã vượt qua được nỗi sợ hãi.",
+      "example": "처음으로 롤러코스터를 타서 너무 무서웠지만 계속 소리를 지르고 정말 짜릿했고, 또 타고 싶어지면서 두려움을 극복했어요.",
+      "note": "Mục 11.9 mở rộng round 16 — dạng giải trí/cảm giác mạnh. 롤러코스터 mượn trực tiếp từ tiếng Anh 'roller coaster', khác cách gọi tự sáng tạo ジェットコースター ('jet coaster') bên tiếng Nhật. 짜릿하다 là từ thuần Hàn đặc trưng diễn tả cảm giác mạnh/hồi hộp thích thú, không có Hán Việt tương đương. Mở rộng round 10 — thêm 'muốn chơi lại' và 'vượt qua nỗi sợ', kết quả tâm lý tích cực sau trải nghiệm mạo hiểm đầu tiên."
     },
     {
       "id": "ko-scenario-new-glasses-adjust",
       "kind": "scenario-chain",
-      "titleVn": "Đeo kính mới, khó chịu rồi dần quen",
+      "titleVn": "Đeo kính mới, khó chịu rồi dần quen, nhìn mọi thứ rõ hơn và không thể rời xa kính nữa",
       "nodes": [
         {
           "headword": "새 안경을 맞추다",
@@ -4088,16 +4662,30 @@
           "hanViet": "thích ứng",
           "meaningVn": "dần dần thích nghi",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "물건이 더 선명하게 보이다",
+          "reading": "mulgeoni deo seonmyeonghage boida",
+          "hanViet": "tiên minh",
+          "meaningVn": "nhìn mọi thứ rõ ràng hơn",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "안경을 손에서 놓을 수 없게 되다",
+          "reading": "angyeongeul soneseo noeul su eopge doeda",
+          "hanViet": null,
+          "meaningVn": "không thể rời xa cặp kính được nữa",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Tôi làm kính mới, lúc đầu rất không quen, bị chóng mặt, dần dần thích nghi.",
-      "example": "새 안경을 맞췄는데 처음에는 어색하고 어지러웠지만 점점 적응했어요.",
-      "note": "Mục 11.9 mở rộng round 17 — dạng sinh hoạt/thích nghi cơ thể. 안경 (nhãn kính) khớp hoàn hảo, giống hệt 眼镜/眼鏡 ở ZH/JA."
+      "exampleVn": "Đeo kính mới, ban đầu rất không quen, chóng mặt, dần dần thích nghi, nhìn mọi thứ rõ ràng hơn, và không thể rời xa cặp kính được nữa.",
+      "example": "새 안경을 맞췄는데 처음에는 어색하고 어지러웠지만 점점 적응했고, 물건이 더 선명하게 보이면서 안경을 손에서 놓을 수 없게 되었어요.",
+      "note": "Mục 11.9 mở rộng round 17 — dạng sinh hoạt/thích nghi cơ thể. 안경 (nhãn kính) khớp hoàn hảo, giống hệt 眼镜/眼鏡 ở ZH/JA. Mở rộng round 10 — thêm 'nhìn rõ hơn' và 'không thể rời xa kính', kết quả tích cực lâu dài sau giai đoạn thích nghi với kính mới."
     },
     {
       "id": "ko-scenario-adopt-child",
       "kind": "scenario-chain",
-      "titleVn": "Nhận con nuôi, chờ đợi dài lâu rồi thành một gia đình",
+      "titleVn": "Nhận con nuôi, chờ đợi dài lâu rồi thành một gia đình, đồng hành cùng con trưởng thành và cảm nhận tình yêu vô điều kiện",
       "nodes": [
         {
           "headword": "아이를 입양하기로 결정하다",
@@ -4126,16 +4714,30 @@
           "hanViet": "gia tộc",
           "meaningVn": "trở thành gia đình thực sự",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "아이가 자라는 것을 지켜보다",
+          "reading": "aiga jaraneun geoseul jikyeoboda",
+          "hanViet": null,
+          "meaningVn": "dõi theo con trưởng thành",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "무조건적인 사랑을 느끼다",
+          "reading": "mujogeonjeogin sarangeul neukkida",
+          "hanViet": "vô điều kiện",
+          "meaningVn": "cảm nhận được tình yêu vô điều kiện",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Tôi quyết định nhận con nuôi, trải qua thời gian chờ đợi dài đằng đẵng, lần đầu gặp mặt, chúng tôi trở thành một gia đình.",
-      "example": "아이를 입양하기로 결정하고 긴 기다림을 겪은 후 처음 만나서 진짜 가족이 되었어요.",
-      "note": "Mục 11.9 mở rộng round 17 — dạng gia đình/nhận nuôi con. 입양 (nhập dưỡng) tái dùng từ ko-scenario-adopt-new-pet, ở đây áp dụng cho con người. 가족 (gia tộc) tiếp tục khớp sạch, khác 一家人 (chứa false-friend 家人) bên tiếng Trung."
+      "exampleVn": "Quyết định nhận con nuôi, trải qua thời gian chờ đợi dài, gặp mặt lần đầu, trở thành một gia đình, đồng hành cùng con trưởng thành, và cảm nhận được tình yêu vô điều kiện.",
+      "example": "아이를 입양하기로 결정해서 긴 기다림을 겪고 처음 만나 진짜 가족이 되었고, 아이가 자라는 것을 지켜보며 무조건적인 사랑을 느꼈어요.",
+      "note": "Mục 11.9 mở rộng round 17 — dạng gia đình/nhận nuôi con. 입양 (nhập dưỡng) tái dùng từ ko-scenario-adopt-new-pet, ở đây áp dụng cho con người. 가족 (gia tộc) tiếp tục khớp sạch, khác 一家人 (chứa false-friend 家人) bên tiếng Trung. Mở rộng round 11 — thêm 'đồng hành cùng con trưởng thành' và 'tình yêu vô điều kiện', khép lại mạch chuyện nhận con nuôi bằng hành trình làm cha mẹ lâu dài."
     },
     {
       "id": "ko-scenario-learn-calligraphy",
       "kind": "scenario-chain",
-      "titleVn": "Học thư pháp, tay run rồi viết được tác phẩm ưng ý",
+      "titleVn": "Học thư pháp, tay run rồi viết được tác phẩm ưng ý, mang đi đóng khung và trở thành một sở thích",
       "nodes": [
         {
           "headword": "서예를 배우다",
@@ -4164,16 +4766,30 @@
           "hanViet": "mãn túc tác phẩm",
           "meaningVn": "viết ra tác phẩm ưng ý",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "액자에 넣어 걸어 놓다",
+          "reading": "aekjae neoeo georeo nota",
+          "hanViet": "ngạch tử",
+          "meaningVn": "cho vào khung treo lên",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "취미 중 하나가 되다",
+          "reading": "chwimi jung hanaga doeda",
+          "hanViet": "thú vị",
+          "meaningVn": "trở thành một trong những sở thích",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Tôi học thư pháp, tay run mãi, luyện tập đi luyện tập lại, cuối cùng viết ra được tác phẩm ưng ý.",
-      "example": "서예를 배웠는데 손이 떨렸지만 계속 연습해서 만족스러운 작품을 썼어요.",
-      "note": "Mục 11.9 mở rộng round 17 — dạng nghệ thuật truyền thống. 서예 (thư nghệ, 書藝, 'nghệ thuật viết chữ') là cách gọi đặc trưng riêng của tiếng Hàn, khác 书法(thư pháp) tiếng Trung và 書道(thư đạo) tiếng Nhật — hoàn tất bộ so sánh 3 từ Hán khác nhau cho cùng 1 nghệ thuật, xem đầy đủ ở zh-scenario-learn-calligraphy."
+      "exampleVn": "Học thư pháp, tay cứ run mãi, luyện tập nhiều lần, viết ra được tác phẩm ưng ý, mang đi đóng khung, và trở thành một trong những sở thích của tôi.",
+      "example": "서예를 배우면서 손이 떨렸지만 계속 연습해서 만족스러운 작품을 썼고, 액자에 넣어 걸어 놓으며 취미 중 하나가 되었어요.",
+      "note": "Mục 11.9 mở rộng round 17 — dạng nghệ thuật truyền thống. 서예 (thư nghệ, 書藝, 'nghệ thuật viết chữ') là cách gọi đặc trưng riêng của tiếng Hàn, khác 书法(thư pháp) tiếng Trung và 書道(thư đạo) tiếng Nhật — hoàn tất bộ so sánh 3 từ Hán khác nhau cho cùng 1 nghệ thuật, xem đầy đủ ở zh-scenario-learn-calligraphy. Mở rộng round 10 — thêm 'đóng khung tác phẩm' và 'trở thành sở thích', kết quả lâu dài của quá trình kiên trì luyện tập thư pháp."
     },
     {
       "id": "ko-scenario-food-allergy-discover",
       "kind": "scenario-chain",
-      "titleVn": "Phát hiện dị ứng hải sản, kiểm tra rồi học cách phòng tránh",
+      "titleVn": "Phát hiện dị ứng hải sản, kiểm tra rồi học cách phòng tránh, luôn mang theo thuốc và học cách đọc thành phần thực phẩm",
       "nodes": [
         {
           "headword": "해산물 알레르기를 발견하다",
@@ -4202,16 +4818,30 @@
           "hanViet": null,
           "meaningVn": "học cách tránh dị ứng",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "약을 항상 챙기다",
+          "reading": "yageul hangsang chaenggida",
+          "hanViet": null,
+          "meaningVn": "luôn mang theo thuốc bên mình",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "식품 성분표를 확인하는 습관을 들이다",
+          "reading": "sikpum seongbunpyoreul hwaginhaneun seupgwaneul deurida",
+          "hanViet": "thành phần biểu",
+          "meaningVn": "hình thành thói quen kiểm tra bảng thành phần thực phẩm",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Tôi phát hiện mình dị ứng hải sản, da nổi mẩn đỏ, đi bệnh viện kiểm tra, học cách tránh nguồn gây dị ứng.",
-      "example": "해산물 알레르기를 발견했는데 피부에 발진이 나서 병원에서 검사를 받고 알레르기를 피하는 법을 배웠어요.",
-      "note": "Mục 11.9 mở rộng round 17 — dạng y tế/sức khỏe cá nhân. 알레르기 mượn từ tiếng Đức 'Allergie', giống tiếng Nhật, khác 过敏/quá mẫn tiếng Trung. 발견(phát hiện)/피부(bì phu)/검사(kiểm tra) khớp hoàn hảo."
+      "exampleVn": "Phát hiện dị ứng hải sản, da nổi mẩn đỏ, đi khám bệnh viện, học cách tránh nguồn gây dị ứng, luôn mang theo thuốc bên mình, và học cách đọc bảng thành phần thực phẩm.",
+      "example": "해산물 알레르기를 발견해서 피부에 발진이 났고 병원에서 검사를 받아 알레르기를 피하는 법을 배웠고, 약을 항상 챙기며 식품 성분표를 확인하는 습관을 들였어요.",
+      "note": "Mục 11.9 mở rộng round 17 — dạng y tế/sức khỏe cá nhân. 알레르기 mượn từ tiếng Đức 'Allergie', giống tiếng Nhật, khác 过敏/quá mẫn tiếng Trung. 발견(phát hiện)/피부(bì phu)/검사(kiểm tra) khớp hoàn hảo. Mở rộng round 11 — thêm 'mang theo thuốc' và 'đọc thành phần thực phẩm', 2 thói quen phòng tránh thiết thực sau khi phát hiện dị ứng."
     },
     {
       "id": "ko-scenario-estranged-family-reconcile",
       "kind": "scenario-chain",
-      "titleVn": "Người thân xa cách lâu năm, chủ động hàn gắn tình cảm",
+      "titleVn": "Người thân xa cách lâu năm, chủ động hàn gắn tình cảm, cùng ăn cơm ôn lại chuyện xưa và duy trì liên lạc thường xuyên",
       "nodes": [
         {
           "headword": "몇 년 동안 연락하지 않은 친척",
@@ -4240,16 +4870,30 @@
           "hanViet": "quan hệ",
           "meaningVn": "xây dựng lại mối quan hệ",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "같이 밥을 먹으며 옛날 이야기를 하다",
+          "reading": "gachi babeul meogeumyeo yennal iyagireul hada",
+          "hanViet": null,
+          "meaningVn": "cùng nhau ăn cơm và ôn lại chuyện xưa",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "정기적으로 연락을 주고받다",
+          "reading": "jeonggijeogeuro yeonnageul jugobatda",
+          "hanViet": "định kỳ",
+          "meaningVn": "duy trì liên lạc định kỳ với nhau",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Người họ hàng nhiều năm không liên lạc, tôi chủ động liên lạc, bỏ qua mâu thuẫn trong quá khứ, xây dựng lại tình cảm.",
-      "example": "몇 년 동안 연락하지 않은 친척에게 먼저 연락해서 과거의 갈등을 내려놓고 다시 관계를 쌓았어요.",
-      "note": "Mục 11.9 mở rộng round 17 — dạng gia đình mở rộng/hàn gắn. 연락 (liên lạc) khớp hoàn hảo, giống hệt 連絡 tiếng Nhật. ĐIỂM THÚ VỊ: 갈등 (cát đằng, 葛藤, nghĩa đen 'dây sắn quấn dây leo') là ẩn dụ Hán Việt cổ cho 'mâu thuẫn, xung đột' — hình ảnh dây leo rối rắm quấn vào nhau, một cách diễn đạt hình tượng đẹp vẫn còn dùng trong văn viết tiếng Việt."
+      "exampleVn": "Người thân nhiều năm không liên lạc, chủ động liên hệ, buông bỏ mâu thuẫn trong quá khứ, xây dựng lại tình cảm, cùng nhau ăn cơm ôn lại chuyện xưa, và duy trì liên lạc định kỳ.",
+      "example": "몇 년 동안 연락하지 않은 친척에게 먼저 연락해서 과거의 갈등을 내려놓고 다시 관계를 쌓았고, 같이 밥을 먹으며 옛날 이야기를 하고 정기적으로 연락을 주고받게 되었어요.",
+      "note": "Mục 11.9 mở rộng round 17 — dạng gia đình mở rộng/hàn gắn. 연락 (liên lạc) khớp hoàn hảo, giống hệt 連絡 tiếng Nhật. ĐIỂM THÚ VỊ: 갈등 (cát đằng, 葛藤, nghĩa đen 'dây sắn quấn dây leo') là ẩn dụ Hán Việt cổ cho 'mâu thuẫn, xung đột' — hình ảnh dây leo rối rắm quấn vào nhau, một cách diễn đạt hình tượng đẹp vẫn còn dùng trong văn viết tiếng Việt. Mở rộng round 11 — thêm 'ôn lại chuyện xưa' và 'duy trì liên lạc', kết quả bền vững của việc hàn gắn tình cảm gia đình."
     },
     {
       "id": "ko-scenario-foreign-language-presentation",
       "kind": "scenario-chain",
-      "titleVn": "Thuyết trình bằng ngoại ngữ, lo lắng rồi hoàn thành suôn sẻ",
+      "titleVn": "Thuyết trình bằng ngoại ngữ, lo lắng rồi hoàn thành suôn sẻ, nhận được tràng vỗ tay và tự tin hơn khi nói ngoại ngữ",
       "nodes": [
         {
           "headword": "외국어로 발표하다",
@@ -4278,16 +4922,30 @@
           "hanViet": "thành công phát biểu",
           "meaningVn": "hoàn thành bài thuyết trình thành công",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "청중의 박수를 받다",
+          "reading": "cheongjungui baksureul batda",
+          "hanViet": "thính chúng, phách thủ",
+          "meaningVn": "nhận được tràng pháo tay của khán giả",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "외국어로 말하는 데 더 자신감이 생기다",
+          "reading": "oegugeoro malhaneun de deo jasingami saengida",
+          "hanViet": "tự tín cảm",
+          "meaningVn": "tự tin hơn khi nói ngoại ngữ",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Tôi thuyết trình bằng ngoại ngữ, lo lắng nói sai, luyện tập phát âm nhiều lần, hoàn thành bài thuyết trình suôn sẻ.",
-      "example": "외국어로 발표하면서 실수할까 봐 걱정됐는데 발음을 반복해서 연습해서 성공적으로 발표를 마쳤어요.",
-      "note": "Mục 11.9 mở rộng round 17 — dạng học ngoại ngữ/thuyết trình. Tái dùng 실수 (thất thủ, false-friend đã ghi ở round 16) đúng ngữ cảnh tự nhiên nhất — 'lo mắc lỗi nhỏ khi nói ngoại ngữ', củng cố bài học về false-friend này. 발음 (phát âm) khớp hoàn hảo."
+      "exampleVn": "Thuyết trình bằng ngoại ngữ, lo lắng sẽ nói sai, luyện tập phát âm nhiều lần, hoàn thành bài thuyết trình suôn sẻ, nhận được tràng pháo tay của khán giả, và tự tin hơn khi nói ngoại ngữ.",
+      "example": "외국어로 발표하면서 실수할까 봐 걱정됐지만 발음을 반복해서 연습해서 성공적으로 발표를 마쳤고, 청중의 박수를 받으며 외국어로 말하는 데 더 자신감이 생겼어요.",
+      "note": "Mục 11.9 mở rộng round 17 — dạng học ngoại ngữ/thuyết trình. Tái dùng 실수 (thất thủ, false-friend đã ghi ở round 16) đúng ngữ cảnh tự nhiên nhất — 'lo mắc lỗi nhỏ khi nói ngoại ngữ', củng cố bài học về false-friend này. 발음 (phát âm) khớp hoàn hảo. Mở rộng round 10 — thêm 'nhận tràng pháo tay' và 'tự tin hơn khi nói ngoại ngữ', kết quả tích cực sau khi vượt qua nỗi lo lắng thuyết trình."
     },
     {
       "id": "ko-scenario-volunteer-abroad",
       "kind": "scenario-chain",
-      "titleVn": "Tình nguyện ở nước ngoài, khác biệt văn hóa rồi học được nhiều",
+      "titleVn": "Tình nguyện ở nước ngoài, khác biệt văn hóa rồi học được nhiều, kết bạn với người bản địa và mở mang tầm nhìn",
       "nodes": [
         {
           "headword": "해외에서 봉사활동을 하다",
@@ -4316,16 +4974,30 @@
           "hanViet": null,
           "meaningVn": "học được nhiều",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "현지 친구를 사귀다",
+          "reading": "hyeonji chingureul sagwida",
+          "hanViet": "hiện địa",
+          "meaningVn": "kết được bạn bè bản địa",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "시야가 넓어지다",
+          "reading": "siyaga neolbeojida",
+          "hanViet": "thị dã",
+          "meaningVn": "tầm nhìn được mở rộng",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Tôi đi nước ngoài làm tình nguyện viên, khác biệt văn hóa rất lớn, nỗ lực thích nghi, học được rất nhiều.",
-      "example": "해외에서 봉사활동을 하면서 문화 차이가 커서 적응하려고 노력했어요. 많이 배웠어요.",
-      "note": "Mục 11.9 mở rộng round 18 — dạng tình nguyện quốc tế, bổ sung ko-scenario-volunteer-work. 해외 (hải ngoại) khớp hoàn hảo với 海外 tiếng Nhật, khác 国外 tiếng Trung."
+      "exampleVn": "Đi làm tình nguyện ở nước ngoài, khác biệt văn hóa rất lớn, nỗ lực thích nghi, học được nhiều điều, kết được bạn bè bản địa, và tầm nhìn được mở rộng.",
+      "example": "해외에서 봉사활동을 하면서 문화 차이가 컸지만 적응하려고 노력해서 많이 배웠고, 현지 친구를 사귀며 시야가 넓어졌어요.",
+      "note": "Mục 11.9 mở rộng round 18 — dạng tình nguyện quốc tế, bổ sung ko-scenario-volunteer-work. 해외 (hải ngoại) khớp hoàn hảo với 海外 tiếng Nhật, khác 国外 tiếng Trung. Mở rộng round 11 — thêm 'kết bạn bản địa' và 'mở mang tầm nhìn', thành quả lâu dài của trải nghiệm tình nguyện ở nước ngoài."
     },
     {
       "id": "ko-scenario-own-surgery-recovery",
       "kind": "scenario-chain",
-      "titleVn": "Tự mình phẫu thuật, đau đớn rồi dần hồi phục",
+      "titleVn": "Tự mình phẫu thuật, đau đớn rồi dần hồi phục, tái khám đúng hẹn và càng trân trọng sức khỏe hơn",
       "nodes": [
         {
           "headword": "내가 직접 수술을 받다",
@@ -4354,16 +5026,30 @@
           "hanViet": "hồi phục",
           "meaningVn": "dần dần hồi phục",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "제때 재검진을 받다",
+          "reading": "jettae jaegeomjineul batda",
+          "hanViet": "tái kiểm chẩn",
+          "meaningVn": "tái khám đúng hẹn",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "건강의 소중함을 느끼다",
+          "reading": "geongangui sojunghameul neukkida",
+          "hanViet": "kiện khang",
+          "meaningVn": "cảm nhận được sự quý giá của sức khỏe",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Tôi tự mình trải qua phẫu thuật, trước đó rất hồi hộp, sau phẫu thuật rất đau, dần dần hồi phục sức khỏe.",
-      "example": "내가 직접 수술을 받았는데 수술 전에 너무 긴장됐고 수술 후에 아팠어요. 점점 회복했어요.",
-      "note": "Mục 11.9 mở rộng round 18 — góc nhìn ĐỐI LẬP với ko-scenario-loved-one-surgery-wait. 수술 (thủ thuật) tái dùng nhất quán."
+      "exampleVn": "Tự mình phẫu thuật, trước mổ rất căng thẳng, sau mổ rất đau, dần dần hồi phục sức khỏe, tái khám đúng hẹn, và càng trân trọng sức khỏe hơn.",
+      "example": "내가 직접 수술을 받아서 수술 전에 너무 긴장되고 수술 후에 아팠지만 점점 회복했고, 제때 재검진을 받으며 건강의 소중함을 느꼈어요.",
+      "note": "Mục 11.9 mở rộng round 18 — góc nhìn ĐỐI LẬP với ko-scenario-loved-one-surgery-wait. 수술 (thủ thuật) tái dùng nhất quán. Mở rộng round 11 — thêm 'tái khám đúng hẹn' và 'trân trọng sức khỏe', bài học nhận thức sâu sắc sau trải nghiệm phẫu thuật."
     },
     {
       "id": "ko-scenario-elderly-anniversary",
       "kind": "scenario-chain",
-      "titleVn": "Kỷ niệm ngày cưới của ông bà, tình cảm vẫn sâu đậm",
+      "titleVn": "Kỷ niệm ngày cưới của ông bà, tình cảm vẫn sâu đậm, cả nhà cùng chụp ảnh và truyền lại quan niệm hôn nhân tốt đẹp",
       "nodes": [
         {
           "headword": "할아버지 할머니의 결혼기념일",
@@ -4392,16 +5078,30 @@
           "hanViet": null,
           "meaningVn": "đến bây giờ vẫn tình cảm tốt",
           "pos": "adjective"
+        },
+        {
+          "headword": "온 가족이 함께 사진을 찍다",
+          "reading": "on gajogi hamkke sajineul jjikda",
+          "hanViet": null,
+          "meaningVn": "cả gia đình cùng nhau chụp ảnh",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "아름다운 결혼관을 물려받다",
+          "reading": "areumdaun gyeolhon-gwaneul mullyeobatda",
+          "hanViet": "hôn nhân quan",
+          "meaningVn": "kế thừa quan niệm hôn nhân đẹp đẽ",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Kỷ niệm ngày cưới của ông bà, cả nhà cùng nhau chúc mừng, ông bà kể lại câu chuyện năm xưa, tình cảm vẫn sâu đậm.",
-      "example": "할아버지 할머니의 결혼기념일에 다 같이 축하하고 옛날 이야기를 했어요. 지금도 사이가 좋으세요.",
-      "note": "Mục 11.9 mở rộng round 18 — dạng gia đình nhiều thế hệ/tình yêu bền lâu. 결혼기념일 (kết hôn kỷ niệm nhật) khớp hoàn hảo với tiếng Trung. 축하 (chúc hạ, 祝賀) là cách ghép khác cho 'chúc mừng', khác 庆祝/khánh chúc tiếng Trung (bị đảo ngược thứ tự khi vào tiếng Việt)."
+      "exampleVn": "Ngày kỷ niệm cưới của ông bà, cùng nhau chúc mừng, kể lại chuyện năm xưa, tình cảm vẫn sâu đậm, cả nhà cùng nhau chụp ảnh, và truyền lại quan niệm hôn nhân tốt đẹp.",
+      "example": "할아버지 할머니의 결혼기념일에 다 같이 축하하고 옛날 이야기를 하며 지금도 사이가 좋고, 온 가족이 함께 사진을 찍으며 아름다운 결혼관을 물려받았어요.",
+      "note": "Mục 11.9 mở rộng round 18 — dạng gia đình nhiều thế hệ/tình yêu bền lâu. 결혼기념일 (kết hôn kỷ niệm nhật) khớp hoàn hảo với tiếng Trung. 축하 (chúc hạ, 祝賀) là cách ghép khác cho 'chúc mừng', khác 庆祝/khánh chúc tiếng Trung (bị đảo ngược thứ tự khi vào tiếng Việt). Mở rộng round 12 — thêm 'cả nhà chụp ảnh' và 'truyền lại quan niệm hôn nhân', giá trị được lưu truyền qua các thế hệ từ dịp kỷ niệm."
     },
     {
       "id": "ko-scenario-hidden-talent-discover",
       "kind": "scenario-chain",
-      "titleVn": "Tình cờ phát hiện tài năng, dũng cảm thử sức rồi tìm thấy hướng đi",
+      "titleVn": "Tình cờ phát hiện tài năng, dũng cảm thử sức rồi tìm thấy hướng đi, đăng ký khóa học chuyên nghiệp và dần đạt được thành tựu",
       "nodes": [
         {
           "headword": "우연히 자신의 재능을 발견하다",
@@ -4430,16 +5130,30 @@
           "hanViet": "nhân sinh phương hướng",
           "meaningVn": "tìm được hướng đi cuộc đời",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "전문 과정에 등록하다",
+          "reading": "jeonmun gwajeonge deungnokhada",
+          "hanViet": "chuyên môn, đăng lục",
+          "meaningVn": "đăng ký khóa học chuyên môn",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "점점 성과를 이루다",
+          "reading": "jeomjeom seonggwareul iruda",
+          "hanViet": "thành quả",
+          "meaningVn": "dần dần đạt được thành quả",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Tôi tình cờ phát hiện tài năng của bản thân, lúc đầu không tin, dũng cảm thử sức, tìm được hướng đi cho cuộc đời.",
-      "example": "우연히 자신의 재능을 발견했는데 처음에는 믿기지 않았지만 용기를 내서 도전해서 인생의 방향을 찾았어요.",
-      "note": "Mục 11.9 mở rộng round 18 — dạng khám phá bản thân/định hướng cuộc đời. 재능(tài năng)/인생(nhân sinh)/방향(phương hướng) khớp hoàn hảo. 용기(dũng khí)/도전(khiêu chiến) khớp hoàn hảo, giống hệt 勇気/挑戦 tiếng Nhật."
+      "exampleVn": "Tình cờ phát hiện tài năng của mình, ban đầu không tin, dũng cảm thử sức, tìm được hướng đi cho cuộc đời, đăng ký khóa học chuyên nghiệp, và dần dần đạt được thành tựu.",
+      "example": "우연히 자신의 재능을 발견해서 처음에는 믿기지 않았지만 용기를 내서 도전해 인생의 방향을 찾았고, 전문 과정에 등록하며 점점 성과를 이루었어요.",
+      "note": "Mục 11.9 mở rộng round 18 — dạng khám phá bản thân/định hướng cuộc đời. 재능(tài năng)/인생(nhân sinh)/방향(phương hướng) khớp hoàn hảo. 용기(dũng khí)/도전(khiêu chiến) khớp hoàn hảo, giống hệt 勇気/挑戦 tiếng Nhật. Mở rộng round 12 — thêm 'đăng ký khóa học chuyên nghiệp' và 'đạt được thành tựu', bước phát triển nghiêm túc sau khi phát hiện tài năng tiềm ẩn."
     },
     {
       "id": "ko-scenario-citizenship-test-pass",
       "kind": "scenario-chain",
-      "titleVn": "Thi nhập tịch, học lịch sử văn hóa rồi trở thành công dân",
+      "titleVn": "Thi nhập tịch, học lịch sử văn hóa rồi trở thành công dân, tham gia lễ tuyên thệ và có cảm giác thuộc về",
       "nodes": [
         {
           "headword": "귀화 시험을 준비하다",
@@ -4468,16 +5182,30 @@
           "hanViet": "thị dân",
           "meaningVn": "trở thành công dân",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "귀화 선서식에 참석하다",
+          "reading": "gwihwa seonseosige chamseokhada",
+          "hanViet": "quy hóa, tuyên thệ thức",
+          "meaningVn": "tham gia lễ tuyên thệ nhập tịch",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "소속감을 느끼게 되다",
+          "reading": "sosokgameul neukkige doeda",
+          "hanViet": "quy thuộc cảm",
+          "meaningVn": "cảm nhận được cảm giác thuộc về",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Tôi chuẩn bị thi nhập tịch, học lịch sử văn hóa, vượt qua thuận lợi, trở thành công dân.",
-      "example": "귀화 시험을 준비하면서 역사와 문화를 공부했어요. 무사히 합격해서 시민이 되었어요.",
-      "note": "Mục 11.9 mở rộng round 18 — dạng nhập cư/quốc tịch. Tái dùng 2 false-friend 시험(thí nghiệm)/공부(công phu) ĐÚNG NGỮ CẢNH thật (kỳ thi thật, hành động học thật), giống hệt tiếng Nhật. 귀화 (quy hóa) khớp với 帰化 tiếng Nhật. 시민 (thị dân) khớp với 市民 tiếng Nhật."
+      "exampleVn": "Chuẩn bị thi nhập tịch, học lịch sử văn hóa, thi đỗ thuận lợi, trở thành công dân, tham gia lễ tuyên thệ nhập tịch, và có được cảm giác thuộc về.",
+      "example": "귀화 시험을 준비하며 역사와 문화를 공부해서 무사히 합격하고 시민이 되었고, 귀화 선서식에 참석하며 소속감을 느끼게 되었어요.",
+      "note": "Mục 11.9 mở rộng round 18 — dạng nhập cư/quốc tịch. Tái dùng 2 false-friend 시험(thí nghiệm)/공부(công phu) ĐÚNG NGỮ CẢNH thật (kỳ thi thật, hành động học thật), giống hệt tiếng Nhật. 귀화 (quy hóa) khớp với 帰化 tiếng Nhật. 시민 (thị dân) khớp với 市民 tiếng Nhật. Mở rộng round 12 — thêm 'lễ tuyên thệ nhập tịch' và 'cảm giác thuộc về', bước hoàn tất cảm xúc của hành trình trở thành công dân mới."
     },
     {
       "id": "ko-scenario-start-therapy",
       "kind": "scenario-chain",
-      "titleVn": "Bắt đầu trị liệu tâm lý, khó mở lời rồi cải thiện dần",
+      "titleVn": "Bắt đầu trị liệu tâm lý, khó mở lời rồi cải thiện dần, học cách điều chỉnh cảm xúc và chất lượng cuộc sống được nâng cao",
       "nodes": [
         {
           "headword": "상담을 받기로 결심하다",
@@ -4506,16 +5234,30 @@
           "hanViet": "trạng thái",
           "meaningVn": "trạng thái tâm lý tốt lên",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "감정을 조절하는 법을 배우다",
+          "reading": "gamjeongeul jojeolhaneun beobeul baeuda",
+          "hanViet": "cảm tình, điều tiết",
+          "meaningVn": "học cách điều chỉnh cảm xúc",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "삶의 질이 높아지다",
+          "reading": "salmui jiri nopajida",
+          "hanViet": null,
+          "meaningVn": "chất lượng cuộc sống được nâng cao",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Tôi quyết định đi gặp bác sĩ tâm lý, lúc đầu rất khó mở lời, dần dần mở lòng, trạng thái tâm lý cải thiện.",
-      "example": "상담을 받기로 결심했는데 처음에는 말을 꺼내기 어려웠지만 조금씩 마음을 열어서 마음 상태가 좋아졌어요.",
-      "note": "Mục 11.9 mở rộng round 18 — dạng sức khỏe tinh thần/trị liệu. 상담 để null vì không chắc chắn giữa gốc 相談(tương đàm) hay cách đọc khác, không tự tin suy đoán chuẩn xác. 상태 (trạng thái) khớp hoàn hảo. 마음을 열다 (mở lòng) diễn đạt tương tự 心を開く tiếng Nhật, cùng ẩn dụ khác cách với 心扉/tâm phi tiếng Trung."
+      "exampleVn": "Quyết định đi gặp bác sĩ tâm lý, ban đầu rất khó mở lời, dần dần mở lòng, trạng thái tâm lý được cải thiện, học được cách điều chỉnh cảm xúc, và chất lượng cuộc sống được nâng cao.",
+      "example": "상담을 받기로 결심했는데 처음에는 말을 꺼내기 어려웠지만 조금씩 마음을 열어 마음 상태가 좋아졌고, 감정을 조절하는 법을 배우며 삶의 질이 높아졌어요.",
+      "note": "Mục 11.9 mở rộng round 18 — dạng sức khỏe tinh thần/trị liệu. 상담 để null vì không chắc chắn giữa gốc 相談(tương đàm) hay cách đọc khác, không tự tin suy đoán chuẩn xác. 상태 (trạng thái) khớp hoàn hảo. 마음을 열다 (mở lòng) diễn đạt tương tự 心を開く tiếng Nhật, cùng ẩn dụ khác cách với 心扉/tâm phi tiếng Trung. Mở rộng round 12 — thêm 'điều chỉnh cảm xúc' và 'chất lượng cuộc sống', kết quả lâu dài tích cực của quá trình trị liệu tâm lý."
     },
     {
       "id": "ko-scenario-art-competition-win",
       "kind": "scenario-chain",
-      "titleVn": "Thi vẽ tranh, sửa đi sửa lại rồi bất ngờ đoạt giải",
+      "titleVn": "Thi vẽ tranh, sửa đi sửa lại rồi bất ngờ đoạt giải, tác phẩm được trưng bày và củng cố niềm tin sáng tác",
       "nodes": [
         {
           "headword": "그림 대회에 참가하다",
@@ -4544,16 +5286,30 @@
           "hanViet": null,
           "meaningVn": "vô cùng tự hào",
           "pos": "emotion"
+        },
+        {
+          "headword": "작품이 전시되다",
+          "reading": "jakpumi jeonsidoeda",
+          "hanViet": "tác phẩm, triển thị",
+          "meaningVn": "tác phẩm được đem đi trưng bày",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "창작에 대한 자신감이 굳어지다",
+          "reading": "changjage daehan jasingami gudeojida",
+          "hanViet": "sáng tác, tự tín cảm",
+          "meaningVn": "niềm tin vào sáng tác trở nên vững chắc hơn",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Tôi tham gia cuộc thi vẽ tranh, sửa đi sửa lại tác phẩm nhiều lần, bất ngờ đoạt giải, vô cùng tự hào.",
-      "example": "그림 대회에 참가해서 작품을 계속 수정했는데 뜻밖에 상을 받아서 정말 자랑스러웠어요.",
-      "note": "Mục 11.9 mở rộng round 19 — dạng nghệ thuật/thi cử. 수정 (tu chính) là từ Hán Việt thật, dùng trong ngữ cảnh trang trọng như 'tu chính án' — khớp tốt với 'sửa đổi, chỉnh sửa'. 상 (thưởng) khớp hoàn hảo."
+      "exampleVn": "Tham gia cuộc thi vẽ tranh, sửa đi sửa lại tác phẩm nhiều lần, bất ngờ đoạt giải, cảm thấy vô cùng tự hào, tác phẩm được đem đi trưng bày, và niềm tin vào việc sáng tác được củng cố vững chắc.",
+      "example": "그림 대회에 참가해서 작품을 계속 수정하다가 뜻밖에 상을 받아 정말 자랑스러웠고, 작품이 전시되며 창작에 대한 자신감이 굳어졌어요.",
+      "note": "Mục 11.9 mở rộng round 19 — dạng nghệ thuật/thi cử. 수정 (tu chính) là từ Hán Việt thật, dùng trong ngữ cảnh trang trọng như 'tu chính án' — khớp tốt với 'sửa đổi, chỉnh sửa'. 상 (thưởng) khớp hoàn hảo. Mở rộng round 12 — thêm 'tác phẩm được trưng bày' và 'củng cố niềm tin sáng tác', động lực lâu dài sau thành công bất ngờ trong cuộc thi."
     },
     {
       "id": "ko-scenario-learn-archery",
       "kind": "scenario-chain",
-      "titleVn": "Học bắn cung, cần kiên nhẫn rồi bắn trúng hồng tâm",
+      "titleVn": "Học bắn cung, cần kiên nhẫn rồi bắn trúng hồng tâm, tham gia thi đấu và giành được huy chương",
       "nodes": [
         {
           "headword": "양궁을 시작하다",
@@ -4582,16 +5338,30 @@
           "hanViet": "trung tâm",
           "meaningVn": "bắn trúng tâm bia",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "대회에 출전하다",
+          "reading": "daehoee chuljeonhada",
+          "hanViet": "đại hội, xuất chiến",
+          "meaningVn": "tham gia giải đấu",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "메달을 획득하다",
+          "reading": "medareul hoekdeukhada",
+          "hanViet": "hoạch đắc",
+          "meaningVn": "giành được huy chương",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Tôi bắt đầu học bắn cung, cần rất nhiều kiên nhẫn, kiên trì luyện tập, cuối cùng bắn trúng hồng tâm.",
-      "example": "양궁을 시작했는데 많은 인내심이 필요했지만 훈련을 계속해서 과녁 중심을 맞혔어요.",
-      "note": "Mục 11.9 mở rộng round 19 — dạng thể thao/kỷ luật. 양궁 (dương cung, 'cung phương Tây') là thuật ngữ chuẩn cho môn bắn cung Olympic. 훈련(huấn luyện)/중심(trung tâm) khớp hoàn hảo, giống hệt tiếng Nhật."
+      "exampleVn": "Bắt đầu học bắn cung, cần rất nhiều kiên nhẫn, kiên trì luyện tập, bắn trúng hồng tâm, tham gia thi đấu, và giành được huy chương.",
+      "example": "양궁을 시작해서 많은 인내심이 필요했지만 훈련을 계속해서 과녁 중심을 맞혔고, 대회에 출전해 메달을 획득했어요.",
+      "note": "Mục 11.9 mở rộng round 19 — dạng thể thao/kỷ luật. 양궁 (dương cung, 'cung phương Tây') là thuật ngữ chuẩn cho môn bắn cung Olympic. 훈련(huấn luyện)/중심(trung tâm) khớp hoàn hảo, giống hệt tiếng Nhật. Mở rộng round 13 — thêm 'tham gia thi đấu' và 'giành huy chương', thành quả cụ thể sau quá trình kiên trì luyện tập bắn cung."
     },
     {
       "id": "ko-scenario-old-family-photos-find",
       "kind": "scenario-chain",
-      "titleVn": "Tìm thấy ảnh cũ khi dọn đồ, gợi lại bao ký ức",
+      "titleVn": "Tìm thấy ảnh cũ khi dọn đồ, gợi lại bao ký ức, mang cho gia đình xem và quyết định giữ gìn cẩn thận",
       "nodes": [
         {
           "headword": "오래된 물건을 정리하다가",
@@ -4620,16 +5390,30 @@
           "hanViet": "cảm hoài",
           "meaningVn": "cảm khái sâu sắc",
           "pos": "adjective"
+        },
+        {
+          "headword": "가족에게 보여주다",
+          "reading": "gajogege boyeojuda",
+          "hanViet": null,
+          "meaningVn": "cho gia đình xem",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "소중히 보관하기로 하다",
+          "reading": "sojunghi bogwanhagiro hada",
+          "hanViet": "bảo quản",
+          "meaningVn": "quyết định bảo quản cẩn thận",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Khi dọn dẹp đồ cũ, tôi phát hiện những tấm ảnh cũ, gợi lại bao ký ức, cảm khái muôn vàn.",
-      "example": "오래된 물건을 정리하다가 옛날 사진을 발견했어요. 그리운 마음이 들고 감회가 깊었어요.",
-      "note": "Mục 11.9 mở rộng round 19 — dạng hoài niệm/gia đình. ĐIỂM THÚ VỊ: 감회 (cảm hoài, 感懷) khác chữ thứ 2 so với 感慨/cảm khái ở ZH/JA — cùng diễn tả 'cảm xúc sâu lắng khi hồi tưởng' nhưng chọn 懷(hoài, 'hoài niệm') thay vì 慨(khái, 'cảm khái'), một lựa chọn từ ghép riêng của tiếng Hàn."
+      "exampleVn": "Khi dọn đồ cũ, tìm thấy những bức ảnh cũ, gợi lại ký ức, cảm xúc dâng trào, mang cho gia đình xem, và quyết định giữ gìn cẩn thận.",
+      "example": "오래된 물건을 정리하다가 옛날 사진을 발견해서 그리운 마음이 들고 감회가 깊었고, 가족에게 보여주며 소중히 보관하기로 했어요.",
+      "note": "Mục 11.9 mở rộng round 19 — dạng hoài niệm/gia đình. ĐIỂM THÚ VỊ: 감회 (cảm hoài, 感懷) khác chữ thứ 2 so với 感慨/cảm khái ở ZH/JA — cùng diễn tả 'cảm xúc sâu lắng khi hồi tưởng' nhưng chọn 懷(hoài, 'hoài niệm') thay vì 慨(khái, 'cảm khái'), một lựa chọn từ ghép riêng của tiếng Hàn. Mở rộng round 13 — thêm 'cho gia đình xem' và 'giữ gìn cẩn thận', hành động lưu giữ giá trị tình cảm sau khi tìm lại kỷ niệm xưa."
     },
     {
       "id": "ko-scenario-fix-own-car",
       "kind": "scenario-chain",
-      "titleVn": "Tự sửa xe, tay lấm dầu mỡ rồi sửa thành công",
+      "titleVn": "Tự sửa xe, tay lấm dầu mỡ rồi sửa thành công, tiết kiệm được phí sửa chữa và hiểu rõ hơn về xe của mình",
       "nodes": [
         {
           "headword": "직접 차를 고치다",
@@ -4658,16 +5442,30 @@
           "hanViet": "vô sự",
           "meaningVn": "sửa thành công an toàn",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "수리비를 절약하다",
+          "reading": "surbireul jeoryakhada",
+          "hanViet": "tu lý phí, tiết ước",
+          "meaningVn": "tiết kiệm được tiền sửa chữa",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "자기 차에 대해 더 잘 알게 되다",
+          "reading": "jagi chae daehae deo jal algeda",
+          "hanViet": null,
+          "meaningVn": "hiểu rõ hơn về xe của mình",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Tôi tự mình sửa xe, lên mạng tra tài liệu, làm tay dính đầy dầu mỡ, cuối cùng sửa thành công.",
-      "example": "직접 차를 고치려고 인터넷으로 찾아보다가 손에 기름이 잔뜩 묻었어요. 무사히 고쳤어요.",
-      "note": "Mục 11.9 mở rộng round 19 — dạng lao động chân tay/kỹ năng thực dụng. 직접 (trực tiếp) khớp hoàn hảo. 인터넷 mượn trực tiếp từ tiếng Anh 'internet'."
+      "exampleVn": "Tự sửa xe, tra cứu trên mạng, tay dính đầy dầu mỡ, sửa thành công, tiết kiệm được một khoản phí sửa chữa, và hiểu rõ hơn về xe của mình.",
+      "example": "직접 차를 고치면서 인터넷으로 찾아보고 손에 기름이 잔뜩 묻었지만 무사히 고쳤고, 수리비를 절약하며 자기 차에 대해 더 잘 알게 되었어요.",
+      "note": "Mục 11.9 mở rộng round 19 — dạng lao động chân tay/kỹ năng thực dụng. 직접 (trực tiếp) khớp hoàn hảo. 인터넷 mượn trực tiếp từ tiếng Anh 'internet'. Mở rộng round 13 — thêm 'tiết kiệm chi phí' và 'hiểu rõ hơn về xe', lợi ích lâu dài của việc tự tay sửa chữa thành công."
     },
     {
       "id": "ko-scenario-difficult-roommate",
       "kind": "scenario-chain",
-      "titleVn": "Bạn cùng phòng khó ở chung, nói chuyện rồi hòa hợp hơn",
+      "titleVn": "Bạn cùng phòng khó ở chung, nói chuyện rồi hòa hợp hơn, cùng lập quy tắc sinh hoạt và trở thành bạn tốt",
       "nodes": [
         {
           "headword": "룸메이트와 잘 안 맞다",
@@ -4696,16 +5494,30 @@
           "hanViet": "quan hệ",
           "meaningVn": "mối quan hệ tốt lên",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "함께 생활 규칙을 정하다",
+          "reading": "hamkke saenghwal gyuchigeul jeonghada",
+          "hanViet": "sinh hoạt quy tắc",
+          "meaningVn": "cùng nhau đặt ra quy tắc sinh hoạt",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "좋은 친구가 되다",
+          "reading": "joeun chinguga doeda",
+          "hanViet": null,
+          "meaningVn": "trở thành bạn tốt",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Bạn cùng phòng rất khó ở chung, thường xuyên xảy ra xích mích, chúng tôi ngồi xuống nói chuyện đàng hoàng, mối quan hệ trở nên hòa hợp.",
-      "example": "룸메이트와 잘 안 맞아서 자주 다퉜는데 차분히 이야기해서 관계가 좋아졌어요.",
-      "note": "Mục 11.9 mở rộng round 19 — dạng sống chung/xung đột cá nhân. 룸메이트 mượn trực tiếp từ tiếng Anh 'roommate'. Toàn bộ động từ chính đều thuần Hàn."
+      "exampleVn": "Bạn cùng phòng khó ở chung, thường xuyên xảy ra mâu thuẫn, ngồi lại nói chuyện thẳng thắn, mối quan hệ trở nên hòa hợp, cùng nhau lập ra quy tắc sinh hoạt, và trở thành bạn bè tốt.",
+      "example": "룸메이트와 잘 안 맞아서 자주 다투었지만 차분히 이야기해서 관계가 좋아졌고, 함께 생활 규칙을 정하며 좋은 친구가 되었어요.",
+      "note": "Mục 11.9 mở rộng round 19 — dạng sống chung/xung đột cá nhân. 룸메이트 mượn trực tiếp từ tiếng Anh 'roommate'. Toàn bộ động từ chính đều thuần Hàn. Mở rộng round 13 — thêm 'lập quy tắc sinh hoạt chung' và 'trở thành bạn tốt', kết quả bền vững sau khi giải quyết xung đột với bạn cùng phòng."
     },
     {
       "id": "ko-scenario-scholarship-win",
       "kind": "scenario-chain",
-      "titleVn": "Nỗ lực xin học bổng, cuối cùng giành được đầy tự hào",
+      "titleVn": "Nỗ lực xin học bổng, cuối cùng giành được đầy tự hào, giảm bớt gánh nặng cho gia đình và càng nỗ lực học tập hơn",
       "nodes": [
         {
           "headword": "장학금을 열심히 신청하다",
@@ -4734,11 +5546,25 @@
           "hanViet": null,
           "meaningVn": "vô cùng tự hào",
           "pos": "emotion"
+        },
+        {
+          "headword": "가족의 부담을 덜다",
+          "reading": "gajogui budameul deolda",
+          "hanViet": "phụ đảm",
+          "meaningVn": "giảm bớt gánh nặng cho gia đình",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "더 열심히 공부하다",
+          "reading": "deo yeolsimhi gongbuhada",
+          "hanViet": null,
+          "meaningVn": "càng chăm chỉ học tập hơn",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Tôi nỗ lực xin học bổng, chuẩn bị hồ sơ, cuối cùng giành được học bổng, vô cùng tự hào.",
-      "example": "장학금을 열심히 신청하고 서류를 준비했어요. 드디어 장학금을 받아서 정말 자랑스러웠어요.",
-      "note": "Mục 11.9 mở rộng round 19 — dạng học tập/thành tựu. 장학금 (tưởng học kim) khớp hoàn hảo với 奨学金 tiếng Nhật — cả 2 cùng gốc 奨/獎(tưởng), khác cấu tạo 'học bổng' tiếng Việt. 서류 (thư loại) khớp với 書類 tiếng Nhật."
+      "exampleVn": "Nỗ lực xin học bổng, chuẩn bị hồ sơ, cuối cùng cũng nhận được học bổng, cảm thấy vô cùng tự hào, giảm bớt được gánh nặng cho gia đình, và càng nỗ lực học tập hơn.",
+      "example": "장학금을 열심히 신청해서 서류를 준비하고 드디어 장학금을 받아 정말 자랑스러웠고, 가족의 부담을 덜며 더 열심히 공부하게 되었어요.",
+      "note": "Mục 11.9 mở rộng round 19 — dạng học tập/thành tựu. 장학금 (tưởng học kim) khớp hoàn hảo với 奨学金 tiếng Nhật — cả 2 cùng gốc 奨/獎(tưởng), khác cấu tạo 'học bổng' tiếng Việt. 서류 (thư loại) khớp với 書類 tiếng Nhật. Mở rộng round 13 — thêm 'giảm gánh nặng gia đình' và 'nỗ lực học tập hơn', động lực tích cực lâu dài sau khi giành được học bổng."
     },
     {
       "id": "ko-scenario-first-time-voting",
@@ -4772,11 +5598,25 @@
           "hanViet": "thị dân nghĩa vụ",
           "meaningVn": "hoàn thành nghĩa vụ công dân",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "개표 결과를 기다리다",
+          "reading": "gaepyo gyeolgwareul gidarida",
+          "hanViet": "khai phiếu kết quả",
+          "meaningVn": "chờ đợi kết quả kiểm phiếu",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "민주주의에 참여한 것이 자랑스럽다",
+          "reading": "minjujuuie chamyeohan geosi jarangseureopda",
+          "hanViet": "dân chủ chủ nghĩa tham dự",
+          "meaningVn": "tự hào vì đã tham gia vào nền dân chủ",
+          "pos": "emotion"
         }
       ],
-      "exampleVn": "Lần đầu tiên tôi bỏ phiếu, nghiêm túc tìm hiểu các ứng cử viên, cảm thấy trách nhiệm nặng nề, thực hiện nghĩa vụ công dân.",
-      "example": "처음으로 투표하면서 후보자를 열심히 알아보고 책임감을 느끼며 시민의 의무를 다했어요.",
-      "note": "Mục 11.9 mở rộng round 20 — dạng công dân/chính trị. 투표(đầu phiếu)/의무(nghĩa vụ) khớp hoàn hảo. 후보자 (hậu bổ giả) khớp hoàn hảo với 候補者 tiếng Nhật, khác cấu tạo 候选人/hậu tuyển nhân tiếng Trung."
+      "exampleVn": "Lần đầu tiên tôi bỏ phiếu, nghiêm túc tìm hiểu các ứng cử viên, cảm thấy trách nhiệm nặng nề, thực hiện nghĩa vụ công dân, chờ đợi kết quả kiểm phiếu, và tự hào vì đã được tham gia vào nền dân chủ.",
+      "example": "처음으로 투표하면서 후보자를 열심히 알아보고 책임감을 느끼며 시민의 의무를 다했어요. 개표 결과를 기다리다가 민주주의에 참여한 것이 자랑스러웠어요.",
+      "note": "Mục 11.9 mở rộng round 20 — dạng công dân/chính trị. 투표(đầu phiếu)/의무(nghĩa vụ) khớp hoàn hảo. 후보자 (hậu bổ giả) khớp hoàn hảo với 候補者 tiếng Nhật, khác cấu tạo 候选人/hậu tuyển nhân tiếng Trung. [Round 14 mở rộng 4→6 bước]"
     },
     {
       "id": "ko-scenario-book-club-join",
@@ -4810,11 +5650,25 @@
           "hanViet": null,
           "meaningVn": "kết bạn hợp tính",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "정기적으로 토론에 참여하다",
+          "reading": "jeonggijeogeuro toron-e chamyeohada",
+          "hanViet": "định kỳ đích thảo luận tham dự",
+          "meaningVn": "định kỳ tham gia thảo luận",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "독서 범위가 넓어지다",
+          "reading": "dokseo beomwiga neolbeojida",
+          "hanViet": "độc thư phạm vi",
+          "meaningVn": "phạm vi đọc sách được mở rộng",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Tôi tham gia câu lạc bộ đọc sách, lúc đầu hơi ngại ngùng, chia sẻ cảm nhận đọc sách, kết được những người bạn cùng chí hướng.",
-      "example": "독서 모임에 가입해서 처음에는 부끄러웠지만 독서 감상을 나누고 마음이 맞는 친구를 사귀었어요.",
-      "note": "Mục 11.9 mở rộng round 20 — dạng sở thích/cộng đồng, bổ sung ko-scenario-community-garden. 가입 (gia nhập) khớp hoàn hảo với 加入 tiếng Trung. 감상 (cảm tưởng) khớp với 感想 tiếng Nhật."
+      "exampleVn": "Tôi tham gia câu lạc bộ đọc sách, lúc đầu hơi ngại ngùng, chia sẻ cảm nhận đọc sách, kết được những người bạn cùng chí hướng, định kỳ tham gia thảo luận, và phạm vi đọc sách của tôi trở nên rộng hơn.",
+      "example": "독서 모임에 가입해서 처음에는 부끄러웠지만 독서 감상을 나누고 마음이 맞는 친구를 사귀었어요. 정기적으로 토론에 참여하면서 독서 범위가 넓어졌어요.",
+      "note": "Mục 11.9 mở rộng round 20 — dạng sở thích/cộng đồng, bổ sung ko-scenario-community-garden. 가입 (gia nhập) khớp hoàn hảo với 加入 tiếng Trung. 감상 (cảm tưởng) khớp với 感想 tiếng Nhật. [Round 14 mở rộng 4→6 bước]"
     },
     {
       "id": "ko-scenario-pet-learn-trick",
@@ -4848,11 +5702,25 @@
           "hanViet": null,
           "meaningVn": "cuối cùng biết ngồi",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "더 어려운 재주에 도전하다",
+          "reading": "deo eoryeoun jaejue dojeonhada",
+          "hanViet": "khiêu chiến",
+          "meaningVn": "thử thách với trò khó hơn",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "주인과 강아지 사이의 신뢰가 깊어지다",
+          "reading": "juingwa gang-ajiui saiui sinnoega gipeojida",
+          "hanViet": "tín lại",
+          "meaningVn": "lòng tin giữa chủ và chó sâu sắc hơn",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Tôi dạy chó trò mới, lúc đầu không học được, dùng đồ ăn vặt để thưởng, cuối cùng nó học được cách ngồi xuống.",
-      "example": "강아지에게 새로운 재주를 가르쳤는데 좀처럼 배우지 못했어요. 간식으로 칭찬해서 드디어 앉을 수 있게 됐어요.",
-      "note": "Mục 11.9 mở rộng round 20 — dạng thú cưng/huấn luyện, bổ sung ko-scenario-adopt-new-pet. 간식 (gian thực, 'ăn giữa bữa') là cấu tạo hợp lý cho 'đồ ăn vặt'. 재주 là từ thuần Hàn cho 'tài khéo, kỹ năng'."
+      "exampleVn": "Tôi dạy chó trò mới, lúc đầu không học được, dùng đồ ăn vặt để thưởng, cuối cùng nó học được cách ngồi xuống, sau đó dạy nó trò khó hơn, và giữa tôi với chó xây dựng được lòng tin sâu sắc hơn.",
+      "example": "강아지에게 새로운 재주를 가르쳤는데 좀처럼 배우지 못했어요. 간식으로 칭찬해서 드디어 앉을 수 있게 됐어요. 더 어려운 재주에 도전하면서 주인과 강아지 사이의 신뢰가 깊어졌어요.",
+      "note": "Mục 11.9 mở rộng round 20 — dạng thú cưng/huấn luyện, bổ sung ko-scenario-adopt-new-pet. 간식 (gian thực, 'ăn giữa bữa') là cấu tạo hợp lý cho 'đồ ăn vặt'. 재주 là từ thuần Hàn cho 'tài khéo, kỹ năng'. [Round 14 mở rộng 4→6 bước]"
     },
     {
       "id": "ko-scenario-gardening-passion",
@@ -4886,11 +5754,25 @@
           "hanViet": null,
           "meaningVn": "cuối cùng hoa cũng nở",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "이웃을 초대해서 꽃을 보여주다",
+          "reading": "iuseul chodaehaeseo kkocheul boyeojuda",
+          "hanViet": "chiêu đãi",
+          "meaningVn": "mời hàng xóm đến ngắm hoa",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "정원 규모를 넓히기로 결심하다",
+          "reading": "jeongwon gyumoreul neopigiro gyeolsimhada",
+          "hanViet": "đình viên quy mô quyết tâm",
+          "meaningVn": "quyết tâm mở rộng quy mô khu vườn",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Tôi bắt đầu trồng hoa, mỗi ngày tưới nước bón phân, cần kiên nhẫn chờ đợi, cuối cùng hoa cũng nở.",
-      "example": "정원 가꾸기를 시작해서 매일 물을 줬어요. 인내심이 필요했지만 드디어 꽃이 폈어요.",
-      "note": "Mục 11.9 mở rộng round 20 — dạng sở thích/thiên nhiên, bổ sung ko-scenario-community-garden. 정원 (đình viên) tái dùng nhất quán."
+      "exampleVn": "Tôi bắt đầu trồng hoa, mỗi ngày tưới nước bón phân, cần kiên nhẫn chờ đợi, cuối cùng hoa cũng nở, tôi mời hàng xóm đến ngắm hoa, và quyết định mở rộng quy mô khu vườn.",
+      "example": "정원 가꾸기를 시작해서 매일 물을 줬어요. 인내심이 필요했지만 드디어 꽃이 폈어요. 이웃을 초대해서 꽃을 보여주고 정원 규모를 넓히기로 결심했어요.",
+      "note": "Mục 11.9 mở rộng round 20 — dạng sở thích/thiên nhiên, bổ sung ko-scenario-community-garden. 정원 (đình viên) tái dùng nhất quán. [Round 14 mở rộng 4→6 bước]"
     },
     {
       "id": "ko-scenario-become-grandparent",
@@ -4924,11 +5806,25 @@
           "hanViet": null,
           "meaningVn": "muốn nhanh gặp cháu",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "손주를 돌보는 법을 배우기 시작하다",
+          "reading": "sonjureul dolboneun beobeul baeugi sijakhada",
+          "hanViet": null,
+          "meaningVn": "bắt đầu học cách chăm cháu",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "손주를 안고 눈물을 흘리다",
+          "reading": "sonjureul ango nunmureul heullida",
+          "hanViet": null,
+          "meaningVn": "ôm cháu mà rơi nước mắt",
+          "pos": "emotion"
         }
       ],
-      "exampleVn": "Con trai tôi báo tin tôi sắp làm ông, tôi vừa ngạc nhiên vừa xúc động, bắt đầu chuẩn bị đồ dùng cho trẻ sơ sinh, nóng lòng muốn gặp cháu.",
-      "example": "아들이 할아버지가 될 거라고 알려서 놀라면서도 감동했어요. 아기용품을 준비하기 시작했고 손주를 빨리 보고 싶어요.",
-      "note": "Mục 11.9 mở rộng round 20 — dạng gia đình nhiều thế hệ, bổ sung ko-scenario-new-sibling-born. 감동 (cảm động) khớp SẠCH, đối lập 激动/kích động false-friend bên tiếng Trung. 용품 (dụng phẩm) khớp với 用品 tiếng Nhật. 손주 là từ ghép riêng thuần Hàn cho 'cháu', khác 孫/tôn tiếng Nhật."
+      "exampleVn": "Con trai tôi báo tin tôi sắp làm ông, tôi vừa ngạc nhiên vừa xúc động, bắt đầu chuẩn bị đồ dùng cho trẻ sơ sinh, nóng lòng muốn gặp cháu, bắt đầu học cách chăm cháu, và khi ôm cháu tôi đã rơi nước mắt.",
+      "example": "아들이 할아버지가 될 거라고 알려서 놀라면서도 감동했어요. 아기용품을 준비하기 시작했고 손주를 빨리 보고 싶어요. 손주를 돌보는 법을 배우기 시작했고 손주를 안고 눈물을 흘렸어요.",
+      "note": "Mục 11.9 mở rộng round 20 — dạng gia đình nhiều thế hệ, bổ sung ko-scenario-new-sibling-born. 감동 (cảm động) khớp SẠCH, đối lập 激动/kích động false-friend bên tiếng Trung. 용품 (dụng phẩm) khớp với 用品 tiếng Nhật. 손주 là từ ghép riêng thuần Hàn cho 'cháu', khác 孫/tôn tiếng Nhật. [Round 14 mở rộng 4→6 bước]"
     },
     {
       "id": "ko-scenario-learn-skateboard",
@@ -4962,11 +5858,25 @@
           "hanViet": "an định",
           "meaningVn": "cuối cùng trượt được ổn định",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "더 어려운 기술에 도전하다",
+          "reading": "deo eoryeoun gisure dojeonhada",
+          "hanViet": "kỹ thuật khiêu chiến",
+          "meaningVn": "thử thách với kỹ thuật khó hơn",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "아마추어 대회에 출전하다",
+          "reading": "amachueo daehoee chuljeonhada",
+          "hanViet": "đại hội xuất chiến",
+          "meaningVn": "tham gia thi đấu nghiệp dư",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Tôi học trượt ván, ngã rất nhiều lần, toàn thân đầy vết thương, cuối cùng trượt được vững vàng.",
-      "example": "스케이트보드를 배우면서 여러 번 넘어졌어요. 온몸이 멍투성이였지만 드디어 안정적으로 탈 수 있었어요.",
-      "note": "Mục 11.9 mở rộng round 20 — dạng thể thao mạo hiểm/kiên trì. 스케이트보드 mượn trực tiếp từ tiếng Anh 'skateboard'. 안정 (an định) khớp với 安定 tiếng Nhật."
+      "exampleVn": "Tôi học trượt ván, ngã rất nhiều lần, toàn thân đầy vết thương, cuối cùng trượt được vững vàng, tôi thử thách các kỹ thuật khó hơn, và tham gia thi đấu trượt ván nghiệp dư.",
+      "example": "스케이트보드를 배우면서 여러 번 넘어졌어요. 온몸이 멍투성이였지만 드디어 안정적으로 탈 수 있었어요. 더 어려운 기술에 도전하면서 아마추어 대회에 출전했어요.",
+      "note": "Mục 11.9 mở rộng round 20 — dạng thể thao mạo hiểm/kiên trì. 스케이트보드 mượn trực tiếp từ tiếng Anh 'skateboard'. 안정 (an định) khớp với 安定 tiếng Nhật. [Round 15 mở rộng 4→6 bước]"
     },
     {
       "id": "ko-scenario-cooking-certification-pass",
@@ -5000,11 +5910,25 @@
           "hanViet": "vô sự thủ đắc",
           "meaningVn": "lấy được chứng chỉ an toàn",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "자신만의 작은 식당을 열다",
+          "reading": "jasinmanui jageun sikdangeul yeolda",
+          "hanViet": null,
+          "meaningVn": "mở nhà hàng nhỏ của riêng mình",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "첫 손님에게 좋은 평가를 받다",
+          "reading": "cheot sonnimege joeun pyeong-gareul batda",
+          "hanViet": "bình giá",
+          "meaningVn": "nhận được đánh giá tốt từ vị khách đầu tiên",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Tôi thi lấy chứng chỉ đầu bếp, luyện tập kỹ năng dao thớt, khi thi rất hồi hộp, cuối cùng lấy được chứng chỉ thuận lợi.",
-      "example": "조리사 자격증을 따려고 칼 다루는 법을 연습했어요. 시험 볼 때 너무 긴장했지만 무사히 자격증을 취득했어요.",
-      "note": "Mục 11.9 mở rộng round 21 — dạng nghề nghiệp/chứng chỉ, bổ sung ko-scenario-citizenship-test-pass. Tái dùng 시험 (thí nghiệm, false-friend) đúng ngữ cảnh thi thật. 취득 (thủ đắc) khớp hoàn hảo với 取得 tiếng Nhật. 조리사 (điều lý sư) khớp với 調理師 tiếng Nhật."
+      "exampleVn": "Tôi thi lấy chứng chỉ đầu bếp, luyện tập kỹ năng dao thớt, khi thi rất hồi hộp, cuối cùng lấy được chứng chỉ thuận lợi, mở một nhà hàng nhỏ của riêng mình, và nhận được đánh giá tốt từ vị khách đầu tiên.",
+      "example": "조리사 자격증을 따려고 칼 다루는 법을 연습했어요. 시험 볼 때 너무 긴장했지만 무사히 자격증을 취득했어요. 자신만의 작은 식당을 열어서 첫 손님에게 좋은 평가를 받았어요.",
+      "note": "Mục 11.9 mở rộng round 21 — dạng nghề nghiệp/chứng chỉ, bổ sung ko-scenario-citizenship-test-pass. Tái dùng 시험 (thí nghiệm, false-friend) đúng ngữ cảnh thi thật. 취득 (thủ đắc) khớp hoàn hảo với 取得 tiếng Nhật. 조리사 (điều lý sư) khớp với 調理師 tiếng Nhật. [Round 15 mở rộng 4→6 bước]"
     },
     {
       "id": "ko-scenario-knitting-first-project",
@@ -5038,11 +5962,25 @@
           "hanViet": "tác phẩm hoàn thành",
           "meaningVn": "hoàn thành tác phẩm đầu tiên",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "작품을 친구에게 선물하다",
+          "reading": "jakpumeul chinguege seonmulhada",
+          "hanViet": "tác phẩm",
+          "meaningVn": "tặng tác phẩm cho bạn bè",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "온라인에서 직접 뜬 작품을 팔기 시작하다",
+          "reading": "onlain-eseo jikjeop tteun jakpumeul palgi sijakhada",
+          "hanViet": "tác phẩm",
+          "meaningVn": "bắt đầu bán trên mạng tác phẩm tự đan",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Tôi bắt đầu học đan áo len, thường xuyên đan sai, tháo ra đan lại, cuối cùng hoàn thành tác phẩm đầu tiên.",
-      "example": "뜨개질을 배우기 시작해서 자주 실수했어요. 풀어서 다시 떴고 첫 작품을 완성했어요.",
-      "note": "Mục 11.9 mở rộng round 21 — dạng thủ công/kiên trì, bổ sung ko-scenario-learn-calligraphy. Tái dùng 실수 (thất thủ, false-friend) trong ngữ cảnh 'mắc lỗi nhỏ khi đan len' — thêm 1 ngữ cảnh tự nhiên củng cố bài học."
+      "exampleVn": "Tôi bắt đầu học đan áo len, thường xuyên đan sai, tháo ra đan lại, cuối cùng hoàn thành tác phẩm đầu tiên, tặng tác phẩm cho bạn bè, và bắt đầu bán các sản phẩm tự đan trên mạng.",
+      "example": "뜨개질을 배우기 시작해서 자주 실수했어요. 풀어서 다시 떴고 첫 작품을 완성했어요. 작품을 친구에게 선물하고 온라인에서 직접 뜬 작품을 팔기 시작했어요.",
+      "note": "Mục 11.9 mở rộng round 21 — dạng thủ công/kiên trì, bổ sung ko-scenario-learn-calligraphy. Tái dùng 실수 (thất thủ, false-friend) trong ngữ cảnh 'mắc lỗi nhỏ khi đan len' — thêm 1 ngữ cảnh tự nhiên củng cố bài học. [Round 15 mở rộng 4→6 bước]"
     },
     {
       "id": "ko-scenario-mentor-teach-someone",
@@ -5076,11 +6014,25 @@
           "hanViet": "thành tựu cảm",
           "meaningVn": "cảm thấy có thành tựu",
           "pos": "emotion"
+        },
+        {
+          "headword": "지도가 좋은 평가를 받아 승진하다",
+          "reading": "jidoga joeun pyeong-gareul bada seungjinhada",
+          "hanViet": "chỉ đạo bình giá thăng tiến",
+          "meaningVn": "được thăng chức vì việc dìu dắt được đánh giá tốt",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "제자가 나중에 다른 사람의 멘토가 되다",
+          "reading": "jejaga najunge dareun saramui mentoga doeda",
+          "hanViet": "đệ tử",
+          "meaningVn": "học trò sau này cũng trở thành mentor của người khác",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Tôi trở thành người hướng dẫn cho nhân viên mới, kiên nhẫn giải đáp câu hỏi, nhìn anh ấy trưởng thành, cảm thấy rất có thành tựu.",
-      "example": "신입의 멘토가 되어서 인내심 있게 질문에 답하고 성장하는 모습을 지켜보면서 성취감을 느꼈어요.",
-      "note": "Mục 11.9 mở rộng round 21 — dạng cố vấn/dìu dắt. 질문 (chất vấn) khớp hoàn hảo với 質問 tiếng Nhật. XÁC NHẬN LẦN 2 hiện tượng đảo ngược: 성장 (thành trưởng) đảo ngược thành 'trưởng thành' — giống hệt ZH/JA vì cùng chữ Hán 成長/성장."
+      "exampleVn": "Tôi trở thành người hướng dẫn cho nhân viên mới, kiên nhẫn giải đáp câu hỏi, nhìn anh ấy trưởng thành, cảm thấy rất có thành tựu, được thăng chức vì dìu dắt tốt, và học trò của tôi sau này cũng trở thành người hướng dẫn của người khác.",
+      "example": "신입의 멘토가 되어서 인내심 있게 질문에 답하고 성장하는 모습을 지켜보면서 성취감을 느꼈어요. 지도가 좋은 평가를 받아 승진했고 제자가 나중에 다른 사람의 멘토가 되었어요.",
+      "note": "Mục 11.9 mở rộng round 21 — dạng cố vấn/dìu dắt. 질문 (chất vấn) khớp hoàn hảo với 質問 tiếng Nhật. XÁC NHẬN LẦN 2 hiện tượng đảo ngược: 성장 (thành trưởng) đảo ngược thành 'trưởng thành' — giống hệt ZH/JA vì cùng chữ Hán 成長/성장. [Round 15 mở rộng 4→6 bước]"
     },
     {
       "id": "ko-scenario-sibling-rivalry-reconcile",
@@ -5114,11 +6066,25 @@
           "hanViet": "huynh đệ",
           "meaningVn": "trở lại thành anh em hòa thuận",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "함께 부모님 생신을 계획하다",
+          "reading": "hamkke bumonim saengsineul gyehoekhada",
+          "hanViet": "kế hoạch",
+          "meaningVn": "cùng nhau lên kế hoạch sinh nhật của bố mẹ",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "서로에게 든든한 버팀목이 되다",
+          "reading": "seoroege deundeunhan beotimmogi doeda",
+          "hanViet": null,
+          "meaningVn": "trở thành chỗ dựa vững chắc của nhau",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Tôi ganh đua với anh trai nhiều năm, cuối cùng ngồi xuống tâm sự, bỏ qua sự cạnh tranh nhiều năm, trở lại thành anh em tốt.",
-      "example": "형과 오랫동안 경쟁했는데 드디어 진심으로 이야기해서 오랜 경쟁심을 내려놓고 다시 사이좋은 형제가 되었어요.",
-      "note": "Mục 11.9 mở rộng round 21 — dạng gia đình ruột thịt/hàn gắn, bổ sung ko-scenario-estranged-family-reconcile. 경쟁 (cạnh tranh) và 형제 (huynh đệ) khớp hoàn hảo, giống hệt ZH/JA."
+      "exampleVn": "Tôi ganh đua với anh trai nhiều năm, cuối cùng ngồi xuống tâm sự, bỏ qua sự cạnh tranh nhiều năm, trở lại thành anh em tốt, chúng tôi cùng nhau lên kế hoạch cho sinh nhật của bố mẹ, và trở thành chỗ dựa vững chắc của nhau.",
+      "example": "형과 오랫동안 경쟁했는데 드디어 진심으로 이야기해서 오랜 경쟁심을 내려놓고 다시 사이좋은 형제가 되었어요. 함께 부모님 생신을 계획하고 서로에게 든든한 버팀목이 되었어요.",
+      "note": "Mục 11.9 mở rộng round 21 — dạng gia đình ruột thịt/hàn gắn, bổ sung ko-scenario-estranged-family-reconcile. 경쟁 (cạnh tranh) và 형제 (huynh đệ) khớp hoàn hảo, giống hệt ZH/JA. [Round 15 mở rộng 4→6 bước]"
     },
     {
       "id": "ko-scenario-start-podcast",
@@ -5152,11 +6118,25 @@
           "hanViet": null,
           "meaningVn": "dần dần tăng người hâm mộ",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "유명한 게스트를 초대할 수 있다",
+          "reading": "yumyeonghan geseuteureul chodaehal su itda",
+          "hanViet": "hữu danh chiêu đãi",
+          "meaningVn": "mời được khách mời nổi tiếng",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "스폰서가 붙기 시작하다",
+          "reading": "seuponseoga butgi sijakhada",
+          "hanViet": null,
+          "meaningVn": "bắt đầu có nhà tài trợ",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Tôi bắt đầu làm podcast, lúc đầu không có người nghe, kiên trì cập nhật hàng tuần, dần dần tích lũy được người hâm mộ.",
-      "example": "팟캐스트를 시작했는데 처음에는 청취자가 없었어요. 매주 꾸준히 업데이트해서 조금씩 팬이 늘어났어요.",
-      "note": "Mục 11.9 mở rộng round 21 — dạng sáng tạo nội dung số. 청취자 (thính thủ giả) khác cấu tạo 听众/thính chúng tiếng Trung — 2 cách ghép khác nhau cho 'khán thính giả'. 팟캐스트/팬 mượn trực tiếp từ tiếng Anh."
+      "exampleVn": "Tôi bắt đầu làm podcast, lúc đầu không có người nghe, kiên trì cập nhật hàng tuần, dần dần tích lũy được người hâm mộ, mời được khách mời nổi tiếng đến làm khách, và podcast của tôi bắt đầu có nhà tài trợ hợp tác.",
+      "example": "팟캐스트를 시작했는데 처음에는 청취자가 없었어요. 매주 꾸준히 업데이트해서 조금씩 팬이 늘어났어요. 유명한 게스트를 초대할 수 있게 되었고 스폰서가 붙기 시작했어요.",
+      "note": "Mục 11.9 mở rộng round 21 — dạng sáng tạo nội dung số. 청취자 (thính thủ giả) khác cấu tạo 听众/thính chúng tiếng Trung — 2 cách ghép khác nhau cho 'khán thính giả'. 팟캐스트/팬 mượn trực tiếp từ tiếng Anh. [Round 16 mở rộng 4→6 bước]"
     },
     {
       "id": "ko-scenario-fear-of-flying-overcome",
@@ -5190,11 +6170,25 @@
           "hanViet": "khủng bố khắc phục",
           "meaningVn": "dần dần vượt qua nỗi sợ",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "혼자 처음으로 비행기 여행을 하다",
+          "reading": "honja cheoeumeuro bihaenggi yeohaengeul hada",
+          "hanViet": "lữ hành",
+          "meaningVn": "lần đầu một mình đi du lịch bằng máy bay",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "이제는 비행기가 좋아졌다",
+          "reading": "ijeneun bihaenggiga joajyeotda",
+          "hanViet": null,
+          "meaningVn": "giờ đây đã thích máy bay",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Tôi luôn rất sợ đi máy bay, tim đập nhanh, hít thở sâu để bình tĩnh lại, dần dần vượt qua nỗi sợ.",
-      "example": "비행기를 계속 무서워했는데 심장이 두근거려서 심호흡을 하며 진정했어요. 점점 공포를 극복했어요.",
-      "note": "Mục 11.9 mở rộng round 21 — dạng vượt qua nỗi sợ, bổ sung ko-scenario-learn-swim-fear. Tái dùng 공포 (khủng bố, hiện tượng thu hẹp nghĩa). 심호흡 (thâm hô hấp) khớp với 深呼吸 tiếng Nhật."
+      "exampleVn": "Tôi luôn rất sợ đi máy bay, tim đập nhanh, hít thở sâu để bình tĩnh lại, dần dần vượt qua nỗi sợ, lần đầu tiên một mình đi du lịch bằng máy bay, và giờ đây tôi lại thích bay.",
+      "example": "비행기를 계속 무서워했는데 심장이 두근거려서 심호흡을 하며 진정했어요. 점점 공포를 극복했어요. 혼자 처음으로 비행기 여행을 했고 이제는 비행기가 좋아졌어요.",
+      "note": "Mục 11.9 mở rộng round 21 — dạng vượt qua nỗi sợ, bổ sung ko-scenario-learn-swim-fear. Tái dùng 공포 (khủng bố, hiện tượng thu hẹp nghĩa). 심호흡 (thâm hô hấp) khớp với 深呼吸 tiếng Nhật. [Round 16 mở rộng 4→6 bước]"
     },
     {
       "id": "ko-scenario-cook-for-inlaws",
@@ -5228,11 +6222,25 @@
           "hanViet": null,
           "meaningVn": "được khen ngợi",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "명절마다 또 만들어 달라는 부탁을 받다",
+          "reading": "myeongjeolmada tto mandeureo dallaneun butageul batda",
+          "hanViet": "danh tiết",
+          "meaningVn": "được nhờ làm lại món đó mỗi dịp lễ",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "점점 요리에 자신감이 생기다",
+          "reading": "jeomjeom yorie jasingami saengida",
+          "hanViet": "tự tín cảm",
+          "meaningVn": "dần dần có tự tin trong nấu ăn",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Lần đầu tiên tôi nấu ăn cho bố mẹ chồng, hồi hộp đến run tay, kiểm tra lại công thức nhiều lần, được bố mẹ chồng khen ngợi.",
-      "example": "처음으로 시부모님께 요리를 해드렸는데 긴장해서 손이 떨렸어요. 레시피를 계속 확인해서 칭찬을 받았어요.",
-      "note": "Mục 11.9 mở rộng round 22 — dạng gia đình chồng/vợ, bổ sung ko-scenario-grandma-recipe. 시- (thị-) là tiền tố riêng của tiếng Hàn chỉ 'nhà chồng', không tự tin về âm Hán Việt chuẩn nên để null. 확인 (xác nhận) khớp hoàn hảo."
+      "exampleVn": "Lần đầu tiên tôi nấu ăn cho bố mẹ chồng, hồi hộp đến run tay, kiểm tra lại công thức nhiều lần, được bố mẹ chồng khen ngợi, được nhờ làm lại món đó vào dịp lễ, và tôi dần dần trở nên tự tin hơn khi vào bếp.",
+      "example": "처음으로 시부모님께 요리를 해드렸는데 긴장해서 손이 떨렸어요. 레시피를 계속 확인해서 칭찬을 받았어요. 명절마다 또 만들어 달라는 부탁을 받았고 점점 요리에 자신감이 생겼어요.",
+      "note": "Mục 11.9 mở rộng round 22 — dạng gia đình chồng/vợ, bổ sung ko-scenario-grandma-recipe. 시- (thị-) là tiền tố riêng của tiếng Hàn chỉ 'nhà chồng', không tự tin về âm Hán Việt chuẩn nên để null. 확인 (xác nhận) khớp hoàn hảo. [Round 16 mở rộng 4→6 bước]"
     },
     {
       "id": "ko-scenario-chronic-illness-adjust",
@@ -5266,11 +6274,25 @@
           "hanViet": null,
           "meaningVn": "chung sống cùng bệnh tật",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "같은 병을 앓는 환자들의 모임에 참여하다",
+          "reading": "gateun byeongeul allhneun hwanjadeurui moime chamyeohada",
+          "hanViet": "hoạn giả tham dự",
+          "meaningVn": "tham gia nhóm bệnh nhân cùng bệnh",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "다시 일상의 즐거움을 찾다",
+          "reading": "dasi ilsangui jeulgeoumeul chatda",
+          "hanViet": "nhật thường",
+          "meaningVn": "tìm lại niềm vui đời thường",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Tôi được chẩn đoán mắc bệnh mạn tính, lúc đầu rất khó chấp nhận, điều chỉnh lối sống, học cách chung sống với bệnh tật.",
-      "example": "만성 질환을 진단받았는데 처음에는 받아들이기 힘들었어요. 생활 습관을 바꾸고 병과 함께 살아가기로 했어요.",
-      "note": "Mục 11.9 mở rộng round 22 — dạng y tế dài hạn/thích nghi, bổ sung ko-scenario-medical-test-relief. 만성 (mạn tính) khớp hoàn hảo với ZH/JA. 질환 (tật hoạn) khớp tốt với 'bệnh tật'."
+      "exampleVn": "Tôi được chẩn đoán mắc bệnh mạn tính, lúc đầu rất khó chấp nhận, điều chỉnh lối sống, học cách chung sống với bệnh tật, tham gia một nhóm hỗ trợ bệnh nhân cùng cảnh ngộ, và tìm lại được niềm vui trong cuộc sống hằng ngày.",
+      "example": "만성 질환을 진단받았는데 처음에는 받아들이기 힘들었어요. 생활 습관을 바꾸고 병과 함께 살아가기로 했어요. 같은 병을 앓는 환자들의 모임에 참여했고 다시 일상의 즐거움을 찾았어요.",
+      "note": "Mục 11.9 mở rộng round 22 — dạng y tế dài hạn/thích nghi, bổ sung ko-scenario-medical-test-relief. 만성 (mạn tính) khớp hoàn hảo với ZH/JA. 질환 (tật hoạn) khớp tốt với 'bệnh tật'. [Round 16 mở rộng 4→6 bước]"
     },
     {
       "id": "ko-scenario-shy-student-trust",
@@ -5304,11 +6326,25 @@
           "hanViet": "phát biểu",
           "meaningVn": "cuối cùng tự mình phát biểu",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "스스로 다른 학생을 돕게 되다",
+          "reading": "seuseuro dareun haksaengeul dopge doeda",
+          "hanViet": "học sinh",
+          "meaningVn": "chủ động giúp đỡ học sinh khác",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "자신감 있고 밝은 학생으로 바뀌다",
+          "reading": "jasingam itgo balgeun haksaengeuro bakkuida",
+          "hanViet": "tự tín cảm học sinh",
+          "meaningVn": "trở thành học sinh tự tin và tươi sáng",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Lớp tôi có một học sinh nhút nhát, lúc đầu không dám nói, tôi dần dần xây dựng lòng tin, cuối cùng em ấy sẵn lòng chủ động phát biểu.",
-      "example": "반에 수줍음이 많은 학생이 있었는데 처음에는 말을 안 했어요. 조금씩 신뢰를 쌓아서 드디어 스스로 발표했어요.",
-      "note": "Mục 11.9 mở rộng round 22 — dạng giáo dục/sư phạm. 학생 (học sinh) và 발표 (phát biểu) khớp hoàn hảo."
+      "exampleVn": "Lớp tôi có một học sinh nhút nhát, lúc đầu không dám nói, tôi dần dần xây dựng lòng tin, cuối cùng em ấy sẵn lòng chủ động phát biểu, chủ động giúp đỡ các bạn học khác, và trở thành một học sinh tự tin, hoạt bát.",
+      "example": "반에 수줍음이 많은 학생이 있었는데 처음에는 말을 안 했어요. 조금씩 신뢰를 쌓아서 드디어 스스로 발표했어요. 스스로 다른 학생을 돕게 되었고 자신감 있고 밝은 학생으로 바뀌었어요.",
+      "note": "Mục 11.9 mở rộng round 22 — dạng giáo dục/sư phạm. 학생 (học sinh) và 발표 (phát biểu) khớp hoàn hảo. [Round 16 mở rộng 4→6 bước]"
     },
     {
       "id": "ko-scenario-salary-negotiate",
@@ -5342,11 +6378,25 @@
           "hanViet": "kết cục hợp ý",
           "meaningVn": "cuối cùng đạt thỏa thuận",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "원하는 만큼 연봉을 받다",
+          "reading": "wonhaneun mankeum yeonbongeul batda",
+          "hanViet": null,
+          "meaningVn": "nhận được mức lương như mong muốn",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "앞으로의 협상에 더 자신감이 생기다",
+          "reading": "apeuroui hyeopsange deo jasingami saengida",
+          "hanViet": "hiệp thương tự tín cảm",
+          "meaningVn": "tự tin hơn với những cuộc thương lượng sau này",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Tôi học kỹ năng thương lượng, dũng cảm mở lời yêu cầu tăng lương, đối phương do dự không quyết, cuối cùng đạt được thỏa thuận.",
-      "example": "협상 기술을 배우고 용기를 내서 연봉 인상을 요청했어요. 상대방이 망설였지만 결국 합의했어요.",
-      "note": "Mục 11.9 mở rộng round 22 — dạng kỹ năng công sở, bổ sung ko-scenario-salary-raise. 협상 (hiệp thương) khớp tốt với 'thương lượng, đàm phán'. 상대방 (tương đối phương) khớp gần với 对方/đối phương tiếng Trung, có thêm tiền tố 相/tương."
+      "exampleVn": "Tôi học kỹ năng thương lượng, dũng cảm mở lời yêu cầu tăng lương, đối phương do dự không quyết, cuối cùng đạt được thỏa thuận, nhận được mức lương như mong muốn, và cảm thấy tự tin hơn với những cuộc thương lượng sau này.",
+      "example": "협상 기술을 배우고 용기를 내서 연봉 인상을 요청했어요. 상대방이 망설였지만 결국 합의했어요. 원하는 만큼 연봉을 받았고 앞으로의 협상에 더 자신감이 생겼어요.",
+      "note": "Mục 11.9 mở rộng round 22 — dạng kỹ năng công sở, bổ sung ko-scenario-salary-raise. 협상 (hiệp thương) khớp tốt với 'thương lượng, đàm phán'. 상대방 (tương đối phương) khớp gần với 对方/đối phương tiếng Trung, có thêm tiền tố 相/tương. [Round 17 mở rộng 4→6 bước]"
     },
     {
       "id": "ko-scenario-language-exam-pass",
@@ -5380,11 +6430,25 @@
           "hanViet": "mục tiêu đẳng cấp",
           "meaningVn": "cuối cùng đạt được cấp độ mục tiêu",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "자격증으로 새 직장에 지원하다",
+          "reading": "jagyeokjeungeuro sae jikjange jiwonhada",
+          "hanViet": "tư cách chứng",
+          "meaningVn": "dùng chứng chỉ để ứng tuyển việc mới",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "자신 있게 외국어로 대화하다",
+          "reading": "jasin itge oegugeoro daehwahada",
+          "hanViet": "tự tín ngoại quốc ngữ",
+          "meaningVn": "tự tin nói chuyện bằng ngoại ngữ",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Tôi đăng ký thi chứng chỉ trình độ ngoại ngữ, mỗi ngày luyện đề, phần nghe rất khó, cuối cùng đạt được cấp độ mục tiêu.",
-      "example": "어학 자격시험에 신청해서 매일 문제를 풀었어요. 듣기가 어려웠지만 드디어 목표 등급에 도달했어요.",
-      "note": "Mục 11.9 mở rộng round 22 — dạng thi cử ngoại ngữ, bổ sung ko-scenario-learn-language. Tái dùng 시험 (thí nghiệm, false-friend) đúng ngữ cảnh thi thật. 어학 (ngữ học) khớp với 語学 tiếng Nhật. 등급 (đẳng cấp) khớp hoàn hảo với tiếng Trung."
+      "exampleVn": "Tôi đăng ký thi chứng chỉ trình độ ngoại ngữ, mỗi ngày luyện đề, phần nghe rất khó, cuối cùng đạt được cấp độ mục tiêu, dùng chứng chỉ để xin việc mới, và tự tin giao tiếp bằng ngoại ngữ đó.",
+      "example": "어학 자격시험에 신청해서 매일 문제를 풀었어요. 듣기가 어려웠지만 드디어 목표 등급에 도달했어요. 자격증으로 새 직장에 지원했고 자신 있게 외국어로 대화할 수 있게 되었어요.",
+      "note": "Mục 11.9 mở rộng round 22 — dạng thi cử ngoại ngữ, bổ sung ko-scenario-learn-language. Tái dùng 시험 (thí nghiệm, false-friend) đúng ngữ cảnh thi thật. 어학 (ngữ học) khớp với 語学 tiếng Nhật. 등급 (đẳng cấp) khớp hoàn hảo với tiếng Trung. [Round 17 mở rộng 4→6 bước]"
     },
     {
       "id": "ko-scenario-first-in-family-university",
@@ -5418,11 +6482,25 @@
           "hanViet": "gia tộc",
           "meaningVn": "cả gia đình đều tự hào",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "우수한 성적으로 졸업하다",
+          "reading": "usuhan seongjeogeuro joreobhada",
+          "hanViet": "ưu tú thành tích tốt nghiệp",
+          "meaningVn": "tốt nghiệp với thành tích xuất sắc",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "집안 동생들의 본보기가 되다",
+          "reading": "jiban dongsaengdeurui bonbogiga doeda",
+          "hanViet": null,
+          "meaningVn": "trở thành tấm gương cho các em trong nhà",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Tôi trở thành sinh viên đại học đầu tiên trong nhà, cha mẹ không hiểu lắm, một mình đối mặt nhiều thử thách, khiến cả nhà đều tự hào.",
-      "example": "집안에서 처음으로 대학에 가서 부모님이 잘 이해하지 못하셨어요. 혼자 많은 어려움에 맞섰지만 온 가족이 자랑스러워하셨어요.",
-      "note": "Mục 11.9 mở rộng round 22 — dạng học vấn/giai cấp xã hội. LƯU Ý: câu tiếng Hàn tự nhiên dùng 어려움 (thuần Hàn) thay vì 곤란/khốn nạn cho 'khó khăn' — tương tự cách né tránh false-friend tự nhiên đã thấy ở round 14 (charity-fundraising). 이해 (lý giải) khớp hoàn hảo."
+      "exampleVn": "Tôi trở thành sinh viên đại học đầu tiên trong nhà, cha mẹ không hiểu lắm, một mình đối mặt nhiều thử thách, khiến cả nhà đều tự hào, tốt nghiệp với thành tích xuất sắc, và trở thành tấm gương cho các em trong nhà.",
+      "example": "집안에서 처음으로 대학에 가서 부모님이 잘 이해하지 못하셨어요. 혼자 많은 어려움에 맞섰지만 온 가족이 자랑스러워하셨어요. 우수한 성적으로 졸업했고 집안 동생들의 본보기가 되었어요.",
+      "note": "Mục 11.9 mở rộng round 22 — dạng học vấn/giai cấp xã hội. LƯU Ý: câu tiếng Hàn tự nhiên dùng 어려움 (thuần Hàn) thay vì 곤란/khốn nạn cho 'khó khăn' — tương tự cách né tránh false-friend tự nhiên đã thấy ở round 14 (charity-fundraising). 이해 (lý giải) khớp hoàn hảo. [Round 17 mở rộng 4→6 bước]"
     },
     {
       "id": "ko-scenario-lose-game-graceful",
@@ -5456,11 +6534,25 @@
           "hanViet": "kinh nghiệm",
           "meaningVn": "học được kinh nghiệm quý giá",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "더 열심히 훈련하기로 결심하다",
+          "reading": "deo yeolsimhi hullyeonhagiro gyeolsimhada",
+          "hanViet": "huấn luyện quyết tâm",
+          "meaningVn": "quyết tâm luyện tập chăm chỉ hơn",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "그 노력 덕분에 다음 경기에서 이기다",
+          "reading": "geu noryeok deokbune daeum gyeonggieseo igida",
+          "hanViet": "nỗ lực",
+          "meaningVn": "nhờ nỗ lực đó mà thắng trận đấu tiếp theo",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Tôi thua trận đấu, trong lòng rất hụt hẫng, chân thành chúc mừng đối thủ, học được kinh nghiệm quý báu.",
-      "example": "경기에서 져서 너무 아쉬웠지만 진심으로 상대를 축하했어요. 소중한 경험을 배웠어요.",
-      "note": "Mục 11.9 mở rộng round 23 — dạng thể thao/tinh thần thượng võ, bổ sung ko-scenario-losing-competition. LƯU Ý NHẸ: 상대 (tương đối) trong tiếng Hàn dùng phổ biến nghĩa 'đối phương/người kia', nhưng âm Hán Việt 'tương đối' trong tiếng Việt lại nghiêng nghĩa 'so sánh, không tuyệt đối' — 2 hướng nghĩa khác biệt dù cùng gốc chữ. 소중 (quý giá) là từ thuần Hàn."
+      "exampleVn": "Tôi thua trận đấu, trong lòng rất hụt hẫng, chân thành chúc mừng đối thủ, học được kinh nghiệm quý báu, quyết tâm luyện tập chăm chỉ hơn, và nhờ nỗ lực đó mà thắng được trận đấu tiếp theo.",
+      "example": "경기에서 져서 너무 아쉬웠지만 진심으로 상대를 축하했어요. 소중한 경험을 배웠어요. 더 열심히 훈련하기로 결심했고 그 노력 덕분에 다음 경기에서 이겼어요.",
+      "note": "Mục 11.9 mở rộng round 23 — dạng thể thao/tinh thần thượng võ, bổ sung ko-scenario-losing-competition. LƯU Ý NHẸ: 상대 (tương đối) trong tiếng Hàn dùng phổ biến nghĩa 'đối phương/người kia', nhưng âm Hán Việt 'tương đối' trong tiếng Việt lại nghiêng nghĩa 'so sánh, không tuyệt đối' — 2 hướng nghĩa khác biệt dù cùng gốc chữ. 소중 (quý giá) là từ thuần Hàn. [Round 17 mở rộng 4→6 bước]"
     },
     {
       "id": "ko-scenario-old-hobby-rediscover",
@@ -5494,11 +6586,25 @@
           "hanViet": "thú vị",
           "meaningVn": "say mê sở thích ngày xưa",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "같은 취미를 가진 동호회에 가입하다",
+          "reading": "gateun chwimireul gajin donghohoee gaipada",
+          "hanViet": "đồng hảo hội gia nhập",
+          "meaningVn": "tham gia câu lạc bộ có cùng sở thích",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "자신의 작품을 선보이기 시작하다",
+          "reading": "jasinui jakpumeul seonboigi sijakhada",
+          "hanViet": "tác phẩm",
+          "meaningVn": "bắt đầu công bố tác phẩm của mình",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Tôi cầm lại cây cọ vẽ, cảm giác tay hơi sinh sơ, dần dần tìm lại cảm giác, yêu lại sở thích ngày xưa.",
-      "example": "다시 붓을 잡았는데 감각이 조금 무뎠지만 점점 감각을 되찾아서 옛 취미에 푹 빠졌어요.",
-      "note": "Mục 11.9 mở rộng round 23 — dạng sở thích/hoài niệm, bổ sung ko-scenario-photography-hobby. XÁC NHẬN false-friend 취미 (thú vị) giống hệt tiếng Nhật 趣味 — 'sở thích' (danh từ) nhầm với 'thú vị' (tính từ) tiếng Việt. 감각 (cảm giác) khớp hoàn hảo với tiếng Nhật."
+      "exampleVn": "Tôi cầm lại cây cọ vẽ, cảm giác tay hơi sinh sơ, dần dần tìm lại cảm giác, yêu lại sở thích ngày xưa, tham gia một câu lạc bộ có cùng sở thích, và bắt đầu trưng bày tác phẩm của mình.",
+      "example": "다시 붓을 잡았는데 감각이 조금 무뎠지만 점점 감각을 되찾아서 옛 취미에 푹 빠졌어요. 같은 취미를 가진 동호회에 가입했고 자신의 작품을 선보이기 시작했어요.",
+      "note": "Mục 11.9 mở rộng round 23 — dạng sở thích/hoài niệm, bổ sung ko-scenario-photography-hobby. XÁC NHẬN false-friend 취미 (thú vị) giống hệt tiếng Nhật 趣味 — 'sở thích' (danh từ) nhầm với 'thú vị' (tính từ) tiếng Việt. 감각 (cảm giác) khớp hoàn hảo với tiếng Nhật. [Round 17 mở rộng 4→6 bước]"
     },
     {
       "id": "ko-scenario-career-family-choice",
@@ -5532,11 +6638,25 @@
           "hanViet": "quyết định hậu hối",
           "meaningVn": "không hối hận về quyết định này",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "아이와 더 많은 시간을 보내다",
+          "reading": "aiwa deo maneun siganeul bonaeda",
+          "hanViet": null,
+          "meaningVn": "dành nhiều thời gian hơn với con cái",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "삶에 새로운 균형을 찾다",
+          "reading": "sarme saeroun gyunhyeongeul chatda",
+          "hanViet": "quân hành",
+          "meaningVn": "tìm được sự cân bằng mới trong cuộc sống",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Tôi đối mặt với lựa chọn giữa sự nghiệp và gia đình, từ chối cơ hội thăng chức, chọn ở bên gia đình, không bao giờ hối hận về quyết định này.",
-      "example": "일과 가정 사이에서 선택해야 했는데 승진 기회를 거절하고 가족과 함께하는 것을 선택했어요. 이 결정을 후회하지 않아요.",
-      "note": "Mục 11.9 mở rộng round 23 — dạng quyết định lớn trong đời. 가정(gia đình)/기회(cơ hội)/결정(quyết định) khớp hoàn hảo. 가족 (gia tộc) tiếp tục khớp sạch."
+      "exampleVn": "Tôi đối mặt với lựa chọn giữa sự nghiệp và gia đình, từ chối cơ hội thăng chức, chọn ở bên gia đình, không bao giờ hối hận về quyết định này, có nhiều thời gian hơn để ở bên con cái, và tìm được sự cân bằng mới trong cuộc sống.",
+      "example": "일과 가정 사이에서 선택해야 했는데 승진 기회를 거절하고 가족과 함께하는 것을 선택했어요. 이 결정을 후회하지 않아요. 아이와 더 많은 시간을 보내게 되었고 삶에 새로운 균형을 찾았어요.",
+      "note": "Mục 11.9 mở rộng round 23 — dạng quyết định lớn trong đời. 가정(gia đình)/기회(cơ hội)/결정(quyết định) khớp hoàn hảo. 가족 (gia tộc) tiếp tục khớp sạch. [Round 18 mở rộng 4→6 bước]"
     },
     {
       "id": "ko-scenario-trust-again-after-betrayal",
@@ -5570,11 +6690,25 @@
           "hanViet": "tín lại",
           "meaningVn": "có thể tin tưởng lại",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "건강한 새로운 관계를 쌓다",
+          "reading": "geon-ganghan saeroun gwangyereul ssahda",
+          "hanViet": "kiện khang quan hệ",
+          "meaningVn": "xây dựng một mối quan hệ mới lành mạnh",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "희망을 버리지 않은 자신에게 감사하다",
+          "reading": "huimangeul beoriji aneun jasinege gamsahada",
+          "hanViet": "hi vọng cảm tạ",
+          "meaningVn": "cảm ơn bản thân vì đã không từ bỏ hy vọng",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Tôi từng bị người khác phản bội, rất khó tin tưởng người khác lần nữa, dần dần mở lòng, học cách tin tưởng lại.",
-      "example": "예전에 누군가에게 배신당해서 사람을 믿는 게 무서웠는데 조금씩 마음을 열어서 다시 신뢰할 수 있게 됐어요.",
-      "note": "Mục 11.9 mở rộng round 23 — dạng tổn thương/tha thứ, bổ sung ko-scenario-breakup-heal. ĐIỂM THÚ VỊ: 배신 (bội tín, 背信) dùng chữ 信(tín, 'lòng tin') khớp rõ ràng hơn 背叛/bội phản tiếng Trung (dùng chữ 叛 khó xác định âm Hán Việt) — cùng khái niệm 'phản bội' nhưng cấu tạo chữ khác nhau giữa 2 ngôn ngữ."
+      "exampleVn": "Tôi từng bị người khác phản bội, rất khó tin tưởng người khác lần nữa, dần dần mở lòng, học cách tin tưởng lại, xây dựng một mối quan hệ mới lành mạnh, và cảm ơn bản thân vì đã không từ bỏ hy vọng.",
+      "example": "예전에 누군가에게 배신당해서 사람을 믿는 게 무서웠는데 조금씩 마음을 열어서 다시 신뢰할 수 있게 됐어요. 건강한 새로운 관계를 쌓았고 희망을 버리지 않은 자신에게 감사했어요.",
+      "note": "Mục 11.9 mở rộng round 23 — dạng tổn thương/tha thứ, bổ sung ko-scenario-breakup-heal. ĐIỂM THÚ VỊ: 배신 (bội tín, 背信) dùng chữ 信(tín, 'lòng tin') khớp rõ ràng hơn 背叛/bội phản tiếng Trung (dùng chữ 叛 khó xác định âm Hán Việt) — cùng khái niệm 'phản bội' nhưng cấu tạo chữ khác nhau giữa 2 ngôn ngữ. [Round 18 mở rộng 4→6 bước]"
     },
     {
       "id": "ko-scenario-coach-childrens-team",
@@ -5608,11 +6742,25 @@
           "hanViet": "cạnh kỹ",
           "meaningVn": "thấy chúng thắng trận đấu",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "아이들의 자신감이 높아지는 것을 보다",
+          "reading": "aideurui jasingami nopajineun geoseul boda",
+          "hanViet": "tự tín cảm",
+          "meaningVn": "thấy sự tự tin của các em tăng lên",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "학부모들에게 감사 인사를 받다",
+          "reading": "hakbumodeurege gamsa insareul batda",
+          "hanViet": "học phụ mẫu cảm tạ",
+          "meaningVn": "nhận được lời cảm ơn từ phụ huynh",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Tôi dạy trẻ em đá bóng, lũ trẻ tràn đầy năng lượng, kiên nhẫn hướng dẫn chúng, thấy chúng thắng trận đấu.",
-      "example": "아이들에게 축구를 가르쳤는데 아이들이 에너지가 넘쳤어요. 인내심을 갖고 지도해서 경기에서 이기는 것을 봤어요.",
-      "note": "Mục 11.9 mở rộng round 23 — dạng thể thao/giáo dục trẻ em, bổ sung ko-scenario-mentor-teach-someone. 축구 (túc cầu) khớp hoàn hảo với 足球 tiếng Trung. 지도 (chỉ đạo) tái dùng nhất quán."
+      "exampleVn": "Tôi dạy trẻ em đá bóng, lũ trẻ tràn đầy năng lượng, kiên nhẫn hướng dẫn chúng, thấy chúng thắng trận đấu, thấy sự tự tin của các em tăng lên, và được các bậc phụ huynh cảm ơn.",
+      "example": "아이들에게 축구를 가르쳤는데 아이들이 에너지가 넘쳤어요. 인내심을 갖고 지도해서 경기에서 이기는 것을 봤어요. 아이들의 자신감이 높아지는 것을 보았고 학부모들에게 감사 인사를 받았어요.",
+      "note": "Mục 11.9 mở rộng round 23 — dạng thể thao/giáo dục trẻ em, bổ sung ko-scenario-mentor-teach-someone. 축구 (túc cầu) khớp hoàn hảo với 足球 tiếng Trung. 지도 (chỉ đạo) tái dùng nhất quán. [Round 18 mở rộng 4→6 bước]"
     },
     {
       "id": "ko-scenario-first-time-investing",
@@ -5646,11 +6794,25 @@
           "hanViet": "kinh nghiệm",
           "meaningVn": "dần dần tích lũy kinh nghiệm",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "분산된 투자 포트폴리오를 만들다",
+          "reading": "bunsandoen tuja poteupolioreul mandeulda",
+          "hanViet": "phân tán đầu tư",
+          "meaningVn": "xây dựng danh mục đầu tư phân tán",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "처음으로 안정적인 수익을 얻다",
+          "reading": "cheoeumeuro anjeongjeogin suigeul eotda",
+          "hanViet": "an định thu ích",
+          "meaningVn": "lần đầu đạt được lợi nhuận ổn định",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Lần đầu tôi đầu tư cổ phiếu, lo lắng sẽ lỗ tiền, học kiến thức cơ bản, dần dần tích lũy kinh nghiệm.",
-      "example": "처음으로 주식에 투자했는데 손해를 볼까 봐 걱정됐어요. 기본적인 지식을 배우면서 점점 경험을 쌓았어요.",
-      "note": "Mục 11.9 mở rộng round 23 — dạng tài chính cá nhân. ĐIỂM THÚ VỊ CẤU TẠO TỪ: 주식 (chu thức, 株式) dùng chữ 株(chu, 'cổ phần') hoàn toàn khác 股票/gǔpiào tiếng Trung (dùng chữ 股=cổ) — 2 cách gọi 'cổ phiếu' khác nhau dù cùng khái niệm tài chính hiện đại. 손해 (tổn hại) khớp hoàn hảo."
+      "exampleVn": "Lần đầu tôi đầu tư cổ phiếu, lo lắng sẽ lỗ tiền, học kiến thức cơ bản, dần dần tích lũy kinh nghiệm, xây dựng một danh mục đầu tư đa dạng, và đạt được khoản lợi nhuận ổn định đầu tiên.",
+      "example": "처음으로 주식에 투자했는데 손해를 볼까 봐 걱정됐어요. 기본적인 지식을 배우면서 점점 경험을 쌓았어요. 분산된 투자 포트폴리오를 만들었고 처음으로 안정적인 수익을 얻었어요.",
+      "note": "Mục 11.9 mở rộng round 23 — dạng tài chính cá nhân. ĐIỂM THÚ VỊ CẤU TẠO TỪ: 주식 (chu thức, 株式) dùng chữ 株(chu, 'cổ phần') hoàn toàn khác 股票/gǔpiào tiếng Trung (dùng chữ 股=cổ) — 2 cách gọi 'cổ phiếu' khác nhau dù cùng khái niệm tài chính hiện đại. 손해 (tổn hại) khớp hoàn hảo. [Round 18 mở rộng 4→6 bước]"
     },
     {
       "id": "ko-scenario-nursing-home-adjust",
@@ -5684,11 +6846,25 @@
           "hanViet": "thích ứng",
           "meaningVn": "dần dần thích nghi cuộc sống mới",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "룸메이트와 함께 활동에 참여하다",
+          "reading": "rummeiteuwa hamkke hwaldong-e chamyeohada",
+          "hanViet": "hoạt động tham dự",
+          "meaningVn": "tham gia hoạt động cùng bạn cùng phòng",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "이곳이 제2의 집처럼 느껴지다",
+          "reading": "igosi je-iui jipcheoreom neukkyeojida",
+          "hanViet": "đệ nhị",
+          "meaningVn": "cảm thấy nơi đây giống như ngôi nhà thứ hai",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Tôi chuyển vào viện dưỡng lão, lúc đầu rất kháng cự, làm quen bạn mới, dần dần thích nghi với cuộc sống mới.",
-      "example": "요양원에 들어갔는데 처음에는 거부감이 들었지만 새 친구를 사귀고 점점 새로운 생활에 적응했어요.",
-      "note": "Mục 11.9 mở rộng round 24 — dạng người cao tuổi/chuyển giao giai đoạn cuộc đời, bổ sung ko-scenario-retirement-day. 요양원 (liệu dưỡng viện, 療養院) nhấn mạnh khía cạnh 'điều trị/chăm sóc y tế', khác 养老院/dưỡng lão viện tiếng Trung nhấn mạnh 'tuổi già' — 2 cách đặt tên phản ánh góc nhìn văn hóa khác nhau về cùng 1 loại cơ sở."
+      "exampleVn": "Tôi chuyển vào viện dưỡng lão, lúc đầu rất kháng cự, làm quen bạn mới, dần dần thích nghi với cuộc sống mới, tham gia các hoạt động cùng bạn cùng phòng, và cảm thấy nơi đây giống như ngôi nhà thứ hai.",
+      "example": "요양원에 들어갔는데 처음에는 거부감이 들었지만 새 친구를 사귀고 점점 새로운 생활에 적응했어요. 룸메이트와 함께 활동에 참여했고 이곳이 제2의 집처럼 느껴졌어요.",
+      "note": "Mục 11.9 mở rộng round 24 — dạng người cao tuổi/chuyển giao giai đoạn cuộc đời, bổ sung ko-scenario-retirement-day. 요양원 (liệu dưỡng viện, 療養院) nhấn mạnh khía cạnh 'điều trị/chăm sóc y tế', khác 养老院/dưỡng lão viện tiếng Trung nhấn mạnh 'tuổi già' — 2 cách đặt tên phản ánh góc nhìn văn hóa khác nhau về cùng 1 loại cơ sở. [Round 18 mở rộng 4→6 bước]"
     },
     {
       "id": "ko-scenario-lost-pet-recover",
@@ -5722,11 +6898,25 @@
           "hanViet": null,
           "meaningVn": "cuối cùng tìm thấy thú cưng quý giá",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "반려동물을 껴안고 감격의 눈물을 흘리다",
+          "reading": "ballyeodongmureul kkyeoango gamgyeogui nunmureul heullida",
+          "hanViet": "cảm kích",
+          "meaningVn": "ôm thú cưng và rơi nước mắt cảm kích",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "그 후로 위치추적 목걸이를 채우다",
+          "reading": "geu huro wichichujeok mokgeorireul chaeuda",
+          "hanViet": "vị trí truy tích",
+          "meaningVn": "từ đó đeo vòng cổ định vị",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Thú cưng của tôi đi lạc mất, tôi dán thông báo tìm thú cưng khắp nơi, người tốt bụng cung cấp manh mối, cuối cùng tôi tìm lại được thú cưng yêu quý.",
-      "example": "반려동물을 잃어버려서 전단지를 붙이며 찾았어요. 친절한 사람이 정보를 줘서 드디어 소중한 반려동물을 찾았어요.",
-      "note": "Mục 11.9 mở rộng round 24 — dạng thú cưng/cộng đồng, bổ sung ko-scenario-adopt-new-pet. XÁC NHẬN false-friend 친절 (thân thiết) giống hệt tiếng Nhật 親切 — 'tốt bụng với người lạ' vs 'thân thiết, gần gũi có sẵn' tiếng Việt. 전단지 (truyền đơn chỉ) chứa 'truyền đơn' — từ tiếng Việt thật."
+      "exampleVn": "Thú cưng của tôi đi lạc mất, tôi dán thông báo tìm thú cưng khắp nơi, người tốt bụng cung cấp manh mối, cuối cùng tôi tìm lại được thú cưng yêu quý, tôi ôm chặt nó mà bật khóc vì xúc động, và từ đó tôi đeo cho nó một chiếc vòng cổ định vị.",
+      "example": "반려동물을 잃어버려서 전단지를 붙이며 찾았어요. 친절한 사람이 정보를 줘서 드디어 소중한 반려동물을 찾았어요. 반려동물을 껴안고 감격의 눈물을 흘렸고 그 후로 위치추적 목걸이를 채웠어요.",
+      "note": "Mục 11.9 mở rộng round 24 — dạng thú cưng/cộng đồng, bổ sung ko-scenario-adopt-new-pet. XÁC NHẬN false-friend 친절 (thân thiết) giống hệt tiếng Nhật 親切 — 'tốt bụng với người lạ' vs 'thân thiết, gần gũi có sẵn' tiếng Việt. 전단지 (truyền đơn chỉ) chứa 'truyền đơn' — từ tiếng Việt thật. [Round 19 mở rộng 4→6 bước]"
     },
     {
       "id": "ko-scenario-new-boss-adjust",
@@ -5760,11 +6950,25 @@
           "hanViet": "hô hấp",
           "meaningVn": "dần dần ăn ý",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "새 상사로부터 중요한 업무를 맡게 되다",
+          "reading": "sae sangsaroburo jungyohan eommureul matge doeda",
+          "hanViet": "trọng yếu nghiệp vụ",
+          "meaningVn": "được giao phó công việc quan trọng từ sếp mới",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "믿음직한 오른팔이 되다",
+          "reading": "mideumjikhan oreunpari doeda",
+          "hanViet": null,
+          "meaningVn": "trở thành cánh tay phải đáng tin cậy",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Phong cách quản lý của sếp mới khác biệt, lúc đầu tôi rất không thích nghi được, chủ động giao tiếp điều chỉnh, dần dần tìm được sự ăn ý.",
-      "example": "새 상사의 관리 방식이 달라서 처음에는 적응이 안 됐어요. 적극적으로 소통해서 점점 호흡이 맞았어요.",
-      "note": "Mục 11.9 mở rộng round 24 — dạng công sở/thích nghi, bổ sung ko-scenario-first-day-new-job. 방식 (phương thức) và 소통 (sơ thông) khớp hoàn hảo. 호흡이 맞다 (nghĩa đen 'hơi thở khớp nhau') cùng ẩn dụ với 息が合う tiếng Nhật cho 'ăn ý'."
+      "exampleVn": "Phong cách quản lý của sếp mới khác biệt, lúc đầu tôi rất không thích nghi được, chủ động giao tiếp điều chỉnh, dần dần tìm được sự ăn ý, được sếp giao cho nhiệm vụ quan trọng, và trở thành cánh tay phải đáng tin cậy.",
+      "example": "새 상사의 관리 방식이 달라서 처음에는 적응이 안 됐어요. 적극적으로 소통해서 점점 호흡이 맞았어요. 새 상사로부터 중요한 업무를 맡게 되었고 믿음직한 오른팔이 되었어요.",
+      "note": "Mục 11.9 mở rộng round 24 — dạng công sở/thích nghi, bổ sung ko-scenario-first-day-new-job. 방식 (phương thức) và 소통 (sơ thông) khớp hoàn hảo. 호흡이 맞다 (nghĩa đen 'hơi thở khớp nhau') cùng ẩn dụ với 息が合う tiếng Nhật cho 'ăn ý'. [Round 19 mở rộng 4→6 bước]"
     },
     {
       "id": "ko-scenario-jet-lag-overcome",
@@ -5798,11 +7002,25 @@
           "hanViet": "chính thường",
           "meaningVn": "cuối cùng trở lại bình thường",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "경험을 다음 여행에 활용하다",
+          "reading": "gyeongheomeul daeum yeohaenge hwaryonghada",
+          "hanViet": "kinh nghiệm hoạt dụng",
+          "meaningVn": "tận dụng kinh nghiệm cho chuyến đi lần sau",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "이제는 시차 대처법에 익숙해지다",
+          "reading": "ijeneun sicha daecheobeobe ikssukhaejida",
+          "hanViet": "đối xử pháp",
+          "meaningVn": "giờ đây đã quen với cách đối phó lệch múi giờ",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Sau chuyến bay dài, tôi bị lệch múi giờ rất nghiêm trọng, đêm không ngủ được ngày lại buồn ngủ, dần dần điều chỉnh giờ giấc sinh hoạt, cuối cùng trở lại bình thường.",
-      "example": "장시간 비행 후 시차 적응이 심했는데 밤에 잠을 못 자고 낮에 졸렸어요. 점점 생활 리듬을 조절해서 드디어 정상으로 돌아왔어요.",
-      "note": "Mục 11.9 mở rộng round 24 — dạng du lịch/sức khỏe, bổ sung ko-scenario-flight-missed-rebook. 시차 (thời sai) khớp hoàn hảo, giống hệt ZH/JA — hiếm có cụm khớp trọn vẹn cả 3 ngôn ngữ."
+      "exampleVn": "Sau chuyến bay dài, tôi bị lệch múi giờ rất nghiêm trọng, đêm không ngủ được ngày lại buồn ngủ, dần dần điều chỉnh giờ giấc sinh hoạt, cuối cùng trở lại bình thường, rút kinh nghiệm để chuẩn bị tốt hơn cho lần sau, và giờ đây tôi đã thành thạo cách đối phó với lệch múi giờ.",
+      "example": "장시간 비행 후 시차 적응이 심했는데 밤에 잠을 못 자고 낮에 졸렸어요. 점점 생활 리듬을 조절해서 드디어 정상으로 돌아왔어요. 경험을 다음 여행에 활용했고 이제는 시차 대처법에 익숙해졌어요.",
+      "note": "Mục 11.9 mở rộng round 24 — dạng du lịch/sức khỏe, bổ sung ko-scenario-flight-missed-rebook. 시차 (thời sai) khớp hoàn hảo, giống hệt ZH/JA — hiếm có cụm khớp trọn vẹn cả 3 ngôn ngữ. [Round 19 mở rộng 4→6 bước]"
     },
     {
       "id": "ko-scenario-forgive-yourself",
@@ -5836,11 +7054,25 @@
           "hanViet": "bình ổn",
           "meaningVn": "tâm hồn cuối cùng bình yên",
           "pos": "adjective"
+        },
+        {
+          "headword": "과거를 담담하게 돌아볼 수 있게 되다",
+          "reading": "gwageoreul damdamhage dorabol su itge doeda",
+          "hanViet": "đạm đạm",
+          "meaningVn": "có thể nhìn lại quá khứ một cách điềm tĩnh",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "다른 사람의 실수에도 관대해지다",
+          "reading": "dareun saramui silsuedo gwandaehaejida",
+          "hanViet": "khoan đại",
+          "meaningVn": "trở nên khoan dung hơn với lỗi lầm của người khác",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Tôi luôn không thể tha thứ cho lỗi lầm của bản thân, mang gánh nặng cảm giác day dứt, dần dần học cách tự tha thứ cho bản thân, nội tâm cuối cùng bình yên.",
-      "example": "자신의 잘못을 계속 용서하지 못했는데 무거운 죄책감을 가졌어요. 점점 자신을 용서할 수 있게 되어서 마음이 드디어 평온해졌어요.",
-      "note": "Mục 11.9 mở rộng round 24 — dạng sức khỏe tinh thần/tự tha thứ, bổ sung ko-scenario-start-therapy. 죄책감 (tội trách cảm) khớp khá tốt, khác cấu tạo 罪悪感/tội ác cảm tiếng Nhật — 2 cách ghép khác nhau cho 'cảm giác tội lỗi'. 용서 (dung thứ) tái dùng nhất quán."
+      "exampleVn": "Tôi luôn không thể tha thứ cho lỗi lầm của bản thân, mang gánh nặng cảm giác day dứt, dần dần học cách tự tha thứ cho bản thân, nội tâm cuối cùng bình yên, có thể nhìn lại quá khứ mà không còn đau đớn, và trở nên bao dung hơn với lỗi lầm của người khác.",
+      "example": "자신의 잘못을 계속 용서하지 못했는데 무거운 죄책감을 가졌어요. 점점 자신을 용서할 수 있게 되어서 마음이 드디어 평온해졌어요. 과거를 담담하게 돌아볼 수 있게 되었고 다른 사람의 실수에도 관대해졌어요.",
+      "note": "Mục 11.9 mở rộng round 24 — dạng sức khỏe tinh thần/tự tha thứ, bổ sung ko-scenario-start-therapy. 죄책감 (tội trách cảm) khớp khá tốt, khác cấu tạo 罪悪感/tội ác cảm tiếng Nhật — 2 cách ghép khác nhau cho 'cảm giác tội lỗi'. 용서 (dung thứ) tái dùng nhất quán. [Round 19 mở rộng 4→6 bước]"
     },
     {
       "id": "ko-scenario-ancestry-research",
@@ -5874,11 +7106,25 @@
           "hanViet": "lý giải",
           "meaningVn": "hiểu rõ hơn về gốc rễ của mình",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "한 번도 만난 적 없는 먼 친척과 연락이 되다",
+          "reading": "han beondo mannan jeok eomneun meon chincheokgwa yeollagi doeda",
+          "hanViet": "thân thích liên lạc",
+          "meaningVn": "liên lạc được với họ hàng xa chưa từng gặp",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "가족의 역사에 자부심을 느끼다",
+          "reading": "gajogui yeoksae jabusimeul neukkida",
+          "hanViet": "tự phụ tâm",
+          "meaningVn": "cảm thấy tự hào về lịch sử gia đình",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Tôi bắt đầu nghiên cứu lịch sử gia tộc, lật xem gia phả cổ xưa, phát hiện những câu chuyện không ngờ tới, hiểu rõ hơn về cội nguồn của mình.",
-      "example": "가족의 역사를 조사하기 시작해서 오래된 족보를 살펴봤어요. 뜻밖의 이야기를 발견해서 자신의 뿌리를 더 이해했어요.",
-      "note": "Mục 11.9 mở rộng round 24 — dạng gia đình/cội nguồn, bổ sung ko-scenario-old-family-photos-find. 족보 (tộc phổ) khớp hoàn hảo với 族谱 tiếng Trung, khác 家系図/gia hệ đồ tiếng Nhật. 조사 (điều tra) khớp hoàn hảo với tiếng Việt."
+      "exampleVn": "Tôi bắt đầu nghiên cứu lịch sử gia tộc, lật xem gia phả cổ xưa, phát hiện những câu chuyện không ngờ tới, hiểu rõ hơn về cội nguồn của mình, liên lạc được với họ hàng xa chưa từng gặp mặt, và cảm thấy tự hào về lịch sử gia đình mình.",
+      "example": "가족의 역사를 조사하기 시작해서 오래된 족보를 살펴봤어요. 뜻밖의 이야기를 발견해서 자신의 뿌리를 더 이해했어요. 한 번도 만난 적 없는 먼 친척과 연락이 되었고 가족의 역사에 자부심을 느꼈어요.",
+      "note": "Mục 11.9 mở rộng round 24 — dạng gia đình/cội nguồn, bổ sung ko-scenario-old-family-photos-find. 족보 (tộc phổ) khớp hoàn hảo với 族谱 tiếng Trung, khác 家系図/gia hệ đồ tiếng Nhật. 조사 (điều tra) khớp hoàn hảo với tiếng Việt. [Round 19 mở rộng 4→6 bước]"
     },
     {
       "id": "ko-scenario-long-road-trip-alone",
@@ -5912,11 +7158,25 @@
           "hanViet": "vô sự mục đích địa",
           "meaningVn": "đến nơi an toàn",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "혼자 해냈다는 것에 자부심을 느끼다",
+          "reading": "honja haenaettdaneun geose jabusimeul neukkida",
+          "hanViet": "tự phụ tâm",
+          "meaningVn": "cảm thấy tự hào vì đã tự mình làm được",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "다음엔 더 먼 여행을 계획하기 시작하다",
+          "reading": "daeumen deo meon yeohaengeul gyehoekhagi sijakhada",
+          "hanViet": "kế hoạch",
+          "meaningVn": "bắt đầu lên kế hoạch cho chuyến đi xa hơn",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Lần đầu tiên tôi một mình lái xe đường dài, giữa đường có chút sợ hãi, nghe nhạc để thư giãn tâm trạng, đến nơi an toàn.",
-      "example": "처음으로 혼자 장거리 운전을 했는데 가는 도중 조금 무서웠어요. 음악을 들으며 긴장을 풀어서 무사히 목적지에 도착했어요.",
-      "note": "Mục 11.9 mở rộng round 25 — dạng du lịch/độc lập, bổ sung ko-scenario-driving-test. 장거리 (trường cự ly) khớp với 長距離 tiếng Nhật. 목적지 (mục đích địa) khớp hoàn hảo cả 3 ngôn ngữ."
+      "exampleVn": "Lần đầu tiên tôi một mình lái xe đường dài, giữa đường có chút sợ hãi, nghe nhạc để thư giãn tâm trạng, đến nơi an toàn, cảm thấy tự hào vì đã tự mình làm được, và bắt đầu lên kế hoạch cho chuyến đi xa hơn tiếp theo.",
+      "example": "처음으로 혼자 장거리 운전을 했는데 가는 도중 조금 무서웠어요. 음악을 들으며 긴장을 풀어서 무사히 목적지에 도착했어요. 혼자 해냈다는 것에 자부심을 느꼈고 다음엔 더 먼 여행을 계획하기 시작했어요.",
+      "note": "Mục 11.9 mở rộng round 25 — dạng du lịch/độc lập, bổ sung ko-scenario-driving-test. 장거리 (trường cự ly) khớp với 長距離 tiếng Nhật. 목적지 (mục đích địa) khớp hoàn hảo cả 3 ngôn ngữ. [Round 20 mở rộng 4→6 bước]"
     },
     {
       "id": "ko-scenario-help-friend-crisis",
@@ -5950,11 +7210,25 @@
           "hanViet": "khắc phục",
           "meaningVn": "giúp bạn vượt qua khó khăn",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "시련을 통해 우정이 깊어지다",
+          "reading": "siryeoneul tonghae ujeongi gipeojida",
+          "hanViet": "thí luyện hữu tình",
+          "meaningVn": "tình bạn trở nên sâu sắc hơn qua thử thách",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "진정한 우정의 의미를 깨닫다",
+          "reading": "jinjeonghan ujeongui uimireul kkaedatda",
+          "hanViet": "chân chính hữu tình ý nghĩa",
+          "meaningVn": "nhận ra ý nghĩa thật sự của tình bạn",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Bạn tôi gặp khủng hoảng, tôi gác lại việc đang làm để ở bên, lặng lẽ lắng nghe, giúp bạn vượt qua khó khăn.",
-      "example": "친구가 위기에 처해서 하던 일을 미루고 곁에 있었어요. 조용히 귀 기울이고 친구가 어려움을 극복하도록 도왔어요.",
-      "note": "Mục 11.9 mở rộng round 25 — dạng tình bạn/hỗ trợ tinh thần, bổ sung ko-scenario-friend-broken-promise. 위기 (nguy cơ) khớp hoàn hảo. 귀 기울이다 (nghĩa đen 'nghiêng tai') cùng ẩn dụ với 耳を傾ける tiếng Nhật. Câu tự nhiên né 곤란/khốn nạn bằng 어려움 thuần Hàn."
+      "exampleVn": "Bạn tôi gặp khủng hoảng, tôi gác lại việc đang làm để ở bên, lặng lẽ lắng nghe, giúp bạn vượt qua khó khăn, tình bạn trở nên sâu sắc hơn qua thử thách đó, và tôi nhận ra ý nghĩa thật sự của tình bạn.",
+      "example": "친구가 위기에 처해서 하던 일을 미루고 곁에 있었어요. 조용히 귀 기울이고 친구가 어려움을 극복하도록 도왔어요. 시련을 통해 우정이 깊어졌고 진정한 우정의 의미를 깨달았어요.",
+      "note": "Mục 11.9 mở rộng round 25 — dạng tình bạn/hỗ trợ tinh thần, bổ sung ko-scenario-friend-broken-promise. 위기 (nguy cơ) khớp hoàn hảo. 귀 기울이다 (nghĩa đen 'nghiêng tai') cùng ẩn dụ với 耳を傾ける tiếng Nhật. Câu tự nhiên né 곤란/khốn nạn bằng 어려움 thuần Hàn. [Round 20 mở rộng 4→6 bước]"
     },
     {
       "id": "ko-scenario-lottery-win-responsible",
@@ -5988,11 +7262,25 @@
           "hanViet": "hiền minh kế hoạch",
           "meaningVn": "lên kế hoạch sử dụng khôn ngoan",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "일부를 기부해 자선 활동을 하다",
+          "reading": "ilbureul gibuhae jaseon hwaldongeul hada",
+          "hanViet": "kỷ phó tự thiện hoạt động",
+          "meaningVn": "quyên góp một phần cho hoạt động từ thiện",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "생활은 크게 변하지 않고 소박함을 유지하다",
+          "reading": "saenghwareun keuge byeonhaji ango sobakhameul yujihada",
+          "hanViet": "sơ phác duy trì",
+          "meaningVn": "cuộc sống không thay đổi nhiều, vẫn giữ nếp giản dị",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Tôi trúng giải lớn, lúc đầu không biết làm gì, tham khảo ý kiến chuyên gia tài chính, lên kế hoạch sử dụng một cách lý trí.",
-      "example": "복권에 당첨돼서 처음에는 어쩔 줄 몰랐어요. 재무 전문가와 상담해서 현명하게 사용 계획을 세웠어요.",
-      "note": "Mục 11.9 mở rộng round 25 — dạng tài chính cá nhân/may mắn, bổ sung ko-scenario-first-time-investing. 재무 (tài vụ) và 계획 (kế hoạch) khớp hoàn hảo. 현명 (hiền minh) là từ đẹp cho 'khôn ngoan, sáng suốt'."
+      "exampleVn": "Tôi trúng giải lớn, lúc đầu không biết làm gì, tham khảo ý kiến chuyên gia tài chính, lên kế hoạch sử dụng một cách lý trí, quyên góp một phần cho hoạt động từ thiện, và cuộc sống của tôi không thay đổi quá nhiều, vẫn giữ nếp sống giản dị.",
+      "example": "복권에 당첨돼서 처음에는 어쩔 줄 몰랐어요. 재무 전문가와 상담해서 현명하게 사용 계획을 세웠어요. 일부를 기부해 자선 활동을 했고 생활은 크게 변하지 않고 소박함을 유지했어요.",
+      "note": "Mục 11.9 mở rộng round 25 — dạng tài chính cá nhân/may mắn, bổ sung ko-scenario-first-time-investing. 재무 (tài vụ) và 계획 (kế hoạch) khớp hoàn hảo. 현명 (hiền minh) là từ đẹp cho 'khôn ngoan, sáng suốt'. [Round 20 mở rộng 4→6 bước]"
     },
     {
       "id": "ko-scenario-empty-nest-syndrome",
@@ -6026,11 +7314,25 @@
           "hanViet": "trung tâm",
           "meaningVn": "dần dần tìm trọng tâm cuộc sống mới",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "오랫동안 잊고 있던 취미를 다시 시작하다",
+          "reading": "oraetdongan itgo ittdeon chwimireul dasi sijakhada",
+          "hanViet": "thú vị",
+          "meaningVn": "bắt đầu lại sở thích đã quên từ lâu",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "부부 관계가 더 돈독해지다",
+          "reading": "bubu gwangyega deo dondokhaejida",
+          "hanViet": "phu phụ quan hệ",
+          "meaningVn": "mối quan hệ vợ chồng trở nên gắn kết hơn",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Con tôi rời nhà đi học đại học, nhà bỗng trở nên rất yên tĩnh, tôi cảm thấy hụt hẫng và không quen, dần dần xây dựng trọng tâm cuộc sống mới.",
-      "example": "자녀가 집을 떠나 대학에 가서 갑자기 집이 조용해졌어요. 허전함을 느꼈지만 점점 새로운 삶의 중심을 찾았어요.",
-      "note": "Mục 11.9 mở rộng round 25 — dạng gia đình/hội chứng tổ trống, bổ sung ko-scenario-retirement-day. 자녀 (tử nữ) khớp tốt với 'con cái'. 허전함 là từ thuần Hàn đặc trưng diễn tả 'cảm giác trống trải', khác 失落/thất lạc (false-friend) tiếng Trung. 중심 (trung tâm) khớp hoàn hảo."
+      "exampleVn": "Con tôi rời nhà đi học đại học, nhà bỗng trở nên rất yên tĩnh, tôi cảm thấy hụt hẫng và không quen, dần dần xây dựng trọng tâm cuộc sống mới, tìm lại sở thích cũ đã bỏ quên từ lâu, và mối quan hệ vợ chồng của chúng tôi trở nên gắn kết hơn.",
+      "example": "자녀가 집을 떠나 대학에 가서 갑자기 집이 조용해졌어요. 허전함을 느꼈지만 점점 새로운 삶의 중심을 찾았어요. 오랫동안 잊고 있던 취미를 다시 시작했고 부부 관계가 더 돈독해졌어요.",
+      "note": "Mục 11.9 mở rộng round 25 — dạng gia đình/hội chứng tổ trống, bổ sung ko-scenario-retirement-day. 자녀 (tử nữ) khớp tốt với 'con cái'. 허전함 là từ thuần Hàn đặc trưng diễn tả 'cảm giác trống trải', khác 失落/thất lạc (false-friend) tiếng Trung. 중심 (trung tâm) khớp hoàn hảo. [Round 20 mở rộng 4→6 bước]"
     },
     {
       "id": "ko-scenario-disability-adapt-after-accident",
@@ -6064,11 +7366,25 @@
           "hanViet": "dũng khí",
           "meaningVn": "tìm lại dũng khí để sống",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "비슷한 처지의 사람들을 만나 힘을 얻다",
+          "reading": "biseutan cheojiui saramdeureul manna himeul eotda",
+          "hanViet": null,
+          "meaningVn": "gặp gỡ người có hoàn cảnh tương tự để nhận được sức mạnh",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "이제는 예전 못지않게 충실한 삶을 살다",
+          "reading": "ijeneun yejeon motjianke chungsilhan salmeul salda",
+          "hanViet": "sung thực",
+          "meaningVn": "giờ đây sống một cuộc đời sung túc không kém trước kia",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Sau tai nạn xe tôi mất đi đôi chân, một thời gian rơi vào tuyệt vọng, học cách sử dụng xe lăn, tìm lại được dũng khí sống.",
-      "example": "사고로 두 다리를 잃고 한동안 절망했어요. 휠체어 사용법을 배우면서 다시 살아갈 용기를 찾았어요.",
-      "note": "Mục 11.9 mở rộng round 25 — dạng nghị lực sống/khuyết tật. 사고 (sự cố) khớp hoàn hảo với 事故 tiếng Nhật, khác 车祸/xa họa tiếng Trung. 절망(tuyệt vọng)/용기(dũng khí) khớp hoàn hảo."
+      "exampleVn": "Sau tai nạn xe tôi mất đi đôi chân, một thời gian rơi vào tuyệt vọng, học cách sử dụng xe lăn, tìm lại được dũng khí sống, gặp gỡ những người có hoàn cảnh tương tự để được động viên, và giờ đây tôi sống một cuộc đời trọn vẹn không kém trước kia.",
+      "example": "사고로 두 다리를 잃고 한동안 절망했어요. 휠체어 사용법을 배우면서 다시 살아갈 용기를 찾았어요. 비슷한 처지의 사람들을 만나 힘을 얻었고 이제는 예전 못지않게 충실한 삶을 살고 있어요.",
+      "note": "Mục 11.9 mở rộng round 25 — dạng nghị lực sống/khuyết tật. 사고 (sự cố) khớp hoàn hảo với 事故 tiếng Nhật, khác 车祸/xa họa tiếng Trung. 절망(tuyệt vọng)/용기(dũng khí) khớp hoàn hảo. [Round 20 mở rộng 4→6 bước]"
     },
     {
       "id": "ko-scenario-social-anxiety-party-overcome",
@@ -7631,7 +8947,7 @@
     {
       "id": "ko-scenario-weight-loss-journey",
       "kind": "scenario-chain",
-      "titleVn": "Khám sức khỏe phát hiện cân nặng vượt quá nhiều, lập kế hoạch ăn uống vận động rồi giảm 20kg thành công",
+      "titleVn": "Khám sức khỏe phát hiện cân nặng vượt chuẩn, lập kế hoạch rồi giảm 20kg thành công, mua đồ mới và duy trì thói quen tập luyện",
       "nodes": [
         {
           "headword": "건강검진에서 체중이 심하게 초과된 것을 알다",
@@ -7660,11 +8976,25 @@
           "hanViet": "giảm lượng thành công",
           "meaningVn": "sau 1 năm thành công giảm 20kg (loanword: kilogram)",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "몸에 맞는 새 옷을 사다",
+          "reading": "mome matneun sae os-eul sada",
+          "hanViet": null,
+          "meaningVn": "mua quần áo mới vừa vặn",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "운동 습관을 유지하다",
+          "reading": "undong seupgwan-eul yujihada",
+          "hanViet": "duy trì",
+          "meaningVn": "duy trì thói quen tập luyện",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Khám sức khỏe tôi phát hiện cân nặng vượt chuẩn nghiêm trọng, lập kế hoạch ăn uống và vận động, giữa chừng nhiều lần muốn từ bỏ, sau 1 năm giảm thành công 20kg.",
-      "example": "건강검진에서 체중이 심하게 초과된 것을 알았어요. 식단과 운동 계획을 세웠는데 중간에 몇 번이나 포기하고 싶었어요. 일 년 후 이십 킬로그램 감량에 성공했어요.",
-      "note": "Mục 11.9 mở rộng round 32 — PHÁT HIỆN 3 CÁCH GỌI KHÁC NHAU cho 'giữa chừng': 中途/trung đồ (ZH), 途中/đồ trung (JA, đảo ngược), 중간/trung gian (KO, cấu tạo hoàn toàn khác — 中間 chứ không phải 中途/途中). 감량 (giảm lượng) khớp chính xác với tiếng Nhật 減量/감량."
+      "exampleVn": "Khám sức khỏe phát hiện cân nặng vượt chuẩn nghiêm trọng, lập kế hoạch ăn uống và vận động, giữa chừng nhiều lần muốn từ bỏ, sau 1 năm giảm thành công 20kg, mua quần áo mới vừa vặn, và duy trì thói quen tập luyện.",
+      "example": "건강검진에서 체중이 심하게 초과된 것을 알고, 식단과 운동 계획을 세우고, 중간에 몇 번이나 포기하고 싶었지만, 일 년 후 이십 킬로그램 감량에 성공하고, 몸에 맞는 새 옷을 사고, 운동 습관을 유지하고 있다.",
+      "note": "Mục 11.9 mở rộng round 32 — PHÁT HIỆN 3 CÁCH GỌI KHÁC NHAU cho 'giữa chừng': 中途/trung đồ (ZH), 途中/đồ trung (JA, đảo ngược), 중간/trung gian (KO, cấu tạo hoàn toàn khác — 中間 chứ không phải 中途/途中). 감량 (giảm lượng) khớp chính xác với tiếng Nhật 減量/감량. Mở rộng round 2 — thêm 'mua đồ mới vừa vặn' và 'duy trì thói quen tập luyện', 2 hệ quả thực tế thường gặp sau khi giảm cân thành công (thưởng cho bản thân + tránh tăng cân lại)."
     },
     {
       "id": "ko-scenario-retirement-volunteer-purpose",
