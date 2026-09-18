@@ -1,15 +1,16 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 
-const VALID_LANGS = ["zh", "ja", "ko", "en", "mixed"] as const;
+const VALID_LANGS = ["zh", "ja", "ko", "en", "es", "mixed"] as const;
 type TestLang = (typeof VALID_LANGS)[number];
 
-const LANG_ICON: Record<TestLang, string> = { zh: "🇨🇳", ko: "🇰🇷", ja: "🇯🇵", en: "🇬🇧", mixed: "🌐" };
+const LANG_ICON: Record<TestLang, string> = { zh: "🇨🇳", ko: "🇰🇷", ja: "🇯🇵", en: "🇬🇧", es: "🇪🇸", mixed: "🌐" };
 const LANG_LABEL: Record<TestLang, string> = {
   zh: "Tiếng Trung",
   ko: "Tiếng Hàn",
   ja: "Tiếng Nhật",
   en: "Tiếng Anh",
+  es: "Tiếng Tây Ban Nha",
   mixed: "Trộn ngôn ngữ",
 };
 
