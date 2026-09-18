@@ -1,4 +1,4 @@
-export type Language = "zh" | "ko" | "ja" | "en";
+export type Language = "zh" | "ko" | "ja" | "en" | "es";
 
 export interface VocabWord {
   id: string;
