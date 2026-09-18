@@ -584,7 +584,7 @@ export default function MindmapCanvas({
             >
               <div className="text-2xl font-bold whitespace-nowrap text-ink">{group.reading}</div>
               <div className="mt-0.5 text-xs text-ink-muted">
-                {group.language === "en"
+                {group.language === "en" || group.language === "es"
                   ? group.groupKind === "shape"
                     ? `${group.roots.length} từ dễ nhầm`
                     : `${group.roots.length} gốc từ`
@@ -882,6 +882,7 @@ export default function MindmapCanvas({
 
       {group.groupKind !== "shape" &&
         group.language !== "en" &&
+        group.language !== "es" &&
         (pendingFindNewRoot ? (
           <div className="mt-3 flex flex-wrap items-center gap-2 text-sm">
             <span className="text-ink-muted">Tìm chữ đồng âm mới bằng AI?</span>
