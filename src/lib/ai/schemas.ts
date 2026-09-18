@@ -81,12 +81,87 @@ export const GrammarExampleSchema = z.object({
   note: z.string().optional().describe("Ghi chú ngắn giải thích vì sao câu này minh hoạ đúng cấu trúc, có thể để trống"),
 });
 
+/** AI cho theme "🧠 Giải thích sâu & mẹo nhớ" (answer-card) — khác "quick-dict" ở chỗ đào sâu sắc
+ * thái/ngữ cảnh dùng thay vì chỉ tra nghĩa, kèm mẹo nhớ. */
+export const ExplainMnemonicSchema = z.object({
+  headword: z.string().min(1),
+  reading: z.string().min(1),
+  meaningVn: z.string().min(1).describe("Nghĩa tiếng Việt ngắn gọn"),
+  explanationVn: z
+    .string()
+    .min(1)
+    .describe(
+      "Giải thích sâu bằng tiếng Việt: sắc thái, ngữ cảnh/tình huống nên dùng từ này, và (nếu có từ gần nghĩa dễ nhầm) khi nào nên dùng từ này thay vì từ đó.",
+    ),
+  mnemonicVn: z.string().min(1).describe("Mẹo nhớ ngắn gọn bằng tiếng Việt dựa trên âm đọc và/hoặc hình ảnh liên tưởng."),
+});
+
+/** AI cho theme "📝 Thêm ví dụ" (answer-card) — nhiều câu ví dụ ở NHIỀU ngữ cảnh khác nhau cho 1 từ. */
+export const ExampleSetSchema = z.object({
+  headword: z.string().min(1),
+  reading: z.string().min(1),
+  meaningVn: z.string().min(1),
+  examples: z
+    .array(
+      z.object({
+        sentence: z.string().min(1).describe("Câu ví dụ tự nhiên dùng từ này"),
+        translationVn: z.string().min(1).describe("Bản dịch tiếng Việt của câu ví dụ"),
+        contextVn: z.string().optional().describe("Ngắn gọn: ngữ cảnh/tình huống của câu này (vd 'văn nói thân mật', 'email công việc'), có thể để trống"),
+      }),
+    )
+    .min(3)
+    .max(4)
+    .describe("3-4 câu ví dụ ở CÁC ngữ cảnh/sắc thái KHÁC nhau, không lặp lại cùng 1 kiểu câu"),
+});
+
+/** AI cho theme "🔗 Từ đồng nghĩa" (answer-card) — các từ gần nghĩa kèm khác biệt sắc thái, KHÔNG
+ * phải mindmap cây như theme "synonym-family" đã có (theme đó tạo group mới, theme này chỉ tra cứu
+ * nhanh và lưu vào lịch sử "Mới thêm"). */
+export const SynonymSetSchema = z.object({
+  headword: z.string().min(1),
+  reading: z.string().min(1),
+  meaningVn: z.string().min(1),
+  synonyms: z
+    .array(
+      z.object({
+        word: z.string().min(1),
+        reading: z.string().min(1),
+        nuanceVn: z.string().min(1).describe("Khác biệt sắc thái/mức độ trang trọng/ngữ cảnh dùng so với từ gốc, bằng tiếng Việt"),
+      }),
+    )
+    .min(3)
+    .max(5)
+    .describe("3-5 từ gần nghĩa THỰC SỰ tồn tại, không phải đồng nghĩa tuyệt đối — mỗi từ phải khác sắc thái theo cách riêng"),
+});
+
+/** AI cho theme "🧩 Cụm từ đi cùng" (answer-card) — collocation: các cụm từ/tổ hợp thông dụng có
+ * chứa từ gốc, khác "Thêm ví dụ" ở chỗ đây là CỤM TỪ ngắn (không phải câu hoàn chỉnh). */
+export const CollocationSetSchema = z.object({
+  headword: z.string().min(1),
+  reading: z.string().min(1),
+  meaningVn: z.string().min(1),
+  collocations: z
+    .array(
+      z.object({
+        phrase: z.string().min(1).describe("Cụm từ/tổ hợp thông dụng có chứa từ gốc (KHÔNG phải câu hoàn chỉnh)"),
+        meaningVn: z.string().min(1).describe("Nghĩa tiếng Việt ngắn gọn của cả cụm"),
+      }),
+    )
+    .min(4)
+    .max(6)
+    .describe("4-6 cụm từ/tổ hợp THỰC SỰ thông dụng đi kèm từ gốc trong giao tiếp thực tế"),
+});
+
 export type ExpandRootResult = z.infer<typeof ExpandRootSchema>;
 export type NewRootResult = z.infer<typeof NewRootSchema>;
 export type QuickDictResult = z.infer<typeof QuickDictSchema>;
 export type EtymologyResult = z.infer<typeof EtymologySchema>;
 export type MnemonicResult = z.infer<typeof MnemonicSchema>;
 export type GrammarExampleResult = z.infer<typeof GrammarExampleSchema>;
+export type ExplainMnemonicResult = z.infer<typeof ExplainMnemonicSchema>;
+export type ExampleSetResult = z.infer<typeof ExampleSetSchema>;
+export type SynonymSetResult = z.infer<typeof SynonymSetSchema>;
+export type CollocationSetResult = z.infer<typeof CollocationSetSchema>;
 
 export const WORD_JSON_SHAPE_HINT = [
   "Mỗi từ trong mảng words PHẢI đúng dạng JSON sau (không thêm field khác, không dùng markdown code fence):",
@@ -106,3 +181,11 @@ export const QUICK_DICT_JSON_SHAPE_HINT = `Trả lời CHỈ một JSON object d
 export const ETYMOLOGY_JSON_SHAPE_HINT = `Trả lời CHỈ một JSON object dạng: {"headword": "...", "reading": "...", "radical": "...", "radicalMeaningVn": "...", "componentsVn": "...", "explanationVn": "...", "mnemonicVn": "..."} (không thêm field khác, không dùng markdown code fence).`;
 
 export const GRAMMAR_EXAMPLE_JSON_SHAPE_HINT = `Trả lời CHỈ một JSON object dạng: {"sentence": "...", "translationVn": "...", "note": "..."} (note có thể để chuỗi rỗng nếu không cần, không thêm field khác, không dùng markdown code fence).`;
+
+export const EXPLAIN_MNEMONIC_JSON_SHAPE_HINT = `Trả lời CHỈ một JSON object dạng: {"headword": "...", "reading": "...", "meaningVn": "...", "explanationVn": "...", "mnemonicVn": "..."} (không thêm field khác, không dùng markdown code fence).`;
+
+export const EXAMPLE_SET_JSON_SHAPE_HINT = `Trả lời CHỈ một JSON object dạng: {"headword": "...", "reading": "...", "meaningVn": "...", "examples": [{"sentence": "...", "translationVn": "...", "contextVn": "..."}, ...]} (mảng examples có 3-4 phần tử, contextVn có thể để chuỗi rỗng, không thêm field khác, không dùng markdown code fence).`;
+
+export const SYNONYM_SET_JSON_SHAPE_HINT = `Trả lời CHỈ một JSON object dạng: {"headword": "...", "reading": "...", "meaningVn": "...", "synonyms": [{"word": "...", "reading": "...", "nuanceVn": "..."}, ...]} (mảng synonyms có 3-5 phần tử, không thêm field khác, không dùng markdown code fence).`;
+
+export const COLLOCATION_SET_JSON_SHAPE_HINT = `Trả lời CHỈ một JSON object dạng: {"headword": "...", "reading": "...", "meaningVn": "...", "collocations": [{"phrase": "...", "meaningVn": "..."}, ...]} (mảng collocations có 4-6 phần tử, không thêm field khác, không dùng markdown code fence).`;
