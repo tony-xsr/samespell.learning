@@ -5,6 +5,7 @@ import koTopics from "../../data/ko-topics.json";
 import jaTopics from "../../data/ja-topics.json";
 import zhTopics from "../../data/zh-topics.json";
 import enTopics from "../../data/en-topics.json";
+import esTopics from "../../data/es-topics.json";
 
 // Thử nghiệm: dữ liệu chủ đề tĩnh hoàn toàn (chưa nối AI/KV như vocabStore) — mở rộng thêm ngôn ngữ
 // hoặc AI-generate sau khi chốt cấu trúc mindmap chủ đề.
@@ -15,6 +16,8 @@ const STATIC_TOPIC_DATA: Partial<Record<Language, TopicLanguageData>> = {
   // Tiếng Anh: chủ đề tập trung từ vựng IELTS 6.5-9.0 (môi trường, giáo dục, công nghệ, toàn cầu hóa)
   // thay vì đời sống thường nhật như ko/ja/zh — xem Features.md mục 15.
   en: enTopics as TopicLanguageData,
+  // Tiếng Tây Ban Nha: chủ đề đời sống thường nhật (giống ko/ja/zh) chứ không phải phong cách IELTS.
+  es: esTopics as TopicLanguageData,
 };
 
 export function getTopicLanguageData(lang: string): TopicLanguageData | undefined {
