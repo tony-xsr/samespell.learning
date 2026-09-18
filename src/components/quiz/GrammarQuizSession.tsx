@@ -22,15 +22,17 @@ const QUESTION_COPY: Record<GrammarQuizMode, string> = {
   usage: "Câu này minh hoạ cho cấu trúc nào?",
 };
 
-const LANG_FLAG: Record<Language, string> = { zh: "🇨🇳", ja: "🇯🇵", ko: "🇰🇷", en: "🇬🇧" };
+const LANG_FLAG: Record<Language, string> = { zh: "🇨🇳", ja: "🇯🇵", ko: "🇰🇷", en: "🇬🇧", es: "🇪🇸" };
 
 // Mỗi giá trị là 1 chuỗi class Tailwind ĐẦY ĐỦ, viết tĩnh để trình quét nội dung Tailwind nhận diện
 // được — giống hệt bảng màu bên `QuizSession.tsx` (từ vựng) để 2 khu vực trắc nghiệm nhất quán.
+// "es" không thực sự dùng ở đây (grammar quiz chỉ có ko/ja) nhưng Record<Language,...> buộc khai báo.
 const GRADIENT: Record<Language, string> = {
   zh: "from-red-600 via-red-500 to-amber-500",
   ja: "from-rose-500 via-pink-500 to-indigo-600",
   ko: "from-blue-600 via-indigo-500 to-rose-500",
   en: "from-slate-800 via-slate-700 to-teal-600",
+  es: "from-orange-600 via-red-500 to-yellow-500",
 };
 
 const CONFETTI_EMOJI = ["🎉", "✨", "🎊", "⭐️", "💫", "🥳"];
