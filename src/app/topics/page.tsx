@@ -1,14 +1,15 @@
 import Link from "next/link";
 import { getTopicLanguageData } from "@/lib/topicStore";
 
-const LANG_ICON: Record<string, string> = { zh: "🇨🇳", ko: "🇰🇷", ja: "🇯🇵", en: "🇬🇧" };
+const LANG_ICON: Record<string, string> = { zh: "🇨🇳", ko: "🇰🇷", ja: "🇯🇵", en: "🇬🇧", es: "🇪🇸" };
 const LANG_LABEL: Record<string, string> = {
   ko: "Chủ đề tiếng Hàn",
   ja: "Chủ đề tiếng Nhật",
   zh: "Chủ đề tiếng Trung",
   en: "Chủ đề tiếng Anh (IELTS 6.5-9.0)",
+  es: "Chủ đề tiếng Tây Ban Nha",
 };
-const ALL_LANGS = ["ko", "ja", "zh", "en"] as const;
+const ALL_LANGS = ["ko", "ja", "zh", "en", "es"] as const;
 
 export default function TopicsHome() {
   return (
