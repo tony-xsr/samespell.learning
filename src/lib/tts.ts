@@ -7,6 +7,7 @@ const LOCALE: Record<Language, string> = {
   ko: "ko-KR",
   ja: "ja-JP",
   en: "en-US",
+  es: "es-ES",
 };
 
 /** Locale BCP-47 cho giọng đọc tiếng Việt — dùng ở chế độ tự động đọc để phát nghĩa tiếng Việt to lên. */
