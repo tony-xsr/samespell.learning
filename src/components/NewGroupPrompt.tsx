@@ -38,12 +38,13 @@ const THEMES = [
     key: "word-family",
     label: "🌳 Từ cùng gốc (Latin/Hy Lạp)",
     kind: "group" as const,
-    langs: ["en"] as Language[],
-    description: "Tìm các từ tiếng Anh nâng cao cùng gốc từ nguyên Latin/Hy Lạp.",
-    example: "Ví dụ: extract, attract, subtract đều chứa gốc \"tract\" (kéo, rút).",
+    langs: ["en", "es"] as Language[],
+    description: "Tìm các từ (tiếng Anh nâng cao hoặc tiếng Tây Ban Nha) cùng gốc từ nguyên Latin/Hy Lạp.",
+    example: "Ví dụ: extract, attract, subtract đều chứa gốc \"tract\" (kéo, rút); mantener, sostener, obtener đều chứa gốc \"tener\" (giữ).",
   },
   {
     key: "quick-dict",
+    mode: "quick-explain",
     label: "📖 Giải thích nhanh",
     kind: "card" as const,
     description: "Tra nhanh nghĩa/cách đọc/ví dụ của 1 từ, hiện ngay tại đây.",
@@ -51,11 +52,44 @@ const THEMES = [
   },
   {
     key: "etymology",
+    mode: "etymology",
     label: "🀄 Chiết tự Hán",
     kind: "card" as const,
     langs: ["zh", "ja"] as Language[],
     description: "Phân tích chữ Hán/Kanji thành bộ thủ + thành phần cấu tạo, giải thích vì sao ghép ra nghĩa đó.",
     example: "Ví dụ: 好 = 女 (nữ) + 子 (con) — mẹ bên con là điều tốt lành.",
+  },
+  {
+    key: "explain-mnemonic",
+    mode: "explain-mnemonic",
+    label: "🧠 Giải thích sâu & mẹo nhớ",
+    kind: "card" as const,
+    description: "AI giải thích sắc thái/ngữ cảnh dùng sâu hơn tra nhanh, kèm mẹo nhớ ngay trong cùng 1 lần.",
+    example: "Phù hợp khi đã biết nghĩa cơ bản nhưng muốn hiểu KHI NÀO nên dùng từ này, và cách nhớ lâu.",
+  },
+  {
+    key: "examples",
+    mode: "examples",
+    label: "📝 Thêm ví dụ",
+    kind: "card" as const,
+    description: "Sinh 3-4 câu ví dụ ở nhiều ngữ cảnh/sắc thái khác nhau cho 1 từ.",
+    example: "Ví dụ: 1 câu văn nói thân mật, 1 câu công sở trang trọng, 1 câu viết/email...",
+  },
+  {
+    key: "synonyms",
+    mode: "synonyms",
+    label: "🔗 Từ đồng nghĩa",
+    kind: "card" as const,
+    description: "Tìm các từ gần nghĩa, kèm khác biệt sắc thái so với từ gốc.",
+    example: "KHÔNG tạo mindmap mới — chỉ tra cứu nhanh và lưu vào lịch sử 'Mới thêm'.",
+  },
+  {
+    key: "collocations",
+    mode: "collocations",
+    label: "🧩 Cụm từ đi cùng",
+    kind: "card" as const,
+    description: "Tìm các cụm từ/tổ hợp ngắn thông dụng thường đi cùng từ này.",
+    example: "Khác 'Thêm ví dụ' ở chỗ đây là cụm từ ngắn, không phải câu hoàn chỉnh.",
   },
 ];
 
@@ -124,7 +158,7 @@ export default function NewGroupPrompt({
         const body =
           selected.kind === "group"
             ? { mode: "new-group", language: lang, word: w, existingReadings, theme: selected.key }
-            : { mode: selected.key === "etymology" ? "etymology" : "quick-explain", language: lang, word: w };
+            : { mode: "mode" in selected ? selected.mode : "quick-explain", language: lang, word: w };
         const res = await fetch("/api/generate", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
@@ -196,7 +230,7 @@ export default function NewGroupPrompt({
       })()}
 
       <p className="mt-2 text-xs text-ink-muted">
-        Nhập 1 từ, hoặc nhiều từ cách nhau bằng dấu phẩy (vd {lang === "en" ? "extract, attract" : "峰，风，疯"})
+        Nhập 1 từ, hoặc nhiều từ cách nhau bằng dấu phẩy (vd {lang === "en" ? "extract, attract" : lang === "es" ? "mantener, obtener" : "峰，风，疯"})
         — AI sẽ xử lý theo kiểu đã chọn ở trên.
       </p>
 
@@ -204,7 +238,7 @@ export default function NewGroupPrompt({
         <input
           value={word}
           onChange={(e) => setWord(e.target.value)}
-          placeholder={lang === "en" ? "Ví dụ: extract, portable, inspect..." : "Ví dụ: 木头, 학교, 勉強 hoặc 峰，风，疯..."}
+          placeholder={lang === "en" ? "Ví dụ: extract, portable, inspect..." : lang === "es" ? "Ví dụ: mantener, proponer, convertir..." : "Ví dụ: 木头, 학교, 勉強 hoặc 峰，风，疯..."}
           disabled={loading}
           className="flex-1 rounded-full border border-border bg-surface px-4 py-2 text-sm text-ink outline-none focus:border-brand-400 disabled:opacity-50"
         />
