@@ -8,6 +8,7 @@ import zhSynAnt from "../../data/zh-synonym-antonym.json";
 import jaSynAnt from "../../data/ja-synonym-antonym.json";
 import koSynAnt from "../../data/ko-synonym-antonym.json";
 import enSynAnt from "../../data/en-synonym-antonym.json";
+import esSynAnt from "../../data/es-synonym-antonym.json";
 import zhCharAnt from "../../data/zh-char-antonym.json";
 import jaCharAnt from "../../data/ja-char-antonym.json";
 import koCharAnt from "../../data/ko-char-antonym.json";
@@ -19,6 +20,9 @@ const STATIC_SYN_ANT_DATA: Partial<Record<Language, SynonymAntonymLanguageData>>
   ja: jaSynAnt as SynonymAntonymLanguageData,
   ko: koSynAnt as SynonymAntonymLanguageData,
   en: enSynAnt as SynonymAntonymLanguageData,
+  // Tiếng Tây Ban Nha: cùng phong cách với en-synonym-antonym.json (từ vựng nâng cao DELE B2-C1,
+  // sharedChar: null vì không dựa trên chữ Hán chung).
+  es: esSynAnt as SynonymAntonymLanguageData,
 };
 
 const STATIC_CHAR_ANT_DATA: Partial<Record<Language, CharAntonymLanguageData>> = {
