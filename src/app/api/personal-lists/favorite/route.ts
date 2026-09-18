@@ -2,7 +2,7 @@ import { NextRequest, NextResponse } from "next/server";
 import { toggleFavoriteGroupServer } from "@/lib/personalCollectionsStore";
 import type { GroupKind, Language } from "@/types/vocab";
 
-const LANGUAGES: Language[] = ["zh", "ko", "ja", "en"];
+const LANGUAGES: Language[] = ["zh", "ko", "ja", "en", "es"];
 const GROUP_KINDS: GroupKind[] = ["sound", "shape", "false-friend", "initial"];
 
 export async function POST(req: NextRequest) {
