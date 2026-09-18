@@ -1,13 +1,14 @@
 import Link from "next/link";
 
-const LANG_ICON: Record<string, string> = { zh: "🇨🇳", ko: "🇰🇷", ja: "🇯🇵", en: "🇬🇧" };
+const LANG_ICON: Record<string, string> = { zh: "🇨🇳", ko: "🇰🇷", ja: "🇯🇵", en: "🇬🇧", es: "🇪🇸" };
 const LANG_LABEL: Record<string, string> = {
   zh: "Kiểm tra tiếng Trung",
   ko: "Kiểm tra tiếng Hàn",
   ja: "Kiểm tra tiếng Nhật",
   en: "Kiểm tra tiếng Anh",
+  es: "Kiểm tra tiếng Tây Ban Nha",
 };
-const ALL_LANGS = ["zh", "ja", "ko", "en"] as const;
+const ALL_LANGS = ["zh", "ja", "ko", "en", "es"] as const;
 
 export default function TestHome() {
   return (
