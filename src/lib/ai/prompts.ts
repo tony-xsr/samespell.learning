@@ -6,6 +6,10 @@ import {
   GRAMMAR_EXAMPLE_JSON_SHAPE_HINT,
   QUICK_DICT_JSON_SHAPE_HINT,
   ETYMOLOGY_JSON_SHAPE_HINT,
+  EXPLAIN_MNEMONIC_JSON_SHAPE_HINT,
+  EXAMPLE_SET_JSON_SHAPE_HINT,
+  SYNONYM_SET_JSON_SHAPE_HINT,
+  COLLOCATION_SET_JSON_SHAPE_HINT,
 } from "@/lib/ai/schemas";
 
 export const LANG_NAMES: Record<Language, string> = {
@@ -13,6 +17,7 @@ export const LANG_NAMES: Record<Language, string> = {
   ko: "tiếng Hàn (ghi romanization kiểu Revised Romanization)",
   ja: "tiếng Nhật (ghi romaji)",
   en: "tiếng Anh (nâng cao, ghi phiên âm IPA)",
+  es: "tiếng Tây Ban Nha (ghi phiên âm IPA)",
 };
 
 const POLYPHONY_INSTRUCTION = `Lưu ý về chữ ĐA ÂM: nếu chữ gốc có nhiều cách đọc/âm Hán Việt khác nhau tùy theo nghĩa hoặc từ ghép (ví dụ 行 đọc "hàng" trong 银行 ngân hàng nhưng đọc "hành" trong 旅行 lữ hành; 看 đọc "khan" trong 看守 nhưng đọc "khán" trong 看书), hãy ƯU TIÊN chọn các từ minh hoạ được CÀNG NHIỀU cách đọc/nghĩa khác nhau của chữ gốc càng tốt (thay vì nhiều từ chỉ lặp lại 1 cách đọc). Mỗi từ phải ghi ĐÚNG phiên âm (reading) và nghĩa (meaningVn) riêng của chính từ đó — không copy y hệt cách đọc mặc định của chữ gốc nếu từ đó thực ra đọc khác.`;
@@ -144,6 +149,54 @@ Cho biết: bộ thủ chính của chữ, nghĩa của bộ thủ đó, mô t�
 thích vì sao các thành phần ghép lại cho ra nghĩa của chữ, và 1 mẹo nhớ ngắn gọn bằng tiếng Việt dựa
 trên cấu tạo đó.
 ${ETYMOLOGY_JSON_SHAPE_HINT}`;
+}
+
+/** Theme "🧠 Giải thích sâu & mẹo nhớ" (answer-card) — khác "quick-dict" ở chỗ đào sâu sắc thái/ngữ
+ * cảnh dùng thay vì chỉ tra nghĩa ngắn, kèm mẹo nhớ luôn trong cùng 1 lần gọi AI. */
+export function buildExplainMnemonicPrompt(params: { language: Language; word: string }): string {
+  const langName = LANG_NAMES[params.language];
+  return `Bạn là trợ lý dạy từ vựng ${langName} cho người Việt.
+Từ: "${params.word}".
+Hãy giải thích SÂU (không chỉ nghĩa đen): sắc thái, ngữ cảnh/tình huống nên dùng từ này, và nếu có từ
+gần nghĩa dễ nhầm thì nêu rõ khi nào nên dùng từ này thay vì từ đó.
+Sau đó nghĩ ra MỘT mẹo nhớ ngắn gọn (1-2 câu) bằng tiếng Việt — dựa vào âm đọc nghe giống từ/âm tiếng
+Việt nào, hoặc liên tưởng hình ảnh gắn với nghĩa của từ. Viết tự nhiên, dí dỏm, dễ nhớ.
+${EXPLAIN_MNEMONIC_JSON_SHAPE_HINT}`;
+}
+
+/** Theme "📝 Thêm ví dụ" (answer-card) — nhiều câu ví dụ ở NHIỀU ngữ cảnh/sắc thái khác nhau. */
+export function buildExamplesPrompt(params: { language: Language; word: string }): string {
+  const langName = LANG_NAMES[params.language];
+  return `Bạn là trợ lý dạy từ vựng ${langName} cho người Việt.
+Từ: "${params.word}".
+Hãy tạo 3-4 câu ví dụ tự nhiên dùng từ này, ở CÁC ngữ cảnh/sắc thái/mức độ trang trọng KHÁC nhau
+(vd văn nói thân mật, tình huống công sở/trang trọng, viết/email...) — không lặp lại cùng 1 kiểu câu.
+Mỗi câu kèm bản dịch tiếng Việt và (nếu có thể) mô tả ngắn ngữ cảnh của câu đó.
+${EXAMPLE_SET_JSON_SHAPE_HINT}`;
+}
+
+/** Theme "🔗 Từ đồng nghĩa" (answer-card, KHÁC theme "synonym-family" — theme đó tạo hẳn 1 mindmap
+ * mới xoay quanh 1 chữ gốc chung, theme này chỉ tra nhanh các từ gần nghĩa và lưu lịch sử). */
+export function buildSynonymsPrompt(params: { language: Language; word: string }): string {
+  const langName = LANG_NAMES[params.language];
+  return `Bạn là trợ lý dạy từ vựng ${langName} cho người Việt.
+Từ: "${params.word}".
+Hãy tìm 3-5 từ gần nghĩa THỰC SỰ tồn tại trong ${langName} (không phải đồng nghĩa tuyệt đối) — mỗi từ
+phải khác từ gốc theo MỘT sắc thái riêng (mức độ trang trọng, ngữ cảnh dùng, cường độ nghĩa...).
+Với mỗi từ, ghi rõ khác biệt sắc thái đó bằng tiếng Việt so với từ "${params.word}".
+${SYNONYM_SET_JSON_SHAPE_HINT}`;
+}
+
+/** Theme "🧩 Cụm từ đi cùng" (answer-card) — collocation: cụm từ/tổ hợp ngắn thông dụng chứa từ gốc,
+ * khác "Thêm ví dụ" ở chỗ đây là CỤM TỪ chứ không phải câu hoàn chỉnh. */
+export function buildCollocationsPrompt(params: { language: Language; word: string }): string {
+  const langName = LANG_NAMES[params.language];
+  return `Bạn là trợ lý dạy từ vựng ${langName} cho người Việt.
+Từ: "${params.word}".
+Hãy liệt kê 4-6 cụm từ/tổ hợp THỰC SỰ thông dụng trong giao tiếp thực tế có chứa từ này (KHÔNG phải
+câu hoàn chỉnh, chỉ là cụm từ ngắn — ví dụ động từ+giới từ, tính từ+danh từ hay đi cùng, v.v.).
+Mỗi cụm kèm nghĩa tiếng Việt ngắn gọn.
+${COLLOCATION_SET_JSON_SHAPE_HINT}`;
 }
 
 export function buildExpandWordPrompt(params: {
