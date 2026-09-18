@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { getShapeLanguages, wordCount } from "@/lib/vocabStore";
 
-const LANG_ICON: Record<string, string> = { zh: "🇨🇳", ko: "🇰🇷", ja: "🇯🇵", en: "🇬🇧" };
+const LANG_ICON: Record<string, string> = { zh: "🇨🇳", ko: "🇰🇷", ja: "🇯🇵", en: "🇬🇧", es: "🇪🇸" };
 
 export default async function ShapesHome() {
   const languages = await getShapeLanguages();
