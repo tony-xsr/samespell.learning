@@ -6,7 +6,7 @@ import { generateQuestions } from "@/lib/quiz/generator";
 import { loadProgressStore } from "@/lib/progressStore";
 import { isDue } from "@/lib/srs";
 
-const LANGS: Language[] = ["zh", "ja", "ko", "en"];
+const LANGS: Language[] = ["zh", "ja", "ko", "en", "es"];
 const MODES: QuizMode[] = ["meaning", "reading", "cloze"];
 
 export async function GET(req: NextRequest) {
