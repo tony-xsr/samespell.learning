@@ -12,6 +12,7 @@ const LANG_LABEL: Record<Language, string> = {
   ko: "Tiếng Hàn",
   ja: "Tiếng Nhật",
   en: "Tiếng Anh",
+  es: "Tiếng Tây Ban Nha",
 };
 
 function updateWordInList(
@@ -258,10 +259,10 @@ export default function GroupExplorer({
               : group.aiTheme === "synonym-family"
                 ? "🔗 Họ hàng nghĩa"
                 : group.groupKind === "shape"
-                  ? group.language === "en"
+                  ? group.language === "en" || group.language === "es"
                     ? "🔤 Từ dễ nhầm"
                     : "Nhóm hình"
-                  : group.aiTheme === "word-family" || group.language === "en"
+                  : group.aiTheme === "word-family" || group.language === "en" || group.language === "es"
                     ? "🌳 Họ từ"
                     : "Nhóm âm"}{" "}
             <span className="text-brand-600">&ldquo;{group.reading}&rdquo;</span>
