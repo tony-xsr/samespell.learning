@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { getLanguages, wordCount } from "@/lib/vocabStore";
 
-const LANG_ICON: Record<string, string> = { zh: "🇨🇳", ko: "🇰🇷", ja: "🇯🇵", en: "🇬🇧" };
+const LANG_ICON: Record<string, string> = { zh: "🇨🇳", ko: "🇰🇷", ja: "🇯🇵", en: "🇬🇧", es: "🇪🇸" };
 
 function SectionLabel({ children }: { children: React.ReactNode }) {
   return (
@@ -18,8 +18,8 @@ export default async function Home() {
         <div className="rounded-3xl bg-gradient-to-br from-brand-600 to-accent-500 p-6 text-white shadow-lg">
           <h1 className="text-2xl font-bold tracking-tight sm:text-3xl">Rootlingo</h1>
           <p className="mt-2 text-sm text-white/90">
-            Học <span className="font-semibold">4 ngôn ngữ</span> — Trung, Nhật, Hàn, Anh — cùng lúc
-            qua các trục dễ nhầm: <span className="font-semibold">đồng âm, đồng dạng, sai nghĩa</span>.
+            Học <span className="font-semibold">5 ngôn ngữ</span> — Trung, Nhật, Hàn, Anh, Tây Ban Nha
+            — cùng lúc qua các trục dễ nhầm: <span className="font-semibold">đồng âm, đồng dạng, sai nghĩa</span>.
             Từ ~200 chữ gốc, mở rộng ra hàng nghìn từ qua mindmap ngữ pháp/chủ đề, kịch bản hội thoại,
             và bài kiểm tra tự sinh không giới hạn.
           </p>
