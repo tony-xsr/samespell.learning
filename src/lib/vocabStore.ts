@@ -8,6 +8,7 @@ import zh from "../../data/zh.json";
 import ko from "../../data/ko.json";
 import ja from "../../data/ja.json";
 import en from "../../data/en.json";
+import es from "../../data/es.json";
 import zhShape from "../../data/zh-shape.json";
 import jaShape from "../../data/ja-shape.json";
 import zhFalseFriends from "../../data/zh-false-friends.json";
@@ -15,6 +16,7 @@ import jaFalseFriends from "../../data/ja-false-friends.json";
 import koFalseFriends from "../../data/ko-false-friends.json";
 import zhInitials from "../../data/zh-initials.json";
 import enShape from "../../data/en-shape.json";
+import esShape from "../../data/es-shape.json";
 
 const STATIC_DATA: Record<Language, LanguageData> = {
   zh: zh as LanguageData,
@@ -23,6 +25,9 @@ const STATIC_DATA: Record<Language, LanguageData> = {
   // Tiếng Anh dùng LẠI đúng pool "sound" hiện có, không tạo groupKind/route riêng — mỗi group là 1
   // "họ từ" (word family) theo gốc Latin/Hy Lạp thay vì chữ Hán đồng âm. Xem Features.md mục 15.
   en: en as LanguageData,
+  // Tiếng Tây Ban Nha: cùng cách tái diễn giải như tiếng Anh, nhưng ở đây là họ từ GỐC LATIN THẬT SỰ
+  // (tiếng Tây Ban Nha là ngôn ngữ Roman trực hệ từ Latin) — vd tener/mantener/sostener/obtener.
+  es: es as LanguageData,
 };
 
 // Dữ liệu "nhóm hình" (chữ VIẾT giống nhau, hình cận tự) — trục nhầm lẫn song song với nhóm âm ở
@@ -34,6 +39,9 @@ const STATIC_SHAPE_DATA: Partial<Record<Language, LanguageData>> = {
   // Tiếng Anh: "hình cận tự" reinterpreted thành "từ suýt giống nhau về chính tả" (desert/dessert,
   // affect/effect...) — cùng tinh thần nhầm lẫn thị giác nhưng qua chữ cái thay vì nét chữ Hán.
   en: enShape as LanguageData,
+  // Tiếng Tây Ban Nha: "từ dễ nhầm lẫn" ở đây chủ yếu là các cặp đồng âm phân biệt bằng DẤU TRỌNG ÂM
+  // (tú/tu, sí/si...) hoặc lẫn lộn B/V-C/S kinh điển (botar/votar, cocer/coser).
+  es: esShape as LanguageData,
 };
 
 // Dữ liệu "bẫy nghĩa" (1 chữ dùng chung giữa 2+ từ ghép nhưng nghĩa lệch/trôi nhau) — trục nhầm lẫn
@@ -52,7 +60,7 @@ const STATIC_INITIAL_DATA: Partial<Record<Language, LanguageData>> = {
   zh: zhInitials as LanguageData,
 };
 
-const ALL_LANGUAGES: Language[] = ["zh", "ko", "ja", "en"];
+const ALL_LANGUAGES: Language[] = ["zh", "ko", "ja", "en", "es"];
 
 interface DynamicAdditions {
   extraWords: Record<string, VocabWord[]>;
