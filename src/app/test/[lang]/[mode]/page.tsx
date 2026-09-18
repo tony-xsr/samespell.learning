@@ -3,7 +3,7 @@ import type { Language } from "@/types/vocab";
 import type { QuizMode } from "@/lib/quiz/types";
 import QuizSession from "@/components/quiz/QuizSession";
 
-const VALID_LANGS = ["zh", "ja", "ko", "en", "mixed"] as const;
+const VALID_LANGS = ["zh", "ja", "ko", "en", "es", "mixed"] as const;
 const VALID_MODES: QuizMode[] = ["meaning", "reading", "cloze"];
 
 export default async function TestPlayPage({
