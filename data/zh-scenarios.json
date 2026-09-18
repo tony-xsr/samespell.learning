@@ -822,7 +822,7 @@
     {
       "id": "zh-scenario-exercise-healthy",
       "kind": "scenario-chain",
-      "titleVn": "Tập thể dục, mệt nhưng khỏe hơn",
+      "titleVn": "Tập thể dục, mệt nhưng khỏe hơn, tắm rửa thư giãn và duy trì tập luyện đều đặn",
       "nodes": [
         {
           "headword": "锻炼身体",
@@ -851,16 +851,30 @@
           "hanViet": "cánh kiện khang",
           "meaningVn": "khỏe mạnh hơn",
           "pos": "adjective"
+        },
+        {
+          "headword": "洗澡放松",
+          "reading": "xǐzǎo fàngsōng",
+          "hanViet": "phóng tùng",
+          "meaningVn": "tắm rửa thư giãn",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "坚持每天锻炼",
+          "reading": "jiānchí měitiān duànliàn",
+          "hanViet": "kiên trì",
+          "meaningVn": "kiên trì tập luyện mỗi ngày",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Tôi tập thể dục, đổ mồ hôi, rất mệt, nhưng cảm thấy khỏe mạnh hơn.",
-      "example": "我锻炼身体，出了汗，很累，但是感觉更健康了。",
-      "note": "Mục 11.9 mở rộng round 4 — dạng thể thao/sức khỏe: nỗ lực thể chất (tập thể dục, đổ mồ hôi) → cái giá tạm thời (mệt) → lợi ích lâu dài (khỏe hơn), cùng khuôn nhân-quả 'trả giá để được lợi' với zh-scenario-exam-pass/zh-scenario-job-interview-success."
+      "exampleVn": "Tôi tập thể dục, đổ mồ hôi, mệt nhưng khỏe mạnh hơn, tắm rửa thư giãn, và duy trì tập luyện mỗi ngày.",
+      "example": "锻炼身体，出汗，很累，但更健康了，洗澡放松，坚持每天锻炼。",
+      "note": "Mục 11.9 mở rộng round 4 — dạng thể thao/sức khỏe: nỗ lực thể chất (tập thể dục, đổ mồ hôi) → cái giá tạm thời (mệt) → lợi ích lâu dài (khỏe hơn), cùng khuôn nhân-quả 'trả giá để được lợi' với zh-scenario-exam-pass/zh-scenario-job-interview-success. Mở rộng round 3 — thêm 'tắm rửa thư giãn' và 'duy trì tập luyện đều đặn', 2 hành động thường theo sau ngay việc tập thể dục trong đời thực."
     },
     {
       "id": "zh-scenario-cooking-mishap",
       "kind": "scenario-chain",
-      "titleVn": "Nấu ăn bị cháy, gọi đồ ăn ngoài",
+      "titleVn": "Nấu ăn bị cháy, gọi đồ ăn ngoài, rút kinh nghiệm và cuối cùng cũng ăn no",
       "nodes": [
         {
           "headword": "做饭",
@@ -889,11 +903,25 @@
           "hanViet": "khiếu ngoại mại",
           "meaningVn": "gọi đồ ăn ngoài",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "下次多注意",
+          "reading": "xiàcì duō zhùyì",
+          "hanViet": null,
+          "meaningVn": "lần sau chú ý hơn",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "吃饱了",
+          "reading": "chī bǎo le",
+          "hanViet": null,
+          "meaningVn": "ăn no rồi",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Tôi nấu ăn nhưng bị cháy khê, thất vọng, nên gọi đồ ăn ngoài.",
-      "example": "我做饭，结果烧糊了，很失望，所以叫了外卖。",
-      "note": "Mục 11.9 mở rộng round 4 — dạng sinh hoạt/nấu ăn, có tình huống hỏng việc (thất bại nhỏ trong đời thường) khác các chuỗi trước đa số kết thúc tích cực. 做饭 để hanViet null vì chưa đủ tự tin về âm Hán Việt chuẩn của chữ 做 (khác 作=tác thường gặp hơn trong từ Hán Việt)."
+      "exampleVn": "Tôi nấu cơm, bị cháy khê, thất vọng, gọi đồ ăn ngoài, rút kinh nghiệm lần sau chú ý hơn, và cuối cùng cũng ăn no.",
+      "example": "做饭，烧糊了，很失望，叫外卖，下次多注意，吃饱了。",
+      "note": "Mục 11.9 mở rộng round 4 — dạng sinh hoạt/nấu ăn, có tình huống hỏng việc (thất bại nhỏ trong đời thường) khác các chuỗi trước đa số kết thúc tích cực. 做饭 để hanViet null vì chưa đủ tự tin về âm Hán Việt chuẩn của chữ 做 (khác 作=tác thường gặp hơn trong từ Hán Việt). Mở rộng round 4 — thêm 'rút kinh nghiệm' và 'ăn no', khép lại mạch chuyện nấu ăn hỏng bằng kết cục vui vẻ."
     },
     {
       "id": "zh-scenario-pet-sick-recovery",
@@ -1452,7 +1480,7 @@
     {
       "id": "zh-scenario-reunion-old-friend",
       "kind": "scenario-chain",
-      "titleVn": "Gặp lại bạn cũ sau nhiều năm",
+      "titleVn": "Gặp lại bạn cũ sau nhiều năm, trao đổi liên lạc và hẹn gặp lại lần sau",
       "nodes": [
         {
           "headword": "多年未见",
@@ -1481,16 +1509,30 @@
           "hanViet": null,
           "meaningVn": "nói chuyện rất vui",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "交换联系方式",
+          "reading": "jiāohuàn liánxì fāngshì",
+          "hanViet": "giao hoán",
+          "meaningVn": "trao đổi thông tin liên lạc",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "约定以后常联系",
+          "reading": "yuēdìng yǐhòu cháng liánxì",
+          "hanViet": "ước định",
+          "meaningVn": "hẹn sau này thường xuyên liên lạc",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Nhiều năm không gặp, tôi tình cờ gặp lại bạn cũ, cảm thấy hoài niệm, và nói chuyện rất vui.",
-      "example": "多年未见，我偶然遇到老朋友，感到很怀念，聊得很开心。",
-      "note": "Mục 11.9 mở rộng round 6 — dạng gặp lại/hoài niệm, bổ sung cho các chuỗi bạn bè trước (argument-reconcile). 偶然 (ngẫu nhiên) và 怀念 (hoài niệm) đều khớp Hán Việt chính xác cả âm lẫn nghĩa với tiếng Việt hiện đại."
+      "exampleVn": "Gặp lại bạn cũ sau nhiều năm không gặp, hoài niệm, nói chuyện rất vui, trao đổi thông tin liên lạc, và hẹn sau này thường xuyên liên lạc.",
+      "example": "多年未见，偶然遇到老朋友，怀念过去，聊得很开心，交换联系方式，约定以后常联系。",
+      "note": "Mục 11.9 mở rộng round 6 — dạng gặp lại/hoài niệm, bổ sung cho các chuỗi bạn bè trước (argument-reconcile). 偶然 (ngẫu nhiên) và 怀念 (hoài niệm) đều khớp Hán Việt chính xác cả âm lẫn nghĩa với tiếng Việt hiện đại. Mở rộng round 3 — thêm 'trao đổi liên lạc' và 'hẹn gặp lại lần sau', kết thúc mạch chuyện gặp lại bạn cũ bằng hành động thực tế duy trì mối quan hệ."
     },
     {
       "id": "zh-scenario-overwork-rest",
       "kind": "scenario-chain",
-      "titleVn": "Làm việc quá sức, nghỉ ngơi rồi hồi phục",
+      "titleVn": "Làm việc quá sức, nghỉ ngơi hồi phục, ngủ ngon và quay lại làm việc thoải mái hơn",
       "nodes": [
         {
           "headword": "工作太累",
@@ -1519,11 +1561,25 @@
           "hanViet": "khôi phục tinh thần",
           "meaningVn": "hồi phục tinh thần",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "睡了个好觉",
+          "reading": "shuìle gè hǎo jiào",
+          "hanViet": null,
+          "meaningVn": "ngủ được một giấc ngon",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "重新投入工作",
+          "reading": "chóngxīn tóurù gōngzuò",
+          "hanViet": "trùng tân",
+          "meaningVn": "quay lại lao vào công việc",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Tôi làm việc quá mệt, kiệt sức, quyết định nghỉ ngơi, rồi hồi phục tinh thần.",
-      "example": "我工作太累，筋疲力尽，决定休息，恢复了精神。",
-      "note": "Mục 11.9 mở rộng round 6 — dạng sức khỏe tinh thần nơi công sở, bổ sung cho zh-scenario-exercise-healthy (thể chất) bằng góc độ tinh thần/burnout. 决定(quyết định)/恢复(khôi phục)/精神(tinh thần) đều khớp Hán Việt chuẩn xác."
+      "exampleVn": "Làm việc quá mệt, kiệt sức, quyết định nghỉ ngơi, hồi phục tinh thần, ngủ được một giấc ngon, và quay lại làm việc với tâm trạng thoải mái hơn.",
+      "example": "工作太累，筋疲力尽，决定休息，恢复精神，睡了个好觉，重新投入工作。",
+      "note": "Mục 11.9 mở rộng round 6 — dạng sức khỏe tinh thần nơi công sở, bổ sung cho zh-scenario-exercise-healthy (thể chất) bằng góc độ tinh thần/burnout. 决定(quyết định)/恢复(khôi phục)/精神(tinh thần) đều khớp Hán Việt chuẩn xác. Mở rộng round 5 — thêm 'ngủ ngon' và 'quay lại làm việc thoải mái hơn', khép lại mạch chuyện làm việc quá sức bằng kết quả tích cực."
     },
     {
       "id": "zh-scenario-quit-smoking",
@@ -1573,7 +1629,7 @@
     {
       "id": "zh-scenario-volunteer-work",
       "kind": "scenario-chain",
-      "titleVn": "Làm tình nguyện, giúp đỡ người khác, cảm thấy ý nghĩa",
+      "titleVn": "Làm tình nguyện ý nghĩa, kết bạn mới và quyết định tham gia thường xuyên hơn",
       "nodes": [
         {
           "headword": "参加志愿活动",
@@ -1602,11 +1658,25 @@
           "hanViet": "mãn túc",
           "meaningVn": "cảm thấy mãn nguyện",
           "pos": "emotion"
+        },
+        {
+          "headword": "认识其他志愿者",
+          "reading": "rènshi qítā zhìyuànzhě",
+          "hanViet": "chí nguyện",
+          "meaningVn": "quen biết những tình nguyện viên khác",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "决定经常参加",
+          "reading": "juédìng jīngcháng cānjiā",
+          "hanViet": "quyết định",
+          "meaningVn": "quyết định thường xuyên tham gia",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Tôi tham gia hoạt động tình nguyện, giúp đỡ người khác, cảm thấy rất có ý nghĩa và mãn nguyện.",
-      "example": "我参加志愿活动，帮助别人，感到很有意义，很满足。",
-      "note": "Mục 11.9 mở rộng round 6 — dạng hoạt động xã hội/thiện nguyện. 志愿 (chí nguyện) là từ Hán Việt cổ gần nghĩa 'tình nguyện' hiện đại. 帮助 (bang trợ) là gốc Hán Việt cổ của khái niệm 'giúp đỡ' nhưng tiếng Việt hiện đại dùng từ thuần 'giúp đỡ' nhiều hơn. 满足 (mãn túc) gần nghĩa 'thỏa mãn' nhưng dạng ghép 'mãn túc' không thông dụng độc lập."
+      "exampleVn": "Tham gia hoạt động tình nguyện, giúp đỡ người khác, rất có ý nghĩa, cảm thấy mãn nguyện, quen biết những tình nguyện viên khác, và quyết định tham gia thường xuyên hơn.",
+      "example": "参加志愿活动，帮助别人，很有意义，感到满足，认识其他志愿者，决定经常参加。",
+      "note": "Mục 11.9 mở rộng round 6 — dạng hoạt động xã hội/thiện nguyện. 志愿 (chí nguyện) là từ Hán Việt cổ gần nghĩa 'tình nguyện' hiện đại. 帮助 (bang trợ) là gốc Hán Việt cổ của khái niệm 'giúp đỡ' nhưng tiếng Việt hiện đại dùng từ thuần 'giúp đỡ' nhiều hơn. 满足 (mãn túc) gần nghĩa 'thỏa mãn' nhưng dạng ghép 'mãn túc' không thông dụng độc lập. Mở rộng round 4 — thêm 'kết bạn mới' và 'quyết định tham gia thường xuyên hơn', kết quả tự nhiên của một trải nghiệm tình nguyện ý nghĩa."
     },
     {
       "id": "zh-scenario-haircut-bad",
@@ -1791,7 +1861,7 @@
     {
       "id": "zh-scenario-adopt-new-pet",
       "kind": "scenario-chain",
-      "titleVn": "Nhận nuôi thú cưng mới, hồi hộp xen lẫn hạnh phúc",
+      "titleVn": "Nhận nuôi thú cưng mới, đặt tên và dần trở nên thân thiết",
       "nodes": [
         {
           "headword": "领养宠物",
@@ -1820,16 +1890,30 @@
           "hanViet": "hạnh phúc",
           "meaningVn": "cảm thấy rất hạnh phúc",
           "pos": "emotion"
+        },
+        {
+          "headword": "给它取名字",
+          "reading": "gěi tā qǔ míngzi",
+          "hanViet": null,
+          "meaningVn": "đặt tên cho nó",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "渐渐变得亲密",
+          "reading": "jiànjiàn biàn de qīnmì",
+          "hanViet": "thân mật",
+          "meaningVn": "dần dần trở nên thân thiết",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Tôi nhận nuôi một thú cưng mới, lần đầu gặp mặt vừa hồi hộp vừa phấn khích, cảm thấy rất hạnh phúc.",
-      "example": "我领养了宠物，第一次见面既紧张又兴奋，感到很幸福。",
-      "note": "Mục 11.9 mở rộng round 7 — dạng thú cưng góc nhìn tích cực, bổ sung cho zh-scenario-pet-sick-recovery (góc nhìn bệnh tật). 见面 (kiến diện) là từ Hán Việt cổ khớp nghĩa 'gặp mặt'. 兴奋 (hưng phấn) khớp hoàn hảo với tiếng Việt."
+      "exampleVn": "Tôi nhận nuôi thú cưng, lần đầu gặp mặt, vừa hồi hộp vừa phấn khích, cảm thấy rất hạnh phúc, đặt tên cho nó, và dần dần trở nên thân thiết.",
+      "example": "领养宠物，第一次见面，既紧张又兴奋，感到很幸福，给它取名字，渐渐变得亲密。",
+      "note": "Mục 11.9 mở rộng round 7 — dạng thú cưng góc nhìn tích cực, bổ sung cho zh-scenario-pet-sick-recovery (góc nhìn bệnh tật). 见面 (kiến diện) là từ Hán Việt cổ khớp nghĩa 'gặp mặt'. 兴奋 (hưng phấn) khớp hoàn hảo với tiếng Việt. Mở rộng round 3 — thêm 'đặt tên' và 'dần trở nên thân thiết', 2 bước tự nhiên tiếp theo sau khi nhận nuôi thú cưng mới."
     },
     {
       "id": "zh-scenario-graduation-ceremony",
       "kind": "scenario-chain",
-      "titleVn": "Lễ tốt nghiệp xúc động, cha mẹ tự hào",
+      "titleVn": "Lễ tốt nghiệp xúc động, cha mẹ tự hào, tặng hoa thầy cô và ăn mừng cùng bạn bè",
       "nodes": [
         {
           "headword": "参加毕业典礼",
@@ -1858,16 +1942,30 @@
           "hanViet": "lưu niệm",
           "meaningVn": "chụp ảnh lưu niệm",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "送花给老师",
+          "reading": "sòng huā gěi lǎoshī",
+          "hanViet": "tống hoa",
+          "meaningVn": "tặng hoa cho thầy cô",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "和朋友们庆祝",
+          "reading": "hé péngyoumen qìngzhù",
+          "hanViet": "khánh chúc",
+          "meaningVn": "ăn mừng cùng bạn bè",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Tôi tham gia lễ tốt nghiệp, rất xúc động, cha mẹ rất tự hào, chúng tôi chụp ảnh lưu niệm.",
-      "example": "我参加毕业典礼，很感动，父母很骄傲，我们拍照留念。",
-      "note": "Mục 11.9 mở rộng round 7. LƯU Ý: 毕业 (bìyè) Hán Việt là 'tất nghiệp' (畢=tất, hoàn tất) — khác với dạng phổ biến hơn trong tiếng Việt/Nhật/Hàn là 'tốt nghiệp' (gốc 卒業/졸업, 卒=tốt). Hai biến thể Hán Việt cùng nghĩa 'graduation' nhưng khác chữ gốc, đáng so sánh với ja/ko-scenario-graduation-ceremony. 感动(cảm động)/留念(lưu niệm) khớp hoàn hảo."
+      "exampleVn": "Tôi tham gia lễ tốt nghiệp, rất xúc động, cha mẹ rất tự hào, chụp ảnh lưu niệm, tặng hoa cho thầy cô, và ăn mừng cùng bạn bè.",
+      "example": "我参加毕业典礼，很感动，父母很骄傲，拍照留念，送花给老师，和朋友们庆祝。",
+      "note": "Mục 11.9 mở rộng round 7. LƯU Ý: 毕业 (bìyè) Hán Việt là 'tất nghiệp' (畢=tất, hoàn tất) — khác với dạng phổ biến hơn trong tiếng Việt/Nhật/Hàn là 'tốt nghiệp' (gốc 卒業/졸업, 卒=tốt). Hai biến thể Hán Việt cùng nghĩa 'graduation' nhưng khác chữ gốc, đáng so sánh với ja/ko-scenario-graduation-ceremony. 感动(cảm động)/留念(lưu niệm) khớp hoàn hảo. Mở rộng round 2 (theo mẫu round 1) — thêm 'tặng hoa thầy cô' và 'ăn mừng cùng bạn bè', 2 hành động thường theo sau ngay lễ tốt nghiệp trong đời thực."
     },
     {
       "id": "zh-scenario-salary-raise",
       "kind": "scenario-chain",
-      "titleVn": "Xin tăng lương, hồi hộp rồi vui vì được duyệt",
+      "titleVn": "Xin tăng lương thành công, báo tin vui gia đình và mời đồng nghiệp ăn mừng",
       "nodes": [
         {
           "headword": "申请加薪",
@@ -1896,11 +1994,25 @@
           "hanViet": "cao hứng",
           "meaningVn": "rất vui",
           "pos": "emotion"
+        },
+        {
+          "headword": "告诉家人这个好消息",
+          "reading": "gàosu jiārén zhège hǎo xiāoxi",
+          "hanViet": "tiêu tức",
+          "meaningVn": "báo tin vui này cho gia đình",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "请同事吃饭庆祝",
+          "reading": "qǐng tóngshì chīfàn qìngzhù",
+          "hanViet": "khánh chúc",
+          "meaningVn": "mời đồng nghiệp ăn mừng",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Tôi xin tăng lương, rất hồi hộp, nhưng sếp đồng ý, tôi rất vui.",
-      "example": "我申请加薪，很紧张，但老板同意了，很高兴。",
-      "note": "Mục 11.9 mở rộng round 8 — dạng công sở/đàm phán lương, bổ sung cho zh-scenario-career-promotion. 申请 (thân thỉnh) là từ Hán Việt cổ ít dùng độc lập. 同意 (đồng ý) khớp hoàn hảo; 高兴 (cao hứng) là từ tiếng Việt thật nhưng nghiêng nghĩa 'phấn khích nhất thời' hơn 'vui' chung chung."
+      "exampleVn": "Tôi xin tăng lương, rất hồi hộp, nhưng sếp đồng ý, tôi rất vui, báo tin vui này cho gia đình, và mời đồng nghiệp ăn mừng.",
+      "example": "我申请加薪，很紧张，但老板同意了，很高兴，告诉家人这个好消息，请同事吃饭庆祝。",
+      "note": "Mục 11.9 mở rộng round 8 — dạng công sở/đàm phán lương, bổ sung cho zh-scenario-career-promotion. 申请 (thân thỉnh) là từ Hán Việt cổ ít dùng độc lập. 同意 (đồng ý) khớp hoàn hảo; 高兴 (cao hứng) là từ tiếng Việt thật nhưng nghiêng nghĩa 'phấn khích nhất thời' hơn 'vui' chung chung. Mở rộng round 2 — thêm 'báo tin gia đình' và 'mời đồng nghiệp ăn mừng', nối tiếp mạch công sở sau khi được duyệt tăng lương."
     },
     {
       "id": "zh-scenario-losing-phone-panic",
@@ -2085,7 +2197,7 @@
     {
       "id": "zh-scenario-first-date",
       "kind": "scenario-chain",
-      "titleVn": "Buổi hẹn hò đầu tiên, hồi hộp và lãng mạn",
+      "titleVn": "Buổi hẹn hò đầu tiên hồi hộp lãng mạn, hẹn gặp lại rồi chính thức yêu nhau",
       "nodes": [
         {
           "headword": "第一次约会",
@@ -2114,16 +2226,30 @@
           "hanViet": "lãng mạn",
           "meaningVn": "rất lãng mạn",
           "pos": "adjective"
+        },
+        {
+          "headword": "约好第二次见面",
+          "reading": "yuē hǎo dì-èr cì jiànmiàn",
+          "hanViet": "đệ nhị",
+          "meaningVn": "hẹn gặp lại lần 2",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "正式在一起",
+          "reading": "zhèngshì zài yīqǐ",
+          "hanViet": "chính thức",
+          "meaningVn": "chính thức yêu nhau",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Buổi hẹn hò đầu tiên, tôi vừa hồi hộp vừa mong đợi, chúng tôi nói chuyện rất hợp, cảm thấy rất lãng mạn.",
-      "example": "第一次约会，我既紧张又期待，我们聊得很投缘，很浪漫。",
-      "note": "Mục 11.9 mở rộng round 8 — dạng tình cảm/hẹn hò, bổ sung cho zh-scenario-cluster-love (chùm từ) bằng 1 chuỗi tường thuật cụ thể. 约会 (ước hội) khớp trực tiếp 'cuộc hẹn'. 浪漫 (lãng mạn) khớp hoàn hảo — từ mượn phương Tây 'romantic' qua Hán tự, khác tiếng Nhật/Hàn ở round này thường dùng phiên âm katakana/Hangeul trực tiếp từ tiếng Anh (ロマンチック/로맨틱)."
+      "exampleVn": "Đây là buổi hẹn hò đầu tiên của tôi, vừa hồi hộp vừa mong đợi, nói chuyện rất hợp, rất lãng mạn, hẹn gặp lại lần 2, và chính thức yêu nhau.",
+      "example": "这是我第一次约会，既紧张又期待，聊得很投缘，很浪漫，约好第二次见面，正式在一起了。",
+      "note": "Mục 11.9 mở rộng round 8 — dạng tình cảm/hẹn hò, bổ sung cho zh-scenario-cluster-love (chùm từ) bằng 1 chuỗi tường thuật cụ thể. 约会 (ước hội) khớp trực tiếp 'cuộc hẹn'. 浪漫 (lãng mạn) khớp hoàn hảo — từ mượn phương Tây 'romantic' qua Hán tự, khác tiếng Nhật/Hàn ở round này thường dùng phiên âm katakana/Hangeul trực tiếp từ tiếng Anh (ロマンチック/로맨틱). Mở rộng round 2 — thêm 'hẹn gặp lại lần 2' và 'chính thức yêu nhau', nối tiếp tự nhiên mạch chuyện tình cảm sau buổi hẹn đầu."
     },
     {
       "id": "zh-scenario-small-business-start",
       "kind": "scenario-chain",
-      "titleVn": "Khởi nghiệp nhỏ, hồi hộp và rủi ro nhưng đầy hy vọng",
+      "titleVn": "Khởi nghiệp nhỏ đầy hy vọng, đón khách đầu tiên và dần ổn định kinh doanh",
       "nodes": [
         {
           "headword": "开始创业",
@@ -2152,11 +2278,25 @@
           "hanViet": "hy vọng",
           "meaningVn": "tràn đầy hy vọng",
           "pos": "adjective"
+        },
+        {
+          "headword": "迎来第一位顾客",
+          "reading": "yínglái dì-yī wèi gùkè",
+          "hanViet": "cố khách",
+          "meaningVn": "đón vị khách đầu tiên",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "生意渐渐稳定下来",
+          "reading": "shēngyi jiànjiàn wěndìng xiàlái",
+          "hanViet": "ổn định",
+          "meaningVn": "việc kinh doanh dần dần ổn định",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Tôi bắt đầu khởi nghiệp, vừa phấn khích vừa sợ hãi, chấp nhận rủi ro, tràn đầy hy vọng.",
-      "example": "我开始创业，既兴奋又害怕，承担风险，充满希望。",
-      "note": "Mục 11.9 mở rộng round 9 — dạng khởi nghiệp/sự nghiệp cá nhân. LƯU Ý: 创业 (chuàngyè) chữ Hán Việt là 'sáng nghiệp' (创=sáng, 'tạo dựng'), TRÙNG chữ Hán với 창업 tiếng Hàn, nhưng khác 起業 tiếng Nhật (khởi nghiệp, 起=khởi). Thú vị là từ tiếng Việt chuẩn hiện đại cho khái niệm này lại là 'khởi nghiệp' — khớp về MẶT TỪ với tiếng Nhật hơn là tiếng Trung/Hàn dù ZH/KO gần Việt Nam địa lý hơn."
+      "exampleVn": "Bắt đầu khởi nghiệp, vừa phấn khích vừa sợ hãi, chấp nhận rủi ro, tràn đầy hy vọng, đón vị khách đầu tiên, và việc kinh doanh dần dần ổn định.",
+      "example": "开始创业，既兴奋又害怕，承担风险，充满希望，迎来第一位顾客，生意渐渐稳定下来。",
+      "note": "Mục 11.9 mở rộng round 9 — dạng khởi nghiệp/sự nghiệp cá nhân. LƯU Ý: 创业 (chuàngyè) chữ Hán Việt là 'sáng nghiệp' (创=sáng, 'tạo dựng'), TRÙNG chữ Hán với 창업 tiếng Hàn, nhưng khác 起業 tiếng Nhật (khởi nghiệp, 起=khởi). Thú vị là từ tiếng Việt chuẩn hiện đại cho khái niệm này lại là 'khởi nghiệp' — khớp về MẶT TỪ với tiếng Nhật hơn là tiếng Trung/Hàn dù ZH/KO gần Việt Nam địa lý hơn. Mở rộng round 5 — thêm 'đón khách đầu tiên' và 'kinh doanh dần ổn định', 2 cột mốc thực tế tiếp theo sau giai đoạn khởi nghiệp đầy hy vọng."
     },
     {
       "id": "zh-scenario-long-distance-love",
@@ -2206,7 +2346,7 @@
     {
       "id": "zh-scenario-power-outage",
       "kind": "scenario-chain",
-      "titleVn": "Bất ngờ mất điện, bất tiện rồi trở lại bình thường",
+      "titleVn": "Bất ngờ mất điện, bất tiện rồi trở lại bình thường, mua đèn dự phòng và thấy an tâm hơn",
       "nodes": [
         {
           "headword": "突然停电",
@@ -2235,11 +2375,25 @@
           "hanViet": "khôi phục chính thường",
           "meaningVn": "trở lại bình thường",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "买应急灯",
+          "reading": "mǎi yìngjí dēng",
+          "hanViet": "ứng cấp đăng",
+          "meaningVn": "mua đèn dự phòng khẩn cấp",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "心里更安心",
+          "reading": "xīnli gèng ānxīn",
+          "hanViet": "an tâm",
+          "meaningVn": "trong lòng cảm thấy an tâm hơn",
+          "pos": "adjective"
         }
       ],
-      "exampleVn": "Đột nhiên mất điện, rất bất tiện, chúng tôi thắp nến, sau đó trở lại bình thường.",
-      "example": "突然停电，很不方便，我们点蜡烛，后来恢复正常了。",
-      "note": "Mục 11.9 mở rộng round 9 — dạng sự cố sinh hoạt tại nhà. FALSE-FRIEND đáng chú ý: 方便 (fāngbiàn, 'tiện lợi') ghép chữ ra 'phương tiện' — nhưng tiếng Việt 'phương tiện' nghĩa 'công cụ/xe cộ để làm việc gì đó' (means/vehicle), hoàn toàn khác nghĩa 'tiện lợi'. Ngược lại dạng phủ định 不方便/bất tiện lại khớp hoàn hảo với tiếng Nhật 不便 (xem ja-scenario-power-outage) — chỉ 1 chiều bị lệch nghĩa."
+      "exampleVn": "Đột nhiên mất điện, rất bất tiện, chúng tôi thắp nến, sau đó trở lại bình thường, mua thêm đèn dự phòng, và trong lòng thấy an tâm hơn.",
+      "example": "突然停电，很不方便，我们点蜡烛，后来恢复正常，买应急灯，心里更安心了。",
+      "note": "Mục 11.9 mở rộng round 9 — dạng sự cố sinh hoạt tại nhà. FALSE-FRIEND đáng chú ý: 方便 (fāngbiàn, 'tiện lợi') ghép chữ ra 'phương tiện' — nhưng tiếng Việt 'phương tiện' nghĩa 'công cụ/xe cộ để làm việc gì đó' (means/vehicle), hoàn toàn khác nghĩa 'tiện lợi'. Ngược lại dạng phủ định 不方便/bất tiện lại khớp hoàn hảo với tiếng Nhật 不便 (xem ja-scenario-power-outage) — chỉ 1 chiều bị lệch nghĩa. Mở rộng round 6 — thêm 'mua đèn dự phòng' và 'an tâm hơn', khép lại mạch chuyện mất điện bằng bài học rút kinh nghiệm chuẩn bị trước."
     },
     {
       "id": "zh-scenario-work-deadline-rush",
@@ -2469,7 +2623,7 @@
     {
       "id": "zh-scenario-team-conflict-resolve",
       "kind": "scenario-chain",
-      "titleVn": "Nhóm bất đồng ý kiến, giao tiếp rồi đạt đồng thuận",
+      "titleVn": "Nhóm bất đồng ý kiến, giao tiếp rồi đạt đồng thuận, quan hệ hòa thuận và hiệu suất tăng lên",
       "nodes": [
         {
           "headword": "意见不合",
@@ -2498,11 +2652,25 @@
           "hanViet": "đạt thành",
           "meaningVn": "đạt được đồng thuận",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "关系更融洽",
+          "reading": "guānxì gèng róngqià",
+          "hanViet": "quan hệ, dung hợp",
+          "meaningVn": "quan hệ trở nên hòa thuận hơn",
+          "pos": "adjective"
+        },
+        {
+          "headword": "工作效率提高",
+          "reading": "gōngzuò xiàolǜ tígāo",
+          "hanViet": "công tác hiệu suất",
+          "meaningVn": "hiệu suất công việc được nâng cao",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Nhóm chúng tôi bất đồng ý kiến, không khí căng thẳng, nhưng giao tiếp cẩn thận, cuối cùng đạt được đồng thuận.",
-      "example": "我们意见不合，气氛紧张，但好好沟通，达成共识了。",
-      "note": "Mục 11.9 mở rộng round 10 — dạng làm việc nhóm/công sở, bổ sung cho zh-scenario-argument-reconcile (cãi nhau bạn bè cá nhân) bằng bối cảnh chuyên nghiệp/nhóm. 意见 (ý kiến) khớp hoàn hảo. 共识 (đồng thuận) để null vì cấu tạo '共识' không phải từ ghép tiếng Việt thông dụng dù từng chữ có Hán Việt riêng."
+      "exampleVn": "Nhóm chúng tôi bất đồng ý kiến, không khí căng thẳng, nhưng giao tiếp cẩn thận, đạt được đồng thuận, quan hệ trở nên hòa thuận hơn, và hiệu suất công việc được nâng cao.",
+      "example": "我们意见不合，气氛紧张，但好好沟通，达成共识，关系更融洽，工作效率提高了。",
+      "note": "Mục 11.9 mở rộng round 10 — dạng làm việc nhóm/công sở, bổ sung cho zh-scenario-argument-reconcile (cãi nhau bạn bè cá nhân) bằng bối cảnh chuyên nghiệp/nhóm. 意见 (ý kiến) khớp hoàn hảo. 共识 (đồng thuận) để null vì cấu tạo '共识' không phải từ ghép tiếng Việt thông dụng dù từng chữ có Hán Việt riêng. Mở rộng round 6 — thêm 'quan hệ hòa thuận hơn' và 'hiệu suất tăng lên', kết quả lâu dài của việc giải quyết xung đột nhóm hiệu quả."
     },
     {
       "id": "zh-scenario-car-breakdown",
@@ -2552,7 +2720,7 @@
     {
       "id": "zh-scenario-winning-prize",
       "kind": "scenario-chain",
-      "titleVn": "Trúng thưởng bất ngờ, vui mừng chia sẻ cùng gia đình",
+      "titleVn": "Trúng thưởng bất ngờ, khoe với mọi người và dùng tiền thưởng đi du lịch",
       "nodes": [
         {
           "headword": "中奖了",
@@ -2581,16 +2749,30 @@
           "hanViet": "gia nhân",
           "meaningVn": "chia sẻ cùng gia đình",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "跟大家炫耀",
+          "reading": "gēn dàjiā xuànyào",
+          "hanViet": "huyễn diệu",
+          "meaningVn": "khoe với mọi người",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "用奖金去旅行",
+          "reading": "yòng jiǎngjīn qù lǚxíng",
+          "hanViet": "lữ hành",
+          "meaningVn": "dùng tiền thưởng đi du lịch",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Tôi trúng thưởng, rất ngạc nhiên, vui đến mức nhảy lên, chia sẻ cùng gia đình.",
-      "example": "我中奖了，很惊讶，高兴得跳起来，和家人分享。",
-      "note": "Mục 11.9 mở rộng round 10. FALSE-FRIEND tinh vi, dễ gây nhầm vì trông rất minh bạch: 家人 (jiārén, 'thành viên gia đình') ghép chữ ra 'gia nhân' — nhưng tiếng Việt 'gia nhân' nghĩa là 'người hầu/người ở trong nhà' (servant), khác hẳn nghĩa 'người thân trong gia đình'. So sánh với ja-scenario-winning-prize dùng 家族/gia tộc KHÔNG bị lỗi này."
+      "exampleVn": "Tôi trúng thưởng, rất ngạc nhiên, vui đến mức nhảy lên, chia sẻ cùng gia đình, khoe với mọi người, và dùng tiền thưởng đi du lịch.",
+      "example": "我中奖了，很惊讶，高兴得跳起来，和家人分享，跟大家炫耀，用奖金去旅行。",
+      "note": "Mục 11.9 mở rộng round 10. FALSE-FRIEND tinh vi, dễ gây nhầm vì trông rất minh bạch: 家人 (jiārén, 'thành viên gia đình') ghép chữ ra 'gia nhân' — nhưng tiếng Việt 'gia nhân' nghĩa là 'người hầu/người ở trong nhà' (servant), khác hẳn nghĩa 'người thân trong gia đình'. So sánh với ja-scenario-winning-prize dùng 家族/gia tộc KHÔNG bị lỗi này. Mở rộng round 2 — thêm 'khoe với mọi người' và 'dùng tiền thưởng đi du lịch', 2 phản ứng đời thường phổ biến sau khi trúng thưởng. Cố tình tránh dùng từ mượn Latin kiểu 'SNS' — dùng 'mọi người' chung chung thay vì chỉ đích danh mạng xã hội."
     },
     {
       "id": "zh-scenario-surprise-party",
       "kind": "scenario-chain",
-      "titleVn": "Bạn bè tổ chức tiệc bất ngờ, xúc động vì được yêu thương",
+      "titleVn": "Bạn bè tổ chức tiệc bất ngờ xúc động, thổi nến cắt bánh và chụp ảnh kỷ niệm",
       "nodes": [
         {
           "headword": "朋友们准备惊喜",
@@ -2619,11 +2801,25 @@
           "hanViet": null,
           "meaningVn": "cảm thấy được yêu thương",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "吹蜡烛切蛋糕",
+          "reading": "chuī làzhú qiē dàngāo",
+          "hanViet": null,
+          "meaningVn": "thổi nến cắt bánh",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "一起拍照留念",
+          "reading": "yīqǐ pāizhào liúniàn",
+          "hanViet": "lưu niệm",
+          "meaningVn": "cùng chụp ảnh lưu niệm",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Bạn bè tôi chuẩn bị một bất ngờ, tôi hoàn toàn không ngờ tới, vô cùng xúc động, cảm thấy được yêu thương.",
-      "example": "朋友们准备惊喜，我完全没想到，非常感动，觉得被爱。",
-      "note": "Mục 11.9 mở rộng round 10 — dạng tình bạn/bất ngờ tích cực, bổ sung cho zh-scenario-reunion-old-friend. 惊喜 (kinh hỷ) là cấu tạo cổ điển gần nghĩa 'ngạc nhiên vui mừng'. 完全 (hoàn toàn) và 感动 (cảm động) khớp hoàn hảo."
+      "exampleVn": "Bạn bè chuẩn bị bất ngờ, tôi hoàn toàn không ngờ tới, vô cùng xúc động, cảm thấy được yêu thương, thổi nến cắt bánh, và cùng nhau chụp ảnh lưu niệm.",
+      "example": "朋友们准备惊喜，我完全没想到，非常感动，觉得被爱，吹蜡烛切蛋糕，一起拍照留念。",
+      "note": "Mục 11.9 mở rộng round 10 — dạng tình bạn/bất ngờ tích cực, bổ sung cho zh-scenario-reunion-old-friend. 惊喜 (kinh hỷ) là cấu tạo cổ điển gần nghĩa 'ngạc nhiên vui mừng'. 完全 (hoàn toàn) và 感动 (cảm động) khớp hoàn hảo. Mở rộng round 3 — thêm 'thổi nến cắt bánh' và 'chụp ảnh kỷ niệm', 2 nghi thức kinh điển của một bữa tiệc sinh nhật/mừng bất ngờ."
     },
     {
       "id": "zh-scenario-getting-scammed",
@@ -2673,7 +2869,7 @@
     {
       "id": "zh-scenario-difficult-customer",
       "kind": "scenario-chain",
-      "titleVn": "Gặp khách hàng khó tính, kiên nhẫn rồi khách hài lòng",
+      "titleVn": "Gặp khách hàng khó tính, kiên nhẫn rồi khách hài lòng, được sếp khen và tự tin hơn khi tiếp khách",
       "nodes": [
         {
           "headword": "遇到刁难的顾客",
@@ -2702,11 +2898,25 @@
           "hanViet": "thành tựu cảm",
           "meaningVn": "rất có thành tựu",
           "pos": "emotion"
+        },
+        {
+          "headword": "得到上司表扬",
+          "reading": "dédào shàngsi biǎoyáng",
+          "hanViet": "thượng ty biểu dương",
+          "meaningVn": "được cấp trên khen ngợi",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "更有信心接待客人",
+          "reading": "gèng yǒu xìnxīn jiēdài kèrén",
+          "hanViet": "tín tâm, tiếp đãi",
+          "meaningVn": "tự tin hơn khi tiếp đón khách hàng",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Tôi gặp khách hàng khó tính, kiên nhẫn giải thích, khách hàng hài lòng, tôi cảm thấy rất có thành tựu.",
-      "example": "我遇到刁难的顾客，耐心解释，顾客满意了，很有成就感。",
-      "note": "Mục 11.9 mở rộng round 11 — dạng công sở/dịch vụ khách hàng, chủ đề thực dụng cho môi trường công sở. 顾客 (cố khách) là từ Hán Việt cổ vẫn còn nhận diện được. 解释 (giải thích) khớp hoàn hảo."
+      "exampleVn": "Tôi gặp khách hàng khó tính, kiên nhẫn giải thích, khách hàng hài lòng, cảm thấy rất có thành tựu, được cấp trên khen ngợi, và tự tin hơn khi tiếp đón khách hàng.",
+      "example": "我遇到刁难的顾客，耐心解释，顾客满意了，很有成就感，得到上司表扬，更有信心接待客人。",
+      "note": "Mục 11.9 mở rộng round 11 — dạng công sở/dịch vụ khách hàng, chủ đề thực dụng cho môi trường công sở. 顾客 (cố khách) là từ Hán Việt cổ vẫn còn nhận diện được. 解释 (giải thích) khớp hoàn hảo. Mở rộng round 6 — thêm 'được sếp khen' và 'tự tin hơn khi tiếp khách', kết quả nghề nghiệp tích cực sau khi xử lý tốt tình huống khó."
     },
     {
       "id": "zh-scenario-new-city-adjust",
@@ -2801,7 +3011,7 @@
     {
       "id": "zh-scenario-wedding-attend",
       "kind": "scenario-chain",
-      "titleVn": "Dự đám cưới bạn thân, xúc động và chúc phúc",
+      "titleVn": "Dự đám cưới bạn thân xúc động, chụp ảnh cùng cô dâu chú rể và vui chơi đến khuya",
       "nodes": [
         {
           "headword": "参加婚礼",
@@ -2830,16 +3040,30 @@
           "hanViet": "chúc phúc",
           "meaningVn": "chúc phúc cho họ",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "和新人合影",
+          "reading": "hé xīnrén héyǐng",
+          "hanViet": "hợp ảnh",
+          "meaningVn": "chụp ảnh chung với cô dâu chú rể",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "参加婚宴到很晚",
+          "reading": "cānjiā hūnyàn dào hěn wǎn",
+          "hanViet": "hôn yến",
+          "meaningVn": "dự tiệc cưới đến khuya",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Tôi tham dự đám cưới, cô dâu chú rể trao nhẫn, tôi xúc động rơi lệ, chúc phúc cho họ.",
-      "example": "我参加婚礼，新人交换戒指，感动落泪，祝福他们。",
-      "note": "Mục 11.9 mở rộng round 11 — dạng lễ nghi trọng đại/tình bạn. 婚礼 (hôn lễ) và 祝福 (chúc phúc) khớp hoàn hảo. 新人 (tân nhân, nghĩa đen 'người mới') dùng để chỉ 'cô dâu chú rể' theo nghĩa bóng trong tiếng Trung, không phải cách gọi chuẩn trong tiếng Việt."
+      "exampleVn": "Tham dự đám cưới, chứng kiến cô dâu chú rể trao nhẫn, xúc động rơi lệ, chúc phúc cho họ, chụp ảnh cùng cô dâu chú rể, và vui chơi tiệc cưới đến khuya.",
+      "example": "参加婚礼，新人交换戒指，感动落泪，祝福他们，和新人合影，参加婚宴到很晚。",
+      "note": "Mục 11.9 mở rộng round 11 — dạng lễ nghi trọng đại/tình bạn. 婚礼 (hôn lễ) và 祝福 (chúc phúc) khớp hoàn hảo. 新人 (tân nhân, nghĩa đen 'người mới') dùng để chỉ 'cô dâu chú rể' theo nghĩa bóng trong tiếng Trung, không phải cách gọi chuẩn trong tiếng Việt. Mở rộng round 4 — thêm 'chụp ảnh cùng cô dâu chú rể' và 'vui chơi đến khuya', 2 hoạt động kinh điển sau nghi thức trao nhẫn."
     },
     {
       "id": "zh-scenario-insomnia-improve",
       "kind": "scenario-chain",
-      "titleVn": "Mất ngủ kéo dài, mệt mỏi rồi giấc ngủ cải thiện",
+      "titleVn": "Mất ngủ kéo dài, mệt mỏi rồi giấc ngủ cải thiện, tinh thần phấn chấn và chất lượng cuộc sống tăng lên",
       "nodes": [
         {
           "headword": "长期失眠",
@@ -2868,11 +3092,25 @@
           "hanViet": "thụy miên cải thiện",
           "meaningVn": "giấc ngủ cải thiện",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "精神更饱满",
+          "reading": "jīngshén gèng bǎomǎn",
+          "hanViet": "tinh thần bão mãn",
+          "meaningVn": "tinh thần trở nên sung mãn hơn",
+          "pos": "adjective"
+        },
+        {
+          "headword": "生活质量提高",
+          "reading": "shēnghuó zhìliàng tígāo",
+          "hanViet": "sinh hoạt chất lượng",
+          "meaningVn": "chất lượng cuộc sống được nâng cao",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Tôi mất ngủ kéo dài, rất mệt mỏi, điều chỉnh giờ giấc sinh hoạt, giấc ngủ dần cải thiện.",
-      "example": "我长期失眠，很疲惫，调整作息，睡眠改善了。",
-      "note": "Mục 11.9 mở rộng round 11 — dạng sức khỏe/giấc ngủ, bổ sung cho zh-scenario-overwork-rest. 长期(trường kỳ)/调整(điều chỉnh)/改善(cải thiện) khớp hoàn hảo. Thú vị: 睡眠 (thụy miên) gợi liên tưởng đến từ thơ ca tiếng Việt 'thùy miên' (trạng thái lim dim buồn ngủ)."
+      "exampleVn": "Tôi mất ngủ kéo dài, rất mệt mỏi, điều chỉnh giờ giấc sinh hoạt, giấc ngủ dần cải thiện, tinh thần trở nên sung mãn hơn, và chất lượng cuộc sống được nâng cao.",
+      "example": "我长期失眠，很疲惫，调整作息，睡眠改善，精神更饱满，生活质量提高了。",
+      "note": "Mục 11.9 mở rộng round 11 — dạng sức khỏe/giấc ngủ, bổ sung cho zh-scenario-overwork-rest. 长期(trường kỳ)/调整(điều chỉnh)/改善(cải thiện) khớp hoàn hảo. Thú vị: 睡眠 (thụy miên) gợi liên tưởng đến từ thơ ca tiếng Việt 'thùy miên' (trạng thái lim dim buồn ngủ). Mở rộng round 6 — thêm 'tinh thần sung mãn' và 'chất lượng cuộc sống tăng lên', kết quả lâu dài của việc cải thiện giấc ngủ thành công."
     },
     {
       "id": "zh-scenario-home-renovation-diy",
@@ -2922,7 +3160,7 @@
     {
       "id": "zh-scenario-grandma-recipe",
       "kind": "scenario-chain",
-      "titleVn": "Bà dạy nấu ăn theo công thức gia truyền, ấm áp",
+      "titleVn": "Bà dạy nấu ăn theo công thức gia truyền, ấm áp, tự tay nấu cho gia đình ăn và ai cũng hài lòng",
       "nodes": [
         {
           "headword": "奶奶教我做菜",
@@ -2951,11 +3189,25 @@
           "hanViet": "ôn noãn",
           "meaningVn": "cảm thấy rất ấm áp",
           "pos": "emotion"
+        },
+        {
+          "headword": "亲手做给家人吃",
+          "reading": "qīnshǒu zuò gěi jiārén chī",
+          "hanViet": "thân thủ",
+          "meaningVn": "tự tay nấu cho gia đình ăn",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "大家都很满意",
+          "reading": "dàjiā dōu hěn mǎnyì",
+          "hanViet": "mãn ý",
+          "meaningVn": "mọi người đều rất hài lòng",
+          "pos": "adjective"
         }
       ],
-      "exampleVn": "Bà nội dạy tôi nấu ăn theo công thức truyền thống, tôi học một cách nghiêm túc, cảm thấy rất ấm áp.",
-      "example": "奶奶教我做菜，传统食谱，认真学习，感觉很温暖。",
-      "note": "Mục 11.9 mở rộng round 12 — dạng gia đình/truyền thống ấm áp, khác zh-scenario-family-reunion (đoàn tụ dịp lễ). 传统 (truyền thống) khớp hoàn hảo. LƯU Ý: 认真 (nhận chân, 'nghiêm túc') trùng chữ với cụm tiếng Việt 'nhận chân' nhưng nghĩa tiếng Việt nghiêng về 'nhận ra bản chất thật của điều gì đó' — sắc thái khác, không hẳn false-friend nhưng cần phân biệt ngữ cảnh."
+      "exampleVn": "Bà dạy tôi nấu ăn, công thức gia truyền, tôi học một cách nghiêm túc, cảm thấy rất ấm áp, tự tay nấu cho gia đình ăn, và ai cũng cảm thấy hài lòng.",
+      "example": "奶奶教我做菜，传统食谱，认真学习，感觉很温暖，亲手做给家人吃，大家都很满意。",
+      "note": "Mục 11.9 mở rộng round 12 — dạng gia đình/truyền thống ấm áp, khác zh-scenario-family-reunion (đoàn tụ dịp lễ). 传统 (truyền thống) khớp hoàn hảo. LƯU Ý: 认真 (nhận chân, 'nghiêm túc') trùng chữ với cụm tiếng Việt 'nhận chân' nhưng nghĩa tiếng Việt nghiêng về 'nhận ra bản chất thật của điều gì đó' — sắc thái khác, không hẳn false-friend nhưng cần phân biệt ngữ cảnh. Mở rộng round 7 — thêm 'tự tay nấu cho gia đình' và 'mọi người hài lòng', khép lại mạch chuyện học nấu ăn gia truyền bằng thành quả cụ thể."
     },
     {
       "id": "zh-scenario-loved-one-surgery-wait",
@@ -3140,7 +3392,7 @@
     {
       "id": "zh-scenario-new-sibling-born",
       "kind": "scenario-chain",
-      "titleVn": "Em trai chào đời, hồi hộp và tràn đầy yêu thương",
+      "titleVn": "Em trai chào đời tràn đầy yêu thương, cả nhà đặt tên và chụp ảnh gia đình đầu tiên",
       "nodes": [
         {
           "headword": "弟弟出生了",
@@ -3169,16 +3421,30 @@
           "hanViet": "ái ý",
           "meaningVn": "tràn đầy tình yêu thương",
           "pos": "adjective"
+        },
+        {
+          "headword": "全家一起给宝宝取名",
+          "reading": "quánjiā yīqǐ gěi bǎobao qǔmíng",
+          "hanViet": null,
+          "meaningVn": "cả nhà cùng đặt tên cho em bé",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "拍第一张全家福",
+          "reading": "pāi dì-yī zhāng quánjiāfú",
+          "hanViet": "toàn gia phúc",
+          "meaningVn": "chụp bức ảnh gia đình đầu tiên",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Em trai tôi chào đời, tôi vừa hồi hộp vừa xúc động, bế em, tràn đầy tình yêu thương.",
-      "example": "弟弟出生了，我既紧张又激动，抱着他，充满爱意。",
-      "note": "Mục 11.9 mở rộng round 13 — dạng gia đình/em bé mới chào đời. FALSE-FRIEND rất nổi tiếng: 激动 (jīdòng, 'xúc động/phấn khích' — cảm xúc TÍCH CỰC) ghép chữ ra 'kích động' — nhưng tiếng Việt 'kích động' nghiêng nghĩa TIÊU CỰC ('xúi giục/gây rối', VD 'kích động bạo lực'). So sánh trực tiếp với ja-scenario-new-sibling-born dùng 感動/cảm động (KHÔNG bị lỗi này) cho cùng cảm xúc."
+      "exampleVn": "Em trai chào đời, vừa hồi hộp vừa xúc động, bế em bé, tràn đầy tình yêu thương, cả nhà cùng đặt tên cho em bé, và chụp bức ảnh gia đình đầu tiên.",
+      "example": "弟弟出生了，既紧张又激动，抱着他，充满爱意，全家一起给宝宝取名，拍第一张全家福。",
+      "note": "Mục 11.9 mở rộng round 13 — dạng gia đình/em bé mới chào đời. FALSE-FRIEND rất nổi tiếng: 激动 (jīdòng, 'xúc động/phấn khích' — cảm xúc TÍCH CỰC) ghép chữ ra 'kích động' — nhưng tiếng Việt 'kích động' nghiêng nghĩa TIÊU CỰC ('xúi giục/gây rối', VD 'kích động bạo lực'). So sánh trực tiếp với ja-scenario-new-sibling-born dùng 感動/cảm động (KHÔNG bị lỗi này) cho cùng cảm xúc. Mở rộng round 4 — thêm 'cả nhà đặt tên' và 'chụp ảnh gia đình đầu tiên', 2 cột mốc thường gặp ngay sau khi em bé chào đời."
     },
     {
       "id": "zh-scenario-retirement-day",
       "kind": "scenario-chain",
-      "titleVn": "Nghỉ hưu, lưu luyến rồi tận hưởng tự do",
+      "titleVn": "Nghỉ hưu tận hưởng tự do, đồng nghiệp tổ chức tiệc chia tay và bắt đầu theo đuổi sở thích",
       "nodes": [
         {
           "headword": "退休了",
@@ -3207,16 +3473,30 @@
           "hanViet": "sinh hoạt",
           "meaningVn": "bắt đầu cuộc sống mới",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "同事们为他办欢送会",
+          "reading": "tóngshìmen wèi tā bàn huānsònghuì",
+          "hanViet": "hoan tống",
+          "meaningVn": "đồng nghiệp tổ chức tiệc tiễn biệt cho anh ấy",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "开始培养自己的爱好",
+          "reading": "kāishǐ péiyǎng zìjǐ de àihào",
+          "hanViet": "bồi dưỡng",
+          "meaningVn": "bắt đầu nuôi dưỡng sở thích riêng",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Tôi nghỉ hưu, có chút lưu luyến, nhưng cuối cùng được tự do, bắt đầu cuộc sống mới.",
-      "example": "我退休了，有点不舍，终于自由了，开始新生活。",
-      "note": "Mục 11.9 mở rộng round 13 — dạng chuyển giao giai đoạn cuộc đời, chủ đề mới chưa từng khai thác. 退休 (thoái hưu) chỉ mang tính tham khảo cấu tạo chữ, tiếng Việt chuẩn dùng 'nghỉ hưu/về hưu'. 自由 (tự do) khớp hoàn hảo."
+      "exampleVn": "Nghỉ hưu, có chút lưu luyến, cuối cùng được tự do, bắt đầu cuộc sống mới, đồng nghiệp tổ chức tiệc chia tay cho tôi, và bắt đầu theo đuổi sở thích riêng.",
+      "example": "退休了，有点不舍，终于自由了，开始新生活，同事们为他办欢送会，开始培养自己的爱好。",
+      "note": "Mục 11.9 mở rộng round 13 — dạng chuyển giao giai đoạn cuộc đời, chủ đề mới chưa từng khai thác. 退休 (thoái hưu) chỉ mang tính tham khảo cấu tạo chữ, tiếng Việt chuẩn dùng 'nghỉ hưu/về hưu'. 自由 (tự do) khớp hoàn hảo. Mở rộng round 4 — thêm 'tiệc chia tay của đồng nghiệp' và 'theo đuổi sở thích riêng', khép lại mạch chuyện nghỉ hưu bằng 1 chương mới của cuộc sống."
     },
     {
       "id": "zh-scenario-pet-passing-grief",
       "kind": "scenario-chain",
-      "titleVn": "Thú cưng qua đời, đau buồn rồi mãi mãi tưởng nhớ",
+      "titleVn": "Thú cưng qua đời, đau buồn rồi mãi mãi tưởng nhớ, nhìn lại ảnh cũ và dần vượt qua nỗi buồn",
       "nodes": [
         {
           "headword": "宠物去世了",
@@ -3245,16 +3525,30 @@
           "hanViet": "vĩnh viễn hoài niệm",
           "meaningVn": "mãi mãi tưởng nhớ",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "看着老照片",
+          "reading": "kànzhe lǎo zhàopiàn",
+          "hanViet": "lão chiếu phiến",
+          "meaningVn": "nhìn những bức ảnh cũ",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "慢慢走出悲伤",
+          "reading": "mànman zǒuchū bēishāng",
+          "hanViet": "bi thương",
+          "meaningVn": "dần dần vượt qua nỗi buồn",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Thú cưng của tôi qua đời, tôi vô cùng đau buồn, chôn cất nó, mãi mãi tưởng nhớ.",
-      "example": "宠物去世了，非常悲伤，埋葬它，永远怀念。",
-      "note": "Mục 11.9 mở rộng round 13 — dạng mất mát/tang lễ, ngữ cảnh ĐÚNG để dùng 怀念 (hoài niệm)! Đối lập trực tiếp với zh-scenario-long-distance-love nơi 想念 (tưởng niệm, sai ngữ cảnh vì dùng cho người còn sống) bị flag là false-friend — ở ĐÂY 怀念 dùng cho việc đã mất là hoàn toàn chuẩn xác. 去世(khứ thế)/悲伤(bi thương)/埋葬(mai táng) đều là các từ Hán Việt trang trọng khớp tốt."
+      "exampleVn": "Thú cưng qua đời, rất đau buồn, chôn cất nó, mãi mãi tưởng nhớ, nhìn lại những bức ảnh cũ, và dần dần vượt qua nỗi buồn.",
+      "example": "宠物去世了，非常悲伤，埋葬它，永远怀念，看着老照片，慢慢走出悲伤。",
+      "note": "Mục 11.9 mở rộng round 13 — dạng mất mát/tang lễ, ngữ cảnh ĐÚNG để dùng 怀念 (hoài niệm)! Đối lập trực tiếp với zh-scenario-long-distance-love nơi 想念 (tưởng niệm, sai ngữ cảnh vì dùng cho người còn sống) bị flag là false-friend — ở ĐÂY 怀念 dùng cho việc đã mất là hoàn toàn chuẩn xác. 去世(khứ thế)/悲伤(bi thương)/埋葬(mai táng) đều là các từ Hán Việt trang trọng khớp tốt. Mở rộng round 7 — thêm 'nhìn ảnh cũ' và 'dần vượt qua nỗi buồn', quá trình chữa lành thực tế sau khi mất thú cưng."
     },
     {
       "id": "zh-scenario-job-resignation-passion",
       "kind": "scenario-chain",
-      "titleVn": "Nghỉ việc theo đuổi ước mơ, kiên trì rồi thành công",
+      "titleVn": "Nghỉ việc theo đuổi ước mơ, kiên trì rồi thành công, chia sẻ kinh nghiệm và truyền cảm hứng cho nhiều người",
       "nodes": [
         {
           "headword": "辞职追梦",
@@ -3283,16 +3577,30 @@
           "hanViet": "thực hiện mộng tưởng",
           "meaningVn": "cuối cùng thực hiện được ước mơ",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "分享成功经验",
+          "reading": "fēnxiǎng chénggōng jīngyàn",
+          "hanViet": "phân hưởng, thành công kinh nghiệm",
+          "meaningVn": "chia sẻ kinh nghiệm thành công",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "激励更多人",
+          "reading": "jīlì gèng duō rén",
+          "hanViet": "kích lệ",
+          "meaningVn": "truyền cảm hứng cho nhiều người hơn",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Tôi nghỉ việc để theo đuổi ước mơ, gia đình lo lắng, tôi kiên trì với lựa chọn của mình, cuối cùng thực hiện được ước mơ.",
-      "example": "我辞职追梦，家人担心，坚持自己的选择，终于实现梦想。",
-      "note": "Mục 11.9 mở rộng round 13 — dạng quyết định lớn trong sự nghiệp, bổ sung cho zh-scenario-job-loss (bị động) bằng góc nhìn chủ động. 辞职(từ chức)/实现(thực hiện) khớp hoàn hảo. 家人 tiếp tục là false-friend (gia nhân) đã ghi từ round 10."
+      "exampleVn": "Nghỉ việc theo đuổi ước mơ, gia đình lo lắng, kiên trì với lựa chọn của mình, cuối cùng thực hiện được ước mơ, chia sẻ kinh nghiệm thành công, và truyền cảm hứng cho nhiều người hơn.",
+      "example": "辞职追梦，家人担心，坚持自己的选择，终于实现梦想，分享成功经验，激励更多人。",
+      "note": "Mục 11.9 mở rộng round 13 — dạng quyết định lớn trong sự nghiệp, bổ sung cho zh-scenario-job-loss (bị động) bằng góc nhìn chủ động. 辞职(từ chức)/实现(thực hiện) khớp hoàn hảo. 家人 tiếp tục là false-friend (gia nhân) đã ghi từ round 10. Mở rộng round 8 — thêm 'chia sẻ kinh nghiệm thành công' và 'truyền cảm hứng cho người khác', kết quả lan tỏa tích cực của việc theo đuổi ước mơ thành công."
     },
     {
       "id": "zh-scenario-university-admission-wait",
       "kind": "scenario-chain",
-      "titleVn": "Chờ kết quả đại học, hồi hộp rồi vui mừng khôn xiết",
+      "titleVn": "Chờ kết quả đại học, vui mừng khôn xiết, báo tin gia đình và chuẩn bị nhập học",
       "nodes": [
         {
           "headword": "等大学录取结果",
@@ -3321,16 +3629,30 @@
           "hanViet": null,
           "meaningVn": "vui mừng khôn xiết",
           "pos": "idiom"
+        },
+        {
+          "headword": "告诉父母这个消息",
+          "reading": "gàosu fùmǔ zhège xiāoxi",
+          "hanViet": "tiêu tức",
+          "meaningVn": "báo tin này cho bố mẹ",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "准备入学的行李",
+          "reading": "zhǔnbèi rùxué de xíngli",
+          "hanViet": "nhập học",
+          "meaningVn": "chuẩn bị hành lý nhập học",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Tôi chờ kết quả tuyển sinh đại học, đứng ngồi không yên, nhận được giấy báo trúng tuyển, vui mừng khôn xiết.",
-      "example": "我等大学录取结果，坐立不安，收到录取通知书，喜出望外。",
-      "note": "Mục 11.9 mở rộng round 13 — dạng học tập/ngưỡng cửa cuộc đời, bổ sung cho zh-scenario-exam-pass bằng bối cảnh tuyển sinh đại học cụ thể. 大学 (đại học) khớp hoàn hảo. 坐立不安/喜出望外 là 2 thành ngữ 4 chữ rất thông dụng."
+      "exampleVn": "Tôi chờ kết quả tuyển sinh đại học, đứng ngồi không yên, nhận được giấy báo trúng tuyển, vui mừng khôn xiết, báo tin này cho bố mẹ, và chuẩn bị hành lý nhập học.",
+      "example": "等大学录取结果，坐立不安，收到录取通知书，喜出望外，告诉父母这个消息，准备入学的行李。",
+      "note": "Mục 11.9 mở rộng round 13 — dạng học tập/ngưỡng cửa cuộc đời, bổ sung cho zh-scenario-exam-pass bằng bối cảnh tuyển sinh đại học cụ thể. 大学 (đại học) khớp hoàn hảo. 坐立不安/喜出望外 là 2 thành ngữ 4 chữ rất thông dụng. Mở rộng round 3 — thêm 'báo tin gia đình' và 'chuẩn bị nhập học', khép lại mạch chuyện thi đại học bằng bước chuyển tiếp thực tế sang cuộc sống sinh viên."
     },
     {
       "id": "zh-scenario-breakup-heal",
       "kind": "scenario-chain",
-      "titleVn": "Chia tay, đau lòng rồi dần chữa lành",
+      "titleVn": "Chia tay, đau lòng rồi dần chữa lành, tái tạo tinh thần và bắt đầu cuộc sống mới",
       "nodes": [
         {
           "headword": "分手了",
@@ -3359,16 +3681,30 @@
           "hanViet": null,
           "meaningVn": "dần dần vượt qua",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "重新振作起来",
+          "reading": "chóngxīn zhènzuò qǐlái",
+          "hanViet": "trùng tân chấn tác",
+          "meaningVn": "lấy lại tinh thần một lần nữa",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "开始新的生活",
+          "reading": "kāishǐ xīn de shēnghuó",
+          "hanViet": "khai thủy, sinh hoạt",
+          "meaningVn": "bắt đầu cuộc sống mới",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Tôi chia tay, đau lòng, một mình lặng lẽ chữa lành, dần dần vượt qua.",
-      "example": "我分手了，心碎，一个人静静地疗伤，慢慢走出来。",
-      "note": "Mục 11.9 mở rộng round 13 — dạng tình cảm/chia ly, bổ sung cho zh-scenario-cluster-love và zh-scenario-first-date bằng góc nhìn kết thúc. 疗伤 (liệu thương, 'chữa trị vết thương') dùng theo nghĩa bóng rất tự nhiên cho 'chữa lành nỗi đau tình cảm'."
+      "exampleVn": "Tôi chia tay, đau lòng, một mình lặng lẽ chữa lành, dần dần vượt qua, lấy lại tinh thần, và bắt đầu cuộc sống mới.",
+      "example": "我分手了，心碎，一个人静静地疗伤，慢慢走出来，重新振作起来，开始新的生活。",
+      "note": "Mục 11.9 mở rộng round 13 — dạng tình cảm/chia ly, bổ sung cho zh-scenario-cluster-love và zh-scenario-first-date bằng góc nhìn kết thúc. 疗伤 (liệu thương, 'chữa trị vết thương') dùng theo nghĩa bóng rất tự nhiên cho 'chữa lành nỗi đau tình cảm'. Mở rộng round 6 — thêm 'lấy lại tinh thần' và 'bắt đầu cuộc sống mới', khép lại mạch chuyện chia tay bằng một khởi đầu tích cực."
     },
     {
       "id": "zh-scenario-photography-hobby",
       "kind": "scenario-chain",
-      "titleVn": "Say mê chụp ảnh, kiên trì rồi chụp được ảnh đẹp",
+      "titleVn": "Say mê chụp ảnh, chụp được ảnh đẹp, chia sẻ mọi người và tham gia câu lạc bộ",
       "nodes": [
         {
           "headword": "爱上摄影",
@@ -3397,16 +3733,30 @@
           "hanViet": "thành tựu cảm",
           "meaningVn": "rất có thành tựu",
           "pos": "emotion"
+        },
+        {
+          "headword": "分享给大家看",
+          "reading": "fēnxiǎng gěi dàjiā kàn",
+          "hanViet": "phân hưởng",
+          "meaningVn": "chia sẻ cho mọi người xem",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "加入摄影俱乐部",
+          "reading": "jiārù shèyǐng jùlèbù",
+          "hanViet": "câu lạc bộ",
+          "meaningVn": "tham gia câu lạc bộ nhiếp ảnh",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Tôi yêu thích chụp ảnh, chụp đi chụp lại nhiều lần, cuối cùng chụp được bức ảnh đẹp, cảm thấy rất có thành tựu.",
-      "example": "我爱上摄影，拍了很多次，终于拍到好照片，很有成就感。",
-      "note": "Mục 11.9 mở rộng round 14 — dạng sở thích/nghệ thuật cá nhân. 摄影 (nhiếp ảnh) khớp hoàn hảo. So sánh thú vị: tiếng Trung dùng 照片 (khẩu ngữ) cho 'ảnh chụp', trong khi JA/KO dùng 写真/사진 (tả chân) — xem ghi chú ở ja-scenario-photography-hobby về nuance riêng của từ này."
+      "exampleVn": "Yêu thích chụp ảnh, chụp đi chụp lại nhiều lần, cuối cùng chụp được ảnh đẹp, rất có cảm giác thành tựu, chia sẻ cho mọi người xem, và tham gia câu lạc bộ nhiếp ảnh.",
+      "example": "爱上摄影，拍了很多次，终于拍到好照片，很有成就感，分享给大家看，加入摄影俱乐部。",
+      "note": "Mục 11.9 mở rộng round 14 — dạng sở thích/nghệ thuật cá nhân. 摄影 (nhiếp ảnh) khớp hoàn hảo. So sánh thú vị: tiếng Trung dùng 照片 (khẩu ngữ) cho 'ảnh chụp', trong khi JA/KO dùng 写真/사진 (tả chân) — xem ghi chú ở ja-scenario-photography-hobby về nuance riêng của từ này. Mở rộng round 5 — thêm 'chia sẻ với mọi người' và 'tham gia câu lạc bộ', 2 bước phát triển tự nhiên của một sở thích chụp ảnh nghiêm túc."
     },
     {
       "id": "zh-scenario-charity-fundraising",
       "kind": "scenario-chain",
-      "titleVn": "Tổ chức gây quỹ từ thiện, khó khăn rồi giúp được nhiều người",
+      "titleVn": "Gây quỹ từ thiện giúp được nhiều người, thấy nụ cười của họ và quyết tâm tiếp tục lâu dài",
       "nodes": [
         {
           "headword": "组织募捐活动",
@@ -3435,16 +3785,30 @@
           "hanViet": "bang trợ",
           "meaningVn": "đã giúp đỡ được nhiều người",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "看到受助者的笑容",
+          "reading": "kàndào shòuzhùzhě de xiàoróng",
+          "hanViet": "tiếu dung",
+          "meaningVn": "nhìn thấy nụ cười của người được giúp",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "决定长期坚持下去",
+          "reading": "juédìng chángqī jiānchí xiàqù",
+          "hanViet": "trường kỳ",
+          "meaningVn": "quyết định kiên trì lâu dài",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Tôi tổ chức hoạt động gây quỹ từ thiện, gặp khó khăn, nhưng quyên góp được tiền, đã giúp đỡ được nhiều người.",
-      "example": "我组织募捐活动，遇到困难，筹到善款，帮助了很多人。",
-      "note": "Mục 11.9 mở rộng round 14 — dạng hoạt động xã hội/thiện nguyện, bổ sung zh-scenario-volunteer-work. FALSE-FRIEND CỰC KỲ QUAN TRỌNG, CẦN THẬN TRỌNG: 困难 (kùnnán, nghĩa trung tính 'khó khăn') ghép chữ Hán Việt ra ĐÚNG LÀ 'khốn nạn' — nhưng trong tiếng Việt hiện đại 'khốn nạn' là TỪ CHỬI RỦA MẠNH (nghĩa 'đê tiện, đáng khinh'), HOÀN TOÀN không dùng để nói về khó khăn thông thường. Đây là false-friend nguy hiểm nhất từng ghi nhận — người học TUYỆT ĐỐI không được dùng 'khốn nạn' để dịch 困难/困難/곤란. Xem thêm ja/ko-scenario-charity-fundraising."
+      "exampleVn": "Tổ chức hoạt động gây quỹ, gặp khó khăn, quyên góp được tiền từ thiện, đã giúp đỡ được nhiều người, nhìn thấy nụ cười của người được giúp, và quyết định kiên trì lâu dài.",
+      "example": "组织募捐活动，遇到困难，筹到善款，帮助了很多人，看到受助者的笑容，决定长期坚持下去。",
+      "note": "Mục 11.9 mở rộng round 14 — dạng hoạt động xã hội/thiện nguyện, bổ sung zh-scenario-volunteer-work. FALSE-FRIEND CỰC KỲ QUAN TRỌNG, CẦN THẬN TRỌNG: 困难 (kùnnán, nghĩa trung tính 'khó khăn') ghép chữ Hán Việt ra ĐÚNG LÀ 'khốn nạn' — nhưng trong tiếng Việt hiện đại 'khốn nạn' là TỪ CHỬI RỦA MẠNH (nghĩa 'đê tiện, đáng khinh'), HOÀN TOÀN không dùng để nói về khó khăn thông thường. Đây là false-friend nguy hiểm nhất từng ghi nhận — người học TUYỆT ĐỐI không được dùng 'khốn nạn' để dịch 困难/困難/곤란. Xem thêm ja/ko-scenario-charity-fundraising. Mở rộng round 5 — thêm 'nụ cười của người được giúp' và 'quyết tâm tiếp tục lâu dài', khép lại mạch chuyện từ thiện bằng động lực để duy trì hoạt động."
     },
     {
       "id": "zh-scenario-elderly-smartphone-learn",
       "kind": "scenario-chain",
-      "titleVn": "Ông học dùng điện thoại thông minh, bối rối rồi vui mừng",
+      "titleVn": "Ông học dùng điện thoại thông minh, bối rối rồi vui mừng, gọi được video và gần gũi hơn với cháu",
       "nodes": [
         {
           "headword": "爷爷学用智能手机",
@@ -3473,11 +3837,25 @@
           "hanViet": "cao hứng",
           "meaningVn": "học được rồi rất vui",
           "pos": "adjective"
+        },
+        {
+          "headword": "能视频聊天了",
+          "reading": "néng shìpín liáotiān le",
+          "hanViet": "thị tần liêu thiên",
+          "meaningVn": "có thể gọi video trò chuyện",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "和孙子更亲近",
+          "reading": "hé sūnzi gèng qīnjìn",
+          "hanViet": "thân cận",
+          "meaningVn": "trở nên gần gũi hơn với cháu",
+          "pos": "adjective"
         }
       ],
-      "exampleVn": "Ông tôi học dùng điện thoại thông minh, lúc đầu rất bối rối, tôi kiên nhẫn dạy ông, học được rồi ông rất vui.",
-      "example": "爷爷学用智能手机，一开始很困惑，耐心教他，学会了很开心。",
-      "note": "Mục 11.9 mở rộng round 14 — dạng liên thế hệ/công nghệ. 智能 (trí năng) khớp hoàn hảo. LƯU Ý: 困惑 cũng chứa chữ 困 giống 困难/khốn nạn nhưng ghép với 惑 (hoặc) cho nghĩa khác 'bối rối, mê hoặc' — không nguy hiểm như 困难 vì 'khốn hoặc' không phải từ chửi rủa trong tiếng Việt (và thực ra cũng không phải từ chuẩn hóa, chỉ để null an toàn)."
+      "exampleVn": "Ông học dùng điện thoại thông minh, ban đầu rất bối rối, kiên nhẫn dạy ông, học được rồi rất vui mừng, giờ có thể gọi video, và trở nên gần gũi hơn với cháu.",
+      "example": "爷爷学用智能手机，一开始很困惑，耐心教他，学会了很开心，能视频聊天了，和孙子更亲近。",
+      "note": "Mục 11.9 mở rộng round 14 — dạng liên thế hệ/công nghệ. 智能 (trí năng) khớp hoàn hảo. LƯU Ý: 困惑 cũng chứa chữ 困 giống 困难/khốn nạn nhưng ghép với 惑 (hoặc) cho nghĩa khác 'bối rối, mê hoặc' — không nguy hiểm như 困难 vì 'khốn hoặc' không phải từ chửi rủa trong tiếng Việt (và thực ra cũng không phải từ chuẩn hóa, chỉ để null an toàn). Mở rộng round 7 — thêm 'gọi được video' và 'gần gũi hơn với cháu', kết quả thiết thực của việc kiên nhẫn dạy người lớn tuổi dùng công nghệ."
     },
     {
       "id": "zh-scenario-marathon-finish",
@@ -3527,7 +3905,7 @@
     {
       "id": "zh-scenario-first-time-alone",
       "kind": "scenario-chain",
-      "titleVn": "Lần đầu sống một mình, cô đơn rồi trở nên độc lập",
+      "titleVn": "Lần đầu sống một mình, cô đơn rồi trở nên độc lập, mời bạn bè đến chơi và tận hưởng không gian riêng",
       "nodes": [
         {
           "headword": "第一次一个人住",
@@ -3556,16 +3934,30 @@
           "hanViet": "độc lập",
           "meaningVn": "trở nên độc lập hơn",
           "pos": "adjective"
+        },
+        {
+          "headword": "邀请朋友来家里玩",
+          "reading": "yāoqǐng péngyǒu lái jiālǐ wán",
+          "hanViet": null,
+          "meaningVn": "mời bạn bè đến nhà chơi",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "享受自己的空间",
+          "reading": "xiǎngshòu zìjǐ de kōngjiān",
+          "hanViet": "hưởng thụ, không gian",
+          "meaningVn": "tận hưởng không gian riêng của mình",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Lần đầu tiên sống một mình, tôi cảm thấy cô đơn, học cách tự chăm sóc bản thân, trở nên độc lập hơn.",
-      "example": "我第一次一个人住，感到孤独，学会照顾自己，变得更独立。",
-      "note": "Mục 11.9 mở rộng round 14 — dạng trưởng thành/tự lập, bổ sung zh-scenario-new-city-adjust. LƯU Ý NUANCE: 照顾 (chiếu cố) ghép chữ khớp 'chiếu cố' tiếng Việt nhưng tiếng Việt hiện đại 'chiếu cố' nghiêng nghĩa hẹp 'ưu ái/quan tâm đặc biệt' (VD 'xin chiếu cố'), ít dùng cho nghĩa rộng 'chăm sóc' đời thường như tiếng Trung. 独立 (độc lập) khớp hoàn hảo."
+      "exampleVn": "Lần đầu sống một mình, cảm thấy cô đơn, học cách tự chăm sóc bản thân, trở nên độc lập hơn, mời bạn bè đến nhà chơi, và tận hưởng không gian riêng của mình.",
+      "example": "第一次一个人住，感到孤独，学会照顾自己，变得更独立，邀请朋友来家里玩，享受自己的空间。",
+      "note": "Mục 11.9 mở rộng round 14 — dạng trưởng thành/tự lập, bổ sung zh-scenario-new-city-adjust. LƯU Ý NUANCE: 照顾 (chiếu cố) ghép chữ khớp 'chiếu cố' tiếng Việt nhưng tiếng Việt hiện đại 'chiếu cố' nghiêng nghĩa hẹp 'ưu ái/quan tâm đặc biệt' (VD 'xin chiếu cố'), ít dùng cho nghĩa rộng 'chăm sóc' đời thường như tiếng Trung. 独立 (độc lập) khớp hoàn hảo. Mở rộng round 8 — thêm 'mời bạn bè đến chơi' và 'tận hưởng không gian riêng', giai đoạn thích nghi tích cực sau khi vượt qua cảm giác cô đơn ban đầu."
     },
     {
       "id": "zh-scenario-meditation-practice",
       "kind": "scenario-chain",
-      "titleVn": "Học thiền, khó tập trung rồi nội tâm bình yên",
+      "titleVn": "Học thiền nội tâm bình yên, học cách hít thở đúng và cảm nhận thay đổi tích cực",
       "nodes": [
         {
           "headword": "开始冥想",
@@ -3594,16 +3986,30 @@
           "hanViet": "nội tâm bình tĩnh",
           "meaningVn": "nội tâm bình yên",
           "pos": "adjective"
+        },
+        {
+          "headword": "学会正确呼吸",
+          "reading": "xuéhuì zhèngquè hūxī",
+          "hanViet": "hô hấp",
+          "meaningVn": "học được cách hít thở đúng",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "感受到生活的积极变化",
+          "reading": "gǎnshòudào shēnghuó de jījí biànhuà",
+          "hanViet": "tích cực",
+          "meaningVn": "cảm nhận được thay đổi tích cực trong cuộc sống",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Tôi bắt đầu thiền, rất khó tập trung chú ý, nhưng kiên trì luyện tập, nội tâm dần bình yên.",
-      "example": "我开始冥想，很难集中注意力，坚持练习，内心平静。",
-      "note": "Mục 11.9 mở rộng round 14 — dạng sức khỏe tinh thần/chánh niệm, bổ sung zh-scenario-insomnia-improve. 集中(tập trung)/内心(nội tâm) khớp hoàn hảo. 冥想 (minh tưởng) ít dùng độc lập, tiếng Việt hiện đại hay dùng 'thiền định' hoặc phiên âm 'meditation' hơn."
+      "exampleVn": "Bắt đầu thiền, rất khó tập trung chú ý, kiên trì luyện tập, nội tâm bình yên, học được cách hít thở đúng, và cảm nhận được sự thay đổi tích cực trong cuộc sống.",
+      "example": "开始冥想，很难集中注意力，坚持练习，内心平静，学会正确呼吸，感受到生活的积极变化。",
+      "note": "Mục 11.9 mở rộng round 14 — dạng sức khỏe tinh thần/chánh niệm, bổ sung zh-scenario-insomnia-improve. 集中(tập trung)/内心(nội tâm) khớp hoàn hảo. 冥想 (minh tưởng) ít dùng độc lập, tiếng Việt hiện đại hay dùng 'thiền định' hoặc phiên âm 'meditation' hơn. Mở rộng round 5 — thêm 'học cách hít thở đúng' và 'cảm nhận thay đổi tích cực', kết quả lâu dài thực tế của việc kiên trì tập thiền."
     },
     {
       "id": "zh-scenario-flight-missed-rebook",
       "kind": "scenario-chain",
-      "titleVn": "Lỡ chuyến bay, hoảng loạn rồi đến nơi thuận lợi",
+      "titleVn": "Lỡ chuyến bay, hoảng loạn rồi đến nơi thuận lợi, thở phào nhẹ nhõm và kịp tham gia cuộc họp",
       "nodes": [
         {
           "headword": "错过航班",
@@ -3632,16 +4038,30 @@
           "hanViet": "thuận lợi",
           "meaningVn": "đến nơi thuận lợi",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "松了一口气",
+          "reading": "sōngle yī kǒu qì",
+          "hanViet": null,
+          "meaningVn": "thở phào nhẹ nhõm",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "按时参加会议",
+          "reading": "ànshí cānjiā huìyì",
+          "hanViet": "án thời, tham gia hội nghị",
+          "meaningVn": "kịp tham gia cuộc họp đúng giờ",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Tôi lỡ chuyến bay, vô cùng hoảng loạn, đặt lại vé, cuối cùng đến nơi thuận lợi.",
-      "example": "我错过航班，非常慌乱，重新订票，顺利到达。",
-      "note": "Mục 11.9 mở rộng round 15 — dạng du lịch/sự cố di chuyển, bổ sung zh-scenario-traffic-jam-late (kẹt xe) bằng bối cảnh sân bay. 顺利 (thuận lợi) khớp hoàn hảo."
+      "exampleVn": "Lỡ chuyến bay, rất hoảng loạn, đặt lại vé, đến nơi an toàn, thở phào nhẹ nhõm, và kịp tham gia cuộc họp đúng giờ.",
+      "example": "错过航班，非常慌乱，重新订票，顺利到达，松了一口气，按时参加会议。",
+      "note": "Mục 11.9 mở rộng round 15 — dạng du lịch/sự cố di chuyển, bổ sung zh-scenario-traffic-jam-late (kẹt xe) bằng bối cảnh sân bay. 顺利 (thuận lợi) khớp hoàn hảo. Mở rộng round 8 — thêm 'thở phào nhẹ nhõm' và 'kịp tham gia cuộc họp', kết quả tích cực sau khi xử lý ổn thỏa sự cố lỡ chuyến bay."
     },
     {
       "id": "zh-scenario-pregnancy-announce",
       "kind": "scenario-chain",
-      "titleVn": "Báo tin có thai, hồi hộp rồi cả nhà vui mừng",
+      "titleVn": "Báo tin có thai, hồi hộp rồi cả nhà vui mừng, bắt đầu chuẩn bị đồ cho bé và mong chờ sinh mệnh mới",
       "nodes": [
         {
           "headword": "怀孕了",
@@ -3670,16 +4090,30 @@
           "hanViet": "toàn gia",
           "meaningVn": "cả nhà đều rất vui",
           "pos": "adjective"
+        },
+        {
+          "headword": "开始准备婴儿用品",
+          "reading": "kāishǐ zhǔnbèi yīng'ér yòngpǐn",
+          "hanViet": "anh nhi dụng phẩm",
+          "meaningVn": "bắt đầu chuẩn bị đồ dùng cho em bé",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "满怀期待迎接新生命",
+          "reading": "mǎnhuái qīdài yíngjiē xīn shēngmìng",
+          "hanViet": "kỳ đãi, tân sinh mệnh",
+          "meaningVn": "tràn đầy mong đợi đón chào sinh mệnh mới",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Tôi có thai, báo tin cho gia đình, vừa hồi hộp vừa mong đợi, cả nhà đều rất vui.",
-      "example": "我怀孕了，告诉家人，既紧张又期待，全家都很开心。",
-      "note": "Mục 11.9 mở rộng round 15 — dạng gia đình/tin vui trọng đại, bổ sung zh-scenario-new-sibling-born từ góc nhìn người mang thai. 全家 (toàn gia) khớp hoàn hảo. 怀孕 để null vì không tự tin về mức độ chuẩn hóa Hán Việt của 孕."
+      "exampleVn": "Tôi có thai, báo tin cho gia đình, vừa hồi hộp vừa mong đợi, cả nhà đều rất vui mừng, bắt đầu chuẩn bị đồ dùng cho em bé, và tràn đầy mong đợi đón chào sinh mệnh mới.",
+      "example": "我怀孕了，告诉家人，既紧张又期待，全家都很开心，开始准备婴儿用品，满怀期待迎接新生命。",
+      "note": "Mục 11.9 mở rộng round 15 — dạng gia đình/tin vui trọng đại, bổ sung zh-scenario-new-sibling-born từ góc nhìn người mang thai. 全家 (toàn gia) khớp hoàn hảo. 怀孕 để null vì không tự tin về mức độ chuẩn hóa Hán Việt của 孕. Mở rộng round 7 — thêm 'chuẩn bị đồ cho bé' và 'mong chờ sinh mệnh mới', 2 bước chuẩn bị tự nhiên tiếp theo sau khi báo tin vui."
     },
     {
       "id": "zh-scenario-friend-broken-promise",
       "kind": "scenario-chain",
-      "titleVn": "Bạn thất hứa, thất vọng rồi tha thứ",
+      "titleVn": "Bạn thất hứa, thất vọng rồi tha thứ, cùng nhau trò chuyện và tình bạn càng thêm sâu sắc",
       "nodes": [
         {
           "headword": "朋友失约",
@@ -3708,16 +4142,30 @@
           "hanViet": "quan hệ khôi phục",
           "meaningVn": "mối quan hệ được khôi phục",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "一起吃饭聊天",
+          "reading": "yìqǐ chīfàn liáotiān",
+          "hanViet": null,
+          "meaningVn": "cùng nhau ăn uống trò chuyện",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "友谊更加深厚",
+          "reading": "yǒuyì gèngjiā shēnhòu",
+          "hanViet": "hữu nghị, thâm hậu",
+          "meaningVn": "tình bạn càng thêm sâu sắc",
+          "pos": "adjective"
         }
       ],
-      "exampleVn": "Bạn tôi thất hứa, tôi rất thất vọng, nhưng quyết định tha thứ cho anh ấy, mối quan hệ được khôi phục.",
-      "example": "朋友失约，很失望，决定原谅他，关系恢复了。",
-      "note": "Mục 11.9 mở rộng round 15 — dạng tình bạn/tha thứ, bổ sung zh-scenario-argument-reconcile bằng tình huống 'bị thất hứa' cụ thể. 失约 (thất ước) và 关系 (quan hệ) khớp hoàn hảo."
+      "exampleVn": "Bạn thất hứa, rất thất vọng, quyết định tha thứ cho bạn, mối quan hệ được hàn gắn, cùng nhau ăn uống trò chuyện, và tình bạn càng thêm sâu sắc.",
+      "example": "朋友失约，很失望，决定原谅他，关系恢复，一起吃饭聊天，友谊更加深厚。",
+      "note": "Mục 11.9 mở rộng round 15 — dạng tình bạn/tha thứ, bổ sung zh-scenario-argument-reconcile bằng tình huống 'bị thất hứa' cụ thể. 失约 (thất ước) và 关系 (quan hệ) khớp hoàn hảo. Mở rộng round 8 — thêm 'cùng nhau trò chuyện' và 'tình bạn sâu sắc hơn', kết quả tích cực lâu dài sau khi tha thứ và hàn gắn."
     },
     {
       "id": "zh-scenario-learn-to-say-no",
       "kind": "scenario-chain",
-      "titleVn": "Học cách từ chối, áp lực rồi tự tin hơn",
+      "titleVn": "Học cách từ chối, áp lực rồi tự tin hơn, có nhiều thời gian hơn cho bản thân và cuộc sống nhẹ nhàng hơn",
       "nodes": [
         {
           "headword": "总是答应别人",
@@ -3746,16 +4194,30 @@
           "hanViet": "tự tín",
           "meaningVn": "tự tin hơn",
           "pos": "adjective"
+        },
+        {
+          "headword": "有更多时间做自己的事",
+          "reading": "yǒu gèng duō shíjiān zuò zìjǐ de shì",
+          "hanViet": null,
+          "meaningVn": "có nhiều thời gian hơn để làm việc của mình",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "生活更加轻松",
+          "reading": "shēnghuó gèngjiā qīngsōng",
+          "hanViet": "sinh hoạt, khinh tùng",
+          "meaningVn": "cuộc sống trở nên nhẹ nhàng hơn",
+          "pos": "adjective"
         }
       ],
-      "exampleVn": "Tôi luôn đồng ý với người khác, áp lực rất lớn, học cách từ chối, trở nên tự tin hơn.",
-      "example": "我总是答应别人，压力很大，学会拒绝，更加自信。",
-      "note": "Mục 11.9 mở rộng round 15 — dạng tâm lý/ranh giới cá nhân, chủ đề phát triển bản thân hiện đại. 拒绝 (cự tuyệt) khớp hoàn hảo."
+      "exampleVn": "Tôi luôn đồng ý với người khác, áp lực rất lớn, học cách từ chối, tự tin hơn, có nhiều thời gian hơn để làm việc của mình, và cuộc sống trở nên nhẹ nhàng hơn.",
+      "example": "我总是答应别人，压力很大，学会拒绝，更加自信，有更多时间做自己的事，生活更加轻松。",
+      "note": "Mục 11.9 mở rộng round 15 — dạng tâm lý/ranh giới cá nhân, chủ đề phát triển bản thân hiện đại. 拒绝 (cự tuyệt) khớp hoàn hảo. Mở rộng round 7 — thêm 'nhiều thời gian hơn cho bản thân' và 'cuộc sống nhẹ nhàng hơn', lợi ích lâu dài của việc học cách từ chối."
     },
     {
       "id": "zh-scenario-food-poisoning-recovery",
       "kind": "scenario-chain",
-      "titleVn": "Ngộ độc thực phẩm, khó chịu rồi dần khỏe lại",
+      "titleVn": "Ngộ độc thực phẩm, khó chịu rồi dần khỏe lại, chú ý vệ sinh ăn uống và không dám ăn bừa bãi nữa",
       "nodes": [
         {
           "headword": "吃坏肚子",
@@ -3784,16 +4246,30 @@
           "hanViet": "khôi phục kiện khang",
           "meaningVn": "dần dần hồi phục sức khỏe",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "注意饮食卫生",
+          "reading": "zhùyì yǐnshí wèishēng",
+          "hanViet": "chú ý, ẩm thực vệ sinh",
+          "meaningVn": "chú ý vệ sinh ăn uống",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "再也不敢乱吃东西",
+          "reading": "zàiyě bù gǎn luàn chī dōngxi",
+          "hanViet": null,
+          "meaningVn": "không còn dám ăn uống bừa bãi nữa",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Tôi ăn phải đồ hỏng, nôn mửa tiêu chảy, đi khám bác sĩ, dần dần hồi phục sức khỏe.",
-      "example": "我吃坏肚子，上吐下泻，去看医生，慢慢恢复健康。",
-      "note": "Mục 11.9 mở rộng round 15 — dạng y tế đời thường, bổ sung zh-scenario-cold-recovery. 医生 (y sinh) không phải từ chuẩn tiếng Việt (dùng 'bác sĩ/y sĩ'), chỉ mang tính tham khảo cấu tạo chữ. 健康 (kiện khang) khớp hoàn hảo."
+      "exampleVn": "Bị ngộ độc thực phẩm, nôn mửa và tiêu chảy nặng, đi khám bác sĩ, dần dần khỏe lại, chú ý vệ sinh ăn uống, và không còn dám ăn uống bừa bãi nữa.",
+      "example": "吃坏肚子，上吐下泻，去看医生，慢慢恢复健康，注意饮食卫生，再也不敢乱吃东西。",
+      "note": "Mục 11.9 mở rộng round 15 — dạng y tế đời thường, bổ sung zh-scenario-cold-recovery. 医生 (y sinh) không phải từ chuẩn tiếng Việt (dùng 'bác sĩ/y sĩ'), chỉ mang tính tham khảo cấu tạo chữ. 健康 (kiện khang) khớp hoàn hảo. Mở rộng round 8 — thêm 'chú ý vệ sinh ăn uống' và 'không dám ăn bừa bãi nữa', bài học thực tế rút ra sau trận ngộ độc thực phẩm."
     },
     {
       "id": "zh-scenario-business-failure-recover",
       "kind": "scenario-chain",
-      "titleVn": "Kinh doanh thất bại, nợ nần rồi quật khởi trở lại",
+      "titleVn": "Kinh doanh thất bại, nợ nần rồi quật khởi trở lại, mở công ty mới và sự nghiệp thịnh vượng",
       "nodes": [
         {
           "headword": "生意失败了",
@@ -3822,16 +4298,30 @@
           "hanViet": "Đông Sơn tái khởi",
           "meaningVn": "quật khởi trở lại sau thất bại",
           "pos": "idiom"
+        },
+        {
+          "headword": "开了新公司",
+          "reading": "kāile xīn gōngsī",
+          "hanViet": "tân công ty",
+          "meaningVn": "đã mở công ty mới",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "事业蒸蒸日上",
+          "reading": "shìyè zhēngzhēng rìshàng",
+          "hanViet": "sự nghiệp",
+          "meaningVn": "sự nghiệp ngày càng phát triển thịnh vượng",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Việc kinh doanh của tôi thất bại, nợ nần chồng chất, tôi làm lại từ đầu, cuối cùng quật khởi trở lại.",
-      "example": "我生意失败了，负债累累，从头再来，东山再起。",
-      "note": "Mục 11.9 mở rộng round 15 — dạng kinh doanh/nghị lực, bổ sung zh-scenario-losing-competition. ĐIỂM ĐẶC BIỆT: 东山再起 (Đông Sơn tái khởi) là thành ngữ điển tích Trung Hoa (gốc tích Tạ An lui về Đông Sơn rồi trở lại chấp chính) ĐƯỢC MƯỢN NGUYÊN VẸN vào tiếng Việt như thành ngữ quen thuộc — khác các trường hợp false-friend, đây là ví dụ khớp HOÀN HẢO cả điển tích lẫn cách dùng."
+      "exampleVn": "Kinh doanh thất bại, nợ nần chồng chất, làm lại từ đầu, quật khởi trở lại, mở công ty mới, và sự nghiệp ngày càng phát triển thịnh vượng.",
+      "example": "生意失败了，负债累累，从头再来，东山再起，开了新公司，事业蒸蒸日上。",
+      "note": "Mục 11.9 mở rộng round 15 — dạng kinh doanh/nghị lực, bổ sung zh-scenario-losing-competition. ĐIỂM ĐẶC BIỆT: 东山再起 (Đông Sơn tái khởi) là thành ngữ điển tích Trung Hoa (gốc tích Tạ An lui về Đông Sơn rồi trở lại chấp chính) ĐƯỢC MƯỢN NGUYÊN VẸN vào tiếng Việt như thành ngữ quen thuộc — khác các trường hợp false-friend, đây là ví dụ khớp HOÀN HẢO cả điển tích lẫn cách dùng. Mở rộng round 9 — thêm 'mở công ty mới' và 'sự nghiệp thịnh vượng', kết quả tích cực lâu dài sau khi quật khởi từ thất bại kinh doanh."
     },
     {
       "id": "zh-scenario-community-garden",
       "kind": "scenario-chain",
-      "titleVn": "Hàng xóm cùng làm vườn, xa lạ rồi thân thiết",
+      "titleVn": "Hàng xóm cùng làm vườn, xa lạ rồi thân thiết, chia sẻ rau củ thu hoạch và tổ chức tiệc cộng đồng",
       "nodes": [
         {
           "headword": "邻居一起种花园",
@@ -3860,16 +4350,30 @@
           "hanViet": "quan hệ thân cận",
           "meaningVn": "mối quan hệ trở nên thân thiết hơn",
           "pos": "adjective"
+        },
+        {
+          "headword": "分享收获的蔬菜",
+          "reading": "fēnxiǎng shōuhuò de shūcài",
+          "hanViet": "phân hưởng, thu hoạch",
+          "meaningVn": "chia sẻ rau củ thu hoạch được",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "组织社区聚会",
+          "reading": "zǔzhī shèqū jùhuì",
+          "hanViet": "tổ chức, xã khu",
+          "meaningVn": "tổ chức buổi tụ họp cộng đồng",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Hàng xóm cùng nhau trồng vườn hoa, lúc đầu không quen biết nhau, cùng nhau lao động, mối quan hệ trở nên thân thiết hơn.",
-      "example": "邻居一起种花园，一开始不熟悉，一起劳动，关系更亲近。",
-      "note": "Mục 11.9 mở rộng round 16 — dạng cộng đồng/hàng xóm, bổ sung zh-scenario-noisy-neighbor (xung đột) bằng góc nhìn gắn kết tích cực. 花园 (hoa viên) và 劳动 (lao động) khớp hoàn hảo. 亲近 (thân cận) khớp tốt với 'gần gũi, thân thiết'."
+      "exampleVn": "Hàng xóm cùng nhau làm vườn, ban đầu còn xa lạ, cùng nhau lao động, mối quan hệ trở nên gần gũi hơn, chia sẻ rau củ thu hoạch được, và tổ chức buổi tụ họp cộng đồng.",
+      "example": "邻居一起种花园，一开始不熟悉，一起劳动，关系更亲近，分享收获的蔬菜，组织社区聚会。",
+      "note": "Mục 11.9 mở rộng round 16 — dạng cộng đồng/hàng xóm, bổ sung zh-scenario-noisy-neighbor (xung đột) bằng góc nhìn gắn kết tích cực. 花园 (hoa viên) và 劳动 (lao động) khớp hoàn hảo. 亲近 (thân cận) khớp tốt với 'gần gũi, thân thiết'. Mở rộng round 9 — thêm 'chia sẻ thu hoạch' và 'tổ chức tiệc cộng đồng', kết quả gắn kết cộng đồng sâu sắc hơn từ khu vườn chung."
     },
     {
       "id": "zh-scenario-give-up-seat-bus",
       "kind": "scenario-chain",
-      "titleVn": "Nhường ghế cho người già trên xe buýt, ấm lòng",
+      "titleVn": "Nhường ghế cho người già trên xe buýt, ấm lòng, hình thành thói quen nhường ghế và lan tỏa lòng tốt",
       "nodes": [
         {
           "headword": "给老人让座",
@@ -3898,16 +4402,30 @@
           "hanViet": "hạnh phúc",
           "meaningVn": "cảm thấy rất hạnh phúc",
           "pos": "emotion"
+        },
+        {
+          "headword": "养成让座的习惯",
+          "reading": "yǎngchéng ràngzuò de xíguàn",
+          "hanViet": "dưỡng thành, tập quán",
+          "meaningVn": "hình thành thói quen nhường ghế",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "传递善意",
+          "reading": "chuándì shànyì",
+          "hanViet": "truyền đệ, thiện ý",
+          "meaningVn": "lan tỏa lòng tốt",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Tôi nhường ghế cho người già, trong lòng cảm thấy ấm áp, người già cảm ơn, tôi cảm thấy rất hạnh phúc.",
-      "example": "我给老人让座，心里很温暖，老人道谢，感到很幸福。",
-      "note": "Mục 11.9 mở rộng round 16 — dạng tử tế đời thường/giao thông công cộng, chủ đề đạo đức xã hội nhỏ nhặt nhưng ý nghĩa. 幸福 (hạnh phúc) khớp hoàn hảo."
+      "exampleVn": "Nhường ghế cho người già, trong lòng cảm thấy ấm áp, người già cảm ơn, cảm thấy rất hạnh phúc, hình thành thói quen nhường ghế, và lan tỏa lòng tốt.",
+      "example": "给老人让座，心里很温暖，老人道谢，感到很幸福，养成让座的习惯，传递善意。",
+      "note": "Mục 11.9 mở rộng round 16 — dạng tử tế đời thường/giao thông công cộng, chủ đề đạo đức xã hội nhỏ nhặt nhưng ý nghĩa. 幸福 (hạnh phúc) khớp hoàn hảo. Mở rộng round 9 — thêm 'thói quen nhường ghế' và 'lan tỏa lòng tốt', hành động nhỏ trở thành thói quen tích cực lan tỏa trong cộng đồng."
     },
     {
       "id": "zh-scenario-mistake-regain-trust",
       "kind": "scenario-chain",
-      "titleVn": "Mắc lỗi trong công việc, xin lỗi rồi lấy lại niềm tin",
+      "titleVn": "Mắc lỗi trong công việc, xin lỗi rồi lấy lại niềm tin, làm việc chăm chỉ hơn và có cơ hội thăng chức",
       "nodes": [
         {
           "headword": "工作出错",
@@ -3936,16 +4454,30 @@
           "hanViet": "tín nhiệm",
           "meaningVn": "lấy lại được niềm tin",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "加倍努力工作",
+          "reading": "jiābèi nǔlì gōngzuò",
+          "hanViet": "gia bội, nỗ lực",
+          "meaningVn": "làm việc nỗ lực gấp đôi",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "得到晋升机会",
+          "reading": "dédào jìnshēng jīhuì",
+          "hanViet": "tấn thăng, cơ hội",
+          "meaningVn": "có được cơ hội thăng chức",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Tôi làm việc mắc lỗi, sếp rất thất vọng, tôi chân thành xin lỗi, cuối cùng lấy lại được niềm tin.",
-      "example": "工作出错，上司很失望，真诚道歉，重新获得信任。",
-      "note": "Mục 11.9 mở rộng round 16 — dạng công sở/lỗi lầm-chuộc lỗi, bổ sung zh-scenario-argument-reconcile bằng bối cảnh chuyên nghiệp. 真诚(chân thành)/信任(tín nhiệm) khớp hoàn hảo."
+      "exampleVn": "Mắc lỗi trong công việc, cấp trên rất thất vọng, chân thành xin lỗi, lấy lại được niềm tin, làm việc nỗ lực gấp đôi, và có được cơ hội thăng chức.",
+      "example": "工作出错，上司很失望，真诚道歉，重新获得信任，加倍努力工作，得到晋升机会。",
+      "note": "Mục 11.9 mở rộng round 16 — dạng công sở/lỗi lầm-chuộc lỗi, bổ sung zh-scenario-argument-reconcile bằng bối cảnh chuyên nghiệp. 真诚(chân thành)/信任(tín nhiệm) khớp hoàn hảo. Mở rộng round 9 — thêm 'nỗ lực gấp đôi' và 'cơ hội thăng chức', kết quả nghề nghiệp tích cực sau khi khắc phục sai lầm và lấy lại niềm tin."
     },
     {
       "id": "zh-scenario-long-awaited-vacation",
       "kind": "scenario-chain",
-      "titleVn": "Kỳ nghỉ mong đợi đã lâu, cuối cùng cũng đến",
+      "titleVn": "Kỳ nghỉ mong đợi đã lâu, cuối cùng cũng đến, chụp nhiều ảnh đẹp và mang kỷ niệm về nhà",
       "nodes": [
         {
           "headword": "期待已久的假期",
@@ -3974,16 +4506,30 @@
           "hanViet": "tâm tình du duyệt",
           "meaningVn": "tâm trạng vui vẻ",
           "pos": "adjective"
+        },
+        {
+          "headword": "拍了很多照片",
+          "reading": "pāile hěn duō zhàopiàn",
+          "hanViet": "chiếu phiến",
+          "meaningVn": "đã chụp rất nhiều ảnh",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "带着美好回忆回家",
+          "reading": "dàizhe měihǎo huíyì huíjiā",
+          "hanViet": "hồi ức",
+          "meaningVn": "mang theo kỷ niệm đẹp trở về nhà",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Kỳ nghỉ mong đợi đã lâu cuối cùng cũng đến, tôi hoàn toàn thư giãn, tâm trạng rất vui vẻ.",
-      "example": "期待已久的假期终于到来，彻底放松，心情愉悦。",
-      "note": "Mục 11.9 mở rộng round 16 — dạng nghỉ ngơi/thư giãn tích cực đơn thuần, không có mâu thuẫn/khó khăn, hiếm gặp trong bộ dữ liệu. 彻底 (triệt để) khớp hoàn hảo."
+      "exampleVn": "Kỳ nghỉ mong đợi đã lâu, cuối cùng cũng đến, nghỉ ngơi hoàn toàn, tâm trạng vui vẻ, chụp rất nhiều ảnh, và mang theo kỷ niệm đẹp trở về nhà.",
+      "example": "期待已久的假期，终于到来，彻底放松，心情愉悦，拍了很多照片，带着美好回忆回家。",
+      "note": "Mục 11.9 mở rộng round 16 — dạng nghỉ ngơi/thư giãn tích cực đơn thuần, không có mâu thuẫn/khó khăn, hiếm gặp trong bộ dữ liệu. 彻底 (triệt để) khớp hoàn hảo. Mở rộng round 10 — thêm 'chụp nhiều ảnh' và 'mang kỷ niệm về nhà', khép lại mạch chuyện kỳ nghỉ bằng những khoảnh khắc lưu giữ được."
     },
     {
       "id": "zh-scenario-house-fire-evacuate",
       "kind": "scenario-chain",
-      "titleVn": "Hỏa hoạn bất ngờ, hoảng hốt rồi thoát hiểm an toàn",
+      "titleVn": "Hỏa hoạn bất ngờ, hoảng hốt rồi thoát hiểm an toàn, kiểm tra máy báo khói và chú ý an toàn phòng cháy hơn",
       "nodes": [
         {
           "headword": "突然发生火灾",
@@ -4012,16 +4558,30 @@
           "hanViet": "an toàn thoát hiểm",
           "meaningVn": "thoát hiểm an toàn",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "检查烟雾报警器",
+          "reading": "jiǎnchá yānwù bàojǐngqì",
+          "hanViet": "kiểm tra, yên vụ báo cảnh khí",
+          "meaningVn": "kiểm tra máy báo khói",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "更加注意消防安全",
+          "reading": "gèngjiā zhùyì xiāofáng ānquán",
+          "hanViet": "tiêu phòng an toàn",
+          "meaningVn": "chú ý an toàn phòng cháy chữa cháy hơn",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Bất ngờ xảy ra hỏa hoạn, tôi hoảng hốt mất bình tĩnh, nhanh chóng sơ tán, thoát hiểm an toàn.",
-      "example": "突然发生火灾，惊慌失措，迅速撤离，安全脱险。",
-      "note": "Mục 11.9 mở rộng round 16 — dạng tình huống khẩn cấp nghiêm trọng, chủ đề an toàn thiết thực. 火灾 (hỏa tai) và 脱险 (thoát hiểm) khớp hoàn hảo."
+      "exampleVn": "Đột nhiên xảy ra hỏa hoạn, hoảng loạn, nhanh chóng sơ tán, thoát hiểm an toàn, kiểm tra máy báo khói, và chú ý an toàn phòng cháy chữa cháy hơn.",
+      "example": "突然发生火灾，惊慌失措，迅速撤离，安全脱险，检查烟雾报警器，更加注意消防安全。",
+      "note": "Mục 11.9 mở rộng round 16 — dạng tình huống khẩn cấp nghiêm trọng, chủ đề an toàn thiết thực. 火灾 (hỏa tai) và 脱险 (thoát hiểm) khớp hoàn hảo. Mở rộng round 9 — thêm 'kiểm tra máy báo khói' và 'chú ý an toàn phòng cháy hơn', bài học phòng ngừa rút ra sau sự cố hỏa hoạn."
     },
     {
       "id": "zh-scenario-roller-coaster-first-time",
       "kind": "scenario-chain",
-      "titleVn": "Lần đầu ngồi tàu lượn siêu tốc, sợ hãi mà kích thích",
+      "titleVn": "Lần đầu ngồi tàu lượn siêu tốc, sợ hãi mà kích thích, muốn chơi lại lần nữa và đã vượt qua nỗi sợ",
       "nodes": [
         {
           "headword": "第一次坐过山车",
@@ -4050,16 +4610,30 @@
           "hanViet": "thích kích",
           "meaningVn": "cảm thấy rất kích thích",
           "pos": "adjective"
+        },
+        {
+          "headword": "想要再玩一次",
+          "reading": "xiǎng yào zài wán yī cì",
+          "hanViet": null,
+          "meaningVn": "muốn chơi lại lần nữa",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "克服了恐惧",
+          "reading": "kèfúle kǒngjù",
+          "hanViet": "khắc phục, khủng cụ",
+          "meaningVn": "đã vượt qua nỗi sợ hãi",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Lần đầu tiên tôi ngồi tàu lượn siêu tốc, vô cùng sợ hãi, hét liên tục, nhưng cảm thấy rất kích thích.",
-      "example": "我第一次坐过山车，非常害怕，尖叫连连，觉得很刺激。",
-      "note": "Mục 11.9 mở rộng round 16 — dạng giải trí/cảm giác mạnh. HIỆN TƯỢNG THÚ VỊ (không phải false-friend): 刺激 (cìjī) ghép chữ theo thứ tự 刺(thích)+激(kích) = 'thích kích', nhưng tiếng Việt dùng ĐẢO NGƯỢC thứ tự thành 'kích thích' — cùng 2 chữ Hán, cùng nghĩa, nhưng thứ tự âm tiết bị hoán đổi khi vay mượn, một hiện tượng ngôn ngữ học riêng biệt với false-friend."
+      "exampleVn": "Lần đầu ngồi tàu lượn siêu tốc, rất sợ hãi, la hét liên tục, cảm thấy rất kích thích, muốn được chơi lại lần nữa, và đã vượt qua được nỗi sợ hãi.",
+      "example": "第一次坐过山车，非常害怕，尖叫连连，觉得很刺激，想要再玩一次，克服了恐惧。",
+      "note": "Mục 11.9 mở rộng round 16 — dạng giải trí/cảm giác mạnh. HIỆN TƯỢNG THÚ VỊ (không phải false-friend): 刺激 (cìjī) ghép chữ theo thứ tự 刺(thích)+激(kích) = 'thích kích', nhưng tiếng Việt dùng ĐẢO NGƯỢC thứ tự thành 'kích thích' — cùng 2 chữ Hán, cùng nghĩa, nhưng thứ tự âm tiết bị hoán đổi khi vay mượn, một hiện tượng ngôn ngữ học riêng biệt với false-friend. Mở rộng round 10 — thêm 'muốn chơi lại' và 'vượt qua nỗi sợ', kết quả tâm lý tích cực sau trải nghiệm mạo hiểm đầu tiên."
     },
     {
       "id": "zh-scenario-new-glasses-adjust",
       "kind": "scenario-chain",
-      "titleVn": "Đeo kính mới, khó chịu rồi dần quen",
+      "titleVn": "Đeo kính mới, khó chịu rồi dần quen, nhìn mọi thứ rõ hơn và không thể rời xa kính nữa",
       "nodes": [
         {
           "headword": "配新眼镜",
@@ -4088,16 +4662,30 @@
           "hanViet": "thích ứng",
           "meaningVn": "dần dần thích nghi",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "看东西更清楚了",
+          "reading": "kàn dōngxi gèng qīngchu le",
+          "hanViet": null,
+          "meaningVn": "nhìn mọi thứ rõ ràng hơn rồi",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "再也离不开眼镜",
+          "reading": "zài yě lí bù kāi yǎnjìng",
+          "hanViet": "nhãn kính",
+          "meaningVn": "không thể rời xa cặp kính nữa",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Tôi làm kính mới, lúc đầu rất không quen, bị chóng mặt, dần dần thích nghi.",
-      "example": "我配新眼镜，一开始很不习惯，头晕，慢慢适应。",
-      "note": "Mục 11.9 mở rộng round 17 — dạng sinh hoạt/thích nghi cơ thể, chủ đề nhỏ nhưng đời thường. 眼镜 (nhãn kính) khớp hoàn hảo, giống hệt 안경 tiếng Hàn."
+      "exampleVn": "Đeo kính mới, ban đầu rất không quen, chóng mặt, dần dần thích nghi, nhìn mọi thứ rõ ràng hơn, và không thể rời xa cặp kính được nữa.",
+      "example": "配新眼镜，一开始很不习惯，头晕，慢慢适应，看东西更清楚了，再也离不开眼镜。",
+      "note": "Mục 11.9 mở rộng round 17 — dạng sinh hoạt/thích nghi cơ thể, chủ đề nhỏ nhưng đời thường. 眼镜 (nhãn kính) khớp hoàn hảo, giống hệt 안경 tiếng Hàn. Mở rộng round 10 — thêm 'nhìn rõ hơn' và 'không thể rời xa kính', kết quả tích cực lâu dài sau giai đoạn thích nghi với kính mới."
     },
     {
       "id": "zh-scenario-adopt-child",
       "kind": "scenario-chain",
-      "titleVn": "Nhận con nuôi, chờ đợi dài lâu rồi thành một gia đình",
+      "titleVn": "Nhận con nuôi, chờ đợi dài lâu rồi thành một gia đình, đồng hành cùng con trưởng thành và cảm nhận tình yêu vô điều kiện",
       "nodes": [
         {
           "headword": "决定领养孩子",
@@ -4126,16 +4714,30 @@
           "hanViet": "gia nhân",
           "meaningVn": "trở thành một gia đình",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "陪伴孩子长大",
+          "reading": "péibàn háizi zhǎngdà",
+          "hanViet": "bồi bạn",
+          "meaningVn": "đồng hành cùng con trưởng thành",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "感受到无条件的爱",
+          "reading": "gǎnshòu dào wútiáojiàn de ài",
+          "hanViet": "cảm thụ, vô điều kiện",
+          "meaningVn": "cảm nhận được tình yêu vô điều kiện",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Tôi quyết định nhận con nuôi, trải qua thời gian chờ đợi dài đằng đẵng, lần đầu gặp mặt, chúng tôi trở thành một gia đình.",
-      "example": "我决定领养孩子，经历漫长的等待，第一次见面，成为一家人。",
-      "note": "Mục 11.9 mở rộng round 17 — dạng gia đình/nhận nuôi con, chủ đề trọng đại chưa khai thác. 经历 (kinh lịch) khớp tốt với 'trải qua'. 一家人 chứa 家人 (gia nhân) nhưng ở đây dùng trong cụm '一家人'='một nhà' nên ít rủi ro nhầm lẫn hơn khi dùng độc lập — vẫn đáng lưu ý false-friend đã ghi ở round 10."
+      "exampleVn": "Quyết định nhận con nuôi, trải qua thời gian chờ đợi dài, gặp mặt lần đầu, trở thành một gia đình, đồng hành cùng con trưởng thành, và cảm nhận được tình yêu vô điều kiện.",
+      "example": "决定领养孩子，经历漫长的等待，第一次见面，成为一家人，陪伴孩子长大，感受到无条件的爱。",
+      "note": "Mục 11.9 mở rộng round 17 — dạng gia đình/nhận nuôi con, chủ đề trọng đại chưa khai thác. 经历 (kinh lịch) khớp tốt với 'trải qua'. 一家人 chứa 家人 (gia nhân) nhưng ở đây dùng trong cụm '一家人'='một nhà' nên ít rủi ro nhầm lẫn hơn khi dùng độc lập — vẫn đáng lưu ý false-friend đã ghi ở round 10. Mở rộng round 11 — thêm 'đồng hành cùng con trưởng thành' và 'tình yêu vô điều kiện', khép lại mạch chuyện nhận con nuôi bằng hành trình làm cha mẹ lâu dài."
     },
     {
       "id": "zh-scenario-learn-calligraphy",
       "kind": "scenario-chain",
-      "titleVn": "Học thư pháp, tay run rồi viết được tác phẩm ưng ý",
+      "titleVn": "Học thư pháp, tay run rồi viết được tác phẩm ưng ý, mang đi đóng khung và trở thành một sở thích",
       "nodes": [
         {
           "headword": "学习书法",
@@ -4164,16 +4766,30 @@
           "hanViet": "tác phẩm",
           "meaningVn": "viết ra tác phẩm ưng ý",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "拿去装裱起来",
+          "reading": "ná qù zhuāngbiǎo qǐlái",
+          "hanViet": "trang biểu",
+          "meaningVn": "mang đi đóng khung, bồi giấy",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "成为一种爱好",
+          "reading": "chéngwéi yī zhǒng àihào",
+          "hanViet": "ái hiếu",
+          "meaningVn": "trở thành một sở thích",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Tôi học thư pháp, tay run mãi, luyện tập đi luyện tập lại, cuối cùng viết ra được tác phẩm ưng ý.",
-      "example": "我学习书法，手一直发抖，反复练习，写出满意的作品。",
-      "note": "Mục 11.9 mở rộng round 17 — dạng nghệ thuật truyền thống, bổ sung zh-scenario-learn-instrument. 书法 (thư pháp) khớp hoàn hảo. ĐIỂM SO SÁNH THÚ VỊ: cùng nghệ thuật 'viết chữ đẹp' nhưng 3 ngôn ngữ dùng 3 từ Hán khác nhau — 书法(thư pháp, 'phương pháp viết')/書道(thư đạo, 'đạo viết chữ', tiếng Nhật)/서예(thư nghệ, 'nghệ thuật viết chữ', tiếng Hàn) — cùng gốc 書/书(thư) nhưng khác chữ thứ hai, phản ánh cách mỗi văn hóa định danh nghệ thuật này."
+      "exampleVn": "Học thư pháp, tay cứ run mãi, luyện tập nhiều lần, viết ra được tác phẩm ưng ý, mang đi đóng khung, và trở thành một trong những sở thích của tôi.",
+      "example": "学习书法，手一直发抖，反复练习，写出满意的作品，拿去装裱起来，成为一种爱好。",
+      "note": "Mục 11.9 mở rộng round 17 — dạng nghệ thuật truyền thống, bổ sung zh-scenario-learn-instrument. 书法 (thư pháp) khớp hoàn hảo. ĐIỂM SO SÁNH THÚ VỊ: cùng nghệ thuật 'viết chữ đẹp' nhưng 3 ngôn ngữ dùng 3 từ Hán khác nhau — 书法(thư pháp, 'phương pháp viết')/書道(thư đạo, 'đạo viết chữ', tiếng Nhật)/서예(thư nghệ, 'nghệ thuật viết chữ', tiếng Hàn) — cùng gốc 書/书(thư) nhưng khác chữ thứ hai, phản ánh cách mỗi văn hóa định danh nghệ thuật này. Mở rộng round 10 — thêm 'đóng khung tác phẩm' và 'trở thành sở thích', kết quả lâu dài của quá trình kiên trì luyện tập thư pháp."
     },
     {
       "id": "zh-scenario-food-allergy-discover",
       "kind": "scenario-chain",
-      "titleVn": "Phát hiện dị ứng hải sản, kiểm tra rồi học cách phòng tránh",
+      "titleVn": "Phát hiện dị ứng hải sản, kiểm tra rồi học cách phòng tránh, luôn mang theo thuốc và học cách đọc thành phần thực phẩm",
       "nodes": [
         {
           "headword": "发现对海鲜过敏",
@@ -4202,16 +4818,30 @@
           "hanViet": "quá mẫn nguyên",
           "meaningVn": "học cách tránh nguồn gây dị ứng",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "随身携带药物",
+          "reading": "suíshēn xiédài yàowù",
+          "hanViet": "tùy thân huề đái, dược vật",
+          "meaningVn": "luôn mang theo thuốc bên mình",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "学会看食品成分表",
+          "reading": "xuéhuì kàn shípǐn chéngfèn biǎo",
+          "hanViet": "thành phần biểu",
+          "meaningVn": "học cách đọc bảng thành phần thực phẩm",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Tôi phát hiện mình dị ứng hải sản, da nổi mẩn đỏ, đi bệnh viện kiểm tra, học cách tránh nguồn gây dị ứng.",
-      "example": "我发现对海鲜过敏，皮肤起红疹，去医院检查，学会避开过敏源。",
-      "note": "Mục 11.9 mở rộng round 17 — dạng y tế/sức khỏe cá nhân, bổ sung zh-scenario-medical-test-relief. 发现(phát hiện)/皮肤(bì phu)/检查(kiểm tra) khớp hoàn hảo. 过敏 (quá mẫn) là thuật ngữ y khoa chuẩn xác cho 'dị ứng, quá nhạy cảm'."
+      "exampleVn": "Phát hiện dị ứng hải sản, da nổi mẩn đỏ, đi khám bệnh viện, học cách tránh nguồn gây dị ứng, luôn mang theo thuốc bên mình, và học cách đọc bảng thành phần thực phẩm.",
+      "example": "发现对海鲜过敏，皮肤起红疹，去医院检查，学会避开过敏源，随身携带药物，学会看食品成分表。",
+      "note": "Mục 11.9 mở rộng round 17 — dạng y tế/sức khỏe cá nhân, bổ sung zh-scenario-medical-test-relief. 发现(phát hiện)/皮肤(bì phu)/检查(kiểm tra) khớp hoàn hảo. 过敏 (quá mẫn) là thuật ngữ y khoa chuẩn xác cho 'dị ứng, quá nhạy cảm'. Mở rộng round 11 — thêm 'mang theo thuốc' và 'đọc thành phần thực phẩm', 2 thói quen phòng tránh thiết thực sau khi phát hiện dị ứng."
     },
     {
       "id": "zh-scenario-estranged-family-reconcile",
       "kind": "scenario-chain",
-      "titleVn": "Người thân xa cách lâu năm, chủ động hàn gắn tình cảm",
+      "titleVn": "Người thân xa cách lâu năm, chủ động hàn gắn tình cảm, cùng ăn cơm ôn lại chuyện xưa và duy trì liên lạc thường xuyên",
       "nodes": [
         {
           "headword": "多年不联系的亲戚",
@@ -4240,16 +4870,30 @@
           "hanViet": "kiến lập cảm tình",
           "meaningVn": "xây dựng lại tình cảm",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "一起吃饭叙旧",
+          "reading": "yìqǐ chīfàn xùjiù",
+          "hanViet": "tự cựu",
+          "meaningVn": "cùng nhau ăn cơm ôn lại chuyện xưa",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "定期保持联系",
+          "reading": "dìngqī bǎochí liánxì",
+          "hanViet": "định kỳ, liên hệ",
+          "meaningVn": "duy trì liên lạc định kỳ",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Người họ hàng nhiều năm không liên lạc, tôi chủ động liên lạc, bỏ qua mâu thuẫn trong quá khứ, xây dựng lại tình cảm.",
-      "example": "多年不联系的亲戚，我主动联系，放下过去的矛盾，重新建立感情。",
-      "note": "Mục 11.9 mở rộng round 17 — dạng gia đình mở rộng/hàn gắn, bổ sung zh-scenario-friend-broken-promise (bạn bè) bằng bối cảnh họ hàng. 亲戚(thân thích)/主动(chủ động)/过去(quá khứ)/矛盾(mâu thuẫn)/感情(cảm tình) đều khớp Hán Việt hoàn hảo — chuỗi từ vựng khớp tốt hiếm có."
+      "exampleVn": "Người thân nhiều năm không liên lạc, chủ động liên hệ, buông bỏ mâu thuẫn trong quá khứ, xây dựng lại tình cảm, cùng nhau ăn cơm ôn lại chuyện xưa, và duy trì liên lạc định kỳ.",
+      "example": "多年不联系的亲戚，主动联系，放下过去的矛盾，重新建立感情，一起吃饭叙旧，定期保持联系。",
+      "note": "Mục 11.9 mở rộng round 17 — dạng gia đình mở rộng/hàn gắn, bổ sung zh-scenario-friend-broken-promise (bạn bè) bằng bối cảnh họ hàng. 亲戚(thân thích)/主动(chủ động)/过去(quá khứ)/矛盾(mâu thuẫn)/感情(cảm tình) đều khớp Hán Việt hoàn hảo — chuỗi từ vựng khớp tốt hiếm có. Mở rộng round 11 — thêm 'ôn lại chuyện xưa' và 'duy trì liên lạc', kết quả bền vững của việc hàn gắn tình cảm gia đình."
     },
     {
       "id": "zh-scenario-foreign-language-presentation",
       "kind": "scenario-chain",
-      "titleVn": "Thuyết trình bằng ngoại ngữ, lo lắng rồi hoàn thành suôn sẻ",
+      "titleVn": "Thuyết trình bằng ngoại ngữ, lo lắng rồi hoàn thành suôn sẻ, nhận được tràng vỗ tay và tự tin hơn khi nói ngoại ngữ",
       "nodes": [
         {
           "headword": "用外语演讲",
@@ -4278,16 +4922,30 @@
           "hanViet": "thuận lợi hoàn thành",
           "meaningVn": "hoàn thành bài thuyết trình suôn sẻ",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "得到听众的掌声",
+          "reading": "dédào tīngzhòng de zhǎngshēng",
+          "hanViet": "thính chúng, chưởng thanh",
+          "meaningVn": "nhận được tràng pháo tay của khán giả",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "更有信心说外语",
+          "reading": "gèng yǒu xìnxīn shuō wàiyǔ",
+          "hanViet": "tín tâm",
+          "meaningVn": "tự tin hơn khi nói ngoại ngữ",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Tôi thuyết trình bằng ngoại ngữ, lo lắng nói sai, luyện tập phát âm nhiều lần, hoàn thành bài thuyết trình suôn sẻ.",
-      "example": "我用外语演讲，担心说错，反复练习发音，顺利完成演讲。",
-      "note": "Mục 11.9 mở rộng round 17 — dạng học ngoại ngữ/thuyết trình, kết hợp zh-scenario-learn-language và zh-scenario-public-speaking. 发音 (phát âm) khớp hoàn hảo."
+      "exampleVn": "Thuyết trình bằng ngoại ngữ, lo lắng sẽ nói sai, luyện tập phát âm nhiều lần, hoàn thành bài thuyết trình suôn sẻ, nhận được tràng pháo tay của khán giả, và tự tin hơn khi nói ngoại ngữ.",
+      "example": "用外语演讲，担心说错，反复练习发音，顺利完成演讲，得到听众的掌声，更有信心说外语。",
+      "note": "Mục 11.9 mở rộng round 17 — dạng học ngoại ngữ/thuyết trình, kết hợp zh-scenario-learn-language và zh-scenario-public-speaking. 发音 (phát âm) khớp hoàn hảo. Mở rộng round 10 — thêm 'nhận tràng pháo tay' và 'tự tin hơn khi nói ngoại ngữ', kết quả tích cực sau khi vượt qua nỗi lo lắng thuyết trình."
     },
     {
       "id": "zh-scenario-volunteer-abroad",
       "kind": "scenario-chain",
-      "titleVn": "Tình nguyện ở nước ngoài, khác biệt văn hóa rồi học được nhiều",
+      "titleVn": "Tình nguyện ở nước ngoài, khác biệt văn hóa rồi học được nhiều, kết bạn với người bản địa và mở mang tầm nhìn",
       "nodes": [
         {
           "headword": "去国外做志愿者",
@@ -4316,16 +4974,30 @@
           "hanViet": null,
           "meaningVn": "học được rất nhiều",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "交到当地朋友",
+          "reading": "jiāo dào dāngdì péngyǒu",
+          "hanViet": "đương địa bằng hữu",
+          "meaningVn": "kết được bạn bè bản địa",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "开阔了眼界",
+          "reading": "kāikuò le yǎnjiè",
+          "hanViet": "khai khoát, nhãn giới",
+          "meaningVn": "mở mang được tầm nhìn",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Tôi đi nước ngoài làm tình nguyện viên, khác biệt văn hóa rất lớn, nỗ lực thích nghi, học được rất nhiều.",
-      "example": "我去国外做志愿者，文化差异很大，努力适应，学到很多。",
-      "note": "Mục 11.9 mở rộng round 18 — dạng tình nguyện quốc tế, bổ sung zh-scenario-volunteer-work bằng bối cảnh nước ngoài. 文化(văn hóa)/努力(nỗ lực) khớp hoàn hảo."
+      "exampleVn": "Đi làm tình nguyện ở nước ngoài, khác biệt văn hóa rất lớn, nỗ lực thích nghi, học được nhiều điều, kết được bạn bè bản địa, và tầm nhìn được mở rộng.",
+      "example": "去国外做志愿者，文化差异很大，努力适应，学到很多，交到当地朋友，开阔了眼界。",
+      "note": "Mục 11.9 mở rộng round 18 — dạng tình nguyện quốc tế, bổ sung zh-scenario-volunteer-work bằng bối cảnh nước ngoài. 文化(văn hóa)/努力(nỗ lực) khớp hoàn hảo. Mở rộng round 11 — thêm 'kết bạn bản địa' và 'mở mang tầm nhìn', thành quả lâu dài của trải nghiệm tình nguyện ở nước ngoài."
     },
     {
       "id": "zh-scenario-own-surgery-recovery",
       "kind": "scenario-chain",
-      "titleVn": "Tự mình phẫu thuật, đau đớn rồi dần hồi phục",
+      "titleVn": "Tự mình phẫu thuật, đau đớn rồi dần hồi phục, tái khám đúng hẹn và càng trân trọng sức khỏe hơn",
       "nodes": [
         {
           "headword": "自己动手术",
@@ -4354,16 +5026,30 @@
           "hanViet": "khôi phục kiện khang",
           "meaningVn": "dần dần hồi phục sức khỏe",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "按时复查",
+          "reading": "ànshí fùchá",
+          "hanViet": "án thời, phục tra",
+          "meaningVn": "tái khám đúng hẹn",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "更加珍惜健康",
+          "reading": "gèngjiā zhēnxī jiànkāng",
+          "hanViet": "trân tích",
+          "meaningVn": "càng trân trọng sức khỏe hơn",
+          "pos": "adjective"
         }
       ],
-      "exampleVn": "Tôi tự mình trải qua phẫu thuật, trước đó rất hồi hộp, sau phẫu thuật rất đau, dần dần hồi phục sức khỏe.",
-      "example": "我自己动手术，手术前很紧张，术后很疼，慢慢恢复健康。",
-      "note": "Mục 11.9 mở rộng round 18 — góc nhìn ĐỐI LẬP với zh-scenario-loved-one-surgery-wait (chờ người thân) bằng chính bản thân trải qua phẫu thuật. 手术 (thủ thuật) tái dùng nhất quán."
+      "exampleVn": "Tự mình phẫu thuật, trước mổ rất căng thẳng, sau mổ rất đau, dần dần hồi phục sức khỏe, tái khám đúng hẹn, và càng trân trọng sức khỏe hơn.",
+      "example": "自己动手术，手术前很紧张，术后很疼，慢慢恢复健康，按时复查，更加珍惜健康。",
+      "note": "Mục 11.9 mở rộng round 18 — góc nhìn ĐỐI LẬP với zh-scenario-loved-one-surgery-wait (chờ người thân) bằng chính bản thân trải qua phẫu thuật. 手术 (thủ thuật) tái dùng nhất quán. Mở rộng round 11 — thêm 'tái khám đúng hẹn' và 'trân trọng sức khỏe', bài học nhận thức sâu sắc sau trải nghiệm phẫu thuật."
     },
     {
       "id": "zh-scenario-elderly-anniversary",
       "kind": "scenario-chain",
-      "titleVn": "Kỷ niệm ngày cưới của ông bà, tình cảm vẫn sâu đậm",
+      "titleVn": "Kỷ niệm ngày cưới của ông bà, tình cảm vẫn sâu đậm, cả nhà cùng chụp ảnh và truyền lại quan niệm hôn nhân tốt đẹp",
       "nodes": [
         {
           "headword": "爷爷奶奶结婚纪念日",
@@ -4392,16 +5078,30 @@
           "hanViet": "cảm tình y nhiên thâm hậu",
           "meaningVn": "tình cảm vẫn sâu đậm",
           "pos": "adjective"
+        },
+        {
+          "headword": "全家人一起拍照",
+          "reading": "quánjiā rén yìqǐ pāizhào",
+          "hanViet": "toàn gia nhân",
+          "meaningVn": "cả nhà cùng nhau chụp ảnh",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "传承美好的婚姻观",
+          "reading": "chuánchéng měihǎo de hūnyīnguān",
+          "hanViet": "truyền thừa, hôn nhân quan",
+          "meaningVn": "truyền lại quan niệm hôn nhân tốt đẹp",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Kỷ niệm ngày cưới của ông bà, cả nhà cùng nhau chúc mừng, ông bà kể lại câu chuyện năm xưa, tình cảm vẫn sâu đậm.",
-      "example": "爷爷奶奶结婚纪念日，一起庆祝，讲述当年的故事，感情依然深厚。",
-      "note": "Mục 11.9 mở rộng round 18 — dạng gia đình nhiều thế hệ/tình yêu bền lâu, đối lập zh-scenario-first-date (tình yêu mới chớm). HIỆN TƯỢNG ĐẢO NGƯỢC THỨ TỰ thứ 2 (giống 刺激→kích thích round 16): 庆祝 (khánh chúc, 慶=khánh+祝=chúc) đảo ngược thành 'chúc mừng' trong tiếng Việt. 依然(y nhiên)/深厚(thâm hậu) khớp hoàn hảo."
+      "exampleVn": "Ngày kỷ niệm cưới của ông bà, cùng nhau chúc mừng, kể lại chuyện năm xưa, tình cảm vẫn sâu đậm, cả nhà cùng nhau chụp ảnh, và truyền lại quan niệm hôn nhân tốt đẹp.",
+      "example": "爷爷奶奶结婚纪念日，一起庆祝，讲述当年的故事，感情依然深厚，全家人一起拍照，传承美好的婚姻观。",
+      "note": "Mục 11.9 mở rộng round 18 — dạng gia đình nhiều thế hệ/tình yêu bền lâu, đối lập zh-scenario-first-date (tình yêu mới chớm). HIỆN TƯỢNG ĐẢO NGƯỢC THỨ TỰ thứ 2 (giống 刺激→kích thích round 16): 庆祝 (khánh chúc, 慶=khánh+祝=chúc) đảo ngược thành 'chúc mừng' trong tiếng Việt. 依然(y nhiên)/深厚(thâm hậu) khớp hoàn hảo. Mở rộng round 12 — thêm 'cả nhà chụp ảnh' và 'truyền lại quan niệm hôn nhân', giá trị được lưu truyền qua các thế hệ từ dịp kỷ niệm."
     },
     {
       "id": "zh-scenario-hidden-talent-discover",
       "kind": "scenario-chain",
-      "titleVn": "Tình cờ phát hiện tài năng, dũng cảm thử sức rồi tìm thấy hướng đi",
+      "titleVn": "Tình cờ phát hiện tài năng, dũng cảm thử sức rồi tìm thấy hướng đi, đăng ký khóa học chuyên nghiệp và dần đạt được thành tựu",
       "nodes": [
         {
           "headword": "偶然发现自己的天赋",
@@ -4430,16 +5130,30 @@
           "hanViet": "nhân sinh phương hướng",
           "meaningVn": "tìm được hướng đi cho cuộc đời",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "报名专业课程",
+          "reading": "bàomíng zhuānyè kèchéng",
+          "hanViet": "báo danh, chuyên nghiệp khóa trình",
+          "meaningVn": "đăng ký khóa học chuyên nghiệp",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "逐渐取得成就",
+          "reading": "zhújiàn qǔdé chéngjiù",
+          "hanViet": "trục tiệm, thành tựu",
+          "meaningVn": "dần dần đạt được thành tựu",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Tôi tình cờ phát hiện tài năng của bản thân, lúc đầu không tin, dũng cảm thử sức, tìm được hướng đi cho cuộc đời.",
-      "example": "我偶然发现自己的天赋，一开始不相信，勇敢尝试，找到人生方向。",
-      "note": "Mục 11.9 mở rộng round 18 — dạng khám phá bản thân/định hướng cuộc đời. 天赋(thiên phú)/勇敢(dũng cảm)/人生(nhân sinh)/方向(phương hướng) khớp hoàn hảo. 尝试 để null vì chữ 尝(thường) khác hẳn 試(thí) trong 'thử nghiệm' tiếng Việt dù cùng có chữ 试/試, không nên nhầm lẫn 2 từ ghép khác nhau."
+      "exampleVn": "Tình cờ phát hiện tài năng của mình, ban đầu không tin, dũng cảm thử sức, tìm được hướng đi cho cuộc đời, đăng ký khóa học chuyên nghiệp, và dần dần đạt được thành tựu.",
+      "example": "偶然发现自己的天赋，一开始不相信，勇敢尝试，找到人生方向，报名专业课程，逐渐取得成就。",
+      "note": "Mục 11.9 mở rộng round 18 — dạng khám phá bản thân/định hướng cuộc đời. 天赋(thiên phú)/勇敢(dũng cảm)/人生(nhân sinh)/方向(phương hướng) khớp hoàn hảo. 尝试 để null vì chữ 尝(thường) khác hẳn 試(thí) trong 'thử nghiệm' tiếng Việt dù cùng có chữ 试/試, không nên nhầm lẫn 2 từ ghép khác nhau. Mở rộng round 12 — thêm 'đăng ký khóa học chuyên nghiệp' và 'đạt được thành tựu', bước phát triển nghiêm túc sau khi phát hiện tài năng tiềm ẩn."
     },
     {
       "id": "zh-scenario-citizenship-test-pass",
       "kind": "scenario-chain",
-      "titleVn": "Thi nhập tịch, học lịch sử văn hóa rồi trở thành công dân",
+      "titleVn": "Thi nhập tịch, học lịch sử văn hóa rồi trở thành công dân, tham gia lễ tuyên thệ và có cảm giác thuộc về",
       "nodes": [
         {
           "headword": "准备入籍考试",
@@ -4468,16 +5182,30 @@
           "hanViet": "công dân",
           "meaningVn": "trở thành công dân",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "参加入籍宣誓仪式",
+          "reading": "cānjiā rùjí xuānshì yíshì",
+          "hanViet": "tham gia, nhập tịch tuyên thệ nghi thức",
+          "meaningVn": "tham gia lễ tuyên thệ nhập tịch",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "拥有归属感",
+          "reading": "yōngyǒu guīshǔgǎn",
+          "hanViet": "quy thuộc cảm",
+          "meaningVn": "có được cảm giác thuộc về",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Tôi chuẩn bị thi nhập tịch, học lịch sử văn hóa, vượt qua thuận lợi, trở thành công dân.",
-      "example": "我准备入籍考试，学习历史文化，顺利通过，成为公民。",
-      "note": "Mục 11.9 mở rộng round 18 — dạng nhập cư/quốc tịch, chủ đề thiết thực với cộng đồng di dân. 入籍(nhập tịch)/历史(lịch sử)/公民(công dân) khớp hoàn hảo."
+      "exampleVn": "Chuẩn bị thi nhập tịch, học lịch sử văn hóa, thi đỗ thuận lợi, trở thành công dân, tham gia lễ tuyên thệ nhập tịch, và có được cảm giác thuộc về.",
+      "example": "准备入籍考试，学习历史文化，顺利通过，成为公民，参加入籍宣誓仪式，拥有归属感。",
+      "note": "Mục 11.9 mở rộng round 18 — dạng nhập cư/quốc tịch, chủ đề thiết thực với cộng đồng di dân. 入籍(nhập tịch)/历史(lịch sử)/公民(công dân) khớp hoàn hảo. Mở rộng round 12 — thêm 'lễ tuyên thệ nhập tịch' và 'cảm giác thuộc về', bước hoàn tất cảm xúc của hành trình trở thành công dân mới."
     },
     {
       "id": "zh-scenario-start-therapy",
       "kind": "scenario-chain",
-      "titleVn": "Bắt đầu trị liệu tâm lý, khó mở lời rồi cải thiện dần",
+      "titleVn": "Bắt đầu trị liệu tâm lý, khó mở lời rồi cải thiện dần, học cách điều chỉnh cảm xúc và chất lượng cuộc sống được nâng cao",
       "nodes": [
         {
           "headword": "决定去看心理医生",
@@ -4506,16 +5234,30 @@
           "hanViet": "tâm lý trạng thái cải thiện",
           "meaningVn": "trạng thái tâm lý cải thiện",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "学会调节情绪",
+          "reading": "xuéhuì tiáojié qíngxù",
+          "hanViet": "điều tiết, tình tự",
+          "meaningVn": "học được cách điều chỉnh cảm xúc",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "生活质量提高",
+          "reading": "shēnghuó zhìliàng tígāo",
+          "hanViet": "sinh hoạt chất lượng",
+          "meaningVn": "chất lượng cuộc sống được nâng cao",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Tôi quyết định đi gặp bác sĩ tâm lý, lúc đầu rất khó mở lời, dần dần mở lòng, trạng thái tâm lý cải thiện.",
-      "example": "我决定去看心理医生，一开始很难开口，慢慢敞开心扉，心理状态改善。",
-      "note": "Mục 11.9 mở rộng round 18 — dạng sức khỏe tinh thần/trị liệu, bổ sung zh-scenario-insomnia-improve. 心理(tâm lý)/状态(trạng thái)/改善(cải thiện) khớp hoàn hảo. 心扉 (tâm phi, nghĩa đen 'cánh cửa trái tim') là ẩn dụ đẹp cho 'mở lòng'."
+      "exampleVn": "Quyết định đi gặp bác sĩ tâm lý, ban đầu rất khó mở lời, dần dần mở lòng, trạng thái tâm lý được cải thiện, học được cách điều chỉnh cảm xúc, và chất lượng cuộc sống được nâng cao.",
+      "example": "决定去看心理医生，一开始很难开口，慢慢敞开心扉，心理状态改善，学会调节情绪，生活质量提高。",
+      "note": "Mục 11.9 mở rộng round 18 — dạng sức khỏe tinh thần/trị liệu, bổ sung zh-scenario-insomnia-improve. 心理(tâm lý)/状态(trạng thái)/改善(cải thiện) khớp hoàn hảo. 心扉 (tâm phi, nghĩa đen 'cánh cửa trái tim') là ẩn dụ đẹp cho 'mở lòng'. Mở rộng round 12 — thêm 'điều chỉnh cảm xúc' và 'chất lượng cuộc sống', kết quả lâu dài tích cực của quá trình trị liệu tâm lý."
     },
     {
       "id": "zh-scenario-art-competition-win",
       "kind": "scenario-chain",
-      "titleVn": "Thi vẽ tranh, sửa đi sửa lại rồi bất ngờ đoạt giải",
+      "titleVn": "Thi vẽ tranh, sửa đi sửa lại rồi bất ngờ đoạt giải, tác phẩm được trưng bày và củng cố niềm tin sáng tác",
       "nodes": [
         {
           "headword": "参加绘画比赛",
@@ -4544,16 +5286,30 @@
           "hanViet": "vô tỷ tự hào",
           "meaningVn": "vô cùng tự hào",
           "pos": "emotion"
+        },
+        {
+          "headword": "作品被展出",
+          "reading": "zuòpǐn bèi zhǎnchū",
+          "hanViet": "tác phẩm, triển xuất",
+          "meaningVn": "tác phẩm được đem đi trưng bày",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "坚定了创作的信心",
+          "reading": "jiāndìng le chuàngzuò de xìnxīn",
+          "hanViet": "kiên định, sáng tác tín tâm",
+          "meaningVn": "củng cố vững chắc niềm tin sáng tác",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Tôi tham gia cuộc thi vẽ tranh, sửa đi sửa lại tác phẩm nhiều lần, bất ngờ đoạt giải, vô cùng tự hào.",
-      "example": "我参加绘画比赛，反复修改作品，意外获奖，无比自豪。",
-      "note": "Mục 11.9 mở rộng round 19 — dạng nghệ thuật/thi cử, bổ sung zh-scenario-learn-instrument. 绘画 (hội họa) khớp hoàn hảo. 无比 (vô tỷ) là từ hay dùng nhấn mạnh 'không gì sánh bằng'."
+      "exampleVn": "Tham gia cuộc thi vẽ tranh, sửa đi sửa lại tác phẩm nhiều lần, bất ngờ đoạt giải, cảm thấy vô cùng tự hào, tác phẩm được đem đi trưng bày, và niềm tin vào việc sáng tác được củng cố vững chắc.",
+      "example": "参加绘画比赛，反复修改作品，意外获奖，无比自豪，作品被展出，坚定了创作的信心。",
+      "note": "Mục 11.9 mở rộng round 19 — dạng nghệ thuật/thi cử, bổ sung zh-scenario-learn-instrument. 绘画 (hội họa) khớp hoàn hảo. 无比 (vô tỷ) là từ hay dùng nhấn mạnh 'không gì sánh bằng'. Mở rộng round 12 — thêm 'tác phẩm được trưng bày' và 'củng cố niềm tin sáng tác', động lực lâu dài sau thành công bất ngờ trong cuộc thi."
     },
     {
       "id": "zh-scenario-learn-archery",
       "kind": "scenario-chain",
-      "titleVn": "Học bắn cung, cần kiên nhẫn rồi bắn trúng hồng tâm",
+      "titleVn": "Học bắn cung, cần kiên nhẫn rồi bắn trúng hồng tâm, tham gia thi đấu và giành được huy chương",
       "nodes": [
         {
           "headword": "开始学射箭",
@@ -4582,16 +5338,30 @@
           "hanViet": null,
           "meaningVn": "bắn trúng hồng tâm",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "参加比赛",
+          "reading": "cānjiā bǐsài",
+          "hanViet": "tham gia, tỷ tái",
+          "meaningVn": "tham gia cuộc thi đấu",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "获得奖牌",
+          "reading": "huòdé jiǎngpái",
+          "hanViet": "hoạch đắc, thưởng bài",
+          "meaningVn": "giành được huy chương",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Tôi bắt đầu học bắn cung, cần rất nhiều kiên nhẫn, kiên trì luyện tập, cuối cùng bắn trúng hồng tâm.",
-      "example": "我开始学射箭，需要很多耐心，坚持训练，射中靶心。",
-      "note": "Mục 11.9 mở rộng round 19 — dạng thể thao/kỷ luật, bổ sung zh-scenario-learn-swim-fear. So sánh thú vị với ja-scenario-learn-archery dùng 弓道 (cung đạo) — thêm 1 môn '-đạo' vào nhóm 書道(thư đạo)/茶道(trà đạo). 训练 (huấn luyện) khớp hoàn hảo."
+      "exampleVn": "Bắt đầu học bắn cung, cần rất nhiều kiên nhẫn, kiên trì luyện tập, bắn trúng hồng tâm, tham gia thi đấu, và giành được huy chương.",
+      "example": "开始学射箭，需要很多耐心，坚持训练，射中靶心，参加比赛，获得奖牌。",
+      "note": "Mục 11.9 mở rộng round 19 — dạng thể thao/kỷ luật, bổ sung zh-scenario-learn-swim-fear. So sánh thú vị với ja-scenario-learn-archery dùng 弓道 (cung đạo) — thêm 1 môn '-đạo' vào nhóm 書道(thư đạo)/茶道(trà đạo). 训练 (huấn luyện) khớp hoàn hảo. Mở rộng round 13 — thêm 'tham gia thi đấu' và 'giành huy chương', thành quả cụ thể sau quá trình kiên trì luyện tập bắn cung."
     },
     {
       "id": "zh-scenario-old-family-photos-find",
       "kind": "scenario-chain",
-      "titleVn": "Tìm thấy ảnh cũ khi dọn đồ, gợi lại bao ký ức",
+      "titleVn": "Tìm thấy ảnh cũ khi dọn đồ, gợi lại bao ký ức, mang cho gia đình xem và quyết định giữ gìn cẩn thận",
       "nodes": [
         {
           "headword": "整理旧物时",
@@ -4620,16 +5390,30 @@
           "hanViet": "cảm khái",
           "meaningVn": "cảm khái muôn vàn",
           "pos": "idiom"
+        },
+        {
+          "headword": "拿给家人看",
+          "reading": "ná gěi jiārén kàn",
+          "hanViet": null,
+          "meaningVn": "mang cho người nhà xem",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "决定好好保存",
+          "reading": "juédìng hǎohǎo bǎocún",
+          "hanViet": "quyết định, bảo tồn",
+          "meaningVn": "quyết định giữ gìn cẩn thận",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Khi dọn dẹp đồ cũ, tôi phát hiện những tấm ảnh cũ, gợi lại bao ký ức, cảm khái muôn vàn.",
-      "example": "整理旧物时，发现老照片，勾起回忆，感慨万千。",
-      "note": "Mục 11.9 mở rộng round 19 — dạng hoài niệm/gia đình, bổ sung zh-scenario-reunion-old-friend. 回忆(hồi ức)/感慨(cảm khái) khớp hoàn hảo. LƯU Ý: tiếng Hàn dùng 感懷/감회 (cảm hoài, khác chữ thứ 2) cho khái niệm tương tự — xem ko-scenario-old-family-photos-find."
+      "exampleVn": "Khi dọn đồ cũ, tìm thấy những bức ảnh cũ, gợi lại ký ức, cảm xúc dâng trào, mang cho gia đình xem, và quyết định giữ gìn cẩn thận.",
+      "example": "整理旧物时，发现老照片，勾起回忆，感慨万千，拿给家人看，决定好好保存。",
+      "note": "Mục 11.9 mở rộng round 19 — dạng hoài niệm/gia đình, bổ sung zh-scenario-reunion-old-friend. 回忆(hồi ức)/感慨(cảm khái) khớp hoàn hảo. LƯU Ý: tiếng Hàn dùng 感懷/감회 (cảm hoài, khác chữ thứ 2) cho khái niệm tương tự — xem ko-scenario-old-family-photos-find. Mở rộng round 13 — thêm 'cho gia đình xem' và 'giữ gìn cẩn thận', hành động lưu giữ giá trị tình cảm sau khi tìm lại kỷ niệm xưa."
     },
     {
       "id": "zh-scenario-fix-own-car",
       "kind": "scenario-chain",
-      "titleVn": "Tự sửa xe, tay lấm dầu mỡ rồi sửa thành công",
+      "titleVn": "Tự sửa xe, tay lấm dầu mỡ rồi sửa thành công, tiết kiệm được phí sửa chữa và hiểu rõ hơn về xe của mình",
       "nodes": [
         {
           "headword": "自己修车",
@@ -4658,16 +5442,30 @@
           "hanViet": "thành công",
           "meaningVn": "sửa thành công",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "省了一笔维修费",
+          "reading": "shěngle yī bǐ wéixiūfèi",
+          "hanViet": "tỉnh, duy tu phí",
+          "meaningVn": "tiết kiệm được một khoản phí sửa chữa",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "更了解自己的车",
+          "reading": "gèng liǎojiě zìjǐ de chē",
+          "hanViet": null,
+          "meaningVn": "hiểu rõ hơn về xe của mình",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Tôi tự mình sửa xe, lên mạng tra tài liệu, làm tay dính đầy dầu mỡ, cuối cùng sửa thành công.",
-      "example": "我自己修车，上网查资料，弄得满手油污，成功修好。",
-      "note": "Mục 11.9 mở rộng round 19 — dạng lao động chân tay/kỹ năng thực dụng, bổ sung zh-scenario-home-renovation-diy. 资料 (tư liệu) khớp hoàn hảo."
+      "exampleVn": "Tự sửa xe, tra cứu trên mạng, tay dính đầy dầu mỡ, sửa thành công, tiết kiệm được một khoản phí sửa chữa, và hiểu rõ hơn về xe của mình.",
+      "example": "自己修车，上网查资料，弄得满手油污，成功修好，省了一笔维修费，更了解自己的车。",
+      "note": "Mục 11.9 mở rộng round 19 — dạng lao động chân tay/kỹ năng thực dụng, bổ sung zh-scenario-home-renovation-diy. 资料 (tư liệu) khớp hoàn hảo. Mở rộng round 13 — thêm 'tiết kiệm chi phí' và 'hiểu rõ hơn về xe', lợi ích lâu dài của việc tự tay sửa chữa thành công."
     },
     {
       "id": "zh-scenario-difficult-roommate",
       "kind": "scenario-chain",
-      "titleVn": "Bạn cùng phòng khó ở chung, nói chuyện rồi hòa hợp hơn",
+      "titleVn": "Bạn cùng phòng khó ở chung, nói chuyện rồi hòa hợp hơn, cùng lập quy tắc sinh hoạt và trở thành bạn tốt",
       "nodes": [
         {
           "headword": "室友很难相处",
@@ -4696,16 +5494,30 @@
           "hanViet": "quan hệ dung hợp",
           "meaningVn": "mối quan hệ trở nên hòa hợp",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "一起制定生活规则",
+          "reading": "yìqǐ zhìdìng shēnghuó guīzé",
+          "hanViet": "chế định, sinh hoạt quy tắc",
+          "meaningVn": "cùng nhau lập ra quy tắc sinh hoạt",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "成为不错的朋友",
+          "reading": "chéngwéi búcuò de péngyǒu",
+          "hanViet": null,
+          "meaningVn": "trở thành bạn bè khá tốt",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Bạn cùng phòng rất khó ở chung, thường xuyên xảy ra xích mích, chúng tôi ngồi xuống nói chuyện đàng hoàng, mối quan hệ trở nên hòa hợp.",
-      "example": "室友很难相处，经常发生摩擦，坐下来好好谈，关系变融洽。",
-      "note": "Mục 11.9 mở rộng round 19 — dạng sống chung/xung đột cá nhân, bổ sung zh-scenario-noisy-neighbor. ĐIỂM THÚ VỊ: 摩擦 (ma sát) vừa mang nghĩa vật lý 'cọ xát' vừa mang nghĩa bóng 'xích mích, bất hòa' — cùng phép ẩn dụ này cũng tồn tại trong tiếng Việt (dùng 'ma sát/cọ xát' theo nghĩa bóng ít phổ biến hơn nhưng vẫn hiểu được)."
+      "exampleVn": "Bạn cùng phòng khó ở chung, thường xuyên xảy ra mâu thuẫn, ngồi lại nói chuyện thẳng thắn, mối quan hệ trở nên hòa hợp, cùng nhau lập ra quy tắc sinh hoạt, và trở thành bạn bè tốt.",
+      "example": "室友很难相处，经常发生摩擦，坐下来好好谈，关系变融洽，一起制定生活规则，成为不错的朋友。",
+      "note": "Mục 11.9 mở rộng round 19 — dạng sống chung/xung đột cá nhân, bổ sung zh-scenario-noisy-neighbor. ĐIỂM THÚ VỊ: 摩擦 (ma sát) vừa mang nghĩa vật lý 'cọ xát' vừa mang nghĩa bóng 'xích mích, bất hòa' — cùng phép ẩn dụ này cũng tồn tại trong tiếng Việt (dùng 'ma sát/cọ xát' theo nghĩa bóng ít phổ biến hơn nhưng vẫn hiểu được). Mở rộng round 13 — thêm 'lập quy tắc sinh hoạt chung' và 'trở thành bạn tốt', kết quả bền vững sau khi giải quyết xung đột với bạn cùng phòng."
     },
     {
       "id": "zh-scenario-scholarship-win",
       "kind": "scenario-chain",
-      "titleVn": "Nỗ lực xin học bổng, cuối cùng giành được đầy tự hào",
+      "titleVn": "Nỗ lực xin học bổng, cuối cùng giành được đầy tự hào, giảm bớt gánh nặng cho gia đình và càng nỗ lực học tập hơn",
       "nodes": [
         {
           "headword": "努力申请奖学金",
@@ -4734,11 +5546,25 @@
           "hanViet": "kiêu ngạo",
           "meaningVn": "vô cùng tự hào",
           "pos": "emotion"
+        },
+        {
+          "headword": "减轻家里的负担",
+          "reading": "jiǎnqīng jiālǐ de fùdān",
+          "hanViet": "giảm khinh, phụ đảm",
+          "meaningVn": "giảm bớt gánh nặng cho gia đình",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "更加努力学习",
+          "reading": "gèngjiā nǔlì xuéxí",
+          "hanViet": "nỗ lực",
+          "meaningVn": "càng nỗ lực học tập hơn",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Tôi nỗ lực xin học bổng, chuẩn bị hồ sơ, cuối cùng giành được học bổng, vô cùng tự hào.",
-      "example": "我努力申请奖学金，准备申请材料，终于获得奖学金，非常骄傲。",
-      "note": "Mục 11.9 mở rộng round 19 — dạng học tập/thành tựu. ĐIỂM THÚ VỊ VỀ CẤU TẠO TỪ: 奖学金 (tưởng học kim, 'tiền thưởng cho việc học') KHÔNG phải nguồn gốc của từ tiếng Việt 'học bổng' — 'học bổng' dùng chữ 'bổng' (lương/phần thưởng, khác 奖/tưởng) hoàn toàn khác cấu tạo, dù cùng khái niệm 'scholarship'. Xem ja/ko-scenario-scholarship-win nơi 奨学金/장학금 khớp nhau hoàn toàn giữa 2 ngôn ngữ đó."
+      "exampleVn": "Nỗ lực xin học bổng, chuẩn bị hồ sơ, cuối cùng cũng nhận được học bổng, cảm thấy vô cùng tự hào, giảm bớt được gánh nặng cho gia đình, và càng nỗ lực học tập hơn.",
+      "example": "努力申请奖学金，准备申请材料，终于获得奖学金，非常骄傲，减轻家里的负担，更加努力学习。",
+      "note": "Mục 11.9 mở rộng round 19 — dạng học tập/thành tựu. ĐIỂM THÚ VỊ VỀ CẤU TẠO TỪ: 奖学金 (tưởng học kim, 'tiền thưởng cho việc học') KHÔNG phải nguồn gốc của từ tiếng Việt 'học bổng' — 'học bổng' dùng chữ 'bổng' (lương/phần thưởng, khác 奖/tưởng) hoàn toàn khác cấu tạo, dù cùng khái niệm 'scholarship'. Xem ja/ko-scenario-scholarship-win nơi 奨学金/장학금 khớp nhau hoàn toàn giữa 2 ngôn ngữ đó. Mở rộng round 13 — thêm 'giảm gánh nặng gia đình' và 'nỗ lực học tập hơn', động lực tích cực lâu dài sau khi giành được học bổng."
     },
     {
       "id": "zh-scenario-first-time-voting",
@@ -4772,11 +5598,25 @@
           "hanViet": "công dân nghĩa vụ",
           "meaningVn": "thực hiện nghĩa vụ công dân",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "等待开票结果",
+          "reading": "děngdài kāipiào jiéguǒ",
+          "hanViet": "khai phiếu kết quả",
+          "meaningVn": "chờ đợi kết quả kiểm phiếu",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "为参与民主感到自豪",
+          "reading": "wèi cānyù mínzhǔ gǎndào zìháo",
+          "hanViet": "tham dự dân chủ tự hào",
+          "meaningVn": "tự hào vì đã tham gia vào nền dân chủ",
+          "pos": "emotion"
         }
       ],
-      "exampleVn": "Lần đầu tiên tôi bỏ phiếu, nghiêm túc tìm hiểu các ứng cử viên, cảm thấy trách nhiệm nặng nề, thực hiện nghĩa vụ công dân.",
-      "example": "我第一次投票，认真研究候选人，感到责任重大，履行公民义务。",
-      "note": "Mục 11.9 mở rộng round 20 — dạng công dân/chính trị, chủ đề mới hoàn toàn. 投票(đầu phiếu)/责任(trách nhiệm)/重大(trọng đại)/义务(nghĩa vụ) khớp hoàn hảo. 候选人 (hậu tuyển nhân) khác cấu tạo 候補者/후보자 (hậu bổ giả) ở JA/KO dù cùng gốc 候(hậu) — một ví dụ nữa về phân kỳ cấu tạo từ."
+      "exampleVn": "Lần đầu tiên tôi bỏ phiếu, nghiêm túc tìm hiểu các ứng cử viên, cảm thấy trách nhiệm nặng nề, thực hiện nghĩa vụ công dân, chờ đợi kết quả kiểm phiếu, và tự hào vì đã được tham gia vào nền dân chủ.",
+      "example": "我第一次投票，认真研究候选人，感到责任重大，履行公民义务，等待开票结果，为参与民主感到自豪。",
+      "note": "Mục 11.9 mở rộng round 20 — dạng công dân/chính trị, chủ đề mới hoàn toàn. 投票(đầu phiếu)/责任(trách nhiệm)/重大(trọng đại)/义务(nghĩa vụ) khớp hoàn hảo. 候选人 (hậu tuyển nhân) khác cấu tạo 候補者/후보자 (hậu bổ giả) ở JA/KO dù cùng gốc 候(hậu) — một ví dụ nữa về phân kỳ cấu tạo từ. [Round 14 mở rộng 4→6 bước]"
     },
     {
       "id": "zh-scenario-book-club-join",
@@ -4810,11 +5650,25 @@
           "hanViet": "chí đồng đạo hợp",
           "meaningVn": "kết được bạn cùng chí hướng",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "定期参加讨论",
+          "reading": "dìngqī cānjiā tǎolùn",
+          "hanViet": "định kỳ tham gia thảo luận",
+          "meaningVn": "định kỳ tham gia thảo luận",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "阅读范围变得更广",
+          "reading": "yuèdú fànwéi biàn de gèng guǎng",
+          "hanViet": "duyệt độc phạm vi",
+          "meaningVn": "phạm vi đọc sách trở nên rộng hơn",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Tôi tham gia câu lạc bộ đọc sách, lúc đầu hơi ngại ngùng, chia sẻ cảm nhận đọc sách, kết được những người bạn cùng chí hướng.",
-      "example": "我加入读书会，一开始有点害羞，分享读书心得，交到志同道合的朋友。",
-      "note": "Mục 11.9 mở rộng round 20 — dạng sở thích/cộng đồng, bổ sung zh-scenario-community-garden. 加入 (gia nhập) và 心得 (tâm đắc, rất quen thuộc tiếng Việt!) khớp hoàn hảo. 志同道合 là thành ngữ 4 chữ trang trọng, vẫn dùng được trong tiếng Việt."
+      "exampleVn": "Tôi tham gia câu lạc bộ đọc sách, lúc đầu hơi ngại ngùng, chia sẻ cảm nhận đọc sách, kết được những người bạn cùng chí hướng, định kỳ tham gia thảo luận, và phạm vi đọc sách của tôi trở nên rộng hơn.",
+      "example": "我加入读书会，一开始有点害羞，分享读书心得，交到志同道合的朋友，定期参加讨论，阅读范围变得更广。",
+      "note": "Mục 11.9 mở rộng round 20 — dạng sở thích/cộng đồng, bổ sung zh-scenario-community-garden. 加入 (gia nhập) và 心得 (tâm đắc, rất quen thuộc tiếng Việt!) khớp hoàn hảo. 志同道合 là thành ngữ 4 chữ trang trọng, vẫn dùng được trong tiếng Việt. [Round 14 mở rộng 4→6 bước]"
     },
     {
       "id": "zh-scenario-pet-learn-trick",
@@ -4848,11 +5702,25 @@
           "hanViet": null,
           "meaningVn": "cuối cùng học được cách ngồi xuống",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "教更难的新把戏",
+          "reading": "jiāo gèng nán de xīn bǎxì",
+          "hanViet": null,
+          "meaningVn": "dạy trò khó hơn",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "主人和狗建立更深的信任",
+          "reading": "zhǔrén hé gǒu jiànlì gèng shēn de xìnrèn",
+          "hanViet": "kiến lập tín nhiệm",
+          "meaningVn": "chủ và chó xây dựng lòng tin sâu sắc hơn",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Tôi dạy chó trò mới, lúc đầu không học được, dùng đồ ăn vặt để thưởng, cuối cùng nó học được cách ngồi xuống.",
-      "example": "我教狗狗新把戏，一开始学不会，用零食奖励，终于学会坐下。",
-      "note": "Mục 11.9 mở rộng round 20 — dạng thú cưng/huấn luyện, bổ sung zh-scenario-adopt-new-pet. Phần lớn từ vựng khẩu ngữ hiện đại không có Hán Việt rõ ràng, để null trung thực."
+      "exampleVn": "Tôi dạy chó trò mới, lúc đầu không học được, dùng đồ ăn vặt để thưởng, cuối cùng nó học được cách ngồi xuống, sau đó dạy nó trò khó hơn, và giữa tôi với chó xây dựng được lòng tin sâu sắc hơn.",
+      "example": "我教狗狗新把戏，一开始学不会，用零食奖励，终于学会坐下，接着教更难的新把戏，主人和狗建立更深的信任。",
+      "note": "Mục 11.9 mở rộng round 20 — dạng thú cưng/huấn luyện, bổ sung zh-scenario-adopt-new-pet. Phần lớn từ vựng khẩu ngữ hiện đại không có Hán Việt rõ ràng, để null trung thực. [Round 14 mở rộng 4→6 bước]"
     },
     {
       "id": "zh-scenario-gardening-passion",
@@ -4886,11 +5754,25 @@
           "hanViet": null,
           "meaningVn": "cuối cùng cũng nở hoa",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "邀请邻居来看花",
+          "reading": "yāoqǐng línjū lái kàn huā",
+          "hanViet": "yêu thỉnh lân cư",
+          "meaningVn": "mời hàng xóm đến ngắm hoa",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "决定扩大花园规模",
+          "reading": "juédìng kuòdà huāyuán guīmó",
+          "hanViet": "khuếch đại hoa viên quy mô",
+          "meaningVn": "quyết định mở rộng quy mô vườn hoa",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Tôi bắt đầu trồng hoa, mỗi ngày tưới nước bón phân, cần kiên nhẫn chờ đợi, cuối cùng hoa cũng nở.",
-      "example": "我开始种花，每天浇水施肥，需要耐心等待，终于开花了。",
-      "note": "Mục 11.9 mở rộng round 20 — dạng sở thích/thiên nhiên, bổ sung zh-scenario-community-garden bằng góc nhìn cá nhân. Phần lớn từ vựng khẩu ngữ không có Hán Việt, phù hợp phong cách miêu tả đời thường."
+      "exampleVn": "Tôi bắt đầu trồng hoa, mỗi ngày tưới nước bón phân, cần kiên nhẫn chờ đợi, cuối cùng hoa cũng nở, tôi mời hàng xóm đến ngắm hoa, và quyết định mở rộng quy mô khu vườn.",
+      "example": "我开始种花，每天浇水施肥，需要耐心等待，终于开花了，邀请邻居来看花，决定扩大花园规模。",
+      "note": "Mục 11.9 mở rộng round 20 — dạng sở thích/thiên nhiên, bổ sung zh-scenario-community-garden bằng góc nhìn cá nhân. Phần lớn từ vựng khẩu ngữ không có Hán Việt, phù hợp phong cách miêu tả đời thường. [Round 14 mở rộng 4→6 bước]"
     },
     {
       "id": "zh-scenario-become-grandparent",
@@ -4924,11 +5806,25 @@
           "hanViet": "tôn tử",
           "meaningVn": "nóng lòng muốn gặp cháu",
           "pos": "idiom"
+        },
+        {
+          "headword": "开始学习怎么带孙子",
+          "reading": "kāishǐ xuéxí zěnme dài sūnzi",
+          "hanViet": null,
+          "meaningVn": "bắt đầu học cách chăm cháu",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "抱着孙子流下眼泪",
+          "reading": "bàozhe sūnzi liúxià yǎnlèi",
+          "hanViet": null,
+          "meaningVn": "ôm cháu mà rơi nước mắt",
+          "pos": "emotion"
         }
       ],
-      "exampleVn": "Con trai tôi báo tin tôi sắp làm ông, tôi vừa ngạc nhiên vừa xúc động, bắt đầu chuẩn bị đồ dùng cho trẻ sơ sinh, nóng lòng muốn gặp cháu.",
-      "example": "儿子告诉我要当爷爷了，既惊讶又激动，开始准备婴儿用品，迫不及待想见孙子。",
-      "note": "Mục 11.9 mở rộng round 20 — dạng gia đình nhiều thế hệ, bổ sung zh-scenario-new-sibling-born từ góc nhìn ông bà. Tái dùng 激动 (kích động, false-friend đã ghi round 13) — so sánh trực tiếp với ja/ko dùng 感動/감동 (cảm động, khớp sạch) cho cùng cảm xúc. 婴儿(anh nhi)/孙子(tôn tử) vẫn dùng được trong văn viết trang trọng tiếng Việt."
+      "exampleVn": "Con trai tôi báo tin tôi sắp làm ông, tôi vừa ngạc nhiên vừa xúc động, bắt đầu chuẩn bị đồ dùng cho trẻ sơ sinh, nóng lòng muốn gặp cháu, bắt đầu học cách chăm cháu, và khi ôm cháu tôi đã rơi nước mắt.",
+      "example": "儿子告诉我要当爷爷了，既惊讶又激动，开始准备婴儿用品，迫不及待想见孙子，开始学习怎么带孙子，抱着孙子流下眼泪。",
+      "note": "Mục 11.9 mở rộng round 20 — dạng gia đình nhiều thế hệ, bổ sung zh-scenario-new-sibling-born từ góc nhìn ông bà. Tái dùng 激动 (kích động, false-friend đã ghi round 13) — so sánh trực tiếp với ja/ko dùng 感動/감동 (cảm động, khớp sạch) cho cùng cảm xúc. 婴儿(anh nhi)/孙子(tôn tử) vẫn dùng được trong văn viết trang trọng tiếng Việt. [Round 14 mở rộng 4→6 bước]"
     },
     {
       "id": "zh-scenario-learn-skateboard",
@@ -4962,11 +5858,25 @@
           "hanViet": null,
           "meaningVn": "cuối cùng trượt được vững vàng",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "学习更难的花式动作",
+          "reading": "xuéxí gèng nán de huāshì dòngzuò",
+          "hanViet": null,
+          "meaningVn": "học các động tác biểu diễn khó hơn",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "参加业余滑板比赛",
+          "reading": "cānjiā yèyú huábǎn bǐsài",
+          "hanViet": "nghiệp dư tỉ tái",
+          "meaningVn": "tham gia thi đấu trượt ván nghiệp dư",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Tôi học trượt ván, ngã rất nhiều lần, toàn thân đầy vết thương, cuối cùng trượt được vững vàng.",
-      "example": "我学滑板，摔了好多次，浑身是伤，终于能滑得很稳。",
-      "note": "Mục 11.9 mở rộng round 20 — dạng thể thao mạo hiểm/kiên trì, bổ sung zh-scenario-learn-swim-fear. Phần lớn từ vựng khẩu ngữ hiện đại, chỉ 伤 (thương) có Hán Việt rõ ràng."
+      "exampleVn": "Tôi học trượt ván, ngã rất nhiều lần, toàn thân đầy vết thương, cuối cùng trượt được vững vàng, tôi thử thách các kỹ thuật khó hơn, và tham gia thi đấu trượt ván nghiệp dư.",
+      "example": "我学滑板，摔了好多次，浑身是伤，终于能滑得很稳，学习更难的花式动作，参加业余滑板比赛。",
+      "note": "Mục 11.9 mở rộng round 20 — dạng thể thao mạo hiểm/kiên trì, bổ sung zh-scenario-learn-swim-fear. Phần lớn từ vựng khẩu ngữ hiện đại, chỉ 伤 (thương) có Hán Việt rõ ràng. [Round 15 mở rộng 4→6 bước]"
     },
     {
       "id": "zh-scenario-cooking-certification-pass",
@@ -5000,11 +5910,25 @@
           "hanViet": "thuận lợi chứng thư",
           "meaningVn": "lấy được chứng chỉ thuận lợi",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "开一家自己的小餐馆",
+          "reading": "kāi yī jiā zìjǐ de xiǎo cānguǎn",
+          "hanViet": null,
+          "meaningVn": "mở một nhà hàng nhỏ của riêng mình",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "收到第一位客人的好评",
+          "reading": "shōudào dì-yī wèi kèrén de hǎopíng",
+          "hanViet": "hảo bình",
+          "meaningVn": "nhận được đánh giá tốt từ vị khách đầu tiên",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Tôi thi lấy chứng chỉ đầu bếp, luyện tập kỹ năng dao thớt, khi thi rất hồi hộp, cuối cùng lấy được chứng chỉ thuận lợi.",
-      "example": "我考厨师证，练习刀工，考试很紧张，顺利拿到证书。",
-      "note": "Mục 11.9 mở rộng round 21 — dạng nghề nghiệp/chứng chỉ, bổ sung zh-scenario-citizenship-test-pass. 证书 (chứng thư) khớp tốt với 'giấy chứng nhận'. 厨师 (trù sư) khác cấu tạo hoàn toàn với 'đầu bếp' tiếng Việt, khác cả 調理師/조리사 (điều lý sư) ở JA/KO."
+      "exampleVn": "Tôi thi lấy chứng chỉ đầu bếp, luyện tập kỹ năng dao thớt, khi thi rất hồi hộp, cuối cùng lấy được chứng chỉ thuận lợi, mở một nhà hàng nhỏ của riêng mình, và nhận được đánh giá tốt từ vị khách đầu tiên.",
+      "example": "我考厨师证，练习刀工，考试很紧张，顺利拿到证书，开一家自己的小餐馆，收到第一位客人的好评。",
+      "note": "Mục 11.9 mở rộng round 21 — dạng nghề nghiệp/chứng chỉ, bổ sung zh-scenario-citizenship-test-pass. 证书 (chứng thư) khớp tốt với 'giấy chứng nhận'. 厨师 (trù sư) khác cấu tạo hoàn toàn với 'đầu bếp' tiếng Việt, khác cả 調理師/조리사 (điều lý sư) ở JA/KO. [Round 15 mở rộng 4→6 bước]"
     },
     {
       "id": "zh-scenario-knitting-first-project",
@@ -5038,11 +5962,25 @@
           "hanViet": "hoàn thành tác phẩm",
           "meaningVn": "hoàn thành tác phẩm đầu tiên",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "把作品送给朋友",
+          "reading": "bǎ zuòpǐn sòng gěi péngyǒu",
+          "hanViet": "tác phẩm",
+          "meaningVn": "tặng tác phẩm cho bạn bè",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "开始在网上卖自己织的东西",
+          "reading": "kāishǐ zài wǎngshàng mài zìjǐ zhī de dōngxi",
+          "hanViet": null,
+          "meaningVn": "bắt đầu bán trên mạng đồ tự đan",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Tôi bắt đầu học đan áo len, thường xuyên đan sai, tháo ra đan lại, cuối cùng hoàn thành tác phẩm đầu tiên.",
-      "example": "我开始学织毛衣，经常织错，拆了重织，完成第一件作品。",
-      "note": "Mục 11.9 mở rộng round 21 — dạng thủ công/kiên trì, bổ sung zh-scenario-learn-calligraphy. Phần lớn từ vựng khẩu ngữ không có Hán Việt, chỉ 完成(hoàn thành)/作品(tác phẩm) khớp tốt."
+      "exampleVn": "Tôi bắt đầu học đan áo len, thường xuyên đan sai, tháo ra đan lại, cuối cùng hoàn thành tác phẩm đầu tiên, tặng tác phẩm cho bạn bè, và bắt đầu bán các sản phẩm tự đan trên mạng.",
+      "example": "我开始学织毛衣，经常织错，拆了重织，完成第一件作品，把作品送给朋友，开始在网上卖自己织的东西。",
+      "note": "Mục 11.9 mở rộng round 21 — dạng thủ công/kiên trì, bổ sung zh-scenario-learn-calligraphy. Phần lớn từ vựng khẩu ngữ không có Hán Việt, chỉ 完成(hoàn thành)/作品(tác phẩm) khớp tốt. [Round 15 mở rộng 4→6 bước]"
     },
     {
       "id": "zh-scenario-mentor-teach-someone",
@@ -5076,11 +6014,25 @@
           "hanViet": "thành tựu cảm",
           "meaningVn": "cảm thấy rất có thành tựu",
           "pos": "emotion"
+        },
+        {
+          "headword": "因为带教出色获得晋升",
+          "reading": "yīnwèi dàijiào chūsè huòdé jìnshēng",
+          "hanViet": "xuất sắc tấn thăng",
+          "meaningVn": "được thăng chức vì dìu dắt xuất sắc",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "徒弟后来也成为了别人的导师",
+          "reading": "túdì hòulái yě chéngwéile biérén de dǎoshī",
+          "hanViet": "đồ đệ đạo sư",
+          "meaningVn": "học trò sau này cũng trở thành người hướng dẫn của người khác",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Tôi trở thành người hướng dẫn cho nhân viên mới, kiên nhẫn giải đáp câu hỏi, nhìn anh ấy trưởng thành, cảm thấy rất có thành tựu.",
-      "example": "我成为新人的导师，耐心解答问题，看着他成长，很有成就感。",
-      "note": "Mục 11.9 mở rộng round 21 — dạng cố vấn/dìu dắt, bổ sung zh-scenario-first-day-new-job từ góc nhìn người hướng dẫn. 导师 (đạo sư) vẫn dùng trong tiếng Việt học thuật/Phật giáo. HIỆN TƯỢNG ĐẢO NGƯỢC THỨ TỰ thứ 4: 成长 (thành trưởng) đảo ngược thành 'trưởng thành' tiếng Việt — cùng nhóm với 刺激→kích thích, 庆祝→chúc mừng, một pattern có hệ thống đáng chú ý, xác nhận ở cả JA/KO vì cùng dùng chung chữ Hán 成長."
+      "exampleVn": "Tôi trở thành người hướng dẫn cho nhân viên mới, kiên nhẫn giải đáp câu hỏi, nhìn anh ấy trưởng thành, cảm thấy rất có thành tựu, được thăng chức vì dìu dắt tốt, và học trò của tôi sau này cũng trở thành người hướng dẫn của người khác.",
+      "example": "我成为新人的导师，耐心解答问题，看着他成长，很有成就感，因为带教出色获得晋升，徒弟后来也成为了别人的导师。",
+      "note": "Mục 11.9 mở rộng round 21 — dạng cố vấn/dìu dắt, bổ sung zh-scenario-first-day-new-job từ góc nhìn người hướng dẫn. 导师 (đạo sư) vẫn dùng trong tiếng Việt học thuật/Phật giáo. HIỆN TƯỢNG ĐẢO NGƯỢC THỨ TỰ thứ 4: 成长 (thành trưởng) đảo ngược thành 'trưởng thành' tiếng Việt — cùng nhóm với 刺激→kích thích, 庆祝→chúc mừng, một pattern có hệ thống đáng chú ý, xác nhận ở cả JA/KO vì cùng dùng chung chữ Hán 成長. [Round 15 mở rộng 4→6 bước]"
     },
     {
       "id": "zh-scenario-sibling-rivalry-reconcile",
@@ -5114,11 +6066,25 @@
           "hanViet": "huynh đệ",
           "meaningVn": "trở lại thành anh em tốt",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "一起为父母的生日做计划",
+          "reading": "yīqǐ wèi fùmǔ de shēngrì zuò jìhuà",
+          "hanViet": "kế hoạch",
+          "meaningVn": "cùng nhau lên kế hoạch cho sinh nhật bố mẹ",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "成为彼此坚强的后盾",
+          "reading": "chéngwéi bǐcǐ jiānqiáng de hòudùn",
+          "hanViet": "kiên cường hậu thuẫn",
+          "meaningVn": "trở thành chỗ dựa vững chắc của nhau",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Tôi ganh đua với anh trai nhiều năm, cuối cùng ngồi xuống tâm sự, bỏ qua sự cạnh tranh nhiều năm, trở lại thành anh em tốt.",
-      "example": "我和哥哥较劲多年，终于坐下来谈心，放下多年的竞争，重新成为好兄弟。",
-      "note": "Mục 11.9 mở rộng round 21 — dạng gia đình ruột thịt/hàn gắn, bổ sung zh-scenario-estranged-family-reconcile (họ hàng xa) bằng bối cảnh anh em ruột. 竞争(cạnh tranh)/兄弟(huynh đệ) khớp hoàn hảo."
+      "exampleVn": "Tôi ganh đua với anh trai nhiều năm, cuối cùng ngồi xuống tâm sự, bỏ qua sự cạnh tranh nhiều năm, trở lại thành anh em tốt, chúng tôi cùng nhau lên kế hoạch cho sinh nhật của bố mẹ, và trở thành chỗ dựa vững chắc của nhau.",
+      "example": "我和哥哥较劲多年，终于坐下来谈心，放下多年的竞争，重新成为好兄弟，一起为父母的生日做计划，成为彼此坚强的后盾。",
+      "note": "Mục 11.9 mở rộng round 21 — dạng gia đình ruột thịt/hàn gắn, bổ sung zh-scenario-estranged-family-reconcile (họ hàng xa) bằng bối cảnh anh em ruột. 竞争(cạnh tranh)/兄弟(huynh đệ) khớp hoàn hảo. [Round 15 mở rộng 4→6 bước]"
     },
     {
       "id": "zh-scenario-start-podcast",
@@ -5152,11 +6118,25 @@
           "hanViet": "tích lũy",
           "meaningVn": "dần dần tích lũy người hâm mộ",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "邀请到知名嘉宾做客",
+          "reading": "yāoqǐng dào zhīmíng jiābīn zuòkè",
+          "hanViet": "tri danh giai tân",
+          "meaningVn": "mời được khách mời nổi tiếng đến làm khách",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "开始有赞助商合作",
+          "reading": "kāishǐ yǒu zànzhùshāng hézuò",
+          "hanViet": "tán trợ thương hợp tác",
+          "meaningVn": "bắt đầu có nhà tài trợ hợp tác",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Tôi bắt đầu làm podcast, lúc đầu không có người nghe, kiên trì cập nhật hàng tuần, dần dần tích lũy được người hâm mộ.",
-      "example": "我开始做播客，一开始没有听众，坚持每周更新，慢慢积累粉丝。",
-      "note": "Mục 11.9 mở rộng round 21 — dạng sáng tạo nội dung số, chủ đề hiện đại. 听众 (thính chúng) khớp hoàn hảo, khác cấu tạo 聽取者/청취자 (thính thủ giả) bên tiếng Hàn. 粉丝 ('miến/bún tàu') là từ mượn âm thú vị cho 'fan' — vay mượn cả âm lẫn hình ảnh hài hước."
+      "exampleVn": "Tôi bắt đầu làm podcast, lúc đầu không có người nghe, kiên trì cập nhật hàng tuần, dần dần tích lũy được người hâm mộ, mời được khách mời nổi tiếng đến làm khách, và podcast của tôi bắt đầu có nhà tài trợ hợp tác.",
+      "example": "我开始做播客，一开始没有听众，坚持每周更新，慢慢积累粉丝，邀请到知名嘉宾做客，开始有赞助商合作。",
+      "note": "Mục 11.9 mở rộng round 21 — dạng sáng tạo nội dung số, chủ đề hiện đại. 听众 (thính chúng) khớp hoàn hảo, khác cấu tạo 聽取者/청취자 (thính thủ giả) bên tiếng Hàn. 粉丝 ('miến/bún tàu') là từ mượn âm thú vị cho 'fan' — vay mượn cả âm lẫn hình ảnh hài hước. [Round 16 mở rộng 4→6 bước]"
     },
     {
       "id": "zh-scenario-fear-of-flying-overcome",
@@ -5190,11 +6170,25 @@
           "hanViet": "khắc phục khủng cụ",
           "meaningVn": "dần dần vượt qua nỗi sợ",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "第一次独自坐飞机旅行",
+          "reading": "dì-yī cì dúzì zuò fēijī lǚxíng",
+          "hanViet": "độc tự lữ hành",
+          "meaningVn": "lần đầu một mình đi du lịch bằng máy bay",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "现在反而喜欢上飞行",
+          "reading": "xiànzài fǎn'ér xǐhuan shàng fēixíng",
+          "hanViet": "phi hành",
+          "meaningVn": "giờ đây ngược lại thích bay",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Tôi luôn rất sợ đi máy bay, tim đập nhanh, hít thở sâu để bình tĩnh lại, dần dần vượt qua nỗi sợ.",
-      "example": "我一直很怕坐飞机，心跳加速，深呼吸让自己冷静，慢慢克服恐惧。",
-      "note": "Mục 11.9 mở rộng round 21 — dạng vượt qua nỗi sợ, bổ sung zh-scenario-learn-swim-fear. LƯU Ý CẤU TẠO TỪ: 冷静 (lãnh tĩnh, 'lạnh + yên tĩnh') khác hoàn toàn cấu tạo 'bình tĩnh' tiếng Việt (dùng 平=bình 'ngang bằng' chứ không phải 冷=lãnh 'lạnh') — 2 ẩn dụ khác nhau cho cùng trạng thái tâm lý."
+      "exampleVn": "Tôi luôn rất sợ đi máy bay, tim đập nhanh, hít thở sâu để bình tĩnh lại, dần dần vượt qua nỗi sợ, lần đầu tiên một mình đi du lịch bằng máy bay, và giờ đây tôi lại thích bay.",
+      "example": "我一直很怕坐飞机，心跳加速，深呼吸让自己冷静，慢慢克服恐惧，第一次独自坐飞机旅行，现在反而喜欢上飞行。",
+      "note": "Mục 11.9 mở rộng round 21 — dạng vượt qua nỗi sợ, bổ sung zh-scenario-learn-swim-fear. LƯU Ý CẤU TẠO TỪ: 冷静 (lãnh tĩnh, 'lạnh + yên tĩnh') khác hoàn toàn cấu tạo 'bình tĩnh' tiếng Việt (dùng 平=bình 'ngang bằng' chứ không phải 冷=lãnh 'lạnh') — 2 ẩn dụ khác nhau cho cùng trạng thái tâm lý. [Round 16 mở rộng 4→6 bước]"
     },
     {
       "id": "zh-scenario-cook-for-inlaws",
@@ -5228,11 +6222,25 @@
           "hanViet": null,
           "meaningVn": "được bố mẹ chồng khen ngợi",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "被邀请节日时再做一次",
+          "reading": "bèi yāoqǐng jiérì shí zài zuò yīcì",
+          "hanViet": "tiết nhật",
+          "meaningVn": "được mời làm lại món đó vào dịp lễ",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "渐渐对下厨有了自信",
+          "reading": "jiànjiàn duì xiàchú yǒule zìxìn",
+          "hanViet": "tự tín",
+          "meaningVn": "dần dần tự tin hơn khi vào bếp",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Lần đầu tiên tôi nấu ăn cho bố mẹ chồng, hồi hộp đến run tay, kiểm tra lại công thức nhiều lần, được bố mẹ chồng khen ngợi.",
-      "example": "我第一次给公婆做饭，紧张到手抖，反复确认菜谱，得到公婆称赞。",
-      "note": "Mục 11.9 mở rộng round 22 — dạng gia đình chồng/vợ, bổ sung zh-scenario-grandma-recipe. 公婆 (công bà) là cách gọi đặc trưng 'cha mẹ chồng' — khác 義理の両親/시부모님 ở JA/KO là các cách diễn đạt riêng cho quan hệ 'nhà chồng/vợ'."
+      "exampleVn": "Lần đầu tiên tôi nấu ăn cho bố mẹ chồng, hồi hộp đến run tay, kiểm tra lại công thức nhiều lần, được bố mẹ chồng khen ngợi, được nhờ làm lại món đó vào dịp lễ, và tôi dần dần trở nên tự tin hơn khi vào bếp.",
+      "example": "我第一次给公婆做饭，紧张到手抖，反复确认菜谱，得到公婆称赞，被邀请节日时再做一次，渐渐对下厨有了自信。",
+      "note": "Mục 11.9 mở rộng round 22 — dạng gia đình chồng/vợ, bổ sung zh-scenario-grandma-recipe. 公婆 (công bà) là cách gọi đặc trưng 'cha mẹ chồng' — khác 義理の両親/시부모님 ở JA/KO là các cách diễn đạt riêng cho quan hệ 'nhà chồng/vợ'. [Round 16 mở rộng 4→6 bước]"
     },
     {
       "id": "zh-scenario-chronic-illness-adjust",
@@ -5266,11 +6274,25 @@
           "hanViet": "tật bệnh",
           "meaningVn": "học cách chung sống với bệnh tật",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "加入病友互助小组",
+          "reading": "jiārù bìngyǒu hùzhù xiǎozǔ",
+          "hanViet": "bệnh hữu hỗ trợ tiểu tổ",
+          "meaningVn": "tham gia nhóm bệnh nhân hỗ trợ lẫn nhau",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "重新找到生活的乐趣",
+          "reading": "chóngxīn zhǎodào shēnghuó de lèqù",
+          "hanViet": "sinh hoạt lạc thú",
+          "meaningVn": "tìm lại được niềm vui trong cuộc sống",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Tôi được chẩn đoán mắc bệnh mạn tính, lúc đầu rất khó chấp nhận, điều chỉnh lối sống, học cách chung sống với bệnh tật.",
-      "example": "我被诊断出慢性病，一开始很难接受，调整生活方式，学会与疾病共处。",
-      "note": "Mục 11.9 mở rộng round 22 — dạng y tế dài hạn/thích nghi, bổ sung zh-scenario-medical-test-relief. 诊断(chẩn đoán)/慢性(mạn tính) khớp hoàn hảo với thuật ngữ y khoa tiếng Việt — 'bệnh mạn tính' là cụm từ y khoa chuẩn."
+      "exampleVn": "Tôi được chẩn đoán mắc bệnh mạn tính, lúc đầu rất khó chấp nhận, điều chỉnh lối sống, học cách chung sống với bệnh tật, tham gia một nhóm hỗ trợ bệnh nhân cùng cảnh ngộ, và tìm lại được niềm vui trong cuộc sống hằng ngày.",
+      "example": "我被诊断出慢性病，一开始很难接受，调整生活方式，学会与疾病共处，加入病友互助小组，重新找到生活的乐趣。",
+      "note": "Mục 11.9 mở rộng round 22 — dạng y tế dài hạn/thích nghi, bổ sung zh-scenario-medical-test-relief. 诊断(chẩn đoán)/慢性(mạn tính) khớp hoàn hảo với thuật ngữ y khoa tiếng Việt — 'bệnh mạn tính' là cụm từ y khoa chuẩn. [Round 16 mở rộng 4→6 bước]"
     },
     {
       "id": "zh-scenario-shy-student-trust",
@@ -5304,11 +6326,25 @@
           "hanViet": "chủ động phát ngôn",
           "meaningVn": "cuối cùng sẵn lòng chủ động phát biểu",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "主动帮助其他同学",
+          "reading": "zhǔdòng bāngzhù qítā tóngxué",
+          "hanViet": "chủ động đồng học",
+          "meaningVn": "chủ động giúp đỡ bạn học khác",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "变成自信开朗的学生",
+          "reading": "biànchéng zìxìn kāilǎng de xuéshēng",
+          "hanViet": "tự tín khai lãng học sinh",
+          "meaningVn": "trở thành học sinh tự tin cởi mở",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Lớp tôi có một học sinh nhút nhát, lúc đầu không dám nói, tôi dần dần xây dựng lòng tin, cuối cùng em ấy sẵn lòng chủ động phát biểu.",
-      "example": "班上有个害羞的学生，一开始不敢说话，慢慢建立信任，终于愿意主动发言。",
-      "note": "Mục 11.9 mở rộng round 22 — dạng giáo dục/sư phạm, chủ đề mới cho góc nhìn giáo viên. 学生(học sinh)/信任(tín nhiệm)/发言(phát ngôn) khớp hoàn hảo."
+      "exampleVn": "Lớp tôi có một học sinh nhút nhát, lúc đầu không dám nói, tôi dần dần xây dựng lòng tin, cuối cùng em ấy sẵn lòng chủ động phát biểu, chủ động giúp đỡ các bạn học khác, và trở thành một học sinh tự tin, hoạt bát.",
+      "example": "班上有个害羞的学生，一开始不敢说话，慢慢建立信任，终于愿意主动发言，主动帮助其他同学，变成自信开朗的学生。",
+      "note": "Mục 11.9 mở rộng round 22 — dạng giáo dục/sư phạm, chủ đề mới cho góc nhìn giáo viên. 学生(học sinh)/信任(tín nhiệm)/发言(phát ngôn) khớp hoàn hảo. [Round 16 mở rộng 4→6 bước]"
     },
     {
       "id": "zh-scenario-salary-negotiate",
@@ -5342,11 +6378,25 @@
           "hanViet": "đạt thành hiệp nghị",
           "meaningVn": "cuối cùng đạt được thỏa thuận",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "拿到理想的薪资",
+          "reading": "nádào lǐxiǎng de xīnzī",
+          "hanViet": "lý tưởng tân tư",
+          "meaningVn": "nhận được mức lương như mong muốn",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "对以后的谈判更有信心",
+          "reading": "duì yǐhòu de tánpàn gèng yǒu xìnxīn",
+          "hanViet": "tín tâm",
+          "meaningVn": "tự tin hơn với những cuộc thương lượng sau này",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Tôi học kỹ năng thương lượng, dũng cảm mở lời yêu cầu tăng lương, đối phương do dự không quyết, cuối cùng đạt được thỏa thuận.",
-      "example": "我学习谈判技巧，勇敢开口要求加薪，对方犹豫不决，最终达成协议。",
-      "note": "Mục 11.9 mở rộng round 22 — dạng kỹ năng công sở, bổ sung zh-scenario-salary-raise bằng góc nhìn chiến thuật đàm phán. 谈判(đàm phán)/对方(đối phương)/犹豫(do dự)/协议(hiệp nghị) khớp hoàn hảo."
+      "exampleVn": "Tôi học kỹ năng thương lượng, dũng cảm mở lời yêu cầu tăng lương, đối phương do dự không quyết, cuối cùng đạt được thỏa thuận, nhận được mức lương như mong muốn, và cảm thấy tự tin hơn với những cuộc thương lượng sau này.",
+      "example": "我学习谈判技巧，勇敢开口要求加薪，对方犹豫不决，最终达成协议，拿到理想的薪资，对以后的谈判更有信心。",
+      "note": "Mục 11.9 mở rộng round 22 — dạng kỹ năng công sở, bổ sung zh-scenario-salary-raise bằng góc nhìn chiến thuật đàm phán. 谈判(đàm phán)/对方(đối phương)/犹豫(do dự)/协议(hiệp nghị) khớp hoàn hảo. [Round 17 mở rộng 4→6 bước]"
     },
     {
       "id": "zh-scenario-language-exam-pass",
@@ -5380,11 +6430,25 @@
           "hanViet": "mục tiêu đẳng cấp",
           "meaningVn": "cuối cùng đạt được cấp độ mục tiêu",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "用证书申请新工作",
+          "reading": "yòng zhèngshū shēnqǐng xīn gōngzuò",
+          "hanViet": "chứng thư thân thỉnh",
+          "meaningVn": "dùng chứng chỉ để xin việc mới",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "自信地用外语交流",
+          "reading": "zìxìn de yòng wàiyǔ jiāoliú",
+          "hanViet": "tự tín ngoại ngữ giao lưu",
+          "meaningVn": "tự tin giao tiếp bằng ngoại ngữ đó",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Tôi đăng ký thi chứng chỉ trình độ ngoại ngữ, mỗi ngày luyện đề, phần nghe rất khó, cuối cùng đạt được cấp độ mục tiêu.",
-      "example": "我报名考语言等级考试，每天刷题，听力部分很难，终于达到目标等级。",
-      "note": "Mục 11.9 mở rộng round 22 — dạng thi cử ngoại ngữ, bổ sung zh-scenario-learn-language. HIỆN TƯỢNG ĐẢO NGƯỢC THỨ TỰ thứ 5: 语言 (ngữ ngôn) đảo ngược thành 'ngôn ngữ' tiếng Việt — cùng nhóm với 刺激→kích thích, 庆祝→chúc mừng, 成长→trưởng thành. 听力(thính lực)/等级(đẳng cấp) khớp hoàn hảo."
+      "exampleVn": "Tôi đăng ký thi chứng chỉ trình độ ngoại ngữ, mỗi ngày luyện đề, phần nghe rất khó, cuối cùng đạt được cấp độ mục tiêu, dùng chứng chỉ để xin việc mới, và tự tin giao tiếp bằng ngoại ngữ đó.",
+      "example": "我报名考语言等级考试，每天刷题，听力部分很难，终于达到目标等级，用证书申请新工作，自信地用外语交流。",
+      "note": "Mục 11.9 mở rộng round 22 — dạng thi cử ngoại ngữ, bổ sung zh-scenario-learn-language. HIỆN TƯỢNG ĐẢO NGƯỢC THỨ TỰ thứ 5: 语言 (ngữ ngôn) đảo ngược thành 'ngôn ngữ' tiếng Việt — cùng nhóm với 刺激→kích thích, 庆祝→chúc mừng, 成长→trưởng thành. 听力(thính lực)/等级(đẳng cấp) khớp hoàn hảo. [Round 17 mở rộng 4→6 bước]"
     },
     {
       "id": "zh-scenario-first-in-family-university",
@@ -5418,11 +6482,25 @@
           "hanViet": "toàn gia kiêu ngạo",
           "meaningVn": "khiến cả nhà đều tự hào",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "以优异成绩毕业",
+          "reading": "yǐ yōuyì chéngjì bìyè",
+          "hanViet": "ưu dị thành tích tất nghiệp",
+          "meaningVn": "tốt nghiệp với thành tích xuất sắc",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "成为家里弟妹的榜样",
+          "reading": "chéngwéi jiā lǐ dìmèi de bǎngyàng",
+          "hanViet": "bảng dạng",
+          "meaningVn": "trở thành tấm gương cho các em trong nhà",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Tôi trở thành sinh viên đại học đầu tiên trong nhà, cha mẹ không hiểu lắm, một mình đối mặt nhiều thử thách, khiến cả nhà đều tự hào.",
-      "example": "我成为家里第一个大学生，父母不太理解，独自面对很多挑战，让全家都感到骄傲。",
-      "note": "Mục 11.9 mở rộng round 22 — dạng học vấn/giai cấp xã hội, bổ sung zh-scenario-graduation-ceremony bằng góc nhìn người tiên phong trong gia đình. 理解(lý giải)/挑战(khiêu chiến) khớp hoàn hảo."
+      "exampleVn": "Tôi trở thành sinh viên đại học đầu tiên trong nhà, cha mẹ không hiểu lắm, một mình đối mặt nhiều thử thách, khiến cả nhà đều tự hào, tốt nghiệp với thành tích xuất sắc, và trở thành tấm gương cho các em trong nhà.",
+      "example": "我成为家里第一个大学生，父母不太理解，独自面对很多挑战，让全家都感到骄傲，以优异成绩毕业，成为家里弟妹的榜样。",
+      "note": "Mục 11.9 mở rộng round 22 — dạng học vấn/giai cấp xã hội, bổ sung zh-scenario-graduation-ceremony bằng góc nhìn người tiên phong trong gia đình. 理解(lý giải)/挑战(khiêu chiến) khớp hoàn hảo. [Round 17 mở rộng 4→6 bước]"
     },
     {
       "id": "zh-scenario-lose-game-graceful",
@@ -5456,11 +6534,25 @@
           "hanViet": "bảo quý kinh nghiệm",
           "meaningVn": "học được kinh nghiệm quý báu",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "下定决心更加努力训练",
+          "reading": "xiàdìng juéxīn gèngjiā nǔlì xùnliàn",
+          "hanViet": "quyết tâm nỗ lực huấn luyện",
+          "meaningVn": "quyết tâm luyện tập chăm chỉ hơn",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "靠这份努力赢得下一场比赛",
+          "reading": "kào zhè fèn nǔlì yíngdé xià yī chǎng bǐsài",
+          "hanViet": "nỗ lực",
+          "meaningVn": "nhờ nỗ lực đó mà thắng được trận đấu tiếp theo",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Tôi thua trận đấu, trong lòng rất hụt hẫng, chân thành chúc mừng đối thủ, học được kinh nghiệm quý báu.",
-      "example": "比赛输了，心里很失落，真诚祝贺对手，学到宝贵的经验。",
-      "note": "Mục 11.9 mở rộng round 23 — dạng thể thao/tinh thần thượng võ, bổ sung zh-scenario-losing-competition. FALSE-FRIEND đáng chú ý: 失落 (shīluò, 'cảm giác hụt hẫng/thất vọng') ghép chữ ra 'thất lạc' — nhưng tiếng Việt 'thất lạc' CHỈ dùng cho đồ vật bị mất/lạc mất, không dùng cho cảm xúc. HIỆN TƯỢNG ĐẢO NGƯỢC THỨ 6: 宝贵 (bảo quý) đảo thành 'quý báu' tiếng Việt — LƯU Ý: tiếng Nhật/Hàn dùng 貴重/귀중 (quý trọng, ĐÚNG thứ tự) cho cùng khái niệm, cho thấy đảo ngược không phải hiện tượng phổ quát mà tùy vào từ ghép cụ thể được chọn."
+      "exampleVn": "Tôi thua trận đấu, trong lòng rất hụt hẫng, chân thành chúc mừng đối thủ, học được kinh nghiệm quý báu, quyết tâm luyện tập chăm chỉ hơn, và nhờ nỗ lực đó mà thắng được trận đấu tiếp theo.",
+      "example": "比赛输了，心里很失落，真诚祝贺对手，学到宝贵的经验，下定决心更加努力训练，靠这份努力赢得下一场比赛。",
+      "note": "Mục 11.9 mở rộng round 23 — dạng thể thao/tinh thần thượng võ, bổ sung zh-scenario-losing-competition. FALSE-FRIEND đáng chú ý: 失落 (shīluò, 'cảm giác hụt hẫng/thất vọng') ghép chữ ra 'thất lạc' — nhưng tiếng Việt 'thất lạc' CHỈ dùng cho đồ vật bị mất/lạc mất, không dùng cho cảm xúc. HIỆN TƯỢNG ĐẢO NGƯỢC THỨ 6: 宝贵 (bảo quý) đảo thành 'quý báu' tiếng Việt — LƯU Ý: tiếng Nhật/Hàn dùng 貴重/귀중 (quý trọng, ĐÚNG thứ tự) cho cùng khái niệm, cho thấy đảo ngược không phải hiện tượng phổ quát mà tùy vào từ ghép cụ thể được chọn. [Round 17 mở rộng 4→6 bước]"
     },
     {
       "id": "zh-scenario-old-hobby-rediscover",
@@ -5494,11 +6586,25 @@
           "hanViet": "ái hảo",
           "meaningVn": "yêu lại sở thích ngày xưa",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "加入有共同爱好的社团",
+          "reading": "jiārù yǒu gòngtóng àihào de shètuán",
+          "hanViet": "cộng đồng ái hảo xã đoàn",
+          "meaningVn": "tham gia câu lạc bộ có cùng sở thích",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "开始展示自己的作品",
+          "reading": "kāishǐ zhǎnshì zìjǐ de zuòpǐn",
+          "hanViet": "triển thị tác phẩm",
+          "meaningVn": "bắt đầu trưng bày tác phẩm của mình",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Tôi cầm lại cây cọ vẽ, cảm giác tay hơi sinh sơ, dần dần tìm lại cảm giác, yêu lại sở thích ngày xưa.",
-      "example": "我重新拿起画笔，手感有点生疏，慢慢找回感觉，爱上曾经的爱好。",
-      "note": "Mục 11.9 mở rộng round 23 — dạng sở thích/hoài niệm, bổ sung zh-scenario-photography-hobby. 生疏 (sinh sơ) và 爱好 (ái hảo) vẫn nhận diện được trong văn viết tiếng Việt trang trọng. Đối lập thú vị với 趣味/취미 (thú vị, false-friend) ở JA/KO cho cùng khái niệm 'sở thích' — xem ja/ko-scenario-old-hobby-rediscover."
+      "exampleVn": "Tôi cầm lại cây cọ vẽ, cảm giác tay hơi sinh sơ, dần dần tìm lại cảm giác, yêu lại sở thích ngày xưa, tham gia một câu lạc bộ có cùng sở thích, và bắt đầu trưng bày tác phẩm của mình.",
+      "example": "我重新拿起画笔，手感有点生疏，慢慢找回感觉，爱上曾经的爱好，加入有共同爱好的社团，开始展示自己的作品。",
+      "note": "Mục 11.9 mở rộng round 23 — dạng sở thích/hoài niệm, bổ sung zh-scenario-photography-hobby. 生疏 (sinh sơ) và 爱好 (ái hảo) vẫn nhận diện được trong văn viết tiếng Việt trang trọng. Đối lập thú vị với 趣味/취미 (thú vị, false-friend) ở JA/KO cho cùng khái niệm 'sở thích' — xem ja/ko-scenario-old-hobby-rediscover. [Round 17 mở rộng 4→6 bước]"
     },
     {
       "id": "zh-scenario-career-family-choice",
@@ -5532,11 +6638,25 @@
           "hanViet": "quyết định",
           "meaningVn": "không bao giờ hối hận về quyết định này",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "有更多时间陪伴孩子",
+          "reading": "yǒu gèng duō shíjiān péibàn háizi",
+          "hanViet": null,
+          "meaningVn": "có nhiều thời gian hơn để ở bên con cái",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "找到生活的新平衡",
+          "reading": "zhǎodào shēnghuó de xīn pínghéng",
+          "hanViet": "tân bình hành",
+          "meaningVn": "tìm được sự cân bằng mới trong cuộc sống",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Tôi đối mặt với lựa chọn giữa sự nghiệp và gia đình, từ chối cơ hội thăng chức, chọn ở bên gia đình, không bao giờ hối hận về quyết định này.",
-      "example": "我面临事业和家庭的选择，拒绝了升职机会，选择陪伴家人，从不后悔这个决定。",
-      "note": "Mục 11.9 mở rộng round 23 — dạng quyết định lớn trong đời, bổ sung zh-scenario-imposter-syndrome. 家庭(gia đình)/机会(cơ hội)/决定(quyết định) khớp hoàn hảo. 家人 tiếp tục false-friend đã ghi (gia nhân)."
+      "exampleVn": "Tôi đối mặt với lựa chọn giữa sự nghiệp và gia đình, từ chối cơ hội thăng chức, chọn ở bên gia đình, không bao giờ hối hận về quyết định này, có nhiều thời gian hơn để ở bên con cái, và tìm được sự cân bằng mới trong cuộc sống.",
+      "example": "我面临事业和家庭的选择，拒绝了升职机会，选择陪伴家人，从不后悔这个决定，有更多时间陪伴孩子，找到生活的新平衡。",
+      "note": "Mục 11.9 mở rộng round 23 — dạng quyết định lớn trong đời, bổ sung zh-scenario-imposter-syndrome. 家庭(gia đình)/机会(cơ hội)/决定(quyết định) khớp hoàn hảo. 家人 tiếp tục false-friend đã ghi (gia nhân). [Round 18 mở rộng 4→6 bước]"
     },
     {
       "id": "zh-scenario-trust-again-after-betrayal",
@@ -5570,11 +6690,25 @@
           "hanViet": "trùng tân tín nhiệm",
           "meaningVn": "học cách tin tưởng lại",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "建立一段健康的新关系",
+          "reading": "jiànlì yī duàn jiànkāng de xīn guānxi",
+          "hanViet": "kiến lập kiện khang",
+          "meaningVn": "xây dựng một mối quan hệ mới lành mạnh",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "感谢自己没有放弃希望",
+          "reading": "gǎnxiè zìjǐ méiyǒu fàngqì xīwàng",
+          "hanViet": "cảm tạ hy vọng",
+          "meaningVn": "cảm ơn bản thân vì đã không từ bỏ hy vọng",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Tôi từng bị người khác phản bội, rất khó tin tưởng người khác lần nữa, dần dần mở lòng, học cách tin tưởng lại.",
-      "example": "我曾经被人背叛，很难再相信别人，慢慢打开心扉，学会重新信任。",
-      "note": "Mục 11.9 mở rộng round 23 — dạng tổn thương/tha thứ, bổ sung zh-scenario-breakup-heal. 背叛 (phản bội) để null vì không đủ tự tin về âm Hán Việt chuẩn xác của cách ghép này — khác 背信/bội tín tiếng Hàn (âm Hán Việt rõ ràng hơn nhờ dùng 信=tín). 心扉 (tâm phi) tái dùng ẩn dụ đẹp."
+      "exampleVn": "Tôi từng bị người khác phản bội, rất khó tin tưởng người khác lần nữa, dần dần mở lòng, học cách tin tưởng lại, xây dựng một mối quan hệ mới lành mạnh, và cảm ơn bản thân vì đã không từ bỏ hy vọng.",
+      "example": "我曾经被人背叛，很难再相信别人，慢慢打开心扉，学会重新信任，建立一段健康的新关系，感谢自己没有放弃希望。",
+      "note": "Mục 11.9 mở rộng round 23 — dạng tổn thương/tha thứ, bổ sung zh-scenario-breakup-heal. 背叛 (phản bội) để null vì không đủ tự tin về âm Hán Việt chuẩn xác của cách ghép này — khác 背信/bội tín tiếng Hàn (âm Hán Việt rõ ràng hơn nhờ dùng 信=tín). 心扉 (tâm phi) tái dùng ẩn dụ đẹp. [Round 18 mở rộng 4→6 bước]"
     },
     {
       "id": "zh-scenario-coach-childrens-team",
@@ -5608,11 +6742,25 @@
           "hanViet": null,
           "meaningVn": "thấy chúng thắng trận đấu",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "看到孩子们的自信心提高",
+          "reading": "kàndào háizimen de zìxìnxīn tígāo",
+          "hanViet": "tự tín tâm đề cao",
+          "meaningVn": "thấy sự tự tin của các em tăng lên",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "收到家长们的感谢",
+          "reading": "shōudào jiāzhǎngmen de gǎnxiè",
+          "hanViet": "gia trưởng cảm tạ",
+          "meaningVn": "nhận được lời cảm ơn từ các bậc phụ huynh",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Tôi dạy trẻ em đá bóng, lũ trẻ tràn đầy năng lượng, kiên nhẫn hướng dẫn chúng, thấy chúng thắng trận đấu.",
-      "example": "我教小朋友踢足球，孩子们精力充沛，耐心指导他们，看到他们赢得比赛。",
-      "note": "Mục 11.9 mở rộng round 23 — dạng thể thao/giáo dục trẻ em, bổ sung zh-scenario-mentor-teach-someone bằng đối tượng trẻ em. 足球 (túc cầu) vẫn dùng trong văn viết/miền Nam Việt Nam. 精力 (tinh lực) khớp tốt với 'sức lực, năng lượng'."
+      "exampleVn": "Tôi dạy trẻ em đá bóng, lũ trẻ tràn đầy năng lượng, kiên nhẫn hướng dẫn chúng, thấy chúng thắng trận đấu, thấy sự tự tin của các em tăng lên, và được các bậc phụ huynh cảm ơn.",
+      "example": "我教小朋友踢足球，孩子们精力充沛，耐心指导他们，看到他们赢得比赛，看到孩子们的自信心提高，收到家长们的感谢。",
+      "note": "Mục 11.9 mở rộng round 23 — dạng thể thao/giáo dục trẻ em, bổ sung zh-scenario-mentor-teach-someone bằng đối tượng trẻ em. 足球 (túc cầu) vẫn dùng trong văn viết/miền Nam Việt Nam. 精力 (tinh lực) khớp tốt với 'sức lực, năng lượng'. [Round 18 mở rộng 4→6 bước]"
     },
     {
       "id": "zh-scenario-first-time-investing",
@@ -5646,11 +6794,25 @@
           "hanViet": "tích lũy kinh nghiệm",
           "meaningVn": "dần dần tích lũy kinh nghiệm",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "建立多样化的投资组合",
+          "reading": "jiànlì duōyànghuà de tóuzī zǔhé",
+          "hanViet": "đa dạng hóa đầu tư tổ hợp",
+          "meaningVn": "xây dựng một danh mục đầu tư đa dạng",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "获得第一笔稳定的收益",
+          "reading": "huòdé dì-yī bǐ wěndìng de shōuyì",
+          "hanViet": "hoạch đắc ổn định thu ích",
+          "meaningVn": "đạt được khoản lợi nhuận ổn định đầu tiên",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Lần đầu tôi đầu tư cổ phiếu, lo lắng sẽ lỗ tiền, học kiến thức cơ bản, dần dần tích lũy kinh nghiệm.",
-      "example": "我第一次投资股票，担心会亏钱，学习基本知识，慢慢积累经验。",
-      "note": "Mục 11.9 mở rộng round 23 — dạng tài chính cá nhân, chủ đề thực dụng đáng học. 投资(đầu tư)/股票(cổ phiếu)/基本(cơ bản)/知识(tri thức)/经验(kinh nghiệm) đều khớp Hán Việt hoàn hảo — chuỗi có mật độ khớp cao hiếm gặp."
+      "exampleVn": "Lần đầu tôi đầu tư cổ phiếu, lo lắng sẽ lỗ tiền, học kiến thức cơ bản, dần dần tích lũy kinh nghiệm, xây dựng một danh mục đầu tư đa dạng, và đạt được khoản lợi nhuận ổn định đầu tiên.",
+      "example": "我第一次投资股票，担心会亏钱，学习基本知识，慢慢积累经验，建立多样化的投资组合，获得第一笔稳定的收益。",
+      "note": "Mục 11.9 mở rộng round 23 — dạng tài chính cá nhân, chủ đề thực dụng đáng học. 投资(đầu tư)/股票(cổ phiếu)/基本(cơ bản)/知识(tri thức)/经验(kinh nghiệm) đều khớp Hán Việt hoàn hảo — chuỗi có mật độ khớp cao hiếm gặp. [Round 18 mở rộng 4→6 bước]"
     },
     {
       "id": "zh-scenario-nursing-home-adjust",
@@ -5684,11 +6846,25 @@
           "hanViet": "thích ứng",
           "meaningVn": "dần dần thích nghi với cuộc sống mới",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "参加和室友一起的活动",
+          "reading": "cānjiā hé shìyǒu yīqǐ de huódòng",
+          "hanViet": "thất hữu hoạt động",
+          "meaningVn": "tham gia hoạt động cùng bạn cùng phòng",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "觉得这里像第二个家",
+          "reading": "juéde zhèlǐ xiàng dì-èr gè jiā",
+          "hanViet": "đệ nhị",
+          "meaningVn": "cảm thấy nơi đây giống như ngôi nhà thứ hai",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Tôi chuyển vào viện dưỡng lão, lúc đầu rất kháng cự, làm quen bạn mới, dần dần thích nghi với cuộc sống mới.",
-      "example": "我搬进养老院，一开始很抗拒，认识新朋友，渐渐适应新生活。",
-      "note": "Mục 11.9 mở rộng round 24 — dạng người cao tuổi/chuyển giao giai đoạn cuộc đời, bổ sung zh-scenario-retirement-day. 养老院 (dưỡng lão viện) khớp hoàn hảo, khác cấu tạo 療養院/요양원 (liệu dưỡng viện) tiếng Hàn — 2 cách đặt tên nhấn mạnh khía cạnh khác nhau ('già' vs 'chữa trị'). 抗拒 (kháng cự) khớp hoàn hảo."
+      "exampleVn": "Tôi chuyển vào viện dưỡng lão, lúc đầu rất kháng cự, làm quen bạn mới, dần dần thích nghi với cuộc sống mới, tham gia các hoạt động cùng bạn cùng phòng, và cảm thấy nơi đây giống như ngôi nhà thứ hai.",
+      "example": "我搬进养老院，一开始很抗拒，认识新朋友，渐渐适应新生活，参加和室友一起的活动，觉得这里像第二个家。",
+      "note": "Mục 11.9 mở rộng round 24 — dạng người cao tuổi/chuyển giao giai đoạn cuộc đời, bổ sung zh-scenario-retirement-day. 养老院 (dưỡng lão viện) khớp hoàn hảo, khác cấu tạo 療養院/요양원 (liệu dưỡng viện) tiếng Hàn — 2 cách đặt tên nhấn mạnh khía cạnh khác nhau ('già' vs 'chữa trị'). 抗拒 (kháng cự) khớp hoàn hảo. [Round 18 mở rộng 4→6 bước]"
     },
     {
       "id": "zh-scenario-lost-pet-recover",
@@ -5722,11 +6898,25 @@
           "hanViet": "tâm ái",
           "meaningVn": "cuối cùng tìm lại được thú cưng yêu quý",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "抱着宠物激动落泪",
+          "reading": "bàozhe chǒngwù jīdòng luòlèi",
+          "hanViet": "kích động",
+          "meaningVn": "ôm thú cưng mà xúc động rơi nước mắt",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "从此给它戴上定位项圈",
+          "reading": "cóngcǐ gěi tā dàishàng dìngwèi xiàngquān",
+          "hanViet": "định vị hạng khuyên",
+          "meaningVn": "từ đó đeo cho nó vòng cổ định vị",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Thú cưng của tôi đi lạc mất, tôi dán thông báo tìm thú cưng khắp nơi, người tốt bụng cung cấp manh mối, cuối cùng tôi tìm lại được thú cưng yêu quý.",
-      "example": "宠物走丢了，到处张贴寻宠启事，好心人提供线索，终于找回心爱的宠物。",
-      "note": "Mục 11.9 mở rộng round 24 — dạng thú cưng/cộng đồng, bổ sung zh-scenario-adopt-new-pet. 心爱 (tâm ái) vẫn dùng được trong văn viết trang trọng. 启事 (khải sự) là từ Hán Việt cổ ít dùng hiện đại."
+      "exampleVn": "Thú cưng của tôi đi lạc mất, tôi dán thông báo tìm thú cưng khắp nơi, người tốt bụng cung cấp manh mối, cuối cùng tôi tìm lại được thú cưng yêu quý, tôi ôm chặt nó mà bật khóc vì xúc động, và từ đó tôi đeo cho nó một chiếc vòng cổ định vị.",
+      "example": "宠物走丢了，到处张贴寻宠启事，好心人提供线索，终于找回心爱的宠物，抱着宠物激动落泪，从此给它戴上定位项圈。",
+      "note": "Mục 11.9 mở rộng round 24 — dạng thú cưng/cộng đồng, bổ sung zh-scenario-adopt-new-pet. 心爱 (tâm ái) vẫn dùng được trong văn viết trang trọng. 启事 (khải sự) là từ Hán Việt cổ ít dùng hiện đại. [Round 19 mở rộng 4→6 bước]"
     },
     {
       "id": "zh-scenario-new-boss-adjust",
@@ -5760,11 +6950,25 @@
           "hanViet": "mặc khế",
           "meaningVn": "dần dần tìm được sự ăn ý",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "被新老板委以重任",
+          "reading": "bèi xīn lǎobǎn wěi yǐ zhòngrèn",
+          "hanViet": "ủy dĩ trọng nhậm",
+          "meaningVn": "được sếp mới giao trọng trách",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "成为值得信赖的得力助手",
+          "reading": "chéngwéi zhídé xìnlài de délì zhùshǒu",
+          "hanViet": "tín lại đắc lực trợ thủ",
+          "meaningVn": "trở thành trợ thủ đắc lực đáng tin cậy",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Phong cách quản lý của sếp mới khác biệt, lúc đầu tôi rất không thích nghi được, chủ động giao tiếp điều chỉnh, dần dần tìm được sự ăn ý.",
-      "example": "新老板管理风格不同，一开始很不适应，主动沟通调整，慢慢找到默契。",
-      "note": "Mục 11.9 mở rộng round 24 — dạng công sở/thích nghi, bổ sung zh-scenario-first-day-new-job. 管理(quản lý)/风格(phong cách) khớp hoàn hảo. 默契 (mặc khế) là từ Hán Việt cổ ít dùng độc lập nhưng liên hệ 'khế ước'."
+      "exampleVn": "Phong cách quản lý của sếp mới khác biệt, lúc đầu tôi rất không thích nghi được, chủ động giao tiếp điều chỉnh, dần dần tìm được sự ăn ý, được sếp giao cho nhiệm vụ quan trọng, và trở thành cánh tay phải đáng tin cậy.",
+      "example": "新老板管理风格不同，一开始很不适应，主动沟通调整，慢慢找到默契，被新老板委以重任，成为值得信赖的得力助手。",
+      "note": "Mục 11.9 mở rộng round 24 — dạng công sở/thích nghi, bổ sung zh-scenario-first-day-new-job. 管理(quản lý)/风格(phong cách) khớp hoàn hảo. 默契 (mặc khế) là từ Hán Việt cổ ít dùng độc lập nhưng liên hệ 'khế ước'. [Round 19 mở rộng 4→6 bước]"
     },
     {
       "id": "zh-scenario-jet-lag-overcome",
@@ -5798,11 +7002,25 @@
           "hanViet": "khôi phục chính thường",
           "meaningVn": "cuối cùng trở lại bình thường",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "总结经验为下次做准备",
+          "reading": "zǒngjié jīngyàn wèi xiàcì zuò zhǔnbèi",
+          "hanViet": "tổng kết chuẩn bị",
+          "meaningVn": "tổng kết kinh nghiệm để chuẩn bị cho lần sau",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "现在很擅长应对时差",
+          "reading": "xiànzài hěn shàncháng yìngduì shíchā",
+          "hanViet": "thiện trường ứng đối",
+          "meaningVn": "giờ đây rất thành thạo đối phó với lệch múi giờ",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Sau chuyến bay dài, tôi bị lệch múi giờ rất nghiêm trọng, đêm không ngủ được ngày lại buồn ngủ, dần dần điều chỉnh giờ giấc sinh hoạt, cuối cùng trở lại bình thường.",
-      "example": "长途飞行后时差很严重，晚上睡不着白天犯困，慢慢调整作息时间，终于恢复正常。",
-      "note": "Mục 11.9 mở rộng round 24 — dạng du lịch/sức khỏe, bổ sung zh-scenario-flight-missed-rebook. 时差 (thời sai) khớp hoàn hảo, giống hệt 時差/시차 ở JA/KO — 1 trong số ít cụm khớp trọn vẹn cả 3 ngôn ngữ. 严重 (nghiêm trọng) khớp hoàn hảo."
+      "exampleVn": "Sau chuyến bay dài, tôi bị lệch múi giờ rất nghiêm trọng, đêm không ngủ được ngày lại buồn ngủ, dần dần điều chỉnh giờ giấc sinh hoạt, cuối cùng trở lại bình thường, rút kinh nghiệm để chuẩn bị tốt hơn cho lần sau, và giờ đây tôi đã thành thạo cách đối phó với lệch múi giờ.",
+      "example": "长途飞行后时差很严重，晚上睡不着白天犯困，慢慢调整作息时间，终于恢复正常，总结经验为下次做准备，现在很擅长应对时差。",
+      "note": "Mục 11.9 mở rộng round 24 — dạng du lịch/sức khỏe, bổ sung zh-scenario-flight-missed-rebook. 时差 (thời sai) khớp hoàn hảo, giống hệt 時差/시차 ở JA/KO — 1 trong số ít cụm khớp trọn vẹn cả 3 ngôn ngữ. 严重 (nghiêm trọng) khớp hoàn hảo. [Round 19 mở rộng 4→6 bước]"
     },
     {
       "id": "zh-scenario-forgive-yourself",
@@ -5836,11 +7054,25 @@
           "hanViet": "nội tâm bình tĩnh",
           "meaningVn": "nội tâm cuối cùng bình yên",
           "pos": "adjective"
+        },
+        {
+          "headword": "能够坦然回顾过去",
+          "reading": "nénggòu tǎnrán huígù guòqù",
+          "hanViet": "thản nhiên hồi cố",
+          "meaningVn": "có thể thản nhiên nhìn lại quá khứ",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "对别人的错误也变得更宽容",
+          "reading": "duì biérén de cuòwù yě biàn de gèng kuānróng",
+          "hanViet": "khoan dung",
+          "meaningVn": "trở nên bao dung hơn với lỗi lầm của người khác",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Tôi luôn không thể tha thứ cho lỗi lầm của bản thân, mang gánh nặng cảm giác day dứt, dần dần học cách tự tha thứ cho bản thân, nội tâm cuối cùng bình yên.",
-      "example": "我一直无法原谅自己的错误，背负沉重的愧疚感，慢慢学会自我宽恕，内心终于平静。",
-      "note": "Mục 11.9 mở rộng round 24 — dạng sức khỏe tinh thần/tự tha thứ, bổ sung zh-scenario-start-therapy. LƯU Ý NHẸ: 无法 (vô pháp, 'không thể') là từ ngữ pháp rất thông dụng nhưng ghép chữ Hán Việt lại ra 'vô pháp' (nghĩa 'phi pháp, không luật lệ') — khác hẳn chức năng ngữ pháp thực tế, dù ít gây nhầm lẫn vì thường không dịch nghĩa đen. 自我(tự ngã)/宽恕(khoan thứ) khớp hoàn hảo."
+      "exampleVn": "Tôi luôn không thể tha thứ cho lỗi lầm của bản thân, mang gánh nặng cảm giác day dứt, dần dần học cách tự tha thứ cho bản thân, nội tâm cuối cùng bình yên, có thể nhìn lại quá khứ mà không còn đau đớn, và trở nên bao dung hơn với lỗi lầm của người khác.",
+      "example": "我一直无法原谅自己的错误，背负沉重的愧疚感，慢慢学会自我宽恕，内心终于平静，能够坦然回顾过去，对别人的错误也变得更宽容。",
+      "note": "Mục 11.9 mở rộng round 24 — dạng sức khỏe tinh thần/tự tha thứ, bổ sung zh-scenario-start-therapy. LƯU Ý NHẸ: 无法 (vô pháp, 'không thể') là từ ngữ pháp rất thông dụng nhưng ghép chữ Hán Việt lại ra 'vô pháp' (nghĩa 'phi pháp, không luật lệ') — khác hẳn chức năng ngữ pháp thực tế, dù ít gây nhầm lẫn vì thường không dịch nghĩa đen. 自我(tự ngã)/宽恕(khoan thứ) khớp hoàn hảo. [Round 19 mở rộng 4→6 bước]"
     },
     {
       "id": "zh-scenario-ancestry-research",
@@ -5874,11 +7106,25 @@
           "hanViet": "liễu giải căn nguyên",
           "meaningVn": "hiểu rõ hơn về cội nguồn của mình",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "联系上从未谋面的远亲",
+          "reading": "liánxì shàng cóng wèi móumiàn de yuǎnqīn",
+          "hanViet": "viễn thân",
+          "meaningVn": "liên lạc được với họ hàng xa chưa từng gặp mặt",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "为家族的历史感到自豪",
+          "reading": "wèi jiāzú de lìshǐ gǎndào zìháo",
+          "hanViet": "gia tộc tự hào",
+          "meaningVn": "cảm thấy tự hào về lịch sử gia tộc",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Tôi bắt đầu nghiên cứu lịch sử gia tộc, lật xem gia phả cổ xưa, phát hiện những câu chuyện không ngờ tới, hiểu rõ hơn về cội nguồn của mình.",
-      "example": "我开始研究家族历史，翻阅古老的族谱，发现意想不到的故事，更了解自己的根源。",
-      "note": "Mục 11.9 mở rộng round 24 — dạng gia đình/cội nguồn, bổ sung zh-scenario-old-family-photos-find. 族谱 (tộc phổ) khớp hoàn hảo với 족보 tiếng Hàn, khác 家系図/gia hệ đồ tiếng Nhật. 根源 (căn nguyên) khớp hoàn hảo."
+      "exampleVn": "Tôi bắt đầu nghiên cứu lịch sử gia tộc, lật xem gia phả cổ xưa, phát hiện những câu chuyện không ngờ tới, hiểu rõ hơn về cội nguồn của mình, liên lạc được với họ hàng xa chưa từng gặp mặt, và cảm thấy tự hào về lịch sử gia đình mình.",
+      "example": "我开始研究家族历史，翻阅古老的族谱，发现意想不到的故事，更了解自己的根源，联系上从未谋面的远亲，为家族的历史感到自豪。",
+      "note": "Mục 11.9 mở rộng round 24 — dạng gia đình/cội nguồn, bổ sung zh-scenario-old-family-photos-find. 族谱 (tộc phổ) khớp hoàn hảo với 족보 tiếng Hàn, khác 家系図/gia hệ đồ tiếng Nhật. 根源 (căn nguyên) khớp hoàn hảo. [Round 19 mở rộng 4→6 bước]"
     },
     {
       "id": "zh-scenario-long-road-trip-alone",
@@ -5912,11 +7158,25 @@
           "hanViet": "an toàn mục đích địa",
           "meaningVn": "đến nơi an toàn",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "为自己独立完成感到自豪",
+          "reading": "wèi zìjǐ dúlì wánchéng gǎndào zìháo",
+          "hanViet": "độc lập hoàn thành tự hào",
+          "meaningVn": "tự hào vì mình đã hoàn thành một cách độc lập",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "开始计划下一次更远的旅程",
+          "reading": "kāishǐ jìhuà xià yī cì gèng yuǎn de lǚchéng",
+          "hanViet": "kế hoạch lữ trình",
+          "meaningVn": "bắt đầu lên kế hoạch cho hành trình xa hơn tiếp theo",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Lần đầu tiên tôi một mình lái xe đường dài, giữa đường có chút sợ hãi, nghe nhạc để thư giãn tâm trạng, đến nơi an toàn.",
-      "example": "我第一次一个人开长途，中途有点害怕，听着音乐放松心情，安全抵达目的地。",
-      "note": "Mục 11.9 mở rộng round 25 — dạng du lịch/độc lập, bổ sung zh-scenario-driving-test. 音乐(âm nhạc)/目的地(mục đích địa) khớp hoàn hảo, giống hệt JA/KO — hiếm có cụm khớp trọn vẹn cả 3 ngôn ngữ."
+      "exampleVn": "Lần đầu tiên tôi một mình lái xe đường dài, giữa đường có chút sợ hãi, nghe nhạc để thư giãn tâm trạng, đến nơi an toàn, cảm thấy tự hào vì đã tự mình làm được, và bắt đầu lên kế hoạch cho chuyến đi xa hơn tiếp theo.",
+      "example": "我第一次一个人开长途，中途有点害怕，听着音乐放松心情，安全抵达目的地，为自己独立完成感到自豪，开始计划下一次更远的旅程。",
+      "note": "Mục 11.9 mở rộng round 25 — dạng du lịch/độc lập, bổ sung zh-scenario-driving-test. 音乐(âm nhạc)/目的地(mục đích địa) khớp hoàn hảo, giống hệt JA/KO — hiếm có cụm khớp trọn vẹn cả 3 ngôn ngữ. [Round 20 mở rộng 4→6 bước]"
     },
     {
       "id": "zh-scenario-help-friend-crisis",
@@ -5950,11 +7210,25 @@
           "hanViet": "bang trợ nan quan",
           "meaningVn": "giúp bạn vượt qua khó khăn",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "友谊在考验中变得更深厚",
+          "reading": "yǒuyì zài kǎoyàn zhōng biàn de gèng shēnhòu",
+          "hanViet": "hữu nghị khảo nghiệm thâm hậu",
+          "meaningVn": "tình bạn trở nên sâu sắc hơn qua thử thách",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "明白了真正的友情是什么",
+          "reading": "míngbái le zhēnzhèng de yǒuqíng shì shénme",
+          "hanViet": "minh bạch chân chính hữu tình",
+          "meaningVn": "hiểu ra tình bạn thật sự là gì",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Bạn tôi gặp khủng hoảng, tôi gác lại việc đang làm để ở bên, lặng lẽ lắng nghe, giúp bạn vượt qua khó khăn.",
-      "example": "朋友遇到危机，放下手边的事去陪伴，静静地聆听，帮助朋友渡过难关。",
-      "note": "Mục 11.9 mở rộng round 25 — dạng tình bạn/hỗ trợ tinh thần, bổ sung zh-scenario-argument-reconcile. 危机 (nguy cơ) khớp hoàn hảo với 危機/위기 ở JA/KO. 难关 (nan quan, 'cửa ải khó khăn') là ẩn dụ Hán Việt đẹp."
+      "exampleVn": "Bạn tôi gặp khủng hoảng, tôi gác lại việc đang làm để ở bên, lặng lẽ lắng nghe, giúp bạn vượt qua khó khăn, tình bạn trở nên sâu sắc hơn qua thử thách đó, và tôi nhận ra ý nghĩa thật sự của tình bạn.",
+      "example": "朋友遇到危机，放下手边的事去陪伴，静静地聆听，帮助朋友渡过难关，友谊在考验中变得更深厚，明白了真正的友情是什么。",
+      "note": "Mục 11.9 mở rộng round 25 — dạng tình bạn/hỗ trợ tinh thần, bổ sung zh-scenario-argument-reconcile. 危机 (nguy cơ) khớp hoàn hảo với 危機/위기 ở JA/KO. 难关 (nan quan, 'cửa ải khó khăn') là ẩn dụ Hán Việt đẹp. [Round 20 mở rộng 4→6 bước]"
     },
     {
       "id": "zh-scenario-lottery-win-responsible",
@@ -5988,11 +7262,25 @@
           "hanViet": "lý tính quy hoạch",
           "meaningVn": "lên kế hoạch sử dụng một cách lý trí",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "捐出一部分做慈善",
+          "reading": "juānchū yī bùfen zuò císhàn",
+          "hanViet": "quyên xuất từ thiện",
+          "meaningVn": "quyên góp một phần làm từ thiện",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "生活没有太大改变依然简朴",
+          "reading": "shēnghuó méiyǒu tài dà gǎibiàn yīrán jiǎnpǔ",
+          "hanViet": "giản phác",
+          "meaningVn": "cuộc sống không thay đổi nhiều, vẫn giản dị",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Tôi trúng giải lớn, lúc đầu không biết làm gì, tham khảo ý kiến chuyên gia tài chính, lên kế hoạch sử dụng một cách lý trí.",
-      "example": "我中了大奖，一开始不知所措，咨询理财顾问，理性规划用途。",
-      "note": "Mục 11.9 mở rộng round 25 — dạng tài chính cá nhân/may mắn, bổ sung zh-scenario-first-time-investing. 理财(lý tài)/顾问(cố vấn)/理性(lý tính)/规划(quy hoạch) đều khớp Hán Việt hoàn hảo."
+      "exampleVn": "Tôi trúng giải lớn, lúc đầu không biết làm gì, tham khảo ý kiến chuyên gia tài chính, lên kế hoạch sử dụng một cách lý trí, quyên góp một phần cho hoạt động từ thiện, và cuộc sống của tôi không thay đổi quá nhiều, vẫn giữ nếp sống giản dị.",
+      "example": "我中了大奖，一开始不知所措，咨询理财顾问，理性规划用途，捐出一部分做慈善，生活没有太大改变依然简朴。",
+      "note": "Mục 11.9 mở rộng round 25 — dạng tài chính cá nhân/may mắn, bổ sung zh-scenario-first-time-investing. 理财(lý tài)/顾问(cố vấn)/理性(lý tính)/规划(quy hoạch) đều khớp Hán Việt hoàn hảo. [Round 20 mở rộng 4→6 bước]"
     },
     {
       "id": "zh-scenario-empty-nest-syndrome",
@@ -6026,11 +7314,25 @@
           "hanViet": "bồi dưỡng trọng tâm",
           "meaningVn": "dần dần xây dựng trọng tâm cuộc sống mới",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "重新捡起搁置已久的爱好",
+          "reading": "chóngxīn jiǎnqǐ gēzhì yǐjiǔ de àihào",
+          "hanViet": "ái hảo",
+          "meaningVn": "tìm lại sở thích đã gác lại từ lâu",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "夫妻关系变得更加亲密",
+          "reading": "fūqī guānxì biàn de gèngjiā qīnmì",
+          "hanViet": "phu thê quan hệ thân mật",
+          "meaningVn": "mối quan hệ vợ chồng trở nên gắn kết hơn",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Con tôi rời nhà đi học đại học, nhà bỗng trở nên rất yên tĩnh, tôi cảm thấy hụt hẫng và không quen, dần dần xây dựng trọng tâm cuộc sống mới.",
-      "example": "孩子离开家去上大学，家里突然变得很安静，感到失落和不习惯，慢慢培养新的生活重心。",
-      "note": "Mục 11.9 mở rộng round 25 — dạng gia đình/hội chứng tổ trống, bổ sung zh-scenario-retirement-day. Tái dùng ĐÚNG NGỮ CẢNH 失落 (thất lạc, false-friend round 23) — ở đây đúng là 'cảm giác hụt hẫng', vẫn cần nhớ không dịch thành 'thất lạc' TV. 重心 (trọng tâm) khớp hoàn hảo."
+      "exampleVn": "Con tôi rời nhà đi học đại học, nhà bỗng trở nên rất yên tĩnh, tôi cảm thấy hụt hẫng và không quen, dần dần xây dựng trọng tâm cuộc sống mới, tìm lại sở thích cũ đã bỏ quên từ lâu, và mối quan hệ vợ chồng của chúng tôi trở nên gắn kết hơn.",
+      "example": "孩子离开家去上大学，家里突然变得很安静，感到失落和不习惯，慢慢培养新的生活重心，重新捡起搁置已久的爱好，夫妻关系变得更加亲密。",
+      "note": "Mục 11.9 mở rộng round 25 — dạng gia đình/hội chứng tổ trống, bổ sung zh-scenario-retirement-day. Tái dùng ĐÚNG NGỮ CẢNH 失落 (thất lạc, false-friend round 23) — ở đây đúng là 'cảm giác hụt hẫng', vẫn cần nhớ không dịch thành 'thất lạc' TV. 重心 (trọng tâm) khớp hoàn hảo. [Round 20 mở rộng 4→6 bước]"
     },
     {
       "id": "zh-scenario-disability-adapt-after-accident",
@@ -6064,11 +7366,25 @@
           "hanViet": "trùng tân dũng khí",
           "meaningVn": "tìm lại được dũng khí sống",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "认识处境相似的人获得鼓励",
+          "reading": "rènshi chǔjìng xiāngsì de rén huòdé gǔlì",
+          "hanViet": "xử cảnh tương tự cổ lệ",
+          "meaningVn": "gặp gỡ người có hoàn cảnh tương tự để nhận được động viên",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "现在过着不输从前的充实生活",
+          "reading": "xiànzài guòzhe bù shū cóngqián de chōngshí shēnghuó",
+          "hanViet": "sung thực",
+          "meaningVn": "giờ đây sống một cuộc sống sung túc không kém trước kia",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Sau tai nạn xe tôi mất đi đôi chân, một thời gian rơi vào tuyệt vọng, học cách sử dụng xe lăn, tìm lại được dũng khí sống.",
-      "example": "车祸后失去了双腿，一度陷入绝望，学习使用轮椅，重新找到生活的勇气。",
-      "note": "Mục 11.9 mở rộng round 25 — dạng nghị lực sống/khuyết tật, chủ đề nghiêm túc và ý nghĩa. 绝望(tuyệt vọng)/勇气(dũng khí) khớp hoàn hảo. 车祸 (xa họa) là cách gọi riêng cho 'tai nạn xe cộ', khác 事故/sự cố chung chung ở JA/KO."
+      "exampleVn": "Sau tai nạn xe tôi mất đi đôi chân, một thời gian rơi vào tuyệt vọng, học cách sử dụng xe lăn, tìm lại được dũng khí sống, gặp gỡ những người có hoàn cảnh tương tự để được động viên, và giờ đây tôi sống một cuộc đời trọn vẹn không kém trước kia.",
+      "example": "车祸后失去了双腿，一度陷入绝望，学习使用轮椅，重新找到生活的勇气，认识处境相似的人获得鼓励，现在过着不输从前的充实生活。",
+      "note": "Mục 11.9 mở rộng round 25 — dạng nghị lực sống/khuyết tật, chủ đề nghiêm túc và ý nghĩa. 绝望(tuyệt vọng)/勇气(dũng khí) khớp hoàn hảo. 车祸 (xa họa) là cách gọi riêng cho 'tai nạn xe cộ', khác 事故/sự cố chung chung ở JA/KO. [Round 20 mở rộng 4→6 bước]"
     },
     {
       "id": "zh-scenario-social-anxiety-party-overcome",
@@ -7631,7 +8947,7 @@
     {
       "id": "zh-scenario-weight-loss-journey",
       "kind": "scenario-chain",
-      "titleVn": "Khám sức khỏe phát hiện cân nặng vượt chuẩn, lập kế hoạch ăn uống vận động rồi giảm 20kg thành công",
+      "titleVn": "Khám sức khỏe phát hiện cân nặng vượt chuẩn, lập kế hoạch rồi giảm 20kg thành công, mua đồ mới và duy trì thói quen tập luyện",
       "nodes": [
         {
           "headword": "体检发现体重严重超标",
@@ -7660,11 +8976,25 @@
           "hanViet": "thành công giảm trọng công cân",
           "meaningVn": "sau 1 năm giảm thành công 20kg",
           "pos": "verb-phrase"
+        },
+        {
+          "headword": "买合身的新衣服",
+          "reading": "mǎi héshēn de xīn yīfu",
+          "hanViet": "hợp thân",
+          "meaningVn": "mua quần áo mới vừa vặn",
+          "pos": "verb-phrase"
+        },
+        {
+          "headword": "保持锻炼的习惯",
+          "reading": "bǎochí duànliàn de xíguàn",
+          "hanViet": "tập quán",
+          "meaningVn": "duy trì thói quen tập luyện",
+          "pos": "verb-phrase"
         }
       ],
-      "exampleVn": "Khám sức khỏe tôi phát hiện cân nặng vượt chuẩn nghiêm trọng, lập kế hoạch ăn uống và vận động, giữa chừng nhiều lần muốn từ bỏ, sau 1 năm giảm thành công 20kg.",
-      "example": "体检发现体重严重超标，制定饮食和运动计划，中途好几次想放弃，一年后成功减重二十公斤。",
-      "note": "Mục 11.9 mở rộng round 32 — PHÁT HIỆN THÚ VỊ: 中途 (ZH, 'trung đồ') và 途中 (JA, 'đồ trung' — xem round này) dùng CHÍNH 2 CHỮ ĐÓ nhưng ĐẢO NGƯỢC thứ tự cho cùng nghĩa 'giữa chừng' — một trường hợp thứ 2 giống hệt hiện tượng 语言/言語 đã ghi ở round 30, củng cố thêm bằng chứng rằng ZH và JA đôi khi ghép 2 chữ Hán theo thứ tự khác nhau NGAY TỪ NGUỒN."
+      "exampleVn": "Khám sức khỏe phát hiện cân nặng vượt chuẩn nghiêm trọng, lập kế hoạch ăn uống và vận động, giữa chừng nhiều lần muốn từ bỏ, sau 1 năm giảm thành công 20kg, mua quần áo mới vừa vặn, và duy trì thói quen tập luyện.",
+      "example": "体检发现体重严重超标，制定饮食和运动计划，中途好几次想放弃，一年后成功减重二十公斤，买合身的新衣服，保持锻炼的习惯。",
+      "note": "Mục 11.9 mở rộng round 32 — PHÁT HIỆN THÚ VỊ: 中途 (ZH, 'trung đồ') và 途中 (JA, 'đồ trung' — xem round này) dùng CHÍNH 2 CHỮ ĐÓ nhưng ĐẢO NGƯỢC thứ tự cho cùng nghĩa 'giữa chừng' — một trường hợp thứ 2 giống hệt hiện tượng 语言/言語 đã ghi ở round 30, củng cố thêm bằng chứng rằng ZH và JA đôi khi ghép 2 chữ Hán theo thứ tự khác nhau NGAY TỪ NGUỒN. Mở rộng round 2 — thêm 'mua đồ mới vừa vặn' và 'duy trì thói quen tập luyện', 2 hệ quả thực tế thường gặp sau khi giảm cân thành công (thưởng cho bản thân + tránh tăng cân lại)."
     },
     {
       "id": "zh-scenario-retirement-volunteer-purpose",
