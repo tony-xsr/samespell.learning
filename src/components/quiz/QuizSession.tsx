@@ -22,6 +22,7 @@ const LANG_FLAG: Record<Language | "mixed", string> = {
   ja: "🇯🇵",
   ko: "🇰🇷",
   en: "🇬🇧",
+  es: "🇪🇸",
   mixed: "🌐",
 };
 
@@ -32,6 +33,7 @@ const GRADIENT: Record<Language | "mixed", string> = {
   ja: "from-rose-500 via-pink-500 to-indigo-600",
   ko: "from-blue-600 via-indigo-500 to-rose-500",
   en: "from-slate-800 via-slate-700 to-teal-600",
+  es: "from-orange-600 via-red-500 to-yellow-500",
   mixed: "from-fuchsia-600 via-violet-600 to-sky-500",
 };
 
