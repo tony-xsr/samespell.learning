@@ -1,7 +1,16 @@
 import { NextRequest, NextResponse } from "next/server";
 import { z } from "zod";
 import { generateStructured } from "@/lib/ai/generate";
-import { ExpandRootSchema, NewRootSchema, QuickDictSchema, EtymologySchema } from "@/lib/ai/schemas";
+import {
+  ExpandRootSchema,
+  NewRootSchema,
+  QuickDictSchema,
+  EtymologySchema,
+  ExplainMnemonicSchema,
+  ExampleSetSchema,
+  SynonymSetSchema,
+  CollocationSetSchema,
+} from "@/lib/ai/schemas";
 import {
   buildExpandRootPrompt,
   buildNewRootPrompt,
@@ -12,6 +21,10 @@ import {
   buildWordFamilyPrompt,
   buildQuickDictPrompt,
   buildEtymologyPrompt,
+  buildExplainMnemonicPrompt,
+  buildExamplesPrompt,
+  buildSynonymsPrompt,
+  buildCollocationsPrompt,
 } from "@/lib/ai/prompts";
 import {
   addExtraWords,
@@ -27,7 +40,7 @@ import type { RootEntry, SoundGroup, VocabWord } from "@/types/vocab";
 
 /** zh/ko/ja/en — TẤT CẢ mode trừ "etymology" (chiết tự chữ Hán/Kanji, không áp dụng tiếng Anh vì
  * không có Hán tự) đều dùng chung danh sách này. */
-const ALL_LANGUAGES_ENUM = z.enum(["zh", "ko", "ja", "en"]);
+const ALL_LANGUAGES_ENUM = z.enum(["zh", "ko", "ja", "en", "es"]);
 
 const RequestSchema = z.discriminatedUnion("mode", [
   z.object({
@@ -75,6 +88,26 @@ const RequestSchema = z.discriminatedUnion("mode", [
   z.object({
     mode: z.literal("etymology"),
     language: z.enum(["zh", "ja"]),
+    word: z.string().min(1),
+  }),
+  z.object({
+    mode: z.literal("explain-mnemonic"),
+    language: ALL_LANGUAGES_ENUM,
+    word: z.string().min(1),
+  }),
+  z.object({
+    mode: z.literal("examples"),
+    language: ALL_LANGUAGES_ENUM,
+    word: z.string().min(1),
+  }),
+  z.object({
+    mode: z.literal("synonyms"),
+    language: ALL_LANGUAGES_ENUM,
+    word: z.string().min(1),
+  }),
+  z.object({
+    mode: z.literal("collocations"),
+    language: ALL_LANGUAGES_ENUM,
     word: z.string().min(1),
   }),
 ]);
@@ -270,6 +303,63 @@ export async function POST(req: NextRequest) {
         },
       });
       return NextResponse.json({ card: result });
+    }
+
+    if (input.mode === "explain-mnemonic") {
+      const prompt = buildExplainMnemonicPrompt({ language: input.language, word: input.word });
+      const result = await generateStructured(ExplainMnemonicSchema, prompt);
+      const note = `Đã giải thích sâu & tạo mẹo nhớ cho "${result.headword}".`;
+      const card = {
+        headword: result.headword,
+        reading: result.reading,
+        meaningVn: result.meaningVn,
+        explanationVn: result.explanationVn,
+        mnemonicVn: result.mnemonicVn,
+      };
+      await logNewVocabEntry({ language: input.language, theme: "explain-mnemonic", word: input.word, note, card });
+      return NextResponse.json({ card });
+    }
+
+    if (input.mode === "examples") {
+      const prompt = buildExamplesPrompt({ language: input.language, word: input.word });
+      const result = await generateStructured(ExampleSetSchema, prompt);
+      const note = `Đã tạo ví dụ minh hoạ cho "${result.headword}".`;
+      const card = {
+        headword: result.headword,
+        reading: result.reading,
+        meaningVn: result.meaningVn,
+        examplesJson: JSON.stringify(result.examples),
+      };
+      await logNewVocabEntry({ language: input.language, theme: "examples", word: input.word, note, card });
+      return NextResponse.json({ card });
+    }
+
+    if (input.mode === "synonyms") {
+      const prompt = buildSynonymsPrompt({ language: input.language, word: input.word });
+      const result = await generateStructured(SynonymSetSchema, prompt);
+      const note = `Đã tìm từ đồng nghĩa cho "${result.headword}".`;
+      const card = {
+        headword: result.headword,
+        reading: result.reading,
+        meaningVn: result.meaningVn,
+        synonymsJson: JSON.stringify(result.synonyms),
+      };
+      await logNewVocabEntry({ language: input.language, theme: "synonyms", word: input.word, note, card });
+      return NextResponse.json({ card });
+    }
+
+    if (input.mode === "collocations") {
+      const prompt = buildCollocationsPrompt({ language: input.language, word: input.word });
+      const result = await generateStructured(CollocationSetSchema, prompt);
+      const note = `Đã tìm cụm từ đi cùng "${result.headword}".`;
+      const card = {
+        headword: result.headword,
+        reading: result.reading,
+        meaningVn: result.meaningVn,
+        collocationsJson: JSON.stringify(result.collocations),
+      };
+      await logNewVocabEntry({ language: input.language, theme: "collocations", word: input.word, note, card });
+      return NextResponse.json({ card });
     }
 
     // mode === "new-root"
