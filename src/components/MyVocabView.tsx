@@ -22,6 +22,7 @@ const LANG_LABEL: Record<Language, string> = {
   ko: "Tiếng Hàn",
   ja: "Tiếng Nhật",
   en: "Tiếng Anh",
+  es: "Tiếng Tây Ban Nha",
 };
 
 type Tab = "new" | "favorites" | "lists";
