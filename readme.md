@@ -369,6 +369,7 @@ Phát hiện thú vị trong lúc lọc dữ liệu:
   肙-family (娟/捐/绢) đều đọc "quyên"; 胡-family (湖/糊/蝴) đều đọc "hồ"; 㐬-family (流/琉/硫) đều
   đọc "lưu"; 尃-family (博/搏/膊) đều đọc "bác"; 䍃-family (摇/瑶/谣) đều đọc "dao" — càng củng cố
   mức độ dễ nhầm lẫn.
+  
 - Phát hiện hiện tượng "lồng nhau nhiều tầng": 星 vốn đã là 1 thành viên của họ 生 (生→星), nhưng
   bản thân 星 lại là THANH PHÙ cho 1 tầng chữ mới (猩/腥/醒) — ghi chú rõ trong nhóm để không gây
   nhầm lẫn 2 tầng.
