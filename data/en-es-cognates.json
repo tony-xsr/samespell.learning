@@ -4063,6 +4063,277 @@
           }
         }
       ]
+    },
+    {
+      "id": "cog-clud",
+      "root": "clud / clus / clo",
+      "latinOrigin": "claudere — đóng",
+      "note": "Gốc \"đóng\" — nghĩa bóng \"đóng lại 1 nhóm/1 vấn đề\" giữ khá nhất quán ở cả 2 ngôn ngữ.",
+      "pairs": [
+        {
+          "id": "cog-clud-1",
+          "meaningVn": "bao gồm",
+          "mnemonicVn": "\"in-/in-\" (vào trong) + gốc đóng = đóng luôn vào bên trong → bao gồm.",
+          "en": {
+            "id": "cog-clud-1-en",
+            "headword": "include",
+            "reading": "/ɪnˈkluːd/",
+            "example": "The price includes breakfast and taxes.",
+            "exampleVn": "Giá đã bao gồm bữa sáng và thuế."
+          },
+          "es": {
+            "id": "cog-clud-1-es",
+            "headword": "incluir",
+            "reading": "/in.kluˈiɾ/",
+            "example": "El paquete incluye transporte y alojamiento.",
+            "exampleVn": "Gói dịch vụ bao gồm đi lại và chỗ ở."
+          }
+        },
+        {
+          "id": "cog-clud-2",
+          "meaningVn": "loại trừ",
+          "mnemonicVn": "\"ex-/ex-\" (ra ngoài) + gốc đóng = đóng lại, không cho vào → loại trừ.",
+          "en": {
+            "id": "cog-clud-2-en",
+            "headword": "exclude",
+            "reading": "/ɪkˈskluːd/",
+            "example": "Children under five are excluded from the tour.",
+            "exampleVn": "Trẻ em dưới năm tuổi không được tham gia chuyến tham quan."
+          },
+          "es": {
+            "id": "cog-clud-2-es",
+            "headword": "excluir",
+            "reading": "/eks.kluˈiɾ/",
+            "example": "El seguro excluye los daños causados por inundación.",
+            "exampleVn": "Bảo hiểm loại trừ thiệt hại do lũ lụt gây ra."
+          }
+        },
+        {
+          "id": "cog-clud-3",
+          "meaningVn": "kết luận",
+          "mnemonicVn": "\"con-/con-\" (hoàn toàn) + gốc đóng = đóng lại hoàn toàn một vấn đề → kết luận.",
+          "en": {
+            "id": "cog-clud-3-en",
+            "headword": "conclude",
+            "reading": "/kənˈkluːd/",
+            "example": "The report concludes that the plan is not feasible.",
+            "exampleVn": "Báo cáo kết luận rằng kế hoạch này không khả thi."
+          },
+          "es": {
+            "id": "cog-clud-3-es",
+            "headword": "concluir",
+            "reading": "/kon.kluˈiɾ/",
+            "example": "Los investigadores concluyeron que el tratamiento funciona.",
+            "exampleVn": "Các nhà nghiên cứu kết luận rằng phương pháp điều trị có hiệu quả."
+          }
+        },
+        {
+          "id": "cog-clud-4",
+          "meaningVn": "cách ly, sống ở ẩn (Anh) / giam giữ, nhốt (Tây Ban Nha, nghĩa mạnh hơn)",
+          "mnemonicVn": "\"se-/re-\" (tách riêng) + gốc đóng = đóng mình lại, tách khỏi mọi người. Tiếng Anh nghĩa nhẹ nhàng hơn \"ở ẩn, tách biệt\", tiếng Tây Ban Nha nghiêng hẳn về nghĩa \"giam giữ, nhốt lại\" (thường trong nhà tù hoặc tu viện).",
+          "en": {
+            "id": "cog-clud-4-en",
+            "headword": "seclude",
+            "reading": "/sɪˈkluːd/",
+            "example": "She secluded herself in the countryside to write her novel.",
+            "exampleVn": "Cô ấy đã ở ẩn nơi thôn quê để viết cuốn tiểu thuyết của mình."
+          },
+          "es": {
+            "id": "cog-clud-4-es",
+            "headword": "recluir",
+            "reading": "/re.kluˈiɾ/",
+            "example": "Lo recluyeron en una prisión de máxima seguridad.",
+            "exampleVn": "Anh ta bị giam trong một nhà tù an ninh tối đa."
+          }
+        },
+        {
+          "id": "cog-clud-5",
+          "meaningVn": "làm tắc nghẽn (y khoa)",
+          "mnemonicVn": "\"ob-/o-\" (chắn ngang) + gốc đóng = đóng chặn lại hoàn toàn.",
+          "en": {
+            "id": "cog-clud-5-en",
+            "headword": "occlude",
+            "reading": "/əˈkluːd/",
+            "example": "A blood clot occluded the artery.",
+            "exampleVn": "Một cục máu đông đã làm tắc nghẽn động mạch."
+          },
+          "es": {
+            "id": "cog-clud-5-es",
+            "headword": "ocluir",
+            "reading": "/o.kluˈiɾ/",
+            "example": "El tumor puede ocluir el conducto biliar.",
+            "exampleVn": "Khối u có thể làm tắc nghẽn ống mật."
+          }
+        }
+      ]
+    },
+    {
+      "id": "cog-popul",
+      "root": "popul",
+      "latinOrigin": "populus — dân, người dân",
+      "note": "Gốc \"dân\" — giữ gần như nguyên vẹn ở cả 2 ngôn ngữ.",
+      "pairs": [
+        {
+          "id": "cog-popul-1",
+          "meaningVn": "dân số",
+          "mnemonicVn": "Gốc \"dân\" + danh từ hoá = tổng số người dân trong một khu vực.",
+          "en": {
+            "id": "cog-popul-1-en",
+            "headword": "population",
+            "reading": "/ˌpɒpjuˈleɪʃn/",
+            "example": "The population of the city has doubled in ten years.",
+            "exampleVn": "Dân số của thành phố đã tăng gấp đôi trong mười năm."
+          },
+          "es": {
+            "id": "cog-popul-1-es",
+            "headword": "población",
+            "reading": "/po.β̞laˈsjon/",
+            "example": "La población rural ha disminuido considerablemente.",
+            "exampleVn": "Dân số nông thôn đã giảm đáng kể."
+          }
+        },
+        {
+          "id": "cog-popul-2",
+          "meaningVn": "cư trú, sinh sống tại; làm cho có người ở",
+          "mnemonicVn": "Gốc \"dân\" + động từ hoá = làm cho một nơi có người dân sinh sống.",
+          "en": {
+            "id": "cog-popul-2-en",
+            "headword": "populate",
+            "reading": "/ˈpɒpjuleɪt/",
+            "example": "The island was first populated by fishermen.",
+            "exampleVn": "Hòn đảo lần đầu tiên được sinh sống bởi những người đánh cá."
+          },
+          "es": {
+            "id": "cog-popul-2-es",
+            "headword": "poblar",
+            "reading": "/po.β̞ˈlaɾ/",
+            "example": "Decidieron poblar la zona con árboles nativos.",
+            "exampleVn": "Họ quyết định trồng cây bản địa để phủ xanh khu vực này."
+          }
+        },
+        {
+          "id": "cog-popul-3",
+          "meaningVn": "phổ biến, được yêu thích",
+          "mnemonicVn": "Gốc \"dân\" + tính từ hoá = được đông đảo người dân ưa thích. Viết gần như giống hệt nhau.",
+          "en": {
+            "id": "cog-popul-3-en",
+            "headword": "popular",
+            "reading": "/ˈpɒpjələr/",
+            "example": "This restaurant is very popular among tourists.",
+            "exampleVn": "Nhà hàng này rất được lòng du khách."
+          },
+          "es": {
+            "id": "cog-popul-3-es",
+            "headword": "popular",
+            "reading": "/po.puˈlaɾ/",
+            "example": "Es una de las canciones más populares del verano.",
+            "exampleVn": "Đây là một trong những bài hát phổ biến nhất mùa hè."
+          }
+        },
+        {
+          "id": "cog-popul-4",
+          "meaningVn": "làm mất dân số, làm hoang vắng",
+          "mnemonicVn": "\"de-/des-\" (làm mất đi) + gốc dân = làm cho mất hết người dân sinh sống.",
+          "en": {
+            "id": "cog-popul-4-en",
+            "headword": "depopulate",
+            "reading": "/diːˈpɒpjuleɪt/",
+            "example": "War depopulated entire villages in the region.",
+            "exampleVn": "Chiến tranh đã làm mất dân số toàn bộ các ngôi làng trong khu vực."
+          },
+          "es": {
+            "id": "cog-popul-4-es",
+            "headword": "despoblar",
+            "reading": "/des.po.ˈβ̞laɾ/",
+            "example": "La sequía despobló varios pueblos de la zona.",
+            "exampleVn": "Hạn hán đã làm hoang vắng nhiều ngôi làng trong khu vực."
+          }
+        }
+      ]
+    },
+    {
+      "id": "cog-flect",
+      "root": "flect / flex",
+      "latinOrigin": "flectere — uốn cong",
+      "note": "Gốc \"uốn cong\" — CHÚ Ý 1 cặp nghĩa lệch nổi bật.",
+      "pairs": [
+        {
+          "id": "cog-flect-1",
+          "meaningVn": "linh hoạt, dẻo dai",
+          "mnemonicVn": "Gốc \"uốn cong\" + tính từ hoá = có thể uốn cong dễ dàng, không cứng nhắc. Viết gần như giống hệt nhau.",
+          "en": {
+            "id": "cog-flect-1-en",
+            "headword": "flexible",
+            "reading": "/ˈfleksəbl/",
+            "example": "Bamboo is strong yet flexible.",
+            "exampleVn": "Tre vừa chắc chắn vừa dẻo dai."
+          },
+          "es": {
+            "id": "cog-flect-1-es",
+            "headword": "flexible",
+            "reading": "/flekˈsi.β̞le/",
+            "example": "Necesito un horario de trabajo más flexible.",
+            "exampleVn": "Tôi cần một lịch làm việc linh hoạt hơn."
+          }
+        },
+        {
+          "id": "cog-flect-2",
+          "meaningVn": "phản chiếu (ánh sáng/hình ảnh) (Anh) / suy ngẫm (Tây Ban Nha — KHÔNG dùng cho phản chiếu ánh sáng)",
+          "mnemonicVn": "⚠⚠ NGHĨA LỆCH: gốc \"uốn cong hướng trở lại\" (ánh sáng bị bẻ hướng khi gặp gương). Tiếng Anh giữ CẢ 2 nghĩa (phản chiếu vật lý VÀ suy ngẫm), tiếng Tây Ban Nha \"reflexionar\" CHỈ còn dùng cho nghĩa suy ngẫm — muốn nói \"phản chiếu ánh sáng\" phải dùng từ khác là \"reflejar\".",
+          "en": {
+            "id": "cog-flect-2-en",
+            "headword": "reflect",
+            "reading": "/rɪˈflekt/",
+            "example": "The lake reflected the mountains perfectly.",
+            "exampleVn": "Hồ nước phản chiếu những ngọn núi một cách hoàn hảo."
+          },
+          "es": {
+            "id": "cog-flect-2-es",
+            "headword": "reflexionar",
+            "reading": "/re.flek.sjoˈnaɾ/",
+            "example": "Necesito tiempo para reflexionar sobre esta decisión.",
+            "exampleVn": "Tôi cần thời gian để suy ngẫm về quyết định này."
+          }
+        },
+        {
+          "id": "cog-flect-3",
+          "meaningVn": "cứng nhắc, không linh hoạt",
+          "mnemonicVn": "\"in-/in-\" (không) + \"flexible/flexible\" = không thể uốn cong được. Viết gần như giống hệt nhau.",
+          "en": {
+            "id": "cog-flect-3-en",
+            "headword": "inflexible",
+            "reading": "/ɪnˈfleksəbl/",
+            "example": "The rules here are strict and inflexible.",
+            "exampleVn": "Các quy định ở đây nghiêm ngặt và cứng nhắc."
+          },
+          "es": {
+            "id": "cog-flect-3-es",
+            "headword": "inflexible",
+            "reading": "/im.flekˈsi.β̞le/",
+            "example": "Su postura sobre el tema es completamente inflexible.",
+            "exampleVn": "Lập trường của anh ấy về vấn đề này hoàn toàn cứng nhắc."
+          }
+        },
+        {
+          "id": "cog-flect-4",
+          "meaningVn": "gập, co (cơ, khớp)",
+          "mnemonicVn": "Gốc \"uốn cong\" trực tiếp — dùng chủ yếu cho việc gập cơ hoặc khớp trong thể thao/y khoa.",
+          "en": {
+            "id": "cog-flect-4-en",
+            "headword": "flex",
+            "reading": "/fleks/",
+            "example": "He flexed his muscles before lifting the weight.",
+            "exampleVn": "Anh ấy gồng cơ trước khi nâng tạ."
+          },
+          "es": {
+            "id": "cog-flect-4-es",
+            "headword": "flexionar",
+            "reading": "/flek.sjoˈnaɾ/",
+            "example": "Es importante flexionar las rodillas al saltar.",
+            "exampleVn": "Việc gập đầu gối khi nhảy là rất quan trọng."
+          }
+        }
+      ]
     }
   ]
 }
