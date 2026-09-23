@@ -112,6 +112,17 @@ export default async function Home() {
           </div>
         </div>
 
+        {/* Học chéo ngôn ngữ */}
+        <div className="mt-6">
+          <SectionLabel>Học chéo ngôn ngữ — học 1 được 2</SectionLabel>
+          <Link
+            href="/cognates"
+            className="flex items-center justify-center gap-2 rounded-2xl border-2 border-dashed border-sky-400 px-5 py-3 text-sm font-semibold text-sky-600 transition hover:bg-sky-500/5"
+          >
+            🇬🇧↔🇪🇸 Từ đồng nguyên Anh · Tây Ban Nha (thử nghiệm)
+          </Link>
+        </div>
+
         {/* Trục nhầm lẫn mở rộng */}
         <div className="mt-6">
           <SectionLabel>Mở rộng trục nhầm lẫn</SectionLabel>
