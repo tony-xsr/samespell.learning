@@ -1,7 +1,8 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  // Bản build tự chứa (.next/standalone) cho Docker trên server riêng — Vercel bỏ qua tuỳ chọn này.
+  output: "standalone",
 };
 
 export default nextConfig;
