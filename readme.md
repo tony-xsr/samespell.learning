@@ -914,3 +914,14 @@ Danh sách ý tưởng để tham khảo, chưa triển khai:
   chỉ lật thẻ như hiện tại.
 - **Multi-user thật**: hiện chỉ 1 tài khoản học + 1 admin qua env var; nếu sau này có nhiều người
   học cùng lúc (mỗi người tiến trình riêng), cần đổi sang bảng user thật thay vì 1 cặp cố định.
+
+
+
+## 
+
+## Chuyển qua server dùng thay vì dùng vercel ok ? 
+/Volumes/MacMini/develop_back/solana-tracker/ server đã deploy 1 sản phẩm là dự án này với domain pm.tungtran.dev
+hãy làm tương tự , chạy nhẹ nhất trên server có thể và đầy đủ tính năng và db ( nhẹ nhất hoặc chung kiểu  db với dự án khacs như pm.tungtran.dev nhưng ko gây ảnh hưởng hay xung đột . ) 
+có thể deploy nhanh gọn nhất có thể với chỉ 1 file .sh file.
+VM Template
+Ubuntu-22.04-LTS-x64

@@ -44,3 +44,15 @@
   Git credential hết hạn** (`Invalid username or token`) — cần tự đăng nhập lại Git rồi `git push
   origin main` để toàn bộ 88+ commit (gồm cả các fix trong mục này) được deploy.
 
+ 
+
+ ### 
+ Tình trạng server:
+
+samespell	~200 MB RAM, chỉ nghe ở 127.0.0.1:3010
+samespell-redis	~3 MB RAM, không mở cổng
+pm.tungtran.dev	Vẫn trả về 200. Container của pm đã chạy liên tục 6 tuần, không bị restart
+RAM còn trống	~1.57 GB, cộng 2 GB swap mới
+Lần sau muốn deploy chỉ cần chạy ./deploy.sh. Đừng chạy lại migrate: script sẽ tự bỏ qua vì Redis trên server đã có dữ liệu, và từ giờ app ghi vào Redis trên server chứ không ghi vào Upstash nữa.
+
+Còn hai việc tôi chưa làm vì cần bạn đồng ý (đã nói ở trên): restart Docker và dọn 15 GB build cache, và sửa Redis của solana đang mở ra internet không có mật khẩu. Vài ngày sau, khi thấy lingo chạy ổn, bạn có thể tắt project trên Vercel.
