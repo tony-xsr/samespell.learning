@@ -1,0 +1,829 @@
+{
+  "label": "Pháp ↔ Tây Ban Nha (gốc từ chung)",
+  "groups": [
+    {
+      "id": "fres-tion",
+      "root": "-tion / -ción",
+      "latinOrigin": "Latin \"-tionem\" — hậu tố biến động từ thành danh từ trừu tượng",
+      "note": "Đây là 1 trong những quy tắc \"học 1 được cả nghìn\" mạnh nhất: hầu như MỌI danh từ tiếng Pháp kết thúc bằng \"-tion\" đều có cặp song sinh tiếng Tây Ban Nha kết thúc bằng \"-ción\" — cùng nghĩa, cùng cách dùng. 5 từ dưới đây chỉ là ví dụ minh hoạ cho cả một họ hàng nghìn từ.",
+      "pairs": [
+        {
+          "id": "fres-tion-1",
+          "meaningVn": "dân tộc, quốc gia",
+          "mnemonicVn": "Quy tắc: \"-tion\" (Pháp) ↔ \"-ción\" (Tây Ban Nha).",
+          "a": {
+            "id": "fres-tion-1-a",
+            "headword": "nation",
+            "reading": "/nasjɔ̃/",
+            "example": "La nation tout entière a célébré la victoire.",
+            "exampleVn": "Cả dân tộc đã ăn mừng chiến thắng."
+          },
+          "b": {
+            "id": "fres-tion-1-b",
+            "headword": "nación",
+            "reading": "/naˈsjon/",
+            "example": "La nación entera celebró la victoria.",
+            "exampleVn": "Cả dân tộc đã ăn mừng chiến thắng."
+          }
+        },
+        {
+          "id": "fres-tion-2",
+          "meaningVn": "giải pháp",
+          "mnemonicVn": "Quy tắc: \"-tion\" (Pháp) ↔ \"-ción\" (Tây Ban Nha).",
+          "a": {
+            "id": "fres-tion-2-a",
+            "headword": "solution",
+            "reading": "/sɔlysjɔ̃/",
+            "example": "Nous devons trouver une solution rapide.",
+            "exampleVn": "Chúng ta cần tìm một giải pháp nhanh chóng."
+          },
+          "b": {
+            "id": "fres-tion-2-b",
+            "headword": "solución",
+            "reading": "/so.luˈsjon/",
+            "example": "Necesitamos encontrar una solución rápida.",
+            "exampleVn": "Chúng ta cần tìm một giải pháp nhanh chóng."
+          }
+        },
+        {
+          "id": "fres-tion-3",
+          "meaningVn": "thông tin",
+          "mnemonicVn": "Quy tắc: \"-tion\" (Pháp) ↔ \"-ción\" (Tây Ban Nha).",
+          "a": {
+            "id": "fres-tion-3-a",
+            "headword": "information",
+            "reading": "/ɛ̃fɔʁmasjɔ̃/",
+            "example": "Cette information n'est pas encore confirmée.",
+            "exampleVn": "Thông tin này chưa được xác nhận."
+          },
+          "b": {
+            "id": "fres-tion-3-b",
+            "headword": "información",
+            "reading": "/in.foɾ.maˈsjon/",
+            "example": "Esta información aún no está confirmada.",
+            "exampleVn": "Thông tin này chưa được xác nhận."
+          }
+        },
+        {
+          "id": "fres-tion-4",
+          "meaningVn": "tình huống, tình hình",
+          "mnemonicVn": "Quy tắc: \"-tion\" (Pháp) ↔ \"-ción\" (Tây Ban Nha).",
+          "a": {
+            "id": "fres-tion-4-a",
+            "headword": "situation",
+            "reading": "/situasjɔ̃/",
+            "example": "La situation économique s'est améliorée.",
+            "exampleVn": "Tình hình kinh tế đã được cải thiện."
+          },
+          "b": {
+            "id": "fres-tion-4-b",
+            "headword": "situación",
+            "reading": "/si.twaˈsjon/",
+            "example": "La situación económica ha mejorado.",
+            "exampleVn": "Tình hình kinh tế đã được cải thiện."
+          }
+        },
+        {
+          "id": "fres-tion-5",
+          "meaningVn": "hành động",
+          "mnemonicVn": "Quy tắc: \"-tion\" (Pháp) ↔ \"-ción\" (Tây Ban Nha).",
+          "a": {
+            "id": "fres-tion-5-a",
+            "headword": "action",
+            "reading": "/aksjɔ̃/",
+            "example": "Il est temps de passer à l'action.",
+            "exampleVn": "Đã đến lúc hành động."
+          },
+          "b": {
+            "id": "fres-tion-5-b",
+            "headword": "acción",
+            "reading": "/akˈsjon/",
+            "example": "Es hora de pasar a la acción.",
+            "exampleVn": "Đã đến lúc hành động."
+          }
+        }
+      ]
+    },
+    {
+      "id": "fres-te",
+      "root": "-té / -dad",
+      "latinOrigin": "Latin \"-tatem\" — hậu tố biến tính từ thành danh từ trừu tượng",
+      "note": "Cũng là 1 quy tắc \"học 1 được cả trăm\": tính từ tiếng Pháp kết thúc \"-té\" ↔ tính từ tiếng Tây Ban Nha kết thúc \"-dad\" khi biến thành danh từ trừu tượng.",
+      "pairs": [
+        {
+          "id": "fres-te-1",
+          "meaningVn": "tự do",
+          "mnemonicVn": "Quy tắc: \"-té\" (Pháp) ↔ \"-dad\" (Tây Ban Nha).",
+          "a": {
+            "id": "fres-te-1-a",
+            "headword": "liberté",
+            "reading": "/libɛʁte/",
+            "example": "La liberté d'expression est un droit fondamental.",
+            "exampleVn": "Tự do ngôn luận là một quyền cơ bản."
+          },
+          "b": {
+            "id": "fres-te-1-b",
+            "headword": "libertad",
+            "reading": "/li.β̞eɾˈtað̞/",
+            "example": "La libertad de expresión es un derecho fundamental.",
+            "exampleVn": "Tự do ngôn luận là một quyền cơ bản."
+          }
+        },
+        {
+          "id": "fres-te-2",
+          "meaningVn": "xã hội",
+          "mnemonicVn": "Quy tắc: \"-té\" (Pháp) ↔ \"-dad\" (Tây Ban Nha).",
+          "a": {
+            "id": "fres-te-2-a",
+            "headword": "société",
+            "reading": "/sɔsjete/",
+            "example": "La société moderne fait face à de nombreux défis.",
+            "exampleVn": "Xã hội hiện đại đối mặt với nhiều thách thức."
+          },
+          "b": {
+            "id": "fres-te-2-b",
+            "headword": "sociedad",
+            "reading": "/so.sjeˈð̞að̞/",
+            "example": "La sociedad moderna enfrenta muchos desafíos.",
+            "exampleVn": "Xã hội hiện đại đối mặt với nhiều thách thức."
+          }
+        },
+        {
+          "id": "fres-te-3",
+          "meaningVn": "trường đại học",
+          "mnemonicVn": "Quy tắc: \"-té\" (Pháp) ↔ \"-dad\" (Tây Ban Nha).",
+          "a": {
+            "id": "fres-te-3-a",
+            "headword": "université",
+            "reading": "/ynivɛʁsite/",
+            "example": "Elle étudie la médecine à l'université.",
+            "exampleVn": "Cô ấy học y khoa tại trường đại học."
+          },
+          "b": {
+            "id": "fres-te-3-b",
+            "headword": "universidad",
+            "reading": "/u.ni.β̞eɾ.siˈð̞að̞/",
+            "example": "Ella estudia medicina en la universidad.",
+            "exampleVn": "Cô ấy học y khoa tại trường đại học."
+          }
+        },
+        {
+          "id": "fres-te-4",
+          "meaningVn": "thực tế, hiện thực",
+          "mnemonicVn": "Quy tắc: \"-té\" (Pháp) ↔ \"-dad\" (Tây Ban Nha).",
+          "a": {
+            "id": "fres-te-4-a",
+            "headword": "réalité",
+            "reading": "/realite/",
+            "example": "Son rêve est finalement devenu réalité.",
+            "exampleVn": "Ước mơ của anh ấy cuối cùng đã trở thành hiện thực."
+          },
+          "b": {
+            "id": "fres-te-4-b",
+            "headword": "realidad",
+            "reading": "/re.a.liˈð̞að̞/",
+            "example": "Su sueño finalmente se convirtió en realidad.",
+            "exampleVn": "Ước mơ của anh ấy cuối cùng đã trở thành hiện thực."
+          }
+        },
+        {
+          "id": "fres-te-5",
+          "meaningVn": "khả năng, sức chứa",
+          "mnemonicVn": "Quy tắc: \"-té\" (Pháp) ↔ \"-dad\" (Tây Ban Nha).",
+          "a": {
+            "id": "fres-te-5-a",
+            "headword": "capacité",
+            "reading": "/kapasite/",
+            "example": "Ce réservoir a une grande capacité.",
+            "exampleVn": "Bể chứa này có sức chứa lớn."
+          },
+          "b": {
+            "id": "fres-te-5-b",
+            "headword": "capacidad",
+            "reading": "/ka.pa.siˈð̞að̞/",
+            "example": "Este tanque tiene una gran capacidad.",
+            "exampleVn": "Bể chứa này có sức chứa lớn."
+          }
+        }
+      ]
+    },
+    {
+      "id": "fres-eur",
+      "root": "-eur / -or",
+      "latinOrigin": "Latin \"-orem\" — hậu tố chỉ người thực hiện hoặc tính chất",
+      "note": "Quy tắc: \"-eur\" (Pháp) ↔ \"-or\" (Tây Ban Nha) — áp dụng cho rất nhiều danh từ chỉ nghề nghiệp hoặc tính chất trừu tượng.",
+      "pairs": [
+        {
+          "id": "fres-eur-1",
+          "meaningVn": "màu sắc",
+          "mnemonicVn": "Quy tắc: \"-eur\" (Pháp) ↔ \"-or\" (Tây Ban Nha).",
+          "a": {
+            "id": "fres-eur-1-a",
+            "headword": "couleur",
+            "reading": "/kulœʁ/",
+            "example": "Quelle est ta couleur préférée ?",
+            "exampleVn": "Màu yêu thích của bạn là gì?"
+          },
+          "b": {
+            "id": "fres-eur-1-b",
+            "headword": "color",
+            "reading": "/koˈloɾ/",
+            "example": "¿Cuál es tu color favorito?",
+            "exampleVn": "Màu yêu thích của bạn là gì?"
+          }
+        },
+        {
+          "id": "fres-eur-2",
+          "meaningVn": "bác sĩ",
+          "mnemonicVn": "Quy tắc: \"-eur\" (Pháp) ↔ \"-or\" (Tây Ban Nha).",
+          "a": {
+            "id": "fres-eur-2-a",
+            "headword": "docteur",
+            "reading": "/dɔktœʁ/",
+            "example": "Le docteur m'a prescrit des antibiotiques.",
+            "exampleVn": "Bác sĩ đã kê đơn thuốc kháng sinh cho tôi."
+          },
+          "b": {
+            "id": "fres-eur-2-b",
+            "headword": "doctor",
+            "reading": "/dokˈtoɾ/",
+            "example": "El doctor me recetó antibióticos.",
+            "exampleVn": "Bác sĩ đã kê đơn thuốc kháng sinh cho tôi."
+          }
+        },
+        {
+          "id": "fres-eur-3",
+          "meaningVn": "diễn viên",
+          "mnemonicVn": "Quy tắc: \"-eur\" (Pháp) ↔ \"-or\" (Tây Ban Nha).",
+          "a": {
+            "id": "fres-eur-3-a",
+            "headword": "acteur",
+            "reading": "/aktœʁ/",
+            "example": "Cet acteur a gagné plusieurs prix.",
+            "exampleVn": "Diễn viên này đã giành được nhiều giải thưởng."
+          },
+          "b": {
+            "id": "fres-eur-3-b",
+            "headword": "actor",
+            "reading": "/akˈtoɾ/",
+            "example": "Este actor ha ganado varios premios.",
+            "exampleVn": "Diễn viên này đã giành được nhiều giải thưởng."
+          }
+        },
+        {
+          "id": "fres-eur-4",
+          "meaningVn": "giáo viên, giáo sư",
+          "mnemonicVn": "Quy tắc: \"-eur\" (Pháp) ↔ \"-or\" (Tây Ban Nha).",
+          "a": {
+            "id": "fres-eur-4-a",
+            "headword": "professeur",
+            "reading": "/pʁɔfesœʁ/",
+            "example": "Mon professeur de français est très patient.",
+            "exampleVn": "Giáo viên tiếng Pháp của tôi rất kiên nhẫn."
+          },
+          "b": {
+            "id": "fres-eur-4-b",
+            "headword": "profesor",
+            "reading": "/pɾo.feˈsoɾ/",
+            "example": "Mi profesor de francés es muy paciente.",
+            "exampleVn": "Giáo viên tiếng Pháp của tôi rất kiên nhẫn."
+          }
+        },
+        {
+          "id": "fres-eur-5",
+          "meaningVn": "hơi ấm, sức nóng",
+          "mnemonicVn": "Quy tắc: \"-eur\" (Pháp) ↔ \"-or\" (Tây Ban Nha). Nghĩa hơi khác biệt nhẹ: \"chaleur\" tiếng Pháp thiên về sự nồng ấm nói chung (kể cả nghĩa bóng), \"calor\" tiếng Tây Ban Nha cụ thể hơn về sức nóng vật lý.",
+          "a": {
+            "id": "fres-eur-5-a",
+            "headword": "chaleur",
+            "reading": "/ʃalœʁ/",
+            "example": "On sentait la chaleur du soleil sur la peau.",
+            "exampleVn": "Người ta cảm nhận được hơi ấm của mặt trời trên da."
+          },
+          "b": {
+            "id": "fres-eur-5-b",
+            "headword": "calor",
+            "reading": "/kaˈloɾ/",
+            "example": "Se sentía el calor del sol sobre la piel.",
+            "exampleVn": "Người ta cảm nhận được hơi ấm của mặt trời trên da."
+          }
+        }
+      ]
+    },
+    {
+      "id": "fres-aire",
+      "root": "-aire / -ario",
+      "latinOrigin": "Latin \"-arius / -arium\" — hậu tố chỉ liên quan đến, hoặc nơi chốn",
+      "note": "Quy tắc: \"-aire\" (Pháp) ↔ \"-ario\" (Tây Ban Nha).",
+      "pairs": [
+        {
+          "id": "fres-aire-1",
+          "meaningVn": "từ điển",
+          "mnemonicVn": "Quy tắc: \"-aire\" (Pháp) ↔ \"-ario\" (Tây Ban Nha).",
+          "a": {
+            "id": "fres-aire-1-a",
+            "headword": "dictionnaire",
+            "reading": "/diksjɔnɛʁ/",
+            "example": "J'ai cherché ce mot dans le dictionnaire.",
+            "exampleVn": "Tôi đã tra từ này trong từ điển."
+          },
+          "b": {
+            "id": "fres-aire-1-b",
+            "headword": "diccionario",
+            "reading": "/dik.sjoˈna.ɾjo/",
+            "example": "Busqué esta palabra en el diccionario.",
+            "exampleVn": "Tôi đã tra từ này trong từ điển."
+          }
+        },
+        {
+          "id": "fres-aire-2",
+          "meaningVn": "ngày kỷ niệm, sinh nhật",
+          "mnemonicVn": "Quy tắc: \"-aire\" (Pháp) ↔ \"-ario\" (Tây Ban Nha). Lưu ý nhẹ: tiếng Pháp \"anniversaire\" dùng chung cho cả sinh nhật LẪN ngày kỷ niệm, còn tiếng Tây Ban Nha \"aniversario\" chủ yếu dùng cho ngày kỷ niệm (cưới, sự kiện) — sinh nhật thường nói \"cumpleaños\".",
+          "a": {
+            "id": "fres-aire-2-a",
+            "headword": "anniversaire",
+            "reading": "/anivɛʁsɛʁ/",
+            "example": "Aujourd'hui, c'est mon anniversaire.",
+            "exampleVn": "Hôm nay là sinh nhật của tôi."
+          },
+          "b": {
+            "id": "fres-aire-2-b",
+            "headword": "aniversario",
+            "reading": "/a.ni.β̞eɾˈsa.ɾjo/",
+            "example": "Hoy es nuestro aniversario de bodas.",
+            "exampleVn": "Hôm nay là ngày kỷ niệm cưới của chúng tôi."
+          }
+        },
+        {
+          "id": "fres-aire-3",
+          "meaningVn": "cần thiết",
+          "mnemonicVn": "Quy tắc: \"-aire\" (Pháp) ↔ \"-ario\" (Tây Ban Nha).",
+          "a": {
+            "id": "fres-aire-3-a",
+            "headword": "nécessaire",
+            "reading": "/nesesɛʁ/",
+            "example": "Il est nécessaire de réserver à l'avance.",
+            "exampleVn": "Cần phải đặt chỗ trước."
+          },
+          "b": {
+            "id": "fres-aire-3-b",
+            "headword": "necesario",
+            "reading": "/ne.seˈsa.ɾjo/",
+            "example": "Es necesario reservar con anticipación.",
+            "exampleVn": "Cần phải đặt chỗ trước."
+          }
+        },
+        {
+          "id": "fres-aire-4",
+          "meaningVn": "bình thường, thông thường",
+          "mnemonicVn": "Quy tắc: \"-aire\" (Pháp) ↔ \"-ario\" (Tây Ban Nha).",
+          "a": {
+            "id": "fres-aire-4-a",
+            "headword": "ordinaire",
+            "reading": "/ɔʁdinɛʁ/",
+            "example": "C'était une journée tout à fait ordinaire.",
+            "exampleVn": "Đó là một ngày hoàn toàn bình thường."
+          },
+          "b": {
+            "id": "fres-aire-4-b",
+            "headword": "ordinario",
+            "reading": "/oɾ.diˈna.ɾjo/",
+            "example": "Fue un día completamente ordinario.",
+            "exampleVn": "Đó là một ngày hoàn toàn bình thường."
+          }
+        },
+        {
+          "id": "fres-aire-5",
+          "meaningVn": "tiền lương",
+          "mnemonicVn": "Quy tắc: \"-aire\" (Pháp) ↔ \"-ario\" (Tây Ban Nha).",
+          "a": {
+            "id": "fres-aire-5-a",
+            "headword": "salaire",
+            "reading": "/salɛʁ/",
+            "example": "Son salaire a augmenté cette année.",
+            "exampleVn": "Lương của anh ấy đã tăng trong năm nay."
+          },
+          "b": {
+            "id": "fres-aire-5-b",
+            "headword": "salario",
+            "reading": "/saˈla.ɾjo/",
+            "example": "Su salario aumentó este año.",
+            "exampleVn": "Lương của anh ấy đã tăng trong năm nay."
+          }
+        }
+      ]
+    },
+    {
+      "id": "fres-ment",
+      "root": "-ment / -mente",
+      "latinOrigin": "Latin \"mente\" (bằng tâm trí) — hậu tố biến tính từ thành trạng từ",
+      "note": "Quy tắc: gắn \"-ment\" vào dạng giống cái của tính từ tiếng Pháp, gắn \"-mente\" vào dạng giống cái của tính từ tiếng Tây Ban Nha — cả 2 đều bắt nguồn từ cụm Latin \"mente\" (bằng tâm trí/cách thức).",
+      "pairs": [
+        {
+          "id": "fres-ment-1",
+          "meaningVn": "một cách tự nhiên, dĩ nhiên",
+          "mnemonicVn": "Quy tắc: \"-ment\" (Pháp) ↔ \"-mente\" (Tây Ban Nha).",
+          "a": {
+            "id": "fres-ment-1-a",
+            "headword": "naturellement",
+            "reading": "/natyʁɛlmɑ̃/",
+            "example": "Naturellement, il a accepté l'invitation.",
+            "exampleVn": "Dĩ nhiên, anh ấy đã nhận lời mời."
+          },
+          "b": {
+            "id": "fres-ment-1-b",
+            "headword": "naturalmente",
+            "reading": "/na.tu.ɾalˈmen.te/",
+            "example": "Naturalmente, él aceptó la invitación.",
+            "exampleVn": "Dĩ nhiên, anh ấy đã nhận lời mời."
+          }
+        },
+        {
+          "id": "fres-ment-2",
+          "meaningVn": "cuối cùng",
+          "mnemonicVn": "Quy tắc: \"-ment\" (Pháp) ↔ \"-mente\" (Tây Ban Nha).",
+          "a": {
+            "id": "fres-ment-2-a",
+            "headword": "finalement",
+            "reading": "/finalmɑ̃/",
+            "example": "Finalement, nous avons trouvé la solution.",
+            "exampleVn": "Cuối cùng, chúng tôi đã tìm ra giải pháp."
+          },
+          "b": {
+            "id": "fres-ment-2-b",
+            "headword": "finalmente",
+            "reading": "/fi.nalˈmen.te/",
+            "example": "Finalmente, encontramos la solución.",
+            "exampleVn": "Cuối cùng, chúng tôi đã tìm ra giải pháp."
+          }
+        },
+        {
+          "id": "fres-ment-3",
+          "meaningVn": "nhìn chung, thường thì",
+          "mnemonicVn": "Quy tắc: \"-ment\" (Pháp) ↔ \"-mente\" (Tây Ban Nha).",
+          "a": {
+            "id": "fres-ment-3-a",
+            "headword": "généralement",
+            "reading": "/ʒeneʁalmɑ̃/",
+            "example": "Généralement, il pleut beaucoup en avril.",
+            "exampleVn": "Nhìn chung, tháng Tư mưa nhiều."
+          },
+          "b": {
+            "id": "fres-ment-3-b",
+            "headword": "generalmente",
+            "reading": "/xe.ne.ɾalˈmen.te/",
+            "example": "Generalmente, llueve mucho en abril.",
+            "exampleVn": "Nhìn chung, tháng Tư mưa nhiều."
+          }
+        },
+        {
+          "id": "fres-ment-4",
+          "meaningVn": "chỉ, chỉ mỗi",
+          "mnemonicVn": "Cả \"seul\" (Pháp) và \"solo\" (Tây Ban Nha, dạng giống cái \"sola\") đều bắt nguồn từ Latin \"solus\" (một mình) — cùng gốc dù viết hơi khác, rồi cùng gắn hậu tố \"-ment/-mente\".",
+          "a": {
+            "id": "fres-ment-4-a",
+            "headword": "seulement",
+            "reading": "/sœlmɑ̃/",
+            "example": "Il reste seulement deux places disponibles.",
+            "exampleVn": "Chỉ còn hai chỗ trống."
+          },
+          "b": {
+            "id": "fres-ment-4-b",
+            "headword": "solamente",
+            "reading": "/so.laˈmen.te/",
+            "example": "Solamente quedan dos lugares disponibles.",
+            "exampleVn": "Chỉ còn hai chỗ trống."
+          }
+        },
+        {
+          "id": "fres-ment-5",
+          "meaningVn": "chính xác",
+          "mnemonicVn": "Quy tắc: \"-ment\" (Pháp) ↔ \"-mente\" (Tây Ban Nha).",
+          "a": {
+            "id": "fres-ment-5-a",
+            "headword": "exactement",
+            "reading": "/ɛɡzaktəmɑ̃/",
+            "example": "C'est exactement ce que je voulais dire.",
+            "exampleVn": "Đó chính xác là điều tôi muốn nói."
+          },
+          "b": {
+            "id": "fres-ment-5-b",
+            "headword": "exactamente",
+            "reading": "/ek.sak.taˈmen.te/",
+            "example": "Eso es exactamente lo que quería decir.",
+            "exampleVn": "Đó chính xác là điều tôi muốn nói."
+          }
+        }
+      ]
+    },
+    {
+      "id": "fres-ff1",
+      "root": "Faux amis nổi tiếng #1",
+      "latinOrigin": "Cùng gốc Latin nhưng nghĩa đã lệch hẳn theo 2 hướng khác nhau",
+      "note": "Đây là những \"bẫy nghĩa\" nổi tiếng nhất giữa tiếng Pháp và Tây Ban Nha — cùng 1 từ Latin gốc nhưng mỗi ngôn ngữ giữ lại 1 nghĩa khác nhau theo thời gian.",
+      "pairs": [
+        {
+          "id": "fres-ff1-1",
+          "meaningVn": "nghe (Pháp) / hiểu (Tây Ban Nha)",
+          "mnemonicVn": "⚠⚠ Cùng gốc Latin \"intendere\" (hướng sự chú ý tới) nhưng rẽ nhánh hoàn toàn: tiếng Pháp giữ nghĩa \"dùng tai để nghe\", tiếng Tây Ban Nha chuyển thành \"dùng trí để hiểu\".",
+          "a": {
+            "id": "fres-ff1-1-a",
+            "headword": "entendre",
+            "reading": "/ɑ̃tɑ̃dʁ/",
+            "example": "Je n'arrive pas à entendre ce qu'il dit.",
+            "exampleVn": "Tôi không thể nghe được anh ấy nói gì."
+          },
+          "b": {
+            "id": "fres-ff1-1-b",
+            "headword": "entender",
+            "reading": "/en.tenˈdeɾ/",
+            "example": "No logro entender lo que dice.",
+            "exampleVn": "Tôi không thể hiểu được anh ấy nói gì."
+          }
+        },
+        {
+          "id": "fres-ff1-2",
+          "meaningVn": "rộng (Pháp) / dài (Tây Ban Nha)",
+          "mnemonicVn": "⚠⚠ Cùng gốc Latin \"largus\" (rộng rãi, dồi dào) nhưng rẽ nhánh: tiếng Pháp giữ nghĩa \"rộng theo chiều ngang\", tiếng Tây Ban Nha chuyển thành \"dài theo chiều dọc\" — muốn nói \"rộng\" trong tiếng Tây Ban Nha phải dùng \"ancho\".",
+          "a": {
+            "id": "fres-ff1-2-a",
+            "headword": "large",
+            "reading": "/laʁʒ/",
+            "example": "Cette rue est très large.",
+            "exampleVn": "Con phố này rất rộng."
+          },
+          "b": {
+            "id": "fres-ff1-2-b",
+            "headword": "largo",
+            "reading": "/ˈlaɾ.ɣo/",
+            "example": "Esta calle es muy larga.",
+            "exampleVn": "Con phố này rất dài."
+          }
+        },
+        {
+          "id": "fres-ff1-3",
+          "meaningVn": "chờ đợi (Pháp) / chăm sóc, tiếp đãi (Tây Ban Nha)",
+          "mnemonicVn": "⚠⚠ Cùng gốc Latin \"attendere\" (hướng sự chú ý tới, chờ đợi) nhưng rẽ nhánh: tiếng Pháp giữ nguyên nghĩa \"chờ đợi\", tiếng Tây Ban Nha chuyển thành \"chú ý phục vụ, chăm sóc ai đó\".",
+          "a": {
+            "id": "fres-ff1-3-a",
+            "headword": "attendre",
+            "reading": "/atɑ̃dʁ/",
+            "example": "Je vais t'attendre devant la gare.",
+            "exampleVn": "Tôi sẽ chờ bạn trước nhà ga."
+          },
+          "b": {
+            "id": "fres-ff1-3-b",
+            "headword": "atender",
+            "reading": "/a.tenˈdeɾ/",
+            "example": "La recepcionista atendió a los clientes con amabilidad.",
+            "exampleVn": "Nhân viên lễ tân đã tiếp đón khách hàng một cách ân cần."
+          }
+        },
+        {
+          "id": "fres-ff1-4",
+          "meaningVn": "bình hoa (Pháp) / cốc uống nước (Tây Ban Nha)",
+          "mnemonicVn": "⚠⚠ Cùng gốc Latin \"vas/vasum\" (vật chứa) nhưng rẽ nhánh thành 2 loại vật chứa khác nhau hoàn toàn.",
+          "a": {
+            "id": "fres-ff1-4-a",
+            "headword": "vase",
+            "reading": "/vaz/",
+            "example": "Elle a mis les roses dans un vase.",
+            "exampleVn": "Cô ấy đã cắm những bông hồng vào một chiếc bình hoa."
+          },
+          "b": {
+            "id": "fres-ff1-4-b",
+            "headword": "vaso",
+            "reading": "/ˈba.so/",
+            "example": "Sírveme un vaso de agua, por favor.",
+            "exampleVn": "Hãy rót cho tôi một cốc nước."
+          }
+        },
+        {
+          "id": "fres-ff1-5",
+          "meaningVn": "bản đồ, thực đơn, thẻ (Pháp) / lá thư (Tây Ban Nha)",
+          "mnemonicVn": "⚠ Cùng gốc Latin \"charta\" (giấy, tờ giấy) nhưng rẽ nhánh nghĩa theo từng loại \"tờ giấy\" cụ thể khác nhau ở mỗi ngôn ngữ.",
+          "a": {
+            "id": "fres-ff1-5-a",
+            "headword": "carte",
+            "reading": "/kaʁt/",
+            "example": "Le serveur nous a apporté la carte du restaurant.",
+            "exampleVn": "Người phục vụ đã mang thực đơn nhà hàng đến cho chúng tôi."
+          },
+          "b": {
+            "id": "fres-ff1-5-b",
+            "headword": "carta",
+            "reading": "/ˈkaɾ.ta/",
+            "example": "Le escribí una carta a mi abuela.",
+            "exampleVn": "Tôi đã viết một lá thư cho bà của mình."
+          }
+        }
+      ]
+    },
+    {
+      "id": "fres-ff2",
+      "root": "Faux amis nổi tiếng #2",
+      "latinOrigin": "Cùng gốc Latin nhưng nghĩa đã lệch hẳn theo 2 hướng khác nhau",
+      "note": "Tiếp tục nhóm bẫy nghĩa Pháp-Tây Ban Nha — trong đó \"embarrassé/embarazada\" là một trong những false friend nổi tiếng nhất thế giới, được dạy trong hầu hết giáo trình.",
+      "pairs": [
+        {
+          "id": "fres-ff2-1",
+          "meaningVn": "táo bón (Pháp) / bị cảm lạnh, nghẹt mũi (Tây Ban Nha)",
+          "mnemonicVn": "⚠⚠ Cùng gốc Latin \"constipare\" (nén chặt lại) nhưng rẽ nhánh: tiếng Pháp giữ nghĩa \"tắc nghẽn đường tiêu hoá\", tiếng Tây Ban Nha chuyển sang \"tắc nghẽn đường hô hấp\" (cảm lạnh, nghẹt mũi).",
+          "a": {
+            "id": "fres-ff2-1-a",
+            "headword": "constipé",
+            "reading": "/kɔ̃stipe/",
+            "example": "Il se sent constipé depuis deux jours.",
+            "exampleVn": "Anh ấy bị táo bón đã hai ngày nay."
+          },
+          "b": {
+            "id": "fres-ff2-1-b",
+            "headword": "constipado",
+            "reading": "/kons.tiˈpa.ð̞o/",
+            "example": "Estoy resfriado, tengo la nariz constipada.",
+            "exampleVn": "Tôi bị cảm lạnh, mũi bị nghẹt."
+          }
+        },
+        {
+          "id": "fres-ff2-2",
+          "meaningVn": "hỏi, yêu cầu (Pháp, hàng ngày) / khởi kiện (Tây Ban Nha, pháp lý)",
+          "mnemonicVn": "⚠⚠ Cùng gốc Latin \"demandare\" (giao phó, yêu cầu) nhưng tiếng Tây Ban Nha thu hẹp CHỈ còn dùng cho nghĩa pháp lý — giống hệt hiện tượng đã thấy ở cặp Anh-Tây Ban Nha \"demand/demandar\".",
+          "a": {
+            "id": "fres-ff2-2-a",
+            "headword": "demander",
+            "reading": "/dəmɑ̃de/",
+            "example": "Je voudrais te demander un service.",
+            "exampleVn": "Tôi muốn nhờ bạn một việc."
+          },
+          "b": {
+            "id": "fres-ff2-2-b",
+            "headword": "demandar",
+            "reading": "/de.manˈdaɾ/",
+            "example": "Decidió demandar a la empresa por incumplimiento.",
+            "exampleVn": "Anh ấy quyết định kiện công ty vì vi phạm hợp đồng."
+          }
+        },
+        {
+          "id": "fres-ff2-3",
+          "meaningVn": "xấu hổ, lúng túng (Pháp) / đang mang thai (Tây Ban Nha)",
+          "mnemonicVn": "⚠⚠⚠ MỘT TRONG NHỮNG FALSE FRIEND NỔI TIẾNG NHẤT THẾ GIỚI: cùng gốc Latin \"impedicare\" (bị vướng chân, cản trở) nhưng tiếng Tây Ban Nha rẽ nhánh hoàn toàn sang nghĩa \"mang thai\" (thân hình bị 'cản trở, nặng nề').",
+          "a": {
+            "id": "fres-ff2-3-a",
+            "headword": "embarrassé",
+            "reading": "/ɑ̃baʁase/",
+            "example": "Il était très embarrassé après sa chute.",
+            "exampleVn": "Anh ấy đã rất xấu hổ sau cú ngã của mình."
+          },
+          "b": {
+            "id": "fres-ff2-3-b",
+            "headword": "embarazada",
+            "reading": "/em.ba.ɾaˈsa.ð̞a/",
+            "example": "Mi hermana está embarazada de seis meses.",
+            "exampleVn": "Chị gái tôi đang mang thai được sáu tháng."
+          }
+        },
+        {
+          "id": "fres-ff2-4",
+          "meaningVn": "thử, cố gắng (Pháp) / tập dượt, diễn tập (Tây Ban Nha)",
+          "mnemonicVn": "⚠ Cùng gốc Latin \"exagiare\" (cân, thử trọng lượng) nhưng rẽ nhánh: tiếng Pháp giữ nghĩa rộng \"thử làm gì đó\", tiếng Tây Ban Nha thu hẹp thành \"luyện tập trước khi biểu diễn\".",
+          "a": {
+            "id": "fres-ff2-4-a",
+            "headword": "essayer",
+            "reading": "/eseje/",
+            "example": "Je vais essayer cette nouvelle recette ce soir.",
+            "exampleVn": "Tối nay tôi sẽ thử công thức nấu ăn mới này."
+          },
+          "b": {
+            "id": "fres-ff2-4-b",
+            "headword": "ensayar",
+            "reading": "/en.saˈjaɾ/",
+            "example": "La orquesta va a ensayar antes del concierto.",
+            "exampleVn": "Dàn nhạc sẽ tập dượt trước buổi hoà nhạc."
+          }
+        },
+        {
+          "id": "fres-ff2-5",
+          "meaningVn": "hiếm, ít gặp (Pháp) / kỳ lạ, khác thường (Tây Ban Nha)",
+          "mnemonicVn": "⚠ Cùng gốc Latin \"rarus\" (thưa, hiếm) nhưng rẽ nhánh: tiếng Pháp giữ nghĩa gốc \"hiếm gặp\", tiếng Tây Ban Nha chuyển thành \"kỳ lạ, khác thường\" (thứ hiếm gặp thường bị coi là lạ).",
+          "a": {
+            "id": "fres-ff2-5-a",
+            "headword": "rare",
+            "reading": "/ʁaʁ/",
+            "example": "C'est un timbre très rare.",
+            "exampleVn": "Đây là một con tem rất hiếm."
+          },
+          "b": {
+            "id": "fres-ff2-5-b",
+            "headword": "raro",
+            "reading": "/ˈra.ɾo/",
+            "example": "Es un comportamiento muy raro para él.",
+            "exampleVn": "Đó là một hành vi rất kỳ lạ đối với anh ấy."
+          }
+        }
+      ]
+    },
+    {
+      "id": "fres-circ",
+      "root": "\"s\" biến mất, dấu mũ thay thế",
+      "latinOrigin": "Old French giữ \"s\" trước phụ âm, tiếng Pháp hiện đại đánh rơi \"s\" và thêm dấu mũ (ˆ) lên nguyên âm đứng trước — Tây Ban Nha thường vẫn giữ nguyên \"s\"",
+      "note": "Quy tắc chính tả lịch sử rất nổi tiếng của tiếng Pháp: nhiều từ Latin có \"s\" trước phụ âm — tiếng Tây Ban Nha (và tiếng Anh) giữ nguyên \"s\" đó, còn tiếng Pháp hiện đại đã bỏ hẳn \"s\" và đánh dấu bằng dấu mũ (ˆ) trên nguyên âm. Nhận ra quy tắc này giúp đoán nghĩa hàng loạt từ Pháp chỉ bằng cách \"thêm s\" vào.",
+      "pairs": [
+        {
+          "id": "fres-circ-1",
+          "meaningVn": "bệnh viện",
+          "mnemonicVn": "\"hôpital\" ← Old French \"hospital\" (bỏ \"s\", thêm dấu mũ) — Tây Ban Nha giữ nguyên \"hospital\".",
+          "a": {
+            "id": "fres-circ-1-a",
+            "headword": "hôpital",
+            "reading": "/ɔpital/",
+            "example": "Il a été transporté à l'hôpital en urgence.",
+            "exampleVn": "Anh ấy đã được đưa đến bệnh viện cấp cứu."
+          },
+          "b": {
+            "id": "fres-circ-1-b",
+            "headword": "hospital",
+            "reading": "/os.piˈtal/",
+            "example": "Fue trasladado al hospital de urgencia.",
+            "exampleVn": "Anh ấy đã được đưa đến bệnh viện cấp cứu."
+          }
+        },
+        {
+          "id": "fres-circ-2",
+          "meaningVn": "lễ hội, bữa tiệc",
+          "mnemonicVn": "\"fête\" ← Old French \"feste\" (bỏ \"s\", thêm dấu mũ) — Tây Ban Nha giữ nguyên \"s\" trong \"fiesta\".",
+          "a": {
+            "id": "fres-circ-2-a",
+            "headword": "fête",
+            "reading": "/fɛt/",
+            "example": "Toute la ville participe à la fête.",
+            "exampleVn": "Cả thành phố tham gia vào lễ hội."
+          },
+          "b": {
+            "id": "fres-circ-2-b",
+            "headword": "fiesta",
+            "reading": "/ˈfjes.ta/",
+            "example": "Toda la ciudad participa en la fiesta.",
+            "exampleVn": "Cả thành phố tham gia vào lễ hội."
+          }
+        },
+        {
+          "id": "fres-circ-3",
+          "meaningVn": "hòn đảo",
+          "mnemonicVn": "\"île\" ← Old French \"isle\" (bỏ \"s\", thêm dấu mũ) — Tây Ban Nha giữ nguyên \"s\" trong \"isla\".",
+          "a": {
+            "id": "fres-circ-3-a",
+            "headword": "île",
+            "reading": "/il/",
+            "example": "Ils passent leurs vacances sur une île tropicale.",
+            "exampleVn": "Họ nghỉ mát trên một hòn đảo nhiệt đới."
+          },
+          "b": {
+            "id": "fres-circ-3-b",
+            "headword": "isla",
+            "reading": "/ˈis.la/",
+            "example": "Pasan sus vacaciones en una isla tropical.",
+            "exampleVn": "Họ nghỉ mát trên một hòn đảo nhiệt đới."
+          }
+        },
+        {
+          "id": "fres-circ-4",
+          "meaningVn": "con thú, dã thú (Pháp còn có nghĩa bóng \"ngu ngốc\")",
+          "mnemonicVn": "\"bête\" ← Old French \"beste\" (bỏ \"s\", thêm dấu mũ) — Tây Ban Nha giữ nguyên \"s\" trong \"bestia\".",
+          "a": {
+            "id": "fres-circ-4-a",
+            "headword": "bête",
+            "reading": "/bɛt/",
+            "example": "Ne sois pas si bête, réfléchis un peu !",
+            "exampleVn": "Đừng ngốc nghếch thế, suy nghĩ một chút đi!"
+          },
+          "b": {
+            "id": "fres-circ-4-b",
+            "headword": "bestia",
+            "reading": "/ˈbes.tja/",
+            "example": "El león es la bestia más temida de la sabana.",
+            "exampleVn": "Sư tử là loài dã thú đáng sợ nhất thảo nguyên."
+          }
+        },
+        {
+          "id": "fres-circ-5",
+          "meaningVn": "có giá, tốn (tiền)",
+          "mnemonicVn": "\"coûter\" ← Old French \"couster\" (bỏ \"s\", thêm dấu mũ) — Tây Ban Nha giữ nguyên \"s\" trong \"costar\".",
+          "a": {
+            "id": "fres-circ-5-a",
+            "headword": "coûter",
+            "reading": "/kute/",
+            "example": "Combien coûte ce billet de train ?",
+            "exampleVn": "Vé tàu này giá bao nhiêu?"
+          },
+          "b": {
+            "id": "fres-circ-5-b",
+            "headword": "costar",
+            "reading": "/kosˈtaɾ/",
+            "example": "¿Cuánto cuesta este billete de tren?",
+            "exampleVn": "Vé tàu này giá bao nhiêu?"
+          }
+        }
+      ]
+    }
+  ]
+}
