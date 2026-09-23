@@ -1,5 +1,5 @@
 import "server-only";
-import { promises as fs } from "fs";
+import { promises as fs, constants as fsConstants } from "fs";
 import path from "path";
 import type { Language, LanguageData, RootEntry, SoundGroup, VocabWord } from "@/types/vocab";
 import { kvGet, kvSet } from "@/lib/kv";
@@ -88,6 +88,14 @@ export interface SyncResult {
 export async function syncExtrasToStaticFiles(): Promise<SyncResult[]> {
   const results: SyncResult[] = [];
   const dataDir = path.join(process.cwd(), "data");
+
+  // Không có thư mục data/ ghi được (Vercel, Docker standalone) thì dừng hẳn — nếu không, vòng lặp
+  // dưới sẽ bỏ qua mọi file rồi vẫn xoá phần bổ sung khỏi Redis → mất dữ liệu.
+  try {
+    await fs.access(dataDir, fsConstants.W_OK);
+  } catch {
+    throw new Error("Không ghi được thư mục data/ — chỉ chạy đồng bộ này trên máy dev (next dev).");
+  }
 
   for (const lang of ALL_LANGUAGES) {
     const additions = await loadAdditions(lang);
