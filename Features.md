@@ -15264,3 +15264,898 @@ mindmap chủ đề `es-topic-halterofilia` xác nhận hiển thị đúng, kh�
 Tồn đọng nếu người dùng gửi lại trigger lần nữa: 132 nhóm gốc từ/159 nhóm hình/152 cặp+152 cụm/191 chủ
 đề. Nhóm hình tiếp tục vượt xa tiếng Anh (159 nhóm, ~122%). Quy trình 3 bước vẫn được duy trì nghiêm
 ngặt dù round này không phát hiện lỗi — không nới lỏng bất kỳ bước nào chỉ vì một round chạy sạch.
+
+## 19. Học chéo ngôn ngữ Anh ↔ Tây Ban Nha — từ đồng nguyên (cognates) gốc Latin (`/cognates`)
+
+**Ý tưởng gốc từ người dùng**: tiếng Anh và tiếng Tây Ban Nha cùng mượn rất nhiều gốc từ Latin (qua
+tiếng Pháp cổ đối với tiếng Anh, trực tiếp đối với tiếng Tây Ban Nha) — vì vậy người nói tiếng Anh học
+tiếng Tây Ban Nha thường nhanh hơn hẳn nhờ nhận ra ngay các từ "gần giống hệt". Người dùng hỏi có thể
+làm 1 mục "Anh ↔ Tây Ban Nha (học 1 được 2)" cho người Việt học không.
+
+**Cơ sở dữ liệu đã có sẵn để khai thác**: `en.json` (106 nhóm gốc từ Latin/Hy Lạp) và `es.json` (132
+nhóm) được soạn ĐỘC LẬP với nhau nhưng nhiều nhóm hoá ra dùng đúng CÙNG MỘT gốc Latin — xác nhận bằng
+cách so 2 danh sách `reading` của 2 file: `cur/curr/curs` (en) ↔ `curs-/correr` (es), `vid/vis` (en) ↔
+`vis-/ver` (es), `sanct` (en) ↔ `sant-/santo` (es), `mor/mort` (en) ↔ `mort-/muerte` (es), `fort` (en) ↔
+`fort-/fuerte` (es), `medi` (en) ↔ `medi-/medio` (es), `just` (en) ↔ `just-/justo` (es), `grad/gress`
+(en) ↔ `grad-/grado` (es), `nutri` (en) ↔ `nutr-/nutrir` (es), `min` (en) ↔ `min-/menos` (es). Đây
+KHÔNG phải suy đoán — là bằng chứng cụ thể trong chính dữ liệu hiện có, nên tính năng này khả thi ngay
+mà không cần soạn gốc từ mới từ đầu.
+
+### Quyết định kiến trúc
+
+- **Route riêng `/cognates`, KHÔNG đi qua `[lang]`** — vì nội dung vốn dĩ song ngữ (1 cặp = 1 từ Anh +
+  1 từ Tây Ban Nha), không map tự nhiên vào union `Language` hiện có (`"zh"|"ko"|"ja"|"en"|"es"`). Thêm
+  1 pseudo-language `"en-es"` sẽ phải sửa type `Language` ở hàng chục chỗ dùng nó làm khoá TTS/locale —
+  rủi ro cao, không cần thiết cho MVP.
+- **File dữ liệu độc lập `data/en-es-cognates.json`** (không tái dùng `en.json`/`es.json` trực tiếp) —
+  vì mỗi "cặp đồng nguyên" cần 1 câu ví dụ + mnemonic RIÊNG giải thích mối liên hệ 2 chiều, khác hẳn
+  câu ví dụ đơn ngữ đã có trong 2 file gốc.
+- **Tái dùng tối đa hạ tầng cluster-browser đã có** (`useClusterBrowser` + `ClusterBrowserShell` +
+  `ViewModeToggle` — cùng hạ tầng dùng cho Chains/SynonymAntonym/CharAntonym) thay vì viết UI riêng từ
+  đầu → có ngay: mở toàn màn hình, điều hướng ‹/›, phóng to, tự động đọc lặp, và **đầy đủ favorite/
+  SRS-rate/mastered qua `/api/progress` ngay từ ngày đầu** (không phải khoảng trống cần lấp sau như
+  nhiều tính năng khác trong app).
+- **Mở rộng `useClusterBrowser`/`ClusterBrowserAccessors.wordsAt` thêm field `lang?: Language` optional
+  cho mỗi từ** (`src/lib/useClusterBrowser.ts`) — vì vòng lặp tự động đọc cũ giả định CẢ danh sách từ
+  của 1 phần tử dùng chung 1 ngôn ngữ (tham số `language` truyền cho hook), nhưng 1 cặp đồng nguyên có
+  1 từ tiếng Anh + 1 từ tiếng Tây Ban Nha cần đọc bằng 2 giọng khác nhau. Thay đổi lùi-tương-thích
+  (field optional, rơi về hành vi cũ nếu bỏ trống) — không ảnh hưởng Chains/SynonymAntonym/CharAntonym
+  đang dùng hook này.
+
+### Nội dung round 1 (8 nhóm gốc, 40 cặp, 80 từ)
+
+`data/en-es-cognates.json` — 8 nhóm gốc Latin đã xác nhận trùng khớp giữa `en.json`/`es.json`:
+- **tract / tra-** (trahere — kéo): attract/atraer, contract/contraer, distract/distraer,
+  extract/extraer, subtract/sustraer.
+- **vis / vid** (videre — nhìn): visible/visible, invisible/invisible, vision/visión,
+  television/televisión, supervise/supervisar (nhiều cặp viết gần như giống hệt nhau).
+- **curs / curr** (currere — chạy): current/corriente, occur/ocurrir, recur/recurrir (⚠ nghĩa lệch:
+  "tái diễn" ≠ "recurrir" = nhờ cậy/viện đến — ghi rõ trong mnemonic để không gây hiểu nhầm kiểu bẫy
+  nghĩa), excursion/excursión, concur/concurrir (nghĩa cũng lệch nhẹ tương tự "recur").
+- **sanct / sant** (sanctus — thiêng liêng): sanctuary/santuario, sanction/sanción (cùng giữ tính 2
+  mặt "cho phép chính thức" / "trừng phạt" ở cả 2 ngôn ngữ), sanctify/santificar, saint/santo,
+  sanctity/santidad.
+- **mort** (mors/mortis — cái chết): mortal/mortal, immortal/inmortal, mortality/mortalidad,
+  mortify/mortificar (nghĩa lệch: "làm bẽ mặt" ≠ "hành xác khổ hạnh"), postmortem/posmortem.
+- **fort / fuert** (fortis — mạnh): fortify/fortificar, fort/fuerte, comfort/confortar,
+  effort/esfuerzo, fortitude/fortaleza.
+- **medi** (medius — ở giữa): medium/medio, mediate/mediar, media/medios,
+  intermediate/intermedio, mediocre/mediocre (viết gần như giống hệt).
+- **just** (iustus — công bằng): just/justo, justice/justicia, justify/justificar, adjust/ajustar,
+  injustice/injusticia.
+
+Mỗi cặp có: nghĩa tiếng Việt dùng chung, câu ví dụ + dịch riêng cho từng ngôn ngữ, và 1 mnemonic giải
+thích rõ mối liên hệ gốc từ — cố tình LƯU Ý các trường hợp nghĩa bị lệch giữa 2 ngôn ngữ dù cùng gốc
+(recur/recurrir, concur/concurrir, mortify/mortificar) thay vì giả định mọi cặp đều nghĩa giống hệt.
+
+### File mới / sửa
+
+- `data/en-es-cognates.json` (mới) — 8 nhóm, 40 cặp, 80 từ (id có hậu tố `-en`/`-es` để khoá riêng
+  trong kho `/api/progress`).
+- `src/lib/cognateStore.ts` (mới) — types + `getCognateData()`, import JSON tĩnh (không đọc `fs` lúc
+  chạy, đúng quy ước deploy standalone).
+- `src/components/cognates/CognateBrowser.tsx` (mới) — danh sách nhóm → thẻ cặp (grid/list qua
+  `ViewModeToggle`) → panel chi tiết 2 cột Anh/Tây Ban Nha (cờ 🇬🇧/🇪🇸, phát âm riêng từng thứ tiếng qua
+  `speak(word, "en"|"es")`), gắn `useClusterBrowser`+`ClusterBrowserShell` cho toàn bộ hạ tầng còn lại.
+- `src/lib/useClusterBrowser.ts` (sửa) — thêm `lang?: Language` optional vào
+  `ClusterBrowserAccessors.wordsAt`, dùng trong `startAutoPlay` để đọc mỗi từ bằng đúng giọng của nó.
+- `src/app/cognates/page.tsx` (mới) — trang server component đơn giản, load data + render browser.
+- `src/app/page.tsx` (sửa) — thêm mục "Học chéo ngôn ngữ — học 1 được 2" trên trang chủ, link `/cognates`.
+
+**Kiểm chứng**: quét trùng ID/U+FFFD trên file JSON mới — sạch (128 id, 0 trùng). `tsc --noEmit` sạch
+(phát hiện thêm 1 vấn đề môi trường không liên quan: `node_modules` thiếu gói `ioredis` dù có khai báo
+trong `package.json` — chạy `npm install` khắc phục, không phải lỗi do thay đổi lần này). `next build`
+EXIT=0, có route `/cognates` trong danh sách build. Playwright sống trên dev server, 4/4 kiểm tra pass:
+trang chủ hiện link mới, `/cognates` load đủ nhóm/cặp (bao gồm "mediocre" viết gần giống hệt nhau),
+bấm 1 thẻ cặp mở đúng panel chi tiết hiện cả từ Anh lẫn Tây Ban Nha + mnemonic, panel chi tiết có đủ
+cụm nút yêu thích/chấm điểm SRS/đã thuộc. Chụp 1 ảnh sanity-check xác nhận hiển thị đúng, không lỗi
+font/ký tự, rồi xoá ảnh. Dev server đã tắt.
+
+**Tồn đọng**: mới có 8/~vài chục gốc trùng khớp tiềm năng giữa `en.json` và `es.json` (danh sách gốc
+trùng khớp còn lại chưa khai thác, xem đối chiếu 2 danh sách `reading` ở trên) — đây là 1 dòng nội
+dung có thể mở rộng theo round giống các trục khác nếu người dùng yêu cầu tiếp. Tính năng chưa có ô
+tìm kiếm/lọc theo nhóm (danh sách 8 nhóm hiện tại đủ ngắn để cuộn tay); cần cân nhắc thêm nếu số nhóm
+tăng lên nhiều.
+
+### 19.1. Round 2 — thêm 8 nhóm gốc từ đồng nguyên nữa (16 nhóm, 80 cặp, 160 từ)
+
+Tiếp tục khai thác danh sách gốc trùng khớp giữa `en.json`/`es.json` đã đối chiếu ở mục 19 (còn nhiều
+gốc chưa dùng ngoài 8 gốc round 1): **scrib/script ↔ scribir** (viết: describe/describir,
+prescribe/prescribir, subscribe/suscribir, inscribe/inscribir, transcribe/transcribir), **cred ↔
+cred-/creer** (tin: credible/creíble, incredible/increíble, credit/crédito, credential/credencial,
+discredit/desacreditar), **corp ↔ corp-** (thân thể: corporate/corporativo, incorporate/incorporar,
+corporal/corporal, corpulent/corpulento, corps/cuerpo — cặp cuối mượn thẳng gần nguyên dạng "corpus"
+qua 2 đường khác nhau, tiếng Anh qua tiếng Pháp), **fin ↔ fin-** (giới hạn: final/final, finite/finito,
+infinite/infinito, define/definir, confine/confinar), **nov ↔ nov-** (mới: novelty/novedad,
+renovate/renovar, innovate/innovar, novice/novicio, và **novel/novela — ⚠ nghĩa lệch nhau nổi bật**:
+tiếng Anh là tính từ "mới lạ", tiếng Tây Ban Nha là danh từ "tiểu thuyết", cùng gốc nhưng rẽ nhánh nghĩa
+hoàn toàn khác — ghi rõ trong mnemonic), **grad/gress ↔ grad-/grado** (bước: graduate/graduar,
+gradual/gradual, progress/progreso, aggressive/agresivo, và **regress/regresar — ⚠ nghĩa lệch nhẹ**:
+"thoái lui" (tiêu cực) ≠ "quay trở về" (trung tính)), **vac/van ↔ vac-/vacío** (trống rỗng:
+vacant/vacante, vacuum/vacío, vacate/vaciar, evacuate/evacuar, vacation/vacaciones), **luc/lum/lus ↔
+luc-/luz** (ánh sáng: lucid/lúcido, illuminate/iluminar, translucent/translúcido, elucidate/elucidar,
+luminous/luminoso). Tổng **16 nhóm, 80 cặp, 160 từ**.
+
+Tiếp tục theo đúng nguyên tắc round 1: mỗi cặp có nghĩa dùng chung + ví dụ song ngữ riêng + mnemonic,
+và **chủ động ghi chú các trường hợp nghĩa bị lệch** (novel/novela, regress/regresar) thay vì mặc định
+mọi cặp cùng gốc đều nghĩa giống hệt.
+
+**Kiểm chứng**: batch-check headword mới với toàn bộ 76 headword của round 1 trước khi ghi — 0 trùng.
+Sau khi ghi: quét ID/U+FFFD — sạch (256 id, 0 trùng); quét trùng headword phát hiện 7 từ trùng
+("visible", "invisible", "mortal", "mediocre", "corporal", "final", "gradual") nhưng xác nhận TẤT CẢ
+đều là hiện tượng cố ý (từ tiếng Anh và tiếng Tây Ban Nha viết giống hệt nhau TRONG CÙNG 1 cặp — vd cặp
+`cog-fin-1` có cả `en.headword="final"` và `es.headword="final"`), không phải trùng lặp thật giữa 2
+cặp khác nhau. `tsc --noEmit` sạch, `next build` EXIT=0. Playwright sống trên dev server, 2/2 kiểm tra
+pass (trang `/cognates` hiện đủ 16 nhóm bao gồm các cặp mới; bấm cặp "novel/novela" mở đúng panel chi
+tiết có nêu rõ nghĩa lệch "tiểu thuyết"). Chụp 1 ảnh sanity-check xác nhận hiển thị đúng toàn bộ 16
+nhóm, không lỗi ký tự, rồi xoá ảnh. Dev server đã tắt.
+
+**Tồn đọng**: còn các gốc trùng khớp tiềm năng khác giữa 2 file chưa khai thác — `cord/cor ↔
+cord-/discordia` (tim/lòng: concord/concordia, cordial/cordial, discord/discordia), `pel/puls ↔
+puls-/pulso` (đẩy/nhịp: pulse/pulso, propel/propulsar, repel/repeler, expel/expulsar, impulse/impulso),
+`fus ↔ fundir` (chảy/hoà tan: infuse/infundir, transfuse/transfundir, diffuse/difundir,
+confuse/confundir, fuse/fundir), `mand ↔ mandar` (ra lệnh: command/mandar, demand/demandar,
+mandate/mandato, commandment/mandamiento — lưu ý "command"/"mandar" nghĩa gần nhưng "demand"/"demandar"
+lệch nhau: "đòi hỏi" vs "khởi kiện"). CŨNG lưu ý: một số gốc TRÙNG HÌNH THỨC giữa 2 danh sách reading
+nhưng KHÁC GỐC LATIN THẬT — đã loại khỏi phạm vi khai thác để tránh false-cognate: `sol` (en, "một
+mình" từ "solus": solo/isolate) ≠ `sol-` (es, "mặt trời" từ "sol": solar/insolación); `cap/cip` (en,
+"đầu" từ "caput": capital/decapitate) ≠ `cap-` (es, "có khả năng" từ "capere": capaz/capacidad) — 2 cặp
+này chỉ giống bề mặt do trùng ngẫu nhiên chữ cái, không phải cognate thật, phải loại ra khỏi tính năng
+"học 1 được 2" (đây là tính năng CHUYỂN DI TÍCH CỰC, không phải bẫy nghĩa — trộn lẫn 2 mục đích sẽ gây
+hiểu nhầm cho người học).
+
+### 19.2. Round 3 — thêm 8 nhóm gốc từ nữa (24 nhóm, 120 cặp, 240 từ)
+
+Tiếp tục khai thác danh sách gốc trùng khớp, đối chiếu lại TOÀN BỘ 2 danh sách `reading` bằng script
+(không dựa trí nhớ) để tìm chính xác các gốc còn chưa dùng và loại đúng các cặp trùng bề mặt nhưng khác
+từ nguyên. Thêm: **port ↔ portar** (mang/chở: export/exportar, import/importar, transport/transportar,
+support/soportar, report/reportar), **fer ↔ ferir** (mang/chịu: transfer/transferir, refer/referir,
+prefer/preferir, suffer/sufrir, offer/ofrecer), **mit/miss ↔ mitir** (gửi: transmit/transmitir,
+permit/permitir, emit/emitir, admit/admitir, commit/cometer), **vert/vers ↔ vertir** (xoay — nhóm có
+**2 cặp nghĩa lệch nổi bật nhất trong toàn bộ dữ liệu**: divert/divertir ⚠⚠ "làm chệch hướng" ≠ "làm
+vui, giải trí"; advertise/advertir ⚠⚠ "quảng cáo" ≠ "cảnh báo"; cũng có invert/invertir với "đảo ngược"
+≠ "đầu tư"), **cord/cor ↔ cord-/discordia** (trái tim: concord/concordia, cordial/cordial,
+discord/discordia, courage/coraje, accord/acuerdo), **sist/stit ↔ sistir** (đứng — có
+**assist/asistir, MỘT TRONG NHỮNG FALSE FRIEND NỔI TIẾNG NHẤT Anh-Tây Ban Nha**: "giúp đỡ" ≠ "có mặt,
+tham dự"), **cept/cap/ceive ↔ cebir** (nắm bắt — có **deceive/decepcionar, false friend kinh điển
+khác**: "lừa dối" ≠ "làm thất vọng"; cũng có receive/recibir, perceive/percibir, conceive/concebir,
+concept/concepto), **cad/cid/cas ↔ caer** (rơi/xảy đến: incident/incidente, accident/accidente,
+decadent/decadente, coincide/coincidir, occasion/ocasión). Tổng **24 nhóm, 120 cặp, 240 từ**.
+
+Round này đặc biệt giàu các cặp nghĩa lệch/false-friend nổi tiếng (divert/divertir, advertise/advertir,
+assist/asistir, deceive/decepcionar) — vẫn giữ đúng nguyên tắc: đây là những cặp **CÙNG GỐC LATIN THẬT**
+chỉ bị trôi nghĩa theo thời gian (khác với false-cognate bề mặt như sol/cap đã loại ở round 2), nên vẫn
+thuộc phạm vi tính năng "học 1 được 2" — chỉ cần ghi rõ nghĩa đã lệch, không phải loại bỏ.
+
+**Phát hiện thêm 1 bẫy từ nguyên bề mặt mới**: gốc `prim` (en, "đầu tiên" — primary/prime/primitive)
+và root `primir` (es, trong danh sách nhưng thực chất là các từ imprimir/comprimir/deprimir/reprimir/
+oprimir — TẤT CẢ đều từ gốc Latin "premere" = ép/nén, khớp với tiếng Anh "press" chứ KHÔNG PHẢI "prim")
+— hai gốc chỉ giống bề ngoài, không cùng từ nguyên → loại khỏi phạm vi khai thác, giống trường hợp
+sol/cap ở round 2.
+
+**Kiểm chứng**: batch-check 40 headword mới với toàn bộ 153 headword duy nhất của round 1+2 — 0 trùng.
+Sau khi ghi: quét ID — sạch (384 id, 0 trùng); quét trùng headword CHÉO GIỮA CÁC CẶP KHÁC NHAU (loại trừ
+đúng các trường hợp cố ý en=es trong cùng 1 cặp) — 0 va chạm thật. `tsc --noEmit` sạch, `next build`
+EXIT=0. Playwright sống trên dev server, 2/2 kiểm tra pass (trang hiện đủ 24 nhóm bao gồm cặp mới; bấm
+cặp "deceive/decepcionar" mở đúng panel chi tiết có nêu rõ cảnh báo false friend). Chụp 1 ảnh
+sanity-check xác nhận hiển thị đúng toàn bộ 24 nhóm, không lỗi ký tự, rồi xoá ảnh. Dev server đã tắt.
+
+**Tồn đọng cho round 4**: struct/struir (xây dựng), fus/fundir (chảy/hoà tan), mand/mandar (ra lệnh),
+temp/tempor- (thời gian), nutri/nutr- (dinh dưỡng), min/min- (nhỏ), viv/vit/vit- (sống), leg(luật)/leg-
+(luật pháp), vok/voc/vocar+voz (tiếng nói), flu/flux/fluir (chảy), popul/pobl- (dân số), clud/clus/clo/
+cluir (đóng/bao gồm), pel/puls/puls- (đẩy/nhịp) — 13 gốc trùng khớp xác nhận còn lại, đủ cho ít nhất
+1-2 round nữa.
+
+### 19.3. Round 4 — thêm 8 nhóm gốc từ nữa (32 nhóm, 159 cặp, ~316 từ)
+
+Tiếp tục từ danh sách tồn đọng round 3: **struct ↔ struir** (xây dựng: construct/construir,
+instruct/instruir, destroy/destruir, obstruct/obstruir, reconstruct/reconstruir), **fus ↔ fundir**
+(chảy/hoà tan: confuse/confundir, infuse/infundir, diffuse/difundir, transfuse/transfundir,
+fuse/fundir), **mand ↔ mandar** (ra lệnh — có demand/demandar ⚠⚠ nghĩa lệch sang lĩnh vực pháp lý:
+"đòi hỏi" thường ≠ "khởi kiện"; cũng có command/mandar, mandate/mandato, commandment/mandamiento,
+commando/comando), **temp/tempor- ↔ tempor-** (thời gian: temporary/temporal, contemporary/
+contemporáneo, tempo/tempo, extemporaneous/extemporáneo — nhóm này chỉ có 4 cặp, không ép đủ 5 vì các
+ứng viên còn lại đều dùng trùng headword Tây Ban Nha "temporal"), **nutri ↔ nutr-** (dinh dưỡng:
+nutrition/nutrición, nutritious/nutritivo, malnutrition/desnutrición, nutrient/nutriente,
+nourish/nutrir), **min ↔ min-** (nhỏ: minimum/mínimo, minor/menor, diminish/disminuir,
+minimize/minimizar, minute/minúsculo), **viv/vit ↔ vit-** (sự sống: vital/vital, vivid/vívido,
+survive/sobrevivir, revive/revivir, vitamin/vitamina), **leg (luật) ↔ leg-/ley** (luật pháp:
+legal/legal, illegal/ilegal, legislate/legislar, legitimate/legítimo, legislation/legislación — lưu ý
+đây là gốc "luật" KHÁC với gốc "lect/leg" = chọn/đọc đã ghi chú riêng trong `en.json`). Tổng **32
+nhóm, 159 cặp, ~316 từ** (nhóm temp chỉ có 4 cặp thay vì 5).
+
+**Kiểm chứng**: batch-check 78 headword mới với 232 headword duy nhất của round 1-3 trước khi ghi — 0
+trùng. Sau khi ghi: quét ID — sạch (509 id, 0 trùng); quét trùng headword chéo giữa các cặp khác nhau
+(loại trừ đúng trường hợp cố ý en=es trong cùng 1 cặp như "legal/legal", "temporal-nhưng khác nghĩa
+không dùng lặp", "tempo/tempo") — 0 va chạm thật; quét thiếu field trên cả 32 nhóm — sạch. `tsc
+--noEmit` sạch, `next build` EXIT=0. Playwright sống trên dev server, 2/2 kiểm tra pass (trang hiện đủ
+32 nhóm bao gồm cặp mới; bấm cặp "demand/demandar" mở đúng panel chi tiết nêu rõ nghĩa lệch sang pháp
+lý). Chụp 1 ảnh sanity-check xác nhận hiển thị đúng toàn bộ nội dung mới, không lỗi ký tự, rồi xoá ảnh.
+Dev server đã tắt.
+
+**Tồn đọng cho round 5**: vok/voc ↔ vocar + voc-/voz (tiếng nói: provoke/provocar, invoke/invocar,
+convoke/convocar, evoke/evocar, vocal/vocal), flu/flux ↔ fluir (chảy: influence/influir, fluent/fluido,
+affluent/afluente [⚠ lưu ý nghĩa lệch: "giàu có" vs "phụ lưu sông"], confluence/confluencia),
+popul ↔ pobl- (dân số: population/población, populate/poblar, popular/popular, depopulate/despoblar),
+clud/clus/clo ↔ cluir (đóng/bao gồm: include/incluir, exclude/excluir, conclude/concluir, seclude/
+recluir, occlude/ocluir), pel/puls ↔ puls-/pulso (đẩy/nhịp: pulse/pulso, propel/propulsar, repel/
+repeler, expel/expulsar, impulse/impulso) — 5 gốc còn lại, đủ cho 1 round nữa (~25 cặp, hơi nhỏ hơn các
+round trước — có thể cần đối chiếu lại toàn bộ 2 file lần nữa để tìm thêm gốc mới nếu muốn round 5 giữ
+quy mô 8 nhóm/40 cặp).
+
+### 19.4. Round 5 — thêm 8 nhóm gốc từ nữa (40 nhóm, 197 cặp, ~394 từ)
+
+Dùng hết 3/5 gốc tồn đọng round 4 (vok/voc, flu/flux, pel/puls) + tìm thêm 5 gốc MỚI bằng cách rà lại
+kỹ hơn các root chưa khai thác trong danh sách `reading` gốc: **duc/duct ↔ ducir** (dẫn dắt:
+reduce/reducir, produce/producir, introduce/introducir, conduct/conducir [⚠ es nghiêng nghĩa "lái xe"],
+seduce/seducir), **pos/pon ↔ poner** (đặt/để: compose/componer, propose/proponer, impose/imponer,
+oppose/oponer, dispose/disponer [⚠ "vứt bỏ" vs "sắp xếp, sẵn có"]), **ced/ceed/cess ↔ ceder** (đi/nhường
+— chứa **succeed/suceder, MỘT TRONG NHỮNG FALSE FRIEND NỔI TIẾNG NHẤT**: "thành công" ≠ "xảy ra";
+cũng có proceed/proceder, exceed/exceder, concede/conceder, precede/preceder), **tain/ten ↔ tener**
+(giữ: contain/contener, obtain/obtener, maintain/mantener, retain/retener, sustain/sostener),
+**sequ/secut ↔ seguir** (theo sau: sequence/secuencia, consequent/consecuente,
+subsequent/subsiguiente, pursue/perseguir [⚠ nghĩa mạnh hơn: "truy đuổi, ngược đãi"]), **vok/voc ↔
+vocar + voz** (gọi/tiếng nói: provoke/provocar, invoke/invocar, convoke/convocar, evoke/evocar,
+vocal/vocal), **flu/flux ↔ fluir** (chảy — có **affluent/afluente ⚠⚠ nghĩa lệch hoàn toàn**: "giàu có"
+≠ "phụ lưu sông"; cũng influence/influir, fluent/fluido, confluence/confluencia), **pel/puls ↔
+puls-/pulso** (đẩy: pulse/pulso, propel/propulsar, repel/repeler, expel/expulsar, impulse/impulso).
+Tổng **40 nhóm, 197 cặp, ~394 từ**.
+
+**Kiểm chứng**: batch-check 76 headword mới với 307 headword duy nhất của round 1-4 — 0 trùng. Sau khi
+ghi: quét ID — sạch (631 id, 0 trùng); quét trùng headword chéo giữa các cặp khác nhau — 0 va chạm
+thật; quét thiếu field trên cả 40 nhóm — sạch. `tsc --noEmit` sạch, `next build` EXIT=0. Playwright
+sống trên dev server, 2/2 kiểm tra pass (trang hiện đủ 40 nhóm bao gồm cặp mới; bấm cặp
+"succeed/suceder" mở đúng panel chi tiết nêu rõ cảnh báo false friend). Chụp 1 ảnh sanity-check xác
+nhận hiển thị đúng toàn bộ nội dung mới, không lỗi ký tự, rồi xoá ảnh. Dev server đã tắt.
+
+**Tồn đọng cho round 6**: đã dùng hết toàn bộ backlog đã liệt kê từ các round trước. Còn lại 1 vài gốc
+chưa khai thác cần thẩm định kỹ thêm trước khi dùng: `clud/clus/clo ↔ cluir` (đóng/bao gồm — chưa dùng
+do trùng lịch với round này, vẫn còn nguyên: include/incluir, exclude/excluir, conclude/concluir,
+seclude/recluir, occlude/ocluir), `popul ↔ pobl-` (dân số: population/población, populate/poblar,
+popular/popular, depopulate/despoblar), `flect/flex ↔ flexionar` (chỉ có ~4 cặp sạch: flexible/flexible,
+reflect/reflexionar [⚠ "phản chiếu" vs chỉ "suy ngẫm"], inflexible/inflexible, flex/flexionar). Sau 5
+round, phần lớn các gốc TRÙNG KHỚP RÕ RÀNG giữa `en.json`/`es.json` đã được khai thác — round 6 nên bắt
+đầu bằng việc quét lại kỹ để tìm các gốc còn sót (vd formar/form chưa có trong en.json dù là gốc phổ
+biến — có thể cần thêm root group mới vào `en.json` trước, nằm ngoài phạm vi tính năng thuần nội dung)
+hoặc cân nhắc hỏi người dùng có muốn mở rộng phạm vi (thêm gốc mới vào en.json để ghép cặp) hay dừng ở
+quy mô hiện tại.
+
+### 19.5. Round 6 — dùng hết 3 gốc tồn đọng cuối cùng (43 nhóm, 210 cặp, ~420 từ)
+
+Round này nhỏ hơn các round trước vì đây là 3 gốc CUỐI CÙNG còn xác nhận trùng khớp rõ ràng giữa
+`en.json`/`es.json` sau 5 round khai thác: **clud/clus/clo ↔ cluir** (đóng: include/incluir,
+exclude/excluir, conclude/concluir, seclude/recluir [⚠ "ở ẩn" vs "giam giữ", nghĩa TBN mạnh hơn],
+occlude/ocluir), **popul ↔ pobl-** (dân: population/población, populate/poblar, popular/popular,
+depopulate/despoblar — chỉ 4 cặp), **flect/flex ↔ flexionar** (uốn cong — có **reflect/reflexionar ⚠⚠
+nghĩa lệch**: tiếng Anh giữ cả nghĩa "phản chiếu ánh sáng" lẫn "suy ngẫm", tiếng Tây Ban Nha
+"reflexionar" CHỈ còn nghĩa "suy ngẫm" — muốn nói "phản chiếu" phải dùng từ khác "reflejar"; cũng có
+flexible/flexible, inflexible/inflexible, flex/flexionar — chỉ 4 cặp). Tổng **43 nhóm, 210 cặp, ~420
+từ**.
+
+**Kiểm chứng**: batch-check 22 headword mới với 382 headword duy nhất của round 1-5 — 0 trùng. Sau khi
+ghi: quét ID — sạch (673 id, 0 trùng); quét trùng headword chéo — 0 va chạm thật. `tsc --noEmit` sạch,
+`next build` EXIT=0. Playwright sống trên dev server, 2/2 kiểm tra pass. Chụp 1 ảnh sanity-check xác
+nhận hiển thị đúng, không lỗi ký tự, rồi xoá ảnh. Dev server đã tắt.
+
+**Trạng thái sau round 6**: đã dùng hết TOÀN BỘ các gốc xác nhận trùng khớp rõ ràng giữa 2 file (còn
+nguyên trong danh sách chờ từ các round trước). Muốn mở rộng thêm cần 1 trong 2 hướng: (1) thêm gốc mới
+vào `en.json` (ví dụ "form" — rất phổ biến trong tiếng Anh nhưng chưa có nhóm riêng dù `es.json` đã có
+"form-/forma" và "formar"; hoặc "solv" khớp với `es.json`'s "solver" — resolve/resolver,
+dissolve/disolver, absolve/absolver) để ghép cặp tiếp — đây là việc soạn thêm nội dung GỐC cho tiếng
+Anh, nằm ngoài phạm vi thuần tính năng cognates; (2) coi tính năng đã đạt quy mô ổn định ở 43 nhóm và
+dừng vòng lặp nội dung tại đây, chuyển hướng phục vụ user khác (thêm search/filter UI, v.v.) nếu cần.
+Cả 2 hướng đều cần người dùng xác nhận trước khi làm — không tự ý mở rộng phạm vi `en.json`.
+
+## 20. Mở rộng `/cognates` thành hub đa cặp ngôn ngữ + thêm cặp Pháp ↔ Tây Ban Nha
+
+Người dùng đặt câu hỏi tương tự mục 19 nhưng cho cặp ngôn ngữ khác: tiếng Pháp và Tây Ban Nha cũng đều
+là hậu duệ trực tiếp của tiếng Latin (khác tiếng Anh chỉ MƯỢN từ Latin qua tiếng Pháp cổ), nên hai ngôn
+ngữ này chia sẻ CÒN NHIỀU cognate hơn cả cặp Anh-Tây Ban Nha, và người Pháp học tiếng Tây Ban Nha vốn
+nổi tiếng là nhanh nhờ điều này. Vấn đề: app chưa có bất kỳ nội dung tiếng Pháp nào (không có `fr.json`
+hay ngôn ngữ "fr" trong hệ thống) — khác hẳn với cặp Anh-Tây Ban Nha ở mục 19 vốn tái dùng dữ liệu gốc
+từ có sẵn của `en.json`/`es.json`.
+
+### Quyết định kiến trúc
+
+- **KHÔNG thêm tiếng Pháp thành ngôn ngữ thứ 6 của app** (việc đó sẽ đòi hỏi khối lượng công việc khổng
+  lồ tương đương với việc ra mắt tiếng Tây Ban Nha ở mục 18 — hàng chục round nội dung âm/hình/đồng
+  nghĩa-trái nghĩa/chủ đề). Thay vào đó, coi tiếng Pháp CHỈ tồn tại trong phạm vi hẹp của tính năng
+  `/cognates` — nội dung được soạn thẳng dựa trên kiến thức từ nguyên Latin-Pháp-Tây Ban Nha thực tế
+  (không tái dùng file ngôn ngữ nào có sẵn, vì không có).
+- **Tổng quát hoá `/cognates` thành 1 "hub" nhiều cặp ngôn ngữ** thay vì hard-code riêng cặp Anh-Tây
+  Ban Nha:
+  - `src/lib/cognateStore.ts`: đổi field `en`/`es` trong mỗi cặp từ thành `a`/`b` trung lập, thêm
+    `CognatePairConfig` (key, label, cờ, tên hiển thị, locale phát âm BCP-47 thô) cho từng cặp ngôn ngữ,
+    tách biệt hoàn toàn khỏi nội dung dữ liệu.
+  - `data/en-es-cognates.json`: MIGRATE field `en`→`a`, `es`→`b` bằng script (giữ nguyên toàn bộ 43
+    nhóm/210 cặp/420 từ, đã xác nhận số lượng khớp trước/sau khi migrate).
+  - `data/fr-es-cognates.json` (mới): cùng schema, nội dung Pháp-Tây Ban Nha.
+  - Route: `/cognates` giờ là trang hub liệt kê các cặp ngôn ngữ (thẻ bấm vào từng cặp); nội dung cụ thể
+    chuyển sang `/cognates/[pair]` (`/cognates/en-es`, `/cognates/fr-es`).
+  - `CognateBrowser.tsx`: tổng quát hoá để nhận `pairSet` (cờ, tên, locale) thay vì hard-code
+    "en"/"es"/"🇬🇧"/"🇪🇸".
+  - `src/lib/tts.ts`: tách phần lõi của `speak()` thành `speakLocale(text, locale, rate)` nhận locale
+    BCP-47 thô — cho phép đọc tiếng Pháp ("fr-FR") mà KHÔNG cần thêm "fr" vào union type `Language`
+    dùng chung toàn app (tránh rủi ro phải sửa mọi `Record<Language, ...>` ở nơi khác). `speak()` cũ
+    giữ nguyên hành vi, chỉ là lớp bọc gọi `speakLocale` — không ảnh hưởng bất kỳ chỗ gọi nào khác.
+  - `src/lib/useClusterBrowser.ts`: `ClusterBrowserAccessors.wordsAt` thêm field `locale?: string`
+    (ưu tiên hơn `lang?: Language` đã có) — cho vòng lặp tự động đọc phát đúng giọng dù ngôn ngữ không
+    nằm trong `Language`. Lùi-tương-thích hoàn toàn với Chains/SynonymAntonym/CharAntonym đang dùng hook.
+  - Trang chủ: đổi link "🇬🇧↔🇪🇸 Từ đồng nguyên Anh · Tây Ban Nha" thành "🌐 Từ đồng nguyên đa ngôn ngữ"
+    (không còn gắn với 1 cặp cụ thể).
+
+### Nội dung round 1 cặp Pháp ↔ Tây Ban Nha (8 nhóm, 40 cặp, 80 từ)
+
+Khác với cặp Anh-Tây Ban Nha (chủ yếu là các "gốc từ" — root morpheme), cặp Pháp-Tây Ban Nha tận dụng
+được CẢ các **QUY TẮC HẬU TỐ SẢN SINH** (mỗi quy tắc áp dụng được cho hàng trăm-nghìn từ, giá trị "học 1
+được nhiều" cực cao) lẫn các **false friend (faux amis) kinh điển**:
+- **-tion / -ción** (Latin "-tionem"): nation/nación, solution/solución, information/información,
+  situation/situación, action/acción — quy tắc áp dụng cho GẦN NHƯ MỌI danh từ trừu tượng kết thúc
+  bằng hậu tố này ở cả 2 ngôn ngữ.
+- **-té / -dad** (Latin "-tatem"): liberté/libertad, société/sociedad, université/universidad,
+  réalité/realidad, capacité/capacidad.
+- **-eur / -or** (Latin "-orem"): couleur/color, docteur/doctor, acteur/actor, professeur/profesor,
+  chaleur/calor.
+- **-aire / -ario** (Latin "-arius/-arium"): dictionnaire/diccionario, anniversaire/aniversario
+  (⚠ lưu ý nhẹ: tiếng Pháp dùng chung cho cả sinh nhật lẫn ngày kỷ niệm, tiếng Tây Ban Nha tách riêng
+  "cumpleaños" cho sinh nhật), nécessaire/necesario, ordinaire/ordinario, salaire/salario.
+- **-ment / -mente** (Latin "mente" — bằng tâm trí): naturellement/naturalmente, finalement/finalmente,
+  généralement/generalmente, seulement/solamente, exactement/exactamente.
+- **Faux amis nổi tiếng #1**: entendre/entender (⚠⚠ "nghe" vs "hiểu"), large/largo (⚠⚠ "rộng" vs
+  "dài"), attendre/atender (⚠⚠ "chờ đợi" vs "chăm sóc, tiếp đãi"), vase/vaso (⚠⚠ "bình hoa" vs "cốc
+  nước"), carte/carta (⚠ "bản đồ/thực đơn" vs "lá thư").
+- **Faux amis nổi tiếng #2**: constipé/constipado (⚠⚠ "táo bón" vs "bị cảm lạnh"), demander/demandar
+  (⚠⚠ "hỏi" vs "khởi kiện" — cùng hiện tượng đã thấy ở cặp Anh-TBN), **embarrassé/embarazada (⚠⚠⚠ MỘT
+  TRONG NHỮNG FALSE FRIEND NỔI TIẾNG NHẤT THẾ GIỚI: "xấu hổ" vs "đang mang thai")**, essayer/ensayar
+  (⚠ "thử" vs "tập dượt"), rare/raro (⚠ "hiếm" vs "kỳ lạ").
+- **"s" biến mất, dấu mũ thay thế** (hiện tượng chính tả lịch sử nổi tiếng của tiếng Pháp — Old French
+  giữ "s" trước phụ âm, tiếng Pháp hiện đại bỏ "s" và thêm dấu mũ, Tây Ban Nha vẫn giữ "s"):
+  hôpital/hospital, fête/fiesta, île/isla, bête/bestia, coûter/costar.
+
+**Kiểm chứng**: quét ID/U+FFFD trên `fr-es-cognates.json` mới — sạch (128 id, 0 trùng). Migrate
+`en-es-cognates.json` xác nhận số lượng KHÔNG đổi trước/sau (43 nhóm/210 cặp/420 từ). `tsc --noEmit`
+sạch (kiểm tra ngay sau khi tổng quát hoá kiến trúc, trước khi thêm nội dung Pháp, để tách lỗi refactor
+khỏi lỗi nội dung), `next build` EXIT=0 với 2 route mới `/cognates` (hub) và `/cognates/[pair]`.
+Playwright sống trên dev server: verify riêng phần refactor (cặp en-es cũ vẫn hoạt động đúng sau khi đổi
+sang schema `a`/`b`) TRƯỚC, rồi mới verify nội dung Pháp-Tây Ban Nha mới — hub hiện đủ 2 cặp,
+`/cognates/fr-es` hiện đúng nội dung, bấm cặp "embarrassé/embarazada" mở đúng panel có cờ 🇫🇷/🇪🇸 và
+cảnh báo false friend. 1 lần đầu bấm nhầm vào đoạn mô tả nhóm (chứa cả 2 từ trong ví dụ minh hoạ) thay
+vì thẻ cặp thật — sửa script kiểm thử để nhắm đúng `button` thay vì bất kỳ text nào, không phải lỗi ứng
+dụng. Ảnh chụp cuối cùng xác nhận hiển thị đúng, đã xoá. Dev server đã tắt.
+
+**Tồn đọng**: cặp Pháp-Tây Ban Nha còn RẤT NHIỀU tiềm năng mở rộng (nhiều quy tắc hậu tố khác: -isme/
+-ismo, -logie/-logía, -que/-co, và kho faux amis Pháp-Tây Ban Nha còn lớn) — có thể tiếp tục round 2+
+theo đúng mô hình round-based đã áp dụng cho cặp Anh-Tây Ban Nha. Khác với cặp Anh-Tây Ban Nha (đã cạn
+nguồn "gốc từ có sẵn"), cặp Pháp-Tây Ban Nha không bị giới hạn bởi dữ liệu app có sẵn — có thể mở rộng
+lâu dài nếu người dùng tiếp tục yêu cầu.
+
+### 20.1. Round 2 cặp Pháp ↔ Tây Ban Nha — thêm 8 nhóm nữa (16 nhóm, 80 cặp, 160 từ)
+
+Tiếp tục với 5 quy tắc hậu tố sản sinh mới + 1 nhóm faux amis + 1 nhóm "cặp song sinh không lệch
+nghĩa" (để cân bằng, tránh khiến người học nghĩ MỌI cặp đồng nguyên đều là bẫy) + 1 nhóm hiện tượng
+chính tả mới (biến thể của quy tắc dấu mũ ở round 1, lần này ở ĐẦU từ với dấu sắc):
+
+- **-isme / -ismo** (Hy Lạp "-ismos"): tourisme/turismo, réalisme/realismo, optimisme/optimismo,
+  racisme/racismo, mécanisme/mecanismo.
+- **-logie / -logía** (Hy Lạp "-logia"): biologie/biología, technologie/tecnología,
+  psychologie/psicología, géologie/geología, sociologie/sociología.
+- **-que / -co** (Hy Lạp "-ikos" qua Latin "-icus"): logique/lógico, pratique/práctico,
+  historique/histórico, physique/físico, magnifique/magnífico.
+- **-eux / -oso** (Latin "-osus"): généreux/generoso, curieux/curioso, nerveux/nervioso,
+  furieux/furioso, précieux/precioso.
+- **-if / -ivo** (Latin "-ivus"): actif/activo, positif/positivo, négatif/negativo, créatif/creativo,
+  attractif/atractivo.
+- **Faux amis nổi tiếng #3**: molester/molestar (⚠⚠ "hành hung, quấy rối" vs "làm phiền nhẹ"),
+  figure/figura (⚠ "khuôn mặt" (thông tục) vs "vóc dáng"), recette/receta (⚠ "công thức nấu ăn" vs
+  "công thức nấu ăn HOẶC đơn thuốc"), cave/cueva (⚠ "hầm rượu" vs "hang động tự nhiên"),
+  librairie/librería (lưu ý: CẢ 2 đều nghĩa "hiệu sách", KHÔNG phải "thư viện" như tiếng Anh dễ gây
+  nhầm — dùng để chỉ ra 1 bẫy khác với tiếng Anh, không phải giữa Pháp-TBN).
+- **Cặp từ song sinh (không lệch nghĩa)**: travail/trabajo (cùng gốc "tripalium" — dụng cụ tra tấn cổ,
+  thú vị), changer/cambiar, douleur/dolor, important/importante, possible/posible.
+- **"é-" đầu từ ↔ "es-" đầu từ**: nửa còn lại của hiện tượng dấu mũ ở round 1 — Latin có "s" đầu từ
+  trước phụ âm, Old French giữ "es-", Pháp hiện đại rút gọn còn "é-" (dấu sắc, vì không có nguyên âm
+  đứng trước để mang dấu mũ), Tây Ban Nha giữ nguyên "es-": école/escuela, état/estado, étude/estudio,
+  étranger/extranjero, épice/especia.
+
+Tổng **16 nhóm, 80 cặp, 160 từ**.
+
+**Kiểm chứng**: batch-check 80 headword mới với 80 headword duy nhất của round 1 — 0 trùng. Sau khi
+ghi: quét ID — sạch (256 id, 0 trùng); quét trùng headword chéo — 0 va chạm thật. `tsc --noEmit` sạch,
+`next build` EXIT=0. Playwright sống trên dev server, 3/3 kiểm tra pass (hub hiện đúng 16 nhóm; trang
+`/cognates/fr-es` hiện đủ nội dung mới; bấm cặp "molester/molestar" mở đúng panel chi tiết nêu rõ cảnh
+báo nghĩa lệch). Rút kinh nghiệm từ round trước: dùng `getByRole('button', {name: ...})` thay vì
+`getByText` để tránh nhắm nhầm vào đoạn mô tả nhóm. Chụp 1 ảnh sanity-check xác nhận hiển thị đúng toàn
+bộ 16 nhóm, không lỗi ký tự, rồi xoá ảnh. Dev server đã tắt.
+
+**Tồn đọng**: còn nhiều quy tắc hậu tố khác chưa khai thác (-able/-able gần như giống hệt, -ance/-ancia,
+-if→-ivo đã dùng nhưng còn nhiều từ, -eur→-or đã dùng round 1) và kho faux amis Pháp-Tây Ban Nha vẫn
+còn lớn (ví dụ: "propre" Pháp = sạch sẽ/của riêng vs "propio" TBN = của riêng, chỉ khớp 1 nghĩa;
+"jubilación"...). Nguồn nội dung cho cặp này KHÔNG bị giới hạn như cặp Anh-TBN — có thể tiếp tục vô
+thời hạn theo yêu cầu.
+
+### 20.2. Round 3 cặp Pháp ↔ Tây Ban Nha — thêm 8 nhóm nữa (24 nhóm, 120 cặp, 240 từ)
+
+Người dùng xác nhận thêm: "Pháp - Tây [Ban Nha] rất gần và hầu như có lượng từ vựng tương đồng giống
+nhau rất lớn" — tiếp tục với 5 quy tắc hậu tố mới + 2 nhóm faux amis + 1 nhóm chuyên đề MỚI đặc biệt
+hữu ích cho người đã biết tiếng Anh:
+
+- **-able / -able** (Latin "-abilis"): hậu tố GIỐNG HỆT NHAU ở cả 2 ngôn ngữ — probable/probable,
+  favorable/favorable, adorable/adorable, admirable/admirable, responsable/responsable.
+- **-ance / -ancia** (Latin "-antia"): distance/distancia, importance/importancia,
+  élégance/elegancia, tolérance/tolerancia, ignorance/ignorancia.
+- **-ent / -ente** (Latin "-ens/-entis"): patient/paciente, différent/diferente, excellent/excelente,
+  intelligent/inteligente, urgent/urgente.
+- **-oire / -orio** (Latin "-orius/-orium"): laboratoire/laboratorio, territoire/territorio,
+  obligatoire/obligatorio, dortoir/dormitorio (⚠ "phòng ngủ tập thể" vs "phòng ngủ nói chung"),
+  répertoire/repertorio.
+- **-ateur / -ador** (Latin "-ator"): créateur/creador, spectateur/espectador, ordinateur/ordenador
+  (lưu ý biến thể vùng miền: Tây Ban Nha châu Âu dùng "ordenador", Mỹ Latinh dùng "computadora"),
+  administrateur/administrador, navigateur/navegador.
+- **Faux amis nổi tiếng #4**: propre/propio (⚠ "sạch sẽ + của riêng" vs chỉ "của riêng"), brave/bravo
+  (⚠⚠ "tốt bụng, dũng cảm" vs "hung dữ"), quitter/quitar (⚠⚠ "rời khỏi" vs "lấy đi, gỡ bỏ"),
+  carpette/carpeta (⚠⚠ "tấm thảm chùi chân" vs "cặp tài liệu"), réaliser/realizar (⚠⚠ "nhận ra + thực
+  hiện" vs chỉ "thực hiện").
+- **Faux amis nổi tiếng #5**: assister/asistir (⚠ "tham dự + hỗ trợ" vs chỉ "tham dự"), façon/facción
+  (⚠⚠ "cách thức" vs "phe phái chính trị"), parole/palabra (⚠ "lời nói/lời hứa" vs "từ, chữ" nói
+  chung), supporter/soportar (⚠ "cổ vũ thể thao + chịu đựng" vs chỉ "chịu đựng"), journée/jornada (⚠
+  "một ngày nói chung" vs "ngày làm việc/chặng hành trình").
+- **[MỚI] Giống nhau Pháp-Tây Ban Nha, nhưng KHÁC bẫy nghĩa nổi tiếng của tiếng Anh**: nhóm chuyên đề
+  dành riêng cho người đã biết tiếng Anh — những từ mà tiếng Pháp VÀ Tây Ban Nha hoàn toàn thống nhất
+  với nhau, nhưng tiếng Anh lại lệch nghĩa: actuel/actual (= "hiện tại", KHÔNG phải "thực tế" như tiếng
+  Anh), sensible/sensible (= "nhạy cảm", KHÔNG phải "biết điều" như tiếng Anh), collège/colegio (=
+  "trường phổ thông", KHÔNG phải "đại học" như tiếng Anh "college"), cabinet/gabinete (= "văn
+  phòng/nội các", KHÔNG phải "cái tủ" như tiếng Anh), lecture/lectura (= "việc đọc", KHÔNG phải "bài
+  giảng" như tiếng Anh). Nhóm này biến điểm yếu tiềm ẩn (giao thoa từ tiếng Anh đã biết) thành điểm
+  mạnh, củng cố thêm sự tương đồng Pháp-Tây Ban Nha.
+
+Tổng **24 nhóm, 120 cặp, 240 từ**.
+
+**Kiểm chứng**: batch-check 80 headword mới với 160 headword duy nhất của round 1-2 — 0 trùng. Sau khi
+ghi: quét ID — sạch (384 id, 0 trùng); quét trùng headword chéo — 0 va chạm thật. `tsc --noEmit` sạch,
+`next build` EXIT=0. Playwright sống trên dev server, 3/3 kiểm tra pass (hub hiện đúng 24 nhóm; trang
+hiện đủ nội dung mới bao gồm nhóm "khác bẫy tiếng Anh"; bấm cặp "collège/colegio" mở đúng panel có nêu
+rõ đối chiếu với tiếng Anh). Chụp 1 ảnh sanity-check xác nhận hiển thị đúng toàn bộ 24 nhóm, không lỗi
+ký tự, rồi xoá ảnh. Dev server đã tắt.
+
+**Tồn đọng**: nhóm "khác bẫy tiếng Anh" mới thêm ở round này có tiềm năng mở rộng riêng (còn nhiều từ
+Pháp/TBN giống nhau nhưng khác tiếng Anh: "librairie/librería" ở round 2 cũng thuộc chủ đề này). Cặp
+Pháp-Tây Ban Nha vẫn chưa có dấu hiệu cạn nguồn — có thể tiếp tục vô thời hạn.
+
+### 20.3. Round 4 cặp Pháp ↔ Tây Ban Nha — thêm 8 nhóm nữa (32 nhóm, 160 cặp, 320 từ)
+
+Tiếp tục ngay trong cùng lượt yêu cầu (người dùng gửi lại đúng trigger giữa lúc đang ghi bộ nhớ round
+3) — 5 quy tắc hậu tố mới + 2 nhóm faux amis + tiếp tục nhóm chuyên đề "khác bẫy tiếng Anh":
+
+- **-esse / -eza** (Latin "-itia"): tristesse/tristeza, richesse/riqueza, noblesse/nobleza,
+  rudesse/rudeza, justesse/justeza.
+- **-itude / -itud** (Latin "-itudo"): gratitude/gratitud, attitude/actitud, altitude/altitud,
+  exactitude/exactitud, longitude/longitud.
+- **-graphie / -grafía** (Hy Lạp "-graphia"): photographie/fotografía, géographie/geografía,
+  biographie/biografía, calligraphie/caligrafía, chorégraphie/coreografía.
+- **-isation / -ización** (hậu tố kép hiện đại, rất sản sinh): organisation/organización,
+  réalisation/realización, modernisation/modernización, globalisation/globalización,
+  civilisation/civilización.
+- **-al / -al** (Latin "-alis", VIẾT GIỐNG HỆT NHAU): national/nacional (khác chút), rồi
+  social/social, local/local, central/central, original/original — 4/5 từ trong nhóm này viết giống
+  hệt nhau hoàn toàn giữa 2 ngôn ngữ.
+- **Faux amis nổi tiếng #6**: tirer/tirar (⚠⚠ "kéo, bắn súng" vs "ném, vứt bỏ"), **cueillir/coger (⚠⚠⚠
+  kèm LƯU Ý AN TOÀN NGÔN NGỮ: "coger" là từ tục ở phần lớn Mỹ Latinh, nên dùng "agarrar/tomar" thay
+  thế)**, chambre/cámara (⚠⚠ "phòng ở" vs "máy ảnh"), manteau/manto (⚠ "áo khoác thường" vs "áo choàng
+  lễ nghi"), plat/plato (⚠ "món ăn+phẳng" vs chỉ "đĩa, món ăn").
+- **Faux amis nổi tiếng #7**: fantasme/fantasma (⚠⚠ "ảo tưởng" vs "con ma"), pièce/pieza (⚠ "phòng/
+  đồng xu/vở kịch" vs "mảnh, bộ phận"), car/carro (biến thể vùng miền: TBN châu Âu = "xe kéo" (ô tô là
+  "coche"), Mỹ Latinh = "ô tô"), **addition/adición (⚠⚠ RẤT THỰC DỤNG: "hoá đơn nhà hàng" vs chỉ "phép
+  cộng" — hoá đơn tiếng TBN là "la cuenta")**, monnaie/moneda (⚠ nhẹ: "tiền lẻ" vs "tiền tệ nói
+  chung").
+- **Giống nhau Pháp-TBN, khác bẫy tiếng Anh #2**: éventuel/eventual (≠ EN "eventual"=cuối cùng),
+  grand/grande (≠ EN "grand"=hoành tráng), conducteur/conductor (≠ EN "conductor"=nhạc trưởng),
+  assumer/asumir (≠ EN "assume"=giả định), compréhensif/comprensivo (≠ EN "comprehensive"=toàn diện).
+
+Tổng **32 nhóm, 160 cặp, 320 từ**.
+
+**Kiểm chứng**: batch-check 80 headword mới với 234 headword duy nhất của round 1-3 — 0 trùng. Sau khi
+ghi: quét ID — sạch (512 id, 0 trùng); quét trùng headword chéo — 0 va chạm thật. `tsc --noEmit` sạch,
+`next build` EXIT=0. Playwright sống trên dev server, 3/3 kiểm tra pass (hub hiện đúng 32 nhóm; trang
+hiện đủ nội dung mới; bấm cặp "addition/adición" mở đúng panel nêu rõ cảnh báo hoá đơn nhà hàng). Chụp
+1 ảnh sanity-check xác nhận hiển thị đúng toàn bộ 32 nhóm, không lỗi ký tự, rồi xoá ảnh. Dev server đã
+tắt.
+
+**Tồn đọng**: cặp Pháp-Tây Ban Nha vẫn chưa cạn nguồn — còn nhiều quy tắc hậu tố khác (-if/-ivo đã dùng
+nhưng còn nhiều từ, -in/-ino, -eau/-uelo...) và kho faux amis vẫn còn phong phú.
+
+### 20.4. Round 5 cặp Pháp ↔ Tây Ban Nha — thêm 8 nhóm nữa (40 nhóm, 200 cặp, 400 từ)
+
+5 quy tắc hậu tố gốc Hy Lạp mới (khai thác nhóm từ khoa học/kỹ thuật, chưa dùng ở các round trước) + 2
+nhóm faux amis + tiếp tục nhóm "khác bẫy tiếng Anh":
+
+- **-mètre / -metro** (Hy Lạp "metron"): thermomètre/termómetro, kilomètre/kilómetro,
+  diamètre/diámetro, périmètre/perímetro, baromètre/barómetro.
+- **-phobie / -fobia** (Hy Lạp "phobos"): claustrophobie/claustrofobia, xénophobie/xenofobia,
+  hydrophobie/hidrofobia, agoraphobie/agorafobia, technophobie/tecnofobia.
+- **-scope / -scopio** (Hy Lạp "skopein"): télescope/telescopio, microscope/microscopio,
+  périscope/periscopio, stéthoscope/estetoscopio, kaléidoscope/caleidoscopio.
+- **-phone / -fono** (Hy Lạp "phone"): téléphone/teléfono, microphone/micrófono, xylophone/xilófono,
+  saxophone/saxofón (⚠ lưu ý chính tả: TBN rút gọn "-fón" thay vì "-fono" đầy đủ riêng từ này),
+  francophone/francófono.
+- **-logue / -logo** (Hy Lạp "logos"): dialogue/diálogo, monologue/monólogo, catalogue/catálogo,
+  épilogue/epílogo, prologue/prólogo.
+- **Faux amis nổi tiếng #8**: rester/restar (⚠⚠ "ở lại" vs "phép trừ"), défendre/defender (⚠ "bảo
+  vệ+cấm" vs chỉ "bảo vệ"), arriver/arribar (⚠ "đến nơi, thông dụng" vs "cập bến, trang trọng"),
+  compter/contar (⚠⚠ "đếm" vs "đếm + KỂ CHUYỆN"), sentir/sentir (⚠ nhẹ, cùng chính tả nhưng phạm vi
+  nghĩa khác biệt chút — "ngửi+cảm thấy" vs chỉ "cảm thấy").
+- **Faux amis nổi tiếng #9**: mở đầu bằng **parent/pariente (⚠⚠⚠ MỘT TRONG NHỮNG FALSE FRIEND NỔI
+  TIẾNG NHẤT, dạy trong hầu hết giáo trình — "cha mẹ" vs "họ hàng nói chung", và là trường hợp HIẾM mà
+  tiếng Anh "parent" lại đứng về phía tiếng PHÁP chứ không phải Tây Ban Nha)**; cũng có user/usar (⚠
+  "làm mòn" vs "sử dụng nói chung"), cerner/cercar (⚠ "nắm bắt nghĩa bóng" vs "rào lại vật lý"),
+  traiter/tratar (⚠ "xử lý" vs "xử lý + CỐ GẮNG làm gì đó"), porter/portar (⚠ "mang/mặc thông dụng" vs
+  "mang, trang trọng/quân sự").
+- **Giống nhau Pháp-TBN, khác bẫy tiếng Anh #3**: diversion/diversión (≠ EN "diversion"=đường vòng),
+  **prétendre/pretender (⚡ false friend nổi tiếng vs tiếng Anh: "khẳng định, tuyên bố" ≠ EN
+  "pretend"=giả vờ)**, **ignorer/ignorar (⚡ "không biết" ≠ EN "ignore"=phớt lờ có chủ đích)**,
+  délivrer/librar (≠ EN "deliver"=giao hàng), manifestation/manifestación (≠ EN
+  "manifestation"=sự biểu hiện, hiếm khi nghĩa "biểu tình").
+
+Tổng **40 nhóm, 200 cặp, 400 từ**.
+
+**Kiểm chứng**: batch-check 80 headword mới với 310 headword duy nhất của round 1-4 — 0 trùng. Sau khi
+ghi: quét ID — sạch (640 id, 0 trùng); quét trùng headword chéo — 0 va chạm thật. `tsc --noEmit` sạch,
+`next build` EXIT=0. Playwright sống trên dev server, 3/3 kiểm tra pass (hub hiện đúng 40 nhóm; trang
+hiện đủ nội dung mới; bấm cặp "parent/pariente" mở đúng panel nêu rõ cảnh báo false friend nổi tiếng).
+Chụp 1 ảnh sanity-check xác nhận hiển thị đúng toàn bộ 40 nhóm, không lỗi ký tự, rồi xoá ảnh. Dev
+server đã tắt.
+
+**Tổng kết sau 5 round cặp Pháp-Tây Ban Nha**: 40 nhóm, 200 cặp, 400 từ — đã dùng qua 25 quy tắc hậu tố
+sản sinh khác nhau (Latin lẫn Hy Lạp), 9 nhóm faux amis (45 cặp bẫy nghĩa), 2 hiện tượng chính tả lịch
+sử tiếng Pháp, và 3 vòng nhóm chuyên đề "khác bẫy tiếng Anh". Vẫn chưa có dấu hiệu cạn nguồn — kho từ
+vựng gốc Latin/Hy Lạp dùng chung giữa 2 ngôn ngữ Rôman này còn rất lớn.
+
+### 20.5. Round 6 cặp Pháp ↔ Tây Ban Nha — thêm 8 nhóm nữa (48 nhóm, 240 cặp, 480 từ)
+
+5 quy tắc hậu tố mới (2 nhóm Hy Lạp về chính trị/y học, 1 nhóm Hy Lạp về thể thao, 1 nhóm Latin về ẩm
+thực/hành động, 1 nhóm Hy Lạp ngôn ngữ học) + 2 nhóm faux amis + round 4 của nhóm "khác bẫy tiếng Anh":
+
+- **-cratie / -cracia** (Hy Lạp "kratos"): démocratie/democracia, aristocratie/aristocracia,
+  bureaucratie/burocracia, théocratie/teocracia, autocratie/autocracia.
+- **-thérapie / -terapia** (Hy Lạp "therapeia"): chimiothérapie/quimioterapia,
+  psychothérapie/psicoterapia, physiothérapie/fisioterapia, aromathérapie/aromaterapia,
+  hydrothérapie/hidroterapia.
+- **-drome / -dromo** (Hy Lạp "dromos"): aérodrome/aeródromo, hippodrome/hipódromo,
+  vélodrome/velódromo, palindrome/palíndromo, syndrome/síndrome.
+- **-ade / -ada** (Latin "-ata") — có 2 cặp lệch nghĩa thú vị dù cùng hậu tố: façade/fachada,
+  salade/ensalada (⚠ TBN thêm tiền tố "en-"), limonade/limonada, parade/parada (⚠⚠ "diễu binh" vs
+  "trạm dừng"), balade/balada (⚠⚠ "đi dạo" vs "bản ballad" — 2 từ này thực ra KHÔNG cùng gốc thật, chỉ
+  trùng hậu tố ngẫu nhiên).
+- **-onyme / -ónimo** (Hy Lạp "onoma"): synonyme/sinónimo, antonyme/antónimo, pseudonyme/seudónimo,
+  acronyme/acrónimo, homonyme/homónimo.
+- **Faux amis nổi tiếng #10**: essence/esencia (⚠⚠ "xăng+bản chất" vs chỉ "bản chất"),
+  journal/jornal (⚠⚠ "tờ báo/nhật ký" vs "tiền công theo ngày"), cure/cura (⚠⚠ "đợt điều trị" vs
+  "linh mục"), sac/saco (⚠ "túi xách" vs "bao tải/áo vest tuỳ vùng"), cargo/cargo (⚠ viết giống hệt
+  nhưng "tàu chở hàng" vs "chức vụ").
+- **Faux amis nổi tiếng #11**: biscuit/bizcocho (⚠ "bánh quy giòn" vs "bánh bông lan"), gomme/goma (⚠
+  "cục tẩy" vs "cao su, keo dán"), chef/jefe (⚠⚠ "đầu bếp+sếp" vs chỉ "sếp"), boutique/botica (⚠⚠
+  "cửa hàng thời trang" vs "hiệu thuốc truyền thống"), cru/crudo (⚠ nhẹ: fr thêm nghĩa "vùng nho danh
+  tiếng").
+- **Giống nhau Pháp-TBN, khác bẫy tiếng Anh #4**: apologie/apología (⚡ ≠ EN "apology"=lời xin lỗi),
+  libraire/librero (≠ EN "librarian"=thủ thư), consistant/consistente (≠ EN "consistent"=nhất quán),
+  **sympathique/simpático (⚡ false friend nổi tiếng bậc nhất vs tiếng Anh: "dễ mến" ≠ EN
+  "sympathetic"=thông cảm)**, actuellement/actualmente (≠ EN "actually"=thực ra).
+
+Tổng **48 nhóm, 240 cặp, 480 từ**.
+
+**Kiểm chứng**: batch-check 80 headword mới với 389 headword duy nhất của round 1-5 — 0 trùng. Sau khi
+ghi: quét ID — sạch (768 id, 0 trùng); quét trùng headword chéo — 0 va chạm thật. `tsc --noEmit` sạch,
+`next build` EXIT=0. Playwright sống trên dev server, 3/3 kiểm tra pass (hub hiện đúng 48 nhóm; trang
+hiện đủ nội dung mới; bấm cặp "sympathique/simpático" mở đúng panel nêu rõ đối chiếu với tiếng Anh).
+Chụp 1 ảnh sanity-check xác nhận hiển thị đúng toàn bộ 48 nhóm, không lỗi ký tự, rồi xoá ảnh. Dev
+server đã tắt.
+
+**Tồn đọng**: cặp Pháp-Tây Ban Nha vẫn chưa cạn nguồn sau 6 round (48 nhóm, 240 cặp, 480 từ, 30 quy tắc
+hậu tố, 11 vòng faux amis, 4 vòng "khác bẫy tiếng Anh").
+
+### 20.6. Round 7 cặp Pháp ↔ Tây Ban Nha — thêm 8 nhóm nữa (56 nhóm, 280 cặp, 560 từ)
+
+5 quy tắc hậu tố mới (trong đó có 1 nhóm minh hoạ cách 2 quy tắc đã học GHÉP LẠI với nhau) + 2 nhóm faux
+amis + round 5 của nhóm "khác bẫy tiếng Anh":
+
+- **-gramme / -grama** (Hy Lạp "gramma"): télégramme/telegrama, programme/programa,
+  diagramme/diagrama, kilogramme/kilogramo, monogramme/monograma.
+- **-iste / -ista** (Hy Lạp/Latin, chỉ người theo/thực hành): artiste/artista, dentiste/dentista,
+  pianiste/pianista, optimiste/optimista, touriste/turista.
+- **-ure / -ura** (Latin "-ura"): aventure/aventura, structure/estructura (⚠ TBN thêm "es-"),
+  peinture/pintura, capture/captura, rupture/ruptura.
+- **[MỚI] -ivité / -ividad** — minh hoạ CÁCH CÁC QUY TẮC GHÉP LẠI: kết hợp "-if/-ivo" (round 2) +
+  "-té/-dad" (round 1): activité/actividad, créativité/creatividad, objectivité/objetividad,
+  négativité/negatividad, productivité/productividad.
+- **-ence / -encia** (Latin "-entia", song sinh với "-ance/-ancia" ở round 3): présence/presencia,
+  absence/ausencia, différence/diferencia, conséquence/consecuencia, influence/influencia.
+- **Faux amis nổi tiếng #12**: cotisation/cotización (⚠⚠ "phí đóng góp" vs "giá chứng khoán"),
+  location/locación (⚠⚠ "cho thuê" vs "địa điểm quay phim"), raison/razón (✓ KHÔNG lệch nghĩa — kèm
+  lưu ý phân biệt với "raisin"=nho, từ khác gốc hoàn toàn), cadre/cuadro (⚠ "quản lý cấp trung" vs
+  "bức tranh"), **goûter/gustar (⚠⚠ RẤT QUAN TRỌNG vì "gustar" là từ TBN cơ bản nhất: "nếm thử" vs
+  "làm hài lòng, thích")**.
+- **Faux amis nổi tiếng #13**: plancher/planchar (⚠⚠ "sàn nhà" vs "ủi quần áo"), chandelle/candela (⚠
+  nhẹ), occasion/ocasión (⚠ nhẹ), note/nota (⚠ nhẹ), brasier/brasero (⚠ "biển lửa" vs "lò sưởi than
+  nhỏ").
+- **Giống nhau Pháp-TBN, khác bẫy tiếng Anh #5**: mở đầu bằng **avocat/abogado (⚡ thú vị: KHÔNG liên
+  quan quả bơ dù giống tiếng Anh "avocado" — cả 2 đều nghĩa "luật sư", quả bơ TBN là "aguacate" mượn
+  từ tiếng Nahuatl; tiếng Pháp trùng hợp mượn lại chính từ "avocat"=luật sư để đặt tên quả bơ)**;
+  cũng có fastidieux/fastidioso (≠ EN "fastidious"=kỹ tính), récupérer/recuperar (≠ EN
+  "recuperate"=hồi phục sức khoẻ, hẹp hơn), fabrique/fábrica (≠ EN "fabric"=vải), confection/confección
+  (≠ EN "confection"=đồ ngọt).
+
+Tổng **56 nhóm, 280 cặp, 560 từ**.
+
+**Kiểm chứng**: batch-check 80 headword mới với 468 headword duy nhất của round 1-6 — 0 trùng; đặc biệt
+cẩn thận tránh trùng "físico" (đã dùng ở round 2 cho nghĩa tính từ "thuộc thể chất") khi cân nhắc thêm
+cặp "physicien/físico" (nghĩa danh từ "nhà vật lý học") — quyết định BỎ QUA ý tưởng này để tránh trùng
+headword giữa 2 cặp khác nhau. Sau khi ghi: quét ID — sạch (896 id, 0 trùng); quét trùng headword chéo
+— 0 va chạm thật. `tsc --noEmit` sạch, `next build` EXIT=0. Playwright sống trên dev server, 3/3 kiểm
+tra pass (hub hiện đúng 56 nhóm; trang hiện đủ nội dung mới; bấm cặp "avocat/abogado" mở đúng panel nêu
+rõ giải thích thú vị về quả bơ). Chụp 1 ảnh sanity-check xác nhận hiển thị đúng toàn bộ 56 nhóm, không
+lỗi ký tự, rồi xoá ảnh. Dev server đã tắt.
+
+**Tổng kết sau 7 round cặp Pháp-Tây Ban Nha**: 56 nhóm, 280 cặp, 560 từ — 35 quy tắc hậu tố (Latin lẫn
+Hy Lạp), 13 vòng faux amis (65 cặp), 2 hiện tượng chính tả lịch sử tiếng Pháp, 5 vòng nhóm "khác bẫy
+tiếng Anh" (25 cặp). Vẫn chưa có dấu hiệu cạn nguồn.
+
+### 20.7. Round 8 cặp Pháp ↔ Tây Ban Nha — thêm 8 nhóm nữa (64 nhóm, 317 cặp, ~634 từ)
+
+4 quy tắc hậu tố mới + 2 nhóm faux amis + 1 nhóm "cặp song sinh" mới + round 6 (quy mô nhỏ hơn) của
+nhóm "khác bẫy tiếng Anh":
+
+- **-ible / -ible** (Latin "-ibilis", VIẾT GIỐNG HỆT NHAU): terrible/terrible, horrible/horrible,
+  visible/visible, flexible/flexible, compatible/compatible.
+- **-pathie / -patía** (Hy Lạp "pathos"): sympathie/simpatía (dạng danh từ, khác tính từ
+  "sympathique/simpático" đã học round 6), antipathie/antipatía, télépathie/telepatía,
+  homéopathie/homeopatía, ostéopathie/osteopatía.
+- **-métrie / -metría** (Hy Lạp "metron", ngành/khái niệm đo — sóng đôi với "-mètre/-metro" là DỤNG CỤ
+  đo ở round 5): symétrie/simetría, géométrie/geometría, asymétrie/asimetría,
+  trigonométrie/trigonometría, biométrie/biometría.
+- **-uel / -ual** (Latin "-ualis", biến thể của "-al" round 4): annuel/anual, individuel/individual,
+  usuel/usual, graduel/gradual, manuel/manual (lưu ý: từ đa nghĩa giống nhau ở cả 2 bên — "thủ công" +
+  "sách hướng dẫn" — không phải bẫy nghĩa).
+- **Faux amis nổi tiếng #14**: compromis/compromiso (⚠⚠ "thoả hiệp" vs "cam kết"),
+  correspondance/correspondencia (⚠ nhẹ), farce/farsa (⚠⚠ "nhân nhồi thức ăn+trò đùa" vs "vở hài
+  kịch, trò lừa bịp"), consigne/consigna (⚠ "ký gửi hành lý" vs "khẩu hiệu"), amende/enmienda (⚠⚠
+  "tiền phạt" vs "tu chính án").
+- **Faux amis nổi tiếng #15**: avis/aviso (⚠ "ý kiến" vs "thông báo"), carrière/carrera (⚠ "mỏ đá" vs
+  "cuộc đua"), **robe/ropa (⚠⚠ RẤT QUAN TRỌNG vì "ropa" là từ TBN cơ bản nhất cho "quần áo": fr thu
+  hẹp thành "váy đầm/áo choàng" cụ thể)**, acte/acta (⚠ "văn kiện pháp lý" vs "biên bản họp").
+- **[MỚI] Cặp từ song sinh #2** (không lệch nghĩa): meuble/mueble, gérant/gerente,
+  escalier/escalera, conduire/conducir, escale/escala, cuisine/cocina.
+- **Giống nhau Pháp-TBN, khác bẫy tiếng Anh #6** (quy mô nhỏ hơn hẳn — chỉ 2 cặp, xem lý do bên dưới):
+  éventuellement/eventualmente (≠ EN "eventually"=cuối cùng), conserve/conserva (≠ EN
+  "conserve"=mứt/bảo tồn).
+
+Tổng **64 nhóm, 317 cặp, ~634 từ** (round này không tròn 40 cặp — 2 nhóm faux amis + nhóm "khác bẫy
+tiếng Anh" có quy mô nhỏ hơn 5 vì ưu tiên chất lượng, không ép thêm cặp gượng ép/thiếu chính xác).
+
+**Kiểm chứng**: batch-check 74 headword mới với 548 headword duy nhất của round 1-7 — 0 trùng. Sau khi
+ghi: quét ID — sạch (1015 id, 0 trùng); quét trùng headword chéo — 0 va chạm thật. `tsc --noEmit` sạch,
+`next build` EXIT=0. Playwright sống trên dev server, 3/3 kiểm tra pass (hub hiện đúng 64 nhóm; trang
+hiện đủ nội dung mới; bấm cặp "robe/ropa" mở đúng panel nêu rõ tầm quan trọng của từ). Chụp 1 ảnh
+sanity-check xác nhận hiển thị đúng toàn bộ 64 nhóm, không lỗi ký tự, rồi xoá ảnh. Dev server đã tắt.
+
+**Nhận định quan trọng sau round 8**: nhóm chuyên đề "khác bẫy tiếng Anh" (đã chạy 6 vòng, 27 cặp) đang
+CHẠM GẦN GIỚI HẠN TỰ NHIÊN — vì tiếng Anh vốn mượn rất nhiều từ trực tiếp từ tiếng Pháp lịch sử nên PHẦN
+LỚN các từ đồng nguyên Pháp-Tây Ban Nha CŨNG khớp nghĩa với tiếng Anh (không tạo được đối chiếu thú
+vị); các trường hợp thực sự "Pháp+TBN đồng thuận nhưng khác tiếng Anh" là NGOẠI LỆ hiếm, và phần lớn
+những ví dụ nổi tiếng nhất đã được khai thác qua 6 round. Ngược lại, nguồn faux amis Pháp-Tây Ban Nha
+thuần tuý (không liên quan tiếng Anh) và các quy tắc hậu tố mới vẫn còn dồi dào — nên round sau có thể
+tập trung nhiều hơn vào 2 dòng này và giảm tải cho nhóm "khác bẫy tiếng Anh".
+
+### 20.8. Round 9 cặp Pháp ↔ Tây Ban Nha — thêm 8 nhóm nữa (72 nhóm, 355 cặp, ~710 từ)
+
+Đúng theo định hướng đã đề ra ở cuối round 8: TẠM NGƯNG nhóm "khác bẫy tiếng Anh" (đã gần cạn), tập
+trung vào 4 quy tắc hậu tố mới + 3 nhóm faux amis THEO CHỦ ĐỀ (tài chính, nhà cửa, cảm xúc) + 1 nhóm
+"cặp song sinh" mới với từ vựng cơ bản nhất:
+
+- **-iser / -izar** (Hy Lạp "-izein" qua Latin "-izare", cực kỳ sản sinh): organiser/organizar,
+  moderniser/modernizar, civiliser/civilizar, symboliser/simbolizar, utiliser/utilizar.
+- **-ain / -ano** (Latin "-anus", chỉ nguồn gốc/xuất xứ): américain/americano, africain/africano,
+  mexicain/mexicano, républicain/republicano, urbain/urbano.
+- **-in / -ino** (Latin "-inus"): latin/latino, clandestin/clandestino, assassin/asesino,
+  cristallin/cristalino, và **mesquin/mezquino (cùng mượn từ tiếng Ả Rập "miskīn" — gốc từ chung KHÔNG
+  PHẢI Latin/Hy Lạp, hiếm gặp, do ảnh hưởng lịch sử Ả Rập lên cả Iberia lẫn Nam Pháp)**.
+- **-erie / -ería** (Latin "-aria", chỉ cửa hàng/nơi sản xuất — rất hữu ích khi mua sắm):
+  confiserie/confitería, parfumerie/perfumería, mercerie/mercería, chocolaterie/chocolatería,
+  bijouterie/joyería (gốc từ khác nhau nhưng cùng hậu tố).
+- **Faux amis #16 — chủ đề tài chính**: solde/sueldo (⚠⚠ "số dư/giảm giá" vs "tiền lương"), **banque/
+  banco (⚠ thú vị: TBN "banco" giữ CẢ 2 nghĩa "ngân hàng" LẪN "ghế dài" trong 1 từ, Pháp tách thành 2
+  từ riêng "banque"/"banc")**, bourse/bolsa (⚠ "học bổng" vs "túi nói chung"), cours/curso (⚠ đa nghĩa
+  vs chỉ "khoá học"), titre/título (⚠ nhẹ: thêm nghĩa "bằng cấp").
+- **Faux amis #17 — chủ đề nhà cửa**: **magasin/almacén (⚠⚠ cùng mượn từ Ả Rập "al-makhzan": "cửa
+  hàng bán lẻ" vs "kho hàng")**, verre/vidrio (⚠ thêm nghĩa "cốc"), grenier/granero (⚠ "gác mái" vs
+  "kho thóc"), tapis/tapiz (⚠ "thảm trải sàn" vs "thảm treo tường").
+- **Faux amis #18 — chủ đề cảm xúc**: colère/cólera (⚠⚠ "giận dữ" vs "bệnh dịch tả"), manie/manía (⚠
+  thêm nghĩa "ác cảm với ai đó"), malice/malicia (⚠ "tinh nghịch nhẹ" vs "ác ý nặng"),
+  **envie/envidia (⚠⚠ RẤT PHỔ BIẾN: "mong muốn, thèm muốn" (Pháp, "j'ai envie de") vs "ghen tị, đố kỵ"
+  (Tây Ban Nha, giữ nguyên nghĩa gốc tiêu cực))**.
+- **[MỚI] Cặp từ song sinh #3 — từ vựng cơ bản**: pain/pan (bánh mì), blanc/blanco (trắng),
+  noir/negro (đen), chat/gato (mèo), cheval/caballo (ngựa) — nhóm từ CƠ BẢN NHẤT, hàng ngày nhất, minh
+  chứng ngay cả từ đơn giản nhất cũng thường giữ nguyên nghĩa dù chính tả có thể khác nhiều do biến
+  đổi ngữ âm.
+
+Tổng **72 nhóm, 355 cặp, ~710 từ**.
+
+**Kiểm chứng**: batch-check 76 headword mới với 617 headword duy nhất của round 1-8 — 0 trùng. Sau khi
+ghi: quét ID — sạch (1137 id, 0 trùng); quét trùng headword chéo — 0 va chạm thật. `tsc --noEmit` sạch,
+`next build` EXIT=0. Playwright sống trên dev server, 3/3 kiểm tra pass (hub hiện đúng 72 nhóm; trang
+hiện đủ nội dung mới; bấm cặp "envie/envidia" mở đúng panel nêu rõ nghĩa lệch nổi tiếng). Chụp 1 ảnh
+sanity-check xác nhận hiển thị đúng toàn bộ 72 nhóm, không lỗi ký tự, rồi xoá ảnh. Dev server đã tắt.
+
+**Ghi nhận**: chiến lược "chia faux amis theo chủ đề" (tài chính/nhà cửa/cảm xúc thay vì ngẫu nhiên)
+giúp việc mining các cặp mới dễ hơn nhiều so với tìm ngẫu nhiên — nên tiếp tục áp dụng cho các round
+sau. Cũng phát hiện thêm 2 cặp gốc từ Ả Rập chung (mesquin/mezquino, magasin/almacén) — cho thấy nguồn
+gốc từ chung Pháp-Tây Ban Nha không chỉ giới hạn ở Latin/Hy Lạp.
+
+### 20.9. Round 10 cặp Pháp ↔ Tây Ban Nha — thêm 8 nhóm nữa (80 nhóm, 393 cặp, ~786 từ)
+
+4 quy tắc hậu tố mới + 1 nhóm faux amis đa chủ đề + 2 nhóm "cặp song sinh" mới + **1 nhóm HOÀN TOÀN
+MỚI về hiện tượng "gộp nghĩa"**:
+
+- **-ie / -ía** (Hy Lạp "-ia", nền tảng cho nhiều hậu tố kép đã học): énergie/energía,
+  harmonie/harmonía, mélodie/melodía, symphonie/sinfonía, poésie/poesía.
+- **-esque / -esco** (Germanic "-isk" qua tiếng Ý): pittoresque/pintoresco, gigantesque/gigantesco,
+  grotesque/grotesco, arabesque/arabesco, burlesque/burlesco.
+- **-ile / -il** (Latin "-ilis"): fragile/frágil, agile/ágil, docile/dócil, facile/fácil, utile/útil.
+- **-nomie / -nomía** (Hy Lạp "nomos" — luật lệ, quản lý): économie/economía, astronomie/astronomía,
+  gastronomie/gastronomía, autonomie/autonomía, agronomie/agronomía.
+- **Faux amis #19 — đời sống hàng ngày**: mở đầu bằng **neveu/nieto (⚠⚠⚠ cùng gốc Latin "nepos" vốn
+  mơ hồ giữa 2 nghĩa — Pháp chốt "cháu gọi cô/chú", Tây Ban Nha chốt "cháu gọi ông/bà" — lệch nhau CẢ
+  MỘT THẾ HỆ!)**; cũng có ordonnance/ordenanza (⚠⚠ "đơn thuốc+sắc lệnh" vs chỉ "sắc lệnh"),
+  équipe/equipo (⚠ nhẹ), bulletin/boletín (⚠ nhẹ), récolte/recolecta (⚠ nhẹ).
+- **Cặp từ song sinh #4 — thời tiết/thiên nhiên**: mở đầu bằng **temps/tiempo (⭐ CẢ 2 ngôn ngữ đều
+  dùng CHUNG 1 từ cho CẢ "thời gian" LẪN "thời tiết" — trùng hợp ngữ nghĩa hiếm gặp)**; cũng có
+  nuage/nube, pluie/lluvia, vent/viento, froid/frío.
+- **Cặp từ song sinh #5 — đa dạng**: jeu/juego, arbitre/árbitro, fièvre/fiebre, pharmacie/farmacia,
+  **douane/aduana (⭐ gốc Ả Rập "diwan" — gốc từ chung thứ 3 không phải Latin/Hy Lạp, sau
+  mesquin/mezquino và magasin/almacén)**.
+- **[MỚI HOÀN TOÀN] "Khi 1 từ Pháp gộp nghĩa của nhiều từ Tây Ban Nha"** — hiện tượng NGƯỢC với các
+  faux amis thông thường: manche/manga (fr 1 từ cho "ống tay áo"+"tay cầm", TBN tách "manga"/"mango"),
+  mode/moda (fr 1 từ cho "thời trang"+"phương thức", TBN tách "moda"/"modo"), **livre/libro (⚡ thú vị
+  nhất: trong tiếng Latin "liber"(sách) và "libra"(cân/tiền) là 2 GỐC HOÀN TOÀN KHÁC NHAU, nhưng tiếng
+  Pháp vô tình làm chúng trùng âm thành 1 từ duy nhất "livre", trong khi Tây Ban Nha giữ đúng 2 gốc
+  tách biệt "libro"/"libra")**.
+
+Tổng **80 nhóm, 393 cặp, ~786 từ**.
+
+**Kiểm chứng**: batch-check 76 headword mới với 693 headword duy nhất của round 1-9 — 0 trùng. Sau khi
+ghi: quét ID — sạch (1259 id, 0 trùng); quét trùng headword chéo — 0 va chạm thật. `tsc --noEmit` sạch,
+`next build` EXIT=0. Playwright sống trên dev server, 3/3 kiểm tra pass (hub hiện đúng 80 nhóm; trang
+hiện đủ nội dung mới; bấm cặp "neveu/nieto" mở đúng panel nêu rõ sự lệch thế hệ thú vị). Chụp 1 ảnh
+sanity-check xác nhận hiển thị đúng toàn bộ 80 nhóm, không lỗi ký tự, rồi xoá ảnh. Dev server đã tắt.
+
+**Phát hiện mới**: mở ra một LOẠI HIỆN TƯỢNG THỨ 3 cho tính năng này, bên cạnh "faux amis" (nghĩa lệch)
+và "twins" (nghĩa giống nhau) — đó là **"gộp nghĩa/tách nghĩa"**: 1 ngôn ngữ giữ 1 từ đa nghĩa trong
+khi ngôn ngữ kia tách thành nhiều từ riêng biệt (banque/banco ở round 9 đã là ví dụ đầu tiên nhưng chưa
+được đặt tên thành nhóm riêng; round này chính thức hoá thành 1 nhóm với 3 ví dụ, trong đó livre/libro
+đặc biệt vì nguyên nhân là 2 gốc Latin khác nhau ngẫu nhiên trùng âm trong tiếng Pháp). Đây là hướng
+khai thác nội dung mới đầy tiềm năng cho các round sau.
+
+### 20.10. Round 11 cặp Pháp ↔ Tây Ban Nha — thêm 8 nhóm nữa (88 nhóm, 427 cặp, ~854 từ)
+
+3 quy tắc hậu tố mới (2 trong số đó là "song sinh" của các hậu tố đã học từ round trước) + 2 nhóm faux
+amis theo chủ đề + 1 nhóm "cặp song sinh" (có phát hiện khớp CẢ 3 nghĩa) + tiếp tục nhóm "gộp nghĩa" +
+1 quy tắc hậu tố nữa:
+
+- **-ant / -ante** (Latin "-antem", song sinh với "-ent/-ente" round 3): arrogant/arrogante,
+  élégant/elegante, brillant/brillante, intéressant/interesante, constant/constante.
+- **-archie / -arquía** (Hy Lạp "arkhein" — cai trị, song sinh với "-cratie/-cracia" round 6):
+  monarchie/monarquía, anarchie/anarquía, oligarchie/oligarquía, hiérarchie/jerarquía.
+- **-ification / -ificación** (kết hợp "-fier/-ficar" + "-tion/-ción" — hậu tố kép như "-ivité" round
+  7): simplification/simplificación, classification/clasificación, identification/identificación,
+  justification/justificación, modification/modificación.
+- **Faux amis #21 — giấy tờ, công nghệ**: portable/portátil (⚠⚠ "điện thoại di động" vs "xách tay nói
+  chung"), puce/pulga (⚠ thêm nghĩa "vi mạch, chip"), papier/papel (⚠ es thêm nghĩa "vai diễn"),
+  lettre/letra (⚠⚠ "lá thư+chữ cái" vs chỉ "chữ cái, lời bài hát").
+- **Faux amis #22 — ẩm thực, bàn ăn**: **assiette/asiento (⚠⚠ cùng gốc "ngồi xuống": "cái đĩa ăn" (Pháp,
+  nghĩa mở rộng) vs "ghế ngồi" (Tây Ban Nha, nghĩa gốc))**, entrée/entrada (⚠ nhẹ), fourchette/horquilla
+  (⚠⚠ "cái nĩa ăn" vs "kẹp tóc, chỗ rẽ nhánh").
+- **Cặp từ song sinh #6**: mở đầu bằng **droit/derecho (⭐⭐ khớp CẢ 3 NGHĨA cùng lúc: "luật pháp" +
+  "quyền lợi" + "thẳng" — hiếm hơn cả temps/tiempo round 10 chỉ khớp 2 nghĩa)**; cũng có nom/nombre,
+  feu/fuego, mer/mar, terre/tierra.
+- **Khi 1 từ Pháp gộp nghĩa của nhiều từ Tây Ban Nha (#2)**: **glace/hielo (⚠⚠ fr 1 từ cho CẢ "nước
+  đá"+"kem"+"gương" — TBN tách 3 từ riêng "hielo"/"helado"/"espejo")**, **vol/vuelo (⚠⚠ khớp nghĩa
+  "chuyến bay" nhưng fr còn dùng CHÍNH từ này cho nghĩa "trộm cắp" mà TBN dùng từ hoàn toàn khác
+  "robar")**, place/plaza (⚠ fr đa nghĩa "quảng trường+chỗ ngồi+vị trí" vs TBN chỉ khớp "quảng
+  trường").
+- **-ette / -eta** (Latin thông tục "-itta"): raquette/raqueta, silhouette/silueta, cassette/casete,
+  moquette/moqueta, banquette/banqueta (⚠ "ghế dài" vs "vỉa hè" — đặc biệt Mỹ Latinh).
+
+Tổng **88 nhóm, 427 cặp, ~854 từ**.
+
+**Kiểm chứng**: batch-check 68 headword mới với 769 headword duy nhất của round 1-10 — 0 trùng. Sau khi
+ghi: quét ID — sạch (1369 id, 0 trùng); quét trùng headword chéo — 0 va chạm thật. `tsc --noEmit` sạch,
+`next build` EXIT=0. Playwright sống trên dev server, 3/3 kiểm tra pass (hub hiện đúng 88 nhóm; trang
+hiện đủ nội dung mới; bấm cặp "vol/vuelo" mở đúng panel nêu rõ nghĩa "trộm cắp" chỉ có ở tiếng Pháp).
+Chụp 1 ảnh sanity-check xác nhận hiển thị đúng toàn bộ 88 nhóm, không lỗi ký tự, rồi xoá ảnh. Dev
+server đã tắt.
+
+**Tổng kết sau 11 round**: 88 nhóm, 427 cặp, ~854 từ — 50 quy tắc hậu tố, 22 vòng faux amis (110 cặp),
+6 vòng "cặp song sinh", 2 vòng "gộp nghĩa" (loại nội dung mới), 3 gốc từ chung Ả Rập. Vẫn chưa có dấu
+hiệu cạn nguồn sau 11 round liên tiếp.
+
+### 20.11. Round 12 cặp Pháp ↔ Tây Ban Nha — thêm 8 nhóm nữa (96 nhóm, 464 cặp, ~928 từ)
+
+3 quy tắc hậu tố mới + 1 nhóm faux amis pháp lý + 3 nhóm "cặp song sinh" mới + tiếp tục nhóm "gộp
+nghĩa" với 2 trường hợp trùng âm ngẫu nhiên rất thú vị:
+
+- **-el / -al** (Latin "-alis", biến thể của "-al" round 4): réel/real, cruel/cruel (viết giống hệt),
+  formel/formal, informel/informal, matériel/material.
+- **-cide / -cidio, -cida** (Latin "caedere" — giết): suicide/suicidio, homicide/homicidio,
+  génocide/genocidio (hành động → "-cidio"), insecticide/insecticida, pesticide/pesticida (chất/tác
+  nhân → "-cida").
+- **-ature / -atura** (Latin "-atura", biến thể kép của "-ure/-ura" round 7): littérature/literatura,
+  température/temperatura, caricature/caricatura, miniature/miniatura, nomenclature/nomenclatura.
+- **Faux amis #23 — pháp lý**: scrutin/escrutinio (⚠ nhẹ), **procès/proceso (⚠⚠ "phiên toà, LUÔN
+  nghĩa pháp lý" vs "quá trình nói chung, nghĩa rộng")**, sentence/sentencia (⚠ "bản án+câu văn" vs chỉ
+  "bản án").
+- **Cặp từ song sinh #7 — động vật**: loup/lobo, ours/oso, abeille/abeja, serpent/serpiente,
+  aigle/águila.
+- **Cặp từ song sinh #8 — cơ thể người**: mở đầu bằng **front/frente (⭐ khớp CẢ 2 nghĩa "trán"+"mặt
+  trận", giống temps/tiempo round 10)**; cũng có bras/brazo, doigt/dedo, poing/puño, coude/codo.
+- **Khi 1 từ Pháp gộp nghĩa của nhiều từ Tây Ban Nha (#3)**: **or/oro (⚡ tiếng Pháp trùng âm NGẪU
+  NHIÊN giữa "vàng" và liên từ "nhưng" — 2 từ khác gốc hoàn toàn, giống hiện tượng livre round 10)**,
+  **son/sonido (⚡ trùng âm ngẫu nhiên GIỮA BA từ khác gốc: "âm thanh"+"của anh ấy/cô ấy"+"cám")**,
+  mine/mina (⚠ khớp 2/3 nghĩa: mỏ+mìn khớp, "vẻ ngoài" không khớp), accord/acuerdo (⚠ es tách riêng
+  "acorde" cho nghĩa hoà âm).
+- **Cặp từ song sinh #9 — tính từ cơ bản**: vieux/viejo, court/corto, profond/profundo, haut/alto,
+  bas/bajo.
+
+Tổng **96 nhóm, 464 cặp, ~928 từ**.
+
+**Kiểm chứng**: batch-check 74 headword mới với 837 headword duy nhất của round 1-11 — phát hiện 1
+TRÙNG ("largo", đã dùng làm ES-side của cặp "large/largo" ở round 1) khi định thêm "long/largo" vào
+nhóm tính từ cơ bản — đã THAY THẾ bằng "vieux/viejo" (cùng gốc Latin "vetulus") để tránh trùng headword
+giữa 2 cặp khác nhau. Sau khi ghi: quét ID — sạch (1488 id, 0 trùng); quét trùng headword chéo — 0 va
+chạm thật (37 headword mới sau khi thay thế). `tsc --noEmit` sạch, `next build` EXIT=0. Playwright sống
+trên dev server: 2/3 kiểm tra tự động pass ngay, 1 kiểm tra (bấm cặp "or/oro") ban đầu lỗi do văn bản
+nút bấm thực tế không có khoảng trắng quanh mũi tên ("or↔oro" chứ không phải "or ↔ oro" như regex kiểm
+thử giả định) — sửa lại regex kiểm thử rồi chạy lại, xác nhận PASS; đây là lỗi ở SCRIPT KIỂM THỬ, không
+phải lỗi ứng dụng. Chụp 1 ảnh sanity-check xác nhận hiển thị đúng toàn bộ 96 nhóm và panel chi tiết
+"or/oro", không lỗi ký tự, rồi xoá ảnh. Dev server đã tắt.
+
+**Tổng kết sau 12 round**: 96 nhóm, 464 cặp, ~928 từ — 53 quy tắc hậu tố, 23 vòng faux amis, 9 vòng
+"cặp song sinh" (bao gồm 3 lần khớp đa nghĩa hiếm: temps/tiempo, droit/derecho, front/frente), 3 vòng
+"gộp nghĩa" (bao gồm 2 trường hợp trùng âm ngẫu nhiên: livre, or, son), 3 gốc từ chung Ả Rập. Vẫn chưa
+có dấu hiệu cạn nguồn sau 12 round liên tiếp.
+
+### 20.12. Round 13 cặp Pháp ↔ Tây Ban Nha — thêm 8 nhóm nữa (104 nhóm, 497 cặp, ~994 từ)
+
+3 quy tắc hậu tố mới (1 là "song sinh" của quy tắc round 6) + 2 nhóm faux amis nhỏ theo chủ đề + 2 nhóm
+"cặp song sinh" (thêm 1 lần khớp đa nghĩa) + tiếp tục nhóm "gộp nghĩa" với 1 trường hợp đặc biệt: khác
+biệt do GIỐNG NGỮ PHÁP:
+
+- **-thèque / -teca** (Hy Lạp "theke" — kho chứa): bibliothèque/biblioteca, discothèque/discoteca,
+  cinémathèque/cinemateca, vidéothèque/videoteca, pinacothèque/pinacoteca.
+- **-crate / -crata** (Hy Lạp "kratos", song sinh với "-cratie/-cracia" round 6 — chỉ NGƯỜI thay vì
+  CHẾ ĐỘ): démocrate/demócrata, bureaucrate/burócrata, aristocrate/aristócrata, autocrate/autócrata,
+  technocrate/tecnócrata.
+- **-ose / -osis** (Hy Lạp "-osis" — tình trạng bệnh lý): tuberculose/tuberculosis,
+  sclérose/esclerosis, thrombose/trombosis, psychose/psicosis, névrose/neurosis.
+- **Faux amis #24 — giải trí/truyền thông**: tube/tubo (⚠ "bài hát ăn khách" vs chỉ "ống"),
+  générique/genérico (⚠ "danh sách cuối phim" khác es), plateau/plató (⚠ es chỉ mượn riêng 1 nghĩa).
+- **Faux amis #25 — tôn giáo/đạo đức**: grâce/gracia (⚠ es thêm nghĩa "hài hước"), vertu/virtud (⚠ nhẹ).
+- **Cặp từ song sinh #10 — giải trí/âm nhạc**: mở đầu bằng **chaîne/cadena (⭐ khớp CẢ 2 nghĩa "dây
+  xích"+"kênh truyền hình")**; cũng có corde/cuerda, voix/voz, danse/danza, chanson/canción.
+- **Cặp từ song sinh #11 — tôn giáo**: religion/religión, ange/ángel, diable/diablo, miracle/milagro,
+  paradis/paraíso.
+- **Khi 1 từ Pháp gộp nghĩa của nhiều từ Tây Ban Nha (#4)**: clé/llave (⚠ es tách "clave" cho nghĩa
+  trừu tượng/khoá nhạc), cour/corte (⚠ khớp 2/3 nghĩa: toà án+triều đình khớp, "sân nhà" thì không),
+  **voile/velo (⚠ ĐẶC BIỆT: 2 nghĩa của "voile" trong tiếng Pháp được phân biệt bằng GIỐNG NGỮ PHÁP dù
+  viết giống hệt nhau — "le voile" (giống đực) = khăn che, khớp "velo"; "la voile" (giống cái) = cánh
+  buồm, khớp từ KHÁC "vela")**.
+
+Tổng **104 nhóm, 497 cặp, ~994 từ**.
+
+**Kiểm chứng**: batch-check 66 headword mới với 910 headword duy nhất của round 1-12 — 0 trùng. Sau
+khi ghi: quét ID — sạch (1595 id, 0 trùng); quét trùng headword chéo — 0 va chạm thật. `tsc --noEmit`
+sạch, `next build` EXIT=0. Playwright sống trên dev server, 3/3 kiểm tra pass ngay lần đầu (áp dụng bài
+học từ round 12: xác nhận chính xác định dạng văn bản nút bấm trước khi viết regex kiểm thử). Chụp 1
+ảnh sanity-check xác nhận hiển thị đúng toàn bộ 104 nhóm, không lỗi ký tự, rồi xoá ảnh. Dev server đã
+tắt.
+
+**Tổng kết sau 13 round**: 104 nhóm, 497 cặp, ~994 từ — 56 quy tắc hậu tố, 25 vòng faux amis, 11 vòng
+"cặp song sinh" (4 lần khớp đa nghĩa hiếm), 4 vòng "gộp nghĩa" (bao gồm 1 trường hợp phân biệt bằng
+giống ngữ pháp — chưa từng gặp trước đó). Sắp đạt mốc 500 cặp cho riêng cặp Pháp-Tây Ban Nha.
