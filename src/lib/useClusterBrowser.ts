@@ -25,8 +25,10 @@ export interface ClusterBrowserAccessors {
   /** Danh sách {từ gốc, nghĩa tiếng Việt} của phần tử thứ `index` — cho vòng lặp tự động đọc.
    * `lang` optional: khi 1 phần tử trộn nhiều ngôn ngữ trong cùng danh sách từ (vd cặp từ đồng
    * nguyên Anh-Tây Ban Nha), mỗi từ tự khai locale đọc riêng thay vì dùng chung `language` của cả
-   * browser. Bỏ trống thì rơi về `language` như hành vi cũ. */
-  wordsAt: (index: number) => { headword: string; meaningVn: string; lang?: Language }[];
+   * browser. Bỏ trống thì rơi về `language` như hành vi cũ. `locale` optional: locale BCP-47 THÔ, ưu
+   * tiên hơn `lang` — dùng khi ngôn ngữ của từ không nằm trong `Language` (vd tiếng Pháp ở cặp đồng
+   * nguyên Pháp-Tây Ban Nha). */
+  wordsAt: (index: number) => { headword: string; meaningVn: string; lang?: Language; locale?: string }[];
 }
 
 export interface ClusterBrowserApi {
@@ -167,7 +169,7 @@ export function useClusterBrowser(language: Language, accessors: ClusterBrowserA
       for (let i = 0; i < words.length; i++) {
         if (autoPlayCancelRef.current) return;
         setAutoPlayWordIndex(i);
-        const wordLocale = words[i].lang ? localeForLanguage(words[i].lang!) : targetLocale;
+        const wordLocale = words[i].locale ?? (words[i].lang ? localeForLanguage(words[i].lang!) : targetLocale);
         for (let r = 0; r < repeatCount; r++) {
           if (autoPlayCancelRef.current) return;
           const wordResult = await speakAndWait(words[i].headword, wordLocale);
