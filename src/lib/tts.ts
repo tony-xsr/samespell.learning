@@ -61,13 +61,15 @@ export interface SpeakResult {
   reason?: "unsupported" | "no-voice";
 }
 
-export async function speak(text: string, language: Language, rate = 0.85): Promise<SpeakResult> {
+/** Đọc to `text` bằng giọng khớp `locale` thô (BCP-47, vd "fr-FR") — dùng khi ngôn ngữ cần đọc không
+ * nằm trong 5 ngôn ngữ chính của app (`Language`), ví dụ tiếng Pháp ở tính năng đồng nguyên đa ngôn ngữ
+ * `/cognates`. `speak()` bên dưới chỉ là lớp bọc tiện dụng gọi hàm này với locale tra từ `Language`. */
+export async function speakLocale(text: string, locale: string, rate = 0.85): Promise<SpeakResult> {
   if (!isTtsSupported() || !text.trim()) return { ok: false, reason: "unsupported" };
-  const lang = LOCALE[language];
   const voices = await waitForVoices();
   if (voices.length === 0) return { ok: false, reason: "no-voice" };
 
-  const voice = pickBestVoice(voices, lang);
+  const voice = pickBestVoice(voices, locale);
   if (!voice) return { ok: false, reason: "no-voice" };
 
   // Một số trình duyệt/thiết bị (đặc biệt WebView Android cũ) có thể throw ngay ở cancel()/speak()
@@ -87,6 +89,10 @@ export async function speak(text: string, language: Language, rate = 0.85): Prom
     return { ok: false, reason: "no-voice" };
   }
   return { ok: true };
+}
+
+export async function speak(text: string, language: Language, rate = 0.85): Promise<SpeakResult> {
+  return speakLocale(text, LOCALE[language], rate);
 }
 
 /** Dùng cho chế độ tự động đọc (vòng lặp): đọc `text` bằng giọng của `locale` (locale thô, không phải
