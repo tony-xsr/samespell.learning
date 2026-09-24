@@ -1,20 +1,24 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import type { CognateData, CognateGroup, CognatePair, CognateWord } from "@/lib/cognateStore";
-import { speak, ttsFailureMessage } from "@/lib/tts";
+import type { CognateGroup, CognatePair, CognatePairSet, CognateWord } from "@/lib/cognateStore";
+import { speakLocale, ttsFailureMessage } from "@/lib/tts";
 import { useClusterBrowser, type ClusterBrowserAccessors } from "@/lib/useClusterBrowser";
 import ClusterBrowserShell from "@/components/clusters/ClusterBrowserShell";
 import ViewModeToggle, { type ViewMode } from "@/components/ui/ViewModeToggle";
 
 function WordBlock({
   word,
-  lang,
+  flag,
+  locale,
+  name,
   tone,
   active,
 }: {
   word: CognateWord;
-  lang: "en" | "es";
+  flag: string;
+  locale: string;
+  name: string;
   tone: "left" | "right";
   active?: boolean;
 }) {
@@ -22,7 +26,7 @@ function WordBlock({
 
   async function handleSpeak() {
     setError(null);
-    const result = await speak(word.headword, lang);
+    const result = await speakLocale(word.headword, locale);
     if (!result.ok) setError(ttsFailureMessage(result.reason));
   }
 
@@ -38,7 +42,7 @@ function WordBlock({
             tone === "left" ? "bg-brand-100 text-brand-700" : "bg-accent-100 text-accent-700"
           }`}
         >
-          {lang === "en" ? "🇬🇧" : "🇪🇸"}
+          {flag}
         </span>
         <span className="text-base font-medium text-ink">{word.headword}</span>
         <span className="text-xs italic text-ink-muted">{word.reading}</span>
@@ -46,7 +50,7 @@ function WordBlock({
           type="button"
           onClick={handleSpeak}
           className="ml-auto flex h-6 w-6 flex-none items-center justify-center rounded-full border border-border bg-surface-3 text-[11px] hover:bg-brand-50"
-          aria-label={`Phát âm ${lang === "en" ? "tiếng Anh" : "tiếng Tây Ban Nha"}`}
+          aria-label={`Phát âm ${name}`}
         >
           🔊
         </button>
@@ -62,9 +66,9 @@ function PairCard({ pair, layout, onOpen }: { pair: CognatePair; layout: ViewMod
   const inner = (
     <>
       <span className="line-clamp-2 text-base font-medium text-ink">
-        <span className="text-brand-600">{pair.en.headword}</span>
+        <span className="text-brand-600">{pair.a.headword}</span>
         <span className="mx-2 text-ink-muted">↔</span>
-        <span className="text-accent-600">{pair.es.headword}</span>
+        <span className="text-accent-600">{pair.b.headword}</span>
       </span>
       <span className="mt-1 line-clamp-1 text-xs text-ink-muted">{pair.meaningVn}</span>
     </>
@@ -93,11 +97,28 @@ function PairCard({ pair, layout, onOpen }: { pair: CognatePair; layout: ViewMod
   );
 }
 
-function PairDetailPanel({ pair, zoom, highlightIndex }: { pair: CognatePair; zoom: number; highlightIndex?: number }) {
+function PairDetailPanel({
+  pair,
+  pairSet,
+  zoom,
+  highlightIndex,
+}: {
+  pair: CognatePair;
+  pairSet: CognatePairSet;
+  zoom: number;
+  highlightIndex?: number;
+}) {
   return (
     <div className="flex h-full flex-col justify-center overflow-auto p-6 sm:p-10">
       <div className="mx-auto flex w-full max-w-2xl flex-col gap-3" style={{ zoom }}>
-        <WordBlock word={pair.en} lang="en" tone="left" active={highlightIndex === 0} />
+        <WordBlock
+          word={pair.a}
+          flag={pairSet.flagA}
+          locale={pairSet.localeA}
+          name={pairSet.nameA}
+          tone="left"
+          active={highlightIndex === 0}
+        />
         <div className="flex items-center justify-center gap-2 text-ink-muted">
           <span className="h-px flex-1 bg-border" />
           <span className="rounded-full border border-border-strong bg-surface-2 px-3 py-1 text-xs font-bold shadow-sm">
@@ -105,7 +126,14 @@ function PairDetailPanel({ pair, zoom, highlightIndex }: { pair: CognatePair; zo
           </span>
           <span className="h-px flex-1 bg-border" />
         </div>
-        <WordBlock word={pair.es} lang="es" tone="right" active={highlightIndex === 1} />
+        <WordBlock
+          word={pair.b}
+          flag={pairSet.flagB}
+          locale={pairSet.localeB}
+          name={pairSet.nameB}
+          tone="right"
+          active={highlightIndex === 1}
+        />
         <p className="mt-1 text-center text-sm font-medium text-ink">{pair.meaningVn}</p>
         <p className="rounded-xl bg-surface-3/60 p-3 text-center text-xs text-ink-muted">{pair.mnemonicVn}</p>
       </div>
@@ -113,10 +141,9 @@ function PairDetailPanel({ pair, zoom, highlightIndex }: { pair: CognatePair; zo
   );
 }
 
-function GroupSection({ group, viewMode, openPairKey, onOpenPair }: {
+function GroupSection({ group, viewMode, onOpenPair }: {
   group: CognateGroup;
   viewMode: ViewMode;
-  openPairKey: string | undefined;
   onOpenPair: (pairId: string) => void;
 }) {
   const listClass =
@@ -139,9 +166,9 @@ function GroupSection({ group, viewMode, openPairKey, onOpenPair }: {
   );
 }
 
-export default function CognateBrowser({ data }: { data: CognateData }) {
+export default function CognateBrowser({ pairSet }: { pairSet: CognatePairSet }) {
   const [viewMode, setViewMode] = useState<ViewMode>("grid");
-  const flatPairs = useMemo(() => data.groups.flatMap((g) => g.pairs), [data]);
+  const flatPairs = useMemo(() => pairSet.groups.flatMap((g) => g.pairs), [pairSet]);
 
   const accessors = useMemo<ClusterBrowserAccessors>(
     () => ({
@@ -151,15 +178,15 @@ export default function CognateBrowser({ data }: { data: CognateData }) {
         const p = flatPairs[i];
         if (!p) return [];
         return [
-          { headword: p.en.headword, meaningVn: p.meaningVn, lang: "en" as const },
-          { headword: p.es.headword, meaningVn: p.meaningVn, lang: "es" as const },
+          { headword: p.a.headword, meaningVn: p.meaningVn, locale: pairSet.localeA },
+          { headword: p.b.headword, meaningVn: p.meaningVn, locale: pairSet.localeB },
         ];
       },
     }),
-    [flatPairs],
+    [flatPairs, pairSet.localeA, pairSet.localeB],
   );
 
-  const ui = useClusterBrowser("en", accessors);
+  const ui = useClusterBrowser("es", accessors);
   const openPair = ui.openIndex !== null ? flatPairs[ui.openIndex] : undefined;
   const highlight = ui.autoPlaying ? ui.autoPlayWordIndex ?? undefined : undefined;
 
@@ -173,18 +200,14 @@ export default function CognateBrowser({ data }: { data: CognateData }) {
       <div className="flex justify-end">
         <ViewModeToggle mode={viewMode} onChange={setViewMode} />
       </div>
-      {data.groups.map((group) => (
-        <GroupSection
-          key={group.id}
-          group={group}
-          viewMode={viewMode}
-          openPairKey={openPair?.id}
-          onOpenPair={openPairById}
-        />
+      {pairSet.groups.map((group) => (
+        <GroupSection key={group.id} group={group} viewMode={viewMode} onOpenPair={openPairById} />
       ))}
 
       <ClusterBrowserShell ui={ui}>
-        {openPair && <PairDetailPanel key={openPair.id} pair={openPair} zoom={ui.zoom} highlightIndex={highlight} />}
+        {openPair && (
+          <PairDetailPanel key={openPair.id} pair={openPair} pairSet={pairSet} zoom={ui.zoom} highlightIndex={highlight} />
+        )}
       </ClusterBrowserShell>
     </div>
   );
