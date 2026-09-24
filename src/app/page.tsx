@@ -119,7 +119,7 @@ export default async function Home() {
             href="/cognates"
             className="flex items-center justify-center gap-2 rounded-2xl border-2 border-dashed border-sky-400 px-5 py-3 text-sm font-semibold text-sky-600 transition hover:bg-sky-500/5"
           >
-            🇬🇧↔🇪🇸 Từ đồng nguyên Anh · Tây Ban Nha (thử nghiệm)
+            🌐 Từ đồng nguyên đa ngôn ngữ (thử nghiệm)
           </Link>
         </div>
 
