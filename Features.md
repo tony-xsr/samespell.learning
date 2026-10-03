@@ -16159,3 +16159,766 @@ tắt.
 **Tổng kết sau 13 round**: 104 nhóm, 497 cặp, ~994 từ — 56 quy tắc hậu tố, 25 vòng faux amis, 11 vòng
 "cặp song sinh" (4 lần khớp đa nghĩa hiếm), 4 vòng "gộp nghĩa" (bao gồm 1 trường hợp phân biệt bằng
 giống ngữ pháp — chưa từng gặp trước đó). Sắp đạt mốc 500 cặp cho riêng cặp Pháp-Tây Ban Nha.
+
+### 20.13. Round 14 cặp Pháp ↔ Tây Ban Nha — thêm 8 nhóm nữa, VƯỢT MỐC 500 CẶP (112 nhóm, 531 cặp, ~1062 từ)
+
+3 quy tắc hậu tố mới (1 hoàn thiện "bộ ba" hậu tố cùng gốc Hy Lạp "graphein") + 1 nhóm faux amis quân
+sự + 4 nhóm "cặp song sinh" (thêm 2 lần khớp đa nghĩa mới) + tiếp tục nhóm "gộp nghĩa" với 1 trường hợp
+khác biệt hẳn về BẢN CHẤT so với các round trước:
+
+- **-graphe / -grafo** (Hy Lạp "graphein" — hoàn thiện bộ ba cùng gốc: "-graphie"(ngành, round 4) /
+  "-graphe"(người, round này) / "-gramme"(vật, round 7)): photographe/fotógrafo, biographe/biógrafo,
+  calligraphe/calígrafo, sténographe/estenógrafo, cartographe/cartógrafo.
+- **-oïde / -oide** (Hy Lạp "eidos" — hình dạng): astéroïde/asteroide, androïde/androide,
+  ovoïde/ovoide, sphéroïde/esferoide, humanoïde/humanoide.
+- **-ite / -ito, -ita** (Hy Lạp "-ites"): météorite/meteorito, satellite/satélite,
+  dynamite/dinamita, stalactite/estalactita, granite/granito.
+- **Faux amis #26 — quân sự**: armée/armada (⚠⚠ "quân đội nói chung" vs "hạm đội hải quân"),
+  canon/cañón (⚠ es thêm nghĩa "hẻm núi").
+- **Cặp từ song sinh #12 — quân sự**: mở đầu bằng **général/general (⭐ khớp CẢ 2 nghĩa "tướng
+  quân"+"chung, phổ quát", lần thứ 5 khớp đa nghĩa)**; cũng có soldat/soldado, bataille/batalla,
+  victoire/victoria, capitaine/capitán.
+- **Cặp từ song sinh #13 — quân sự/khu vực**: mở đầu bằng **champ/campo (⭐ khớp CẢ 2 nghĩa "cánh
+  đồng"+"lĩnh vực, phạm vi", lần thứ 6)**; cũng có blindé/blindado, espion/espía, milice/milicia,
+  tranchée/trinchera.
+- **Khi 1 từ Pháp gộp nghĩa của nhiều từ Tây Ban Nha (#5)**: **pas/paso (⚠⚠ KHÁC BẢN CHẤT với các
+  round trước: đây KHÔNG phải trùng âm ngẫu nhiên mà là quá trình NGỮ PHÁP HOÁ thực sự — "ne...pas"
+  vốn nghĩa đen "không...(dù chỉ) một bước", theo thời gian "pas" tự thân trở thành từ phủ định)**,
+  boîte/caja (⚠ thêm 2 nghĩa thông tục "hộp đêm"+"công ty" mà TBN không chia sẻ).
+- **Cặp từ song sinh #14 — địa lý**: mở đầu bằng **vue/vista (⭐ khớp tầm nhìn+cảnh quan)**; cũng có
+  route/ruta, pont/puente, montagne/montaña, vallée/valle.
+
+Tổng **112 nhóm, 531 cặp, ~1062 từ** — **VƯỢT MỐC 500 CẶP** cho riêng cặp Pháp-Tây Ban Nha.
+
+**Kiểm chứng**: batch-check 55 headword mới với 976 headword duy nhất của round 1-13 — 0 trùng. Sau
+khi ghi: quét ID — sạch (1705 id, 0 trùng); quét trùng headword chéo — 0 va chạm thật. `tsc --noEmit`
+sạch, `next build` EXIT=0. Playwright sống trên dev server, 3/3 kiểm tra pass ngay lần đầu (tiếp tục
+áp dụng bài học round 12: kiểm tra định dạng nút bấm thực tế trước khi viết regex cho từ ngắn "pas").
+Chụp 1 ảnh sanity-check xác nhận hiển thị đúng toàn bộ 112 nhóm, không lỗi ký tự, rồi xoá ảnh. Dev
+server đã tắt.
+
+**Tổng kết sau 14 round**: 112 nhóm, 531 cặp, ~1062 từ (vượt mốc 500 cặp và 1000 từ!) — 59 quy tắc hậu
+tố, 26 vòng faux amis, 14 vòng "cặp song sinh" (6 lần khớp đa nghĩa hiếm — temps/tiempo, droit/derecho,
+front/frente, chaîne/cadena, général/general, champ/campo), 5 vòng "gộp nghĩa" (3 kiểu khác nhau: trùng
+âm ngẫu nhiên, phân biệt bằng giống ngữ pháp, và ngữ pháp hoá). Vẫn chưa có dấu hiệu cạn nguồn sau 14
+round liên tiếp.
+
+### 20.14. Round 15 cặp Pháp ↔ Tây Ban Nha — thêm 8 nhóm nữa (120 nhóm, 565 cặp, ~1130 từ)
+
+3 quy tắc hậu tố mới (1 là sóng đôi của "-scope" round 5, 2 nhóm còn lại cùng khái niệm "ăn" nhưng gốc
+Hy Lạp/Latin khác nhau) + 1 nhóm faux amis nhỏ + 3 nhóm "cặp song sinh" + tiếp tục nhóm "gộp nghĩa" với
+1 ví dụ NGỮ PHÁP HOÁ thứ 2, chạy song song với "pas" đã học ở round 14:
+
+- **-scopie / -scopía** (Hy Lạp "skopein", sóng đôi với "-scope" round 5 — chỉ HÀNH ĐỘNG/PHƯƠNG PHÁP
+  quan sát thay vì DỤNG CỤ): endoscopie/endoscopia, radioscopie/radioscopia,
+  microscopie/microscopía, arthroscopie/artroscopia, laryngoscopie/laringoscopia.
+- **-phage / -fago** (Hy Lạp "phagein" — ăn): anthropophage/antropófago, bactériophage/bacteriófago,
+  **sarcophage/sarcófago (⚡ nghĩa gốc "loại đá ăn thịt" đã chuyển hẳn thành "quan tài đá", không còn
+  liên quan gì đến "ăn")**, phytophage/fitófago, nécrophage/necrófago.
+- **-vore / -voro** (Latin "vorare" — ăn, cùng khái niệm với "-phage" nhưng gốc Latin thay vì Hy Lạp):
+  carnivore/carnívoro, herbivore/herbívoro, omnivore/omnívoro, insectivore/insectívoro,
+  frugivore/frugívoro.
+- **Faux amis #27 — công việc, đời sống hàng ngày**: stage/estancia (⚠⚠ "kỳ thực tập" vs "kỳ lưu trú
+  nói chung"), prise/presa (⚠⚠ "ổ cắm điện, thế nắm" vs "con mồi, đập nước").
+- **Cặp từ song sinh #15 — nghề nghiệp**: employé/empleado, ouvrier/obrero, artisan/artesano,
+  apprenti/aprendiz, collègue/colega.
+- **Cặp từ song sinh #16 — thể thao**: entraîneur/entrenador, vainqueur/vencedor, record/récord,
+  compétition/competición, adversaire/adversario.
+- **Khi 1 từ Pháp gộp nghĩa của nhiều từ Tây Ban Nha (#6)**: partie/parte (⚠ TBN tách riêng "partida"
+  cho nghĩa "ván đấu"), retraite/retiro (⚠ TBN tách riêng "jubilación" cho nghĩa "nghỉ hưu"),
+  **point/punto (⚠⚠ CHẠY SONG SONG với "pas" round 14: "ne...point" cũng là 1 cách phủ định văn chương
+  cổ, cùng quá trình ngữ pháp hoá từ nghĩa đen "điểm/chút" thành phó từ phủ định)**.
+- **Cặp từ song sinh #17 — nhà cửa**: porte/puerta, mur/muro, jardin/jardín, cheminée/chimenea.
+
+Tổng **120 nhóm, 565 cặp, ~1130 từ**.
+
+**Kiểm chứng**: batch-check 68 headword mới với 1044 headword duy nhất của round 1-14 — 0 trùng. Sau
+khi ghi: quét ID — sạch (1815 id, 0 trùng); quét trùng headword chéo — 0 va chạm thật. `tsc --noEmit`
+sạch, `next build` EXIT=0. Playwright sống trên dev server, 3/3 kiểm tra pass ngay lần đầu (tiếp tục
+xác nhận định dạng nút bấm thực tế trước khi viết regex cho từ ngắn "point"). Chụp 1 ảnh sanity-check
+xác nhận hiển thị đúng toàn bộ 120 nhóm, không lỗi ký tự, rồi xoá ảnh. Dev server đã tắt.
+
+**Tổng kết sau 15 round**: 120 nhóm, 565 cặp, ~1130 từ — 62 quy tắc hậu tố, 27 vòng faux amis, 17 vòng
+"cặp song sinh" (6 lần khớp đa nghĩa hiếm), 6 vòng "gộp nghĩa" (giờ có 2 ví dụ ngữ pháp hoá song song:
+pas và point, cùng 2 ví dụ trùng âm ngẫu nhiên, 1 ví dụ phân biệt giống ngữ pháp). Vẫn chưa có dấu hiệu
+cạn nguồn sau 15 round liên tiếp.
+
+### 20.15. Round 16 cặp Pháp ↔ Tây Ban Nha — thêm 8 nhóm nữa (128 nhóm, 603 cặp, ~1206 từ)
+
+3 quy tắc hậu tố y khoa/sinh học mới + 1 nhóm faux amis (có 1 cặp viết GIỐNG HỆT NHAU nhưng nghĩa lệch
+hoàn toàn) + 3 nhóm "cặp song sinh" (trong đó có nhóm khoa học chứa TỚI 2 cặp đa nghĩa trùng khớp cùng
+lúc) + tiếp tục nhóm "gộp nghĩa" với 1 ví dụ bổ sung cho "avocat" đã học ở round 8 và 2 gia đình từ mới:
+
+- **-algie / -algia** (Hy Lạp "algos" — đau đớn): nostalgie/nostalgia, névralgie/neuralgia,
+  myalgie/mialgia, arthralgie/artralgia, odontalgie/odontalgia.
+- **-gène / -geno** (Hy Lạp "genos" — sinh ra, tạo ra): oxygène/oxígeno, hydrogène/hidrógeno,
+  nitrogène/nitrógeno, pathogène/patógeno, allergène/alérgeno.
+- **-pode / -podo** (Hy Lạp "pous, podos" — chân): gastéropode/gasterópodo, arthropode/artrópodo,
+  myriapode/miriápodo, céphalopode/cefalópodo, pseudopode/pseudópodo.
+- **Faux amis #28 — đồ vật & tính cách**: **gentil/gentil (⚠ VIẾT GIỐNG HỆT NHAU nhưng nghĩa lệch hẳn:
+  "tốt bụng" ở Pháp vs "thanh nhã, duyên dáng"/"dân ngoại đạo" ở Tây Ban Nha)**, tablier/tablero (tạp dề
+  vs bảng/ván), pupitre/púlpito (bàn học vs bục giảng kinh), plafond/plafón (trần nhà vs tấm ốp trần —
+  từ mượn ngược từ chính tiếng Pháp), métier/menester (nghề nghiệp vs sự cần thiết, trang trọng).
+- **Cặp từ song sinh #18 — gốc Ả Rập**: hasard/azar (may rủi), sucre/azúcar (đường — TBN giữ mạo từ Ả
+  Rập "al-"), coton/algodón (bông — TBN giữ mạo từ "al-", Pháp bỏ), jarre/jarra (vại), tarif/tarifa
+  (biểu giá).
+- **Cặp từ song sinh #19 — khoa học, học thuật**: **⭐⭐ matière/materia** (môn học VÀ vật chất — 2 nghĩa
+  trùng khớp), **⭐⭐ faculté/facultad** (khả năng VÀ phân khoa đại học — 2 nghĩa trùng khớp, nâng tổng số
+  cặp đa nghĩa trùng khớp trong toàn kho lên **8 cặp**), science/ciencia, diplôme/diploma,
+  étudiant/estudiante.
+- **Cặp từ song sinh #20 — thiên nhiên, thời tiết (#2)**: plage/playa, étoile/estrella, neige/nieve,
+  tempête/tempestad, soleil/sol.
+- **Khi 1 từ Pháp gộp nghĩa của nhiều từ Tây Ban Nha (#7)**: **⚡ avocat/aguacate** (quả bơ — bổ sung
+  cho cặp "avocat/abogado"=luật sư đã học ở round 8, xác nhận đây là hiện tượng TRÙNG ÂM NGẪU NHIÊN
+  giữa 2 từ khác gốc hoàn toàn), moule/molde (⚠ khuôn, khớp) + moule/mejillón (con vẹm, TBN tách riêng),
+  **⚡ col/cuello** (cổ áo, khớp) + **col/puerto** (đèo núi — bất ngờ TBN dùng từ "puerto" vốn nghĩa
+  "bến cảng" để chỉ đèo núi).
+
+Tổng **128 nhóm, 603 cặp, ~1206 từ**.
+
+**Kiểm chứng**: batch-check 77 headword mới với ~1112 headword duy nhất của round 1-15 — sau 2 lần lọc
+lại phát hiện phần lớn candidate ban đầu đã bị dùng (attendre/embarrassé/carte/collège, cave/chambre/
+brave/figure/essayer, université/professeur, demander/quitter/user, façon/cabinet, boutique/botica đều
+đã có sẵn — minh chứng độ bão hoà rất cao của các cặp faux-amis/twins "nổi tiếng" sau 15 round), cuối
+cùng chốt được 77 headword hoàn toàn mới, 0 trùng. Sau khi ghi: quét ID — sạch (1892 id, 0 trùng); quét
+trùng headword chéo — chỉ 1 va chạm, đúng là "avocat" dùng có chủ đích (word-splitting, khác `abogado`
+ở round 8 và `aguacate` ở round này). `tsc --noEmit` sạch, `next build` EXIT=0. Playwright sống trên
+dev server, 4/4 kiểm tra pass ngay lần đầu (pre-check `allInnerTexts()` trước khi viết regex cho 2 nút
+"avocat↔..." trùng tiền tố). Chụp 1 ảnh sanity-check xác nhận hiển thị đúng toàn bộ 128 nhóm, không lỗi
+ký tự, rồi xoá ảnh. Dev server đã tắt.
+
+**Tổng kết sau 16 round**: 128 nhóm, 603 cặp, ~1206 từ — 65 quy tắc hậu tố, 28 vòng faux amis, 20 vòng
+"cặp song sinh" (8 lần khớp đa nghĩa hiếm), 7 vòng "gộp nghĩa". Ghi nhận: kho từ "nổi tiếng/dễ nghĩ ra"
+đã gần cạn (round 16 phải loại bỏ ~30 candidate trùng trước khi tìm ra bộ mới) — các round sau nên ưu
+tiên hậu tố khoa học/kỹ thuật ít thông dụng hơn (ví dụ "-lithe/-lito", "-morphe/-morfo", "-mancie/
+-mancia") và tiếp tục đào sâu "gộp nghĩa"/"đa nghĩa trùng khớp" vốn vẫn còn dư địa.
+
+### 20.16. Round 17 cặp Pháp ↔ Tây Ban Nha — 6 nhóm (134 nhóm, 632 cặp, ~1264 từ)
+
+Theo đúng khuyến nghị cuối round 16: 3 hậu tố khoa học/kỹ thuật ít thông dụng hơn + 1 nhóm faux amis
+(ít nổi tiếng hơn nhưng vẫn xác thực) + 1 nhóm "cặp song sinh" ẩm thực + tiếp tục kiểu "hoàn thiện cặp
+cũ" (khám phá từ round 16 với "avocat") áp dụng cho CẢ "carte" (round 1) và "chef" (round 6):
+
+- **-lithe / -lito** (Hy Lạp "lithos"=đá): monolithe/monolito, mégalithe/megalito, aérolithe/aerolito,
+  microlithe/micrólito, laccolithe/lacolito.
+- **-morphe / -morfo** (Hy Lạp "morphe"=hình dạng): amorphe/amorfo, polymorphe/polimorfo,
+  anthropomorphe/antropomorfo, isomorphe/isomorfo, zoomorphe/zoomorfo.
+- **-mancie / -mancia** (Hy Lạp "manteia"=bói toán): chiromancie/quiromancia, nécromancie/necromancia,
+  cartomancie/cartomancia, pyromancie/piromancia, géomancie/geomancia.
+- **Faux amis #29 — sinh hoạt, may mặc, ẩm thực**: sortir/surtir (ra ngoài vs cung cấp hàng hoá),
+  abîmer/abismar (làm hỏng vs làm choáng ngợp), veste/vestido (áo khoác vs váy đầm — cùng gốc
+  "vestis"=quần áo), viande/vianda (thịt vs thực phẩm/rau củ tinh bột ở Caribe), **⚡ trombone/trombón**
+  (kèn trombone, khớp — nhưng Pháp còn dùng làm "cái kẹp giấy").
+- **Cặp từ song sinh #21 — ẩm thực cơ bản**: légume/legumbre, fruit/fruta, poisson/pez, lait/leche,
+  riz/arroz (gốc xa từ Hy Lạp "oryza" qua tiếng Ả Rập).
+- **Khi 1 từ Pháp gộp nghĩa của nhiều từ Tây Ban Nha (#8)**: **⚡ carte/mapa** (bản đồ — hoàn thiện cặp
+  "carte/carta"=lá thư đã học round 1), **⚡ chef/cocinero** (đầu bếp — hoàn thiện cặp "chef/jefe"=sếp
+  đã học round 6), poste/puesto (vị trí, khớp) + poste/correo (bưu điện, khác gốc hoàn toàn).
+
+Tổng **134 nhóm, 632 cặp, ~1264 từ**.
+
+**Kiểm chứng**: batch-check 58 headword mới với ~1186 headword duy nhất của round 1-16 — phát hiện 1
+trùng ("carro", đã dùng ở round 4 trong cặp "car/carro"), thay bằng "trombone/trombón". Sau khi ghi:
+quét ID — sạch (632 pairs, 0 trùng); quét trùng headword chéo — 4 va chạm, TẤT CẢ đều chủ đích (carte:
+ff1+splitwords8; chef: ff11+splitwords8; avocat: vsen5+splitwords7 từ round 16; poste: dùng 2 lần
+trong cùng nhóm splitwords8 cho 2 nghĩa khác nhau). `tsc --noEmit` sạch, `next build` EXIT=0. Playwright
+sống trên dev server, 4/4 kiểm tra pass ngay lần đầu (pre-check `allInnerTexts()` xác nhận "poste↔puesto"
+và "poste↔correo" phân biệt rõ bằng phần đuôi sau "↔"). Chụp 1 ảnh sanity-check xác nhận hiển thị đúng
+toàn bộ 134 nhóm, không lỗi ký tự, rồi xoá ảnh. Round này chỉ ra 6 nhóm/29 cặp (dưới mức thường lệ ~8
+nhóm) — ưu tiên chất lượng, giống tiền lệ round 4/8, vì hậu tố khoa học ít thông dụng hơn cần chọn lọc
+kỹ hơn để tránh gượng ép.
+
+**Tổng kết sau 17 round**: 134 nhóm, 632 cặp, ~1264 từ — 68 quy tắc hậu tố, 29 vòng faux amis, 21 vòng
+"cặp song sinh", 8 vòng "gộp nghĩa" (giờ có mẫu "hoàn thiện cặp cũ" áp dụng 3 lần: avocat, carte, chef).
+
+### 20.17. Round 18 cặp Pháp ↔ Tây Ban Nha — 7 nhóm (141 nhóm, 664 cặp, ~1328 từ)
+
+Tiếp tục hướng hậu tố ít thông dụng (lần này 0 trùng lặp ngay từ đầu, xác nhận chiến lược đúng đắn) +
+1 nhóm faux amis mới + 2 nhóm "cặp song sinh" (gia đình + đa dạng, có 1 phát hiện đa nghĩa trùng khớp
+thứ 9 VÀ 1 phát hiện MỚI: Tây Ban Nha gộp thêm nghĩa mà Pháp không có, chiều ngược lại so với trước) +
+tiếp tục "gộp nghĩa" với 1 gia đình từ mới:
+
+- **-phyte / -fito** (Hy Lạp "phyton"=cây): épiphyte/epifito, xérophyte/xerófito, néophyte/neófito,
+  saprophyte/saprofito, hydrophyte/hidrófito.
+- **-saure / -saurio** (Hy Lạp "sauros"=thằn lằn, tên khủng long): dinosaure/dinosaurio,
+  ptérosaure/pterosaurio, plésiosaure/plesiosaurio, ichtyosaure/ictiosaurio, tyrannosaure/tiranosaurio.
+- **-phore / -foro** (Hy Lạp "phoros"=mang): **⚠ sémaphore/semáforo** (thuật ngữ tín hiệu đường
+  sắt/hàng hải hẹp ở Pháp vs từ THÔNG DỤNG NHẤT "đèn giao thông" ở Tây Ban Nha), métaphore/metáfora,
+  **⚡ phosphore/fósforo** (Tây Ban Nha gộp thêm nghĩa "que diêm" mà Pháp không có), anaphore/anáfora,
+  chromatophore/cromatóforo.
+- **Faux amis #30 — động từ ít quen thuộc**: brosse/broza (bàn chải vs cành lá vụn trong vườn),
+  ficher/fichar (lập hồ sơ theo dõi vs chấm công/ký hợp đồng cầu thủ), figer/fijar (đông đặc vs ấn
+  định), gâter/gastar (nuông chiều/làm hỏng vs tiêu tiền/hao mòn), arrêter/arrestar (dừng lại bất kỳ
+  hành động nào vs chỉ bắt giữ pháp lý).
+- **Cặp từ song sinh #22 — gia đình**: père/padre, mère/madre, fils/hijo (biến âm f→h), fille/hija,
+  époux/esposo.
+- **Cặp từ song sinh #23 — đa dạng**: **⚡ manier/manejar** (khớp nghĩa "cầm nắm" nhưng TÂY BAN NHA gộp
+  thêm nghĩa "lái xe ô tô" mà Pháp không có — CHIỀU NGƯỢC so với các cặp gộp nghĩa trước đây vốn luôn
+  là Pháp đa nghĩa hơn), **⭐ type/tipo** (đa nghĩa trùng khớp thứ 9: "loại" + thông tục "một gã, một
+  tay"), employer/emplear, manipuler/manipular, toucher/tocar.
+- **Khi 1 từ Pháp gộp nghĩa của nhiều từ Tây Ban Nha (#9)**: cor/cuerno (tù và, khớp — cùng gốc
+  "cornu"=sừng) + cor/callo (vết chai ở chân, khác gốc hoàn toàn).
+
+Tổng **141 nhóm, 664 cặp, ~1328 từ**.
+
+**Kiểm chứng**: batch-check 64 headword mới với ~1244 headword duy nhất của round 1-17 — 0 trùng ngay
+từ lần đầu (khác hẳn round 16's 3 lần lọc, xác nhận chiến lược "hậu tố càng ít thông dụng thì càng ít
+va chạm" là đúng). Sau khi ghi: quét ID sạch (664 cặp, 0 trùng); quét trùng headword chéo — 5 va chạm,
+tất cả chủ đích (carte, chef, avocat từ các round trước + "cor" dùng 2 lần trong cùng nhóm splitwords9).
+`tsc --noEmit` sạch, `next build` EXIT=0. Playwright sống trên dev server, 4/4 kiểm tra pass ngay lần
+đầu. Chụp 1 ảnh sanity-check xác nhận hiển thị đúng toàn bộ 141 nhóm, không lỗi ký tự, rồi xoá ảnh.
+
+**Tổng kết sau 18 round**: 141 nhóm, 664 cặp, ~1328 từ — 71 quy tắc hậu tố, 30 vòng faux amis, 23 vòng
+"cặp song sinh" (9 lần khớp đa nghĩa hiếm + 1 phát hiện chiều-ngược mới), 9 vòng "gộp nghĩa" (4 lần áp
+dụng mẫu "hoàn thiện cặp cũ": avocat, carte, chef, và giờ có tiền lệ để tiếp tục tìm thêm). Vẫn chưa có
+dấu hiệu cạn nguồn khi tập trung vào từ vựng khoa học/kỹ thuật ít phổ biến.
+
+### 20.18. Round 19 cặp Pháp ↔ Tây Ban Nha — 6 nhóm (147 nhóm, 692 cặp, ~1384 từ)
+
+3 hậu tố sinh học/nông nghiệp mới (0 va chạm, tiếp tục xác nhận chiến lược "đi ngách kỹ thuật") + 1
+nhóm faux amis + 1 nhóm "cặp song sinh" cảm xúc + tiếp tục "gộp nghĩa" với 1 biến thể sub-type MỚI:
+
+- **-cyte / -cito** (Hy Lạp "kytos"=tế bào): leucocyte/leucocito, érythrocyte/eritrocito,
+  phagocyte/fagocito, lymphocyte/linfocito, monocyte/monocito.
+- **-derme / -dermo** (Hy Lạp "derma"=da): endoderme/endodermo, ectoderme/ectodermo,
+  mésoderme/mesodermo, pachyderme/paquidermo, hypoderme/hipodermo.
+- **-cole / -cola** (Latin "colere"=trồng trọt, cư ngụ): agricole/agrícola, viticole/vitícola,
+  apicole/apícola, piscicole/piscícola, arboricole/arborícola.
+- **Faux amis #31**: remarquer/remarcar (nhận thấy vs nhấn mạnh), supplier/suplir (van xin vs thay
+  thế), concurrence/concurrencia (cạnh tranh vs lượng người tham dự), manquer/manco (thiếu/nhớ-động từ
+  vs cụt tay-tính từ), vexer/vejar (làm phật lòng nhẹ vs sỉ nhục nặng — cùng gốc "vexare" nhưng lệch
+  MỨC ĐỘ chứ không chỉ lệch nghĩa).
+- **Cặp từ song sinh #24 — cảm xúc cơ bản**: compassion/compasión, amour/amor, espoir/esperanza,
+  **jalousie/celos** (hình thức khác hẳn nhưng cùng gốc Hy Lạp "zelos"), courage/coraje.
+- **Khi 1 từ Pháp gộp nghĩa của nhiều từ Tây Ban Nha (#10)**: **⚡ enceinte/encinta** (mang thai) +
+  **⚡ enceinte/recinto** (tường thành) — biến thể MỚI: CẢ HAI nhánh nghĩa Tây Ban Nha đều cùng gốc Latin
+  "cingere" (khác các vòng trước luôn có 1 nhánh là từ ngoại lai không liên quan); **⚡ pile/pila** (pin,
+  chồng/đống, khớp) — CHIỀU NGƯỢC: Tây Ban Nha vùng Caribe còn gộp thêm nghĩa "bồn rửa" mà Pháp không
+  có, nối tiếp phát hiện "manier/manejar" ở round 18.
+
+Tổng **147 nhóm, 692 cặp, ~1384 từ**.
+
+**Kiểm chứng**: batch-check 56 headword mới với ~1304 headword duy nhất của round 1-18 — chỉ 1 trùng
+("tristesse", đã dùng ở hậu tố "-esse" round 4), thay bằng "compassion/compasión". Sau khi ghi: quét ID
+sạch (692 cặp, 0 trùng); quét trùng headword chéo — 6 va chạm, tất cả chủ đích (carte/chef/avocat/cor từ
+các round trước + "enceinte" dùng 2 lần trong cùng nhóm splitwords10). `tsc --noEmit` sạch, `next build`
+EXIT=0. Playwright sống trên dev server, 4/4 kiểm tra pass ngay lần đầu. Chụp 1 ảnh sanity-check xác
+nhận hiển thị đúng toàn bộ 147 nhóm, không lỗi ký tự, rồi xoá ảnh.
+
+**Tổng kết sau 19 round**: 147 nhóm, 692 cặp, ~1384 từ — 74 quy tắc hậu tố, 31 vòng faux amis, 24 vòng
+"cặp song sinh", 10 vòng "gộp nghĩa" (giờ có 4 sub-type: đồng âm ngẫu nhiên, tách theo giống ngữ pháp,
+ngữ pháp hoá, VÀ mới nhất là "cả 2 nhánh đều cùng gốc" [enceinte] + phát hiện "chiều ngược" lặp lại lần
+2 [pile, sau manier round 18] — cho thấy đây không phải hiện tượng đơn lẻ mà là một mô-típ đáng tiếp tục
+săn tìm).
+
+### 20.19. Round 20 cặp Pháp ↔ Tây Ban Nha — cột mốc 20 round! (153 nhóm, 718 cặp, ~1436 từ)
+
+3 hậu tố mới (trong đó có 1 cặp hậu tố danh từ/tính từ sóng đôi hoàn chỉnh với round 19) + 1 nhóm faux
+amis (có màn "chơi chữ" tiếp nối round 19) + 1 nhóm "cặp song sinh" hình học + tiếp tục "gộp nghĩa" với
+THÊM 2 phát hiện "chiều ngược" mới, nâng tổng số ví dụ chiều-ngược lên 4:
+
+- **-phile / -filo** (Hy Lạp "philos"=yêu thích, ngược nghĩa với "-phobie" round 5): bibliophile/
+  bibliófilo, cinéphile/cinéfilo, xénophile/xenófilo, francophile/francófilo, technophile/tecnófilo.
+- **-culture / -cultura** (Latin "cultura", DANH TỪ sóng đôi hoàn chỉnh với TÍNH TỪ "-cole/-cola" round
+  19): agriculture/agricultura, horticulture/horticultura, apiculture/apicultura,
+  viticulture/viticultura, pisciculture/piscicultura.
+- **-carpe / -carpio** (Hy Lạp "karpos"=quả HOẶC cổ tay, trùng âm ngẫu nhiên): endocarpe/endocarpio,
+  mésocarpe/mesocarpio, épicarpe/epicarpio, péricarpe/pericarpio, métacarpe/metacarpio (xương bàn tay —
+  nghĩa "cổ tay" của "karpos", khác nhánh thực vật học ở 4 từ trên).
+- **Faux amis #32 — hôn nhân, sinh hoạt**: **⚠⚠ épouser/esposar** (kết hôn vs còng tay — nối tiếp hài
+  hước cặp "époux/esposo"=vợ chồng đã học round 19), entretenir/entretener (bảo dưỡng vs giải trí),
+  renverser/revertir (làm đổ vật lý vs đảo ngược trừu tượng).
+- **Cặp từ song sinh #25 — hình học cơ bản**: cercle/círculo, carré/cuadrado, triangle/triángulo,
+  ligne/línea, rectangle/rectángulo.
+- **Khi 1 từ Pháp gộp nghĩa của nhiều từ Tây Ban Nha (#11)**: **⚡ partir/partir** (rời đi, khớp — nhưng
+  Tây Ban Nha còn giữ nghĩa cổ "bẻ, chia đôi" mà Pháp đã đánh mất, ví dụ chiều-ngược thứ 3), **⚡
+  consentir/consentir** (đồng ý, khớp — nhưng Tây Ban Nha còn có nghĩa "nuông chiều trẻ con", ví dụ
+  chiều-ngược thứ 4), facteur/factor (yếu tố, khớp) + facteur/cartero (người đưa thư, khác gốc — kiểu
+  gộp nghĩa cổ điển của Pháp).
+
+Tổng **153 nhóm, 718 cặp, ~1436 từ**.
+
+**Kiểm chứng**: batch-check 52 headword mới với ~1359 headword duy nhất của round 1-19 — chỉ 1 trùng
+("librar", đã dùng ở round 5 cho "délivrer/librar"), loại bỏ ý tưởng "livrer/librar" khỏi nhóm faux
+amis (còn lại 3 cặp chất lượng thay vì ép đủ 5). Sau khi ghi: quét ID sạch (718 cặp, 0 trùng); quét
+trùng headword chéo — 6 va chạm, tất cả chủ đích từ các round trước (không phát sinh va chạm mới; "partir"
+và "consentir" dùng chính từ đó ở CẢ 2 phía trong cùng 1 cặp — giống tiền lệ "sentir/sentir" round 5,
+"gentil/gentil" round 16 — không tính là trùng). `tsc --noEmit` sạch, `next build` EXIT=0. Playwright
+sống trên dev server, 4/4 kiểm tra pass ngay lần đầu. Chụp 1 ảnh sanity-check xác nhận hiển thị đúng
+toàn bộ 153 nhóm, không lỗi ký tự, rồi xoá ảnh.
+
+**Tổng kết sau 20 round (cột mốc!)**: 153 nhóm, 718 cặp, ~1436 từ — 77 quy tắc hậu tố (qua 62 "buổi
+học" hậu tố riêng biệt), 32 vòng faux amis, 25 vòng "cặp song sinh" (9 lần khớp đa nghĩa hiếm), 11 vòng
+"gộp nghĩa" (4 sub-type + **4 ví dụ "chiều ngược" đã xác nhận**: manier/manejar, pile/pila, partir/
+partir, consentir/consentir — đủ dữ liệu để khẳng định đây là một mô-típ thật sự phổ biến, không phải
+ngẫu nhiên). Sau 20 round liên tục, kho từ khoa học/kỹ thuật ít thông dụng (sinh học, nông nghiệp, giải
+phẫu, thần thoại...) vẫn chưa có dấu hiệu cạn — mỗi round gần đây chỉ gặp 0-1 va chạm trùng lặp.
+
+## 21. Cân bằng nội dung toàn app giữa các ngôn ngữ/category
+
+Sau 20 round liên tiếp đào sâu fr-es cognates, người dùng yêu cầu đổi hướng: từ giờ bổ sung dữ liệu ĐỀU
+giữa các ngôn ngữ/category thay vì dồn hết vào 1 mục, tránh tình trạng 1 ngôn ngữ quá nhiều trong khi
+ngôn ngữ khác quá ít.
+
+**Khảo sát số liệu thực tế (2026-09-30)** — đếm trực tiếp từ `data/*.json`, không dựa vào ước lượng cũ:
+
+| Category | zh | ja | ko | en | es |
+|---|---|---|---|---|---|
+| Âm đồng âm (base) | 1788 | 1257 | 1106 | 487 | 531 |
+| Hình cận tự (shape) | 4219 | 148 | **0 (chưa có file)** | 371 | 346 |
+| Bẫy nghĩa (false-friends) | 2004 | 480 | 480 | — | — |
+| Ký tự đối nghĩa (char-antonym) | 848 | 620 | 616 | — | — |
+| Đồng nghĩa-trái nghĩa | 7157 | 944 | 944 | 991 | 1810 |
+| Chủ đề (topics) | 6767 | 6392 | 6393 | 6024 | 1146 |
+| Chuỗi (chains) | 7054 | 357 | 353 | — | — |
+| Kịch bản (scenarios) | 2760 | 2760 | 2760 | — | — |
+| Ngữ pháp (grammar) | **chưa có file** | 587 điểm | 599 điểm | — | — |
+| Phụ âm đầu (initials, riêng zh) | 6607 | — | — | — | — |
+
+Lỗ hổng rõ nhất: **`ko-shape.json` hoàn toàn chưa tồn tại** (code đã có sẵn chỗ chờ, comment cũ trong
+`vocabStore.ts` ghi "hiện chưa làm cho tiếng Hàn") và **`zh-grammar.json` chưa tồn tại**. Người dùng chọn
+ưu tiên vá 2 lỗ hổng "0 tuyệt đối" này trước, thay vì thu hẹp khoảng cách ở các category đã có ít nhất
+1 chút dữ liệu.
+
+### 21.1. Round 1 — Tạo mới `ko-shape.json` (8 nhóm, 18 chữ gốc, 72 từ)
+
+`readme.md` (mục ý tưởng #2, dòng ~628) đã ghi nhận từ trước: trục "hình cận tự" cho tiếng Hàn khả thi
+bằng cách dùng CHÍNH các cặp chữ Hán dễ nhầm hình dạng đã có trong `zh-shape.json`/`ja-shape.json` (vì
+Hán-Hàn dùng chung bộ chữ Hán với Hán-Việt/Hán-Nhật), sau đó tìm từ Hán-Hàn thật (viết bằng Hangul)
+tương ứng với từng chữ gốc — "đã xác nhận: hợp lý và đáng làm", chỉ cần field `groupKind: "shape"` có
+sẵn trong `SoundGroup`, không cần code mới.
+
+8 nhóm khởi đầu (mượn cặp chữ từ `zh-shape.json`, viết từ Hán-Hàn mới):
+- **未 · 末** (chưa/cuối): 미래·미만·미혼·미완성 / 주말·결말·말기·연말.
+- **少 · 小** (ít/nhỏ) — **⭐ nhầm lẫn KÉP hiếm gặp**: 2 chữ này KHÔNG CHỈ giống hình mà còn ĐỌC TRÙNG ÂM
+  Hán-Hàn (đều là "소") — phát hiện thú vị không nhất thiết đúng ở zh (shǎo≠xiǎo) hay ja.
+  소녀·감소·소량·청소년 / 소설·소형·소포·축소.
+- **大 · 太 · 犬** (lớn/thái/chó): 대학·대회·대통령·확대 / 태양·태평양·태극기·태고 / 맹견·애견·견공·투견.
+- **王 · 玉** (vua/ngọc): 왕국·왕자·여왕·왕비 / 옥새·백옥·홍옥·옥토끼.
+- **手 · 毛** (tay/lông): 수술·가수·선수·박수 / 모발·모피·불모지·양모.
+- **人 · 入 · 八** (người/vào/tám): 인간·인구·외국인·인기 / 입구·수입·입학·출입 / 팔월·팔각형·팔십·십중팔구.
+- **白 · 自** (trắng/tự): 백색·백지·명백·고백 / 자유·자신·자연·자동차.
+- **天 · 夫** (trời/chồng): 천국·천사·천재·천장 / 부부·농부·부인·어부.
+
+**Thay đổi code**: thêm `import koShape` + `ko: koShape as LanguageData` vào `STATIC_SHAPE_DATA` trong
+`src/lib/vocabStore.ts` (trước đó object này chỉ có zh/ja/en/es, `ko` hoàn toàn vắng mặt nên trang
+`/shapes` còn KHÔNG HIỂN THỊ dòng "Sắp ra mắt" cho tiếng Hàn — không phải disabled mà là bị lọc bỏ hẳn
+khỏi danh sách vì `getShapeLanguages()` filter `undefined`). Cập nhật lại 2 đoạn comment cũ nói "chưa làm
+cho tiếng Hàn" ở `vocabStore.ts` và mô tả trên trang `/shapes` (trước chỉ nhắc zh/ja, giờ thêm ko).
+Không cần sửa route/component nào khác — `GroupExplorer`/`MindmapCanvas`/review hoàn toàn generic theo
+data, đúng như `readme.md` đã dự đoán.
+
+**Kiểm chứng**: syntax-check + quét U+FFFD script build; quét trùng id/headword trong file mới — sạch
+(0 trùng, 72 headword duy nhất). `tsc --noEmit` sạch, `next build` EXIT=0. Playwright sống trên dev
+server, 4/4 kiểm tra pass (1 lần debug nhỏ: `getByText('少 · 小')` không khớp vì text nút gộp nhiều dòng,
+đổi sang `locator('a', {hasText:'少'})` — lỗi test script, không phải lỗi app). Ảnh chụp xác nhận mindmap
+nhóm "소/小" hiển thị đúng 2 nhánh, đủ icon yêu thích/danh mục/loa phát âm giống các ngôn ngữ khác.
+
+**Còn lại**: 8 nhóm là khởi đầu, cần thêm nhiều round nữa để tiệm cận mức ja (51 nhóm/148 từ) rồi xa hơn.
+Ứng viên cặp chữ tiếp theo (mượn từ `zh-shape.json`): 己/已/巳, 九/丸, 弓/引, 午/牛, 心/必, 瓜/爪, 户/尸,
+乌/鸟 — cần tra từ Hán-Hàn thật cho từng chữ trước khi soạn, không suy đoán. (Round 2 đã dùng phần lớn
+danh sách này; 瓜/爪 và 户/尸 bị LOẠI sau khi kiểm tra vì các chữ này gần như không tạo từ Hán-Hàn thông
+dụng nào trong tiếng Hàn hiện đại — bài học: phải kiểm tra độ phong phú từ vựng của CẢ HAI chữ trước
+khi chọn cặp, không chỉ dựa vào việc cặp đó có sẵn trong zh-shape.)
+
+### 21.2. Round 2 — thêm 8 nhóm `ko-shape.json` (16 nhóm, 34 chữ gốc, 131 từ)
+
+Tiếp tục mượn cặp chữ Hán dễ nhầm hình dạng từ danh sách `zh-shape.json`, chuyển sang dạng CHÍNH THỂ
+(traditional) khi cần (vd 乌/鸟 giản thể → 烏/鳥 phồn thể dùng trong Hán-Hàn) và viết từ Hán-Hàn thật:
+
+- **九 · 丸** (chín/viên thuốc): 구월·구십·구사일생·구공탄 / 환약·탄환·포환·청심환.
+- **弓 · 引** (cung/kéo): 양궁·국궁·궁수·궁도 / 인용·할인·인도·견인.
+- **午 · 牛** (giờ Ngọ/bò): 오후·오전·정오·단오 / 우유·한우·투우·광우병.
+- **心 · 必** (tâm/tất phải): 관심·중심·안심·심장 / 필요·필수·필승·필사적.
+- **烏 · 鳥** (quạ/chim — chuyển từ giản thể 乌/鸟 sang phồn thể): 오작교·오합지졸·오죽 / 조류·백조·타조·조감도.
+- **己 · 已** (bản thân/đã) — 已 hiếm gặp trong từ hiện đại, chỉ tìm được 2 từ xác thực: 자기·이기적·지기·극기 /
+  이왕·부득이 (ghi rõ trong "note" của nhóm để không gây hiểu nhầm là thiếu sót).
+- **東 · 束** (đông/ràng buộc, cặp MỚI không có sẵn trong danh sách mượn từ zh-shape, tự tìm thêm):
+  동양·동해·동대문·동쪽 / 약속·구속·결속·단속.
+- **日 · 曰** (ngày/rằng — cổ văn): 일요일·매일·생일·일기 / 자왈·왈가왈부 (thành ngữ 4 chữ dùng 曰 hai lần).
+
+Tổng **16 nhóm, 34 chữ gốc, 131 từ**.
+
+**Kiểm chứng**: build script syntax-check + quét U+FFFD; quét trùng id/headword trong TOÀN BỘ file (16
+nhóm gộp cả 2 round) — sạch (0 trùng id, 131 headword duy nhất, không trùng round 1). `tsc --noEmit`
+sạch, `next build` EXIT=0. Playwright sống trên dev server, 4/4 kiểm tra pass (1 lần debug: click theo
+`hasText: 'chuỗi 2 chữ + · '` không khớp do link gộp nhiều dòng text, đổi sang khớp 1 ký tự "曰" duy
+nhất — lại là lỗi test script, không phải lỗi app, giống bài học round 1). Ảnh chụp xác nhận mindmap
+nhóm 烏/鳥 hiển thị đúng, phân biệt rõ 2 nhánh dù 2 chữ trông gần giống nhau ở tiêu đề thu nhỏ (đúng bản
+chất "hình cận tự" — chỉ khác 1 nét chấm mắt).
+
+### 21.3. Round 3 — Tạo mới `zh-grammar.json` (9 nhóm, 64 điểm ngữ pháp, 192 ví dụ, 20 cụm dễ nhầm)
+
+Lỗ hổng "0 tuyệt đối" thứ hai đã được vá. Trước đây `/grammar` chỉ có Hàn (599 điểm) và Nhật (587
+điểm), tiếng Trung hoàn toàn vắng mặt (`ALL_LANGS = ["ko", "ja"]` hard-code ngay trên trang chủ mục
+ngữ pháp, dù `LANG_ICON` đã có sẵn 🇨🇳 từ lâu).
+
+**Khung category phải thiết kế lại từ đầu, không sao chép được Hàn/Nhật.** Tiếng Trung KHÔNG chia động
+từ theo thì và KHÔNG có trợ từ cách như 은/는 hay は/が, nên các category trụ cột của ja/ko
+(`conjugation-forms`, `honorifics`, `particles`) không có đối ứng. Thay vào đó, 9 category được chọn
+theo đúng những vùng gây nhầm nhiều nhất của tiếng Trung:
+
+- **动态助词** (trợ từ thể: 了₁/了₂/过/着/正在/要…了/不 vs 没) — 7 điểm.
+- **的 / 地 / 得** (bộ ba "de" kinh điển, kèm 是…的 và 的 danh từ hoá) — 5 điểm.
+- **介词** (把/被/给/对/跟/从/离/在) — 8 điểm.
+- **量词** (个/位/张/条/只/本/件/双-对) — 8 điểm.
+- **补语** (kết quả/xu hướng/khả năng/mức độ/số lượng/起来) — 6 điểm.
+- **比较** (比/没有/一样/更-最/越来越/越…越/比较) — 7 điểm.
+- **疑问句** (吗/呢/吧/正反问/几 vs 多少/怎么 vs 怎么样/为什么) — 7 điểm.
+- **副词** (就/才/都/还/再/又/也/却) — 8 điểm.
+- **能愿动词** (会/能/可以/要/想/得 děi/应该/必须) — 8 điểm.
+
+**20 cụm dễ nhầm** được gắn chéo vào các điểm, trong đó nhiều cụm cắt ngang nhiều category — vd cụm
+`de-di-de` gom cả 的/地/得 (category 2), 程度补语 (category 5) và 得 děi (category 9) vì cùng một chữ 得
+đọc 3 âm khác nhau. Các cụm đắt giá khác: 了₁ vs 了₂, 着 vs 正在, 不 vs 没, 把 vs 被, 从 vs 离, 就 vs 才,
+再 vs 又 vs 还, 会 vs 能 vs 可以, và bẫy 不要 (KHÔNG phải phủ định của 要 mà nghĩa là "đừng").
+
+5 điểm được gắn `timeAxis` (了₁, 过, 着, 正在, 要…了) để trang lưới thời gian `/grammar/zh/timeline`
+có dữ liệu ngay từ round đầu.
+
+**Thay đổi code**: thêm `zh: zhGrammar` vào `STATIC_GRAMMAR` (`src/lib/grammarStore.ts`) và thêm "zh"
+vào `ALL_LANGS` + `LANG_LABEL` (`src/app/grammar/page.tsx`). Không đụng gì thêm — `grammarStories`/
+`grammarWizard` đều khai báo kiểu `Partial<Record<Language, …>>` nên tiếng Trung tự động trả về rỗng
+thay vì lỗi (câu chuyện/cây quyết định cho zh là việc của round sau).
+
+**Kiểm chứng**: quét U+FFFD; quét trùng id điểm; quét TRÙNG PATTERN theo kiểu core-normalize (bỏ phần
+pinyin trong ngoặc, bỏ dấu cách/·/…) — đúng quy trình bắt buộc đã rút ra từ nội dung ngữ pháp ja/ko;
+quét THAM CHIẾU CHÉO hai chiều (điểm→cụm và cụm→điểm) để không có id treo; quét đủ trường bắt buộc và
+`level` hợp lệ cho cả 64 điểm — tất cả sạch. `tsc --noEmit` sạch, `next build` EXIT=0. Playwright sống
+trên dev server kiểm **8 bề mặt** của mục ngữ pháp (hub, danh sách, cụm dễ nhầm, mindmap, mindmap chi
+tiết, lưới thời gian, trắc nghiệm, ôn tập) — **8/8 pass ngay lần đầu, 0 lỗi console**. Kiểm đủ 8 bề mặt
+vì mục ngữ pháp có nhiều trang dựng độc lập, dễ lệch nhau khi thêm ngôn ngữ mới.
+
+### 21.4. Round 4 — Làm DÀY es-topics (12 chủ đề cốt lõi: 6 → 18 từ mỗi chủ đề, +144 từ)
+
+**Phân tích lại con số cho thấy vấn đề khác hẳn giả định ban đầu.** Nhìn tổng: es-topics 1146 từ vs
+en-topics 6017 từ (kém 5,3 lần) — tưởng là es thiếu chủ đề. Nhưng đếm kỹ thì es đã có 191 chủ đề, en
+có 233 — số lượng chủ đề gần bằng nhau. Chênh lệch nằm ở **ĐỘ SÂU**:
+
+- **es: cả 191/191 chủ đề đều đúng 3 nhánh × 2 từ = 6 từ. Không có một ngoại lệ nào** — toàn bộ file
+  nằm ở mức sàn tối thiểu.
+- **en: cũng lấy 6 từ làm sàn, nhưng chủ đề bình thường trung bình ~15 từ**, cộng 5 "siêu chủ đề"
+  (phrasalverbs 533 từ, idioms 531, collocations 531, cdramavocab 596, binomials 358) chiếm tới 42%
+  tổng số từ của cả file.
+
+→ Kết luận: es-topics không thiếu BỀ RỘNG mà thiếu CHIỀU SÂU. Thêm chủ đề mới 6 từ nữa chỉ làm đẹp con
+số đếm chứ mỗi chủ đề vẫn mỏng y như cũ. Vì vậy round này **không thêm chủ đề nào**, mà làm dày 12 chủ
+đề cốt lõi (đời sống hằng ngày) từ 6 → 18 từ, tức mỗi nhánh từ 2 → 6 từ, khớp đúng mật độ chủ đề
+thường của tiếng Anh.
+
+12 chủ đề đã làm dày: comida, familia, trabajo, tiempolibre, salud, medioambiente, tecnología, viajes,
+educación, emociones, ciudadcampo, fiestas. Nội dung ưu tiên từ thực dụng đời thường (la harina, fichar,
+la baja laboral, el billete de ida y vuelta, la beca) và một số thành ngữ cảm xúc (estar hecho polvo,
+tener un nudo en la garganta), cùng vài từ văn hoá Tây Ban Nha đặc thù (las Fallas, las doce uvas,
+el cotillón, los polvorones, la sidra).
+
+Tổng es-topics: **191 chủ đề, 1290 từ** (12 chủ đề ở mức 18 từ, 179 chủ đề còn ở mức sàn 6 từ).
+
+**Kiểm chứng**: script build có sẵn **hàng rào chống trùng theo TOÀN CHỦ ĐỀ** (quét chéo tất cả các
+nhánh trong cùng chủ đề trước khi chèn, đúng bài học bắt buộc rút ra từ en-topics round 16) — nếu phát
+hiện trùng thì KHÔNG ghi file và in ra danh sách lỗi; lần chạy này 0 trùng. Sau khi ghi: quét U+FFFD,
+quét trùng id, quét trùng headword chéo nhánh trên toàn bộ 191 chủ đề, kiểm đủ 5 trường bắt buộc mỗi
+từ — tất cả sạch. `tsc --noEmit` sạch, `next build` EXIT=0. Playwright 5/5 pass (1 lần sửa assertion
+của chính test: trang danh sách chủ đề chỉ hiển thị số NHÁNH chứ không hiển thị số TỪ, nên phép kiểm
+"phải thấy số 18" là sai kỳ vọng — lỗi test, không phải lỗi app).
+
+**Phát hiện phụ về UI**: trang `/topics/[lang]/mindmap` chỉ hiện "3 nhánh" cho mọi chủ đề, không hiện số
+từ — nên nhìn vào danh sách KHÔNG phân biệt được chủ đề 6 từ với chủ đề 18 từ. Đây là component dùng
+chung cho cả 5 ngôn ngữ (không phải lỗi riêng của es) nên round này không sửa, nhưng nếu tiếp tục chiến
+dịch làm dày thì thêm số từ vào nhãn sẽ giúp nhìn ra ngay chủ đề nào còn mỏng.
+
+### 21.5. Round 5 — Vá gần-như-lỗ-hổng: `synonymClusters` cho ja/ko (3 → 15 cụm mỗi ngôn ngữ)
+
+Lại một lần nữa việc **đếm theo cấu trúc con thay vì đếm tổng** cho ra kết luận khác hẳn. Nhìn tổng:
+zh-synonym-antonym 7157 từ vs ja/ko 944 từ (kém 7,5 lần). Nhưng tách ra 2 phần:
+
+| | `pairs` (cặp trái nghĩa) | `synonymClusters` (cụm gần nghĩa) |
+|---|---|---|
+| zh | 250 | **2017** |
+| ja | 174 | **3** |
+| ko | 174 | **3** |
+
+→ Phần `pairs` gần như ngang nhau (250 vs 174). Toàn bộ chênh lệch nằm ở `synonymClusters`: ja/ko mỗi
+bên chỉ có đúng **3 cụm** (3 cụm mồi trend/execute/method dựng từ hồi đầu làm mẫu), zh có 2017. Đây
+thực chất là một **lỗ hổng gần như bằng 0**, cùng hạng với 2 lỗ hổng tuyệt đối đã vá ở round 1-3.
+
+Round này thêm **12 cụm mới cho MỖI ngôn ngữ** (ja: 3→15 cụm/57 từ, ko: 3→15 cụm/58 từ), chọn đúng
+những bộ từ Hán-Nhật/Hán-Hàn mà người học thật sự hay nhầm, và ưu tiên **cụm chung 1 chữ Hán gốc**
+(đúng dạng `sharedChar` mà 2010/2017 cụm tiếng Trung đang dùng):
+
+- Chung chữ 果: kết quả/thành quả/hiệu quả — 結果·成果·効果 / 결과·성과·효과.
+- Chung chữ 因: nguyên nhân trực tiếp / yếu tố góp phần / nhân tố khơi mào — 原因·要因·誘因 / 원인·요인·유인.
+- Chung chữ 改: 改善·改良·改革·改正 / 개선·개량·개혁·개정 (sửa tình trạng / sửa vật / đổi chế độ / sửa cho đúng).
+- Chung chữ 決: 決定·決断·決意·決心 / 결정·결단·결의·결심.
+- Chung chữ 増(ja)/增(ko): tăng SỐ LƯỢNG / QUY MÔ / theo hướng TỐT / LỰC LƯỢNG.
+- Chung chữ 減: giảm TỰ NHIÊN / CHỦ ĐỘNG cắt / làm NHẸ BỚT.
+- Chung chữ 関(ja)/關(ko): 関係·関連·関与 / 관계·관련·관여 (tăng dần mức dính líu).
+- Chung chữ 変(ja)/變(ko): đổi tự nhiên / đổi có chủ ý / dao động / cải biến tận gốc.
+- Chung chữ 発(ja)/發(ko): 発展·発達·発育·発生 / 발전·발달·발육·발생.
+- Chung chữ 目 (riêng ja): 目的·目標·目安. Cùng 3 cụm ngữ nghĩa không chung chữ (sản xuất, trách nhiệm,
+  mục đích bản ko).
+
+**Bài học script chữ Hán lặp lại**: tiếng Nhật dùng **tân tự thể** (増 関 変 発) còn tiếng Hàn dùng
+**phồn thể** (增 關 變 發) — đúng bài học đã gặp ở round 2 khi mượn cặp chữ từ `zh-shape.json`. Script
+kiểm chứng có hẳn một bước quét đối chiếu: báo lỗi nếu file ja chứa bất kỳ chữ phồn thể nào trong danh
+sách, hoặc file ko chứa tân tự thể.
+
+**Kiểm chứng**: build script có 3 hàng rào (trùng id cụm, trùng headword giữa các cụm cùng ngôn ngữ,
+trùng headword trong cùng 1 cụm) và **từ chối ghi file nếu phát hiện bất kỳ lỗi nào** — lần chạy này
+sạch. Sau khi ghi thêm: quét U+FFFD, kiểm đủ trường bắt buộc, bắt buộc ko phải có `hanja`, và **kiểm
+tra `sharedChar` có THẬT SỰ xuất hiện trong mọi từ của cụm** (với ko thì đối chiếu vào trường `hanja`
+chứ không phải headword Hangul) — tất cả sạch. `tsc --noEmit` sạch, `next build` EXIT=0. Playwright
+5/5 pass sau 2 lần sửa chính test (trang `/synonyms/[lang]` có 2 TAB, cụm gần nghĩa nằm ở tab thứ 2;
+và nhãn "CHUNG CHỮ" bị CSS viết hoa nên so khớp chữ thường bị trượt — cả hai đều là lỗi test).
+
+### 21.6. Round 6 — `clusters` (chùm quanh 1 chữ Hán) cho ja/ko (4 → 16 chùm mỗi ngôn ngữ)
+
+**Quy tắc "tách file ra thành mảng con trước khi kết luận" đúng lần thứ ba liên tiếp.** Nhìn tổng:
+zh-chains 7054 từ vs ja/ko ≈355. Tách ra:
+
+| | `chains` (chuỗi nối đuôi) | `clusters` (chùm quanh 1 chữ) |
+|---|---|---|
+| zh | 57 chuỗi / 981 mắt xích | **1681 chùm / 6073 từ** |
+| ja | 50 chuỗi / 348 mắt xích | **4 chùm / 9 từ** |
+| ko | 50 chuỗi / 344 mắt xích | **4 chùm / 9 từ** |
+
+→ Phần chuỗi nối đuôi gần ngang nhau (57 vs 50). Toàn bộ chênh lệch nằm ở `clusters` — ja/ko mỗi bên
+chỉ có 4 chùm mồi (支/援/判/観). Đây là **lỗ hổng gần-như-bằng-0 thứ ba** tìm được bằng đúng kỹ thuật này.
+
+Lưu ý: `clusters` trong file chains KHÁC `synonymClusters` ở round 5. Round 5 gom theo NGHĨA GẦN NHAU;
+round này gom theo **1 CHỮ HÁN CHUNG** (`centerChar` + mẹo nhớ theo tự dạng gốc của chữ đó).
+
+Thêm 12 chùm mỗi ngôn ngữ (ja 4→16 chùm/57 từ, ko 4→16 chùm/57 từ), chọn chữ Hán sinh sản mạnh ở CẢ
+hai ngôn ngữ: 学/學, 語, 道, 力, 気/氣, 会/會, 事, 場, 理, 数/數, 意, 問. Vài điểm dạy học đáng chú ý
+được cài vào `note`:
+- **会社 vs 社会** (ja) và **회사 vs 사회** (ko): chỉ ĐẢO THỨ TỰ hai chữ Hán mà nghĩa khác hẳn.
+- **理 (ko)**: minh hoạ trực tiếp **luật đầu âm** — đứng đầu từ đọc "이" (이유, 이해), đứng giữa/cuối đọc
+  "리" (관리, 심리).
+- **市場 (ja)**: hai cách đọc khác nghĩa — shijou (thị trường kinh tế) vs ichiba (cái chợ).
+- **訪問/방문**: là ĐẾN THĂM, không phải "phỏng vấn" (面接/면접).
+- **주의**: 注意 (chú ý) và 主義 (chủ nghĩa) đồng âm hoàn toàn trong tiếng Hàn, chỉ phân biệt bằng Hanja.
+
+**Kiểm chứng**: ngoài các hàng rào như round 5, script còn kiểm **`centerChar` có THẬT SỰ nằm trong
+dạng Hán của từng từ** (với ko thì đối chiếu trường `hanja`) — 96/96 từ đạt, đây là phép kiểm mạnh vì
+nó bắt được cả trường hợp ghi sai `hanja`. Quét sau khi ghi: trùng id, trùng `centerChar`, trùng
+headword, thiếu trường, U+FFFD, và quét đối chiếu script-form (14 cặp phồn thể/tân tự thể) — sạch.
+
+**Một phát hiện về bản chất dữ liệu**: hàng rào "headword không được trùng giữa các chùm" thực ra QUÁ
+CHẶT với loại dữ liệu này — 支援 nằm đúng trong cả chùm 支 lẫn chùm 援 vì nó chứa cả hai chữ. Đây là
+dữ liệu mồi có sẵn và hoàn toàn hợp lý, không phải lỗi. Round này không vướng vì 12 chùm mới không
+dùng lại từ nào, nhưng round sau cần nới hàng rào đó cho đúng bản chất "1 từ có thể thuộc nhiều chùm".
+
+`tsc --noEmit` sạch, `next build` EXIT=0, Playwright 6/6 pass (3 lần sửa chính test: tab tên là "Chuỗi
+quanh 1 từ" chứ không phải "Chùm"; ghi chú của chùm 氣 tiếng Hàn CỐ Ý nhắc chữ 気 tiếng Nhật để dạy cặp
+đối chiếu nên không thể cấm tuyệt đối chữ đó trên trang; và ghi chú luật đầu âm viết bằng tiếng Việt
+("LUẬT ĐẦU ÂM") chứ không dùng thuật ngữ Hàn "두음법칙" như test giả định).
+
+### 21.7. Round 7 — Lấp 10 "nhóm khung" rỗng của `ja-shape` (148 → 219 từ)
+
+Đo lại toàn bảng trước khi chọn (không dựa vào trí nhớ), ô bất thường nhất hoá ra là **ja-shape = 148
+từ** — THẤP HƠN cả tiếng Anh (371) và Tây Ban Nha (346), dù hai ngôn ngữ đó phải *diễn giải lại* trục
+"hình cận tự" thành "gần giống chính tả", còn tiếng Nhật thì dùng Kanji hằng ngày, tức đúng thứ mà trục
+này sinh ra để dạy. Và ko-shape (131) mà mình mới dựng từ số 0 ở round 1-2 thì sắp đuổi kịp.
+
+**Nguyên nhân thật không phải "thiếu nhóm" mà là NHÓM RỖNG** — giống hệt bài học round 4 (es-topics):
+21/51 nhóm của ja-shape có **0 từ**, chỉ là khung trống với 76 chữ gốc đã khai báo sẵn (có `character`,
+`hanViet`, `meaningVn`) và phần `note` ghi thẳng "(Nhóm khung — chưa có từ vựng.)". Người soạn trước đã
+dựng sườn rồi để lại phần từ vựng.
+
+Round này **không thêm nhóm mới nào**, mà lấp đầy 10 nhóm khung (37 chữ gốc, 71 từ):
+- **情·清·請·晴·精·静** (chung thanh phù 青) — 12 từ, nhóm lớn nhất.
+- **校·較·郊·効** (chung 交) — 7 từ; riêng 較 trong tiếng Nhật hầu như chỉ xuất hiện ở 比較 nên để 1 từ.
+- **住·注·柱·駐** (chung 主) — 8 từ. **枯·故·苦** (chung 古) — 6 từ. **波·破·疲** (chung 皮) — 6 từ.
+- **貼·点·店** (chung 占) — 6 từ. **難·準·誰·推** (chung 隹) — 7 từ; 誰 chỉ 1 mục vì thực tế hay viết kana.
+- **忠·仲·沖** (chung 中) — 6 từ. **期·欺·棋·旗** (chung 其) — 7 từ. **冷·鈴·齢** (chung 令) — 6 từ.
+
+Sau round: **219 từ, nhóm rỗng còn 11/51** (từ 21).
+
+**Chi tiết bảo trì dễ bỏ sót**: khi lấp xong phải **xoá dấu "(Nhóm khung — chưa có từ vựng.)" khỏi
+`note`**, nếu không người học sẽ đọc một ghi chú nói dối. Script tự xoá, và phép kiểm cuối đối chiếu
+"nhóm nào còn đánh dấu khung" với "nhóm nào thật sự rỗng" — kết quả 0 lệch (11 đánh dấu = đúng 11 nhóm
+còn rỗng).
+
+**Hàng rào bắt được lỗi thật**: script từ chối ghi khi phát hiện 2 từ trùng với từ đã có sẵn trong file
+(申請 đã nằm ở nhóm 由·甲·申 dưới gốc 申, 期待 đã nằm ở nhóm 詩·待·持·特 dưới gốc 待) — đều là cách dùng
+hợp lệ cho gốc KHÁC, nên phải đổi sang 要請 và 時期. Ngoài ra còn kiểm **mỗi từ có thật sự chứa chữ gốc
+của nhánh đó không** (71/71 đạt).
+
+`tsc --noEmit` sạch, `next build` EXIT=0, Playwright **7/7 pass ngay lần đầu** — trong đó có 1 phép kiểm
+riêng xác nhận nhóm còn rỗng (租·組·祖) vẫn hiển thị bình thường, không vỡ trang.
+
+### 21.8. Round 8 — `zh-grammar` round 2 (64 → 97 điểm, thêm 5 nhóm + 6 cụm dễ nhầm)
+
+Trước khi chọn, áp quy tắc "soi mảng con / ô rỗng" vào 2 mục chưa đụng tới — kết quả **sạch, không có
+ô rỗng nào**: false-friends đều đặn đúng 2 từ/đơn vị ở cả 3 ngôn ngữ (zh 1002 vs ja/ko 240 đơn vị →
+thiếu BỀ RỘNG thật), char-antonym đều đặn 4 từ/đơn vị (zh 212 vs ja 155/ko 154 → gần ngang nhau nhất
+bảng). Vậy mất cân bằng nặng nhất còn lại là **zh-grammar: 64 điểm vs ja 587 / ko 599 — lệch 9,2 lần,
+và là mục DUY NHẤT mà tiếng Trung bị bỏ lại phía sau**.
+
+5 nhóm mới, chọn đúng những vùng ngữ pháp tiếng Trung mà ja/ko không có đối ứng:
+- **连词** (8 điểm): 因为…所以, 既然…就, 虽然…但是, 即使…也, 不但…而且, 只要…就, 只有…才, 无论…都.
+- **存现句** (5 điểm): 有 / 是 / 在 / V着 / 发生·出现 — dạy bằng TRẬT TỰ TỪ chứ không bằng nghĩa.
+- **重叠** (6 điểm): VV, V了V, AABB, AA, V一下, 一个一个.
+- **离合词** (6 điểm): 见面, 帮忙, 结婚, 请假, 生气, 睡觉 — loại từ đặc thù tiếng Trung, không tồn tại ở ja/ko.
+- **成语** (8 điểm): 马马虎虎, 乱七八糟, 一举两得, 半途而废, 画蛇添足, 井底之蛙, 对牛弹琴, 入乡随俗.
+
+Mấy điểm dạy học đắt giá được cài vào:
+- **虽然…但是 BẮT BUỘC giữ đủ cặp** — ngược hẳn tiếng Anh (cấm "although…but"). Đây là lỗi nặng nhất của
+  người học qua ngả tiếng Anh.
+- **只要…就 vs 只有…才**: điều kiện ĐỦ vs điều kiện DUY NHẤT, và ghép chéo (只要…才 / 只有…就) đều sai.
+- **存现句 dạy bằng trật tự từ**: 有/是 đi NƠI CHỐN→VẬT (giới thiệu vật mới), 在 đi VẬT→NƠI CHỐN (vật đã
+  biết). Chọn sai cấu trúc là nói sai "thông tin nào đã biết".
+- **离合词**: "động từ đã cắp sẵn tân ngữ" → không nhận thêm tân ngữ (见面他 ✗ → 跟他见面) và bị chẻ đôi
+  cho mọi thứ chen vào khe giữa (帮我的忙, 请三天假, 结了三年婚, 生很大的气).
+- **成语 tận dụng lợi thế Hán Việt**: 一举两得 = "nhất cử lưỡng đắc", 入乡随俗 ≈ "nhập gia tuỳ tục",
+  井底之蛙 = "ếch ngồi đáy giếng", 对牛弹琴 = "đàn gảy tai trâu" — người Việt gần như không phải học lại.
+  Riêng 井底之蛙 có ghi chú là DANH TỪ chỉ người (他很井底之蛙 ✗).
+
+**Kiểm chứng**: script từ chối ghi nếu trùng id nhóm/điểm, **trùng pattern sau khi core-normalize**, hoặc
+có tham chiếu chéo treo (kiểm 2 chiều điểm↔cụm trên TOÀN file sau khi gộp) — tất cả sạch. Quét thêm:
+U+FFFD, đủ trường bắt buộc, `level` hợp lệ, và **mọi câu ví dụ phải chứa chữ Hán** (bắt lỗi quên dịch).
+258 ví dụ, 0 lỗi. `tsc` sạch, `next build` EXIT=0, Playwright **8/8** (1 lần sửa chính test: trang ôn
+tập là MẶT TRƯỚC thẻ lật nên vốn dĩ rất ngắn — đổi từ đo độ dài trang sang đọc bộ đếm thẻ, xác nhận
+**120 thẻ** được sinh ra từ 97 điểm).
+
+### 21.9. Round 9 — Dứt điểm hàng "hình cận tự": ja 219→297 (HẾT nhóm rỗng), ko 131→165
+
+Đo lại toàn bảng: hàng **shape lệch nhất toàn app — 32,2 lần** (zh 4219 / ja 219 / ko 131 / en 371 /
+es 346), và chứa **hai ô thấp nhất cả app** là ko 131 và ja 219. Round này đánh cả hai đầu của đúng
+hàng đó.
+
+**Phần 1 — lấp NỐT 11 nhóm khung rỗng cuối cùng của ja-shape** (39 chữ gốc, 78 từ): 飽抱泡胞, 江紅空功,
+理鯉埋, 猪諸都煮, 胎怠治, 剛鋼綱, 景鯨涼, 訪放芳房紡防, 租組祖, 他地池, 想箱霜. **Nhóm rỗng: 11 → 0** —
+khuyết tật "nhóm khung" của ja-shape đã được đóng hoàn toàn. Nhân tiện sửa luôn **5 chữ gốc bị thiếu
+`hanViet`** (煮 chử, 紡 phưởng, 箱 sương — nằm trong nhóm round này; 較 giảo, 沖 trùng — sót lại từ round 7).
+
+**Phần 2 — thêm 5 nhóm ko-shape** (34 từ, 16→21 nhóm): 士·土 (khác nhau ở độ dài nét ngang trên/dưới),
+今·令, 了·子, 寸·才, 幸·辛. Hai điểm dạy học riêng của tiếng Hàn được cài vào:
+- **寸**: người Hàn đếm quan hệ họ hàng bằng "촌수" (사촌 = anh em họ) — cách dùng không có ở Trung/Nhật.
+- **令**: minh hoạ luật đầu âm — 명령/법령/지령 đọc "령" nhưng đứng đầu từ thành "영" (영장 令狀).
+
+**Một phát hiện về công cụ kiểm chứng**: phép kiểm "mỗi từ phải chứa chữ gốc của nhánh" (rất hiệu quả
+cho ja/zh) **KHÔNG áp dụng được cho tiếng Hàn** — từ Hàn viết bằng Hangul (미래) nên không bao giờ chứa
+chữ Hán 未. Đây đúng là lý do `ko-chains`/`ko-synonym-antonym` có trường `hanja` riêng, nhưng type
+`VocabWord` (dùng cho shape) KHÔNG có trường đó, nên ko-shape ghi chữ Hán trong ngoặc ngay trong
+`meaningVn`. Đã thay bằng phép kiểm tương đương cho tiếng Hàn: **mọi từ phải trích dẫn chữ Hán gốc của
+nó trong `meaningVn`** — 165/165 từ đạt, tức quy ước này nhất quán từ round 1-2 tới giờ.
+
+`tsc` sạch, `next build` EXIT=0, Playwright **8/8 pass ngay lần đầu** (có kiểm riêng: không còn nhóm nào
+sót dấu "Nhóm khung", và chữ 紡 nay đã hiện Hán Việt "phưởng").
+
+### 21.10. Round 10 — `es-topics` round 2 (12 chủ đề nữa: 6 → 18 từ, +144 từ, tổng 1434)
+
+Đo lại bảng: sau round 9, **es-topics vẫn là ô lệch rõ nhất theo hàng** — 1290 từ so với 6024-6767 của
+4 ngôn ngữ còn lại (5,2 lần), và tiếng Tây Ban Nha cũng là ngôn ngữ lâu chưa đụng tới nhất (từ round 4).
+Nguyên nhân đã biết từ round 4 và vẫn đúng: 179/191 chủ đề nằm ở mức sàn 6 từ.
+
+Làm dày thêm 12 chủ đề thông dụng (đúng danh sách ưu tiên đã ghi ở round 4): casa, dinero, deporte,
+relaciones, moda, musica, cine, clima, profesiones, comercio, naturaleza, arte — mỗi chủ đề 6 → 18 từ.
+Nội dung ưu tiên từ thực dụng đời thường (la hipoteca, el cajero automático, llegar a fin de mes, la
+talla, el escaparate, pagar a plazos, la garantía), vài thành ngữ (**la media naranja** = một nửa của
+đời mình, guardar rencor) và từ văn hoá Tây Ban Nha (la copla, el cajón trong nhạc flamenco, el
+mercadillo, el muralismo).
+
+Tổng **191 chủ đề, 1434 từ** — 24 chủ đề đã ở mức 18 từ, 167 còn ở sàn 6 từ.
+
+**Kiểm chứng**: dùng lại hàng rào chống trùng theo TOÀN CHỦ ĐỀ (từ chối ghi file nếu phát hiện trùng) —
+0 trùng. Thêm một phép kiểm mới cho loại file này: **trường `reading` phải đúng định dạng IPA có dấu
+gạch chéo bao quanh** (bắt lỗi quên/ghi sai phiên âm) — 1434/1434 đạt. Quét U+FFFD, trùng id, đủ trường
+bắt buộc, trùng headword chéo nhánh trên cả 191 chủ đề — sạch. `tsc` sạch, `next build` EXIT=0,
+Playwright **8/8 pass ngay lần đầu**, trong đó có 1 phép kiểm xác nhận chủ đề CHƯA đụng tới (ajedrez)
+vẫn hiển thị bình thường ở mức 6 từ.
+
+### 21.11. Round 11 — `en.json` (họ từ gốc Latin/Hy Lạp): 106 → 118 nhóm, 487 → 547 từ
+
+**Tiếng Anh là ngôn ngữ DUY NHẤT chưa từng được chọn làm trọng tâm round nào**, và `en.json` (487 từ)
+chính là ô thấp nhất của hàng "sound" (zh 1788 / ja 1257 / ko 1106 / en 487 / es 531). Soi mảng con
+trước: en.json **không có nhóm rỗng**, phân bố đều 4-6 từ/nhóm → đây là thiếu BỀ RỘNG thật (106 họ từ
+so với 200 nhóm của zh), tức cách chữa là thêm họ gốc từ mới. Memory cũng đã ghi sẵn gợi ý mở rộng
+en.json bằng các gốc như "form", "solv".
+
+Thêm 12 họ gốc từ mới × 5 từ = 60 từ: **form, solv/solu, ven/vent, tend/tens/tent, sign,
+quir/quis/quest, sum/sumpt, nounc/nunci, sent/sens, ver/veri, tang/tact/ting, aud/audit**.
+
+Mỗi từ đều có `mnemonicVn` tách tiền tố + gốc (đúng đặc trưng của file này), ví dụ: resent = "re-"
+(dội ngược) + "sent" (cảm) → cảm giác dội ngược lại thành oán giận; intact = "in-" (không) + "tact"
+(chạm) → chưa ai chạm tới nên còn nguyên vẹn; **audit** = gốc "nghe", vì xưa sổ sách được ĐỌC TO cho
+người kiểm tra NGHE nên "nghe" mới thành "kiểm toán".
+
+Vài nhóm được chọn vì **nối sang gốc đã học**: ver/veri có verisimilitude = "veri" (thật) + "simil"
+(giống — gốc đã có), còn verdict ("ver"+"dict") thì ghi chú trỏ chéo sang nhóm "dict" nơi nó đã được
+dạy sẵn.
+
+**Hàng rào bắt lỗi thật rồi từ chối ghi file**: `verdict` đã nằm sẵn trong nhóm `en-dict` — hợp lệ ở đó
+vì nó đúng là họ "dict". Đã đổi sang `veracity` và chuyển verdict thành một ghi chú tra chéo thay vì
+nhân bản từ.
+
+**Kiểm chứng**: quét U+FFFD, trùng id, trùng headword toàn file, **bắt buộc có `mnemonicVn`** (đặc
+trưng bắt buộc của en.json) và **`reading` phải đúng định dạng IPA** — 547/547 đạt, 0 trùng. Thêm phép
+kiểm "từ phải chứa một biến thể của gốc": 23 cảnh báo nhưng **tất cả đều ở nhóm CŨ và đều hợp lệ** —
+hoặc là biến âm lịch sử (expire←spir, nourish←nutri, courage←cor, sacred←sanct), hoặc do nhãn gốc có
+chú thích tiếng Việt khiến phép tách chuỗi ngây thơ bị nhiễu; **12 nhóm mới: 0 cảnh báo**. `tsc` sạch,
+`next build` EXIT=0, Playwright **8/8 pass ngay lần đầu** (có kiểm riêng rằng `verdict` vẫn còn nguyên
+trong nhóm `en-dict` cũ).
+
+### 21.12. Round 12 — `false-friends` ja/ko: 240 → 256 nhóm (480 → 512 từ mỗi ngôn ngữ)
+
+Mục **bẫy nghĩa là category lớn duy nhất chưa từng đụng tới** (zh 1002 nhóm vs ja/ko 240), và đã xác
+nhận ở round 8 rằng nó không có ô rỗng → thiếu BỀ RỘNG thật. Thêm 16 nhóm song song cho mỗi ngôn ngữ,
+mỗi nhóm đúng 2 từ theo đúng quy ước của file (1 từ giữ nghĩa gốc + 1 từ đã lệch nghĩa).
+
+16 chữ neo mới: 薬/藥, 空, 風, 海, 山, 石, 月, 茶, 色, 肉, 門, 紙, 金, 土, 白, 春. Vài cặp lệch nghĩa đắt giá:
+- **風邪** (ja) = "cảm lạnh" — người xưa cho rằng bệnh do "gió độc"; đọc bất quy tắc "kaze".
+- **海老** (ja) = "con tôm" — nghĩa đen "ông già của biển" (tôm lưng còng râu dài).
+- **景色** (ja) = "phong cảnh" — không còn nói về màu nữa, đọc bất quy tắc "keshiki".
+- **다반사** (ko, 茶飯事) = "chuyện thường như cơm bữa" — nghĩa đen "chuyện trà với cơm".
+- **산소** (ko, 山所) = "phần mộ" — cách nói riêng của tiếng Hàn (mộ đặt trên sườn núi), lại còn đồng âm
+  hoàn toàn với 酸素 (khí oxy).
+- **専門/전문** = "chuyên môn" — mỗi ngành học như một "cánh cổng" riêng.
+
+**Hàng rào bắt 10 va chạm thật qua 2 lượt rồi từ chối ghi file**, tất cả đều hợp lệ vì từ đó ĐÃ nằm
+đúng chỗ ở một chữ neo khác: 台風 (đã ở neo 台), 手紙 (ở neo 手), 金属 (ở neo 属), 금속 (ở neo 屬),
+공상 (ở neo 想), cộng 4 trùng id nhóm. Đã thay bằng 風力, 表紙, 黄金, 황금, 공백 và đổi slug.
+
+**Phát hiện quan trọng về schema — đã tự sửa**: ban đầu mình thêm trường `hanja` cho 32 từ tiếng Hàn
+mới. Nhưng type `VocabWord` (dùng cho trục âm/hình/bẫy nghĩa) **KHÔNG có trường `hanja`** — khác với
+`ClusterMemberWord` (ko-chains) và `ClusterWord` (ko-synonym-antonym) vốn có. Nghĩa là 32 trường đó là
+dữ liệu chết, không renderer nào đọc. Trường ĐÚNG là **`hanViet`**, và chính comment trong type ghi rõ
+nó "bắt buộc điền cho nội dung mới **ở trục bẫy nghĩa trở đi**". Đã xoá 32 trường `hanja` thừa và bổ
+sung `hanViet` cho cả 64 từ mới (ja + ko) — giờ mỗi file có 222/512 từ có `hanViet` (190 cũ + 32 mới).
+
+**Ghi nhận (không sửa)**: tiếng Hàn có 2 nhóm cùng dùng chữ neo 情 (`ko-ff-jeong` 감정/사정 và
+`ko-ff-jeong4` 정보/인정) — dữ liệu CŨ, không phải của round này, và hợp lý vì 情 đủ giàu cho 2 cặp lệch
+nghĩa khác nhau. Không xoá nội dung thật chỉ để làm đẹp tính nhất quán; tiếng Nhật thì không có trùng neo.
+
+`tsc` sạch, `next build` EXIT=0, Playwright **8/8** (1 lần sửa test: node từ trong mindmap bẫy nghĩa
+không khớp `getByText(..., {exact:true})` như ở mindmap hình/chủ đề — phải bỏ `exact`).
+
+### 21.13. Còn tồn (chưa làm)
+
+**Cả 2 lỗ hổng "0 tuyệt đối" đã được vá** (ko-shape round 1-2, zh-grammar round 3). Việc còn lại:
+
+- `zh-grammar.json` đã lên 97 điểm (vẫn xa ko 599 / ja 587). Category tiếng Trung còn chưa làm: 语气助词
+  mở rộng (啊/嘛/啦/罢了/而已/着呢), 被动句 không dùng 被 (意念被动), 使役 (让/叫/使/令), 趋向补语 nghĩa bóng
+  mở rộng, 数量表达 (倍/成/左右/以上), 时间表达 (以前/以后/的时候/一…就). Cũng chưa có `GrammarStory`/
+  `GrammarBranchingStory` cho zh (2 mục này hiện chỉ có ko/ja).
+- `ko-shape.json` (131 từ) sắp bắt kịp ja-shape (148 từ) nhưng còn rất xa zh-shape (4219 từ).
+- `es-topics`: **167/191 chủ đề vẫn ở mức sàn 6 từ** (24 đã lên 18) — tiếp tục mỗi round ~12 chủ đề.
+  Ưu tiên tiếp theo: universidad, salud mental, redes sociales, transporte público, historia, literatura,
+  ciencia, política, justicia, religión, infancia, cuerpo humano. Các chủ đề rất hẹp (taxidermia,
+  ventriloquia, esculturahielo…) để ở mức 6 từ là hợp lý.
+- Cân nhắc thêm số TỪ (không chỉ số nhánh) vào nhãn trên trang `/topics/[lang]/mindmap` để nhìn ra ngay
+  chủ đề nào còn mỏng — ảnh hưởng cả 5 ngôn ngữ nên cần làm cẩn thận.
+- `synonymClusters` ja/ko mới có 15 cụm mỗi bên, zh có 2017 — còn rất nhiều dư địa. Ứng viên cụm chung
+  chữ tiếp theo: 想(思想/感想/発想/予想), 定(決定 đã dùng → 安定/固定/設定/限定), 解(理解/解決/解釈/解消),
+  持(維持/支持/所持/持続), 成(成立/構成/達成/育成), 用(利用/使用/活用/応用).
+- `clusters` (chùm quanh 1 chữ) ja/ko mới 16 vs zh 1681 — còn rất nhiều. Ứng viên chữ trung tâm tiếp
+  theo: 生, 心, 手, 立, 動, 発/發 (đã dùng ở synonymClusters r5 nhưng chưa dùng làm centerChar), 時, 分,
+  高, 大, 出, 入.
+- Hàng shape sau round 9: zh 4219 / **ja 297** / **ko 165** / en 371 / es 346 — ja/ko không còn nhóm
+  rỗng nào, nhưng vẫn cần nhiều round nữa để tiệm cận zh. Cặp chữ ứng viên cho ko-shape: 刀·刃, 千·干,
+  由·甲·申, 且·旦, 王·主, 瓜·爪.
+- ja/ko so với zh ở các mục còn lại: false-friends (480 vs 2004 — thiếu BỀ RỘNG thật, đã xác nhận
+  không có ô rỗng), char-antonym (≈618 vs 848 — gần ngang nhất bảng).
+- **Nhớ tách mảng con / soi ô rỗng trước khi chọn** — round 4,5,6,7,9 đều cho thấy con số tổng chỉ sai
+  chỗ cần sửa; round 8 quét ra "sạch" cũng vẫn đáng làm vì nó loại trừ được 2 mục.
