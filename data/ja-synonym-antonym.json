@@ -8478,6 +8478,372 @@
         }
       ],
       "note": "4 từ đều liên quan 'cách làm' nhưng khác sắc thái: 方法 = trung tính, phổ biến nhất; 手段 = CẨN THẬN vì có thể mang nghĩa tiêu cực (dùng mưu mẹo/phương tiện bất chấp); 措置 = biện pháp hành chính xử lý sự việc cụ thể; 方策 = kế sách chiến lược quy mô lớn. Tương ứng chuỗi tiếng Trung 方法/手段/措施 (措置≈措施)."
+    },
+    {
+      "id": "ja-syncluster-kekka",
+      "language": "ja",
+      "kind": "synonym-cluster",
+      "sharedChar": "果",
+      "words": [
+        {
+          "headword": "結果",
+          "reading": "kekka",
+          "hanViet": "kết quả",
+          "meaningVn": "kết quả nói chung — trung tính, tốt hay xấu đều dùng được (試験の結果 = kết quả bài thi)"
+        },
+        {
+          "headword": "成果",
+          "reading": "seika",
+          "hanViet": "thành quả",
+          "meaningVn": "thành quả TỐT gặt hái được từ nỗ lực (研究の成果 = thành quả nghiên cứu) — không dùng cho kết quả xấu"
+        },
+        {
+          "headword": "効果",
+          "reading": "kouka",
+          "hanViet": "hiệu quả",
+          "meaningVn": "tác dụng, hiệu lực của một biện pháp/thuốc lên đối tượng (薬の効果 = tác dụng của thuốc)"
+        }
+      ],
+      "note": "3 từ đều chung chữ 果 (quả = kết quả) nhưng khác hẳn sắc thái: 結果 TRUNG TÍNH (tốt xấu gì cũng gọi là 結果), 成果 chỉ dùng cho kết quả TỐT gặt hái từ nỗ lực, 効果 là TÁC DỤNG của một biện pháp lên đối tượng khác."
+    },
+    {
+      "id": "ja-syncluster-mokuteki",
+      "language": "ja",
+      "kind": "synonym-cluster",
+      "sharedChar": "目",
+      "words": [
+        {
+          "headword": "目的",
+          "reading": "mokuteki",
+          "hanViet": "mục đích",
+          "meaningVn": "mục đích cuối cùng, lý do vì sao làm việc đó (旅行の目的 = mục đích chuyến đi)"
+        },
+        {
+          "headword": "目標",
+          "reading": "mokuhyou",
+          "hanViet": "mục tiêu",
+          "meaningVn": "mốc cụ thể, đo đếm được, đặt ra để hướng tới (売上目標 = mục tiêu doanh số)"
+        },
+        {
+          "headword": "目安",
+          "reading": "meyasu",
+          "hanViet": "mục an",
+          "meaningVn": "mức ước chừng, tiêu chí tham khảo chứ không bắt buộc (目安として30分 = ước chừng khoảng 30 phút)"
+        }
+      ],
+      "note": "3 từ chung chữ 目 nhưng ở 3 mức cụ thể khác nhau: 目的 = LÝ DO CUỐI CÙNG vì sao làm (trừu tượng), 目標 = MỐC ĐO ĐƯỢC hướng tới (cụ thể), 目安 = mức ƯỚC CHỪNG để tham khảo (mơ hồ nhất)."
+    },
+    {
+      "id": "ja-syncluster-genin",
+      "language": "ja",
+      "kind": "synonym-cluster",
+      "sharedChar": "因",
+      "words": [
+        {
+          "headword": "原因",
+          "reading": "gen'in",
+          "hanViet": "nguyên nhân",
+          "meaningVn": "nguyên nhân trực tiếp gây ra sự việc (事故の原因 = nguyên nhân vụ tai nạn)"
+        },
+        {
+          "headword": "要因",
+          "reading": "youin",
+          "hanViet": "yếu nhân",
+          "meaningVn": "yếu tố chính góp phần — hàm ý còn nhiều yếu tố khác nữa (成功の要因 = các yếu tố dẫn tới thành công)"
+        },
+        {
+          "headword": "誘因",
+          "reading": "yuuin",
+          "hanViet": "dụ nhân",
+          "meaningVn": "nhân tố khơi mào, dẫn dụ sự việc bùng phát (発作の誘因 = yếu tố khơi mào cơn bệnh)"
+        }
+      ],
+      "note": "3 từ chung chữ 因 (nhân = nguyên nhân): 原因 là nguyên nhân TRỰC TIẾP duy nhất, 要因 là MỘT TRONG NHIỀU yếu tố góp phần, 誘因 là cái KHƠI MÀO dẫn dụ sự việc xảy ra."
+    },
+    {
+      "id": "ja-syncluster-kaizen",
+      "language": "ja",
+      "kind": "synonym-cluster",
+      "sharedChar": "改",
+      "words": [
+        {
+          "headword": "改善",
+          "reading": "kaizen",
+          "hanViet": "cải thiện",
+          "meaningVn": "làm cho tình trạng/quan hệ tốt lên (待遇を改善する = cải thiện chế độ đãi ngộ)"
+        },
+        {
+          "headword": "改良",
+          "reading": "kairyou",
+          "hanViet": "cải lương",
+          "meaningVn": "cải tiến VẬT THỂ hoặc kỹ thuật cho tốt hơn (品種改良 = cải tiến giống)"
+        },
+        {
+          "headword": "改革",
+          "reading": "kaikaku",
+          "hanViet": "cải cách",
+          "meaningVn": "thay đổi lớn về chế độ, cơ cấu tổ chức (教育改革 = cải cách giáo dục)"
+        },
+        {
+          "headword": "改正",
+          "reading": "kaisei",
+          "hanViet": "cải chính",
+          "meaningVn": "sửa lại cho ĐÚNG — dùng cho luật, quy định (法律の改正 = sửa đổi luật)"
+        }
+      ],
+      "note": "4 từ chung chữ 改 (cải = sửa đổi) nhưng đối tượng khác nhau: 改善 sửa TÌNH TRẠNG cho tốt lên, 改良 cải tiến VẬT/kỹ thuật, 改革 thay đổi CHẾ ĐỘ tận gốc, 改正 sửa lại cho ĐÚNG (luật lệ)."
+    },
+    {
+      "id": "ja-syncluster-kettei",
+      "language": "ja",
+      "kind": "synonym-cluster",
+      "sharedChar": "決",
+      "words": [
+        {
+          "headword": "決定",
+          "reading": "kettei",
+          "hanViet": "quyết định",
+          "meaningVn": "quyết định chính thức, thường do tổ chức đưa ra (方針を決定する = quyết định phương châm)"
+        },
+        {
+          "headword": "決断",
+          "reading": "ketsudan",
+          "hanViet": "quyết đoán",
+          "meaningVn": "quyết định dứt khoát trong tình huống khó, có rủi ro (決断を迫られる = bị buộc phải quyết đoán)"
+        },
+        {
+          "headword": "決意",
+          "reading": "ketsui",
+          "hanViet": "quyết ý",
+          "meaningVn": "ý chí đã quyết làm điều gì — trang trọng, mạnh mẽ (決意を固める = củng cố quyết tâm)"
+        },
+        {
+          "headword": "決心",
+          "reading": "kesshin",
+          "hanViet": "quyết tâm",
+          "meaningVn": "lòng quyết tâm cá nhân, đời thường hơn 決意 (留学を決心した = đã quyết tâm đi du học)"
+        }
+      ],
+      "note": "4 từ chung chữ 決 (quyết): 決定 là quyết định CHÍNH THỨC của tổ chức, 決断 là quyết định DỨT KHOÁT trong tình huống khó, 決意 và 決心 đều là ý chí cá nhân nhưng 決意 trang trọng/mạnh mẽ hơn 決心."
+    },
+    {
+      "id": "ja-syncluster-seisan",
+      "language": "ja",
+      "kind": "synonym-cluster",
+      "sharedChar": null,
+      "words": [
+        {
+          "headword": "生産",
+          "reading": "seisan",
+          "hanViet": "sinh sản",
+          "meaningVn": "sản xuất hàng loạt quy mô lớn (大量生産 = sản xuất hàng loạt)"
+        },
+        {
+          "headword": "製造",
+          "reading": "seizou",
+          "hanViet": "chế tạo",
+          "meaningVn": "chế tạo sản phẩm qua quy trình công nghiệp (医薬品の製造 = sản xuất dược phẩm)"
+        },
+        {
+          "headword": "製作",
+          "reading": "seisaku",
+          "hanViet": "chế tác",
+          "meaningVn": "làm ra một vật thể/tác phẩm cụ thể (映画を製作する = sản xuất một bộ phim)"
+        },
+        {
+          "headword": "創作",
+          "reading": "sousaku",
+          "hanViet": "sáng tác",
+          "meaningVn": "sáng tạo ra cái mới chưa từng có (小説の創作 = sáng tác tiểu thuyết)"
+        }
+      ],
+      "note": "4 từ đều là \"làm ra\" nhưng khác quy mô và tính sáng tạo: 生産 sản xuất HÀNG LOẠT, 製造 chế tạo qua QUY TRÌNH công nghiệp, 製作 làm ra VẬT THỂ/tác phẩm cụ thể, 創作 SÁNG TẠO cái chưa từng có."
+    },
+    {
+      "id": "ja-syncluster-zouka",
+      "language": "ja",
+      "kind": "synonym-cluster",
+      "sharedChar": "増",
+      "words": [
+        {
+          "headword": "増加",
+          "reading": "zouka",
+          "hanViet": "tăng gia",
+          "meaningVn": "tăng về số lượng đếm được (人口の増加 = dân số tăng)"
+        },
+        {
+          "headword": "増大",
+          "reading": "zoudai",
+          "hanViet": "tăng đại",
+          "meaningVn": "tăng về quy mô, mức độ (リスクの増大 = rủi ro tăng lên)"
+        },
+        {
+          "headword": "増進",
+          "reading": "zoushin",
+          "hanViet": "tăng tiến",
+          "meaningVn": "tăng cường theo hướng tốt lên (健康増進 = tăng cường sức khoẻ)"
+        },
+        {
+          "headword": "増強",
+          "reading": "zoukyou",
+          "hanViet": "tăng cường",
+          "meaningVn": "tăng cường lực lượng, năng lực (戦力を増強する = tăng cường binh lực)"
+        }
+      ],
+      "note": "4 từ chung chữ 増 (tăng) nhưng tăng CÁI GÌ thì khác: 増加 tăng SỐ LƯỢNG đếm được, 増大 tăng QUY MÔ/mức độ, 増進 tăng theo hướng TỐT LÊN, 増強 tăng cường LỰC LƯỢNG/năng lực."
+    },
+    {
+      "id": "ja-syncluster-genshou",
+      "language": "ja",
+      "kind": "synonym-cluster",
+      "sharedChar": "減",
+      "words": [
+        {
+          "headword": "減少",
+          "reading": "genshou",
+          "hanViet": "giảm thiểu",
+          "meaningVn": "giảm về số lượng — thường tự nhiên xảy ra (人口減少 = dân số giảm)"
+        },
+        {
+          "headword": "削減",
+          "reading": "sakugen",
+          "hanViet": "tước giảm",
+          "meaningVn": "CHỦ ĐỘNG cắt giảm (予算を削減する = cắt giảm ngân sách)"
+        },
+        {
+          "headword": "軽減",
+          "reading": "keigen",
+          "hanViet": "khinh giảm",
+          "meaningVn": "làm nhẹ bớt gánh nặng, đau đớn (負担を軽減する = giảm nhẹ gánh nặng)"
+        }
+      ],
+      "note": "3 từ chung chữ 減 (giảm) nhưng khác ở CHỦ Ý: 減少 là giảm TỰ NHIÊN xảy ra, 削減 là CHỦ ĐỘNG cắt bớt, 軽減 là làm NHẸ BỚT gánh nặng cho ai đó."
+    },
+    {
+      "id": "ja-syncluster-sekinin",
+      "language": "ja",
+      "kind": "synonym-cluster",
+      "sharedChar": null,
+      "words": [
+        {
+          "headword": "責任",
+          "reading": "sekinin",
+          "hanViet": "trách nhiệm",
+          "meaningVn": "trách nhiệm phải gánh hậu quả nếu sai (責任を取る = chịu trách nhiệm)"
+        },
+        {
+          "headword": "義務",
+          "reading": "gimu",
+          "hanViet": "nghĩa vụ",
+          "meaningVn": "nghĩa vụ bắt buộc bởi luật pháp hoặc đạo lý (納税の義務 = nghĩa vụ nộp thuế)"
+        },
+        {
+          "headword": "任務",
+          "reading": "ninmu",
+          "hanViet": "nhiệm vụ",
+          "meaningVn": "nhiệm vụ cụ thể được cấp trên giao (任務を果たす = hoàn thành nhiệm vụ)"
+        },
+        {
+          "headword": "役割",
+          "reading": "yakuwari",
+          "hanViet": "dịch cát",
+          "meaningVn": "vai trò đảm nhận trong một tập thể (重要な役割 = vai trò quan trọng)"
+        }
+      ],
+      "note": "4 từ đều liên quan \"phần việc phải làm\" nhưng nguồn gốc khác nhau: 責任 là gánh HẬU QUẢ, 義務 là bắt buộc bởi LUẬT/đạo lý, 任務 là việc được GIAO cụ thể, 役割 là VAI TRÒ trong một tập thể."
+    },
+    {
+      "id": "ja-syncluster-kankei",
+      "language": "ja",
+      "kind": "synonym-cluster",
+      "sharedChar": "関",
+      "words": [
+        {
+          "headword": "関係",
+          "reading": "kankei",
+          "hanViet": "quan hệ",
+          "meaningVn": "mối quan hệ nói chung giữa hai bên (人間関係 = quan hệ giữa người với người)"
+        },
+        {
+          "headword": "関連",
+          "reading": "kanren",
+          "hanViet": "quan liên",
+          "meaningVn": "sự liên quan về nội dung, chủ đề (関連記事 = bài viết liên quan)"
+        },
+        {
+          "headword": "関与",
+          "reading": "kan'yo",
+          "hanViet": "quan dữ",
+          "meaningVn": "sự CAN DỰ, dính líu vào — thường việc nghiêm trọng/tiêu cực (事件に関与する = dính líu vào vụ án)"
+        }
+      ],
+      "note": "3 từ chung chữ 関 (quan) tăng dần mức độ dính líu: 関係 chỉ MỐI QUAN HỆ chung chung, 関連 là LIÊN QUAN về nội dung, 関与 là thực sự CAN DỰ vào (hay dùng cho việc tiêu cực)."
+    },
+    {
+      "id": "ja-syncluster-henka",
+      "language": "ja",
+      "kind": "synonym-cluster",
+      "sharedChar": "変",
+      "words": [
+        {
+          "headword": "変化",
+          "reading": "henka",
+          "hanViet": "biến hoá",
+          "meaningVn": "sự thay đổi tự nhiên của trạng thái (気温の変化 = nhiệt độ thay đổi)"
+        },
+        {
+          "headword": "変更",
+          "reading": "henkou",
+          "hanViet": "biến canh",
+          "meaningVn": "thay đổi CÓ CHỦ Ý cái đã định trước (予定を変更する = đổi lịch)"
+        },
+        {
+          "headword": "変動",
+          "reading": "hendou",
+          "hanViet": "biến động",
+          "meaningVn": "dao động lên xuống liên tục (為替の変動 = tỷ giá biến động)"
+        },
+        {
+          "headword": "変革",
+          "reading": "henkaku",
+          "hanViet": "biến cách",
+          "meaningVn": "cải biến tận gốc xã hội/thể chế (社会の変革 = biến cách xã hội)"
+        }
+      ],
+      "note": "4 từ chung chữ 変 (biến) nhưng khác ở CHỦ Ý và quy mô: 変化 là đổi TỰ NHIÊN, 変更 là đổi CÓ CHỦ Ý cái đã định, 変動 là DAO ĐỘNG lên xuống, 変革 là cải biến TẬN GỐC."
+    },
+    {
+      "id": "ja-syncluster-hatten",
+      "language": "ja",
+      "kind": "synonym-cluster",
+      "sharedChar": "発",
+      "words": [
+        {
+          "headword": "発展",
+          "reading": "hatten",
+          "hanViet": "phát triển",
+          "meaningVn": "phát triển mở rộng lên tầm cao hơn (経済の発展 = kinh tế phát triển)"
+        },
+        {
+          "headword": "発達",
+          "reading": "hattatsu",
+          "hanViet": "phát đạt",
+          "meaningVn": "phát triển hoàn thiện dần về chức năng (言語の発達 = sự phát triển ngôn ngữ; 台風が発達する = bão mạnh lên)"
+        },
+        {
+          "headword": "発育",
+          "reading": "hatsuiku",
+          "hanViet": "phát dục",
+          "meaningVn": "sự lớn lên về THỂ CHẤT của sinh vật (発育が早い = lớn nhanh)"
+        },
+        {
+          "headword": "発生",
+          "reading": "hassei",
+          "hanViet": "phát sinh",
+          "meaningVn": "phát sinh, xảy ra (事故が発生する = tai nạn xảy ra)"
+        }
+      ],
+      "note": "4 từ chung chữ 発 (phát): 発展 là mở rộng LÊN TẦM CAO HƠN, 発達 là hoàn thiện dần về CHỨC NĂNG, 発育 là lớn lên về THỂ CHẤT, 発生 là XẢY RA/phát sinh."
     }
   ],
   "todo": [
