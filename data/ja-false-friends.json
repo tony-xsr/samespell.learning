@@ -8111,6 +8111,566 @@
           ]
         }
       ]
+    },
+    {
+      "id": "ja-ff-yaku",
+      "language": "ja",
+      "reading": "薬",
+      "groupKind": "false-friend",
+      "note": "薬 (dược) nghĩa gốc là \"thuốc\". 薬局 giữ nguyên nghĩa, còn 火薬 lệch hẳn sang \"thuốc súng\" — \"thuốc của lửa\", không còn liên quan chữa bệnh.",
+      "roots": [
+        {
+          "id": "ja-ff-yaku-root",
+          "character": "薬",
+          "hanViet": "dược",
+          "meaningVn": "dược (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-yaku-w1",
+              "headword": "薬局",
+              "reading": "yakkyoku",
+              "meaningVn": "hiệu thuốc, nhà thuốc",
+              "example": "駅前の薬局で風邪薬を買った。",
+              "exampleVn": "Tôi đã mua thuốc cảm ở hiệu thuốc trước ga.",
+              "hanViet": "dược cục"
+            },
+            {
+              "id": "ja-ff-yaku-w2",
+              "headword": "火薬",
+              "reading": "kayaku",
+              "meaningVn": "thuốc súng",
+              "example": "花火には火薬が使われている。",
+              "exampleVn": "Pháo hoa có sử dụng thuốc súng.",
+              "hanViet": "hoả dược"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-kuu",
+      "language": "ja",
+      "reading": "空",
+      "groupKind": "false-friend",
+      "note": "空 (không) vừa là \"bầu trời\" vừa là \"trống rỗng\". 空席 dùng nghĩa cụ thể \"chỗ trống\", còn 空想 chuyển hẳn vào đầu óc: nghĩ những điều trống rỗng → mơ tưởng hão huyền.",
+      "roots": [
+        {
+          "id": "ja-ff-kuu-root",
+          "character": "空",
+          "hanViet": "không",
+          "meaningVn": "không (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-kuu-w1",
+              "headword": "空席",
+              "reading": "kuuseki",
+              "meaningVn": "ghế trống, chỗ trống",
+              "example": "この列車にはまだ空席があります。",
+              "exampleVn": "Chuyến tàu này vẫn còn chỗ trống.",
+              "hanViet": "không tịch"
+            },
+            {
+              "id": "ja-ff-kuu-w2",
+              "headword": "空想",
+              "reading": "kuusou",
+              "meaningVn": "mơ tưởng hão huyền",
+              "example": "彼は空想ばかりしている。",
+              "exampleVn": "Cậu ấy suốt ngày chỉ mơ tưởng hão huyền.",
+              "hanViet": "không tưởng"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-fuu",
+      "language": "ja",
+      "reading": "風",
+      "groupKind": "false-friend",
+      "note": "風 (phong) nghĩa gốc là \"gió\". 台風 giữ nghĩa gió thật, còn 風邪 lệch hẳn thành \"cảm lạnh\" — người xưa cho rằng bệnh do \"gió độc\" xâm nhập. Lưu ý 風邪 đọc bất quy tắc là \"kaze\".",
+      "roots": [
+        {
+          "id": "ja-ff-fuu-root",
+          "character": "風",
+          "hanViet": "phong",
+          "meaningVn": "phong (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-fuu-w1",
+              "headword": "風力",
+              "reading": "fuuryoku",
+              "meaningVn": "sức gió, phong lực",
+              "example": "この地域は風力発電が盛んだ。",
+              "exampleVn": "Vùng này phát triển mạnh điện gió.",
+              "hanViet": "phong lực"
+            },
+            {
+              "id": "ja-ff-fuu-w2",
+              "headword": "風邪",
+              "reading": "kaze",
+              "meaningVn": "bệnh cảm lạnh",
+              "example": "風邪をひいて会社を休んだ。",
+              "exampleVn": "Tôi bị cảm nên đã nghỉ làm.",
+              "hanViet": "phong tà"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-umi",
+      "language": "ja",
+      "reading": "海",
+      "groupKind": "false-friend",
+      "note": "海 (hải) nghĩa gốc là \"biển\". 海岸 giữ nguyên nghĩa, còn 海老 lệch hẳn thành \"con tôm\" — người xưa thấy tôm lưng còng râu dài như ông già của biển. Đọc bất quy tắc \"ebi\".",
+      "roots": [
+        {
+          "id": "ja-ff-umi-root",
+          "character": "海",
+          "hanViet": "hải",
+          "meaningVn": "hải (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-umi-w1",
+              "headword": "海岸",
+              "reading": "kaigan",
+              "meaningVn": "bờ biển",
+              "example": "海岸を散歩するのが好きだ。",
+              "exampleVn": "Tôi thích đi dạo dọc bờ biển.",
+              "hanViet": "hải ngạn"
+            },
+            {
+              "id": "ja-ff-umi-w2",
+              "headword": "海老",
+              "reading": "ebi",
+              "meaningVn": "con tôm",
+              "example": "海老の天ぷらを注文した。",
+              "exampleVn": "Tôi đã gọi món tempura tôm.",
+              "hanViet": "hải lão"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-san2",
+      "language": "ja",
+      "reading": "山",
+      "groupKind": "false-friend",
+      "note": "山 (sơn) nghĩa gốc là \"núi\". 登山 giữ nghĩa núi thật, còn 山積 chỉ còn giữ HÌNH ẢNH ngọn núi: việc chất đống cao như núi.",
+      "roots": [
+        {
+          "id": "ja-ff-san2-root",
+          "character": "山",
+          "hanViet": "sơn",
+          "meaningVn": "sơn (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-san2-w1",
+              "headword": "登山",
+              "reading": "tozan",
+              "meaningVn": "việc leo núi",
+              "example": "週末に友人と登山に行く。",
+              "exampleVn": "Cuối tuần tôi đi leo núi với bạn.",
+              "hanViet": "đăng sơn"
+            },
+            {
+              "id": "ja-ff-san2-w2",
+              "headword": "山積",
+              "reading": "sanseki",
+              "meaningVn": "chất đống như núi (vấn đề, công việc)",
+              "example": "課題が山積している。",
+              "exampleVn": "Vấn đề đang chất đống như núi.",
+              "hanViet": "sơn tích"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-seki3",
+      "language": "ja",
+      "reading": "石",
+      "groupKind": "false-friend",
+      "note": "石 (thạch) nghĩa gốc là \"đá\". 宝石 giữ nghĩa đá thật, còn 石油 lệch sang \"dầu mỏ\" — nghĩa đen là \"dầu từ đá\", một cách gọi ra đời khi người ta thấy dầu rỉ ra từ kẽ đá.",
+      "roots": [
+        {
+          "id": "ja-ff-seki3-root",
+          "character": "石",
+          "hanViet": "thạch",
+          "meaningVn": "thạch (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-seki3-w1",
+              "headword": "宝石",
+              "reading": "houseki",
+              "meaningVn": "đá quý, châu báu",
+              "example": "彼女は宝石を集めるのが趣味だ。",
+              "exampleVn": "Sở thích của cô ấy là sưu tầm đá quý.",
+              "hanViet": "bảo thạch"
+            },
+            {
+              "id": "ja-ff-seki3-w2",
+              "headword": "石油",
+              "reading": "sekiyu",
+              "meaningVn": "dầu mỏ",
+              "example": "石油の価格が上がっている。",
+              "exampleVn": "Giá dầu mỏ đang tăng.",
+              "hanViet": "thạch du"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-getsu",
+      "language": "ja",
+      "reading": "月",
+      "groupKind": "false-friend",
+      "note": "月 (nguyệt) vừa là \"mặt trăng\" vừa là \"tháng\". 月食 giữ nghĩa mặt trăng, còn 月給 chỉ còn nghĩa \"tháng\" — lương trả theo tháng, không liên quan trăng sao.",
+      "roots": [
+        {
+          "id": "ja-ff-getsu-root",
+          "character": "月",
+          "hanViet": "nguyệt",
+          "meaningVn": "nguyệt (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-getsu-w1",
+              "headword": "月食",
+              "reading": "gesshoku",
+              "meaningVn": "nguyệt thực",
+              "example": "今夜は月食が見られる。",
+              "exampleVn": "Tối nay có thể xem được nguyệt thực.",
+              "hanViet": "nguyệt thực"
+            },
+            {
+              "id": "ja-ff-getsu-w2",
+              "headword": "月給",
+              "reading": "gekkyuu",
+              "meaningVn": "lương tháng",
+              "example": "月給が少し上がった。",
+              "exampleVn": "Lương tháng của tôi đã tăng lên một chút.",
+              "hanViet": "nguyệt cấp"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-cha",
+      "language": "ja",
+      "reading": "茶",
+      "groupKind": "false-friend",
+      "note": "茶 (trà) nghĩa gốc là \"cây chè, nước trà\". 茶道 giữ nguyên nghĩa, còn 茶色 chỉ mượn MÀU của nước trà để gọi màu nâu.",
+      "roots": [
+        {
+          "id": "ja-ff-cha-root",
+          "character": "茶",
+          "hanViet": "trà",
+          "meaningVn": "trà (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-cha-w1",
+              "headword": "茶道",
+              "reading": "sadou",
+              "meaningVn": "trà đạo",
+              "example": "京都で茶道を体験した。",
+              "exampleVn": "Tôi đã trải nghiệm trà đạo ở Kyoto.",
+              "hanViet": "trà đạo"
+            },
+            {
+              "id": "ja-ff-cha-w2",
+              "headword": "茶色",
+              "reading": "chairo",
+              "meaningVn": "màu nâu",
+              "example": "茶色のかばんを買った。",
+              "exampleVn": "Tôi đã mua một chiếc cặp màu nâu.",
+              "hanViet": "trà sắc"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-shiki",
+      "language": "ja",
+      "reading": "色",
+      "groupKind": "false-friend",
+      "note": "色 (sắc) nghĩa gốc là \"màu sắc\". 色彩 giữ nguyên nghĩa, còn 景色 lệch hẳn thành \"phong cảnh\" — không còn nói về màu nữa. Đọc bất quy tắc \"keshiki\".",
+      "roots": [
+        {
+          "id": "ja-ff-shiki-root",
+          "character": "色",
+          "hanViet": "sắc",
+          "meaningVn": "sắc (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-shiki-w1",
+              "headword": "色彩",
+              "reading": "shikisai",
+              "meaningVn": "màu sắc, sắc thái màu",
+              "example": "この絵は色彩が豊かだ。",
+              "exampleVn": "Bức tranh này màu sắc rất phong phú.",
+              "hanViet": "sắc thái"
+            },
+            {
+              "id": "ja-ff-shiki-w2",
+              "headword": "景色",
+              "reading": "keshiki",
+              "meaningVn": "phong cảnh",
+              "example": "山頂からの景色は素晴らしい。",
+              "exampleVn": "Phong cảnh nhìn từ đỉnh núi thật tuyệt vời.",
+              "hanViet": "cảnh sắc"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-niku",
+      "language": "ja",
+      "reading": "肉",
+      "groupKind": "false-friend",
+      "note": "肉 (nhục) nghĩa gốc là \"thịt\". 牛肉 giữ nghĩa thịt ăn được, còn 肉親 lệch sang quan hệ huyết thống: \"thịt\" ở đây là máu mủ ruột rà.",
+      "roots": [
+        {
+          "id": "ja-ff-niku-root",
+          "character": "肉",
+          "hanViet": "nhục",
+          "meaningVn": "nhục (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-niku-w1",
+              "headword": "牛肉",
+              "reading": "gyuuniku",
+              "meaningVn": "thịt bò",
+              "example": "牛肉を使ったシチューを作った。",
+              "exampleVn": "Tôi đã nấu món hầm với thịt bò.",
+              "hanViet": "ngưu nhục"
+            },
+            {
+              "id": "ja-ff-niku-w2",
+              "headword": "肉親",
+              "reading": "nikushin",
+              "meaningVn": "người ruột thịt",
+              "example": "肉親にしか言えないことがある。",
+              "exampleVn": "Có những điều chỉ nói được với người ruột thịt.",
+              "hanViet": "nhục thân"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-mon2",
+      "language": "ja",
+      "reading": "門",
+      "groupKind": "false-friend",
+      "note": "門 (môn) nghĩa gốc là \"cánh cổng\". 正門 giữ nguyên nghĩa, còn 専門 lệch hẳn thành \"chuyên môn\" — hình dung mỗi ngành học là một \"cánh cổng\" riêng để bước vào.",
+      "roots": [
+        {
+          "id": "ja-ff-mon2-root",
+          "character": "門",
+          "hanViet": "môn",
+          "meaningVn": "môn (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-mon2-w1",
+              "headword": "正門",
+              "reading": "seimon",
+              "meaningVn": "cổng chính",
+              "example": "正門の前で待ち合わせよう。",
+              "exampleVn": "Hẹn gặp nhau trước cổng chính nhé.",
+              "hanViet": "chính môn"
+            },
+            {
+              "id": "ja-ff-mon2-w2",
+              "headword": "専門",
+              "reading": "senmon",
+              "meaningVn": "chuyên môn, chuyên ngành",
+              "example": "彼の専門は経済学です。",
+              "exampleVn": "Chuyên ngành của anh ấy là kinh tế học.",
+              "hanViet": "chuyên môn"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-shi2",
+      "language": "ja",
+      "reading": "紙",
+      "groupKind": "false-friend",
+      "note": "紙 (chỉ) nghĩa gốc là \"giấy\". 用紙 giữ nguyên nghĩa, còn 表紙 lệch sang \"bìa sách\" — nay cả sách bìa cứng cũng gọi là 表紙, không còn là tờ giấy nữa.",
+      "roots": [
+        {
+          "id": "ja-ff-shi2-root",
+          "character": "紙",
+          "hanViet": "chỉ",
+          "meaningVn": "chỉ (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-shi2-w1",
+              "headword": "用紙",
+              "reading": "youshi",
+              "meaningVn": "tờ giấy (dùng để ghi, in)",
+              "example": "申込用紙に記入してください。",
+              "exampleVn": "Xin điền vào tờ đơn đăng ký.",
+              "hanViet": "dụng chỉ"
+            },
+            {
+              "id": "ja-ff-shi2-w2",
+              "headword": "表紙",
+              "reading": "hyoushi",
+              "meaningVn": "bìa sách, bìa tạp chí",
+              "example": "この本は表紙がきれいだ。",
+              "exampleVn": "Cuốn sách này có bìa rất đẹp.",
+              "hanViet": "biểu chỉ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-kin3",
+      "language": "ja",
+      "reading": "金",
+      "groupKind": "false-friend",
+      "note": "金 (kim) nghĩa gốc là \"vàng, kim loại\". 黄金 giữ nguyên nghĩa, còn 金曜日 lệch hẳn thành tên một ngày trong tuần (theo ngũ hành), không liên quan vàng bạc.",
+      "roots": [
+        {
+          "id": "ja-ff-kin3-root",
+          "character": "金",
+          "hanViet": "kim",
+          "meaningVn": "kim (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-kin3-w1",
+              "headword": "黄金",
+              "reading": "ougon",
+              "meaningVn": "vàng ròng, hoàng kim",
+              "example": "黄金の仏像が展示されている。",
+              "exampleVn": "Bức tượng Phật bằng vàng ròng đang được trưng bày.",
+              "hanViet": "hoàng kim"
+            },
+            {
+              "id": "ja-ff-kin3-w2",
+              "headword": "金曜日",
+              "reading": "kinyoubi",
+              "meaningVn": "thứ Sáu",
+              "example": "金曜日の夜は映画を見る。",
+              "exampleVn": "Tối thứ Sáu tôi xem phim.",
+              "hanViet": "kim diệu nhật"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-do2",
+      "language": "ja",
+      "reading": "土",
+      "groupKind": "false-friend",
+      "note": "土 (thổ) nghĩa gốc là \"đất\". 土地 giữ nguyên nghĩa, còn 土曜日 lệch hẳn thành tên ngày trong tuần theo ngũ hành — cùng kiểu lệch với 火曜日 và 金曜日.",
+      "roots": [
+        {
+          "id": "ja-ff-do2-root",
+          "character": "土",
+          "hanViet": "thổ",
+          "meaningVn": "thổ (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-do2-w1",
+              "headword": "土地",
+              "reading": "tochi",
+              "meaningVn": "đất đai, mảnh đất",
+              "example": "この土地は父の代から持っている。",
+              "exampleVn": "Mảnh đất này gia đình tôi giữ từ đời cha.",
+              "hanViet": "thổ địa"
+            },
+            {
+              "id": "ja-ff-do2-w2",
+              "headword": "土曜日",
+              "reading": "doyoubi",
+              "meaningVn": "thứ Bảy",
+              "example": "土曜日は休みです。",
+              "exampleVn": "Thứ Bảy tôi được nghỉ.",
+              "hanViet": "thổ diệu nhật"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-haku2",
+      "language": "ja",
+      "reading": "白",
+      "groupKind": "false-friend",
+      "note": "白 (bạch) nghĩa gốc là \"màu trắng\". 白髪 giữ nghĩa màu thật, còn 空白 chuyển sang nghĩa trừu tượng \"khoảng trống\" — chỗ chưa được lấp đầy, không nhất thiết màu trắng.",
+      "roots": [
+        {
+          "id": "ja-ff-haku2-root",
+          "character": "白",
+          "hanViet": "bạch",
+          "meaningVn": "bạch (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-haku2-w1",
+              "headword": "白髪",
+              "reading": "shiraga",
+              "meaningVn": "tóc bạc",
+              "example": "最近白髪が増えてきた。",
+              "exampleVn": "Dạo này tóc bạc của tôi nhiều lên.",
+              "hanViet": "bạch phát"
+            },
+            {
+              "id": "ja-ff-haku2-w2",
+              "headword": "空白",
+              "reading": "kuuhaku",
+              "meaningVn": "khoảng trống, chỗ để trống",
+              "example": "答案に空白が目立つ。",
+              "exampleVn": "Bài làm có nhiều chỗ bỏ trống.",
+              "hanViet": "không bạch"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-ff-shun",
+      "language": "ja",
+      "reading": "春",
+      "groupKind": "false-friend",
+      "note": "春 (xuân) nghĩa gốc là \"mùa xuân\". 春分 giữ nghĩa mùa thật, còn 青春 lệch sang \"tuổi thanh xuân\" — mượn mùa xuân để chỉ giai đoạn tươi đẹp của đời người.",
+      "roots": [
+        {
+          "id": "ja-ff-shun-root",
+          "character": "春",
+          "hanViet": "xuân",
+          "meaningVn": "xuân (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ja-ff-shun-w1",
+              "headword": "春分",
+              "reading": "shunbun",
+              "meaningVn": "tiết xuân phân",
+              "example": "春分の日は祝日です。",
+              "exampleVn": "Ngày xuân phân là ngày lễ.",
+              "hanViet": "xuân phân"
+            },
+            {
+              "id": "ja-ff-shun-w2",
+              "headword": "青春",
+              "reading": "seishun",
+              "meaningVn": "tuổi thanh xuân",
+              "example": "青春時代の思い出を語った。",
+              "exampleVn": "Anh ấy kể về kỷ niệm thời thanh xuân.",
+              "hanViet": "thanh xuân"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
