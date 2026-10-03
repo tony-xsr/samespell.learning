@@ -8111,6 +8111,566 @@
           ]
         }
       ]
+    },
+    {
+      "id": "ko-ff-yak",
+      "language": "ko",
+      "reading": "藥",
+      "groupKind": "false-friend",
+      "note": "藥 (dược) nghĩa gốc là \"thuốc\". 약국 giữ nguyên nghĩa, còn 화약 lệch hẳn sang \"thuốc súng\" — \"thuốc của lửa\", không còn liên quan chữa bệnh.",
+      "roots": [
+        {
+          "id": "ko-ff-yak-root",
+          "character": "藥",
+          "hanViet": "dược",
+          "meaningVn": "dược (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-yak-w1",
+              "headword": "약국",
+              "reading": "yakguk",
+              "meaningVn": "hiệu thuốc, nhà thuốc",
+              "example": "역 앞 약국에서 감기약을 샀어요.",
+              "exampleVn": "Tôi đã mua thuốc cảm ở hiệu thuốc trước ga.",
+              "hanViet": "dược cục"
+            },
+            {
+              "id": "ko-ff-yak-w2",
+              "headword": "화약",
+              "reading": "hwayak",
+              "meaningVn": "thuốc súng",
+              "example": "불꽃놀이에는 화약이 쓰여요.",
+              "exampleVn": "Pháo hoa có sử dụng thuốc súng.",
+              "hanViet": "hoả dược"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ff-gong3",
+      "language": "ko",
+      "reading": "空",
+      "groupKind": "false-friend",
+      "note": "空 (không) vừa là \"bầu trời\" vừa là \"trống rỗng\". 공석 dùng nghĩa cụ thể \"chỗ trống\", còn 공백 chuyển sang nghĩa trừu tượng \"khoảng trống\" — quãng thời gian hoặc chỗ chưa được lấp đầy.",
+      "roots": [
+        {
+          "id": "ko-ff-gong3-root",
+          "character": "空",
+          "hanViet": "không",
+          "meaningVn": "không (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-gong3-w1",
+              "headword": "공석",
+              "reading": "gongseok",
+              "meaningVn": "ghế trống; vị trí đang khuyết",
+              "example": "그 자리는 아직 공석이에요.",
+              "exampleVn": "Vị trí đó vẫn đang khuyết.",
+              "hanViet": "không tịch"
+            },
+            {
+              "id": "ko-ff-gong3-w2",
+              "headword": "공백",
+              "reading": "gongbaek",
+              "meaningVn": "khoảng trống, chỗ để trống",
+              "example": "경력에 공백이 있어요.",
+              "exampleVn": "Trong kinh nghiệm làm việc của tôi có một khoảng trống.",
+              "hanViet": "không bạch"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ff-pung",
+      "language": "ko",
+      "reading": "風",
+      "groupKind": "false-friend",
+      "note": "風 (phong) nghĩa gốc là \"gió\". 태풍 giữ nghĩa gió thật, còn 풍속 lệch hẳn sang \"phong tục\" — nếp sống của một vùng, không còn liên quan gió.",
+      "roots": [
+        {
+          "id": "ko-ff-pung-root",
+          "character": "風",
+          "hanViet": "phong",
+          "meaningVn": "phong (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-pung-w1",
+              "headword": "태풍",
+              "reading": "taepung",
+              "meaningVn": "bão, cuồng phong",
+              "example": "태풍이 남해안에 상륙했어요.",
+              "exampleVn": "Cơn bão đã đổ bộ vào bờ biển phía nam.",
+              "hanViet": "thai phong"
+            },
+            {
+              "id": "ko-ff-pung-w2",
+              "headword": "풍속",
+              "reading": "pungsok",
+              "meaningVn": "phong tục, tập quán",
+              "example": "그 지방의 풍속을 조사했어요.",
+              "exampleVn": "Tôi đã khảo sát phong tục của vùng đó.",
+              "hanViet": "phong tục"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ff-hae",
+      "language": "ko",
+      "reading": "海",
+      "groupKind": "false-friend",
+      "note": "海 (hải) nghĩa gốc là \"biển\". 해안 giữ nguyên nghĩa, còn 해외 lệch thành \"nước ngoài\" — nghĩa đen \"bên ngoài biển\", phản ánh cách nhìn của một bán đảo.",
+      "roots": [
+        {
+          "id": "ko-ff-hae-root",
+          "character": "海",
+          "hanViet": "hải",
+          "meaningVn": "hải (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-hae-w1",
+              "headword": "해안",
+              "reading": "haean",
+              "meaningVn": "bờ biển",
+              "example": "해안을 따라 산책했어요.",
+              "exampleVn": "Tôi đã đi dạo dọc bờ biển.",
+              "hanViet": "hải ngạn"
+            },
+            {
+              "id": "ko-ff-hae-w2",
+              "headword": "해외",
+              "reading": "haeoe",
+              "meaningVn": "nước ngoài, hải ngoại",
+              "example": "해외에서 공부하고 싶어요.",
+              "exampleVn": "Tôi muốn đi học ở nước ngoài.",
+              "hanViet": "hải ngoại"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ff-san3",
+      "language": "ko",
+      "reading": "山",
+      "groupKind": "false-friend",
+      "note": "山 (sơn) nghĩa gốc là \"núi\". 등산 giữ nghĩa núi thật, còn 산소 (山所) lệch hẳn thành \"phần mộ\" — cách nói riêng của tiếng Hàn, vì mộ thường đặt trên sườn núi. Lưu ý 산소 còn đồng âm với 酸素 (khí oxy)!",
+      "roots": [
+        {
+          "id": "ko-ff-san3-root",
+          "character": "山",
+          "hanViet": "sơn",
+          "meaningVn": "sơn (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-san3-w1",
+              "headword": "등산",
+              "reading": "deungsan",
+              "meaningVn": "việc leo núi",
+              "example": "주말에 친구와 등산을 가요.",
+              "exampleVn": "Cuối tuần tôi đi leo núi với bạn.",
+              "hanViet": "đăng sơn"
+            },
+            {
+              "id": "ko-ff-san3-w2",
+              "headword": "산소",
+              "reading": "sanso",
+              "meaningVn": "phần mộ, nơi an táng",
+              "example": "추석에 산소에 다녀왔어요.",
+              "exampleVn": "Dịp Trung thu tôi đã đi thăm mộ.",
+              "hanViet": "sơn sở"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ff-seok2",
+      "language": "ko",
+      "reading": "石",
+      "groupKind": "false-friend",
+      "note": "石 (thạch) nghĩa gốc là \"đá\". 보석 giữ nghĩa đá thật, còn 석유 lệch sang \"dầu mỏ\" — nghĩa đen là \"dầu từ đá\".",
+      "roots": [
+        {
+          "id": "ko-ff-seok2-root",
+          "character": "石",
+          "hanViet": "thạch",
+          "meaningVn": "thạch (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-seok2-w1",
+              "headword": "보석",
+              "reading": "boseok",
+              "meaningVn": "đá quý, châu báu",
+              "example": "보석 가게에서 반지를 봤어요.",
+              "exampleVn": "Tôi đã xem nhẫn ở tiệm đá quý.",
+              "hanViet": "bảo thạch"
+            },
+            {
+              "id": "ko-ff-seok2-w2",
+              "headword": "석유",
+              "reading": "seogyu",
+              "meaningVn": "dầu mỏ",
+              "example": "석유 가격이 오르고 있어요.",
+              "exampleVn": "Giá dầu mỏ đang tăng.",
+              "hanViet": "thạch du"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ff-wol",
+      "language": "ko",
+      "reading": "月",
+      "groupKind": "false-friend",
+      "note": "月 (nguyệt) vừa là \"mặt trăng\" vừa là \"tháng\". 월식 giữ nghĩa mặt trăng, còn 월급 chỉ còn nghĩa \"tháng\" — lương trả theo tháng.",
+      "roots": [
+        {
+          "id": "ko-ff-wol-root",
+          "character": "月",
+          "hanViet": "nguyệt",
+          "meaningVn": "nguyệt (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-wol-w1",
+              "headword": "월식",
+              "reading": "wolsik",
+              "meaningVn": "nguyệt thực",
+              "example": "오늘 밤에 월식을 볼 수 있어요.",
+              "exampleVn": "Tối nay có thể xem được nguyệt thực.",
+              "hanViet": "nguyệt thực"
+            },
+            {
+              "id": "ko-ff-wol-w2",
+              "headword": "월급",
+              "reading": "wolgeup",
+              "meaningVn": "lương tháng",
+              "example": "월급이 조금 올랐어요.",
+              "exampleVn": "Lương tháng đã tăng lên một chút.",
+              "hanViet": "nguyệt cấp"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ff-da",
+      "language": "ko",
+      "reading": "茶",
+      "groupKind": "false-friend",
+      "note": "茶 (trà) nghĩa gốc là \"nước trà\". 홍차 giữ nguyên nghĩa, còn 다반사 (茶飯事) lệch hẳn thành \"chuyện thường ngày\" — nghĩa đen \"chuyện trà với cơm\", tức việc diễn ra hằng ngày.",
+      "roots": [
+        {
+          "id": "ko-ff-da-root",
+          "character": "茶",
+          "hanViet": "trà",
+          "meaningVn": "trà (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-da-w1",
+              "headword": "홍차",
+              "reading": "hongcha",
+              "meaningVn": "hồng trà, trà đen",
+              "example": "아침에 홍차를 마셔요.",
+              "exampleVn": "Buổi sáng tôi uống hồng trà.",
+              "hanViet": "hồng trà"
+            },
+            {
+              "id": "ko-ff-da-w2",
+              "headword": "다반사",
+              "reading": "dabansa",
+              "meaningVn": "chuyện thường như cơm bữa",
+              "example": "야근은 이 회사에서 다반사예요.",
+              "exampleVn": "Tăng ca ở công ty này là chuyện thường như cơm bữa.",
+              "hanViet": "trà phạn sự"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ff-saek",
+      "language": "ko",
+      "reading": "色",
+      "groupKind": "false-friend",
+      "note": "色 (sắc) nghĩa gốc là \"màu sắc\". 색채 giữ nguyên nghĩa, còn 특색 lệch sang \"nét đặc trưng\" — không còn nói về màu mà nói về đặc điểm riêng.",
+      "roots": [
+        {
+          "id": "ko-ff-saek-root",
+          "character": "色",
+          "hanViet": "sắc",
+          "meaningVn": "sắc (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-saek-w1",
+              "headword": "색채",
+              "reading": "saekchae",
+              "meaningVn": "màu sắc, sắc thái màu",
+              "example": "이 그림은 색채가 풍부해요.",
+              "exampleVn": "Bức tranh này màu sắc rất phong phú.",
+              "hanViet": "sắc thái"
+            },
+            {
+              "id": "ko-ff-saek-w2",
+              "headword": "특색",
+              "reading": "teukssaek",
+              "meaningVn": "nét đặc trưng, đặc sắc",
+              "example": "이 마을만의 특색이 있어요.",
+              "exampleVn": "Ngôi làng này có nét đặc trưng riêng.",
+              "hanViet": "đặc sắc"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ff-yuk",
+      "language": "ko",
+      "reading": "肉",
+      "groupKind": "false-friend",
+      "note": "肉 (nhục) nghĩa gốc là \"thịt\". 육류 giữ nghĩa thịt ăn được, còn 육친 lệch sang quan hệ huyết thống: máu mủ ruột rà.",
+      "roots": [
+        {
+          "id": "ko-ff-yuk-root",
+          "character": "肉",
+          "hanViet": "nhục",
+          "meaningVn": "nhục (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-yuk-w1",
+              "headword": "육류",
+              "reading": "yungnyu",
+              "meaningVn": "các loại thịt",
+              "example": "육류 섭취를 줄이고 있어요.",
+              "exampleVn": "Tôi đang giảm ăn các loại thịt.",
+              "hanViet": "nhục loại"
+            },
+            {
+              "id": "ko-ff-yuk-w2",
+              "headword": "육친",
+              "reading": "yukchin",
+              "meaningVn": "người ruột thịt",
+              "example": "육친에게만 할 수 있는 말이 있어요.",
+              "exampleVn": "Có những lời chỉ nói được với người ruột thịt.",
+              "hanViet": "nhục thân"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ff-mun2",
+      "language": "ko",
+      "reading": "門",
+      "groupKind": "false-friend",
+      "note": "門 (môn) nghĩa gốc là \"cánh cổng\". 정문 giữ nguyên nghĩa, còn 전문 lệch hẳn thành \"chuyên môn\" — mỗi ngành học như một \"cánh cổng\" riêng để bước vào.",
+      "roots": [
+        {
+          "id": "ko-ff-mun2-root",
+          "character": "門",
+          "hanViet": "môn",
+          "meaningVn": "môn (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-mun2-w1",
+              "headword": "정문",
+              "reading": "jeongmun",
+              "meaningVn": "cổng chính",
+              "example": "정문 앞에서 만나요.",
+              "exampleVn": "Gặp nhau trước cổng chính nhé.",
+              "hanViet": "chính môn"
+            },
+            {
+              "id": "ko-ff-mun2-w2",
+              "headword": "전문",
+              "reading": "jeonmun",
+              "meaningVn": "chuyên môn, chuyên ngành",
+              "example": "그의 전문은 경제학이에요.",
+              "exampleVn": "Chuyên ngành của anh ấy là kinh tế học.",
+              "hanViet": "chuyên môn"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ff-ji2",
+      "language": "ko",
+      "reading": "紙",
+      "groupKind": "false-friend",
+      "note": "紙 (chỉ) nghĩa gốc là \"giấy\". 용지 giữ nguyên nghĩa, còn 지면 lệch sang \"mặt báo, trang báo\" — từ tờ giấy thành không gian đăng tin.",
+      "roots": [
+        {
+          "id": "ko-ff-ji2-root",
+          "character": "紙",
+          "hanViet": "chỉ",
+          "meaningVn": "chỉ (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-ji2-w1",
+              "headword": "용지",
+              "reading": "yongji",
+              "meaningVn": "tờ giấy (dùng để ghi, in)",
+              "example": "신청 용지를 작성해 주세요.",
+              "exampleVn": "Xin điền vào tờ đơn đăng ký.",
+              "hanViet": "dụng chỉ"
+            },
+            {
+              "id": "ko-ff-ji2-w2",
+              "headword": "지면",
+              "reading": "jimyeon",
+              "meaningVn": "mặt báo, trang báo",
+              "example": "그 사건이 지면을 장식했어요.",
+              "exampleVn": "Vụ việc đó đã chiếm trang nhất các báo.",
+              "hanViet": "chỉ diện"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ff-geum2",
+      "language": "ko",
+      "reading": "金",
+      "groupKind": "false-friend",
+      "note": "金 (kim) nghĩa gốc là \"vàng, kim loại\". 황금 giữ nguyên nghĩa, còn 금요일 lệch hẳn thành tên ngày trong tuần theo ngũ hành.",
+      "roots": [
+        {
+          "id": "ko-ff-geum2-root",
+          "character": "金",
+          "hanViet": "kim",
+          "meaningVn": "kim (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-geum2-w1",
+              "headword": "황금",
+              "reading": "hwanggeum",
+              "meaningVn": "vàng ròng, hoàng kim",
+              "example": "황금으로 만든 왕관이에요.",
+              "exampleVn": "Đó là chiếc vương miện làm bằng vàng ròng.",
+              "hanViet": "hoàng kim"
+            },
+            {
+              "id": "ko-ff-geum2-w2",
+              "headword": "금요일",
+              "reading": "geumyoil",
+              "meaningVn": "thứ Sáu",
+              "example": "금요일 저녁에 영화를 봐요.",
+              "exampleVn": "Tối thứ Sáu tôi xem phim.",
+              "hanViet": "kim diệu nhật"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ff-to2",
+      "language": "ko",
+      "reading": "土",
+      "groupKind": "false-friend",
+      "note": "土 (thổ) nghĩa gốc là \"đất\". 점토 giữ nguyên nghĩa, còn 토요일 lệch hẳn thành tên ngày trong tuần theo ngũ hành — cùng kiểu với 화요일 và 금요일.",
+      "roots": [
+        {
+          "id": "ko-ff-to2-root",
+          "character": "土",
+          "hanViet": "thổ",
+          "meaningVn": "thổ (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-to2-w1",
+              "headword": "점토",
+              "reading": "jeomto",
+              "meaningVn": "đất sét",
+              "example": "아이들이 점토로 놀아요.",
+              "exampleVn": "Bọn trẻ chơi với đất sét.",
+              "hanViet": "niêm thổ"
+            },
+            {
+              "id": "ko-ff-to2-w2",
+              "headword": "토요일",
+              "reading": "toyoil",
+              "meaningVn": "thứ Bảy",
+              "example": "토요일은 쉬는 날이에요.",
+              "exampleVn": "Thứ Bảy là ngày nghỉ.",
+              "hanViet": "thổ diệu nhật"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ff-baek2",
+      "language": "ko",
+      "reading": "白",
+      "groupKind": "false-friend",
+      "note": "白 (bạch) nghĩa gốc là \"màu trắng\". 백발 giữ nghĩa màu thật, còn 고백 lệch hẳn thành \"thú nhận, tỏ tình\" — nghĩa đen \"nói ra cho trắng\", không còn liên quan màu sắc.",
+      "roots": [
+        {
+          "id": "ko-ff-baek2-root",
+          "character": "白",
+          "hanViet": "bạch",
+          "meaningVn": "bạch (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-baek2-w1",
+              "headword": "백발",
+              "reading": "baekbal",
+              "meaningVn": "tóc bạc",
+              "example": "할아버지는 백발이 되셨어요.",
+              "exampleVn": "Ông tôi đã bạc trắng tóc.",
+              "hanViet": "bạch phát"
+            },
+            {
+              "id": "ko-ff-baek2-w2",
+              "headword": "고백",
+              "reading": "gobaek",
+              "meaningVn": "sự thú nhận; lời tỏ tình",
+              "example": "그녀에게 고백했어요.",
+              "exampleVn": "Tôi đã tỏ tình với cô ấy.",
+              "hanViet": "cáo bạch"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-ff-chun",
+      "language": "ko",
+      "reading": "春",
+      "groupKind": "false-friend",
+      "note": "春 (xuân) nghĩa gốc là \"mùa xuân\". 춘분 giữ nghĩa mùa thật, còn 청춘 lệch sang \"tuổi thanh xuân\" — mượn mùa xuân để chỉ giai đoạn tươi đẹp của đời người.",
+      "roots": [
+        {
+          "id": "ko-ff-chun-root",
+          "character": "春",
+          "hanViet": "xuân",
+          "meaningVn": "xuân (nghĩa gốc của chữ)",
+          "words": [
+            {
+              "id": "ko-ff-chun-w1",
+              "headword": "춘분",
+              "reading": "chunbun",
+              "meaningVn": "tiết xuân phân",
+              "example": "춘분이 지나면 낮이 길어져요.",
+              "exampleVn": "Qua tiết xuân phân thì ngày dài ra.",
+              "hanViet": "xuân phân"
+            },
+            {
+              "id": "ko-ff-chun-w2",
+              "headword": "청춘",
+              "reading": "cheongchun",
+              "meaningVn": "tuổi thanh xuân",
+              "example": "청춘 시절의 추억을 이야기했어요.",
+              "exampleVn": "Anh ấy kể về kỷ niệm thời thanh xuân.",
+              "hanViet": "thanh xuân"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
