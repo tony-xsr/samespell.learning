@@ -2,8 +2,12 @@ import Link from "next/link";
 import { getGrammarLanguages, countGrammarPoints } from "@/lib/grammarStore";
 
 const LANG_ICON: Record<string, string> = { zh: "🇨🇳", ko: "🇰🇷", ja: "🇯🇵" };
-const LANG_LABEL: Record<string, string> = { ko: "Ngữ pháp tiếng Hàn", ja: "Ngữ pháp tiếng Nhật" };
-const ALL_LANGS = ["ko", "ja"] as const;
+const LANG_LABEL: Record<string, string> = {
+  ko: "Ngữ pháp tiếng Hàn",
+  ja: "Ngữ pháp tiếng Nhật",
+  zh: "Ngữ pháp tiếng Trung",
+};
+const ALL_LANGS = ["ko", "ja", "zh"] as const;
 
 export default function GrammarHome() {
   const languages = getGrammarLanguages();
