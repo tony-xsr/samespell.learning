@@ -6080,6 +6080,738 @@
           ]
         }
       ]
+    },
+    {
+      "id": "en-form",
+      "language": "en",
+      "reading": "form",
+      "note": "Gốc Latin \"forma\" (hình dạng, cái khuôn). Nhóm này cho thấy một gốc rất đời thường vẫn trải khắp: công nghệ (transform), xã hội (conform/reform), trang phục (uniform), học thuật (formulate).",
+      "roots": [
+        {
+          "id": "en-form-root",
+          "character": "form",
+          "hanViet": "Latin \"forma\" — hình dạng, khuôn mẫu",
+          "meaningVn": "hình dạng, khuôn mẫu",
+          "words": [
+            {
+              "id": "en-form-root-w1",
+              "headword": "transform",
+              "reading": "/trænsˈfɔːm/",
+              "meaningVn": "biến đổi hoàn toàn",
+              "example": "The internet has transformed the way we work.",
+              "exampleVn": "Internet đã biến đổi hoàn toàn cách chúng ta làm việc.",
+              "mnemonicVn": "\"trans-\" (chuyển sang) + \"form\" (hình dạng) = chuyển sang một hình dạng khác hẳn."
+            },
+            {
+              "id": "en-form-root-w2",
+              "headword": "conform",
+              "reading": "/kənˈfɔːm/",
+              "meaningVn": "tuân theo, làm theo chuẩn mực",
+              "example": "All products must conform to safety standards.",
+              "exampleVn": "Mọi sản phẩm đều phải tuân theo tiêu chuẩn an toàn.",
+              "mnemonicVn": "\"con-\" (cùng) + \"form\" (khuôn) = đúc cùng một khuôn với số đông → tuân theo."
+            },
+            {
+              "id": "en-form-root-w3",
+              "headword": "reform",
+              "reading": "/rɪˈfɔːm/",
+              "meaningVn": "cải cách, cải tổ",
+              "example": "The government promised to reform the education system.",
+              "exampleVn": "Chính phủ hứa sẽ cải cách hệ thống giáo dục.",
+              "mnemonicVn": "\"re-\" (lại) + \"form\" (nắn hình) = nắn lại cho ra hình dạng mới tốt hơn."
+            },
+            {
+              "id": "en-form-root-w4",
+              "headword": "uniform",
+              "reading": "/ˈjuːnɪfɔːm/",
+              "meaningVn": "đồng phục; đồng nhất",
+              "example": "The students all wear a blue uniform.",
+              "exampleVn": "Học sinh đều mặc đồng phục màu xanh.",
+              "mnemonicVn": "\"uni-\" (một) + \"form\" (kiểu dáng) = chỉ một kiểu dáng duy nhất cho tất cả."
+            },
+            {
+              "id": "en-form-root-w5",
+              "headword": "formulate",
+              "reading": "/ˈfɔːmjuleɪt/",
+              "meaningVn": "soạn thảo, xây dựng (kế hoạch, công thức)",
+              "example": "It took months to formulate a workable plan.",
+              "exampleVn": "Phải mất nhiều tháng mới soạn ra được một kế hoạch khả thi.",
+              "mnemonicVn": "\"formula\" (khuôn mẫu nhỏ) + \"-ate\" (làm) = đưa ý tưởng vào một khuôn rõ ràng."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "en-solvsolu",
+      "language": "en",
+      "reading": "solv/solu",
+      "note": "Gốc Latin \"solvere\" (cởi, tháo). Hình ảnh gốc là THÁO NÚT: tháo trong nước (dissolve), tháo gỡ vấn đề (resolve), tháo tội (absolve), tháo nợ (insolvent) — một hình ảnh duy nhất trải khắp hoá học, pháp lý và tài chính.",
+      "roots": [
+        {
+          "id": "en-solvsolu-root",
+          "character": "solv/solu",
+          "hanViet": "Latin \"solvere\" — cởi, tháo, giải",
+          "meaningVn": "cởi ra, tháo gỡ, giải",
+          "words": [
+            {
+              "id": "en-solvsolu-root-w1",
+              "headword": "dissolve",
+              "reading": "/dɪˈzɒlv/",
+              "meaningVn": "hoà tan; giải thể",
+              "example": "Sugar dissolves quickly in hot water.",
+              "exampleVn": "Đường tan nhanh trong nước nóng.",
+              "mnemonicVn": "\"dis-\" (rời ra) + \"solv\" (tháo) = tháo rời thành từng phần nhỏ → tan ra."
+            },
+            {
+              "id": "en-solvsolu-root-w2",
+              "headword": "resolve",
+              "reading": "/rɪˈzɒlv/",
+              "meaningVn": "giải quyết; quyết tâm",
+              "example": "They finally resolved the dispute peacefully.",
+              "exampleVn": "Cuối cùng họ đã giải quyết tranh chấp một cách hoà bình.",
+              "mnemonicVn": "\"re-\" (hoàn toàn) + \"solv\" (tháo gỡ) = tháo gỡ nút thắt cho xong hẳn."
+            },
+            {
+              "id": "en-solvsolu-root-w3",
+              "headword": "absolve",
+              "reading": "/əbˈzɒlv/",
+              "meaningVn": "xá tội, miễn trách nhiệm",
+              "example": "The court absolved him of all blame.",
+              "exampleVn": "Toà đã miễn cho anh ta mọi trách nhiệm.",
+              "mnemonicVn": "\"ab-\" (khỏi) + \"solv\" (cởi) = cởi bỏ tội lỗi ra khỏi người đó."
+            },
+            {
+              "id": "en-solvsolu-root-w4",
+              "headword": "soluble",
+              "reading": "/ˈsɒljəbl/",
+              "meaningVn": "có thể hoà tan",
+              "example": "These tablets are soluble in water.",
+              "exampleVn": "Những viên thuốc này tan được trong nước.",
+              "mnemonicVn": "\"solu\" (tháo rời) + \"-ble\" (có thể) = có thể tháo rời ra trong chất lỏng."
+            },
+            {
+              "id": "en-solvsolu-root-w5",
+              "headword": "insolvent",
+              "reading": "/ɪnˈsɒlvənt/",
+              "meaningVn": "mất khả năng thanh toán, vỡ nợ",
+              "example": "The company was declared insolvent last month.",
+              "exampleVn": "Công ty bị tuyên bố vỡ nợ hồi tháng trước.",
+              "mnemonicVn": "\"in-\" (không) + \"solv\" (cởi nợ) = không gỡ nổi khoản nợ ra."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "en-venvent",
+      "language": "en",
+      "reading": "ven/vent",
+      "note": "Gốc Latin \"venire\" (đến). Mọi từ đều là một kiểu \"đến\": đến xen vào giữa (intervene), cùng đến (convene), đến trước để chặn (prevent), sự đến của cái mới (advent).",
+      "roots": [
+        {
+          "id": "en-venvent-root",
+          "character": "ven/vent",
+          "hanViet": "Latin \"venire\" — đến, tới",
+          "meaningVn": "đến, tới",
+          "words": [
+            {
+              "id": "en-venvent-root-w1",
+              "headword": "intervene",
+              "reading": "/ˌɪntəˈviːn/",
+              "meaningVn": "can thiệp",
+              "example": "The teacher had to intervene in the argument.",
+              "exampleVn": "Giáo viên đã phải can thiệp vào cuộc tranh cãi.",
+              "mnemonicVn": "\"inter-\" (ở giữa) + \"ven\" (đến) = đến chen vào giữa hai bên."
+            },
+            {
+              "id": "en-venvent-root-w2",
+              "headword": "convene",
+              "reading": "/kənˈviːn/",
+              "meaningVn": "triệu tập, nhóm họp",
+              "example": "The committee will convene next Monday.",
+              "exampleVn": "Uỷ ban sẽ nhóm họp vào thứ Hai tới.",
+              "mnemonicVn": "\"con-\" (cùng nhau) + \"ven\" (đến) = cùng đến một chỗ."
+            },
+            {
+              "id": "en-venvent-root-w3",
+              "headword": "prevent",
+              "reading": "/prɪˈvent/",
+              "meaningVn": "ngăn chặn",
+              "example": "Washing your hands helps prevent infection.",
+              "exampleVn": "Rửa tay giúp ngăn ngừa nhiễm trùng.",
+              "mnemonicVn": "\"pre-\" (trước) + \"vent\" (đến) = đến trước một bước để chặn lại."
+            },
+            {
+              "id": "en-venvent-root-w4",
+              "headword": "advent",
+              "reading": "/ˈædvent/",
+              "meaningVn": "sự xuất hiện, sự khởi đầu (của cái mới)",
+              "example": "The advent of smartphones changed everything.",
+              "exampleVn": "Sự xuất hiện của điện thoại thông minh đã thay đổi tất cả.",
+              "mnemonicVn": "\"ad-\" (tới) + \"vent\" (đến) = thời điểm một thứ mới đến với thế giới."
+            },
+            {
+              "id": "en-venvent-root-w5",
+              "headword": "venue",
+              "reading": "/ˈvenjuː/",
+              "meaningVn": "địa điểm tổ chức (sự kiện)",
+              "example": "We still need to book a venue for the wedding.",
+              "exampleVn": "Chúng tôi vẫn cần đặt địa điểm cho đám cưới.",
+              "mnemonicVn": "\"ven\" (đến) = nơi mà mọi người ĐẾN để dự sự kiện."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "en-tendtenstent",
+      "language": "en",
+      "reading": "tend/tens/tent",
+      "note": "Gốc Latin \"tendere\" (căng dây cung). Hình ảnh SỢI DÂY CĂNG giải thích cả nghĩa vật lý (extend) lẫn nghĩa tinh thần (intense, attention — căng tâm trí về một hướng).",
+      "roots": [
+        {
+          "id": "en-tendtenstent-root",
+          "character": "tend/tens/tent",
+          "hanViet": "Latin \"tendere\" — căng ra, vươn tới",
+          "meaningVn": "căng, kéo căng, vươn",
+          "words": [
+            {
+              "id": "en-tendtenstent-root-w1",
+              "headword": "extend",
+              "reading": "/ɪkˈstend/",
+              "meaningVn": "kéo dài, mở rộng",
+              "example": "They decided to extend the deadline by a week.",
+              "exampleVn": "Họ quyết định gia hạn thêm một tuần.",
+              "mnemonicVn": "\"ex-\" (ra ngoài) + \"tend\" (căng) = căng/kéo dài ra phía ngoài."
+            },
+            {
+              "id": "en-tendtenstent-root-w2",
+              "headword": "intense",
+              "reading": "/ɪnˈtens/",
+              "meaningVn": "mãnh liệt, dữ dội",
+              "example": "She felt an intense pain in her shoulder.",
+              "exampleVn": "Cô ấy thấy một cơn đau dữ dội ở vai.",
+              "mnemonicVn": "\"in-\" (vào trong) + \"tens\" (căng) = căng hết mức bên trong → mãnh liệt."
+            },
+            {
+              "id": "en-tendtenstent-root-w3",
+              "headword": "contend",
+              "reading": "/kənˈtend/",
+              "meaningVn": "tranh đua; khẳng định",
+              "example": "Three teams are contending for the title.",
+              "exampleVn": "Ba đội đang tranh nhau chức vô địch.",
+              "mnemonicVn": "\"con-\" (cùng) + \"tend\" (căng sức) = cùng căng sức với nhau → ganh đua."
+            },
+            {
+              "id": "en-tendtenstent-root-w4",
+              "headword": "tentative",
+              "reading": "/ˈtentətɪv/",
+              "meaningVn": "tạm thời, còn dè dặt",
+              "example": "We have a tentative agreement, nothing final yet.",
+              "exampleVn": "Chúng tôi mới có thoả thuận tạm thời, chưa có gì chốt cả.",
+              "mnemonicVn": "\"tent\" (vươn thử ra) = mới vươn tay ra thử → chưa chắc chắn."
+            },
+            {
+              "id": "en-tendtenstent-root-w5",
+              "headword": "attention",
+              "reading": "/əˈtenʃn/",
+              "meaningVn": "sự chú ý",
+              "example": "The issue deserves more attention from the public.",
+              "exampleVn": "Vấn đề này đáng được công chúng chú ý hơn.",
+              "mnemonicVn": "\"at-\" (hướng tới) + \"tent\" (căng) = căng tâm trí hướng về một phía."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "en-sign",
+      "language": "en",
+      "reading": "sign",
+      "note": "Gốc Latin \"signum\" (dấu hiệu). Thú vị ở chỗ cùng một hành động \"đánh dấu\" lại ra những nghĩa rất khác nhau tuỳ tiền tố: giao việc (assign), chỉ định (designate), và cả… từ chức (resign).",
+      "roots": [
+        {
+          "id": "en-sign-root",
+          "character": "sign",
+          "hanViet": "Latin \"signum\" — dấu hiệu",
+          "meaningVn": "dấu hiệu, đánh dấu",
+          "words": [
+            {
+              "id": "en-sign-root-w1",
+              "headword": "designate",
+              "reading": "/ˈdezɪɡneɪt/",
+              "meaningVn": "chỉ định, chỉ rõ",
+              "example": "This area has been designated a nature reserve.",
+              "exampleVn": "Khu vực này đã được chỉ định là khu bảo tồn thiên nhiên.",
+              "mnemonicVn": "\"de-\" (rõ ra) + \"sign\" (đánh dấu) = đánh dấu ra thật rõ ràng."
+            },
+            {
+              "id": "en-sign-root-w2",
+              "headword": "resign",
+              "reading": "/rɪˈzaɪn/",
+              "meaningVn": "từ chức, xin nghỉ việc",
+              "example": "He resigned after only six months in the post.",
+              "exampleVn": "Ông ấy từ chức chỉ sau sáu tháng tại vị.",
+              "mnemonicVn": "\"re-\" (trả lại) + \"sign\" (ký) = ký trả lại chức vụ cho người ta."
+            },
+            {
+              "id": "en-sign-root-w3",
+              "headword": "assign",
+              "reading": "/əˈsaɪn/",
+              "meaningVn": "giao, phân công",
+              "example": "The teacher assigned us a difficult project.",
+              "exampleVn": "Giáo viên đã giao cho chúng tôi một dự án khó.",
+              "mnemonicVn": "\"as-\" (tới) + \"sign\" (đánh dấu) = đánh dấu phần việc này là của người đó."
+            },
+            {
+              "id": "en-sign-root-w4",
+              "headword": "significant",
+              "reading": "/sɪɡˈnɪfɪkənt/",
+              "meaningVn": "quan trọng, đáng kể",
+              "example": "There has been a significant improvement this year.",
+              "exampleVn": "Năm nay đã có một sự cải thiện đáng kể.",
+              "mnemonicVn": "\"sign\" (dấu hiệu) + \"fic\" (làm ra) = tạo ra dấu hiệu đủ lớn để phải để ý."
+            },
+            {
+              "id": "en-sign-root-w5",
+              "headword": "signature",
+              "reading": "/ˈsɪɡnətʃə/",
+              "meaningVn": "chữ ký",
+              "example": "Please put your signature at the bottom of the form.",
+              "exampleVn": "Xin ký tên vào cuối tờ đơn.",
+              "mnemonicVn": "\"sign\" (dấu hiệu) = dấu hiệu riêng không ai giống của mỗi người."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "en-quirquisquest",
+      "language": "en",
+      "reading": "quir/quis/quest",
+      "note": "Gốc Latin \"quaerere\" (tìm, hỏi). Chữ đổi dạng khá mạnh (quir / quis / quest) nên người học thường không nhận ra acquire, exquisite và conquest là họ hàng.",
+      "roots": [
+        {
+          "id": "en-quirquisquest-root",
+          "character": "quir/quis/quest",
+          "hanViet": "Latin \"quaerere\" — tìm, hỏi",
+          "meaningVn": "tìm kiếm, hỏi",
+          "words": [
+            {
+              "id": "en-quirquisquest-root-w1",
+              "headword": "acquire",
+              "reading": "/əˈkwaɪə/",
+              "meaningVn": "thu được, tiếp thu (kỹ năng, tài sản)",
+              "example": "Children acquire language remarkably fast.",
+              "exampleVn": "Trẻ em tiếp thu ngôn ngữ nhanh đến kinh ngạc.",
+              "mnemonicVn": "\"ac-\" (tới) + \"quir\" (tìm) = tìm tới cho bằng được → thu về."
+            },
+            {
+              "id": "en-quirquisquest-root-w2",
+              "headword": "inquire",
+              "reading": "/ɪnˈkwaɪə/",
+              "meaningVn": "hỏi thăm, tìm hiểu",
+              "example": "She called to inquire about the job opening.",
+              "exampleVn": "Cô ấy gọi điện hỏi thăm về vị trí tuyển dụng.",
+              "mnemonicVn": "\"in-\" (vào trong) + \"quir\" (hỏi) = hỏi sâu vào bên trong sự việc."
+            },
+            {
+              "id": "en-quirquisquest-root-w3",
+              "headword": "exquisite",
+              "reading": "/ɪkˈskwɪzɪt/",
+              "meaningVn": "tinh xảo, tuyệt mỹ",
+              "example": "She wore an exquisite silk dress.",
+              "exampleVn": "Cô ấy mặc một chiếc váy lụa tuyệt đẹp.",
+              "mnemonicVn": "\"ex-\" (ra) + \"quis\" (tìm tòi) = được tìm tòi chọn lọc kỹ ra → tinh xảo."
+            },
+            {
+              "id": "en-quirquisquest-root-w4",
+              "headword": "conquest",
+              "reading": "/ˈkɒŋkwest/",
+              "meaningVn": "cuộc chinh phục",
+              "example": "The conquest of the region took many years.",
+              "exampleVn": "Cuộc chinh phục vùng đất này mất nhiều năm.",
+              "mnemonicVn": "\"con-\" (trọn vẹn) + \"quest\" (tìm, giành) = giành lấy trọn vẹn."
+            },
+            {
+              "id": "en-quirquisquest-root-w5",
+              "headword": "requisite",
+              "reading": "/ˈrekwɪzɪt/",
+              "meaningVn": "cần thiết, thiết yếu",
+              "example": "She lacks the requisite experience for the role.",
+              "exampleVn": "Cô ấy thiếu kinh nghiệm cần thiết cho vị trí này.",
+              "mnemonicVn": "\"re-\" (lặp lại, nhấn) + \"quis\" (đòi hỏi) = thứ bị đòi hỏi phải có."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "en-sumsumpt",
+      "language": "en",
+      "reading": "sum/sumpt",
+      "note": "Gốc Latin \"sumere\" (lấy). Mọi từ đều là một kiểu \"lấy\": tự lấy về cho mình (assume), lấy hết (consume), lấy trước khi có bằng chứng (presume), cầm lại thứ đang bỏ dở (resume).",
+      "roots": [
+        {
+          "id": "en-sumsumpt-root",
+          "character": "sum/sumpt",
+          "hanViet": "Latin \"sumere\" — lấy, nhận lấy",
+          "meaningVn": "lấy, nhận lấy",
+          "words": [
+            {
+              "id": "en-sumsumpt-root-w1",
+              "headword": "assume",
+              "reading": "/əˈsjuːm/",
+              "meaningVn": "cho rằng, giả định; đảm nhận",
+              "example": "I assumed you already knew about the change.",
+              "exampleVn": "Tôi cứ cho là bạn đã biết về thay đổi đó rồi.",
+              "mnemonicVn": "\"as-\" (về phía mình) + \"sum\" (lấy) = tự lấy một ý nghĩ về làm của mình."
+            },
+            {
+              "id": "en-sumsumpt-root-w2",
+              "headword": "consume",
+              "reading": "/kənˈsjuːm/",
+              "meaningVn": "tiêu thụ, tiêu dùng",
+              "example": "This appliance consumes very little electricity.",
+              "exampleVn": "Thiết bị này tiêu thụ rất ít điện.",
+              "mnemonicVn": "\"con-\" (hoàn toàn) + \"sum\" (lấy) = lấy dùng cho hết sạch."
+            },
+            {
+              "id": "en-sumsumpt-root-w3",
+              "headword": "presume",
+              "reading": "/prɪˈzjuːm/",
+              "meaningVn": "cho là, đoán chừng",
+              "example": "I presume he is still living in Hanoi.",
+              "exampleVn": "Tôi đoán chừng anh ấy vẫn sống ở Hà Nội.",
+              "mnemonicVn": "\"pre-\" (trước) + \"sum\" (lấy) = lấy kết luận TRƯỚC khi có bằng chứng."
+            },
+            {
+              "id": "en-sumsumpt-root-w4",
+              "headword": "resume",
+              "reading": "/rɪˈzjuːm/",
+              "meaningVn": "tiếp tục lại (sau khi dừng)",
+              "example": "The match resumed after a short delay.",
+              "exampleVn": "Trận đấu tiếp tục lại sau một quãng gián đoạn ngắn.",
+              "mnemonicVn": "\"re-\" (lại) + \"sum\" (cầm lấy) = cầm lại thứ mình đã đặt xuống."
+            },
+            {
+              "id": "en-sumsumpt-root-w5",
+              "headword": "assumption",
+              "reading": "/əˈsʌmpʃn/",
+              "meaningVn": "giả định, điều cho là đúng",
+              "example": "The whole plan rests on one shaky assumption.",
+              "exampleVn": "Cả kế hoạch dựa trên một giả định không vững.",
+              "mnemonicVn": "\"sumpt\" là biến thể của \"sum\" khi thành danh từ → điều đã \"lấy\" làm tiền đề."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "en-nouncnunci",
+      "language": "en",
+      "reading": "nounc/nunci",
+      "note": "Gốc Latin \"nuntiare\" (báo tin). Cả họ đều là \"đưa tin ra\", chỉ khác HƯỚNG: ra với mọi người (announce), ra phía trước thành tiếng (pronounce), chống lại ai đó (denounce), rút lại (renounce).",
+      "roots": [
+        {
+          "id": "en-nouncnunci-root",
+          "character": "nounc/nunci",
+          "hanViet": "Latin \"nuntiare\" — báo tin, loan báo",
+          "meaningVn": "báo tin, loan báo",
+          "words": [
+            {
+              "id": "en-nouncnunci-root-w1",
+              "headword": "announce",
+              "reading": "/əˈnaʊns/",
+              "meaningVn": "thông báo",
+              "example": "They announced the results this morning.",
+              "exampleVn": "Họ đã công bố kết quả sáng nay.",
+              "mnemonicVn": "\"an-\" (tới) + \"nounc\" (báo tin) = đưa tin tới mọi người."
+            },
+            {
+              "id": "en-nouncnunci-root-w2",
+              "headword": "pronounce",
+              "reading": "/prəˈnaʊns/",
+              "meaningVn": "phát âm; tuyên bố",
+              "example": "I still cannot pronounce this word correctly.",
+              "exampleVn": "Tôi vẫn chưa phát âm đúng từ này.",
+              "mnemonicVn": "\"pro-\" (ra phía trước) + \"nounc\" (nói ra) = đẩy âm thanh ra phía trước."
+            },
+            {
+              "id": "en-nouncnunci-root-w3",
+              "headword": "denounce",
+              "reading": "/dɪˈnaʊns/",
+              "meaningVn": "tố cáo, lên án",
+              "example": "Several leaders denounced the attack.",
+              "exampleVn": "Nhiều nhà lãnh đạo đã lên án vụ tấn công.",
+              "mnemonicVn": "\"de-\" (chống lại) + \"nounc\" (báo) = báo tin CHỐNG LẠI ai đó."
+            },
+            {
+              "id": "en-nouncnunci-root-w4",
+              "headword": "renounce",
+              "reading": "/rɪˈnaʊns/",
+              "meaningVn": "từ bỏ, khước từ",
+              "example": "He renounced his claim to the throne.",
+              "exampleVn": "Ông ấy đã từ bỏ quyền kế vị ngai vàng.",
+              "mnemonicVn": "\"re-\" (ngược lại) + \"nounc\" (tuyên bố) = tuyên bố rút lại điều mình từng nhận."
+            },
+            {
+              "id": "en-nouncnunci-root-w5",
+              "headword": "enunciate",
+              "reading": "/ɪˈnʌnsieɪt/",
+              "meaningVn": "phát âm rõ từng tiếng; trình bày rõ",
+              "example": "Please enunciate clearly when you present.",
+              "exampleVn": "Hãy phát âm rõ ràng khi thuyết trình.",
+              "mnemonicVn": "\"e-\" (ra ngoài) + \"nunci\" (nói) = nói bật hẳn ra cho rõ."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "en-sentsens",
+      "language": "en",
+      "reading": "sent/sens",
+      "note": "Gốc Latin \"sentire\" (cảm thấy). Nhóm này đẹp ở chỗ tiền tố quyết định HƯỚNG của cảm xúc: cùng cảm (consent = đồng ý), cảm khác đi (dissent = bất đồng), cảm dội ngược (resent = oán giận).",
+      "roots": [
+        {
+          "id": "en-sentsens-root",
+          "character": "sent/sens",
+          "hanViet": "Latin \"sentire\" — cảm thấy",
+          "meaningVn": "cảm thấy, cảm nhận",
+          "words": [
+            {
+              "id": "en-sentsens-root-w1",
+              "headword": "consent",
+              "reading": "/kənˈsent/",
+              "meaningVn": "sự đồng ý, ưng thuận",
+              "example": "The patient gave written consent for the surgery.",
+              "exampleVn": "Bệnh nhân đã đồng ý bằng văn bản cho ca phẫu thuật.",
+              "mnemonicVn": "\"con-\" (cùng) + \"sent\" (cảm thấy) = cùng cảm thấy giống nhau → đồng ý."
+            },
+            {
+              "id": "en-sentsens-root-w2",
+              "headword": "dissent",
+              "reading": "/dɪˈsent/",
+              "meaningVn": "sự bất đồng quan điểm",
+              "example": "There was strong dissent within the party.",
+              "exampleVn": "Trong nội bộ đảng có sự bất đồng mạnh mẽ.",
+              "mnemonicVn": "\"dis-\" (tách ra) + \"sent\" (cảm thấy) = cảm thấy khác đi → bất đồng."
+            },
+            {
+              "id": "en-sentsens-root-w3",
+              "headword": "resent",
+              "reading": "/rɪˈzent/",
+              "meaningVn": "oán giận, bực bội",
+              "example": "She resented being treated like a child.",
+              "exampleVn": "Cô ấy bực bội vì bị đối xử như trẻ con.",
+              "mnemonicVn": "\"re-\" (dội ngược) + \"sent\" (cảm) = cảm giác dội ngược lại → oán giận."
+            },
+            {
+              "id": "en-sentsens-root-w4",
+              "headword": "sensation",
+              "reading": "/senˈseɪʃn/",
+              "meaningVn": "cảm giác; sự chấn động",
+              "example": "He felt a burning sensation in his throat.",
+              "exampleVn": "Anh ấy thấy cảm giác rát bỏng trong cổ họng.",
+              "mnemonicVn": "\"sens\" (cảm) + \"-ation\" = điều mà giác quan cảm nhận được."
+            },
+            {
+              "id": "en-sentsens-root-w5",
+              "headword": "sentiment",
+              "reading": "/ˈsentɪmənt/",
+              "meaningVn": "tình cảm, quan điểm",
+              "example": "Public sentiment has shifted against the policy.",
+              "exampleVn": "Quan điểm công chúng đã quay sang phản đối chính sách.",
+              "mnemonicVn": "\"sent\" (cảm) + \"-ment\" = cái mình cảm thấy trong lòng."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "en-ververi",
+      "language": "en",
+      "reading": "ver/veri",
+      "note": "Gốc Latin \"verus\" (thật). Nhóm này nối sang 2 gốc đã học: **verisimilitude** = \"veri\" (thật) + \"simil\" (giống) ghép gốc với gốc; còn **verdict** (\"ver\" thật + \"dict\" nói) đã được dạy ở nhóm gốc \"dict\" — tra chéo sang đó để thấy cùng một chữ \"ver\".",
+      "roots": [
+        {
+          "id": "en-ververi-root",
+          "character": "ver/veri",
+          "hanViet": "Latin \"verus\" — thật, đúng sự thật",
+          "meaningVn": "thật, chân thật",
+          "words": [
+            {
+              "id": "en-ververi-root-w1",
+              "headword": "verify",
+              "reading": "/ˈverɪfaɪ/",
+              "meaningVn": "xác minh, kiểm chứng",
+              "example": "We need to verify these figures before publishing.",
+              "exampleVn": "Chúng ta cần xác minh các số liệu này trước khi công bố.",
+              "mnemonicVn": "\"veri\" (thật) + \"-fy\" (làm cho) = làm cho rõ là đúng sự thật."
+            },
+            {
+              "id": "en-ververi-root-w2",
+              "headword": "veracity",
+              "reading": "/vəˈræsɪti/",
+              "meaningVn": "tính xác thực, sự chân thật",
+              "example": "Investigators questioned the veracity of his statement.",
+              "exampleVn": "Các điều tra viên nghi ngờ tính xác thực trong lời khai của ông ta.",
+              "mnemonicVn": "\"verac\" (thật) + \"-ity\" (tính chất) = tính chất đúng với sự thật."
+            },
+            {
+              "id": "en-ververi-root-w3",
+              "headword": "veritable",
+              "reading": "/ˈverɪtəbl/",
+              "meaningVn": "đích thực, thật sự là",
+              "example": "The garden was a veritable paradise.",
+              "exampleVn": "Khu vườn đúng là một thiên đường thực sự.",
+              "mnemonicVn": "\"verit\" (thật) + \"-able\" = đúng là thật chứ không phải nói quá."
+            },
+            {
+              "id": "en-ververi-root-w4",
+              "headword": "verisimilitude",
+              "reading": "/ˌverɪsɪˈmɪlɪtjuːd/",
+              "meaningVn": "vẻ chân thực (trong văn chương, nghệ thuật)",
+              "example": "The novel achieves remarkable verisimilitude.",
+              "exampleVn": "Cuốn tiểu thuyết đạt được vẻ chân thực đáng nể.",
+              "mnemonicVn": "\"veri\" (thật) + \"simil\" (giống — gốc đã học) = giống y như thật."
+            },
+            {
+              "id": "en-ververi-root-w5",
+              "headword": "aver",
+              "reading": "/əˈvɜː/",
+              "meaningVn": "khẳng định chắc chắn (trang trọng)",
+              "example": "He averred that he had never met the man.",
+              "exampleVn": "Ông ta khẳng định chưa từng gặp người đàn ông đó.",
+              "mnemonicVn": "\"a-\" (hướng tới) + \"ver\" (thật) = nói ra như một sự thật."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "en-tangtactting",
+      "language": "en",
+      "reading": "tang/tact/ting",
+      "note": "Gốc Latin \"tangere\" (chạm). Chữ biến dạng nhiều (tang / tact / ting) nên intact và contingent trông chẳng liên quan gì tới contact, nhưng cả ba đều là \"chạm\".",
+      "roots": [
+        {
+          "id": "en-tangtactting-root",
+          "character": "tang/tact/ting",
+          "hanViet": "Latin \"tangere\" — chạm, sờ",
+          "meaningVn": "chạm, tiếp xúc",
+          "words": [
+            {
+              "id": "en-tangtactting-root-w1",
+              "headword": "contact",
+              "reading": "/ˈkɒntækt/",
+              "meaningVn": "sự tiếp xúc, liên lạc",
+              "example": "Please contact us if you have any questions.",
+              "exampleVn": "Xin liên hệ với chúng tôi nếu bạn có thắc mắc.",
+              "mnemonicVn": "\"con-\" (cùng) + \"tact\" (chạm) = cùng chạm vào nhau → tiếp xúc."
+            },
+            {
+              "id": "en-tangtactting-root-w2",
+              "headword": "tangible",
+              "reading": "/ˈtændʒəbl/",
+              "meaningVn": "hữu hình, sờ thấy được; cụ thể",
+              "example": "We need tangible results, not promises.",
+              "exampleVn": "Chúng tôi cần kết quả cụ thể, không phải lời hứa.",
+              "mnemonicVn": "\"tang\" (chạm) + \"-ible\" (có thể) = có thể chạm vào được."
+            },
+            {
+              "id": "en-tangtactting-root-w3",
+              "headword": "intact",
+              "reading": "/ɪnˈtækt/",
+              "meaningVn": "nguyên vẹn, còn nguyên",
+              "example": "The package arrived completely intact.",
+              "exampleVn": "Kiện hàng đến nơi hoàn toàn nguyên vẹn.",
+              "mnemonicVn": "\"in-\" (không) + \"tact\" (chạm) = chưa ai chạm tới → còn nguyên."
+            },
+            {
+              "id": "en-tangtactting-root-w4",
+              "headword": "contingent",
+              "reading": "/kənˈtɪndʒənt/",
+              "meaningVn": "tuỳ thuộc vào, phụ thuộc điều kiện",
+              "example": "The deal is contingent on board approval.",
+              "exampleVn": "Thoả thuận này phụ thuộc vào việc hội đồng phê duyệt.",
+              "mnemonicVn": "\"con-\" (cùng) + \"ting\" (chạm) = dính/chạm vào một điều kiện khác mới thành."
+            },
+            {
+              "id": "en-tangtactting-root-w5",
+              "headword": "tactile",
+              "reading": "/ˈtæktaɪl/",
+              "meaningVn": "thuộc về xúc giác",
+              "example": "Babies learn through tactile exploration.",
+              "exampleVn": "Trẻ sơ sinh học thông qua việc sờ chạm khám phá.",
+              "mnemonicVn": "\"tact\" (chạm) + \"-ile\" = thuộc về việc chạm → xúc giác."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "en-audaudit",
+      "language": "en",
+      "reading": "aud/audit",
+      "note": "Gốc Latin \"audire\" (nghe). Bất ngờ nhất là **audit** (kiểm toán): ngày xưa sổ sách được ĐỌC TO LÊN cho người kiểm tra NGHE, nên \"nghe\" mới thành \"kiểm toán\".",
+      "roots": [
+        {
+          "id": "en-audaudit-root",
+          "character": "aud/audit",
+          "hanViet": "Latin \"audire\" — nghe",
+          "meaningVn": "nghe",
+          "words": [
+            {
+              "id": "en-audaudit-root-w1",
+              "headword": "audible",
+              "reading": "/ˈɔːdəbl/",
+              "meaningVn": "nghe được, đủ to để nghe thấy",
+              "example": "Her voice was barely audible over the noise.",
+              "exampleVn": "Giọng cô ấy gần như không nghe nổi giữa tiếng ồn.",
+              "mnemonicVn": "\"aud\" (nghe) + \"-ible\" (có thể) = có thể nghe thấy được."
+            },
+            {
+              "id": "en-audaudit-root-w2",
+              "headword": "audience",
+              "reading": "/ˈɔːdiəns/",
+              "meaningVn": "khán giả, thính giả",
+              "example": "The audience applauded for several minutes.",
+              "exampleVn": "Khán giả vỗ tay suốt mấy phút liền.",
+              "mnemonicVn": "\"aud\" (nghe) = tập hợp những người đến để NGHE."
+            },
+            {
+              "id": "en-audaudit-root-w3",
+              "headword": "audition",
+              "reading": "/ɔːˈdɪʃn/",
+              "meaningVn": "buổi thử vai, thử giọng",
+              "example": "She has an audition for the lead role tomorrow.",
+              "exampleVn": "Ngày mai cô ấy có buổi thử vai chính.",
+              "mnemonicVn": "\"audit\" (nghe) + \"-ion\" = buổi để người ta nghe thử mình."
+            },
+            {
+              "id": "en-audaudit-root-w4",
+              "headword": "auditorium",
+              "reading": "/ˌɔːdɪˈtɔːriəm/",
+              "meaningVn": "khán phòng, giảng đường lớn",
+              "example": "The auditorium seats over a thousand people.",
+              "exampleVn": "Khán phòng có hơn một nghìn chỗ ngồi.",
+              "mnemonicVn": "\"audit\" (nghe) + \"-orium\" (nơi chốn) = nơi để nghe."
+            },
+            {
+              "id": "en-audaudit-root-w5",
+              "headword": "audit",
+              "reading": "/ˈɔːdɪt/",
+              "meaningVn": "kiểm toán, kiểm tra sổ sách",
+              "example": "The company is being audited by an external firm.",
+              "exampleVn": "Công ty đang được một đơn vị bên ngoài kiểm toán.",
+              "mnemonicVn": "Gốc \"nghe\": xưa kia sổ sách được đọc TO cho người kiểm tra NGHE → thành \"kiểm toán\"."
+            }
+          ]
+        }
+      ]
     }
   ]
 }
