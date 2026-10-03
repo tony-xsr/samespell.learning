@@ -16,10 +16,10 @@ export default async function ShapesHome() {
         <div className="mt-3 rounded-3xl bg-gradient-to-br from-accent-500 to-brand-600 p-6 text-white shadow-lg">
           <h1 className="text-2xl font-bold tracking-tight sm:text-3xl">Nhóm hình chữ / Từ dễ nhầm</h1>
           <p className="mt-2 text-sm text-white/90">
-            Trục nhầm lẫn theo VIẾT/CHÍNH TẢ gần giống nhau, khác nghĩa hoàn toàn — với zh/ja là{" "}
-            <span className="font-semibold">形近字</span> (hình cận tự, chữ Hán/Kanji khác nhau một nét
-            nhỏ), với tiếng Anh là các cặp từ suýt giống chính tả (vd desert/dessert, affect/effect).
-            Khác với nhóm âm (đọc giống nhau) ở phần chính của app.
+            Trục nhầm lẫn theo VIẾT/CHÍNH TẢ gần giống nhau, khác nghĩa hoàn toàn — với zh/ja/ko là{" "}
+            <span className="font-semibold">形近字</span> (hình cận tự, chữ Hán/Kanji/Hán-Hàn khác nhau
+            một nét nhỏ), với tiếng Anh là các cặp từ suýt giống chính tả (vd desert/dessert,
+            affect/effect). Khác với nhóm âm (đọc giống nhau) ở phần chính của app.
           </p>
         </div>
 
