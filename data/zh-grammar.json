@@ -1,0 +1,2818 @@
+{
+  "language": "zh",
+  "label": "Ngữ pháp tiếng Trung",
+  "categories": [
+    {
+      "id": "aspect-particles",
+      "titleVn": "动态助词 (Trợ từ thể: 了 / 着 / 过)",
+      "points": [
+        {
+          "id": "zh-asp-le1",
+          "pattern": "了₁ (V + 了)",
+          "formationRule": "Động từ + 了, đặt NGAY SAU động từ. Thường đi kèm tân ngữ có số lượng/định ngữ (吃了三个包子), nếu tân ngữ trống trơn thì câu hay bị \"lửng\".",
+          "meaningVn": "Trợ từ thể HOÀN THÀNH — hành động đã trọn vẹn, đã xong",
+          "nuanceVn": "了₁ đánh dấu hành động HOÀN TẤT, KHÔNG phải \"thì quá khứ\". Vì vậy nó vẫn dùng được trong câu tương lai (明天下了课… = mai tan học xong…). Ngược lại, chuyện quá khứ mang tính THÓI QUEN LẶP LẠI thì KHÔNG dùng 了 (以前我常常去 — không thêm 了).",
+          "level": "so-cap",
+          "register": "trung tính (HSK 1-2)",
+          "confusionGroupId": "le1-vs-le2",
+          "timeAxis": {
+            "time": "qua-khu-gan",
+            "aspect": "hoan-thanh"
+          },
+          "examples": [
+            {
+              "sentence": "我吃了三个包子。",
+              "translationVn": "Tôi đã ăn ba cái bánh bao.",
+              "note": "了 đứng ngay sau 吃, tân ngữ có SỐ LƯỢNG (三个) — điều kiện điển hình của 了₁."
+            },
+            {
+              "sentence": "明天下了课我们就去看电影。",
+              "translationVn": "Ngày mai tan học xong là chúng ta đi xem phim.",
+              "note": "Câu TƯƠNG LAI vẫn dùng 了 — bằng chứng 了 là \"hoàn thành\", không phải \"quá khứ\"."
+            },
+            {
+              "sentence": "他买了一本很厚的书。",
+              "translationVn": "Anh ấy đã mua một cuốn sách rất dày."
+            }
+          ],
+          "commonMistakeVn": "Coi 了 như \"dấu hiệu thì quá khứ\" rồi nhét vào mọi câu quá khứ. Câu thói quen trong quá khứ (小时候我每天游泳) tuyệt đối KHÔNG thêm 了.",
+          "mnemonicVn": "了₁ dính SÁT động từ = \"làm xong việc đó rồi\"; 了₂ nằm CUỐI câu = \"tình hình đã đổi khác rồi\"."
+        },
+        {
+          "id": "zh-asp-le2",
+          "pattern": "了₂ (… 了 cuối câu)",
+          "formationRule": "Đặt 了 ở CUỐI câu, sau cả tân ngữ. Dùng được cả với tính từ và danh từ (他二十岁了), không chỉ với động từ.",
+          "meaningVn": "Trợ từ ngữ khí — đánh dấu THAY ĐỔI trạng thái, \"…rồi\"",
+          "nuanceVn": "了₂ không nói việc gì xong, mà nói TÌNH HÌNH ĐÃ KHÁC TRƯỚC: trước không mưa → giờ mưa (下雨了). Chính vì vậy 了₂ ghép được với tính từ/danh từ — thứ mà 了₁ (hoàn thành hành động) không làm được.",
+          "level": "so-cap",
+          "register": "trung tính (HSK 1-2)",
+          "confusionGroupId": "le1-vs-le2",
+          "examples": [
+            {
+              "sentence": "下雨了。",
+              "translationVn": "Trời mưa rồi.",
+              "note": "Trước đó KHÔNG mưa, bây giờ mưa — thuần tuý là sự thay đổi, không có \"hành động hoàn tất\" nào."
+            },
+            {
+              "sentence": "他二十岁了。",
+              "translationVn": "Cậu ấy hai mươi tuổi rồi.",
+              "note": "Ghép với cụm danh từ tuổi tác — 了₁ không bao giờ làm được điều này."
+            },
+            {
+              "sentence": "我不想去了。",
+              "translationVn": "Tôi không muốn đi nữa rồi.",
+              "note": "Thay đổi ý định: trước muốn đi → giờ không."
+            }
+          ],
+          "commonMistakeVn": "Dùng 了₂ cho việc vẫn đang đúng như cũ (不变). 了₂ luôn hàm ý \"khác với trước đây\".",
+          "mnemonicVn": "Cuối câu có 了 = \"…rồi đấy nhé\" — báo cho người nghe biết TÌNH HÌNH MỚI."
+        },
+        {
+          "id": "zh-asp-guo",
+          "pattern": "过 (guò)",
+          "formationRule": "Động từ + 过. Phủ định dùng 没(有) + V + 过 (chứ KHÔNG bỏ 过).",
+          "meaningVn": "Trợ từ thể KINH NGHIỆM — \"đã từng\"",
+          "nuanceVn": "过 nói về KINH NGHIỆM đã có trong đời, không quan tâm lúc nào, và hàm ý việc đó nay đã kết thúc. Khác 了 (chỉ nói việc đó hoàn tất, thường gắn với một lần cụ thể): 我去了北京 = tôi đã đi Bắc Kinh (chuyến đi cụ thể, có thể còn đang ở đó); 我去过北京 = tôi từng đến Bắc Kinh (đã về rồi).",
+          "level": "so-cap",
+          "register": "trung tính (HSK 2)",
+          "confusionGroupId": "le-vs-guo",
+          "timeAxis": {
+            "time": "qua-khu-xa",
+            "aspect": "kinh-nghiem"
+          },
+          "examples": [
+            {
+              "sentence": "我去过北京三次。",
+              "translationVn": "Tôi từng đến Bắc Kinh ba lần.",
+              "note": "Kinh nghiệm tích luỹ trong đời, đã về rồi."
+            },
+            {
+              "sentence": "你吃过榴莲吗？",
+              "translationVn": "Bạn đã từng ăn sầu riêng chưa?",
+              "note": "Câu hỏi kinh nghiệm điển hình — không hỏi \"lúc nào\"."
+            },
+            {
+              "sentence": "我没看过这部电影。",
+              "translationVn": "Tôi chưa từng xem bộ phim này.",
+              "note": "Phủ định giữ nguyên 过, chỉ thêm 没."
+            }
+          ],
+          "commonMistakeVn": "Phủ định bằng 不 (不去过 ✗). Kinh nghiệm quá khứ luôn phủ định bằng 没(有), và 过 vẫn phải giữ.",
+          "mnemonicVn": "过 = \"đi qua rồi\" — dấu chân trong quá khứ, nay đã bước qua."
+        },
+        {
+          "id": "zh-asp-zhe",
+          "pattern": "着 (zhe)",
+          "formationRule": "Động từ + 着. Hay dùng trong câu tồn tại (墙上挂着一幅画) và câu \"vừa…vừa…\" (V₁着 + V₂).",
+          "meaningVn": "Trợ từ thể — TRẠNG THÁI kéo dài sau hành động",
+          "nuanceVn": "着 tả TRẠNG THÁI TĨNH còn đọng lại (门开着 = cửa đang ở trạng thái mở), KHÔNG tả hành động đang diễn ra. Còn 正在 tả HÀNH ĐỘNG đang chạy. So sánh: 他穿着一件红衣服 (đang mặc sẵn — trạng thái) vs 他正在穿衣服 (đang mặc vào — động tác).",
+          "level": "so-cap",
+          "register": "trung tính (HSK 2-3)",
+          "confusionGroupId": "zhe-vs-zhengzai",
+          "timeAxis": {
+            "time": "hien-tai",
+            "aspect": "tiep-dien"
+          },
+          "examples": [
+            {
+              "sentence": "门开着。",
+              "translationVn": "Cửa đang mở.",
+              "note": "Trạng thái tĩnh — không ai đang thực hiện động tác mở."
+            },
+            {
+              "sentence": "他笑着说：\"没关系。\"",
+              "translationVn": "Anh ấy vừa cười vừa nói: \"Không sao đâu.\"",
+              "note": "V₁着 + V₂ = làm V₂ trong tư thế/trạng thái V₁."
+            },
+            {
+              "sentence": "墙上挂着一幅画。",
+              "translationVn": "Trên tường treo một bức tranh.",
+              "note": "Câu tồn tại: nơi chốn + V着 + vật."
+            }
+          ],
+          "commonMistakeVn": "Dùng 着 để nói \"đang làm gì\" (我着吃饭 ✗). Hành động đang tiến hành phải là 正在/在 + V.",
+          "mnemonicVn": "着 = \"đang ở nguyên tư thế đó\" — bức ảnh chụp lại một trạng thái đứng yên."
+        },
+        {
+          "id": "zh-asp-zhengzai",
+          "pattern": "正在 / 在 / …呢",
+          "formationRule": "(正)在 + Động từ (+ 呢). Ba cách dùng linh hoạt: 正在V, 在V, V呢, hoặc gộp 正在V呢.",
+          "meaningVn": "Hành động ĐANG TIẾN HÀNH",
+          "nuanceVn": "Nhấn mạnh động tác đang chạy ngay lúc nói. 正在 nhấn mạnh nhất, 在 trung tính, 呢 mang màu khẩu ngữ nhẹ nhàng. Khác 着 (trạng thái tĩnh còn đọng lại) — đây là ranh giới hay nhầm nhất của thể tiếp diễn tiếng Trung.",
+          "level": "so-cap",
+          "register": "trung tính → khẩu ngữ (HSK 2)",
+          "confusionGroupId": "zhe-vs-zhengzai",
+          "timeAxis": {
+            "time": "hien-tai",
+            "aspect": "tiep-dien"
+          },
+          "examples": [
+            {
+              "sentence": "我正在吃饭呢。",
+              "translationVn": "Tôi đang ăn cơm đây.",
+              "note": "Động tác đang chạy ngay lúc nói."
+            },
+            {
+              "sentence": "他在打电话。",
+              "translationVn": "Anh ấy đang gọi điện thoại."
+            },
+            {
+              "sentence": "你干什么呢？",
+              "translationVn": "Bạn đang làm gì đấy?",
+              "note": "Chỉ dùng 呢 cuối câu cũng đủ diễn đạt \"đang\"."
+            }
+          ],
+          "commonMistakeVn": "Ghép 正在 với động từ trạng thái không kéo dài được (正在知道 ✗, 正在是 ✗).",
+          "mnemonicVn": "正在 = \"camera đang quay\" cảnh hành động; 着 = \"ảnh chụp\" một trạng thái đứng im."
+        },
+        {
+          "id": "zh-asp-yaole",
+          "pattern": "要…了 / 快要…了 / 就要…了",
+          "formationRule": "(快)要 / 就要 + V/Adj + 了. Lưu ý: 就要…了 dùng được với thời gian cụ thể (明天就要走了), còn 快要…了 thì KHÔNG (明天快要走了 ✗).",
+          "meaningVn": "SẮP xảy ra",
+          "nuanceVn": "Đánh dấu sự việc sắp tới rất gần. 就要 hàm ý gấp gáp hơn 快要 và cho phép đứng cùng trạng ngữ thời gian cụ thể — đây là điểm phân biệt duy nhất nhưng hay bị bỏ qua.",
+          "level": "so-cap",
+          "register": "trung tính (HSK 2-3)",
+          "timeAxis": {
+            "time": "tuong-lai-gan",
+            "aspect": "du-dinh"
+          },
+          "examples": [
+            {
+              "sentence": "火车要开了，快上车！",
+              "translationVn": "Tàu sắp chạy rồi, mau lên tàu đi!"
+            },
+            {
+              "sentence": "他明天就要回国了。",
+              "translationVn": "Ngày mai anh ấy sắp về nước rồi.",
+              "note": "Có trạng ngữ thời gian cụ thể 明天 → bắt buộc dùng 就要, không dùng 快要."
+            },
+            {
+              "sentence": "天快要黑了。",
+              "translationVn": "Trời sắp tối rồi.",
+              "note": "Ghép với tính từ 黑 — cấu trúc này không đòi hỏi động từ."
+            }
+          ],
+          "commonMistakeVn": "Nói 明天快要…了. Khi đã nêu mốc thời gian cụ thể thì phải đổi sang 就要…了.",
+          "mnemonicVn": "快要 = \"sắp rồi đấy\" (chung chung); 就要 = \"đúng lúc đó là xong\" (có hẹn giờ)."
+        },
+        {
+          "id": "zh-asp-bu-vs-mei",
+          "pattern": "不 vs 没(有)",
+          "formationRule": "不 + V/Adj (ý chí, thói quen, tương lai, thuộc tính). 没(有) + V (việc đã/chưa xảy ra trên thực tế). Riêng 有 luôn phủ định bằng 没有, không bao giờ 不有.",
+          "meaningVn": "Hai kiểu phủ định — ý chí/thói quen vs sự việc thực tế",
+          "nuanceVn": "不 phủ định Ý MUỐN, THÓI QUEN hoặc THUỘC TÍNH (我不喝酒 = tôi không uống rượu — nguyên tắc sống). 没 phủ định VIỆC ĐÃ XẢY RA (我没喝酒 = tôi đã không uống / chưa uống — sự thật khách quan hôm đó). Cùng một câu, đổi 不↔没 là đổi hẳn nghĩa chứ không chỉ đổi thì.",
+          "level": "so-cap",
+          "register": "trung tính (HSK 1-2)",
+          "confusionGroupId": "bu-vs-mei",
+          "examples": [
+            {
+              "sentence": "我不吃肉。",
+              "translationVn": "Tôi không ăn thịt.",
+              "note": "Nguyên tắc/thói quen lâu dài — có thể là người ăn chay."
+            },
+            {
+              "sentence": "我没吃肉。",
+              "translationVn": "Tôi đã không ăn thịt (bữa đó).",
+              "note": "Sự thật khách quan về một lần cụ thể — không nói gì về thói quen."
+            },
+            {
+              "sentence": "昨天我没去上班。",
+              "translationVn": "Hôm qua tôi đã không đi làm.",
+              "note": "Việc đã rồi → bắt buộc 没."
+            }
+          ],
+          "commonMistakeVn": "Dùng 不 cho chuyện quá khứ đã rồi (昨天我不去 ✗ → 昨天我没去). Và không bao giờ viết 不有.",
+          "mnemonicVn": "不 = \"tôi không chịu / vốn không thế\"; 没 = \"thực tế đã không xảy ra\"."
+        }
+      ]
+    },
+    {
+      "id": "de-trio",
+      "titleVn": "的 / 地 / 得 (Bộ ba \"de\" kinh điển)",
+      "points": [
+        {
+          "id": "zh-de-de",
+          "pattern": "的 (de) — định ngữ",
+          "formationRule": "Định ngữ + 的 + DANH TỪ. Bỏ được 的 khi quan hệ rất gắn bó (我妈妈, 中国人) hoặc tính từ 1 âm tiết (好人).",
+          "meaningVn": "Nối định ngữ với danh từ — \"…của…\", \"…mà…\"",
+          "nuanceVn": "Sau 的 luôn là DANH TỪ. Đây là mốc nhận dạng nhanh nhất trong bộ ba: nhìn từ đứng SAU chữ \"de\" là biết phải viết chữ nào.",
+          "level": "so-cap",
+          "register": "trung tính (HSK 1)",
+          "confusionGroupId": "de-di-de",
+          "examples": [
+            {
+              "sentence": "这是我的书。",
+              "translationVn": "Đây là sách của tôi."
+            },
+            {
+              "sentence": "他是一个很努力的学生。",
+              "translationVn": "Cậu ấy là một học sinh rất chăm chỉ.",
+              "note": "Cả cụm 很努力 làm định ngữ, nối bằng 的 vào danh từ 学生."
+            },
+            {
+              "sentence": "我妈妈做的菜很好吃。",
+              "translationVn": "Món mẹ tôi nấu rất ngon.",
+              "note": "的 biến cả mệnh đề 我妈妈做 thành định ngữ cho 菜."
+            }
+          ],
+          "commonMistakeVn": "Viết 地 hoặc 得 trước danh từ. Cứ thấy sau đó là danh từ thì phải là 的.",
+          "mnemonicVn": "的 có bộ 白 — \"trắng ra giấy\", đi với ĐỒ VẬT/NGƯỜI (danh từ)."
+        },
+        {
+          "id": "zh-de-di",
+          "pattern": "地 (de) — trạng ngữ",
+          "formationRule": "Tính từ/cụm + 地 + ĐỘNG TỪ. Tính từ hai âm tiết hầu như bắt buộc có 地 (认真地学习).",
+          "meaningVn": "Nối trạng ngữ với động từ — \"một cách…\"",
+          "nuanceVn": "Sau 地 luôn là ĐỘNG TỪ, và 地 đứng TRƯỚC động từ. Đây là điểm khác 得 (cũng liên quan động từ nhưng đứng SAU động từ).",
+          "level": "so-cap",
+          "register": "trung tính (HSK 3)",
+          "confusionGroupId": "de-di-de",
+          "examples": [
+            {
+              "sentence": "他认真地听老师讲课。",
+              "translationVn": "Cậu ấy chăm chú nghe thầy giảng bài.",
+              "note": "地 đứng TRƯỚC động từ 听 — mô tả cách thức làm việc đó."
+            },
+            {
+              "sentence": "她慢慢地走过来。",
+              "translationVn": "Cô ấy chậm rãi đi tới."
+            },
+            {
+              "sentence": "孩子们高兴地笑了。",
+              "translationVn": "Bọn trẻ vui vẻ cười lên."
+            }
+          ],
+          "commonMistakeVn": "Đặt 地 sau động từ (走地快 ✗). Sau động từ phải là 得.",
+          "mnemonicVn": "地 có bộ 土 (đất) — \"đặt nền trước rồi mới hành động\": 地 ở TRƯỚC động từ."
+        },
+        {
+          "id": "zh-de-dei-complement",
+          "pattern": "得 (de) — bổ ngữ",
+          "formationRule": "ĐỘNG TỪ + 得 + bổ ngữ (thường là tính từ/cụm mức độ). Nếu có tân ngữ phải lặp động từ: 他说汉语说得很好.",
+          "meaningVn": "Nối động từ với bổ ngữ mức độ — \"làm … đến mức …\"",
+          "nuanceVn": "得 đứng SAU động từ, đánh giá KẾT QUẢ/MỨC ĐỘ của hành động đó. Mẹo nhanh cho cả bộ ba: 的+danh từ, 地+động từ (trước), động từ+得 (sau).",
+          "level": "so-cap",
+          "register": "trung tính (HSK 2-3)",
+          "confusionGroupId": "de-di-de",
+          "examples": [
+            {
+              "sentence": "他跑得很快。",
+              "translationVn": "Cậu ấy chạy rất nhanh.",
+              "note": "得 ở SAU động từ 跑, đánh giá mức độ."
+            },
+            {
+              "sentence": "他说汉语说得很流利。",
+              "translationVn": "Cậu ấy nói tiếng Trung rất trôi chảy.",
+              "note": "Có tân ngữ 汉语 → phải LẶP LẠI động từ 说 rồi mới dùng 得."
+            },
+            {
+              "sentence": "你今天来得太早了。",
+              "translationVn": "Hôm nay bạn đến sớm quá."
+            }
+          ],
+          "commonMistakeVn": "Quên lặp động từ khi có tân ngữ: 他说汉语得很好 ✗ → 他说汉语说得很好.",
+          "mnemonicVn": "得 có bộ 彳 (bước đi) — \"đi xong rồi mới chấm điểm\": 得 nằm SAU động từ."
+        },
+        {
+          "id": "zh-de-shide",
+          "pattern": "是…的",
+          "formationRule": "Chủ ngữ + 是 + (thời gian/nơi chốn/cách thức) + Động từ + 的. Có thể lược 是 trong câu khẳng định, nhưng 的 thì không bỏ được.",
+          "meaningVn": "Nhấn mạnh THỜI GIAN / NƠI CHỐN / CÁCH THỨC của việc đã xảy ra",
+          "nuanceVn": "Cả hai bên đều đã biết \"việc đó đã xảy ra\"; câu này chỉ làm rõ xảy ra KHI NÀO / Ở ĐÂU / BẰNG CÁCH NÀO. Đây là lý do 是…的 kỵ dùng chung với 了 — 了 đưa tin mới, còn 是…的 bàn về chi tiết của tin cũ.",
+          "level": "trung-cap",
+          "register": "trung tính (HSK 3)",
+          "examples": [
+            {
+              "sentence": "我是昨天来的。",
+              "translationVn": "Tôi đến hôm qua đấy.",
+              "note": "Người nghe đã biết \"tôi đã đến\", câu này chỉ làm rõ MỐC THỜI GIAN."
+            },
+            {
+              "sentence": "你是怎么来的？",
+              "translationVn": "Bạn đến bằng cách nào?",
+              "note": "Hỏi về phương tiện/cách thức của việc đã xảy ra."
+            },
+            {
+              "sentence": "这本书是在北京买的。",
+              "translationVn": "Cuốn sách này mua ở Bắc Kinh."
+            }
+          ],
+          "commonMistakeVn": "Trộn 是…的 với 了 (我是昨天来了的 ✗). Hai cấu trúc này loại trừ nhau.",
+          "mnemonicVn": "是…的 = \"chính là … đấy\" — ngón tay chỉ thẳng vào chi tiết cần nhấn."
+        },
+        {
+          "id": "zh-de-nominal",
+          "pattern": "…的 (danh từ hoá)",
+          "formationRule": "Tính từ / động từ / cụm + 的, ĐỂ TRỐNG danh từ phía sau khi ngữ cảnh đã rõ.",
+          "meaningVn": "Biến cụm thành danh từ — \"cái mà…\", \"người mà…\"",
+          "nuanceVn": "Chính là 的 định ngữ nhưng lược bỏ danh từ trung tâm vì ai cũng hiểu. 红的 = cái màu đỏ, 卖菜的 = người bán rau. Rất thông dụng trong khẩu ngữ, tránh lặp từ.",
+          "level": "trung-cap",
+          "register": "khẩu ngữ (HSK 3)",
+          "examples": [
+            {
+              "sentence": "我要红的，不要蓝的。",
+              "translationVn": "Tôi lấy cái màu đỏ, không lấy cái màu xanh.",
+              "note": "Lược danh từ vì cả hai đều biết đang nói về vật gì."
+            },
+            {
+              "sentence": "吃的、喝的都准备好了。",
+              "translationVn": "Đồ ăn, đồ uống đều chuẩn bị xong rồi."
+            },
+            {
+              "sentence": "那个卖菜的是我邻居。",
+              "translationVn": "Người bán rau đó là hàng xóm của tôi."
+            }
+          ],
+          "mnemonicVn": "的 đứng chơ vơ cuối cụm = \"cái/người … ấy\" — danh từ đã bị giấu đi cho gọn."
+        }
+      ]
+    },
+    {
+      "id": "prepositions",
+      "titleVn": "介词 (Giới từ: 把 / 被 / 给 / 对 / 跟 / 从 / 离 / 在)",
+      "points": [
+        {
+          "id": "zh-prep-ba",
+          "pattern": "把 (bǎ)",
+          "formationRule": "Chủ ngữ + 把 + TÂN NGỮ XÁC ĐỊNH + Động từ + thành phần khác (了/补语/重复…). Động từ KHÔNG được đứng trơ trọi một mình.",
+          "meaningVn": "Câu chữ 把 — đem/lấy cái gì đó XỬ LÝ thế nào",
+          "nuanceVn": "Nhấn mạnh sự XỬ TRÍ và KẾT QUẢ tác động lên tân ngữ. Hai điều kiện bắt buộc: (1) tân ngữ phải XÁC ĐỊNH (người nghe biết là cái nào), (2) sau động từ phải có thành phần chỉ kết quả — đây là lỗi sai số một của người học.",
+          "level": "trung-cap",
+          "register": "trung tính (HSK 3)",
+          "confusionGroupId": "ba-vs-bei",
+          "examples": [
+            {
+              "sentence": "请把门关上。",
+              "translationVn": "Làm ơn đóng cửa lại.",
+              "note": "关上 có 上 chỉ kết quả — không thể nói 请把门关 ✗."
+            },
+            {
+              "sentence": "我把作业做完了。",
+              "translationVn": "Tôi đã làm xong bài tập rồi.",
+              "note": "做完了 — vừa có bổ ngữ kết quả 完 vừa có 了."
+            },
+            {
+              "sentence": "他把杯子打破了。",
+              "translationVn": "Anh ấy làm vỡ cái cốc rồi."
+            }
+          ],
+          "commonMistakeVn": "Để động từ trơ trọi sau 把 (我把书看 ✗ → 我把书看完了). Và dùng 把 với tân ngữ chung chung (我把一本书看完了 ✗ — phải là 这本书).",
+          "mnemonicVn": "把 = \"cầm lấy … rồi làm cho nó ra sao\" — luôn phải nói rõ \"ra sao\"."
+        },
+        {
+          "id": "zh-prep-bei",
+          "pattern": "被 (bèi)",
+          "formationRule": "Đối tượng chịu tác động + 被 + (chủ thể) + Động từ + thành phần khác. Chủ thể có thể lược bỏ: 钱被偷了.",
+          "meaningVn": "Câu bị động — \"bị / được …\"",
+          "nuanceVn": "被 vốn mang sắc thái KHÔNG MAY (bị mất, bị hỏng), tuy tiếng Trung hiện đại đã dùng trung tính hơn. Cùng một sự việc: 我把杯子打破了 (tôi làm vỡ — nhìn từ người gây ra) ↔ 杯子被我打破了 (cốc bị tôi làm vỡ — nhìn từ vật chịu đựng).",
+          "level": "trung-cap",
+          "register": "trung tính (HSK 3-4)",
+          "confusionGroupId": "ba-vs-bei",
+          "examples": [
+            {
+              "sentence": "我的自行车被偷了。",
+              "translationVn": "Xe đạp của tôi bị trộm mất rồi.",
+              "note": "Lược chủ thể vì không biết ai trộm — rất thường gặp."
+            },
+            {
+              "sentence": "杯子被他打破了。",
+              "translationVn": "Cái cốc bị anh ấy làm vỡ rồi.",
+              "note": "Cùng sự việc với ví dụ 把 ở trên, chỉ đổi góc nhìn."
+            },
+            {
+              "sentence": "他被老师批评了。",
+              "translationVn": "Cậu ấy bị thầy giáo phê bình."
+            }
+          ],
+          "commonMistakeVn": "Dùng 被 cho chuyện vui một cách máy móc như bị động tiếng Anh (他被邀请了 nghe ổn, nhưng 我被给了一个礼物 ✗ — tiếng Trung nói 别人送了我一个礼物).",
+          "mnemonicVn": "把 = tôi RA TAY; 被 = tôi HỨNG CHỊU. Hai mặt của cùng một việc."
+        },
+        {
+          "id": "zh-prep-gei",
+          "pattern": "给 (gěi)",
+          "formationRule": "Chủ ngữ + 给 + người nhận + Động từ (给我打电话), hoặc làm động từ chính: 给 + người + vật (给我一本书).",
+          "meaningVn": "Cho / gửi cho / vì ai đó mà làm",
+          "nuanceVn": "给 vừa là động từ (\"cho\") vừa là giới từ (\"cho ai đó\"). Khi làm giới từ thì đứng TRƯỚC động từ chính: 给妈妈打电话 = gọi điện cho mẹ.",
+          "level": "so-cap",
+          "register": "trung tính (HSK 2)",
+          "examples": [
+            {
+              "sentence": "请给我一杯水。",
+              "translationVn": "Làm ơn cho tôi một cốc nước.",
+              "note": "给 làm ĐỘNG TỪ chính."
+            },
+            {
+              "sentence": "我给妈妈打了个电话。",
+              "translationVn": "Tôi đã gọi điện cho mẹ.",
+              "note": "给 làm GIỚI TỪ, đứng trước động từ chính 打."
+            },
+            {
+              "sentence": "他给我们介绍了新同事。",
+              "translationVn": "Anh ấy giới thiệu đồng nghiệp mới cho chúng tôi."
+            }
+          ],
+          "mnemonicVn": "给 đứng trước động từ = \"làm việc đó HƯỚNG VỀ ai\"."
+        },
+        {
+          "id": "zh-prep-dui",
+          "pattern": "对 (duì)",
+          "formationRule": "Chủ ngữ + 对 + đối tượng + Động từ/Tính từ. Hay gặp trong 对…有兴趣, 对…好, 对…说.",
+          "meaningVn": "Đối với / với ai đó",
+          "nuanceVn": "对 chỉ HƯỚNG của thái độ, tình cảm, ảnh hưởng — không chỉ hành động qua lại. Khác 跟 (cùng nhau làm): 对他说 = nói với anh ta (một chiều) vs 跟他说 = nói chuyện cùng anh ta (có qua lại).",
+          "level": "so-cap",
+          "register": "trung tính (HSK 3)",
+          "confusionGroupId": "dui-vs-gen",
+          "examples": [
+            {
+              "sentence": "我对中国文化很感兴趣。",
+              "translationVn": "Tôi rất hứng thú với văn hoá Trung Quốc.",
+              "note": "Cụm cố định 对…感兴趣 — không thay bằng 跟 được."
+            },
+            {
+              "sentence": "她对我很好。",
+              "translationVn": "Cô ấy đối với tôi rất tốt."
+            },
+            {
+              "sentence": "抽烟对身体不好。",
+              "translationVn": "Hút thuốc không tốt cho sức khoẻ."
+            }
+          ],
+          "commonMistakeVn": "Dùng 跟 trong 对…感兴趣 (跟中国文化感兴趣 ✗).",
+          "mnemonicVn": "对 = mũi tên MỘT CHIỀU hướng về đối tượng."
+        },
+        {
+          "id": "zh-prep-gen",
+          "pattern": "跟 / 和 (gēn / hé)",
+          "formationRule": "Chủ ngữ + 跟 + người + Động từ. 和 dùng được cả nối danh từ (\"và\") lẫn làm giới từ; 跟 thiên khẩu ngữ hơn.",
+          "meaningVn": "Cùng với / và",
+          "nuanceVn": "跟 hàm ý hành động CÓ QUA LẠI giữa hai bên (跟他商量 = bàn bạc với anh ta). Khi chỉ nối hai danh từ ngang hàng (\"A và B\") thì tiếng Trung chuộng 和 hơn 跟.",
+          "level": "so-cap",
+          "register": "跟 khẩu ngữ / 和 trung tính (HSK 2-3)",
+          "confusionGroupId": "dui-vs-gen",
+          "examples": [
+            {
+              "sentence": "我跟他一起去。",
+              "translationVn": "Tôi đi cùng anh ấy.",
+              "note": "Hành động chung của hai người."
+            },
+            {
+              "sentence": "这件事我要跟你商量。",
+              "translationVn": "Việc này tôi phải bàn với bạn.",
+              "note": "Có qua lại hai chiều — không dùng 对 được."
+            },
+            {
+              "sentence": "我和他都是学生。",
+              "translationVn": "Tôi và anh ấy đều là học sinh.",
+              "note": "Nối hai danh từ ngang hàng → dùng 和 tự nhiên hơn."
+            }
+          ],
+          "mnemonicVn": "跟 = \"đi theo cùng\" — hai bên cùng tham gia, có tương tác."
+        },
+        {
+          "id": "zh-prep-cong",
+          "pattern": "从 (cóng)",
+          "formationRule": "从 + điểm xuất phát (thời gian/nơi chốn) + … . Cặp hay gặp: 从…到… (từ… đến…).",
+          "meaningVn": "Từ (điểm bắt đầu)",
+          "nuanceVn": "从 đánh dấu ĐIỂM XUẤT PHÁT của một chuyển động hoặc một khoảng thời gian. Khác 离 (đo KHOẢNG CÁCH tĩnh giữa hai điểm, không có ai di chuyển cả).",
+          "level": "so-cap",
+          "register": "trung tính (HSK 2)",
+          "confusionGroupId": "cong-vs-li",
+          "examples": [
+            {
+              "sentence": "我从北京来。",
+              "translationVn": "Tôi đến từ Bắc Kinh.",
+              "note": "Có chuyển động thực sự, Bắc Kinh là điểm khởi hành."
+            },
+            {
+              "sentence": "我们从八点上课到十点。",
+              "translationVn": "Chúng tôi học từ 8 giờ đến 10 giờ.",
+              "note": "Dùng cho khoảng thời gian."
+            },
+            {
+              "sentence": "从这儿到火车站要多久？",
+              "translationVn": "Từ đây đến ga tàu mất bao lâu?"
+            }
+          ],
+          "commonMistakeVn": "Dùng 从 để nói khoảng cách (从这儿很远 ✗ → 离这儿很远).",
+          "mnemonicVn": "从 = \"xuất phát từ đó\" — có mũi tên chuyển động."
+        },
+        {
+          "id": "zh-prep-li",
+          "pattern": "离 (lí)",
+          "formationRule": "A + 离 + B + 远/近/多少公里. KHÔNG có chuyển động, chỉ đo khoảng cách.",
+          "meaningVn": "Cách (khoảng cách giữa hai điểm)",
+          "nuanceVn": "离 đo khoảng cách TĨNH về không gian hoặc thời gian (离考试还有三天 = còn ba ngày nữa thi). Không bao giờ thay thế được 从 khi có chuyển động.",
+          "level": "so-cap",
+          "register": "trung tính (HSK 2)",
+          "confusionGroupId": "cong-vs-li",
+          "examples": [
+            {
+              "sentence": "我家离学校很近。",
+              "translationVn": "Nhà tôi cách trường rất gần.",
+              "note": "Không ai đang di chuyển — chỉ đo khoảng cách."
+            },
+            {
+              "sentence": "离考试还有三天。",
+              "translationVn": "Còn ba ngày nữa là đến kỳ thi.",
+              "note": "Dùng cho khoảng cách THỜI GIAN."
+            },
+            {
+              "sentence": "这儿离地铁站大概一公里。",
+              "translationVn": "Chỗ này cách bến tàu điện ngầm khoảng một cây số."
+            }
+          ],
+          "commonMistakeVn": "Dùng 离 cho chuyển động (我离北京来 ✗ → 我从北京来).",
+          "mnemonicVn": "离 = \"cách nhau bao xa\" — cây thước đo, đứng yên hai đầu."
+        },
+        {
+          "id": "zh-prep-zai",
+          "pattern": "在 (zài)",
+          "formationRule": "在 + nơi chốn + Động từ (在家吃饭). Nếu chỉ kết quả rơi vào đâu thì 在 đứng SAU động từ: 住在北京, 放在桌子上.",
+          "meaningVn": "Ở / tại (nơi diễn ra hành động)",
+          "nuanceVn": "Vị trí của 在 đổi theo nghĩa: TRƯỚC động từ = nơi hành động diễn ra (在图书馆看书), SAU động từ = nơi kết quả đọng lại (书放在桌子上). Nhầm vị trí là lỗi rất phổ biến.",
+          "level": "so-cap",
+          "register": "trung tính (HSK 1-2)",
+          "examples": [
+            {
+              "sentence": "我在图书馆看书。",
+              "translationVn": "Tôi đọc sách ở thư viện.",
+              "note": "在 TRƯỚC động từ — nơi diễn ra hành động."
+            },
+            {
+              "sentence": "他住在上海。",
+              "translationVn": "Anh ấy sống ở Thượng Hải.",
+              "note": "在 SAU động từ — kết quả \"ở lại\" tại đó."
+            },
+            {
+              "sentence": "请把书放在桌子上。",
+              "translationVn": "Làm ơn đặt sách lên bàn."
+            }
+          ],
+          "commonMistakeVn": "Nói 我住在… thành 我在住… ✗. Với 住/放/坐 thì 在 phải đứng SAU động từ.",
+          "mnemonicVn": "Hành động xảy ra Ở ĐÂU → 在 đi trước; vật DỪNG LẠI ở đâu → 在 đi sau."
+        }
+      ]
+    },
+    {
+      "id": "measure-words",
+      "titleVn": "量词 (Lượng từ — đơn vị đếm)",
+      "points": [
+        {
+          "id": "zh-mw-ge",
+          "pattern": "个 (gè)",
+          "formationRule": "Số từ / 这 / 那 + 个 + danh từ. Lượng từ vạn năng, dùng được khi không nhớ lượng từ chuyên dụng.",
+          "meaningVn": "Cái / người — lượng từ phổ thông nhất",
+          "nuanceVn": "个 dùng được cho hầu hết danh từ chỉ người và vật không có hình dạng đặc thù. Nói 个 thay lượng từ chuyên dụng thì người nghe vẫn hiểu nhưng nghe \"non\", vì vậy vẫn nên học lượng từ riêng cho vật thường gặp.",
+          "level": "so-cap",
+          "register": "trung tính (HSK 1)",
+          "confusionGroupId": "ge-vs-wei",
+          "examples": [
+            {
+              "sentence": "我有两个哥哥。",
+              "translationVn": "Tôi có hai người anh trai."
+            },
+            {
+              "sentence": "这个苹果很甜。",
+              "translationVn": "Quả táo này rất ngọt."
+            },
+            {
+              "sentence": "他买了三个杯子。",
+              "translationVn": "Anh ấy mua ba cái cốc."
+            }
+          ],
+          "commonMistakeVn": "Bỏ hẳn lượng từ như tiếng Anh (我有两哥哥 ✗). Tiếng Trung bắt buộc phải có lượng từ giữa số và danh từ.",
+          "mnemonicVn": "个 = \"cái\" vạn năng — không nhớ gì thì dùng 个, nhưng đừng dừng ở đó."
+        },
+        {
+          "id": "zh-mw-wei",
+          "pattern": "位 (wèi)",
+          "formationRule": "Số từ + 位 + người. Chỉ dùng cho NGƯỜI và mang sắc thái kính trọng.",
+          "meaningVn": "Vị (lượng từ lịch sự dành cho người)",
+          "nuanceVn": "位 là bản kính trọng của 个 khi đếm người (khách hàng, thầy cô, khách quý). Tuyệt đối không dùng cho chính mình (我是一位学生 ✗ — tự nâng mình lên) và không dùng cho kẻ xấu (一位小偷 ✗).",
+          "level": "so-cap",
+          "register": "lịch sự (HSK 3)",
+          "confusionGroupId": "ge-vs-wei",
+          "examples": [
+            {
+              "sentence": "请问几位？",
+              "translationVn": "Dạ cho hỏi mấy vị ạ?",
+              "note": "Câu cửa miệng của nhân viên nhà hàng."
+            },
+            {
+              "sentence": "这位是我们的老师。",
+              "translationVn": "Vị này là thầy giáo của chúng tôi."
+            },
+            {
+              "sentence": "有三位客人在等您。",
+              "translationVn": "Có ba vị khách đang đợi ngài."
+            }
+          ],
+          "commonMistakeVn": "Dùng 位 cho bản thân hoặc cho người đáng chê — sắc thái kính trọng sẽ thành lố bịch.",
+          "mnemonicVn": "位 = \"vị\" trong \"quý vị\" — chỉ dành cho người mình nể."
+        },
+        {
+          "id": "zh-mw-zhang",
+          "pattern": "张 (zhāng)",
+          "formationRule": "Số từ + 张 + vật có MẶT PHẲNG (纸, 桌子, 床, 票, 照片, 地图, 嘴, 脸).",
+          "meaningVn": "Tờ / tấm / cái (vật mặt phẳng)",
+          "nuanceVn": "张 gốc nghĩa là \"trải rộng ra\", nên đi với mọi thứ có bề mặt phẳng trải ra — kể cả 床 (giường) và 嘴 (miệng), hai trường hợp người học hay bất ngờ.",
+          "level": "so-cap",
+          "register": "trung tính (HSK 2)",
+          "examples": [
+            {
+              "sentence": "我买了两张票。",
+              "translationVn": "Tôi đã mua hai tấm vé."
+            },
+            {
+              "sentence": "桌子上有一张纸。",
+              "translationVn": "Trên bàn có một tờ giấy."
+            },
+            {
+              "sentence": "房间里有一张床。",
+              "translationVn": "Trong phòng có một cái giường.",
+              "note": "Giường cũng dùng 张 vì có mặt phẳng trải ra — dễ bất ngờ."
+            }
+          ],
+          "mnemonicVn": "张 = \"trải phẳng ra\" — giấy, vé, bàn, giường đều là mặt phẳng."
+        },
+        {
+          "id": "zh-mw-tiao",
+          "pattern": "条 (tiáo)",
+          "formationRule": "Số từ + 条 + vật DÀI MỀM (路, 河, 鱼, 裤子, 裙子, 狗, 新闻, 消息).",
+          "meaningVn": "Con / chiếc / sợi (vật dài mềm)",
+          "nuanceVn": "条 dành cho vật dài và uốn được: đường, sông, cá, quần. Vật dài nhưng CỨNG thì lại dùng 根 (一根棍子) — ranh giới mềm/cứng chính là chỗ hay sai.",
+          "level": "so-cap",
+          "register": "trung tính (HSK 2-3)",
+          "examples": [
+            {
+              "sentence": "这条路很长。",
+              "translationVn": "Con đường này rất dài."
+            },
+            {
+              "sentence": "我买了一条鱼。",
+              "translationVn": "Tôi mua một con cá."
+            },
+            {
+              "sentence": "他穿着一条黑色的裤子。",
+              "translationVn": "Anh ấy mặc một chiếc quần màu đen."
+            }
+          ],
+          "commonMistakeVn": "Dùng 条 cho vật dài nhưng cứng (一条棍子 ✗ → 一根棍子).",
+          "mnemonicVn": "条 = \"dài và uốn éo được\" — đường, sông, cá, quần."
+        },
+        {
+          "id": "zh-mw-zhi",
+          "pattern": "只 (zhī)",
+          "formationRule": "Số từ + 只 + động vật nhỏ (猫, 狗, 鸟, 鸡) hoặc một trong một cặp (手, 眼睛, 鞋).",
+          "meaningVn": "Con (động vật nhỏ) / chiếc (một bên của cặp)",
+          "nuanceVn": "Hai công dụng rất khác nhau dùng chung một chữ: đếm động vật nhỏ, và đếm MỘT CHIẾC trong đôi (一只鞋 = một chiếc giày lẻ, khác 一双鞋 = một đôi giày).",
+          "level": "so-cap",
+          "register": "trung tính (HSK 2-3)",
+          "examples": [
+            {
+              "sentence": "我家有两只猫。",
+              "translationVn": "Nhà tôi có hai con mèo."
+            },
+            {
+              "sentence": "他只找到一只鞋。",
+              "translationVn": "Anh ấy chỉ tìm thấy một chiếc giày.",
+              "note": "Một chiếc lẻ trong đôi — đối lập với 一双鞋."
+            },
+            {
+              "sentence": "树上有一只鸟。",
+              "translationVn": "Trên cây có một con chim."
+            }
+          ],
+          "mnemonicVn": "只 = \"một con nhỏ\" hoặc \"một chiếc lẻ đôi\"."
+        },
+        {
+          "id": "zh-mw-ben",
+          "pattern": "本 (běn)",
+          "formationRule": "Số từ + 本 + ấn phẩm đóng thành tập (书, 杂志, 词典, 小说).",
+          "meaningVn": "Cuốn / quyển",
+          "nuanceVn": "本 chỉ dùng cho thứ ĐÓNG THÀNH TẬP. Tạp chí rời từng tờ hoặc báo thì dùng 份 (一份报纸) — nhầm 本 với 份 là lỗi rất hay gặp.",
+          "level": "so-cap",
+          "register": "trung tính (HSK 1-2)",
+          "examples": [
+            {
+              "sentence": "我读了三本小说。",
+              "translationVn": "Tôi đã đọc ba cuốn tiểu thuyết."
+            },
+            {
+              "sentence": "这本词典很有用。",
+              "translationVn": "Cuốn từ điển này rất hữu ích."
+            },
+            {
+              "sentence": "他借了两本书。",
+              "translationVn": "Anh ấy mượn hai quyển sách."
+            }
+          ],
+          "commonMistakeVn": "Dùng 本 cho báo (一本报纸 ✗ → 一份报纸).",
+          "mnemonicVn": "本 = \"gáy sách đóng lại\" — phải là tập có bìa."
+        },
+        {
+          "id": "zh-mw-jian",
+          "pattern": "件 (jiàn)",
+          "formationRule": "Số từ + 件 + áo/đồ mặc thân trên (衣服, 衬衫, 大衣) hoặc SỰ VIỆC trừu tượng (事, 礼物).",
+          "meaningVn": "Chiếc (áo) / việc (sự việc)",
+          "nuanceVn": "件 dùng cho đồ mặc phần THÂN TRÊN và cho việc trừu tượng (一件事). Quần/váy phần dưới thì dùng 条 — đây là cặp đối lập cần nhớ cùng lúc.",
+          "level": "so-cap",
+          "register": "trung tính (HSK 2)",
+          "examples": [
+            {
+              "sentence": "我买了一件衬衫。",
+              "translationVn": "Tôi đã mua một chiếc áo sơ mi."
+            },
+            {
+              "sentence": "我有一件事想跟你说。",
+              "translationVn": "Tôi có một việc muốn nói với bạn.",
+              "note": "Dùng cho SỰ VIỆC trừu tượng."
+            },
+            {
+              "sentence": "这件大衣很贵。",
+              "translationVn": "Chiếc áo khoác này rất đắt."
+            }
+          ],
+          "commonMistakeVn": "Dùng 件 cho quần (一件裤子 ✗ → 一条裤子). Trên 件, dưới 条.",
+          "mnemonicVn": "件 = áo khoác lên THÂN TRÊN, hoặc một \"vụ việc\"."
+        },
+        {
+          "id": "zh-mw-shuang-dui",
+          "pattern": "双 vs 对 (shuāng / duì)",
+          "formationRule": "双 + vật vốn đi theo đôi tự nhiên (鞋, 袜子, 筷子, 手). 对 + hai cái GHÉP THÀNH cặp (夫妻, 耳环, 沙发).",
+          "meaningVn": "Đôi / cặp",
+          "nuanceVn": "双 dành cho thứ bản thân nó vốn đã sinh ra theo đôi và giống hệt nhau (đôi giày, đôi đũa, đôi tay). 对 dành cho hai thứ được GHÉP lại thành một cặp có quan hệ với nhau (một đôi vợ chồng, một cặp hoa tai). Nhiều vật dùng được cả hai nhưng sắc thái khác nhau.",
+          "level": "trung-cap",
+          "register": "trung tính (HSK 3)",
+          "confusionGroupId": "shuang-vs-dui",
+          "examples": [
+            {
+              "sentence": "我买了一双鞋。",
+              "translationVn": "Tôi mua một đôi giày.",
+              "note": "Giày vốn sinh ra theo đôi giống hệt nhau → 双."
+            },
+            {
+              "sentence": "他们是一对夫妻。",
+              "translationVn": "Họ là một cặp vợ chồng.",
+              "note": "Hai người được ghép thành cặp → 对."
+            },
+            {
+              "sentence": "给我一双筷子。",
+              "translationVn": "Cho tôi một đôi đũa."
+            }
+          ],
+          "commonMistakeVn": "Dùng 对 cho giày/đũa (一对鞋 nghe rất lạ) hoặc 双 cho vợ chồng (一双夫妻 ✗).",
+          "mnemonicVn": "双 = sinh đôi giống hệt; 对 = ghép cặp có quan hệ."
+        }
+      ]
+    },
+    {
+      "id": "complements",
+      "titleVn": "补语 (Bổ ngữ — thành phần bổ sung sau động từ)",
+      "points": [
+        {
+          "id": "zh-comp-jieguo",
+          "pattern": "结果补语 (V + 完/好/到/见/懂)",
+          "formationRule": "Động từ + tính từ/động từ chỉ kết quả, dính liền thành một khối. Phủ định dùng 没: 没看完.",
+          "meaningVn": "Bổ ngữ KẾT QUẢ — hành động đạt tới kết quả gì",
+          "nuanceVn": "Tiếng Trung buộc phải nói rõ kết quả: 看 chỉ là \"nhìn\", muốn nói \"nhìn thấy\" phải là 看见, \"đọc hiểu\" phải là 看懂, \"đọc xong\" phải là 看完. Người Việt hay bỏ quên phần này vì tiếng Việt gộp sẵn vào động từ.",
+          "level": "so-cap",
+          "register": "trung tính (HSK 2-3)",
+          "examples": [
+            {
+              "sentence": "我看完这本书了。",
+              "translationVn": "Tôi đọc xong cuốn sách này rồi.",
+              "note": "完 = kết quả \"xong\"."
+            },
+            {
+              "sentence": "你听懂了吗？",
+              "translationVn": "Bạn nghe hiểu chưa?",
+              "note": "懂 = kết quả \"hiểu\" — chỉ 听 thôi thì mới là \"nghe\"."
+            },
+            {
+              "sentence": "我没找到我的钥匙。",
+              "translationVn": "Tôi không tìm thấy chìa khoá của mình.",
+              "note": "Phủ định bổ ngữ kết quả dùng 没, không dùng 不."
+            }
+          ],
+          "commonMistakeVn": "Nói 我看这本书了 khi ý là \"đọc XONG\" — thiếu 完 thì câu chỉ có nghĩa \"tôi đã đọc (có động tác đọc)\".",
+          "mnemonicVn": "Động từ tiếng Trung chỉ tả ĐỘNG TÁC; muốn nói tới ĐÍCH phải gắn thêm bổ ngữ kết quả."
+        },
+        {
+          "id": "zh-comp-fangxiang",
+          "pattern": "方向补语 (V + 来/去/上/下/进/出/回/过)",
+          "formationRule": "Động từ + 来/去 (hướng về/ra xa người nói) hoặc + 上/下/进/出/回/过 (hướng không gian). Ghép đôi thành bổ ngữ kép: 走进来, 拿出去.",
+          "meaningVn": "Bổ ngữ XU HƯỚNG — hành động di chuyển theo hướng nào",
+          "nuanceVn": "Mấu chốt là 来/去 xác định theo VỊ TRÍ NGƯỜI NÓI: 进来 = đi vào (người nói ở trong), 进去 = đi vào (người nói ở ngoài). Cùng một hành động, đổi chỗ người nói là đổi từ.",
+          "level": "trung-cap",
+          "register": "trung tính (HSK 3)",
+          "examples": [
+            {
+              "sentence": "他走进来了。",
+              "translationVn": "Anh ấy đi vào (chỗ tôi).",
+              "note": "Người nói đang Ở TRONG phòng."
+            },
+            {
+              "sentence": "你快进去吧。",
+              "translationVn": "Bạn mau đi vào đi.",
+              "note": "Người nói đang Ở NGOÀI — cùng hành động nhưng đổi 来 thành 去."
+            },
+            {
+              "sentence": "请把书拿出来。",
+              "translationVn": "Làm ơn lấy sách ra đây."
+            }
+          ],
+          "commonMistakeVn": "Chọn 来/去 theo hướng của vật thay vì theo chỗ đứng của NGƯỜI NÓI.",
+          "mnemonicVn": "来 = về phía tôi, 去 = rời xa tôi. Luôn lấy người nói làm gốc toạ độ."
+        },
+        {
+          "id": "zh-comp-keneng",
+          "pattern": "可能补语 (V + 得/不 + bổ ngữ)",
+          "formationRule": "Chèn 得 (có thể) hoặc 不 (không thể) vào giữa động từ và bổ ngữ: 看得见 / 看不见, 听得懂 / 听不懂.",
+          "meaningVn": "Bổ ngữ KHẢ NĂNG — có làm nổi hay không",
+          "nuanceVn": "Nói về khả năng do ĐIỀU KIỆN KHÁCH QUAN cho phép hay không (chữ quá nhỏ nên 看不清). Khác 不能 (không được phép / chủ quan không thể). Dạng phủ định 看不见 dùng nhiều hơn hẳn dạng khẳng định trong thực tế.",
+          "level": "trung-cap",
+          "register": "khẩu ngữ (HSK 3-4)",
+          "confusionGroupId": "keneng-vs-neng",
+          "examples": [
+            {
+              "sentence": "太远了，我看不见。",
+              "translationVn": "Xa quá, tôi không nhìn thấy được.",
+              "note": "Điều kiện khách quan (xa) khiến không nhìn nổi."
+            },
+            {
+              "sentence": "他说得太快，我听不懂。",
+              "translationVn": "Anh ấy nói nhanh quá, tôi nghe không hiểu."
+            },
+            {
+              "sentence": "这么多菜，我们吃得完吗？",
+              "translationVn": "Nhiều món thế này, chúng ta ăn hết nổi không?"
+            }
+          ],
+          "commonMistakeVn": "Thay bằng 不能 một cách máy móc: 我不能看见 ✗ (nghe như \"tôi bị cấm nhìn\") → 我看不见.",
+          "mnemonicVn": "得/不 chèn vào GIỮA = \"làm nổi / không làm nổi\"; 能 đứng TRƯỚC = \"được phép / có năng lực\"."
+        },
+        {
+          "id": "zh-comp-chengdu",
+          "pattern": "程度补语 (V + 得 + mức độ)",
+          "formationRule": "Động từ + 得 + tính từ/cụm. Có tân ngữ thì phải lặp động từ: 他打篮球打得很好.",
+          "meaningVn": "Bổ ngữ MỨC ĐỘ — làm việc đó tới mức nào",
+          "nuanceVn": "Đánh giá CHẤT LƯỢNG của hành động, thường mang tính thường xuyên (他跑得很快 = anh ấy chạy nhanh — nói về năng lực nói chung). Đây chính là chữ 得 trong bộ ba 的/地/得.",
+          "level": "so-cap",
+          "register": "trung tính (HSK 2-3)",
+          "confusionGroupId": "de-di-de",
+          "examples": [
+            {
+              "sentence": "他跑得很快。",
+              "translationVn": "Anh ấy chạy rất nhanh."
+            },
+            {
+              "sentence": "她唱歌唱得非常好听。",
+              "translationVn": "Cô ấy hát rất hay.",
+              "note": "Có tân ngữ 歌 → lặp lại động từ 唱 rồi mới dùng 得."
+            },
+            {
+              "sentence": "你来得正好。",
+              "translationVn": "Bạn đến vừa đúng lúc."
+            }
+          ],
+          "commonMistakeVn": "Quên lặp động từ khi có tân ngữ (她唱歌得很好听 ✗).",
+          "mnemonicVn": "得 = \"chấm điểm\" cho hành động vừa làm."
+        },
+        {
+          "id": "zh-comp-shuliang",
+          "pattern": "数量补语 (V + 了 + thời lượng/số lần)",
+          "formationRule": "Động từ + 了 + lượng thời gian hoặc số lần. Có tân ngữ thì lặp động từ hoặc chèn 的: 看了两个小时(的)电视.",
+          "meaningVn": "Bổ ngữ SỐ LƯỢNG — làm trong bao lâu, bao nhiêu lần",
+          "nuanceVn": "Trong tiếng Trung, thời lượng đứng SAU động từ (khác hẳn tiếng Việt: \"học hai tiếng\" — tiếng Trung là 学了两个小时). Đây là trật tự từ người Việt rất hay đảo ngược.",
+          "level": "trung-cap",
+          "register": "trung tính (HSK 3)",
+          "examples": [
+            {
+              "sentence": "我等了他半个小时。",
+              "translationVn": "Tôi đã đợi anh ấy nửa tiếng."
+            },
+            {
+              "sentence": "这部电影我看了两次。",
+              "translationVn": "Bộ phim này tôi đã xem hai lần."
+            },
+            {
+              "sentence": "他学了三年汉语。",
+              "translationVn": "Anh ấy đã học tiếng Trung ba năm."
+            }
+          ],
+          "commonMistakeVn": "Đặt thời lượng trước động từ theo lối tiếng Việt (我两个小时等了他 ✗).",
+          "mnemonicVn": "Làm việc BAO LÂU thì nói SAU — thời lượng luôn nằm sau động từ."
+        },
+        {
+          "id": "zh-comp-qilai",
+          "pattern": "起来 (nghĩa mở rộng)",
+          "formationRule": "Động từ/tính từ + 起来. Ngoài nghĩa hướng lên còn có ba nghĩa phái sinh: bắt đầu (笑起来), nhớ ra (想起来), đánh giá (看起来).",
+          "meaningVn": "…lên / bắt đầu … / xem ra thì …",
+          "nuanceVn": "起来 là bổ ngữ xu hướng có nghĩa phái sinh phong phú nhất. 看起来他很累 = \"trông thì có vẻ anh ấy mệt\" — hoàn toàn không còn nghĩa \"nhìn lên\" nữa. Nhận ra nhóm nghĩa này giúp đọc hiểu nhanh hơn nhiều.",
+          "level": "trung-cap",
+          "register": "trung tính (HSK 3-4)",
+          "examples": [
+            {
+              "sentence": "大家都笑起来了。",
+              "translationVn": "Mọi người đều bật cười.",
+              "note": "Nghĩa \"bắt đầu\" — không liên quan hướng lên."
+            },
+            {
+              "sentence": "我想起来了！",
+              "translationVn": "Tôi nhớ ra rồi!",
+              "note": "Nghĩa \"nhớ ra\"."
+            },
+            {
+              "sentence": "看起来今天会下雨。",
+              "translationVn": "Xem ra hôm nay trời sẽ mưa.",
+              "note": "Nghĩa \"đánh giá, xem chừng\"."
+            }
+          ],
+          "mnemonicVn": "起来 = \"trồi lên\" → việc trồi lên = BẮT ĐẦU, ký ức trồi lên = NHỚ RA, ấn tượng trồi lên = XEM RA."
+        }
+      ]
+    },
+    {
+      "id": "comparison",
+      "titleVn": "比较 (So sánh / mức độ)",
+      "points": [
+        {
+          "id": "zh-comp-bi",
+          "pattern": "A 比 B + Adj",
+          "formationRule": "A + 比 + B + tính từ (+ chênh lệch cụ thể: 高五公分 / 一点儿 / 得多). TUYỆT ĐỐI không dùng 很/非常 trong câu 比.",
+          "meaningVn": "A hơn B (so sánh hơn)",
+          "nuanceVn": "Lỗi kinh điển: 他比我很高 ✗. Vì 比 đã mang sẵn ý so sánh nên không ghép với phó từ mức độ tuyệt đối (很/非常/太). Muốn nhấn mạnh phải dùng 得多 / 多了 / 一点儿 đặt SAU tính từ.",
+          "level": "so-cap",
+          "register": "trung tính (HSK 2-3)",
+          "confusionGroupId": "bi-vs-meiyou",
+          "examples": [
+            {
+              "sentence": "他比我高。",
+              "translationVn": "Cậu ấy cao hơn tôi."
+            },
+            {
+              "sentence": "今天比昨天冷得多。",
+              "translationVn": "Hôm nay lạnh hơn hôm qua nhiều.",
+              "note": "Nhấn mạnh bằng 得多 đặt SAU tính từ, không dùng 很."
+            },
+            {
+              "sentence": "他比我大三岁。",
+              "translationVn": "Anh ấy hơn tôi ba tuổi.",
+              "note": "Chênh lệch cụ thể đặt sau tính từ."
+            }
+          ],
+          "commonMistakeVn": "他比我很高 ✗ — 比 và 很 loại trừ nhau.",
+          "mnemonicVn": "比 đã là \"hơn\" rồi, đừng nhét thêm 很 vào nữa."
+        },
+        {
+          "id": "zh-comp-meiyou",
+          "pattern": "A 没有 B + Adj",
+          "formationRule": "A + 没有 + B + (那么/这么) + tính từ. Đây là dạng phủ định thông dụng của câu 比.",
+          "meaningVn": "A không bằng B (so sánh kém)",
+          "nuanceVn": "Người học hay phủ định câu 比 bằng 不比, nhưng 不比 mang sắc thái phản bác (\"đâu có hơn gì\") chứ không phải \"kém hơn\". Muốn nói đơn thuần \"A kém B\" thì dùng 没有.",
+          "level": "trung-cap",
+          "register": "trung tính (HSK 3)",
+          "confusionGroupId": "bi-vs-meiyou",
+          "examples": [
+            {
+              "sentence": "我没有他高。",
+              "translationVn": "Tôi không cao bằng cậu ấy."
+            },
+            {
+              "sentence": "今天没有昨天那么冷。",
+              "translationVn": "Hôm nay không lạnh bằng hôm qua.",
+              "note": "Thêm 那么 làm câu mềm và tự nhiên hơn."
+            },
+            {
+              "sentence": "这个菜没有那个好吃。",
+              "translationVn": "Món này không ngon bằng món kia."
+            }
+          ],
+          "commonMistakeVn": "Dùng 不比 để nói \"kém hơn\" — 我不比他高 thực ra nghĩa là \"tôi đâu có cao hơn cậu ta\" (phản bác), không phải \"tôi thấp hơn\".",
+          "mnemonicVn": "没有 = \"không đạt tới mức của…\" — cách nói kém hơn chuẩn nhất."
+        },
+        {
+          "id": "zh-comp-yiyang",
+          "pattern": "A 跟 B 一样 (+ Adj)",
+          "formationRule": "A + 跟/和 + B + 一样 (+ tính từ). Phủ định: A 跟 B 不一样.",
+          "meaningVn": "A giống B / bằng B",
+          "nuanceVn": "So sánh NGANG BẰNG. Có thể đứng một mình (我跟他一样 = tôi giống cậu ấy) hoặc nêu rõ ngang bằng ở điểm nào (一样高 = cao bằng nhau).",
+          "level": "so-cap",
+          "register": "trung tính (HSK 3)",
+          "examples": [
+            {
+              "sentence": "我的书包跟你的一样。",
+              "translationVn": "Cặp sách của tôi giống của bạn."
+            },
+            {
+              "sentence": "他跟我一样高。",
+              "translationVn": "Cậu ấy cao bằng tôi."
+            },
+            {
+              "sentence": "这两件衣服不一样。",
+              "translationVn": "Hai bộ quần áo này không giống nhau."
+            }
+          ],
+          "mnemonicVn": "一样 = \"cùng một dáng\" — đặt lên nhau thì trùng khít."
+        },
+        {
+          "id": "zh-comp-geng-zui",
+          "pattern": "更 / 最",
+          "formationRule": "更 + tính từ (hơn nữa), 最 + tính từ (nhất). 更 hàm ý đã có sẵn một mức để so tiếp.",
+          "meaningVn": "Càng / hơn nữa — Nhất",
+          "nuanceVn": "更 luôn ngầm so với một mốc đã nêu trước đó (这个好，那个更好). 最 là mức tuyệt đối trong một phạm vi. Dùng 更 mà chưa có mốc so sánh nào thì câu lơ lửng.",
+          "level": "so-cap",
+          "register": "trung tính (HSK 2-3)",
+          "examples": [
+            {
+              "sentence": "这个好，那个更好。",
+              "translationVn": "Cái này tốt, cái kia còn tốt hơn.",
+              "note": "更 dựa trên mốc \"cái này tốt\" đã nêu."
+            },
+            {
+              "sentence": "他是我们班最高的。",
+              "translationVn": "Cậu ấy là người cao nhất lớp tôi."
+            },
+            {
+              "sentence": "我最喜欢吃火锅。",
+              "translationVn": "Tôi thích ăn lẩu nhất."
+            }
+          ],
+          "mnemonicVn": "更 = \"thêm một nấc nữa\"; 最 = \"kịch trần\"."
+        },
+        {
+          "id": "zh-comp-yuelaiyue",
+          "pattern": "越来越 + Adj",
+          "formationRule": "越来越 + tính từ/động từ tâm lý. Không ghép với 很 (越来越很冷 ✗).",
+          "meaningVn": "Ngày càng…",
+          "nuanceVn": "Diễn tả mức độ tăng dần THEO THỜI GIAN, không cần nêu mốc so sánh. Khác 越…越… (hai yếu tố tăng song song với nhau).",
+          "level": "trung-cap",
+          "register": "trung tính (HSK 3)",
+          "confusionGroupId": "yue-patterns",
+          "examples": [
+            {
+              "sentence": "天气越来越冷了。",
+              "translationVn": "Thời tiết ngày càng lạnh."
+            },
+            {
+              "sentence": "他的汉语越来越好了。",
+              "translationVn": "Tiếng Trung của cậu ấy ngày càng tốt lên."
+            },
+            {
+              "sentence": "我越来越喜欢这个城市。",
+              "translationVn": "Tôi ngày càng thích thành phố này."
+            }
+          ],
+          "commonMistakeVn": "Thêm 很 vào (越来越很好 ✗) — 越来越 đã hàm chứa mức độ rồi.",
+          "mnemonicVn": "越来越 = \"càng về sau càng…\" — thời gian trôi, mức độ dâng."
+        },
+        {
+          "id": "zh-comp-yueyue",
+          "pattern": "越 A 越 B",
+          "formationRule": "越 + động từ/tính từ A + 越 + tính từ B. Hai vế cùng một chủ ngữ hoặc khác chủ ngữ đều được.",
+          "meaningVn": "Càng A thì càng B",
+          "nuanceVn": "Nối hai yếu tố BIẾN ĐỔI SONG SONG với nhau (càng ăn càng ngon), khác 越来越 (chỉ một yếu tố tăng theo thời gian). Nhầm hai cấu trúc này là lỗi phổ biến ở trình độ trung cấp.",
+          "level": "trung-cap",
+          "register": "trung tính (HSK 3-4)",
+          "confusionGroupId": "yue-patterns",
+          "examples": [
+            {
+              "sentence": "这个菜越吃越好吃。",
+              "translationVn": "Món này càng ăn càng ngon.",
+              "note": "Hai yếu tố song song: lượng ăn ↑ thì độ ngon ↑."
+            },
+            {
+              "sentence": "雨越下越大。",
+              "translationVn": "Mưa càng lúc càng to."
+            },
+            {
+              "sentence": "他越说越生气。",
+              "translationVn": "Càng nói cậu ấy càng tức."
+            }
+          ],
+          "commonMistakeVn": "Dùng 越来越 khi thực ra có hai yếu tố liên động (这个菜越来越好吃 nghĩa khác hẳn: \"món này dạo này ngày càng ngon\").",
+          "mnemonicVn": "越A越B = hai cái cân liên động; 越来越 = một cái kim đồng hồ dâng theo thời gian."
+        },
+        {
+          "id": "zh-comp-bijiao",
+          "pattern": "比较 (bǐjiào)",
+          "formationRule": "比较 + tính từ. Là PHÓ TỪ mức độ, không cần đối tượng so sánh cụ thể.",
+          "meaningVn": "Khá / tương đối",
+          "nuanceVn": "Tuy chữ viết giống động từ \"so sánh\" nhưng ở đây 比较 chỉ là \"khá, tương đối\" — mức độ nhẹ hơn 很. Không đi kèm 比: 比较比他高 ✗.",
+          "level": "so-cap",
+          "register": "trung tính (HSK 3)",
+          "examples": [
+            {
+              "sentence": "今天比较冷。",
+              "translationVn": "Hôm nay khá lạnh."
+            },
+            {
+              "sentence": "这个问题比较难。",
+              "translationVn": "Câu hỏi này tương đối khó."
+            },
+            {
+              "sentence": "我比较喜欢喝茶。",
+              "translationVn": "Tôi tương đối thích uống trà."
+            }
+          ],
+          "mnemonicVn": "比较 = \"cũng khá đấy\" — nhẹ hơn 很, không cần ai để so."
+        }
+      ]
+    },
+    {
+      "id": "questions",
+      "titleVn": "疑问句 (Câu hỏi: 吗 / 呢 / 吧 / V不V …)",
+      "points": [
+        {
+          "id": "zh-q-ma",
+          "pattern": "…吗？",
+          "formationRule": "Câu trần thuật + 吗. KHÔNG dùng chung với từ để hỏi khác (你去哪儿吗 ✗).",
+          "meaningVn": "Câu hỏi có/không",
+          "nuanceVn": "Biến thẳng câu khẳng định thành câu hỏi đúng/sai. Vì bản thân 吗 đã là dấu hỏi nên không bao giờ đứng cùng 谁/什么/哪儿 — đây là lỗi rất phổ biến của người mới.",
+          "level": "so-cap",
+          "register": "trung tính (HSK 1)",
+          "confusionGroupId": "ma-ne-ba",
+          "examples": [
+            {
+              "sentence": "你是学生吗？",
+              "translationVn": "Bạn là học sinh phải không?"
+            },
+            {
+              "sentence": "你吃饭了吗？",
+              "translationVn": "Bạn ăn cơm chưa?"
+            },
+            {
+              "sentence": "这个多少钱？",
+              "translationVn": "Cái này bao nhiêu tiền?",
+              "note": "Đã có từ để hỏi 多少 → TUYỆT ĐỐI không thêm 吗."
+            }
+          ],
+          "commonMistakeVn": "Ghép 吗 với từ để hỏi sẵn có (你去哪儿吗 ✗ → 你去哪儿？).",
+          "mnemonicVn": "Một câu chỉ cần MỘT dấu hỏi — có 什么/哪儿 rồi thì thôi 吗."
+        },
+        {
+          "id": "zh-q-ne",
+          "pattern": "…呢？",
+          "formationRule": "Danh từ/đại từ + 呢 (hỏi lại cùng chủ đề), hoặc cuối câu hỏi để làm dịu giọng.",
+          "meaningVn": "Còn … thì sao? / …đâu rồi?",
+          "nuanceVn": "Hai công dụng: (1) hỏi lại ngắn gọn cùng chủ đề vừa nói (我很好，你呢？), (2) hỏi vị trí (我的钥匙呢？ = chìa khoá tôi đâu rồi?). Không bao giờ dùng để hỏi có/không như 吗.",
+          "level": "so-cap",
+          "register": "khẩu ngữ (HSK 1-2)",
+          "confusionGroupId": "ma-ne-ba",
+          "examples": [
+            {
+              "sentence": "我很好，你呢？",
+              "translationVn": "Tôi khoẻ, còn bạn thì sao?",
+              "note": "Hỏi lại cùng chủ đề — kiểu dùng thông dụng nhất."
+            },
+            {
+              "sentence": "我的手机呢？",
+              "translationVn": "Điện thoại của tôi đâu rồi?",
+              "note": "Hỏi vị trí — không cần động từ."
+            },
+            {
+              "sentence": "你在做什么呢？",
+              "translationVn": "Bạn đang làm gì đấy?",
+              "note": "呢 làm mềm giọng câu hỏi."
+            }
+          ],
+          "commonMistakeVn": "Dùng 呢 thay 吗 để hỏi có/không (你是学生呢 ✗).",
+          "mnemonicVn": "呢 = \"còn … thì sao nhỉ?\" — luôn dựa vào chủ đề đã có sẵn."
+        },
+        {
+          "id": "zh-q-ba",
+          "pattern": "…吧",
+          "formationRule": "Cuối câu. Hai nghĩa: suy đoán (你是老师吧？) hoặc đề nghị/rủ rê (我们走吧).",
+          "meaningVn": "Chắc là…? / …đi nào",
+          "nuanceVn": "吧 KHÔNG phải câu hỏi thật sự: khi hỏi thì người nói đã đoán sẵn câu trả lời và chỉ chờ xác nhận (khác 吗 — hoàn toàn chưa biết). Khi đề nghị thì 吧 làm câu mềm đi, bớt ra lệnh.",
+          "level": "so-cap",
+          "register": "khẩu ngữ (HSK 2)",
+          "confusionGroupId": "ma-ne-ba",
+          "examples": [
+            {
+              "sentence": "你是中国人吧？",
+              "translationVn": "Bạn là người Trung Quốc phải không nhỉ?",
+              "note": "Đã đoán sẵn, chỉ chờ xác nhận — khác hẳn 你是中国人吗？(chưa biết gì)."
+            },
+            {
+              "sentence": "我们走吧。",
+              "translationVn": "Chúng ta đi thôi.",
+              "note": "Nghĩa rủ rê."
+            },
+            {
+              "sentence": "你休息一下吧。",
+              "translationVn": "Bạn nghỉ một chút đi.",
+              "note": "Đề nghị nhẹ nhàng, không mang tính ra lệnh."
+            }
+          ],
+          "commonMistakeVn": "Dùng 吧 khi thật sự chưa biết gì — sẽ nghe như đang áp đặt phỏng đoán lên người nghe.",
+          "mnemonicVn": "吗 = \"không biết, hỏi thật\"; 吧 = \"đoán vậy, đúng không?\"; 呢 = \"còn cái kia thì sao?\"."
+        },
+        {
+          "id": "zh-q-zhengfan",
+          "pattern": "正反问 (V 不 V / Adj 不 Adj)",
+          "formationRule": "Lặp động từ/tính từ với 不 ở giữa: 是不是, 去不去, 好不好. Động từ 2 âm tiết có thể rút: 喜不喜欢. KHÔNG thêm 吗.",
+          "meaningVn": "Câu hỏi khẳng định-phủ định",
+          "nuanceVn": "Tương đương câu 吗 nhưng trung tính và thẳng thắn hơn, rất thông dụng trong khẩu ngữ. Câu này đã tự mang dấu hỏi nên thêm 吗 là sai.",
+          "level": "so-cap",
+          "register": "khẩu ngữ (HSK 1-2)",
+          "examples": [
+            {
+              "sentence": "你去不去？",
+              "translationVn": "Bạn có đi không?"
+            },
+            {
+              "sentence": "这个菜好不好吃？",
+              "translationVn": "Món này có ngon không?"
+            },
+            {
+              "sentence": "你喜不喜欢这本书？",
+              "translationVn": "Bạn có thích cuốn sách này không?",
+              "note": "Động từ hai âm tiết 喜欢 rút gọn thành 喜不喜欢."
+            }
+          ],
+          "commonMistakeVn": "Thêm 吗 vào cuối (你去不去吗 ✗).",
+          "mnemonicVn": "Đặt cả hai lựa chọn lên bàn: \"đi hay không đi\" — khỏi cần 吗."
+        },
+        {
+          "id": "zh-q-ji-duoshao",
+          "pattern": "几 vs 多少",
+          "formationRule": "几 + LƯỢNG TỪ + danh từ (几个人). 多少 + danh từ, lượng từ có thể lược (多少钱).",
+          "meaningVn": "Mấy / bao nhiêu",
+          "nuanceVn": "几 dùng khi dự đoán đáp án NHỎ (dưới 10): mấy giờ, mấy người. 多少 dùng cho số lượng lớn hoặc chưa rõ phạm vi, và bắt buộc dùng khi hỏi giá (多少钱). Ngoài ra 几 phải kèm lượng từ, còn 多少 thì không nhất thiết.",
+          "level": "so-cap",
+          "register": "trung tính (HSK 1)",
+          "confusionGroupId": "ji-vs-duoshao",
+          "examples": [
+            {
+              "sentence": "你家有几口人？",
+              "translationVn": "Nhà bạn có mấy người?",
+              "note": "Số nhỏ, có lượng từ 口 — điển hình của 几."
+            },
+            {
+              "sentence": "这个多少钱？",
+              "translationVn": "Cái này bao nhiêu tiền?",
+              "note": "Hỏi giá luôn dùng 多少, không dùng 几."
+            },
+            {
+              "sentence": "你们学校有多少学生？",
+              "translationVn": "Trường bạn có bao nhiêu học sinh?",
+              "note": "Số lớn → 多少, và lược lượng từ."
+            }
+          ],
+          "commonMistakeVn": "Bỏ lượng từ sau 几 (几人 ✗ → 几个人), hoặc hỏi giá bằng 几 (几钱 ✗).",
+          "mnemonicVn": "几 = đếm trên đầu ngón tay (kèm lượng từ); 多少 = số lớn mù mờ (khỏi lượng từ)."
+        },
+        {
+          "id": "zh-q-zenme",
+          "pattern": "怎么 vs 怎么样",
+          "formationRule": "怎么 + ĐỘNG TỪ (hỏi cách thức/nguyên nhân). 怎么样 đứng một mình làm vị ngữ (hỏi đánh giá).",
+          "meaningVn": "Làm thế nào / như thế nào, thấy sao",
+          "nuanceVn": "怎么去 = đi bằng cách nào (hỏi PHƯƠNG THỨC); 怎么样 = thấy thế nào (hỏi ĐÁNH GIÁ). Thêm nữa, 怎么 đứng trước động từ đôi khi mang nghĩa trách móc \"sao lại…\" (你怎么才来？).",
+          "level": "so-cap",
+          "register": "trung tính (HSK 2)",
+          "confusionGroupId": "zenme-vs-zenmeyang",
+          "examples": [
+            {
+              "sentence": "你怎么去学校？",
+              "translationVn": "Bạn đi học bằng cách nào?",
+              "note": "Hỏi phương tiện/cách thức."
+            },
+            {
+              "sentence": "这个电影怎么样？",
+              "translationVn": "Bộ phim này thế nào?",
+              "note": "Hỏi đánh giá — 怎么样 đứng một mình."
+            },
+            {
+              "sentence": "你怎么才来？",
+              "translationVn": "Sao giờ này bạn mới đến?",
+              "note": "Sắc thái trách móc."
+            }
+          ],
+          "commonMistakeVn": "Dùng 怎么样 trước động từ (你怎么样去 ✗) hoặc 怎么 để hỏi đánh giá (这个电影怎么 ✗).",
+          "mnemonicVn": "怎么 + động từ = \"làm CÁCH NÀO\"; 怎么样 đứng một mình = \"thấy SAO\"."
+        },
+        {
+          "id": "zh-q-weishenme",
+          "pattern": "为什么 vs 怎么 (hỏi lý do)",
+          "formationRule": "Cả hai đứng trước động từ để hỏi nguyên nhân, nhưng sắc thái khác nhau rõ rệt.",
+          "meaningVn": "Tại sao",
+          "nuanceVn": "为什么 hỏi lý do một cách TRUNG TÍNH, thuần tuý muốn biết. 怎么 khi hỏi lý do luôn kèm sự NGẠC NHIÊN hoặc trách móc (你怎么没来？= sao cậu lại không đến vậy?). Chọn sai từ có thể làm câu nghe như đang trách người nghe.",
+          "level": "trung-cap",
+          "register": "trung tính vs khẩu ngữ (HSK 2-3)",
+          "confusionGroupId": "zenme-vs-zenmeyang",
+          "examples": [
+            {
+              "sentence": "你为什么学中文？",
+              "translationVn": "Tại sao bạn học tiếng Trung?",
+              "note": "Hỏi lý do trung tính, không phán xét."
+            },
+            {
+              "sentence": "你怎么没来上课？",
+              "translationVn": "Sao cậu lại không đến lớp vậy?",
+              "note": "Có sắc thái ngạc nhiên/trách."
+            },
+            {
+              "sentence": "他为什么不高兴？",
+              "translationVn": "Tại sao cậu ấy không vui?"
+            }
+          ],
+          "commonMistakeVn": "Dùng 怎么 khi chỉ muốn hỏi lý do bình thường — dễ khiến người nghe thấy bị chất vấn.",
+          "mnemonicVn": "为什么 = \"vì lý do gì?\" (bình thản); 怎么 = \"ơ sao lại thế?\" (ngạc nhiên)."
+        }
+      ]
+    },
+    {
+      "id": "adverb-nuance",
+      "titleVn": "副词 (Phó từ sắc thái: 就 / 才 / 都 / 还 / 再 / 又 / 也 / 却)",
+      "points": [
+        {
+          "id": "zh-adv-jiu",
+          "pattern": "就 (jiù)",
+          "formationRule": "Đứng TRƯỚC động từ. Hay đi cặp: 一…就… (vừa…là…), 只要…就… (chỉ cần…là…).",
+          "meaningVn": "Là… ngay / sớm hơn mong đợi / thì…",
+          "nuanceVn": "就 hàm ý SỚM, NHANH, DỄ hơn người nói tưởng (他六点就来了 = mới 6 giờ cậu ấy đã đến rồi). Đây chính là mặt đối lập với 才 (muộn, chậm, khó) — cặp phó từ dễ nhầm bậc nhất tiếng Trung.",
+          "level": "trung-cap",
+          "register": "trung tính (HSK 2-3)",
+          "confusionGroupId": "jiu-vs-cai",
+          "examples": [
+            {
+              "sentence": "他六点就来了。",
+              "translationVn": "Mới 6 giờ cậu ấy đã đến rồi.",
+              "note": "Hàm ý SỚM hơn dự kiến."
+            },
+            {
+              "sentence": "我一看就懂了。",
+              "translationVn": "Tôi vừa nhìn là hiểu ngay.",
+              "note": "Cặp 一…就… — nhanh và dễ dàng."
+            },
+            {
+              "sentence": "只要你努力，就能成功。",
+              "translationVn": "Chỉ cần bạn cố gắng thì sẽ thành công."
+            }
+          ],
+          "commonMistakeVn": "Dùng 就 cho việc xảy ra muộn (他十点就来了 nghe sai lệch nếu ý là \"mãi 10 giờ mới đến\" → phải là 才).",
+          "mnemonicVn": "就 = \"thế là xong ngay\" — nhanh, sớm, dễ."
+        },
+        {
+          "id": "zh-adv-cai",
+          "pattern": "才 (cái)",
+          "formationRule": "Đứng TRƯỚC động từ. Câu có 才 thường KHÔNG dùng 了 ở cuối (他十点才来 — không thêm 了).",
+          "meaningVn": "Mãi mới / mới chỉ",
+          "nuanceVn": "才 hàm ý MUỘN, CHẬM, KHÓ hơn mong đợi — đối lập hoàn toàn với 就. Một chi tiết ngữ pháp quan trọng: câu 就 hay kèm 了, còn câu 才 thì thường không, vì 才 nhấn vào sự chậm trễ chứ không báo tin hoàn tất.",
+          "level": "trung-cap",
+          "register": "trung tính (HSK 3)",
+          "confusionGroupId": "jiu-vs-cai",
+          "examples": [
+            {
+              "sentence": "他十点才来。",
+              "translationVn": "Mãi 10 giờ cậu ấy mới đến.",
+              "note": "Hàm ý MUỘN — và không thêm 了 ở cuối."
+            },
+            {
+              "sentence": "我学了三年才学会。",
+              "translationVn": "Tôi học ba năm mới học được.",
+              "note": "Nhấn mạnh sự khó khăn, tốn công."
+            },
+            {
+              "sentence": "只有努力才能成功。",
+              "translationVn": "Chỉ có nỗ lực thì mới thành công được.",
+              "note": "Cặp 只有…才… — điều kiện DUY NHẤT, khác 只要…就… (chỉ cần)."
+            }
+          ],
+          "commonMistakeVn": "Thêm 了 vào câu 才 (他十点才来了 ✗).",
+          "mnemonicVn": "才 = \"mãi mới\" — muộn, chậm, vất vả. Ngược hẳn 就."
+        },
+        {
+          "id": "zh-adv-dou",
+          "pattern": "都 (dōu)",
+          "formationRule": "Đứng SAU chủ ngữ số nhiều và TRƯỚC động từ. Đối tượng mà 都 gộp phải nêu TRƯỚC 都.",
+          "meaningVn": "Đều / tất cả",
+          "nuanceVn": "Quy tắc sắt: mọi thứ mà 都 bao quát phải đứng TRƯỚC nó. Vì vậy 我都喜欢这两本书 hơi lỏng, tự nhiên hơn là 这两本书我都喜欢. Ngoài ra 都 còn nghĩa \"đã… rồi cơ\" (都十点了！).",
+          "level": "so-cap",
+          "register": "trung tính (HSK 1-2)",
+          "examples": [
+            {
+              "sentence": "我们都是学生。",
+              "translationVn": "Chúng tôi đều là học sinh."
+            },
+            {
+              "sentence": "这两本书我都看过。",
+              "translationVn": "Cả hai cuốn sách này tôi đều đọc rồi.",
+              "note": "Đối tượng 这两本书 đưa lên TRƯỚC 都 — trật tự tự nhiên nhất."
+            },
+            {
+              "sentence": "都十点了，快起床！",
+              "translationVn": "Mười giờ rồi đấy, mau dậy đi!",
+              "note": "Nghĩa phái sinh: nhấn mạnh \"đã muộn thế rồi\"."
+            }
+          ],
+          "commonMistakeVn": "Đặt đối tượng sau 都 (我都喜欢这两本书 — không sai hẳn nhưng kém tự nhiên; đảo lên trước sẽ chuẩn hơn).",
+          "mnemonicVn": "都 gom mọi thứ đứng TRƯỚC nó lại thành một bó."
+        },
+        {
+          "id": "zh-adv-hai",
+          "pattern": "还 (hái)",
+          "formationRule": "Đứng trước động từ/tính từ. Ba nghĩa: còn (还在睡), thêm nữa (还要一杯), khá (还不错).",
+          "meaningVn": "Vẫn còn / thêm nữa / cũng khá",
+          "nuanceVn": "还 mang ý TIẾP DIỄN hoặc BỔ SUNG. Cụm 还不错 (cũng khá đấy) là lối khen dè dặt rất thông dụng, người học hay hiểu nhầm thành \"vẫn không tệ\".",
+          "level": "so-cap",
+          "register": "trung tính (HSK 2-3)",
+          "confusionGroupId": "zai-vs-you-vs-hai",
+          "examples": [
+            {
+              "sentence": "他还在睡觉。",
+              "translationVn": "Cậu ấy vẫn còn đang ngủ.",
+              "note": "Nghĩa \"vẫn còn tiếp diễn\"."
+            },
+            {
+              "sentence": "我还要一杯咖啡。",
+              "translationVn": "Tôi muốn thêm một cốc cà phê nữa.",
+              "note": "Nghĩa \"thêm nữa\"."
+            },
+            {
+              "sentence": "这个菜还不错。",
+              "translationVn": "Món này cũng khá đấy.",
+              "note": "Lối khen dè dặt — không phải chê."
+            }
+          ],
+          "mnemonicVn": "还 = \"vẫn còn đó / còn thêm nữa\" — chưa dừng lại."
+        },
+        {
+          "id": "zh-adv-zai",
+          "pattern": "再 (zài)",
+          "formationRule": "Đứng trước động từ, dùng cho việc lặp lại CHƯA xảy ra (tương lai). Không dùng với 了.",
+          "meaningVn": "Lại (lần nữa, trong tương lai)",
+          "nuanceVn": "再 chỉ dùng cho lần lặp lại SẮP TỚI: 明天再来 (mai lại đến). Nếu việc lặp lại ĐÃ xảy ra rồi thì phải dùng 又. Đây là ranh giới tuyệt đối, không linh hoạt.",
+          "level": "so-cap",
+          "register": "trung tính (HSK 2-3)",
+          "confusionGroupId": "zai-vs-you-vs-hai",
+          "examples": [
+            {
+              "sentence": "明天再说吧。",
+              "translationVn": "Mai nói tiếp nhé.",
+              "note": "Việc lặp lại nằm ở TƯƠNG LAI."
+            },
+            {
+              "sentence": "请再说一遍。",
+              "translationVn": "Làm ơn nói lại một lần nữa.",
+              "note": "Yêu cầu lặp lại — chưa xảy ra."
+            },
+            {
+              "sentence": "我下次再来。",
+              "translationVn": "Lần sau tôi lại đến."
+            }
+          ],
+          "commonMistakeVn": "Dùng 再 cho việc đã lặp lại rồi (他昨天再来了 ✗ → 他昨天又来了).",
+          "mnemonicVn": "再 nhìn về TƯƠNG LAI; 又 nhìn về QUÁ KHỨ."
+        },
+        {
+          "id": "zh-adv-you",
+          "pattern": "又 (yòu)",
+          "formationRule": "Đứng trước động từ, dùng cho việc lặp lại ĐÃ xảy ra. Thường đi với 了: 又来了.",
+          "meaningVn": "Lại (lần nữa, đã xảy ra)",
+          "nuanceVn": "又 dành cho lần lặp lại ĐÃ THÀNH SỰ THẬT, và thường kèm sắc thái bực bội/ngán ngẩm (他又迟到了 = lại muộn nữa rồi). Ngoài ra 又…又… nghĩa là \"vừa…vừa…\".",
+          "level": "so-cap",
+          "register": "trung tính (HSK 3)",
+          "confusionGroupId": "zai-vs-you-vs-hai",
+          "examples": [
+            {
+              "sentence": "他又迟到了。",
+              "translationVn": "Cậu ta lại đến muộn nữa rồi.",
+              "note": "Đã xảy ra + sắc thái ngán ngẩm."
+            },
+            {
+              "sentence": "今天又下雨了。",
+              "translationVn": "Hôm nay trời lại mưa rồi."
+            },
+            {
+              "sentence": "这个菜又便宜又好吃。",
+              "translationVn": "Món này vừa rẻ vừa ngon.",
+              "note": "Cấu trúc 又…又… — nghĩa hoàn toàn khác."
+            }
+          ],
+          "commonMistakeVn": "Dùng 又 cho việc tương lai (我明天又来 ✗ → 我明天再来).",
+          "mnemonicVn": "又 = \"lại nữa rồi!\" — việc đã rồi, thường kèm cái thở dài."
+        },
+        {
+          "id": "zh-adv-ye",
+          "pattern": "也 (yě)",
+          "formationRule": "Đứng SAU chủ ngữ, TRƯỚC động từ. Không bao giờ đứng đầu câu như \"cũng\" tiếng Việt.",
+          "meaningVn": "Cũng",
+          "nuanceVn": "Vị trí cố định là giữa chủ ngữ và động từ: 我也去 ✓, 也我去 ✗. Người Việt hay đặt 也 sai chỗ vì tiếng Việt cho phép \"tôi cũng đi\" lẫn \"cũng như tôi thì…\".",
+          "level": "so-cap",
+          "register": "trung tính (HSK 1)",
+          "examples": [
+            {
+              "sentence": "我也是学生。",
+              "translationVn": "Tôi cũng là học sinh."
+            },
+            {
+              "sentence": "他会说汉语，也会说英语。",
+              "translationVn": "Cậu ấy biết nói tiếng Trung, cũng biết nói tiếng Anh."
+            },
+            {
+              "sentence": "你不去，我也不去。",
+              "translationVn": "Bạn không đi thì tôi cũng không đi."
+            }
+          ],
+          "commonMistakeVn": "Đặt 也 đầu câu (也我去 ✗).",
+          "mnemonicVn": "也 luôn nằm kẹp giữa \"ai\" và \"làm gì\"."
+        },
+        {
+          "id": "zh-adv-que",
+          "pattern": "却 (què)",
+          "formationRule": "Đứng SAU chủ ngữ, TRƯỚC động từ (khác 但是 đứng đầu vế). Hay dùng chung: 虽然…但是…却….",
+          "meaningVn": "Thế mà / nhưng lại",
+          "nuanceVn": "却 diễn tả sự TRÁI VỚI MONG ĐỢI, nhưng khác 但是 ở vị trí: 但是 mở đầu vế câu, còn 却 phải nằm trong lòng vế, sau chủ ngữ. Người học hay bê nguyên vị trí của 但是 sang cho 却.",
+          "level": "trung-cap",
+          "register": "văn viết hơi trang trọng (HSK 4)",
+          "examples": [
+            {
+              "sentence": "他很努力，却没有成功。",
+              "translationVn": "Anh ấy rất cố gắng, thế mà lại không thành công.",
+              "note": "却 nằm SAU chủ ngữ ngầm, không đứng đầu vế."
+            },
+            {
+              "sentence": "雨很大，他却没带伞。",
+              "translationVn": "Mưa rất to, vậy mà cậu ấy lại không mang ô."
+            },
+            {
+              "sentence": "虽然很便宜，质量却很好。",
+              "translationVn": "Tuy rất rẻ nhưng chất lượng lại rất tốt."
+            }
+          ],
+          "commonMistakeVn": "Đặt 却 đầu vế như 但是 (他很努力，却他没有成功 ✗).",
+          "mnemonicVn": "但是 đứng cửa vế câu; 却 nấp bên trong, ngay trước động từ."
+        }
+      ]
+    },
+    {
+      "id": "modal-verbs",
+      "titleVn": "能愿动词 (Động từ năng nguyện: 会 / 能 / 可以 / 要 / 想 …)",
+      "points": [
+        {
+          "id": "zh-modal-hui",
+          "pattern": "会 (huì)",
+          "formationRule": "会 + động từ. Phủ định 不会. Cũng dùng cho dự đoán tương lai: 明天会下雨.",
+          "meaningVn": "Biết (do học mà có) / sẽ (dự đoán)",
+          "nuanceVn": "会 chỉ kỹ năng CÓ ĐƯỢC QUA HỌC TẬP (会游泳, 会说汉语) — không dùng cho khả năng sinh lý hay điều kiện cho phép. Nghĩa thứ hai là dự đoán tương lai có căn cứ.",
+          "level": "so-cap",
+          "register": "trung tính (HSK 1-2)",
+          "confusionGroupId": "hui-neng-keyi",
+          "examples": [
+            {
+              "sentence": "我会说一点儿汉语。",
+              "translationVn": "Tôi biết nói một chút tiếng Trung.",
+              "note": "Kỹ năng học mà có → 会."
+            },
+            {
+              "sentence": "他不会游泳。",
+              "translationVn": "Cậu ấy không biết bơi."
+            },
+            {
+              "sentence": "明天会下雨。",
+              "translationVn": "Ngày mai trời sẽ mưa.",
+              "note": "Nghĩa dự đoán tương lai."
+            }
+          ],
+          "commonMistakeVn": "Dùng 会 cho điều kiện cho phép (今天我会去 khi ý là \"hôm nay tôi rảnh nên đi được\" → phải dùng 能).",
+          "mnemonicVn": "会 = \"học rồi nên biết làm\"."
+        },
+        {
+          "id": "zh-modal-neng",
+          "pattern": "能 (néng)",
+          "formationRule": "能 + động từ. Phủ định 不能. Hay dùng khi nói về điều kiện/hoàn cảnh cụ thể.",
+          "meaningVn": "Có thể (đủ điều kiện / đủ sức)",
+          "nuanceVn": "能 nói về ĐIỀU KIỆN KHÁCH QUAN hoặc năng lực thể chất tại thời điểm đó: 我今天不能去 (hôm nay bận nên không đi được — chứ không phải \"không biết đi\"). Cũng dùng khi nêu mức độ cụ thể: 他能喝五瓶啤酒.",
+          "level": "so-cap",
+          "register": "trung tính (HSK 1-2)",
+          "confusionGroupId": "hui-neng-keyi",
+          "examples": [
+            {
+              "sentence": "我今天不能去，有事。",
+              "translationVn": "Hôm nay tôi không đi được, có việc.",
+              "note": "Điều kiện hoàn cảnh, không liên quan kỹ năng."
+            },
+            {
+              "sentence": "他病了，不能上班。",
+              "translationVn": "Cậu ấy ốm nên không đi làm được.",
+              "note": "Năng lực thể chất."
+            },
+            {
+              "sentence": "你能帮我一下吗？",
+              "translationVn": "Bạn có thể giúp tôi một chút không?"
+            }
+          ],
+          "commonMistakeVn": "Dùng 能 cho kỹ năng học được (我能说汉语 — nghe như \"hoàn cảnh cho phép tôi nói\", nên nói 我会说汉语).",
+          "mnemonicVn": "能 = \"hoàn cảnh/sức lực cho phép\"."
+        },
+        {
+          "id": "zh-modal-keyi",
+          "pattern": "可以 (kěyǐ)",
+          "formationRule": "可以 + động từ. Phủ định thường là 不能 hoặc 不可以 (cấm), ít khi 不可以 dùng nhẹ.",
+          "meaningVn": "Được phép",
+          "nuanceVn": "可以 thiên về SỰ CHO PHÉP (quy định, phép tắc): 这里可以抽烟吗？= ở đây có được hút thuốc không? Khi từ chối thì tiếng Trung hay dùng 不能 thay vì 不可以, vì 不可以 nghe rất nặng như cấm đoán.",
+          "level": "so-cap",
+          "register": "trung tính (HSK 2)",
+          "confusionGroupId": "hui-neng-keyi",
+          "examples": [
+            {
+              "sentence": "这里可以抽烟吗？",
+              "translationVn": "Ở đây có được hút thuốc không?",
+              "note": "Hỏi về sự cho phép theo quy định."
+            },
+            {
+              "sentence": "你可以先走。",
+              "translationVn": "Bạn có thể đi trước."
+            },
+            {
+              "sentence": "图书馆里不能大声说话。",
+              "translationVn": "Trong thư viện không được nói to.",
+              "note": "Từ chối/cấm dùng 不能 nghe tự nhiên hơn 不可以."
+            }
+          ],
+          "mnemonicVn": "会 = biết làm; 能 = làm nổi; 可以 = được phép làm."
+        },
+        {
+          "id": "zh-modal-yao",
+          "pattern": "要 (yào)",
+          "formationRule": "要 + động từ (muốn/phải/sẽ). Phủ định của \"muốn\" là 不想, của \"phải\" là 不用 — KHÔNG phải 不要.",
+          "meaningVn": "Muốn / phải / sắp",
+          "nuanceVn": "Cái bẫy lớn: 不要 KHÔNG phải phủ định của 要, mà có nghĩa \"đừng\" (不要走 = đừng đi). Muốn nói \"không muốn\" thì dùng 不想, \"không cần\" thì dùng 不用.",
+          "level": "so-cap",
+          "register": "trung tính (HSK 1-2)",
+          "confusionGroupId": "yao-vs-xiang",
+          "examples": [
+            {
+              "sentence": "我要一杯咖啡。",
+              "translationVn": "Tôi muốn một cốc cà phê."
+            },
+            {
+              "sentence": "明天我要开会。",
+              "translationVn": "Ngày mai tôi phải họp.",
+              "note": "Nghĩa \"phải\" — nghĩa vụ."
+            },
+            {
+              "sentence": "不要走！",
+              "translationVn": "Đừng đi!",
+              "note": "Bẫy kinh điển: 不要 = \"đừng\", không phải \"không muốn\"."
+            }
+          ],
+          "commonMistakeVn": "Nói 我不要去 khi ý là \"tôi không muốn đi\" — câu đó nghe như đang ra lệnh/từ chối gay gắt; nên nói 我不想去.",
+          "mnemonicVn": "要 = muốn/phải; nhưng 不要 = ĐỪNG. Phủ định \"không muốn\" phải mượn 不想."
+        },
+        {
+          "id": "zh-modal-xiang",
+          "pattern": "想 (xiǎng)",
+          "formationRule": "想 + động từ. Phủ định 不想. Cũng là động từ độc lập nghĩa \"nghĩ/nhớ\": 我想你了.",
+          "meaningVn": "Muốn (mong muốn) / nghĩ, nhớ",
+          "nuanceVn": "想 nhẹ nhàng hơn 要 rất nhiều: 我想去 = tôi muốn đi (nguyện vọng) vs 我要去 = tôi phải/nhất định đi (ý chí mạnh, đôi khi nghe hơi áp đặt). Trong giao tiếp lịch sự, 想 an toàn hơn.",
+          "level": "so-cap",
+          "register": "trung tính, lịch sự hơn 要 (HSK 1-2)",
+          "confusionGroupId": "yao-vs-xiang",
+          "examples": [
+            {
+              "sentence": "我想去中国留学。",
+              "translationVn": "Tôi muốn đi Trung Quốc du học.",
+              "note": "Nguyện vọng mềm mại."
+            },
+            {
+              "sentence": "我不想吃饭。",
+              "translationVn": "Tôi không muốn ăn cơm.",
+              "note": "Đây mới là cách phủ định \"không muốn\" đúng chuẩn."
+            },
+            {
+              "sentence": "我想你了。",
+              "translationVn": "Tôi nhớ bạn rồi.",
+              "note": "想 làm động từ chính nghĩa \"nhớ\"."
+            }
+          ],
+          "mnemonicVn": "想 = \"trong lòng muốn\"; 要 = \"nhất định phải\"."
+        },
+        {
+          "id": "zh-modal-dei",
+          "pattern": "得 (děi)",
+          "formationRule": "得 (đọc děi) + động từ. Phủ định KHÔNG phải 不得 mà là 不用 (không cần).",
+          "meaningVn": "Phải (theo lẽ thường, khẩu ngữ)",
+          "nuanceVn": "Cùng chữ 得 nhưng ở đây đọc děi, hoàn toàn khác 得 (de) làm bổ ngữ — một chữ ba âm (de/dé/děi) là đặc sản gây nhầm của tiếng Trung. 得 (děi) rất khẩu ngữ, nhẹ hơn 必须.",
+          "level": "trung-cap",
+          "register": "khẩu ngữ (HSK 3-4)",
+          "confusionGroupId": "de-di-de",
+          "examples": [
+            {
+              "sentence": "我得走了。",
+              "translationVn": "Tôi phải đi rồi.",
+              "note": "Đọc là děi — khẩu ngữ, rất thông dụng khi xin phép về."
+            },
+            {
+              "sentence": "你得好好休息。",
+              "translationVn": "Bạn phải nghỉ ngơi cho tử tế."
+            },
+            {
+              "sentence": "明天不用早起。",
+              "translationVn": "Mai không cần dậy sớm.",
+              "note": "Phủ định của 得 là 不用, không phải 不得."
+            }
+          ],
+          "commonMistakeVn": "Đọc 得 thành \"de\" trong câu 我得走了 — sai âm là sai nghĩa hoàn toàn.",
+          "mnemonicVn": "Một chữ 得, ba âm: de (bổ ngữ) · dé (đạt được) · děi (phải)."
+        },
+        {
+          "id": "zh-modal-yinggai",
+          "pattern": "应该 (yīnggāi)",
+          "formationRule": "应该 + động từ. Phủ định 不应该. Rút gọn khẩu ngữ thành 该.",
+          "meaningVn": "Nên / đáng lẽ",
+          "nuanceVn": "应该 nói về BỔN PHẬN ĐẠO LÝ hoặc suy đoán hợp lý (他应该到了 = chắc anh ấy đến rồi). Nhẹ hơn 必须 (bắt buộc) và mang màu khuyên nhủ.",
+          "level": "so-cap",
+          "register": "trung tính (HSK 3)",
+          "examples": [
+            {
+              "sentence": "你应该多休息。",
+              "translationVn": "Bạn nên nghỉ ngơi nhiều hơn.",
+              "note": "Lời khuyên."
+            },
+            {
+              "sentence": "学生应该好好学习。",
+              "translationVn": "Học sinh nên chăm chỉ học hành.",
+              "note": "Bổn phận."
+            },
+            {
+              "sentence": "他应该已经到了。",
+              "translationVn": "Chắc anh ấy đã đến rồi.",
+              "note": "Nghĩa suy đoán hợp lý."
+            }
+          ],
+          "mnemonicVn": "应该 = \"theo lẽ thì nên\" — khuyên chứ không ép."
+        },
+        {
+          "id": "zh-modal-bixu",
+          "pattern": "必须 (bìxū)",
+          "formationRule": "必须 + động từ. Phủ định KHÔNG phải 不必须 mà là 不必 hoặc 不用.",
+          "meaningVn": "Bắt buộc phải",
+          "nuanceVn": "Mức độ cưỡng chế mạnh nhất trong nhóm (quy định, luật lệ). Thang độ tăng dần: 想 (muốn) < 应该 (nên) < 得 (phải, khẩu ngữ) < 必须 (bắt buộc). Nắm thang này là nắm cả nhóm.",
+          "level": "trung-cap",
+          "register": "trang trọng / văn viết (HSK 3-4)",
+          "examples": [
+            {
+              "sentence": "你必须按时交作业。",
+              "translationVn": "Bạn bắt buộc phải nộp bài đúng hạn."
+            },
+            {
+              "sentence": "进实验室必须戴口罩。",
+              "translationVn": "Vào phòng thí nghiệm bắt buộc phải đeo khẩu trang."
+            },
+            {
+              "sentence": "明天你不必来。",
+              "translationVn": "Mai bạn không cần đến.",
+              "note": "Phủ định dùng 不必, không dùng 不必须."
+            }
+          ],
+          "commonMistakeVn": "Nói 不必须 ✗ — phủ định đúng là 不必 / 不用.",
+          "mnemonicVn": "Thang cưỡng chế: 想 < 应该 < 得 < 必须."
+        }
+      ]
+    },
+    {
+      "id": "connectives",
+      "titleVn": "连词 (Liên từ nối vế câu)",
+      "points": [
+        {
+          "id": "zh-conn-yinwei",
+          "pattern": "因为…，所以…",
+          "formationRule": "因为 + nguyên nhân + ，所以 + kết quả. Tiếng Trung cho phép dùng CẢ HAI vế liên từ cùng lúc — khác tiếng Anh/Việt chỉ dùng một.",
+          "meaningVn": "Vì… nên…",
+          "nuanceVn": "Cặp liên từ nhân-quả cơ bản nhất. Điểm lạ với người học: tiếng Trung giữ cả 因为 lẫn 所以 trong cùng một câu là hoàn toàn chuẩn, không bị coi là thừa như \"vì… nên…\" bị lặp trong tiếng Anh.",
+          "level": "so-cap",
+          "register": "trung tính (HSK 2-3)",
+          "confusionGroupId": "yinwei-vs-jiran",
+          "examples": [
+            {
+              "sentence": "因为下雨，所以我没去。",
+              "translationVn": "Vì trời mưa nên tôi đã không đi.",
+              "note": "Cả hai vế liên từ cùng xuất hiện — chuẩn mực trong tiếng Trung."
+            },
+            {
+              "sentence": "他因为生病没来上课。",
+              "translationVn": "Cậu ấy vì ốm nên đã không đến lớp.",
+              "note": "Cũng có thể lược 所以 khi câu ngắn."
+            }
+          ],
+          "commonMistakeVn": "Bỏ 所以 vì sợ \"lặp\" theo thói quen tiếng Anh — câu vẫn đúng nhưng mất đi sự cân đối mà tiếng Trung ưa dùng.",
+          "mnemonicVn": "Tiếng Trung thích liên từ ĐI THÀNH CẶP: 因为…所以, 虽然…但是, 不但…而且."
+        },
+        {
+          "id": "zh-conn-jiran",
+          "pattern": "既然…，就…",
+          "formationRule": "既然 + sự thật ĐÃ BIẾT + ，就 + kết luận/đề nghị.",
+          "meaningVn": "Đã… thì…",
+          "nuanceVn": "Khác 因为 ở chỗ: 因为 đưa ra nguyên nhân MỚI cho người nghe biết, còn 既然 dựa trên điều CẢ HAI ĐÃ BIẾT rồi để rút ra kết luận. Vì vậy 既然 thường đi với lời khuyên/quyết định.",
+          "level": "trung-cap",
+          "register": "trung tính (HSK 4)",
+          "confusionGroupId": "yinwei-vs-jiran",
+          "examples": [
+            {
+              "sentence": "既然你不舒服，就早点休息吧。",
+              "translationVn": "Đã không khoẻ thì nghỉ sớm đi.",
+              "note": "Việc \"không khoẻ\" là điều cả hai đều biết — nên dùng 既然 chứ không phải 因为."
+            },
+            {
+              "sentence": "既然决定了，就别后悔。",
+              "translationVn": "Đã quyết rồi thì đừng hối hận."
+            }
+          ],
+          "commonMistakeVn": "Dùng 既然 để thông báo nguyên nhân mới (既然下雨了，所以我没去 — nghe sai, phải dùng 因为).",
+          "mnemonicVn": "因为 = \"tôi cho bạn biết lý do\"; 既然 = \"chuyện đó ai cũng biết rồi, vậy thì…\"."
+        },
+        {
+          "id": "zh-conn-suiran",
+          "pattern": "虽然…，但是…",
+          "formationRule": "虽然 + sự thật + ，但是/可是 + điều trái ngược. 但是 KHÔNG bỏ được, khác tiếng Anh (although… ø).",
+          "meaningVn": "Tuy… nhưng…",
+          "nuanceVn": "Nhượng bộ với sự thật CÓ THẬT. Lỗi nặng nhất của người học tiếng Anh: bỏ 但是 vì tiếng Anh không cho phép \"although… but…\". Tiếng Trung thì BẮT BUỘC giữ vế sau.",
+          "level": "so-cap",
+          "register": "trung tính (HSK 3)",
+          "confusionGroupId": "suiran-vs-jishi",
+          "examples": [
+            {
+              "sentence": "虽然很累，但是我很开心。",
+              "translationVn": "Tuy rất mệt nhưng tôi rất vui.",
+              "note": "但是 bắt buộc phải có."
+            },
+            {
+              "sentence": "这家店虽然小，可是东西很全。",
+              "translationVn": "Quán này tuy nhỏ nhưng hàng hoá rất đủ."
+            }
+          ],
+          "commonMistakeVn": "虽然很累，我很开心 ✗ — thiếu 但是/可是, câu bị cụt theo cảm nhận của người bản ngữ.",
+          "mnemonicVn": "Tiếng Anh cấm \"although…but\"; tiếng Trung thì BẮT BUỘC có đủ cặp. Ngược hẳn nhau."
+        },
+        {
+          "id": "zh-conn-jishi",
+          "pattern": "即使…，也…",
+          "formationRule": "即使/就算 + giả định + ，也 + kết quả không đổi.",
+          "meaningVn": "Dù cho… thì cũng…",
+          "nuanceVn": "Nhượng bộ với điều GIẢ ĐỊNH, chưa xảy ra — khác 虽然 (sự thật có thật). So sánh: 虽然下雨 = trời ĐANG mưa thật; 即使下雨 = giả sử trời có mưa đi nữa.",
+          "level": "trung-cap",
+          "register": "trung tính (HSK 4)",
+          "confusionGroupId": "suiran-vs-jishi",
+          "examples": [
+            {
+              "sentence": "即使下雨，我们也要去。",
+              "translationVn": "Dù trời có mưa thì chúng ta vẫn cứ đi.",
+              "note": "Trời CHƯA mưa — mới chỉ là giả định."
+            },
+            {
+              "sentence": "就算失败了，也没关系。",
+              "translationVn": "Cho dù có thất bại thì cũng không sao."
+            }
+          ],
+          "commonMistakeVn": "Dùng 即使 cho sự thật đang diễn ra (即使今天下雨，我也没去 ✗ → 虽然).",
+          "mnemonicVn": "虽然 = chuyện CÓ THẬT; 即使 = chuyện GIẢ SỬ. Vế sau: 虽然→但是, 即使→也."
+        },
+        {
+          "id": "zh-conn-budan",
+          "pattern": "不但…，而且…",
+          "formationRule": "不但/不仅 + A + ，而且/还/也 + B. Nếu hai vế CÙNG chủ ngữ thì chủ ngữ đứng TRƯỚC 不但; nếu khác chủ ngữ thì đứng SAU.",
+          "meaningVn": "Không những… mà còn…",
+          "nuanceVn": "Quy tắc vị trí chủ ngữ là điểm ngữ pháp thật sự của cấu trúc này, và hay bị bỏ qua: 他不但会英语，而且会法语 (cùng chủ ngữ) vs 不但他会，而且我也会 (khác chủ ngữ).",
+          "level": "trung-cap",
+          "register": "trung tính (HSK 3-4)",
+          "examples": [
+            {
+              "sentence": "他不但会说英语，而且会说法语。",
+              "translationVn": "Cậu ấy không những biết tiếng Anh mà còn biết tiếng Pháp.",
+              "note": "Cùng chủ ngữ 他 → đặt TRƯỚC 不但."
+            },
+            {
+              "sentence": "不但他来了，而且他父母也来了。",
+              "translationVn": "Không những cậu ấy đến mà cả bố mẹ cậu ấy cũng đến.",
+              "note": "Khác chủ ngữ → 不但 đứng trước, chủ ngữ đứng sau."
+            }
+          ],
+          "commonMistakeVn": "Đặt sai vị trí chủ ngữ khi hai vế khác chủ thể.",
+          "mnemonicVn": "Cùng chủ ngữ → chủ ngữ đứng ngoài; khác chủ ngữ → 不但 ôm lấy từng chủ ngữ."
+        },
+        {
+          "id": "zh-conn-zhiyao",
+          "pattern": "只要…，就…",
+          "formationRule": "只要 + điều kiện ĐỦ + ，就 + kết quả.",
+          "meaningVn": "Chỉ cần… là…",
+          "nuanceVn": "Nêu điều kiện ĐỦ (làm được điều này là xong, có thể còn cách khác). Cặp với 就 — phù hợp sắc thái \"dễ, nhanh\" của 就.",
+          "level": "trung-cap",
+          "register": "trung tính (HSK 3-4)",
+          "confusionGroupId": "zhiyao-vs-zhiyou",
+          "examples": [
+            {
+              "sentence": "只要努力，就能成功。",
+              "translationVn": "Chỉ cần nỗ lực là sẽ thành công.",
+              "note": "Nỗ lực là điều kiện ĐỦ."
+            },
+            {
+              "sentence": "只要你来，我就很高兴。",
+              "translationVn": "Chỉ cần bạn đến là tôi đã rất vui rồi."
+            }
+          ],
+          "mnemonicVn": "只要…就 = \"chỉ cần thế là được\" (dễ); 只有…才 = \"phải đúng thế mới được\" (khó)."
+        },
+        {
+          "id": "zh-conn-zhiyou",
+          "pattern": "只有…，才…",
+          "formationRule": "只有 + điều kiện DUY NHẤT + ，才 + kết quả.",
+          "meaningVn": "Chỉ có… mới…",
+          "nuanceVn": "Nêu điều kiện CẦN DUY NHẤT — không còn cách nào khác. Vì vậy bắt buộc đi với 才 (muộn/khó), không bao giờ đi với 就.",
+          "level": "trung-cap",
+          "register": "trung tính (HSK 4)",
+          "confusionGroupId": "zhiyao-vs-zhiyou",
+          "examples": [
+            {
+              "sentence": "只有努力，才能成功。",
+              "translationVn": "Chỉ có nỗ lực mới có thể thành công.",
+              "note": "Nỗ lực là con đường DUY NHẤT — sắc thái khác hẳn 只要努力就能成功."
+            },
+            {
+              "sentence": "只有他才知道答案。",
+              "translationVn": "Chỉ có anh ấy mới biết đáp án."
+            }
+          ],
+          "commonMistakeVn": "Ghép nhầm cặp: 只有…就 ✗ hoặc 只要…才 ✗. Cặp cố định là 只要…就 và 只有…才.",
+          "mnemonicVn": "要(cần)→就(là xong); 有(duy có)→才(mới). Nhớ theo cặp, đừng ghép chéo."
+        },
+        {
+          "id": "zh-conn-wulun",
+          "pattern": "无论/不管…，都…",
+          "formationRule": "无论/不管 + từ nghi vấn hoặc A还是B + ，都/也 + kết quả. Vế đầu BẮT BUỘC chứa yếu tố \"bất định\" (谁/什么/怎么 hoặc A还是B).",
+          "meaningVn": "Bất kể… đều…",
+          "nuanceVn": "Điều kiện quan trọng mà người học hay quên: sau 无论 phải có thành phần BẤT ĐỊNH. Không thể nói 无论下雨，我都去 ✗ — phải là 无论下不下雨，我都去.",
+          "level": "trung-cap",
+          "register": "无论 văn viết / 不管 khẩu ngữ (HSK 4)",
+          "examples": [
+            {
+              "sentence": "无论多难，我都会坚持。",
+              "translationVn": "Bất kể khó đến đâu, tôi đều sẽ kiên trì.",
+              "note": "多难 là yếu tố bất định."
+            },
+            {
+              "sentence": "不管下不下雨，比赛都照常进行。",
+              "translationVn": "Bất kể có mưa hay không, trận đấu vẫn diễn ra bình thường.",
+              "note": "Dạng \"下不下雨\" chính là yếu tố bất định bắt buộc."
+            }
+          ],
+          "commonMistakeVn": "无论下雨，我都去 ✗ — thiếu yếu tố bất định, phải là 下不下雨 hoặc 无论什么天气.",
+          "mnemonicVn": "无论 luôn cần một \"dấu hỏi\" phía sau: 谁/什么/多少/怎么 hoặc \"V不V\"."
+        }
+      ]
+    },
+    {
+      "id": "existential",
+      "titleVn": "存现句 (Câu tồn tại: 有 / 是 / 在)",
+      "points": [
+        {
+          "id": "zh-exist-you",
+          "pattern": "Nơi chốn + 有 + vật",
+          "formationRule": "Nơi chốn + 有 + vật (KHÔNG xác định). Phủ định 没有.",
+          "meaningVn": "Ở đâu CÓ cái gì",
+          "nuanceVn": "Giới thiệu sự tồn tại của vật MỚI, người nghe chưa biết. Vì thế vật sau 有 không được mang 这/那: 桌子上有一本书 ✓, 桌子上有那本书 ✗.",
+          "level": "so-cap",
+          "register": "trung tính (HSK 1)",
+          "confusionGroupId": "you-shi-zai",
+          "examples": [
+            {
+              "sentence": "桌子上有一本书。",
+              "translationVn": "Trên bàn có một cuốn sách.",
+              "note": "Sách là thông tin MỚI → dùng 有."
+            },
+            {
+              "sentence": "教室里没有人。",
+              "translationVn": "Trong lớp không có ai."
+            }
+          ],
+          "commonMistakeVn": "Đặt vật xác định sau 有 (这儿有那本书 ✗).",
+          "mnemonicVn": "有 = giới thiệu cái MỚI: \"ở đó có (một) …\"."
+        },
+        {
+          "id": "zh-exist-shi",
+          "pattern": "Nơi chốn + 是 + vật",
+          "formationRule": "Nơi chốn + 是 + vật. Vật có thể xác định.",
+          "meaningVn": "Ở đâu LÀ cái gì (lấp đầy toàn bộ không gian đó)",
+          "nuanceVn": "Khác 有 ở chỗ 是 hàm ý cái đó CHIẾM TRỌN vị trí ấy, mang tính nhận diện: 桌子上是那本书 = trên bàn (thứ nằm đó) chính là cuốn sách kia. 学校对面是银行 = đối diện trường chính là ngân hàng (không còn gì khác).",
+          "level": "trung-cap",
+          "register": "trung tính (HSK 3)",
+          "confusionGroupId": "you-shi-zai",
+          "examples": [
+            {
+              "sentence": "学校对面是一家银行。",
+              "translationVn": "Đối diện trường học là một ngân hàng.",
+              "note": "Ngân hàng chiếm trọn vị trí đó."
+            },
+            {
+              "sentence": "房子后面都是树。",
+              "translationVn": "Phía sau nhà toàn là cây.",
+              "note": "Dùng 都是 nhấn mạnh \"toàn bộ đều là\"."
+            }
+          ],
+          "mnemonicVn": "有 = \"có (một trong nhiều thứ)\"; 是 = \"chính là (chiếm trọn chỗ đó)\"."
+        },
+        {
+          "id": "zh-exist-zai",
+          "pattern": "Vật + 在 + nơi chốn",
+          "formationRule": "Vật (XÁC ĐỊNH) + 在 + nơi chốn. Trật tự NGƯỢC với 有/是.",
+          "meaningVn": "Cái gì Ở đâu",
+          "nuanceVn": "Trật tự từ đảo ngược chính là mấu chốt: 有/是 đi từ NƠI CHỐN → VẬT (giới thiệu vật mới), còn 在 đi từ VẬT → NƠI CHỐN (vật đã biết, chỉ hỏi nó nằm đâu). Chọn sai cấu trúc là chọn sai thông tin nào đã biết.",
+          "level": "so-cap",
+          "register": "trung tính (HSK 1)",
+          "confusionGroupId": "you-shi-zai",
+          "examples": [
+            {
+              "sentence": "我的书在桌子上。",
+              "translationVn": "Sách của tôi ở trên bàn.",
+              "note": "Sách đã xác định (của tôi) → dùng 在 và đứng TRƯỚC."
+            },
+            {
+              "sentence": "他在图书馆。",
+              "translationVn": "Anh ấy đang ở thư viện."
+            }
+          ],
+          "commonMistakeVn": "Nói 在桌子上我的书 ✗ — đảo sai trật tự. Vật xác định luôn đứng đầu câu với 在.",
+          "mnemonicVn": "Cái CHƯA BIẾT thì nơi chốn đi trước (有/是); cái ĐÃ BIẾT thì vật đi trước (在)."
+        },
+        {
+          "id": "zh-exist-zhe",
+          "pattern": "Nơi chốn + V着 + vật",
+          "formationRule": "Nơi chốn + động từ + 着 + vật (không xác định).",
+          "meaningVn": "Ở đâu đang (ở trạng thái) … cái gì",
+          "nuanceVn": "Biến thể sinh động của câu tồn tại: thay vì chỉ nói \"có\", nó nói RÕ vật tồn tại ở TƯ THẾ nào — treo, dán, đặt, nằm. 墙上挂着画 sinh động hơn hẳn 墙上有画.",
+          "level": "trung-cap",
+          "register": "trung tính (HSK 3-4)",
+          "examples": [
+            {
+              "sentence": "墙上挂着一幅画。",
+              "translationVn": "Trên tường treo một bức tranh.",
+              "note": "Vừa nói có tranh, vừa nói tranh đang TREO."
+            },
+            {
+              "sentence": "门口停着一辆车。",
+              "translationVn": "Trước cửa đỗ một chiếc xe."
+            }
+          ],
+          "mnemonicVn": "有 chỉ nói \"có\"; V着 nói thêm \"có, và nó đang ở tư thế ấy\"."
+        },
+        {
+          "id": "zh-exist-fasheng",
+          "pattern": "Nơi chốn/thời gian + 发生/出现 + sự việc",
+          "formationRule": "Trạng ngữ nơi chốn/thời gian + 发生/出现 + danh từ chỉ sự việc.",
+          "meaningVn": "Ở đâu/khi nào XẢY RA việc gì",
+          "nuanceVn": "Câu tồn tại dùng cho SỰ VIỆC thay vì vật thể. Lưu ý 发生 là nội động từ — không nói 他发生了事故 theo kiểu \"anh ấy gây ra tai nạn\" mà nói 他出了事故 hoặc 发生了事故.",
+          "level": "trung-cap",
+          "register": "trung tính (HSK 4)",
+          "examples": [
+            {
+              "sentence": "昨天这里发生了一起事故。",
+              "translationVn": "Hôm qua ở đây đã xảy ra một vụ tai nạn."
+            },
+            {
+              "sentence": "天空中出现了一道彩虹。",
+              "translationVn": "Trên bầu trời xuất hiện một chiếc cầu vồng."
+            }
+          ],
+          "commonMistakeVn": "Dùng 发生 như ngoại động từ có chủ thể gây ra (他发生了错误 ✗ → 他犯了错误).",
+          "mnemonicVn": "发生/出现 = \"tự nó xảy ra/hiện ra\" — không có ai làm chủ ngữ gây ra cả."
+        }
+      ]
+    },
+    {
+      "id": "reduplication",
+      "titleVn": "重叠 (Lặp từ — làm nhẹ hoặc nhấn mạnh)",
+      "points": [
+        {
+          "id": "zh-redup-vv",
+          "pattern": "VV / V一V (看看, 看一看)",
+          "formationRule": "Lặp động từ đơn âm: 看看 hoặc 看一看. Động từ hai âm ABAB: 休息休息.",
+          "meaningVn": "Làm … một chút, thử … xem",
+          "nuanceVn": "Lặp động từ làm câu NHẸ đi, lịch sự hơn, hàm ý \"chỉ một chút thôi, không phiền đâu\". Đây là cách làm mềm lời đề nghị thông dụng nhất trong khẩu ngữ tiếng Trung.",
+          "level": "so-cap",
+          "register": "khẩu ngữ (HSK 2-3)",
+          "confusionGroupId": "redup-forms",
+          "examples": [
+            {
+              "sentence": "你看看这个。",
+              "translationVn": "Bạn xem cái này một chút đi.",
+              "note": "Nhẹ nhàng hơn hẳn 你看这个."
+            },
+            {
+              "sentence": "我们休息休息吧。",
+              "translationVn": "Chúng ta nghỉ một chút đi.",
+              "note": "Động từ 2 âm lặp theo kiểu ABAB, không phải AABB."
+            }
+          ],
+          "commonMistakeVn": "Lặp động từ hai âm thành AABB (休休息息 ✗) — chỉ TÍNH TỪ mới lặp kiểu AABB.",
+          "mnemonicVn": "ĐỘNG TỪ lặp ABAB (休息休息); TÍNH TỪ lặp AABB (高高兴兴). Nhớ ngược là sai ngay."
+        },
+        {
+          "id": "zh-redup-vlev",
+          "pattern": "V了V (看了看)",
+          "formationRule": "Động từ + 了 + động từ lặp lại. Chỉ dùng cho việc ĐÃ xảy ra.",
+          "meaningVn": "Đã … một cái, đã … qua loa",
+          "nuanceVn": "Dạng quá khứ của VV — hành động ngắn đã diễn ra rồi. 他看了看表 = anh ấy liếc đồng hồ một cái (nhanh, thoáng qua).",
+          "level": "trung-cap",
+          "register": "khẩu ngữ (HSK 3-4)",
+          "confusionGroupId": "redup-forms",
+          "examples": [
+            {
+              "sentence": "他看了看表，站起来了。",
+              "translationVn": "Anh ấy liếc đồng hồ một cái rồi đứng dậy."
+            },
+            {
+              "sentence": "我想了想，还是决定去。",
+              "translationVn": "Tôi nghĩ một lát rồi vẫn quyết định đi."
+            }
+          ],
+          "mnemonicVn": "VV = sẽ làm một chút; V了V = đã làm một cái rồi."
+        },
+        {
+          "id": "zh-redup-aabb",
+          "pattern": "AABB (高高兴兴, 干干净净)",
+          "formationRule": "Tính từ hai âm AB lặp thành AABB. Thường thêm 地 khi làm trạng ngữ, thêm 的 khi làm định ngữ.",
+          "meaningVn": "Dạng lặp của tính từ — sinh động, nhấn mạnh",
+          "nuanceVn": "Khác hẳn động từ: lặp TÍNH TỪ không làm nhẹ mà làm ĐẬM và sinh động hơn, mang màu khẩu ngữ ấm áp. Lưu ý tính từ đã lặp thì KHÔNG dùng thêm 很: 很干干净净 ✗.",
+          "level": "trung-cap",
+          "register": "khẩu ngữ (HSK 4)",
+          "confusionGroupId": "redup-forms",
+          "examples": [
+            {
+              "sentence": "房间打扫得干干净净。",
+              "translationVn": "Căn phòng được dọn sạch sẽ tinh tươm.",
+              "note": "Đậm và sinh động hơn 很干净."
+            },
+            {
+              "sentence": "孩子们高高兴兴地回家了。",
+              "translationVn": "Bọn trẻ vui vẻ hớn hở về nhà."
+            }
+          ],
+          "commonMistakeVn": "Thêm 很 vào trước tính từ đã lặp (很高高兴兴 ✗) — bản thân dạng lặp đã mang sẵn mức độ.",
+          "mnemonicVn": "Động từ lặp → NHẸ đi; tính từ lặp → ĐẬM lên. Hai hướng ngược nhau."
+        },
+        {
+          "id": "zh-redup-aa",
+          "pattern": "AA (慢慢, 好好)",
+          "formationRule": "Tính từ/phó từ đơn âm lặp đôi, thường + 地 khi bổ nghĩa cho động từ.",
+          "meaningVn": "Từ từ, cho kỹ, cho tử tế",
+          "nuanceVn": "好好 và 慢慢 là hai từ lặp thông dụng nhất, mang sắc thái nhắc nhở trìu mến: 好好休息 = nghỉ cho tử tế vào, 慢慢来 = từ từ thôi, đừng vội.",
+          "level": "so-cap",
+          "register": "khẩu ngữ (HSK 2-3)",
+          "examples": [
+            {
+              "sentence": "你要好好休息。",
+              "translationVn": "Bạn phải nghỉ ngơi cho tử tế."
+            },
+            {
+              "sentence": "慢慢来，别着急。",
+              "translationVn": "Từ từ thôi, đừng vội."
+            }
+          ],
+          "mnemonicVn": "好好/慢慢 = giọng dặn dò thân tình của người Trung Quốc."
+        },
+        {
+          "id": "zh-redup-yixia",
+          "pattern": "V 一下",
+          "formationRule": "Động từ + 一下. Dùng được cả với động từ 2 âm (介绍一下), nơi mà dạng lặp nghe nặng nề hơn.",
+          "meaningVn": "Làm … một chút",
+          "nuanceVn": "Gần như đồng nghĩa với VV nhưng LINH HOẠT hơn: ghép được với động từ hai âm tiết một cách tự nhiên (介绍一下 tự nhiên hơn 介绍介绍) và đặc biệt hợp khi nhờ vả người lạ.",
+          "level": "so-cap",
+          "register": "khẩu ngữ (HSK 2)",
+          "confusionGroupId": "redup-forms",
+          "examples": [
+            {
+              "sentence": "请介绍一下你自己。",
+              "translationVn": "Xin hãy giới thiệu một chút về bản thân.",
+              "note": "Với động từ 2 âm, 一下 tự nhiên hơn dạng lặp."
+            },
+            {
+              "sentence": "帮我看一下，好吗？",
+              "translationVn": "Xem giúp tôi một chút được không?"
+            }
+          ],
+          "mnemonicVn": "一下 = \"một cái/một chút\" — công cụ làm mềm câu vạn năng, dùng được với mọi động từ."
+        },
+        {
+          "id": "zh-redup-yi-yi",
+          "pattern": "一 + lượng từ + 一 + lượng từ (一个一个)",
+          "formationRule": "一 + lượng từ, lặp đôi, làm trạng ngữ (thường + 地).",
+          "meaningVn": "Từng … một",
+          "nuanceVn": "Diễn tả hành động diễn ra LẦN LƯỢT, không bỏ sót. 一个一个地检查 = kiểm tra từng cái một. Khác với 都 (gộp tất cả cùng lúc).",
+          "level": "trung-cap",
+          "register": "khẩu ngữ (HSK 4)",
+          "examples": [
+            {
+              "sentence": "请一个一个地进来。",
+              "translationVn": "Xin mời vào từng người một."
+            },
+            {
+              "sentence": "他把书一本一本地放好。",
+              "translationVn": "Anh ấy xếp từng cuốn sách một cho ngay ngắn."
+            }
+          ],
+          "mnemonicVn": "Lặp \"một-lượng từ\" = đi lần lượt từng cái, nhấn vào sự tuần tự."
+        }
+      ]
+    },
+    {
+      "id": "separable-verbs",
+      "titleVn": "离合词 (Động từ ly hợp — động từ TÁCH ĐÔI được)",
+      "points": [
+        {
+          "id": "zh-sep-jianmian",
+          "pattern": "见面 (jiàn + miàn)",
+          "formationRule": "Bản thân đã là \"động từ + tân ngữ\" nên KHÔNG mang thêm tân ngữ. Muốn nói \"gặp ai\" phải dùng 跟/和 + người + 见面, hoặc tách ra: 见他的面.",
+          "meaningVn": "Gặp mặt",
+          "nuanceVn": "Đây là loại từ đặc thù của tiếng Trung: nhìn như một từ nhưng thật ra là cụm động-tân, nên không thể thêm tân ngữ phía sau. Lỗi 见面他 là lỗi kinh điển của mọi người học.",
+          "level": "trung-cap",
+          "register": "trung tính (HSK 3)",
+          "confusionGroupId": "separable-trap",
+          "examples": [
+            {
+              "sentence": "我明天跟他见面。",
+              "translationVn": "Mai tôi gặp anh ấy.",
+              "note": "Người phải đưa lên trước bằng 跟, không đặt sau 见面."
+            },
+            {
+              "sentence": "我们见过一次面。",
+              "translationVn": "Chúng tôi đã gặp nhau một lần.",
+              "note": "Số lượng chen vào GIỮA 见 và 面 — bằng chứng đây là 2 thành phần tách rời."
+            }
+          ],
+          "commonMistakeVn": "我见面他 ✗ — 见面 đã có sẵn tân ngữ 面, không nhận thêm tân ngữ nữa.",
+          "mnemonicVn": "Từ ly hợp = \"động từ đã cắp sẵn tân ngữ\" → không cho tân ngữ thứ hai, và có thể bị chẻ đôi."
+        },
+        {
+          "id": "zh-sep-bangmang",
+          "pattern": "帮忙 (bāng + máng)",
+          "formationRule": "Không nói 帮忙我 mà nói 帮我的忙 (chèn vào giữa) hoặc dùng động từ khác 帮助我.",
+          "meaningVn": "Giúp đỡ",
+          "nuanceVn": "Minh hoạ rõ nhất kiểu chẻ đôi: đại từ sở hữu chui vào GIỮA hai chữ. 帮我的忙 nghĩa đen là \"giúp cái bận của tôi\".",
+          "level": "trung-cap",
+          "register": "khẩu ngữ (HSK 3)",
+          "confusionGroupId": "separable-trap",
+          "examples": [
+            {
+              "sentence": "你能帮我的忙吗？",
+              "translationVn": "Bạn giúp tôi được không?",
+              "note": "我的 chen vào giữa 帮 và 忙."
+            },
+            {
+              "sentence": "他帮了我一个大忙。",
+              "translationVn": "Anh ấy đã giúp tôi một việc lớn.",
+              "note": "Cả 了 lẫn 一个大 đều chen vào giữa."
+            }
+          ],
+          "commonMistakeVn": "帮忙我 ✗ → 帮我的忙 hoặc 帮助我.",
+          "mnemonicVn": "帮忙 tách ra thành 帮…忙, mọi thứ khác nhét vào khe ở giữa."
+        },
+        {
+          "id": "zh-sep-jiehun",
+          "pattern": "结婚 (jié + hūn)",
+          "formationRule": "Kết hôn VỚI ai: 跟/和 + người + 结婚. Thời lượng chen vào giữa: 结了三年婚.",
+          "meaningVn": "Kết hôn",
+          "nuanceVn": "Ngoài lỗi thêm tân ngữ, còn một bẫy nữa: thời lượng của trạng thái hôn nhân phải chen vào giữa — 他们结婚三年了 nghe được nhưng 结了三年婚了 mới là dạng chuẩn mực nhấn vào độ dài.",
+          "level": "trung-cap",
+          "register": "trung tính (HSK 3)",
+          "confusionGroupId": "separable-trap",
+          "examples": [
+            {
+              "sentence": "她跟一个医生结婚了。",
+              "translationVn": "Cô ấy đã kết hôn với một bác sĩ."
+            },
+            {
+              "sentence": "他们结了三年婚。",
+              "translationVn": "Họ đã kết hôn được ba năm.",
+              "note": "Thời lượng 三年 chen vào giữa 结 và 婚."
+            }
+          ],
+          "commonMistakeVn": "她结婚了一个医生 ✗ — phải dùng 跟…结婚.",
+          "mnemonicVn": "Muốn nói \"với ai\" thì đưa người lên trước bằng 跟, đừng nhét ra sau."
+        },
+        {
+          "id": "zh-sep-qingjia",
+          "pattern": "请假 (qǐng + jià)",
+          "formationRule": "Xin nghỉ bao lâu: 请 + thời lượng + 假 (请三天假).",
+          "meaningVn": "Xin nghỉ phép",
+          "nuanceVn": "Thời lượng BẮT BUỘC chen vào giữa. 请假三天 nghe không tự nhiên bằng 请三天假 — đây là chỗ phân biệt người học với người bản ngữ.",
+          "level": "trung-cap",
+          "register": "trung tính (HSK 3-4)",
+          "examples": [
+            {
+              "sentence": "我想请三天假。",
+              "translationVn": "Tôi muốn xin nghỉ ba ngày.",
+              "note": "Thời lượng nằm GIỮA — dạng chuẩn."
+            },
+            {
+              "sentence": "他请假回老家了。",
+              "translationVn": "Anh ấy xin nghỉ phép về quê rồi."
+            }
+          ],
+          "mnemonicVn": "请 (xin) … 假 (phép) — xin BAO NHIÊU phép thì con số nằm ở giữa."
+        },
+        {
+          "id": "zh-sep-shengqi",
+          "pattern": "生气 (shēng + qì)",
+          "formationRule": "Giận AI: 跟/对 + người + 生气. Mức độ chen vào giữa: 生很大的气.",
+          "meaningVn": "Tức giận",
+          "nuanceVn": "Ngay cả mức độ cũng chui vào khe giữa: 生很大的气 = giận lắm. Đây là bằng chứng rõ nhất rằng 气 là một danh từ thật sự chứ không phải phần đuôi vô nghĩa.",
+          "level": "trung-cap",
+          "register": "khẩu ngữ (HSK 3)",
+          "examples": [
+            {
+              "sentence": "别跟我生气。",
+              "translationVn": "Đừng giận tôi mà."
+            },
+            {
+              "sentence": "妈妈生了很大的气。",
+              "translationVn": "Mẹ đã giận lắm.",
+              "note": "Cả 了 lẫn 很大的 đều chen vào giữa 生 và 气."
+            }
+          ],
+          "commonMistakeVn": "生气我 ✗ → 跟我生气 / 对我生气.",
+          "mnemonicVn": "生 (sinh ra) + 气 (cơn giận) → \"sinh ra cơn giận LỚN cỡ nào\" thì tả ở khe giữa."
+        },
+        {
+          "id": "zh-sep-shuijiao",
+          "pattern": "睡觉 (shuì + jiào)",
+          "formationRule": "Thời lượng chen vào giữa: 睡了八个小时的觉.",
+          "meaningVn": "Ngủ",
+          "nuanceVn": "Từ ly hợp cực kỳ thông dụng mà người học ít nhận ra là ly hợp — cho tới khi cần nói \"ngủ mấy tiếng\" và phát hiện phải chẻ đôi nó ra.",
+          "level": "so-cap",
+          "register": "trung tính (HSK 1-2)",
+          "examples": [
+            {
+              "sentence": "我昨天睡了八个小时的觉。",
+              "translationVn": "Hôm qua tôi đã ngủ tám tiếng.",
+              "note": "Thời lượng + 的 chen vào giữa 睡 và 觉."
+            },
+            {
+              "sentence": "孩子睡着觉呢。",
+              "translationVn": "Đứa bé đang ngủ đấy."
+            }
+          ],
+          "mnemonicVn": "Cả 睡觉 lẫn 见面, 帮忙, 结婚, 请假, 生气 đều là \"động + tân\" giả dạng một từ."
+        }
+      ]
+    },
+    {
+      "id": "idioms",
+      "titleVn": "成语 (Thành ngữ bốn chữ)",
+      "points": [
+        {
+          "id": "zh-idiom-mamahuhu",
+          "pattern": "马马虎虎 (mǎmǎhūhū)",
+          "formationRule": "Dạng AABB, làm vị ngữ hoặc trạng ngữ.",
+          "meaningVn": "Qua loa, tàm tạm",
+          "nuanceVn": "Hai nghĩa tuỳ ngữ cảnh: chê ai làm việc CẨU THẢ, hoặc khiêm tốn trả lời \"cũng tàm tạm thôi\". Nghĩa đen \"ngựa ngựa hổ hổ\" bắt nguồn từ chuyện hoạ sĩ vẽ con vật không ra ngựa cũng chẳng ra hổ.",
+          "level": "trung-cap",
+          "register": "khẩu ngữ (HSK 3)",
+          "examples": [
+            {
+              "sentence": "他做事太马马虎虎了。",
+              "translationVn": "Cậu ấy làm việc quá cẩu thả.",
+              "note": "Nghĩa chê trách."
+            },
+            {
+              "sentence": "\"你的汉语怎么样？\" \"马马虎虎。\"",
+              "translationVn": "\"Tiếng Trung của bạn thế nào?\" \"Cũng tàm tạm thôi.\"",
+              "note": "Nghĩa khiêm tốn — cùng một từ, hai sắc thái."
+            }
+          ],
+          "mnemonicVn": "Bức tranh \"nửa ngựa nửa hổ\" → làm gì cũng nửa vời, qua loa."
+        },
+        {
+          "id": "zh-idiom-luanqibazao",
+          "pattern": "乱七八糟 (luànqībāzāo)",
+          "formationRule": "Làm vị ngữ hoặc bổ ngữ (得乱七八糟).",
+          "meaningVn": "Lộn xộn, bừa bộn hết cả",
+          "nuanceVn": "Dùng cho cả đồ vật bừa bộn lẫn tình huống rối ren. Mang màu khẩu ngữ mạnh, hơi thô — không dùng trong văn bản trang trọng.",
+          "level": "trung-cap",
+          "register": "khẩu ngữ (HSK 4)",
+          "examples": [
+            {
+              "sentence": "房间乱七八糟的。",
+              "translationVn": "Căn phòng bừa bộn hết cả."
+            },
+            {
+              "sentence": "他把事情搞得乱七八糟。",
+              "translationVn": "Cậu ta làm mọi chuyện rối tung cả lên."
+            }
+          ],
+          "mnemonicVn": "Có số 七 và 八 lộn xộn ở giữa → \"loạn bảy tám xằng\", cứ thế mà nhớ."
+        },
+        {
+          "id": "zh-idiom-yijulianbde",
+          "pattern": "一举两得 (yìjǔliǎngdé)",
+          "formationRule": "Thường làm vị ngữ, hay đứng sau 这样做/这真是.",
+          "meaningVn": "Một công đôi việc",
+          "nuanceVn": "Tương đương \"nhất cử lưỡng tiện\" trong tiếng Việt — người Việt học tiếng Trung có lợi thế lớn vì thành ngữ Hán Việt gần như trùng khít.",
+          "level": "trung-cap",
+          "register": "trung tính (HSK 4-5)",
+          "examples": [
+            {
+              "sentence": "骑车上班既省钱又锻炼身体，真是一举两得。",
+              "translationVn": "Đạp xe đi làm vừa tiết kiệm vừa rèn sức khoẻ, đúng là một công đôi việc."
+            },
+            {
+              "sentence": "这个办法一举两得。",
+              "translationVn": "Cách này một công đôi việc."
+            }
+          ],
+          "mnemonicVn": "Hán Việt \"nhất cử lưỡng đắc\" — dịch thẳng là ra nghĩa."
+        },
+        {
+          "id": "zh-idiom-bantuerfei",
+          "pattern": "半途而废 (bàntúérfèi)",
+          "formationRule": "Làm vị ngữ, thường sau 不要/不能.",
+          "meaningVn": "Bỏ dở giữa chừng",
+          "nuanceVn": "Mang sắc thái CHÊ TRÁCH rõ ràng, hay dùng để khuyên răn: 做事不要半途而废.",
+          "level": "trung-cap",
+          "register": "trung tính (HSK 5)",
+          "examples": [
+            {
+              "sentence": "做事不要半途而废。",
+              "translationVn": "Làm việc thì đừng bỏ dở giữa chừng."
+            },
+            {
+              "sentence": "他学了一年就半途而废了。",
+              "translationVn": "Cậu ấy học được một năm rồi bỏ dở."
+            }
+          ],
+          "mnemonicVn": "Hán Việt \"bán đồ nhi phế\" — nửa đường mà bỏ."
+        },
+        {
+          "id": "zh-idiom-huashetianzu",
+          "pattern": "画蛇添足 (huàshétiānzú)",
+          "formationRule": "Làm vị ngữ, thường đứng sau 这是/纯属.",
+          "meaningVn": "Vẽ rắn thêm chân — làm thừa hỏng việc",
+          "nuanceVn": "Từ điển tích thi vẽ rắn: người vẽ xong trước lại thêm chân cho rắn nên mất giải. Dùng khi ai đó làm thêm việc không cần thiết và làm hỏng kết quả.",
+          "level": "cao-cap",
+          "register": "trung tính (HSK 5-6)",
+          "examples": [
+            {
+              "sentence": "结尾再加一段就画蛇添足了。",
+              "translationVn": "Thêm một đoạn ở cuối nữa thì thành vẽ rắn thêm chân mất."
+            },
+            {
+              "sentence": "这个设计已经很好，改动反而画蛇添足。",
+              "translationVn": "Thiết kế này đã rất tốt, sửa thêm lại thành thừa thãi."
+            }
+          ],
+          "mnemonicVn": "Hán Việt \"hoạ xà thiêm túc\" — tiếng Việt cũng nói \"vẽ rắn thêm chân\"."
+        },
+        {
+          "id": "zh-idiom-jingdizhiwa",
+          "pattern": "井底之蛙 (jǐngdǐzhīwā)",
+          "formationRule": "Làm danh từ (là một CÁI GÌ, không phải một việc) — thường sau 像/是.",
+          "meaningVn": "Ếch ngồi đáy giếng",
+          "nuanceVn": "Khác các thành ngữ trên ở chỗ đây là DANH TỪ chỉ người, nên phải dùng 是/像 chứ không dùng như vị ngữ hành động: 他是井底之蛙 ✓, 他井底之蛙了 ✗.",
+          "level": "cao-cap",
+          "register": "trung tính (HSK 5-6)",
+          "examples": [
+            {
+              "sentence": "不要做井底之蛙，多出去看看。",
+              "translationVn": "Đừng làm ếch ngồi đáy giếng, hãy ra ngoài xem thêm."
+            },
+            {
+              "sentence": "他就像井底之蛙一样。",
+              "translationVn": "Cậu ta cứ như ếch ngồi đáy giếng vậy."
+            }
+          ],
+          "commonMistakeVn": "Dùng như động từ/tính từ (他很井底之蛙 ✗) — đây là danh từ chỉ người.",
+          "mnemonicVn": "Hán Việt \"tỉnh để chi oa\" — trùng khít câu \"ếch ngồi đáy giếng\" tiếng Việt."
+        },
+        {
+          "id": "zh-idiom-duiniutanqin",
+          "pattern": "对牛弹琴 (duìniútánqín)",
+          "formationRule": "Làm vị ngữ, thường sau 简直是/等于.",
+          "meaningVn": "Đàn gảy tai trâu",
+          "nuanceVn": "Chê việc nói điều hay với người không hiểu nổi. Lưu ý sắc thái: chê NGƯỜI NGHE là chính, nên nói trước mặt họ là bất lịch sự.",
+          "level": "cao-cap",
+          "register": "trung tính (HSK 5-6)",
+          "examples": [
+            {
+              "sentence": "跟他讲这些简直是对牛弹琴。",
+              "translationVn": "Nói mấy điều này với cậu ta đúng là đàn gảy tai trâu."
+            },
+            {
+              "sentence": "对外行人讲专业术语等于对牛弹琴。",
+              "translationVn": "Nói thuật ngữ chuyên môn với người ngoài ngành thì khác gì đàn gảy tai trâu."
+            }
+          ],
+          "mnemonicVn": "Hán Việt \"đối ngưu đàn cầm\" — tiếng Việt \"đàn gảy tai trâu\", nghĩa và hình ảnh y hệt."
+        },
+        {
+          "id": "zh-idiom-rxsu",
+          "pattern": "入乡随俗 (rùxiāngsuísú)",
+          "formationRule": "Làm vị ngữ, thường đứng độc lập hoặc sau 要/应该.",
+          "meaningVn": "Nhập gia tuỳ tục",
+          "nuanceVn": "Một trong những thành ngữ trùng khít hoàn toàn với tiếng Việt cả về chữ Hán lẫn cách dùng — người Việt gần như không cần học lại.",
+          "level": "trung-cap",
+          "register": "trung tính (HSK 5)",
+          "examples": [
+            {
+              "sentence": "到了国外要入乡随俗。",
+              "translationVn": "Ra nước ngoài thì phải nhập gia tuỳ tục."
+            },
+            {
+              "sentence": "入乡随俗，我也学着用筷子。",
+              "translationVn": "Nhập gia tuỳ tục, tôi cũng tập dùng đũa."
+            }
+          ],
+          "mnemonicVn": "Hán Việt \"nhập hương tuỳ tục\" ≈ \"nhập gia tuỳ tục\" — chỉ khác chữ 乡 (làng) thay vì 家 (nhà)."
+        }
+      ]
+    }
+  ],
+  "confusionGroups": [
+    {
+      "id": "le1-vs-le2",
+      "titleVn": "了₁ vs 了₂ — Hoàn thành hành động vs Thay đổi trạng thái",
+      "summaryVn": "Nhìn VỊ TRÍ là biết: 了 dính sau ĐỘNG TỪ = việc đó đã xong (了₁). 了 nằm CUỐI CÂU = tình hình đã khác trước (了₂). Chỉ 了₂ mới ghép được với tính từ/danh từ (他二十岁了).",
+      "pointIds": [
+        "zh-asp-le1",
+        "zh-asp-le2"
+      ]
+    },
+    {
+      "id": "le-vs-guo",
+      "titleVn": "了 vs 过 — Đã làm (lần cụ thể) vs Đã từng (kinh nghiệm)",
+      "summaryVn": "我去了北京 = đã đi chuyến đó (có thể còn đang ở đó). 我去过北京 = từng đến, nay đã về. Phủ định: 没…过 (giữ 过), không bao giờ dùng 不.",
+      "pointIds": [
+        "zh-asp-le1",
+        "zh-asp-guo"
+      ]
+    },
+    {
+      "id": "zhe-vs-zhengzai",
+      "titleVn": "着 vs 正在 — Trạng thái tĩnh vs Hành động đang chạy",
+      "summaryVn": "着 = ẢNH CHỤP một trạng thái còn đọng (门开着 = cửa đang ở thế mở). 正在 = CAMERA ĐANG QUAY một động tác (他正在开门 = anh ấy đang mở cửa).",
+      "pointIds": [
+        "zh-asp-zhe",
+        "zh-asp-zhengzai"
+      ]
+    },
+    {
+      "id": "bu-vs-mei",
+      "titleVn": "不 vs 没 — Phủ định ý chí/thói quen vs Phủ định sự việc đã xảy ra",
+      "summaryVn": "我不吃肉 = tôi không ăn thịt (nguyên tắc). 我没吃肉 = bữa đó tôi đã không ăn (sự thật). Việc quá khứ luôn dùng 没; 有 luôn phủ định bằng 没有, không bao giờ 不有.",
+      "pointIds": [
+        "zh-asp-bu-vs-mei"
+      ]
+    },
+    {
+      "id": "de-di-de",
+      "titleVn": "的 / 地 / 得 — Bộ ba \"de\" kinh điển",
+      "summaryVn": "Nhìn từ đứng CẠNH là biết: 的 + DANH TỪ (我的书) · 地 + ĐỘNG TỪ, đứng TRƯỚC (慢慢地走) · ĐỘNG TỪ + 得, đứng SAU (跑得快). Riêng 得 còn đọc děi nghĩa \"phải\" (我得走了).",
+      "pointIds": [
+        "zh-de-de",
+        "zh-de-di",
+        "zh-de-dei-complement",
+        "zh-comp-chengdu",
+        "zh-modal-dei"
+      ]
+    },
+    {
+      "id": "ba-vs-bei",
+      "titleVn": "把 vs 被 — Tôi ra tay vs Tôi hứng chịu",
+      "summaryVn": "Cùng một sự việc, hai góc nhìn: 我把杯子打破了 (tôi làm vỡ cốc) ↔ 杯子被我打破了 (cốc bị tôi làm vỡ). Cả hai đều BẮT BUỘC có thành phần chỉ kết quả sau động từ.",
+      "pointIds": [
+        "zh-prep-ba",
+        "zh-prep-bei"
+      ]
+    },
+    {
+      "id": "cong-vs-li",
+      "titleVn": "从 vs 离 — Điểm xuất phát vs Khoảng cách",
+      "summaryVn": "从 có CHUYỂN ĐỘNG, đánh dấu nơi bắt đầu (我从北京来). 离 ĐỨNG YÊN, đo khoảng cách giữa hai điểm (我家离学校很近). Không hoán đổi được.",
+      "pointIds": [
+        "zh-prep-cong",
+        "zh-prep-li"
+      ]
+    },
+    {
+      "id": "dui-vs-gen",
+      "titleVn": "对 vs 跟 — Một chiều vs Có qua lại",
+      "summaryVn": "对 = mũi tên MỘT CHIỀU hướng tới đối tượng (对他说, 对…感兴趣). 跟 = hai bên CÙNG tham gia (跟他商量, 跟他一起去).",
+      "pointIds": [
+        "zh-prep-dui",
+        "zh-prep-gen"
+      ]
+    },
+    {
+      "id": "ge-vs-wei",
+      "titleVn": "个 vs 位 — Lượng từ trung tính vs Lượng từ kính trọng",
+      "summaryVn": "Cùng đếm người nhưng 位 mang sắc thái nể trọng (这位老师, 几位客人). Tuyệt đối không dùng 位 cho chính mình hoặc cho kẻ xấu.",
+      "pointIds": [
+        "zh-mw-ge",
+        "zh-mw-wei"
+      ]
+    },
+    {
+      "id": "shuang-vs-dui",
+      "titleVn": "双 vs 对 — Đôi sinh đôi vs Cặp ghép lại",
+      "summaryVn": "双 dành cho thứ vốn sinh ra theo đôi giống hệt nhau (一双鞋, 一双筷子). 对 dành cho hai thứ được GHÉP thành cặp có quan hệ (一对夫妻, 一对耳环).",
+      "pointIds": [
+        "zh-mw-shuang-dui"
+      ]
+    },
+    {
+      "id": "keneng-vs-neng",
+      "titleVn": "V不了/看不见 vs 不能 — Không làm nổi vs Không được phép",
+      "summaryVn": "Chèn 得/不 vào GIỮA động từ và bổ ngữ = điều kiện khách quan không cho làm nổi (太远了，看不见). 不能 đứng TRƯỚC động từ = không được phép hoặc không đủ điều kiện (这里不能抽烟).",
+      "pointIds": [
+        "zh-comp-keneng",
+        "zh-modal-neng"
+      ]
+    },
+    {
+      "id": "bi-vs-meiyou",
+      "titleVn": "比 vs 没有 — So sánh hơn vs So sánh kém",
+      "summaryVn": "A比B高 (A cao hơn B) ↔ A没有B高 (A không cao bằng B). Câu 比 TUYỆT ĐỐI không dùng 很/非常; muốn nhấn thì dùng 得多/一点儿 đặt sau tính từ. Lưu ý 不比 nghĩa là \"đâu có hơn gì\", không phải \"kém hơn\".",
+      "pointIds": [
+        "zh-comp-bi",
+        "zh-comp-meiyou"
+      ]
+    },
+    {
+      "id": "yue-patterns",
+      "titleVn": "越来越 vs 越…越… — Tăng theo thời gian vs Hai yếu tố liên động",
+      "summaryVn": "越来越冷 = càng ngày càng lạnh (một yếu tố, mốc là THỜI GIAN). 越吃越好吃 = càng ăn càng ngon (HAI yếu tố biến đổi song song với nhau).",
+      "pointIds": [
+        "zh-comp-yuelaiyue",
+        "zh-comp-yueyue"
+      ]
+    },
+    {
+      "id": "ma-ne-ba",
+      "titleVn": "吗 / 呢 / 吧 — Ba trợ từ cuối câu hỏi",
+      "summaryVn": "吗 = chưa biết gì, hỏi thật (你是学生吗？). 呢 = còn cái kia thì sao / đâu rồi (你呢？我的钥匙呢？). 吧 = đã đoán sẵn, chỉ chờ xác nhận, hoặc rủ rê (你是中国人吧？/ 走吧).",
+      "pointIds": [
+        "zh-q-ma",
+        "zh-q-ne",
+        "zh-q-ba"
+      ]
+    },
+    {
+      "id": "ji-vs-duoshao",
+      "titleVn": "几 vs 多少 — Số nhỏ (kèm lượng từ) vs Số lớn",
+      "summaryVn": "几 dự đoán đáp án dưới 10 và BẮT BUỘC kèm lượng từ (几个人). 多少 cho số lớn/chưa rõ, lượng từ có thể lược (多少钱). Hỏi giá luôn là 多少钱.",
+      "pointIds": [
+        "zh-q-ji-duoshao"
+      ]
+    },
+    {
+      "id": "zenme-vs-zenmeyang",
+      "titleVn": "怎么 / 怎么样 / 为什么",
+      "summaryVn": "怎么 + động từ = làm CÁCH NÀO (怎么去). 怎么样 đứng một mình = thấy SAO, đánh giá (电影怎么样？). Hỏi lý do: 为什么 trung tính, còn 怎么 luôn kèm ngạc nhiên/trách móc (你怎么没来？).",
+      "pointIds": [
+        "zh-q-zenme",
+        "zh-q-weishenme"
+      ]
+    },
+    {
+      "id": "jiu-vs-cai",
+      "titleVn": "就 vs 才 — Sớm/dễ vs Muộn/khó",
+      "summaryVn": "他六点就来了 = mới 6 giờ đã đến (SỚM hơn tưởng). 他十点才来 = mãi 10 giờ mới đến (MUỘN hơn tưởng). Mẹo ngữ pháp: câu 就 hay kèm 了, câu 才 thì không.",
+      "pointIds": [
+        "zh-adv-jiu",
+        "zh-adv-cai"
+      ]
+    },
+    {
+      "id": "zai-vs-you-vs-hai",
+      "titleVn": "再 / 又 / 还 — Lặp lại tương lai vs Lặp lại quá khứ vs Vẫn còn",
+      "summaryVn": "再 nhìn về TƯƠNG LAI (明天再来). 又 nhìn về QUÁ KHỨ, thường kèm 了 và chút ngán ngẩm (他又迟到了). 还 = vẫn đang tiếp diễn hoặc thêm nữa (还在睡, 还要一杯).",
+      "pointIds": [
+        "zh-adv-zai",
+        "zh-adv-you",
+        "zh-adv-hai"
+      ]
+    },
+    {
+      "id": "hui-neng-keyi",
+      "titleVn": "会 / 能 / 可以 — Biết làm vs Làm nổi vs Được phép",
+      "summaryVn": "会 = kỹ năng HỌC mà có (会游泳). 能 = điều kiện/sức lực cho phép lúc này (今天不能去). 可以 = được phép theo quy định (这里可以抽烟吗？). Khi từ chối, tiếng Trung chuộng 不能 hơn 不可以.",
+      "pointIds": [
+        "zh-modal-hui",
+        "zh-modal-neng",
+        "zh-modal-keyi"
+      ]
+    },
+    {
+      "id": "yao-vs-xiang",
+      "titleVn": "要 vs 想 — Ý chí mạnh vs Nguyện vọng mềm (và cái bẫy 不要)",
+      "summaryVn": "想去 = muốn đi (nhẹ nhàng, lịch sự) · 要去 = phải/nhất định đi (mạnh). BẪY LỚN: 不要 KHÔNG phải \"không muốn\" mà là \"ĐỪNG\" — muốn nói \"không muốn\" phải dùng 不想.",
+      "pointIds": [
+        "zh-modal-yao",
+        "zh-modal-xiang"
+      ]
+    },
+    {
+      "id": "yinwei-vs-jiran",
+      "titleVn": "因为…所以 vs 既然…就 — Báo lý do MỚI vs Dựa trên điều ĐÃ BIẾT",
+      "summaryVn": "因为 đưa ra nguyên nhân người nghe CHƯA biết (因为下雨，所以没去). 既然 dựa trên điều CẢ HAI ĐÃ biết để rút ra kết luận/lời khuyên (既然不舒服，就休息吧). Vế sau: 因为→所以, 既然→就.",
+      "pointIds": [
+        "zh-conn-yinwei",
+        "zh-conn-jiran"
+      ]
+    },
+    {
+      "id": "suiran-vs-jishi",
+      "titleVn": "虽然…但是 vs 即使…也 — Nhượng bộ SỰ THẬT vs Nhượng bộ GIẢ ĐỊNH",
+      "summaryVn": "虽然下雨 = trời ĐANG mưa thật. 即使下雨 = giả sử trời có mưa. Cặp cố định: 虽然→但是/可是, 即使/就算→也. Lưu ý tiếng Trung BẮT BUỘC giữ vế sau, khác tiếng Anh cấm \"although…but\".",
+      "pointIds": [
+        "zh-conn-suiran",
+        "zh-conn-jishi"
+      ]
+    },
+    {
+      "id": "zhiyao-vs-zhiyou",
+      "titleVn": "只要…就 vs 只有…才 — Điều kiện ĐỦ vs Điều kiện DUY NHẤT",
+      "summaryVn": "只要努力就能成功 = chỉ cần nỗ lực là được (dễ, có thể còn cách khác). 只有努力才能成功 = chỉ có nỗ lực mới được (con đường duy nhất). Ghép chéo 只要…才 hoặc 只有…就 đều SAI.",
+      "pointIds": [
+        "zh-conn-zhiyao",
+        "zh-conn-zhiyou",
+        "zh-adv-jiu",
+        "zh-adv-cai"
+      ]
+    },
+    {
+      "id": "you-shi-zai",
+      "titleVn": "有 / 是 / 在 — Ba kiểu câu tồn tại, khác nhau ở TRẬT TỰ TỪ",
+      "summaryVn": "Nơi chốn + 有 + vật CHƯA BIẾT (桌子上有一本书). Nơi chốn + 是 + vật chiếm TRỌN chỗ đó (对面是银行). Vật ĐÃ BIẾT + 在 + nơi chốn (我的书在桌子上) — trật tự ĐẢO NGƯỢC. Chọn sai cấu trúc = nói sai thông tin nào đã biết.",
+      "pointIds": [
+        "zh-exist-you",
+        "zh-exist-shi",
+        "zh-exist-zai",
+        "zh-prep-zai"
+      ]
+    },
+    {
+      "id": "redup-forms",
+      "titleVn": "Các kiểu lặp từ — ĐỘNG TỪ lặp thì NHẸ đi, TÍNH TỪ lặp thì ĐẬM lên",
+      "summaryVn": "Động từ: 看看/看一看/看了看/看一下 → làm nhẹ, lịch sự, \"một chút thôi\"; 2 âm lặp ABAB (休息休息). Tính từ: AABB (高高兴兴, 干干净净) → sinh động, ĐẬM hơn, và KHÔNG thêm 很. Lặp động từ thành AABB (休休息息) là sai.",
+      "pointIds": [
+        "zh-redup-vv",
+        "zh-redup-vlev",
+        "zh-redup-aabb",
+        "zh-redup-yixia"
+      ]
+    },
+    {
+      "id": "separable-trap",
+      "titleVn": "离合词 — Động từ đã \"cắp sẵn tân ngữ\", không nhận thêm tân ngữ",
+      "summaryVn": "见面/帮忙/结婚/请假/生气/睡觉 nhìn như 1 từ nhưng là \"động từ + tân ngữ\". Hệ quả: (1) không thêm tân ngữ (见面他 ✗ → 跟他见面); (2) mọi thứ khác chen vào KHE GIỮA (帮我的忙, 请三天假, 结了三年婚, 生很大的气).",
+      "pointIds": [
+        "zh-sep-jianmian",
+        "zh-sep-bangmang",
+        "zh-sep-jiehun"
+      ]
+    }
+  ]
+}
