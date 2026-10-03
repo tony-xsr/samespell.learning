@@ -1,0 +1,1867 @@
+{
+  "language": "ko",
+  "label": "Nhóm hình chữ (Hán-Hàn)",
+  "groups": [
+    {
+      "id": "ko-shape-mimal",
+      "language": "ko",
+      "groupKind": "shape",
+      "reading": "未 · 末",
+      "note": "형태가 비슷한 한자: 未 và 末 chỉ khác nhau ở độ dài 2 nét ngang trên cùng — 未 nét trên NGẮN hơn, 末 nét trên DÀI hơn. Âm Hán-Hàn hoàn toàn khác nhau (미 ≠ 말).",
+      "roots": [
+        {
+          "id": "ko-shape-mimal-未",
+          "character": "未",
+          "hanViet": "vị",
+          "meaningVn": "chưa (nét ngang trên NGẮN)",
+          "words": [
+            {
+              "id": "ko-shape-mimal-未-w1",
+              "headword": "미래",
+              "reading": "mirae",
+              "meaningVn": "tương lai (未来)",
+              "example": "밝은 미래를 꿈꿔요.",
+              "exampleVn": "Tôi mơ về một tương lai tươi sáng."
+            },
+            {
+              "id": "ko-shape-mimal-未-w2",
+              "headword": "미만",
+              "reading": "miman",
+              "meaningVn": "chưa đủ, dưới mức (未満)",
+              "example": "18세 미만은 입장할 수 없어요.",
+              "exampleVn": "Dưới 18 tuổi không được vào."
+            },
+            {
+              "id": "ko-shape-mimal-未-w3",
+              "headword": "미혼",
+              "reading": "mihon",
+              "meaningVn": "chưa kết hôn (未婚)",
+              "example": "그는 아직 미혼이에요.",
+              "exampleVn": "Anh ấy vẫn còn độc thân."
+            },
+            {
+              "id": "ko-shape-mimal-未-w4",
+              "headword": "미완성",
+              "reading": "miwanseong",
+              "meaningVn": "chưa hoàn thành (未完成)",
+              "example": "이 작품은 미완성 상태예요.",
+              "exampleVn": "Tác phẩm này vẫn chưa hoàn thành."
+            }
+          ]
+        },
+        {
+          "id": "ko-shape-mimal-末",
+          "character": "末",
+          "hanViet": "mạt",
+          "meaningVn": "cuối, ngọn (nét ngang trên DÀI)",
+          "words": [
+            {
+              "id": "ko-shape-mimal-末-w1",
+              "headword": "주말",
+              "reading": "jumal",
+              "meaningVn": "cuối tuần (週末)",
+              "example": "주말에 뭐 할 거예요?",
+              "exampleVn": "Cuối tuần bạn định làm gì?"
+            },
+            {
+              "id": "ko-shape-mimal-末-w2",
+              "headword": "결말",
+              "reading": "gyeolmal",
+              "meaningVn": "kết cục (結末)",
+              "example": "영화의 결말이 놀라웠어요.",
+              "exampleVn": "Kết cục của bộ phim thật bất ngờ."
+            },
+            {
+              "id": "ko-shape-mimal-末-w3",
+              "headword": "말기",
+              "reading": "malgi",
+              "meaningVn": "giai đoạn cuối (末期)",
+              "example": "이 병은 말기에 발견됐어요.",
+              "exampleVn": "Căn bệnh này được phát hiện ở giai đoạn cuối."
+            },
+            {
+              "id": "ko-shape-mimal-末-w4",
+              "headword": "연말",
+              "reading": "yeonmal",
+              "meaningVn": "cuối năm (年末)",
+              "example": "연말에는 항상 바빠요.",
+              "exampleVn": "Cuối năm lúc nào cũng bận rộn."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-shape-soso",
+      "language": "ko",
+      "groupKind": "shape",
+      "reading": "少 · 小",
+      "note": "형태가 비슷한 한자 — VÀ CẢ ÂM HÁN-HÀN CŨNG TRÙNG NHAU (đều đọc \"소\")! Đây là trường hợp nhầm lẫn KÉP hiếm gặp: vừa giống hình vừa giống âm. 少 (ít) có 1 nét phẩy ngắn thêm bên trên so với 小 (nhỏ).",
+      "roots": [
+        {
+          "id": "ko-shape-soso-少",
+          "character": "少",
+          "hanViet": "thiểu",
+          "meaningVn": "ít (thêm 1 nét phẩy so với 小)",
+          "words": [
+            {
+              "id": "ko-shape-soso-少-w1",
+              "headword": "소녀",
+              "reading": "sonyeo",
+              "meaningVn": "thiếu nữ, cô gái nhỏ (少女)",
+              "example": "그 소녀는 노래를 잘해요.",
+              "exampleVn": "Cô gái đó hát rất hay."
+            },
+            {
+              "id": "ko-shape-soso-少-w2",
+              "headword": "감소",
+              "reading": "gamso",
+              "meaningVn": "giảm thiểu (減少)",
+              "example": "인구가 점점 감소하고 있어요.",
+              "exampleVn": "Dân số đang giảm dần."
+            },
+            {
+              "id": "ko-shape-soso-少-w3",
+              "headword": "소량",
+              "reading": "soryang",
+              "meaningVn": "lượng ít (少量)",
+              "example": "소량의 소금만 넣으세요.",
+              "exampleVn": "Chỉ cho một lượng ít muối thôi."
+            },
+            {
+              "id": "ko-shape-soso-少-w4",
+              "headword": "청소년",
+              "reading": "cheongsonyeon",
+              "meaningVn": "thanh thiếu niên (靑少年)",
+              "example": "청소년을 위한 프로그램이에요.",
+              "exampleVn": "Đây là chương trình dành cho thanh thiếu niên."
+            }
+          ]
+        },
+        {
+          "id": "ko-shape-soso-小",
+          "character": "小",
+          "hanViet": "tiểu",
+          "meaningVn": "nhỏ (không có nét phẩy thêm)",
+          "words": [
+            {
+              "id": "ko-shape-soso-小-w1",
+              "headword": "소설",
+              "reading": "soseol",
+              "meaningVn": "tiểu thuyết (小說)",
+              "example": "이 소설은 정말 재미있어요.",
+              "exampleVn": "Cuốn tiểu thuyết này thật sự thú vị."
+            },
+            {
+              "id": "ko-shape-soso-小-w2",
+              "headword": "소형",
+              "reading": "sohyeong",
+              "meaningVn": "cỡ nhỏ (小型)",
+              "example": "소형 자동차를 샀어요.",
+              "exampleVn": "Tôi đã mua một chiếc ô tô cỡ nhỏ."
+            },
+            {
+              "id": "ko-shape-soso-小-w3",
+              "headword": "소포",
+              "reading": "sopo",
+              "meaningVn": "bưu kiện nhỏ (小包)",
+              "example": "소포를 보내러 우체국에 가요.",
+              "exampleVn": "Tôi đến bưu điện để gửi bưu kiện."
+            },
+            {
+              "id": "ko-shape-soso-小-w4",
+              "headword": "축소",
+              "reading": "chukso",
+              "meaningVn": "thu nhỏ (縮小)",
+              "example": "예산을 축소해야 해요.",
+              "exampleVn": "Phải thu nhỏ ngân sách lại."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-shape-daetaegyeon",
+      "language": "ko",
+      "groupKind": "shape",
+      "reading": "大 · 太 · 犬",
+      "note": "형태가 비슷한 한자: 大(대)는 기본형, 太(태)는 大에 점 하나가 추가된 형태, 犬(견)은 大에 점 위치가 다른 형태 — 세 글자 모두 획순이 비슷해 헷갈리기 쉬워요.",
+      "roots": [
+        {
+          "id": "ko-shape-daetaegyeon-大",
+          "character": "大",
+          "hanViet": "đại",
+          "meaningVn": "lớn (không có dấu chấm)",
+          "words": [
+            {
+              "id": "ko-shape-daetaegyeon-大-w1",
+              "headword": "대학",
+              "reading": "daehak",
+              "meaningVn": "đại học (大学)",
+              "example": "저는 대학에서 경제학을 공부해요.",
+              "exampleVn": "Tôi học kinh tế ở đại học."
+            },
+            {
+              "id": "ko-shape-daetaegyeon-大-w2",
+              "headword": "대회",
+              "reading": "daehoe",
+              "meaningVn": "đại hội, cuộc thi lớn (大会)",
+              "example": "전국 대회에서 우승했어요.",
+              "exampleVn": "Tôi đã vô địch trong cuộc thi toàn quốc."
+            },
+            {
+              "id": "ko-shape-daetaegyeon-大-w3",
+              "headword": "대통령",
+              "reading": "daetongnyeong",
+              "meaningVn": "tổng thống (大統領)",
+              "example": "새 대통령이 선출됐어요.",
+              "exampleVn": "Tổng thống mới đã được bầu."
+            },
+            {
+              "id": "ko-shape-daetaegyeon-大-w4",
+              "headword": "확대",
+              "reading": "hwakdae",
+              "meaningVn": "mở rộng (拡大)",
+              "example": "사업을 확대할 계획이에요.",
+              "exampleVn": "Tôi có kế hoạch mở rộng kinh doanh."
+            }
+          ]
+        },
+        {
+          "id": "ko-shape-daetaegyeon-太",
+          "character": "太",
+          "hanViet": "thái",
+          "meaningVn": "rất, thái (quá) — có dấu chấm ở dưới",
+          "words": [
+            {
+              "id": "ko-shape-daetaegyeon-太-w1",
+              "headword": "태양",
+              "reading": "taeyang",
+              "meaningVn": "mặt trời (太陽)",
+              "example": "태양이 밝게 빛나요.",
+              "exampleVn": "Mặt trời chiếu sáng rực rỡ."
+            },
+            {
+              "id": "ko-shape-daetaegyeon-太-w2",
+              "headword": "태평양",
+              "reading": "taepyeongyang",
+              "meaningVn": "Thái Bình Dương (太平洋)",
+              "example": "태평양은 세계에서 가장 커요.",
+              "exampleVn": "Thái Bình Dương là đại dương lớn nhất thế giới."
+            },
+            {
+              "id": "ko-shape-daetaegyeon-太-w3",
+              "headword": "태극기",
+              "reading": "taegeukgi",
+              "meaningVn": "quốc kỳ Hàn Quốc (太極旗)",
+              "example": "태극기가 바람에 펄럭여요.",
+              "exampleVn": "Quốc kỳ Hàn Quốc tung bay trong gió."
+            },
+            {
+              "id": "ko-shape-daetaegyeon-太-w4",
+              "headword": "태고",
+              "reading": "taego",
+              "meaningVn": "thời viễn cổ (太古)",
+              "example": "태고의 자연을 그대로 간직하고 있어요.",
+              "exampleVn": "Nơi đây vẫn còn giữ nguyên thiên nhiên từ thời viễn cổ."
+            }
+          ]
+        },
+        {
+          "id": "ko-shape-daetaegyeon-犬",
+          "character": "犬",
+          "hanViet": "khuyển",
+          "meaningVn": "chó — dấu chấm ở vị trí khác",
+          "words": [
+            {
+              "id": "ko-shape-daetaegyeon-犬-w1",
+              "headword": "맹견",
+              "reading": "maenggyeon",
+              "meaningVn": "chó dữ (猛犬)",
+              "example": "이 골목에는 맹견이 있어요.",
+              "exampleVn": "Trong con hẻm này có một con chó dữ."
+            },
+            {
+              "id": "ko-shape-daetaegyeon-犬-w2",
+              "headword": "애견",
+              "reading": "aegyeon",
+              "meaningVn": "chó cưng (愛犬)",
+              "example": "애견과 산책을 해요.",
+              "exampleVn": "Tôi đi dạo cùng chó cưng."
+            },
+            {
+              "id": "ko-shape-daetaegyeon-犬-w3",
+              "headword": "견공",
+              "reading": "gyeongong",
+              "meaningVn": "chú chó (cách gọi kính trọng, đùa vui) (犬公)",
+              "example": "견공들이 공원에서 뛰어놀아요.",
+              "exampleVn": "Các chú chó chạy chơi trong công viên."
+            },
+            {
+              "id": "ko-shape-daetaegyeon-犬-w4",
+              "headword": "투견",
+              "reading": "tugyeon",
+              "meaningVn": "chó chọi (闘犬)",
+              "example": "투견은 법으로 금지돼 있어요.",
+              "exampleVn": "Chó chọi bị pháp luật cấm."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-shape-wangok",
+      "language": "ko",
+      "groupKind": "shape",
+      "reading": "王 · 玉",
+      "note": "형태가 비슷한 한자: 玉은 王에 점 하나가 추가된 형태 — 원래 玉이 먼저 있었고 점을 뺀 모양이 王이 된 것이지만, 현대에는 획이 적은 王을 먼저 배우는 경우가 많아요.",
+      "roots": [
+        {
+          "id": "ko-shape-wangok-王",
+          "character": "王",
+          "hanViet": "vương",
+          "meaningVn": "vua (không có dấu chấm)",
+          "words": [
+            {
+              "id": "ko-shape-wangok-王-w1",
+              "headword": "왕국",
+              "reading": "wangguk",
+              "meaningVn": "vương quốc (王国)",
+              "example": "옛날에 작은 왕국이 있었어요.",
+              "exampleVn": "Ngày xưa có một vương quốc nhỏ."
+            },
+            {
+              "id": "ko-shape-wangok-王-w2",
+              "headword": "왕자",
+              "reading": "wangja",
+              "meaningVn": "hoàng tử (王子)",
+              "example": "왕자는 용감한 청년이었어요.",
+              "exampleVn": "Hoàng tử là một chàng trai dũng cảm."
+            },
+            {
+              "id": "ko-shape-wangok-王-w3",
+              "headword": "여왕",
+              "reading": "yeowang",
+              "meaningVn": "nữ hoàng (女王)",
+              "example": "여왕이 나라를 다스려요.",
+              "exampleVn": "Nữ hoàng cai trị đất nước."
+            },
+            {
+              "id": "ko-shape-wangok-王-w4",
+              "headword": "왕비",
+              "reading": "wangbi",
+              "meaningVn": "vương phi (王妃)",
+              "example": "왕비는 아름다운 드레스를 입었어요.",
+              "exampleVn": "Vương phi mặc một chiếc váy xinh đẹp."
+            }
+          ]
+        },
+        {
+          "id": "ko-shape-wangok-玉",
+          "character": "玉",
+          "hanViet": "ngọc",
+          "meaningVn": "ngọc — có dấu chấm ở giữa",
+          "words": [
+            {
+              "id": "ko-shape-wangok-玉-w1",
+              "headword": "옥새",
+              "reading": "okse",
+              "meaningVn": "ngọc tỷ, con dấu của vua (玉璽)",
+              "example": "옥새는 왕권의 상징이에요.",
+              "exampleVn": "Ngọc tỷ là biểu tượng của vương quyền."
+            },
+            {
+              "id": "ko-shape-wangok-玉-w2",
+              "headword": "백옥",
+              "reading": "baegok",
+              "meaningVn": "ngọc trắng (白玉)",
+              "example": "백옥처럼 하얀 피부예요.",
+              "exampleVn": "Làn da trắng như ngọc."
+            },
+            {
+              "id": "ko-shape-wangok-玉-w3",
+              "headword": "홍옥",
+              "reading": "hongok",
+              "meaningVn": "hồng ngọc (紅玉)",
+              "example": "홍옥 반지를 선물받았어요.",
+              "exampleVn": "Tôi được tặng một chiếc nhẫn hồng ngọc."
+            },
+            {
+              "id": "ko-shape-wangok-玉-w4",
+              "headword": "옥토끼",
+              "reading": "oktokki",
+              "meaningVn": "thỏ ngọc (玉兎, thỏ trên mặt trăng)",
+              "example": "전설에 따르면 달에는 옥토끼가 산대요.",
+              "exampleVn": "Theo truyền thuyết, có thỏ ngọc sống trên mặt trăng."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-shape-sumo",
+      "language": "ko",
+      "groupKind": "shape",
+      "reading": "手 · 毛",
+      "note": "형태가 비슷한 한자: 手(수)는 획이 곧게 뻗어 있고, 毛(모)는 마지막 획이 구부러져 있어요.",
+      "roots": [
+        {
+          "id": "ko-shape-sumo-手",
+          "character": "手",
+          "hanViet": "thủ",
+          "meaningVn": "tay",
+          "words": [
+            {
+              "id": "ko-shape-sumo-手-w1",
+              "headword": "수술",
+              "reading": "susul",
+              "meaningVn": "phẫu thuật (手術)",
+              "example": "내일 아침에 수술을 받아요.",
+              "exampleVn": "Sáng mai tôi sẽ phẫu thuật."
+            },
+            {
+              "id": "ko-shape-sumo-手-w2",
+              "headword": "가수",
+              "reading": "gasu",
+              "meaningVn": "ca sĩ (歌手)",
+              "example": "그녀는 유명한 가수예요.",
+              "exampleVn": "Cô ấy là một ca sĩ nổi tiếng."
+            },
+            {
+              "id": "ko-shape-sumo-手-w3",
+              "headword": "선수",
+              "reading": "seonsu",
+              "meaningVn": "vận động viên, tuyển thủ (選手)",
+              "example": "그는 축구 선수예요.",
+              "exampleVn": "Anh ấy là một cầu thủ bóng đá."
+            },
+            {
+              "id": "ko-shape-sumo-手-w4",
+              "headword": "박수",
+              "reading": "baksu",
+              "meaningVn": "vỗ tay (拍手)",
+              "example": "관객들이 박수를 쳤어요.",
+              "exampleVn": "Khán giả đã vỗ tay."
+            }
+          ]
+        },
+        {
+          "id": "ko-shape-sumo-毛",
+          "character": "毛",
+          "hanViet": "mao",
+          "meaningVn": "lông, tóc",
+          "words": [
+            {
+              "id": "ko-shape-sumo-毛-w1",
+              "headword": "모발",
+              "reading": "mobal",
+              "meaningVn": "tóc (毛髮)",
+              "example": "모발이 많이 상했어요.",
+              "exampleVn": "Tóc của tôi bị hư tổn nhiều."
+            },
+            {
+              "id": "ko-shape-sumo-毛-w2",
+              "headword": "모피",
+              "reading": "mopi",
+              "meaningVn": "lông thú, áo lông (毛皮)",
+              "example": "모피 코트는 비싸요.",
+              "exampleVn": "Áo khoác lông thú rất đắt."
+            },
+            {
+              "id": "ko-shape-sumo-毛-w3",
+              "headword": "불모지",
+              "reading": "bulmoji",
+              "meaningVn": "đất cằn cỗi (不毛地)",
+              "example": "이곳은 한때 불모지였어요.",
+              "exampleVn": "Nơi này từng là vùng đất cằn cỗi."
+            },
+            {
+              "id": "ko-shape-sumo-毛-w4",
+              "headword": "양모",
+              "reading": "yangmo",
+              "meaningVn": "lông cừu (羊毛)",
+              "example": "이 스웨터는 양모로 만들었어요.",
+              "exampleVn": "Chiếc áo len này được làm từ lông cừu."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-shape-inippal",
+      "language": "ko",
+      "groupKind": "shape",
+      "reading": "人 · 入 · 八",
+      "note": "형태가 비슷한 한자: 人(인, người, 2획이 위에서 만남), 入(입, vào, 두 획이 더 깊이 교차), 八(팔, số 8, 두 획이 서로 떨어져 있음).",
+      "roots": [
+        {
+          "id": "ko-shape-inippal-人",
+          "character": "人",
+          "hanViet": "nhân",
+          "meaningVn": "người",
+          "words": [
+            {
+              "id": "ko-shape-inippal-人-w1",
+              "headword": "인간",
+              "reading": "ingan",
+              "meaningVn": "con người (人間)",
+              "example": "인간은 사회적 동물이에요.",
+              "exampleVn": "Con người là động vật xã hội."
+            },
+            {
+              "id": "ko-shape-inippal-人-w2",
+              "headword": "인구",
+              "reading": "ingu",
+              "meaningVn": "dân số (人口)",
+              "example": "이 도시의 인구가 늘고 있어요.",
+              "exampleVn": "Dân số thành phố này đang tăng lên."
+            },
+            {
+              "id": "ko-shape-inippal-人-w3",
+              "headword": "외국인",
+              "reading": "oegugin",
+              "meaningVn": "người nước ngoài (外国人)",
+              "example": "외국인 친구가 많아요.",
+              "exampleVn": "Tôi có nhiều bạn người nước ngoài."
+            },
+            {
+              "id": "ko-shape-inippal-人-w4",
+              "headword": "인기",
+              "reading": "ingi",
+              "meaningVn": "sự nổi tiếng, được yêu thích (人気)",
+              "example": "이 노래는 요즘 인기가 많아요.",
+              "exampleVn": "Bài hát này đang rất được yêu thích gần đây."
+            }
+          ]
+        },
+        {
+          "id": "ko-shape-inippal-入",
+          "character": "入",
+          "hanViet": "nhập",
+          "meaningVn": "vào",
+          "words": [
+            {
+              "id": "ko-shape-inippal-入-w1",
+              "headword": "입구",
+              "reading": "ipgu",
+              "meaningVn": "lối vào (入口)",
+              "example": "입구에서 만나요.",
+              "exampleVn": "Gặp nhau ở lối vào nhé."
+            },
+            {
+              "id": "ko-shape-inippal-入-w2",
+              "headword": "수입",
+              "reading": "suip",
+              "meaningVn": "nhập khẩu (輸入)",
+              "example": "이 차는 수입 자동차예요.",
+              "exampleVn": "Chiếc xe này là xe nhập khẩu."
+            },
+            {
+              "id": "ko-shape-inippal-入-w3",
+              "headword": "입학",
+              "reading": "iphak",
+              "meaningVn": "nhập học (入学)",
+              "example": "내년에 대학에 입학해요.",
+              "exampleVn": "Sang năm tôi sẽ nhập học đại học."
+            },
+            {
+              "id": "ko-shape-inippal-入-w4",
+              "headword": "출입",
+              "reading": "churip",
+              "meaningVn": "ra vào (出入)",
+              "example": "이 구역은 출입이 금지돼 있어요.",
+              "exampleVn": "Khu vực này cấm ra vào."
+            }
+          ]
+        },
+        {
+          "id": "ko-shape-inippal-八",
+          "character": "八",
+          "hanViet": "bát",
+          "meaningVn": "số tám",
+          "words": [
+            {
+              "id": "ko-shape-inippal-八-w1",
+              "headword": "팔월",
+              "reading": "parwol",
+              "meaningVn": "tháng 8 (八月)",
+              "example": "팔월에 휴가를 가요.",
+              "exampleVn": "Tôi đi nghỉ vào tháng 8."
+            },
+            {
+              "id": "ko-shape-inippal-八-w2",
+              "headword": "팔각형",
+              "reading": "palgakhyeong",
+              "meaningVn": "hình bát giác (八角形)",
+              "example": "그 건물은 팔각형 모양이에요.",
+              "exampleVn": "Toà nhà đó có hình bát giác."
+            },
+            {
+              "id": "ko-shape-inippal-八-w3",
+              "headword": "팔십",
+              "reading": "palsip",
+              "meaningVn": "tám mươi (八十)",
+              "example": "할머니는 팔십 세예요.",
+              "exampleVn": "Bà tôi tám mươi tuổi."
+            },
+            {
+              "id": "ko-shape-inippal-八-w4",
+              "headword": "십중팔구",
+              "reading": "sipjungpalgu",
+              "meaningVn": "mười phần thì tám chín, hầu như chắc chắn (十中八九)",
+              "example": "십중팔구 그는 늦을 거예요.",
+              "exampleVn": "Mười phần thì tám chín là anh ấy sẽ đến muộn."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-shape-baekja",
+      "language": "ko",
+      "groupKind": "shape",
+      "reading": "白 · 自",
+      "note": "형태가 비슷한 한자: 白(백, trắng)은 위에 짧은 삐침이 있고, 自(자, tự thân)는 위에 삐침이 더 길고 안쪽 획이 하나 더 있어요.",
+      "roots": [
+        {
+          "id": "ko-shape-baekja-白",
+          "character": "白",
+          "hanViet": "bạch",
+          "meaningVn": "trắng",
+          "words": [
+            {
+              "id": "ko-shape-baekja-白-w1",
+              "headword": "백색",
+              "reading": "baeksaek",
+              "meaningVn": "màu trắng (白色)",
+              "example": "백색 벽지를 골랐어요.",
+              "exampleVn": "Tôi đã chọn giấy dán tường màu trắng."
+            },
+            {
+              "id": "ko-shape-baekja-白-w2",
+              "headword": "백지",
+              "reading": "baekji",
+              "meaningVn": "giấy trắng (白紙)",
+              "example": "백지에 그림을 그려요.",
+              "exampleVn": "Tôi vẽ tranh lên giấy trắng."
+            },
+            {
+              "id": "ko-shape-baekja-白-w3",
+              "headword": "명백",
+              "reading": "myeongbaek",
+              "meaningVn": "rõ ràng (明白)",
+              "example": "그의 잘못이 명백해요.",
+              "exampleVn": "Lỗi của anh ấy là rõ ràng."
+            },
+            {
+              "id": "ko-shape-baekja-白-w4",
+              "headword": "고백",
+              "reading": "gobaek",
+              "meaningVn": "thú nhận, tỏ tình (告白)",
+              "example": "그녀에게 고백했어요.",
+              "exampleVn": "Tôi đã tỏ tình với cô ấy."
+            }
+          ]
+        },
+        {
+          "id": "ko-shape-baekja-自",
+          "character": "自",
+          "hanViet": "tự",
+          "meaningVn": "tự thân, tự mình",
+          "words": [
+            {
+              "id": "ko-shape-baekja-自-w1",
+              "headword": "자유",
+              "reading": "jayu",
+              "meaningVn": "tự do (自由)",
+              "example": "자유를 사랑해요.",
+              "exampleVn": "Tôi yêu tự do."
+            },
+            {
+              "id": "ko-shape-baekja-自-w2",
+              "headword": "자신",
+              "reading": "jasin",
+              "meaningVn": "bản thân, tự tin (自身)",
+              "example": "자신을 믿으세요.",
+              "exampleVn": "Hãy tin vào bản thân mình."
+            },
+            {
+              "id": "ko-shape-baekja-自-w3",
+              "headword": "자연",
+              "reading": "jayeon",
+              "meaningVn": "tự nhiên (自然)",
+              "example": "자연을 보호해야 해요.",
+              "exampleVn": "Chúng ta phải bảo vệ tự nhiên."
+            },
+            {
+              "id": "ko-shape-baekja-自-w4",
+              "headword": "자동차",
+              "reading": "jadongcha",
+              "meaningVn": "ô tô (自動車)",
+              "example": "자동차를 새로 샀어요.",
+              "exampleVn": "Tôi vừa mua một chiếc ô tô mới."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-shape-cheonbu",
+      "language": "ko",
+      "groupKind": "shape",
+      "reading": "天 · 夫",
+      "note": "형태가 비슷한 한자: 天(천, trời)은 위 가로획이 더 짧고, 夫(부, chồng)는 위 가로획이 더 길며 삐침이 위로 뚫고 나와요.",
+      "roots": [
+        {
+          "id": "ko-shape-cheonbu-天",
+          "character": "天",
+          "hanViet": "thiên",
+          "meaningVn": "trời (nét ngang trên NGẮN hơn)",
+          "words": [
+            {
+              "id": "ko-shape-cheonbu-天-w1",
+              "headword": "천국",
+              "reading": "cheonguk",
+              "meaningVn": "thiên đường (天国)",
+              "example": "이곳은 천국 같아요.",
+              "exampleVn": "Nơi này giống như thiên đường."
+            },
+            {
+              "id": "ko-shape-cheonbu-天-w2",
+              "headword": "천사",
+              "reading": "cheonsa",
+              "meaningVn": "thiên thần (天使)",
+              "example": "아기는 천사처럼 예뻐요.",
+              "exampleVn": "Em bé đẹp như thiên thần."
+            },
+            {
+              "id": "ko-shape-cheonbu-天-w3",
+              "headword": "천재",
+              "reading": "cheonjae",
+              "meaningVn": "thiên tài (天才)",
+              "example": "그는 음악 천재예요.",
+              "exampleVn": "Anh ấy là một thiên tài âm nhạc."
+            },
+            {
+              "id": "ko-shape-cheonbu-天-w4",
+              "headword": "천장",
+              "reading": "cheonjang",
+              "meaningVn": "trần nhà (天障)",
+              "example": "천장이 너무 낮아요.",
+              "exampleVn": "Trần nhà thấp quá."
+            }
+          ]
+        },
+        {
+          "id": "ko-shape-cheonbu-夫",
+          "character": "夫",
+          "hanViet": "phu",
+          "meaningVn": "chồng (nét ngang trên DÀI hơn, có nét sổ xuyên qua)",
+          "words": [
+            {
+              "id": "ko-shape-cheonbu-夫-w1",
+              "headword": "부부",
+              "reading": "bubu",
+              "meaningVn": "vợ chồng (夫婦)",
+              "example": "그들은 행복한 부부예요.",
+              "exampleVn": "Họ là một cặp vợ chồng hạnh phúc."
+            },
+            {
+              "id": "ko-shape-cheonbu-夫-w2",
+              "headword": "농부",
+              "reading": "nongbu",
+              "meaningVn": "nông dân (農夫)",
+              "example": "농부가 밭을 갈아요.",
+              "exampleVn": "Người nông dân đang cày ruộng."
+            },
+            {
+              "id": "ko-shape-cheonbu-夫-w3",
+              "headword": "부인",
+              "reading": "buin",
+              "meaningVn": "phu nhân, vợ (夫人)",
+              "example": "사장님 부인을 만났어요.",
+              "exampleVn": "Tôi đã gặp phu nhân của giám đốc."
+            },
+            {
+              "id": "ko-shape-cheonbu-夫-w4",
+              "headword": "어부",
+              "reading": "eobu",
+              "meaningVn": "ngư dân (漁夫)",
+              "example": "어부가 물고기를 잡아요.",
+              "exampleVn": "Ngư dân đang bắt cá."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-shape-guhwan",
+      "language": "ko",
+      "groupKind": "shape",
+      "reading": "九 · 丸",
+      "note": "형태가 비슷한 한자: 九(구, số 9)는 마지막 획이 곧게 뻗고, 丸(환, viên thuốc)은 마지막 획에 점이 추가돼요.",
+      "roots": [
+        {
+          "id": "ko-shape-guhwan-九",
+          "character": "九",
+          "hanViet": "cửu",
+          "meaningVn": "số chín",
+          "words": [
+            {
+              "id": "ko-shape-guhwan-九-w1",
+              "headword": "구월",
+              "reading": "guwol",
+              "meaningVn": "tháng 9 (九月)",
+              "example": "구월에 학교가 시작해요.",
+              "exampleVn": "Trường học bắt đầu vào tháng 9."
+            },
+            {
+              "id": "ko-shape-guhwan-九-w2",
+              "headword": "구십",
+              "reading": "gusip",
+              "meaningVn": "chín mươi (九十)",
+              "example": "할아버지는 구십 세예요.",
+              "exampleVn": "Ông tôi chín mươi tuổi."
+            },
+            {
+              "id": "ko-shape-guhwan-九-w3",
+              "headword": "구사일생",
+              "reading": "gusailsaeng",
+              "meaningVn": "thoát chết trong gang tấc (九死一生)",
+              "example": "그는 구사일생으로 살아났어요.",
+              "exampleVn": "Anh ấy đã thoát chết trong gang tấc."
+            },
+            {
+              "id": "ko-shape-guhwan-九-w4",
+              "headword": "구공탄",
+              "reading": "gugongtan",
+              "meaningVn": "than tổ ong (九孔炭, than 9 lỗ)",
+              "example": "옛날에는 구공탄으로 난방했어요.",
+              "exampleVn": "Ngày xưa người ta sưởi ấm bằng than tổ ong."
+            }
+          ]
+        },
+        {
+          "id": "ko-shape-guhwan-丸",
+          "character": "丸",
+          "hanViet": "hoàn",
+          "meaningVn": "viên (thuốc)",
+          "words": [
+            {
+              "id": "ko-shape-guhwan-丸-w1",
+              "headword": "환약",
+              "reading": "hwallyak",
+              "meaningVn": "thuốc viên (丸薬)",
+              "example": "한의원에서 환약을 지어줬어요.",
+              "exampleVn": "Phòng khám Đông y đã bốc cho tôi thuốc viên."
+            },
+            {
+              "id": "ko-shape-guhwan-丸-w2",
+              "headword": "탄환",
+              "reading": "tanhwan",
+              "meaningVn": "viên đạn (弾丸)",
+              "example": "탄환이 벽에 박혔어요.",
+              "exampleVn": "Viên đạn găm vào tường."
+            },
+            {
+              "id": "ko-shape-guhwan-丸-w3",
+              "headword": "포환",
+              "reading": "pohwan",
+              "meaningVn": "quả tạ (砲丸, môn ném tạ)",
+              "example": "그는 포환던지기 선수예요.",
+              "exampleVn": "Anh ấy là vận động viên ném tạ."
+            },
+            {
+              "id": "ko-shape-guhwan-丸-w4",
+              "headword": "청심환",
+              "reading": "cheongsimhwan",
+              "meaningVn": "thanh tâm hoàn (淸心丸, thuốc bổ tim nổi tiếng)",
+              "example": "긴장될 때 청심환을 먹어요.",
+              "exampleVn": "Khi hồi hộp tôi uống thanh tâm hoàn."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-shape-gunginjeon",
+      "language": "ko",
+      "groupKind": "shape",
+      "reading": "弓 · 引",
+      "note": "형태가 비슷한 한자: 弓(궁, cây cung)은 획이 3개로 단순하고, 引(인, kéo)은 오른쪽에 세로획이 하나 더 있어요.",
+      "roots": [
+        {
+          "id": "ko-shape-gunginjeon-弓",
+          "character": "弓",
+          "hanViet": "cung",
+          "meaningVn": "cây cung (bắn cung)",
+          "words": [
+            {
+              "id": "ko-shape-gunginjeon-弓-w1",
+              "headword": "양궁",
+              "reading": "yanggung",
+              "meaningVn": "bắn cung (洋弓, môn Olympic)",
+              "example": "한국은 양궁 강국이에요.",
+              "exampleVn": "Hàn Quốc là cường quốc bắn cung."
+            },
+            {
+              "id": "ko-shape-gunginjeon-弓-w2",
+              "headword": "국궁",
+              "reading": "gukgung",
+              "meaningVn": "cung thuật truyền thống Hàn Quốc (國弓)",
+              "example": "국궁 체험장에 가봤어요.",
+              "exampleVn": "Tôi đã đi trải nghiệm cung thuật truyền thống."
+            },
+            {
+              "id": "ko-shape-gunginjeon-弓-w3",
+              "headword": "궁수",
+              "reading": "gungsu",
+              "meaningVn": "cung thủ (弓手)",
+              "example": "궁수가 활을 당겼어요.",
+              "exampleVn": "Cung thủ đã kéo căng cây cung."
+            },
+            {
+              "id": "ko-shape-gunginjeon-弓-w4",
+              "headword": "궁도",
+              "reading": "gungdo",
+              "meaningVn": "cung đạo, nghệ thuật bắn cung (弓道)",
+              "example": "궁도는 마음을 다스리는 운동이에요.",
+              "exampleVn": "Cung đạo là môn thể thao rèn luyện tâm trí."
+            }
+          ]
+        },
+        {
+          "id": "ko-shape-gunginjeon-引",
+          "character": "引",
+          "hanViet": "dẫn",
+          "meaningVn": "kéo, dẫn dắt",
+          "words": [
+            {
+              "id": "ko-shape-gunginjeon-引-w1",
+              "headword": "인용",
+              "reading": "inyong",
+              "meaningVn": "trích dẫn (引用)",
+              "example": "논문에서 다른 책을 인용했어요.",
+              "exampleVn": "Trong luận văn tôi đã trích dẫn một cuốn sách khác."
+            },
+            {
+              "id": "ko-shape-gunginjeon-引-w2",
+              "headword": "할인",
+              "reading": "harin",
+              "meaningVn": "giảm giá (割引)",
+              "example": "이 제품은 할인 중이에요.",
+              "exampleVn": "Sản phẩm này đang được giảm giá."
+            },
+            {
+              "id": "ko-shape-gunginjeon-引-w3",
+              "headword": "인도",
+              "reading": "indo",
+              "meaningVn": "dẫn độ, giao nộp (引渡)",
+              "example": "범인이 인도됐어요.",
+              "exampleVn": "Nghi phạm đã bị dẫn độ."
+            },
+            {
+              "id": "ko-shape-gunginjeon-引-w4",
+              "headword": "견인",
+              "reading": "gyeonin",
+              "meaningVn": "kéo, lai dắt (牽引)",
+              "example": "고장난 차를 견인했어요.",
+              "exampleVn": "Chiếc xe hỏng đã được xe kéo lai dắt."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-shape-owoo",
+      "language": "ko",
+      "groupKind": "shape",
+      "reading": "午 · 牛",
+      "note": "형태가 비슷한 한자: 午(오, giờ Ngọ)는 세로획이 위로 짧게 뚫고, 牛(우, con bò)는 세로획이 아래까지 길게 이어져요.",
+      "roots": [
+        {
+          "id": "ko-shape-owoo-午",
+          "character": "午",
+          "hanViet": "ngọ",
+          "meaningVn": "giờ Ngọ, buổi trưa",
+          "words": [
+            {
+              "id": "ko-shape-owoo-午-w1",
+              "headword": "오후",
+              "reading": "ohu",
+              "meaningVn": "buổi chiều (午後)",
+              "example": "오후에 회의가 있어요.",
+              "exampleVn": "Buổi chiều tôi có cuộc họp."
+            },
+            {
+              "id": "ko-shape-owoo-午-w2",
+              "headword": "오전",
+              "reading": "ojeon",
+              "meaningVn": "buổi sáng (午前)",
+              "example": "오전에는 집중이 잘 돼요.",
+              "exampleVn": "Buổi sáng tôi tập trung tốt hơn."
+            },
+            {
+              "id": "ko-shape-owoo-午-w3",
+              "headword": "정오",
+              "reading": "jeongo",
+              "meaningVn": "chính ngọ, giữa trưa (正午)",
+              "example": "정오에 만나기로 했어요.",
+              "exampleVn": "Chúng tôi hẹn gặp nhau lúc giữa trưa."
+            },
+            {
+              "id": "ko-shape-owoo-午-w4",
+              "headword": "단오",
+              "reading": "dano",
+              "meaningVn": "Tết Đoan Ngọ (端午)",
+              "example": "단오에는 그네를 타요.",
+              "exampleVn": "Vào Tết Đoan Ngọ người ta chơi đu."
+            }
+          ]
+        },
+        {
+          "id": "ko-shape-owoo-牛",
+          "character": "牛",
+          "hanViet": "ngưu",
+          "meaningVn": "con bò, con trâu",
+          "words": [
+            {
+              "id": "ko-shape-owoo-牛-w1",
+              "headword": "우유",
+              "reading": "uyu",
+              "meaningVn": "sữa bò (牛乳)",
+              "example": "아침마다 우유를 마셔요.",
+              "exampleVn": "Mỗi sáng tôi uống sữa bò."
+            },
+            {
+              "id": "ko-shape-owoo-牛-w2",
+              "headword": "한우",
+              "reading": "hanu",
+              "meaningVn": "bò Hàn Quốc (韓牛)",
+              "example": "한우는 값이 비싸요.",
+              "exampleVn": "Bò Hàn Quốc có giá khá đắt."
+            },
+            {
+              "id": "ko-shape-owoo-牛-w3",
+              "headword": "투우",
+              "reading": "tuu",
+              "meaningVn": "đấu bò (鬪牛)",
+              "example": "스페인은 투우로 유명해요.",
+              "exampleVn": "Tây Ban Nha nổi tiếng với môn đấu bò."
+            },
+            {
+              "id": "ko-shape-owoo-牛-w4",
+              "headword": "광우병",
+              "reading": "gwangubyeong",
+              "meaningVn": "bệnh bò điên (狂牛病)",
+              "example": "광우병 파동이 있었어요.",
+              "exampleVn": "Đã từng có làn sóng lo ngại về bệnh bò điên."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-shape-simpil",
+      "language": "ko",
+      "groupKind": "shape",
+      "reading": "心 · 必",
+      "note": "형태가 비슷한 한자: 心(심, trái tim)은 점 3개가 나란히 놓이고, 必(필, tất phải)은 心 위에 삐침이 하나 추가된 형태예요.",
+      "roots": [
+        {
+          "id": "ko-shape-simpil-心",
+          "character": "心",
+          "hanViet": "tâm",
+          "meaningVn": "trái tim, tâm trí",
+          "words": [
+            {
+              "id": "ko-shape-simpil-心-w1",
+              "headword": "관심",
+              "reading": "gwansim",
+              "meaningVn": "sự quan tâm (關心)",
+              "example": "그 일에 관심이 많아요.",
+              "exampleVn": "Tôi rất quan tâm đến việc đó."
+            },
+            {
+              "id": "ko-shape-simpil-心-w2",
+              "headword": "중심",
+              "reading": "jungsim",
+              "meaningVn": "trung tâm (中心)",
+              "example": "도시의 중심에 있어요.",
+              "exampleVn": "Nó nằm ở trung tâm thành phố."
+            },
+            {
+              "id": "ko-shape-simpil-心-w3",
+              "headword": "안심",
+              "reading": "ansim",
+              "meaningVn": "an tâm (安心)",
+              "example": "이제 안심해도 돼요.",
+              "exampleVn": "Bây giờ bạn có thể an tâm rồi."
+            },
+            {
+              "id": "ko-shape-simpil-心-w4",
+              "headword": "심장",
+              "reading": "simjang",
+              "meaningVn": "tim (cơ quan) (心臟)",
+              "example": "심장이 빨리 뛰어요.",
+              "exampleVn": "Tim tôi đập nhanh."
+            }
+          ]
+        },
+        {
+          "id": "ko-shape-simpil-必",
+          "character": "必",
+          "hanViet": "tất",
+          "meaningVn": "tất, ắt phải",
+          "words": [
+            {
+              "id": "ko-shape-simpil-必-w1",
+              "headword": "필요",
+              "reading": "piryo",
+              "meaningVn": "cần thiết (必要)",
+              "example": "이 정보가 꼭 필요해요.",
+              "exampleVn": "Thông tin này rất cần thiết."
+            },
+            {
+              "id": "ko-shape-simpil-必-w2",
+              "headword": "필수",
+              "reading": "pilsu",
+              "meaningVn": "tất yếu, bắt buộc (必須)",
+              "example": "이 과목은 필수예요.",
+              "exampleVn": "Môn học này là bắt buộc."
+            },
+            {
+              "id": "ko-shape-simpil-必-w3",
+              "headword": "필승",
+              "reading": "pilseung",
+              "meaningVn": "ắt thắng (必勝)",
+              "example": "필승을 다짐했어요.",
+              "exampleVn": "Chúng tôi quyết tâm giành chiến thắng."
+            },
+            {
+              "id": "ko-shape-simpil-必-w4",
+              "headword": "필사적",
+              "reading": "pilsajeok",
+              "meaningVn": "quyết tử, hết sức (必死的)",
+              "example": "필사적으로 노력했어요.",
+              "exampleVn": "Tôi đã nỗ lực hết sức mình."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-shape-ojo",
+      "language": "ko",
+      "groupKind": "shape",
+      "reading": "烏 · 鳥",
+      "note": "형태가 비슷한 한자: 烏(오, con quạ)는 눈에 해당하는 획이 없고, 鳥(조, con chim)는 눈에 해당하는 점이 있어요 — \"까마귀는 눈이 안 보인다\"고 기억하면 쉬워요.",
+      "roots": [
+        {
+          "id": "ko-shape-ojo-烏",
+          "character": "烏",
+          "hanViet": "ô",
+          "meaningVn": "con quạ, màu đen",
+          "words": [
+            {
+              "id": "ko-shape-ojo-烏-w1",
+              "headword": "오작교",
+              "reading": "ojakgyo",
+              "meaningVn": "cầu Ô Thước (烏鵲橋, truyền thuyết Ngưu Lang Chức Nữ)",
+              "example": "견우와 직녀는 오작교에서 만나요.",
+              "exampleVn": "Ngưu Lang và Chức Nữ gặp nhau trên cầu Ô Thước."
+            },
+            {
+              "id": "ko-shape-ojo-烏-w2",
+              "headword": "오합지졸",
+              "reading": "ohapjijol",
+              "meaningVn": "đám quân ô hợp (烏合之卒)",
+              "example": "저건 오합지졸에 불과해요.",
+              "exampleVn": "Đó chỉ là một đám quân ô hợp mà thôi."
+            },
+            {
+              "id": "ko-shape-ojo-烏-w3",
+              "headword": "오죽",
+              "reading": "ojuk",
+              "meaningVn": "tre đen (烏竹)",
+              "example": "정원에 오죽을 심었어요.",
+              "exampleVn": "Tôi đã trồng tre đen trong vườn."
+            }
+          ]
+        },
+        {
+          "id": "ko-shape-ojo-鳥",
+          "character": "鳥",
+          "hanViet": "điểu",
+          "meaningVn": "con chim",
+          "words": [
+            {
+              "id": "ko-shape-ojo-鳥-w1",
+              "headword": "조류",
+              "reading": "joryu",
+              "meaningVn": "loài chim (鳥類)",
+              "example": "이 섬에는 다양한 조류가 살아요.",
+              "exampleVn": "Trên hòn đảo này có nhiều loài chim sinh sống."
+            },
+            {
+              "id": "ko-shape-ojo-鳥-w2",
+              "headword": "백조",
+              "reading": "baekjo",
+              "meaningVn": "thiên nga (白鳥)",
+              "example": "호수에 백조가 떠 있어요.",
+              "exampleVn": "Trên hồ có thiên nga đang bơi."
+            },
+            {
+              "id": "ko-shape-ojo-鳥-w3",
+              "headword": "타조",
+              "reading": "tajo",
+              "meaningVn": "đà điểu (駝鳥)",
+              "example": "타조는 날지 못해요.",
+              "exampleVn": "Đà điểu không thể bay."
+            },
+            {
+              "id": "ko-shape-ojo-鳥-w4",
+              "headword": "조감도",
+              "reading": "jogamdo",
+              "meaningVn": "bản đồ nhìn từ trên cao (鳥瞰圖)",
+              "example": "건물의 조감도를 봤어요.",
+              "exampleVn": "Tôi đã xem bản vẽ nhìn từ trên cao của toà nhà."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-shape-giyi",
+      "language": "ko",
+      "groupKind": "shape",
+      "reading": "己 · 已",
+      "note": "형태가 비슷한 한자: 己(기, bản thân)는 위쪽이 열려 있고, 已(이, đã)는 위쪽 획이 더 짧게 닫혀 있어요. 已는 현대 한국어 단어에서는 드물게 쓰여요.",
+      "roots": [
+        {
+          "id": "ko-shape-giyi-己",
+          "character": "己",
+          "hanViet": "kỷ",
+          "meaningVn": "bản thân",
+          "words": [
+            {
+              "id": "ko-shape-giyi-己-w1",
+              "headword": "자기",
+              "reading": "jagi",
+              "meaningVn": "bản thân (自己)",
+              "example": "자기 일은 자기가 해요.",
+              "exampleVn": "Việc của mình thì tự mình làm."
+            },
+            {
+              "id": "ko-shape-giyi-己-w2",
+              "headword": "이기적",
+              "reading": "igijeok",
+              "meaningVn": "ích kỷ (利己的)",
+              "example": "그는 너무 이기적이에요.",
+              "exampleVn": "Anh ấy quá ích kỷ."
+            },
+            {
+              "id": "ko-shape-giyi-己-w3",
+              "headword": "지기",
+              "reading": "jigi",
+              "meaningVn": "tri kỷ, bạn thân (知己)",
+              "example": "그는 평생의 지기예요.",
+              "exampleVn": "Anh ấy là người bạn tri kỷ suốt đời."
+            },
+            {
+              "id": "ko-shape-giyi-己-w4",
+              "headword": "극기",
+              "reading": "geukgi",
+              "meaningVn": "khắc kỷ, tự chủ (克己)",
+              "example": "극기 훈련을 받았어요.",
+              "exampleVn": "Tôi đã tham gia khoá huấn luyện khắc kỷ."
+            }
+          ]
+        },
+        {
+          "id": "ko-shape-giyi-已",
+          "character": "已",
+          "hanViet": "dĩ",
+          "meaningVn": "đã, rồi (hiếm gặp trong từ hiện đại)",
+          "words": [
+            {
+              "id": "ko-shape-giyi-已-w1",
+              "headword": "이왕",
+              "reading": "iwang",
+              "meaningVn": "đã lỡ, dù sao đã như vậy (已往)",
+              "example": "이왕 시작한 일이니 끝까지 해요.",
+              "exampleVn": "Đã lỡ bắt đầu rồi thì làm cho đến cùng."
+            },
+            {
+              "id": "ko-shape-giyi-已-w2",
+              "headword": "부득이",
+              "reading": "budeugi",
+              "meaningVn": "bất đắc dĩ, không thể không (不得已)",
+              "example": "부득이 약속을 취소했어요.",
+              "exampleVn": "Tôi đã phải bất đắc dĩ huỷ cuộc hẹn."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-shape-dongsok",
+      "language": "ko",
+      "groupKind": "shape",
+      "reading": "東 · 束",
+      "note": "형태가 비슷한 한자: 東(동, hướng đông)은 中(giữa) 모양이 세로로 관통하고, 束(속, ràng buộc)는 가운데가 묶인 모양이에요.",
+      "roots": [
+        {
+          "id": "ko-shape-dongsok-東",
+          "character": "東",
+          "hanViet": "đông",
+          "meaningVn": "hướng đông",
+          "words": [
+            {
+              "id": "ko-shape-dongsok-東-w1",
+              "headword": "동양",
+              "reading": "dongyang",
+              "meaningVn": "phương Đông (東洋)",
+              "example": "동양 철학에 관심이 있어요.",
+              "exampleVn": "Tôi quan tâm đến triết học phương Đông."
+            },
+            {
+              "id": "ko-shape-dongsok-東-w2",
+              "headword": "동해",
+              "reading": "donghae",
+              "meaningVn": "biển Đông (東海)",
+              "example": "동해에서 일출을 봤어요.",
+              "exampleVn": "Tôi đã ngắm bình minh ở biển Đông."
+            },
+            {
+              "id": "ko-shape-dongsok-東-w3",
+              "headword": "동대문",
+              "reading": "dongdaemun",
+              "meaningVn": "Đông Đại Môn (東大門, địa danh nổi tiếng ở Seoul)",
+              "example": "동대문 시장에서 옷을 샀어요.",
+              "exampleVn": "Tôi đã mua quần áo ở chợ Đông Đại Môn."
+            },
+            {
+              "id": "ko-shape-dongsok-東-w4",
+              "headword": "동쪽",
+              "reading": "dongjjok",
+              "meaningVn": "hướng đông (東-)",
+              "example": "해는 동쪽에서 떠요.",
+              "exampleVn": "Mặt trời mọc ở hướng đông."
+            }
+          ]
+        },
+        {
+          "id": "ko-shape-dongsok-束",
+          "character": "束",
+          "hanViet": "thúc",
+          "meaningVn": "buộc, ràng buộc",
+          "words": [
+            {
+              "id": "ko-shape-dongsok-束-w1",
+              "headword": "약속",
+              "reading": "yaksok",
+              "meaningVn": "lời hứa, cuộc hẹn (約束)",
+              "example": "내일 약속이 있어요.",
+              "exampleVn": "Ngày mai tôi có một cuộc hẹn."
+            },
+            {
+              "id": "ko-shape-dongsok-束-w2",
+              "headword": "구속",
+              "reading": "gusok",
+              "meaningVn": "giam giữ, ràng buộc (拘束)",
+              "example": "용의자가 구속됐어요.",
+              "exampleVn": "Nghi phạm đã bị giam giữ."
+            },
+            {
+              "id": "ko-shape-dongsok-束-w3",
+              "headword": "결속",
+              "reading": "gyeolsok",
+              "meaningVn": "đoàn kết, liên kết (結束)",
+              "example": "팀의 결속이 강해요.",
+              "exampleVn": "Sự đoàn kết của đội rất mạnh mẽ."
+            },
+            {
+              "id": "ko-shape-dongsok-束-w4",
+              "headword": "단속",
+              "reading": "dansok",
+              "meaningVn": "kiểm soát, thắt chặt quản lý (團束)",
+              "example": "경찰이 음주 단속을 해요.",
+              "exampleVn": "Cảnh sát đang kiểm soát nồng độ cồn."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-shape-ilwal",
+      "language": "ko",
+      "groupKind": "shape",
+      "reading": "日 · 曰",
+      "note": "형태가 비슷한 한자: 日(일, mặt trời/ngày)은 세로로 길쭉하고, 曰(왈, rằng)은 옆으로 납작해요. 曰은 현대 어휘에서는 고전 표현에만 드물게 남아 있어요.",
+      "roots": [
+        {
+          "id": "ko-shape-ilwal-日",
+          "character": "日",
+          "hanViet": "nhật",
+          "meaningVn": "ngày, mặt trời",
+          "words": [
+            {
+              "id": "ko-shape-ilwal-日-w1",
+              "headword": "일요일",
+              "reading": "iryoil",
+              "meaningVn": "Chủ nhật (日曜日)",
+              "example": "일요일에는 늦잠을 자요.",
+              "exampleVn": "Chủ nhật tôi ngủ nướng."
+            },
+            {
+              "id": "ko-shape-ilwal-日-w2",
+              "headword": "매일",
+              "reading": "maeil",
+              "meaningVn": "mỗi ngày (每日)",
+              "example": "매일 운동을 해요.",
+              "exampleVn": "Tôi tập thể dục mỗi ngày."
+            },
+            {
+              "id": "ko-shape-ilwal-日-w3",
+              "headword": "생일",
+              "reading": "saengil",
+              "meaningVn": "sinh nhật (生日)",
+              "example": "오늘은 제 생일이에요.",
+              "exampleVn": "Hôm nay là sinh nhật của tôi."
+            },
+            {
+              "id": "ko-shape-ilwal-日-w4",
+              "headword": "일기",
+              "reading": "ilgi",
+              "meaningVn": "nhật ký (日記)",
+              "example": "매일 밤 일기를 써요.",
+              "exampleVn": "Mỗi tối tôi viết nhật ký."
+            }
+          ]
+        },
+        {
+          "id": "ko-shape-ilwal-曰",
+          "character": "曰",
+          "hanViet": "viết",
+          "meaningVn": "rằng, nói (cổ văn)",
+          "words": [
+            {
+              "id": "ko-shape-ilwal-曰-w1",
+              "headword": "자왈",
+              "reading": "jawal",
+              "meaningVn": "Khổng Tử nói rằng (子曰, cách gọi tôn kính \"Thầy nói rằng\")",
+              "example": "자왈, 배우고 때때로 익히면 즐겁지 아니한가.",
+              "exampleVn": "Khổng Tử nói: học rồi thường xuyên ôn tập chẳng phải vui sao."
+            },
+            {
+              "id": "ko-shape-ilwal-曰-w2",
+              "headword": "왈가왈부",
+              "reading": "walgawalbu",
+              "meaningVn": "bàn tán, tranh cãi đúng sai (曰可曰否, dùng chữ 曰 hai lần)",
+              "example": "더 이상 왈가왈부하지 마세요.",
+              "exampleVn": "Đừng bàn tán tranh cãi thêm nữa."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-shape-sato",
+      "language": "ko",
+      "groupKind": "shape",
+      "reading": "士 · 土",
+      "note": "형태가 비슷한 한자: 士(사, kẻ sĩ)는 위 가로획이 더 길고, 土(토, đất)는 아래 가로획이 더 길어요 — 획의 길이만 다릅니다.",
+      "roots": [
+        {
+          "id": "ko-shape-sato-士",
+          "character": "士",
+          "hanViet": "sĩ",
+          "meaningVn": "kẻ sĩ, người có học/chuyên môn (nét ngang TRÊN dài hơn)",
+          "words": [
+            {
+              "id": "ko-shape-sato-士-w1",
+              "headword": "박사",
+              "reading": "baksa",
+              "meaningVn": "tiến sĩ (博士)",
+              "example": "그는 물리학 박사예요.",
+              "exampleVn": "Anh ấy là tiến sĩ vật lý."
+            },
+            {
+              "id": "ko-shape-sato-士-w2",
+              "headword": "신사",
+              "reading": "sinsa",
+              "meaningVn": "quý ông, người lịch lãm (紳士)",
+              "example": "그는 진정한 신사입니다.",
+              "exampleVn": "Anh ấy là một quý ông thực thụ."
+            },
+            {
+              "id": "ko-shape-sato-士-w3",
+              "headword": "병사",
+              "reading": "byeongsa",
+              "meaningVn": "binh sĩ (兵士)",
+              "example": "병사들이 훈련을 받아요.",
+              "exampleVn": "Các binh sĩ đang được huấn luyện."
+            },
+            {
+              "id": "ko-shape-sato-士-w4",
+              "headword": "변호사",
+              "reading": "byeonhosa",
+              "meaningVn": "luật sư (辯護士)",
+              "example": "변호사와 상담했어요.",
+              "exampleVn": "Tôi đã tư vấn với luật sư."
+            }
+          ]
+        },
+        {
+          "id": "ko-shape-sato-土",
+          "character": "土",
+          "hanViet": "thổ",
+          "meaningVn": "đất (nét ngang DƯỚI dài hơn)",
+          "words": [
+            {
+              "id": "ko-shape-sato-土-w1",
+              "headword": "토지",
+              "reading": "toji",
+              "meaningVn": "đất đai (土地)",
+              "example": "토지 가격이 올랐어요.",
+              "exampleVn": "Giá đất đã tăng."
+            },
+            {
+              "id": "ko-shape-sato-土-w2",
+              "headword": "국토",
+              "reading": "gukto",
+              "meaningVn": "quốc thổ, lãnh thổ quốc gia (國土)",
+              "example": "국토를 개발합니다.",
+              "exampleVn": "Phát triển quốc thổ."
+            },
+            {
+              "id": "ko-shape-sato-土-w3",
+              "headword": "영토",
+              "reading": "yeongto",
+              "meaningVn": "lãnh thổ (領土)",
+              "example": "영토 분쟁이 계속돼요.",
+              "exampleVn": "Tranh chấp lãnh thổ vẫn tiếp diễn."
+            },
+            {
+              "id": "ko-shape-sato-土-w4",
+              "headword": "토양",
+              "reading": "toyang",
+              "meaningVn": "thổ nhưỡng, chất đất (土壤)",
+              "example": "이 토양은 농사에 좋아요.",
+              "exampleVn": "Chất đất này tốt cho việc trồng trọt."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-shape-geumryeong",
+      "language": "ko",
+      "groupKind": "shape",
+      "reading": "今 · 令",
+      "note": "형태가 비슷한 한자: 今(금, bây giờ)과 令(령, mệnh lệnh)은 아래 부분만 다릅니다. 令은 단어 첫머리에서 두음법칙으로 \"영\"으로 읽어요 (영장).",
+      "roots": [
+        {
+          "id": "ko-shape-geumryeong-今",
+          "character": "今",
+          "hanViet": "kim",
+          "meaningVn": "nay, bây giờ",
+          "words": [
+            {
+              "id": "ko-shape-geumryeong-今-w1",
+              "headword": "지금",
+              "reading": "jigeum",
+              "meaningVn": "bây giờ (只今)",
+              "example": "지금 출발할게요.",
+              "exampleVn": "Bây giờ tôi sẽ xuất phát."
+            },
+            {
+              "id": "ko-shape-geumryeong-今-w2",
+              "headword": "금년",
+              "reading": "geumnyeon",
+              "meaningVn": "năm nay (今年)",
+              "example": "금년 목표를 세웠어요.",
+              "exampleVn": "Tôi đã đặt mục tiêu cho năm nay."
+            },
+            {
+              "id": "ko-shape-geumryeong-今-w3",
+              "headword": "금방",
+              "reading": "geumbang",
+              "meaningVn": "vừa mới; ngay lập tức (今方)",
+              "example": "금방 도착했어요.",
+              "exampleVn": "Tôi vừa mới đến."
+            },
+            {
+              "id": "ko-shape-geumryeong-今-w4",
+              "headword": "금후",
+              "reading": "geumhu",
+              "meaningVn": "từ nay về sau (今後)",
+              "example": "금후의 계획을 말씀드릴게요.",
+              "exampleVn": "Tôi sẽ trình bày kế hoạch từ nay về sau."
+            }
+          ]
+        },
+        {
+          "id": "ko-shape-geumryeong-令",
+          "character": "令",
+          "hanViet": "lệnh",
+          "meaningVn": "mệnh lệnh",
+          "words": [
+            {
+              "id": "ko-shape-geumryeong-令-w1",
+              "headword": "명령",
+              "reading": "myeongnyeong",
+              "meaningVn": "mệnh lệnh (命令)",
+              "example": "상관의 명령을 따랐어요.",
+              "exampleVn": "Tôi đã tuân theo mệnh lệnh cấp trên."
+            },
+            {
+              "id": "ko-shape-geumryeong-令-w2",
+              "headword": "법령",
+              "reading": "beomnyeong",
+              "meaningVn": "pháp lệnh (法令)",
+              "example": "새 법령이 공포됐어요.",
+              "exampleVn": "Pháp lệnh mới đã được ban bố."
+            },
+            {
+              "id": "ko-shape-geumryeong-令-w3",
+              "headword": "지령",
+              "reading": "jiryeong",
+              "meaningVn": "chỉ lệnh (指令)",
+              "example": "본부의 지령을 받았어요.",
+              "exampleVn": "Tôi đã nhận chỉ lệnh từ bản bộ."
+            },
+            {
+              "id": "ko-shape-geumryeong-令-w4",
+              "headword": "영장",
+              "reading": "yeongjang",
+              "meaningVn": "lệnh (bắt, khám xét) (令狀)",
+              "example": "경찰이 영장을 제시했어요.",
+              "exampleVn": "Cảnh sát đã xuất trình lệnh."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-shape-ryoja",
+      "language": "ko",
+      "groupKind": "shape",
+      "reading": "了 · 子",
+      "note": "형태가 비슷한 한자: 了(료, xong)와 子(자, con)는 가로획 하나 차이뿐이에요 — 子에만 가운데 가로획이 있습니다.",
+      "roots": [
+        {
+          "id": "ko-shape-ryoja-了",
+          "character": "了",
+          "hanViet": "liễu",
+          "meaningVn": "xong, kết thúc (KHÔNG có nét ngang giữa)",
+          "words": [
+            {
+              "id": "ko-shape-ryoja-了-w1",
+              "headword": "완료",
+              "reading": "wallyo",
+              "meaningVn": "hoàn thành (完了)",
+              "example": "작업이 완료됐어요.",
+              "exampleVn": "Công việc đã hoàn thành."
+            },
+            {
+              "id": "ko-shape-ryoja-了-w2",
+              "headword": "종료",
+              "reading": "jongnyo",
+              "meaningVn": "kết thúc (終了)",
+              "example": "경기가 종료됐습니다.",
+              "exampleVn": "Trận đấu đã kết thúc."
+            },
+            {
+              "id": "ko-shape-ryoja-了-w3",
+              "headword": "만료",
+              "reading": "mallyo",
+              "meaningVn": "hết hạn (滿了)",
+              "example": "계약이 만료됐어요.",
+              "exampleVn": "Hợp đồng đã hết hạn."
+            }
+          ]
+        },
+        {
+          "id": "ko-shape-ryoja-子",
+          "character": "子",
+          "hanViet": "tử",
+          "meaningVn": "con, hạt nhỏ (CÓ nét ngang giữa)",
+          "words": [
+            {
+              "id": "ko-shape-ryoja-子-w1",
+              "headword": "자녀",
+              "reading": "janyeo",
+              "meaningVn": "con cái (子女)",
+              "example": "자녀 교육이 중요해요.",
+              "exampleVn": "Giáo dục con cái rất quan trọng."
+            },
+            {
+              "id": "ko-shape-ryoja-子-w2",
+              "headword": "제자",
+              "reading": "jeja",
+              "meaningVn": "đệ tử, học trò (弟子)",
+              "example": "그는 스승의 제자예요.",
+              "exampleVn": "Anh ấy là học trò của thầy."
+            },
+            {
+              "id": "ko-shape-ryoja-子-w3",
+              "headword": "원자",
+              "reading": "wonja",
+              "meaningVn": "nguyên tử (原子)",
+              "example": "원자의 구조를 배웠어요.",
+              "exampleVn": "Tôi đã học về cấu trúc nguyên tử."
+            },
+            {
+              "id": "ko-shape-ryoja-子-w4",
+              "headword": "전자",
+              "reading": "jeonja",
+              "meaningVn": "điện tử (電子)",
+              "example": "전자 제품을 샀어요.",
+              "exampleVn": "Tôi đã mua đồ điện tử."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-shape-chonjae",
+      "language": "ko",
+      "groupKind": "shape",
+      "reading": "寸 · 才",
+      "note": "형태가 비슷한 한자: 寸(촌)과 才(재)는 획 방향만 살짝 달라요. 寸은 한국에서 친척 관계의 \"촌수\"를 세는 아주 특별한 쓰임이 있습니다.",
+      "roots": [
+        {
+          "id": "ko-shape-chonjae-寸",
+          "character": "寸",
+          "hanViet": "thốn",
+          "meaningVn": "tấc; bậc họ hàng (cách đếm riêng của Hàn Quốc)",
+          "words": [
+            {
+              "id": "ko-shape-chonjae-寸-w1",
+              "headword": "사촌",
+              "reading": "sachon",
+              "meaningVn": "anh chị em họ (四寸)",
+              "example": "사촌 동생이 놀러 왔어요.",
+              "exampleVn": "Em họ tôi đến chơi."
+            },
+            {
+              "id": "ko-shape-chonjae-寸-w2",
+              "headword": "촌수",
+              "reading": "chonsu",
+              "meaningVn": "thứ bậc họ hàng tính theo \"chon\" (寸數)",
+              "example": "한국은 촌수로 친척 관계를 따져요.",
+              "exampleVn": "Người Hàn tính quan hệ họ hàng bằng \"chon\"."
+            }
+          ]
+        },
+        {
+          "id": "ko-shape-chonjae-才",
+          "character": "才",
+          "hanViet": "tài",
+          "meaningVn": "tài năng",
+          "words": [
+            {
+              "id": "ko-shape-chonjae-才-w1",
+              "headword": "재능",
+              "reading": "jaeneung",
+              "meaningVn": "tài năng (才能)",
+              "example": "그는 음악에 재능이 있어요.",
+              "exampleVn": "Anh ấy có tài năng âm nhạc."
+            },
+            {
+              "id": "ko-shape-chonjae-才-w2",
+              "headword": "수재",
+              "reading": "sujae",
+              "meaningVn": "người tài giỏi xuất chúng (秀才)",
+              "example": "그는 마을의 수재였어요.",
+              "exampleVn": "Anh ấy từng là người tài giỏi nhất làng."
+            },
+            {
+              "id": "ko-shape-chonjae-才-w3",
+              "headword": "재치",
+              "reading": "jaechi",
+              "meaningVn": "sự lanh lợi, nhanh trí (才致)",
+              "example": "재치 있는 대답이었어요.",
+              "exampleVn": "Đó là một câu trả lời nhanh trí."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-shape-haengsin",
+      "language": "ko",
+      "groupKind": "shape",
+      "reading": "幸 · 辛",
+      "note": "형태가 비슷한 한자: 幸(행, may mắn)과 辛(신, cay/cực khổ)은 위쪽 획 하나 차이인데 뜻은 정반대에 가까워요.",
+      "roots": [
+        {
+          "id": "ko-shape-haengsin-幸",
+          "character": "幸",
+          "hanViet": "hạnh",
+          "meaningVn": "may mắn, hạnh phúc",
+          "words": [
+            {
+              "id": "ko-shape-haengsin-幸-w1",
+              "headword": "행복",
+              "reading": "haengbok",
+              "meaningVn": "hạnh phúc (幸福)",
+              "example": "가족과 있을 때 가장 행복해요.",
+              "exampleVn": "Tôi hạnh phúc nhất khi ở bên gia đình."
+            },
+            {
+              "id": "ko-shape-haengsin-幸-w2",
+              "headword": "다행",
+              "reading": "dahaeng",
+              "meaningVn": "may mà, thật may (多幸)",
+              "example": "다치지 않아서 다행이에요.",
+              "exampleVn": "May mà không bị thương."
+            },
+            {
+              "id": "ko-shape-haengsin-幸-w3",
+              "headword": "불행",
+              "reading": "bulhaeng",
+              "meaningVn": "bất hạnh (不幸)",
+              "example": "불행한 사고였어요.",
+              "exampleVn": "Đó là một tai nạn bất hạnh."
+            }
+          ]
+        },
+        {
+          "id": "ko-shape-haengsin-辛",
+          "character": "辛",
+          "hanViet": "tân",
+          "meaningVn": "cay; cay đắng, cực khổ",
+          "words": [
+            {
+              "id": "ko-shape-haengsin-辛-w1",
+              "headword": "신랄",
+              "reading": "sillal",
+              "meaningVn": "gay gắt, cay độc (辛辣)",
+              "example": "신랄한 비판을 받았어요.",
+              "exampleVn": "Anh ấy nhận những lời phê bình gay gắt."
+            },
+            {
+              "id": "ko-shape-haengsin-辛-w2",
+              "headword": "신고",
+              "reading": "singo",
+              "meaningVn": "nỗi gian khổ (辛苦)",
+              "example": "온갖 신고를 겪었어요.",
+              "exampleVn": "Tôi đã trải qua đủ mọi gian khổ."
+            },
+            {
+              "id": "ko-shape-haengsin-辛-w3",
+              "headword": "향신료",
+              "reading": "hyangsillyo",
+              "meaningVn": "gia vị (香辛料)",
+              "example": "인도 요리는 향신료를 많이 써요.",
+              "exampleVn": "Món Ấn Độ dùng rất nhiều gia vị."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
