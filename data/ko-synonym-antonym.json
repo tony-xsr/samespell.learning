@@ -9188,6 +9188,422 @@
         }
       ],
       "note": "4 từ đều liên quan 'cách làm' nhưng khác sắc thái: 방법 = trung tính, phổ biến nhất; 수단 = CẨN THẬN vì có thể mang nghĩa tiêu cực (dùng mưu mẹo/phương tiện bất chấp); 조치 = biện pháp hành chính xử lý sự việc cụ thể; 방책 = kế sách chiến lược quy mô lớn. Tương ứng chuỗi tiếng Trung/Nhật 方法/手段/措施(措置)."
+    },
+    {
+      "id": "ko-syncluster-gyeolgwa",
+      "language": "ko",
+      "kind": "synonym-cluster",
+      "sharedChar": "果",
+      "words": [
+        {
+          "headword": "결과",
+          "hanja": "結果",
+          "reading": "gyeolgwa",
+          "hanViet": "kết quả",
+          "meaningVn": "kết quả nói chung — trung tính (시험 결과 = kết quả bài thi)"
+        },
+        {
+          "headword": "성과",
+          "hanja": "成果",
+          "reading": "seonggwa",
+          "hanViet": "thành quả",
+          "meaningVn": "thành quả TỐT gặt hái từ nỗ lực (연구 성과 = thành quả nghiên cứu)"
+        },
+        {
+          "headword": "효과",
+          "hanja": "效果",
+          "reading": "hyogwa",
+          "hanViet": "hiệu quả",
+          "meaningVn": "tác dụng, hiệu lực của biện pháp/thuốc (약의 효과 = tác dụng của thuốc)"
+        }
+      ],
+      "note": "3 từ chung chữ Hán 果 (quả): 결과 TRUNG TÍNH (tốt xấu đều dùng), 성과 chỉ dùng cho kết quả TỐT từ nỗ lực, 효과 là TÁC DỤNG của biện pháp lên đối tượng khác."
+    },
+    {
+      "id": "ko-syncluster-mokjeok",
+      "language": "ko",
+      "kind": "synonym-cluster",
+      "sharedChar": null,
+      "words": [
+        {
+          "headword": "목적",
+          "hanja": "目的",
+          "reading": "mokjeok",
+          "hanViet": "mục đích",
+          "meaningVn": "mục đích cuối cùng, lý do vì sao làm (여행의 목적 = mục đích chuyến đi)"
+        },
+        {
+          "headword": "목표",
+          "hanja": "目標",
+          "reading": "mokpyo",
+          "hanViet": "mục tiêu",
+          "meaningVn": "mốc cụ thể, đo đếm được (매출 목표 = mục tiêu doanh số)"
+        },
+        {
+          "headword": "지향",
+          "hanja": "志向",
+          "reading": "jihyang",
+          "hanViet": "chí hướng",
+          "meaningVn": "định hướng, xu hướng nhắm tới dài hạn (미래 지향 = hướng tới tương lai)"
+        },
+        {
+          "headword": "의도",
+          "hanja": "意圖",
+          "reading": "uido",
+          "hanViet": "ý đồ",
+          "meaningVn": "ý đồ, dụng ý bên trong — thường không nói ra (숨은 의도 = ý đồ giấu kín)"
+        }
+      ],
+      "note": "4 từ đều nói về \"cái hướng tới\" nhưng khác độ cụ thể: 목적 là LÝ DO CUỐI CÙNG, 목표 là MỐC ĐO ĐƯỢC, 지향 là ĐỊNH HƯỚNG dài hạn, 의도 là Ý ĐỒ bên trong (thường ẩn)."
+    },
+    {
+      "id": "ko-syncluster-wonin",
+      "language": "ko",
+      "kind": "synonym-cluster",
+      "sharedChar": "因",
+      "words": [
+        {
+          "headword": "원인",
+          "hanja": "原因",
+          "reading": "wonin",
+          "hanViet": "nguyên nhân",
+          "meaningVn": "nguyên nhân trực tiếp gây ra sự việc (사고의 원인 = nguyên nhân vụ tai nạn)"
+        },
+        {
+          "headword": "요인",
+          "hanja": "要因",
+          "reading": "yoin",
+          "hanViet": "yếu nhân",
+          "meaningVn": "yếu tố chính góp phần — hàm ý còn yếu tố khác (성공 요인 = các yếu tố dẫn tới thành công)"
+        },
+        {
+          "headword": "유인",
+          "hanja": "誘因",
+          "reading": "yuin",
+          "hanViet": "dụ nhân",
+          "meaningVn": "nhân tố khơi mào, dẫn dụ sự việc xảy ra (발병의 유인 = yếu tố khơi mào phát bệnh)"
+        }
+      ],
+      "note": "3 từ chung chữ Hán 因 (nhân): 원인 là nguyên nhân TRỰC TIẾP, 요인 là MỘT TRONG NHIỀU yếu tố góp phần, 유인 là cái KHƠI MÀO dẫn dụ."
+    },
+    {
+      "id": "ko-syncluster-gaeseon",
+      "language": "ko",
+      "kind": "synonym-cluster",
+      "sharedChar": "改",
+      "words": [
+        {
+          "headword": "개선",
+          "hanja": "改善",
+          "reading": "gaeseon",
+          "hanViet": "cải thiện",
+          "meaningVn": "làm cho tình trạng tốt lên (환경 개선 = cải thiện môi trường)"
+        },
+        {
+          "headword": "개량",
+          "hanja": "改良",
+          "reading": "gaeryang",
+          "hanViet": "cải lương",
+          "meaningVn": "cải tiến vật thể, giống loài (품종 개량 = cải tiến giống)"
+        },
+        {
+          "headword": "개혁",
+          "hanja": "改革",
+          "reading": "gaehyeok",
+          "hanViet": "cải cách",
+          "meaningVn": "thay đổi lớn về chế độ, cơ cấu (교육 개혁 = cải cách giáo dục)"
+        },
+        {
+          "headword": "개정",
+          "hanja": "改正",
+          "reading": "gaejeong",
+          "hanViet": "cải chính",
+          "meaningVn": "sửa lại cho đúng — luật, quy định, sách (법 개정 = sửa đổi luật)"
+        }
+      ],
+      "note": "4 từ chung chữ Hán 改 (cải): 개선 sửa TÌNH TRẠNG cho tốt lên, 개량 cải tiến VẬT/giống, 개혁 thay đổi CHẾ ĐỘ tận gốc, 개정 sửa lại cho ĐÚNG (luật, sách)."
+    },
+    {
+      "id": "ko-syncluster-gyeoljeong",
+      "language": "ko",
+      "kind": "synonym-cluster",
+      "sharedChar": "決",
+      "words": [
+        {
+          "headword": "결정",
+          "hanja": "決定",
+          "reading": "gyeoljeong",
+          "hanViet": "quyết định",
+          "meaningVn": "quyết định chính thức (방침을 결정하다 = quyết định phương châm)"
+        },
+        {
+          "headword": "결단",
+          "hanja": "決斷",
+          "reading": "gyeoldan",
+          "hanViet": "quyết đoán",
+          "meaningVn": "quyết định dứt khoát trong tình huống khó (결단을 내리다 = đưa ra quyết đoán)"
+        },
+        {
+          "headword": "결의",
+          "hanja": "決意",
+          "reading": "gyeorui",
+          "hanViet": "quyết ý",
+          "meaningVn": "ý chí đã quyết, nghị quyết — trang trọng (결의를 다지다 = củng cố quyết tâm)"
+        },
+        {
+          "headword": "결심",
+          "hanja": "決心",
+          "reading": "gyeolsim",
+          "hanViet": "quyết tâm",
+          "meaningVn": "lòng quyết tâm cá nhân, đời thường (유학을 결심했다 = đã quyết tâm đi du học)"
+        }
+      ],
+      "note": "4 từ chung chữ Hán 決 (quyết): 결정 là quyết định CHÍNH THỨC, 결단 là quyết định DỨT KHOÁT lúc khó, 결의 là quyết nghị/ý chí TRANG TRỌNG (hay dùng cho tập thể), 결심 là quyết tâm CÁ NHÂN đời thường."
+    },
+    {
+      "id": "ko-syncluster-saengsan",
+      "language": "ko",
+      "kind": "synonym-cluster",
+      "sharedChar": null,
+      "words": [
+        {
+          "headword": "생산",
+          "hanja": "生產",
+          "reading": "saengsan",
+          "hanViet": "sinh sản",
+          "meaningVn": "sản xuất hàng loạt quy mô lớn (대량 생산 = sản xuất hàng loạt)"
+        },
+        {
+          "headword": "제조",
+          "hanja": "製造",
+          "reading": "jejo",
+          "hanViet": "chế tạo",
+          "meaningVn": "chế tạo qua quy trình công nghiệp (의약품 제조 = sản xuất dược phẩm)"
+        },
+        {
+          "headword": "제작",
+          "hanja": "製作",
+          "reading": "jejak",
+          "hanViet": "chế tác",
+          "meaningVn": "làm ra vật thể/tác phẩm cụ thể (영화 제작 = sản xuất phim)"
+        },
+        {
+          "headword": "창작",
+          "hanja": "創作",
+          "reading": "changjak",
+          "hanViet": "sáng tác",
+          "meaningVn": "sáng tạo cái mới chưa từng có (소설 창작 = sáng tác tiểu thuyết)"
+        }
+      ],
+      "note": "4 từ đều là \"làm ra\": 생산 sản xuất HÀNG LOẠT, 제조 chế tạo qua QUY TRÌNH công nghiệp, 제작 làm ra VẬT THỂ/tác phẩm cụ thể, 창작 SÁNG TẠO cái chưa từng có."
+    },
+    {
+      "id": "ko-syncluster-jeungga",
+      "language": "ko",
+      "kind": "synonym-cluster",
+      "sharedChar": "增",
+      "words": [
+        {
+          "headword": "증가",
+          "hanja": "增加",
+          "reading": "jeungga",
+          "hanViet": "tăng gia",
+          "meaningVn": "tăng về số lượng đếm được (인구 증가 = dân số tăng)"
+        },
+        {
+          "headword": "증대",
+          "hanja": "增大",
+          "reading": "jeungdae",
+          "hanViet": "tăng đại",
+          "meaningVn": "tăng về quy mô, mức độ (위험 증대 = rủi ro tăng lên)"
+        },
+        {
+          "headword": "증진",
+          "hanja": "增進",
+          "reading": "jeungjin",
+          "hanViet": "tăng tiến",
+          "meaningVn": "tăng cường theo hướng tốt lên (건강 증진 = tăng cường sức khoẻ)"
+        },
+        {
+          "headword": "증강",
+          "hanja": "增強",
+          "reading": "jeunggang",
+          "hanViet": "tăng cường",
+          "meaningVn": "tăng cường lực lượng, năng lực (전력 증강 = tăng cường binh lực)"
+        }
+      ],
+      "note": "4 từ chung chữ Hán 增 (tăng) nhưng tăng CÁI GÌ thì khác: 증가 tăng SỐ LƯỢNG, 증대 tăng QUY MÔ, 증진 tăng theo hướng TỐT, 증강 tăng cường LỰC LƯỢNG."
+    },
+    {
+      "id": "ko-syncluster-gamso",
+      "language": "ko",
+      "kind": "synonym-cluster",
+      "sharedChar": "減",
+      "words": [
+        {
+          "headword": "감소",
+          "hanja": "減少",
+          "reading": "gamso",
+          "hanViet": "giảm thiểu",
+          "meaningVn": "giảm về số lượng — thường tự nhiên (인구 감소 = dân số giảm)"
+        },
+        {
+          "headword": "삭감",
+          "hanja": "削減",
+          "reading": "sakgam",
+          "hanViet": "tước giảm",
+          "meaningVn": "CHỦ ĐỘNG cắt giảm (예산 삭감 = cắt giảm ngân sách)"
+        },
+        {
+          "headword": "경감",
+          "hanja": "輕減",
+          "reading": "gyeonggam",
+          "hanViet": "khinh giảm",
+          "meaningVn": "làm nhẹ bớt gánh nặng (부담 경감 = giảm nhẹ gánh nặng)"
+        }
+      ],
+      "note": "3 từ chung chữ Hán 減 (giảm) khác nhau ở CHỦ Ý: 감소 là giảm TỰ NHIÊN, 삭감 là CHỦ ĐỘNG cắt bớt, 경감 là làm NHẸ BỚT gánh nặng."
+    },
+    {
+      "id": "ko-syncluster-chaegim",
+      "language": "ko",
+      "kind": "synonym-cluster",
+      "sharedChar": null,
+      "words": [
+        {
+          "headword": "책임",
+          "hanja": "責任",
+          "reading": "chaegim",
+          "hanViet": "trách nhiệm",
+          "meaningVn": "trách nhiệm phải gánh hậu quả (책임을 지다 = chịu trách nhiệm)"
+        },
+        {
+          "headword": "의무",
+          "hanja": "義務",
+          "reading": "uimu",
+          "hanViet": "nghĩa vụ",
+          "meaningVn": "nghĩa vụ bắt buộc bởi luật/đạo lý (납세의 의무 = nghĩa vụ nộp thuế)"
+        },
+        {
+          "headword": "임무",
+          "hanja": "任務",
+          "reading": "immu",
+          "hanViet": "nhiệm vụ",
+          "meaningVn": "nhiệm vụ cụ thể được giao (임무를 완수하다 = hoàn thành nhiệm vụ)"
+        },
+        {
+          "headword": "역할",
+          "hanja": "役割",
+          "reading": "yeokhal",
+          "hanViet": "dịch cát",
+          "meaningVn": "vai trò đảm nhận trong tập thể (중요한 역할 = vai trò quan trọng)"
+        }
+      ],
+      "note": "4 từ đều là \"phần việc phải làm\" nhưng nguồn gốc khác: 책임 là gánh HẬU QUẢ, 의무 bắt buộc bởi LUẬT/đạo lý, 임무 là việc được GIAO, 역할 là VAI TRÒ trong tập thể."
+    },
+    {
+      "id": "ko-syncluster-gwangye",
+      "language": "ko",
+      "kind": "synonym-cluster",
+      "sharedChar": "關",
+      "words": [
+        {
+          "headword": "관계",
+          "hanja": "關係",
+          "reading": "gwangye",
+          "hanViet": "quan hệ",
+          "meaningVn": "mối quan hệ nói chung (인간관계 = quan hệ giữa người với người)"
+        },
+        {
+          "headword": "관련",
+          "hanja": "關聯",
+          "reading": "gwallyeon",
+          "hanViet": "quan liên",
+          "meaningVn": "sự liên quan về nội dung, chủ đề (관련 기사 = bài viết liên quan)"
+        },
+        {
+          "headword": "관여",
+          "hanja": "關與",
+          "reading": "gwanyeo",
+          "hanViet": "quan dữ",
+          "meaningVn": "sự can dự, dính líu vào — thường việc nghiêm trọng (사건에 관여하다 = dính líu vào vụ án)"
+        }
+      ],
+      "note": "3 từ chung chữ Hán 關 (quan) tăng dần mức dính líu: 관계 là MỐI QUAN HỆ chung, 관련 là LIÊN QUAN về nội dung, 관여 là thực sự CAN DỰ vào."
+    },
+    {
+      "id": "ko-syncluster-byeonhwa",
+      "language": "ko",
+      "kind": "synonym-cluster",
+      "sharedChar": "變",
+      "words": [
+        {
+          "headword": "변화",
+          "hanja": "變化",
+          "reading": "byeonhwa",
+          "hanViet": "biến hoá",
+          "meaningVn": "sự thay đổi tự nhiên của trạng thái (기온 변화 = nhiệt độ thay đổi)"
+        },
+        {
+          "headword": "변경",
+          "hanja": "變更",
+          "reading": "byeongyeong",
+          "hanViet": "biến canh",
+          "meaningVn": "thay đổi có chủ ý cái đã định (일정 변경 = đổi lịch)"
+        },
+        {
+          "headword": "변동",
+          "hanja": "變動",
+          "reading": "byeondong",
+          "hanViet": "biến động",
+          "meaningVn": "dao động lên xuống (환율 변동 = tỷ giá biến động)"
+        },
+        {
+          "headword": "변혁",
+          "hanja": "變革",
+          "reading": "byeonhyeok",
+          "hanViet": "biến cách",
+          "meaningVn": "cải biến tận gốc xã hội/thể chế (사회 변혁 = biến cách xã hội)"
+        }
+      ],
+      "note": "4 từ chung chữ Hán 變 (biến): 변화 đổi TỰ NHIÊN, 변경 đổi CÓ CHỦ Ý cái đã định, 변동 DAO ĐỘNG lên xuống, 변혁 cải biến TẬN GỐC."
+    },
+    {
+      "id": "ko-syncluster-baljeon",
+      "language": "ko",
+      "kind": "synonym-cluster",
+      "sharedChar": "發",
+      "words": [
+        {
+          "headword": "발전",
+          "hanja": "發展",
+          "reading": "baljeon",
+          "hanViet": "phát triển",
+          "meaningVn": "phát triển mở rộng lên tầm cao hơn (경제 발전 = kinh tế phát triển)"
+        },
+        {
+          "headword": "발달",
+          "hanja": "發達",
+          "reading": "baldal",
+          "hanViet": "phát đạt",
+          "meaningVn": "phát triển hoàn thiện về chức năng (언어 발달 = sự phát triển ngôn ngữ)"
+        },
+        {
+          "headword": "발육",
+          "hanja": "發育",
+          "reading": "baryuk",
+          "hanViet": "phát dục",
+          "meaningVn": "sự lớn lên về thể chất (발육이 빠르다 = lớn nhanh)"
+        },
+        {
+          "headword": "발생",
+          "hanja": "發生",
+          "reading": "balsaeng",
+          "hanViet": "phát sinh",
+          "meaningVn": "phát sinh, xảy ra (사고가 발생하다 = tai nạn xảy ra)"
+        }
+      ],
+      "note": "4 từ chung chữ Hán 發 (phát): 발전 mở rộng LÊN TẦM CAO HƠN, 발달 hoàn thiện về CHỨC NĂNG, 발육 lớn lên về THỂ CHẤT, 발생 XẢY RA/phát sinh."
     }
   ],
   "todo": [
