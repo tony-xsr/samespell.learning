@@ -11,6 +11,7 @@ import en from "../../data/en.json";
 import es from "../../data/es.json";
 import zhShape from "../../data/zh-shape.json";
 import jaShape from "../../data/ja-shape.json";
+import koShape from "../../data/ko-shape.json";
 import zhFalseFriends from "../../data/zh-false-friends.json";
 import jaFalseFriends from "../../data/ja-false-friends.json";
 import koFalseFriends from "../../data/ko-false-friends.json";
@@ -31,11 +32,14 @@ const STATIC_DATA: Record<Language, LanguageData> = {
 };
 
 // Dữ liệu "nhóm hình" (chữ VIẾT giống nhau, hình cận tự) — trục nhầm lẫn song song với nhóm âm ở
-// trên, chỉ khai báo cho ngôn ngữ nào đã có dữ liệu (hiện chưa làm cho tiếng Hàn vì Hangul dễ phân
-// biệt hơn chữ Hán/Kanji nhiều, xem readme.md).
+// trên, chỉ khai báo cho ngôn ngữ nào đã có dữ liệu.
 const STATIC_SHAPE_DATA: Partial<Record<Language, LanguageData>> = {
   zh: zhShape as LanguageData,
   ja: jaShape as LanguageData,
+  // Tiếng Hàn hiện đại viết bằng Hangul (dễ phân biệt hơn chữ Hán/Kanji nhiều), nhưng từ vựng Hán-Hàn
+  // vẫn có GỐC HÁN TỰ — trục "hình cận tự" ở đây tái dùng đúng cặp chữ Hán dễ nhầm hình dạng như zh/ja,
+  // rồi tìm từ Hán-Hàn thật (viết bằng Hangul) tương ứng với từng chữ gốc. Xem readme.md mục ý tưởng #2.
+  ko: koShape as LanguageData,
   // Tiếng Anh: "hình cận tự" reinterpreted thành "từ suýt giống nhau về chính tả" (desert/dessert,
   // affect/effect...) — cùng tinh thần nhầm lẫn thị giác nhưng qua chữ cái thay vì nét chữ Hán.
   en: enShape as LanguageData,
