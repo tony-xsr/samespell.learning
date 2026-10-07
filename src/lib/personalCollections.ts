@@ -25,6 +25,22 @@ export async function toggleFavoriteGroup(
   return data.collections;
 }
 
+/** Bật/tắt "đã học xong" cho cả 1 mindmap — xem toggleLearnedGroupServer. */
+export async function toggleLearnedGroup(
+  language: Language,
+  groupKind: GroupKind,
+  groupId: string,
+): Promise<PersonalCollections> {
+  const res = await fetch("/api/personal-lists/learned", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ language, groupKind, groupId }),
+  });
+  const data = await res.json();
+  if (!res.ok) throw new Error(data.error ?? "Không lưu được trạng thái đã học.");
+  return data.collections;
+}
+
 export async function createList(name: string): Promise<PersonalCollections> {
   const res = await fetch("/api/personal-lists", {
     method: "POST",
