@@ -41,6 +41,11 @@ export interface SoundGroup {
   groupKind?: GroupKind;
   /** Danh mục chủ đề để gom nhóm trên trang tổng quan (vd "Con người & cơ thể", "Cây cỏ"...). */
   category?: string;
+  /** Ngày mindmap này được THÊM vào kho (ISO). Dựng lại từ lịch sử git — commit đầu tiên mà group id
+   * xuất hiện — nên là ngày thật, không phải ước lượng. Dùng để gắn nhãn "Mới" và sắp xếp theo ngày.
+   * Lưu ý: đây là ngày thêm NHÓM, không phải ngày thêm từng từ bên trong (một nhóm cũ vẫn có thể
+   * mới được bổ sung từ vựng gần đây). Xem Features.md mục 22. */
+  addedAt?: string;
   /** Theme AI đã dùng để tự sinh group này khi người dùng gõ từ (vd "polyphonic", "synonym-family")
    * — CHỈ có ở group AI tự tạo với theme khác mặc định "sound"; vắng mặt với mọi group soạn sẵn và
    * group AI tạo theo theme mặc định. Dùng để hiển thị badge + không áp dụng merge-theo-reading (xem
