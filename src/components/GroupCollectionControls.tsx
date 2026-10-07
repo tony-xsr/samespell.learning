@@ -4,7 +4,11 @@ import { useEffect, useState } from "react";
 import type { GroupKind, Language } from "@/types/vocab";
 import type { PersonalCollections } from "@/types/personal";
 import { encodeGroupItemId, favoriteKey } from "@/types/personal";
-import { loadPersonalCollections, toggleFavoriteGroup } from "@/lib/personalCollections";
+import {
+  loadPersonalCollections,
+  toggleFavoriteGroup,
+  toggleLearnedGroup,
+} from "@/lib/personalCollections";
 import ListMembershipPicker from "@/components/ListMembershipPicker";
 
 /** Nút "★ yêu thích" + "🗂️ thêm vào danh mục" ở cấp TOÀN BỘ 1 mindmap (group) — khác hẳn
@@ -38,6 +42,7 @@ export default function GroupCollectionControls({
   const key = favoriteKey(language, groupKind, groupId);
   const itemId = encodeGroupItemId(language, groupKind, groupId);
   const isFavorited = collections?.favorites.some((f) => f.key === key) ?? false;
+  const isLearned = collections?.learned?.some((l) => l.key === key) ?? false;
 
   async function handleToggleFavorite() {
     setError(null);
@@ -48,8 +53,29 @@ export default function GroupCollectionControls({
     }
   }
 
+  async function handleToggleLearned() {
+    setError(null);
+    try {
+      setCollections(await toggleLearnedGroup(language, groupKind, groupId));
+    } catch (e) {
+      setError(e instanceof Error ? e.message : "Có lỗi xảy ra");
+    }
+  }
+
   return (
     <div className="flex items-center gap-2">
+      <button
+        onClick={handleToggleLearned}
+        aria-label={isLearned ? "Bỏ đánh dấu đã học mindmap này" : "Đánh dấu đã học xong mindmap này"}
+        className={`flex h-9 items-center gap-1 rounded-full border px-3 text-xs font-medium shadow-sm ${
+          isLearned
+            ? "border-emerald-400 bg-emerald-100 text-emerald-700 dark:bg-emerald-900/40 dark:text-emerald-300"
+            : "border-border bg-surface-2 text-ink-muted hover:bg-surface-3"
+        }`}
+      >
+        {isLearned ? "✅ Đã học" : "◻ Đánh dấu đã học"}
+      </button>
+
       <button
         onClick={handleToggleFavorite}
         aria-label={isFavorited ? "Bỏ yêu thích mindmap này" : "Lưu mindmap này vào yêu thích"}
