@@ -1,9 +1,12 @@
 import type { GroupKind, Language } from "./vocab";
 
-/** Bộ sưu tập cá nhân của người học — 3 tầng theo Features.md mục 14:
+/** Bộ sưu tập cá nhân của người học — 4 tầng theo Features.md mục 14 và 22:
  * 1) "My New Vocab" (log riêng, xem newVocabLog.ts) — tự động, không nằm ở đây.
  * 2) favorites — lưu CẢ 1 mindmap (không phải từng từ, khác WordProgress.bookmarked).
- * 3) lists — danh mục tự đặt tên (vd "Từ khó nhớ"), chứa cả mindmap lẫn từ đơn lẻ. */
+ * 3) lists — danh mục tự đặt tên (vd "Từ khó nhớ"), chứa cả mindmap lẫn từ đơn lẻ.
+ * 4) learned — đánh dấu ĐÃ HỌC XONG cả 1 mindmap. Khác `WordProgress.mastered` (cấp TỪNG TỪ,
+ *    do SRS quản) ở chỗ đây là tuyên bố thủ công của người học về CẢ nhóm, và có mốc thời gian
+ *    `learnedAt` nên dựng được "danh sách đã học" sắp theo ngày. Xem Features.md mục 22. */
 
 export interface FavoriteGroupRef {
   /** Khoá duy nhất để chống trùng: `${language}:${groupKind}:${groupId}`. */
@@ -14,6 +17,16 @@ export interface FavoriteGroupRef {
   savedAt: string;
 }
 
+/** Cùng khoá `favoriteKey` với FavoriteGroupRef (một mindmap vừa có thể được yêu thích vừa được
+ * đánh dấu đã học — hai trạng thái độc lập nhau). */
+export interface LearnedGroupRef {
+  key: string;
+  language: Language;
+  groupKind: GroupKind;
+  groupId: string;
+  learnedAt: string;
+}
+
 export interface PersonalList {
   id: string;
   name: string;
@@ -22,9 +35,20 @@ export interface PersonalList {
   createdAt: string;
 }
 
+/** Cài đặt cho nghi thức học hàng ngày (Features.md mục 25). */
+export interface RitualSettings {
+  /** Ngày nghỉ trong tuần, 0 = Chủ nhật … 6 = Thứ bảy. Nghỉ thì không tính là học nhưng cũng KHÔNG
+   * làm đứt chuỗi ngày. Tối đa 3 ngày (xem MAX_REST_DAYS). */
+  restDays: number[];
+}
+
 export interface PersonalCollections {
   favorites: FavoriteGroupRef[];
   lists: PersonalList[];
+  /** Optional vì dữ liệu đã lưu từ trước mục 22 chưa có khoá này — loader luôn mặc định `[]`. */
+  learned?: LearnedGroupRef[];
+  /** Optional vì dữ liệu lưu từ trước mục 25 chưa có khoá này. */
+  ritual?: RitualSettings;
 }
 
 export function favoriteKey(language: Language, groupKind: GroupKind, groupId: string): string {
