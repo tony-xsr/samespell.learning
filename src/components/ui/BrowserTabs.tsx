@@ -12,8 +12,10 @@ export default function BrowserTabs<T extends string>({
   activeId: T;
   onChange: (id: T) => void;
 }) {
+  // flex-wrap thay vì cuộn ngang: với 4 tab ở bề rộng điện thoại, cuộn ngang làm tab cuối nằm ngoài
+  // màn hình và người dùng không biết là có nó. Với 2 tab vẫn nằm gọn 1 dòng như cũ.
   return (
-    <div className="flex gap-1 overflow-x-auto rounded-full border border-border bg-surface-2 p-1">
+    <div className="flex flex-wrap gap-1 rounded-full border border-border bg-surface-2 p-1">
       {tabs.map((tab) => (
         <button
           key={tab.id}
