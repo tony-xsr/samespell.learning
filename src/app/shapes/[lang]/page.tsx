@@ -1,6 +1,9 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { getShapeLanguageData, wordCount } from "@/lib/vocabStore";
+import { loadLearnedKeySet } from "@/lib/personalCollectionsStore";
+import { getShapeLanguageData } from "@/lib/vocabStore";
+import GroupBrowser from "@/components/GroupBrowser";
+import { toGroupSummaries } from "@/lib/groupSummary";
 import type { SoundGroup } from "@/types/vocab";
 
 const UNCATEGORIZED = "Khác";
@@ -25,10 +28,6 @@ function groupByCategory(groups: SoundGroup[]): [string, SoundGroup[]][] {
   return entries;
 }
 
-function slugify(text: string) {
-  return "cat-" + text.replace(/[^\p{L}\p{N}]+/gu, "-").toLowerCase();
-}
-
 export default async function ShapeLanguagePage({
   params,
 }: {
@@ -36,11 +35,13 @@ export default async function ShapeLanguagePage({
 }) {
   const { lang } = await params;
   const data = await getShapeLanguageData(lang);
+  const learnedIds = await loadLearnedKeySet(lang, "shape");
   if (!data) notFound();
 
-  const MAX_CHIPS = 6;
-  const sections = groupByCategory(data.groups);
-  const showSections = sections.length > 1;
+  const summaries = toGroupSummaries(data.groups, learnedIds);
+  // Thứ tự chủ đề do trang quyết định (mỗi trục ghim chủ đề khác nhau), GroupBrowser chỉ nhận danh sách.
+  const categoryOrder = groupByCategory(data.groups).map(([cat]) => cat);
+  const showSections = categoryOrder.length > 1;
 
   return (
     <main className="flex flex-1 flex-col items-center px-4 py-8 sm:py-12">
@@ -53,7 +54,7 @@ export default async function ShapeLanguagePage({
             <h1 className="text-2xl font-bold tracking-tight text-ink">{data.label}</h1>
             <p className="mt-1 text-sm text-ink-muted">
               {showSections
-                ? `${data.groups.length} nhóm, gom theo ${sections.length} chủ đề — bấm để mở rộng từng chủ đề.`
+                ? `${data.groups.length} nhóm, gom theo ${categoryOrder.length} chủ đề — lọc, tìm và đổi kiểu xem bên dưới.`
                 : "Chọn một nhóm để xem mindmap các chữ viết gần giống nhau."}
             </p>
           </div>
@@ -75,74 +76,11 @@ export default async function ShapeLanguagePage({
           )}
         </div>
 
-        {showSections && (
-          <nav className="mt-4 flex flex-wrap gap-1.5 border-b border-border pb-4">
-            {sections.map(([cat, groups]) => {
-              const words = groups.reduce((sum, g) => sum + wordCount(g), 0);
-              return (
-                <a
-                  key={cat}
-                  href={`#${slugify(cat)}`}
-                  className="rounded-full bg-surface-2 px-3 py-1 text-xs font-medium text-ink-muted hover:bg-surface-3 hover:text-ink"
-                >
-                  {cat} <span className="text-ink-muted">({groups.length} nhóm · {words} từ)</span>
-                </a>
-              );
-            })}
-          </nav>
-        )}
-
-        {sections.map(([cat, groups]) => (
-          <details
-            key={cat}
-            id={slugify(cat)}
-            open={!showSections || groups.length <= 30}
-            className="group mt-6 scroll-mt-4"
-          >
-            {showSections && (
-              <summary className="cursor-pointer list-none">
-                <div className="flex items-center gap-2 rounded-xl bg-surface-2 px-4 py-2.5 hover:bg-surface-3">
-                  <span className="text-base font-bold text-ink">{cat}</span>
-                  <span className="text-sm font-medium text-ink-muted">
-                    {groups.length} nhóm · {groups.reduce((sum, g) => sum + wordCount(g), 0)} từ
-                  </span>
-                  <span className="ml-auto text-ink-muted transition-transform group-open:rotate-90">
-                    ▶
-                  </span>
-                </div>
-              </summary>
-            )}
-            <div
-              className={`grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 ${showSections ? "mt-3" : ""}`}
-            >
-              {groups.map((group) => {
-                const extraChips = group.roots.length - MAX_CHIPS;
-                return (
-                  <Link
-                    key={group.id}
-                    href={`/shapes/${lang}/${group.id}`}
-                    className="flex flex-col rounded-2xl border border-border bg-surface-2 px-4 py-3 shadow-sm transition hover:-translate-y-0.5 hover:border-brand-300 hover:shadow-md"
-                  >
-                    <span className="text-lg font-bold text-brand-600">{group.reading}</span>
-                    <span className="mt-0.5 text-xs font-medium text-accent-600">
-                      {group.roots.length} chữ · {wordCount(group)} từ
-                    </span>
-                    <div className="mt-2 flex flex-wrap gap-1.5">
-                      {group.roots.slice(0, MAX_CHIPS).map((r) => (
-                        <span key={r.id} className="rounded-lg bg-surface-3 px-2 py-0.5 text-sm text-ink">
-                          {r.character}
-                        </span>
-                      ))}
-                      {extraChips > 0 && (
-                        <span className="rounded-lg px-2 py-0.5 text-sm text-ink-muted">+{extraChips}</span>
-                      )}
-                    </div>
-                  </Link>
-                );
-              })}
-            </div>
-          </details>
-        ))}
+        <GroupBrowser
+          groups={summaries}
+          basePath={`/shapes/${lang}`}
+          categoryOrder={categoryOrder}
+        />
       </div>
     </main>
   );
