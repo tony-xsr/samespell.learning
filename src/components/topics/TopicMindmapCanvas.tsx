@@ -12,6 +12,10 @@ import { curvePath } from "@/lib/mindmapLayout";
 import { branchColor, type BranchColor } from "@/lib/mindmapColors";
 import { speak, ttsFailureMessage } from "@/lib/tts";
 import { useFullscreen } from "@/lib/useFullscreen";
+import MeaningMatchGame, { matchItemsFromTopic } from "@/components/mindmap/MeaningMatchGame";
+import MindmapWordList from "@/components/mindmap/MindmapWordList";
+import MindmapSettingsMenu from "@/components/mindmap/MindmapSettingsMenu";
+import { useMindmapSettings } from "@/lib/mindmapSettings";
 import { RATING_LABELS } from "@/lib/srs";
 import { loadProgress, rateWord, toggleBookmark, toggleMastered } from "@/lib/progress";
 
@@ -92,6 +96,27 @@ export default function TopicMindmapCanvas({ topic }: { topic: TopicGroup }) {
   const suppressClickRef = useRef<Set<string>>(new Set());
   const [isDragging, setIsDragging] = useState(false);
   const { containerRef, isFullscreen, toggleFullscreen, fullscreenClassName } = useFullscreen<HTMLDivElement>();
+  const [showMatchGame, setShowMatchGame] = useState(false);
+  /** Che nghĩa tiếng Việt để tự kiểm tra; bấm từng ô để lật mở riêng từ đó. */
+  const [hideMeaning, setHideMeaning] = useState(false);
+  const [revealedIds, setRevealedIds] = useState<Set<string>>(new Set());
+  const matchItems = useMemo(() => matchItemsFromTopic(topic), [topic]);
+  const [showWordList, setShowWordList] = useState(false);
+  const { settings, update: updateSettings, bgOption } = useMindmapSettings();
+  const hoverTimerRef = useRef<number | null>(null);
+
+  function handleHoverEnter(text: string) {
+    if (!settings.hoverSpeakMs) return;
+    if (hoverTimerRef.current) window.clearTimeout(hoverTimerRef.current);
+    hoverTimerRef.current = window.setTimeout(() => handleSpeak(text), settings.hoverSpeakMs);
+  }
+  function handleHoverLeave() {
+    if (hoverTimerRef.current) {
+      window.clearTimeout(hoverTimerRef.current);
+      hoverTimerRef.current = null;
+    }
+  }
+  useEffect(() => () => { if (hoverTimerRef.current) window.clearTimeout(hoverTimerRef.current); }, []);
   const [ttsWarning, setTtsWarning] = useState<string | null>(null);
   // Favorite/đã thuộc/độ khó — dùng chung đúng `progress:main` + `/api/progress/*` mà ReviewSession
   // (chế độ ôn tập của chính Topics) đã đọc/ghi cho cùng những word id này; Mindmap chỉ chưa hiển thị
@@ -419,6 +444,8 @@ export default function TopicMindmapCanvas({ topic }: { topic: TopicGroup }) {
             isCore ? `border-2 ${color.border} ${color.bg}` : `${color.border} bg-surface-2`
           } ${isMastered ? "opacity-50 ring-2 ring-emerald-400" : ""}`}
           onPointerDown={(e) => handleNodeDragStart(e, word.id, pw.x, pw.y)}
+          onMouseEnter={() => handleHoverEnter(word.headword)}
+          onMouseLeave={handleHoverLeave}
           onClick={() => handleNodeClick(word.id, () => handleSpeak(word.headword))}
         >
           <div className="text-sm font-semibold whitespace-nowrap text-ink">
@@ -426,7 +453,21 @@ export default function TopicMindmapCanvas({ topic }: { topic: TopicGroup }) {
             {word.headword}
           </div>
           {word.reading && <div className="text-[11px] text-ink-muted italic">{word.reading}</div>}
-          <div className={`text-xs font-medium ${color.text}`}>{word.meaningVn}</div>
+          {hideMeaning && !revealedIds.has(word.id) ? (
+            <button
+              type="button"
+              aria-label={`Hiện nghĩa của ${word.headword}`}
+              onClick={(e) => {
+                e.stopPropagation();
+                setRevealedIds((s) => new Set(s).add(word.id));
+              }}
+              className="mx-auto mt-0.5 block rounded bg-surface-3 px-2 text-xs font-medium text-ink-muted hover:bg-surface"
+            >
+              • • •
+            </button>
+          ) : (
+            <div className={`text-xs font-medium ${color.text}`}>{word.meaningVn}</div>
+          )}
 
           <FavoriteBadge
             active={isBookmarked}
@@ -459,7 +500,35 @@ export default function TopicMindmapCanvas({ topic }: { topic: TopicGroup }) {
       ref={containerRef}
       className={`relative ${isFullscreen ? "flex h-full flex-col bg-surface p-3" : ""} ${fullscreenClassName}`}
     >
-      <div className="mb-2 flex items-center justify-end gap-1">
+      <div className="mb-2 flex flex-wrap items-center justify-end gap-1">
+        <button
+          onClick={() => {
+            setHideMeaning((h) => !h);
+            setRevealedIds(new Set());
+          }}
+          className={`mr-auto flex h-9 items-center gap-1 rounded-full border px-3 text-xs font-semibold transition ${
+            hideMeaning
+              ? "border-amber-400 bg-amber-100 text-amber-800 dark:bg-amber-900/40 dark:text-amber-200"
+              : "border-border bg-surface-2 text-ink hover:border-brand-300 hover:bg-surface-3"
+          }`}
+          aria-label={hideMeaning ? "Hiện lại nghĩa tiếng Việt" : "Ẩn nghĩa tiếng Việt để tự kiểm tra"}
+        >
+          {hideMeaning ? "👁 Hiện nghĩa" : "🙈 Ẩn nghĩa"}
+        </button>
+        <button
+          onClick={() => setShowWordList(true)}
+          className="flex h-9 items-center gap-1 rounded-full border border-border bg-surface-2 px-3 text-xs font-semibold text-ink transition hover:border-brand-300 hover:bg-surface-3"
+          aria-label="Xem danh sách từ"
+        >
+          📖 Danh sách
+        </button>
+        <button
+          onClick={() => setShowMatchGame(true)}
+          className="flex h-9 items-center gap-1 rounded-full border border-brand-400 bg-brand-600 px-3 text-xs font-semibold text-white transition hover:brightness-110"
+          aria-label="Chơi ghép nghĩa"
+        >
+          🎮 Ghép nghĩa
+        </button>
         <button
           onClick={() => setZoom((z) => Math.max(0.5, +(z - 0.1).toFixed(2)))}
           className="flex h-9 w-9 items-center justify-center rounded-full border border-border bg-surface-2 text-sm text-ink hover:border-brand-300 hover:bg-surface-3"
@@ -497,11 +566,22 @@ export default function TopicMindmapCanvas({ topic }: { topic: TopicGroup }) {
         >
           {isFullscreen ? "⤢" : "⛶"}
         </button>
+        <MindmapSettingsMenu
+          settings={settings}
+          onChange={updateSettings}
+          onResetLayout={resetView}
+          onBookMode={toggleFullscreen}
+          bookModeActive={isFullscreen}
+        />
       </div>
 
       <div
         ref={viewportRef}
-        className={`${isFullscreen ? "flex-1" : "h-[70vh]"} min-h-[380px] w-full overflow-auto rounded-2xl border border-border bg-surface-3/40`}
+        style={bgOption.style}
+        data-bg={settings.bg}
+        className={`${isFullscreen ? "flex-1" : "h-[70vh]"} min-h-[380px] w-full overflow-auto rounded-2xl border border-border ${
+          settings.bg === "web" ? "bg-surface-3/40" : ""
+        } ${bgOption.dark ? "[&_.text-ink]:text-white/90 [&_.text-ink-muted]:text-white/60" : ""}`}
       >
         <div style={{ width: layout.width * zoom, height: layout.height * zoom, margin: PAN_SLACK }}>
           <div
@@ -556,10 +636,26 @@ export default function TopicMindmapCanvas({ topic }: { topic: TopicGroup }) {
                     style={{ left: bp.x, top: bp.y, width: 190, touchAction: "none" }}
                     className={`absolute -translate-x-1/2 -translate-y-1/2 cursor-grab rounded-xl border-2 ${color.border} ${color.bg} px-3 py-2 text-center shadow-sm active:scale-95 active:cursor-grabbing`}
                     onPointerDown={(e) => handleNodeDragStart(e, bn.branch.id, bn.x, bn.y)}
+                    onMouseEnter={() => handleHoverEnter(bn.branch.titleNative)}
+                    onMouseLeave={handleHoverLeave}
                     onClick={() => handleNodeClick(bn.branch.id, () => handleSpeak(bn.branch.titleNative))}
                   >
                     <div className="text-lg font-bold text-ink">{bn.branch.titleNative}</div>
-                    <div className={`text-sm font-semibold ${color.text}`}>{bn.branch.titleVn}</div>
+                    {hideMeaning && !revealedIds.has(bn.branch.id) ? (
+                      <button
+                        type="button"
+                        aria-label={`Hiện nghĩa của ${bn.branch.titleNative}`}
+                        onClick={(e) => {
+                          e.stopPropagation();
+                          setRevealedIds((s) => new Set(s).add(bn.branch.id));
+                        }}
+                        className="mx-auto mt-0.5 block rounded bg-surface-3 px-2 text-sm font-medium text-ink-muted hover:bg-surface"
+                      >
+                        • • •
+                      </button>
+                    ) : (
+                      <div className={`text-sm font-semibold ${color.text}`}>{bn.branch.titleVn}</div>
+                    )}
                     <SpeakBadge
                       onClick={(e) => {
                         e.stopPropagation();
@@ -663,6 +759,23 @@ export default function TopicMindmapCanvas({ topic }: { topic: TopicGroup }) {
             Đóng
           </button>
         </p>
+      )}
+
+      {showWordList && (
+        <MindmapWordList
+          items={matchItems}
+          language={topic.language}
+          title={topic.titleNative}
+          onClose={() => setShowWordList(false)}
+        />
+      )}
+
+      {showMatchGame && (
+        <MeaningMatchGame
+          items={matchItems}
+          language={topic.language}
+          onClose={() => setShowMatchGame(false)}
+        />
       )}
     </div>
   );
