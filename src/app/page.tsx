@@ -37,6 +37,13 @@ export default async function Home() {
           </Link>
 
           <Link
+            href="/hom-nay"
+            className="mt-3 flex items-center justify-center gap-2 rounded-2xl bg-gradient-to-r from-amber-600 via-orange-600 to-rose-600 px-5 py-3.5 text-sm font-semibold text-white shadow-md transition hover:brightness-105"
+          >
+            ☕ Hôm nay học gì — ba mindmap vừa trình độ
+          </Link>
+
+          <Link
             href="/test"
             className="mt-3 flex items-center justify-center gap-2 rounded-2xl bg-gradient-to-r from-sky-600 to-sky-400 px-5 py-3.5 text-sm font-semibold text-white shadow-md transition hover:brightness-105"
           >
@@ -57,6 +64,13 @@ export default async function Home() {
             >
               <span className="text-lg">📊</span>
               Thống kê học tập
+            </Link>
+            <Link
+              href="/learned"
+              className="flex flex-col items-center gap-1 rounded-2xl bg-gradient-to-br from-emerald-600 to-teal-500 px-3 py-3.5 text-center text-sm font-semibold text-white shadow-md transition hover:brightness-105"
+            >
+              <span className="text-lg">✅</span>
+              Đã học
             </Link>
           </div>
         </div>
