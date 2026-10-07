@@ -108,6 +108,36 @@ export async function getFavoriteGroupsView(): Promise<ResolvedGroupItem[]> {
     .sort((a, b) => (b.savedAt ?? "").localeCompare(a.savedAt ?? ""));
 }
 
+/** Mindmap đã đánh dấu học xong, kèm ngày đánh dấu. */
+export interface ResolvedLearnedItem extends ResolvedGroupItem {
+  learnedAt: string;
+}
+
+export async function getLearnedGroupsView(): Promise<ResolvedLearnedItem[]> {
+  const collections = await loadPersonalCollections();
+  const resolved = await Promise.all(
+    (collections.learned ?? []).map(async (l): Promise<ResolvedLearnedItem> => {
+      const item = await resolveGroupRef(l.language, l.groupKind, l.groupId);
+      // Khác favorites (lọc bỏ mục tra không ra): đây là LỊCH SỬ học của người dùng nên vẫn giữ lại
+      // dòng đó, chỉ hiện id thô, thay vì để nó biến mất im lặng khi dữ liệu gốc được sắp xếp lại.
+      if (item) return { ...item, learnedAt: l.learnedAt };
+      return {
+        kind: "group",
+        itemId: `group:${l.language}:${l.groupKind}:${l.groupId}`,
+        language: l.language,
+        groupKind: l.groupKind,
+        groupId: l.groupId,
+        reading: l.groupId,
+        rootCount: 0,
+        wordCount: 0,
+        href: `${groupKindBasePath(l.groupKind)}/${l.language}/${l.groupId}`,
+        learnedAt: l.learnedAt,
+      };
+    }),
+  );
+  return resolved.sort((a, b) => b.learnedAt.localeCompare(a.learnedAt));
+}
+
 export async function getPersonalListsView(): Promise<ResolvedList[]> {
   const collections = await loadPersonalCollections();
   return Promise.all(
