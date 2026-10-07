@@ -1,0 +1,28 @@
+import { NextRequest, NextResponse } from "next/server";
+import { toggleLearnedGroupServer } from "@/lib/personalCollectionsStore";
+import type { GroupKind, Language } from "@/types/vocab";
+
+const LANGUAGES: Language[] = ["zh", "ko", "ja", "en", "es"];
+const GROUP_KINDS: GroupKind[] = ["sound", "shape", "false-friend", "initial"];
+
+export async function POST(req: NextRequest) {
+  const body = await req.json().catch(() => null);
+  const { language, groupKind, groupId } = body ?? {};
+  if (
+    typeof groupId !== "string" ||
+    !LANGUAGES.includes(language) ||
+    !GROUP_KINDS.includes(groupKind)
+  ) {
+    return NextResponse.json({ error: "Thiếu hoặc sai language/groupKind/groupId." }, { status: 400 });
+  }
+
+  try {
+    const collections = await toggleLearnedGroupServer(language, groupKind, groupId);
+    return NextResponse.json({ collections });
+  } catch (e) {
+    return NextResponse.json(
+      { error: e instanceof Error ? e.message : "Không lưu được trạng thái đã học." },
+      { status: 500 },
+    );
+  }
+}
