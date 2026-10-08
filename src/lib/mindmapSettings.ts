@@ -36,13 +36,15 @@ export const HOVER_DELAY_OPTIONS: { value: number; label: string }[] = [
  *
  * `swatchSize` để ô xem trước 16px vẫn thấy được hoa văn (lưới 28px trong ô 16px thì không hiện vạch nào).
  */
-export const BG_OPTIONS: {
+export interface BgOption {
   id: CanvasBg;
   label: string;
   dark: boolean;
   style: React.CSSProperties;
   swatchSize?: string;
-}[] = [
+}
+
+export const BG_OPTIONS: BgOption[] = [
   { id: "web", label: "Theo web", dark: false, style: {} },
   { id: "white", label: "Trắng", dark: false, style: { backgroundColor: "#ffffff" } },
   { id: "paper", label: "Giấy sách", dark: false, style: { backgroundColor: "#f6ecd9" } },
@@ -74,6 +76,23 @@ export const BG_OPTIONS: {
   { id: "dark", label: "Tối", dark: true, style: { backgroundColor: "#1b1b1f" } },
   { id: "night", label: "Đêm xanh", dark: true, style: { backgroundColor: "#0f172a" } },
 ];
+
+/** QUY ƯỚC MÀU CHỮ TRÊN NỀN ĐÃ CHỌN — áp dụng cho canvas và chế độ Tập trung.
+ *
+ * Nền ở đây CHỈ tô khoảng trống quanh các thẻ. Mọi chữ đều nằm trong một tấm thẻ có nền riêng
+ * (`bg-green-100 dark:bg-green-950` ở `mindmapColors.ts`, `bg-brand-50` ở ô trung tâm, `bg-surface-2`
+ * ở Tập trung) và những nền đó TỰ đảo theo theme sáng/tối — nên chữ cũng cứ để chạy theo theme.
+ *
+ * Đã thử ép màu chữ theo nền giấy và hỏng cả hai chiều, đo bằng tỉ lệ tương phản WCAG:
+ *   · theme tối + nền "Giấy sách" → chữ #1f1d1a trên thẻ #241c38 = 1.04
+ *   · theme sáng + nền "Đêm xanh" → chữ trắng/90 trên thẻ #f5f3ff = 1.09
+ * Và nếu tô cả tấm thẻ theo màu giấy thì các nhãn bên trong (chip trình độ ở `levels.ts`) vẫn đảo
+ * theo theme, cho ra "HSK5" sáng trên thẻ trắng = 1.25.
+ *
+ * Muốn giao diện giấy thật sự thì dùng "📄 Trang giấy" (`PaperSheetView`) — ở đó MỌI màu đều tự khai
+ * báo cố định theo kiểu giấy, không đụng gì tới token theme.
+ */
+export const INK_FOLLOWS_THEME = true;
 
 const KEY = "mindmap-settings-v1";
 
