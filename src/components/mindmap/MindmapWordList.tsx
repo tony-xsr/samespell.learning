@@ -3,6 +3,7 @@
 import { useEffect, useMemo, useState } from "react";
 import type { Language } from "@/types/vocab";
 import { speak } from "@/lib/tts";
+import { LEVEL_SCALE, levelClass, levelRank } from "@/lib/levels";
 import type { MatchItem } from "@/components/mindmap/MeaningMatchGame";
 
 /** Xem toàn bộ nội dung mindmap dưới dạng bảng — mindmap tốt cho việc thấy quan hệ, nhưng khi muốn
@@ -19,6 +20,7 @@ export default function MindmapWordList({
   onClose: () => void;
 }) {
   const [q, setQ] = useState("");
+  const [level, setLevel] = useState("");
   const [hideMeaning, setHideMeaning] = useState(false);
   const [revealed, setRevealed] = useState<Set<string>>(new Set());
 
@@ -30,13 +32,23 @@ export default function MindmapWordList({
     return () => window.removeEventListener("keydown", onKey);
   }, [onClose]);
 
+  /** Chỉ hiện bộ lọc trình độ khi mindmap này THỰC SỰ có nhãn — phần lớn nội dung soạn sẵn chưa gắn,
+   * bày ra một dropdown rỗng chỉ làm người dùng tưởng hỏng. */
+  const presentLevels = useMemo(() => {
+    const set = new Set(items.map((i) => i.level).filter((l): l is string => !!l));
+    return LEVEL_SCALE[language].values.filter((v) => set.has(v));
+  }, [items, language]);
+
   const filtered = useMemo(() => {
     const n = q.trim().toLowerCase();
-    if (!n) return items;
-    return items.filter((i) =>
-      [i.headword, i.reading, i.meaningVn, i.hanViet].some((f) => f?.toLowerCase().includes(n)),
-    );
-  }, [items, q]);
+    return items.filter((i) => {
+      if (level && i.level !== level) return false;
+      if (!n) return true;
+      return [i.headword, i.reading, i.meaningVn, i.hanViet, i.wordClass].some((f) =>
+        f?.toLowerCase().includes(n),
+      );
+    });
+  }, [items, q, level]);
 
   const wordCount = items.filter((i) => !i.isRoot).length;
 
@@ -76,6 +88,21 @@ export default function MindmapWordList({
             aria-label="Lọc từ trong danh sách"
             className="min-w-0 flex-1 rounded-full border border-border bg-surface-2 px-3 py-1.5 text-sm text-ink placeholder:text-ink-muted focus:border-brand-400 focus:outline-none"
           />
+          {presentLevels.length > 0 && (
+            <select
+              value={level}
+              onChange={(e) => setLevel(e.target.value)}
+              aria-label="Lọc theo trình độ"
+              className="rounded-full border border-border bg-surface-2 px-3 py-1.5 text-xs text-ink focus:border-brand-400 focus:outline-none"
+            >
+              <option value="">Mọi trình độ</option>
+              {presentLevels.map((v) => (
+                <option key={v} value={v}>
+                  {v}
+                </option>
+              ))}
+            </select>
+          )}
           <button
             type="button"
             onClick={() => {
@@ -120,6 +147,19 @@ export default function MindmapWordList({
                     {i.hanViet && i.hanViet !== i.reading && (
                       <span className="text-xs text-ink-muted">({i.hanViet})</span>
                     )}
+                    {i.wordClass && (
+                      <span className="text-xs italic text-ink-muted">{i.wordClass}</span>
+                    )}
+                    {levelRank(language, i.level) >= 0 && (
+                      <span className={`rounded-full px-1.5 text-[10px] font-bold ${levelClass(language, i.level)}`}>
+                        {i.level}
+                      </span>
+                    )}
+                    {i.userAdded && (
+                      <span className="rounded-full bg-violet-100 px-1.5 text-[10px] font-bold text-violet-700 dark:bg-violet-900/50 dark:text-violet-300">
+                        ✚ TỰ THÊM
+                      </span>
+                    )}
                     {i.isRoot && (
                       <span className="rounded-full bg-brand-100 px-1.5 text-[10px] font-bold text-brand-700 dark:bg-brand-900/50 dark:text-brand-300">
                         GỐC
@@ -141,6 +181,13 @@ export default function MindmapWordList({
                   )}
 
                   {i.example && <p className="mt-0.5 text-xs text-ink-muted">{i.example}</p>}
+
+                  {/* Mẹo nhớ: giấu khi đang che nghĩa, vì mẹo thường nói thẳng nghĩa ra. */}
+                  {i.mnemonicVn && (!hideMeaning || revealed.has(i.id)) && (
+                    <p className="mt-1 rounded-md bg-amber-50 px-2 py-1 text-xs text-amber-900 dark:bg-amber-950/40 dark:text-amber-200">
+                      💡 {i.mnemonicVn}
+                    </p>
+                  )}
                 </li>
               ))}
             </ul>
