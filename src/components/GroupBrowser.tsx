@@ -4,8 +4,10 @@ import { useMemo, useState } from "react";
 import Link from "next/link";
 import BrowserTabs from "@/components/ui/BrowserTabs";
 import { formatAdded, isRecent, type GroupSummary } from "@/lib/groupSummary";
+import { LEVEL_SCALE, levelClass } from "@/lib/levels";
+import type { Language } from "@/types/vocab";
 
-type TabId = "all" | "new" | "unlearned" | "learned";
+type TabId = "all" | "new" | "unlearned" | "learned" | "mine";
 type SortId = "category" | "newest" | "az" | "most";
 type ViewId = "grid" | "list" | "bubble";
 
@@ -35,6 +37,18 @@ function NewBadge({ addedAt }: { addedAt?: string }) {
   );
 }
 
+function MineBadge({ userAdded }: { userAdded: boolean }) {
+  if (!userAdded) return null;
+  return (
+    <span
+      title="Có nội dung do bạn tự thêm (không nằm trong dữ liệu soạn sẵn)"
+      className="shrink-0 rounded-full bg-violet-100 px-1.5 py-0.5 text-[10px] font-bold text-violet-700 dark:bg-violet-900/40 dark:text-violet-300"
+    >
+      ✚ TỰ THÊM
+    </span>
+  );
+}
+
 function LearnedBadge({ learned }: { learned: boolean }) {
   if (!learned) return null;
   return (
@@ -51,8 +65,10 @@ export default function GroupBrowser({
   groups,
   basePath,
   categoryOrder,
+  language,
 }: {
   groups: GroupSummary[];
+  language: Language;
   /** Tiền tố đường dẫn tới 1 mindmap, vd "/shapes/ko" → href = "/shapes/ko/<id>". */
   basePath: string;
   /** Thứ tự chủ đề do trang quyết định (mỗi trục ghim chủ đề khác nhau lên đầu/xuống cuối). */
@@ -62,6 +78,7 @@ export default function GroupBrowser({
   const [q, setQ] = useState("");
   const [sort, setSort] = useState<SortId>("category");
   const [view, setView] = useState<ViewId>("grid");
+  const [level, setLevel] = useState("");
 
   const counts = useMemo(
     () => ({
@@ -69,16 +86,29 @@ export default function GroupBrowser({
       new: groups.filter((g) => isRecent(g.addedAt)).length,
       unlearned: groups.filter((g) => !g.learned).length,
       learned: groups.filter((g) => g.learned).length,
+      mine: groups.filter((g) => g.userAdded).length,
     }),
     [groups],
   );
 
+  /** Chỉ hiện dãy chip trình độ khi kho này THỰC SỰ đã được gắn nhãn, kèm số nhóm của từng mức. Phần
+   * lớn nội dung soạn sẵn chưa gắn (xem Features.md mục 27) — bày ra dãy chip toàn số 0 chỉ làm người
+   * dùng tưởng hỏng. */
+  const levelChips = useMemo(() => {
+    const scale = LEVEL_SCALE[language]?.values ?? [];
+    return scale
+      .map((v) => ({ value: v, count: groups.filter((g) => g.levels.includes(v)).length }))
+      .filter((c) => c.count > 0);
+  }, [groups, language]);
+
   const filtered = useMemo(() => {
     const needle = q.trim().toLowerCase();
     let out = groups;
+    if (level) out = out.filter((g) => g.levels.includes(level));
     if (tab === "new") out = out.filter((g) => isRecent(g.addedAt));
     else if (tab === "unlearned") out = out.filter((g) => !g.learned);
     else if (tab === "learned") out = out.filter((g) => g.learned);
+    else if (tab === "mine") out = out.filter((g) => g.userAdded);
 
     if (needle) {
       out = out.filter(
@@ -98,7 +128,7 @@ export default function GroupBrowser({
       out = [...out].sort((a, b) => b.wordCount - a.wordCount);
     }
     return out;
-  }, [groups, tab, q, sort]);
+  }, [groups, tab, q, sort, level]);
 
   const sections = useMemo(() => {
     // Kiểu bong bóng là để nhìn BAO QUÁT cả kho, nên luôn trải phẳng: gom theo chủ đề sẽ gập hết các
@@ -130,6 +160,7 @@ export default function GroupBrowser({
           <span className="text-lg font-bold text-brand-600">{g.reading}</span>
           <NewBadge addedAt={g.addedAt} />
           <LearnedBadge learned={g.learned} />
+          <MineBadge userAdded={g.userAdded} />
         </span>
         <span className="mt-0.5 text-xs font-medium text-accent-600">
           {g.rootCount} chữ · {g.wordCount} từ
@@ -155,6 +186,7 @@ export default function GroupBrowser({
         <span className="font-bold text-brand-600">{g.reading}</span>
         <NewBadge addedAt={g.addedAt} />
         <LearnedBadge learned={g.learned} />
+        <MineBadge userAdded={g.userAdded} />
         <span className="truncate text-sm text-ink-muted">{g.chars.slice(0, 10).join(" ")}</span>
         <span className="ml-auto shrink-0 text-xs font-medium text-accent-600">
           {g.rootCount} chữ · {g.wordCount} từ
@@ -173,9 +205,11 @@ export default function GroupBrowser({
         title={`${g.reading} — ${g.rootCount} chữ · ${g.wordCount} từ`}
         style={{ width: size, height: size }}
         className={`flex flex-col items-center justify-center rounded-full border-2 p-1 text-center transition hover:scale-105 ${
-          g.learned
-            ? "border-emerald-400 bg-emerald-100 dark:bg-emerald-900/40"
-            : isRecent(g.addedAt)
+          g.userAdded
+            ? "border-violet-400 bg-violet-100 dark:bg-violet-900/40"
+            : g.learned
+              ? "border-emerald-400 bg-emerald-100 dark:bg-emerald-900/40"
+              : isRecent(g.addedAt)
               ? "border-amber-400 bg-amber-100 dark:bg-amber-900/40"
               : "border-border bg-surface-2 hover:border-brand-300"
         }`}
@@ -223,6 +257,7 @@ export default function GroupBrowser({
             { id: "unlearned", label: "📖 Chưa học", count: counts.unlearned },
             { id: "learned", label: "✅ Đã học", count: counts.learned },
             { id: "new", label: "🆕 Mới", count: counts.new },
+            { id: "mine", label: "✚ Tự thêm", count: counts.mine },
           ]}
           activeId={tab}
           onChange={setTab}
@@ -271,9 +306,40 @@ export default function GroupBrowser({
           </div>
         </div>
 
+        {levelChips.length > 0 && (
+          <div className="flex flex-wrap items-center gap-1.5">
+            <span className="text-[10px] font-bold uppercase tracking-wider text-ink-muted">Trình độ</span>
+            <button
+              type="button"
+              onClick={() => setLevel("")}
+              aria-pressed={level === ""}
+              className={`rounded-full px-2.5 py-1 text-xs font-semibold transition ${
+                level === "" ? "bg-ink text-surface" : "bg-surface-2 text-ink-muted hover:bg-surface-3"
+              }`}
+            >
+              Tất cả
+            </button>
+            {levelChips.map((c) => (
+              <button
+                key={c.value}
+                type="button"
+                onClick={() => setLevel((l) => (l === c.value ? "" : c.value))}
+                aria-pressed={level === c.value}
+                aria-label={`Lọc trình độ ${c.value}`}
+                className={`rounded-full px-2.5 py-1 text-xs font-semibold transition ${
+                  level === c.value ? "ring-2 ring-brand-500" : "hover:brightness-95"
+                } ${levelClass(language, c.value)}`}
+              >
+                {c.value} <span className="font-normal opacity-70">{c.count}</span>
+              </button>
+            ))}
+          </div>
+        )}
+
         <p className="text-xs text-ink-muted" aria-live="polite">
           Hiện {filtered.length}/{groups.length} mindmap
           {q.trim() && ` khớp "${q.trim()}"`}
+          {level && ` ở mức ${level}`}
         </p>
       </div>
 
