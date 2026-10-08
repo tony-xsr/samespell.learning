@@ -21,7 +21,9 @@
               "reading": "mirai",
               "meaningVn": "tương lai",
               "example": "明るい未来です。",
-              "exampleVn": "Là tương lai tươi sáng."
+              "exampleVn": "Là tương lai tươi sáng.",
+              "wordClass": "danh từ",
+              "level": "N3"
             },
             {
               "id": "ja-shape-mimatsu-mi-w2",
@@ -29,7 +31,9 @@
               "reading": "miman",
               "meaningVn": "chưa đủ, dưới mức",
               "example": "十八歳未満です。",
-              "exampleVn": "Dưới 18 tuổi."
+              "exampleVn": "Dưới 18 tuổi.",
+              "wordClass": "danh từ",
+              "level": "N2"
             }
           ]
         },
@@ -45,7 +49,9 @@
               "reading": "matsubi",
               "meaningVn": "phần cuối",
               "example": "文章の末尾です。",
-              "exampleVn": "Là phần cuối bài văn."
+              "exampleVn": "Là phần cuối bài văn.",
+              "wordClass": "danh từ",
+              "level": "N1"
             },
             {
               "id": "ja-shape-mimatsu-matsu-w2",
@@ -53,11 +59,14 @@
               "reading": "kimatsu",
               "meaningVn": "cuối kỳ",
               "example": "期末試験です。",
-              "exampleVn": "Là kỳ thi cuối kỳ."
+              "exampleVn": "Là kỳ thi cuối kỳ.",
+              "wordClass": "danh từ",
+              "level": "N2"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-07-24T22:17:24+07:00"
     },
     {
       "id": "ja-shape-shido",
@@ -78,7 +87,9 @@
               "reading": "heishi",
               "meaningVn": "binh sĩ",
               "example": "勇敢な兵士です。",
-              "exampleVn": "Là người binh sĩ dũng cảm."
+              "exampleVn": "Là người binh sĩ dũng cảm.",
+              "wordClass": "danh từ",
+              "level": "N2"
             },
             {
               "id": "ja-shape-shido-shi-w2",
@@ -86,7 +97,9 @@
               "reading": "hakase",
               "meaningVn": "tiến sĩ",
               "example": "博士号を取ります。",
-              "exampleVn": "Lấy bằng tiến sĩ."
+              "exampleVn": "Lấy bằng tiến sĩ.",
+              "wordClass": "danh từ",
+              "level": "N2"
             }
           ]
         },
@@ -102,7 +115,9 @@
               "reading": "tochi",
               "meaningVn": "đất đai",
               "example": "広い土地です。",
-              "exampleVn": "Là mảnh đất rộng."
+              "exampleVn": "Là mảnh đất rộng.",
+              "wordClass": "danh từ",
+              "level": "N3"
             },
             {
               "id": "ja-shape-shido-do-w2",
@@ -110,11 +125,14 @@
               "reading": "doyoubi",
               "meaningVn": "thứ Bảy",
               "example": "土曜日に会います。",
-              "exampleVn": "Gặp nhau vào thứ Bảy."
+              "exampleVn": "Gặp nhau vào thứ Bảy.",
+              "wordClass": "danh từ",
+              "level": "N5"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-07-24T22:17:24+07:00"
     },
     {
       "id": "ja-shape-senkan",
@@ -135,7 +153,9 @@
               "reading": "sen'en",
               "meaningVn": "một nghìn yên",
               "example": "千円札です。",
-              "exampleVn": "Là tờ tiền một nghìn yên."
+              "exampleVn": "Là tờ tiền một nghìn yên.",
+              "wordClass": "danh từ",
+              "level": "N5"
             },
             {
               "id": "ja-shape-senkan-sen-w2",
@@ -143,7 +163,9 @@
               "reading": "Chiba",
               "meaningVn": "Chiba (địa danh)",
               "example": "千葉に住んでいます。",
-              "exampleVn": "Sống ở Chiba."
+              "exampleVn": "Sống ở Chiba.",
+              "wordClass": "danh từ riêng",
+              "level": "N4"
             }
           ]
         },
@@ -159,7 +181,9 @@
               "reading": "kanshou",
               "meaningVn": "can thiệp",
               "example": "干渉しないでください。",
-              "exampleVn": "Xin đừng can thiệp."
+              "exampleVn": "Xin đừng can thiệp.",
+              "wordClass": "danh từ",
+              "level": "N1"
             },
             {
               "id": "ja-shape-senkan-kan-w2",
@@ -167,11 +191,14 @@
               "reading": "jakkan",
               "meaningVn": "một ít, chút ít",
               "example": "若干の問題があります。",
-              "exampleVn": "Có một số vấn đề nhỏ."
+              "exampleVn": "Có một số vấn đề nhỏ.",
+              "wordClass": "trạng từ",
+              "level": "N1"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-07-24T22:17:24+07:00"
     },
     {
       "id": "ja-shape-teke",
@@ -192,7 +219,9 @@
               "reading": "tegami",
               "meaningVn": "thư (viết tay)",
               "example": "手紙を書きます。",
-              "exampleVn": "Tôi viết thư."
+              "exampleVn": "Tôi viết thư.",
+              "wordClass": "danh từ",
+              "level": "N5"
             },
             {
               "id": "ja-shape-teke-te-w2",
@@ -200,7 +229,9 @@
               "reading": "jouzu",
               "meaningVn": "giỏi, khéo léo",
               "example": "彼は料理が上手です。",
-              "exampleVn": "Anh ấy nấu ăn giỏi."
+              "exampleVn": "Anh ấy nấu ăn giỏi.",
+              "wordClass": "tính từ",
+              "level": "N5"
             }
           ]
         },
@@ -216,7 +247,9 @@
               "reading": "moufu",
               "meaningVn": "chăn, mền",
               "example": "毛布をかけます。",
-              "exampleVn": "Tôi đắp chăn."
+              "exampleVn": "Tôi đắp chăn.",
+              "wordClass": "danh từ",
+              "level": "N3"
             },
             {
               "id": "ja-shape-teke-ke-w2",
@@ -224,11 +257,14 @@
               "reading": "youmou",
               "meaningVn": "lông cừu",
               "example": "羊毛のセーターです。",
-              "exampleVn": "Là áo len làm từ lông cừu."
+              "exampleVn": "Là áo len làm từ lông cừu.",
+              "wordClass": "danh từ",
+              "level": "N1"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-07-26T10:02:49+07:00"
     },
     {
       "id": "ja-shape-sukuchii",
@@ -249,7 +285,9 @@
               "reading": "sukoshi",
               "meaningVn": "một chút",
               "example": "少し休みましょう。",
-              "exampleVn": "Hãy nghỉ một chút."
+              "exampleVn": "Hãy nghỉ một chút.",
+              "wordClass": "trạng từ",
+              "level": "N5"
             },
             {
               "id": "ja-shape-sukuchii-suku-w2",
@@ -257,7 +295,9 @@
               "reading": "shounen",
               "meaningVn": "thiếu niên",
               "example": "少年時代を思い出す。",
-              "exampleVn": "Nhớ lại thời thiếu niên."
+              "exampleVn": "Nhớ lại thời thiếu niên.",
+              "wordClass": "danh từ",
+              "level": "N3"
             }
           ]
         },
@@ -273,7 +313,9 @@
               "reading": "chiisai",
               "meaningVn": "nhỏ",
               "example": "この犬は小さいです。",
-              "exampleVn": "Con chó này nhỏ."
+              "exampleVn": "Con chó này nhỏ.",
+              "wordClass": "tính từ",
+              "level": "N5"
             },
             {
               "id": "ja-shape-sukuchii-chii-w2",
@@ -281,11 +323,14 @@
               "reading": "shougakkou",
               "meaningVn": "trường tiểu học",
               "example": "小学校に通っています。",
-              "exampleVn": "Tôi đang học ở trường tiểu học."
+              "exampleVn": "Tôi đang học ở trường tiểu học.",
+              "wordClass": "danh từ",
+              "level": "N5"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-07-26T10:02:49+07:00"
     },
     {
       "id": "ja-shape-jinnyu",
@@ -306,7 +351,9 @@
               "reading": "nihonjin",
               "meaningVn": "người Nhật",
               "example": "彼は日本人です。",
-              "exampleVn": "Anh ấy là người Nhật."
+              "exampleVn": "Anh ấy là người Nhật.",
+              "wordClass": "danh từ",
+              "level": "N5"
             },
             {
               "id": "ja-shape-jinnyu-jin-w2",
@@ -314,7 +361,9 @@
               "reading": "otona",
               "meaningVn": "người lớn",
               "example": "大人になりました。",
-              "exampleVn": "Tôi đã trở thành người lớn."
+              "exampleVn": "Tôi đã trở thành người lớn.",
+              "wordClass": "danh từ",
+              "level": "N4"
             }
           ]
         },
@@ -330,7 +379,9 @@
               "reading": "iriguchi",
               "meaningVn": "lối vào",
               "example": "入口はこちらです。",
-              "exampleVn": "Lối vào ở đây."
+              "exampleVn": "Lối vào ở đây.",
+              "wordClass": "danh từ",
+              "level": "N5"
             },
             {
               "id": "ja-shape-jinnyu-nyu-w2",
@@ -338,7 +389,9 @@
               "reading": "nyuugaku",
               "meaningVn": "nhập học",
               "example": "来月入学します。",
-              "exampleVn": "Tháng sau tôi nhập học."
+              "exampleVn": "Tháng sau tôi nhập học.",
+              "wordClass": "danh từ",
+              "level": "N4"
             }
           ]
         },
@@ -354,7 +407,9 @@
               "reading": "hachigatsu",
               "meaningVn": "tháng Tám",
               "example": "八月は暑いです。",
-              "exampleVn": "Tháng Tám nóng."
+              "exampleVn": "Tháng Tám nóng.",
+              "wordClass": "danh từ",
+              "level": "N5"
             },
             {
               "id": "ja-shape-jinnyu-hachi-w2",
@@ -362,11 +417,14 @@
               "reading": "hachiji",
               "meaningVn": "8 giờ",
               "example": "八時に起きます。",
-              "exampleVn": "Tôi dậy lúc 8 giờ."
+              "exampleVn": "Tôi dậy lúc 8 giờ.",
+              "wordClass": "danh từ",
+              "level": "N5"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-07-26T10:02:49+07:00"
     },
     {
       "id": "ja-shape-hakuji",
@@ -387,7 +445,9 @@
               "reading": "shiroi",
               "meaningVn": "màu trắng",
               "example": "白い雪が降ります。",
-              "exampleVn": "Tuyết trắng rơi."
+              "exampleVn": "Tuyết trắng rơi.",
+              "wordClass": "tính từ",
+              "level": "N5"
             },
             {
               "id": "ja-shape-hakuji-haku-w2",
@@ -395,7 +455,9 @@
               "reading": "shirokuro",
               "meaningVn": "trắng đen",
               "example": "白黒の写真です。",
-              "exampleVn": "Là bức ảnh trắng đen."
+              "exampleVn": "Là bức ảnh trắng đen.",
+              "wordClass": "danh từ",
+              "level": "N2"
             }
           ]
         },
@@ -411,7 +473,9 @@
               "reading": "jibun",
               "meaningVn": "bản thân",
               "example": "自分で決めます。",
-              "exampleVn": "Tự mình quyết định."
+              "exampleVn": "Tự mình quyết định.",
+              "wordClass": "danh từ",
+              "level": "N4"
             },
             {
               "id": "ja-shape-hakuji-ji-w2",
@@ -419,11 +483,14 @@
               "reading": "jiyuu",
               "meaningVn": "tự do",
               "example": "自由な時間です。",
-              "exampleVn": "Là thời gian tự do."
+              "exampleVn": "Là thời gian tự do.",
+              "wordClass": "danh từ",
+              "level": "N3"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-07-26T10:02:49+07:00"
     },
     {
       "id": "ja-shape-toujin",
@@ -444,7 +511,9 @@
               "reading": "nihontou",
               "meaningVn": "kiếm Nhật",
               "example": "日本刀を見ました。",
-              "exampleVn": "Tôi đã xem kiếm Nhật."
+              "exampleVn": "Tôi đã xem kiếm Nhật.",
+              "wordClass": "danh từ",
+              "level": "N1"
             },
             {
               "id": "ja-shape-toujin-tou-w2",
@@ -452,7 +521,9 @@
               "reading": "kogatana",
               "meaningVn": "dao nhỏ",
               "example": "小刀で削ります。",
-              "exampleVn": "Gọt bằng dao nhỏ."
+              "exampleVn": "Gọt bằng dao nhỏ.",
+              "wordClass": "danh từ",
+              "level": "N1"
             }
           ]
         },
@@ -468,7 +539,9 @@
               "reading": "hamono",
               "meaningVn": "đồ có lưỡi (dao, kéo...)",
               "example": "刃物は危ないです。",
-              "exampleVn": "Đồ có lưỡi thì nguy hiểm."
+              "exampleVn": "Đồ có lưỡi thì nguy hiểm.",
+              "wordClass": "danh từ",
+              "level": "N1"
             },
             {
               "id": "ja-shape-toujin-jin-w2",
@@ -476,11 +549,14 @@
               "reading": "hasaki",
               "meaningVn": "mũi lưỡi dao",
               "example": "刃先が鋭いです。",
-              "exampleVn": "Mũi lưỡi dao sắc bén."
+              "exampleVn": "Mũi lưỡi dao sắc bén.",
+              "wordClass": "danh từ",
+              "level": "N1"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-07-26T10:02:49+07:00"
     },
     {
       "id": "ja-shape-ougyoku",
@@ -501,7 +577,9 @@
               "reading": "ousama",
               "meaningVn": "nhà vua",
               "example": "王様が来ました。",
-              "exampleVn": "Nhà vua đã đến."
+              "exampleVn": "Nhà vua đã đến.",
+              "wordClass": "danh từ",
+              "level": "N4"
             },
             {
               "id": "ja-shape-ougyoku-ou-w2",
@@ -509,7 +587,9 @@
               "reading": "joou",
               "meaningVn": "nữ hoàng",
               "example": "女王が国を治めます。",
-              "exampleVn": "Nữ hoàng cai trị đất nước."
+              "exampleVn": "Nữ hoàng cai trị đất nước.",
+              "wordClass": "danh từ",
+              "level": "N2"
             }
           ]
         },
@@ -525,7 +605,9 @@
               "reading": "tamago",
               "meaningVn": "trứng",
               "example": "玉子焼きを作ります。",
-              "exampleVn": "Làm món trứng chiên kiểu Nhật."
+              "exampleVn": "Làm món trứng chiên kiểu Nhật.",
+              "wordClass": "danh từ",
+              "level": "N4"
             },
             {
               "id": "ja-shape-ougyoku-gyoku-w2",
@@ -533,11 +615,14 @@
               "reading": "medama",
               "meaningVn": "tròng mắt, con ngươi",
               "example": "目玉焼きが好きです。",
-              "exampleVn": "Tôi thích món trứng ốp la."
+              "exampleVn": "Tôi thích món trứng ốp la.",
+              "wordClass": "danh từ",
+              "level": "N2"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-07-26T10:02:49+07:00"
     },
     {
       "id": "ja-shape-konrei",
@@ -558,7 +643,9 @@
               "reading": "konshuu",
               "meaningVn": "tuần này",
               "example": "今週は忙しいです。",
-              "exampleVn": "Tuần này bận rộn."
+              "exampleVn": "Tuần này bận rộn.",
+              "wordClass": "danh từ",
+              "level": "N5"
             },
             {
               "id": "ja-shape-konrei-kon-w2",
@@ -566,7 +653,9 @@
               "reading": "konkai",
               "meaningVn": "lần này",
               "example": "今回はうまくいきました。",
-              "exampleVn": "Lần này đã suôn sẻ."
+              "exampleVn": "Lần này đã suôn sẻ.",
+              "wordClass": "danh từ",
+              "level": "N3"
             }
           ]
         },
@@ -582,7 +671,9 @@
               "reading": "meirei",
               "meaningVn": "mệnh lệnh",
               "example": "命令に従います。",
-              "exampleVn": "Tuân theo mệnh lệnh."
+              "exampleVn": "Tuân theo mệnh lệnh.",
+              "wordClass": "danh từ",
+              "level": "N2"
             },
             {
               "id": "ja-shape-konrei-rei-w2",
@@ -590,11 +681,14 @@
               "reading": "reiwa",
               "meaningVn": "Lệnh Hòa (niên hiệu Nhật hiện nay)",
               "example": "令和時代です。",
-              "exampleVn": "Là thời đại Lệnh Hòa."
+              "exampleVn": "Là thời đại Lệnh Hòa.",
+              "wordClass": "danh từ riêng",
+              "level": "N1"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-07-26T10:02:49+07:00"
     },
     {
       "id": "ja-shape-tenfu",
@@ -615,7 +709,9 @@
               "reading": "tenki",
               "meaningVn": "thời tiết",
               "example": "今日はいい天気です。",
-              "exampleVn": "Hôm nay thời tiết đẹp."
+              "exampleVn": "Hôm nay thời tiết đẹp.",
+              "wordClass": "danh từ",
+              "level": "N5"
             },
             {
               "id": "ja-shape-tenfu-ten-w2",
@@ -623,7 +719,9 @@
               "reading": "tensai",
               "meaningVn": "thiên tài",
               "example": "彼は天才です。",
-              "exampleVn": "Anh ấy là thiên tài."
+              "exampleVn": "Anh ấy là thiên tài.",
+              "wordClass": "danh từ",
+              "level": "N2"
             }
           ]
         },
@@ -639,7 +737,9 @@
               "reading": "fuufu",
               "meaningVn": "vợ chồng",
               "example": "夫婦で旅行します。",
-              "exampleVn": "Vợ chồng đi du lịch."
+              "exampleVn": "Vợ chồng đi du lịch.",
+              "wordClass": "danh từ",
+              "level": "N3"
             },
             {
               "id": "ja-shape-tenfu-fu-w2",
@@ -647,11 +747,14 @@
               "reading": "fujin",
               "meaningVn": "phu nhân",
               "example": "社長の夫人です。",
-              "exampleVn": "Là phu nhân của giám đốc."
+              "exampleVn": "Là phu nhân của giám đốc.",
+              "wordClass": "danh từ",
+              "level": "N2"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-07-26T10:02:49+07:00"
     },
     {
       "id": "ja-shape-yukou",
@@ -672,7 +775,9 @@
               "reading": "yurai",
               "meaningVn": "nguồn gốc, xuất xứ",
               "example": "この名前の由来を知っていますか。",
-              "exampleVn": "Bạn có biết nguồn gốc của cái tên này không?"
+              "exampleVn": "Bạn có biết nguồn gốc của cái tên này không?",
+              "wordClass": "danh từ",
+              "level": "N2"
             },
             {
               "id": "ja-shape-yukou-yu-w2",
@@ -680,7 +785,9 @@
               "reading": "keiyu",
               "meaningVn": "quá cảnh, đi qua",
               "example": "東京を経由します。",
-              "exampleVn": "Đi qua Tokyo."
+              "exampleVn": "Đi qua Tokyo.",
+              "wordClass": "danh từ",
+              "level": "N2"
             }
           ]
         },
@@ -696,7 +803,9 @@
               "reading": "koushien",
               "meaningVn": "sân Koshien (giải bóng chày học sinh nổi tiếng)",
               "example": "甲子園に出場します。",
-              "exampleVn": "Tham dự giải Koshien."
+              "exampleVn": "Tham dự giải Koshien.",
+              "wordClass": "danh từ riêng",
+              "level": "N1"
             },
             {
               "id": "ja-shape-yukou-kou-w2",
@@ -704,7 +813,9 @@
               "reading": "kanpan",
               "meaningVn": "boong tàu",
               "example": "甲板に出ます。",
-              "exampleVn": "Đi ra boong tàu."
+              "exampleVn": "Đi ra boong tàu.",
+              "wordClass": "danh từ",
+              "level": "N1"
             }
           ]
         },
@@ -720,7 +831,9 @@
               "reading": "shinsei",
               "meaningVn": "xin phép, đăng ký",
               "example": "ビザを申請します。",
-              "exampleVn": "Xin visa."
+              "exampleVn": "Xin visa.",
+              "wordClass": "danh từ",
+              "level": "N2"
             },
             {
               "id": "ja-shape-yukou-shin-w2",
@@ -728,11 +841,14 @@
               "reading": "shinkoku",
               "meaningVn": "khai báo (vd. thuế)",
               "example": "確定申告をします。",
-              "exampleVn": "Làm khai báo thuế cuối năm."
+              "exampleVn": "Làm khai báo thuế cuối năm.",
+              "wordClass": "danh từ",
+              "level": "N1"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-07-26T10:02:49+07:00"
     },
     {
       "id": "ja-shape-katsutan",
@@ -753,7 +869,9 @@
               "reading": "katsu",
               "meaningVn": "và, hơn nữa",
               "example": "簡単且つ便利です。",
-              "exampleVn": "Vừa đơn giản vừa tiện lợi."
+              "exampleVn": "Vừa đơn giản vừa tiện lợi.",
+              "wordClass": "liên từ",
+              "level": "N1"
             }
           ]
         },
@@ -769,7 +887,9 @@
               "reading": "gantan",
               "meaningVn": "Tết Dương lịch",
               "example": "元旦おめでとうございます。",
-              "exampleVn": "Chúc mừng năm mới."
+              "exampleVn": "Chúc mừng năm mới.",
+              "wordClass": "danh từ",
+              "level": "N1"
             },
             {
               "id": "ja-shape-katsutan-tan-w2",
@@ -777,11 +897,14 @@
               "reading": "ittan",
               "meaningVn": "một khi, tạm thời",
               "example": "一旦家に帰ります。",
-              "exampleVn": "Tạm thời về nhà đã."
+              "exampleVn": "Tạm thời về nhà đã.",
+              "wordClass": "trạng từ",
+              "level": "N1"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-07-26T10:02:49+07:00"
     },
     {
       "id": "ja-shape-kyuugan",
@@ -802,7 +925,9 @@
               "reading": "kugatsu",
               "meaningVn": "tháng Chín",
               "example": "九月に始まります。",
-              "exampleVn": "Bắt đầu vào tháng Chín."
+              "exampleVn": "Bắt đầu vào tháng Chín.",
+              "wordClass": "danh từ",
+              "level": "N5"
             },
             {
               "id": "ja-shape-kyuugan-kyuu-w2",
@@ -810,7 +935,9 @@
               "reading": "kyuushuu",
               "meaningVn": "đảo Kyushu",
               "example": "九州に旅行します。",
-              "exampleVn": "Đi du lịch đảo Kyushu."
+              "exampleVn": "Đi du lịch đảo Kyushu.",
+              "wordClass": "danh từ riêng",
+              "level": "N4"
             }
           ]
         },
@@ -826,7 +953,9 @@
               "reading": "marui",
               "meaningVn": "tròn",
               "example": "月が丸いです。",
-              "exampleVn": "Mặt trăng tròn."
+              "exampleVn": "Mặt trăng tròn.",
+              "wordClass": "tính từ",
+              "level": "N4"
             },
             {
               "id": "ja-shape-kyuugan-gan-w2",
@@ -834,11 +963,14 @@
               "reading": "hinomaru",
               "meaningVn": "quốc kỳ Nhật (mặt trời)",
               "example": "日の丸を見ました。",
-              "exampleVn": "Tôi đã nhìn thấy quốc kỳ Nhật."
+              "exampleVn": "Tôi đã nhìn thấy quốc kỳ Nhật.",
+              "wordClass": "danh từ",
+              "level": "N2"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-07-26T10:02:49+07:00"
     },
     {
       "id": "ja-shape-ounushi",
@@ -859,7 +991,9 @@
               "reading": "oukoku",
               "meaningVn": "vương quốc",
               "example": "小さな王国です。",
-              "exampleVn": "Là một vương quốc nhỏ."
+              "exampleVn": "Là một vương quốc nhỏ.",
+              "wordClass": "danh từ",
+              "level": "N2"
             },
             {
               "id": "ja-shape-ounushi-ou-w2",
@@ -867,7 +1001,9 @@
               "reading": "ouji",
               "meaningVn": "hoàng tử",
               "example": "王子が城に住んでいます。",
-              "exampleVn": "Hoàng tử sống trong lâu đài."
+              "exampleVn": "Hoàng tử sống trong lâu đài.",
+              "wordClass": "danh từ",
+              "level": "N3"
             }
           ]
         },
@@ -883,7 +1019,9 @@
               "reading": "shujin",
               "meaningVn": "chủ nhân, chồng",
               "example": "主人は今いません。",
-              "exampleVn": "Chồng tôi hiện không có ở đây."
+              "exampleVn": "Chồng tôi hiện không có ở đây.",
+              "wordClass": "danh từ",
+              "level": "N4"
             },
             {
               "id": "ja-shape-ounushi-shu-w2",
@@ -891,11 +1029,14 @@
               "reading": "omoni",
               "meaningVn": "chủ yếu",
               "example": "主に野菜を食べます。",
-              "exampleVn": "Chủ yếu ăn rau."
+              "exampleVn": "Chủ yếu ăn rau.",
+              "wordClass": "trạng từ",
+              "level": "N2"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-07-26T10:02:49+07:00"
     },
     {
       "id": "ja-shape-goniu",
@@ -916,7 +1057,9 @@
               "reading": "gogo",
               "meaningVn": "buổi chiều",
               "example": "午後に会いましょう。",
-              "exampleVn": "Hãy gặp nhau vào buổi chiều."
+              "exampleVn": "Hãy gặp nhau vào buổi chiều.",
+              "wordClass": "danh từ",
+              "level": "N5"
             },
             {
               "id": "ja-shape-goniu-go-w2",
@@ -924,7 +1067,9 @@
               "reading": "gozen",
               "meaningVn": "buổi sáng",
               "example": "午前中に終わります。",
-              "exampleVn": "Sẽ xong trong buổi sáng."
+              "exampleVn": "Sẽ xong trong buổi sáng.",
+              "wordClass": "danh từ",
+              "level": "N5"
             }
           ]
         },
@@ -940,7 +1085,9 @@
               "reading": "gyuunyuu",
               "meaningVn": "sữa bò",
               "example": "牛乳を飲みます。",
-              "exampleVn": "Uống sữa bò."
+              "exampleVn": "Uống sữa bò.",
+              "wordClass": "danh từ",
+              "level": "N5"
             },
             {
               "id": "ja-shape-goniu-niu-w2",
@@ -948,11 +1095,14 @@
               "reading": "gyuuniku",
               "meaningVn": "thịt bò",
               "example": "牛肉が好きです。",
-              "exampleVn": "Tôi thích thịt bò."
+              "exampleVn": "Tôi thích thịt bò.",
+              "wordClass": "danh từ",
+              "level": "N4"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-07-26T10:02:49+07:00"
     },
     {
       "id": "ja-shape-shinhitsu",
@@ -973,7 +1123,9 @@
               "reading": "shinpai",
               "meaningVn": "lo lắng",
               "example": "心配しないでください。",
-              "exampleVn": "Xin đừng lo lắng."
+              "exampleVn": "Xin đừng lo lắng.",
+              "wordClass": "danh từ",
+              "level": "N4"
             },
             {
               "id": "ja-shape-shinhitsu-shin-w2",
@@ -981,7 +1133,9 @@
               "reading": "chuushin",
               "meaningVn": "trung tâm",
               "example": "町の中心にいます。",
-              "exampleVn": "Đang ở trung tâm thị trấn."
+              "exampleVn": "Đang ở trung tâm thị trấn.",
+              "wordClass": "danh từ",
+              "level": "N3"
             }
           ]
         },
@@ -997,7 +1151,9 @@
               "reading": "hitsuyou",
               "meaningVn": "cần thiết",
               "example": "パスポートが必要です。",
-              "exampleVn": "Cần có hộ chiếu."
+              "exampleVn": "Cần có hộ chiếu.",
+              "wordClass": "tính từ",
+              "level": "N4"
             },
             {
               "id": "ja-shape-shinhitsu-hitsu-w2",
@@ -1005,11 +1161,14 @@
               "reading": "kanarazu",
               "meaningVn": "nhất định",
               "example": "必ず来てください。",
-              "exampleVn": "Nhất định hãy đến nhé."
+              "exampleVn": "Nhất định hãy đến nhé.",
+              "wordClass": "trạng từ",
+              "level": "N4"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-07-26T10:02:49+07:00"
     },
     {
       "id": "ja-shape-kyuuin",
@@ -1030,7 +1189,9 @@
               "reading": "kyuudou",
               "meaningVn": "cung đạo (môn bắn cung truyền thống Nhật)",
               "example": "弓道を習っています。",
-              "exampleVn": "Tôi đang học cung đạo."
+              "exampleVn": "Tôi đang học cung đạo.",
+              "wordClass": "danh từ",
+              "level": "N1"
             },
             {
               "id": "ja-shape-kyuuin-kyuu-w2",
@@ -1038,7 +1199,9 @@
               "reading": "yumiya",
               "meaningVn": "cung tên",
               "example": "弓矢を使います。",
-              "exampleVn": "Sử dụng cung tên."
+              "exampleVn": "Sử dụng cung tên.",
+              "wordClass": "danh từ",
+              "level": "N1"
             }
           ]
         },
@@ -1054,7 +1217,9 @@
               "reading": "intai",
               "meaningVn": "nghỉ hưu, giải nghệ",
               "example": "選手が引退しました。",
-              "exampleVn": "Vận động viên đã giải nghệ."
+              "exampleVn": "Vận động viên đã giải nghệ.",
+              "wordClass": "danh từ",
+              "level": "N1"
             },
             {
               "id": "ja-shape-kyuuin-in-w2",
@@ -1062,11 +1227,14 @@
               "reading": "hikkoshi",
               "meaningVn": "chuyển nhà",
               "example": "来月引っ越しします。",
-              "exampleVn": "Tháng sau tôi chuyển nhà."
+              "exampleVn": "Tháng sau tôi chuyển nhà.",
+              "wordClass": "danh từ",
+              "level": "N4"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-07-26T10:02:49+07:00"
     },
     {
       "id": "ja-shape-ryoushi",
@@ -1087,7 +1255,9 @@
               "reading": "ryoukai",
               "meaningVn": "hiểu rõ, đã rõ",
               "example": "了解しました。",
-              "exampleVn": "Tôi đã hiểu rõ rồi."
+              "exampleVn": "Tôi đã hiểu rõ rồi.",
+              "wordClass": "danh từ",
+              "level": "N2"
             },
             {
               "id": "ja-shape-ryoushi-ryou-w2",
@@ -1095,7 +1265,9 @@
               "reading": "shuuryou",
               "meaningVn": "kết thúc, hoàn thành",
               "example": "会議が終了しました。",
-              "exampleVn": "Cuộc họp đã kết thúc."
+              "exampleVn": "Cuộc họp đã kết thúc.",
+              "wordClass": "danh từ",
+              "level": "N2"
             }
           ]
         },
@@ -1111,7 +1283,9 @@
               "reading": "kodomo",
               "meaningVn": "trẻ em",
               "example": "子供が遊んでいます。",
-              "exampleVn": "Trẻ em đang chơi đùa."
+              "exampleVn": "Trẻ em đang chơi đùa.",
+              "wordClass": "danh từ",
+              "level": "N5"
             },
             {
               "id": "ja-shape-ryoushi-shi-w2",
@@ -1119,11 +1293,14 @@
               "reading": "yousu",
               "meaningVn": "tình hình, dáng vẻ",
               "example": "様子を見ましょう。",
-              "exampleVn": "Hãy xem tình hình thế nào."
+              "exampleVn": "Hãy xem tình hình thế nào.",
+              "wordClass": "danh từ",
+              "level": "N3"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-07-26T10:02:49+07:00"
     },
     {
       "id": "ja-shape-sunsai",
@@ -1144,7 +1321,9 @@
               "reading": "sunpou",
               "meaningVn": "kích thước",
               "example": "寸法を測ります。",
-              "exampleVn": "Đo kích thước."
+              "exampleVn": "Đo kích thước.",
+              "wordClass": "danh từ",
+              "level": "N1"
             },
             {
               "id": "ja-shape-sunsai-sun-w2",
@@ -1152,7 +1331,9 @@
               "reading": "sunzen",
               "meaningVn": "cận kề, sắp sửa",
               "example": "完成の寸前です。",
-              "exampleVn": "Sắp hoàn thành rồi."
+              "exampleVn": "Sắp hoàn thành rồi.",
+              "wordClass": "danh từ",
+              "level": "N1"
             }
           ]
         },
@@ -1168,7 +1349,9 @@
               "reading": "sainou",
               "meaningVn": "tài năng",
               "example": "音楽の才能があります。",
-              "exampleVn": "Có tài năng âm nhạc."
+              "exampleVn": "Có tài năng âm nhạc.",
+              "wordClass": "danh từ",
+              "level": "N2"
             },
             {
               "id": "ja-shape-sunsai-sai-w2",
@@ -1176,11 +1359,14 @@
               "reading": "saijo",
               "meaningVn": "tài nữ, phụ nữ tài giỏi",
               "example": "彼女は才女です。",
-              "exampleVn": "Cô ấy là một tài nữ."
+              "exampleVn": "Cô ấy là một tài nữ.",
+              "wordClass": "danh từ",
+              "level": "N1"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-07-26T10:02:49+07:00"
     },
     {
       "id": "ja-shape-koushin",
@@ -1201,7 +1387,9 @@
               "reading": "shiawase",
               "meaningVn": "hạnh phúc",
               "example": "とても幸せです。",
-              "exampleVn": "Tôi rất hạnh phúc."
+              "exampleVn": "Tôi rất hạnh phúc.",
+              "wordClass": "tính từ",
+              "level": "N4"
             },
             {
               "id": "ja-shape-koushin-kou-w2",
@@ -1209,7 +1397,9 @@
               "reading": "kouun",
               "meaningVn": "may mắn",
               "example": "幸運を祈ります。",
-              "exampleVn": "Chúc may mắn."
+              "exampleVn": "Chúc may mắn.",
+              "wordClass": "danh từ",
+              "level": "N2"
             }
           ]
         },
@@ -1225,7 +1415,9 @@
               "reading": "karai",
               "meaningVn": "cay",
               "example": "このカレーは辛いです。",
-              "exampleVn": "Món cà ri này cay."
+              "exampleVn": "Món cà ri này cay.",
+              "wordClass": "tính từ",
+              "level": "N4"
             },
             {
               "id": "ja-shape-koushin-shin-w2",
@@ -1233,11 +1425,14 @@
               "reading": "karakuchi",
               "meaningVn": "vị cay, gắt",
               "example": "辛口のソースです。",
-              "exampleVn": "Là loại sốt vị cay."
+              "exampleVn": "Là loại sốt vị cay.",
+              "wordClass": "danh từ",
+              "level": "N1"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-07-26T10:02:49+07:00"
     },
     {
       "id": "ja-shape-uritsume",
@@ -1258,7 +1453,9 @@
               "reading": "suika",
               "meaningVn": "dưa hấu",
               "example": "夏は西瓜を食べます。",
-              "exampleVn": "Mùa hè ăn dưa hấu."
+              "exampleVn": "Mùa hè ăn dưa hấu.",
+              "wordClass": "danh từ",
+              "level": "N1"
             },
             {
               "id": "ja-shape-uritsume-uri-w2",
@@ -1266,7 +1463,9 @@
               "reading": "kabocha",
               "meaningVn": "bí ngô",
               "example": "南瓜のスープです。",
-              "exampleVn": "Là món súp bí ngô."
+              "exampleVn": "Là món súp bí ngô.",
+              "wordClass": "danh từ",
+              "level": "N1"
             }
           ]
         },
@@ -1282,7 +1481,9 @@
               "reading": "tsumasaki",
               "meaningVn": "đầu ngón chân/tay",
               "example": "爪先が冷たいです。",
-              "exampleVn": "Đầu ngón chân lạnh."
+              "exampleVn": "Đầu ngón chân lạnh.",
+              "wordClass": "danh từ",
+              "level": "N1"
             },
             {
               "id": "ja-shape-uritsume-tsume-w2",
@@ -1290,11 +1491,14 @@
               "reading": "fukazume",
               "meaningVn": "cắt móng tay quá sát",
               "example": "深爪してしまいました。",
-              "exampleVn": "Tôi lỡ cắt móng tay quá sát."
+              "exampleVn": "Tôi lỡ cắt móng tay quá sát.",
+              "wordClass": "danh từ",
+              "level": "N1"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-07-26T10:02:49+07:00"
     },
     {
       "id": "ja-shape-sei",
@@ -1315,7 +1519,9 @@
               "reading": "seiza",
               "meaningVn": "chòm sao, cung hoàng đạo",
               "example": "星座を調べます。",
-              "exampleVn": "Tra cứu cung hoàng đạo."
+              "exampleVn": "Tra cứu cung hoàng đạo.",
+              "wordClass": "danh từ",
+              "level": "N1"
             },
             {
               "id": "ja-shape-sei-hi-w2",
@@ -1323,7 +1529,9 @@
               "reading": "hoshizora",
               "meaningVn": "bầu trời sao",
               "example": "星空がきれいです。",
-              "exampleVn": "Bầu trời sao rất đẹp."
+              "exampleVn": "Bầu trời sao rất đẹp.",
+              "wordClass": "danh từ",
+              "level": "N2"
             }
           ]
         },
@@ -1339,7 +1547,9 @@
               "reading": "seikaku",
               "meaningVn": "tính cách",
               "example": "明るい性格です。",
-              "exampleVn": "Là tính cách vui vẻ, cởi mở."
+              "exampleVn": "Là tính cách vui vẻ, cởi mở.",
+              "wordClass": "danh từ",
+              "level": "N3"
             },
             {
               "id": "ja-shape-sei-kokoro-w2",
@@ -1347,7 +1557,9 @@
               "reading": "kosei",
               "meaningVn": "cá tính",
               "example": "個性を大切にします。",
-              "exampleVn": "Coi trọng cá tính."
+              "exampleVn": "Coi trọng cá tính.",
+              "wordClass": "danh từ",
+              "level": "N2"
             }
           ]
         },
@@ -1363,7 +1575,9 @@
               "reading": "seimei",
               "meaningVn": "họ tên",
               "example": "姓名を書いてください。",
-              "exampleVn": "Xin viết họ tên."
+              "exampleVn": "Xin viết họ tên.",
+              "wordClass": "danh từ",
+              "level": "N1"
             },
             {
               "id": "ja-shape-sei-onna-w2",
@@ -1371,7 +1585,9 @@
               "reading": "kyuusei",
               "meaningVn": "họ cũ (thời con gái)",
               "example": "旧姓を使っています。",
-              "exampleVn": "Đang dùng họ thời con gái."
+              "exampleVn": "Đang dùng họ thời con gái.",
+              "wordClass": "danh từ",
+              "level": "N1"
             }
           ]
         },
@@ -1387,11 +1603,14 @@
               "reading": "gisei",
               "meaningVn": "hy sinh",
               "example": "犠牲を払いました。",
-              "exampleVn": "Đã phải hy sinh, trả giá."
+              "exampleVn": "Đã phải hy sinh, trả giá.",
+              "wordClass": "danh từ",
+              "level": "N1"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-07-26T10:02:49+07:00"
     },
     {
       "id": "ja-shape-ji",
@@ -1412,7 +1631,9 @@
               "reading": "shijin",
               "meaningVn": "nhà thơ",
               "example": "有名な詩人です。",
-              "exampleVn": "Là một nhà thơ nổi tiếng."
+              "exampleVn": "Là một nhà thơ nổi tiếng.",
+              "wordClass": "danh từ",
+              "level": "N2"
             },
             {
               "id": "ja-shape-ji-gen-w2",
@@ -1420,7 +1641,9 @@
               "reading": "shishuu",
               "meaningVn": "tập thơ",
               "example": "詩集を出版しました。",
-              "exampleVn": "Đã xuất bản một tập thơ."
+              "exampleVn": "Đã xuất bản một tập thơ.",
+              "wordClass": "danh từ",
+              "level": "N1"
             }
           ]
         },
@@ -1436,7 +1659,9 @@
               "reading": "kitai",
               "meaningVn": "kỳ vọng, mong đợi",
               "example": "期待しています。",
-              "exampleVn": "Tôi đang mong đợi."
+              "exampleVn": "Tôi đang mong đợi.",
+              "wordClass": "danh từ",
+              "level": "N3"
             },
             {
               "id": "ja-shape-ji-gyou-w2",
@@ -1444,7 +1669,9 @@
               "reading": "shoutai",
               "meaningVn": "mời, tiếp đãi",
               "example": "招待を受けました。",
-              "exampleVn": "Đã nhận lời mời."
+              "exampleVn": "Đã nhận lời mời.",
+              "wordClass": "danh từ",
+              "level": "N3"
             }
           ]
         },
@@ -1460,7 +1687,9 @@
               "reading": "motsu",
               "meaningVn": "cầm, mang",
               "example": "傘を持っています。",
-              "exampleVn": "Tôi đang cầm ô."
+              "exampleVn": "Tôi đang cầm ô.",
+              "wordClass": "động từ",
+              "level": "N5"
             },
             {
               "id": "ja-shape-ji-te-w2",
@@ -1468,7 +1697,9 @@
               "reading": "shiji",
               "meaningVn": "ủng hộ",
               "example": "支持率が高いです。",
-              "exampleVn": "Tỷ lệ ủng hộ cao."
+              "exampleVn": "Tỷ lệ ủng hộ cao.",
+              "wordClass": "danh từ",
+              "level": "N2"
             }
           ]
         },
@@ -1484,7 +1715,9 @@
               "reading": "tokubetsu",
               "meaningVn": "đặc biệt",
               "example": "特別な日です。",
-              "exampleVn": "Là một ngày đặc biệt."
+              "exampleVn": "Là một ngày đặc biệt.",
+              "wordClass": "tính từ",
+              "level": "N4"
             },
             {
               "id": "ja-shape-ji-ushi-w2",
@@ -1492,11 +1725,14 @@
               "reading": "tokuchou",
               "meaningVn": "đặc điểm",
               "example": "特徴を説明します。",
-              "exampleVn": "Giải thích đặc điểm."
+              "exampleVn": "Giải thích đặc điểm.",
+              "wordClass": "danh từ",
+              "level": "N2"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-07-26T10:02:49+07:00"
     },
     {
       "id": "ja-shape-kai",
@@ -1517,7 +1753,9 @@
               "reading": "umibe",
               "meaningVn": "bờ biển",
               "example": "海辺を歩きます。",
-              "exampleVn": "Đi dạo trên bờ biển."
+              "exampleVn": "Đi dạo trên bờ biển.",
+              "wordClass": "danh từ",
+              "level": "N2"
             },
             {
               "id": "ja-shape-kai-sui-w2",
@@ -1525,7 +1763,9 @@
               "reading": "kaigai",
               "meaningVn": "hải ngoại, nước ngoài",
               "example": "海外旅行が好きです。",
-              "exampleVn": "Tôi thích du lịch nước ngoài."
+              "exampleVn": "Tôi thích du lịch nước ngoài.",
+              "wordClass": "danh từ",
+              "level": "N3"
             }
           ]
         },
@@ -1541,7 +1781,9 @@
               "reading": "tsuyu",
               "meaningVn": "mùa mưa (đầu hè)",
               "example": "梅雨に入りました。",
-              "exampleVn": "Đã vào mùa mưa."
+              "exampleVn": "Đã vào mùa mưa.",
+              "wordClass": "danh từ",
+              "level": "N2"
             },
             {
               "id": "ja-shape-kai-moku-w2",
@@ -1549,7 +1791,9 @@
               "reading": "umeboshi",
               "meaningVn": "mơ muối",
               "example": "梅干しは酸っぱいです。",
-              "exampleVn": "Mơ muối có vị chua."
+              "exampleVn": "Mơ muối có vị chua.",
+              "wordClass": "danh từ",
+              "level": "N1"
             }
           ]
         },
@@ -1565,7 +1809,9 @@
               "reading": "koukai",
               "meaningVn": "hối hận",
               "example": "後悔しています。",
-              "exampleVn": "Tôi đang hối hận."
+              "exampleVn": "Tôi đang hối hận.",
+              "wordClass": "danh từ",
+              "level": "N2"
             },
             {
               "id": "ja-shape-kai-kokoro-w2",
@@ -1573,11 +1819,14 @@
               "reading": "kuyashii",
               "meaningVn": "tiếc nuối, cay cú",
               "example": "負けて悔しいです。",
-              "exampleVn": "Thua nên thấy cay cú."
+              "exampleVn": "Thua nên thấy cay cú.",
+              "wordClass": "tính từ",
+              "level": "N2"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-07-26T10:02:49+07:00"
     },
     {
       "id": "ja-shape-han",
@@ -1598,7 +1847,9 @@
               "reading": "kokuban",
               "meaningVn": "bảng đen",
               "example": "黒板に書きます。",
-              "exampleVn": "Viết lên bảng đen."
+              "exampleVn": "Viết lên bảng đen.",
+              "wordClass": "danh từ",
+              "level": "N4"
             },
             {
               "id": "ja-shape-han-moku-w2",
@@ -1606,7 +1857,9 @@
               "reading": "kanban",
               "meaningVn": "biển hiệu",
               "example": "店の看板です。",
-              "exampleVn": "Là biển hiệu cửa hàng."
+              "exampleVn": "Là biển hiệu cửa hàng.",
+              "wordClass": "danh từ",
+              "level": "N2"
             }
           ]
         },
@@ -1622,7 +1875,9 @@
               "reading": "henkyaku",
               "meaningVn": "trả lại, hoàn trả",
               "example": "本を返却します。",
-              "exampleVn": "Trả lại sách."
+              "exampleVn": "Trả lại sách.",
+              "wordClass": "danh từ",
+              "level": "N1"
             },
             {
               "id": "ja-shape-han-chaku-w2",
@@ -1630,7 +1885,9 @@
               "reading": "henshin",
               "meaningVn": "thư trả lời",
               "example": "返信をください。",
-              "exampleVn": "Xin hãy hồi âm."
+              "exampleVn": "Xin hãy hồi âm.",
+              "wordClass": "danh từ",
+              "level": "N2"
             }
           ]
         },
@@ -1646,7 +1903,9 @@
               "reading": "shuppan",
               "meaningVn": "xuất bản",
               "example": "本を出版します。",
-              "exampleVn": "Xuất bản sách."
+              "exampleVn": "Xuất bản sách.",
+              "wordClass": "danh từ",
+              "level": "N2"
             },
             {
               "id": "ja-shape-han-hen-w2",
@@ -1654,11 +1913,14 @@
               "reading": "hanga",
               "meaningVn": "tranh khắc gỗ",
               "example": "版画を作ります。",
-              "exampleVn": "Làm tranh khắc gỗ."
+              "exampleVn": "Làm tranh khắc gỗ.",
+              "wordClass": "danh từ",
+              "level": "N1"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-07-26T10:02:49+07:00"
     },
     {
       "id": "ja-shape-tou",
@@ -1679,7 +1941,9 @@
               "reading": "Momotarou",
               "meaningVn": "Đào Thái Lang (truyện cổ tích Nhật)",
               "example": "桃太郎の話を知っていますか。",
-              "exampleVn": "Bạn có biết truyện Đào Thái Lang không?"
+              "exampleVn": "Bạn có biết truyện Đào Thái Lang không?",
+              "wordClass": "danh từ riêng",
+              "level": "N1"
             },
             {
               "id": "ja-shape-tou-moku-w2",
@@ -1687,7 +1951,9 @@
               "reading": "momoiro",
               "meaningVn": "màu hồng đào",
               "example": "桃色のドレスです。",
-              "exampleVn": "Là chiếc váy màu hồng đào."
+              "exampleVn": "Là chiếc váy màu hồng đào.",
+              "wordClass": "danh từ",
+              "level": "N2"
             }
           ]
         },
@@ -1703,7 +1969,9 @@
               "reading": "nigeru",
               "meaningVn": "chạy trốn",
               "example": "犯人が逃げました。",
-              "exampleVn": "Tội phạm đã chạy trốn."
+              "exampleVn": "Tội phạm đã chạy trốn.",
+              "wordClass": "động từ",
+              "level": "N4"
             },
             {
               "id": "ja-shape-tou-chaku-w2",
@@ -1711,7 +1979,9 @@
               "reading": "touhou",
               "meaningVn": "đào vong, chạy trốn",
               "example": "国外に逃亡しました。",
-              "exampleVn": "Đã chạy trốn ra nước ngoài."
+              "exampleVn": "Đã chạy trốn ra nước ngoài.",
+              "wordClass": "danh từ",
+              "level": "N1"
             }
           ]
         },
@@ -1727,7 +1997,9 @@
               "reading": "tobu",
               "meaningVn": "nhảy",
               "example": "高く跳びます。",
-              "exampleVn": "Nhảy cao."
+              "exampleVn": "Nhảy cao.",
+              "wordClass": "động từ",
+              "level": "N3"
             },
             {
               "id": "ja-shape-tou-soku-w2",
@@ -1735,7 +2007,9 @@
               "reading": "nawatobi",
               "meaningVn": "nhảy dây",
               "example": "縄跳びをします。",
-              "exampleVn": "Chơi nhảy dây."
+              "exampleVn": "Chơi nhảy dây.",
+              "wordClass": "danh từ",
+              "level": "N1"
             }
           ]
         },
@@ -1751,7 +2025,9 @@
               "reading": "chousen",
               "meaningVn": "thách thức, thử thách",
               "example": "新しい挑戦です。",
-              "exampleVn": "Là một thử thách mới."
+              "exampleVn": "Là một thử thách mới.",
+              "wordClass": "danh từ",
+              "level": "N2"
             },
             {
               "id": "ja-shape-tou-shu-w2",
@@ -1759,11 +2035,14 @@
               "reading": "idomu",
               "meaningVn": "thách thức, thử sức",
               "example": "困難に挑みます。",
-              "exampleVn": "Thử sức với khó khăn."
+              "exampleVn": "Thử sức với khó khăn.",
+              "wordClass": "động từ",
+              "level": "N1"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-07-26T10:02:49+07:00"
     },
     {
       "id": "ja-shape-ki",
@@ -1784,7 +2063,9 @@
               "reading": "nikki",
               "meaningVn": "nhật ký",
               "example": "毎日日記を書きます。",
-              "exampleVn": "Viết nhật ký mỗi ngày."
+              "exampleVn": "Viết nhật ký mỗi ngày.",
+              "wordClass": "danh từ",
+              "level": "N4"
             },
             {
               "id": "ja-shape-ki-gen-w2",
@@ -1792,7 +2073,9 @@
               "reading": "kioku",
               "meaningVn": "ký ức, trí nhớ",
               "example": "いい記憶です。",
-              "exampleVn": "Là một ký ức đẹp."
+              "exampleVn": "Là một ký ức đẹp.",
+              "wordClass": "danh từ",
+              "level": "N2"
             }
           ]
         },
@@ -1808,7 +2091,9 @@
               "reading": "seiki",
               "meaningVn": "thế kỷ",
               "example": "二十一世紀です。",
-              "exampleVn": "Là thế kỷ hai mươi mốt."
+              "exampleVn": "Là thế kỷ hai mươi mốt.",
+              "wordClass": "danh từ",
+              "level": "N2"
             },
             {
               "id": "ja-shape-ki-ito-w2",
@@ -1816,7 +2101,9 @@
               "reading": "kigen",
               "meaningVn": "kỷ nguyên",
               "example": "紀元前の話です。",
-              "exampleVn": "Là chuyện trước Công nguyên."
+              "exampleVn": "Là chuyện trước Công nguyên.",
+              "wordClass": "danh từ",
+              "level": "N1"
             }
           ]
         },
@@ -1832,7 +2119,9 @@
               "reading": "kinki",
               "meaningVn": "điều cấm kỵ",
               "example": "それは禁忌です。",
-              "exampleVn": "Đó là điều cấm kỵ."
+              "exampleVn": "Đó là điều cấm kỵ.",
+              "wordClass": "danh từ",
+              "level": "N1"
             }
           ]
         },
@@ -1848,7 +2137,9 @@
               "reading": "okiru",
               "meaningVn": "thức dậy",
               "example": "七時に起きます。",
-              "exampleVn": "Thức dậy lúc 7 giờ."
+              "exampleVn": "Thức dậy lúc 7 giờ.",
+              "wordClass": "động từ",
+              "level": "N5"
             },
             {
               "id": "ja-shape-ki-sou-w2",
@@ -1856,11 +2147,14 @@
               "reading": "kiritsu",
               "meaningVn": "đứng dậy",
               "example": "起立、礼、着席。",
-              "exampleVn": "Đứng dậy, chào, ngồi xuống (khẩu lệnh lớp học)."
+              "exampleVn": "Đứng dậy, chào, ngồi xuống (khẩu lệnh lớp học).",
+              "wordClass": "danh từ",
+              "level": "N2"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-07-26T10:02:49+07:00"
     },
     {
       "id": "ja-shape-zou",
@@ -1881,7 +2175,9 @@
               "reading": "zouka",
               "meaningVn": "tăng thêm",
               "example": "人口が増加します。",
-              "exampleVn": "Dân số tăng thêm."
+              "exampleVn": "Dân số tăng thêm.",
+              "wordClass": "danh từ",
+              "level": "N2"
             },
             {
               "id": "ja-shape-zou-tsuchi-w2",
@@ -1889,7 +2185,9 @@
               "reading": "fueru",
               "meaningVn": "tăng lên",
               "example": "体重が増えました。",
-              "exampleVn": "Cân nặng đã tăng lên."
+              "exampleVn": "Cân nặng đã tăng lên.",
+              "wordClass": "động từ",
+              "level": "N4"
             }
           ]
         },
@@ -1905,7 +2203,9 @@
               "reading": "aizou",
               "meaningVn": "yêu ghét",
               "example": "愛憎が入り混じります。",
-              "exampleVn": "Yêu và ghét đan xen."
+              "exampleVn": "Yêu và ghét đan xen.",
+              "wordClass": "danh từ",
+              "level": "N1"
             }
           ]
         },
@@ -1921,7 +2221,9 @@
               "reading": "okurimono",
               "meaningVn": "quà tặng",
               "example": "贈り物をもらいました。",
-              "exampleVn": "Đã nhận được quà tặng."
+              "exampleVn": "Đã nhận được quà tặng.",
+              "wordClass": "danh từ",
+              "level": "N2"
             },
             {
               "id": "ja-shape-zou-kai-w2",
@@ -1929,7 +2231,9 @@
               "reading": "kizou",
               "meaningVn": "quyên tặng",
               "example": "本を寄贈しました。",
-              "exampleVn": "Đã quyên tặng sách."
+              "exampleVn": "Đã quyên tặng sách.",
+              "wordClass": "danh từ",
+              "level": "N1"
             }
           ]
         },
@@ -1945,7 +2249,9 @@
               "reading": "souryo",
               "meaningVn": "tăng lữ",
               "example": "僧侶が祈ります。",
-              "exampleVn": "Tăng lữ cầu nguyện."
+              "exampleVn": "Tăng lữ cầu nguyện.",
+              "wordClass": "danh từ",
+              "level": "N1"
             },
             {
               "id": "ja-shape-zou-nin-w2",
@@ -1953,11 +2259,14 @@
               "reading": "kousou",
               "meaningVn": "cao tăng",
               "example": "有名な高僧です。",
-              "exampleVn": "Là một vị cao tăng nổi tiếng."
+              "exampleVn": "Là một vị cao tăng nổi tiếng.",
+              "wordClass": "danh từ",
+              "level": "N1"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-07-26T10:02:49+07:00"
     },
     {
       "id": "ja-shape-kaku",
@@ -1978,7 +2287,9 @@
               "reading": "goukaku",
               "meaningVn": "đỗ, đạt",
               "example": "試験に合格しました。",
-              "exampleVn": "Đã đỗ kỳ thi."
+              "exampleVn": "Đã đỗ kỳ thi.",
+              "wordClass": "danh từ",
+              "level": "N3"
             },
             {
               "id": "ja-shape-kaku-moku-w2",
@@ -1986,7 +2297,9 @@
               "reading": "kakaku",
               "meaningVn": "giá cả",
               "example": "価格が上がりました。",
-              "exampleVn": "Giá cả đã tăng lên."
+              "exampleVn": "Giá cả đã tăng lên.",
+              "wordClass": "danh từ",
+              "level": "N2"
             }
           ]
         },
@@ -2002,7 +2315,9 @@
               "reading": "kankoukyaku",
               "meaningVn": "khách du lịch",
               "example": "観光客が多いです。",
-              "exampleVn": "Có nhiều khách du lịch."
+              "exampleVn": "Có nhiều khách du lịch.",
+              "wordClass": "danh từ",
+              "level": "N3"
             },
             {
               "id": "ja-shape-kaku-ben-w2",
@@ -2010,7 +2325,9 @@
               "reading": "kyakushitsu",
               "meaningVn": "phòng khách, khoang khách",
               "example": "客室に入ります。",
-              "exampleVn": "Vào phòng khách."
+              "exampleVn": "Vào phòng khách.",
+              "wordClass": "danh từ",
+              "level": "N2"
             }
           ]
         },
@@ -2026,7 +2343,9 @@
               "reading": "douro",
               "meaningVn": "đường",
               "example": "道路が混んでいます。",
-              "exampleVn": "Đường đang tắc."
+              "exampleVn": "Đường đang tắc.",
+              "wordClass": "danh từ",
+              "level": "N3"
             },
             {
               "id": "ja-shape-kaku-soku-w2",
@@ -2034,7 +2353,9 @@
               "reading": "rosen",
               "meaningVn": "tuyến đường",
               "example": "この路線は便利です。",
-              "exampleVn": "Tuyến đường này tiện lợi."
+              "exampleVn": "Tuyến đường này tiện lợi.",
+              "wordClass": "danh từ",
+              "level": "N2"
             }
           ]
         },
@@ -2050,7 +2371,9 @@
               "reading": "ochiru",
               "meaningVn": "rơi xuống",
               "example": "葉が落ちます。",
-              "exampleVn": "Lá rơi xuống."
+              "exampleVn": "Lá rơi xuống.",
+              "wordClass": "động từ",
+              "level": "N4"
             },
             {
               "id": "ja-shape-kaku-kusa-w2",
@@ -2058,11 +2381,14 @@
               "reading": "rakugo",
               "meaningVn": "lạc ngữ (nghệ thuật kể chuyện hài)",
               "example": "落語を聞きます。",
-              "exampleVn": "Nghe kể chuyện lạc ngữ."
+              "exampleVn": "Nghe kể chuyện lạc ngữ.",
+              "wordClass": "danh từ",
+              "level": "N1"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-07-26T10:02:49+07:00"
     },
     {
       "id": "ja-shape-sei2",
@@ -2083,7 +2409,9 @@
               "reading": "kanjou",
               "meaningVn": "cảm xúc, tình cảm",
               "example": "感情を抑えるのは難しい。",
-              "exampleVn": "Kìm nén cảm xúc là điều khó khăn."
+              "exampleVn": "Kìm nén cảm xúc là điều khó khăn.",
+              "wordClass": "danh từ",
+              "level": "N2"
             },
             {
               "id": "ja-shape-sei2-jou-w2",
@@ -2091,7 +2419,9 @@
               "reading": "jouhou",
               "meaningVn": "thông tin",
               "example": "最新の情報を集めています。",
-              "exampleVn": "Tôi đang thu thập thông tin mới nhất."
+              "exampleVn": "Tôi đang thu thập thông tin mới nhất.",
+              "wordClass": "danh từ",
+              "level": "N3"
             }
           ]
         },
@@ -2107,7 +2437,9 @@
               "reading": "seiketsu",
               "meaningVn": "sạch sẽ, vệ sinh",
               "example": "台所はいつも清潔にしています。",
-              "exampleVn": "Tôi luôn giữ nhà bếp sạch sẽ."
+              "exampleVn": "Tôi luôn giữ nhà bếp sạch sẽ.",
+              "wordClass": "tính từ",
+              "level": "N2"
             },
             {
               "id": "ja-shape-sei2-sui-w2",
@@ -2115,7 +2447,9 @@
               "reading": "seisan",
               "meaningVn": "thanh toán, thanh lý",
               "example": "借金を清算しました。",
-              "exampleVn": "Tôi đã thanh toán hết nợ."
+              "exampleVn": "Tôi đã thanh toán hết nợ.",
+              "wordClass": "danh từ",
+              "level": "N1"
             }
           ]
         },
@@ -2131,7 +2465,9 @@
               "reading": "seikyuu",
               "meaningVn": "yêu cầu thanh toán, đòi",
               "example": "請求書が届きました。",
-              "exampleVn": "Hoá đơn yêu cầu thanh toán đã tới."
+              "exampleVn": "Hoá đơn yêu cầu thanh toán đã tới.",
+              "wordClass": "danh từ",
+              "level": "N1"
             },
             {
               "id": "ja-shape-sei2-gon-w2",
@@ -2139,7 +2475,9 @@
               "reading": "yousei",
               "meaningVn": "yêu cầu chính thức, đề nghị",
               "example": "政府に支援を要請しました。",
-              "exampleVn": "Chúng tôi đã chính thức đề nghị chính phủ hỗ trợ."
+              "exampleVn": "Chúng tôi đã chính thức đề nghị chính phủ hỗ trợ.",
+              "wordClass": "danh từ",
+              "level": "N1"
             }
           ]
         },
@@ -2155,7 +2493,9 @@
               "reading": "seiten",
               "meaningVn": "trời quang đãng",
               "example": "晴天に恵まれました。",
-              "exampleVn": "Chúng tôi may mắn gặp trời quang đãng."
+              "exampleVn": "Chúng tôi may mắn gặp trời quang đãng.",
+              "wordClass": "danh từ",
+              "level": "N1"
             },
             {
               "id": "ja-shape-sei2-nichi-w2",
@@ -2163,7 +2503,9 @@
               "reading": "kaisei",
               "meaningVn": "trời nắng đẹp hoàn toàn",
               "example": "今日は快晴です。",
-              "exampleVn": "Hôm nay trời nắng đẹp."
+              "exampleVn": "Hôm nay trời nắng đẹp.",
+              "wordClass": "danh từ",
+              "level": "N1"
             }
           ]
         },
@@ -2179,7 +2521,9 @@
               "reading": "seishin",
               "meaningVn": "tinh thần",
               "example": "精神を集中させます。",
-              "exampleVn": "Tôi tập trung tinh thần."
+              "exampleVn": "Tôi tập trung tinh thần.",
+              "wordClass": "danh từ",
+              "level": "N2"
             },
             {
               "id": "ja-shape-sei2-bei-w2",
@@ -2187,7 +2531,9 @@
               "reading": "seimitsu",
               "meaningVn": "tinh vi, chính xác cao",
               "example": "これは精密な機械です。",
-              "exampleVn": "Đây là một cỗ máy chính xác cao."
+              "exampleVn": "Đây là một cỗ máy chính xác cao.",
+              "wordClass": "tính từ",
+              "level": "N1"
             }
           ]
         },
@@ -2203,7 +2549,9 @@
               "reading": "seishi",
               "meaningVn": "đứng yên, tĩnh chỉ",
               "example": "画面が静止しました。",
-              "exampleVn": "Màn hình đã đứng yên."
+              "exampleVn": "Màn hình đã đứng yên.",
+              "wordClass": "danh từ",
+              "level": "N1"
             },
             {
               "id": "ja-shape-sei2-sou-w2",
@@ -2211,11 +2559,14 @@
               "reading": "joumyaku",
               "meaningVn": "tĩnh mạch",
               "example": "静脈に注射します。",
-              "exampleVn": "Tiêm vào tĩnh mạch."
+              "exampleVn": "Tiêm vào tĩnh mạch.",
+              "wordClass": "danh từ",
+              "level": "N1"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-07-26T10:02:49+07:00"
     },
     {
       "id": "ja-shape-kou",
@@ -2236,7 +2587,9 @@
               "reading": "gakkou",
               "meaningVn": "trường học",
               "example": "学校まで歩いて行きます。",
-              "exampleVn": "Tôi đi bộ đến trường."
+              "exampleVn": "Tôi đi bộ đến trường.",
+              "wordClass": "danh từ",
+              "level": "N5"
             },
             {
               "id": "ja-shape-kou-moku-w2",
@@ -2244,7 +2597,9 @@
               "reading": "kousei",
               "meaningVn": "hiệu đính, soát lỗi bản in",
               "example": "原稿を校正しています。",
-              "exampleVn": "Tôi đang soát lỗi bản thảo."
+              "exampleVn": "Tôi đang soát lỗi bản thảo.",
+              "wordClass": "danh từ",
+              "level": "N1"
             }
           ]
         },
@@ -2259,7 +2614,9 @@
               "reading": "hikaku",
               "meaningVn": "sự so sánh",
               "example": "二つの案を比較しましょう。",
-              "exampleVn": "Hãy so sánh hai phương án."
+              "exampleVn": "Hãy so sánh hai phương án.",
+              "wordClass": "danh từ",
+              "level": "N2"
             }
           ],
           "hanViet": "giảo"
@@ -2276,7 +2633,9 @@
               "reading": "kougai",
               "meaningVn": "ngoại ô",
               "example": "郊外に引っ越しました。",
-              "exampleVn": "Tôi đã chuyển ra ngoại ô."
+              "exampleVn": "Tôi đã chuyển ra ngoại ô.",
+              "wordClass": "danh từ",
+              "level": "N2"
             },
             {
               "id": "ja-shape-kou-fu-w2",
@@ -2284,7 +2643,9 @@
               "reading": "kinkou",
               "meaningVn": "vùng phụ cận",
               "example": "東京近郊に住んでいます。",
-              "exampleVn": "Tôi sống ở vùng phụ cận Tokyo."
+              "exampleVn": "Tôi sống ở vùng phụ cận Tokyo.",
+              "wordClass": "danh từ",
+              "level": "N1"
             }
           ]
         },
@@ -2300,7 +2661,9 @@
               "reading": "yuukou",
               "meaningVn": "có hiệu lực, hữu hiệu",
               "example": "この切符は三日間有効です。",
-              "exampleVn": "Vé này có hiệu lực trong ba ngày."
+              "exampleVn": "Vé này có hiệu lực trong ba ngày.",
+              "wordClass": "tính từ",
+              "level": "N2"
             },
             {
               "id": "ja-shape-kou-riki-w2",
@@ -2308,11 +2671,14 @@
               "reading": "kouritsu",
               "meaningVn": "hiệu suất",
               "example": "作業の効率を上げたい。",
-              "exampleVn": "Tôi muốn nâng cao hiệu suất công việc."
+              "exampleVn": "Tôi muốn nâng cao hiệu suất công việc.",
+              "wordClass": "danh từ",
+              "level": "N2"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-07-26T10:02:49+07:00"
     },
     {
       "id": "ja-shape-hou",
@@ -2333,7 +2699,9 @@
               "reading": "houwa",
               "meaningVn": "sự bão hoà",
               "example": "市場は飽和状態です。",
-              "exampleVn": "Thị trường đang ở trạng thái bão hoà."
+              "exampleVn": "Thị trường đang ở trạng thái bão hoà.",
+              "wordClass": "danh từ",
+              "level": "N1"
             },
             {
               "id": "ja-shape-hou-shoku-w2",
@@ -2341,7 +2709,9 @@
               "reading": "houshoku",
               "meaningVn": "sự ăn no đủ, thừa mứa",
               "example": "飽食の時代と言われます。",
-              "exampleVn": "Người ta gọi đây là thời đại thừa mứa thức ăn."
+              "exampleVn": "Người ta gọi đây là thời đại thừa mứa thức ăn.",
+              "wordClass": "danh từ",
+              "level": "N1"
             }
           ]
         },
@@ -2357,7 +2727,9 @@
               "reading": "houyou",
               "meaningVn": "sự ôm ấp",
               "example": "再会して抱擁しました。",
-              "exampleVn": "Gặp lại nhau họ đã ôm chầm lấy nhau."
+              "exampleVn": "Gặp lại nhau họ đã ôm chầm lấy nhau.",
+              "wordClass": "danh từ",
+              "level": "N1"
             },
             {
               "id": "ja-shape-hou-te-w2",
@@ -2365,7 +2737,9 @@
               "reading": "shinbou",
               "meaningVn": "sự nhẫn nại, chịu đựng",
               "example": "もう少し辛抱してください。",
-              "exampleVn": "Xin hãy nhẫn nại thêm một chút."
+              "exampleVn": "Xin hãy nhẫn nại thêm một chút.",
+              "wordClass": "danh từ",
+              "level": "N1"
             }
           ]
         },
@@ -2381,7 +2755,9 @@
               "reading": "houmatsu",
               "meaningVn": "bọt nước; sự phù du",
               "example": "泡沫のような夢でした。",
-              "exampleVn": "Đó là giấc mộng phù du như bọt nước."
+              "exampleVn": "Đó là giấc mộng phù du như bọt nước.",
+              "wordClass": "danh từ",
+              "level": "N1"
             },
             {
               "id": "ja-shape-hou-sui-w2",
@@ -2389,7 +2765,9 @@
               "reading": "kihou",
               "meaningVn": "bong bóng khí",
               "example": "ガラスに気泡が入っています。",
-              "exampleVn": "Trong tấm kính có bong bóng khí."
+              "exampleVn": "Trong tấm kính có bong bóng khí.",
+              "wordClass": "danh từ",
+              "level": "N1"
             }
           ]
         },
@@ -2405,7 +2783,9 @@
               "reading": "saibou",
               "meaningVn": "tế bào",
               "example": "細胞が分裂します。",
-              "exampleVn": "Tế bào phân chia."
+              "exampleVn": "Tế bào phân chia.",
+              "wordClass": "danh từ",
+              "level": "N1"
             },
             {
               "id": "ja-shape-hou-niku-w2",
@@ -2413,11 +2793,14 @@
               "reading": "douhou",
               "meaningVn": "đồng bào",
               "example": "海外の同胞を支援します。",
-              "exampleVn": "Hỗ trợ đồng bào ở nước ngoài."
+              "exampleVn": "Hỗ trợ đồng bào ở nước ngoài.",
+              "wordClass": "danh từ",
+              "level": "N1"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-07-26T10:02:49+07:00"
     },
     {
       "id": "ja-shape-juu",
@@ -2438,7 +2821,9 @@
               "reading": "juusho",
               "meaningVn": "địa chỉ",
               "example": "ここに住所を書いてください。",
-              "exampleVn": "Xin hãy ghi địa chỉ vào đây."
+              "exampleVn": "Xin hãy ghi địa chỉ vào đây.",
+              "wordClass": "danh từ",
+              "level": "N4"
             },
             {
               "id": "ja-shape-juu-jin-w2",
@@ -2446,7 +2831,9 @@
               "reading": "juutaku",
               "meaningVn": "nhà ở, nhà dân",
               "example": "住宅の価格が上がっています。",
-              "exampleVn": "Giá nhà ở đang tăng lên."
+              "exampleVn": "Giá nhà ở đang tăng lên.",
+              "wordClass": "danh từ",
+              "level": "N2"
             }
           ]
         },
@@ -2462,7 +2849,9 @@
               "reading": "chuumon",
               "meaningVn": "đặt hàng, gọi món",
               "example": "コーヒーを注文しました。",
-              "exampleVn": "Tôi đã gọi một ly cà phê."
+              "exampleVn": "Tôi đã gọi một ly cà phê.",
+              "wordClass": "danh từ",
+              "level": "N4"
             },
             {
               "id": "ja-shape-juu-sui-w2",
@@ -2470,7 +2859,9 @@
               "reading": "chuumoku",
               "meaningVn": "sự chú ý, quan tâm theo dõi",
               "example": "彼の発言が注目されています。",
-              "exampleVn": "Phát ngôn của anh ấy đang được chú ý."
+              "exampleVn": "Phát ngôn của anh ấy đang được chú ý.",
+              "wordClass": "danh từ",
+              "level": "N2"
             }
           ]
         },
@@ -2486,7 +2877,9 @@
               "reading": "denchuu",
               "meaningVn": "cột điện",
               "example": "電柱に看板が貼ってあります。",
-              "exampleVn": "Có tấm biển dán trên cột điện."
+              "exampleVn": "Có tấm biển dán trên cột điện.",
+              "wordClass": "danh từ",
+              "level": "N1"
             },
             {
               "id": "ja-shape-juu-moku-w2",
@@ -2494,7 +2887,9 @@
               "reading": "shichuu",
               "meaningVn": "cột chống, trụ đỡ",
               "example": "テントの支柱を立てます。",
-              "exampleVn": "Dựng cột chống của lều lên."
+              "exampleVn": "Dựng cột chống của lều lên.",
+              "wordClass": "danh từ",
+              "level": "N1"
             }
           ]
         },
@@ -2510,7 +2905,9 @@
               "reading": "chuusha",
               "meaningVn": "đỗ xe",
               "example": "ここは駐車できません。",
-              "exampleVn": "Ở đây không đỗ xe được."
+              "exampleVn": "Ở đây không đỗ xe được.",
+              "wordClass": "danh từ",
+              "level": "N3"
             },
             {
               "id": "ja-shape-juu-uma-w2",
@@ -2518,11 +2915,14 @@
               "reading": "chuuzai",
               "meaningVn": "thường trú, đóng tại",
               "example": "彼はハノイに駐在しています。",
-              "exampleVn": "Anh ấy thường trú tại Hà Nội."
+              "exampleVn": "Anh ấy thường trú tại Hà Nội.",
+              "wordClass": "danh từ",
+              "level": "N1"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-07-26T10:02:49+07:00"
     },
     {
       "id": "ja-shape-kou2",
@@ -2543,7 +2943,9 @@
               "reading": "Choukou",
               "meaningVn": "Trường Giang (sông Dương Tử)",
               "example": "長江は中国で一番長い川です。",
-              "exampleVn": "Trường Giang là con sông dài nhất Trung Quốc."
+              "exampleVn": "Trường Giang là con sông dài nhất Trung Quốc.",
+              "wordClass": "danh từ riêng",
+              "level": "N1"
             },
             {
               "id": "ja-shape-kou2-sui-w2",
@@ -2551,7 +2953,9 @@
               "reading": "irie",
               "meaningVn": "vịnh nhỏ, vũng",
               "example": "静かな入江に船を停めました。",
-              "exampleVn": "Chúng tôi neo thuyền ở một vũng biển yên tĩnh."
+              "exampleVn": "Chúng tôi neo thuyền ở một vũng biển yên tĩnh.",
+              "wordClass": "danh từ",
+              "level": "N1"
             }
           ]
         },
@@ -2567,7 +2971,9 @@
               "reading": "koucha",
               "meaningVn": "hồng trà, trà đen",
               "example": "紅茶にミルクを入れます。",
-              "exampleVn": "Tôi cho sữa vào hồng trà."
+              "exampleVn": "Tôi cho sữa vào hồng trà.",
+              "wordClass": "danh từ",
+              "level": "N5"
             },
             {
               "id": "ja-shape-kou2-ito-w2",
@@ -2575,7 +2981,9 @@
               "reading": "kuchibeni",
               "meaningVn": "son môi",
               "example": "赤い口紅をつけました。",
-              "exampleVn": "Cô ấy tô son đỏ."
+              "exampleVn": "Cô ấy tô son đỏ.",
+              "wordClass": "danh từ",
+              "level": "N2"
             }
           ]
         },
@@ -2591,7 +2999,9 @@
               "reading": "kuuki",
               "meaningVn": "không khí",
               "example": "山の空気はきれいです。",
-              "exampleVn": "Không khí trên núi rất trong lành."
+              "exampleVn": "Không khí trên núi rất trong lành.",
+              "wordClass": "danh từ",
+              "level": "N5"
             },
             {
               "id": "ja-shape-kou2-ana-w2",
@@ -2599,7 +3009,9 @@
               "reading": "kuukou",
               "meaningVn": "sân bay",
               "example": "空港まで迎えに行きます。",
-              "exampleVn": "Tôi sẽ ra sân bay đón."
+              "exampleVn": "Tôi sẽ ra sân bay đón.",
+              "wordClass": "danh từ",
+              "level": "N4"
             }
           ]
         },
@@ -2615,7 +3027,9 @@
               "reading": "kouseki",
               "meaningVn": "công trạng, thành tích",
               "example": "彼の功績は大きいです。",
-              "exampleVn": "Công trạng của ông ấy rất lớn."
+              "exampleVn": "Công trạng của ông ấy rất lớn.",
+              "wordClass": "danh từ",
+              "level": "N1"
             },
             {
               "id": "ja-shape-kou2-chikara-w2",
@@ -2623,11 +3037,14 @@
               "reading": "seikou",
               "meaningVn": "sự thành công",
               "example": "実験は成功しました。",
-              "exampleVn": "Thí nghiệm đã thành công."
+              "exampleVn": "Thí nghiệm đã thành công.",
+              "wordClass": "danh từ",
+              "level": "N3"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-07-26T10:02:49+07:00"
     },
     {
       "id": "ja-shape-ko",
@@ -2648,7 +3065,9 @@
               "reading": "koshi",
               "meaningVn": "chết khô (cây cối)",
               "example": "日照りで木が枯死しました。",
-              "exampleVn": "Cây đã chết khô vì nắng hạn."
+              "exampleVn": "Cây đã chết khô vì nắng hạn.",
+              "wordClass": "danh từ",
+              "level": "N1"
             },
             {
               "id": "ja-shape-ko-moku-w2",
@@ -2656,7 +3075,9 @@
               "reading": "kokatsu",
               "meaningVn": "cạn kiệt",
               "example": "資源が枯渇しつつあります。",
-              "exampleVn": "Tài nguyên đang dần cạn kiệt."
+              "exampleVn": "Tài nguyên đang dần cạn kiệt.",
+              "wordClass": "danh từ",
+              "level": "N1"
             }
           ]
         },
@@ -2672,7 +3093,9 @@
               "reading": "koshou",
               "meaningVn": "hỏng hóc, trục trặc",
               "example": "エアコンが故障しました。",
-              "exampleVn": "Máy điều hoà bị hỏng rồi."
+              "exampleVn": "Máy điều hoà bị hỏng rồi.",
+              "wordClass": "danh từ",
+              "level": "N3"
             },
             {
               "id": "ja-shape-ko-boku-w2",
@@ -2680,7 +3103,9 @@
               "reading": "kokyou",
               "meaningVn": "quê hương",
               "example": "久しぶりに故郷へ帰ります。",
-              "exampleVn": "Lâu lắm rồi tôi mới về quê."
+              "exampleVn": "Lâu lắm rồi tôi mới về quê.",
+              "wordClass": "danh từ",
+              "level": "N2"
             }
           ]
         },
@@ -2696,7 +3121,9 @@
               "reading": "kurou",
               "meaningVn": "sự vất vả, cực nhọc",
               "example": "苦労して育てた子どもです。",
-              "exampleVn": "Đó là đứa con tôi vất vả nuôi lớn."
+              "exampleVn": "Đó là đứa con tôi vất vả nuôi lớn.",
+              "wordClass": "danh từ",
+              "level": "N3"
             },
             {
               "id": "ja-shape-ko-sou-w2",
@@ -2704,11 +3131,14 @@
               "reading": "kutsuu",
               "meaningVn": "nỗi đau đớn",
               "example": "苦痛に耐えました。",
-              "exampleVn": "Tôi đã chịu đựng nỗi đau."
+              "exampleVn": "Tôi đã chịu đựng nỗi đau.",
+              "wordClass": "danh từ",
+              "level": "N2"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-07-26T10:02:49+07:00"
     },
     {
       "id": "ja-shape-ha",
@@ -2729,7 +3159,9 @@
               "reading": "hachou",
               "meaningVn": "bước sóng",
               "example": "光の波長を測ります。",
-              "exampleVn": "Đo bước sóng của ánh sáng."
+              "exampleVn": "Đo bước sóng của ánh sáng.",
+              "wordClass": "danh từ",
+              "level": "N1"
             },
             {
               "id": "ja-shape-ha-sui-w2",
@@ -2737,7 +3169,9 @@
               "reading": "denpa",
               "meaningVn": "sóng điện từ, sóng điện thoại",
               "example": "ここは電波が弱いです。",
-              "exampleVn": "Ở đây sóng yếu."
+              "exampleVn": "Ở đây sóng yếu.",
+              "wordClass": "danh từ",
+              "level": "N2"
             }
           ]
         },
@@ -2753,7 +3187,9 @@
               "reading": "hakai",
               "meaningVn": "sự phá hoại, phá huỷ",
               "example": "地震で建物が破壊されました。",
-              "exampleVn": "Toà nhà bị phá huỷ vì động đất."
+              "exampleVn": "Toà nhà bị phá huỷ vì động đất.",
+              "wordClass": "danh từ",
+              "level": "N2"
             },
             {
               "id": "ja-shape-ha-seki-w2",
@@ -2761,7 +3197,9 @@
               "reading": "toppa",
               "meaningVn": "sự đột phá, vượt qua mốc",
               "example": "目標を突破しました。",
-              "exampleVn": "Chúng tôi đã vượt qua mục tiêu."
+              "exampleVn": "Chúng tôi đã vượt qua mục tiêu.",
+              "wordClass": "danh từ",
+              "level": "N1"
             }
           ]
         },
@@ -2777,7 +3215,9 @@
               "reading": "hirou",
               "meaningVn": "sự mệt mỏi",
               "example": "疲労がたまっています。",
-              "exampleVn": "Sự mệt mỏi đang tích tụ lại."
+              "exampleVn": "Sự mệt mỏi đang tích tụ lại.",
+              "wordClass": "danh từ",
+              "level": "N2"
             },
             {
               "id": "ja-shape-ha-yamai-w2",
@@ -2785,11 +3225,14 @@
               "reading": "hihei",
               "meaningVn": "kiệt quệ (kinh tế, tinh thần)",
               "example": "長い戦争で国が疲弊しました。",
-              "exampleVn": "Đất nước kiệt quệ vì chiến tranh kéo dài."
+              "exampleVn": "Đất nước kiệt quệ vì chiến tranh kéo dài.",
+              "wordClass": "danh từ",
+              "level": "N1"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-07-26T10:02:49+07:00"
     },
     {
       "id": "ja-shape-ri",
@@ -2810,7 +3253,9 @@
               "reading": "butsuri",
               "meaningVn": "vật lý",
               "example": "物理の授業が好きです。",
-              "exampleVn": "Tôi thích giờ học vật lý."
+              "exampleVn": "Tôi thích giờ học vật lý.",
+              "wordClass": "danh từ",
+              "level": "N3"
             },
             {
               "id": "ja-shape-ri-gyoku-w2",
@@ -2818,7 +3263,9 @@
               "reading": "ryouri",
               "meaningVn": "món ăn; việc nấu ăn",
               "example": "母の料理が一番おいしい。",
-              "exampleVn": "Món ăn của mẹ là ngon nhất."
+              "exampleVn": "Món ăn của mẹ là ngon nhất.",
+              "wordClass": "danh từ",
+              "level": "N5"
             }
           ]
         },
@@ -2834,7 +3281,9 @@
               "reading": "koi",
               "meaningVn": "cá chép",
               "example": "池に鯉が泳いでいます。",
-              "exampleVn": "Trong ao có cá chép đang bơi."
+              "exampleVn": "Trong ao có cá chép đang bơi.",
+              "wordClass": "danh từ",
+              "level": "N1"
             },
             {
               "id": "ja-shape-ri-uo-w2",
@@ -2842,7 +3291,9 @@
               "reading": "koinobori",
               "meaningVn": "cờ cá chép (treo dịp Tết thiếu nhi)",
               "example": "五月に鯉のぼりを立てます。",
-              "exampleVn": "Tháng Năm người ta dựng cờ cá chép."
+              "exampleVn": "Tháng Năm người ta dựng cờ cá chép.",
+              "wordClass": "danh từ",
+              "level": "N1"
             }
           ]
         },
@@ -2858,7 +3309,9 @@
               "reading": "maibotsu",
               "meaningVn": "sự chôn vùi, bị lu mờ",
               "example": "才能が埋没してしまった。",
-              "exampleVn": "Tài năng đã bị chôn vùi."
+              "exampleVn": "Tài năng đã bị chôn vùi.",
+              "wordClass": "danh từ",
+              "level": "N1"
             },
             {
               "id": "ja-shape-ri-tsuchi-w2",
@@ -2866,11 +3319,14 @@
               "reading": "maisou",
               "meaningVn": "sự mai táng",
               "example": "故人を埋葬しました。",
-              "exampleVn": "Họ đã mai táng người quá cố."
+              "exampleVn": "Họ đã mai táng người quá cố.",
+              "wordClass": "danh từ",
+              "level": "N1"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-07-26T10:02:49+07:00"
     },
     {
       "id": "ja-shape-sha",
@@ -2891,7 +3347,9 @@
               "reading": "inoshishi",
               "meaningVn": "lợn rừng",
               "example": "山で猪を見ました。",
-              "exampleVn": "Tôi đã thấy lợn rừng trên núi."
+              "exampleVn": "Tôi đã thấy lợn rừng trên núi.",
+              "wordClass": "danh từ",
+              "level": "N1"
             },
             {
               "id": "ja-shape-sha-ken-w2",
@@ -2899,7 +3357,9 @@
               "reading": "chototsumoushin",
               "meaningVn": "lao đầu tới không suy nghĩ (thành ngữ)",
               "example": "彼は猪突猛進型だ。",
-              "exampleVn": "Anh ta thuộc kiểu lao đầu tới không tính toán."
+              "exampleVn": "Anh ta thuộc kiểu lao đầu tới không tính toán.",
+              "wordClass": "cụm từ",
+              "level": "N1"
             }
           ]
         },
@@ -2915,7 +3375,9 @@
               "reading": "shokoku",
               "meaningVn": "các nước",
               "example": "アジア諸国と協力します。",
-              "exampleVn": "Hợp tác với các nước châu Á."
+              "exampleVn": "Hợp tác với các nước châu Á.",
+              "wordClass": "danh từ",
+              "level": "N1"
             },
             {
               "id": "ja-shape-sha-gon-w2",
@@ -2923,7 +3385,9 @@
               "reading": "shokun",
               "meaningVn": "các bạn (cách gọi trang trọng với cấp dưới)",
               "example": "諸君の努力に感謝する。",
-              "exampleVn": "Tôi cảm ơn nỗ lực của các bạn."
+              "exampleVn": "Tôi cảm ơn nỗ lực của các bạn.",
+              "wordClass": "danh từ",
+              "level": "N1"
             }
           ]
         },
@@ -2939,7 +3403,9 @@
               "reading": "toshi",
               "meaningVn": "đô thị, thành phố",
               "example": "都市の人口が増えています。",
-              "exampleVn": "Dân số đô thị đang tăng."
+              "exampleVn": "Dân số đô thị đang tăng.",
+              "wordClass": "danh từ",
+              "level": "N3"
             },
             {
               "id": "ja-shape-sha-fu-w2",
@@ -2947,7 +3413,9 @@
               "reading": "shuto",
               "meaningVn": "thủ đô",
               "example": "日本の首都は東京です。",
-              "exampleVn": "Thủ đô của Nhật Bản là Tokyo."
+              "exampleVn": "Thủ đô của Nhật Bản là Tokyo.",
+              "wordClass": "danh từ",
+              "level": "N3"
             }
           ]
         },
@@ -2962,7 +3430,9 @@
               "reading": "nimono",
               "meaningVn": "món kho, món hầm",
               "example": "母は煮物が得意です。",
-              "exampleVn": "Mẹ tôi nấu món kho rất giỏi."
+              "exampleVn": "Mẹ tôi nấu món kho rất giỏi.",
+              "wordClass": "danh từ",
+              "level": "N2"
             },
             {
               "id": "ja-shape-sha-hi-w2",
@@ -2970,12 +3440,15 @@
               "reading": "shafutsu",
               "meaningVn": "sự đun sôi (để khử trùng)",
               "example": "水を煮沸してください。",
-              "exampleVn": "Xin hãy đun sôi nước."
+              "exampleVn": "Xin hãy đun sôi nước.",
+              "wordClass": "danh từ",
+              "level": "N1"
             }
           ],
           "hanViet": "chử"
         }
-      ]
+      ],
+      "addedAt": "2026-07-26T10:02:49+07:00"
     },
     {
       "id": "ja-shape-tai",
@@ -2996,7 +3469,9 @@
               "reading": "taiji",
               "meaningVn": "thai nhi",
               "example": "胎児の様子を検査します。",
-              "exampleVn": "Kiểm tra tình trạng thai nhi."
+              "exampleVn": "Kiểm tra tình trạng thai nhi.",
+              "wordClass": "danh từ",
+              "level": "N1"
             },
             {
               "id": "ja-shape-tai-niku-w2",
@@ -3004,7 +3479,9 @@
               "reading": "botai",
               "meaningVn": "bào thai, cái nôi sinh ra",
               "example": "母胎から栄養をもらいます。",
-              "exampleVn": "Nhận dinh dưỡng từ bào thai của mẹ."
+              "exampleVn": "Nhận dinh dưỡng từ bào thai của mẹ.",
+              "wordClass": "danh từ",
+              "level": "N1"
             }
           ]
         },
@@ -3020,7 +3497,9 @@
               "reading": "taiman",
               "meaningVn": "sự tắc trách, lơ là",
               "example": "職務怠慢で処分された。",
-              "exampleVn": "Anh ta bị kỷ luật vì tắc trách trong công việc."
+              "exampleVn": "Anh ta bị kỷ luật vì tắc trách trong công việc.",
+              "wordClass": "danh từ",
+              "level": "N1"
             },
             {
               "id": "ja-shape-tai-shin-w2",
@@ -3028,7 +3507,9 @@
               "reading": "taida",
               "meaningVn": "sự lười biếng",
               "example": "怠惰な生活を改めます。",
-              "exampleVn": "Tôi sẽ sửa lại lối sống lười biếng."
+              "exampleVn": "Tôi sẽ sửa lại lối sống lười biếng.",
+              "wordClass": "danh từ",
+              "level": "N1"
             }
           ]
         },
@@ -3044,7 +3525,9 @@
               "reading": "seiji",
               "meaningVn": "chính trị",
               "example": "政治に関心があります。",
-              "exampleVn": "Tôi quan tâm đến chính trị."
+              "exampleVn": "Tôi quan tâm đến chính trị.",
+              "wordClass": "danh từ",
+              "level": "N3"
             },
             {
               "id": "ja-shape-tai-sui-w2",
@@ -3052,11 +3535,14 @@
               "reading": "chiryou",
               "meaningVn": "sự điều trị",
               "example": "治療を受けています。",
-              "exampleVn": "Tôi đang được điều trị."
+              "exampleVn": "Tôi đang được điều trị.",
+              "wordClass": "danh từ",
+              "level": "N2"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-07-26T10:02:49+07:00"
     },
     {
       "id": "ja-shape-ten",
@@ -3077,7 +3563,9 @@
               "reading": "choufu",
               "meaningVn": "sự dán vào, đính kèm (văn viết)",
               "example": "写真を貼付してください。",
-              "exampleVn": "Xin hãy dán ảnh vào."
+              "exampleVn": "Xin hãy dán ảnh vào.",
+              "wordClass": "danh từ",
+              "level": "N1"
             },
             {
               "id": "ja-shape-ten-kai-w2",
@@ -3085,7 +3573,9 @@
               "reading": "harigami",
               "meaningVn": "tờ giấy dán thông báo",
               "example": "壁に貼り紙があります。",
-              "exampleVn": "Trên tường có tờ giấy dán thông báo."
+              "exampleVn": "Trên tường có tờ giấy dán thông báo.",
+              "wordClass": "danh từ",
+              "level": "N1"
             }
           ]
         },
@@ -3101,7 +3591,9 @@
               "reading": "ketten",
               "meaningVn": "khuyết điểm",
               "example": "誰にでも欠点があります。",
-              "exampleVn": "Ai cũng có khuyết điểm."
+              "exampleVn": "Ai cũng có khuyết điểm.",
+              "wordClass": "danh từ",
+              "level": "N2"
             },
             {
               "id": "ja-shape-ten-hi-w2",
@@ -3109,7 +3601,9 @@
               "reading": "chiten",
               "meaningVn": "địa điểm, điểm trên bản đồ",
               "example": "集合地点を決めましょう。",
-              "exampleVn": "Hãy quyết định điểm tập trung."
+              "exampleVn": "Hãy quyết định điểm tập trung.",
+              "wordClass": "danh từ",
+              "level": "N2"
             }
           ]
         },
@@ -3125,7 +3619,9 @@
               "reading": "shouten",
               "meaningVn": "cửa hiệu, cửa hàng",
               "example": "駅前に商店が並んでいます。",
-              "exampleVn": "Trước ga có nhiều cửa hiệu san sát."
+              "exampleVn": "Trước ga có nhiều cửa hiệu san sát.",
+              "wordClass": "danh từ",
+              "level": "N3"
             },
             {
               "id": "ja-shape-ten-gen-w2",
@@ -3133,11 +3629,14 @@
               "reading": "shoten",
               "meaningVn": "hiệu sách",
               "example": "書店で辞書を買いました。",
-              "exampleVn": "Tôi đã mua từ điển ở hiệu sách."
+              "exampleVn": "Tôi đã mua từ điển ở hiệu sách.",
+              "wordClass": "danh từ",
+              "level": "N3"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-07-26T10:02:49+07:00"
     },
     {
       "id": "ja-shape-sui",
@@ -3158,7 +3657,9 @@
               "reading": "konnan",
               "meaningVn": "sự khó khăn",
               "example": "困難を乗り越えました。",
-              "exampleVn": "Tôi đã vượt qua khó khăn."
+              "exampleVn": "Tôi đã vượt qua khó khăn.",
+              "wordClass": "danh từ",
+              "level": "N2"
             },
             {
               "id": "ja-shape-sui-sui1-w2",
@@ -3166,7 +3667,9 @@
               "reading": "hinan",
               "meaningVn": "sự chỉ trích, lên án",
               "example": "彼は非難を浴びました。",
-              "exampleVn": "Anh ấy đã hứng chịu chỉ trích."
+              "exampleVn": "Anh ấy đã hứng chịu chỉ trích.",
+              "wordClass": "danh từ",
+              "level": "N1"
             }
           ]
         },
@@ -3182,7 +3685,9 @@
               "reading": "junbi",
               "meaningVn": "sự chuẩn bị",
               "example": "旅行の準備をしています。",
-              "exampleVn": "Tôi đang chuẩn bị cho chuyến đi."
+              "exampleVn": "Tôi đang chuẩn bị cho chuyến đi.",
+              "wordClass": "danh từ",
+              "level": "N4"
             },
             {
               "id": "ja-shape-sui-hyou-w2",
@@ -3190,7 +3695,9 @@
               "reading": "kijun",
               "meaningVn": "tiêu chuẩn, chuẩn mực",
               "example": "安全基準を満たしています。",
-              "exampleVn": "Nó đáp ứng tiêu chuẩn an toàn."
+              "exampleVn": "Nó đáp ứng tiêu chuẩn an toàn.",
+              "wordClass": "danh từ",
+              "level": "N2"
             }
           ]
         },
@@ -3206,7 +3713,9 @@
               "reading": "dare",
               "meaningVn": "ai (đại từ nghi vấn) — thực tế thường viết bằng kana だれ",
               "example": "これは誰の本ですか。",
-              "exampleVn": "Đây là sách của ai?"
+              "exampleVn": "Đây là sách của ai?",
+              "wordClass": "đại từ",
+              "level": "N5"
             }
           ]
         },
@@ -3222,7 +3731,9 @@
               "reading": "suisen",
               "meaningVn": "sự tiến cử, giới thiệu",
               "example": "先生が推薦してくれました。",
-              "exampleVn": "Thầy giáo đã tiến cử tôi."
+              "exampleVn": "Thầy giáo đã tiến cử tôi.",
+              "wordClass": "danh từ",
+              "level": "N1"
             },
             {
               "id": "ja-shape-sui-te-w2",
@@ -3230,11 +3741,14 @@
               "reading": "suisoku",
               "meaningVn": "sự suy đoán",
               "example": "それは推測にすぎません。",
-              "exampleVn": "Đó chỉ là suy đoán mà thôi."
+              "exampleVn": "Đó chỉ là suy đoán mà thôi.",
+              "wordClass": "danh từ",
+              "level": "N1"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-07-26T10:02:49+07:00"
     },
     {
       "id": "ja-shape-gou",
@@ -3255,7 +3769,9 @@
               "reading": "gouken",
               "meaningVn": "cương kiện, cứng cỏi khoẻ mạnh",
               "example": "質実剛健な校風です。",
-              "exampleVn": "Đó là校 phong giản dị mà cứng cỏi."
+              "exampleVn": "Đó là校 phong giản dị mà cứng cỏi.",
+              "wordClass": "danh từ",
+              "level": "N1"
             },
             {
               "id": "ja-shape-gou-tou-w2",
@@ -3263,7 +3779,9 @@
               "reading": "kongouseki",
               "meaningVn": "kim cương (cách gọi cổ)",
               "example": "金剛石は最も硬い鉱物です。",
-              "exampleVn": "Kim cương là khoáng vật cứng nhất."
+              "exampleVn": "Kim cương là khoáng vật cứng nhất.",
+              "wordClass": "danh từ",
+              "level": "N1"
             }
           ]
         },
@@ -3279,7 +3797,9 @@
               "reading": "koutetsu",
               "meaningVn": "thép",
               "example": "鋼鉄の橋を渡ります。",
-              "exampleVn": "Đi qua cây cầu thép."
+              "exampleVn": "Đi qua cây cầu thép.",
+              "wordClass": "danh từ",
+              "level": "N1"
             },
             {
               "id": "ja-shape-gou-kin-w2",
@@ -3287,7 +3807,9 @@
               "reading": "seikou",
               "meaningVn": "việc luyện thép",
               "example": "製鋼所で働いています。",
-              "exampleVn": "Tôi làm việc ở nhà máy luyện thép."
+              "exampleVn": "Tôi làm việc ở nhà máy luyện thép.",
+              "wordClass": "danh từ",
+              "level": "N1"
             }
           ]
         },
@@ -3303,7 +3825,9 @@
               "reading": "kouryou",
               "meaningVn": "cương lĩnh",
               "example": "党の綱領を発表しました。",
-              "exampleVn": "Họ đã công bố cương lĩnh của đảng."
+              "exampleVn": "Họ đã công bố cương lĩnh của đảng.",
+              "wordClass": "danh từ",
+              "level": "N1"
             },
             {
               "id": "ja-shape-gou-ito-w2",
@@ -3311,11 +3835,14 @@
               "reading": "yokozuna",
               "meaningVn": "yokozuna (đô vật sumo hạng cao nhất)",
               "example": "横綱が優勝しました。",
-              "exampleVn": "Yokozuna đã giành chức vô địch."
+              "exampleVn": "Yokozuna đã giành chức vô địch.",
+              "wordClass": "danh từ",
+              "level": "N1"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-07-26T10:02:49+07:00"
     },
     {
       "id": "ja-shape-kei",
@@ -3336,7 +3863,9 @@
               "reading": "fuukei",
               "meaningVn": "phong cảnh",
               "example": "窓からの風景が美しい。",
-              "exampleVn": "Phong cảnh nhìn từ cửa sổ rất đẹp."
+              "exampleVn": "Phong cảnh nhìn từ cửa sổ rất đẹp.",
+              "wordClass": "danh từ",
+              "level": "N2"
             },
             {
               "id": "ja-shape-kei-nichi-w2",
@@ -3344,7 +3873,9 @@
               "reading": "keiki",
               "meaningVn": "tình hình kinh tế",
               "example": "景気が回復してきました。",
-              "exampleVn": "Tình hình kinh tế đang hồi phục."
+              "exampleVn": "Tình hình kinh tế đang hồi phục.",
+              "wordClass": "danh từ",
+              "level": "N2"
             }
           ]
         },
@@ -3360,7 +3891,9 @@
               "reading": "kujira",
               "meaningVn": "cá voi",
               "example": "鯨は哺乳類です。",
-              "exampleVn": "Cá voi là động vật có vú."
+              "exampleVn": "Cá voi là động vật có vú.",
+              "wordClass": "danh từ",
+              "level": "N1"
             },
             {
               "id": "ja-shape-kei-uo-w2",
@@ -3368,7 +3901,9 @@
               "reading": "hogei",
               "meaningVn": "việc săn bắt cá voi",
               "example": "捕鯨は国際問題になっています。",
-              "exampleVn": "Săn cá voi đã thành vấn đề quốc tế."
+              "exampleVn": "Săn cá voi đã thành vấn đề quốc tế.",
+              "wordClass": "danh từ",
+              "level": "N1"
             }
           ]
         },
@@ -3384,7 +3919,9 @@
               "reading": "suzushii",
               "meaningVn": "mát mẻ",
               "example": "秋の風が涼しいです。",
-              "exampleVn": "Gió mùa thu thật mát mẻ."
+              "exampleVn": "Gió mùa thu thật mát mẻ.",
+              "wordClass": "tính từ",
+              "level": "N5"
             },
             {
               "id": "ja-shape-kei-hyou-w2",
@@ -3392,11 +3929,14 @@
               "reading": "nouryou",
               "meaningVn": "việc hóng mát (mùa hè)",
               "example": "納涼祭りに行きました。",
-              "exampleVn": "Tôi đã đi lễ hội hóng mát mùa hè."
+              "exampleVn": "Tôi đã đi lễ hội hóng mát mùa hè.",
+              "wordClass": "danh từ",
+              "level": "N1"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-07-26T10:02:49+07:00"
     },
     {
       "id": "ja-shape-chuu",
@@ -3417,7 +3957,9 @@
               "reading": "chuujitsu",
               "meaningVn": "trung thành, trung thực với bản gốc",
               "example": "原作に忠実な映画です。",
-              "exampleVn": "Đây là bộ phim trung thành với nguyên tác."
+              "exampleVn": "Đây là bộ phim trung thành với nguyên tác.",
+              "wordClass": "tính từ",
+              "level": "N1"
             },
             {
               "id": "ja-shape-chuu-shin-w2",
@@ -3425,7 +3967,9 @@
               "reading": "chuukoku",
               "meaningVn": "lời khuyên răn",
               "example": "友人の忠告を聞きました。",
-              "exampleVn": "Tôi đã nghe lời khuyên của bạn."
+              "exampleVn": "Tôi đã nghe lời khuyên của bạn.",
+              "wordClass": "danh từ",
+              "level": "N1"
             }
           ]
         },
@@ -3441,7 +3985,9 @@
               "reading": "nakama",
               "meaningVn": "bạn bè cùng nhóm, đồng đội",
               "example": "仲間と一緒に働きます。",
-              "exampleVn": "Tôi làm việc cùng các đồng đội."
+              "exampleVn": "Tôi làm việc cùng các đồng đội.",
+              "wordClass": "danh từ",
+              "level": "N3"
             },
             {
               "id": "ja-shape-chuu-jin-w2",
@@ -3449,7 +3995,9 @@
               "reading": "chuukai",
               "meaningVn": "sự trung gian, môi giới",
               "example": "不動産を仲介します。",
-              "exampleVn": "Môi giới bất động sản."
+              "exampleVn": "Môi giới bất động sản.",
+              "wordClass": "danh từ",
+              "level": "N1"
             }
           ]
         },
@@ -3464,7 +4012,9 @@
               "reading": "Okinawa",
               "meaningVn": "Okinawa (địa danh)",
               "example": "沖縄の海はきれいです。",
-              "exampleVn": "Biển Okinawa rất đẹp."
+              "exampleVn": "Biển Okinawa rất đẹp.",
+              "wordClass": "danh từ riêng",
+              "level": "N3"
             },
             {
               "id": "ja-shape-chuu-sui-w2",
@@ -3472,12 +4022,15 @@
               "reading": "okiai",
               "meaningVn": "ngoài khơi",
               "example": "沖合で漁をしています。",
-              "exampleVn": "Họ đang đánh cá ngoài khơi."
+              "exampleVn": "Họ đang đánh cá ngoài khơi.",
+              "wordClass": "danh từ",
+              "level": "N1"
             }
           ],
           "hanViet": "trùng"
         }
-      ]
+      ],
+      "addedAt": "2026-07-26T10:02:49+07:00"
     },
     {
       "id": "ja-shape-hou2",
@@ -3498,7 +4051,9 @@
               "reading": "raihou",
               "meaningVn": "sự đến thăm",
               "example": "来訪をお待ちしております。",
-              "exampleVn": "Chúng tôi chờ đón quý khách đến thăm."
+              "exampleVn": "Chúng tôi chờ đón quý khách đến thăm.",
+              "wordClass": "danh từ",
+              "level": "N1"
             },
             {
               "id": "ja-shape-hou2-gon-w2",
@@ -3506,7 +4061,9 @@
               "reading": "hounichi",
               "meaningVn": "việc sang thăm Nhật Bản",
               "example": "訪日観光客が増えました。",
-              "exampleVn": "Khách du lịch sang Nhật đã tăng lên."
+              "exampleVn": "Khách du lịch sang Nhật đã tăng lên.",
+              "wordClass": "danh từ",
+              "level": "N1"
             }
           ]
         },
@@ -3522,7 +4079,9 @@
               "reading": "housou",
               "meaningVn": "sự phát sóng",
               "example": "生放送を見ています。",
-              "exampleVn": "Tôi đang xem chương trình phát sóng trực tiếp."
+              "exampleVn": "Tôi đang xem chương trình phát sóng trực tiếp.",
+              "wordClass": "danh từ",
+              "level": "N4"
             },
             {
               "id": "ja-shape-hou2-boku-w2",
@@ -3530,7 +4089,9 @@
               "reading": "kaihou",
               "meaningVn": "sự mở cửa, khai phóng",
               "example": "市場を開放します。",
-              "exampleVn": "Mở cửa thị trường."
+              "exampleVn": "Mở cửa thị trường.",
+              "wordClass": "danh từ",
+              "level": "N2"
             }
           ]
         },
@@ -3546,7 +4107,9 @@
               "reading": "houkou",
               "meaningVn": "hương thơm",
               "example": "芳香が部屋に広がります。",
-              "exampleVn": "Hương thơm lan khắp phòng."
+              "exampleVn": "Hương thơm lan khắp phòng.",
+              "wordClass": "danh từ",
+              "level": "N1"
             },
             {
               "id": "ja-shape-hou2-sou-w2",
@@ -3554,7 +4117,9 @@
               "reading": "houmei",
               "meaningVn": "quý danh (cách nói lịch sự)",
               "example": "芳名帳にご記入ください。",
-              "exampleVn": "Xin hãy ghi vào sổ lưu danh."
+              "exampleVn": "Xin hãy ghi vào sổ lưu danh.",
+              "wordClass": "danh từ",
+              "level": "N1"
             }
           ]
         },
@@ -3570,7 +4135,9 @@
               "reading": "reibou",
               "meaningVn": "máy lạnh, điều hoà làm mát",
               "example": "冷房を強くしてください。",
-              "exampleVn": "Xin hãy bật điều hoà mạnh lên."
+              "exampleVn": "Xin hãy bật điều hoà mạnh lên.",
+              "wordClass": "danh từ",
+              "level": "N3"
             },
             {
               "id": "ja-shape-hou2-to-w2",
@@ -3578,7 +4145,9 @@
               "reading": "danbou",
               "meaningVn": "máy sưởi",
               "example": "冬は暖房が必要です。",
-              "exampleVn": "Mùa đông cần máy sưởi."
+              "exampleVn": "Mùa đông cần máy sưởi.",
+              "wordClass": "danh từ",
+              "level": "N3"
             }
           ]
         },
@@ -3593,7 +4162,9 @@
               "reading": "bouseki",
               "meaningVn": "việc kéo sợi",
               "example": "紡績工場で働いていました。",
-              "exampleVn": "Tôi từng làm ở nhà máy kéo sợi."
+              "exampleVn": "Tôi từng làm ở nhà máy kéo sợi.",
+              "wordClass": "danh từ",
+              "level": "N1"
             },
             {
               "id": "ja-shape-hou2-ito-w2",
@@ -3601,7 +4172,9 @@
               "reading": "boushoku",
               "meaningVn": "việc dệt vải",
               "example": "紡織業が盛んな地域です。",
-              "exampleVn": "Đây là vùng nghề dệt phát triển."
+              "exampleVn": "Đây là vùng nghề dệt phát triển.",
+              "wordClass": "danh từ",
+              "level": "N1"
             }
           ],
           "hanViet": "phưởng"
@@ -3618,7 +4191,9 @@
               "reading": "boushi",
               "meaningVn": "sự ngăn chặn",
               "example": "事故を防止します。",
-              "exampleVn": "Ngăn chặn tai nạn."
+              "exampleVn": "Ngăn chặn tai nạn.",
+              "wordClass": "danh từ",
+              "level": "N2"
             },
             {
               "id": "ja-shape-hou2-fu-w2",
@@ -3626,11 +4201,14 @@
               "reading": "yobou",
               "meaningVn": "sự phòng ngừa",
               "example": "病気の予防が大切です。",
-              "exampleVn": "Phòng bệnh là điều quan trọng."
+              "exampleVn": "Phòng bệnh là điều quan trọng.",
+              "wordClass": "danh từ",
+              "level": "N2"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-07-26T10:02:49+07:00"
     },
     {
       "id": "ja-shape-ki2",
@@ -3651,7 +4229,9 @@
               "reading": "jiki",
               "meaningVn": "thời kỳ, thời điểm",
               "example": "桜が咲く時期になりました。",
-              "exampleVn": "Đã đến thời điểm hoa anh đào nở."
+              "exampleVn": "Đã đến thời điểm hoa anh đào nở.",
+              "wordClass": "danh từ",
+              "level": "N2"
             },
             {
               "id": "ja-shape-ki2-tsuki-w2",
@@ -3659,7 +4239,9 @@
               "reading": "kikan",
               "meaningVn": "khoảng thời gian, kỳ hạn",
               "example": "申込期間は今週までです。",
-              "exampleVn": "Thời hạn đăng ký là đến hết tuần này."
+              "exampleVn": "Thời hạn đăng ký là đến hết tuần này.",
+              "wordClass": "danh từ",
+              "level": "N2"
             }
           ]
         },
@@ -3675,7 +4257,9 @@
               "reading": "sagi",
               "meaningVn": "sự lừa đảo",
               "example": "詐欺に気をつけてください。",
-              "exampleVn": "Hãy cẩn thận với lừa đảo."
+              "exampleVn": "Hãy cẩn thận với lừa đảo.",
+              "wordClass": "danh từ",
+              "level": "N1"
             }
           ]
         },
@@ -3691,7 +4275,9 @@
               "reading": "shougi",
               "meaningVn": "cờ tướng Nhật Bản",
               "example": "祖父と将棋を指します。",
-              "exampleVn": "Tôi chơi cờ shogi với ông."
+              "exampleVn": "Tôi chơi cờ shogi với ông.",
+              "wordClass": "danh từ",
+              "level": "N2"
             },
             {
               "id": "ja-shape-ki2-moku-w2",
@@ -3699,7 +4285,9 @@
               "reading": "kishi",
               "meaningVn": "kỳ thủ chuyên nghiệp",
               "example": "彼は若いプロ棋士です。",
-              "exampleVn": "Anh ấy là kỳ thủ chuyên nghiệp trẻ tuổi."
+              "exampleVn": "Anh ấy là kỳ thủ chuyên nghiệp trẻ tuổi.",
+              "wordClass": "danh từ",
+              "level": "N1"
             }
           ]
         },
@@ -3715,7 +4303,9 @@
               "reading": "kokki",
               "meaningVn": "quốc kỳ",
               "example": "国旗を掲げます。",
-              "exampleVn": "Treo quốc kỳ lên."
+              "exampleVn": "Treo quốc kỳ lên.",
+              "wordClass": "danh từ",
+              "level": "N2"
             },
             {
               "id": "ja-shape-ki2-hou-w2",
@@ -3723,11 +4313,14 @@
               "reading": "kishu",
               "meaningVn": "người cầm cờ, người dẫn đầu",
               "example": "彼は改革の旗手です。",
-              "exampleVn": "Anh ấy là người dẫn đầu công cuộc cải cách."
+              "exampleVn": "Anh ấy là người dẫn đầu công cuộc cải cách.",
+              "wordClass": "danh từ",
+              "level": "N1"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-07-26T10:02:49+07:00"
     },
     {
       "id": "ja-shape-rei",
@@ -3748,7 +4341,9 @@
               "reading": "reisei",
               "meaningVn": "bình tĩnh",
               "example": "冷静に判断してください。",
-              "exampleVn": "Hãy phán đoán một cách bình tĩnh."
+              "exampleVn": "Hãy phán đoán một cách bình tĩnh.",
+              "wordClass": "tính từ",
+              "level": "N2"
             },
             {
               "id": "ja-shape-rei-hyou-w2",
@@ -3756,7 +4351,9 @@
               "reading": "reitou",
               "meaningVn": "sự đông lạnh",
               "example": "肉を冷凍しました。",
-              "exampleVn": "Tôi đã cấp đông thịt."
+              "exampleVn": "Tôi đã cấp đông thịt.",
+              "wordClass": "danh từ",
+              "level": "N2"
             }
           ]
         },
@@ -3772,7 +4369,9 @@
               "reading": "suzu",
               "meaningVn": "cái chuông nhỏ (lục lạc)",
               "example": "猫の首に鈴をつけます。",
-              "exampleVn": "Đeo lục lạc vào cổ con mèo."
+              "exampleVn": "Đeo lục lạc vào cổ con mèo.",
+              "wordClass": "danh từ",
+              "level": "N1"
             },
             {
               "id": "ja-shape-rei-kin-w2",
@@ -3780,7 +4379,9 @@
               "reading": "yobirin",
               "meaningVn": "chuông gọi cửa",
               "example": "呼び鈴を鳴らしました。",
-              "exampleVn": "Tôi đã bấm chuông cửa."
+              "exampleVn": "Tôi đã bấm chuông cửa.",
+              "wordClass": "danh từ",
+              "level": "N1"
             }
           ]
         },
@@ -3796,7 +4397,9 @@
               "reading": "nenrei",
               "meaningVn": "tuổi tác",
               "example": "年齢は関係ありません。",
-              "exampleVn": "Tuổi tác không liên quan."
+              "exampleVn": "Tuổi tác không liên quan.",
+              "wordClass": "danh từ",
+              "level": "N3"
             },
             {
               "id": "ja-shape-rei-ha-w2",
@@ -3804,11 +4407,14 @@
               "reading": "kourei",
               "meaningVn": "cao tuổi",
               "example": "高齢の方が増えています。",
-              "exampleVn": "Số người cao tuổi đang tăng lên."
+              "exampleVn": "Số người cao tuổi đang tăng lên.",
+              "wordClass": "danh từ",
+              "level": "N2"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-07-26T10:02:49+07:00"
     },
     {
       "id": "ja-shape-so",
@@ -3829,7 +4435,9 @@
               "reading": "sozei",
               "meaningVn": "thuế khoá",
               "example": "租税を納めます。",
-              "exampleVn": "Nộp thuế."
+              "exampleVn": "Nộp thuế.",
+              "wordClass": "danh từ",
+              "level": "N1"
             },
             {
               "id": "ja-shape-so-ka-w2",
@@ -3837,7 +4445,9 @@
               "reading": "soshaku",
               "meaningVn": "việc thuê đất (tô giới)",
               "example": "租借地の歴史を学びます。",
-              "exampleVn": "Học về lịch sử vùng đất tô giới."
+              "exampleVn": "Học về lịch sử vùng đất tô giới.",
+              "wordClass": "danh từ",
+              "level": "N1"
             }
           ]
         },
@@ -3853,7 +4463,9 @@
               "reading": "soshiki",
               "meaningVn": "tổ chức",
               "example": "新しい組織を作ります。",
-              "exampleVn": "Thành lập một tổ chức mới."
+              "exampleVn": "Thành lập một tổ chức mới.",
+              "wordClass": "danh từ",
+              "level": "N2"
             },
             {
               "id": "ja-shape-so-ito-w2",
@@ -3861,7 +4473,9 @@
               "reading": "kumiai",
               "meaningVn": "công đoàn, hiệp hội",
               "example": "労働組合に加入しました。",
-              "exampleVn": "Tôi đã gia nhập công đoàn."
+              "exampleVn": "Tôi đã gia nhập công đoàn.",
+              "wordClass": "danh từ",
+              "level": "N2"
             }
           ]
         },
@@ -3877,7 +4491,9 @@
               "reading": "sosen",
               "meaningVn": "tổ tiên",
               "example": "祖先を大切にします。",
-              "exampleVn": "Coi trọng tổ tiên."
+              "exampleVn": "Coi trọng tổ tiên.",
+              "wordClass": "danh từ",
+              "level": "N2"
             },
             {
               "id": "ja-shape-so-shi-w2",
@@ -3885,11 +4501,14 @@
               "reading": "sofu",
               "meaningVn": "ông nội/ông ngoại",
               "example": "祖父は九十歳です。",
-              "exampleVn": "Ông tôi chín mươi tuổi."
+              "exampleVn": "Ông tôi chín mươi tuổi.",
+              "wordClass": "danh từ",
+              "level": "N4"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-07-26T10:02:49+07:00"
     },
     {
       "id": "ja-shape-ya",
@@ -3910,7 +4529,9 @@
               "reading": "tanin",
               "meaningVn": "người khác, người dưng",
               "example": "他人の目が気になります。",
-              "exampleVn": "Tôi bận tâm đến ánh mắt người khác."
+              "exampleVn": "Tôi bận tâm đến ánh mắt người khác.",
+              "wordClass": "danh từ",
+              "level": "N3"
             },
             {
               "id": "ja-shape-ya-jin-w2",
@@ -3918,7 +4539,9 @@
               "reading": "takoku",
               "meaningVn": "nước khác",
               "example": "他国の文化を尊重します。",
-              "exampleVn": "Tôn trọng văn hoá nước khác."
+              "exampleVn": "Tôn trọng văn hoá nước khác.",
+              "wordClass": "danh từ",
+              "level": "N2"
             }
           ]
         },
@@ -3934,7 +4557,9 @@
               "reading": "chizu",
               "meaningVn": "bản đồ",
               "example": "地図を見ながら歩きます。",
-              "exampleVn": "Tôi vừa đi vừa xem bản đồ."
+              "exampleVn": "Tôi vừa đi vừa xem bản đồ.",
+              "wordClass": "danh từ",
+              "level": "N5"
             },
             {
               "id": "ja-shape-ya-tsuchi-w2",
@@ -3942,7 +4567,9 @@
               "reading": "jishin",
               "meaningVn": "động đất",
               "example": "昨夜、地震がありました。",
-              "exampleVn": "Đêm qua đã có động đất."
+              "exampleVn": "Đêm qua đã có động đất.",
+              "wordClass": "danh từ",
+              "level": "N4"
             }
           ]
         },
@@ -3958,7 +4585,9 @@
               "reading": "denchi",
               "meaningVn": "pin",
               "example": "電池が切れました。",
-              "exampleVn": "Hết pin rồi."
+              "exampleVn": "Hết pin rồi.",
+              "wordClass": "danh từ",
+              "level": "N3"
             },
             {
               "id": "ja-shape-ya-sui-w2",
@@ -3966,11 +4595,14 @@
               "reading": "chosuichi",
               "meaningVn": "hồ chứa nước",
               "example": "貯水池の水位が下がっています。",
-              "exampleVn": "Mực nước hồ chứa đang xuống."
+              "exampleVn": "Mực nước hồ chứa đang xuống.",
+              "wordClass": "danh từ",
+              "level": "N1"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-07-26T10:02:49+07:00"
     },
     {
       "id": "ja-shape-sou",
@@ -3991,7 +4623,9 @@
               "reading": "souzou",
               "meaningVn": "sự tưởng tượng",
               "example": "想像もできません。",
-              "exampleVn": "Tôi không thể tưởng tượng nổi."
+              "exampleVn": "Tôi không thể tưởng tượng nổi.",
+              "wordClass": "danh từ",
+              "level": "N3"
             },
             {
               "id": "ja-shape-sou-shin-w2",
@@ -3999,7 +4633,9 @@
               "reading": "kansou",
               "meaningVn": "cảm tưởng",
               "example": "本の感想を書きます。",
-              "exampleVn": "Viết cảm tưởng về cuốn sách."
+              "exampleVn": "Viết cảm tưởng về cuốn sách.",
+              "wordClass": "danh từ",
+              "level": "N2"
             }
           ]
         },
@@ -4014,7 +4650,9 @@
               "reading": "hako",
               "meaningVn": "cái hộp",
               "example": "箱に入れて送ります。",
-              "exampleVn": "Tôi bỏ vào hộp rồi gửi đi."
+              "exampleVn": "Tôi bỏ vào hộp rồi gửi đi.",
+              "wordClass": "danh từ",
+              "level": "N5"
             },
             {
               "id": "ja-shape-sou-take-w2",
@@ -4022,7 +4660,9 @@
               "reading": "honbako",
               "meaningVn": "tủ sách",
               "example": "本箱がいっぱいです。",
-              "exampleVn": "Tủ sách đã đầy."
+              "exampleVn": "Tủ sách đã đầy.",
+              "wordClass": "danh từ",
+              "level": "N2"
             }
           ],
           "hanViet": "sương"
@@ -4039,7 +4679,9 @@
               "reading": "shimo",
               "meaningVn": "sương giá",
               "example": "朝、畑に霜が降りました。",
-              "exampleVn": "Sáng nay sương giá phủ xuống ruộng."
+              "exampleVn": "Sáng nay sương giá phủ xuống ruộng.",
+              "wordClass": "danh từ",
+              "level": "N1"
             },
             {
               "id": "ja-shape-sou-ame-w2",
@@ -4047,11 +4689,14 @@
               "reading": "shimofuri",
               "meaningVn": "vân mỡ (thịt bò cao cấp)",
               "example": "霜降りの牛肉は高いです。",
-              "exampleVn": "Thịt bò vân mỡ rất đắt."
+              "exampleVn": "Thịt bò vân mỡ rất đắt.",
+              "wordClass": "danh từ",
+              "level": "N1"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-07-26T10:02:49+07:00"
     }
   ]
 }
