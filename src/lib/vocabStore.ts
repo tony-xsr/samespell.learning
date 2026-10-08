@@ -98,26 +98,49 @@ async function loadAdditions(lang: Language): Promise<DynamicAdditions> {
   }
 }
 
+/** Đóng dấu "do người học tự thêm" lên 1 từ và toàn bộ con cháu của nó. Xem `ContentSource`: dấu này
+ * KHÔNG nằm trong KV, nó được gắn ở đây vì mọi thứ lấy ra từ `additions` theo định nghĩa đã là của
+ * người dùng — nhờ vậy dữ liệu cũ không cần sửa và cờ không bao giờ lệch với thực tế. */
+function markUserWord(word: VocabWord): VocabWord {
+  return {
+    ...word,
+    source: "user",
+    ...(word.children ? { children: word.children.map(markUserWord) } : {}),
+  };
+}
+
+function markUserRoot(root: RootEntry): RootEntry {
+  return { ...root, source: "user", words: root.words.map(markUserWord) };
+}
+
 /** Recursively attaches AI-generated child branches (from `wordChildren`) onto a word and
  * all of its existing descendants, so a child can itself later be expanded further. */
 function attachWordChildren(word: VocabWord, wordChildren: Record<string, VocabWord[]>): VocabWord {
   const ownChildren = (word.children ?? []).map((c) => attachWordChildren(c, wordChildren));
-  const addedChildren = (wordChildren[word.id] ?? []).map((c) => attachWordChildren(c, wordChildren));
+  // Nhánh con lấy từ `wordChildren` là do người học bấm "mở rộng" mà có → đánh dấu luôn.
+  const addedChildren = (wordChildren[word.id] ?? []).map((c) =>
+    markUserWord(attachWordChildren(c, wordChildren)),
+  );
   const allChildren = [...ownChildren, ...addedChildren];
   return allChildren.length > 0 ? { ...word, children: allChildren } : word;
 }
 
 function mergeGroup(group: SoundGroup, additions: DynamicAdditions): SoundGroup {
   const roots = group.roots.map((root) => {
-    const extra = additions.extraWords[root.id];
-    const words = extra && extra.length > 0 ? [...root.words, ...extra] : root.words;
+    const extra = (additions.extraWords[root.id] ?? []).map(markUserWord);
+    const words = extra.length > 0 ? [...root.words, ...extra] : root.words;
     return { ...root, words: words.map((w) => attachWordChildren(w, additions.wordChildren)) };
   });
-  const extraRoots = (additions.extraRoots[group.id] ?? []).map((root) => ({
-    ...root,
-    words: root.words.map((w) => attachWordChildren(w, additions.wordChildren)),
-  }));
+  const extraRoots = (additions.extraRoots[group.id] ?? []).map((root) => {
+    const marked = markUserRoot(root);
+    return { ...marked, words: marked.words.map((w) => attachWordChildren(w, additions.wordChildren)) };
+  });
   return { ...group, roots: [...roots, ...extraRoots] };
+}
+
+/** Nhóm do người học tự tạo (qua AI hoặc tự nhập): đóng dấu cả nhóm lẫn mọi chữ gốc/từ bên trong. */
+function markUserGroup(group: SoundGroup): SoundGroup {
+  return { ...group, source: "user", roots: group.roots.map(markUserRoot) };
 }
 
 function applyMnemonicToWord(word: VocabWord, mnemonics: Record<string, string>): VocabWord {
@@ -146,7 +169,9 @@ export async function getLanguageData(lang: string): Promise<LanguageData | unde
     getMnemonicMap(lang as Language),
   ]);
   const staticGroups = staticData.groups.map((g) => applyMnemonics(mergeGroup(g, additions), mnemonics));
-  const newGroups = additions.extraGroups.map((g) => applyMnemonics(mergeGroup(g, additions), mnemonics));
+  const newGroups = additions.extraGroups.map((g) =>
+    applyMnemonics(mergeGroup(markUserGroup(g), additions), mnemonics),
+  );
   return {
     ...staticData,
     groups: [...staticGroups, ...newGroups],
