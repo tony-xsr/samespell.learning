@@ -6,6 +6,14 @@ export const WordSchema = z.object({
   meaningVn: z.string().min(1).describe("Nghĩa tiếng Việt ngắn gọn"),
   example: z.string().min(1).describe("Một câu ví dụ ngắn, tự nhiên, dùng từ này"),
   exampleVn: z.string().min(1).describe("Bản dịch tiếng Việt của câu ví dụ"),
+  wordClass: z
+    .string()
+    .optional()
+    .describe("Loại từ bằng tiếng Việt ngắn gọn: 'danh từ', 'động từ', 'tính từ', 'trạng từ', 'cụm từ'..."),
+  level: z
+    .string()
+    .optional()
+    .describe("BẮT BUỘC: nhãn trình độ theo đúng thang của ngôn ngữ đó (xem hướng dẫn trong prompt), vd HSK4 / N3 / B2."),
   grammarPoint: z
     .string()
     .optional()
@@ -165,7 +173,9 @@ export type CollocationSetResult = z.infer<typeof CollocationSetSchema>;
 
 export const WORD_JSON_SHAPE_HINT = [
   "Mỗi từ trong mảng words PHẢI đúng dạng JSON sau (không thêm field khác, không dùng markdown code fence):",
-  '{"headword": "...", "reading": "...", "meaningVn": "...", "example": "...", "exampleVn": "...", "grammarPoint": "" , "grammarExplanationVn": "", "mnemonicVn": "..."}',
+  '{"headword": "...", "reading": "...", "meaningVn": "...", "example": "...", "exampleVn": "...", "wordClass": "...", "level": "...", "grammarPoint": "" , "grammarExplanationVn": "", "mnemonicVn": "..."}',
+  "wordClass: loại từ bằng tiếng Việt ngắn gọn — 'danh từ', 'động từ', 'tính từ', 'trạng từ', 'cụm từ'...",
+  "level: BẮT BUỘC — lấy ĐÚNG MỘT giá trị trong thang được nêu ở phần đầu prompt, không để trống.",
   "grammarPoint/grammarExplanationVn: chỉ điền khi ngôn ngữ là Hàn hoặc Nhật và câu ví dụ minh hoạ một điểm ngữ pháp đặc trưng; nếu không có gì đặc biệt thì để chuỗi rỗng.",
   "mnemonicVn: LUÔN điền cho MỌI từ — 1-2 câu tiếng Việt giúp nhớ từ (chơi chữ theo âm đọc và/hoặc liên tưởng theo nghĩa), không để trống.",
 ].join("\n");
