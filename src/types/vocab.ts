@@ -1,5 +1,15 @@
 export type Language = "zh" | "ko" | "ja" | "en" | "es";
 
+/** Nội dung này từ đâu ra.
+ * - `curated` (mặc định, vắng mặt): soạn sẵn trong `data/*.json`, đi theo mã nguồn.
+ * - `user`: do CHÍNH người học thêm vào tài khoản mình (gõ tay hoặc nhờ AI sinh rồi lưu lại), nằm
+ *   trong KV chứ không trong repo.
+ *
+ * KHÔNG lưu trường này xuống KV: nó được đóng dấu ngay lúc trộn dữ liệu trong `vocabStore`, vì mọi
+ * thứ đến từ kho `additions` theo định nghĩa đã là của người dùng. Nhờ vậy không phải sửa dữ liệu cũ
+ * và không bao giờ có chuyện cờ bị lệch với thực tế. Xem Features.md mục 27. */
+export type ContentSource = "curated" | "user";
+
 export interface VocabWord {
   id: string;
   headword: string;
@@ -14,6 +24,16 @@ export interface VocabWord {
   grammarPoint?: string;
   grammarExplanationVn?: string;
   mnemonicVn?: string;
+  /** Loại từ, viết bằng tiếng Việt ngắn gọn ("danh từ", "động từ", "tính từ", "cụm từ"...).
+   * Cùng tên với `QuickDictSchema.wordClass` để một khái niệm chỉ có một tên trong cả codebase. */
+  wordClass?: string;
+  /** Nhãn trình độ theo thang CHUẨN CỦA CHÍNH NGÔN NGỮ ĐÓ — HSK cho Trung, N1–N5 cho Nhật, TOPIK cho
+   * Hàn, CEFR cho Anh/Tây Ban Nha. Xem `LEVEL_SCALE` trong src/lib/levels.ts.
+   * Phần lớn nội dung soạn sẵn CHƯA có nhãn này (gắn cho ~3800 nhóm là một việc nội dung riêng);
+   * nội dung do người học tự thêm thì được AI điền ngay từ lúc sinh. Xem Features.md mục 27. */
+  level?: string;
+  /** Xem ContentSource. Chỉ xuất hiện khi = "user". */
+  source?: ContentSource;
   children?: VocabWord[];
 }
 
@@ -23,6 +43,8 @@ export interface RootEntry {
   meaningVn: string;
   hanViet?: string;
   reading?: string;
+  /** Xem ContentSource. Chỉ xuất hiện khi = "user". */
+  source?: ContentSource;
   words: VocabWord[];
 }
 
@@ -39,6 +61,8 @@ export interface SoundGroup {
   note?: string;
   roots: RootEntry[];
   groupKind?: GroupKind;
+  /** Xem ContentSource. Chỉ xuất hiện khi = "user". */
+  source?: ContentSource;
   /** Danh mục chủ đề để gom nhóm trên trang tổng quan (vd "Con người & cơ thể", "Cây cỏ"...). */
   category?: string;
   /** Ngày mindmap này được THÊM vào kho (ISO). Dựng lại từ lịch sử git — commit đầu tiên mà group id
