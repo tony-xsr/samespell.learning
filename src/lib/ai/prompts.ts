@@ -1,4 +1,5 @@
 import type { Language } from "@/types/vocab";
+import { levelScaleHint } from "@/lib/levels";
 import {
   EXPAND_ROOT_JSON_SHAPE_HINT,
   NEW_ROOT_JSON_SHAPE_HINT,
@@ -20,6 +21,17 @@ export const LANG_NAMES: Record<Language, string> = {
   es: "tiếng Tây Ban Nha (ghi phiên âm IPA)",
 };
 
+/** Nêu rõ thang trình độ của chính ngôn ngữ đang sinh, vì mỗi tiếng dùng một kỳ thi khác nhau — không
+ * nói rõ thì mô hình hay trả về CEFR cho cả tiếng Trung/Nhật/Hàn. */
+function levelInstruction(language: Language): string {
+  return [
+    `Nhãn trình độ ("level") BẮT BUỘC điền cho MỌI từ, dùng thang ${levelScaleHint(language)} — chỉ chọn đúng một giá trị trong danh sách đó, không dùng thang của ngôn ngữ khác.`,
+    // Bản đầu viết "không chắc thì để trống" và mô hình bỏ trống 100% số từ — hướng dẫn cho phép né
+    // thì mô hình sẽ né. Nay bắt buộc ước lượng, và nói rõ từ ngoài chương trình thi phải xử lý sao.
+    `Từ không nằm trong chương trình thi chính thức thì vẫn phải chọn mức SÁT NHẤT với độ khó thực tế của nó (căn theo tần suất sử dụng và độ trừu tượng của nghĩa), không được để trống.`,
+  ].join(" ");
+}
+
 const POLYPHONY_INSTRUCTION = `Lưu ý về chữ ĐA ÂM: nếu chữ gốc có nhiều cách đọc/âm Hán Việt khác nhau tùy theo nghĩa hoặc từ ghép (ví dụ 行 đọc "hàng" trong 银行 ngân hàng nhưng đọc "hành" trong 旅行 lữ hành; 看 đọc "khan" trong 看守 nhưng đọc "khán" trong 看书), hãy ƯU TIÊN chọn các từ minh hoạ được CÀNG NHIỀU cách đọc/nghĩa khác nhau của chữ gốc càng tốt (thay vì nhiều từ chỉ lặp lại 1 cách đọc). Mỗi từ phải ghi ĐÚNG phiên âm (reading) và nghĩa (meaningVn) riêng của chính từ đó — không copy y hệt cách đọc mặc định của chữ gốc nếu từ đó thực ra đọc khác.`;
 
 export function buildExpandRootPrompt(params: {
@@ -37,6 +49,8 @@ Hãy sinh ra ${params.count} từ vựng THỰC TẾ, thông dụng có chứa c
 KHÔNG được trùng với các từ đã có: ${params.existingHeadwords.join(", ") || "(chưa có)"}.
 Mỗi từ cần: từ vựng gốc, phiên âm, nghĩa tiếng Việt ngắn gọn, một câu ví dụ tự nhiên, bản dịch tiếng Việt của câu ví dụ, và một mẹo nhớ ngắn (mnemonicVn) bằng tiếng Việt.
 ${POLYPHONY_INSTRUCTION}
+${levelInstruction(params.language)}
+
 ${EXPAND_ROOT_JSON_SHAPE_HINT}`;
 }
 
@@ -52,6 +66,8 @@ Các chữ đã có trong nhóm này rồi (KHÔNG được lặp lại): ${para
 Hãy tìm THÊM MỘT chữ Hán/Hanja khác, có cách đọc giống hệt hoặc gần giống "${params.groupReading}" trong ${langName}, nhưng mang nghĩa hoàn toàn khác các chữ đã có.
 Sau đó sinh 4 từ vựng thông dụng chứa chữ đó, kèm phiên âm, nghĩa tiếng Việt, câu ví dụ có bản dịch, và một mẹo nhớ ngắn (mnemonicVn) bằng tiếng Việt cho mỗi từ.
 ${POLYPHONY_INSTRUCTION}
+${levelInstruction(params.language)}
+
 ${NEW_ROOT_JSON_SHAPE_HINT}`;
 }
 
@@ -68,6 +84,8 @@ Các cách đọc nhóm đã tồn tại rồi (chỉ để tham khảo — cứ
 hệ thống sẽ tự động gộp vào nhóm cùng âm nếu trùng, không cần bạn tự tránh): ${params.existingReadings.join(", ") || "(chưa có)"}.
 Sau đó sinh 4 từ vựng thông dụng chứa chữ gốc đó (nếu phù hợp, hãy để chính từ "${params.word}" người dùng nhập là một trong các từ này), kèm phiên âm, nghĩa tiếng Việt, câu ví dụ có bản dịch, và một mẹo nhớ ngắn (mnemonicVn) bằng tiếng Việt cho mỗi từ.
 ${POLYPHONY_INSTRUCTION}
+${levelInstruction(params.language)}
+
 ${NEW_ROOT_JSON_SHAPE_HINT}`;
 }
 
@@ -86,6 +104,8 @@ Sau đó sinh 4-6 từ vựng thông dụng chứa chữ đó, MỖI TỪ ƯU TI
 gốc (tránh nhiều từ lặp lại cùng 1 cách đọc nếu có thể) — mỗi từ tự ghi ĐÚNG phiên âm và nghĩa riêng.
 BẮT BUỘC điền trường "note": 1-2 câu tiếng Việt tóm tắt các cách đọc khác nhau đã xuất hiện và khi
 nào dùng cách đọc nào.
+${levelInstruction(params.language)}
+
 ${NEW_ROOT_JSON_SHAPE_HINT}`;
 }
 
@@ -102,6 +122,8 @@ nghĩa tuyệt đối) — nếu phù hợp, để chính từ "${params.word}" 
 BẮT BUỘC điền trường "note": giải thích ngắn gọn bằng tiếng Việt sự khác biệt sắc thái giữa các từ,
 VÀ nêu thêm 1-2 từ TRÁI NGHĨA trực tiếp của từ "${params.word}" (có thể không chứa chữ gốc) kèm
 nghĩa ngắn gọn của từng từ trái nghĩa đó.
+${levelInstruction(params.language)}
+
 ${NEW_ROOT_JSON_SHAPE_HINT}`;
 }
 
@@ -126,6 +148,8 @@ IPA (reading, vd "/ɪkˈstrækt/"), nghĩa tiếng Việt (meaningVn), 1 câu v�
 kèm bản dịch (exampleVn), và 1 mẹo nhớ ngắn gọn tiếng Việt (mnemonicVn) dựa trên liên hệ với gốc từ.
 BẮT BUỘC điền "note": 1-2 câu tiếng Việt tóm tắt vì sao các từ này cùng họ (cùng gốc, nghĩa liên quan
 ra sao qua các lĩnh vực khác nhau).
+${levelInstruction("en")}
+
 ${NEW_ROOT_JSON_SHAPE_HINT}`;
 }
 
@@ -214,6 +238,8 @@ có thể là từ đồng nghĩa, gần nghĩa, trái nghĩa, cùng chủ đề
 Mục tiêu là giúp người học mở rộng vốn từ xung quanh từ "${params.headword}".
 KHÔNG được trùng với các từ đã có: ${params.existingChildHeadwords.join(", ") || "(chưa có)"}.
 Mỗi từ cần: từ vựng gốc, phiên âm, nghĩa tiếng Việt ngắn gọn, một câu ví dụ tự nhiên, bản dịch tiếng Việt của câu ví dụ, và một mẹo nhớ ngắn (mnemonicVn) bằng tiếng Việt.
+${levelInstruction(params.language)}
+
 ${EXPAND_ROOT_JSON_SHAPE_HINT}`;
 }
 
