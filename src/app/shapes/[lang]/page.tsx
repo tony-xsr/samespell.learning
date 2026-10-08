@@ -38,7 +38,7 @@ export default async function ShapeLanguagePage({
   const learnedIds = await loadLearnedKeySet(lang, "shape");
   if (!data) notFound();
 
-  const summaries = toGroupSummaries(data.groups, learnedIds);
+  const summaries = toGroupSummaries(data.groups, learnedIds, data.language);
   // Thứ tự chủ đề do trang quyết định (mỗi trục ghim chủ đề khác nhau), GroupBrowser chỉ nhận danh sách.
   const categoryOrder = groupByCategory(data.groups).map(([cat]) => cat);
   const showSections = categoryOrder.length > 1;
@@ -80,6 +80,7 @@ export default async function ShapeLanguagePage({
           groups={summaries}
           basePath={`/shapes/${lang}`}
           categoryOrder={categoryOrder}
+          language={data.language}
         />
       </div>
     </main>
