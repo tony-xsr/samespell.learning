@@ -17,6 +17,14 @@ export interface MatchItem {
   example?: string;
   /** Chữ gốc / tên nhánh (true) hay từ ghép (false) — danh sách cần phân cấp, trò chơi thì không. */
   isRoot?: boolean;
+  /** Do chính người học thêm vào (xem `ContentSource`). */
+  userAdded?: boolean;
+  /** Loại từ + nhãn trình độ — chỉ Danh sách dùng, trò chơi bỏ qua. */
+  wordClass?: string;
+  level?: string;
+  /** Mẹo nhớ soạn sẵn. Trước đây chỉ hiện trong popup "i" của từng thẻ, tức gần như vô hình; các màn
+   * Danh sách / Tập trung / Trang giấy đều hiện nó để công sức soạn mẹo thực sự đến được người học. */
+  mnemonicVn?: string;
 }
 
 /** Gom cả CHỮ GỐC lẫn TỪ của 1 mindmap thành danh sách để ghép — chữ gốc cũng là một ô phải nhớ
@@ -31,6 +39,7 @@ export function matchItemsFromGroup(group: SoundGroup): MatchItem[] {
       meaningVn: root.meaningVn,
       hanViet: root.hanViet,
       isRoot: true,
+      userAdded: root.source === "user",
     });
     for (const w of flattenWords(root.words)) {
       items.push({
@@ -40,6 +49,10 @@ export function matchItemsFromGroup(group: SoundGroup): MatchItem[] {
         meaningVn: w.meaningVn,
         hanViet: w.hanViet,
         example: w.example,
+        userAdded: w.source === "user",
+        wordClass: w.wordClass,
+        level: w.level,
+        mnemonicVn: w.mnemonicVn,
       });
     }
   }
@@ -59,6 +72,9 @@ export function matchItemsFromTopic(topic: TopicGroup): MatchItem[] {
         meaningVn: w.meaningVn,
         hanViet: w.hanViet,
         example: w.example,
+        wordClass: w.wordClass,
+        level: w.level,
+        mnemonicVn: w.mnemonicVn,
       });
     }
   }
