@@ -17,9 +17,13 @@ import type { PersonalCollections } from "@/types/personal";
 import { loadPersonalCollections } from "@/lib/personalCollections";
 import ListMembershipPicker from "@/components/ListMembershipPicker";
 import { useFullscreen } from "@/lib/useFullscreen";
+import { levelClass, levelRank } from "@/lib/levels";
 import MeaningMatchGame, { matchItemsFromGroup } from "@/components/mindmap/MeaningMatchGame";
 import MindmapWordList from "@/components/mindmap/MindmapWordList";
-import MindmapSettingsMenu from "@/components/mindmap/MindmapSettingsMenu";
+import MindmapToolbar from "@/components/mindmap/MindmapToolbar";
+import FocusStudyMode from "@/components/mindmap/FocusStudyMode";
+import PaperSheetView from "@/components/mindmap/PaperSheetView";
+import { branchesFromGroup } from "@/lib/studyBranches";
 import { useMindmapSettings } from "@/lib/mindmapSettings";
 
 function InfoBadge({ onClick }: { onClick: (e: React.MouseEvent) => void }) {
@@ -168,7 +172,10 @@ export default function MindmapCanvas({
   const [hideMeaning, setHideMeaning] = useState(false);
   const [revealedIds, setRevealedIds] = useState<Set<string>>(new Set());
   const matchItems = useMemo(() => matchItemsFromGroup(group), [group]);
+  const studyBranches = useMemo(() => branchesFromGroup(group), [group]);
   const [showWordList, setShowWordList] = useState(false);
+  const [showFocus, setShowFocus] = useState(false);
+  const [showPaper, setShowPaper] = useState(false);
   const { settings, update: updateSettings, bgOption } = useMindmapSettings();
   const hoverTimerRef = useRef<number | null>(null);
 
@@ -469,7 +476,9 @@ export default function MindmapCanvas({
         <div
           data-node-drag
           style={{ left: p.x, top: p.y, width: 170, touchAction: "none" }}
-          className={`absolute -translate-x-1/2 -translate-y-1/2 cursor-grab rounded-lg border ${color.border} ${color.bg} px-2.5 py-1.5 text-center shadow-sm active:scale-95 active:cursor-grabbing ${isMastered ? "opacity-50 ring-2 ring-emerald-400" : ""}`}
+          className={`absolute -translate-x-1/2 -translate-y-1/2 cursor-grab rounded-lg border ${color.border} ${color.bg} px-2.5 py-1.5 text-center shadow-sm active:scale-95 active:cursor-grabbing ${isMastered ? "opacity-50 ring-2 ring-emerald-400" : ""} ${
+            word.source === "user" ? "ring-1 ring-violet-400" : ""
+          }`}
           onPointerDown={(e) => handleNodeDragStart(e, word.id, pw.x, pw.y)}
           onMouseEnter={() => handleHoverEnter(word.headword)}
           onMouseLeave={handleHoverLeave}
@@ -477,12 +486,27 @@ export default function MindmapCanvas({
         >
           <div className="text-sm font-semibold whitespace-nowrap text-ink">
             {isMastered && "✅ "}
+            {word.source === "user" && (
+              <span title="Từ do bạn tự thêm" className="mr-0.5 text-violet-500">
+                ✚
+              </span>
+            )}
             {word.headword}
             {word.hanViet && (
               <span className="ml-1 text-xs font-normal text-ink-muted italic">({word.hanViet})</span>
             )}
           </div>
           <div className="text-[11px] text-ink-muted italic">{word.reading}</div>
+          {(word.wordClass || levelRank(group.language, word.level) >= 0) && (
+            <div className="flex items-center justify-center gap-1 text-[10px]">
+              {word.wordClass && <span className="text-ink-muted italic">{word.wordClass}</span>}
+              {levelRank(group.language, word.level) >= 0 && (
+                <span className={`rounded-full px-1 font-bold ${levelClass(group.language, word.level)}`}>
+                  {word.level}
+                </span>
+              )}
+            </div>
+          )}
           {hideMeaning && !revealedIds.has(word.id) ? (
             <button
               type="button"
@@ -538,80 +562,27 @@ export default function MindmapCanvas({
       ref={containerRef}
       className={`relative ${isFullscreen ? "flex h-full flex-col bg-surface p-3" : ""} ${fullscreenClassName}`}
     >
-      <div className="mb-2 flex flex-wrap items-center justify-end gap-1">
-        <button
-          onClick={() => {
-            setHideMeaning((h) => !h);
-            setRevealedIds(new Set());
-          }}
-          className={`mr-auto flex h-9 items-center gap-1 rounded-full border px-3 text-xs font-semibold transition ${
-            hideMeaning
-              ? "border-amber-400 bg-amber-100 text-amber-800 dark:bg-amber-900/40 dark:text-amber-200"
-              : "border-border bg-surface-2 text-ink hover:border-brand-300 hover:bg-surface-3"
-          }`}
-          aria-label={hideMeaning ? "Hiện lại nghĩa tiếng Việt" : "Ẩn nghĩa tiếng Việt để tự kiểm tra"}
-        >
-          {hideMeaning ? "👁 Hiện nghĩa" : "🙈 Ẩn nghĩa"}
-        </button>
-        <button
-          onClick={() => setShowWordList(true)}
-          className="flex h-9 items-center gap-1 rounded-full border border-border bg-surface-2 px-3 text-xs font-semibold text-ink transition hover:border-brand-300 hover:bg-surface-3"
-          aria-label="Xem danh sách từ"
-        >
-          📖 Danh sách
-        </button>
-        <button
-          onClick={() => setShowMatchGame(true)}
-          className="flex h-9 items-center gap-1 rounded-full border border-brand-400 bg-brand-600 px-3 text-xs font-semibold text-white transition hover:brightness-110"
-          aria-label="Chơi ghép nghĩa"
-        >
-          🎮 Ghép nghĩa
-        </button>
-        <button
-          onClick={() => setZoom((z) => Math.max(0.5, +(z - 0.1).toFixed(2)))}
-          className="flex h-9 w-9 items-center justify-center rounded-full border border-border bg-surface-2 text-sm text-ink hover:border-brand-300 hover:bg-surface-3"
-          aria-label="Thu nhỏ"
-        >
-          −
-        </button>
-        <span className="w-12 text-center text-xs text-ink-muted">{Math.round(zoom * 100)}%</span>
-        <button
-          onClick={() => setZoom((z) => Math.min(1.8, +(z + 0.1).toFixed(2)))}
-          className="flex h-9 w-9 items-center justify-center rounded-full border border-border bg-surface-2 text-sm text-ink hover:border-brand-300 hover:bg-surface-3"
-          aria-label="Phóng to"
-        >
-          +
-        </button>
-        <button
-          onClick={resetView}
-          className="flex h-9 w-9 items-center justify-center rounded-full border border-border bg-surface-2 text-sm text-ink hover:border-brand-300 hover:bg-surface-3"
-          aria-label="Về giữa"
-        >
-          ⟲
-        </button>
-        <button
-          onClick={toggleOrientation}
-          className="flex h-9 w-9 items-center justify-center rounded-full border border-border bg-surface-2 text-sm text-ink hover:border-brand-300 hover:bg-surface-3"
-          aria-label={orientation === "horizontal" ? "Chuyển sang layout dọc" : "Chuyển sang layout ngang"}
-          title={orientation === "horizontal" ? "Layout ngang (bấm để chuyển sang dọc)" : "Layout dọc (bấm để chuyển sang ngang)"}
-        >
-          {orientation === "horizontal" ? "↕" : "↔"}
-        </button>
-        <button
-          onClick={toggleFullscreen}
-          className="flex h-9 w-9 items-center justify-center rounded-full border border-border bg-surface-2 text-sm text-ink hover:border-brand-300 hover:bg-surface-3"
-          aria-label={isFullscreen ? "Thoát toàn màn hình" : "Toàn màn hình"}
-        >
-          {isFullscreen ? "⤢" : "⛶"}
-        </button>
-        <MindmapSettingsMenu
-          settings={settings}
-          onChange={updateSettings}
-          onResetLayout={resetView}
-          onBookMode={toggleFullscreen}
-          bookModeActive={isFullscreen}
-        />
-      </div>
+      <MindmapToolbar
+        hideMeaning={hideMeaning}
+        onToggleHideMeaning={() => {
+          setHideMeaning((h) => !h);
+          setRevealedIds(new Set());
+        }}
+        onFocusMode={() => setShowFocus(true)}
+        onPaperMode={() => setShowPaper(true)}
+        onWordList={() => setShowWordList(true)}
+        onMatchGame={() => setShowMatchGame(true)}
+        zoom={zoom}
+        onZoomIn={() => setZoom((z) => Math.min(1.8, +(z + 0.1).toFixed(2)))}
+        onZoomOut={() => setZoom((z) => Math.max(0.5, +(z - 0.1).toFixed(2)))}
+        onResetView={resetView}
+        orientationVertical={orientation === "vertical"}
+        onToggleOrientation={toggleOrientation}
+        isFullscreen={isFullscreen}
+        onToggleFullscreen={toggleFullscreen}
+        settings={settings}
+        onChangeSettings={updateSettings}
+      />
 
       <div
         ref={viewportRef}
@@ -619,7 +590,7 @@ export default function MindmapCanvas({
         data-bg={settings.bg}
         className={`${isFullscreen ? "flex-1" : "h-[70vh]"} min-h-[380px] w-full overflow-auto rounded-2xl border border-border ${
           settings.bg === "web" ? "bg-surface-3/40" : ""
-        } ${bgOption.dark ? "[&_.text-ink]:text-white/90 [&_.text-ink-muted]:text-white/60" : ""}`}
+        }`}
       >
         <div style={{ width: layout.width * zoom, height: layout.height * zoom, margin: PAN_SLACK }}>
           <div
@@ -1024,6 +995,36 @@ export default function MindmapCanvas({
           items={matchItems}
           language={group.language}
           onClose={() => setShowMatchGame(false)}
+        />
+      )}
+
+      {showFocus && (
+        <FocusStudyMode
+          branches={studyBranches}
+          language={group.language}
+          title={group.reading}
+          bg={bgOption}
+          masteredIds={masteredIds}
+          onToggleMastered={onToggleMastered}
+          favoriteIds={bookmarkedIds}
+          onToggleFavorite={onToggleBookmark}
+          onClose={() => setShowFocus(false)}
+        />
+      )}
+
+      {showPaper && (
+        <PaperSheetView
+          branches={studyBranches}
+          language={group.language}
+          title={group.reading}
+          subtitle={`${studyBranches.length} ${
+            group.language === "en" || group.language === "es"
+              ? group.groupKind === "shape"
+                ? "từ dễ nhầm"
+                : "gốc từ"
+              : `chữ ${group.groupKind === "shape" ? "đồng dạng" : "đồng âm"}`
+          } · ${matchItems.length - studyBranches.length} từ`}
+          onClose={() => setShowPaper(false)}
         />
       )}
     </div>
