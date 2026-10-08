@@ -22,7 +22,9 @@
               "reading": "/tu/",
               "meaningVn": "bạn (chủ ngữ)",
               "example": "¿Tú vienes a la fiesta esta noche?",
-              "exampleVn": "Cậu có đến bữa tiệc tối nay không?"
+              "exampleVn": "Cậu có đến bữa tiệc tối nay không?",
+              "wordClass": "đại từ",
+              "level": "A1"
             }
           ]
         },
@@ -38,11 +40,14 @@
               "reading": "/tu/",
               "meaningVn": "của bạn",
               "example": "Tu casa está muy cerca de la mía.",
-              "exampleVn": "Nhà của cậu rất gần nhà mình."
+              "exampleVn": "Nhà của cậu rất gần nhà mình.",
+              "wordClass": "tính từ sở hữu",
+              "level": "A1"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-el-el",
@@ -64,7 +69,9 @@
               "reading": "/el/",
               "meaningVn": "anh ấy",
               "example": "Él trabaja en aquella oficina desde hace años.",
-              "exampleVn": "Anh ấy làm việc ở văn phòng kia đã nhiều năm rồi."
+              "exampleVn": "Anh ấy làm việc ở văn phòng kia đã nhiều năm rồi.",
+              "wordClass": "đại từ",
+              "level": "A1"
             }
           ]
         },
@@ -80,11 +87,14 @@
               "reading": "/el/",
               "meaningVn": "cái, con (mạo từ)",
               "example": "El coche de mi padre es muy antiguo.",
-              "exampleVn": "Chiếc xe của bố tôi rất cũ."
+              "exampleVn": "Chiếc xe của bố tôi rất cũ.",
+              "wordClass": "mạo từ",
+              "level": "A1"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-si-si",
@@ -106,7 +116,9 @@
               "reading": "/si/",
               "meaningVn": "có, vâng",
               "example": "Sí, claro que voy a ayudarte con eso.",
-              "exampleVn": "Có chứ, tất nhiên là mình sẽ giúp cậu việc đó."
+              "exampleVn": "Có chứ, tất nhiên là mình sẽ giúp cậu việc đó.",
+              "wordClass": "trạng từ",
+              "level": "A1"
             }
           ]
         },
@@ -122,11 +134,14 @@
               "reading": "/si/",
               "meaningVn": "nếu",
               "example": "Si llueve mañana, cancelaremos la excursión.",
-              "exampleVn": "Nếu ngày mai trời mưa, chúng tôi sẽ hủy chuyến dã ngoại."
+              "exampleVn": "Nếu ngày mai trời mưa, chúng tôi sẽ hủy chuyến dã ngoại.",
+              "wordClass": "liên từ",
+              "level": "A1"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-se-se",
@@ -148,7 +163,9 @@
               "reading": "/se/",
               "meaningVn": "tôi biết",
               "example": "No sé la respuesta a esa pregunta.",
-              "exampleVn": "Tôi không biết câu trả lời cho câu hỏi đó."
+              "exampleVn": "Tôi không biết câu trả lời cho câu hỏi đó.",
+              "wordClass": "động từ",
+              "level": "A1"
             }
           ]
         },
@@ -164,11 +181,14 @@
               "reading": "/se/",
               "meaningVn": "mình, nhau (phản thân)",
               "example": "Ella se levanta muy temprano todos los días.",
-              "exampleVn": "Cô ấy tự dậy rất sớm mỗi ngày."
+              "exampleVn": "Cô ấy tự dậy rất sớm mỗi ngày.",
+              "wordClass": "đại từ",
+              "level": "A2"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-mas-mas",
@@ -190,7 +210,9 @@
               "reading": "/mas/",
               "meaningVn": "hơn, thêm",
               "example": "Necesito más tiempo para terminar este informe.",
-              "exampleVn": "Tôi cần thêm thời gian để hoàn thành báo cáo này."
+              "exampleVn": "Tôi cần thêm thời gian để hoàn thành báo cáo này.",
+              "wordClass": "trạng từ",
+              "level": "A1"
             }
           ]
         },
@@ -206,11 +228,14 @@
               "reading": "/mas/",
               "meaningVn": "nhưng (văn chương)",
               "example": "Quiso ayudar, mas no tuvo tiempo suficiente.",
-              "exampleVn": "Anh ấy muốn giúp, nhưng không có đủ thời gian."
+              "exampleVn": "Anh ấy muốn giúp, nhưng không có đủ thời gian.",
+              "wordClass": "liên từ",
+              "level": "C1"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-de-de",
@@ -232,7 +257,9 @@
               "reading": "/de/",
               "meaningVn": "hãy cho",
               "example": "Espero que me dé una segunda oportunidad.",
-              "exampleVn": "Tôi mong anh ấy cho tôi một cơ hội thứ hai."
+              "exampleVn": "Tôi mong anh ấy cho tôi một cơ hội thứ hai.",
+              "wordClass": "động từ",
+              "level": "B1"
             }
           ]
         },
@@ -248,11 +275,14 @@
               "reading": "/de/",
               "meaningVn": "của, từ",
               "example": "Este regalo es de mi mejor amiga.",
-              "exampleVn": "Món quà này là của người bạn thân nhất của tôi."
+              "exampleVn": "Món quà này là của người bạn thân nhất của tôi.",
+              "wordClass": "giới từ",
+              "level": "A1"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-te-te",
@@ -274,7 +304,9 @@
               "reading": "/te/",
               "meaningVn": "trà",
               "example": "Todas las tardes tomo una taza de té verde.",
-              "exampleVn": "Chiều nào tôi cũng uống một tách trà xanh."
+              "exampleVn": "Chiều nào tôi cũng uống một tách trà xanh.",
+              "wordClass": "danh từ",
+              "level": "A1"
             }
           ]
         },
@@ -290,11 +322,14 @@
               "reading": "/te/",
               "meaningVn": "bạn, cho bạn",
               "example": "Te llamo esta noche para explicarte todo.",
-              "exampleVn": "Tối nay mình sẽ gọi cho bạn để giải thích mọi thứ."
+              "exampleVn": "Tối nay mình sẽ gọi cho bạn để giải thích mọi thứ.",
+              "wordClass": "đại từ",
+              "level": "A1"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-mi-mi",
@@ -316,7 +351,9 @@
               "reading": "/mi/",
               "meaningVn": "tôi, mình (sau giới từ)",
               "example": "Este mensaje es para mí, no para ti.",
-              "exampleVn": "Tin nhắn này là dành cho tôi, không phải cho bạn."
+              "exampleVn": "Tin nhắn này là dành cho tôi, không phải cho bạn.",
+              "wordClass": "đại từ",
+              "level": "A2"
             }
           ]
         },
@@ -332,11 +369,14 @@
               "reading": "/mi/",
               "meaningVn": "của tôi",
               "example": "Mi hermano estudia medicina en la universidad.",
-              "exampleVn": "Anh trai tôi học ngành y ở trường đại học."
+              "exampleVn": "Anh trai tôi học ngành y ở trường đại học.",
+              "wordClass": "tính từ sở hữu",
+              "level": "A1"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-aun-aun",
@@ -358,7 +398,9 @@
               "reading": "/a.ˈun/",
               "meaningVn": "vẫn, vẫn còn",
               "example": "Aún no ha llegado la respuesta del banco.",
-              "exampleVn": "Vẫn chưa có phản hồi từ ngân hàng."
+              "exampleVn": "Vẫn chưa có phản hồi từ ngân hàng.",
+              "wordClass": "trạng từ",
+              "level": "B1"
             }
           ]
         },
@@ -374,11 +416,14 @@
               "reading": "/aun/",
               "meaningVn": "thậm chí",
               "example": "Aun sabiendo el riesgo, decidió continuar el viaje.",
-              "exampleVn": "Thậm chí biết rủi ro, anh ấy vẫn quyết định tiếp tục chuyến đi."
+              "exampleVn": "Thậm chí biết rủi ro, anh ấy vẫn quyết định tiếp tục chuyến đi.",
+              "wordClass": "trạng từ",
+              "level": "C1"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-echo-hecho",
@@ -400,7 +445,9 @@
               "reading": "/ˈe.tʃo/",
               "meaningVn": "tôi bỏ vào, tôi đổ",
               "example": "Siempre echo un poco de sal a la sopa.",
-              "exampleVn": "Tôi luôn bỏ một chút muối vào món súp."
+              "exampleVn": "Tôi luôn bỏ một chút muối vào món súp.",
+              "wordClass": "động từ",
+              "level": "B1"
             },
             {
               "id": "es-shape-echo-hecho-echo-w2",
@@ -408,7 +455,9 @@
               "reading": "/e.ˈtʃa.ða/",
               "meaningVn": "cú ném, cú tung (danh từ)",
               "example": "La echada de la red fue perfecta esta vez.",
-              "exampleVn": "Cú tung lưới lần này thật hoàn hảo."
+              "exampleVn": "Cú tung lưới lần này thật hoàn hảo.",
+              "wordClass": "danh từ",
+              "level": "C1"
             },
             {
               "id": "es-shape-echo-hecho-echo-w3",
@@ -416,7 +465,9 @@
               "reading": "/de.ˈse.tʃo/",
               "meaningVn": "rác thải, phế phẩm (danh từ, từ \"desechar\")",
               "example": "La fábrica debe tratar bien sus desechos industriales.",
-              "exampleVn": "Nhà máy phải xử lý tốt rác thải công nghiệp của mình."
+              "exampleVn": "Nhà máy phải xử lý tốt rác thải công nghiệp của mình.",
+              "wordClass": "danh từ",
+              "level": "B2"
             }
           ]
         },
@@ -432,7 +483,9 @@
               "reading": "/ˈe.tʃo/",
               "meaningVn": "đã làm, đã xong; sự việc",
               "example": "Es un hecho que el clima está cambiando.",
-              "exampleVn": "Việc khí hậu đang thay đổi là một sự thật."
+              "exampleVn": "Việc khí hậu đang thay đổi là một sự thật.",
+              "wordClass": "danh từ",
+              "level": "B1"
             },
             {
               "id": "es-shape-echo-hecho-hecho-w2",
@@ -440,7 +493,9 @@
               "reading": "/des.ˈe.tʃo/",
               "meaningVn": "đã bị phá hủy, tan vỡ (phân từ của \"deshacer\")",
               "example": "El castillo de arena quedó deshecho tras la ola.",
-              "exampleVn": "Lâu đài cát đã bị phá vỡ hoàn toàn sau con sóng."
+              "exampleVn": "Lâu đài cát đã bị phá vỡ hoàn toàn sau con sóng.",
+              "wordClass": "tính từ",
+              "level": "B2"
             },
             {
               "id": "es-shape-echo-hecho-hecho-w3",
@@ -448,11 +503,14 @@
               "reading": "/sa.tis.ˈfe.tʃo/",
               "meaningVn": "hài lòng, thỏa mãn (phân từ bất quy tắc của \"satisfacer\")",
               "example": "Estoy muy satisfecho con los resultados del examen.",
-              "exampleVn": "Tôi rất hài lòng với kết quả bài thi."
+              "exampleVn": "Tôi rất hài lòng với kết quả bài thi.",
+              "wordClass": "tính từ",
+              "level": "B1"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-botar-votar",
@@ -474,7 +532,9 @@
               "reading": "/bo.ˈtaɾ/",
               "meaningVn": "ném đi, vứt bỏ",
               "example": "No debes botar la basura en la calle.",
-              "exampleVn": "Bạn không được vứt rác ngoài đường."
+              "exampleVn": "Bạn không được vứt rác ngoài đường.",
+              "wordClass": "động từ",
+              "level": "B1"
             },
             {
               "id": "es-shape-botar-votar-botar-w2",
@@ -482,7 +542,9 @@
               "reading": "/ˈbo.te/",
               "meaningVn": "cú nảy (bóng); cái hộp, con thuyền nhỏ",
               "example": "La pelota dio un bote extraño en el césped.",
-              "exampleVn": "Quả bóng nảy lên một cách kỳ lạ trên bãi cỏ."
+              "exampleVn": "Quả bóng nảy lên một cách kỳ lạ trên bãi cỏ.",
+              "wordClass": "danh từ",
+              "level": "B1"
             },
             {
               "id": "es-shape-botar-votar-botar-w3",
@@ -490,7 +552,9 @@
               "reading": "/re.bo.ˈtaɾ/",
               "meaningVn": "nảy lại, dội lại",
               "example": "La pelota rebotó en la pared y volvió hacia mí.",
-              "exampleVn": "Quả bóng nảy vào tường rồi bật ngược lại về phía tôi."
+              "exampleVn": "Quả bóng nảy vào tường rồi bật ngược lại về phía tôi.",
+              "wordClass": "động từ",
+              "level": "B2"
             }
           ]
         },
@@ -506,7 +570,9 @@
               "reading": "/bo.ˈtaɾ/",
               "meaningVn": "bỏ phiếu",
               "example": "Todos los ciudadanos mayores de edad pueden votar.",
-              "exampleVn": "Tất cả công dân đủ tuổi đều có thể bỏ phiếu."
+              "exampleVn": "Tất cả công dân đủ tuổi đều có thể bỏ phiếu.",
+              "wordClass": "động từ",
+              "level": "B1"
             },
             {
               "id": "es-shape-botar-votar-votar-w2",
@@ -514,7 +580,9 @@
               "reading": "/ˈbo.to/",
               "meaningVn": "lá phiếu; lời thề",
               "example": "Cada voto cuenta en unas elecciones tan reñidas.",
-              "exampleVn": "Mỗi lá phiếu đều có giá trị trong một cuộc bầu cử sít sao như vậy."
+              "exampleVn": "Mỗi lá phiếu đều có giá trị trong một cuộc bầu cử sít sao như vậy.",
+              "wordClass": "danh từ",
+              "level": "B1"
             },
             {
               "id": "es-shape-botar-votar-votar-w3",
@@ -522,11 +590,14 @@
               "reading": "/bo.ta.ˈsjon/",
               "meaningVn": "cuộc bỏ phiếu, cuộc bầu cử",
               "example": "La votación se cerrará a las ocho de la noche.",
-              "exampleVn": "Cuộc bỏ phiếu sẽ kết thúc lúc tám giờ tối."
+              "exampleVn": "Cuộc bỏ phiếu sẽ kết thúc lúc tám giờ tối.",
+              "wordClass": "danh từ",
+              "level": "B2"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-cocer-coser",
@@ -548,7 +619,9 @@
               "reading": "/ko.ˈseɾ/",
               "meaningVn": "nấu chín, luộc",
               "example": "Hay que cocer las patatas durante veinte minutos.",
-              "exampleVn": "Phải luộc khoai tây trong hai mươi phút."
+              "exampleVn": "Phải luộc khoai tây trong hai mươi phút.",
+              "wordClass": "động từ",
+              "level": "B1"
             },
             {
               "id": "es-shape-cocer-coser-cocer-w2",
@@ -556,7 +629,9 @@
               "reading": "/ko.ˈsi.ðo/",
               "meaningVn": "món hầm truyền thống Tây Ban Nha; đã được nấu chín",
               "example": "El cocido madrileño lleva garbanzos, carne y verduras.",
-              "exampleVn": "Món cocido kiểu Madrid có đậu gà, thịt và rau củ."
+              "exampleVn": "Món cocido kiểu Madrid có đậu gà, thịt và rau củ.",
+              "wordClass": "danh từ",
+              "level": "B2"
             },
             {
               "id": "es-shape-cocer-coser-cocer-w3",
@@ -564,7 +639,9 @@
               "reading": "/kok.ˈsjon/",
               "meaningVn": "quá trình nấu chín",
               "example": "El tiempo de cocción depende del tipo de arroz.",
-              "exampleVn": "Thời gian nấu chín phụ thuộc vào loại gạo."
+              "exampleVn": "Thời gian nấu chín phụ thuộc vào loại gạo.",
+              "wordClass": "danh từ",
+              "level": "C1"
             }
           ]
         },
@@ -580,7 +657,9 @@
               "reading": "/ko.ˈseɾ/",
               "meaningVn": "khâu, may",
               "example": "Mi abuela me enseñó a coser cuando era niña.",
-              "exampleVn": "Bà tôi đã dạy tôi khâu vá khi tôi còn nhỏ."
+              "exampleVn": "Bà tôi đã dạy tôi khâu vá khi tôi còn nhỏ.",
+              "wordClass": "động từ",
+              "level": "B1"
             },
             {
               "id": "es-shape-cocer-coser-coser-w2",
@@ -588,7 +667,9 @@
               "reading": "/kos.ˈtu.ɾa/",
               "meaningVn": "nghề may, đường khâu",
               "example": "Estudió alta costura en una escuela de París.",
-              "exampleVn": "Cô ấy học ngành may cao cấp ở một trường tại Paris."
+              "exampleVn": "Cô ấy học ngành may cao cấp ở một trường tại Paris.",
+              "wordClass": "danh từ",
+              "level": "B2"
             },
             {
               "id": "es-shape-cocer-coser-coser-w3",
@@ -596,11 +677,14 @@
               "reading": "/ko.ˈsi.ðo/",
               "meaningVn": "đã được khâu, đã được may",
               "example": "El botón está mal cosido y se va a caer.",
-              "exampleVn": "Chiếc cúc bị khâu sai và sắp rơi ra."
+              "exampleVn": "Chiếc cúc bị khâu sai và sắp rơi ra.",
+              "wordClass": "tính từ",
+              "level": "B2"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-rebelar-revelar",
@@ -622,7 +706,9 @@
               "reading": "/re.βe.ˈlaɾ/",
               "meaningVn": "nổi loạn, chống đối",
               "example": "Los jóvenes decidieron rebelarse contra las normas injustas.",
-              "exampleVn": "Giới trẻ đã quyết định nổi loạn chống lại những quy tắc bất công."
+              "exampleVn": "Giới trẻ đã quyết định nổi loạn chống lại những quy tắc bất công.",
+              "wordClass": "động từ",
+              "level": "B2"
             },
             {
               "id": "es-shape-rebelar-revelar-rebelar-w2",
@@ -630,7 +716,9 @@
               "reading": "/re.ˈβel.de/",
               "meaningVn": "nổi loạn, phản kháng (tính từ/danh từ)",
               "example": "Siempre fue un adolescente rebelde y difícil de controlar.",
-              "exampleVn": "Cậu ấy luôn là một thiếu niên nổi loạn và khó kiểm soát."
+              "exampleVn": "Cậu ấy luôn là một thiếu niên nổi loạn và khó kiểm soát.",
+              "wordClass": "tính từ",
+              "level": "B1"
             },
             {
               "id": "es-shape-rebelar-revelar-rebelar-w3",
@@ -638,7 +726,9 @@
               "reading": "/re.βe.ˈljon/",
               "meaningVn": "cuộc nổi loạn, cuộc khởi nghĩa",
               "example": "La rebelión fue rápidamente sofocada por el ejército.",
-              "exampleVn": "Cuộc nổi loạn đã nhanh chóng bị quân đội dập tắt."
+              "exampleVn": "Cuộc nổi loạn đã nhanh chóng bị quân đội dập tắt.",
+              "wordClass": "danh từ",
+              "level": "B2"
             }
           ]
         },
@@ -654,7 +744,9 @@
               "reading": "/re.βe.ˈlaɾ/",
               "meaningVn": "tiết lộ, bộc lộ",
               "example": "El actor reveló el final de la película por error.",
-              "exampleVn": "Diễn viên đã vô tình tiết lộ đoạn kết của bộ phim."
+              "exampleVn": "Diễn viên đã vô tình tiết lộ đoạn kết của bộ phim.",
+              "wordClass": "động từ",
+              "level": "B1"
             },
             {
               "id": "es-shape-rebelar-revelar-revelar-w2",
@@ -662,7 +754,9 @@
               "reading": "/re.βe.la.ˈsjon/",
               "meaningVn": "sự tiết lộ, phát hiện gây bất ngờ",
               "example": "Su confesión fue la gran revelación de la noche.",
-              "exampleVn": "Lời thú nhận của anh ấy là phát hiện gây bất ngờ nhất trong đêm."
+              "exampleVn": "Lời thú nhận của anh ấy là phát hiện gây bất ngờ nhất trong đêm.",
+              "wordClass": "danh từ",
+              "level": "B2"
             },
             {
               "id": "es-shape-rebelar-revelar-revelar-w3",
@@ -670,11 +764,14 @@
               "reading": "/re.βe.la.ˈðoɾ/",
               "meaningVn": "mang tính tiết lộ, đầy tính chất bộc lộ",
               "example": "Los datos del estudio resultaron muy reveladores.",
-              "exampleVn": "Dữ liệu của nghiên cứu hóa ra rất có tính tiết lộ."
+              "exampleVn": "Dữ liệu của nghiên cứu hóa ra rất có tính tiết lộ.",
+              "wordClass": "tính từ",
+              "level": "C1"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-ay-hay-ahi",
@@ -696,7 +793,9 @@
               "reading": "/ai/",
               "meaningVn": "ôi, ối (thán từ)",
               "example": "¡Ay, me duele mucho el pie!",
-              "exampleVn": "Ối, chân tôi đau quá!"
+              "exampleVn": "Ối, chân tôi đau quá!",
+              "wordClass": "thán từ",
+              "level": "A2"
             }
           ]
         },
@@ -712,7 +811,9 @@
               "reading": "/ai/",
               "meaningVn": "có (vô nhân xưng)",
               "example": "Hay mucha gente esperando en la entrada.",
-              "exampleVn": "Có rất nhiều người đang chờ ở lối vào."
+              "exampleVn": "Có rất nhiều người đang chờ ở lối vào.",
+              "wordClass": "động từ",
+              "level": "A1"
             }
           ]
         },
@@ -728,11 +829,14 @@
               "reading": "/a.ˈi/",
               "meaningVn": "ở đó",
               "example": "Deja el paquete ahí, encima de la mesa.",
-              "exampleVn": "Để gói hàng ở đó, trên cái bàn."
+              "exampleVn": "Để gói hàng ở đó, trên cái bàn.",
+              "wordClass": "trạng từ",
+              "level": "A1"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-vaya-valla-baya",
@@ -754,7 +858,9 @@
               "reading": "/ˈba.ʝa/",
               "meaningVn": "đi (giả định); thật là",
               "example": "¡Vaya sorpresa encontrarte por aquí!",
-              "exampleVn": "Thật là bất ngờ khi gặp bạn ở đây!"
+              "exampleVn": "Thật là bất ngờ khi gặp bạn ở đây!",
+              "wordClass": "động từ",
+              "level": "B1"
             }
           ]
         },
@@ -770,7 +876,9 @@
               "reading": "/ˈba.ʝa/",
               "meaningVn": "hàng rào, biển quảng cáo",
               "example": "Pintaron la valla del jardín de color blanco.",
-              "exampleVn": "Họ đã sơn hàng rào của khu vườn màu trắng."
+              "exampleVn": "Họ đã sơn hàng rào của khu vườn màu trắng.",
+              "wordClass": "danh từ",
+              "level": "B1"
             }
           ]
         },
@@ -786,11 +894,14 @@
               "reading": "/ˈba.ʝa/",
               "meaningVn": "quả mọng",
               "example": "Estas bayas silvestres son perfectas para la mermelada.",
-              "exampleVn": "Những quả mọng dại này rất hợp để làm mứt."
+              "exampleVn": "Những quả mọng dại này rất hợp để làm mứt.",
+              "wordClass": "danh từ",
+              "level": "B2"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-porque-porque",
@@ -812,7 +923,9 @@
               "reading": "/poɾ.ˈke/",
               "meaningVn": "vì",
               "example": "No fui a la fiesta porque estaba muy cansado.",
-              "exampleVn": "Tôi đã không đi dự tiệc vì quá mệt."
+              "exampleVn": "Tôi đã không đi dự tiệc vì quá mệt.",
+              "wordClass": "liên từ",
+              "level": "A1"
             }
           ]
         },
@@ -828,7 +941,9 @@
               "reading": "/poɾ ˈke/",
               "meaningVn": "tại sao",
               "example": "¿Por qué llegaste tan tarde a la oficina?",
-              "exampleVn": "Tại sao bạn đến văn phòng muộn vậy?"
+              "exampleVn": "Tại sao bạn đến văn phòng muộn vậy?",
+              "wordClass": "cụm từ",
+              "level": "A1"
             }
           ]
         },
@@ -844,11 +959,14 @@
               "reading": "/el poɾ.ˈke/",
               "meaningVn": "lý do",
               "example": "Nadie entiende el porqué de su decisión repentina.",
-              "exampleVn": "Không ai hiểu lý do đằng sau quyết định đột ngột của anh ấy."
+              "exampleVn": "Không ai hiểu lý do đằng sau quyết định đột ngột của anh ấy.",
+              "wordClass": "danh từ",
+              "level": "B2"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-hola-ola",
@@ -870,7 +988,9 @@
               "reading": "/ˈo.la/",
               "meaningVn": "xin chào",
               "example": "¡Hola! ¿Cómo estás hoy?",
-              "exampleVn": "Xin chào! Hôm nay bạn thế nào?"
+              "exampleVn": "Xin chào! Hôm nay bạn thế nào?",
+              "wordClass": "thán từ",
+              "level": "A1"
             }
           ]
         },
@@ -886,7 +1006,9 @@
               "reading": "/ˈo.la/",
               "meaningVn": "con sóng",
               "example": "Una gran ola derribó el castillo de arena.",
-              "exampleVn": "Một con sóng lớn đã đánh sập tòa lâu đài cát."
+              "exampleVn": "Một con sóng lớn đã đánh sập tòa lâu đài cát.",
+              "wordClass": "danh từ",
+              "level": "A2"
             },
             {
               "id": "es-shape-hola-ola-ola-w2",
@@ -894,11 +1016,14 @@
               "reading": "/ˈo.la ðe ka.ˈloɾ/",
               "meaningVn": "đợt nắng nóng",
               "example": "Una intensa ola de calor afecta a todo el país esta semana.",
-              "exampleVn": "Một đợt nắng nóng gay gắt đang ảnh hưởng đến cả nước tuần này."
+              "exampleVn": "Một đợt nắng nóng gay gắt đang ảnh hưởng đến cả nước tuần này.",
+              "wordClass": "cụm từ",
+              "level": "B1"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-huso-uso",
@@ -920,7 +1045,9 @@
               "reading": "/ˈu.so o.ˈra.rjo/",
               "meaningVn": "múi giờ",
               "example": "España y Portugal están en husos horarios diferentes.",
-              "exampleVn": "Tây Ban Nha và Bồ Đào Nha nằm ở các múi giờ khác nhau."
+              "exampleVn": "Tây Ban Nha và Bồ Đào Nha nằm ở các múi giờ khác nhau.",
+              "wordClass": "cụm từ",
+              "level": "B2"
             }
           ]
         },
@@ -936,7 +1063,9 @@
               "reading": "/ˈu.so/",
               "meaningVn": "việc sử dụng",
               "example": "El uso excesivo del móvil puede afectar el sueño.",
-              "exampleVn": "Việc sử dụng điện thoại quá mức có thể ảnh hưởng đến giấc ngủ."
+              "exampleVn": "Việc sử dụng điện thoại quá mức có thể ảnh hưởng đến giấc ngủ.",
+              "wordClass": "danh từ",
+              "level": "A2"
             },
             {
               "id": "es-shape-huso-uso-uso-w2",
@@ -944,11 +1073,14 @@
               "reading": "/u.ˈswa.rjo/",
               "meaningVn": "người dùng",
               "example": "La aplicación ya tiene más de un millón de usuarios.",
-              "exampleVn": "Ứng dụng này đã có hơn một triệu người dùng."
+              "exampleVn": "Ứng dụng này đã có hơn một triệu người dùng.",
+              "wordClass": "danh từ",
+              "level": "B1"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-errar-herrar",
@@ -970,7 +1102,9 @@
               "reading": "/e.ˈraɾ/",
               "meaningVn": "phạm sai lầm, đi lang thang",
               "example": "Errar es humano, decía el viejo refrán.",
-              "exampleVn": "Sai lầm là bản chất con người, câu tục ngữ xưa đã nói vậy."
+              "exampleVn": "Sai lầm là bản chất con người, câu tục ngữ xưa đã nói vậy.",
+              "wordClass": "động từ",
+              "level": "B2"
             }
           ]
         },
@@ -986,11 +1120,14 @@
               "reading": "/e.ˈraɾ/",
               "meaningVn": "đóng móng ngựa",
               "example": "El herrero fue a herrar los caballos del rancho.",
-              "exampleVn": "Người thợ rèn đã đi đóng móng cho những con ngựa của trang trại."
+              "exampleVn": "Người thợ rèn đã đi đóng móng cho những con ngựa của trang trại.",
+              "wordClass": "động từ",
+              "level": "C2"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-rallar-rayar",
@@ -1012,7 +1149,9 @@
               "reading": "/ra.ˈʝaɾ/",
               "meaningVn": "bào, nạo",
               "example": "Hay que rallar el queso antes de añadirlo a la pasta.",
-              "exampleVn": "Cần bào phô mai trước khi cho vào món mì Ý."
+              "exampleVn": "Cần bào phô mai trước khi cho vào món mì Ý.",
+              "wordClass": "động từ",
+              "level": "B2"
             },
             {
               "id": "es-shape-rallar-rayar-rallar-w2",
@@ -1020,7 +1159,9 @@
               "reading": "/ra.ʝa.ˈðoɾ/",
               "meaningVn": "dụng cụ bào (danh từ)",
               "example": "Compré un rallador nuevo para hacer queso rallado.",
-              "exampleVn": "Tôi đã mua một dụng cụ bào mới để làm phô mai bào."
+              "exampleVn": "Tôi đã mua một dụng cụ bào mới để làm phô mai bào.",
+              "wordClass": "danh từ",
+              "level": "C1"
             }
           ]
         },
@@ -1036,7 +1177,9 @@
               "reading": "/ra.ˈʝaɾ/",
               "meaningVn": "kẻ vạch, làm trầy xước",
               "example": "Alguien rayó la puerta de mi coche en el estacionamiento.",
-              "exampleVn": "Ai đó đã làm trầy cửa xe của tôi ở bãi đỗ."
+              "exampleVn": "Ai đó đã làm trầy cửa xe của tôi ở bãi đỗ.",
+              "wordClass": "động từ",
+              "level": "B1"
             },
             {
               "id": "es-shape-rallar-rayar-rayar-w2",
@@ -1044,11 +1187,14 @@
               "reading": "/ˈra.ʝa/",
               "meaningVn": "vạch, đường kẻ (danh từ)",
               "example": "Dibujó una raya recta con la regla.",
-              "exampleVn": "Anh ấy đã vẽ một đường thẳng bằng thước kẻ."
+              "exampleVn": "Anh ấy đã vẽ một đường thẳng bằng thước kẻ.",
+              "wordClass": "danh từ",
+              "level": "B1"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-arrollo-arroyo",
@@ -1070,7 +1216,9 @@
               "reading": "/a.ro.ˈʝaɾ/",
               "meaningVn": "cán qua, đâm vào (xe)",
               "example": "El coche estuvo a punto de arrollar a un peatón.",
-              "exampleVn": "Chiếc xe suýt đâm vào một người đi bộ."
+              "exampleVn": "Chiếc xe suýt đâm vào một người đi bộ.",
+              "wordClass": "động từ",
+              "level": "B2"
             }
           ]
         },
@@ -1086,11 +1234,14 @@
               "reading": "/a.ˈro.ʝo/",
               "meaningVn": "con suối nhỏ",
               "example": "Los niños jugaban junto al arroyo del pueblo.",
-              "exampleVn": "Bọn trẻ chơi đùa bên con suối nhỏ của làng."
+              "exampleVn": "Bọn trẻ chơi đùa bên con suối nhỏ của làng.",
+              "wordClass": "danh từ",
+              "level": "B1"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-elcapital-lacapital",
@@ -1112,7 +1263,9 @@
               "reading": "/el ka.pi.ˈtal/",
               "meaningVn": "vốn, tiền vốn",
               "example": "Necesitan más capital para expandir el negocio.",
-              "exampleVn": "Họ cần thêm vốn để mở rộng việc kinh doanh."
+              "exampleVn": "Họ cần thêm vốn để mở rộng việc kinh doanh.",
+              "wordClass": "danh từ",
+              "level": "B1"
             }
           ]
         },
@@ -1128,11 +1281,14 @@
               "reading": "/la ka.pi.ˈtal/",
               "meaningVn": "thủ đô",
               "example": "Madrid es la capital de España.",
-              "exampleVn": "Madrid là thủ đô của Tây Ban Nha."
+              "exampleVn": "Madrid là thủ đô của Tây Ban Nha.",
+              "wordClass": "danh từ",
+              "level": "A2"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-elcura-lacura",
@@ -1154,7 +1310,9 @@
               "reading": "/el ˈku.ɾa/",
               "meaningVn": "linh mục",
               "example": "El cura del pueblo celebra misa todos los domingos.",
-              "exampleVn": "Vị linh mục của làng làm lễ mỗi chủ nhật."
+              "exampleVn": "Vị linh mục của làng làm lễ mỗi chủ nhật.",
+              "wordClass": "danh từ",
+              "level": "B1"
             }
           ]
         },
@@ -1170,11 +1328,14 @@
               "reading": "/la ˈku.ɾa/",
               "meaningVn": "việc chữa trị, phương thuốc",
               "example": "Los científicos buscan una cura para esa enfermedad.",
-              "exampleVn": "Các nhà khoa học đang tìm phương thuốc chữa căn bệnh đó."
+              "exampleVn": "Các nhà khoa học đang tìm phương thuốc chữa căn bệnh đó.",
+              "wordClass": "danh từ",
+              "level": "B1"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-elguia-laguia",
@@ -1196,7 +1357,9 @@
               "reading": "/el ˈɡi.a/",
               "meaningVn": "người hướng dẫn (nam)",
               "example": "El guía nos explicó la historia del castillo.",
-              "exampleVn": "Người hướng dẫn nam đã giải thích cho chúng tôi lịch sử của tòa lâu đài."
+              "exampleVn": "Người hướng dẫn nam đã giải thích cho chúng tôi lịch sử của tòa lâu đài.",
+              "wordClass": "danh từ",
+              "level": "A2"
             }
           ]
         },
@@ -1212,11 +1375,14 @@
               "reading": "/la ˈɡi.a/",
               "meaningVn": "người hướng dẫn (nữ); cuốn sách hướng dẫn",
               "example": "Compramos una guía turística antes del viaje.",
-              "exampleVn": "Chúng tôi đã mua một cuốn sách hướng dẫn du lịch trước chuyến đi."
+              "exampleVn": "Chúng tôi đã mua một cuốn sách hướng dẫn du lịch trước chuyến đi.",
+              "wordClass": "danh từ",
+              "level": "A2"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-elpolicia-lapolicia",
@@ -1238,7 +1404,9 @@
               "reading": "/el po.li.ˈsi.a/",
               "meaningVn": "viên cảnh sát (nam)",
               "example": "Un policía nos ayudó a encontrar el camino correcto.",
-              "exampleVn": "Một viên cảnh sát đã giúp chúng tôi tìm đúng đường."
+              "exampleVn": "Một viên cảnh sát đã giúp chúng tôi tìm đúng đường.",
+              "wordClass": "danh từ",
+              "level": "A2"
             }
           ]
         },
@@ -1254,11 +1422,14 @@
               "reading": "/la po.li.ˈsi.a/",
               "meaningVn": "lực lượng cảnh sát",
               "example": "Llamamos a la policía después del accidente.",
-              "exampleVn": "Chúng tôi đã gọi cảnh sát sau vụ tai nạn."
+              "exampleVn": "Chúng tôi đã gọi cảnh sát sau vụ tai nạn.",
+              "wordClass": "danh từ",
+              "level": "A2"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-elfrente-lafrente",
@@ -1280,7 +1451,9 @@
               "reading": "/el ˈfren.te/",
               "meaningVn": "mặt trận, phía trước",
               "example": "Los soldados fueron enviados al frente de batalla.",
-              "exampleVn": "Các binh sĩ đã được điều đến mặt trận chiến đấu."
+              "exampleVn": "Các binh sĩ đã được điều đến mặt trận chiến đấu.",
+              "wordClass": "danh từ",
+              "level": "B1"
             },
             {
               "id": "es-shape-elfrente-lafrente-el-w2",
@@ -1288,7 +1461,9 @@
               "reading": "/el ˈfren.te ˈfri.o/",
               "meaningVn": "khối không khí lạnh (thời tiết)",
               "example": "Un frente frío llegará a la región este fin de semana.",
-              "exampleVn": "Một khối không khí lạnh sẽ tràn đến khu vực này vào cuối tuần."
+              "exampleVn": "Một khối không khí lạnh sẽ tràn đến khu vực này vào cuối tuần.",
+              "wordClass": "cụm từ",
+              "level": "B2"
             }
           ]
         },
@@ -1304,11 +1479,14 @@
               "reading": "/la ˈfren.te/",
               "meaningVn": "trán",
               "example": "Le dio un beso en la frente antes de dormir.",
-              "exampleVn": "Anh ấy hôn lên trán cô trước khi đi ngủ."
+              "exampleVn": "Anh ấy hôn lên trán cô trước khi đi ngủ.",
+              "wordClass": "danh từ",
+              "level": "A2"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-elcometa-lacometa",
@@ -1330,7 +1508,9 @@
               "reading": "/el ko.ˈme.ta/",
               "meaningVn": "sao chổi",
               "example": "El cometa será visible en el cielo esta noche.",
-              "exampleVn": "Sao chổi sẽ có thể nhìn thấy trên bầu trời tối nay."
+              "exampleVn": "Sao chổi sẽ có thể nhìn thấy trên bầu trời tối nay.",
+              "wordClass": "danh từ",
+              "level": "B1"
             }
           ]
         },
@@ -1346,11 +1526,14 @@
               "reading": "/la ko.ˈme.ta/",
               "meaningVn": "cái diều",
               "example": "Los niños volaban una cometa en el parque.",
-              "exampleVn": "Bọn trẻ đang thả diều ở công viên."
+              "exampleVn": "Bọn trẻ đang thả diều ở công viên.",
+              "wordClass": "danh từ",
+              "level": "B1"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-hablo-hablo",
@@ -1372,7 +1555,9 @@
               "reading": "/ˈa.βlo/",
               "meaningVn": "tôi nói",
               "example": "Hablo tres idiomas: español, inglés y francés.",
-              "exampleVn": "Tôi nói được ba thứ tiếng: Tây Ban Nha, Anh và Pháp."
+              "exampleVn": "Tôi nói được ba thứ tiếng: Tây Ban Nha, Anh và Pháp.",
+              "wordClass": "động từ",
+              "level": "A1"
             }
           ]
         },
@@ -1388,11 +1573,14 @@
               "reading": "/a.ˈβlo/",
               "meaningVn": "anh/cô ấy đã nói",
               "example": "Ella habló con el director esta mañana.",
-              "exampleVn": "Cô ấy đã nói chuyện với giám đốc sáng nay."
+              "exampleVn": "Cô ấy đã nói chuyện với giám đốc sáng nay.",
+              "wordClass": "động từ",
+              "level": "A2"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-trabajo-trabajo",
@@ -1414,7 +1602,9 @@
               "reading": "/tra.ˈβa.xo/",
               "meaningVn": "công việc; tôi làm việc",
               "example": "Mi trabajo empieza a las nueve de la mañana.",
-              "exampleVn": "Công việc của tôi bắt đầu lúc chín giờ sáng."
+              "exampleVn": "Công việc của tôi bắt đầu lúc chín giờ sáng.",
+              "wordClass": "danh từ",
+              "level": "A1"
             }
           ]
         },
@@ -1430,11 +1620,14 @@
               "reading": "/tra.βa.ˈxo/",
               "meaningVn": "anh/cô ấy đã làm việc",
               "example": "Trabajó como enfermera durante quince años.",
-              "exampleVn": "Cô ấy đã làm y tá trong suốt mười lăm năm."
+              "exampleVn": "Cô ấy đã làm y tá trong suốt mười lăm năm.",
+              "wordClass": "động từ",
+              "level": "A2"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-continuo-triple",
@@ -1456,7 +1649,9 @@
               "reading": "/kon.ˈti.nwo/",
               "meaningVn": "liên tục (tính từ)",
               "example": "El ruido continuo del tráfico no lo dejaba dormir.",
-              "exampleVn": "Tiếng ồn liên tục của giao thông khiến anh ấy không ngủ được."
+              "exampleVn": "Tiếng ồn liên tục của giao thông khiến anh ấy không ngủ được.",
+              "wordClass": "tính từ",
+              "level": "B1"
             }
           ]
         },
@@ -1472,7 +1667,9 @@
               "reading": "/kon.ti.ˈnu.o/",
               "meaningVn": "tôi tiếp tục",
               "example": "Continúo mis estudios el próximo semestre.",
-              "exampleVn": "Tôi sẽ tiếp tục việc học của mình vào học kỳ tới."
+              "exampleVn": "Tôi sẽ tiếp tục việc học của mình vào học kỳ tới.",
+              "wordClass": "động từ",
+              "level": "B1"
             }
           ]
         },
@@ -1488,11 +1685,14 @@
               "reading": "/kon.ti.nu.ˈo/",
               "meaningVn": "anh/cô ấy đã tiếp tục",
               "example": "Continuó trabajando a pesar de la lluvia.",
-              "exampleVn": "Anh ấy vẫn tiếp tục làm việc bất chấp trời mưa."
+              "exampleVn": "Anh ấy vẫn tiếp tục làm việc bất chấp trời mưa.",
+              "wordClass": "động từ",
+              "level": "A2"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-practico-triple",
@@ -1514,7 +1714,9 @@
               "reading": "/ˈprak.ti.ko/",
               "meaningVn": "thực tế, thực dụng",
               "example": "Es un consejo muy práctico para el día a día.",
-              "exampleVn": "Đó là một lời khuyên rất thực tế cho cuộc sống hằng ngày."
+              "exampleVn": "Đó là một lời khuyên rất thực tế cho cuộc sống hằng ngày.",
+              "wordClass": "tính từ",
+              "level": "A2"
             }
           ]
         },
@@ -1530,7 +1732,9 @@
               "reading": "/prak.ˈti.ko/",
               "meaningVn": "tôi luyện tập",
               "example": "Practico yoga todas las mañanas antes del trabajo.",
-              "exampleVn": "Tôi tập yoga mỗi sáng trước khi đi làm."
+              "exampleVn": "Tôi tập yoga mỗi sáng trước khi đi làm.",
+              "wordClass": "động từ",
+              "level": "A2"
             }
           ]
         },
@@ -1546,11 +1750,14 @@
               "reading": "/prak.ti.ˈko/",
               "meaningVn": "anh/cô ấy đã luyện tập",
               "example": "Practicó piano durante cinco horas seguidas.",
-              "exampleVn": "Cô ấy đã luyện đàn piano suốt năm tiếng liền."
+              "exampleVn": "Cô ấy đã luyện đàn piano suốt năm tiếng liền.",
+              "wordClass": "động từ",
+              "level": "A2"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-animo-triple",
@@ -1572,7 +1779,9 @@
               "reading": "/ˈa.ni.mo/",
               "meaningVn": "tinh thần, khí thế",
               "example": "¡Ánimo, ya casi terminamos el proyecto!",
-              "exampleVn": "Cố lên, chúng ta sắp hoàn thành dự án rồi!"
+              "exampleVn": "Cố lên, chúng ta sắp hoàn thành dự án rồi!",
+              "wordClass": "danh từ",
+              "level": "B1"
             }
           ]
         },
@@ -1588,7 +1797,9 @@
               "reading": "/a.ˈni.mo/",
               "meaningVn": "tôi động viên",
               "example": "Siempre animo a mis amigos cuando están tristes.",
-              "exampleVn": "Tôi luôn động viên bạn bè khi họ buồn."
+              "exampleVn": "Tôi luôn động viên bạn bè khi họ buồn.",
+              "wordClass": "động từ",
+              "level": "B1"
             }
           ]
         },
@@ -1604,11 +1815,14 @@
               "reading": "/a.ni.ˈmo/",
               "meaningVn": "anh/cô ấy đã động viên",
               "example": "El entrenador animó al equipo antes del partido final.",
-              "exampleVn": "Huấn luyện viên đã động viên đội trước trận chung kết."
+              "exampleVn": "Huấn luyện viên đã động viên đội trước trận chung kết.",
+              "wordClass": "động từ",
+              "level": "B1"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-numero-triple",
@@ -1630,7 +1844,9 @@
               "reading": "/ˈnu.me.ɾo/",
               "meaningVn": "con số, số lượng",
               "example": "El número de estudiantes aumentó este año.",
-              "exampleVn": "Số lượng sinh viên đã tăng lên trong năm nay."
+              "exampleVn": "Số lượng sinh viên đã tăng lên trong năm nay.",
+              "wordClass": "danh từ",
+              "level": "A1"
             }
           ]
         },
@@ -1646,7 +1862,9 @@
               "reading": "/nu.ˈme.ɾo/",
               "meaningVn": "tôi đánh số",
               "example": "Siempre numero las páginas antes de imprimir.",
-              "exampleVn": "Tôi luôn đánh số trang trước khi in."
+              "exampleVn": "Tôi luôn đánh số trang trước khi in.",
+              "wordClass": "động từ",
+              "level": "B1"
             }
           ]
         },
@@ -1662,11 +1880,14 @@
               "reading": "/nu.me.ˈɾo/",
               "meaningVn": "anh/cô ấy đã đánh số",
               "example": "El bibliotecario numeró todos los libros nuevos.",
-              "exampleVn": "Người thủ thư đã đánh số tất cả sách mới."
+              "exampleVn": "Người thủ thư đã đánh số tất cả sách mới.",
+              "wordClass": "động từ",
+              "level": "B1"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-pero-perro",
@@ -1688,7 +1909,9 @@
               "reading": "/ˈpe.ɾo/",
               "meaningVn": "nhưng",
               "example": "Quiero ir a la fiesta, pero tengo que estudiar.",
-              "exampleVn": "Tôi muốn đi dự tiệc, nhưng tôi phải học bài."
+              "exampleVn": "Tôi muốn đi dự tiệc, nhưng tôi phải học bài.",
+              "wordClass": "liên từ",
+              "level": "A1"
             }
           ]
         },
@@ -1704,11 +1927,14 @@
               "reading": "/ˈpe.ro/",
               "meaningVn": "con chó",
               "example": "Mi perro me espera todos los días en la puerta.",
-              "exampleVn": "Con chó của tôi chờ tôi ở cửa mỗi ngày."
+              "exampleVn": "Con chó của tôi chờ tôi ở cửa mỗi ngày.",
+              "wordClass": "danh từ",
+              "level": "A1"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-coro-corro",
@@ -1730,7 +1956,9 @@
               "reading": "/ˈko.ɾo/",
               "meaningVn": "dàn hợp xướng",
               "example": "Canta en el coro de la iglesia desde niña.",
-              "exampleVn": "Cô ấy hát trong dàn hợp xướng nhà thờ từ nhỏ."
+              "exampleVn": "Cô ấy hát trong dàn hợp xướng nhà thờ từ nhỏ.",
+              "wordClass": "danh từ",
+              "level": "B1"
             }
           ]
         },
@@ -1746,11 +1974,14 @@
               "reading": "/ˈko.ro/",
               "meaningVn": "tôi chạy",
               "example": "Corro cinco kilómetros todas las mañanas.",
-              "exampleVn": "Tôi chạy năm ki-lô-mét mỗi sáng."
+              "exampleVn": "Tôi chạy năm ki-lô-mét mỗi sáng.",
+              "wordClass": "động từ",
+              "level": "A1"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-foro-forro",
@@ -1772,7 +2003,9 @@
               "reading": "/ˈfo.ɾo/",
               "meaningVn": "diễn đàn",
               "example": "Participó en un foro sobre inteligencia artificial.",
-              "exampleVn": "Anh ấy đã tham gia một diễn đàn về trí tuệ nhân tạo."
+              "exampleVn": "Anh ấy đã tham gia một diễn đàn về trí tuệ nhân tạo.",
+              "wordClass": "danh từ",
+              "level": "B1"
             }
           ]
         },
@@ -1788,11 +2021,14 @@
               "reading": "/ˈfo.ro/",
               "meaningVn": "lớp lót, vỏ bọc",
               "example": "Esta chaqueta tiene un forro muy cálido.",
-              "exampleVn": "Chiếc áo khoác này có lớp lót rất ấm."
+              "exampleVn": "Chiếc áo khoác này có lớp lót rất ấm.",
+              "wordClass": "danh từ",
+              "level": "B2"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-ahora-ahorra",
@@ -1814,7 +2050,9 @@
               "reading": "/a.ˈo.ɾa/",
               "meaningVn": "bây giờ",
               "example": "Ahora no es el mejor momento para hablar.",
-              "exampleVn": "Bây giờ không phải là thời điểm tốt nhất để nói chuyện."
+              "exampleVn": "Bây giờ không phải là thời điểm tốt nhất để nói chuyện.",
+              "wordClass": "trạng từ",
+              "level": "A1"
             }
           ]
         },
@@ -1830,11 +2068,14 @@
               "reading": "/a.ˈo.ra/",
               "meaningVn": "anh/cô ấy tiết kiệm",
               "example": "Ella ahorra una parte de su sueldo cada mes.",
-              "exampleVn": "Cô ấy tiết kiệm một phần lương mỗi tháng."
+              "exampleVn": "Cô ấy tiết kiệm một phần lương mỗi tháng.",
+              "wordClass": "động từ",
+              "level": "A2"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-caro-carro",
@@ -1856,7 +2097,9 @@
               "reading": "/ˈka.ɾo/",
               "meaningVn": "đắt tiền",
               "example": "Ese restaurante es demasiado caro para nosotros.",
-              "exampleVn": "Nhà hàng đó quá đắt đối với chúng tôi."
+              "exampleVn": "Nhà hàng đó quá đắt đối với chúng tôi.",
+              "wordClass": "tính từ",
+              "level": "A1"
             }
           ]
         },
@@ -1872,11 +2115,14 @@
               "reading": "/ˈka.ro/",
               "meaningVn": "xe hơi, xe kéo",
               "example": "Compró un carro nuevo el mes pasado.",
-              "exampleVn": "Anh ấy đã mua một chiếc xe hơi mới tháng trước."
+              "exampleVn": "Anh ấy đã mua một chiếc xe hơi mới tháng trước.",
+              "wordClass": "danh từ",
+              "level": "A1"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-pera-perra",
@@ -1898,7 +2144,9 @@
               "reading": "/ˈpe.ɾa/",
               "meaningVn": "quả lê",
               "example": "Compré peras y manzanas en el mercado.",
-              "exampleVn": "Tôi đã mua lê và táo ở chợ."
+              "exampleVn": "Tôi đã mua lê và táo ở chợ.",
+              "wordClass": "danh từ",
+              "level": "A1"
             }
           ]
         },
@@ -1914,11 +2162,14 @@
               "reading": "/ˈpe.ra/",
               "meaningVn": "con chó cái",
               "example": "Mi vecina tiene una perra muy cariñosa.",
-              "exampleVn": "Hàng xóm của tôi có một con chó cái rất tình cảm."
+              "exampleVn": "Hàng xóm của tôi có một con chó cái rất tình cảm.",
+              "wordClass": "danh từ",
+              "level": "A2"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-mano-mono",
@@ -1940,7 +2191,9 @@
               "reading": "/ˈma.no/",
               "meaningVn": "bàn tay",
               "example": "Se lastimó la mano jugando al baloncesto.",
-              "exampleVn": "Anh ấy đã làm đau bàn tay khi chơi bóng rổ."
+              "exampleVn": "Anh ấy đã làm đau bàn tay khi chơi bóng rổ.",
+              "wordClass": "danh từ",
+              "level": "A1"
             }
           ]
         },
@@ -1956,11 +2209,14 @@
               "reading": "/ˈmo.no/",
               "meaningVn": "con khỉ",
               "example": "El mono saltaba de rama en rama en el zoológico.",
-              "exampleVn": "Con khỉ nhảy từ cành này sang cành khác trong sở thú."
+              "exampleVn": "Con khỉ nhảy từ cành này sang cành khác trong sở thú.",
+              "wordClass": "danh từ",
+              "level": "A1"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-cama-coma",
@@ -1982,7 +2238,9 @@
               "reading": "/ˈka.ma/",
               "meaningVn": "giường",
               "example": "Hizo la cama antes de ir a trabajar.",
-              "exampleVn": "Anh ấy đã dọn giường trước khi đi làm."
+              "exampleVn": "Anh ấy đã dọn giường trước khi đi làm.",
+              "wordClass": "danh từ",
+              "level": "A1"
             }
           ]
         },
@@ -1998,11 +2256,14 @@
               "reading": "/ˈko.ma/",
               "meaningVn": "hôn mê; dấu phẩy",
               "example": "El paciente estuvo en coma durante tres semanas.",
-              "exampleVn": "Bệnh nhân đã hôn mê trong ba tuần."
+              "exampleVn": "Bệnh nhân đã hôn mê trong ba tuần.",
+              "wordClass": "danh từ",
+              "level": "B1"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-camino-comino",
@@ -2024,7 +2285,9 @@
               "reading": "/ka.ˈmi.no/",
               "meaningVn": "con đường",
               "example": "Este camino lleva directamente al pueblo.",
-              "exampleVn": "Con đường này dẫn thẳng đến ngôi làng."
+              "exampleVn": "Con đường này dẫn thẳng đến ngôi làng.",
+              "wordClass": "danh từ",
+              "level": "A2"
             }
           ]
         },
@@ -2040,11 +2303,14 @@
               "reading": "/ko.ˈmi.no/",
               "meaningVn": "hạt thì là Ai Cập",
               "example": "Añade una pizca de comino al guiso.",
-              "exampleVn": "Thêm một chút hạt thì là Ai Cập vào món hầm."
+              "exampleVn": "Thêm một chút hạt thì là Ai Cập vào món hầm.",
+              "wordClass": "danh từ",
+              "level": "C1"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-pito-pato",
@@ -2066,7 +2332,9 @@
               "reading": "/ˈpi.to/",
               "meaningVn": "còi, tiếng huýt sáo",
               "example": "El árbitro tocó el pito para señalar la falta.",
-              "exampleVn": "Trọng tài thổi còi để báo lỗi."
+              "exampleVn": "Trọng tài thổi còi để báo lỗi.",
+              "wordClass": "danh từ",
+              "level": "B1"
             }
           ]
         },
@@ -2082,11 +2350,14 @@
               "reading": "/ˈpa.to/",
               "meaningVn": "con vịt",
               "example": "Los patos nadaban tranquilamente en el lago.",
-              "exampleVn": "Những con vịt bơi lội yên bình trên hồ."
+              "exampleVn": "Những con vịt bơi lội yên bình trên hồ.",
+              "wordClass": "danh từ",
+              "level": "A2"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-poso-peso",
@@ -2108,7 +2379,9 @@
               "reading": "/ˈpo.so/",
               "meaningVn": "cặn lắng",
               "example": "No te bebas el poso del café.",
-              "exampleVn": "Đừng uống phần cặn lắng của cà phê."
+              "exampleVn": "Đừng uống phần cặn lắng của cà phê.",
+              "wordClass": "danh từ",
+              "level": "C1"
             }
           ]
         },
@@ -2124,11 +2397,14 @@
               "reading": "/ˈpe.so/",
               "meaningVn": "trọng lượng",
               "example": "El paquete tiene un peso de dos kilos.",
-              "exampleVn": "Gói hàng có trọng lượng hai ki-lô-gam."
+              "exampleVn": "Gói hàng có trọng lượng hai ki-lô-gam.",
+              "wordClass": "danh từ",
+              "level": "A2"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-seco-saco",
@@ -2150,7 +2426,9 @@
               "reading": "/ˈse.ko/",
               "meaningVn": "khô",
               "example": "El clima es muy seco en esta región.",
-              "exampleVn": "Khí hậu ở vùng này rất khô."
+              "exampleVn": "Khí hậu ở vùng này rất khô.",
+              "wordClass": "tính từ",
+              "level": "A2"
             }
           ]
         },
@@ -2166,11 +2444,14 @@
               "reading": "/ˈsa.ko/",
               "meaningVn": "cái bao, cái túi",
               "example": "Llenaron el saco con patatas recién cosechadas.",
-              "exampleVn": "Họ đã đổ đầy khoai tây mới thu hoạch vào cái bao."
+              "exampleVn": "Họ đã đổ đầy khoai tây mới thu hoạch vào cái bao.",
+              "wordClass": "danh từ",
+              "level": "A2"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-como-como",
@@ -2192,7 +2473,9 @@
               "reading": "/ˈko.mo/",
               "meaningVn": "như thế nào",
               "example": "¿Cómo llegaste tan rápido a casa?",
-              "exampleVn": "Làm sao mà bạn về nhà nhanh vậy?"
+              "exampleVn": "Làm sao mà bạn về nhà nhanh vậy?",
+              "wordClass": "trạng từ",
+              "level": "A1"
             }
           ]
         },
@@ -2208,11 +2491,14 @@
               "reading": "/ˈko.mo/",
               "meaningVn": "như, vì",
               "example": "Como llovía, decidimos quedarnos en casa.",
-              "exampleVn": "Vì trời mưa nên chúng tôi đã quyết định ở nhà."
+              "exampleVn": "Vì trời mưa nên chúng tôi đã quyết định ở nhà.",
+              "wordClass": "liên từ",
+              "level": "A1"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-cuando-cuando",
@@ -2234,7 +2520,9 @@
               "reading": "/ˈkwan.do/",
               "meaningVn": "khi nào",
               "example": "¿Cuándo vas a terminar el informe?",
-              "exampleVn": "Khi nào bạn sẽ hoàn thành báo cáo?"
+              "exampleVn": "Khi nào bạn sẽ hoàn thành báo cáo?",
+              "wordClass": "trạng từ",
+              "level": "A1"
             }
           ]
         },
@@ -2250,11 +2538,14 @@
               "reading": "/ˈkwan.do/",
               "meaningVn": "khi",
               "example": "Te llamaré cuando llegue a la oficina.",
-              "exampleVn": "Tôi sẽ gọi cho bạn khi tôi đến văn phòng."
+              "exampleVn": "Tôi sẽ gọi cho bạn khi tôi đến văn phòng.",
+              "wordClass": "liên từ",
+              "level": "A1"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-donde-donde",
@@ -2276,7 +2567,9 @@
               "reading": "/ˈdon.de/",
               "meaningVn": "ở đâu",
               "example": "¿Dónde dejaste las llaves del coche?",
-              "exampleVn": "Bạn để chìa khóa xe ở đâu vậy?"
+              "exampleVn": "Bạn để chìa khóa xe ở đâu vậy?",
+              "wordClass": "trạng từ",
+              "level": "A1"
             }
           ]
         },
@@ -2292,11 +2585,14 @@
               "reading": "/ˈdon.de/",
               "meaningVn": "nơi mà",
               "example": "Este es el pueblo donde nací.",
-              "exampleVn": "Đây là ngôi làng nơi tôi sinh ra."
+              "exampleVn": "Đây là ngôi làng nơi tôi sinh ra.",
+              "wordClass": "trạng từ",
+              "level": "A1"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-quien-quien",
@@ -2318,7 +2614,9 @@
               "reading": "/kjen/",
               "meaningVn": "ai",
               "example": "¿Quién te dio esa información?",
-              "exampleVn": "Ai đã cho bạn thông tin đó?"
+              "exampleVn": "Ai đã cho bạn thông tin đó?",
+              "wordClass": "đại từ",
+              "level": "A1"
             }
           ]
         },
@@ -2334,11 +2632,14 @@
               "reading": "/kjen/",
               "meaningVn": "người mà",
               "example": "Fue mi abuela quien me enseñó a cocinar.",
-              "exampleVn": "Chính bà tôi là người đã dạy tôi nấu ăn."
+              "exampleVn": "Chính bà tôi là người đã dạy tôi nấu ăn.",
+              "wordClass": "đại từ",
+              "level": "A2"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-cuanto-cuanto",
@@ -2360,7 +2661,9 @@
               "reading": "/ˈkwan.to/",
               "meaningVn": "bao nhiêu",
               "example": "¿Cuánto cuesta esta chaqueta?",
-              "exampleVn": "Chiếc áo khoác này giá bao nhiêu?"
+              "exampleVn": "Chiếc áo khoác này giá bao nhiêu?",
+              "wordClass": "trạng từ",
+              "level": "A1"
             }
           ]
         },
@@ -2376,11 +2679,14 @@
               "reading": "/ˈkwan.to/",
               "meaningVn": "tất cả những gì",
               "example": "Te ayudaré en cuanto pueda.",
-              "exampleVn": "Tôi sẽ giúp bạn ngay khi có thể."
+              "exampleVn": "Tôi sẽ giúp bạn ngay khi có thể.",
+              "wordClass": "đại từ",
+              "level": "B2"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-cual-cual",
@@ -2402,7 +2708,9 @@
               "reading": "/kwal/",
               "meaningVn": "cái nào",
               "example": "¿Cuál de estos dos vestidos prefieres?",
-              "exampleVn": "Bạn thích cái nào trong hai chiếc váy này?"
+              "exampleVn": "Bạn thích cái nào trong hai chiếc váy này?",
+              "wordClass": "đại từ",
+              "level": "A1"
             }
           ]
         },
@@ -2418,11 +2726,14 @@
               "reading": "/kwal/",
               "meaningVn": "mà (đại từ quan hệ)",
               "example": "La casa, la cual compramos el año pasado, ya está reformada.",
-              "exampleVn": "Ngôi nhà mà chúng tôi mua năm ngoái nay đã được cải tạo xong."
+              "exampleVn": "Ngôi nhà mà chúng tôi mua năm ngoái nay đã được cải tạo xong.",
+              "wordClass": "đại từ",
+              "level": "B1"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-busco-busque",
@@ -2444,7 +2755,9 @@
               "reading": "/ˈbus.ko/",
               "meaningVn": "tôi tìm",
               "example": "Busco mis llaves por toda la casa.",
-              "exampleVn": "Tôi tìm chìa khóa khắp nhà."
+              "exampleVn": "Tôi tìm chìa khóa khắp nhà.",
+              "wordClass": "động từ",
+              "level": "A1"
             }
           ]
         },
@@ -2460,11 +2773,14 @@
               "reading": "/bus.ˈke/",
               "meaningVn": "tôi đã tìm",
               "example": "Busqué el documento durante horas.",
-              "exampleVn": "Tôi đã tìm tài liệu đó suốt nhiều giờ."
+              "exampleVn": "Tôi đã tìm tài liệu đó suốt nhiều giờ.",
+              "wordClass": "động từ",
+              "level": "A2"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-toco-toque",
@@ -2486,7 +2802,9 @@
               "reading": "/ˈto.ko/",
               "meaningVn": "tôi chạm, tôi chơi",
               "example": "Toco el piano desde que tenía siete años.",
-              "exampleVn": "Tôi chơi piano từ khi bảy tuổi."
+              "exampleVn": "Tôi chơi piano từ khi bảy tuổi.",
+              "wordClass": "động từ",
+              "level": "A2"
             }
           ]
         },
@@ -2502,11 +2820,14 @@
               "reading": "/to.ˈke/",
               "meaningVn": "tôi đã chạm, đã chơi",
               "example": "Toqué el violín en el concierto de anoche.",
-              "exampleVn": "Tối qua tôi đã chơi vĩ cầm trong buổi hòa nhạc."
+              "exampleVn": "Tối qua tôi đã chơi vĩ cầm trong buổi hòa nhạc.",
+              "wordClass": "động từ",
+              "level": "A2"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-pago-pague",
@@ -2528,7 +2849,9 @@
               "reading": "/ˈpa.ɣo/",
               "meaningVn": "tôi trả tiền",
               "example": "Siempre pago la cuenta con tarjeta.",
-              "exampleVn": "Tôi luôn trả hóa đơn bằng thẻ."
+              "exampleVn": "Tôi luôn trả hóa đơn bằng thẻ.",
+              "wordClass": "động từ",
+              "level": "A1"
             }
           ]
         },
@@ -2544,11 +2867,14 @@
               "reading": "/pa.ˈɣe/",
               "meaningVn": "tôi đã trả tiền",
               "example": "Pagué la matrícula la semana pasada.",
-              "exampleVn": "Tuần trước tôi đã đóng học phí."
+              "exampleVn": "Tuần trước tôi đã đóng học phí.",
+              "wordClass": "động từ",
+              "level": "A2"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-juego-jugue",
@@ -2570,7 +2896,9 @@
               "reading": "/ˈxwe.ɣo/",
               "meaningVn": "tôi chơi",
               "example": "Juego al tenis todos los domingos.",
-              "exampleVn": "Tôi chơi quần vợt vào mỗi chủ nhật."
+              "exampleVn": "Tôi chơi quần vợt vào mỗi chủ nhật.",
+              "wordClass": "động từ",
+              "level": "A1"
             }
           ]
         },
@@ -2586,11 +2914,14 @@
               "reading": "/xu.ˈɣe/",
               "meaningVn": "tôi đã chơi",
               "example": "Jugué al ajedrez con mi abuelo ayer.",
-              "exampleVn": "Hôm qua tôi đã chơi cờ vua với ông tôi."
+              "exampleVn": "Hôm qua tôi đã chơi cờ vua với ông tôi.",
+              "wordClass": "động từ",
+              "level": "A2"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-abrazo-abrace",
@@ -2612,7 +2943,9 @@
               "reading": "/a.ˈβra.so/",
               "meaningVn": "tôi ôm; cái ôm",
               "example": "Siempre abrazo a mi madre cuando llego a casa.",
-              "exampleVn": "Tôi luôn ôm mẹ mỗi khi về đến nhà."
+              "exampleVn": "Tôi luôn ôm mẹ mỗi khi về đến nhà.",
+              "wordClass": "danh từ",
+              "level": "A2"
             }
           ]
         },
@@ -2628,11 +2961,14 @@
               "reading": "/a.βra.ˈse/",
               "meaningVn": "tôi đã ôm",
               "example": "La abracé fuerte antes de despedirnos.",
-              "exampleVn": "Tôi đã ôm cô ấy thật chặt trước khi chia tay."
+              "exampleVn": "Tôi đã ôm cô ấy thật chặt trước khi chia tay.",
+              "wordClass": "động từ",
+              "level": "A2"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-empiezo-empece",
@@ -2654,7 +2990,9 @@
               "reading": "/em.ˈpje.so/",
               "meaningVn": "tôi bắt đầu",
               "example": "Empiezo a trabajar a las ocho de la mañana.",
-              "exampleVn": "Tôi bắt đầu làm việc lúc tám giờ sáng."
+              "exampleVn": "Tôi bắt đầu làm việc lúc tám giờ sáng.",
+              "wordClass": "động từ",
+              "level": "A1"
             }
           ]
         },
@@ -2670,11 +3008,14 @@
               "reading": "/em.pe.ˈse/",
               "meaningVn": "tôi đã bắt đầu",
               "example": "Empecé mis estudios de español hace dos años.",
-              "exampleVn": "Tôi đã bắt đầu học tiếng Tây Ban Nha cách đây hai năm."
+              "exampleVn": "Tôi đã bắt đầu học tiếng Tây Ban Nha cách đây hai năm.",
+              "wordClass": "động từ",
+              "level": "A2"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-tambien-tanbien",
@@ -2696,7 +3037,9 @@
               "reading": "/tam.ˈbjen/",
               "meaningVn": "cũng",
               "example": "Yo también quiero ir al cine esta noche.",
-              "exampleVn": "Tôi cũng muốn đi xem phim tối nay."
+              "exampleVn": "Tôi cũng muốn đi xem phim tối nay.",
+              "wordClass": "trạng từ",
+              "level": "A1"
             }
           ]
         },
@@ -2712,11 +3055,14 @@
               "reading": "/tam ˈbjen/",
               "meaningVn": "tốt đến vậy",
               "example": "Nunca había cocinado tan bien como hoy.",
-              "exampleVn": "Cô ấy chưa bao giờ nấu ăn ngon đến vậy như hôm nay."
+              "exampleVn": "Cô ấy chưa bao giờ nấu ăn ngon đến vậy như hôm nay.",
+              "wordClass": "cụm từ",
+              "level": "B1"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-tampoco-tanpoco",
@@ -2738,7 +3084,9 @@
               "reading": "/tam.ˈpo.ko/",
               "meaningVn": "cũng không",
               "example": "No fui a la fiesta y él tampoco fue.",
-              "exampleVn": "Tôi đã không đi dự tiệc và anh ấy cũng không đi."
+              "exampleVn": "Tôi đã không đi dự tiệc và anh ấy cũng không đi.",
+              "wordClass": "trạng từ",
+              "level": "A2"
             }
           ]
         },
@@ -2754,11 +3102,14 @@
               "reading": "/tam ˈpo.ko/",
               "meaningVn": "ít đến vậy",
               "example": "Nunca había ganado tan poco dinero en un mes.",
-              "exampleVn": "Anh ấy chưa bao giờ kiếm được ít tiền đến vậy trong một tháng."
+              "exampleVn": "Anh ấy chưa bao giờ kiếm được ít tiền đến vậy trong một tháng.",
+              "wordClass": "cụm từ",
+              "level": "B1"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-sino-sino",
@@ -2780,7 +3131,9 @@
               "reading": "/ˈsi.no/",
               "meaningVn": "mà là",
               "example": "No quiero café, sino té.",
-              "exampleVn": "Tôi không muốn cà phê, mà là trà."
+              "exampleVn": "Tôi không muốn cà phê, mà là trà.",
+              "wordClass": "liên từ",
+              "level": "B1"
             }
           ]
         },
@@ -2796,11 +3149,14 @@
               "reading": "/si no/",
               "meaningVn": "nếu không",
               "example": "Si no llueve, iremos a la playa.",
-              "exampleVn": "Nếu không mưa, chúng tôi sẽ đi biển."
+              "exampleVn": "Nếu không mưa, chúng tôi sẽ đi biển.",
+              "wordClass": "cụm từ",
+              "level": "B1"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-porvenir-porvenir",
@@ -2822,7 +3178,9 @@
               "reading": "/poɾ.βe.ˈniɾ/",
               "meaningVn": "tương lai",
               "example": "Los jóvenes deben pensar en su porvenir.",
-              "exampleVn": "Giới trẻ nên nghĩ về tương lai của mình."
+              "exampleVn": "Giới trẻ nên nghĩ về tương lai của mình.",
+              "wordClass": "danh từ",
+              "level": "B2"
             }
           ]
         },
@@ -2838,11 +3196,14 @@
               "reading": "/poɾ βe.ˈniɾ/",
               "meaningVn": "sắp tới, chưa đến",
               "example": "Los mejores días están aún por venir.",
-              "exampleVn": "Những ngày tốt đẹp nhất vẫn chưa đến."
+              "exampleVn": "Những ngày tốt đẹp nhất vẫn chưa đến.",
+              "wordClass": "cụm từ",
+              "level": "B2"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-conque-conque",
@@ -2864,7 +3225,9 @@
               "reading": "/ˈkoŋ.ke/",
               "meaningVn": "vậy thì",
               "example": "¿Conque no vas a venir a la fiesta?",
-              "exampleVn": "Vậy là cậu sẽ không đến dự tiệc à?"
+              "exampleVn": "Vậy là cậu sẽ không đến dự tiệc à?",
+              "wordClass": "liên từ",
+              "level": "C1"
             }
           ]
         },
@@ -2880,11 +3243,14 @@
               "reading": "/kon ke/",
               "meaningVn": "với cái mà",
               "example": "El bolígrafo con que escribo es de mi padre.",
-              "exampleVn": "Cây bút mà tôi dùng để viết là của bố tôi."
+              "exampleVn": "Cây bút mà tôi dùng để viết là của bố tôi.",
+              "wordClass": "cụm từ",
+              "level": "C1"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-quehacer-quehacer",
@@ -2906,7 +3272,9 @@
               "reading": "/el ke.a.ˈseɾ ˈdja.rjo/",
               "meaningVn": "công việc hằng ngày",
               "example": "El quehacer diario de una madre nunca termina.",
-              "exampleVn": "Công việc hằng ngày của một người mẹ không bao giờ kết thúc."
+              "exampleVn": "Công việc hằng ngày của một người mẹ không bao giờ kết thúc.",
+              "wordClass": "cụm từ",
+              "level": "C1"
             }
           ]
         },
@@ -2922,11 +3290,14 @@
               "reading": "/ke a.ˈseɾ/",
               "meaningVn": "phải làm gì",
               "example": "No sabía qué hacer en esa situación.",
-              "exampleVn": "Anh ấy không biết phải làm gì trong tình huống đó."
+              "exampleVn": "Anh ấy không biết phải làm gì trong tình huống đó.",
+              "wordClass": "cụm từ",
+              "level": "A2"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-vino-vino",
@@ -2948,7 +3319,9 @@
               "reading": "/ˈbi.no/",
               "meaningVn": "rượu vang",
               "example": "Sirvieron un vino tinto excelente en la cena.",
-              "exampleVn": "Họ đã rót một loại rượu vang đỏ tuyệt hảo trong bữa tối."
+              "exampleVn": "Họ đã rót một loại rượu vang đỏ tuyệt hảo trong bữa tối.",
+              "wordClass": "danh từ",
+              "level": "A1"
             }
           ]
         },
@@ -2964,11 +3337,14 @@
               "reading": "/ˈbi.no/",
               "meaningVn": "anh/cô ấy đã đến",
               "example": "Ella vino a visitarnos el fin de semana pasado.",
-              "exampleVn": "Cô ấy đã đến thăm chúng tôi vào cuối tuần trước."
+              "exampleVn": "Cô ấy đã đến thăm chúng tôi vào cuối tuần trước.",
+              "wordClass": "động từ",
+              "level": "A2"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-amo-amo",
@@ -2990,7 +3366,9 @@
               "reading": "/ˈa.mo/",
               "meaningVn": "ông chủ, chủ nhân",
               "example": "El perro obedece solo a su amo.",
-              "exampleVn": "Con chó chỉ vâng lời chủ nhân của nó."
+              "exampleVn": "Con chó chỉ vâng lời chủ nhân của nó.",
+              "wordClass": "danh từ",
+              "level": "B2"
             }
           ]
         },
@@ -3006,11 +3384,14 @@
               "reading": "/ˈa.mo/",
               "meaningVn": "tôi yêu",
               "example": "Amo mi trabajo a pesar de las dificultades.",
-              "exampleVn": "Tôi yêu công việc của mình dù có khó khăn."
+              "exampleVn": "Tôi yêu công việc của mình dù có khó khăn.",
+              "wordClass": "động từ",
+              "level": "A1"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-cazo-cazo",
@@ -3032,7 +3413,9 @@
               "reading": "/ˈka.so/",
               "meaningVn": "cái muôi, xoong nhỏ có cán",
               "example": "Calienta la leche en un cazo pequeño.",
-              "exampleVn": "Hãy hâm nóng sữa trong một chiếc xoong nhỏ."
+              "exampleVn": "Hãy hâm nóng sữa trong một chiếc xoong nhỏ.",
+              "wordClass": "danh từ",
+              "level": "B2"
             }
           ]
         },
@@ -3048,11 +3431,14 @@
               "reading": "/ˈka.so/",
               "meaningVn": "tôi săn",
               "example": "Nunca cazo animales, solo tomo fotografías.",
-              "exampleVn": "Tôi không bao giờ săn động vật, tôi chỉ chụp ảnh thôi."
+              "exampleVn": "Tôi không bao giờ săn động vật, tôi chỉ chụp ảnh thôi.",
+              "wordClass": "động từ",
+              "level": "B1"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-canto-canto",
@@ -3074,7 +3460,9 @@
               "reading": "/ˈkan.to/",
               "meaningVn": "bài hát; cạnh, mép",
               "example": "El canto de los pájaros la despertó al amanecer.",
-              "exampleVn": "Tiếng hót của chim đã đánh thức cô ấy vào lúc bình minh."
+              "exampleVn": "Tiếng hót của chim đã đánh thức cô ấy vào lúc bình minh.",
+              "wordClass": "danh từ",
+              "level": "B1"
             }
           ]
         },
@@ -3090,11 +3478,14 @@
               "reading": "/ˈkan.to/",
               "meaningVn": "tôi hát",
               "example": "Canto en la ducha todas las mañanas.",
-              "exampleVn": "Tôi hát khi tắm mỗi buổi sáng."
+              "exampleVn": "Tôi hát khi tắm mỗi buổi sáng.",
+              "wordClass": "động từ",
+              "level": "A1"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-lima-lima",
@@ -3116,7 +3507,9 @@
               "reading": "/la ˈli.ma de ˈu.ɲas/",
               "meaningVn": "cái giũa móng tay",
               "example": "Usa una lima de uñas para pulir los bordes.",
-              "exampleVn": "Cô ấy dùng giũa móng tay để mài nhẵn các cạnh."
+              "exampleVn": "Cô ấy dùng giũa móng tay để mài nhẵn các cạnh.",
+              "wordClass": "cụm từ",
+              "level": "B1"
             }
           ]
         },
@@ -3132,11 +3525,14 @@
               "reading": "/la ˈli.ma/",
               "meaningVn": "quả chanh vàng (lime)",
               "example": "Exprimió una lima para preparar el cóctel.",
-              "exampleVn": "Anh ấy đã vắt một quả chanh vàng để pha cocktail."
+              "exampleVn": "Anh ấy đã vắt một quả chanh vàng để pha cocktail.",
+              "wordClass": "danh từ",
+              "level": "B1"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-gato-gato",
@@ -3158,7 +3554,9 @@
               "reading": "/el ˈga.to/",
               "meaningVn": "con mèo",
               "example": "El gato duerme todo el día sobre el sofá.",
-              "exampleVn": "Con mèo ngủ cả ngày trên ghế sofa."
+              "exampleVn": "Con mèo ngủ cả ngày trên ghế sofa.",
+              "wordClass": "danh từ",
+              "level": "A1"
             }
           ]
         },
@@ -3174,11 +3572,14 @@
               "reading": "/el ˈga.to i.ˈðrau.li.ko/",
               "meaningVn": "kích thủy lực (nâng ô tô)",
               "example": "Usó el gato hidráulico para cambiar la rueda.",
-              "exampleVn": "Anh ấy đã dùng kích thủy lực để thay bánh xe."
+              "exampleVn": "Anh ấy đã dùng kích thủy lực để thay bánh xe.",
+              "wordClass": "cụm từ",
+              "level": "C1"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-coger-coger",
@@ -3200,7 +3601,9 @@
               "reading": "/ko.ˈxeɾ el au.to.ˈβus/",
               "meaningVn": "bắt xe buýt (ở Tây Ban Nha)",
               "example": "En Madrid, cogemos el autobús para ir al trabajo.",
-              "exampleVn": "Ở Madrid, chúng tôi bắt xe buýt để đi làm."
+              "exampleVn": "Ở Madrid, chúng tôi bắt xe buýt để đi làm.",
+              "wordClass": "cụm từ",
+              "level": "A2"
             }
           ]
         },
@@ -3216,11 +3619,14 @@
               "reading": "/to.ˈmaɾ el au.to.ˈβus/",
               "meaningVn": "bắt xe buýt (ở Mỹ Latinh, dùng \"tomar\" thay vì \"coger\")",
               "example": "En México, tomamos el autobús para ir al trabajo.",
-              "exampleVn": "Ở Mexico, chúng tôi bắt xe buýt để đi làm (dùng \"tomar\" thay vì \"coger\" để tránh hiểu lầm)."
+              "exampleVn": "Ở Mexico, chúng tôi bắt xe buýt để đi làm (dùng \"tomar\" thay vì \"coger\" để tránh hiểu lầm).",
+              "wordClass": "cụm từ",
+              "level": "A2"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-guagua-guagua",
@@ -3242,7 +3648,9 @@
               "reading": "/la ˈgwa.gwa/",
               "meaningVn": "xe buýt (Caribe)",
               "example": "En Cuba, la guagua siempre llega llena de gente.",
-              "exampleVn": "Ở Cuba, xe buýt lúc nào cũng đến trong tình trạng chật kín người."
+              "exampleVn": "Ở Cuba, xe buýt lúc nào cũng đến trong tình trạng chật kín người.",
+              "wordClass": "danh từ",
+              "level": "C1"
             }
           ]
         },
@@ -3258,11 +3666,14 @@
               "reading": "/la ˈgwa.gwa/",
               "meaningVn": "em bé (vùng Andes)",
               "example": "La guagua duerme tranquila en su cuna.",
-              "exampleVn": "Em bé đang ngủ yên bình trong nôi."
+              "exampleVn": "Em bé đang ngủ yên bình trong nôi.",
+              "wordClass": "danh từ",
+              "level": "C1"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-torta-torta",
@@ -3284,7 +3695,9 @@
               "reading": "/la ˈtoɾ.ta de kum.ple.ˈa.ɲos/",
               "meaningVn": "bánh sinh nhật (đa số các nước)",
               "example": "Prepararon una torta de chocolate para su cumpleaños.",
-              "exampleVn": "Họ đã làm một chiếc bánh kem sô-cô-la cho sinh nhật của cô ấy."
+              "exampleVn": "Họ đã làm một chiếc bánh kem sô-cô-la cho sinh nhật của cô ấy.",
+              "wordClass": "cụm từ",
+              "level": "A2"
             }
           ]
         },
@@ -3300,11 +3713,14 @@
               "reading": "/la ˈtoɾ.ta me.xi.ˈka.na/",
               "meaningVn": "bánh mì kẹp kiểu Mexico",
               "example": "Pidió una torta de jamón y queso en el puesto callejero.",
-              "exampleVn": "Anh ấy đã gọi một chiếc bánh mì kẹp giăm bông phô mai ở quầy hàng rong."
+              "exampleVn": "Anh ấy đã gọi một chiếc bánh mì kẹp giăm bông phô mai ở quầy hàng rong.",
+              "wordClass": "cụm từ",
+              "level": "B1"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-chucho-chucho",
@@ -3326,7 +3742,9 @@
               "reading": "/el ˈtʃu.tʃo ka.ʝe.ˈxe.ro/",
               "meaningVn": "con chó hoang (thân mật)",
               "example": "Adoptó a un chucho callejero que encontró en el parque.",
-              "exampleVn": "Anh ấy đã nhận nuôi một con chó hoang mà mình tìm thấy ở công viên."
+              "exampleVn": "Anh ấy đã nhận nuôi một con chó hoang mà mình tìm thấy ở công viên.",
+              "wordClass": "cụm từ",
+              "level": "C1"
             }
           ]
         },
@@ -3342,11 +3760,14 @@
               "reading": "/me djo ˈtʃu.tʃo/",
               "meaningVn": "tôi bị rét run (thành ngữ Chile)",
               "example": "Salí sin abrigo y me dio chucho de inmediato.",
-              "exampleVn": "Tôi ra ngoài không mặc áo khoác và lập tức bị rét run."
+              "exampleVn": "Tôi ra ngoài không mặc áo khoác và lập tức bị rét run.",
+              "wordClass": "cụm từ",
+              "level": "C2"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-pana-pana",
@@ -3368,7 +3789,9 @@
               "reading": "/los pan.ta.ˈlo.nes de ˈpa.na/",
               "meaningVn": "quần vải nhung kẻ",
               "example": "En invierno le gusta usar pantalones de pana.",
-              "exampleVn": "Vào mùa đông, anh ấy thích mặc quần vải nhung kẻ."
+              "exampleVn": "Vào mùa đông, anh ấy thích mặc quần vải nhung kẻ.",
+              "wordClass": "cụm từ",
+              "level": "B2"
             }
           ]
         },
@@ -3384,11 +3807,14 @@
               "reading": "/mi ˈpa.na/",
               "meaningVn": "bạn thân của tôi",
               "example": "Voy a salir con mi pana este fin de semana.",
-              "exampleVn": "Tôi sẽ đi chơi với bạn thân của mình vào cuối tuần này."
+              "exampleVn": "Tôi sẽ đi chơi với bạn thân của mình vào cuối tuần này.",
+              "wordClass": "cụm từ",
+              "level": "C1"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-chapa-chapa",
@@ -3410,7 +3836,9 @@
               "reading": "/la ˈtʃa.pa de la bo.ˈte.ʝa/",
               "meaningVn": "nắp chai",
               "example": "Colecciona chapas de botella de todo el mundo.",
-              "exampleVn": "Anh ấy sưu tầm nắp chai từ khắp nơi trên thế giới."
+              "exampleVn": "Anh ấy sưu tầm nắp chai từ khắp nơi trên thế giới.",
+              "wordClass": "cụm từ",
+              "level": "B1"
             }
           ]
         },
@@ -3426,11 +3854,14 @@
               "reading": "/el ˈnu.me.ro de ˈtʃa.pa/",
               "meaningVn": "số biển số xe",
               "example": "La policía anotó el número de chapa del vehículo.",
-              "exampleVn": "Cảnh sát đã ghi lại số biển số xe."
+              "exampleVn": "Cảnh sát đã ghi lại số biển số xe.",
+              "wordClass": "cụm từ",
+              "level": "B2"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-bolso-bolsillo",
@@ -3452,7 +3883,9 @@
               "reading": "/el ˈbol.so/",
               "meaningVn": "túi xách",
               "example": "Dejó el bolso encima de la mesa.",
-              "exampleVn": "Cô ấy đã để túi xách lên trên bàn."
+              "exampleVn": "Cô ấy đã để túi xách lên trên bàn.",
+              "wordClass": "danh từ",
+              "level": "A2"
             }
           ]
         },
@@ -3468,11 +3901,14 @@
               "reading": "/el bol.ˈsi.ʝo/",
               "meaningVn": "túi quần áo",
               "example": "Guardó las llaves en el bolsillo del pantalón.",
-              "exampleVn": "Anh ấy đã cất chìa khóa vào túi quần."
+              "exampleVn": "Anh ấy đã cất chìa khóa vào túi quần.",
+              "wordClass": "danh từ",
+              "level": "A2"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-ventana-ventanilla",
@@ -3494,7 +3930,9 @@
               "reading": "/la ben.ˈta.na/",
               "meaningVn": "cửa sổ",
               "example": "Abrió la ventana para que entrara aire fresco.",
-              "exampleVn": "Cô ấy đã mở cửa sổ để không khí trong lành tràn vào."
+              "exampleVn": "Cô ấy đã mở cửa sổ để không khí trong lành tràn vào.",
+              "wordClass": "danh từ",
+              "level": "A1"
             }
           ]
         },
@@ -3510,11 +3948,14 @@
               "reading": "/la ben.ta.ˈni.ʝa/",
               "meaningVn": "quầy giao dịch; cửa kính xe/tàu",
               "example": "Pagó la multa en la ventanilla número tres.",
-              "exampleVn": "Anh ấy đã nộp phạt tại quầy giao dịch số ba."
+              "exampleVn": "Anh ấy đã nộp phạt tại quầy giao dịch số ba.",
+              "wordClass": "danh từ",
+              "level": "B1"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-cabeza-cabecilla",
@@ -3536,7 +3977,9 @@
               "reading": "/la ka.ˈβe.sa/",
               "meaningVn": "cái đầu",
               "example": "Le dolía mucho la cabeza esa tarde.",
-              "exampleVn": "Chiều hôm đó cô ấy rất đau đầu."
+              "exampleVn": "Chiều hôm đó cô ấy rất đau đầu.",
+              "wordClass": "danh từ",
+              "level": "A1"
             }
           ]
         },
@@ -3552,11 +3995,14 @@
               "reading": "/el ka.βe.ˈsi.ʝa/",
               "meaningVn": "kẻ cầm đầu, thủ lĩnh",
               "example": "La policía arrestó al cabecilla de la banda.",
-              "exampleVn": "Cảnh sát đã bắt giữ kẻ cầm đầu băng nhóm."
+              "exampleVn": "Cảnh sát đã bắt giữ kẻ cầm đầu băng nhóm.",
+              "wordClass": "danh từ",
+              "level": "C1"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-mesa-mesilla",
@@ -3578,7 +4024,9 @@
               "reading": "/la ˈme.sa/",
               "meaningVn": "cái bàn",
               "example": "Pusieron los platos sobre la mesa.",
-              "exampleVn": "Họ đã đặt các đĩa thức ăn lên bàn."
+              "exampleVn": "Họ đã đặt các đĩa thức ăn lên bàn.",
+              "wordClass": "danh từ",
+              "level": "A1"
             }
           ]
         },
@@ -3594,11 +4042,14 @@
               "reading": "/la me.ˈsi.ʝa de ˈno.tʃe/",
               "meaningVn": "tủ đầu giường",
               "example": "Dejó el libro en la mesilla de noche.",
-              "exampleVn": "Cô ấy đã để quyển sách lên tủ đầu giường."
+              "exampleVn": "Cô ấy đã để quyển sách lên tủ đầu giường.",
+              "wordClass": "cụm từ",
+              "level": "B1"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-cera-cerilla",
@@ -3620,7 +4071,9 @@
               "reading": "/la ˈse.ra de ˈbe.la/",
               "meaningVn": "sáp nến",
               "example": "La vela está hecha de cera de vela natural.",
-              "exampleVn": "Cây nến được làm từ sáp nến tự nhiên."
+              "exampleVn": "Cây nến được làm từ sáp nến tự nhiên.",
+              "wordClass": "cụm từ",
+              "level": "B1"
             }
           ]
         },
@@ -3636,11 +4089,14 @@
               "reading": "/la se.ˈri.ʝa/",
               "meaningVn": "que diêm",
               "example": "Encendió la vela con una cerilla.",
-              "exampleVn": "Anh ấy đã thắp nến bằng một que diêm."
+              "exampleVn": "Anh ấy đã thắp nến bằng một que diêm.",
+              "wordClass": "danh từ",
+              "level": "B1"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-boca-bocadillo",
@@ -3662,7 +4118,9 @@
               "reading": "/la ˈbo.ka/",
               "meaningVn": "cái miệng",
               "example": "Abrió la boca para bostezar.",
-              "exampleVn": "Anh ấy đã mở miệng để ngáp."
+              "exampleVn": "Anh ấy đã mở miệng để ngáp.",
+              "wordClass": "danh từ",
+              "level": "A1"
             }
           ]
         },
@@ -3678,11 +4136,14 @@
               "reading": "/el bo.ka.ˈði.ʝo de xa.ˈmon/",
               "meaningVn": "bánh mì kẹp giăm bông",
               "example": "Pidió un bocadillo de jamón para el almuerzo.",
-              "exampleVn": "Anh ấy đã gọi một chiếc bánh mì kẹp giăm bông cho bữa trưa."
+              "exampleVn": "Anh ấy đã gọi một chiếc bánh mì kẹp giăm bông cho bữa trưa.",
+              "wordClass": "cụm từ",
+              "level": "A2"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-manzano-manzana",
@@ -3704,7 +4165,9 @@
               "reading": "/el man.ˈsa.no/",
               "meaningVn": "cây táo",
               "example": "Plantaron un manzano en el jardín trasero.",
-              "exampleVn": "Họ đã trồng một cây táo ở khu vườn sau nhà."
+              "exampleVn": "Họ đã trồng một cây táo ở khu vườn sau nhà.",
+              "wordClass": "danh từ",
+              "level": "B1"
             }
           ]
         },
@@ -3720,11 +4183,14 @@
               "reading": "/la man.ˈsa.na/",
               "meaningVn": "quả táo",
               "example": "Comió una manzana roja de postre.",
-              "exampleVn": "Cô ấy đã ăn một quả táo đỏ làm món tráng miệng."
+              "exampleVn": "Cô ấy đã ăn một quả táo đỏ làm món tráng miệng.",
+              "wordClass": "danh từ",
+              "level": "A1"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-naranjo-naranja",
@@ -3746,7 +4212,9 @@
               "reading": "/el na.ˈran.xo/",
               "meaningVn": "cây cam",
               "example": "El naranjo del patio da frutos cada invierno.",
-              "exampleVn": "Cây cam ở sân nhà cho trái mỗi mùa đông."
+              "exampleVn": "Cây cam ở sân nhà cho trái mỗi mùa đông.",
+              "wordClass": "danh từ",
+              "level": "B1"
             }
           ]
         },
@@ -3762,11 +4230,14 @@
               "reading": "/la na.ˈran.xa/",
               "meaningVn": "quả cam",
               "example": "Se exprimió una naranja para el desayuno.",
-              "exampleVn": "Anh ấy đã vắt một quả cam cho bữa sáng."
+              "exampleVn": "Anh ấy đã vắt một quả cam cho bữa sáng.",
+              "wordClass": "danh từ",
+              "level": "A1"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-cerezo-cereza",
@@ -3788,7 +4259,9 @@
               "reading": "/el se.ˈre.so/",
               "meaningVn": "cây anh đào",
               "example": "Los cerezos florecen espectacularmente en primavera.",
-              "exampleVn": "Cây anh đào nở hoa ngoạn mục vào mùa xuân."
+              "exampleVn": "Cây anh đào nở hoa ngoạn mục vào mùa xuân.",
+              "wordClass": "danh từ",
+              "level": "B2"
             }
           ]
         },
@@ -3804,11 +4277,14 @@
               "reading": "/la se.ˈre.sa/",
               "meaningVn": "quả anh đào",
               "example": "Compró un kilo de cerezas frescas.",
-              "exampleVn": "Anh ấy đã mua một ki-lô-gam anh đào tươi."
+              "exampleVn": "Anh ấy đã mua một ki-lô-gam anh đào tươi.",
+              "wordClass": "danh từ",
+              "level": "A2"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-caso-casa",
@@ -3830,7 +4306,9 @@
               "reading": "/el ˈka.so/",
               "meaningVn": "trường hợp, vụ việc",
               "example": "El detective investigó el caso durante meses.",
-              "exampleVn": "Thám tử đã điều tra vụ việc trong nhiều tháng."
+              "exampleVn": "Thám tử đã điều tra vụ việc trong nhiều tháng.",
+              "wordClass": "danh từ",
+              "level": "A2"
             }
           ]
         },
@@ -3846,11 +4324,14 @@
               "reading": "/la ˈka.sa/",
               "meaningVn": "ngôi nhà",
               "example": "Compraron una casa cerca del centro.",
-              "exampleVn": "Họ đã mua một ngôi nhà gần trung tâm."
+              "exampleVn": "Họ đã mua một ngôi nhà gần trung tâm.",
+              "wordClass": "danh từ",
+              "level": "A1"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-cuento-cuenta",
@@ -3872,7 +4353,9 @@
               "reading": "/el ˈkwen.to/",
               "meaningVn": "câu chuyện, truyện ngắn",
               "example": "Le leyó un cuento antes de dormir.",
-              "exampleVn": "Cô ấy đã đọc cho con nghe một câu chuyện trước khi ngủ."
+              "exampleVn": "Cô ấy đã đọc cho con nghe một câu chuyện trước khi ngủ.",
+              "wordClass": "danh từ",
+              "level": "A2"
             }
           ]
         },
@@ -3888,11 +4371,14 @@
               "reading": "/la ˈkwen.ta/",
               "meaningVn": "hóa đơn, tài khoản",
               "example": "Pidió la cuenta al final de la cena.",
-              "exampleVn": "Anh ấy đã xin hóa đơn sau khi kết thúc bữa tối."
+              "exampleVn": "Anh ấy đã xin hóa đơn sau khi kết thúc bữa tối.",
+              "wordClass": "danh từ",
+              "level": "A2"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-pendiente-pendiente",
@@ -3914,7 +4400,9 @@
               "reading": "/el pen.ˈdjen.te/",
               "meaningVn": "hoa tai",
               "example": "Le regaló unos pendientes de plata.",
-              "exampleVn": "Anh ấy đã tặng cô một đôi hoa tai bạc."
+              "exampleVn": "Anh ấy đã tặng cô một đôi hoa tai bạc.",
+              "wordClass": "danh từ",
+              "level": "B1"
             }
           ]
         },
@@ -3930,11 +4418,14 @@
               "reading": "/la pen.ˈdjen.te/",
               "meaningVn": "con dốc, độ dốc",
               "example": "La carretera tiene una pendiente muy pronunciada.",
-              "exampleVn": "Con đường có một con dốc rất gắt."
+              "exampleVn": "Con đường có một con dốc rất gắt.",
+              "wordClass": "danh từ",
+              "level": "B2"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-infligir-infringir",
@@ -3956,7 +4447,9 @@
               "reading": "/in.fli.ˈxiɾ/",
               "meaningVn": "gây ra (đau đớn, tổn thất)",
               "example": "El equipo local infligió una dura derrota al visitante.",
-              "exampleVn": "Đội chủ nhà đã gây ra một thất bại nặng nề cho đội khách."
+              "exampleVn": "Đội chủ nhà đã gây ra một thất bại nặng nề cho đội khách.",
+              "wordClass": "động từ",
+              "level": "C1"
             }
           ]
         },
@@ -3972,11 +4465,14 @@
               "reading": "/in.fɾiŋ.ˈxiɾ/",
               "meaningVn": "vi phạm (luật, quy định)",
               "example": "Fue multado por infringir las normas de tráfico.",
-              "exampleVn": "Anh ấy đã bị phạt vì vi phạm luật giao thông."
+              "exampleVn": "Anh ấy đã bị phạt vì vi phạm luật giao thông.",
+              "wordClass": "động từ",
+              "level": "C1"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-adoptar-adaptar",
@@ -3998,7 +4494,9 @@
               "reading": "/a.ðop.ˈtaɾ/",
               "meaningVn": "nhận nuôi, áp dụng",
               "example": "Decidieron adoptar a un niño de otro país.",
-              "exampleVn": "Họ đã quyết định nhận nuôi một đứa trẻ từ nước khác."
+              "exampleVn": "Họ đã quyết định nhận nuôi một đứa trẻ từ nước khác.",
+              "wordClass": "động từ",
+              "level": "B2"
             }
           ]
         },
@@ -4014,11 +4512,14 @@
               "reading": "/a.ðap.ˈtaɾ/",
               "meaningVn": "điều chỉnh, thích nghi",
               "example": "Tuvo que adaptar su horario al nuevo trabajo.",
-              "exampleVn": "Anh ấy đã phải điều chỉnh lịch trình của mình cho công việc mới."
+              "exampleVn": "Anh ấy đã phải điều chỉnh lịch trình của mình cho công việc mới.",
+              "wordClass": "động từ",
+              "level": "B1"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-actitud-aptitud",
@@ -4040,7 +4541,9 @@
               "reading": "/la ak.ti.ˈtuð/",
               "meaningVn": "thái độ",
               "example": "Su actitud positiva contagió a todo el equipo.",
-              "exampleVn": "Thái độ tích cực của cô ấy đã lan tỏa đến cả đội."
+              "exampleVn": "Thái độ tích cực của cô ấy đã lan tỏa đến cả đội.",
+              "wordClass": "danh từ",
+              "level": "B1"
             }
           ]
         },
@@ -4056,11 +4559,14 @@
               "reading": "/la ap.ti.ˈtuð/",
               "meaningVn": "năng khiếu, năng lực",
               "example": "Demostró una gran aptitud para la música.",
-              "exampleVn": "Cậu bé đã thể hiện một năng khiếu lớn về âm nhạc."
+              "exampleVn": "Cậu bé đã thể hiện một năng khiếu lớn về âm nhạc.",
+              "wordClass": "danh từ",
+              "level": "C1"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-especie-especia",
@@ -4082,7 +4588,9 @@
               "reading": "/la es.ˈpe.sje/",
               "meaningVn": "loài (sinh vật)",
               "example": "Descubrieron una nueva especie de rana en la selva.",
-              "exampleVn": "Họ đã phát hiện một loài ếch mới trong rừng rậm."
+              "exampleVn": "Họ đã phát hiện một loài ếch mới trong rừng rậm.",
+              "wordClass": "danh từ",
+              "level": "B1"
             }
           ]
         },
@@ -4098,11 +4606,14 @@
               "reading": "/la es.ˈpe.sja/",
               "meaningVn": "gia vị",
               "example": "Añadió varias especias exóticas al guiso.",
-              "exampleVn": "Cô ấy đã thêm vài loại gia vị lạ vào món hầm."
+              "exampleVn": "Cô ấy đã thêm vài loại gia vị lạ vào món hầm.",
+              "wordClass": "danh từ",
+              "level": "B1"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-contingente-continente",
@@ -4124,7 +4635,9 @@
               "reading": "/el kon.tin.ˈxen.te/",
               "meaningVn": "đoàn quân, phái đoàn",
               "example": "Enviaron un contingente de tropas a la zona fronteriza.",
-              "exampleVn": "Họ đã cử một đoàn quân đến khu vực biên giới."
+              "exampleVn": "Họ đã cử một đoàn quân đến khu vực biên giới.",
+              "wordClass": "danh từ",
+              "level": "C1"
             }
           ]
         },
@@ -4140,11 +4653,14 @@
               "reading": "/el kon.ti.ˈnen.te/",
               "meaningVn": "lục địa",
               "example": "África es el segundo continente más grande del mundo.",
-              "exampleVn": "Châu Phi là lục địa lớn thứ hai trên thế giới."
+              "exampleVn": "Châu Phi là lục địa lớn thứ hai trên thế giới.",
+              "wordClass": "danh từ",
+              "level": "B1"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-abertura-apertura",
@@ -4166,7 +4682,9 @@
               "reading": "/la a.βeɾ.ˈtu.ɾa/",
               "meaningVn": "khe hở, lỗ hổng vật lý",
               "example": "El agua entraba por una abertura en el techo.",
-              "exampleVn": "Nước tràn vào qua một khe hở trên mái nhà."
+              "exampleVn": "Nước tràn vào qua một khe hở trên mái nhà.",
+              "wordClass": "danh từ",
+              "level": "C1"
             }
           ]
         },
@@ -4182,11 +4700,14 @@
               "reading": "/la a.peɾ.ˈtu.ɾa/",
               "meaningVn": "sự khai mạc, khai trương",
               "example": "Asistieron a la apertura oficial del nuevo museo.",
-              "exampleVn": "Họ đã tham dự lễ khai trương chính thức của bảo tàng mới."
+              "exampleVn": "Họ đã tham dự lễ khai trương chính thức của bảo tàng mới.",
+              "wordClass": "danh từ",
+              "level": "B2"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-ir-irse",
@@ -4208,7 +4729,9 @@
               "reading": "/iɾ al meɾ.ˈka.ðo/",
               "meaningVn": "đi đến chợ",
               "example": "Voy al mercado a comprar verduras.",
-              "exampleVn": "Tôi đi đến chợ để mua rau."
+              "exampleVn": "Tôi đi đến chợ để mua rau.",
+              "wordClass": "cụm từ",
+              "level": "A1"
             }
           ]
         },
@@ -4224,11 +4747,14 @@
               "reading": "/ˈiɾ.se de la ˈfjes.ta/",
               "meaningVn": "rời khỏi bữa tiệc",
               "example": "Se fue de la fiesta sin despedirse.",
-              "exampleVn": "Anh ấy đã rời khỏi bữa tiệc mà không chào tạm biệt."
+              "exampleVn": "Anh ấy đã rời khỏi bữa tiệc mà không chào tạm biệt.",
+              "wordClass": "cụm từ",
+              "level": "A2"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-dormir-dormirse",
@@ -4250,7 +4776,9 @@
               "reading": "/doɾ.ˈmiɾ ˈo.tʃo ˈo.ɾas/",
               "meaningVn": "ngủ tám tiếng",
               "example": "Necesita dormir ocho horas para rendir bien.",
-              "exampleVn": "Anh ấy cần ngủ tám tiếng để làm việc hiệu quả."
+              "exampleVn": "Anh ấy cần ngủ tám tiếng để làm việc hiệu quả.",
+              "wordClass": "cụm từ",
+              "level": "A1"
             }
           ]
         },
@@ -4266,11 +4794,14 @@
               "reading": "/doɾ.ˈmiɾ.se en el so.ˈfa/",
               "meaningVn": "ngủ thiếp đi trên ghế sofa",
               "example": "Se durmió en el sofá viendo la televisión.",
-              "exampleVn": "Anh ấy đã ngủ thiếp đi trên ghế sofa khi đang xem tivi."
+              "exampleVn": "Anh ấy đã ngủ thiếp đi trên ghế sofa khi đang xem tivi.",
+              "wordClass": "cụm từ",
+              "level": "A2"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-quedar-quedarse",
@@ -4292,7 +4823,9 @@
               "reading": "/ke.ˈðaɾ kon un a.ˈmi.go/",
               "meaningVn": "hẹn gặp một người bạn",
               "example": "Quedó con un amigo para tomar un café.",
-              "exampleVn": "Anh ấy đã hẹn gặp một người bạn để uống cà phê."
+              "exampleVn": "Anh ấy đã hẹn gặp một người bạn để uống cà phê.",
+              "wordClass": "cụm từ",
+              "level": "A2"
             }
           ]
         },
@@ -4308,11 +4841,14 @@
               "reading": "/ke.ˈðaɾ.se en ˈka.sa/",
               "meaningVn": "ở lại nhà",
               "example": "Prefirió quedarse en casa ese fin de semana.",
-              "exampleVn": "Anh ấy đã thích ở lại nhà vào cuối tuần đó hơn."
+              "exampleVn": "Anh ấy đã thích ở lại nhà vào cuối tuần đó hơn.",
+              "wordClass": "cụm từ",
+              "level": "A2"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-poner-ponerse",
@@ -4334,7 +4870,9 @@
               "reading": "/po.ˈneɾ la ˈme.sa/",
               "meaningVn": "dọn bàn ăn",
               "example": "Ayudó a poner la mesa antes de cenar.",
-              "exampleVn": "Cô ấy đã giúp dọn bàn ăn trước bữa tối."
+              "exampleVn": "Cô ấy đã giúp dọn bàn ăn trước bữa tối.",
+              "wordClass": "cụm từ",
+              "level": "A2"
             }
           ]
         },
@@ -4350,11 +4888,14 @@
               "reading": "/po.ˈneɾ.se neɾ.ˈβjo.so/",
               "meaningVn": "trở nên lo lắng",
               "example": "Se puso nervioso antes del examen.",
-              "exampleVn": "Anh ấy đã trở nên lo lắng trước kỳ thi."
+              "exampleVn": "Anh ấy đã trở nên lo lắng trước kỳ thi.",
+              "wordClass": "cụm từ",
+              "level": "A2"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-encontrar-encontrarse",
@@ -4376,7 +4917,9 @@
               "reading": "/eŋ.kon.ˈtɾaɾ las ˈʝa.βes/",
               "meaningVn": "tìm thấy chìa khóa",
               "example": "Por fin logró encontrar las llaves perdidas.",
-              "exampleVn": "Cuối cùng anh ấy đã tìm thấy chiếc chìa khóa bị mất."
+              "exampleVn": "Cuối cùng anh ấy đã tìm thấy chiếc chìa khóa bị mất.",
+              "wordClass": "cụm từ",
+              "level": "A2"
             }
           ]
         },
@@ -4392,11 +4935,14 @@
               "reading": "/eŋ.kon.ˈtɾaɾ.se mal/",
               "meaningVn": "cảm thấy không khỏe",
               "example": "Se encontraba mal desde la mañana.",
-              "exampleVn": "Anh ấy cảm thấy không khỏe từ sáng đến giờ."
+              "exampleVn": "Anh ấy cảm thấy không khỏe từ sáng đến giờ.",
+              "wordClass": "cụm từ",
+              "level": "B1"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-negar-negarse",
@@ -4418,7 +4964,9 @@
               "reading": "/ne.ˈɣaɾ los ˈe.tʃos/",
               "meaningVn": "phủ nhận sự thật",
               "example": "El acusado negó los hechos ante el juez.",
-              "exampleVn": "Bị cáo đã phủ nhận sự thật trước thẩm phán."
+              "exampleVn": "Bị cáo đã phủ nhận sự thật trước thẩm phán.",
+              "wordClass": "cụm từ",
+              "level": "B1"
             }
           ]
         },
@@ -4434,11 +4982,14 @@
               "reading": "/ne.ˈɣaɾ.se a fiɾ.ˈmaɾ/",
               "meaningVn": "từ chối ký tên",
               "example": "Se negó a firmar el contrato injusto.",
-              "exampleVn": "Anh ấy đã từ chối ký vào bản hợp đồng bất công."
+              "exampleVn": "Anh ấy đã từ chối ký vào bản hợp đồng bất công.",
+              "wordClass": "cụm từ",
+              "level": "B2"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-embarazada-avergonzado",
@@ -4460,7 +5011,9 @@
               "reading": "/es.ˈtaɾ em.ba.ra.ˈsa.ða/",
               "meaningVn": "đang mang thai",
               "example": "Anunció que estaba embarazada de su primer hijo.",
-              "exampleVn": "Cô ấy đã thông báo rằng mình đang mang thai đứa con đầu lòng."
+              "exampleVn": "Cô ấy đã thông báo rằng mình đang mang thai đứa con đầu lòng.",
+              "wordClass": "cụm từ",
+              "level": "A2"
             }
           ]
         },
@@ -4476,11 +5029,14 @@
               "reading": "/sen.ˈtiɾ.se a.βeɾ.gon.ˈsa.ðo/",
               "meaningVn": "cảm thấy xấu hổ",
               "example": "Se sintió avergonzado por su error en público.",
-              "exampleVn": "Anh ấy cảm thấy xấu hổ vì sai lầm của mình trước công chúng."
+              "exampleVn": "Anh ấy cảm thấy xấu hổ vì sai lầm của mình trước công chúng.",
+              "wordClass": "cụm từ",
+              "level": "B1"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-actual-verdadero",
@@ -4502,7 +5058,9 @@
               "reading": "/la si.twa.ˈsjon ak.ˈtwal/",
               "meaningVn": "tình hình hiện tại",
               "example": "La situación actual del mercado preocupa a los inversores.",
-              "exampleVn": "Tình hình hiện tại của thị trường khiến các nhà đầu tư lo lắng."
+              "exampleVn": "Tình hình hiện tại của thị trường khiến các nhà đầu tư lo lắng.",
+              "wordClass": "cụm từ",
+              "level": "B1"
             }
           ]
         },
@@ -4518,11 +5076,14 @@
               "reading": "/el beɾ.ða.ˈðe.ro mo.ˈti.βo/",
               "meaningVn": "động cơ thực sự",
               "example": "Nunca reveló el verdadero motivo de su viaje.",
-              "exampleVn": "Anh ấy chưa bao giờ tiết lộ động cơ thực sự của chuyến đi."
+              "exampleVn": "Anh ấy chưa bao giờ tiết lộ động cơ thực sự của chuyến đi.",
+              "wordClass": "cụm từ",
+              "level": "B1"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-exito-salida",
@@ -4544,7 +5105,9 @@
               "reading": "/te.ˈneɾ ˈek.si.to/",
               "meaningVn": "thành công",
               "example": "Su nueva empresa tuvo un gran éxito.",
-              "exampleVn": "Công ty mới của anh ấy đã rất thành công."
+              "exampleVn": "Công ty mới của anh ấy đã rất thành công.",
+              "wordClass": "cụm từ",
+              "level": "B1"
             }
           ]
         },
@@ -4560,11 +5123,14 @@
               "reading": "/bus.ˈkaɾ la sa.ˈli.ða/",
               "meaningVn": "tìm lối ra",
               "example": "Buscaron la salida de emergencia entre el humo.",
-              "exampleVn": "Họ đã tìm lối ra khẩn cấp giữa làn khói."
+              "exampleVn": "Họ đã tìm lối ra khẩn cấp giữa làn khói.",
+              "wordClass": "cụm từ",
+              "level": "A2"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-constipado-estrenido",
@@ -4586,7 +5152,9 @@
               "reading": "/es.ˈtaɾ kons.ti.ˈpa.ðo/",
               "meaningVn": "đang bị cảm lạnh, nghẹt mũi",
               "example": "Está constipado desde que llegó el frío.",
-              "exampleVn": "Anh ấy bị cảm lạnh, nghẹt mũi từ khi trời trở lạnh."
+              "exampleVn": "Anh ấy bị cảm lạnh, nghẹt mũi từ khi trời trở lạnh.",
+              "wordClass": "cụm từ",
+              "level": "B1"
             }
           ]
         },
@@ -4602,11 +5170,14 @@
               "reading": "/sen.ˈtiɾ.se es.tre.ˈɲi.ðo/",
               "meaningVn": "cảm thấy bị táo bón",
               "example": "Se sentía estreñido tras el largo viaje.",
-              "exampleVn": "Anh ấy cảm thấy bị táo bón sau chuyến đi dài."
+              "exampleVn": "Anh ấy cảm thấy bị táo bón sau chuyến đi dài.",
+              "wordClass": "cụm từ",
+              "level": "B2"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-sensible-sensato",
@@ -4628,7 +5199,9 @@
               "reading": "/ˈu.na peɾ.ˈso.na sen.ˈsi.βle/",
               "meaningVn": "một người nhạy cảm",
               "example": "Es una persona muy sensible ante las críticas.",
-              "exampleVn": "Anh ấy là một người rất nhạy cảm trước những lời chỉ trích."
+              "exampleVn": "Anh ấy là một người rất nhạy cảm trước những lời chỉ trích.",
+              "wordClass": "cụm từ",
+              "level": "B1"
             }
           ]
         },
@@ -4644,11 +5217,14 @@
               "reading": "/ˈu.na de.si.ˈsjon sen.ˈsa.ta/",
               "meaningVn": "một quyết định hợp lý",
               "example": "Tomó una decisión sensata a pesar de la presión.",
-              "exampleVn": "Anh ấy đã đưa ra một quyết định hợp lý bất chấp áp lực."
+              "exampleVn": "Anh ấy đã đưa ra một quyết định hợp lý bất chấp áp lực.",
+              "wordClass": "cụm từ",
+              "level": "B2"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-carpeta-alfombra",
@@ -4670,7 +5246,9 @@
               "reading": "/gwaɾ.ˈðaɾ en ˈu.na kaɾ.ˈpe.ta/",
               "meaningVn": "lưu vào một thư mục",
               "example": "Guardó todos los documentos en una carpeta azul.",
-              "exampleVn": "Anh ấy đã lưu tất cả tài liệu vào một cặp hồ sơ màu xanh."
+              "exampleVn": "Anh ấy đã lưu tất cả tài liệu vào một cặp hồ sơ màu xanh.",
+              "wordClass": "cụm từ",
+              "level": "A2"
             }
           ]
         },
@@ -4686,11 +5264,14 @@
               "reading": "/la al.ˈfom.bra ˈro.xa/",
               "meaningVn": "thảm đỏ",
               "example": "Los actores caminaron por la alfombra roja.",
-              "exampleVn": "Các diễn viên đã đi trên tấm thảm đỏ."
+              "exampleVn": "Các diễn viên đã đi trên tấm thảm đỏ.",
+              "wordClass": "cụm từ",
+              "level": "B1"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-lobueno-elbueno",
@@ -4712,7 +5293,9 @@
               "reading": "/lo ˈbwe.no de bi.ˈβiɾ a.ˈki/",
               "meaningVn": "điều tốt của việc sống ở đây",
               "example": "Lo bueno de vivir aquí es la tranquilidad.",
-              "exampleVn": "Điều tốt của việc sống ở đây là sự yên tĩnh."
+              "exampleVn": "Điều tốt của việc sống ở đây là sự yên tĩnh.",
+              "wordClass": "cụm từ",
+              "level": "B1"
             }
           ]
         },
@@ -4728,11 +5311,14 @@
               "reading": "/el ˈbwe.no de la pe.ˈli.ku.la/",
               "meaningVn": "nhân vật tốt trong bộ phim",
               "example": "El bueno de la película siempre gana al final.",
-              "exampleVn": "Nhân vật tốt trong bộ phim luôn chiến thắng ở cuối cùng."
+              "exampleVn": "Nhân vật tốt trong bộ phim luôn chiến thắng ở cuối cùng.",
+              "wordClass": "cụm từ",
+              "level": "B1"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-loimportante-elimportante",
@@ -4754,7 +5340,9 @@
               "reading": "/lo im.poɾ.ˈtan.te es la sa.ˈluð/",
               "meaningVn": "điều quan trọng là sức khỏe",
               "example": "Lo importante es la salud, no el dinero.",
-              "exampleVn": "Điều quan trọng là sức khỏe, không phải tiền bạc."
+              "exampleVn": "Điều quan trọng là sức khỏe, không phải tiền bạc.",
+              "wordClass": "cụm từ",
+              "level": "B1"
             }
           ]
         },
@@ -4770,11 +5358,14 @@
               "reading": "/a.ˈseɾ.se el im.poɾ.ˈtan.te/",
               "meaningVn": "ra vẻ là người quan trọng",
               "example": "Siempre se hace el importante en las reuniones.",
-              "exampleVn": "Anh ấy luôn ra vẻ là người quan trọng trong các cuộc họp."
+              "exampleVn": "Anh ấy luôn ra vẻ là người quan trọng trong các cuộc họp.",
+              "wordClass": "cụm từ",
+              "level": "B2"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-lomismo-elmismo",
@@ -4796,7 +5387,9 @@
               "reading": "/pe.ˈðiɾ lo ˈmiz.mo/",
               "meaningVn": "gọi món giống nhau",
               "example": "Los dos pidieron lo mismo en el restaurante.",
-              "exampleVn": "Cả hai đã gọi món giống nhau ở nhà hàng."
+              "exampleVn": "Cả hai đã gọi món giống nhau ở nhà hàng.",
+              "wordClass": "cụm từ",
+              "level": "A2"
             }
           ]
         },
@@ -4812,11 +5405,14 @@
               "reading": "/es el ˈmiz.mo de ˈsjem.pre/",
               "meaningVn": "vẫn là người giống như mọi khi",
               "example": "Después de tantos años, sigue siendo el mismo.",
-              "exampleVn": "Sau nhiều năm như vậy, anh ấy vẫn là người giống như trước."
+              "exampleVn": "Sau nhiều năm như vậy, anh ấy vẫn là người giống như trước.",
+              "wordClass": "cụm từ",
+              "level": "B1"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-lopeor-elpeor",
@@ -4838,7 +5434,9 @@
               "reading": "/lo ˈpe.oɾ ʝa pa.ˈso/",
               "meaningVn": "điều tệ nhất đã qua rồi",
               "example": "Lo peor ya pasó, ahora todo mejorará.",
-              "exampleVn": "Điều tệ nhất đã qua rồi, giờ mọi thứ sẽ tốt hơn."
+              "exampleVn": "Điều tệ nhất đã qua rồi, giờ mọi thứ sẽ tốt hơn.",
+              "wordClass": "cụm từ",
+              "level": "B1"
             }
           ]
         },
@@ -4854,11 +5452,14 @@
               "reading": "/el ˈpe.oɾ de la ˈkla.se/",
               "meaningVn": "người tệ nhất lớp",
               "example": "Nadie pensaba que él era el peor de la clase.",
-              "exampleVn": "Không ai nghĩ rằng anh ấy là người tệ nhất lớp."
+              "exampleVn": "Không ai nghĩ rằng anh ấy là người tệ nhất lớp.",
+              "wordClass": "cụm từ",
+              "level": "A2"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-lodificil-eldificil",
@@ -4880,7 +5481,9 @@
               "reading": "/lo di.ˈfi.sil es em.pe.ˈsaɾ/",
               "meaningVn": "phần khó là bắt đầu",
               "example": "Lo difícil es empezar, luego todo fluye.",
-              "exampleVn": "Phần khó là bắt đầu, sau đó mọi thứ sẽ trôi chảy."
+              "exampleVn": "Phần khó là bắt đầu, sau đó mọi thứ sẽ trôi chảy.",
+              "wordClass": "cụm từ",
+              "level": "B1"
             }
           ]
         },
@@ -4896,11 +5499,14 @@
               "reading": "/a.ˈseɾ.se el di.ˈfi.sil/",
               "meaningVn": "làm bộ khó chiều",
               "example": "Dejó de hacerse el difícil y aceptó la oferta.",
-              "exampleVn": "Anh ấy đã ngừng làm bộ khó chiều và chấp nhận lời đề nghị."
+              "exampleVn": "Anh ấy đã ngừng làm bộ khó chiều và chấp nhận lời đề nghị.",
+              "wordClass": "cụm từ",
+              "level": "B2"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-lonuevo-elnuevo",
@@ -4922,7 +5528,9 @@
               "reading": "/lo ˈnwe.βo de la tem.po.ˈra.ða/",
               "meaningVn": "điều mới mẻ của mùa này",
               "example": "Presentaron lo nuevo de la temporada en la tienda.",
-              "exampleVn": "Họ đã giới thiệu điều mới mẻ của mùa này tại cửa hàng."
+              "exampleVn": "Họ đã giới thiệu điều mới mẻ của mùa này tại cửa hàng.",
+              "wordClass": "cụm từ",
+              "level": "B1"
             }
           ]
         },
@@ -4938,11 +5546,14 @@
               "reading": "/el ˈnwe.βo de la o.fi.ˈsi.na/",
               "meaningVn": "người mới của văn phòng",
               "example": "El nuevo de la oficina se adaptó rápido.",
-              "exampleVn": "Người mới của văn phòng đã thích nghi nhanh chóng."
+              "exampleVn": "Người mới của văn phòng đã thích nghi nhanh chóng.",
+              "wordClass": "cụm từ",
+              "level": "B1"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-hombrepobre-pobrehombre",
@@ -4964,7 +5575,9 @@
               "reading": "/un ˈom.bre ˈpo.βre/",
               "meaningVn": "một người đàn ông nghèo",
               "example": "Era un hombre pobre pero muy trabajador.",
-              "exampleVn": "Anh ấy là một người đàn ông nghèo nhưng rất chăm chỉ."
+              "exampleVn": "Anh ấy là một người đàn ông nghèo nhưng rất chăm chỉ.",
+              "wordClass": "cụm từ",
+              "level": "A2"
             }
           ]
         },
@@ -4980,11 +5593,14 @@
               "reading": "/un ˈpo.βre ˈom.bre/",
               "meaningVn": "một người đàn ông đáng thương",
               "example": "Ese pobre hombre perdió a toda su familia.",
-              "exampleVn": "Người đàn ông đáng thương đó đã mất cả gia đình."
+              "exampleVn": "Người đàn ông đáng thương đó đã mất cả gia đình.",
+              "wordClass": "cụm từ",
+              "level": "B2"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-amigoviejo-viejoamigo",
@@ -5006,7 +5622,9 @@
               "reading": "/un a.ˈmi.go ˈbje.xo/",
               "meaningVn": "một người bạn lớn tuổi",
               "example": "Su amigo viejo ya no podía caminar bien.",
-              "exampleVn": "Người bạn lớn tuổi của anh ấy không còn đi lại tốt được nữa."
+              "exampleVn": "Người bạn lớn tuổi của anh ấy không còn đi lại tốt được nữa.",
+              "wordClass": "cụm từ",
+              "level": "A2"
             }
           ]
         },
@@ -5022,11 +5640,14 @@
               "reading": "/un ˈbje.xo a.ˈmi.go/",
               "meaningVn": "một người bạn lâu năm",
               "example": "Se reencontró con un viejo amigo del colegio.",
-              "exampleVn": "Anh ấy đã gặp lại một người bạn lâu năm từ thời đi học."
+              "exampleVn": "Anh ấy đã gặp lại một người bạn lâu năm từ thời đi học.",
+              "wordClass": "cụm từ",
+              "level": "B1"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-hombregrande-granhombre",
@@ -5048,7 +5669,9 @@
               "reading": "/un ˈom.bre ˈgran.de/",
               "meaningVn": "một người đàn ông to lớn",
               "example": "Era un hombre grande y fuerte.",
-              "exampleVn": "Anh ấy là một người đàn ông to lớn và khỏe mạnh."
+              "exampleVn": "Anh ấy là một người đàn ông to lớn và khỏe mạnh.",
+              "wordClass": "cụm từ",
+              "level": "A2"
             }
           ]
         },
@@ -5064,11 +5687,14 @@
               "reading": "/un gran ˈom.bre/",
               "meaningVn": "một vĩ nhân",
               "example": "La historia lo recuerda como un gran hombre.",
-              "exampleVn": "Lịch sử ghi nhớ ông ấy như một vĩ nhân."
+              "exampleVn": "Lịch sử ghi nhớ ông ấy như một vĩ nhân.",
+              "wordClass": "cụm từ",
+              "level": "B1"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-mujerunica-unicamujer",
@@ -5090,7 +5716,9 @@
               "reading": "/ˈu.na mu.ˈxeɾ ˈu.ni.ka/",
               "meaningVn": "một người phụ nữ độc đáo",
               "example": "Es una mujer única, no hay nadie como ella.",
-              "exampleVn": "Cô ấy là một người phụ nữ độc đáo, không ai giống cô ấy cả."
+              "exampleVn": "Cô ấy là một người phụ nữ độc đáo, không ai giống cô ấy cả.",
+              "wordClass": "cụm từ",
+              "level": "B1"
             }
           ]
         },
@@ -5106,11 +5734,14 @@
               "reading": "/la ˈu.ni.ka mu.ˈxeɾ del e.ˈki.po/",
               "meaningVn": "người phụ nữ duy nhất trong đội",
               "example": "Era la única mujer del equipo de ingenieros.",
-              "exampleVn": "Cô ấy là người phụ nữ duy nhất trong đội kỹ sư."
+              "exampleVn": "Cô ấy là người phụ nữ duy nhất trong đội kỹ sư.",
+              "wordClass": "cụm từ",
+              "level": "B1"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-casanueva-nuevacasa",
@@ -5132,7 +5763,9 @@
               "reading": "/ˈu.na ˈka.sa ˈnwe.βa/",
               "meaningVn": "một ngôi nhà mới xây",
               "example": "Construyeron una casa nueva con materiales modernos.",
-              "exampleVn": "Họ đã xây một ngôi nhà mới với vật liệu hiện đại."
+              "exampleVn": "Họ đã xây một ngôi nhà mới với vật liệu hiện đại.",
+              "wordClass": "cụm từ",
+              "level": "A2"
             }
           ]
         },
@@ -5148,11 +5781,14 @@
               "reading": "/se mu.ˈða.ron a ˈu.na ˈnwe.βa ˈka.sa/",
               "meaningVn": "họ chuyển đến một ngôi nhà khác",
               "example": "Se mudaron a una nueva casa, aunque era un edificio antiguo.",
-              "exampleVn": "Họ đã chuyển đến một ngôi nhà khác, dù đó là một tòa nhà cũ."
+              "exampleVn": "Họ đã chuyển đến một ngôi nhà khác, dù đó là một tòa nhà cũ.",
+              "wordClass": "cụm từ",
+              "level": "B2"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-datocierto-ciertodato",
@@ -5174,7 +5810,9 @@
               "reading": "/un ˈda.to ˈsjeɾ.to/",
               "meaningVn": "một dữ kiện chính xác",
               "example": "Necesitamos un dato cierto antes de publicar la noticia.",
-              "exampleVn": "Chúng tôi cần một dữ kiện chính xác trước khi đăng tin."
+              "exampleVn": "Chúng tôi cần một dữ kiện chính xác trước khi đăng tin.",
+              "wordClass": "cụm từ",
+              "level": "B2"
             }
           ]
         },
@@ -5190,11 +5828,14 @@
               "reading": "/ˈsjeɾ.to ˈda.to re.βe.ˈlo la beɾ.ˈðað/",
               "meaningVn": "một dữ kiện nhất định đã tiết lộ sự thật",
               "example": "Cierto dato reveló la verdad detrás del escándalo.",
-              "exampleVn": "Một dữ kiện nhất định đã tiết lộ sự thật đằng sau vụ bê bối."
+              "exampleVn": "Một dữ kiện nhất định đã tiết lộ sự thật đằng sau vụ bê bối.",
+              "wordClass": "cụm từ",
+              "level": "C1"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-elproblema-lapalma",
@@ -5216,7 +5857,9 @@
               "reading": "/un pro.ˈβle.ma ˈgra.βe/",
               "meaningVn": "một vấn đề nghiêm trọng",
               "example": "Tienen un problema grave que resolver.",
-              "exampleVn": "Họ có một vấn đề nghiêm trọng cần giải quyết."
+              "exampleVn": "Họ có một vấn đề nghiêm trọng cần giải quyết.",
+              "wordClass": "cụm từ",
+              "level": "B1"
             }
           ]
         },
@@ -5232,11 +5875,14 @@
               "reading": "/la ˈpal.ma de la ˈma.no/",
               "meaningVn": "lòng bàn tay",
               "example": "Se cortó la palma de la mano con el cuchillo.",
-              "exampleVn": "Anh ấy đã bị đứt lòng bàn tay bởi con dao."
+              "exampleVn": "Anh ấy đã bị đứt lòng bàn tay bởi con dao.",
+              "wordClass": "cụm từ",
+              "level": "B1"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-elsistema-lafirma",
@@ -5258,7 +5904,9 @@
               "reading": "/el sis.ˈte.ma e.ðu.ka.ˈti.βo/",
               "meaningVn": "hệ thống giáo dục",
               "example": "El sistema educativo necesita una reforma urgente.",
-              "exampleVn": "Hệ thống giáo dục cần một cuộc cải cách khẩn cấp."
+              "exampleVn": "Hệ thống giáo dục cần một cuộc cải cách khẩn cấp.",
+              "wordClass": "cụm từ",
+              "level": "B1"
             }
           ]
         },
@@ -5274,11 +5922,14 @@
               "reading": "/la ˈfiɾ.ma del kon.ˈtra.to/",
               "meaningVn": "chữ ký trên hợp đồng",
               "example": "Faltaba la firma del contrato para cerrar el trato.",
-              "exampleVn": "Còn thiếu chữ ký trên hợp đồng để hoàn tất thỏa thuận."
+              "exampleVn": "Còn thiếu chữ ký trên hợp đồng để hoàn tất thỏa thuận.",
+              "wordClass": "cụm từ",
+              "level": "B2"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-eltema-lacrema",
@@ -5300,7 +5951,9 @@
               "reading": "/el ˈte.ma de la re.u.ˈnjon/",
               "meaningVn": "chủ đề của cuộc họp",
               "example": "Cambiaron el tema de la reunión a última hora.",
-              "exampleVn": "Họ đã đổi chủ đề cuộc họp vào phút chót."
+              "exampleVn": "Họ đã đổi chủ đề cuộc họp vào phút chót.",
+              "wordClass": "cụm từ",
+              "level": "B1"
             }
           ]
         },
@@ -5316,11 +5969,14 @@
               "reading": "/la ˈkre.ma de a.fe.ˈitaɾ/",
               "meaningVn": "kem cạo râu",
               "example": "Se aplicó la crema de afeitar antes de usar la navaja.",
-              "exampleVn": "Anh ấy đã thoa kem cạo râu trước khi dùng dao cạo."
+              "exampleVn": "Anh ấy đã thoa kem cạo râu trước khi dùng dao cạo.",
+              "wordClass": "cụm từ",
+              "level": "B1"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-elclima-larima",
@@ -5342,7 +5998,9 @@
               "reading": "/el ˈkli.ma tro.pi.ˈkal/",
               "meaningVn": "khí hậu nhiệt đới",
               "example": "El clima tropical favorece el cultivo de café.",
-              "exampleVn": "Khí hậu nhiệt đới thuận lợi cho việc trồng cà phê."
+              "exampleVn": "Khí hậu nhiệt đới thuận lợi cho việc trồng cà phê.",
+              "wordClass": "cụm từ",
+              "level": "B1"
             }
           ]
         },
@@ -5358,11 +6016,14 @@
               "reading": "/la ˈri.ma del po.ˈe.ma/",
               "meaningVn": "vần của bài thơ",
               "example": "La rima del poema era casi perfecta.",
-              "exampleVn": "Vần của bài thơ gần như hoàn hảo."
+              "exampleVn": "Vần của bài thơ gần như hoàn hảo.",
+              "wordClass": "cụm từ",
+              "level": "B2"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-elidioma-laloma",
@@ -5384,7 +6045,9 @@
               "reading": "/el i.ˈðjo.ma ma.ˈteɾ.no/",
               "meaningVn": "tiếng mẹ đẻ",
               "example": "Nunca olvidó su idioma materno.",
-              "exampleVn": "Anh ấy chưa bao giờ quên tiếng mẹ đẻ của mình."
+              "exampleVn": "Anh ấy chưa bao giờ quên tiếng mẹ đẻ của mình.",
+              "wordClass": "cụm từ",
+              "level": "B1"
             }
           ]
         },
@@ -5400,11 +6063,14 @@
               "reading": "/su.ˈβiɾ la ˈlo.ma/",
               "meaningVn": "leo lên ngọn đồi",
               "example": "Subieron la loma para ver el atardecer.",
-              "exampleVn": "Họ đã leo lên ngọn đồi để ngắm hoàng hôn."
+              "exampleVn": "Họ đã leo lên ngọn đồi để ngắm hoàng hôn.",
+              "wordClass": "cụm từ",
+              "level": "B2"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-elprograma-larama",
@@ -5426,7 +6092,9 @@
               "reading": "/el pro.ˈgra.ma de te.le.bi.ˈsjon/",
               "meaningVn": "chương trình truyền hình",
               "example": "Ese programa de televisión es muy popular.",
-              "exampleVn": "Chương trình truyền hình đó rất được yêu thích."
+              "exampleVn": "Chương trình truyền hình đó rất được yêu thích.",
+              "wordClass": "cụm từ",
+              "level": "A2"
             }
           ]
         },
@@ -5442,11 +6110,14 @@
               "reading": "/ˈu.na ˈra.ma ˈse.ka/",
               "meaningVn": "một cành cây khô",
               "example": "Recogió una rama seca para la fogata.",
-              "exampleVn": "Anh ấy đã nhặt một cành cây khô để đốt lửa trại."
+              "exampleVn": "Anh ấy đã nhặt một cành cây khô để đốt lửa trại.",
+              "wordClass": "cụm từ",
+              "level": "B1"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-seraburrido-estaraburrido",
@@ -5468,7 +6139,9 @@
               "reading": "/ˈe.sa pe.ˈli.ku.la es a.βu.ˈri.ða/",
               "meaningVn": "bộ phim đó nhàm chán",
               "example": "Esa película es aburrida de principio a fin.",
-              "exampleVn": "Bộ phim đó nhàm chán từ đầu đến cuối."
+              "exampleVn": "Bộ phim đó nhàm chán từ đầu đến cuối.",
+              "wordClass": "cụm từ",
+              "level": "A2"
             }
           ]
         },
@@ -5484,11 +6157,14 @@
               "reading": "/es.ˈtoi a.βu.ˈri.ðo/",
               "meaningVn": "tôi đang cảm thấy chán",
               "example": "Estoy aburrido, no sé qué hacer esta tarde.",
-              "exampleVn": "Tôi đang cảm thấy chán, không biết làm gì chiều nay."
+              "exampleVn": "Tôi đang cảm thấy chán, không biết làm gì chiều nay.",
+              "wordClass": "cụm từ",
+              "level": "A2"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-serlisto-estarlisto",
@@ -5510,7 +6186,9 @@
               "reading": "/es mui ˈlis.to/",
               "meaningVn": "anh ấy rất thông minh",
               "example": "Es muy listo para resolver problemas matemáticos.",
-              "exampleVn": "Anh ấy rất thông minh trong việc giải các bài toán."
+              "exampleVn": "Anh ấy rất thông minh trong việc giải các bài toán.",
+              "wordClass": "cụm từ",
+              "level": "B1"
             }
           ]
         },
@@ -5526,11 +6204,14 @@
               "reading": "/ʝa es.ˈtoi ˈlis.to/",
               "meaningVn": "tôi đã sẵn sàng rồi",
               "example": "Ya estoy listo, podemos salir cuando quieras.",
-              "exampleVn": "Tôi đã sẵn sàng rồi, chúng ta có thể đi bất cứ khi nào bạn muốn."
+              "exampleVn": "Tôi đã sẵn sàng rồi, chúng ta có thể đi bất cứ khi nào bạn muốn.",
+              "wordClass": "cụm từ",
+              "level": "A2"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-sermalo-estarmalo",
@@ -5552,7 +6233,9 @@
               "reading": "/el bi.ˈʝa.no es ˈma.lo/",
               "meaningVn": "kẻ phản diện đó độc ác",
               "example": "El villano de la historia es realmente malo.",
-              "exampleVn": "Kẻ phản diện trong câu chuyện thực sự rất độc ác."
+              "exampleVn": "Kẻ phản diện trong câu chuyện thực sự rất độc ác.",
+              "wordClass": "cụm từ",
+              "level": "B1"
             }
           ]
         },
@@ -5568,11 +6251,14 @@
               "reading": "/es.ˈta ˈma.lo ˈdes.de a.ˈjeɾ/",
               "meaningVn": "anh ấy bị ốm từ hôm qua",
               "example": "Está malo desde ayer, tiene fiebre alta.",
-              "exampleVn": "Anh ấy bị ốm từ hôm qua, đang sốt cao."
+              "exampleVn": "Anh ấy bị ốm từ hôm qua, đang sốt cao.",
+              "wordClass": "cụm từ",
+              "level": "B1"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-serrico-estarrico",
@@ -5594,7 +6280,9 @@
               "reading": "/su fa.ˈmi.lja es ˈri.ka/",
               "meaningVn": "gia đình anh ấy giàu có",
               "example": "Su familia es rica desde hace tres generaciones.",
-              "exampleVn": "Gia đình anh ấy đã giàu có từ ba thế hệ nay."
+              "exampleVn": "Gia đình anh ấy đã giàu có từ ba thế hệ nay.",
+              "wordClass": "cụm từ",
+              "level": "A2"
             }
           ]
         },
@@ -5610,11 +6298,14 @@
               "reading": "/ˈes.te pas.ˈtel es.ˈta ˈri.ko/",
               "meaningVn": "chiếc bánh này ngon",
               "example": "Este pastel está rico, ¿quién lo hizo?",
-              "exampleVn": "Chiếc bánh này ngon quá, ai làm vậy?"
+              "exampleVn": "Chiếc bánh này ngon quá, ai làm vậy?",
+              "wordClass": "cụm từ",
+              "level": "A2"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-servivo-estarvivo",
@@ -5636,7 +6327,9 @@
               "reading": "/es mui ˈbi.βo ˈpa.ra los ne.ˈɣo.sjos/",
               "meaningVn": "anh ấy rất lanh lợi trong kinh doanh",
               "example": "Es muy vivo para los negocios, siempre encuentra una oportunidad.",
-              "exampleVn": "Anh ấy rất lanh lợi trong kinh doanh, luôn tìm ra cơ hội."
+              "exampleVn": "Anh ấy rất lanh lợi trong kinh doanh, luôn tìm ra cơ hội.",
+              "wordClass": "cụm từ",
+              "level": "C1"
             }
           ]
         },
@@ -5652,11 +6345,14 @@
               "reading": "/to.ða.ˈβi.a es.ˈta ˈbi.βo/",
               "meaningVn": "ông ấy vẫn còn sống",
               "example": "Su abuelo todavía está vivo a los cien años.",
-              "exampleVn": "Ông của anh ấy vẫn còn sống ở tuổi một trăm."
+              "exampleVn": "Ông của anh ấy vẫn còn sống ở tuổi một trăm.",
+              "wordClass": "cụm từ",
+              "level": "B1"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-serverde-estarverde",
@@ -5678,7 +6374,9 @@
               "reading": "/la ˈo.xa es ˈβeɾ.ðe/",
               "meaningVn": "chiếc lá có màu xanh lá",
               "example": "La hoja es verde durante toda la primavera.",
-              "exampleVn": "Chiếc lá có màu xanh lá suốt cả mùa xuân."
+              "exampleVn": "Chiếc lá có màu xanh lá suốt cả mùa xuân.",
+              "wordClass": "cụm từ",
+              "level": "A2"
             }
           ]
         },
@@ -5694,11 +6392,14 @@
               "reading": "/to.ða.ˈβi.a es.ˈta ˈβeɾ.ðe en el o.ˈfi.sjo/",
               "meaningVn": "anh ấy vẫn còn non nớt trong nghề",
               "example": "Todavía está verde en el oficio, necesita más práctica.",
-              "exampleVn": "Anh ấy vẫn còn non nớt trong nghề, cần luyện tập thêm."
+              "exampleVn": "Anh ấy vẫn còn non nớt trong nghề, cần luyện tập thêm.",
+              "wordClass": "cụm từ",
+              "level": "C1"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-conoci-conocia",
@@ -5720,7 +6421,9 @@
               "reading": "/la ko.no.ˈsi en la u.ni.βeɾ.si.ˈðað/",
               "meaningVn": "tôi đã gặp cô ấy lần đầu ở trường đại học",
               "example": "La conocí en la universidad hace diez años.",
-              "exampleVn": "Tôi đã gặp cô ấy lần đầu ở trường đại học mười năm trước."
+              "exampleVn": "Tôi đã gặp cô ấy lần đầu ở trường đại học mười năm trước.",
+              "wordClass": "cụm từ",
+              "level": "B1"
             }
           ]
         },
@@ -5736,11 +6439,14 @@
               "reading": "/ʝa la ko.no.ˈsi.a de ˈan.tes/",
               "meaningVn": "tôi đã quen biết cô ấy từ trước rồi",
               "example": "Ya la conocía de antes, éramos vecinos de niños.",
-              "exampleVn": "Tôi đã quen biết cô ấy từ trước rồi, chúng tôi từng là hàng xóm hồi nhỏ."
+              "exampleVn": "Tôi đã quen biết cô ấy từ trước rồi, chúng tôi từng là hàng xóm hồi nhỏ.",
+              "wordClass": "cụm từ",
+              "level": "B1"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-supe-sabia",
@@ -5762,7 +6468,9 @@
               "reading": "/ˈsu.pe la no.ˈti.sja a.ˈjeɾ/",
               "meaningVn": "tôi đã biết được tin tức đó hôm qua",
               "example": "Supe la noticia ayer por la tarde.",
-              "exampleVn": "Tôi đã biết được tin tức đó vào chiều hôm qua."
+              "exampleVn": "Tôi đã biết được tin tức đó vào chiều hôm qua.",
+              "wordClass": "cụm từ",
+              "level": "B1"
             }
           ]
         },
@@ -5778,11 +6486,14 @@
               "reading": "/ʝa sa.ˈβi.a la res.ˈpwes.ta/",
               "meaningVn": "tôi đã biết câu trả lời từ trước rồi",
               "example": "Ya sabía la respuesta antes de que preguntaran.",
-              "exampleVn": "Tôi đã biết câu trả lời từ trước khi họ hỏi."
+              "exampleVn": "Tôi đã biết câu trả lời từ trước khi họ hỏi.",
+              "wordClass": "cụm từ",
+              "level": "B1"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-pude-podia",
@@ -5804,7 +6515,9 @@
               "reading": "/al fi.ˈnal ˈpu.ðe teɾ.mi.ˈnaɾ.lo/",
               "meaningVn": "cuối cùng tôi đã có thể hoàn thành nó",
               "example": "Al final pude terminarlo antes de la fecha límite.",
-              "exampleVn": "Cuối cùng tôi đã có thể hoàn thành nó trước hạn chót."
+              "exampleVn": "Cuối cùng tôi đã có thể hoàn thành nó trước hạn chót.",
+              "wordClass": "cụm từ",
+              "level": "B1"
             }
           ]
         },
@@ -5820,11 +6533,14 @@
               "reading": "/de ˈxo.βen po.ˈði.a ko.ˈreɾ mui ˈra.pi.ðo/",
               "meaningVn": "hồi trẻ tôi có thể chạy rất nhanh",
               "example": "De joven podía correr muy rápido, ahora ya no.",
-              "exampleVn": "Hồi trẻ tôi có thể chạy rất nhanh, giờ thì không còn nữa."
+              "exampleVn": "Hồi trẻ tôi có thể chạy rất nhanh, giờ thì không còn nữa.",
+              "wordClass": "cụm từ",
+              "level": "B1"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-quise-queria",
@@ -5846,7 +6562,9 @@
               "reading": "/ˈki.se a.ʝu.ˈðaɾ.lo ˈpe.ro fwe ˈtaɾ.ðe/",
               "meaningVn": "tôi đã cố giúp anh ấy nhưng đã quá trễ",
               "example": "Quise ayudarlo pero fue demasiado tarde.",
-              "exampleVn": "Tôi đã cố giúp anh ấy nhưng đã quá trễ."
+              "exampleVn": "Tôi đã cố giúp anh ấy nhưng đã quá trễ.",
+              "wordClass": "cụm từ",
+              "level": "B2"
             }
           ]
         },
@@ -5862,11 +6580,14 @@
               "reading": "/de ˈnjo ke.ˈri.a seɾ as.tro.ˈnau.ta/",
               "meaningVn": "hồi nhỏ tôi từng muốn làm phi hành gia",
               "example": "De niño quería ser astronauta, aunque nunca lo intenté.",
-              "exampleVn": "Hồi nhỏ tôi từng muốn làm phi hành gia, dù chưa bao giờ thử."
+              "exampleVn": "Hồi nhỏ tôi từng muốn làm phi hành gia, dù chưa bao giờ thử.",
+              "wordClass": "cụm từ",
+              "level": "B1"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-noquise-noqueria",
@@ -5888,7 +6609,9 @@
               "reading": "/no ˈki.se fiɾ.ˈmaɾ el kon.ˈtra.to/",
               "meaningVn": "tôi đã từ chối ký hợp đồng",
               "example": "No quise firmar el contrato porque las condiciones eran injustas.",
-              "exampleVn": "Tôi đã từ chối ký hợp đồng vì các điều khoản không công bằng."
+              "exampleVn": "Tôi đã từ chối ký hợp đồng vì các điều khoản không công bằng.",
+              "wordClass": "cụm từ",
+              "level": "B2"
             }
           ]
         },
@@ -5904,11 +6627,14 @@
               "reading": "/no ke.ˈri.a mo.les.ˈtaɾ a ˈna.ðje/",
               "meaningVn": "tôi không muốn làm phiền ai cả",
               "example": "No quería molestar a nadie, por eso no dije nada.",
-              "exampleVn": "Tôi không muốn làm phiền ai cả, vì vậy tôi đã không nói gì."
+              "exampleVn": "Tôi không muốn làm phiền ai cả, vì vậy tôi đã không nói gì.",
+              "wordClass": "cụm từ",
+              "level": "B1"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-tuve-tenia",
@@ -5930,7 +6656,9 @@
               "reading": "/ˈtu.βe un ak.si.ˈðen.te el mes pa.ˈsa.ðo/",
               "meaningVn": "tôi đã gặp một tai nạn tháng trước",
               "example": "Tuve un accidente el mes pasado, pero ya estoy bien.",
-              "exampleVn": "Tôi đã gặp một tai nạn tháng trước, nhưng giờ tôi đã ổn."
+              "exampleVn": "Tôi đã gặp một tai nạn tháng trước, nhưng giờ tôi đã ổn.",
+              "wordClass": "cụm từ",
+              "level": "B1"
             }
           ]
         },
@@ -5946,11 +6674,14 @@
               "reading": "/de pe.ˈke.ɲo te.ˈni.a un ˈpe.ro/",
               "meaningVn": "hồi nhỏ tôi từng có một con chó",
               "example": "De pequeño tenía un perro que me acompañaba a todas partes.",
-              "exampleVn": "Hồi nhỏ tôi từng có một con chó luôn theo tôi khắp nơi."
+              "exampleVn": "Hồi nhỏ tôi từng có một con chó luôn theo tôi khắp nơi.",
+              "wordClass": "cụm từ",
+              "level": "B1"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-elcelo-loscelos",
@@ -5972,7 +6703,9 @@
               "reading": "/tra.βa.ˈxaɾ kon ˈse.lo/",
               "meaningVn": "làm việc một cách tận tụy",
               "example": "Trabajaba con celo para cumplir con cada detalle.",
-              "exampleVn": "Anh ấy làm việc một cách tận tụy để hoàn thành từng chi tiết."
+              "exampleVn": "Anh ấy làm việc một cách tận tụy để hoàn thành từng chi tiết.",
+              "wordClass": "cụm từ",
+              "level": "C1"
             }
           ]
         },
@@ -5988,11 +6721,14 @@
               "reading": "/sen.ˈtiɾ ˈse.los/",
               "meaningVn": "cảm thấy ghen tuông",
               "example": "Sintió celos al verla hablar con otro.",
-              "exampleVn": "Anh ấy đã cảm thấy ghen tuông khi thấy cô ấy nói chuyện với người khác."
+              "exampleVn": "Anh ấy đã cảm thấy ghen tuông khi thấy cô ấy nói chuyện với người khác.",
+              "wordClass": "cụm từ",
+              "level": "B1"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-laesposa-lasesposas",
@@ -6014,7 +6750,9 @@
               "reading": "/pre.sen.ˈtaɾ a su es.ˈpo.sa/",
               "meaningVn": "giới thiệu vợ mình",
               "example": "Le presentó a su esposa en la fiesta.",
-              "exampleVn": "Anh ấy đã giới thiệu vợ mình tại bữa tiệc."
+              "exampleVn": "Anh ấy đã giới thiệu vợ mình tại bữa tiệc.",
+              "wordClass": "cụm từ",
+              "level": "A2"
             }
           ]
         },
@@ -6030,11 +6768,14 @@
               "reading": "/po.ˈneɾ.le las es.ˈpo.sas/",
               "meaningVn": "còng tay ai đó",
               "example": "El policía le puso las esposas de inmediato.",
-              "exampleVn": "Viên cảnh sát đã còng tay anh ta ngay lập tức."
+              "exampleVn": "Viên cảnh sát đã còng tay anh ta ngay lập tức.",
+              "wordClass": "cụm từ",
+              "level": "B2"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-elinteres-losintereses",
@@ -6056,7 +6797,9 @@
               "reading": "/mos.ˈtraɾ in.te.ˈres/",
               "meaningVn": "thể hiện sự quan tâm",
               "example": "Mostró mucho interés en el proyecto.",
-              "exampleVn": "Anh ấy đã thể hiện sự quan tâm rất lớn đến dự án."
+              "exampleVn": "Anh ấy đã thể hiện sự quan tâm rất lớn đến dự án.",
+              "wordClass": "cụm từ",
+              "level": "B1"
             }
           ]
         },
@@ -6072,11 +6815,14 @@
               "reading": "/de.fen.ˈdeɾ los in.te.ˈre.ses/",
               "meaningVn": "bảo vệ quyền lợi",
               "example": "El abogado defendió los intereses de su cliente.",
-              "exampleVn": "Luật sư đã bảo vệ quyền lợi của thân chủ mình."
+              "exampleVn": "Luật sư đã bảo vệ quyền lợi của thân chủ mình.",
+              "wordClass": "cụm từ",
+              "level": "B2"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-lagafa-lasgafas",
@@ -6098,7 +6844,9 @@
               "reading": "/la ˈga.fa de su.xe.ˈsjon/",
               "meaningVn": "cái móc giữ chặt",
               "example": "Usó una gafa de sujeción para fijar el cable.",
-              "exampleVn": "Anh ấy đã dùng một cái móc giữ chặt để cố định sợi cáp."
+              "exampleVn": "Anh ấy đã dùng một cái móc giữ chặt để cố định sợi cáp.",
+              "wordClass": "cụm từ",
+              "level": "C1"
             }
           ]
         },
@@ -6114,11 +6862,14 @@
               "reading": "/po.ˈneɾ.se las ˈga.fas/",
               "meaningVn": "đeo kính mắt",
               "example": "Se puso las gafas para leer el menú.",
-              "exampleVn": "Anh ấy đã đeo kính để đọc thực đơn."
+              "exampleVn": "Anh ấy đã đeo kính để đọc thực đơn.",
+              "wordClass": "cụm từ",
+              "level": "A2"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-lapinza-laspinzas",
@@ -6140,7 +6891,9 @@
               "reading": "/ˈu.na ˈpin.sa de ˈro.pa/",
               "meaningVn": "một cái kẹp quần áo",
               "example": "Usó una pinza de ropa para cerrar la bolsa.",
-              "exampleVn": "Anh ấy đã dùng một cái kẹp quần áo để buộc kín túi."
+              "exampleVn": "Anh ấy đã dùng một cái kẹp quần áo để buộc kín túi.",
+              "wordClass": "cụm từ",
+              "level": "B1"
             }
           ]
         },
@@ -6156,11 +6909,14 @@
               "reading": "/ˈu.nas ˈpin.sas de de.pi.ˈlaɾ/",
               "meaningVn": "một cái nhíp nhổ lông",
               "example": "Necesitaba unas pinzas de depilar para la ceja.",
-              "exampleVn": "Cô ấy cần một cái nhíp để nhổ lông mày."
+              "exampleVn": "Cô ấy cần một cái nhíp để nhổ lông mày.",
+              "wordClass": "cụm từ",
+              "level": "B2"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-elanimo-losanimos",
@@ -6182,7 +6938,9 @@
               "reading": "/te.ˈneɾ ˈbwen ˈa.ni.mo/",
               "meaningVn": "có tinh thần tốt",
               "example": "A pesar de todo, tenía buen ánimo.",
-              "exampleVn": "Dù đã trải qua nhiều chuyện, anh ấy vẫn có tinh thần tốt."
+              "exampleVn": "Dù đã trải qua nhiều chuyện, anh ấy vẫn có tinh thần tốt.",
+              "wordClass": "cụm từ",
+              "level": "B1"
             }
           ]
         },
@@ -6198,11 +6956,14 @@
               "reading": "/kal.ˈmaɾ los ˈa.ni.mos/",
               "meaningVn": "làm dịu tình hình căng thẳng",
               "example": "El mediador logró calmar los ánimos entre ambas partes.",
-              "exampleVn": "Người hòa giải đã làm dịu được tình hình căng thẳng giữa hai bên."
+              "exampleVn": "Người hòa giải đã làm dịu được tình hình căng thẳng giữa hai bên.",
+              "wordClass": "cụm từ",
+              "level": "C1"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-puerta-portazo",
@@ -6224,7 +6985,9 @@
               "reading": "/a.ˈβriɾ la ˈpweɾ.ta prin.si.ˈpal/",
               "meaningVn": "mở cánh cửa chính",
               "example": "Abrió la puerta principal para recibir a los invitados.",
-              "exampleVn": "Anh ấy đã mở cánh cửa chính để đón khách."
+              "exampleVn": "Anh ấy đã mở cánh cửa chính để đón khách.",
+              "wordClass": "cụm từ",
+              "level": "A2"
             }
           ]
         },
@@ -6240,11 +7003,14 @@
               "reading": "/daɾ un poɾ.ˈta.so/",
               "meaningVn": "đóng sầm cửa",
               "example": "Salió dando un portazo tras la discusión.",
-              "exampleVn": "Anh ấy đã bỏ đi và đóng sầm cửa sau cuộc tranh cãi."
+              "exampleVn": "Anh ấy đã bỏ đi và đóng sầm cửa sau cuộc tranh cãi.",
+              "wordClass": "cụm từ",
+              "level": "B2"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-mano-manotazo",
@@ -6266,7 +7032,9 @@
               "reading": "/ˈdaɾ.le la ˈma.no/",
               "meaningVn": "bắt tay ai đó",
               "example": "Le dio la mano al conocer al nuevo jefe.",
-              "exampleVn": "Anh ấy đã bắt tay khi gặp sếp mới."
+              "exampleVn": "Anh ấy đã bắt tay khi gặp sếp mới.",
+              "wordClass": "cụm từ",
+              "level": "A2"
             }
           ]
         },
@@ -6282,11 +7050,14 @@
               "reading": "/daɾ un ma.no.ˈta.so/",
               "meaningVn": "vỗ/tát mạnh bằng tay",
               "example": "Le dio un manotazo al mosquito sobre la mesa.",
-              "exampleVn": "Anh ấy đã vỗ mạnh tay xuống con muỗi trên bàn."
+              "exampleVn": "Anh ấy đã vỗ mạnh tay xuống con muỗi trên bàn.",
+              "wordClass": "cụm từ",
+              "level": "C1"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-codo-codazo",
@@ -6308,7 +7079,9 @@
               "reading": "/a.po.ˈjaɾ el ˈko.ðo/",
               "meaningVn": "tựa khuỷu tay",
               "example": "Apoyó el codo sobre la mesa mientras pensaba.",
-              "exampleVn": "Anh ấy đã tựa khuỷu tay lên bàn khi đang suy nghĩ."
+              "exampleVn": "Anh ấy đã tựa khuỷu tay lên bàn khi đang suy nghĩ.",
+              "wordClass": "cụm từ",
+              "level": "B1"
             }
           ]
         },
@@ -6324,11 +7097,14 @@
               "reading": "/daɾ un ko.ˈða.so/",
               "meaningVn": "huých bằng khuỷu tay",
               "example": "Le dio un codazo para llamar su atención discretamente.",
-              "exampleVn": "Anh ấy đã huých khuỷu tay để thu hút sự chú ý một cách kín đáo."
+              "exampleVn": "Anh ấy đã huých khuỷu tay để thu hút sự chú ý một cách kín đáo.",
+              "wordClass": "cụm từ",
+              "level": "B2"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-flecha-flechazo",
@@ -6350,7 +7126,9 @@
               "reading": "/la ˈfle.tʃa del ˈaɾ.ko/",
               "meaningVn": "mũi tên của cây cung",
               "example": "La flecha del arco dio justo en el centro.",
-              "exampleVn": "Mũi tên của cây cung đã trúng ngay tâm bia."
+              "exampleVn": "Mũi tên của cây cung đã trúng ngay tâm bia.",
+              "wordClass": "cụm từ",
+              "level": "B1"
             }
           ]
         },
@@ -6366,11 +7144,14 @@
               "reading": "/fwe un fle.ˈtʃa.so/",
               "meaningVn": "đó là tiếng sét ái tình",
               "example": "Fue un flechazo desde el primer momento que se vieron.",
-              "exampleVn": "Đó là tiếng sét ái tình ngay từ khoảnh khắc đầu tiên họ gặp nhau."
+              "exampleVn": "Đó là tiếng sét ái tình ngay từ khoảnh khắc đầu tiên họ gặp nhau.",
+              "wordClass": "cụm từ",
+              "level": "C1"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-cabeza-cabezazo",
@@ -6392,7 +7173,9 @@
               "reading": "/te.ˈneɾ la ka.ˈβe.sa ˈdu.ra/",
               "meaningVn": "cứng đầu, ương bướng",
               "example": "Tiene la cabeza dura y nunca cambia de opinión.",
-              "exampleVn": "Anh ấy rất cứng đầu và không bao giờ đổi ý."
+              "exampleVn": "Anh ấy rất cứng đầu và không bao giờ đổi ý.",
+              "wordClass": "cụm từ",
+              "level": "B2"
             }
           ]
         },
@@ -6408,11 +7191,14 @@
               "reading": "/maɾ.ˈkaɾ de ka.βe.ˈsa.so/",
               "meaningVn": "ghi bàn bằng cú đánh đầu",
               "example": "Marcó el gol de cabezazo en el último minuto.",
-              "exampleVn": "Anh ấy đã ghi bàn bằng cú đánh đầu vào phút cuối."
+              "exampleVn": "Anh ấy đã ghi bàn bằng cú đánh đầu vào phút cuối.",
+              "wordClass": "cụm từ",
+              "level": "B2"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-rodilla-rodillazo",
@@ -6434,7 +7220,9 @@
               "reading": "/do.ˈβlaɾ la ro.ˈði.ʝa/",
               "meaningVn": "gập đầu gối lại",
               "example": "Dobló la rodilla para atarse el zapato.",
-              "exampleVn": "Anh ấy đã gập đầu gối để buộc dây giày."
+              "exampleVn": "Anh ấy đã gập đầu gối để buộc dây giày.",
+              "wordClass": "cụm từ",
+              "level": "B1"
             }
           ]
         },
@@ -6450,11 +7238,14 @@
               "reading": "/ˈdaɾ.le un ro.ði.ˈʝa.so/",
               "meaningVn": "thúc gối vào ai đó",
               "example": "El luchador le dio un rodillazo en el combate.",
-              "exampleVn": "Đô vật đã thúc gối vào đối thủ trong trận đấu."
+              "exampleVn": "Đô vật đã thúc gối vào đối thủ trong trận đấu.",
+              "wordClass": "cụm từ",
+              "level": "B2"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-darcon-dara",
@@ -6476,7 +7267,9 @@
               "reading": "/daɾ kon la so.lu.ˈsjon/",
               "meaningVn": "tình cờ tìm ra giải pháp",
               "example": "Por fin dio con la solución del problema.",
-              "exampleVn": "Cuối cùng anh ấy đã tình cờ tìm ra giải pháp cho vấn đề."
+              "exampleVn": "Cuối cùng anh ấy đã tình cờ tìm ra giải pháp cho vấn đề.",
+              "wordClass": "cụm từ",
+              "level": "B2"
             }
           ]
         },
@@ -6492,11 +7285,14 @@
               "reading": "/la ben.ˈta.na da al xaɾ.ˈðin/",
               "meaningVn": "cửa sổ hướng ra vườn",
               "example": "La ventana de su cuarto da al jardín.",
-              "exampleVn": "Cửa sổ phòng anh ấy hướng ra khu vườn."
+              "exampleVn": "Cửa sổ phòng anh ấy hướng ra khu vườn.",
+              "wordClass": "cụm từ",
+              "level": "B2"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-acabarde-acabarcon",
@@ -6518,7 +7314,9 @@
               "reading": "/a.ˈka.βo de ʝe.ˈɣaɾ/",
               "meaningVn": "tôi vừa mới đến",
               "example": "Acabo de llegar a casa hace un momento.",
-              "exampleVn": "Tôi vừa mới về đến nhà cách đây một lúc."
+              "exampleVn": "Tôi vừa mới về đến nhà cách đây một lúc.",
+              "wordClass": "cụm từ",
+              "level": "A2"
             }
           ]
         },
@@ -6534,11 +7332,14 @@
               "reading": "/a.ka.ˈβaɾ kon el pro.ˈβle.ma/",
               "meaningVn": "chấm dứt vấn đề",
               "example": "Esta medida ayudará a acabar con el problema.",
-              "exampleVn": "Biện pháp này sẽ giúp chấm dứt vấn đề."
+              "exampleVn": "Biện pháp này sẽ giúp chấm dứt vấn đề.",
+              "wordClass": "cụm từ",
+              "level": "B1"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-pensaren-pensarde",
@@ -6560,7 +7361,9 @@
               "reading": "/pen.ˈsaɾ en el fu.ˈtu.ro/",
               "meaningVn": "nghĩ về tương lai",
               "example": "Le gusta pensar en el futuro con optimismo.",
-              "exampleVn": "Anh ấy thích nghĩ về tương lai với sự lạc quan."
+              "exampleVn": "Anh ấy thích nghĩ về tương lai với sự lạc quan.",
+              "wordClass": "cụm từ",
+              "level": "A2"
             }
           ]
         },
@@ -6576,11 +7379,14 @@
               "reading": "/ke ˈpjen.sas de el/",
               "meaningVn": "bạn nghĩ gì về anh ta?",
               "example": "¿Qué piensas de él como candidato?",
-              "exampleVn": "Bạn nghĩ gì về anh ta với tư cách là ứng viên?"
+              "exampleVn": "Bạn nghĩ gì về anh ta với tư cách là ứng viên?",
+              "wordClass": "cụm từ",
+              "level": "A2"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-tratarde-tratarcon",
@@ -6602,7 +7408,9 @@
               "reading": "/tra.ˈto de kom.ben.ˈseɾ.lo/",
               "meaningVn": "anh ấy đã cố gắng thuyết phục anh ta",
               "example": "Trató de convencerlo pero no lo logró.",
-              "exampleVn": "Anh ấy đã cố gắng thuyết phục anh ta nhưng không thành công."
+              "exampleVn": "Anh ấy đã cố gắng thuyết phục anh ta nhưng không thành công.",
+              "wordClass": "cụm từ",
+              "level": "B1"
             }
           ]
         },
@@ -6618,11 +7426,14 @@
               "reading": "/tra.ˈtaɾ kon los kljen.ˈtes/",
               "meaningVn": "giao tiếp với khách hàng",
               "example": "Sabe tratar con los clientes difíciles.",
-              "exampleVn": "Anh ấy biết cách đối xử với những khách hàng khó tính."
+              "exampleVn": "Anh ấy biết cách đối xử với những khách hàng khó tính.",
+              "wordClass": "cụm từ",
+              "level": "B2"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-salircon-salirde",
@@ -6644,7 +7455,9 @@
               "reading": "/sa.ˈliɾ kon al.ˈɣjen/",
               "meaningVn": "hẹn hò với ai đó",
               "example": "Empezó a salir con un compañero de trabajo.",
-              "exampleVn": "Cô ấy đã bắt đầu hẹn hò với một đồng nghiệp."
+              "exampleVn": "Cô ấy đã bắt đầu hẹn hò với một đồng nghiệp.",
+              "wordClass": "cụm từ",
+              "level": "B1"
             }
           ]
         },
@@ -6660,11 +7473,14 @@
               "reading": "/sa.ˈliɾ de la sju.ˈðað/",
               "meaningVn": "rời khỏi thành phố",
               "example": "Decidieron salir de la ciudad el fin de semana.",
-              "exampleVn": "Họ đã quyết định rời khỏi thành phố vào cuối tuần."
+              "exampleVn": "Họ đã quyết định rời khỏi thành phố vào cuối tuần.",
+              "wordClass": "cụm từ",
+              "level": "A2"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-contar-contarcon",
@@ -6686,7 +7502,9 @@
               "reading": "/kon.ˈtaɾ ˈu.na is.ˈto.rja/",
               "meaningVn": "kể một câu chuyện",
               "example": "Le encanta contar historias de su infancia.",
-              "exampleVn": "Anh ấy rất thích kể những câu chuyện thời thơ ấu của mình."
+              "exampleVn": "Anh ấy rất thích kể những câu chuyện thời thơ ấu của mình.",
+              "wordClass": "cụm từ",
+              "level": "A2"
             }
           ]
         },
@@ -6702,11 +7520,14 @@
               "reading": "/kon.ˈtaɾ kon el a.ˈpo.ʝo/",
               "meaningVn": "có được sự ủng hộ",
               "example": "Puede contar con el apoyo de toda su familia.",
-              "exampleVn": "Anh ấy có thể trông cậy vào sự ủng hộ của cả gia đình."
+              "exampleVn": "Anh ấy có thể trông cậy vào sự ủng hộ của cả gia đình.",
+              "wordClass": "cụm từ",
+              "level": "B2"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-conocer-reconocer",
@@ -6728,7 +7549,9 @@
               "reading": "/ko.no.ˈseɾ a al.ˈɣjen/",
               "meaningVn": "quen biết ai đó",
               "example": "Le encanta conocer a gente nueva en los viajes.",
-              "exampleVn": "Cô ấy rất thích quen biết những người mới trong các chuyến đi."
+              "exampleVn": "Cô ấy rất thích quen biết những người mới trong các chuyến đi.",
+              "wordClass": "cụm từ",
+              "level": "A1"
             }
           ]
         },
@@ -6744,11 +7567,14 @@
               "reading": "/re.ko.no.ˈseɾ un e.ˈror/",
               "meaningVn": "thừa nhận một sai lầm",
               "example": "Tuvo el valor de reconocer su error públicamente.",
-              "exampleVn": "Anh ấy đã có đủ dũng khí để công khai thừa nhận sai lầm của mình."
+              "exampleVn": "Anh ấy đã có đủ dũng khí để công khai thừa nhận sai lầm của mình.",
+              "wordClass": "cụm từ",
+              "level": "B1"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-montar-remontar",
@@ -6770,7 +7596,9 @@
               "reading": "/mon.ˈtaɾ a ka.ˈβa.ʝo/",
               "meaningVn": "cưỡi ngựa",
               "example": "Aprendió a montar a caballo de pequeño.",
-              "exampleVn": "Anh ấy đã học cưỡi ngựa từ nhỏ."
+              "exampleVn": "Anh ấy đã học cưỡi ngựa từ nhỏ.",
+              "wordClass": "cụm từ",
+              "level": "B1"
             }
           ]
         },
@@ -6786,11 +7614,14 @@
               "reading": "/re.mon.ˈtaɾ la ˈkri.sis/",
               "meaningVn": "vượt qua cuộc khủng hoảng",
               "example": "La empresa logró remontar la crisis financiera.",
-              "exampleVn": "Công ty đã vượt qua được cuộc khủng hoảng tài chính."
+              "exampleVn": "Công ty đã vượt qua được cuộc khủng hoảng tài chính.",
+              "wordClass": "cụm từ",
+              "level": "C1"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-cobrar-recobrar",
@@ -6812,7 +7643,9 @@
               "reading": "/ko.ˈβraɾ el ˈswel.do/",
               "meaningVn": "lãnh lương",
               "example": "Todavía no ha logrado cobrar el sueldo de este mes.",
-              "exampleVn": "Anh ấy vẫn chưa lãnh được lương tháng này."
+              "exampleVn": "Anh ấy vẫn chưa lãnh được lương tháng này.",
+              "wordClass": "cụm từ",
+              "level": "B1"
             }
           ]
         },
@@ -6828,11 +7661,14 @@
               "reading": "/re.ko.ˈβraɾ el ko.no.si.ˈmjen.to/",
               "meaningVn": "tỉnh lại (khôi phục ý thức)",
               "example": "Tardó varios minutos en recobrar el conocimiento.",
-              "exampleVn": "Anh ấy đã mất vài phút để tỉnh lại."
+              "exampleVn": "Anh ấy đã mất vài phút để tỉnh lại.",
+              "wordClass": "cụm từ",
+              "level": "C1"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-saltar-resaltar",
@@ -6854,7 +7690,9 @@
               "reading": "/sal.ˈtaɾ la ˈkweɾ.ða/",
               "meaningVn": "nhảy dây",
               "example": "Los niños jugaban a saltar la cuerda en el patio.",
-              "exampleVn": "Bọn trẻ chơi nhảy dây trong sân."
+              "exampleVn": "Bọn trẻ chơi nhảy dây trong sân.",
+              "wordClass": "cụm từ",
+              "level": "A2"
             }
           ]
         },
@@ -6870,11 +7708,14 @@
               "reading": "/re.sal.ˈtaɾ un ˈda.to/",
               "meaningVn": "làm nổi bật một dữ liệu",
               "example": "El informe destacó al resaltar un dato clave.",
-              "exampleVn": "Báo cáo đã nhấn mạnh bằng cách làm nổi bật một dữ liệu then chốt."
+              "exampleVn": "Báo cáo đã nhấn mạnh bằng cách làm nổi bật một dữ liệu then chốt.",
+              "wordClass": "cụm từ",
+              "level": "B2"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-volver-revolver",
@@ -6896,7 +7737,9 @@
               "reading": "/bol.ˈβeɾ a ˈka.sa/",
               "meaningVn": "trở về nhà",
               "example": "Prometió volver a casa antes de medianoche.",
-              "exampleVn": "Anh ấy đã hứa sẽ trở về nhà trước nửa đêm."
+              "exampleVn": "Anh ấy đã hứa sẽ trở về nhà trước nửa đêm.",
+              "wordClass": "cụm từ",
+              "level": "A1"
             }
           ]
         },
@@ -6912,11 +7755,14 @@
               "reading": "/re.βol.ˈβeɾ la ˈso.pa/",
               "meaningVn": "khuấy món súp",
               "example": "Hay que revolver la sopa para que no se pegue.",
-              "exampleVn": "Cần phải khuấy món súp để nó không bị dính đáy nồi."
+              "exampleVn": "Cần phải khuấy món súp để nó không bị dính đáy nồi.",
+              "wordClass": "cụm từ",
+              "level": "B2"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     },
     {
       "id": "es-shape-unir-reunir",
@@ -6938,7 +7784,9 @@
               "reading": "/u.ˈniɾ los dos ˈka.βles/",
               "meaningVn": "nối hai sợi dây cáp",
               "example": "Tuvo que unir los dos cables con cinta aislante.",
-              "exampleVn": "Anh ấy đã phải nối hai sợi dây cáp bằng băng keo cách điện."
+              "exampleVn": "Anh ấy đã phải nối hai sợi dây cáp bằng băng keo cách điện.",
+              "wordClass": "cụm từ",
+              "level": "B1"
             }
           ]
         },
@@ -6954,11 +7802,14 @@
               "reading": "/re.u.ˈniɾ a la fa.ˈmi.lja/",
               "meaningVn": "tập hợp cả gia đình",
               "example": "Logró reunir a toda la familia para Navidad.",
-              "exampleVn": "Anh ấy đã tập hợp được cả gia đình vào dịp Giáng sinh."
+              "exampleVn": "Anh ấy đã tập hợp được cả gia đình vào dịp Giáng sinh.",
+              "wordClass": "cụm từ",
+              "level": "B1"
             }
           ]
         }
-      ]
+      ],
+      "addedAt": "2026-09-18T14:31:11+07:00"
     }
   ]
 }
