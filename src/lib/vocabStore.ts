@@ -1,6 +1,7 @@
 import "server-only";
 import type { GroupKind, Language, LanguageData, RootEntry, SoundGroup, VocabWord } from "@/types/vocab";
 import { kvGet, kvSet } from "@/lib/kv";
+import { genId } from "@/lib/id";
 import { getMnemonicMap } from "@/lib/mnemonicStore";
 import { flattenWords } from "@/lib/wordTree";
 import { pinyinToneKey } from "@/lib/zhPinyin";
@@ -344,6 +345,91 @@ export async function addExtraGroup(lang: Language, group: SoundGroup): Promise<
   const additions = await loadAdditions(lang);
   additions.extraGroups = [...additions.extraGroups, group];
   await kvSet(kvKey(lang), additions);
+}
+
+/** Id nhóm "Từ tự tra" của một ngôn ngữ. CỐ ĐỊNH (không genId) để mọi lần tra sau đều rơi vào đúng
+ * nhóm đó thay vì sinh ra một nhóm mới mỗi lần — và để link `/[lang]/[groupId]` gửi cho người học hôm
+ * nay vẫn còn đúng sau này. */
+export function lookupGroupId(lang: Language): string {
+  return `${lang}-ai-lookup`;
+}
+
+function lookupRootId(lang: Language, theme: string): string {
+  return `${lang}-ai-lookup-${theme}`;
+}
+
+/** Lưu MỘT từ/cụm/câu người học vừa tra bằng AI vào kho riêng của họ, để nó thành từ vựng thật: hiện
+ * trong bộ lọc "✚ Tự thêm", vào được SRS, đánh dấu yêu thích/đã thuộc, ôn tập được — chứ không chỉ nằm
+ * trong nhật ký "✨ Mới thêm" ở /my-vocab như trước (nhật ký đó chỉ để xem lại, không phải từ vựng).
+ *
+ * Mỗi ngôn ngữ có ĐÚNG MỘT nhóm "Từ tự tra" (id cố định), trong đó mỗi theme AI là một chữ gốc riêng —
+ * nhờ vậy mindmap của nhóm này chẻ sẵn theo kiểu tra ("Tra nhanh", "Thành ngữ", "Mổ xẻ câu"...) thay vì
+ * dồn tất cả vào một nhánh dài.
+ *
+ * Tra LẠI một từ đã tra rồi thì GHI ĐÈ nội dung nhưng GIỮ NGUYÊN `id` cũ, vì id chính là khoá của tiến
+ * độ SRS/yêu thích/đã thuộc (`progress:main`) — đổi id là người học mất sạch lịch sử ôn tập của từ đó. */
+export async function saveLookupWord(
+  lang: Language,
+  theme: string,
+  branch: { label: string; meaningVn: string },
+  word: Omit<VocabWord, "id">,
+): Promise<{ groupId: string; wordId: string; replaced: boolean }> {
+  const additions = await loadAdditions(lang);
+  const groupId = lookupGroupId(lang);
+  const rootId = lookupRootId(lang, theme);
+
+  let group = additions.extraGroups.find((g) => g.id === groupId);
+  if (!group) {
+    group = {
+      id: groupId,
+      language: lang,
+      reading: "Từ tự tra",
+      note: "Mọi từ, thành ngữ và câu bạn đã nhờ AI giải thích đều tự động vào đây.",
+      category: "✚ Từ tự tra",
+      addedAt: new Date().toISOString(),
+      roots: [],
+    };
+    additions.extraGroups = [...additions.extraGroups, group];
+  }
+
+  let root = group.roots.find((r) => r.id === rootId);
+  if (!root) {
+    root = { id: rootId, character: branch.label, meaningVn: branch.meaningVn, words: [] };
+    group.roots = [...group.roots, root];
+  } else {
+    // Nhãn/mô tả nhánh là chữ của app, không phải dữ liệu người học — đồng bộ lại mỗi lần ghi để sửa
+    // câu chữ trong code là nhánh cũ trong KV cũng đổi theo, khỏi phải viết script vá dữ liệu.
+    root.character = branch.label;
+    root.meaningVn = branch.meaningVn;
+  }
+
+  const existing = root.words.find((w) => w.headword === word.headword);
+  const id = existing?.id ?? genId("word");
+  const saved: VocabWord = {
+    ...existing,
+    ...word,
+    id,
+    ...(word.children ? { children: assignChildIds(word.children, existing?.children ?? []) } : {}),
+  };
+  root.words = existing
+    ? root.words.map((w) => (w.id === id ? saved : w))
+    : [...root.words, saved];
+  await kvSet(kvKey(lang), additions);
+  return { groupId, wordId: id, replaced: !!existing };
+}
+
+/** Cấp id cho các từ con AI vừa sinh (`lookupWordFromCard` để `id` rỗng vì nó không đọc được kho). Từ
+ * con nào trùng `headword` với lần tra trước thì GIỮ id cũ — id là khoá của tiến độ SRS/yêu thích, nên
+ * tra lại một thành ngữ không được làm người học mất lịch sử ôn từng chữ trong đó. */
+function assignChildIds(next: VocabWord[], previous: VocabWord[]): VocabWord[] {
+  return next.map((c) => {
+    const old = previous.find((p) => p.headword === c.headword);
+    return {
+      ...c,
+      id: old?.id ?? genId("word"),
+      ...(c.children ? { children: assignChildIds(c.children, old?.children ?? []) } : {}),
+    };
+  });
 }
 
 export { STATIC_DATA, ALL_LANGUAGES };
