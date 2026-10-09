@@ -56,7 +56,8 @@ const THEMES = [
     label: "📖 Giải thích nhanh",
     kind: "card" as const,
     description: "Tra nhanh nghĩa/cách đọc/ví dụ của 1 từ, hiện ngay tại đây.",
-    example: "KHÔNG tạo mindmap mới — chỉ để tra cứu nhanh 1 từ đơn lẻ.",
+    example:
+      "Ví dụ gõ 勉強 → nhận: べんきょう · \"học tập\" · 毎日日本語を勉強します (Ngày nào tôi cũng học tiếng Nhật). Không tạo mindmap.",
     nhap: "勉強",
     nhan: "Một thẻ ngay bên dưới: cách đọc, nghĩa tiếng Việt, 1–2 câu ví dụ. Nhanh nhất trong các kiểu.",
   },
@@ -77,7 +78,8 @@ const THEMES = [
     label: "🧠 Giải thích sâu & mẹo nhớ",
     kind: "card" as const,
     description: "AI giải thích sắc thái/ngữ cảnh dùng sâu hơn tra nhanh, kèm mẹo nhớ ngay trong cùng 1 lần.",
-    example: "Phù hợp khi đã biết nghĩa cơ bản nhưng muốn hiểu KHI NÀO nên dùng từ này, và cách nhớ lâu.",
+    example:
+      "Ví dụ gõ 微妙 → nhận: dùng khi tình thế khó gọi tên, hơi tế nhị; khác 复杂 (rắc rối về cấu trúc). Mẹo nhớ: \"vi\" là nhỏ, \"diệu\" là khéo — nhỏ mà khéo nên khó nói ra.",
     nhap: "微妙",
     nhan: "Một thẻ dài hơn \"Giải thích nhanh\": dùng trong hoàn cảnh nào, khác gì từ gần nghĩa, và một mẹo nhớ.",
   },
@@ -87,7 +89,8 @@ const THEMES = [
     label: "📝 Thêm ví dụ",
     kind: "card" as const,
     description: "Sinh 3-4 câu ví dụ ở nhiều ngữ cảnh/sắc thái khác nhau cho 1 từ.",
-    example: "Ví dụ: 1 câu văn nói thân mật, 1 câu công sở trang trọng, 1 câu viết/email...",
+    example:
+      "Ví dụ gõ 大丈夫 → nhận: 大丈夫だよ (bạn bè: không sao đâu) · 大丈夫でしょうか (công sở: liệu có ổn không ạ) · ご心配なく、大丈夫です (email).",
     nhap: "大丈夫",
     nhan: "Một thẻ gồm 3–4 câu CÂU HOÀN CHỈNH: một câu thân mật, một câu công sở, một câu viết.",
   },
@@ -97,9 +100,32 @@ const THEMES = [
     label: "🔗 Từ đồng nghĩa",
     kind: "card" as const,
     description: "Tìm các từ gần nghĩa, kèm khác biệt sắc thái so với từ gốc.",
-    example: "KHÔNG tạo mindmap mới — chỉ tra cứu nhanh và lưu vào lịch sử 'Mới thêm'.",
+    example:
+      "Ví dụ gõ 高兴 → nhận: 快乐 (vui kéo dài, dùng cả lời chúc) · 愉快 (dễ chịu, hơi trang trọng) · 开心 (vui bộc phát, khẩu ngữ). Không tạo mindmap.",
     nhap: "高兴",
     nhan: "Một thẻ: 快乐, 愉快, 开心… kèm chỗ khác nhau với 高兴. Giống \"Họ hàng nghĩa\" nhưng KHÔNG tạo mindmap.",
+  },
+  {
+    key: "idiom",
+    mode: "idiom",
+    label: "🏮 Phân tích thành ngữ",
+    kind: "card" as const,
+    description: "Tách nghĩa MẶT CHỮ với nghĩa dùng THẬT của thành ngữ/quán ngữ, kèm chẻ từng chữ, điển tích và sắc thái khen/chê.",
+    example:
+      "Ví dụ gõ 春心荡漾 → nhận: chūn xīn dàng yàng · thành ngữ · \"lòng yêu đương rạo rực, xao xuyến\" (mặt chữ: lòng xuân dao động) · 看到他的笑容，她不禁春心荡漾。",
+    nhap: "春心荡漾",
+    nhan: "Một thẻ: nghĩa thật vs nghĩa mặt chữ, chẻ 春/心/荡/漾 từng chữ, điển tích (nếu có), dùng khen hay chê, và 1 câu ví dụ.",
+  },
+  {
+    key: "sentence",
+    mode: "sentence",
+    label: "✂️ Mổ xẻ câu",
+    kind: "card" as const,
+    description: "Dán CẢ MỘT CÂU vào — AI chẻ câu thành từng khúc, mỗi khúc kèm cách đọc, nghĩa và vai trong câu.",
+    example:
+      "Ví dụ gõ 看到他的笑容，她不禁春心荡漾。 → nhận: bản dịch cả câu, rồi từng khúc 看到 (động từ chính) · 他的笑容 (bổ ngữ) · 不禁 (trạng ngữ)… kèm cấu trúc ngữ pháp.",
+    nhap: "看到他的笑容，她不禁春心荡漾。",
+    nhan: "Một thẻ: dịch cả câu, bảng chẻ câu theo thứ tự kèm vai từng khúc, cấu trúc ngữ pháp và lưu ý. Kiểu DUY NHẤT không chẻ chuỗi nhập theo dấu phẩy.",
   },
   {
     key: "collocations",
@@ -107,7 +133,8 @@ const THEMES = [
     label: "🧩 Cụm từ đi cùng",
     kind: "card" as const,
     description: "Tìm các cụm từ/tổ hợp ngắn thông dụng thường đi cùng từ này.",
-    example: "Khác 'Thêm ví dụ' ở chỗ đây là cụm từ ngắn, không phải câu hoàn chỉnh.",
+    example:
+      "Ví dụ gõ 决定 → nhận: 做决定 (ra quyết định) · 最终决定 (quyết định cuối cùng) · 决定权 (quyền quyết định). Là CỤM ngắn, không phải câu hoàn chỉnh như \"Thêm ví dụ\".",
     nhap: "决定",
     nhan: "Một thẻ các CỤM NGẮN: 做决定 (ra quyết định), 最终决定 (quyết định cuối cùng), 决定权…",
   },
@@ -121,6 +148,11 @@ interface WordResult {
   groupId?: string;
   card?: Record<string, string>;
   cardTheme?: string;
+  /** Nhóm "Từ tự tra" mà từ vừa tra đã được lưu vào (xem Features.md mục 32). Có giá trị thì hiện link
+   * "đã lưu" dưới thẻ — trước đây tra xong không có dấu hiệu nào cho biết từ đã vào kho hay chưa. */
+  savedGroupId?: string;
+  /** true = từ này đã tra trước đó rồi, lần này ghi đè nội dung chứ không thêm bản trùng. */
+  savedReplaced?: boolean;
 }
 
 /** Tách chuỗi nhập thành nhiều từ nếu người dùng gõ nhiều từ cách nhau bằng dấu phẩy (thường hoặc
@@ -161,13 +193,15 @@ export default function NewGroupPrompt({
 
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
-    const words = splitWords(word);
+    const selected = availableThemes.find((t) => t.key === theme) ?? THEMES[0];
+    // Theme "✂️ Mổ xẻ câu" nhận CẢ MỘT CÂU — mà câu tiếng Trung/Nhật thì đầy dấu "，" và "、", đúng
+    // những dấu splitWords dùng để chẻ nhiều từ. Chẻ câu ra ở đây là gửi từng mẩu vụn cho AI.
+    const words = selected.key === "sentence" ? [word.trim()].filter(Boolean) : splitWords(word);
     if (words.length === 0 || loading) return;
     setError(null);
     setResults([]);
     setLoading(true);
 
-    const selected = availableThemes.find((t) => t.key === theme) ?? THEMES[0];
     const collected: WordResult[] = [];
     const errors: string[] = [];
 
@@ -189,7 +223,14 @@ export default function NewGroupPrompt({
         if (selected.kind === "group") {
           collected.push({ word: w, groupId: data.group.id, note: data.note ?? `Đã xử lý "${w}".` });
         } else {
-          collected.push({ word: w, note: `Đã xử lý "${w}".`, card: data.card, cardTheme: selected.key });
+          collected.push({
+            word: w,
+            note: `Đã xử lý "${w}".`,
+            card: data.card,
+            cardTheme: selected.key,
+            savedGroupId: data.saved?.groupId,
+            savedReplaced: data.saved?.replaced,
+          });
         }
       } catch (err) {
         errors.push(err instanceof Error ? err.message : `Có lỗi khi xử lý "${w}".`);
@@ -291,20 +332,69 @@ Nhận: ${t.nhan}`}
               {selectedTheme.nhan}
             </p>
             <p className="mt-1 break-words italic text-ink-muted">{selectedTheme.example}</p>
+
+            {/* Trước đây muốn biết một kiểu khác làm gì thì chỉ có hai cách: rê chuột lên chip để
+                xem `title` (điện thoại không rê được), hoặc BẤM vào nó — mà bấm là đổi luôn lựa
+                chọn và ghi vào localStorage. Nên thực tế không có cách nào so sánh các kiểu trước
+                khi chọn. Bảng dưới đây mở ra tại chỗ, liệt kê gõ-gì-nhận-gì của MỌI kiểu, và không
+                đụng tới lựa chọn hiện tại. */}
+            <details className="mt-2 border-t border-border pt-1.5">
+              <summary className="cursor-pointer list-none font-semibold text-brand-600 hover:underline">
+                ❓ Các kiểu khác làm gì? — xem hết, không đổi lựa chọn
+              </summary>
+              <ul className="mt-1.5 flex flex-col gap-1.5">
+                {availableThemes.map((t) => (
+                  <li
+                    key={t.key}
+                    className={`rounded-lg px-2 py-1.5 ${
+                      t.key === selectedTheme.key ? "bg-brand-50 dark:bg-brand-950/40" : "bg-surface-2"
+                    }`}
+                  >
+                    <div className="flex flex-wrap items-center gap-x-1.5">
+                      <span className="font-semibold text-ink">{t.label}</span>
+                      <span className="text-[10px] font-bold text-ink-muted">
+                        {t.kind === "group" ? "→ mindmap" : "→ thẻ tra cứu"}
+                      </span>
+                    </div>
+                    <p className="break-words text-ink-muted">
+                      Gõ <code className="rounded bg-surface px-1">{t.nhap}</code> → {t.nhan}
+                    </p>
+                  </li>
+                ))}
+              </ul>
+            </details>
           </div>
         );
       })()}
 
       <p className="mt-2 text-xs text-ink-muted">
-        Nhập 1 từ, hoặc nhiều từ cách nhau bằng dấu phẩy (vd {lang === "en" ? "extract, attract" : lang === "es" ? "mantener, obtener" : "峰，风，疯"})
-        — AI sẽ xử lý theo kiểu đã chọn ở trên.
+        {theme === "sentence" ? (
+          <>Dán nguyên MỘT CÂU (giữ cả dấu phẩy, dấu chấm) — kiểu này không chẻ chuỗi nhập theo dấu phẩy.</>
+        ) : (
+          <>
+            Nhập 1 từ, hoặc nhiều từ cách nhau bằng dấu phẩy (vd{" "}
+            {lang === "en" ? "extract, attract" : lang === "es" ? "mantener, obtener" : "峰，风，疯"}) — AI sẽ xử lý
+            theo kiểu đã chọn ở trên.
+          </>
+        )}{" "}
+        Mọi từ bạn tra đều tự động được lưu vào nhóm “Từ tự tra” của bạn.
       </p>
 
       <div className="mt-3 flex gap-2">
         <input
           value={word}
           onChange={(e) => setWord(e.target.value)}
-          placeholder={lang === "en" ? "Ví dụ: extract, portable, inspect..." : lang === "es" ? "Ví dụ: mantener, proponer, convertir..." : "Ví dụ: 木头, 학교, 勉強 hoặc 峰，风，疯..."}
+          placeholder={
+            theme === "sentence"
+              ? "Dán cả câu, vd: 看到他的笑容，她不禁春心荡漾。"
+              : theme === "idiom"
+                ? "Ví dụ: 春心荡漾, 画蛇添足..."
+                : lang === "en"
+                  ? "Ví dụ: extract, portable, inspect..."
+                  : lang === "es"
+                    ? "Ví dụ: mantener, proponer, convertir..."
+                    : "Ví dụ: 木头, 학교, 勉強 hoặc 峰，风，疯..."
+          }
           disabled={loading}
           className="flex-1 rounded-full border border-border bg-surface px-4 py-2 text-sm text-ink outline-none focus:border-brand-400 disabled:opacity-50"
         />
@@ -323,6 +413,19 @@ Nhận: ${t.nhan}`}
             r.card ? (
               <div key={`${r.word}-${i}`} className="rounded-xl border border-border bg-surface p-3">
                 <AnswerCardView theme={r.cardTheme ?? "quick-dict"} card={r.card} />
+                {/* Mọi lần tra giờ đều được lưu thành từ vựng thật — nói ra để người học biết mình
+                    không phải chép tay lại, và bấm được sang chỗ ôn tập nó. */}
+                {r.savedGroupId && (
+                  <button
+                    type="button"
+                    onClick={() => router.push(`/${lang}/${r.savedGroupId}`)}
+                    className="mt-2 block text-left text-xs font-medium text-brand-600 hover:underline"
+                  >
+                    {r.savedReplaced
+                      ? "✚ Đã có trong “Từ tự tra” — vừa cập nhật lại. Mở nhóm →"
+                      : "✚ Đã lưu vào “Từ tự tra” (lọc được bằng ✚ Tự thêm, ôn được như từ thường). Mở nhóm →"}
+                  </button>
+                )}
               </div>
             ) : (
               <button
