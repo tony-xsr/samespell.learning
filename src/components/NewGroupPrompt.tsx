@@ -17,6 +17,8 @@ const THEMES = [
     langs: HAN_LANGS,
     description: "Tìm các từ khác nhau nhưng đọc giống nhau (chung chữ Hán/Hanja gốc).",
     example: "Ví dụ: 峰, 风, 疯 đều đọc \"fēng\" — nếu trùng cách đọc với nhóm đã có, tự gộp chung.",
+    nhap: "风",
+    nhan: "Mindmap cách đọc \"fēng\": 峰 (đỉnh núi), 疯 (điên), 丰 (phong phú)… Nếu đã có nhóm \"fēng\" thì từ mới được gộp vào nhóm đó chứ không tạo thêm.",
   },
   {
     key: "polyphonic",
@@ -25,6 +27,8 @@ const THEMES = [
     langs: HAN_LANGS,
     description: "Tìm 1 chữ có NHIỀU cách đọc khác nhau tuỳ nghĩa/từ ghép, sinh từ minh hoạ từng cách đọc.",
     example: "Ví dụ: 乐 đọc \"nhạc\" trong 音乐 (âm nhạc) nhưng đọc \"lạc\" trong 快乐 (vui vẻ).",
+    nhap: "乐",
+    nhan: "Mindmap 1 chữ – nhiều âm: nhánh \"nhạc\" (音乐, 乐器) và nhánh \"lạc\" (快乐, 乐趣).",
   },
   {
     key: "synonym-family",
@@ -33,6 +37,8 @@ const THEMES = [
     langs: HAN_LANGS,
     description: "Tìm các từ gần nghĩa nhưng sắc thái lệch nhau, dùng chung 1 chữ gốc — kèm thêm từ trái nghĩa.",
     example: "Ví dụ: 递交/提交/上交 đều dùng chữ 交 (nộp/giao) nhưng sắc thái trang trọng khác nhau.",
+    nhap: "提交",
+    nhan: "Mindmap quanh chữ 交: 递交 / 提交 / 上交 (cùng là \"nộp\", trang trọng tăng dần) kèm một nhánh từ trái nghĩa.",
   },
   {
     key: "word-family",
@@ -41,6 +47,8 @@ const THEMES = [
     langs: ["en", "es"] as Language[],
     description: "Tìm các từ (tiếng Anh nâng cao hoặc tiếng Tây Ban Nha) cùng gốc từ nguyên Latin/Hy Lạp.",
     example: "Ví dụ: extract, attract, subtract đều chứa gốc \"tract\" (kéo, rút); mantener, sostener, obtener đều chứa gốc \"tener\" (giữ).",
+    nhap: "extract",
+    nhan: "Mindmap gốc \"tract\" (kéo, rút): extract, attract, subtract, retract… mỗi từ kèm nghĩa và câu ví dụ.",
   },
   {
     key: "quick-dict",
@@ -49,6 +57,8 @@ const THEMES = [
     kind: "card" as const,
     description: "Tra nhanh nghĩa/cách đọc/ví dụ của 1 từ, hiện ngay tại đây.",
     example: "KHÔNG tạo mindmap mới — chỉ để tra cứu nhanh 1 từ đơn lẻ.",
+    nhap: "勉強",
+    nhan: "Một thẻ ngay bên dưới: cách đọc, nghĩa tiếng Việt, 1–2 câu ví dụ. Nhanh nhất trong các kiểu.",
   },
   {
     key: "etymology",
@@ -58,6 +68,8 @@ const THEMES = [
     langs: ["zh", "ja"] as Language[],
     description: "Phân tích chữ Hán/Kanji thành bộ thủ + thành phần cấu tạo, giải thích vì sao ghép ra nghĩa đó.",
     example: "Ví dụ: 好 = 女 (nữ) + 子 (con) — mẹ bên con là điều tốt lành.",
+    nhap: "好",
+    nhan: "Một thẻ: 好 = 女 (nữ) + 子 (con), kèm lý giải vì sao ghép lại thành nghĩa \"tốt\". Gõ 1 chữ đơn, đừng gõ từ ghép.",
   },
   {
     key: "explain-mnemonic",
@@ -66,6 +78,8 @@ const THEMES = [
     kind: "card" as const,
     description: "AI giải thích sắc thái/ngữ cảnh dùng sâu hơn tra nhanh, kèm mẹo nhớ ngay trong cùng 1 lần.",
     example: "Phù hợp khi đã biết nghĩa cơ bản nhưng muốn hiểu KHI NÀO nên dùng từ này, và cách nhớ lâu.",
+    nhap: "微妙",
+    nhan: "Một thẻ dài hơn \"Giải thích nhanh\": dùng trong hoàn cảnh nào, khác gì từ gần nghĩa, và một mẹo nhớ.",
   },
   {
     key: "examples",
@@ -74,6 +88,8 @@ const THEMES = [
     kind: "card" as const,
     description: "Sinh 3-4 câu ví dụ ở nhiều ngữ cảnh/sắc thái khác nhau cho 1 từ.",
     example: "Ví dụ: 1 câu văn nói thân mật, 1 câu công sở trang trọng, 1 câu viết/email...",
+    nhap: "大丈夫",
+    nhan: "Một thẻ gồm 3–4 câu CÂU HOÀN CHỈNH: một câu thân mật, một câu công sở, một câu viết.",
   },
   {
     key: "synonyms",
@@ -82,6 +98,8 @@ const THEMES = [
     kind: "card" as const,
     description: "Tìm các từ gần nghĩa, kèm khác biệt sắc thái so với từ gốc.",
     example: "KHÔNG tạo mindmap mới — chỉ tra cứu nhanh và lưu vào lịch sử 'Mới thêm'.",
+    nhap: "高兴",
+    nhan: "Một thẻ: 快乐, 愉快, 开心… kèm chỗ khác nhau với 高兴. Giống \"Họ hàng nghĩa\" nhưng KHÔNG tạo mindmap.",
   },
   {
     key: "collocations",
@@ -90,6 +108,8 @@ const THEMES = [
     kind: "card" as const,
     description: "Tìm các cụm từ/tổ hợp ngắn thông dụng thường đi cùng từ này.",
     example: "Khác 'Thêm ví dụ' ở chỗ đây là cụm từ ngắn, không phải câu hoàn chỉnh.",
+    nhap: "决定",
+    nhan: "Một thẻ các CỤM NGẮN: 做决定 (ra quyết định), 最终决定 (quyết định cuối cùng), 决定权…",
   },
 ];
 
@@ -200,31 +220,77 @@ export default function NewGroupPrompt({
     >
       <label className="text-sm font-semibold text-ink">✨ Hỏi AI / Tạo mindmap mới</label>
 
-      <div className="mt-2 flex flex-wrap gap-1.5">
-        {availableThemes.map((t) => (
-          <button
-            key={t.key}
-            type="button"
-            onClick={() => selectTheme(t.key)}
-            disabled={loading}
-            className={`rounded-full px-3 py-1 text-xs font-medium transition disabled:opacity-50 ${
-              theme === t.key
-                ? "bg-gradient-to-r from-brand-600 to-accent-500 text-white shadow-sm"
-                : "border border-border bg-surface text-ink-muted hover:bg-surface-3"
-            }`}
-          >
-            {t.label}
-          </button>
-        ))}
-      </div>
+      {/* Chia làm HAI nhóm có nhãn. Khác biệt lớn nhất giữa 10 kiểu không phải là nội dung mà là
+          CHUYỆN GÌ XẢY RA SAU KHI BẤM GỬI: 4 kiểu tạo một mindmap mới rồi chuyển sang trang đó,
+          6 kiểu chỉ hiện một thẻ ngay bên dưới ô nhập. Dải nút phẳng cũ không hề nói ra điều này,
+          nên nhìn tên kiểu ("Đa âm Hán Việt", "Họ hàng nghĩa") thì không đoán được nên chọn gì. */}
+      {(["group", "card"] as const).map((kind) => {
+        const ds = availableThemes.filter((t) => t.kind === kind);
+        if (ds.length === 0) return null;
+        return (
+          <div key={kind} className="mt-2.5">
+            <p className="text-[11px] font-semibold uppercase tracking-wide text-ink-muted">
+              {kind === "group"
+                ? "Tạo mindmap mới · bấm Gửi là mở sang trang mindmap"
+                : "Tra 1 từ · thẻ hiện ngay bên dưới, không rời trang"}
+            </p>
+            <div className="mt-1 flex flex-wrap gap-1.5">
+              {ds.map((t) => (
+                <button
+                  key={t.key}
+                  type="button"
+                  onClick={() => selectTheme(t.key)}
+                  disabled={loading}
+                  // Chú giải khi trỏ chuột: xem được kiểu khác làm gì mà KHÔNG phải bấm vào nó
+                  // (bấm vào là đổi lựa chọn, và lựa chọn được ghi vào localStorage).
+                  title={`${t.description}
+
+Gõ: ${t.nhap}
+Nhận: ${t.nhan}`}
+                  className={`max-w-full rounded-full px-3 py-1 text-xs font-medium transition disabled:opacity-50 ${
+                    theme === t.key
+                      ? "bg-gradient-to-r from-brand-600 to-accent-500 text-white shadow-sm"
+                      : "border border-border bg-surface text-ink-muted hover:bg-surface-3"
+                  }`}
+                >
+                  {t.label}
+                </button>
+              ))}
+            </div>
+          </div>
+        );
+      })}
 
       {(() => {
         const selectedTheme = availableThemes.find((t) => t.key === theme);
         if (!selectedTheme) return null;
         return (
-          <div className="mt-2 rounded-xl bg-surface-3 px-3 py-2 text-xs text-ink-muted">
-            <div>{selectedTheme.description}</div>
-            <div className="mt-0.5 italic">{selectedTheme.example}</div>
+          <div className="mt-2 rounded-xl bg-surface-3 px-3 py-2 text-xs">
+            <div className="flex flex-wrap items-center gap-x-2 gap-y-1">
+              <span className="font-semibold text-ink">{selectedTheme.label}</span>
+              <span
+                className={`rounded-full px-2 py-0.5 text-[10px] font-bold ${
+                  selectedTheme.kind === "group"
+                    ? "bg-brand-100 text-brand-700 dark:bg-brand-900/50 dark:text-brand-300"
+                    : "bg-accent-100 text-accent-700 dark:bg-accent-900/50 dark:text-accent-300"
+                }`}
+              >
+                {selectedTheme.kind === "group" ? "→ mở mindmap mới" : "→ thẻ tra cứu tại đây"}
+              </span>
+            </div>
+            <p className="mt-1 text-ink-muted">{selectedTheme.description}</p>
+            {/* Hai dòng dưới đây là phần người dùng thật sự cần: gõ gì vào, và nhận lại cái gì.
+                Để cỡ chữ thân bài và màu mực thường — mô tả cũ bị đẩy xuống `text-ink-muted`
+                nhạt nên bị bỏ qua. */}
+            <p className="mt-1.5 break-words text-ink">
+              <span className="font-semibold">Bạn gõ: </span>
+              <code className="rounded bg-surface px-1 py-0.5">{selectedTheme.nhap}</code>
+            </p>
+            <p className="mt-0.5 break-words text-ink">
+              <span className="font-semibold">Nhận được: </span>
+              {selectedTheme.nhan}
+            </p>
+            <p className="mt-1 break-words italic text-ink-muted">{selectedTheme.example}</p>
           </div>
         );
       })()}
