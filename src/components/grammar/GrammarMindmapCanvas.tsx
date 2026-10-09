@@ -286,7 +286,7 @@ export default function GrammarMindmapCanvas({
         onPointerDown={(e) => handleNodeDragStart(e, pn.point.id, pn.x, pn.y)}
         onClick={() => handleNodeClick(pn.point.id, () => handleSpeak(pn.point.pattern))}
       >
-        <div className="text-base font-bold whitespace-nowrap text-ink">{pn.point.pattern}</div>
+        <div className="break-words text-base font-bold leading-snug text-ink">{pn.point.pattern}</div>
         <div className={`text-xs font-medium ${color.text}`}>{pn.point.meaningVn}</div>
 
         <SpeakBadge
@@ -378,9 +378,9 @@ export default function GrammarMindmapCanvas({
 
             <div
               style={{ left: layout.centerX, top: layout.centerY }}
-              className="absolute -translate-x-1/2 -translate-y-1/2 rounded-2xl border-2 border-brand-500 bg-brand-50 px-6 py-4 text-center shadow-md"
+              className="absolute -translate-x-1/2 -translate-y-1/2 max-w-[min(85vw,380px)] rounded-2xl border-2 border-brand-500 bg-brand-50 px-6 py-4 text-center shadow-md"
             >
-              <div className="text-lg font-bold whitespace-nowrap text-ink">{category.titleVn}</div>
+              <div className="break-words text-lg font-bold leading-snug text-ink">{category.titleVn}</div>
               <div className="mt-0.5 text-xs text-ink-muted">{category.points.length} điểm ngữ pháp</div>
             </div>
 
