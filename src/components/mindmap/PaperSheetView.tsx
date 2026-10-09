@@ -223,7 +223,12 @@ export default function PaperSheetView({
 
           {branches.map((b, bi) => (
             <section key={b.id} className="paper-section" style={{ marginBottom: rule }}>
-              <h2 className="font-bold" style={{ fontSize: fontSize * 1.3 }}>
+              <h2
+                className="font-bold"
+                onClick={() => void speak(b.title, language)}
+                title={`Bấm để đọc "${b.title}"`}
+                style={{ fontSize: fontSize * 1.3, cursor: "pointer" }}
+              >
                 <span style={{ color: accent }}>{bi + 1}.</span>{" "}
                 <button
                   type="button"
@@ -242,7 +247,7 @@ export default function PaperSheetView({
                 {hideMeaning && !revealed.has(b.id) ? (
                   <button
                     type="button"
-                    onClick={() => setRevealed((s) => new Set(s).add(b.id))}
+                    onClick={(e) => { e.stopPropagation(); setRevealed((s) => new Set(s).add(b.id)); }}
                     aria-label={`Hiện nghĩa của ${b.title}`}
                     style={{ color: muted, fontWeight: 400, fontSize }}
                   >
@@ -261,7 +266,13 @@ export default function PaperSheetView({
               ) : (
                 <ul style={{ paddingLeft: fontSize * 1.5 }}>
                   {b.words.map((w) => (
-                    <li key={w.id} className="paper-entry">
+                    <li
+                      key={w.id}
+                      className="paper-entry"
+                      onClick={() => void speak(w.headword, language)}
+                      title={`Bấm để đọc "${w.headword}"`}
+                      style={{ cursor: "pointer" }}
+                    >
                       <span className="font-bold">
                         <button
                           type="button"
@@ -287,7 +298,7 @@ export default function PaperSheetView({
                       {hideMeaning && !revealed.has(w.id) ? (
                         <button
                           type="button"
-                          onClick={() => setRevealed((s) => new Set(s).add(w.id))}
+                          onClick={(e) => { e.stopPropagation(); setRevealed((s) => new Set(s).add(w.id)); }}
                           aria-label={`Hiện nghĩa của ${w.headword}`}
                           style={{ color: muted }}
                         >
