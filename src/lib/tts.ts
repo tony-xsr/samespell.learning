@@ -140,6 +140,18 @@ export async function speakAndWait(
   });
 }
 
+/** Ước lượng thời gian đọc một đoạn, để làm `timeoutMs` cho `speakAndWait`. Mặc định 4000ms của
+ * `speakAndWait` hợp với từ đơn, nhưng CẮT NGANG một câu ví dụ dài: hết 4 giây là hàm resolve, bước
+ * sau gọi `speechSynthesis.cancel()` và câu đang đọc dở bị ngắt. Ước lượng rộng tay là đúng — đây chỉ
+ * là lưới an toàn phòng khi `onend` không bắn, còn bình thường `onend` mới là thứ kết thúc việc chờ. */
+export function estimateSpeechMs(text: string, rate = 0.85): number {
+  // Chữ Hán/Kana/Hangul: mỗi ký tự là một âm tiết nên đọc lâu hơn hẳn chữ Latinh cùng độ dài.
+  const cjk = (text.match(/[぀-ヿ㐀-鿿가-힯]/g) ?? []).length;
+  const rest = text.length - cjk;
+  const ms = 1200 + (cjk * 420 + rest * 90) / rate;
+  return Math.min(30000, Math.round(ms));
+}
+
 export function ttsFailureMessage(reason: SpeakResult["reason"]): string {
   if (reason === "unsupported") return "Trình duyệt này không hỗ trợ đọc to (Web Speech API).";
   return "Máy/trình duyệt của bạn chưa có giọng đọc cho ngôn ngữ này — vào Cài đặt Windows → Giờ & Ngôn ngữ → Giọng nói để cài thêm.";
