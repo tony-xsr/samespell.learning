@@ -484,16 +484,18 @@ export default function MindmapCanvas({
           onMouseLeave={handleHoverLeave}
           onClick={() => handleNodeClick(word.id, () => handleSpeak(word.headword))}
         >
-          <div className="text-sm font-semibold whitespace-nowrap text-ink">
+          <div className="break-words text-sm font-semibold leading-snug text-ink">
             {isMastered && "✅ "}
             {word.source === "user" && (
               <span title="Từ do bạn tự thêm" className="mr-0.5 text-violet-500">
                 ✚
               </span>
             )}
-            {word.headword}
+            <span className="whitespace-nowrap">{word.headword}</span>
             {word.hanViet && (
-              <span className="ml-1 text-xs font-normal text-ink-muted italic">({word.hanViet})</span>
+              <span className="ml-1 whitespace-nowrap text-xs font-normal text-ink-muted italic">
+                ({word.hanViet})
+              </span>
             )}
           </div>
           <div className="text-[11px] text-ink-muted italic">{word.reading}</div>
@@ -633,9 +635,9 @@ export default function MindmapCanvas({
             {/* Center node */}
             <div
               style={{ left: layout.centerX, top: layout.centerY }}
-              className="absolute -translate-x-1/2 -translate-y-1/2 rounded-2xl border-2 border-brand-500 bg-brand-50 px-6 py-4 text-center shadow-md"
+              className="absolute -translate-x-1/2 -translate-y-1/2 max-w-[min(85vw,380px)] rounded-2xl border-2 border-brand-500 bg-brand-50 px-6 py-4 text-center shadow-md"
             >
-              <div className="text-2xl font-bold whitespace-nowrap text-ink">{group.reading}</div>
+              <div className="break-words text-2xl font-bold leading-snug text-ink">{group.reading}</div>
               <div className="mt-0.5 text-xs text-ink-muted">
                 {group.language === "en" || group.language === "es"
                   ? group.groupKind === "shape"
