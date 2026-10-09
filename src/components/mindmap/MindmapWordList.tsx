@@ -126,9 +126,13 @@ export default function MindmapWordList({
           ) : (
             <ul className="flex flex-col gap-1">
               {filtered.map((i) => (
+                // Bấm BẤT KỲ ĐÂU trong hàng là đọc từ đó. Nút chữ đậm bên trong vẫn còn (bàn phím
+                // cần một nút thật để tab tới), nhưng không còn là chỗ DUY NHẤT bấm được nữa.
                 <li
                   key={i.id}
-                  className={`rounded-xl border px-3 py-2 ${
+                  onClick={() => void speak(i.headword, language)}
+                  title={`Bấm để đọc "${i.headword}"`}
+                  className={`cursor-pointer rounded-xl border px-3 py-2 ${
                     i.isRoot
                       ? "border-brand-200 bg-brand-50/60 dark:border-brand-900 dark:bg-brand-950/25"
                       : "border-border bg-surface-2"
@@ -171,7 +175,7 @@ export default function MindmapWordList({
                     <button
                       type="button"
                       aria-label={`Hiện nghĩa của ${i.headword}`}
-                      onClick={() => setRevealed((s) => new Set(s).add(i.id))}
+                      onClick={(e) => { e.stopPropagation(); setRevealed((s) => new Set(s).add(i.id)); }}
                       className="mt-0.5 rounded bg-surface-3 px-2 text-sm text-ink-muted hover:bg-surface"
                     >
                       • • •
