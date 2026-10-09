@@ -82,6 +82,17 @@ export default function GroupBrowser({
   const [sort, setSort] = useState<SortId>("category");
   const [view, setView] = useState<ViewId>("grid");
   const [level, setLevel] = useState("");
+  /** Mục chủ đề nào người dùng đã TỰ bấm gập/mở, lưu theo tên chủ đề.
+   *
+   * Trước đây `<details>` dùng thẳng `open={i === 0 || list.length <= 30}`. Vì đó là một biểu thức
+   * tính lại mỗi lần render, nên hễ người dùng chạm vào bất kỳ bộ lọc nào (chip trình độ, tab, ô tìm
+   * kiếm) là `list.length` đổi → React thấy giá trị `open` đổi và ÉP thẻ về trạng thái máy tự quyết,
+   * xoá sạch lựa chọn vừa rồi. Người dùng mở một mục ra, bấm bộ lọc, mục tự đóng lại — nhìn như mục
+   * "biến mất" và không có cách nào giữ nó mở.
+   *
+   * Nay biểu thức kia chỉ còn là GIÁ TRỊ MẶC ĐỊNH cho mục chưa từng được chạm tới; đã chạm thì ý
+   * người dùng thắng và giữ nguyên qua mọi lần lọc. */
+  const [sectionOpen, setSectionOpen] = useState<Record<string, boolean>>({});
 
   const counts = useMemo(
     () => ({
@@ -371,8 +382,30 @@ export default function GroupBrowser({
           {sections.map(([cat, list], i) => (
             // Mục ĐẦU luôn mở: nếu mọi mục đều lớn (zh-shape: 14 chủ đề, mục nhỏ nhất 1 nhóm nhưng
             // phần lớn >30) thì người dùng mở trang ra chỉ thấy một bức tường tiêu đề gập lại.
-            <details key={cat} id={slugify(cat)} open={i === 0 || list.length <= 30} className="group mt-6 scroll-mt-4">
-              <summary className="cursor-pointer list-none">
+            <details
+              key={cat}
+              id={slugify(cat)}
+              open={sectionOpen[cat] ?? (i === 0 || list.length <= 30)}
+              className="group mt-6 scroll-mt-4"
+            >
+              {/* Ghi nhận ở cú BẤM trên <summary>, không phải ở sự kiện `toggle` của <details>.
+                  `toggle` bắn cả khi React tự ghi thuộc tính `open` lúc lọc lại danh sách, nên nếu
+                  nghe ở đó thì chính thao tác lọc sẽ tự ghi đè bản ghi và hỏng y như cũ. Cú bấm vào
+                  summary thì chắc chắn là ý người dùng (bàn phím Enter/Space cũng phát ra click).
+                  Lúc này `open` còn là giá trị CŨ, nên lưu giá trị đảo.
+
+                  `preventDefault()` là BẮT BUỘC: React xả state của sự kiện click xong mới tới lượt
+                  trình duyệt chạy hành vi mặc định, nên nếu để nguyên thì React đặt `open` một lần
+                  rồi trình duyệt đảo thêm lần nữa — hai cái triệt tiêu nhau và cú bấm thành vô tác
+                  dụng. Chặn mặc định đi thì React là nơi duy nhất quyết định trạng thái. */}
+              <summary
+                className="cursor-pointer list-none"
+                onClick={(e) => {
+                  e.preventDefault();
+                  const d = (e.currentTarget as HTMLElement).parentElement as HTMLDetailsElement;
+                  setSectionOpen((prev) => ({ ...prev, [cat]: !d.open }));
+                }}
+              >
                 <div className="flex items-center gap-2 rounded-xl bg-surface-2 px-4 py-2.5 hover:bg-surface-3">
                   <span className="text-base font-bold text-ink">{cat}</span>
                   <span className="text-sm font-medium text-ink-muted">
