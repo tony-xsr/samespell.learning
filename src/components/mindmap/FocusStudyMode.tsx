@@ -265,7 +265,9 @@ export default function FocusStudyMode({
                 return (
                   <li
                     key={w.id}
-                    className={`rounded-2xl border px-4 py-3 ${cardSkin} ${isMastered ? "opacity-60 ring-1 ring-emerald-400" : ""}`}
+                    onClick={() => void speak(w.headword, language)}
+                    title={`Bấm để đọc "${w.headword}"`}
+                    className={`cursor-pointer rounded-2xl border px-4 py-3 ${cardSkin} ${isMastered ? "opacity-60 ring-1 ring-emerald-400" : ""}`}
                   >
                     <div className="flex items-start justify-between gap-2">
                       <button
@@ -279,7 +281,7 @@ export default function FocusStudyMode({
                       <div className="flex shrink-0 gap-1">
                         <button
                           type="button"
-                          onClick={() => onToggleFavorite(w.id)}
+                          onClick={(e) => { e.stopPropagation(); onToggleFavorite(w.id); }}
                           aria-label={isFav ? `Bỏ yêu thích ${w.headword}` : `Yêu thích ${w.headword}`}
                           aria-pressed={isFav}
                           className={`flex h-8 w-8 items-center justify-center rounded-full border text-sm ${
@@ -290,7 +292,7 @@ export default function FocusStudyMode({
                         </button>
                         <button
                           type="button"
-                          onClick={() => onToggleMastered(w.id)}
+                          onClick={(e) => { e.stopPropagation(); onToggleMastered(w.id); }}
                           aria-label={isMastered ? `Bỏ đánh dấu đã thuộc ${w.headword}` : `Đã thuộc ${w.headword}`}
                           aria-pressed={isMastered}
                           className={`flex h-8 w-8 items-center justify-center rounded-full border text-sm ${
@@ -319,7 +321,7 @@ export default function FocusStudyMode({
                     {hideMeaning && !revealed.has(w.id) ? (
                       <button
                         type="button"
-                        onClick={() => setRevealed((s) => new Set(s).add(w.id))}
+                        onClick={(e) => { e.stopPropagation(); setRevealed((s) => new Set(s).add(w.id)); }}
                         aria-label={`Hiện nghĩa của ${w.headword}`}
                         className={`mt-1.5 rounded-full px-4 py-1 text-sm font-medium ${hiddenChip}`}
                       >
@@ -342,7 +344,7 @@ export default function FocusStudyMode({
                         {w.example}{" "}
                         <button
                           type="button"
-                          onClick={() => void speak(w.example!, language)}
+                          onClick={(e) => { e.stopPropagation(); void speak(w.example!, language); }}
                           aria-label={`Đọc ví dụ của ${w.headword}`}
                           className="align-middle"
                         >
