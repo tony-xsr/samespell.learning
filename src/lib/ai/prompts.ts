@@ -11,6 +11,8 @@ import {
   EXAMPLE_SET_JSON_SHAPE_HINT,
   SYNONYM_SET_JSON_SHAPE_HINT,
   COLLOCATION_SET_JSON_SHAPE_HINT,
+  IDIOM_JSON_SHAPE_HINT,
+  SENTENCE_ANALYSIS_JSON_SHAPE_HINT,
 } from "@/lib/ai/schemas";
 
 export const LANG_NAMES: Record<Language, string> = {
@@ -221,6 +223,48 @@ Hãy liệt kê 4-6 cụm từ/tổ hợp THỰC SỰ thông dụng trong giao t
 câu hoàn chỉnh, chỉ là cụm từ ngắn — ví dụ động từ+giới từ, tính từ+danh từ hay đi cùng, v.v.).
 Mỗi cụm kèm nghĩa tiếng Việt ngắn gọn.
 ${COLLOCATION_SET_JSON_SHAPE_HINT}`;
+}
+
+/** Theme "🏮 Phân tích thành ngữ" (answer-card). Hai điều phải nói thẳng với mô hình, vì không nói thì
+ * nó hay làm sai: (1) tách rõ nghĩa mặt chữ với nghĩa dùng thật — đây chính là lý do thành ngữ khó, gộp
+ * hai thứ đó lại là mất hết giá trị; (2) KHÔNG bịa điển tích. Thành ngữ Trung Quốc có hẳn một lớp
+ * chengyu xuất từ sách cổ, nhưng phần lớn quán ngữ hiện đại thì không — bỏ trống khi không rõ là đúng,
+ * còn bịa ra một "tích truyện" nghe hợp lý thì người học không có cách nào phát hiện. */
+export function buildIdiomPrompt(params: { language: Language; word: string }): string {
+  const langName = LANG_NAMES[params.language];
+  return `Bạn là trợ lý dạy ${langName} cho người Việt, chuyên về thành ngữ/quán ngữ.
+Thành ngữ hoặc cụm cố định: "${params.word}".
+Hãy phân tích cho người học:
+- Nghĩa MẶT CHỮ (literalVn): dịch sát từng chữ, kể cả khi nghe vô nghĩa.
+- Nghĩa THẬT khi dùng (meaningVn): nghĩa người bản ngữ hiểu khi nghe cụm này trong câu.
+  Hai mục trên PHẢI khác nhau về cách diễn đạt — nếu thực sự trùng (cụm không có nghĩa bóng) thì nói rõ
+  ở usageVn rằng cụm này hiểu theo đúng mặt chữ.
+- breakdown: chẻ cụm thành từng chữ/thành phần theo ĐÚNG thứ tự xuất hiện, mỗi phần kèm cách đọc và nghĩa riêng.
+- originVn: điển tích/xuất xứ THẬT (tên sách, tích truyện) nếu bạn biết chắc. KHÔNG CHẮC THÌ ĐỂ CHUỖI RỖNG —
+  tuyệt đối không bịa ra tích truyện nghe hợp lý.
+- usageVn: sắc thái khen hay chê, trang trọng hay khẩu ngữ, thường nói về ai/việc gì.
+- Một câu ví dụ tự nhiên kèm bản dịch tiếng Việt.
+${levelInstruction(params.language)}
+${IDIOM_JSON_SHAPE_HINT}`;
+}
+
+/** Theme "✂️ Mổ xẻ câu" (answer-card) — đầu vào là MỘT CÂU, không phải một từ. Ràng buộc quan trọng:
+ * ghép các `chunks` lại phải ra đúng câu gốc, nếu không thì bảng phân tích không khớp câu người học
+ * đang đọc và sẽ gây hiểu sai hơn là không có. */
+export function buildSentenceAnalysisPrompt(params: { language: Language; sentence: string }): string {
+  const langName = LANG_NAMES[params.language];
+  return `Bạn là trợ lý dạy ${langName} cho người Việt.
+Câu cần mổ xẻ: "${params.sentence}".
+Hãy phân tích câu này cho người học:
+- translationVn: dịch cả câu sang tiếng Việt trôi chảy, tự nhiên (không dịch máy từng chữ).
+- chunks: chẻ câu thành các khúc theo ĐÚNG thứ tự xuất hiện. Mỗi khúc là MỘT TỪ hoặc MỘT NGỮ có nghĩa —
+  không chẻ lẻ từng chữ của cùng một từ ghép. Ghép text của tất cả các khúc lại theo thứ tự PHẢI ra đúng
+  câu gốc, không thêm không bớt chữ nào. Mỗi khúc ghi rõ vai của nó trong câu (roleVn).
+- grammarVn: cấu trúc ngữ pháp chính của câu, giải thích bằng tiếng Việt sao cho người học áp dụng được
+  vào câu khác.
+- noteVn: lưu ý sắc thái, mức khẩu ngữ/văn viết, hoặc lỗi người Việt hay mắc với cấu trúc này. Không có
+  thì để chuỗi rỗng.
+${SENTENCE_ANALYSIS_JSON_SHAPE_HINT}`;
 }
 
 export function buildExpandWordPrompt(params: {
