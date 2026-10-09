@@ -10,6 +10,8 @@ import {
   ExampleSetSchema,
   SynonymSetSchema,
   CollocationSetSchema,
+  IdiomSchema,
+  SentenceAnalysisSchema,
 } from "@/lib/ai/schemas";
 import {
   buildExpandRootPrompt,
@@ -25,6 +27,8 @@ import {
   buildExamplesPrompt,
   buildSynonymsPrompt,
   buildCollocationsPrompt,
+  buildIdiomPrompt,
+  buildSentenceAnalysisPrompt,
 } from "@/lib/ai/prompts";
 import {
   addExtraWords,
@@ -33,10 +37,38 @@ import {
   addExtraGroup,
   getLanguageData,
   findGroupByReading,
+  saveLookupWord,
 } from "@/lib/vocabStore";
 import { genId } from "@/lib/id";
 import { logNewVocabEntry } from "@/lib/newVocabLog";
-import type { RootEntry, SoundGroup, VocabWord } from "@/types/vocab";
+import { lookupWordFromCard, lookupThemeBranch } from "@/lib/aiLookupWord";
+import type { Language, RootEntry, SoundGroup, VocabWord } from "@/types/vocab";
+
+/** Mọi lần tra bằng theme "card" đều đi qua đây, nên MỌI truy vấn từ vựng vừa vào nhật ký "✨ Mới thêm"
+ * vừa thành từ vựng thật trong nhóm "Từ tự tra" (lọc được bằng "✚ Tự thêm", ôn được bằng SRS). Trước
+ * đây chỉ ghi nhật ký, nên người học tra xong là mất — xem Features.md mục 32.
+ *
+ * Lưu vào kho CHẠY TRƯỚC ghi nhật ký để nhật ký mang luôn `groupId` trỏ về nhóm vừa lưu. Lỗi khi lưu
+ * kho KHÔNG được làm chết cả request: người học vẫn phải thấy kết quả tra của mình. */
+async function persistLookup(params: {
+  language: Language;
+  theme: string;
+  word: string;
+  note: string;
+  card: Record<string, string>;
+}): Promise<{ groupId: string; wordId: string; replaced: boolean } | null> {
+  const vocab = lookupWordFromCard(params.theme, params.card);
+  let saved: { groupId: string; wordId: string; replaced: boolean } | null = null;
+  if (vocab) {
+    try {
+      saved = await saveLookupWord(params.language, params.theme, lookupThemeBranch(params.theme), vocab);
+    } catch {
+      saved = null;
+    }
+  }
+  await logNewVocabEntry({ ...params, groupId: saved?.groupId });
+  return saved;
+}
 
 /** zh/ko/ja/en — TẤT CẢ mode trừ "etymology" (chiết tự chữ Hán/Kanji, không áp dụng tiếng Anh vì
  * không có Hán tự) đều dùng chung danh sách này. */
@@ -109,6 +141,18 @@ const RequestSchema = z.discriminatedUnion("mode", [
     mode: z.literal("collocations"),
     language: ALL_LANGUAGES_ENUM,
     word: z.string().min(1),
+  }),
+  z.object({
+    mode: z.literal("idiom"),
+    language: ALL_LANGUAGES_ENUM,
+    word: z.string().min(1),
+  }),
+  z.object({
+    mode: z.literal("sentence"),
+    language: ALL_LANGUAGES_ENUM,
+    /** Cả MỘT CÂU, không phải 1 từ — nên không chẻ theo dấu phẩy ở client (xem splitWords trong
+     * NewGroupPrompt.tsx) và cho phép dài hơn hẳn các mode khác. */
+    word: z.string().min(1).max(500),
   }),
 ]);
 
@@ -266,43 +310,33 @@ export async function POST(req: NextRequest) {
       const prompt = buildQuickDictPrompt({ language: input.language, word: input.word });
       const result = await generateStructured(QuickDictSchema, prompt);
       const note = `Đã tra nhanh "${result.headword}".`;
-      await logNewVocabEntry({
-        language: input.language,
-        theme: "quick-dict",
-        word: input.word,
-        note,
-        card: {
-          headword: result.headword,
-          reading: result.reading,
-          wordClass: result.wordClass ?? "",
-          meaningVn: result.meaningVn,
-          example: result.example,
-          exampleVn: result.exampleVn,
-        },
-      });
-      return NextResponse.json({ card: result });
+      const card = {
+        headword: result.headword,
+        reading: result.reading,
+        wordClass: result.wordClass ?? "",
+        meaningVn: result.meaningVn,
+        example: result.example,
+        exampleVn: result.exampleVn,
+      };
+      const saved = await persistLookup({ language: input.language, theme: "quick-dict", word: input.word, note, card });
+      return NextResponse.json({ card, saved });
     }
 
     if (input.mode === "etymology") {
       const prompt = buildEtymologyPrompt({ language: input.language, word: input.word });
       const result = await generateStructured(EtymologySchema, prompt);
       const note = `Đã chiết tự "${result.headword}".`;
-      await logNewVocabEntry({
-        language: input.language,
-        theme: "etymology",
-        word: input.word,
-        note,
-        card: {
-          headword: result.headword,
-          reading: result.reading,
-          radical: result.radical,
-          radicalMeaningVn: result.radicalMeaningVn,
-          componentsVn: result.componentsVn,
-          explanationVn: result.explanationVn,
-          mnemonicVn: result.mnemonicVn,
-        },
-      });
-      return NextResponse.json({ card: result });
+      const card = {
+        headword: result.headword,
+        reading: result.reading,
+        radical: result.radical,
+        radicalMeaningVn: result.radicalMeaningVn,
+        componentsVn: result.componentsVn,
+        explanationVn: result.explanationVn,
+        mnemonicVn: result.mnemonicVn,
+      };
+      const saved = await persistLookup({ language: input.language, theme: "etymology", word: input.word, note, card });
+      return NextResponse.json({ card, saved });
     }
 
     if (input.mode === "explain-mnemonic") {
@@ -316,8 +350,8 @@ export async function POST(req: NextRequest) {
         explanationVn: result.explanationVn,
         mnemonicVn: result.mnemonicVn,
       };
-      await logNewVocabEntry({ language: input.language, theme: "explain-mnemonic", word: input.word, note, card });
-      return NextResponse.json({ card });
+      const saved = await persistLookup({ language: input.language, theme: "explain-mnemonic", word: input.word, note, card });
+      return NextResponse.json({ card, saved });
     }
 
     if (input.mode === "examples") {
@@ -330,8 +364,8 @@ export async function POST(req: NextRequest) {
         meaningVn: result.meaningVn,
         examplesJson: JSON.stringify(result.examples),
       };
-      await logNewVocabEntry({ language: input.language, theme: "examples", word: input.word, note, card });
-      return NextResponse.json({ card });
+      const saved = await persistLookup({ language: input.language, theme: "examples", word: input.word, note, card });
+      return NextResponse.json({ card, saved });
     }
 
     if (input.mode === "synonyms") {
@@ -344,8 +378,8 @@ export async function POST(req: NextRequest) {
         meaningVn: result.meaningVn,
         synonymsJson: JSON.stringify(result.synonyms),
       };
-      await logNewVocabEntry({ language: input.language, theme: "synonyms", word: input.word, note, card });
-      return NextResponse.json({ card });
+      const saved = await persistLookup({ language: input.language, theme: "synonyms", word: input.word, note, card });
+      return NextResponse.json({ card, saved });
     }
 
     if (input.mode === "collocations") {
@@ -358,8 +392,46 @@ export async function POST(req: NextRequest) {
         meaningVn: result.meaningVn,
         collocationsJson: JSON.stringify(result.collocations),
       };
-      await logNewVocabEntry({ language: input.language, theme: "collocations", word: input.word, note, card });
-      return NextResponse.json({ card });
+      const saved = await persistLookup({ language: input.language, theme: "collocations", word: input.word, note, card });
+      return NextResponse.json({ card, saved });
+    }
+
+    if (input.mode === "idiom") {
+      const prompt = buildIdiomPrompt({ language: input.language, word: input.word });
+      const result = await generateStructured(IdiomSchema, prompt);
+      const note = `Đã phân tích thành ngữ "${result.headword}".`;
+      const card = {
+        headword: result.headword,
+        reading: result.reading,
+        hanViet: result.hanViet ?? "",
+        wordClass: result.wordClass,
+        literalVn: result.literalVn,
+        meaningVn: result.meaningVn,
+        breakdownJson: JSON.stringify(result.breakdown),
+        originVn: result.originVn,
+        usageVn: result.usageVn,
+        example: result.example,
+        exampleVn: result.exampleVn,
+        level: result.level ?? "",
+      };
+      const saved = await persistLookup({ language: input.language, theme: "idiom", word: input.word, note, card });
+      return NextResponse.json({ card, saved });
+    }
+
+    if (input.mode === "sentence") {
+      const prompt = buildSentenceAnalysisPrompt({ language: input.language, sentence: input.word });
+      const result = await generateStructured(SentenceAnalysisSchema, prompt);
+      const note = `Đã mổ xẻ câu "${result.sentence}".`;
+      const card = {
+        sentence: result.sentence,
+        reading: result.reading,
+        translationVn: result.translationVn,
+        chunksJson: JSON.stringify(result.chunks),
+        grammarVn: result.grammarVn,
+        noteVn: result.noteVn,
+      };
+      const saved = await persistLookup({ language: input.language, theme: "sentence", word: input.word, note, card });
+      return NextResponse.json({ card, saved });
     }
 
     // mode === "new-root"
