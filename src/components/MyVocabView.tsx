@@ -190,39 +190,38 @@ export default function MyVocabView({
                 Chưa có từ nào — gõ 1 từ vào ô &ldquo;✨ Thêm / phân tích từ vựng bằng AI&rdquo; ở trên.
               </p>
             ) : (
-              initialNewVocab.map((entry) =>
-                entry.groupId ? (
-                  <div
-                    key={entry.id}
-                    className="flex items-center justify-between gap-3 rounded-xl border border-border bg-surface-2 px-4 py-3 shadow-sm"
-                  >
-                    <Link href={`/${entry.language}/${entry.groupId}`} className="min-w-0 flex-1">
-                      <div className="flex items-center gap-2">
-                        <span className="truncate text-base font-bold text-brand-600">{entry.word}</span>
-                        <span className="shrink-0 rounded-full bg-surface-3 px-2 py-0.5 text-[11px] font-medium text-ink-muted">
-                          {LANG_LABEL[entry.language]} · {entry.theme}
-                        </span>
-                      </div>
-                      <div className="mt-0.5 text-xs text-ink-muted">{entry.note}</div>
-                    </Link>
+              // Một khuôn duy nhất cho cả hai loại entry. Trước đây rẽ nhánh theo `entry.groupId`:
+              // có groupId thì chỉ hiện dòng link, không hiện thẻ. Từ khi MỌI lần tra đều được lưu
+              // vào nhóm "Từ tự tra" (mục 32), entry dạng thẻ cũng có groupId — rẽ nhánh cũ sẽ nuốt
+              // mất toàn bộ nội dung thẻ. Nay: có thẻ thì hiện thẻ, có nhóm thì thêm link, độc lập nhau.
+              initialNewVocab.map((entry) => (
+                <div key={entry.id} className="rounded-xl border border-border bg-surface-2 px-4 py-3 shadow-sm">
+                  <div className="flex items-center justify-between gap-2">
+                    <span className="shrink-0 rounded-full bg-surface-3 px-2 py-0.5 text-[11px] font-medium text-ink-muted">
+                      {LANG_LABEL[entry.language]} · {entry.theme}
+                    </span>
                     <span className="shrink-0 text-xs text-ink-muted">{formatDate(entry.createdAt)}</span>
                   </div>
-                ) : (
-                  <div key={entry.id} className="rounded-xl border border-border bg-surface-2 px-4 py-3 shadow-sm">
-                    <div className="flex items-center justify-between gap-2">
-                      <span className="rounded-full bg-surface-3 px-2 py-0.5 text-[11px] font-medium text-ink-muted">
-                        {LANG_LABEL[entry.language]} · {entry.theme}
-                      </span>
-                      <span className="shrink-0 text-xs text-ink-muted">{formatDate(entry.createdAt)}</span>
+                  {entry.card ? (
+                    <div className="mt-2">
+                      <AnswerCardView theme={entry.theme} card={entry.card} />
                     </div>
-                    {entry.card && (
-                      <div className="mt-2">
-                        <AnswerCardView theme={entry.theme} card={entry.card} />
-                      </div>
-                    )}
-                  </div>
-                ),
-              )
+                  ) : (
+                    <div className="mt-1 min-w-0">
+                      <div className="truncate text-base font-bold text-brand-600">{entry.word}</div>
+                      <div className="mt-0.5 text-xs text-ink-muted">{entry.note}</div>
+                    </div>
+                  )}
+                  {entry.groupId && (
+                    <Link
+                      href={`/${entry.language}/${entry.groupId}`}
+                      className="mt-2 block text-xs font-medium text-brand-600 hover:underline"
+                    >
+                      {entry.card ? "✚ Đã lưu vào từ vựng — mở nhóm →" : "Mở mindmap →"}
+                    </Link>
+                  )}
+                </div>
+              ))
             )}
           </div>
         )}
