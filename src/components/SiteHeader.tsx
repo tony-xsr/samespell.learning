@@ -46,10 +46,16 @@ export default function SiteHeader({ role }: { role: SessionRole }) {
         <span className="text-lg">📖</span>
         <span>Rootlingo</span>
       </Link>
-      <div className="flex min-w-0 items-center gap-1 overflow-x-auto sm:gap-2">
-        <NavPill href="/my-vocab" icon="📚" label="Từ vựng của tôi" />
-        <NavPill href="/stats" icon="📊" label="Thống kê" />
-        {role === "admin" && <NavPill href="/admin" icon="🛠️" label="Quản trị" />}
+      <div className="flex min-w-0 items-center gap-1 sm:gap-2">
+        {/* CHỈ dải liên kết được cuộn ngang. Trước đây nút đổi giao diện cũng nằm trong khung cuộn
+            này, mà `overflow-x-auto` làm trục dọc thành `auto` theo quy tắc CSS ("một trục khác
+            visible thì trục visible còn lại thành auto"), nên bảng chọn giao diện — `absolute` đổ
+            xuống dưới — bị header cao ~44px cắt mất gần hết. */}
+        <div className="flex min-w-0 items-center gap-1 overflow-x-auto sm:gap-2">
+          <NavPill href="/my-vocab" icon="📚" label="Từ vựng của tôi" />
+          <NavPill href="/stats" icon="📊" label="Thống kê" />
+          {role === "admin" && <NavPill href="/admin" icon="🛠️" label="Quản trị" />}
+        </div>
         <div className="shrink-0">
           <ThemeSwitcher />
         </div>
