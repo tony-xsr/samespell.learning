@@ -8,7 +8,7 @@ import { LEVEL_SCALE, levelClass } from "@/lib/levels";
 import type { Language } from "@/types/vocab";
 
 type TabId = "all" | "new" | "unlearned" | "learned" | "mine";
-type SortId = "category" | "newest" | "az" | "most";
+type SortId = "category" | "newest" | "az" | "most" | "fewest";
 type ViewId = "grid" | "list" | "bubble";
 
 const MAX_CHIPS = 6;
@@ -19,6 +19,9 @@ const SORT_LABELS: Record<SortId, string> = {
   newest: "Mới thêm nhất",
   az: "A → Z",
   most: "Nhiều từ nhất",
+  // Chiều ngược lại của "most". Có hai lý do thật để cần nó: nhóm ít từ là nhóm học nhanh xong,
+  // và cũng chính là nhóm còn thiếu dữ liệu cần bổ sung — trước đây không có cách nào tìm ra.
+  fewest: "Ít từ nhất",
 };
 
 function slugify(text: string) {
@@ -126,6 +129,8 @@ export default function GroupBrowser({
       out = [...out].sort((a, b) => a.reading.localeCompare(b.reading));
     } else if (sort === "most") {
       out = [...out].sort((a, b) => b.wordCount - a.wordCount);
+    } else if (sort === "fewest") {
+      out = [...out].sort((a, b) => a.wordCount - b.wordCount);
     }
     return out;
   }, [groups, tab, q, sort, level]);
