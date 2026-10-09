@@ -1,13 +1,14 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import Link from "next/link";
 import type { SoundGroup, SrsRating } from "@/types/vocab";
 import type { TopicGroup } from "@/types/topic";
 import { loadProgress, rateWord, toggleBookmark, toggleMastered } from "@/lib/progress";
-import { isDue, RATING_LABELS } from "@/lib/srs";
-import { speak, ttsFailureMessage } from "@/lib/tts";
-import { buildCardsFromGroup, buildCardsFromTopic, type CardInfo } from "@/lib/reviewCards";
+import { RATING_LABELS } from "@/lib/srs";
+import { estimateSpeechMs, localeForLanguage, speak, speakAndWait, ttsFailureMessage } from "@/lib/tts";
+import { buildCardsFromGroup, buildCardsFromTopic } from "@/lib/reviewCards";
+import { buildReviewQueue, DEFAULT_SESSION_SIZE, type QueuedCard, type ReviewStats } from "@/lib/reviewQueue";
 import { toPinyin } from "@/lib/zhPinyin";
 
 const RATING_STYLE: Record<SrsRating, string> = {
@@ -17,13 +18,30 @@ const RATING_STYLE: Record<SrsRating, string> = {
   3: "bg-green-500 hover:bg-green-600",
 };
 
-function shuffle<T>(arr: T[]): T[] {
-  const a = [...arr];
-  for (let i = a.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [a[i], a[j]] = [a[j], a[i]];
-  }
-  return a;
+/** Mốc "đã ôn tới đâu" của cả nhóm — thứ mà trước đây hoàn toàn không hiện ở đâu, nên bỏ dở một nhóm
+ * lớn rồi quay lại thì không biết mình đang ở đâu trong đó. Số liệu lấy từ tiến độ đã lưu trên server,
+ * nên mở ở máy khác vẫn đúng. */
+function Milestone({ stats, justReviewed = 0 }: { stats: ReviewStats; justReviewed?: number }) {
+  const done = stats.mastered + stats.reviewed;
+  const pct = stats.total > 0 ? Math.round((done / stats.total) * 100) : 0;
+  return (
+    <div className="w-full max-w-md rounded-xl border border-border bg-surface-2 px-3 py-2 text-left text-xs">
+      <div className="flex flex-wrap items-center justify-between gap-x-2 gap-y-0.5">
+        <span className="font-semibold text-ink">
+          📍 Đã ôn {done}/{stats.total} từ trong nhóm
+        </span>
+        <span className="text-ink-muted">{pct}%</span>
+      </div>
+      <div className="mt-1.5 h-1.5 w-full overflow-hidden rounded-full bg-surface-3">
+        <div className="h-full rounded-full bg-gradient-to-r from-brand-600 to-accent-500" style={{ width: `${pct}%` }} />
+      </div>
+      <div className="mt-1.5 flex flex-wrap gap-x-3 gap-y-0.5 text-ink-muted">
+        {stats.neverReviewed > 0 && <span>🆕 {stats.neverReviewed} từ chưa ôn lần nào</span>}
+        {stats.mastered > 0 && <span>✅ {stats.mastered} đã thuộc</span>}
+        {justReviewed > 0 && <span>vừa xong {justReviewed} thẻ</span>}
+      </div>
+    </div>
+  );
 }
 
 export default function ReviewSession({
@@ -45,7 +63,9 @@ export default function ReviewSession({
   limit?: number;
 }) {
   const [ready, setReady] = useState(false);
-  const [cards, setCards] = useState<CardInfo[]>([]);
+  const [cards, setCards] = useState<QueuedCard[]>([]);
+  /** Mốc của CẢ phạm vi ôn (không phải của phiên này) — tính lại từ tiến độ mỗi lần bắt đầu phiên. */
+  const [stats, setStats] = useState<ReviewStats | null>(null);
   const [index, setIndex] = useState(0);
   const [flipped, setFlipped] = useState(false);
   const [reviewedCount, setReviewedCount] = useState(0);
@@ -56,8 +76,53 @@ export default function ReviewSession({
   const [expandedWordIds, setExpandedWordIds] = useState<Set<string>>(new Set());
   const [ttsWarning, setTtsWarning] = useState<string | null>(null);
   const [masteredBusy, setMasteredBusy] = useState(false);
+  /** Lật thẻ xong có đọc luôn câu ví dụ không. Bật sẵn (đây là thứ người học hỏi xin), nhưng phải tắt
+   * được: đọc cả câu mỗi lần lật thì ôn nhanh bị chậm hẳn lại, và không phải lúc nào cũng tiện bật
+   * loa. Ghi vào localStorage nên chọn một lần là nhớ mãi. */
+  const [autoReadExample, setAutoReadExample] = useState(true);
+
+  useEffect(() => {
+    try {
+      setAutoReadExample(window.localStorage.getItem(AUTO_READ_KEY) !== "0");
+    } catch {
+      // chế độ riêng tư chặn localStorage — cứ giữ mặc định bật
+    }
+  }, []);
+
+  function toggleAutoRead() {
+    setAutoReadExample((v) => {
+      const next = !v;
+      try {
+        window.localStorage.setItem(AUTO_READ_KEY, next ? "1" : "0");
+      } catch {
+        // không lưu được thì vẫn áp dụng cho phiên này
+      }
+      return next;
+    });
+  }
+
+  // Tự phát âm để "nghe cho quen": 1 lần ngay khi thẻ mới xuất hiện (mặt trước, chỉ có headword —
+  // chưa lộ nghĩa nên an toàn), và khi lật thẻ thì đọc lại từ RỒI ĐỌC LUÔN CÂU VÍ DỤ.
+  //
+  // Phải đọc TUẦN TỰ bằng `speakAndWait`: `speechSynthesis.speak()` gọi liên tiếp sẽ chồng tiếng, mà
+  // `speakAndWait` lại `cancel()` trước mỗi lần đọc nên gọi song song là từ bị nuốt mất. Mỗi lượt đọc
+  // mang một "token"; lật úp lại hay sang thẻ khác giữa chừng thì token đổi và vòng lặp tự thoát, nếu
+  // không thì câu ví dụ của thẻ CŨ sẽ còn đọc tiếp đè lên thẻ mới.
+  const playTokenRef = useRef(0);
+
+  const stopSpeaking = useCallback(() => {
+    playTokenRef.current++;
+    try {
+      window.speechSynthesis?.cancel();
+    } catch {
+      // trình duyệt không hỗ trợ TTS — không có gì để dừng
+    }
+  }, []);
 
   function handleSpeak(text: string, language: SoundGroup["language"]) {
+    // Bấm nút loa là người học muốn nghe ĐÚNG đoạn này — huỷ hàng đọc tự động đang chạy, nếu không
+    // `speakAndWait` của bước sau sẽ `cancel()` ngay cái vừa bấm.
+    stopSpeaking();
     speak(text, language).then((r) => {
       setTtsWarning(r.ok ? null : ttsFailureMessage(r.reason));
     });
@@ -65,40 +130,61 @@ export default function ReviewSession({
 
   const current = cards[index];
 
-  // Tự phát âm để "nghe cho quen": 1 lần ngay khi thẻ mới xuất hiện (mặt trước, chỉ có headword —
-  // chưa lộ nghĩa nên an toàn), và 1 lần nữa khi lật thẻ (củng cố lại phát âm sau khi đã thấy nghĩa).
   useEffect(() => {
     if (!current) return;
-    handleSpeak(current.word.headword, current.language);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [current?.word.id]);
+    const token = ++playTokenRef.current;
+    const locale = localeForLanguage(current.language);
+    const queue = [current.word.headword];
+    // Câu ví dụ chỉ đọc ở mặt sau: mặt trước mà đọc cả câu là lộ luôn ngữ cảnh, mất tác dụng của thẻ.
+    if (flipped && autoReadExample && current.word.example.trim()) queue.push(current.word.example);
 
-  useEffect(() => {
-    if (!current || !flipped) return;
-    handleSpeak(current.word.headword, current.language);
+    (async () => {
+      for (const text of queue) {
+        if (playTokenRef.current !== token) return;
+        // `speakAndWait` mặc định bỏ cuộc sau 4s — đủ cho một từ, nhưng cắt ngang một câu ví dụ dài.
+        const r = await speakAndWait(text, locale, 0.85, estimateSpeechMs(text));
+        if (playTokenRef.current !== token) return;
+        if (!r.ok) {
+          setTtsWarning(ttsFailureMessage(r.reason));
+          return;
+        }
+        setTtsWarning(null);
+      }
+    })();
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [flipped]);
+  }, [current?.word.id, flipped, autoReadExample]);
+
+  useEffect(() => stopSpeaking, [stopSpeaking]);
+
+  /** Dựng một phiên mới từ tiến độ MỚI NHẤT. Gọi cả lúc mở trang lẫn lúc bấm "Ôn tiếp" ở màn hình
+   * kết thúc — nhờ đọc lại tiến độ, phiên tiếp theo tự bỏ qua những từ vừa chấm xong ở phiên trước,
+   * không cần giữ con trỏ nào. */
+  const startSession = useCallback(async (): Promise<boolean> => {
+    const progress = await loadProgress();
+    const allCards = topics
+      ? topics.flatMap((t) => buildCardsFromTopic(t, progress))
+      : (groups ?? []).flatMap((g) => buildCardsFromGroup(g, progress));
+    const { queue, stats: s } = buildReviewQueue(allCards, progress, limit ?? DEFAULT_SESSION_SIZE);
+    setCards(queue);
+    setStats(s);
+    setIndex(0);
+    setFlipped(false);
+    setReviewedCount(0);
+    setPendingExpandWord(false);
+    setTtsWarning(null);
+    return queue.length > 0;
+  }, [groups, topics, limit]);
 
   useEffect(() => {
     let cancelled = false;
     (async () => {
-      const progress = await loadProgress();
-      if (cancelled) return;
-      const allCards: CardInfo[] = (
-        topics
-          ? topics.flatMap((t) => buildCardsFromTopic(t, progress))
-          : (groups ?? []).flatMap((g) => buildCardsFromGroup(g, progress))
-      ).filter((c) => !c.mastered);
-      const due = allCards.filter((c) => isDue(progress[c.word.id]));
-      const shuffled = shuffle(due.length > 0 ? due : allCards);
-      setCards(limit ? shuffled.slice(0, limit) : shuffled);
-      setReady(true);
+      await startSession();
+      if (!cancelled) setReady(true);
     })();
     return () => {
       cancelled = true;
     };
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [groups, topics, limit]);
+  }, [startSession]);
 
   const examplePinyin = useMemo(() => {
     if (!current || current.language !== "zh") return "";
@@ -138,6 +224,19 @@ export default function ReviewSession({
     // Đánh dấu "đã thuộc" nghĩa là bỏ luôn thẻ này khỏi phiên ôn hiện tại — không cần chấm điểm
     // nữa, thẻ tiếp theo tự trượt lên đúng vị trí index hiện tại sau khi bỏ.
     setCards((cs) => cs.filter((c) => c.word.id !== wordId));
+    // Mốc phải nhúc nhích ngay theo thao tác này, không đợi tải lại trang: "đã thuộc" cũng là một
+    // cách hoàn thành một từ, y như chấm điểm.
+    setStats((s) =>
+      s
+        ? {
+            ...s,
+            mastered: s.mastered + 1,
+            reviewed: current.reviewCount > 0 ? s.reviewed - 1 : s.reviewed,
+            neverReviewed: current.reviewCount === 0 ? s.neverReviewed - 1 : s.neverReviewed,
+            pending: Math.max(0, s.pending - 1),
+          }
+        : s,
+    );
     setFlipped(false);
     setPendingExpandWord(false);
     setTtsWarning(null);
@@ -217,7 +316,10 @@ export default function ReviewSession({
   if (cards.length === 0) {
     return (
       <main className="flex flex-1 flex-col items-center justify-center gap-4 px-4 text-center">
-        <p className="text-lg font-medium text-ink">Chưa có từ nào để ôn tập.</p>
+        <p className="text-lg font-medium text-ink">
+          {stats && stats.total > 0 ? "Hết từ đến hạn rồi — nghỉ đi, mai quay lại." : "Chưa có từ nào để ôn tập."}
+        </p>
+        {stats && stats.total > 0 && <Milestone stats={stats} />}
         <Link href={backHref} className="text-sm text-brand-600 hover:underline">
           ← Quay lại
         </Link>
@@ -226,13 +328,28 @@ export default function ReviewSession({
   }
 
   if (index >= cards.length) {
+    const left = stats ? Math.max(0, stats.pending - reviewedCount) : 0;
     return (
       <main className="flex flex-1 flex-col items-center justify-center gap-4 px-4 text-center">
         <div className="rounded-3xl bg-gradient-to-br from-brand-600 to-accent-500 px-8 py-10 text-white shadow-lg">
           <p className="text-4xl">🎉</p>
           <p className="mt-2 text-lg font-semibold">Đã ôn xong {reviewedCount} thẻ!</p>
         </div>
-        <div className="flex gap-3">
+        {stats && <Milestone stats={stats} justReviewed={reviewedCount} />}
+        <div className="flex flex-wrap justify-center gap-3">
+          {/* Phần còn lại không mất đi đâu cả — nói rõ còn bao nhiêu và cho đi tiếp ngay tại đây,
+              đó mới là thứ biến "không ôn hết 100%" thành chuyện bình thường. */}
+          {left > 0 && (
+            <button
+              onClick={() => {
+                setReady(false);
+                startSession().finally(() => setReady(true));
+              }}
+              className="rounded-full bg-gradient-to-r from-brand-600 to-accent-500 px-4 py-2 text-sm font-semibold text-white shadow-md hover:brightness-105"
+            >
+              ▶ Ôn tiếp {Math.min(left, limit ?? DEFAULT_SESSION_SIZE)} thẻ (còn {left})
+            </button>
+          )}
           <Link
             href={backHref}
             className="rounded-full border border-border bg-surface-2 px-4 py-2 text-sm font-medium text-ink hover:border-brand-300"
@@ -241,7 +358,7 @@ export default function ReviewSession({
           </Link>
           <Link
             href="/"
-            className="rounded-full bg-gradient-to-r from-brand-600 to-accent-500 px-4 py-2 text-sm font-semibold text-white shadow-md hover:brightness-105"
+            className="rounded-full border border-border bg-surface-2 px-4 py-2 text-sm font-medium text-ink hover:border-brand-300"
           >
             Trang chủ
           </Link>
@@ -265,6 +382,12 @@ export default function ReviewSession({
           </span>
         </div>
         <p className="mb-3 text-center text-xs font-medium text-ink-muted">{title}</p>
+
+        {stats && stats.total > cards.length && (
+          <div className="mb-3">
+            <Milestone stats={stats} justReviewed={reviewedCount} />
+          </div>
+        )}
 
         <div className="mb-4 h-2 w-full overflow-hidden rounded-full bg-surface-3">
           <div
@@ -297,7 +420,13 @@ export default function ReviewSession({
             {current.bookmarked ? "★" : "☆"}
           </button>
 
-          <div className="flex items-center justify-center gap-2">
+          {/* Biết thẻ này mới tinh hay đã gặp mấy lần thì chấm điểm mới có cơ sở — "Quên rồi" ở lần
+              đầu gặp và ở lần thứ năm là hai chuyện hoàn toàn khác nhau. */}
+          <div className="absolute top-3 left-3 rounded-full bg-surface-3 px-2 py-0.5 text-[10px] font-medium text-ink-muted">
+            {current.reviewCount === 0 ? "🆕 Chưa ôn lần nào" : `🔁 Ôn lần ${current.reviewCount + 1}`}
+          </div>
+
+          <div className="mt-4 flex items-center justify-center gap-2">
             <div className="text-3xl font-bold text-ink">{current.word.headword}</div>
             <button
               onClick={(e) => {
