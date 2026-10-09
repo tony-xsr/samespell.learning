@@ -160,6 +160,71 @@ export const CollocationSetSchema = z.object({
     .describe("4-6 cụm từ/tổ hợp THỰC SỰ thông dụng đi kèm từ gốc trong giao tiếp thực tế"),
 });
 
+/** AI cho theme "🏮 Phân tích thành ngữ" (answer-card) — thành ngữ/quán ngữ khác từ ghép thường ở chỗ
+ * nghĩa TỔNG không suy ra được từ nghĩa từng chữ (vd 春心荡漾 mặt chữ là "lòng xuân dao động" nhưng
+ * nghĩa dùng là "xao xuyến rạo rực"). Nên card này tách riêng `literalVn` (mặt chữ) với `meaningVn`
+ * (nghĩa thật khi dùng) — đúng chỗ người học hay hiểu sai — kèm điển tích và sắc thái khen/chê. */
+export const IdiomSchema = z.object({
+  headword: z.string().min(1).describe("Chính thành ngữ, viết đúng chính tả chuẩn"),
+  reading: z.string().min(1),
+  hanViet: z.string().optional().describe("Âm Hán Việt của cả thành ngữ (chỉ cho tiếng Trung/Nhật/Hàn), để trống nếu không có"),
+  /** Phải NGẮN: trường này hiển thị trong một chip nhỏ cạnh từ, một nhãn dài sẽ đẩy tràn layout trên
+   * điện thoại. Vai trò cú pháp ("thường làm vị ngữ"...) thuộc về `usageVn`, không nhồi vào đây. */
+  wordClass: z
+    .string()
+    .min(1)
+    .describe('Loại, ĐÚNG MỘT nhãn ngắn dưới 15 ký tự: "thành ngữ" | "quán ngữ" | "tục ngữ" | "cụm cố định". Không giải thích thêm.'),
+  literalVn: z.string().min(1).describe("Nghĩa MẶT CHỮ, dịch sát từng chữ — chưa phải nghĩa dùng thật"),
+  meaningVn: z.string().min(1).describe("Nghĩa THẬT khi dùng trong câu, bằng tiếng Việt"),
+  breakdown: z
+    .array(
+      z.object({
+        part: z.string().min(1).describe("Một chữ hoặc một thành phần 2 chữ của thành ngữ"),
+        reading: z.string().min(1),
+        meaningVn: z.string().min(1).describe("Nghĩa riêng của thành phần này"),
+      }),
+    )
+    .min(2)
+    .max(6)
+    .describe("Chẻ thành ngữ thành từng chữ/thành phần, theo ĐÚNG thứ tự xuất hiện"),
+  originVn: z.string().describe("Điển tích/xuất xứ (sách, tích truyện) nếu có — để chuỗi rỗng nếu không rõ, KHÔNG bịa"),
+  usageVn: z.string().min(1).describe("Dùng khi nào: sắc thái khen hay chê, trang trọng hay khẩu ngữ, hay đi với chủ ngữ nào"),
+  example: z.string().min(1).describe("Một câu ví dụ tự nhiên dùng thành ngữ này"),
+  exampleVn: z.string().min(1),
+  /** Thang trình độ của chính ngôn ngữ đó — xem levelInstruction trong prompts.ts. */
+  level: z.string().optional(),
+});
+
+/** AI cho theme "✂️ Mổ xẻ câu" (answer-card) — người học dán VÀO MỘT CÂU hoàn chỉnh (không phải 1 từ)
+ * và cần biết câu đó chia thành những khúc nào, mỗi khúc đóng vai gì. Khác mọi theme khác ở chỗ đầu
+ * vào là câu, nên trường đầu là `sentence` chứ không phải `headword`. */
+export const SentenceAnalysisSchema = z.object({
+  sentence: z.string().min(1).describe("Chính câu đã nhập, sửa lại chính tả/dấu câu nếu người dùng gõ thiếu"),
+  reading: z.string().min(1).describe("Phiên âm cả câu"),
+  translationVn: z.string().min(1).describe("Bản dịch tiếng Việt trôi chảy của cả câu"),
+  chunks: z
+    .array(
+      z.object({
+        text: z.string().min(1).describe("Một khúc của câu — một từ hoặc một ngữ, KHÔNG chẻ lẻ từng chữ của cùng một từ"),
+        reading: z.string().min(1),
+        meaningVn: z.string().min(1),
+        /** Cũng hiển thị trong chip nhỏ như `IdiomSchema.wordClass` — ngắn, phần giải thích dài thuộc
+         * về `grammarVn`. */
+        roleVn: z
+          .string()
+          .min(1)
+          .describe(
+            'Vai trong câu, NGẮN dưới 20 ký tự: "chủ ngữ" | "động từ chính" | "tân ngữ" | "định ngữ" | "trạng ngữ thời gian" | "trợ từ nối"... Không giải thích thêm, phần dài để ở grammarVn.',
+          ),
+      }),
+    )
+    .min(2)
+    .max(10)
+    .describe("Chẻ câu theo ĐÚNG thứ tự trong câu, ghép lại phải ra đúng câu gốc"),
+  grammarVn: z.string().min(1).describe("Cấu trúc ngữ pháp chính của câu, giải thích bằng tiếng Việt"),
+  noteVn: z.string().describe("Lưu ý thêm: sắc thái, khẩu ngữ/văn viết, lỗi người Việt hay mắc — để chuỗi rỗng nếu không có"),
+});
+
 export type ExpandRootResult = z.infer<typeof ExpandRootSchema>;
 export type NewRootResult = z.infer<typeof NewRootSchema>;
 export type QuickDictResult = z.infer<typeof QuickDictSchema>;
@@ -170,6 +235,8 @@ export type ExplainMnemonicResult = z.infer<typeof ExplainMnemonicSchema>;
 export type ExampleSetResult = z.infer<typeof ExampleSetSchema>;
 export type SynonymSetResult = z.infer<typeof SynonymSetSchema>;
 export type CollocationSetResult = z.infer<typeof CollocationSetSchema>;
+export type IdiomResult = z.infer<typeof IdiomSchema>;
+export type SentenceAnalysisResult = z.infer<typeof SentenceAnalysisSchema>;
 
 export const WORD_JSON_SHAPE_HINT = [
   "Mỗi từ trong mảng words PHẢI đúng dạng JSON sau (không thêm field khác, không dùng markdown code fence):",
@@ -199,3 +266,9 @@ export const EXAMPLE_SET_JSON_SHAPE_HINT = `Trả lời CHỈ một JSON object 
 export const SYNONYM_SET_JSON_SHAPE_HINT = `Trả lời CHỈ một JSON object dạng: {"headword": "...", "reading": "...", "meaningVn": "...", "synonyms": [{"word": "...", "reading": "...", "nuanceVn": "..."}, ...]} (mảng synonyms có 3-5 phần tử, không thêm field khác, không dùng markdown code fence).`;
 
 export const COLLOCATION_SET_JSON_SHAPE_HINT = `Trả lời CHỈ một JSON object dạng: {"headword": "...", "reading": "...", "meaningVn": "...", "collocations": [{"phrase": "...", "meaningVn": "..."}, ...]} (mảng collocations có 4-6 phần tử, không thêm field khác, không dùng markdown code fence).`;
+
+export const IDIOM_JSON_SHAPE_HINT = `Trả lời CHỈ một JSON object dạng: {"headword": "...", "reading": "...", "hanViet": "...", "wordClass": "...", "literalVn": "...", "meaningVn": "...", "breakdown": [{"part": "...", "reading": "...", "meaningVn": "..."}, ...], "originVn": "...", "usageVn": "...", "example": "...", "exampleVn": "...", "level": "..."} (mảng breakdown có 2-6 phần tử theo đúng thứ tự trong thành ngữ; hanViet/originVn để chuỗi rỗng nếu không có; không thêm field khác, không dùng markdown code fence).
+wordClass: ĐÚNG MỘT nhãn ngắn dưới 15 ký tự ("thành ngữ", "quán ngữ", "tục ngữ", "cụm cố định") — vai trò cú pháp để ở usageVn, không nhồi vào wordClass.`;
+
+export const SENTENCE_ANALYSIS_JSON_SHAPE_HINT = `Trả lời CHỈ một JSON object dạng: {"sentence": "...", "reading": "...", "translationVn": "...", "chunks": [{"text": "...", "reading": "...", "meaningVn": "...", "roleVn": "..."}, ...], "grammarVn": "...", "noteVn": "..."} (mảng chunks có 2-10 phần tử, ghép text của chúng theo thứ tự phải ra ĐÚNG câu gốc; noteVn để chuỗi rỗng nếu không có; không thêm field khác, không dùng markdown code fence).
+roleVn: NGẮN, dưới 20 ký tự ("chủ ngữ", "động từ chính", "tân ngữ", "định ngữ", "trạng ngữ thời gian", "trợ từ nối"...) — phần giải thích dài để ở grammarVn.`;
