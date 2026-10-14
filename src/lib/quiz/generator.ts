@@ -80,7 +80,7 @@ function buildOptions(
   return shuffle(options);
 }
 
-/** Các trường mô tả đầy đủ đáp án đúng — giống hệt nhau ở cả 3 mode, tách riêng để khỏi lặp lại. */
+/** Các trường mô tả đầy đủ đáp án đúng — giống hệt nhau ở mọi mode, tách riêng để khỏi lặp lại. */
 function answerDetails(target: QuizWordEntry) {
   return {
     answerWordId: target.id,
@@ -93,6 +93,8 @@ function answerDetails(target: QuizWordEntry) {
     answerRootChar: target.rootChar,
     answerRootHanViet: target.rootHanViet,
     answerRootMeaning: target.rootMeaning,
+    answerGroupReading: target.groupReading,
+    answerSiblings: target.siblings,
   };
 }
 
@@ -128,6 +130,23 @@ function buildQuestion(
       language,
       mode,
       promptLabel: target.headword,
+      options: buildOptions(target, distractors, labelOf),
+      ...answerDetails(target),
+    };
+  }
+
+  if (mode === "example") {
+    // Đề là NGUYÊN câu ví dụ (không che gì), đáp án là bản dịch của câu. Nhiễu lấy bản dịch câu ví dụ
+    // của các từ khác — ưu tiên cùng chữ gốc nên các câu thường cùng chủ đề, phải hiểu cả câu mới chọn đúng.
+    if (!target.example.trim() || !target.exampleVn.trim()) return null;
+    const labelOf = (e: QuizWordEntry) => (e.example.trim() ? e.exampleVn.trim() : "");
+    const distractors = pickDistractors(target, pool, labelOf, 3);
+    if (distractors.length < 3) return null;
+    return {
+      id: `${target.id}-example-${index}-${Math.random().toString(36).slice(2, 8)}`,
+      language,
+      mode,
+      promptLabel: target.example,
       options: buildOptions(target, distractors, labelOf),
       ...answerDetails(target),
     };
