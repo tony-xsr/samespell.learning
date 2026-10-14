@@ -1,9 +1,9 @@
 import type { Language } from "@/types/vocab";
 
-/** 3 dạng câu hỏi round 1 (chỉ test từ vựng — xem Features.md mục Test kiến thức):
+/** 4 dạng câu hỏi (chỉ test từ vựng — xem Features.md mục Test kiến thức):
  * "meaning" = nhìn từ, chọn đúng nghĩa; "reading" = nhìn từ, chọn đúng cách đọc; "cloze" = điền từ
- * đúng vào câu ví dụ đã che từ. */
-export type QuizMode = "meaning" | "reading" | "cloze";
+ * đúng vào câu ví dụ đã che từ; "example" = nghe/đọc cả câu ví dụ, chọn đúng bản dịch tiếng Việt. */
+export type QuizMode = "meaning" | "reading" | "cloze" | "example";
 
 /** Trục nguồn của 1 từ trong pool — dùng để ưu tiên chọn đáp án nhiễu "gần giống thật" (cùng nhóm
  * đồng âm/hình/bẫy nghĩa/phụ âm đầu sẽ là nhiễu khó hơn nhiều so với 1 từ ngẫu nhiên bất kỳ). */
@@ -27,6 +27,10 @@ export interface QuizWordEntry {
   rootChar?: string;
   rootHanViet?: string;
   rootMeaning?: string;
+  /** Âm chung của cả nhóm và các chữ gốc KHÁC cùng nhóm — để bảng giải thích hiện "Cùng âm “x” còn
+   * có: ..." giống mặt sau thẻ ôn tập. Chỉ có ở các trục tổ chức theo nhóm chữ gốc (không có ở topic). */
+  groupReading?: string;
+  siblings?: { character: string; meaningVn: string }[];
 }
 
 export interface QuizOption {
@@ -39,7 +43,8 @@ export interface QuizQuestion {
   id: string;
   language: Language;
   mode: QuizMode;
-  /** Đề bài hiển thị: headword (mode meaning/reading) hoặc câu ví dụ đã che từ (mode cloze). */
+  /** Đề bài hiển thị: headword (mode meaning/reading), câu ví dụ đã che từ (mode cloze) hoặc nguyên
+   * câu ví dụ (mode example). */
   promptLabel: string;
   /** Phụ đề nhỏ dưới đề bài (vd cách đọc của headword ở mode meaning/cloze) — có thể rỗng. */
   promptSubLabel?: string;
@@ -58,4 +63,6 @@ export interface QuizQuestion {
   answerRootChar?: string;
   answerRootHanViet?: string;
   answerRootMeaning?: string;
+  answerGroupReading?: string;
+  answerSiblings?: { character: string; meaningVn: string }[];
 }
