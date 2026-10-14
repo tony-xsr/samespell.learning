@@ -21,6 +21,11 @@ export interface VocabWord {
    * Optional vì phần lớn dữ liệu cũ (trục âm/hình chính) chưa có — chỉ bắt buộc điền cho nội dung mới
    * ở trục bẫy nghĩa trở đi. Để trống/không set nếu từ không có Hán Việt tự nhiên (từ thuần Nhật/Hàn). */
   hanViet?: string;
+  /** Hanja của từ tiếng Hàn, mỗi âm tiết Hangul đúng 1 ký tự: chữ Hán, hoặc "_" cho âm tiết thuần Hàn
+   * (vd 목재 → "木材", 사거리 → "四__", 안방 → "_房"). Mỗi chữ Hán đã được kiểm chứng đọc đúng âm tiết của
+   * nó bằng Unihan kHangul (scripts/lib/hanjaCheck.mjs). Dùng để tách Hán Việt và gom "họ chữ"
+   * (lib/lookupIndex.ts). */
+  hanja?: string;
   grammarPoint?: string;
   grammarExplanationVn?: string;
   mnemonicVn?: string;
