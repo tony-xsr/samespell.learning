@@ -28,6 +28,10 @@ function fromGroups(groups: SoundGroup[], axisKind: QuizAxisKind): QuizWordEntry
           rootChar: root.character,
           rootHanViet: root.hanViet,
           rootMeaning: root.meaningVn,
+          groupReading: group.reading,
+          siblings: group.roots
+            .filter((r) => r.id !== root.id)
+            .map((r) => ({ character: r.character, meaningVn: r.meaningVn })),
         });
       }
     }
