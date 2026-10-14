@@ -167,12 +167,15 @@ function splitWords(input: string): string[] {
 export default function NewGroupPrompt({
   lang,
   existingReadings,
+  initialWord,
 }: {
   lang: Language;
   existingReadings: string[];
+  /** Điền sẵn ô nhập (vd từ bảng Tra nhanh khi kho chưa có từ đó). */
+  initialWord?: string;
 }) {
   const router = useRouter();
-  const [word, setWord] = useState("");
+  const [word, setWord] = useState(initialWord ?? "");
   const availableThemes = THEMES.filter((t) => !t.langs || t.langs.includes(lang));
   const [theme, setTheme] = useState(() => availableThemes[0]?.key ?? "sound");
   const [loading, setLoading] = useState(false);
