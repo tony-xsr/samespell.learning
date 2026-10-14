@@ -4,6 +4,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import ThemeSwitcher from "@/components/ThemeSwitcher";
 import LogoutButton from "@/components/LogoutButton";
+import QuickLookupHost from "@/components/lookup/QuickLookupHost";
 import type { SessionRole } from "@/lib/session";
 
 /** Ẩn header chung ở 2 trường hợp:
@@ -18,6 +19,8 @@ import type { SessionRole } from "@/lib/session";
 function shouldHideHeader(pathname: string): boolean {
   if (/^\/test\/[^/]+\/[^/]+/.test(pathname)) return true;
   if (pathname === "/login" || pathname === "/admin/login") return true;
+  // Giấy tập viết để in — không cần (và không được in ra) thanh điều hướng
+  if (pathname === "/writing/print") return true;
   return false;
 }
 
@@ -51,6 +54,7 @@ export default function SiteHeader({ role }: { role: SessionRole }) {
             này, mà `overflow-x-auto` làm trục dọc thành `auto` theo quy tắc CSS ("một trục khác
             visible thì trục visible còn lại thành auto"), nên bảng chọn giao diện — `absolute` đổ
             xuống dưới — bị header cao ~44px cắt mất gần hết. */}
+        <QuickLookupHost />
         <div className="flex min-w-0 items-center gap-1 overflow-x-auto sm:gap-2">
           <NavPill href="/my-vocab" icon="📚" label="Từ vựng của tôi" />
           <NavPill href="/stats" icon="📊" label="Thống kê" />

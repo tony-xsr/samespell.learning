@@ -10,6 +10,10 @@ import { estimateSpeechMs, localeForLanguage, speak, speakAndWait, ttsFailureMes
 import { buildCardsFromGroup, buildCardsFromTopic } from "@/lib/reviewCards";
 import { buildReviewQueue, DEFAULT_SESSION_SIZE, type QueuedCard, type ReviewStats } from "@/lib/reviewQueue";
 import { toPinyin } from "@/lib/zhPinyin";
+import HanziWordBoard from "@/components/writing/HanziWordBoard";
+
+/** localStorage: "1" = lật thẻ thì tự đọc câu ví dụ. Không có/khác "1" = chỉ đọc khi bấm 🔊. */
+const AUTO_READ_KEY = "review:autoReadExample";
 
 const RATING_STYLE: Record<SrsRating, string> = {
   0: "bg-red-500 hover:bg-red-600",
@@ -76,16 +80,18 @@ export default function ReviewSession({
   const [expandedWordIds, setExpandedWordIds] = useState<Set<string>>(new Set());
   const [ttsWarning, setTtsWarning] = useState<string | null>(null);
   const [masteredBusy, setMasteredBusy] = useState(false);
-  /** Lật thẻ xong có đọc luôn câu ví dụ không. Bật sẵn (đây là thứ người học hỏi xin), nhưng phải tắt
-   * được: đọc cả câu mỗi lần lật thì ôn nhanh bị chậm hẳn lại, và không phải lúc nào cũng tiện bật
-   * loa. Ghi vào localStorage nên chọn một lần là nhớ mãi. */
-  const [autoReadExample, setAutoReadExample] = useState(true);
+  /** Mở khung luyện viết (thứ tự nét) cho từ tiếng Trung đang xem — đóng lại mỗi khi sang thẻ khác. */
+  const [showWriting, setShowWriting] = useState(false);
+  /** Lật thẻ xong có tự đọc luôn câu ví dụ không. Mặc định TẮT: mặt trước vẫn tự đọc từ, còn câu ví dụ
+   * chỉ đọc khi bấm 🔊 cạnh câu — đọc cả câu mỗi lần lật làm ôn nhanh bị chậm hẳn lại. Ai muốn thì bật
+   * ở nút trên đầu thẻ; ghi vào localStorage nên chọn một lần là nhớ mãi. */
+  const [autoReadExample, setAutoReadExample] = useState(false);
 
   useEffect(() => {
     try {
-      setAutoReadExample(window.localStorage.getItem(AUTO_READ_KEY) !== "0");
+      setAutoReadExample(window.localStorage.getItem(AUTO_READ_KEY) === "1");
     } catch {
-      // chế độ riêng tư chặn localStorage — cứ giữ mặc định bật
+      // chế độ riêng tư chặn localStorage — cứ giữ mặc định tắt
     }
   }, []);
 
@@ -129,6 +135,10 @@ export default function ReviewSession({
   }
 
   const current = cards[index];
+
+  useEffect(() => {
+    setShowWriting(false);
+  }, [current?.word.id]);
 
   useEffect(() => {
     if (!current) return;
@@ -381,7 +391,20 @@ export default function ReviewSession({
             {index + 1} / {cards.length}
           </span>
         </div>
-        <p className="mb-3 text-center text-xs font-medium text-ink-muted">{title}</p>
+        <p className="mb-1 text-center text-xs font-medium text-ink-muted">{title}</p>
+        <div className="mb-3 flex justify-center">
+          <button
+            onClick={toggleAutoRead}
+            aria-pressed={autoReadExample}
+            className={`rounded-full border px-3 py-0.5 text-[11px] font-medium ${
+              autoReadExample
+                ? "border-brand-600 bg-brand-600/10 text-brand-600"
+                : "border-border bg-surface-3 text-ink-muted hover:bg-surface"
+            }`}
+          >
+            🔊 Tự đọc câu ví dụ khi lật: {autoReadExample ? "Bật" : "Tắt"}
+          </button>
+        </div>
 
         {stats && stats.total > cards.length && (
           <div className="mb-3">
@@ -470,6 +493,23 @@ export default function ReviewSession({
                   <span className="font-semibold">📚 Ngữ pháp: {current.word.grammarPoint}</span>
                   {current.word.grammarExplanationVn && (
                     <div className="mt-0.5">{current.word.grammarExplanationVn}</div>
+                  )}
+                </div>
+              )}
+
+              {current.language === "zh" && (
+                // Vẽ trong khung viết không được lật thẻ — chặn click/phím nổi bọt lên thẻ
+                <div className="mt-3" onClick={(e) => e.stopPropagation()} onKeyDown={(e) => e.stopPropagation()}>
+                  <button
+                    onClick={() => setShowWriting((v) => !v)}
+                    className="rounded-full border border-border bg-surface-3 px-3 py-1.5 text-xs font-semibold text-ink hover:bg-surface"
+                  >
+                    {showWriting ? "✕ Đóng luyện viết" : "✍️ Luyện viết từ này"}
+                  </button>
+                  {showWriting && (
+                    <div className="mt-3 rounded-2xl border border-border bg-surface p-3">
+                      <HanziWordBoard text={current.word.headword} maxSize={260} />
+                    </div>
                   )}
                 </div>
               )}
