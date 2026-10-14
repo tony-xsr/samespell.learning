@@ -5,8 +5,11 @@ import Link from "next/link";
 import type { Language } from "@/types/vocab";
 import type { QuizMode, QuizQuestion } from "@/lib/quiz/types";
 import { speak } from "@/lib/tts";
+import { toPinyin } from "@/lib/zhPinyin";
 
 const REFLEX_SECONDS = 6;
+/** Mode "example" phải đọc/nghe hết cả câu rồi mới chọn — 6 giây của các mode chỉ có 1 từ là không đủ. */
+const REFLEX_SECONDS_EXAMPLE = 15;
 const BATCH_SIZE = 12;
 const ANSWER_DELAY_MS = 1100;
 const REFETCH_THRESHOLD = 3;
@@ -15,6 +18,7 @@ const MODE_LABEL: Record<QuizMode, string> = {
   meaning: "Trắc nghiệm nghĩa",
   reading: "Trắc nghiệm cách đọc",
   cloze: "Điền từ vào câu",
+  example: "Hiểu câu ví dụ",
 };
 
 const LANG_FLAG: Record<Language | "mixed", string> = {
@@ -119,7 +123,11 @@ export default function QuizSession({ lang, mode, reflex, explainMode }: Props) 
   const [streak, setStreak] = useState(0);
   const [bestStreak, setBestStreak] = useState(0);
   const [finished, setFinished] = useState(false);
-  const [timeLeft, setTimeLeft] = useState(REFLEX_SECONDS);
+  const reflexSeconds = mode === "example" ? REFLEX_SECONDS_EXAMPLE : REFLEX_SECONDS;
+  /** Mode "example" luôn dừng lại hiện thẻ đầy đủ sau khi trả lời (như lật thẻ ôn tập) — đó chính là
+   * phần học của dạng bài này, tự chuyển câu sau 1 giây thì không kịp đọc. */
+  const showExplain = explainMode || mode === "example";
+  const [timeLeft, setTimeLeft] = useState(reflexSeconds);
 
   const advanceTimeout = useRef<ReturnType<typeof setTimeout> | null>(null);
   const tickInterval = useRef<ReturnType<typeof setInterval> | null>(null);
@@ -175,9 +183,9 @@ export default function QuizSession({ lang, mode, reflex, explainMode }: Props) 
 
   const goToNext = useCallback(() => {
     setSelectedOptionId(null);
-    setTimeLeft(REFLEX_SECONDS);
+    setTimeLeft(reflexSeconds);
     setIndex((i) => i + 1);
-  }, []);
+  }, [reflexSeconds]);
 
   const handleAnswer = useCallback(
     (optionId: string | null) => {
@@ -204,11 +212,11 @@ export default function QuizSession({ lang, mode, reflex, explainMode }: Props) 
 
       // Chế độ "chờ xem giải thích": KHÔNG tự chuyển câu — người dùng đọc xong bảng giải thích rồi
       // chủ động bấm "Câu tiếp theo" (xem goToNext, gọi từ nút bên dưới).
-      if (!explainMode) {
+      if (!showExplain) {
         advanceTimeout.current = setTimeout(goToNext, ANSWER_DELAY_MS);
       }
     },
-    [current, selectedOptionId, clearTimers, explainMode, goToNext],
+    [current, selectedOptionId, clearTimers, showExplain, goToNext],
   );
 
   // Phát âm tự động: chỉ an toàn ở mode "meaning" — prompt đã hiển thị sẵn headword nên nghe phát âm
@@ -219,6 +227,18 @@ export default function QuizSession({ lang, mode, reflex, explainMode }: Props) 
     speak(current.answerHeadword, current.language);
   }, [current?.id, mode, current?.answerHeadword, current?.language]);
 
+  // Mode "example": đề là cả câu ví dụ nên tự đọc câu ngay khi hiện — nghe + nhìn rồi chọn nghĩa.
+  useEffect(() => {
+    if (!current || mode !== "example") return;
+    speak(current.answerExample, current.language);
+  }, [current?.id, mode, current?.answerExample, current?.language]);
+
+  // Pinyin cho câu ví dụ (dữ liệu chỉ lưu pinyin của từ) — dùng ở đề bài mode "example" và bảng giải thích.
+  const examplePinyin = useMemo(
+    () => (current?.language === "zh" && current.answerExample ? toPinyin(current.answerExample) : ""),
+    [current?.language, current?.answerExample],
+  );
+
   useEffect(() => {
     if (!current || mode === "meaning" || selectedOptionId === null) return;
     speak(current.answerHeadword, current.language);
@@ -228,7 +248,7 @@ export default function QuizSession({ lang, mode, reflex, explainMode }: Props) 
   // Bộ đếm giờ chế độ Phản xạ — chạy lại mỗi khi sang câu mới.
   useEffect(() => {
     if (!reflex || !current || selectedOptionId !== null || finished) return;
-    setTimeLeft(REFLEX_SECONDS);
+    setTimeLeft(reflexSeconds);
     tickInterval.current = setInterval(() => {
       setTimeLeft((t) => {
         if (t <= 1) {
@@ -260,7 +280,7 @@ export default function QuizSession({ lang, mode, reflex, explainMode }: Props) 
 
   const gradientClass = GRADIENT[current?.language ?? lang] ?? GRADIENT.mixed;
   const accuracy = answered > 0 ? Math.round((score / answered) * 100) : 0;
-  const timerFraction = timeLeft / REFLEX_SECONDS;
+  const timerFraction = timeLeft / reflexSeconds;
   const timerColor = timerFraction > 0.5 ? "bg-emerald-300" : timerFraction > 0.25 ? "bg-yellow-300" : "bg-red-400";
 
   if (loading) {
@@ -446,13 +466,24 @@ export default function QuizSession({ lang, mode, reflex, explainMode }: Props) 
             </div>
           )}
           <div className="relative mt-2 flex items-center justify-center gap-2">
-            <div className="text-2xl font-bold leading-snug sm:text-3xl md:text-4xl">
-              {current.promptLabel}
+            <div>
+              <div
+                className={`font-bold leading-snug ${
+                  mode === "example" ? "text-xl sm:text-2xl md:text-3xl" : "text-2xl sm:text-3xl md:text-4xl"
+                }`}
+              >
+                {current.promptLabel}
+              </div>
+              {mode === "example" && examplePinyin && (
+                <div className="mt-1.5 text-sm font-medium text-white/75 sm:text-base">{examplePinyin}</div>
+              )}
             </div>
-            {(mode === "meaning" || showResult) && (
+            {(mode === "meaning" || mode === "example" || showResult) && (
               <button
                 data-testid="quiz-speak"
-                onClick={() => speak(current.answerHeadword, current.language)}
+                onClick={() =>
+                  speak(mode === "example" ? current.answerExample : current.answerHeadword, current.language)
+                }
                 aria-label="Nghe phát âm"
                 className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-white/15 text-base backdrop-blur-sm transition hover:bg-white/25 active:scale-95"
               >
@@ -508,7 +539,7 @@ export default function QuizSession({ lang, mode, reflex, explainMode }: Props) 
 
         {/* Chế độ "chờ xem giải thích": thay vì tự chuyển câu, hiện đầy đủ nghĩa/ví dụ/mẹo nhớ/chữ
             gốc (nếu có) rồi chờ người dùng chủ động bấm sang câu kế — dừng lại lâu hơn để học sâu. */}
-        {explainMode && showResult && (
+        {showExplain && showResult && (
           <div className="quiz-fade-in-up mt-3 shrink-0 rounded-2xl bg-white/95 p-4 text-left text-ink shadow-lg">
             <div className="flex items-center gap-2">
               <span className="text-xl font-bold">{current.answerHeadword}</span>
@@ -519,11 +550,21 @@ export default function QuizSession({ lang, mode, reflex, explainMode }: Props) 
             <div className="mt-1 text-sm font-semibold text-brand-600">{current.answerMeaningVn}</div>
 
             {current.answerExample && (
-              <div className="mt-2 text-sm text-ink">
-                {current.answerExample}
-                {current.answerExampleVn && (
-                  <div className="mt-0.5 text-xs italic text-ink-muted">{current.answerExampleVn}</div>
-                )}
+              <div className="mt-2 flex items-start justify-between gap-2">
+                <div className="text-sm text-ink">
+                  {current.answerExample}
+                  {examplePinyin && <div className="mt-0.5 text-xs italic text-ink-muted">{examplePinyin}</div>}
+                  {current.answerExampleVn && (
+                    <div className="mt-0.5 text-xs italic text-ink-muted">{current.answerExampleVn}</div>
+                  )}
+                </div>
+                <button
+                  onClick={() => speak(current.answerExample, current.language)}
+                  aria-label="Đọc ví dụ"
+                  className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full border border-border bg-surface-3 text-sm hover:bg-surface"
+                >
+                  🔊
+                </button>
               </div>
             )}
 
@@ -538,6 +579,12 @@ export default function QuizSession({ lang, mode, reflex, explainMode }: Props) 
                 Gốc: <span className="font-medium text-ink">{current.answerRootChar}</span>
                 {current.answerRootHanViet ? ` (${current.answerRootHanViet})` : ""}
                 {current.answerRootMeaning ? ` — ${current.answerRootMeaning}` : ""}
+                {current.answerSiblings && current.answerSiblings.length > 0 && (
+                  <div className="mt-1">
+                    Cùng âm &ldquo;{current.answerGroupReading}&rdquo; còn có:{" "}
+                    {current.answerSiblings.map((s) => `${s.character} (${s.meaningVn})`).join(", ")}
+                  </div>
+                )}
               </div>
             )}
 
