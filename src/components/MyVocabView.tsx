@@ -113,11 +113,13 @@ export default function MyVocabView({
   initialFavorites,
   initialLists,
   readingsByLang,
+  aiPrefill,
 }: {
   initialNewVocab: NewVocabEntry[];
   initialFavorites: ResolvedGroupItem[];
   initialLists: ResolvedList[];
   readingsByLang: Partial<Record<Language, string[]>>;
+  aiPrefill?: { text: string; lang: Language };
 }) {
   const router = useRouter();
   const [tab, setTab] = useState<Tab>("new");
@@ -158,7 +160,7 @@ export default function MyVocabView({
         </p>
 
         <div className="mt-5">
-          <MyVocabAiAdd readingsByLang={readingsByLang} />
+          <MyVocabAiAdd readingsByLang={readingsByLang} prefill={aiPrefill} />
         </div>
 
         <div className="mt-5 flex flex-wrap gap-2">

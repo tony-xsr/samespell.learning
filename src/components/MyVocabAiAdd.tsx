@@ -15,10 +15,13 @@ const LANG_OPTIONS: { value: Language; label: string }[] = [
  * (/en, /zh...). Chọn ngôn ngữ ở đây rồi tái dùng nguyên `NewGroupPrompt` (theme + ô nhập + kết quả). */
 export default function MyVocabAiAdd({
   readingsByLang,
+  prefill,
 }: {
   readingsByLang: Partial<Record<Language, string[]>>;
+  /** Từ chưa có trong kho, chuyển sang từ bảng Tra nhanh — điền sẵn ngôn ngữ + ô nhập. */
+  prefill?: { text: string; lang: Language };
 }) {
-  const [lang, setLang] = useState<Language>("en");
+  const [lang, setLang] = useState<Language>(prefill?.lang ?? "en");
 
   return (
     <div className="rounded-2xl border border-border bg-surface-2 p-4">
@@ -41,7 +44,12 @@ export default function MyVocabAiAdd({
       </p>
 
       {/* key={lang} → remount khi đổi ngôn ngữ để reset theme cho phù hợp (vd tiếng Anh không có "Đồng âm"). */}
-      <NewGroupPrompt key={lang} lang={lang} existingReadings={readingsByLang[lang] ?? []} />
+      <NewGroupPrompt
+        key={lang}
+        lang={lang}
+        existingReadings={readingsByLang[lang] ?? []}
+        initialWord={prefill?.lang === lang ? prefill.text : undefined}
+      />
     </div>
   );
 }
