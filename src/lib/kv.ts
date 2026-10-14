@@ -11,6 +11,8 @@ interface KvBackend {
   get<T>(key: string): Promise<T | null>;
   set<T>(key: string, value: T): Promise<void>;
   del(key: string): Promise<void>;
+  /** Toàn bộ key đang có (SCAN, không chặn Redis như KEYS) — dùng cho backup đầy đủ. */
+  keys(): Promise<string[]>;
 }
 
 let backend: KvBackend | null = null;
@@ -40,6 +42,16 @@ function createBackend(): KvBackend {
       del: async (key) => {
         await client.del(key);
       },
+      keys: async () => {
+        const all: string[] = [];
+        let cursor = "0";
+        do {
+          const [next, batch] = await client.scan(cursor, "COUNT", 500);
+          cursor = next;
+          all.push(...batch);
+        } while (cursor !== "0");
+        return all;
+      },
     };
   }
 
@@ -59,6 +71,16 @@ function createBackend(): KvBackend {
     del: async (key) => {
       await client.del(key);
     },
+    keys: async () => {
+      const all: string[] = [];
+      let cursor: string | number = "0";
+      do {
+        const [next, batch]: [string | number, string[]] = await client.scan(cursor, { count: 500 });
+        cursor = String(next);
+        all.push(...batch);
+      } while (cursor !== "0");
+      return all;
+    },
   };
 }
 
@@ -77,4 +99,8 @@ export async function kvSet<T>(key: string, value: T): Promise<void> {
 
 export async function kvDel(key: string): Promise<void> {
   await getBackend().del(key);
+}
+
+export async function kvKeys(): Promise<string[]> {
+  return getBackend().keys();
 }
