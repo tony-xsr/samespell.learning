@@ -4,7 +4,19 @@ import { getLanguages } from "@/lib/vocabStore";
 import MyVocabView from "@/components/MyVocabView";
 import type { Language } from "@/types/vocab";
 
-export default async function MyVocabPage() {
+const AI_LANGS: Language[] = ["zh", "ko", "ja", "en", "es"];
+
+export default async function MyVocabPage({
+  searchParams,
+}: {
+  searchParams: Promise<{ [key: string]: string | string[] | undefined }>;
+}) {
+  // /my-vocab?ai=…&lang=… — đến từ bảng Tra nhanh khi kho chưa có từ: điền sẵn ô "thêm bằng AI"
+  const { ai, lang } = await searchParams;
+  const aiPrefill =
+    typeof ai === "string" && ai.trim()
+      ? { text: ai.trim().slice(0, 60), lang: AI_LANGS.find((l) => l === lang) ?? ("zh" as Language) }
+      : undefined;
   const [newVocabEntries, favorites, lists, languages] = await Promise.all([
     loadNewVocabLog(),
     getFavoriteGroupsView(),
@@ -24,6 +36,7 @@ export default async function MyVocabPage() {
       initialFavorites={favorites}
       initialLists={lists}
       readingsByLang={readingsByLang}
+      aiPrefill={aiPrefill}
     />
   );
 }
