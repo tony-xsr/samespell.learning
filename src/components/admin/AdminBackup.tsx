@@ -71,9 +71,10 @@ export default function AdminBackup() {
     <div className="rounded-2xl border border-border bg-surface-2 p-5 shadow-sm">
       <h2 className="font-semibold text-ink">Sao lưu &amp; khôi phục dữ liệu</h2>
       <p className="mt-1 text-xs text-ink-muted">
-        Xuất toàn bộ tiến trình học, từ vựng AI sinh thêm, và mẹo nhớ ra 1 file JSON để phòng khi
-        tài khoản Upstash Redis bị mất quyền truy cập — chỉ cần tạo database mới rồi khôi phục lại
-        từ file này. (Không bao gồm API key AI — nhập lại thủ công sau khi khôi phục.)
+        Tải TOÀN BỘ dữ liệu của web về máy thành 1 file JSON: tiến độ từ vựng, ngữ pháp, tình huống,
+        danh sách cá nhân, từ/ví dụ/mẹo nhớ AI sinh thêm, nhật ký từ mới. Nên tải định kỳ và cất ở chỗ
+        khác (Google Drive…) — đây là lớp bảo vệ cuối cùng nếu mất cả server lẫn Upstash. Khôi phục trên
+        server mới: deploy lại rồi chọn file này. (Không gồm API key AI — nhập lại thủ công.)
       </p>
 
       <div className="mt-3 flex flex-wrap items-center gap-2">
