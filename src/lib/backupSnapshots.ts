@@ -1,11 +1,18 @@
 import "server-only";
 import { kvGet, kvSet, kvDel } from "@/lib/kv";
-import { exportBackupData, importBackupData, type BackupData } from "@/lib/backup";
+import {
+  exportBackupData,
+  importBackupData,
+  summarizeBackup,
+  type BackupData,
+  type BackupSummary,
+} from "@/lib/backup";
+import { pushOffsite } from "@/lib/backupOffsite";
 
 /** Backup Redis tự động (cron gọi mỗi ngày, xem `/api/cron/backup-snapshot`): lưu snapshot ngay
- * trong chính Redis đó, dưới key riêng theo ngày — không thay thế việc tải file JSON về máy (đề
- * phòng mất quyền truy cập Redis), nhưng chống được các sự cố "ghi đè/hỏng dữ liệu do thao tác
- * nhầm" (ví dụ AI sinh lỗi, xoá nhầm) vì luôn có snapshot vài ngày gần nhất để khôi phục lại. */
+ * trong chính Redis đó, dưới key riêng theo ngày — chống các sự cố "ghi đè/hỏng dữ liệu do thao tác
+ * nhầm" (ví dụ AI sinh lỗi, xoá nhầm) vì luôn có snapshot vài ngày gần nhất để khôi phục lại. Mỗi
+ * snapshot cũng được đẩy 1 bản ra ngoài server (xem backupOffsite.ts) — phòng khi mất cả server. */
 const INDEX_KEY = "backup:snapshot:index";
 const MAX_SNAPSHOTS = 14;
 
@@ -17,7 +24,7 @@ function todayKey(): string {
   return new Date().toISOString().slice(0, 10);
 }
 
-export async function saveSnapshot(): Promise<{ date: string }> {
+export async function saveSnapshot(): Promise<{ date: string; offsiteError?: string }> {
   const date = todayKey();
   const data = await exportBackupData();
   const index = ((await kvGet<string[]>(INDEX_KEY)) ?? []).filter((d) => d !== date);
@@ -31,14 +38,19 @@ export async function saveSnapshot(): Promise<{ date: string }> {
     kvSet(INDEX_KEY, trimmed),
     ...dropped.map((d) => kvDel(snapshotKey(d))),
   ]);
-  return { date };
+
+  // Bản ngoài server lỗi (mất mạng, Upstash hết quota…) thì vẫn giữ snapshot trên server, chỉ báo lại.
+  try {
+    await pushOffsite(date, data);
+    return { date };
+  } catch (e) {
+    return { date, offsiteError: e instanceof Error ? e.message : "Không đẩy được bản sao ngoài server." };
+  }
 }
 
-export interface SnapshotSummary {
+export interface SnapshotSummary extends BackupSummary {
   date: string;
   exportedAt: string;
-  totalTracked: number;
-  grammarTracked: number;
 }
 
 export async function listSnapshots(): Promise<SnapshotSummary[]> {
@@ -48,12 +60,7 @@ export async function listSnapshots(): Promise<SnapshotSummary[]> {
   index.forEach((date, i) => {
     const data = snapshots[i];
     if (!data) return;
-    summaries.push({
-      date,
-      exportedAt: data.exportedAt,
-      totalTracked: Object.keys(data.progress ?? {}).length,
-      grammarTracked: Object.keys(data.grammarProgress ?? {}).length,
-    });
+    summaries.push({ date, exportedAt: data.exportedAt, ...summarizeBackup(data) });
   });
   return summaries;
 }
