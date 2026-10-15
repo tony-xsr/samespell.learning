@@ -7,7 +7,7 @@ import { loadProgressStore } from "@/lib/progressStore";
 import { isDue } from "@/lib/srs";
 
 const LANGS: Language[] = ["zh", "ja", "ko", "en", "es"];
-const MODES: QuizMode[] = ["meaning", "reading", "cloze"];
+const MODES: QuizMode[] = ["meaning", "reading", "cloze", "example"];
 
 export async function GET(req: NextRequest) {
   const searchParams = req.nextUrl.searchParams;
@@ -17,7 +17,7 @@ export async function GET(req: NextRequest) {
 
   const mode = MODES.includes(modeParam as QuizMode) ? (modeParam as QuizMode) : null;
   if (!mode) {
-    return NextResponse.json({ error: "mode không hợp lệ (meaning | reading | cloze)." }, { status: 400 });
+    return NextResponse.json({ error: "mode không hợp lệ (meaning | reading | cloze | example)." }, { status: 400 });
   }
 
   const isMixed = langParam === "mixed";
