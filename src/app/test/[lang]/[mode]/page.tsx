@@ -4,7 +4,7 @@ import type { QuizMode } from "@/lib/quiz/types";
 import QuizSession from "@/components/quiz/QuizSession";
 
 const VALID_LANGS = ["zh", "ja", "ko", "en", "es", "mixed"] as const;
-const VALID_MODES: QuizMode[] = ["meaning", "reading", "cloze"];
+const VALID_MODES: QuizMode[] = ["meaning", "reading", "cloze", "example"];
 
 export default async function TestPlayPage({
   params,
