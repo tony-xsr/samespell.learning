@@ -33,6 +33,12 @@ const MODES = [
     title: "Điền từ vào câu",
     desc: "Chọn từ đúng để hoàn thành câu ví dụ",
   },
+  {
+    id: "example",
+    icon: "💬",
+    title: "Hiểu câu ví dụ",
+    desc: "Nghe và đọc cả câu, chọn đúng nghĩa tiếng Việt — trả lời xong hiện đủ thẻ từ",
+  },
 ] as const;
 
 export default async function TestModePicker({ params }: { params: Promise<{ lang: string }> }) {
