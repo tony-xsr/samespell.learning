@@ -5,6 +5,7 @@ import { useEffect, useState } from "react";
 interface SnapshotSummary {
   date: string;
   exportedAt: string;
+  keyCount: number;
   totalTracked: number;
   grammarTracked: number;
 }
@@ -45,7 +46,12 @@ export default function AdminSnapshots() {
       const res = await fetch("/api/admin/backup-snapshots", { method: "POST" });
       const data = await res.json();
       if (!res.ok) throw new Error(data.error ?? "Không lưu được snapshot.");
-      setMessage(`Đã lưu snapshot ngày ${data.date}.`);
+      if (data.offsiteError) {
+        setMessage(`Đã lưu snapshot ngày ${data.date} trên server.`);
+        setError(`Không gửi được bản sao ra ngoài server: ${data.offsiteError}`);
+      } else {
+        setMessage(`Đã lưu snapshot ngày ${data.date}.`);
+      }
       await loadSnapshots();
     } catch (e) {
       setError(e instanceof Error ? e.message : "Có lỗi xảy ra");
@@ -77,12 +83,12 @@ export default function AdminSnapshots() {
 
   return (
     <div className="rounded-2xl border border-border bg-surface-2 p-5 shadow-sm">
-      <h2 className="font-semibold text-ink">Snapshot tự động (Redis)</h2>
+      <h2 className="font-semibold text-ink">Snapshot tự động (trên server)</h2>
       <p className="mt-1 text-xs text-ink-muted">
-        Vercel Cron tự chạy mỗi ngày, lưu 1 bản chụp tiến trình + từ vựng AI sinh thêm + mẹo nhớ ngay
-        trong Redis (giữ tối đa 14 ngày gần nhất). Khác với &ldquo;Sao lưu &amp; khôi phục&rdquo; ở
-        trên (tải file JSON về máy), đây chỉ chống các sự cố ghi đè/hỏng dữ liệu do thao tác nhầm —
-        không thay thế việc tải file backup về khi đổi tài khoản Redis.
+        Cron trên server chạy mỗi ngày lúc 01:00 (giờ Việt Nam), chụp toàn bộ dữ liệu ngay trong Redis của
+        server (giữ 14 ngày gần nhất) — để quay lại khi lỡ xoá nhầm hay AI ghi hỏng dữ liệu. Vì nằm chung
+        server, mất server là mất luôn các bản này; bản an toàn hơn là &ldquo;Bản sao ngoài server&rdquo;
+        và file tải về máy.
       </p>
 
       <div className="mt-3 flex flex-wrap items-center gap-2">
@@ -110,7 +116,8 @@ export default function AdminSnapshots() {
                 <span className="font-medium text-ink">
                   {s.date}{" "}
                   <span className="font-normal text-ink-muted">
-                    · {s.totalTracked} thẻ từ vựng · {s.grammarTracked} thẻ ngữ pháp
+                    · {s.keyCount > 0 ? `${s.keyCount} mục dữ liệu · ` : ""}
+                    {s.totalTracked} thẻ từ vựng · {s.grammarTracked} thẻ ngữ pháp
                   </span>
                 </span>
                 {pendingRestore === s.date ? (
