@@ -14,8 +14,8 @@ export async function GET() {
 /** Cho phép admin bấm "Sao lưu ngay" thủ công thay vì chỉ chờ cron chạy vào cuối ngày. */
 export async function POST() {
   try {
-    const { date } = await saveSnapshot();
-    return NextResponse.json({ ok: true, date });
+    const result = await saveSnapshot();
+    return NextResponse.json({ ok: true, ...result });
   } catch (e) {
     const message = e instanceof Error ? e.message : "Không lưu được snapshot.";
     return NextResponse.json({ error: message }, { status: 500 });
