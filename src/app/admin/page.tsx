@@ -3,6 +3,7 @@ import AdminAiConfigForm from "@/components/admin/AdminAiConfigForm";
 import AdminExpandTrigger from "@/components/admin/AdminExpandTrigger";
 import AdminBackup from "@/components/admin/AdminBackup";
 import AdminSnapshots from "@/components/admin/AdminSnapshots";
+import AdminOffsiteBackup from "@/components/admin/AdminOffsiteBackup";
 import AdminSyncToData from "@/components/admin/AdminSyncToData";
 
 export default async function AdminPage() {
@@ -35,6 +36,7 @@ export default async function AdminPage() {
           <AdminSyncToData />
           <AdminBackup />
           <AdminSnapshots />
+          <AdminOffsiteBackup />
         </div>
       </div>
     </main>
