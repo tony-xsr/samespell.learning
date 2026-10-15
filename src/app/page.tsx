@@ -1,4 +1,5 @@
 import Link from "next/link";
+import LookupLauncher from "@/components/lookup/LookupLauncher";
 import { getLanguages, wordCount } from "@/lib/vocabStore";
 
 const LANG_ICON: Record<string, string> = { zh: "🇨🇳", ko: "🇰🇷", ja: "🇯🇵", en: "🇬🇧", es: "🇪🇸" };
@@ -23,6 +24,11 @@ export default async function Home() {
             Từ ~200 chữ gốc, mở rộng ra hàng nghìn từ qua mindmap ngữ pháp/chủ đề, kịch bản hội thoại,
             và bài kiểm tra tự sinh không giới hạn.
           </p>
+        </div>
+
+        {/* Tra nhanh — lối vào chính để tra & nhớ từ Trung / Hàn */}
+        <div className="mt-4">
+          <LookupLauncher />
         </div>
 
         {/* Ôn tập & theo dõi tiến độ */}
@@ -160,6 +166,20 @@ export default async function Home() {
               className="flex items-center justify-center gap-2 rounded-2xl border-2 border-dashed border-accent-400 px-5 py-3 text-sm font-semibold text-accent-600 transition hover:bg-accent-500/5"
             >
               🔤 Cùng âm đầu pinyin
+            </Link>
+
+            <Link
+              href="/writing"
+              className="flex items-center justify-center gap-2 rounded-2xl border-2 border-dashed border-accent-400 px-5 py-3 text-sm font-semibold text-accent-600 transition hover:bg-accent-500/5"
+            >
+              ✍️ Luyện viết chữ Hán (thứ tự nét)
+            </Link>
+
+            <Link
+              href="/tu-noi"
+              className="flex items-center justify-center gap-2 rounded-2xl border-2 border-dashed border-accent-400 px-5 py-3 text-sm font-semibold text-accent-600 transition hover:bg-accent-500/5"
+            >
+              🔗 Từ nối Trung – Hàn (và, hoặc, nhưng, vì vậy…)
             </Link>
           </div>
         </div>
