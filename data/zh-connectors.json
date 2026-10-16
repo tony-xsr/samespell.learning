@@ -1,0 +1,2245 @@
+{
+  "language": "zh",
+  "categories": [
+    {
+      "id": "add",
+      "titleVn": "Thêm ý — và, cũng, ngoài ra, hơn nữa",
+      "icon": "➕",
+      "entries": [
+        {
+          "id": "zh-he",
+          "form": "和",
+          "reading": "hé",
+          "meaningVn": "và (nối danh từ)",
+          "usage": "A 和 B (danh từ / cụm danh từ)",
+          "register": "trung tính",
+          "nuanceVn": "Chỉ nối DANH TỪ. Không dùng để nối hai câu/hai động từ như chữ \"và\" tiếng Việt — nối câu dùng 而且, 并且, 还.",
+          "examples": [
+            {
+              "sentence": "我和妹妹都喜欢看电影。",
+              "translationVn": "Tôi và em gái đều thích xem phim.",
+              "answer": "和"
+            },
+            {
+              "sentence": "桌子上有苹果和香蕉。",
+              "translationVn": "Trên bàn có táo và chuối.",
+              "answer": "和"
+            }
+          ],
+          "mnemonicVn": "和 HÒA = hòa chung lại: gom hai danh từ thành một nhóm. Lỗi hay gặp: ❌ 我吃饭和看电视 → ✅ 我吃饭，还看电视."
+        },
+        {
+          "id": "zh-gen",
+          "form": "跟",
+          "reading": "gēn",
+          "meaningVn": "và / với (khẩu ngữ)",
+          "usage": "A 跟 B (一起) + V",
+          "register": "khẩu ngữ",
+          "nuanceVn": "Giống 和 nhưng thiên về văn nói; còn là giới từ \"cùng với\" (跟他一起去).",
+          "examples": [
+            {
+              "sentence": "我跟朋友一起去吃饭。",
+              "translationVn": "Tôi đi ăn cùng với bạn.",
+              "answer": "跟"
+            },
+            {
+              "sentence": "你跟他说了吗？",
+              "translationVn": "Bạn đã nói với anh ấy chưa?",
+              "answer": "跟"
+            }
+          ],
+          "mnemonicVn": "跟 CÂN = gót chân → đi theo gót = đi cùng với ai."
+        },
+        {
+          "id": "zh-yu",
+          "form": "与",
+          "reading": "yǔ",
+          "meaningVn": "và, với (văn viết)",
+          "usage": "A 与 B",
+          "register": "văn viết",
+          "nuanceVn": "Bản trang trọng của 和 — gặp nhiều trong tiêu đề sách báo: 《战争与和平》.",
+          "examples": [
+            {
+              "sentence": "《战争与和平》是一部世界名著。",
+              "translationVn": "\"Chiến tranh và hòa bình\" là một kiệt tác thế giới.",
+              "answer": "与"
+            },
+            {
+              "sentence": "理论与实践必须结合。",
+              "translationVn": "Lý thuyết và thực tiễn phải kết hợp.",
+              "answer": "与"
+            }
+          ],
+          "mnemonicVn": "与 DỮ (= 與) — văn viết của 和; thấy trong tên sách, tiêu đề."
+        },
+        {
+          "id": "zh-yiji",
+          "form": "以及",
+          "reading": "yǐjí",
+          "meaningVn": "cũng như, và (liệt kê dài)",
+          "usage": "A、B 以及 C",
+          "register": "văn viết",
+          "nuanceVn": "Dùng trước mục cuối của một danh sách dài, trang trọng.",
+          "examples": [
+            {
+              "sentence": "会议讨论了价格、质量以及售后服务。",
+              "translationVn": "Cuộc họp thảo luận giá cả, chất lượng cũng như dịch vụ hậu mãi.",
+              "answer": "以及"
+            },
+            {
+              "sentence": "请带上护照、照片以及申请表。",
+              "translationVn": "Hãy mang theo hộ chiếu, ảnh và đơn đăng ký.",
+              "answer": "以及"
+            }
+          ],
+          "mnemonicVn": "以及 DĨ CẬP = \"và cập (tới) cả…\" — đặt trước món cuối cùng của danh sách."
+        },
+        {
+          "id": "zh-erqie",
+          "form": "而且",
+          "reading": "érqiě",
+          "meaningVn": "hơn nữa, mà còn",
+          "usage": "(不但) A，而且 B",
+          "register": "trung tính",
+          "nuanceVn": "Nối hai câu/hai tính chất, ý sau mạnh hơn ý trước. Hay đi với 不但/不仅.",
+          "examples": [
+            {
+              "sentence": "这家饭馆便宜，而且菜很好吃。",
+              "translationVn": "Quán này rẻ, hơn nữa món ăn rất ngon.",
+              "answer": "而且"
+            },
+            {
+              "sentence": "她会说英语，而且说得很流利。",
+              "translationVn": "Cô ấy biết nói tiếng Anh, mà còn nói rất lưu loát.",
+              "answer": "而且"
+            }
+          ],
+          "mnemonicVn": "而且 NHI THẢ — \"mà lại còn\": thêm một ý NẶNG KÝ hơn."
+        },
+        {
+          "id": "zh-bingqie",
+          "form": "并且",
+          "reading": "bìngqiě",
+          "meaningVn": "và, đồng thời (nối động từ/câu)",
+          "usage": "V1，并且 V2",
+          "register": "văn viết",
+          "nuanceVn": "Nối hai hành động cùng chủ ngữ, trang trọng hơn 而且; nhấn \"cùng làm cả hai\".",
+          "examples": [
+            {
+              "sentence": "他完成了任务，并且写了报告。",
+              "translationVn": "Anh ấy hoàn thành nhiệm vụ và đã viết báo cáo.",
+              "answer": "并且"
+            },
+            {
+              "sentence": "我们要保护环境，并且节约资源。",
+              "translationVn": "Chúng ta phải bảo vệ môi trường, đồng thời tiết kiệm tài nguyên.",
+              "answer": "并且"
+            }
+          ],
+          "mnemonicVn": "并且 TỊNH THẢ — 并 = song song: hai việc đi song song."
+        },
+        {
+          "id": "zh-hai",
+          "form": "还",
+          "reading": "hái",
+          "meaningVn": "còn, lại còn (thêm việc)",
+          "usage": "S + 还 + V",
+          "register": "khẩu ngữ",
+          "nuanceVn": "Cách tự nhiên nhất trong văn nói để nói \"còn… nữa\": 我去了北京，还去了上海.",
+          "examples": [
+            {
+              "sentence": "我买了衣服，还买了鞋。",
+              "translationVn": "Tôi mua quần áo, còn mua cả giày.",
+              "answer": "还"
+            },
+            {
+              "sentence": "他会弹钢琴，还会唱歌。",
+              "translationVn": "Anh ấy biết chơi piano, còn biết hát.",
+              "answer": "还"
+            }
+          ],
+          "mnemonicVn": "还 HOÀN (hái) — \"còn\": đứng TRƯỚC động từ thứ hai."
+        },
+        {
+          "id": "zh-lingwai",
+          "form": "另外",
+          "reading": "lìngwài",
+          "meaningVn": "ngoài ra, thêm nữa",
+          "usage": "另外，…",
+          "register": "trung tính",
+          "nuanceVn": "Đứng đầu câu để thêm một ý/việc khác; cũng làm tính từ \"khác\" (另外一个人).",
+          "examples": [
+            {
+              "sentence": "另外，请大家明天早点儿来。",
+              "translationVn": "Ngoài ra, mọi người ngày mai đến sớm một chút nhé.",
+              "answer": "另外"
+            },
+            {
+              "sentence": "我还有另外一个问题。",
+              "translationVn": "Tôi còn một câu hỏi khác nữa.",
+              "answer": "另外"
+            }
+          ],
+          "mnemonicVn": "另外 LÁNH NGOẠI — \"một cái khác bên ngoài\" = ngoài ra."
+        },
+        {
+          "id": "zh-ciwai",
+          "form": "此外",
+          "reading": "cǐwài",
+          "meaningVn": "ngoài ra (văn viết)",
+          "usage": "此外，…",
+          "register": "văn viết",
+          "nuanceVn": "Bản trang trọng của 另外, hay dùng trong bài viết, thuyết trình.",
+          "examples": [
+            {
+              "sentence": "此外，公司还提供免费午餐。",
+              "translationVn": "Ngoài ra, công ty còn cung cấp bữa trưa miễn phí.",
+              "answer": "此外"
+            },
+            {
+              "sentence": "此外，我们也要注意安全。",
+              "translationVn": "Ngoài ra, chúng ta cũng phải chú ý an toàn.",
+              "answer": "此外"
+            }
+          ],
+          "mnemonicVn": "此外 THỬ NGOẠI = \"ngoài cái này ra\"."
+        },
+        {
+          "id": "zh-zaishuo",
+          "form": "再说",
+          "reading": "zàishuō",
+          "meaningVn": "vả lại, hơn nữa (thêm lý do)",
+          "usage": "…，再说，…",
+          "register": "khẩu ngữ",
+          "nuanceVn": "Thêm một LÝ DO nữa để thuyết phục; cũng có nghĩa \"để sau hẵng nói\" (以后再说).",
+          "examples": [
+            {
+              "sentence": "今天太晚了，再说外面还下雨，别去了。",
+              "translationVn": "Hôm nay muộn quá rồi, vả lại bên ngoài còn mưa, đừng đi nữa.",
+              "answer": "再说"
+            },
+            {
+              "sentence": "这件衣服太贵，再说颜色也不好看。",
+              "translationVn": "Cái áo này đắt quá, vả lại màu cũng không đẹp.",
+              "answer": "再说"
+            }
+          ],
+          "mnemonicVn": "再说 TÁI THUYẾT = \"nói thêm lần nữa\" → bồi thêm lý do."
+        },
+        {
+          "id": "zh-kuangqie",
+          "form": "况且",
+          "reading": "kuàngqiě",
+          "meaningVn": "huống hồ, vả lại",
+          "usage": "…，况且…",
+          "register": "văn viết",
+          "nuanceVn": "Giống 再说 nhưng trang trọng hơn, lý do sau càng hiển nhiên.",
+          "examples": [
+            {
+              "sentence": "时间来不及了，况且我们也没有钱。",
+              "translationVn": "Không kịp thời gian, huống hồ chúng ta cũng không có tiền.",
+              "answer": "况且"
+            },
+            {
+              "sentence": "这条路很远，况且天又黑了。",
+              "translationVn": "Con đường này rất xa, vả lại trời lại tối rồi.",
+              "answer": "况且"
+            }
+          ],
+          "mnemonicVn": "况且 HUỐNG THẢ = \"huống hồ\" — gần như đọc thẳng Hán Việt."
+        }
+      ]
+    },
+    {
+      "id": "choice",
+      "titleVn": "Lựa chọn — hoặc, hay là, thà",
+      "icon": "🔀",
+      "entries": [
+        {
+          "id": "zh-huozhe",
+          "form": "或者",
+          "reading": "huòzhě",
+          "meaningVn": "hoặc (câu trần thuật)",
+          "usage": "A 或者 B",
+          "register": "trung tính",
+          "nuanceVn": "Dùng trong câu KỂ / đề nghị: chọn cái nào cũng được. KHÔNG dùng trong câu hỏi lựa chọn (câu hỏi dùng 还是).",
+          "examples": [
+            {
+              "sentence": "你可以坐地铁或者打车去。",
+              "translationVn": "Bạn có thể đi tàu điện ngầm hoặc gọi taxi.",
+              "answer": "或者"
+            },
+            {
+              "sentence": "周末我常常看书或者散步。",
+              "translationVn": "Cuối tuần tôi thường đọc sách hoặc đi dạo.",
+              "answer": "或者"
+            }
+          ],
+          "mnemonicVn": "或者 HOẶC GIẢ — đọc ra \"hoặc\" luôn. Câu KỂ = 或者, câu HỎI = 还是."
+        },
+        {
+          "id": "zh-haishi",
+          "form": "还是",
+          "reading": "háishi",
+          "meaningVn": "hay là (câu hỏi lựa chọn)",
+          "usage": "A 还是 B？",
+          "register": "trung tính",
+          "nuanceVn": "Dùng trong CÂU HỎI chọn một trong hai. Còn nghĩa \"vẫn / tốt hơn là\" (还是去吧).",
+          "examples": [
+            {
+              "sentence": "你喝茶还是喝咖啡？",
+              "translationVn": "Bạn uống trà hay uống cà phê?",
+              "answer": "还是"
+            },
+            {
+              "sentence": "我们今天去还是明天去？",
+              "translationVn": "Chúng ta đi hôm nay hay ngày mai?",
+              "answer": "还是"
+            }
+          ],
+          "mnemonicVn": "还是 — có dấu ？ ở cuối câu thì dùng 还是. Mẹo: \"HỎI → HAI-shi\"."
+        },
+        {
+          "id": "zh-huoshi",
+          "form": "或是",
+          "reading": "huòshì",
+          "meaningVn": "hoặc là",
+          "usage": "A 或是 B",
+          "register": "văn viết",
+          "nuanceVn": "Biến thể trang trọng của 或者.",
+          "examples": [
+            {
+              "sentence": "您可以通过电话或是邮件联系我们。",
+              "translationVn": "Quý vị có thể liên hệ chúng tôi qua điện thoại hoặc email.",
+              "answer": "或是"
+            },
+            {
+              "sentence": "早上或是晚上都可以。",
+              "translationVn": "Buổi sáng hoặc buổi tối đều được.",
+              "answer": "或是"
+            }
+          ],
+          "mnemonicVn": "或是 HOẶC THỊ = \"hoặc là\"."
+        },
+        {
+          "id": "zh-yaome",
+          "form": "要么…要么…",
+          "reading": "yàome … yàome …",
+          "meaningVn": "hoặc là… hoặc là… (chọn một, dứt khoát)",
+          "usage": "要么 A，要么 B",
+          "register": "khẩu ngữ",
+          "nuanceVn": "Đưa ra đúng hai lựa chọn, ép phải chọn một.",
+          "examples": [
+            {
+              "sentence": "要么你去，要么我去。",
+              "translationVn": "Hoặc là bạn đi, hoặc là tôi đi.",
+              "answer": "要么"
+            },
+            {
+              "sentence": "要么现在买，要么就别买了。",
+              "translationVn": "Hoặc mua ngay bây giờ, hoặc thôi đừng mua nữa.",
+              "answer": "要么"
+            }
+          ],
+          "mnemonicVn": "要么 — lặp hai lần như hai cánh cửa: chỉ được chọn MỘT."
+        },
+        {
+          "id": "zh-bushijiushi",
+          "form": "不是…就是…",
+          "reading": "búshì … jiùshì …",
+          "meaningVn": "không… thì là… (chắc chắn một trong hai)",
+          "usage": "不是 A，就是 B",
+          "register": "khẩu ngữ",
+          "nuanceVn": "Khẳng định chắc chắn là A hoặc B (không có khả năng khác); cũng tả thói quen lặp đi lặp lại.",
+          "examples": [
+            {
+              "sentence": "他不是在看书，就是在睡觉。",
+              "translationVn": "Anh ấy không đọc sách thì là đang ngủ.",
+              "answer": "不是"
+            },
+            {
+              "sentence": "这几天不是下雨就是刮风。",
+              "translationVn": "Mấy hôm nay không mưa thì gió.",
+              "answer": "不是"
+            }
+          ],
+          "mnemonicVn": "\"Không phải A thì chính là B\" — dịch sát từng chữ là hiểu."
+        },
+        {
+          "id": "zh-yuqi-buru",
+          "form": "与其…不如…",
+          "reading": "yǔqí … bùrú …",
+          "meaningVn": "thà… còn hơn… / … chi bằng…",
+          "usage": "与其 A，不如 B",
+          "register": "văn viết",
+          "nuanceVn": "So sánh hai lựa chọn và CHỌN B (vế sau tốt hơn).",
+          "examples": [
+            {
+              "sentence": "与其在家等，不如出去找。",
+              "translationVn": "Ở nhà chờ chi bằng ra ngoài tìm.",
+              "answer": "与其"
+            },
+            {
+              "sentence": "与其后悔，不如现在努力。",
+              "translationVn": "Hối hận chi bằng bây giờ cố gắng.",
+              "answer": "不如"
+            }
+          ],
+          "mnemonicVn": "与其 DỮ KỲ … 不如 BẤT NHƯ — \"so với A thì không bằng B\" → chọn B."
+        },
+        {
+          "id": "zh-ningke",
+          "form": "宁可…也不…",
+          "reading": "nìngkě … yě bù …",
+          "meaningVn": "thà… chứ không…",
+          "usage": "宁可 A，也不 B",
+          "register": "trung tính",
+          "nuanceVn": "Chấp nhận A (dù thiệt) để tránh B; ngược thứ tự với 与其…不如.",
+          "examples": [
+            {
+              "sentence": "我宁可走路，也不坐他的车。",
+              "translationVn": "Tôi thà đi bộ chứ không ngồi xe của anh ta.",
+              "answer": "宁可"
+            },
+            {
+              "sentence": "他宁可饿着，也不吃快餐。",
+              "translationVn": "Anh ấy thà nhịn đói chứ không ăn đồ ăn nhanh.",
+              "answer": "宁可"
+            }
+          ],
+          "mnemonicVn": "宁可 NINH KHẢ = \"thà\" — chọn vế ĐẦU (ngược 与其…不如 chọn vế sau)."
+        }
+      ]
+    },
+    {
+      "id": "contrast",
+      "titleVn": "Tương phản — nhưng, tuy, dù",
+      "icon": "↔️",
+      "entries": [
+        {
+          "id": "zh-danshi",
+          "form": "但是",
+          "reading": "dànshì",
+          "meaningVn": "nhưng",
+          "usage": "(虽然) A，但是 B",
+          "register": "trung tính",
+          "nuanceVn": "Từ \"nhưng\" phổ biến nhất, dùng được cả nói và viết.",
+          "examples": [
+            {
+              "sentence": "这件衣服很漂亮，但是太贵了。",
+              "translationVn": "Cái áo này rất đẹp, nhưng đắt quá.",
+              "answer": "但是"
+            },
+            {
+              "sentence": "我想去，但是没有时间。",
+              "translationVn": "Tôi muốn đi, nhưng không có thời gian.",
+              "answer": "但是"
+            }
+          ],
+          "mnemonicVn": "但是 ĐÃN THỊ — 但 = 亻(người) + 旦 (bình minh): người ta tưởng thế, NHƯNG sáng ra lại khác. Thông dụng nhất, nói hay viết đều được."
+        },
+        {
+          "id": "zh-keshi",
+          "form": "可是",
+          "reading": "kěshì",
+          "meaningVn": "nhưng mà (khẩu ngữ, có cảm xúc)",
+          "usage": "A，可是 B",
+          "register": "khẩu ngữ",
+          "nuanceVn": "Giống 但是 nhưng mềm, nhiều cảm xúc hơn (tiếc nuối, phân bua).",
+          "examples": [
+            {
+              "sentence": "我很想帮你，可是我真的没办法。",
+              "translationVn": "Tôi rất muốn giúp bạn, nhưng mà tôi thật sự không có cách.",
+              "answer": "可是"
+            },
+            {
+              "sentence": "他说会来，可是到现在还没来。",
+              "translationVn": "Anh ấy bảo sẽ đến, nhưng mà tới giờ vẫn chưa đến.",
+              "answer": "可是"
+            }
+          ],
+          "mnemonicVn": "可是 KHẢ THỊ — \"có thể là… nhưng\": giọng than thở."
+        },
+        {
+          "id": "zh-buguo",
+          "form": "不过",
+          "reading": "búguò",
+          "meaningVn": "có điều, nhưng (nhẹ)",
+          "usage": "A，不过 B",
+          "register": "khẩu ngữ",
+          "nuanceVn": "Nhẹ nhất trong nhóm \"nhưng\": thêm một lưu ý nhỏ, không phủ định hẳn ý trước.",
+          "examples": [
+            {
+              "sentence": "这个办法不错，不过有点儿麻烦。",
+              "translationVn": "Cách này không tệ, có điều hơi phiền.",
+              "answer": "不过"
+            },
+            {
+              "sentence": "可以去，不过要早点儿回来。",
+              "translationVn": "Đi được, có điều phải về sớm một chút.",
+              "answer": "不过"
+            }
+          ],
+          "mnemonicVn": "不过 BẤT QUÁ = \"chẳng qua là…\" → chỉ là lưu ý nhỏ thôi."
+        },
+        {
+          "id": "zh-raner",
+          "form": "然而",
+          "reading": "rán'ér",
+          "meaningVn": "tuy nhiên (văn viết)",
+          "usage": "A。然而，B",
+          "register": "văn viết",
+          "nuanceVn": "\"Tuy nhiên\" trang trọng, đầu câu mới; hay gặp trong văn bản, báo chí.",
+          "examples": [
+            {
+              "sentence": "他很努力。然而，结果并不理想。",
+              "translationVn": "Anh ấy rất nỗ lực. Tuy nhiên, kết quả không như ý.",
+              "answer": "然而"
+            },
+            {
+              "sentence": "计划很好，然而执行起来很难。",
+              "translationVn": "Kế hoạch rất hay, tuy nhiên thực hiện thì rất khó.",
+              "answer": "然而"
+            }
+          ],
+          "mnemonicVn": "然而 NHIÊN NHI = \"tuy nhiên\" — có chữ NHIÊN như tiếng Việt."
+        },
+        {
+          "id": "zh-que",
+          "form": "却",
+          "reading": "què",
+          "meaningVn": "lại, nhưng lại (trái mong đợi)",
+          "usage": "S + 却 + V/Adj",
+          "register": "trung tính",
+          "nuanceVn": "Là PHÓ TỪ: đứng sau chủ ngữ, trước động từ (không đứng đầu câu như 但是).",
+          "examples": [
+            {
+              "sentence": "他很有钱，却一点儿也不快乐。",
+              "translationVn": "Anh ấy rất giàu, nhưng lại chẳng vui chút nào.",
+              "answer": "却"
+            },
+            {
+              "sentence": "大家都来了，他却没来。",
+              "translationVn": "Mọi người đều đến rồi, anh ấy lại không đến.",
+              "answer": "却"
+            }
+          ],
+          "mnemonicVn": "却 KHƯỚC (= từ khước) → kết quả \"quay lưng\" với mong đợi. Vị trí: SAU chủ ngữ."
+        },
+        {
+          "id": "zh-zhishi",
+          "form": "只是",
+          "reading": "zhǐshì",
+          "meaningVn": "chỉ có điều, có điều là",
+          "usage": "A，只是 B",
+          "register": "trung tính",
+          "nuanceVn": "Giống 不过: ý trước tốt, chỉ có một điểm chưa ổn.",
+          "examples": [
+            {
+              "sentence": "房子很大，只是离公司太远。",
+              "translationVn": "Nhà rất rộng, chỉ có điều cách công ty quá xa.",
+              "answer": "只是"
+            },
+            {
+              "sentence": "我也想去，只是最近太忙了。",
+              "translationVn": "Tôi cũng muốn đi, chỉ là dạo này bận quá.",
+              "answer": "只是"
+            }
+          ],
+          "mnemonicVn": "只是 CHỈ THỊ = \"chỉ là\" — đọc là hiểu."
+        },
+        {
+          "id": "zh-suiran",
+          "form": "虽然…但是…",
+          "reading": "suīrán … dànshì …",
+          "meaningVn": "tuy… nhưng…",
+          "usage": "虽然 A，但是/可是/却 B",
+          "register": "trung tính",
+          "nuanceVn": "Tiếng Trung DÙNG CẢ HAI vế (tuy… nhưng…) — khác tiếng Anh chỉ dùng một.",
+          "examples": [
+            {
+              "sentence": "虽然下雨了，但是我们还是去了。",
+              "translationVn": "Tuy trời mưa, nhưng chúng tôi vẫn đi.",
+              "answer": "虽然"
+            },
+            {
+              "sentence": "虽然他年纪小，但是很懂事。",
+              "translationVn": "Tuy cậu ấy nhỏ tuổi, nhưng rất hiểu chuyện.",
+              "answer": "但是"
+            }
+          ],
+          "mnemonicVn": "虽然 TUY NHIÊN — chữ đầu đọc \"TUY\" y như tiếng Việt."
+        },
+        {
+          "id": "zh-jinguan",
+          "form": "尽管",
+          "reading": "jǐnguǎn",
+          "meaningVn": "mặc dù, dù cho",
+          "usage": "尽管 A，(但是/还是) B",
+          "register": "văn viết",
+          "nuanceVn": "Giống 虽然 nhưng nhấn mạnh hơn; một mình 尽管 + V còn nghĩa \"cứ việc\" (有问题尽管问).",
+          "examples": [
+            {
+              "sentence": "尽管很累，她还是坚持跑完了。",
+              "translationVn": "Mặc dù rất mệt, cô ấy vẫn cố chạy hết.",
+              "answer": "尽管"
+            },
+            {
+              "sentence": "有什么问题，尽管问我。",
+              "translationVn": "Có vấn đề gì cứ việc hỏi tôi.",
+              "answer": "尽管"
+            }
+          ],
+          "mnemonicVn": "尽管 TẬN QUẢN = \"cứ mặc kệ hết\" → mặc dù."
+        },
+        {
+          "id": "zh-jishi",
+          "form": "即使…也…",
+          "reading": "jíshǐ … yě …",
+          "meaningVn": "cho dù… cũng…",
+          "usage": "即使 A，也 B",
+          "register": "trung tính",
+          "nuanceVn": "A là GIẢ ĐỊNH (chưa xảy ra); khác 虽然 (sự thật đã có).",
+          "examples": [
+            {
+              "sentence": "即使明天下雨，我也要去。",
+              "translationVn": "Cho dù mai mưa, tôi cũng sẽ đi.",
+              "answer": "即使"
+            },
+            {
+              "sentence": "即使你不说，我也知道。",
+              "translationVn": "Cho dù bạn không nói, tôi cũng biết.",
+              "answer": "即使"
+            }
+          ],
+          "mnemonicVn": "即使 TỨC SỬ = \"giả sử ngay cả\" → cho dù (giả định). 虽然 = sự thật."
+        },
+        {
+          "id": "zh-napa",
+          "form": "哪怕",
+          "reading": "nǎpà",
+          "meaningVn": "dù cho, kể cả (khẩu ngữ, cực đoan)",
+          "usage": "哪怕 A，也 B",
+          "register": "khẩu ngữ",
+          "nuanceVn": "Như 即使 nhưng mạnh, cảm xúc hơn; A thường là trường hợp cực đoan.",
+          "examples": [
+            {
+              "sentence": "哪怕只有一点儿希望，我们也不放弃。",
+              "translationVn": "Dù chỉ còn chút hy vọng, chúng ta cũng không bỏ cuộc.",
+              "answer": "哪怕"
+            },
+            {
+              "sentence": "哪怕再忙，他每天都给妈妈打电话。",
+              "translationVn": "Dù bận đến mấy, ngày nào anh ấy cũng gọi cho mẹ.",
+              "answer": "哪怕"
+            }
+          ],
+          "mnemonicVn": "哪怕 = \"sợ gì đâu\" → kể cả thế cũng không sợ."
+        }
+      ]
+    },
+    {
+      "id": "cause",
+      "titleVn": "Nguyên nhân — vì, do, bởi vì",
+      "icon": "❓",
+      "entries": [
+        {
+          "id": "zh-yinwei",
+          "form": "因为",
+          "reading": "yīnwèi",
+          "meaningVn": "vì, bởi vì",
+          "usage": "因为 A，所以 B",
+          "register": "trung tính",
+          "nuanceVn": "Từ \"vì\" phổ biến nhất; hay đi cặp với 所以.",
+          "examples": [
+            {
+              "sentence": "因为下雨，所以比赛取消了。",
+              "translationVn": "Vì trời mưa nên trận đấu bị hủy.",
+              "answer": "因为"
+            },
+            {
+              "sentence": "我没去上课，因为我生病了。",
+              "translationVn": "Tôi không đi học vì tôi bị ốm.",
+              "answer": "因为"
+            }
+          ],
+          "mnemonicVn": "因为 NHÂN VỊ — 因 NHÂN = nguyên NHÂN."
+        },
+        {
+          "id": "zh-youyu",
+          "form": "由于",
+          "reading": "yóuyú",
+          "meaningVn": "do, bởi vì (văn viết)",
+          "usage": "由于 A，(因此) B",
+          "register": "văn viết",
+          "nuanceVn": "Trang trọng hơn 因为; chỉ đứng ở vế ĐẦU, hay đi với 因此.",
+          "examples": [
+            {
+              "sentence": "由于天气原因，航班推迟了。",
+              "translationVn": "Do nguyên nhân thời tiết, chuyến bay bị hoãn.",
+              "answer": "由于"
+            },
+            {
+              "sentence": "由于时间关系，我就说到这里。",
+              "translationVn": "Do thời gian có hạn, tôi xin nói đến đây.",
+              "answer": "由于"
+            }
+          ],
+          "mnemonicVn": "由于 DO VU — 由 \"DO\" y như tiếng Việt \"do\"."
+        },
+        {
+          "id": "zh-jiran",
+          "form": "既然…就…",
+          "reading": "jìrán … jiù …",
+          "meaningVn": "đã… thì…",
+          "usage": "既然 A，就 B",
+          "register": "trung tính",
+          "nuanceVn": "A là sự thật cả hai bên đều biết → rút ra đề nghị/kết luận B.",
+          "examples": [
+            {
+              "sentence": "既然你不舒服，就早点儿回家吧。",
+              "translationVn": "Đã không khỏe thì về nhà sớm đi.",
+              "answer": "既然"
+            },
+            {
+              "sentence": "既然决定了，就别后悔。",
+              "translationVn": "Đã quyết rồi thì đừng hối hận.",
+              "answer": "既然"
+            }
+          ],
+          "mnemonicVn": "既然 KÝ NHIÊN — 既 KÝ = \"đã\" (như ký vãng)."
+        },
+        {
+          "id": "zh-zhisuoyi",
+          "form": "之所以…是因为…",
+          "reading": "zhīsuǒyǐ … shì yīnwèi …",
+          "meaningVn": "sở dĩ… là vì…",
+          "usage": "(S) 之所以 B，是因为 A",
+          "register": "văn viết",
+          "nuanceVn": "Nói KẾT QUẢ trước, NGUYÊN NHÂN sau — để nhấn mạnh nguyên nhân.",
+          "examples": [
+            {
+              "sentence": "他之所以成功，是因为他从不放弃。",
+              "translationVn": "Sở dĩ anh ấy thành công là vì không bao giờ bỏ cuộc.",
+              "answer": "之所以"
+            },
+            {
+              "sentence": "我之所以迟到，是因为堵车了。",
+              "translationVn": "Sở dĩ tôi đến muộn là vì tắc đường.",
+              "answer": "是因为"
+            }
+          ],
+          "mnemonicVn": "之所以 CHI SỞ DĨ = \"sở dĩ\" — giống y tiếng Việt!"
+        }
+      ]
+    },
+    {
+      "id": "result",
+      "titleVn": "Kết quả — vì vậy, cho nên, do đó",
+      "icon": "➡️",
+      "entries": [
+        {
+          "id": "zh-suoyi",
+          "form": "所以",
+          "reading": "suǒyǐ",
+          "meaningVn": "cho nên, vì vậy",
+          "usage": "(因为) A，所以 B",
+          "register": "trung tính",
+          "nuanceVn": "Từ \"vì vậy\" thông dụng nhất cả nói lẫn viết.",
+          "examples": [
+            {
+              "sentence": "我太累了，所以早早睡了。",
+              "translationVn": "Tôi mệt quá nên đi ngủ sớm.",
+              "answer": "所以"
+            },
+            {
+              "sentence": "因为路上堵车，所以我迟到了。",
+              "translationVn": "Vì đường tắc nên tôi đến muộn.",
+              "answer": "所以"
+            }
+          ],
+          "mnemonicVn": "所以 SỞ DĨ — trong tiếng Trung 所以 = \"cho nên\" (khác \"sở dĩ\" tiếng Việt = 之所以!)."
+        },
+        {
+          "id": "zh-yinci",
+          "form": "因此",
+          "reading": "yīncǐ",
+          "meaningVn": "do đó, vì thế (văn viết)",
+          "usage": "A，因此 B",
+          "register": "văn viết",
+          "nuanceVn": "Trang trọng hơn 所以; không đi cặp với 因为 (đi với 由于).",
+          "examples": [
+            {
+              "sentence": "他工作认真，因此得到了提升。",
+              "translationVn": "Anh ấy làm việc chăm chỉ, do đó được thăng chức.",
+              "answer": "因此"
+            },
+            {
+              "sentence": "由于准备充分，因此比赛很顺利。",
+              "translationVn": "Do chuẩn bị đầy đủ, vì thế cuộc thi rất suôn sẻ.",
+              "answer": "因此"
+            }
+          ],
+          "mnemonicVn": "因此 NHÂN THỬ = \"nhân (vì) cái này\" → do đó."
+        },
+        {
+          "id": "zh-yuer",
+          "form": "因而",
+          "reading": "yīn'ér",
+          "meaningVn": "vì thế mà, do vậy",
+          "usage": "A，因而 B",
+          "register": "văn viết",
+          "nuanceVn": "Rất trang trọng; nối hai vế trong cùng câu.",
+          "examples": [
+            {
+              "sentence": "他平时不锻炼，因而身体很差。",
+              "translationVn": "Anh ấy thường không tập luyện, vì thế mà sức khỏe rất kém.",
+              "answer": "因而"
+            },
+            {
+              "sentence": "产品质量好，因而销量很高。",
+              "translationVn": "Chất lượng sản phẩm tốt, do vậy doanh số rất cao.",
+              "answer": "因而"
+            }
+          ],
+          "mnemonicVn": "因而 NHÂN NHI = \"nhân đó mà\"."
+        },
+        {
+          "id": "zh-yushi",
+          "form": "于是",
+          "reading": "yúshì",
+          "meaningVn": "thế là, bèn",
+          "usage": "A，于是 B",
+          "register": "trung tính",
+          "nuanceVn": "Kể CHUỖI SỰ VIỆC: chuyện A xảy ra → thế là B tiếp nối (thường là hành động đã xảy ra).",
+          "examples": [
+            {
+              "sentence": "天黑了，于是我们回家了。",
+              "translationVn": "Trời tối, thế là chúng tôi về nhà.",
+              "answer": "于是"
+            },
+            {
+              "sentence": "他听了我的建议，于是决定试试。",
+              "translationVn": "Anh ấy nghe gợi ý của tôi, thế là quyết định thử xem.",
+              "answer": "于是"
+            }
+          ],
+          "mnemonicVn": "于是 VU THỊ = \"ở chỗ đó bèn…\" — dùng khi KỂ CHUYỆN."
+        },
+        {
+          "id": "zh-jieguo",
+          "form": "结果",
+          "reading": "jiéguǒ",
+          "meaningVn": "kết quả là, rốt cuộc",
+          "usage": "A，结果 B",
+          "register": "khẩu ngữ",
+          "nuanceVn": "Dẫn ra kết cục, thường NGOÀI mong đợi hoặc không như ý.",
+          "examples": [
+            {
+              "sentence": "我等了他一个小时，结果他没来。",
+              "translationVn": "Tôi đợi anh ấy một tiếng, rốt cuộc anh ấy không đến.",
+              "answer": "结果"
+            },
+            {
+              "sentence": "他没复习，结果考试不及格。",
+              "translationVn": "Anh ấy không ôn bài, kết quả là thi trượt.",
+              "answer": "结果"
+            }
+          ],
+          "mnemonicVn": "结果 KẾT QUẢ — đọc thẳng; hay mang ý \"hóa ra lại…\"."
+        },
+        {
+          "id": "zh-kejian",
+          "form": "可见",
+          "reading": "kějiàn",
+          "meaningVn": "có thể thấy, cho thấy",
+          "usage": "A，可见 B",
+          "register": "văn viết",
+          "nuanceVn": "Từ sự việc A RÚT RA nhận định B.",
+          "examples": [
+            {
+              "sentence": "他每天都练习，可见他很重视这次比赛。",
+              "translationVn": "Ngày nào anh ấy cũng luyện tập, có thể thấy anh ấy rất coi trọng cuộc thi này.",
+              "answer": "可见"
+            },
+            {
+              "sentence": "这么多人排队，可见这家店很有名。",
+              "translationVn": "Nhiều người xếp hàng thế này, cho thấy quán này rất nổi tiếng.",
+              "answer": "可见"
+            }
+          ],
+          "mnemonicVn": "可见 KHẢ KIẾN = \"có thể thấy\" — đọc thẳng Hán Việt."
+        },
+        {
+          "id": "zh-name",
+          "form": "那么",
+          "reading": "nàme",
+          "meaningVn": "vậy thì, thế thì",
+          "usage": "(如果) A，那么 B / 那么，…",
+          "register": "trung tính",
+          "nuanceVn": "Dẫn ra hệ quả/đề nghị từ điều vừa nói; khẩu ngữ hay rút gọn thành 那.",
+          "examples": [
+            {
+              "sentence": "如果你不想去，那么我一个人去。",
+              "translationVn": "Nếu bạn không muốn đi, vậy thì tôi đi một mình.",
+              "answer": "那么"
+            },
+            {
+              "sentence": "那么，我们开始吧。",
+              "translationVn": "Vậy thì, chúng ta bắt đầu nhé.",
+              "answer": "那么"
+            }
+          ],
+          "mnemonicVn": "那么 — \"thế (na) thì\": 那 na ≈ \"này / thế\"."
+        },
+        {
+          "id": "zh-conger",
+          "form": "从而",
+          "reading": "cóng'ér",
+          "meaningVn": "từ đó, nhờ đó mà",
+          "usage": "(biện pháp) A，从而 B (mục tiêu đạt được)",
+          "register": "văn viết",
+          "nuanceVn": "Văn bản: A là biện pháp → nhờ đó đạt B.",
+          "examples": [
+            {
+              "sentence": "公司改进了技术，从而提高了效率。",
+              "translationVn": "Công ty cải tiến kỹ thuật, nhờ đó nâng cao hiệu suất.",
+              "answer": "从而"
+            },
+            {
+              "sentence": "多读书可以开阔视野，从而提高能力。",
+              "translationVn": "Đọc nhiều sách mở rộng tầm nhìn, từ đó nâng cao năng lực.",
+              "answer": "从而"
+            }
+          ],
+          "mnemonicVn": "从而 TÙNG NHI = \"từ đó mà\"."
+        }
+      ]
+    },
+    {
+      "id": "condition",
+      "titleVn": "Điều kiện & thời gian — nếu, chỉ cần, khi",
+      "icon": "🔑",
+      "entries": [
+        {
+          "id": "zh-ruguo",
+          "form": "如果…就…",
+          "reading": "rúguǒ … jiù …",
+          "meaningVn": "nếu… thì…",
+          "usage": "如果 A，(那么) S 就 B",
+          "register": "trung tính",
+          "nuanceVn": "\"Nếu\" phổ biến nhất; 就 đứng SAU chủ ngữ vế sau.",
+          "examples": [
+            {
+              "sentence": "如果明天下雨，我们就不去了。",
+              "translationVn": "Nếu mai mưa thì chúng ta không đi nữa.",
+              "answer": "如果"
+            },
+            {
+              "sentence": "如果你有问题，就给我打电话。",
+              "translationVn": "Nếu có vấn đề thì gọi cho tôi.",
+              "answer": "如果"
+            }
+          ],
+          "mnemonicVn": "如果 NHƯ QUẢ = \"như (mà) kết quả là…\" → nếu."
+        },
+        {
+          "id": "zh-yaoshi",
+          "form": "要是",
+          "reading": "yàoshi",
+          "meaningVn": "nếu mà (khẩu ngữ)",
+          "usage": "要是 A，就 B",
+          "register": "khẩu ngữ",
+          "nuanceVn": "Giống 如果 nhưng dùng trong văn nói, thân mật.",
+          "examples": [
+            {
+              "sentence": "要是你累了，就休息一下吧。",
+              "translationVn": "Nếu mà mệt thì nghỉ một chút đi.",
+              "answer": "要是"
+            },
+            {
+              "sentence": "要是我有钱，我就去旅行。",
+              "translationVn": "Nếu mà tôi có tiền, tôi sẽ đi du lịch.",
+              "answer": "要是"
+            }
+          ],
+          "mnemonicVn": "要是 = \"giả mà là…\" — bản nói chuyện hằng ngày của 如果."
+        },
+        {
+          "id": "zh-jiaru",
+          "form": "假如",
+          "reading": "jiǎrú",
+          "meaningVn": "giả sử, giả như",
+          "usage": "假如 A，(就) B",
+          "register": "văn viết",
+          "nuanceVn": "Nhấn mạnh tính GIẢ ĐỊNH, thường điều khó xảy ra.",
+          "examples": [
+            {
+              "sentence": "假如我是你，我不会这样做。",
+              "translationVn": "Giả sử tôi là bạn, tôi sẽ không làm vậy.",
+              "answer": "假如"
+            },
+            {
+              "sentence": "假如没有电，生活会怎么样？",
+              "translationVn": "Giả như không có điện, cuộc sống sẽ ra sao?",
+              "answer": "假如"
+            }
+          ],
+          "mnemonicVn": "假如 GIẢ NHƯ — đọc thẳng y hệt tiếng Việt!"
+        },
+        {
+          "id": "zh-zhiyao",
+          "form": "只要…就…",
+          "reading": "zhǐyào … jiù …",
+          "meaningVn": "chỉ cần… là…",
+          "usage": "只要 A，就 B",
+          "register": "trung tính",
+          "nuanceVn": "Điều kiện ĐỦ (dễ): có A là đủ có B.",
+          "examples": [
+            {
+              "sentence": "只要努力，就能成功。",
+              "translationVn": "Chỉ cần cố gắng là có thể thành công.",
+              "answer": "只要"
+            },
+            {
+              "sentence": "只要你喜欢，就买吧。",
+              "translationVn": "Chỉ cần bạn thích là mua đi.",
+              "answer": "只要"
+            }
+          ],
+          "mnemonicVn": "只要 CHỈ YẾU = \"chỉ cần\" — điều kiện DỄ. Đi với 就."
+        },
+        {
+          "id": "zh-zhiyou",
+          "form": "只有…才…",
+          "reading": "zhǐyǒu … cái …",
+          "meaningVn": "chỉ có… mới…",
+          "usage": "只有 A，才 B",
+          "register": "trung tính",
+          "nuanceVn": "Điều kiện DUY NHẤT (khó): phải có A mới được B. Đi với 才, không đi với 就.",
+          "examples": [
+            {
+              "sentence": "只有多练习，才能说得流利。",
+              "translationVn": "Chỉ có luyện nhiều mới nói lưu loát được.",
+              "answer": "只有"
+            },
+            {
+              "sentence": "只有他才知道答案。",
+              "translationVn": "Chỉ có anh ấy mới biết đáp án.",
+              "answer": "只有"
+            }
+          ],
+          "mnemonicVn": "只有…才 = \"chỉ có… MỚI\" (khó); 只要…就 = \"chỉ cần… LÀ\" (dễ)."
+        },
+        {
+          "id": "zh-chufei",
+          "form": "除非",
+          "reading": "chúfēi",
+          "meaningVn": "trừ khi",
+          "usage": "除非 A，否则/不然 B / 除非 A，才 B",
+          "register": "trung tính",
+          "nuanceVn": "A là điều kiện duy nhất; thường kèm 否则 (nếu không thì).",
+          "examples": [
+            {
+              "sentence": "除非你道歉，否则她不会原谅你。",
+              "translationVn": "Trừ khi bạn xin lỗi, nếu không cô ấy sẽ không tha thứ cho bạn.",
+              "answer": "除非"
+            },
+            {
+              "sentence": "除非下大雨，我们才取消。",
+              "translationVn": "Trừ khi mưa to, chúng tôi mới hủy.",
+              "answer": "除非"
+            }
+          ],
+          "mnemonicVn": "除非 TRỪ PHI = \"trừ phi\" — y hệt tiếng Việt."
+        },
+        {
+          "id": "zh-wulun",
+          "form": "无论/不管…都…",
+          "reading": "wúlùn / bùguǎn … dōu …",
+          "meaningVn": "bất kể… đều…",
+          "usage": "无论 + từ hỏi/A还是B，都 B",
+          "register": "无论: văn viết · 不管: khẩu ngữ",
+          "nuanceVn": "Sau 无论/不管 phải là câu có TỪ HỎI (谁/什么/多么) hoặc lựa chọn (A还是B).",
+          "examples": [
+            {
+              "sentence": "无论遇到什么困难，我们都不放弃。",
+              "translationVn": "Bất kể gặp khó khăn gì, chúng ta đều không bỏ cuộc.",
+              "answer": "无论"
+            },
+            {
+              "sentence": "不管你去不去，我都要去。",
+              "translationVn": "Bất kể bạn có đi hay không, tôi đều sẽ đi.",
+              "answer": "不管"
+            }
+          ],
+          "mnemonicVn": "无论 VÔ LUẬN = \"không cần bàn\"; 不管 BẤT QUẢN = \"không quản\" → bất kể."
+        },
+        {
+          "id": "zh-yidan",
+          "form": "一旦",
+          "reading": "yídàn",
+          "meaningVn": "một khi",
+          "usage": "一旦 A，就 B",
+          "register": "trung tính",
+          "nuanceVn": "Khi A (thường là chuyện quan trọng/bất ngờ) xảy ra thì lập tức B.",
+          "examples": [
+            {
+              "sentence": "一旦决定了，就不要改变。",
+              "translationVn": "Một khi đã quyết định thì đừng thay đổi.",
+              "answer": "一旦"
+            },
+            {
+              "sentence": "一旦发生火灾，请走安全出口。",
+              "translationVn": "Một khi xảy ra hỏa hoạn, hãy đi lối thoát hiểm.",
+              "answer": "一旦"
+            }
+          ],
+          "mnemonicVn": "一旦 NHẤT ĐÁN = \"một sớm (đán) nào đó\" → một khi."
+        },
+        {
+          "id": "zh-fouze",
+          "form": "否则",
+          "reading": "fǒuzé",
+          "meaningVn": "nếu không thì",
+          "usage": "A，否则 B",
+          "register": "văn viết",
+          "nuanceVn": "Bằng 不然/要不然 (khẩu ngữ).",
+          "examples": [
+            {
+              "sentence": "快点儿走吧，否则要迟到了。",
+              "translationVn": "Đi nhanh lên, nếu không sẽ muộn đấy.",
+              "answer": "否则"
+            },
+            {
+              "sentence": "你必须按时完成，否则会被扣钱。",
+              "translationVn": "Bạn phải hoàn thành đúng hạn, nếu không sẽ bị trừ tiền.",
+              "answer": "否则"
+            }
+          ],
+          "mnemonicVn": "否则 PHỦ TẮC = \"phủ định (không làm) thì…\"."
+        },
+        {
+          "id": "zh-buran",
+          "form": "不然 / 要不然",
+          "reading": "bùrán / yàobùrán",
+          "meaningVn": "nếu không thì (khẩu ngữ)",
+          "usage": "A，不然 B",
+          "register": "khẩu ngữ",
+          "nuanceVn": "Bản nói của 否则; 要不 còn dùng để gợi ý: 要不我们走吧 (hay là mình đi nhé).",
+          "examples": [
+            {
+              "sentence": "多穿点儿，不然会感冒的。",
+              "translationVn": "Mặc thêm áo vào, không thì bị cảm đấy.",
+              "answer": "不然"
+            },
+            {
+              "sentence": "你快说吧，要不然我走了。",
+              "translationVn": "Bạn nói nhanh đi, không thì tôi đi đây.",
+              "answer": "要不然"
+            }
+          ],
+          "mnemonicVn": "不然 BẤT NHIÊN = \"không như thế thì…\"."
+        }
+      ]
+    },
+    {
+      "id": "example",
+      "titleVn": "Ví dụ & giải thích — ví dụ, tức là, thật ra",
+      "icon": "💡",
+      "entries": [
+        {
+          "id": "zh-biru",
+          "form": "比如",
+          "reading": "bǐrú",
+          "meaningVn": "ví dụ như, chẳng hạn",
+          "usage": "…，比如 A、B",
+          "register": "khẩu ngữ",
+          "nuanceVn": "\"Ví dụ\" thông dụng nhất trong văn nói.",
+          "examples": [
+            {
+              "sentence": "我喜欢运动，比如游泳、跑步。",
+              "translationVn": "Tôi thích thể thao, ví dụ như bơi lội, chạy bộ.",
+              "answer": "比如"
+            },
+            {
+              "sentence": "有很多水果，比如苹果、香蕉。",
+              "translationVn": "Có nhiều loại trái cây, chẳng hạn táo, chuối.",
+              "answer": "比如"
+            }
+          ],
+          "mnemonicVn": "比如 TỶ NHƯ = \"ví như\" — gần tiếng Việt \"tỉ như\"."
+        },
+        {
+          "id": "zh-liru",
+          "form": "例如",
+          "reading": "lìrú",
+          "meaningVn": "ví dụ (văn viết)",
+          "usage": "…，例如 A、B 等",
+          "register": "văn viết",
+          "nuanceVn": "Trang trọng hơn 比如, hay gặp trong sách, văn bản.",
+          "examples": [
+            {
+              "sentence": "中国有很多大城市，例如北京、上海等。",
+              "translationVn": "Trung Quốc có nhiều thành phố lớn, ví dụ Bắc Kinh, Thượng Hải…",
+              "answer": "例如"
+            },
+            {
+              "sentence": "例如，我们可以多用公共交通。",
+              "translationVn": "Ví dụ, chúng ta có thể dùng phương tiện công cộng nhiều hơn.",
+              "answer": "例如"
+            }
+          ],
+          "mnemonicVn": "例如 LỆ NHƯ — 例 LỆ = ví dụ (như \"tiền lệ\", \"lệ\")."
+        },
+        {
+          "id": "zh-piru",
+          "form": "譬如",
+          "reading": "pìrú",
+          "meaningVn": "ví như",
+          "usage": "譬如 A",
+          "register": "văn viết",
+          "nuanceVn": "Văn chương, ít gặp hơn 比如/例如.",
+          "examples": [
+            {
+              "sentence": "很多东西可以回收，譬如纸、塑料。",
+              "translationVn": "Nhiều thứ có thể tái chế, ví như giấy, nhựa.",
+              "answer": "譬如"
+            },
+            {
+              "sentence": "譬如说，你会怎么选择？",
+              "translationVn": "Ví như nói, bạn sẽ chọn thế nào?",
+              "answer": "譬如"
+            }
+          ],
+          "mnemonicVn": "譬如 THÍ NHƯ — 譬 THÍ trong \"thí dụ\"!"
+        },
+        {
+          "id": "zh-xiang",
+          "form": "像",
+          "reading": "xiàng",
+          "meaningVn": "như là (liệt kê ví dụ)",
+          "usage": "像 A、B 这样的…",
+          "register": "khẩu ngữ",
+          "nuanceVn": "Liệt kê ví dụ trong câu: 像他这样的人 (người như anh ấy).",
+          "examples": [
+            {
+              "sentence": "像北京、上海这样的城市，房价都很高。",
+              "translationVn": "Những thành phố như Bắc Kinh, Thượng Hải giá nhà đều rất cao.",
+              "answer": "像"
+            },
+            {
+              "sentence": "我想找像她那样的朋友。",
+              "translationVn": "Tôi muốn tìm người bạn như cô ấy.",
+              "answer": "像"
+            }
+          ],
+          "mnemonicVn": "像 TƯỢNG = hình tượng, giống như → \"như là\"."
+        },
+        {
+          "id": "zh-jiushishuo",
+          "form": "就是说 / 也就是说",
+          "reading": "jiùshì shuō / yě jiùshì shuō",
+          "meaningVn": "tức là, nghĩa là",
+          "usage": "A，也就是说 B (giải thích lại A)",
+          "register": "trung tính",
+          "nuanceVn": "Diễn đạt lại ý vừa nói cho rõ hơn.",
+          "examples": [
+            {
+              "sentence": "他下个月退休，也就是说我们要找新经理。",
+              "translationVn": "Tháng sau ông ấy nghỉ hưu, tức là chúng ta phải tìm quản lý mới.",
+              "answer": "也就是说"
+            },
+            {
+              "sentence": "票卖完了，就是说今天看不了了。",
+              "translationVn": "Vé bán hết rồi, nghĩa là hôm nay không xem được nữa.",
+              "answer": "就是说"
+            }
+          ],
+          "mnemonicVn": "\"Chính là nói…\" — dịch sát chữ là ra."
+        },
+        {
+          "id": "zh-huanjuhuashuo",
+          "form": "换句话说",
+          "reading": "huàn jù huà shuō",
+          "meaningVn": "nói cách khác",
+          "usage": "换句话说，…",
+          "register": "trung tính",
+          "nuanceVn": "Diễn đạt lại bằng cách khác.",
+          "examples": [
+            {
+              "sentence": "他从不迟到，换句话说，他很守时。",
+              "translationVn": "Anh ấy chưa bao giờ đến muộn, nói cách khác, anh ấy rất đúng giờ.",
+              "answer": "换句话说"
+            },
+            {
+              "sentence": "换句话说，这个计划失败了。",
+              "translationVn": "Nói cách khác, kế hoạch này đã thất bại.",
+              "answer": "换句话说"
+            }
+          ],
+          "mnemonicVn": "换句话说 HOÁN CÚ THOẠI THUYẾT = \"đổi câu mà nói\"."
+        },
+        {
+          "id": "zh-ji",
+          "form": "即",
+          "reading": "jí",
+          "meaningVn": "tức là (văn viết)",
+          "usage": "A，即 B",
+          "register": "văn viết",
+          "nuanceVn": "Rất trang trọng, giải thích danh từ: 首都，即北京.",
+          "examples": [
+            {
+              "sentence": "中国的首都，即北京，有三千年历史。",
+              "translationVn": "Thủ đô Trung Quốc, tức Bắc Kinh, có ba nghìn năm lịch sử.",
+              "answer": "即"
+            },
+            {
+              "sentence": "会议定在下周一，即五月五日。",
+              "translationVn": "Cuộc họp định vào thứ Hai tuần sau, tức ngày 5 tháng 5.",
+              "answer": "即"
+            }
+          ],
+          "mnemonicVn": "即 TỨC — \"tức là\" y hệt tiếng Việt."
+        },
+        {
+          "id": "zh-qishi",
+          "form": "其实",
+          "reading": "qíshí",
+          "meaningVn": "thật ra",
+          "usage": "其实，… / S 其实 …",
+          "register": "trung tính",
+          "nuanceVn": "Nói ra sự thật trái với điều người ta tưởng.",
+          "examples": [
+            {
+              "sentence": "他看起来很严肃，其实人很好。",
+              "translationVn": "Anh ấy trông nghiêm túc, thật ra người rất tốt.",
+              "answer": "其实"
+            },
+            {
+              "sentence": "其实我早就知道了。",
+              "translationVn": "Thật ra tôi đã biết từ lâu rồi.",
+              "answer": "其实"
+            }
+          ],
+          "mnemonicVn": "其实 KỲ THỰC — \"kỳ thực\" tiếng Việt cũng có nghĩa là thật ra!"
+        },
+        {
+          "id": "zh-shijishang",
+          "form": "实际上 / 事实上",
+          "reading": "shíjìshang / shìshíshang",
+          "meaningVn": "trên thực tế",
+          "usage": "实际上，…",
+          "register": "trung tính",
+          "nuanceVn": "Trang trọng hơn 其实, nhấn vào sự thật khách quan.",
+          "examples": [
+            {
+              "sentence": "实际上，这个问题并不难。",
+              "translationVn": "Trên thực tế, vấn đề này không hề khó.",
+              "answer": "实际上"
+            },
+            {
+              "sentence": "事实上，他早就辞职了。",
+              "translationVn": "Thực tế là anh ấy đã nghỉ việc từ lâu.",
+              "answer": "事实上"
+            }
+          ],
+          "mnemonicVn": "实际上 THỰC TẾ THƯỢNG = \"trên thực tế\"."
+        }
+      ]
+    },
+    {
+      "id": "sequence",
+      "titleVn": "Trình tự — trước hết, sau đó, cuối cùng",
+      "icon": "🔢",
+      "entries": [
+        {
+          "id": "zh-shouxian",
+          "form": "首先",
+          "reading": "shǒuxiān",
+          "meaningVn": "trước tiên, đầu tiên",
+          "usage": "首先…，其次…，最后…",
+          "register": "trung tính",
+          "nuanceVn": "Mở đầu chuỗi liệt kê các bước/luận điểm.",
+          "examples": [
+            {
+              "sentence": "首先，我们要了解客户的需求。",
+              "translationVn": "Trước tiên, chúng ta phải hiểu nhu cầu khách hàng.",
+              "answer": "首先"
+            },
+            {
+              "sentence": "首先洗手，然后吃饭。",
+              "translationVn": "Đầu tiên rửa tay, sau đó ăn cơm.",
+              "answer": "首先"
+            }
+          ],
+          "mnemonicVn": "首先 THỦ TIÊN — 首 THỦ = đầu (thủ đô, thủ lĩnh)."
+        },
+        {
+          "id": "zh-qici",
+          "form": "其次",
+          "reading": "qícì",
+          "meaningVn": "thứ hai là, kế đến",
+          "usage": "首先…，其次…",
+          "register": "trung tính",
+          "nuanceVn": "Luận điểm/bước thứ hai sau 首先.",
+          "examples": [
+            {
+              "sentence": "首先价格要合理，其次质量要好。",
+              "translationVn": "Trước tiên giá phải hợp lý, kế đến chất lượng phải tốt.",
+              "answer": "其次"
+            },
+            {
+              "sentence": "其次，我们还要考虑时间。",
+              "translationVn": "Thứ hai là, chúng ta còn phải xét đến thời gian.",
+              "answer": "其次"
+            }
+          ],
+          "mnemonicVn": "其次 KỲ THỨ = \"cái thứ (hai) của nó\"."
+        },
+        {
+          "id": "zh-ranhou",
+          "form": "然后",
+          "reading": "ránhòu",
+          "meaningVn": "sau đó, rồi",
+          "usage": "先 A，然后 B",
+          "register": "trung tính",
+          "nuanceVn": "Từ \"sau đó\" thông dụng nhất; hay đi với 先.",
+          "examples": [
+            {
+              "sentence": "我们先吃饭，然后去看电影。",
+              "translationVn": "Chúng ta ăn cơm trước, sau đó đi xem phim.",
+              "answer": "然后"
+            },
+            {
+              "sentence": "他洗了澡，然后睡觉了。",
+              "translationVn": "Anh ấy tắm, rồi đi ngủ.",
+              "answer": "然后"
+            }
+          ],
+          "mnemonicVn": "然后 NHIÊN HẬU — 后 HẬU = sau."
+        },
+        {
+          "id": "zh-jiezhe",
+          "form": "接着",
+          "reading": "jiēzhe",
+          "meaningVn": "tiếp theo, kế tiếp",
+          "usage": "A，接着 B",
+          "register": "trung tính",
+          "nuanceVn": "Hành động B nối liền ngay sau A (liền mạch hơn 然后).",
+          "examples": [
+            {
+              "sentence": "他喝了口水，接着说下去。",
+              "translationVn": "Anh ấy uống ngụm nước rồi nói tiếp.",
+              "answer": "接着"
+            },
+            {
+              "sentence": "接着，我们参观了博物馆。",
+              "translationVn": "Tiếp theo, chúng tôi tham quan bảo tàng.",
+              "answer": "接着"
+            }
+          ],
+          "mnemonicVn": "接着 TIẾP TRƯỚC = nối TIẾP liền."
+        },
+        {
+          "id": "zh-zuihou",
+          "form": "最后",
+          "reading": "zuìhòu",
+          "meaningVn": "cuối cùng",
+          "usage": "…，最后…",
+          "register": "trung tính",
+          "nuanceVn": "Bước/ý cuối trong chuỗi; cũng là \"rốt cuộc\".",
+          "examples": [
+            {
+              "sentence": "最后，祝大家身体健康！",
+              "translationVn": "Cuối cùng, chúc mọi người mạnh khỏe!",
+              "answer": "最后"
+            },
+            {
+              "sentence": "我们讨论了很久，最后决定去海边。",
+              "translationVn": "Chúng tôi bàn rất lâu, cuối cùng quyết định đi biển.",
+              "answer": "最后"
+            }
+          ],
+          "mnemonicVn": "最后 TỐI HẬU = \"sau nhất\" (như tối hậu thư)."
+        },
+        {
+          "id": "zh-houlai",
+          "form": "后来",
+          "reading": "hòulái",
+          "meaningVn": "về sau, sau này (chuyện quá khứ)",
+          "usage": "A。后来，B",
+          "register": "trung tính",
+          "nuanceVn": "Chỉ dùng cho QUÁ KHỨ; tương lai dùng 以后.",
+          "examples": [
+            {
+              "sentence": "我们以前是同学，后来成了好朋友。",
+              "translationVn": "Trước đây chúng tôi là bạn học, về sau thành bạn thân.",
+              "answer": "后来"
+            },
+            {
+              "sentence": "后来他去了美国。",
+              "translationVn": "Sau này anh ấy đã đi Mỹ.",
+              "answer": "后来"
+            }
+          ],
+          "mnemonicVn": "后来 = quá khứ; 以后 = tương lai. \"LAI\" là đã tới rồi."
+        },
+        {
+          "id": "zh-tongshi",
+          "form": "同时",
+          "reading": "tóngshí",
+          "meaningVn": "đồng thời, cùng lúc",
+          "usage": "A，同时 B",
+          "register": "trung tính",
+          "nuanceVn": "Hai việc cùng lúc, hoặc thêm một khía cạnh song song.",
+          "examples": [
+            {
+              "sentence": "他在工作，同时还在读研究生。",
+              "translationVn": "Anh ấy đang đi làm, đồng thời còn học cao học.",
+              "answer": "同时"
+            },
+            {
+              "sentence": "这个方法简单，同时也很有效。",
+              "translationVn": "Cách này đơn giản, đồng thời cũng rất hiệu quả.",
+              "answer": "同时"
+            }
+          ],
+          "mnemonicVn": "同时 ĐỒNG THỜI — đọc thẳng Hán Việt."
+        },
+        {
+          "id": "zh-yibian",
+          "form": "一边…一边…",
+          "reading": "yìbiān … yìbiān …",
+          "meaningVn": "vừa… vừa… (hai hành động)",
+          "usage": "一边 V1，一边 V2",
+          "register": "trung tính",
+          "nuanceVn": "Hai HÀNH ĐỘNG cùng lúc; hai TÍNH CHẤT thì dùng 又…又…",
+          "examples": [
+            {
+              "sentence": "他一边吃饭，一边看手机。",
+              "translationVn": "Anh ấy vừa ăn cơm vừa xem điện thoại.",
+              "answer": "一边"
+            },
+            {
+              "sentence": "我们一边走一边聊。",
+              "translationVn": "Chúng tôi vừa đi vừa trò chuyện.",
+              "answer": "一边"
+            }
+          ],
+          "mnemonicVn": "一边 NHẤT BIÊN = \"một bên… một bên…\" — tay này tay kia."
+        },
+        {
+          "id": "zh-yijiu",
+          "form": "一…就…",
+          "reading": "yī … jiù …",
+          "meaningVn": "hễ… là… / vừa… là…",
+          "usage": "S 一 A 就 B",
+          "register": "trung tính",
+          "nuanceVn": "B xảy ra NGAY sau A, hoặc hễ A là B (thói quen).",
+          "examples": [
+            {
+              "sentence": "我一到家就给你打电话。",
+              "translationVn": "Tôi vừa về đến nhà là gọi cho bạn.",
+              "answer": "一"
+            },
+            {
+              "sentence": "他一喝酒就脸红。",
+              "translationVn": "Anh ấy hễ uống rượu là đỏ mặt.",
+              "answer": "就"
+            }
+          ],
+          "mnemonicVn": "\"Một (cái) là (xong)\" — 一 vừa chạm, 就 lập tức."
+        }
+      ]
+    },
+    {
+      "id": "purpose",
+      "titleVn": "Mục đích — để, nhằm, để khỏi",
+      "icon": "🎯",
+      "entries": [
+        {
+          "id": "zh-weile",
+          "form": "为了",
+          "reading": "wèile",
+          "meaningVn": "để, vì (mục đích)",
+          "usage": "为了 A，S + V / S + V 是为了 A",
+          "register": "trung tính",
+          "nuanceVn": "Nêu MỤC ĐÍCH; 为了 đứng đầu câu. Nguyên nhân thì dùng 因为.",
+          "examples": [
+            {
+              "sentence": "为了学好中文，他每天练习。",
+              "translationVn": "Để học giỏi tiếng Trung, ngày nào anh ấy cũng luyện tập.",
+              "answer": "为了"
+            },
+            {
+              "sentence": "我来中国是为了工作。",
+              "translationVn": "Tôi đến Trung Quốc là để làm việc.",
+              "answer": "为了"
+            }
+          ],
+          "mnemonicVn": "为了 VỊ LIỄU — 为 VỊ = vì (mục đích), như \"vị quốc vong thân\"."
+        },
+        {
+          "id": "zh-yibian2",
+          "form": "以便",
+          "reading": "yǐbiàn",
+          "meaningVn": "để tiện, để có thể",
+          "usage": "A，以便 B",
+          "register": "văn viết",
+          "nuanceVn": "Vế sau là mục đích làm cho B dễ thực hiện.",
+          "examples": [
+            {
+              "sentence": "请留下电话，以便我们联系您。",
+              "translationVn": "Xin để lại số điện thoại để chúng tôi tiện liên hệ.",
+              "answer": "以便"
+            },
+            {
+              "sentence": "提前出发，以便按时到达。",
+              "translationVn": "Xuất phát sớm để có thể đến đúng giờ.",
+              "answer": "以便"
+            }
+          ],
+          "mnemonicVn": "以便 DĨ TIỆN = \"lấy (đó) cho tiện\"."
+        },
+        {
+          "id": "zh-yimian",
+          "form": "以免 / 免得",
+          "reading": "yǐmiǎn / miǎnde",
+          "meaningVn": "để tránh, kẻo",
+          "usage": "A，以免 B (điều không muốn)",
+          "register": "以免: văn viết · 免得: khẩu ngữ",
+          "nuanceVn": "Vế sau là điều MUỐN TRÁNH.",
+          "examples": [
+            {
+              "sentence": "路上小心，以免发生事故。",
+              "translationVn": "Đi đường cẩn thận để tránh xảy ra tai nạn.",
+              "answer": "以免"
+            },
+            {
+              "sentence": "多带件衣服，免得着凉。",
+              "translationVn": "Mang thêm áo kẻo bị lạnh.",
+              "answer": "免得"
+            }
+          ],
+          "mnemonicVn": "以免 DĨ MIỄN = \"để miễn (khỏi)\" → tránh."
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "titleVn": "Tổng kết — tóm lại, dù sao, rốt cuộc",
+      "icon": "📌",
+      "entries": [
+        {
+          "id": "zh-zongzhi",
+          "form": "总之",
+          "reading": "zǒngzhī",
+          "meaningVn": "tóm lại",
+          "usage": "总之，…",
+          "register": "trung tính",
+          "nuanceVn": "Kết luận lại toàn bộ ý.",
+          "examples": [
+            {
+              "sentence": "总之，我们一定要按时完成。",
+              "translationVn": "Tóm lại, chúng ta nhất định phải hoàn thành đúng hạn.",
+              "answer": "总之"
+            },
+            {
+              "sentence": "总之，这次旅行很愉快。",
+              "translationVn": "Tóm lại, chuyến đi lần này rất vui.",
+              "answer": "总之"
+            }
+          ],
+          "mnemonicVn": "总之 TỔNG CHI = \"tổng lại\"."
+        },
+        {
+          "id": "zh-zongeryanzhi",
+          "form": "总而言之",
+          "reading": "zǒng ér yán zhī",
+          "meaningVn": "nói tóm lại",
+          "usage": "总而言之，…",
+          "register": "văn viết",
+          "nuanceVn": "Trang trọng hơn 总之, hay dùng cuối bài phát biểu/bài luận.",
+          "examples": [
+            {
+              "sentence": "总而言之，健康最重要。",
+              "translationVn": "Nói tóm lại, sức khỏe là quan trọng nhất.",
+              "answer": "总而言之"
+            },
+            {
+              "sentence": "总而言之，这是一个好机会。",
+              "translationVn": "Nói tóm lại, đây là một cơ hội tốt.",
+              "answer": "总而言之"
+            }
+          ],
+          "mnemonicVn": "总而言之 TỔNG NHI NGÔN CHI = \"tổng lại mà nói\"."
+        },
+        {
+          "id": "zh-zongdelaishuo",
+          "form": "总的来说",
+          "reading": "zǒngde lái shuō",
+          "meaningVn": "nhìn chung, nói chung",
+          "usage": "总的来说，…",
+          "register": "trung tính",
+          "nuanceVn": "Đánh giá tổng quát (có thể có ngoại lệ nhỏ).",
+          "examples": [
+            {
+              "sentence": "总的来说，这次考试不太难。",
+              "translationVn": "Nhìn chung, kỳ thi lần này không khó lắm.",
+              "answer": "总的来说"
+            },
+            {
+              "sentence": "总的来说，我对结果很满意。",
+              "translationVn": "Nói chung, tôi rất hài lòng với kết quả.",
+              "answer": "总的来说"
+            }
+          ],
+          "mnemonicVn": "\"Cái tổng (quát) mà nói\" → nhìn chung."
+        },
+        {
+          "id": "zh-bijing",
+          "form": "毕竟",
+          "reading": "bìjìng",
+          "meaningVn": "dù sao thì, rốt cuộc thì",
+          "usage": "…，毕竟 A",
+          "register": "trung tính",
+          "nuanceVn": "Nêu sự thật căn bản để giải thích/biện minh: 毕竟他还是孩子 (dù sao nó vẫn là trẻ con).",
+          "examples": [
+            {
+              "sentence": "别怪他了，毕竟他还是个孩子。",
+              "translationVn": "Đừng trách nó nữa, dù sao nó vẫn là trẻ con.",
+              "answer": "毕竟"
+            },
+            {
+              "sentence": "毕竟是第一次，紧张很正常。",
+              "translationVn": "Dù sao cũng là lần đầu, căng thẳng là bình thường.",
+              "answer": "毕竟"
+            }
+          ],
+          "mnemonicVn": "毕竟 TẤT CÁNH = \"rốt cuộc, cuối cùng thì\"."
+        },
+        {
+          "id": "zh-fanzheng",
+          "form": "反正",
+          "reading": "fǎnzhèng",
+          "meaningVn": "đằng nào cũng, dù sao",
+          "usage": "反正 + S + V",
+          "register": "khẩu ngữ",
+          "nuanceVn": "Kết quả không đổi trong mọi trường hợp — thường để thúc/khuyên.",
+          "examples": [
+            {
+              "sentence": "反正没事，我们出去走走吧。",
+              "translationVn": "Đằng nào cũng rảnh, mình ra ngoài đi dạo đi.",
+              "answer": "反正"
+            },
+            {
+              "sentence": "你去不去都行，反正我要去。",
+              "translationVn": "Bạn đi hay không cũng được, dù sao tôi cũng đi.",
+              "answer": "反正"
+            }
+          ],
+          "mnemonicVn": "反正 PHẢN CHÍNH = \"trái (phản) hay phải (chính) gì cũng vậy\"."
+        }
+      ]
+    },
+    {
+      "id": "progression",
+      "titleVn": "Tăng tiến — không những, thậm chí, càng…càng",
+      "icon": "📈",
+      "entries": [
+        {
+          "id": "zh-budan",
+          "form": "不但…而且…",
+          "reading": "búdàn … érqiě …",
+          "meaningVn": "không những… mà còn…",
+          "usage": "S 不但 A，而且 B",
+          "register": "trung tính",
+          "nuanceVn": "Cùng chủ ngữ thì 不但 đứng SAU chủ ngữ.",
+          "examples": [
+            {
+              "sentence": "她不但漂亮，而且很聪明。",
+              "translationVn": "Cô ấy không những xinh đẹp mà còn rất thông minh.",
+              "answer": "不但"
+            },
+            {
+              "sentence": "这里不但风景好，而且空气新鲜。",
+              "translationVn": "Ở đây không những phong cảnh đẹp mà không khí còn trong lành.",
+              "answer": "而且"
+            }
+          ],
+          "mnemonicVn": "不但 BẤT ĐÃN = \"không chỉ\"."
+        },
+        {
+          "id": "zh-bujin",
+          "form": "不仅…还/也…",
+          "reading": "bùjǐn … hái/yě …",
+          "meaningVn": "không chỉ… mà còn…",
+          "usage": "不仅 A，还/也/而且 B",
+          "register": "văn viết",
+          "nuanceVn": "Giống 不但, trang trọng hơn.",
+          "examples": [
+            {
+              "sentence": "他不仅会做饭，还会做蛋糕。",
+              "translationVn": "Anh ấy không chỉ biết nấu cơm mà còn biết làm bánh.",
+              "answer": "不仅"
+            },
+            {
+              "sentence": "运动不仅对身体好，也对心情好。",
+              "translationVn": "Thể thao không chỉ tốt cho cơ thể mà còn tốt cho tâm trạng.",
+              "answer": "不仅"
+            }
+          ],
+          "mnemonicVn": "不仅 BẤT CẨN (仅 cẩn = chỉ) → \"không chỉ\"."
+        },
+        {
+          "id": "zh-shenzhi",
+          "form": "甚至",
+          "reading": "shènzhì",
+          "meaningVn": "thậm chí",
+          "usage": "…，甚至…",
+          "register": "trung tính",
+          "nuanceVn": "Đưa ra ví dụ cực điểm nhất.",
+          "examples": [
+            {
+              "sentence": "他忙得甚至没时间吃饭。",
+              "translationVn": "Anh ấy bận đến mức thậm chí không có thời gian ăn cơm.",
+              "answer": "甚至"
+            },
+            {
+              "sentence": "这个问题连老师甚至都不知道。",
+              "translationVn": "Câu hỏi này thậm chí giáo viên cũng không biết.",
+              "answer": "甚至"
+            }
+          ],
+          "mnemonicVn": "甚至 THẬM CHÍ — đọc thẳng y hệt tiếng Việt!"
+        },
+        {
+          "id": "zh-hekuang",
+          "form": "何况",
+          "reading": "hékuàng",
+          "meaningVn": "huống chi, huống hồ",
+          "usage": "A 都…，何况 B 呢？",
+          "register": "trung tính",
+          "nuanceVn": "Trường hợp khó còn được/không được, huống chi trường hợp dễ/khó hơn.",
+          "examples": [
+            {
+              "sentence": "大人都觉得难，何况孩子呢？",
+              "translationVn": "Người lớn còn thấy khó, huống chi trẻ con?",
+              "answer": "何况"
+            },
+            {
+              "sentence": "走路都来得及，何况坐车呢？",
+              "translationVn": "Đi bộ còn kịp, huống hồ đi xe?",
+              "answer": "何况"
+            }
+          ],
+          "mnemonicVn": "何况 HÀ HUỐNG = \"huống hà\" → huống chi."
+        },
+        {
+          "id": "zh-yuelaiyue",
+          "form": "越…越…",
+          "reading": "yuè … yuè …",
+          "meaningVn": "càng… càng…",
+          "usage": "越 A 越 B / 越来越 + Adj",
+          "register": "trung tính",
+          "nuanceVn": "B thay đổi theo A; 越来越 = ngày càng.",
+          "examples": [
+            {
+              "sentence": "雨越下越大。",
+              "translationVn": "Mưa càng lúc càng to.",
+              "answer": "越"
+            },
+            {
+              "sentence": "天气越来越冷了。",
+              "translationVn": "Thời tiết ngày càng lạnh.",
+              "answer": "越来越"
+            }
+          ],
+          "mnemonicVn": "越 VIỆT = vượt qua → càng vượt lên."
+        },
+        {
+          "id": "zh-jiyou",
+          "form": "既…又…",
+          "reading": "jì … yòu …",
+          "meaningVn": "vừa… vừa… (hai tính chất)",
+          "usage": "既 Adj1 又 Adj2",
+          "register": "trung tính",
+          "nuanceVn": "Hai tính chất cùng có; \"又…又…\" cũng được, khẩu ngữ hơn.",
+          "examples": [
+            {
+              "sentence": "这道菜既好吃又便宜。",
+              "translationVn": "Món này vừa ngon vừa rẻ.",
+              "answer": "既"
+            },
+            {
+              "sentence": "她又聪明又努力。",
+              "translationVn": "Cô ấy vừa thông minh vừa chăm chỉ.",
+              "answer": "又"
+            }
+          ],
+          "mnemonicVn": "Tính chất → 既/又…又; hành động cùng lúc → 一边…一边."
+        },
+        {
+          "id": "zh-bushi-ershi",
+          "form": "不是…而是…",
+          "reading": "búshì … érshì …",
+          "meaningVn": "không phải… mà là…",
+          "usage": "不是 A，而是 B",
+          "register": "trung tính",
+          "nuanceVn": "Phủ định A để khẳng định B (đính chính).",
+          "examples": [
+            {
+              "sentence": "他不是不想来，而是没有时间。",
+              "translationVn": "Anh ấy không phải không muốn đến, mà là không có thời gian.",
+              "answer": "而是"
+            },
+            {
+              "sentence": "这不是我的错，而是系统的问题。",
+              "translationVn": "Đây không phải lỗi của tôi, mà là vấn đề của hệ thống.",
+              "answer": "而是"
+            }
+          ],
+          "mnemonicVn": "而是 NHI THỊ = \"mà là\"."
+        }
+      ]
+    },
+    {
+      "id": "transition",
+      "titleVn": "Chuyển ý — còn về, nhân tiện, thì ra",
+      "icon": "🔄",
+      "entries": [
+        {
+          "id": "zh-zhiyu",
+          "form": "至于",
+          "reading": "zhìyú",
+          "meaningVn": "còn về, đến như",
+          "usage": "…。至于 A，…",
+          "register": "trung tính",
+          "nuanceVn": "Chuyển sang một chủ đề liên quan.",
+          "examples": [
+            {
+              "sentence": "我负责准备资料，至于开会时间，你来定。",
+              "translationVn": "Tôi lo chuẩn bị tài liệu, còn về thời gian họp thì bạn quyết.",
+              "answer": "至于"
+            },
+            {
+              "sentence": "至于他来不来，我不知道。",
+              "translationVn": "Còn về việc anh ấy có đến không thì tôi không biết.",
+              "answer": "至于"
+            }
+          ],
+          "mnemonicVn": "至于 CHÍ VU = \"đến (chỗ) …\" → còn về."
+        },
+        {
+          "id": "zh-guanyu",
+          "form": "关于",
+          "reading": "guānyú",
+          "meaningVn": "về (vấn đề)",
+          "usage": "关于 + N，…",
+          "register": "trung tính",
+          "nuanceVn": "Nêu chủ đề: 关于这个问题 (về vấn đề này).",
+          "examples": [
+            {
+              "sentence": "关于这个问题，我们明天再讨论。",
+              "translationVn": "Về vấn đề này, ngày mai chúng ta bàn tiếp.",
+              "answer": "关于"
+            },
+            {
+              "sentence": "这是一本关于中国历史的书。",
+              "translationVn": "Đây là một cuốn sách về lịch sử Trung Quốc.",
+              "answer": "关于"
+            }
+          ],
+          "mnemonicVn": "关于 QUAN VU = \"liên quan đến\"."
+        },
+        {
+          "id": "zh-duile",
+          "form": "对了",
+          "reading": "duì le",
+          "meaningVn": "à này, à phải rồi (chợt nhớ)",
+          "usage": "对了，…",
+          "register": "khẩu ngữ",
+          "nuanceVn": "Chuyển chủ đề khi chợt nhớ ra điều gì.",
+          "examples": [
+            {
+              "sentence": "对了，你明天有空吗？",
+              "translationVn": "À này, mai bạn có rảnh không?",
+              "answer": "对了"
+            },
+            {
+              "sentence": "对了，我忘了告诉你一件事。",
+              "translationVn": "À phải rồi, tôi quên nói với bạn một chuyện.",
+              "answer": "对了"
+            }
+          ],
+          "mnemonicVn": "对了 = \"đúng rồi!\" — vỗ trán chợt nhớ."
+        },
+        {
+          "id": "zh-shunbian",
+          "form": "顺便",
+          "reading": "shùnbiàn",
+          "meaningVn": "tiện thể, nhân tiện",
+          "usage": "顺便 + V",
+          "register": "khẩu ngữ",
+          "nuanceVn": "Làm việc B nhân lúc làm việc A.",
+          "examples": [
+            {
+              "sentence": "你去超市的时候，顺便帮我买瓶水。",
+              "translationVn": "Lúc bạn đi siêu thị, tiện thể mua giúp tôi chai nước.",
+              "answer": "顺便"
+            },
+            {
+              "sentence": "顺便问一下，洗手间在哪儿？",
+              "translationVn": "Nhân tiện hỏi một chút, nhà vệ sinh ở đâu?",
+              "answer": "顺便"
+            }
+          ],
+          "mnemonicVn": "顺便 THUẬN TIỆN — đọc thẳng: thuận tiện thì làm luôn."
+        },
+        {
+          "id": "zh-yuanlai",
+          "form": "原来",
+          "reading": "yuánlái",
+          "meaningVn": "hóa ra, thì ra",
+          "usage": "原来 + (sự thật vừa phát hiện)",
+          "register": "trung tính",
+          "nuanceVn": "Phát hiện ra sự thật; còn nghĩa \"ban đầu, vốn dĩ\".",
+          "examples": [
+            {
+              "sentence": "原来是你啊！",
+              "translationVn": "Hóa ra là bạn à!",
+              "answer": "原来"
+            },
+            {
+              "sentence": "我以为他是老师，原来他是医生。",
+              "translationVn": "Tôi tưởng anh ấy là giáo viên, hóa ra anh ấy là bác sĩ.",
+              "answer": "原来"
+            }
+          ],
+          "mnemonicVn": "原来 NGUYÊN LAI = \"nguyên là (từ đầu đã thế)\" → thì ra."
+        },
+        {
+          "id": "zh-nanguai",
+          "form": "难怪 / 怪不得",
+          "reading": "nánguài / guàibude",
+          "meaningVn": "thảo nào, hèn chi",
+          "usage": "难怪 + kết quả (đã biết nguyên nhân)",
+          "register": "khẩu ngữ",
+          "nuanceVn": "Vừa biết nguyên nhân → hiểu ra kết quả.",
+          "examples": [
+            {
+              "sentence": "他在中国住了十年，难怪中文这么好。",
+              "translationVn": "Anh ấy sống ở Trung Quốc mười năm, thảo nào tiếng Trung giỏi thế.",
+              "answer": "难怪"
+            },
+            {
+              "sentence": "怪不得这么冷，原来下雪了。",
+              "translationVn": "Hèn chi lạnh thế, thì ra tuyết rơi.",
+              "answer": "怪不得"
+            }
+          ],
+          "mnemonicVn": "难怪 NAN QUÁI = \"khó mà lấy làm lạ\" → thảo nào."
+        },
+        {
+          "id": "zh-xingkui",
+          "form": "幸亏 / 好在",
+          "reading": "xìngkuī / hǎozài",
+          "meaningVn": "may mà, may là",
+          "usage": "幸亏 A，(不然 B)",
+          "register": "trung tính",
+          "nuanceVn": "Nhờ A mà tránh được điều xấu B.",
+          "examples": [
+            {
+              "sentence": "幸亏你提醒我，不然我就忘了。",
+              "translationVn": "May mà bạn nhắc tôi, không thì tôi quên mất.",
+              "answer": "幸亏"
+            },
+            {
+              "sentence": "好在雨不大，我们没淋湿。",
+              "translationVn": "May là mưa không to, chúng tôi không bị ướt.",
+              "answer": "好在"
+            }
+          ],
+          "mnemonicVn": "幸亏 HẠNH KHUY — 幸 HẠNH = may (hạnh phúc, hạnh vận)."
+        },
+        {
+          "id": "zh-dangran",
+          "form": "当然",
+          "reading": "dāngrán",
+          "meaningVn": "đương nhiên, tất nhiên",
+          "usage": "当然 + …",
+          "register": "trung tính",
+          "nuanceVn": "Khẳng định hiển nhiên; còn dùng để thừa nhận rồi bổ sung: 当然，也有例外.",
+          "examples": [
+            {
+              "sentence": "你会来吗？——当然会！",
+              "translationVn": "Bạn sẽ đến chứ? — Đương nhiên rồi!",
+              "answer": "当然"
+            },
+            {
+              "sentence": "当然，这只是我的看法。",
+              "translationVn": "Tất nhiên, đây chỉ là quan điểm của tôi.",
+              "answer": "当然"
+            }
+          ],
+          "mnemonicVn": "当然 ĐƯƠNG NHIÊN — đọc thẳng y hệt."
+        }
+      ]
+    }
+  ],
+  "confusions": [
+    {
+      "id": "zh-cf-or",
+      "titleVn": "或者 vs 还是 — \"hoặc\" hay \"hay là\"?",
+      "entryIds": [
+        "zh-huozhe",
+        "zh-haishi"
+      ],
+      "explanationVn": "Câu KỂ → 或者 (你明天或者后天来都行). Câu HỎI lựa chọn → 还是 (你喝茶还是喝咖啡？). Sau 不知道/不管/无论 cũng dùng 还是."
+    },
+    {
+      "id": "zh-cf-only",
+      "titleVn": "只要…就 vs 只有…才",
+      "entryIds": [
+        "zh-zhiyao",
+        "zh-zhiyou"
+      ],
+      "explanationVn": "只要…就 = chỉ CẦN (điều kiện đủ, dễ): 只要努力就能进步. 只有…才 = chỉ CÓ… MỚI (điều kiện bắt buộc, khó): 只有努力才能成功. Đừng ghép chéo 只要…才 / 只有…就."
+    },
+    {
+      "id": "zh-cf-but",
+      "titleVn": "但是 / 可是 / 不过 / 然而 / 却",
+      "entryIds": [
+        "zh-danshi",
+        "zh-keshi",
+        "zh-buguo",
+        "zh-raner",
+        "zh-que"
+      ],
+      "explanationVn": "但是: chuẩn mực. 可是: khẩu ngữ, giọng tiếc nuối. 不过: nhẹ, \"có điều\". 然而: văn viết. 却: PHÓ TỪ, đứng sau chủ ngữ (他却不来), có thể đi cùng 但是."
+    },
+    {
+      "id": "zh-cf-although",
+      "titleVn": "虽然 vs 即使 vs 尽管",
+      "entryIds": [
+        "zh-suiran",
+        "zh-jishi",
+        "zh-jinguan",
+        "zh-napa"
+      ],
+      "explanationVn": "虽然/尽管 + SỰ THẬT (đã xảy ra) … 但是. 即使/哪怕 + GIẢ ĐỊNH (chưa chắc xảy ra) … 也."
+    },
+    {
+      "id": "zh-cf-because",
+      "titleVn": "因为 / 由于 / 既然",
+      "entryIds": [
+        "zh-yinwei",
+        "zh-youyu",
+        "zh-jiran"
+      ],
+      "explanationVn": "因为: thường ngày, đi với 所以. 由于: văn viết, đi với 因此. 既然: lý do người nghe ĐÃ BIẾT, vế sau là đề nghị/kết luận với 就."
+    },
+    {
+      "id": "zh-cf-so",
+      "titleVn": "所以 / 因此 / 于是 / 结果",
+      "entryIds": [
+        "zh-suoyi",
+        "zh-yinci",
+        "zh-yushi",
+        "zh-jieguo"
+      ],
+      "explanationVn": "所以: khẩu ngữ. 因此: văn viết. 于是: KỂ CHUYỆN, hành động nối tiếp (他饿了，于是去吃饭). 结果: kết cục (thường ngoài ý muốn)."
+    },
+    {
+      "id": "zh-cf-and",
+      "titleVn": "和 vs 而且 / 并且 / 还",
+      "entryIds": [
+        "zh-he",
+        "zh-erqie",
+        "zh-bingqie",
+        "zh-hai"
+      ],
+      "explanationVn": "和 CHỈ nối danh từ. Nối động từ/câu: 而且 (thêm ý mạnh hơn), 并且 (hai hành động song song, trang trọng), 还 (đặt trước động từ thứ hai)."
+    },
+    {
+      "id": "zh-cf-later",
+      "titleVn": "后来 vs 以后 vs 然后",
+      "entryIds": [
+        "zh-houlai",
+        "zh-ranhou",
+        "zh-jiezhe"
+      ],
+      "explanationVn": "后来: chỉ QUÁ KHỨ, đứng một mình (后来他走了). 以后: quá khứ lẫn tương lai, có thể đi sau mốc (三天以后). 然后: bước tiếp theo trong chuỗi hành động."
+    },
+    {
+      "id": "zh-cf-prefer",
+      "titleVn": "与其…不如 vs 宁可…也不",
+      "entryIds": [
+        "zh-yuqi-buru",
+        "zh-ningke"
+      ],
+      "explanationVn": "与其 A 不如 B → chọn B (vế SAU). 宁可 A 也不 B → chọn A (vế ĐẦU), dù A thiệt thòi."
+    },
+    {
+      "id": "zh-cf-otherwise",
+      "titleVn": "否则 vs 不然 / 要不然",
+      "entryIds": [
+        "zh-fouze",
+        "zh-buran"
+      ],
+      "explanationVn": "Cùng nghĩa \"nếu không thì\". 否则: văn viết. 不然/要不然: khẩu ngữ; 要不 còn dùng để gợi ý (要不我们走吧)."
+    },
+    {
+      "id": "zh-cf-example",
+      "titleVn": "比如 / 例如 / 譬如 / 像",
+      "entryIds": [
+        "zh-biru",
+        "zh-liru",
+        "zh-piru",
+        "zh-xiang"
+      ],
+      "explanationVn": "比如: khẩu ngữ. 例如: văn viết, liệt kê. 譬如: văn viết, ví von. 像: \"như là\", đứng trước danh từ (像苹果、香蕉…)."
+    },
+    {
+      "id": "zh-cf-both",
+      "titleVn": "一边…一边 vs 既…又",
+      "entryIds": [
+        "zh-yibian",
+        "zh-jiyou"
+      ],
+      "explanationVn": "一边…一边: hai HÀNH ĐỘNG cùng lúc (一边吃饭一边看电视). 既…又: hai TÍNH CHẤT cùng có (既便宜又好吃)."
+    },
+    {
+      "id": "zh-cf-purpose",
+      "titleVn": "为了 / 以便 / 以免",
+      "entryIds": [
+        "zh-weile",
+        "zh-yibian2",
+        "zh-yimian"
+      ],
+      "explanationVn": "为了 + mục đích đứng ĐẦU câu. 以便 + mục đích ở vế SAU (để tiện…). 以免/免得 = để TRÁNH điều xấu."
+    },
+    {
+      "id": "zh-cf-anyway",
+      "titleVn": "总之 / 反正 / 毕竟",
+      "entryIds": [
+        "zh-zongzhi",
+        "zh-fanzheng",
+        "zh-bijing"
+      ],
+      "explanationVn": "总之: tổng kết. 反正: \"dù sao thì\" — kết quả không đổi dù điều kiện thế nào. 毕竟: \"xét cho cùng\" — nêu lý do cốt lõi để thông cảm."
+    },
+    {
+      "id": "zh-cf-even",
+      "titleVn": "不但…而且 / 甚至 / 何况",
+      "entryIds": [
+        "zh-budan",
+        "zh-bujin",
+        "zh-shenzhi",
+        "zh-hekuang"
+      ],
+      "explanationVn": "不但/不仅…而且: thêm ý ngang hoặc mạnh hơn. 甚至: đẩy tới mức cực đoan. 何况: câu hỏi tu từ \"huống chi\" (cái khó còn làm được, huống chi cái dễ)."
+    }
+  ]
+}
