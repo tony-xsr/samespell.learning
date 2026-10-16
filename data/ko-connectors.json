@@ -1,0 +1,2106 @@
+{
+  "language": "ko",
+  "categories": [
+    {
+      "id": "add",
+      "titleVn": "Thêm ý — và, cũng, ngoài ra, hơn nữa",
+      "icon": "➕",
+      "entries": [
+        {
+          "id": "ko-geurigo",
+          "form": "그리고",
+          "reading": "geurigo",
+          "meaningVn": "và, rồi (nối hai câu)",
+          "usage": "Câu A. 그리고 câu B.",
+          "register": "trung tính",
+          "nuanceVn": "Đứng đầu câu thứ hai để nối hai câu độc lập. Trong một câu thì dùng đuôi -고.",
+          "examples": [
+            {
+              "sentence": "저는 밥을 먹었어요. 그리고 커피를 마셨어요.",
+              "translationVn": "Tôi đã ăn cơm. Và (rồi) uống cà phê.",
+              "answer": "그리고"
+            },
+            {
+              "sentence": "이 식당은 싸요. 그리고 맛있어요.",
+              "translationVn": "Quán này rẻ. Và ngon nữa.",
+              "answer": "그리고"
+            }
+          ],
+          "mnemonicVn": "그리고 = 그 (đó) + 리 + 고 (và) → \"và thêm cái đó\". Trong câu: -고 (먹고 마셨어요)."
+        },
+        {
+          "id": "ko-go",
+          "form": "-고",
+          "reading": "-go",
+          "meaningVn": "và, rồi (đuôi nối)",
+          "usage": "V/A-고 + vế sau",
+          "register": "trung tính",
+          "nuanceVn": "Gắn vào thân động/tính từ để nối hai vế; liệt kê hoặc trình tự.",
+          "examples": [
+            {
+              "sentence": "저는 샤워하고 잤어요.",
+              "translationVn": "Tôi tắm rồi đi ngủ.",
+              "answer": "고"
+            },
+            {
+              "sentence": "그 사람은 친절하고 똑똑해요.",
+              "translationVn": "Người đó tốt bụng và thông minh.",
+              "answer": "하고"
+            }
+          ],
+          "mnemonicVn": "-고 ngắn gọn như dấu \"+\" giữa hai vế."
+        },
+        {
+          "id": "ko-ttohan",
+          "form": "또한",
+          "reading": "ttohan",
+          "meaningVn": "cũng, ngoài ra, hơn nữa (văn viết)",
+          "usage": "또한, … / S도 또한…",
+          "register": "văn viết",
+          "nuanceVn": "Trang trọng hơn 그리고/또; hay dùng trong bài viết, phát biểu.",
+          "examples": [
+            {
+              "sentence": "운동은 건강에 좋습니다. 또한 스트레스를 줄여 줍니다.",
+              "translationVn": "Thể thao tốt cho sức khỏe. Ngoài ra còn giảm căng thẳng.",
+              "answer": "또한"
+            },
+            {
+              "sentence": "저 또한 같은 생각입니다.",
+              "translationVn": "Tôi cũng cùng suy nghĩ.",
+              "answer": "또한"
+            }
+          ],
+          "mnemonicVn": "또 (lại, nữa) + 한 → \"lại thêm một\"."
+        },
+        {
+          "id": "ko-tto",
+          "form": "또",
+          "reading": "tto",
+          "meaningVn": "lại, còn, nữa",
+          "usage": "또 + V",
+          "register": "khẩu ngữ",
+          "nuanceVn": "Thêm việc / lặp lại việc: 또 와요 (lại đến nữa).",
+          "examples": [
+            {
+              "sentence": "사과를 샀어요. 또 바나나도 샀어요.",
+              "translationVn": "Tôi mua táo. Còn mua cả chuối nữa.",
+              "answer": "또"
+            },
+            {
+              "sentence": "또 늦었어요?",
+              "translationVn": "Lại đến muộn à?",
+              "answer": "또"
+            }
+          ],
+          "mnemonicVn": "또 = \"toát ra lần nữa\" — một âm tiết ngắn như \"lại\"."
+        },
+        {
+          "id": "ko-gedaga",
+          "form": "게다가",
+          "reading": "gedaga",
+          "meaningVn": "hơn nữa, thêm vào đó",
+          "usage": "A. 게다가 B.",
+          "register": "khẩu ngữ",
+          "nuanceVn": "Thêm một ý cùng chiều, thường làm tình hình \"tệ hơn/tốt hơn nữa\".",
+          "examples": [
+            {
+              "sentence": "길이 막혔어요. 게다가 비까지 왔어요.",
+              "translationVn": "Đường tắc. Hơn nữa còn mưa nữa.",
+              "answer": "게다가"
+            },
+            {
+              "sentence": "그 집은 넓어요. 게다가 역에서 가까워요.",
+              "translationVn": "Căn nhà đó rộng. Thêm vào đó còn gần ga.",
+              "answer": "게다가"
+            }
+          ],
+          "mnemonicVn": "게다가 = 거기에다가 (ngay chỗ đó lại đặt thêm) → chồng thêm."
+        },
+        {
+          "id": "ko-deoguna",
+          "form": "더구나",
+          "reading": "deoguna",
+          "meaningVn": "hơn nữa, huống hồ",
+          "usage": "A. 더구나 B.",
+          "register": "trung tính",
+          "nuanceVn": "Giống 게다가, thêm lý do mạnh hơn.",
+          "examples": [
+            {
+              "sentence": "너무 늦었어요. 더구나 내일 시험이 있어요.",
+              "translationVn": "Muộn quá rồi. Hơn nữa mai còn có bài thi.",
+              "answer": "더구나"
+            },
+            {
+              "sentence": "그는 성실하다. 더구나 실력도 좋다.",
+              "translationVn": "Anh ấy chăm chỉ. Hơn nữa thực lực cũng tốt.",
+              "answer": "더구나"
+            }
+          ],
+          "mnemonicVn": "더 (thêm) + 구나 → \"thêm nữa đấy!\"."
+        },
+        {
+          "id": "ko-ppunmananira",
+          "form": "뿐만 아니라",
+          "reading": "ppunman anira",
+          "meaningVn": "không chỉ… mà còn",
+          "usage": "N뿐만 아니라 / V-(으)ㄹ 뿐만 아니라",
+          "register": "trung tính",
+          "nuanceVn": "Tương đương 不但…而且.",
+          "examples": [
+            {
+              "sentence": "그녀는 예쁠 뿐만 아니라 착해요.",
+              "translationVn": "Cô ấy không chỉ xinh mà còn hiền.",
+              "answer": "뿐만 아니라"
+            },
+            {
+              "sentence": "한국어뿐만 아니라 일본어도 할 줄 알아요.",
+              "translationVn": "Không chỉ tiếng Hàn mà tôi còn biết tiếng Nhật.",
+              "answer": "뿐만 아니라"
+            }
+          ],
+          "mnemonicVn": "뿐 (chỉ) + 만 + 아니라 (không phải) → \"không phải chỉ\"."
+        },
+        {
+          "id": "ko-mit",
+          "form": "및",
+          "reading": "mit",
+          "meaningVn": "và, cùng với (văn bản)",
+          "usage": "N 및 N",
+          "register": "văn viết",
+          "nuanceVn": "Chỉ dùng trong văn bản hành chính, biển báo, tiêu đề.",
+          "examples": [
+            {
+              "sentence": "신청 및 문의는 사무실로 하세요.",
+              "translationVn": "Đăng ký và thắc mắc xin liên hệ văn phòng.",
+              "answer": "및"
+            },
+            {
+              "sentence": "교육 및 훈련 프로그램",
+              "translationVn": "Chương trình giáo dục và đào tạo",
+              "answer": "및"
+            }
+          ],
+          "mnemonicVn": "및 — từ \"và\" trên giấy tờ, giống 及 cập / 与 dữ của tiếng Trung."
+        }
+      ]
+    },
+    {
+      "id": "choice",
+      "titleVn": "Lựa chọn — hoặc, hay là, thà",
+      "icon": "🔀",
+      "entries": [
+        {
+          "id": "ko-ttoneun",
+          "form": "또는",
+          "reading": "ttoneun",
+          "meaningVn": "hoặc (văn viết / trung tính)",
+          "usage": "N 또는 N",
+          "register": "trung tính",
+          "nuanceVn": "Nối danh từ, câu kể. Câu hỏi lựa chọn thì dùng 아니면 / -아요 아니면 -아요?",
+          "examples": [
+            {
+              "sentence": "현금 또는 카드로 결제할 수 있어요.",
+              "translationVn": "Có thể thanh toán bằng tiền mặt hoặc thẻ.",
+              "answer": "또는"
+            },
+            {
+              "sentence": "전화 또는 이메일로 연락 주세요.",
+              "translationVn": "Xin liên hệ bằng điện thoại hoặc email.",
+              "answer": "또는"
+            }
+          ],
+          "mnemonicVn": "또 (lại) + 는 → \"lại có cái kia\" → hoặc."
+        },
+        {
+          "id": "ko-hokeun",
+          "form": "혹은",
+          "reading": "hogeun",
+          "meaningVn": "hoặc là (văn viết)",
+          "usage": "N 혹은 N",
+          "register": "văn viết",
+          "nuanceVn": "Trang trọng như 또는.",
+          "examples": [
+            {
+              "sentence": "오늘 혹은 내일 연락드리겠습니다.",
+              "translationVn": "Hôm nay hoặc ngày mai tôi sẽ liên lạc.",
+              "answer": "혹은"
+            },
+            {
+              "sentence": "학생 혹은 직장인이 대상입니다.",
+              "translationVn": "Đối tượng là học sinh hoặc người đi làm.",
+              "answer": "혹은"
+            }
+          ],
+          "mnemonicVn": "혹 = 或 HOẶC — chính là chữ \"hoặc\" (Hán-Hàn)!",
+          "hanja": "或_"
+        },
+        {
+          "id": "ko-animyeon",
+          "form": "아니면",
+          "reading": "animyeon",
+          "meaningVn": "hay là, hoặc là (khẩu ngữ, câu hỏi)",
+          "usage": "A? 아니면 B?",
+          "register": "khẩu ngữ",
+          "nuanceVn": "Dùng trong câu hỏi lựa chọn (giống 还是); nghĩa đen \"nếu không phải thì\".",
+          "examples": [
+            {
+              "sentence": "커피 마실래요? 아니면 차 마실래요?",
+              "translationVn": "Bạn uống cà phê không? Hay là uống trà?",
+              "answer": "아니면"
+            },
+            {
+              "sentence": "오늘 갈까요, 아니면 내일 갈까요?",
+              "translationVn": "Hôm nay đi hay mai đi?",
+              "answer": "아니면"
+            }
+          ],
+          "mnemonicVn": "아니 (không) + 면 (nếu) → \"nếu không thì…\" → hay là."
+        },
+        {
+          "id": "ko-geona",
+          "form": "-거나",
+          "reading": "-geona",
+          "meaningVn": "hoặc (đuôi nối)",
+          "usage": "V-거나 V",
+          "register": "trung tính",
+          "nuanceVn": "Liệt kê lựa chọn trong một câu: 책을 읽거나 영화를 봐요.",
+          "examples": [
+            {
+              "sentence": "주말에는 책을 읽거나 영화를 봐요.",
+              "translationVn": "Cuối tuần tôi đọc sách hoặc xem phim.",
+              "answer": "거나"
+            },
+            {
+              "sentence": "피곤하거나 아프면 쉬세요.",
+              "translationVn": "Nếu mệt hoặc ốm thì hãy nghỉ.",
+              "answer": "거나"
+            }
+          ],
+          "mnemonicVn": "-거나 ~ \"hay là\" — gắn vào động từ."
+        },
+        {
+          "id": "ko-deunji",
+          "form": "-든지",
+          "reading": "-deunji",
+          "meaningVn": "hoặc… hoặc… / dù… gì cũng",
+          "usage": "V-든지 V-든지 / 무엇이든지",
+          "register": "trung tính",
+          "nuanceVn": "Lựa chọn nào cũng được; 뭐든지 = bất cứ cái gì.",
+          "examples": [
+            {
+              "sentence": "가든지 말든지 마음대로 하세요.",
+              "translationVn": "Đi hay không thì tùy bạn.",
+              "answer": "든지"
+            },
+            {
+              "sentence": "궁금한 게 있으면 뭐든지 물어보세요.",
+              "translationVn": "Có thắc mắc gì cứ hỏi bất cứ điều gì.",
+              "answer": "든지"
+            }
+          ],
+          "mnemonicVn": "-든지 → \"chọn đằng nào cũng được\"."
+        }
+      ]
+    },
+    {
+      "id": "contrast",
+      "titleVn": "Tương phản — nhưng, tuy, dù",
+      "icon": "↔️",
+      "entries": [
+        {
+          "id": "ko-hajiman",
+          "form": "하지만",
+          "reading": "hajiman",
+          "meaningVn": "nhưng",
+          "usage": "A. 하지만 B.",
+          "register": "trung tính",
+          "nuanceVn": "\"Nhưng\" thông dụng nhất đầu câu; trong câu dùng -지만.",
+          "examples": [
+            {
+              "sentence": "한국어는 어려워요. 하지만 재미있어요.",
+              "translationVn": "Tiếng Hàn khó. Nhưng thú vị.",
+              "answer": "하지만"
+            },
+            {
+              "sentence": "가고 싶어요. 하지만 시간이 없어요.",
+              "translationVn": "Tôi muốn đi. Nhưng không có thời gian.",
+              "answer": "하지만"
+            }
+          ],
+          "mnemonicVn": "하지 (làm) + 만 (nhưng) — 만 là \"nhưng\": -지만, 하지만, 그렇지만."
+        },
+        {
+          "id": "ko-jiman",
+          "form": "-지만",
+          "reading": "-jiman",
+          "meaningVn": "nhưng (đuôi nối)",
+          "usage": "V/A-지만 + vế sau",
+          "register": "trung tính",
+          "nuanceVn": "Tương phản trong một câu.",
+          "examples": [
+            {
+              "sentence": "비싸지만 맛있어요.",
+              "translationVn": "Đắt nhưng ngon.",
+              "answer": "지만"
+            },
+            {
+              "sentence": "열심히 공부했지만 시험에 떨어졌어요.",
+              "translationVn": "Đã học chăm nhưng vẫn trượt.",
+              "answer": "지만"
+            }
+          ],
+          "mnemonicVn": "-지만: 만 = nhưng."
+        },
+        {
+          "id": "ko-geureona",
+          "form": "그러나",
+          "reading": "geureona",
+          "meaningVn": "tuy nhiên (văn viết)",
+          "usage": "A. 그러나 B.",
+          "register": "văn viết",
+          "nuanceVn": "Trang trọng, sách báo; văn nói ít dùng.",
+          "examples": [
+            {
+              "sentence": "계획은 좋았다. 그러나 결과는 실패였다.",
+              "translationVn": "Kế hoạch rất tốt. Tuy nhiên kết quả là thất bại.",
+              "answer": "그러나"
+            },
+            {
+              "sentence": "그는 노력했다. 그러나 성공하지 못했다.",
+              "translationVn": "Anh ấy đã nỗ lực. Tuy nhiên không thành công.",
+              "answer": "그러나"
+            }
+          ],
+          "mnemonicVn": "그러나 = 然而 (nhiên nhi) của tiếng Trung — dùng trên giấy."
+        },
+        {
+          "id": "ko-geureojiman",
+          "form": "그렇지만",
+          "reading": "geureochiman",
+          "meaningVn": "nhưng mà, dù vậy",
+          "usage": "A. 그렇지만 B.",
+          "register": "trung tính",
+          "nuanceVn": "\"Đúng là vậy nhưng…\"; hơi nhấn hơn 하지만.",
+          "examples": [
+            {
+              "sentence": "맞아요. 그렇지만 지금은 안 돼요.",
+              "translationVn": "Đúng vậy. Nhưng mà bây giờ thì không được.",
+              "answer": "그렇지만"
+            },
+            {
+              "sentence": "피곤해요. 그렇지만 끝까지 할 거예요.",
+              "translationVn": "Mệt. Dù vậy tôi sẽ làm đến cùng.",
+              "answer": "그렇지만"
+            }
+          ],
+          "mnemonicVn": "그렇다 (như thế) + 지만 → \"như thế đấy, nhưng…\"."
+        },
+        {
+          "id": "ko-geureonde",
+          "form": "그런데 (근데)",
+          "reading": "geureonde (geunde)",
+          "meaningVn": "nhưng mà / mà này (chuyển ý)",
+          "usage": "A. 그런데 B.",
+          "register": "khẩu ngữ",
+          "nuanceVn": "Hai nghĩa: (1) tương phản nhẹ; (2) chuyển chủ đề \"mà này\". Nói nhanh thành 근데.",
+          "examples": [
+            {
+              "sentence": "어제 전화했어요. 그런데 안 받았어요.",
+              "translationVn": "Hôm qua tôi gọi điện. Nhưng (anh ấy) không nghe.",
+              "answer": "그런데"
+            },
+            {
+              "sentence": "그런데 내일 시간 있어요?",
+              "translationVn": "Mà này, mai bạn có rảnh không?",
+              "answer": "그런데"
+            }
+          ],
+          "mnemonicVn": "그런데 = 그렇다 + -는데 (bối cảnh) → \"tình hình là thế, mà…\"."
+        },
+        {
+          "id": "ko-neunde",
+          "form": "-는데 / -(으)ㄴ데",
+          "reading": "-neunde",
+          "meaningVn": "nhưng mà / thì (nêu bối cảnh)",
+          "usage": "V-는데, A-(으)ㄴ데",
+          "register": "trung tính",
+          "nuanceVn": "Nêu bối cảnh rồi nói tiếp: tương phản hoặc dẫn dắt (밖에 비가 오는데 우산 있어요?).",
+          "examples": [
+            {
+              "sentence": "밖에 비가 오는데 우산 있어요?",
+              "translationVn": "Bên ngoài trời mưa, bạn có ô không?",
+              "answer": "는데"
+            },
+            {
+              "sentence": "이 옷은 예쁜데 너무 비싸요.",
+              "translationVn": "Áo này đẹp nhưng đắt quá.",
+              "answer": "예쁜데"
+            }
+          ],
+          "mnemonicVn": "-는데 = \"tình hình là…\" → dẫn tới câu sau."
+        },
+        {
+          "id": "ko-geuraedo",
+          "form": "그래도",
+          "reading": "geuraedo",
+          "meaningVn": "dù vậy, tuy thế vẫn",
+          "usage": "A. 그래도 B.",
+          "register": "khẩu ngữ",
+          "nuanceVn": "Dù A vẫn B (nhượng bộ); như 还是/仍然.",
+          "examples": [
+            {
+              "sentence": "많이 힘들어요. 그래도 포기하지 않을 거예요.",
+              "translationVn": "Rất vất vả. Dù vậy tôi sẽ không bỏ cuộc.",
+              "answer": "그래도"
+            },
+            {
+              "sentence": "비싸요. 그래도 사고 싶어요.",
+              "translationVn": "Đắt. Tuy thế vẫn muốn mua.",
+              "answer": "그래도"
+            }
+          ],
+          "mnemonicVn": "그래 (như thế) + 도 (dù) → \"dù như thế\"."
+        },
+        {
+          "id": "ko-ado",
+          "form": "-아도/-어도",
+          "reading": "-ado/-eodo",
+          "meaningVn": "dù… cũng",
+          "usage": "V/A-아/어도",
+          "register": "trung tính",
+          "nuanceVn": "Nhượng bộ trong câu (giống 即使/虽然).",
+          "examples": [
+            {
+              "sentence": "비가 와도 갈 거예요.",
+              "translationVn": "Dù mưa tôi cũng sẽ đi.",
+              "answer": "와도"
+            },
+            {
+              "sentence": "아무리 바빠도 밥은 먹어야 해요.",
+              "translationVn": "Dù bận đến mấy cũng phải ăn cơm.",
+              "answer": "바빠도"
+            }
+          ],
+          "mnemonicVn": "-도 = \"cũng\" → dù thế nào cũng."
+        },
+        {
+          "id": "ko-banmyeone",
+          "form": "반면에",
+          "reading": "banmyeone",
+          "meaningVn": "ngược lại, trái lại",
+          "usage": "A-(으)ㄴ/는 반면에 B / 반면에, …",
+          "register": "văn viết",
+          "nuanceVn": "So sánh hai mặt đối lập.",
+          "examples": [
+            {
+              "sentence": "형은 활발한 반면에 동생은 조용해요.",
+              "translationVn": "Anh trai năng động, trái lại em trai trầm tính.",
+              "answer": "반면에"
+            },
+            {
+              "sentence": "도시는 편리하다. 반면에 공기가 나쁘다.",
+              "translationVn": "Thành phố tiện lợi. Ngược lại không khí kém.",
+              "answer": "반면에"
+            }
+          ],
+          "mnemonicVn": "반면 = 反面 PHẢN DIỆN — mặt trái ngược lại.",
+          "hanja": "反面_"
+        },
+        {
+          "id": "ko-ohiryeo",
+          "form": "오히려",
+          "reading": "ohiryeo",
+          "meaningVn": "ngược lại còn, trái lại",
+          "usage": "오히려 + V",
+          "register": "trung tính",
+          "nuanceVn": "Kết quả trái với dự đoán, thậm chí ngược hẳn.",
+          "examples": [
+            {
+              "sentence": "약을 먹었는데 오히려 더 아파요.",
+              "translationVn": "Uống thuốc rồi mà ngược lại còn đau hơn.",
+              "answer": "오히려"
+            },
+            {
+              "sentence": "도와주려다가 오히려 방해가 됐어요.",
+              "translationVn": "Định giúp mà trái lại thành ra cản trở.",
+              "answer": "오히려"
+            }
+          ],
+          "mnemonicVn": "오히려 ~ 却 khước / 反而 của tiếng Trung."
+        },
+        {
+          "id": "ko-geureomedo",
+          "form": "그럼에도 불구하고",
+          "reading": "geureomedo bulguhago",
+          "meaningVn": "mặc dù vậy, bất chấp điều đó",
+          "usage": "A. 그럼에도 불구하고 B.",
+          "register": "văn viết",
+          "nuanceVn": "Rất trang trọng; N에도 불구하고 = bất chấp N.",
+          "examples": [
+            {
+              "sentence": "비가 왔다. 그럼에도 불구하고 경기는 계속되었다.",
+              "translationVn": "Trời mưa. Mặc dù vậy trận đấu vẫn tiếp tục.",
+              "answer": "그럼에도 불구하고"
+            },
+            {
+              "sentence": "어려움에도 불구하고 끝까지 해냈다.",
+              "translationVn": "Bất chấp khó khăn vẫn làm đến cùng.",
+              "answer": "에도 불구하고"
+            }
+          ],
+          "mnemonicVn": "불구 = 不拘 BẤT CÂU — không câu nệ → bất chấp."
+        }
+      ]
+    },
+    {
+      "id": "cause",
+      "titleVn": "Nguyên nhân — vì, do, bởi vì",
+      "icon": "❓",
+      "entries": [
+        {
+          "id": "ko-waenyahamyeon",
+          "form": "왜냐하면 … 때문이다",
+          "reading": "waenyahamyeon",
+          "meaningVn": "bởi vì (giải thích lý do)",
+          "usage": "B. 왜냐하면 A기 때문이에요.",
+          "register": "trung tính",
+          "nuanceVn": "Nói kết quả trước, lý do sau; vế lý do kết thúc bằng 때문이다.",
+          "examples": [
+            {
+              "sentence": "오늘 못 가요. 왜냐하면 일이 많기 때문이에요.",
+              "translationVn": "Hôm nay tôi không đi được. Bởi vì nhiều việc.",
+              "answer": "왜냐하면"
+            },
+            {
+              "sentence": "한국어를 배워요. 왜냐하면 한국에서 일하고 싶기 때문이에요.",
+              "translationVn": "Tôi học tiếng Hàn. Bởi vì muốn làm việc ở Hàn.",
+              "answer": "왜냐하면"
+            }
+          ],
+          "mnemonicVn": "왜 (tại sao) + 냐 하면 (nếu hỏi) → \"nếu hỏi tại sao thì…\"."
+        },
+        {
+          "id": "ko-aseo",
+          "form": "-아서/-어서",
+          "reading": "-aseo/-eoseo",
+          "meaningVn": "vì… nên (lý do tự nhiên)",
+          "usage": "V/A-아/어서 + kết quả",
+          "register": "trung tính",
+          "nuanceVn": "KHÔNG dùng với mệnh lệnh/rủ rê và không gắn thì quá khứ (❌ 왔어서).",
+          "examples": [
+            {
+              "sentence": "배가 아파서 병원에 갔어요.",
+              "translationVn": "Vì đau bụng nên tôi đi bệnh viện.",
+              "answer": "아파서"
+            },
+            {
+              "sentence": "늦어서 죄송합니다.",
+              "translationVn": "Xin lỗi vì đến muộn.",
+              "answer": "늦어서"
+            }
+          ],
+          "mnemonicVn": "-아서 + kết quả bình thường. Nếu muốn ra lệnh/rủ → dùng -(으)니까."
+        },
+        {
+          "id": "ko-eunikka",
+          "form": "-(으)니까",
+          "reading": "-(eu)nikka",
+          "meaningVn": "vì… nên (lý do chủ quan, đi với mệnh lệnh)",
+          "usage": "V/A-(으)니까 + đề nghị/mệnh lệnh",
+          "register": "trung tính",
+          "nuanceVn": "Lý do mang tính chủ quan; DÙNG ĐƯỢC với mệnh lệnh, rủ rê (-(으)세요, -(으)ㅂ시다).",
+          "examples": [
+            {
+              "sentence": "비가 오니까 우산을 가져가세요.",
+              "translationVn": "Trời mưa nên hãy mang ô theo.",
+              "answer": "오니까"
+            },
+            {
+              "sentence": "시간이 없으니까 빨리 갑시다.",
+              "translationVn": "Không có thời gian nên đi nhanh thôi.",
+              "answer": "없으니까"
+            }
+          ],
+          "mnemonicVn": "-니까 → hay đứng trước lời KHUYÊN/LỆNH. -아서 → kể lý do bình thường."
+        },
+        {
+          "id": "ko-gittaemune",
+          "form": "-기 때문에 / N 때문에",
+          "reading": "-gi ttaemune",
+          "meaningVn": "vì, bởi vì (nhấn mạnh lý do)",
+          "usage": "V/A-기 때문에, N 때문에",
+          "register": "trung tính",
+          "nuanceVn": "Trang trọng/nhấn mạnh hơn -아서; dùng được với quá khứ (왔기 때문에).",
+          "examples": [
+            {
+              "sentence": "눈이 왔기 때문에 길이 미끄러워요.",
+              "translationVn": "Vì tuyết rơi nên đường trơn.",
+              "answer": "때문에"
+            },
+            {
+              "sentence": "감기 때문에 회사에 못 갔어요.",
+              "translationVn": "Vì bị cảm nên không đi làm được.",
+              "answer": "때문에"
+            }
+          ],
+          "mnemonicVn": "때문 = \"cớ, duyên do\" — 때문에 = \"do cớ đó\"."
+        },
+        {
+          "id": "ko-neun-barame",
+          "form": "-는 바람에",
+          "reading": "-neun barame",
+          "meaningVn": "tại vì (lý do bất ngờ, kết quả xấu)",
+          "usage": "V-는 바람에 + kết quả (quá khứ, tiêu cực)",
+          "register": "khẩu ngữ",
+          "nuanceVn": "Lý do ngoài ý muốn gây ra kết quả không mong muốn.",
+          "examples": [
+            {
+              "sentence": "늦잠을 자는 바람에 지각했어요.",
+              "translationVn": "Tại ngủ quên nên đi muộn.",
+              "answer": "바람에"
+            },
+            {
+              "sentence": "갑자기 비가 오는 바람에 옷이 다 젖었어요.",
+              "translationVn": "Tại tự nhiên mưa nên quần áo ướt hết.",
+              "answer": "바람에"
+            }
+          ],
+          "mnemonicVn": "바람 = cơn gió → \"tại cơn gió thổi tới\" = sự cố bất ngờ."
+        },
+        {
+          "id": "ko-ro-inhae",
+          "form": "(으)로 인해",
+          "reading": "(eu)ro inhae",
+          "meaningVn": "do, bởi (văn viết)",
+          "usage": "N(으)로 인해(서)",
+          "register": "văn viết",
+          "nuanceVn": "Báo chí: 태풍으로 인해 (do bão).",
+          "examples": [
+            {
+              "sentence": "태풍으로 인해 비행기가 결항되었다.",
+              "translationVn": "Do bão nên chuyến bay bị hủy.",
+              "answer": "으로 인해"
+            },
+            {
+              "sentence": "사고로 인해 길이 막혔다.",
+              "translationVn": "Do tai nạn nên đường bị tắc.",
+              "answer": "로 인해"
+            }
+          ],
+          "mnemonicVn": "인해 = 因 NHÂN (nguyên nhân) — giống 由于 của tiếng Trung."
+        }
+      ]
+    },
+    {
+      "id": "result",
+      "titleVn": "Kết quả — vì vậy, cho nên, do đó",
+      "icon": "➡️",
+      "entries": [
+        {
+          "id": "ko-geuraeseo",
+          "form": "그래서",
+          "reading": "geuraeseo",
+          "meaningVn": "vì vậy, cho nên (sự thật)",
+          "usage": "A. 그래서 B.",
+          "register": "trung tính",
+          "nuanceVn": "Kể kết quả tự nhiên; KHÔNG đi với mệnh lệnh (dùng 그러니까).",
+          "examples": [
+            {
+              "sentence": "어제 많이 걸었어요. 그래서 다리가 아파요.",
+              "translationVn": "Hôm qua đi bộ nhiều. Vì vậy chân bị đau.",
+              "answer": "그래서"
+            },
+            {
+              "sentence": "비가 왔어요. 그래서 집에 있었어요.",
+              "translationVn": "Trời mưa. Cho nên tôi ở nhà.",
+              "answer": "그래서"
+            }
+          ],
+          "mnemonicVn": "그래 (như thế) + 서 (nên) = -아서 phiên bản đầu câu."
+        },
+        {
+          "id": "ko-geureonikka",
+          "form": "그러니까",
+          "reading": "geureonikka",
+          "meaningVn": "vì thế nên (khuyên/nhấn mạnh) / tức là",
+          "usage": "A. 그러니까 B (lệnh/đề nghị).",
+          "register": "khẩu ngữ",
+          "nuanceVn": "Đi với lời khuyên, mệnh lệnh; còn nghĩa \"ý tôi là\" khi giải thích lại.",
+          "examples": [
+            {
+              "sentence": "내일 시험이에요. 그러니까 일찍 자세요.",
+              "translationVn": "Mai thi rồi. Vì thế nên ngủ sớm đi.",
+              "answer": "그러니까"
+            },
+            {
+              "sentence": "그러니까 제 말은, 다시 해 보자는 거예요.",
+              "translationVn": "Tức là ý tôi là, hãy thử lại lần nữa.",
+              "answer": "그러니까"
+            }
+          ],
+          "mnemonicVn": "그러니까 = -(으)니까 đầu câu → hay đi với lời KHUYÊN."
+        },
+        {
+          "id": "ko-ttaraseo",
+          "form": "따라서",
+          "reading": "ttaraseo",
+          "meaningVn": "do đó, vì vậy (văn viết)",
+          "usage": "A. 따라서 B.",
+          "register": "văn viết",
+          "nuanceVn": "Trang trọng, suy luận logic; như 因此.",
+          "examples": [
+            {
+              "sentence": "인구가 줄고 있다. 따라서 대책이 필요하다.",
+              "translationVn": "Dân số đang giảm. Do đó cần có đối sách.",
+              "answer": "따라서"
+            },
+            {
+              "sentence": "조건을 만족했다. 따라서 합격이다.",
+              "translationVn": "Đã thỏa mãn điều kiện. Vì vậy là đỗ.",
+              "answer": "따라서"
+            }
+          ],
+          "mnemonicVn": "따르다 (đi theo) → \"theo đó\" = do đó."
+        },
+        {
+          "id": "ko-geureomeuro",
+          "form": "그러므로",
+          "reading": "geureomeuro",
+          "meaningVn": "vì thế, cho nên (lập luận)",
+          "usage": "A. 그러므로 B.",
+          "register": "văn viết",
+          "nuanceVn": "Rất trang trọng, văn nghị luận, toán học.",
+          "examples": [
+            {
+              "sentence": "나는 생각한다. 그러므로 나는 존재한다.",
+              "translationVn": "Tôi tư duy, vì thế tôi tồn tại.",
+              "answer": "그러므로"
+            },
+            {
+              "sentence": "건강은 소중하다. 그러므로 운동해야 한다.",
+              "translationVn": "Sức khỏe quý giá. Vì thế phải tập thể dục.",
+              "answer": "그러므로"
+            }
+          ],
+          "mnemonicVn": "-(으)므로 = vì (văn viết) → 그러므로 = \"vì như thế\"."
+        },
+        {
+          "id": "ko-gyeolguk",
+          "form": "결국",
+          "reading": "gyeolguk",
+          "meaningVn": "rốt cuộc, cuối cùng thì",
+          "usage": "결국 + kết quả",
+          "register": "trung tính",
+          "nuanceVn": "Kết cục sau một quá trình (thường không như mong).",
+          "examples": [
+            {
+              "sentence": "오래 기다렸지만 결국 그는 오지 않았어요.",
+              "translationVn": "Đã chờ lâu nhưng rốt cuộc anh ấy không đến.",
+              "answer": "결국"
+            },
+            {
+              "sentence": "결국 우리가 이겼어요!",
+              "translationVn": "Cuối cùng chúng ta đã thắng!",
+              "answer": "결국"
+            }
+          ],
+          "mnemonicVn": "결국 = 結局 KẾT CỤC — đọc thẳng Hán Việt.",
+          "hanja": "結局"
+        },
+        {
+          "id": "ko-geu-gyeolgwa",
+          "form": "그 결과",
+          "reading": "geu gyeolgwa",
+          "meaningVn": "kết quả là",
+          "usage": "A. 그 결과 B.",
+          "register": "văn viết",
+          "nuanceVn": "Trình bày kết quả của nỗ lực/hành động.",
+          "examples": [
+            {
+              "sentence": "매일 연습했다. 그 결과 대회에서 우승했다.",
+              "translationVn": "Luyện tập mỗi ngày. Kết quả là vô địch cuộc thi.",
+              "answer": "그 결과"
+            },
+            {
+              "sentence": "조사를 했다. 그 결과 문제를 찾았다.",
+              "translationVn": "Đã điều tra. Kết quả là tìm ra vấn đề.",
+              "answer": "그 결과"
+            }
+          ],
+          "mnemonicVn": "결과 = 結果 KẾT QUẢ.",
+          "hanja": "_結果"
+        },
+        {
+          "id": "ko-geureomyeon",
+          "form": "그러면 (그럼)",
+          "reading": "geureomyeon (geureom)",
+          "meaningVn": "vậy thì, nếu thế thì",
+          "usage": "A. 그러면 B.",
+          "register": "khẩu ngữ",
+          "nuanceVn": "Rút ra đề nghị từ điều kiện vừa nói; nói tắt 그럼.",
+          "examples": [
+            {
+              "sentence": "피곤해요? 그러면 좀 쉬세요.",
+              "translationVn": "Mệt à? Vậy thì nghỉ chút đi.",
+              "answer": "그러면"
+            },
+            {
+              "sentence": "그럼 내일 만나요!",
+              "translationVn": "Vậy mai gặp nhé!",
+              "answer": "그럼"
+            }
+          ],
+          "mnemonicVn": "그러 + 면 (nếu) → \"nếu thế thì\" = 那么."
+        }
+      ]
+    },
+    {
+      "id": "condition",
+      "titleVn": "Điều kiện & thời gian — nếu, chỉ cần, khi",
+      "icon": "🔑",
+      "entries": [
+        {
+          "id": "ko-eumyeon",
+          "form": "-(으)면",
+          "reading": "-(eu)myeon",
+          "meaningVn": "nếu… thì",
+          "usage": "V/A-(으)면 + vế sau",
+          "register": "trung tính",
+          "nuanceVn": "Điều kiện thông dụng nhất (如果…就).",
+          "examples": [
+            {
+              "sentence": "시간이 있으면 같이 가요.",
+              "translationVn": "Nếu có thời gian thì cùng đi nhé.",
+              "answer": "있으면"
+            },
+            {
+              "sentence": "봄이 오면 꽃이 피어요.",
+              "translationVn": "Khi xuân đến thì hoa nở.",
+              "answer": "오면"
+            }
+          ],
+          "mnemonicVn": "-면 ~ \"mà\" (nếu mà) — âm \"m\" giống nhau."
+        },
+        {
+          "id": "ko-manyage",
+          "form": "만약(에) … -(으)면",
+          "reading": "manyak(e)",
+          "meaningVn": "nếu như, giả sử",
+          "usage": "만약 + -(으)면 / -다면",
+          "register": "trung tính",
+          "nuanceVn": "Đặt đầu câu để nhấn mạnh giả định; luôn đi kèm -(으)면/-다면.",
+          "examples": [
+            {
+              "sentence": "만약 비가 오면 경기는 취소됩니다.",
+              "translationVn": "Nếu như trời mưa thì trận đấu bị hủy.",
+              "answer": "만약"
+            },
+            {
+              "sentence": "만약에 복권에 당첨된다면 뭘 할 거예요?",
+              "translationVn": "Giả sử trúng xổ số thì bạn sẽ làm gì?",
+              "answer": "만약에"
+            }
+          ],
+          "mnemonicVn": "만약 = 萬若 VẠN NHƯỢC — \"vạn nhất nếu\" → giả sử.",
+          "hanja": "萬若"
+        },
+        {
+          "id": "ko-damyeon",
+          "form": "-다면",
+          "reading": "-damyeon",
+          "meaningVn": "nếu (giả định, ít khả năng)",
+          "usage": "V-ㄴ/는다면, A-다면",
+          "register": "trung tính",
+          "nuanceVn": "Giả định xa thực tế hơn -(으)면.",
+          "examples": [
+            {
+              "sentence": "내가 새라면 하늘을 날 텐데.",
+              "translationVn": "Nếu tôi là chim thì đã bay trên trời.",
+              "answer": "라면"
+            },
+            {
+              "sentence": "다시 태어난다면 뭐가 되고 싶어요?",
+              "translationVn": "Nếu được sinh ra lần nữa bạn muốn làm gì?",
+              "answer": "태어난다면"
+            }
+          ],
+          "mnemonicVn": "-다 (nói rằng) + 면 → \"nếu cho rằng…\" → giả định."
+        },
+        {
+          "id": "ko-eoya",
+          "form": "-아야/-어야 (하다)",
+          "reading": "-aya/-eoya",
+          "meaningVn": "phải… thì mới",
+          "usage": "V-아/어야 + kết quả",
+          "register": "trung tính",
+          "nuanceVn": "Điều kiện cần (只有…才).",
+          "examples": [
+            {
+              "sentence": "열심히 공부해야 합격할 수 있어요.",
+              "translationVn": "Phải học chăm thì mới đỗ được.",
+              "answer": "공부해야"
+            },
+            {
+              "sentence": "직접 봐야 알 수 있어요.",
+              "translationVn": "Phải tận mắt thấy mới biết được.",
+              "answer": "봐야"
+            }
+          ],
+          "mnemonicVn": "-야 = \"phải\" — -아야 하다 = phải làm."
+        },
+        {
+          "id": "ko-deorado",
+          "form": "-더라도",
+          "reading": "-deorado",
+          "meaningVn": "cho dù… đi nữa",
+          "usage": "V/A-더라도",
+          "register": "trung tính",
+          "nuanceVn": "Giả định mạnh hơn -아도 (即使…也).",
+          "examples": [
+            {
+              "sentence": "힘들더라도 포기하지 마세요.",
+              "translationVn": "Cho dù vất vả đi nữa cũng đừng bỏ cuộc.",
+              "answer": "더라도"
+            },
+            {
+              "sentence": "늦더라도 꼭 오세요.",
+              "translationVn": "Dù muộn cũng nhất định phải đến nhé.",
+              "answer": "늦더라도"
+            }
+          ],
+          "mnemonicVn": "-더라도 = -아도 bản \"nặng ký\" hơn."
+        },
+        {
+          "id": "ko-geureochi-aneumyeon",
+          "form": "그렇지 않으면",
+          "reading": "geureochi aneumyeon",
+          "meaningVn": "nếu không thì, kẻo",
+          "usage": "A. 그렇지 않으면 B.",
+          "register": "trung tính",
+          "nuanceVn": "Cảnh báo hậu quả (否则).",
+          "examples": [
+            {
+              "sentence": "빨리 가세요. 그렇지 않으면 늦을 거예요.",
+              "translationVn": "Đi nhanh lên. Nếu không thì sẽ muộn.",
+              "answer": "그렇지 않으면"
+            },
+            {
+              "sentence": "약을 드세요. 그렇지 않으면 더 아파요.",
+              "translationVn": "Uống thuốc đi. Không thì đau hơn đấy.",
+              "answer": "그렇지 않으면"
+            }
+          ],
+          "mnemonicVn": "그렇지 않다 (không như thế) + 면 (nếu) → \"nếu không như thế\"."
+        },
+        {
+          "id": "ko-dongan",
+          "form": "-는 동안(에)",
+          "reading": "-neun dongan",
+          "meaningVn": "trong khi, trong lúc",
+          "usage": "V-는 동안",
+          "register": "trung tính",
+          "nuanceVn": "Khoảng thời gian một việc kéo dài.",
+          "examples": [
+            {
+              "sentence": "제가 요리하는 동안 청소 좀 해 주세요.",
+              "translationVn": "Trong lúc tôi nấu ăn, bạn dọn dẹp giúp nhé.",
+              "answer": "동안"
+            },
+            {
+              "sentence": "방학 동안 한국에 있었어요.",
+              "translationVn": "Trong kỳ nghỉ tôi ở Hàn.",
+              "answer": "동안"
+            }
+          ],
+          "mnemonicVn": "동안 ~ \"đoạn\" (thời gian) — 동안 = trong đoạn thời gian."
+        },
+        {
+          "id": "ko-ttae",
+          "form": "-(으)ㄹ 때",
+          "reading": "-(eu)l ttae",
+          "meaningVn": "khi, lúc",
+          "usage": "V/A-(으)ㄹ 때",
+          "register": "trung tính",
+          "nuanceVn": "\"Khi…\" chung chung (…的时候).",
+          "examples": [
+            {
+              "sentence": "심심할 때 음악을 들어요.",
+              "translationVn": "Khi buồn chán tôi nghe nhạc.",
+              "answer": "때"
+            },
+            {
+              "sentence": "어렸을 때 시골에 살았어요.",
+              "translationVn": "Hồi nhỏ tôi sống ở quê.",
+              "answer": "때"
+            }
+          ],
+          "mnemonicVn": "때 = \"thời\" — 그때 = lúc đó."
+        }
+      ]
+    },
+    {
+      "id": "example",
+      "titleVn": "Ví dụ & giải thích — ví dụ, tức là, thật ra",
+      "icon": "💡",
+      "entries": [
+        {
+          "id": "ko-yereul-deulmyeon",
+          "form": "예를 들면 / 예를 들어",
+          "reading": "yereul deulmyeon / deureo",
+          "meaningVn": "ví dụ, chẳng hạn",
+          "usage": "예를 들면, N(이)나 N",
+          "register": "trung tính",
+          "nuanceVn": "Đưa ví dụ (比如/例如).",
+          "examples": [
+            {
+              "sentence": "과일을 좋아해요. 예를 들면 사과나 딸기요.",
+              "translationVn": "Tôi thích hoa quả. Ví dụ như táo hay dâu.",
+              "answer": "예를 들면"
+            },
+            {
+              "sentence": "예를 들어 설명해 주세요.",
+              "translationVn": "Hãy giải thích bằng ví dụ.",
+              "answer": "예를 들어"
+            }
+          ],
+          "mnemonicVn": "예 = 例 LỆ (ví dụ, lệ) + 들다 (đưa ra) → \"đưa ví dụ ra\".",
+          "hanja": "例"
+        },
+        {
+          "id": "ko-garyeong",
+          "form": "가령",
+          "reading": "garyeong",
+          "meaningVn": "giả sử, chẳng hạn",
+          "usage": "가령 + ví dụ / giả định",
+          "register": "văn viết",
+          "nuanceVn": "Đưa ví dụ giả định.",
+          "examples": [
+            {
+              "sentence": "가령 네가 사장이라면 어떻게 하겠니?",
+              "translationVn": "Giả sử cậu là giám đốc thì cậu làm thế nào?",
+              "answer": "가령"
+            },
+            {
+              "sentence": "가령 서울에서 부산까지 간다고 해 봅시다.",
+              "translationVn": "Chẳng hạn giả sử đi từ Seoul đến Busan.",
+              "answer": "가령"
+            }
+          ],
+          "mnemonicVn": "가령 = 假令 GIẢ LỆNH — \"giả sử\".",
+          "hanja": "假令"
+        },
+        {
+          "id": "ko-teukhi",
+          "form": "특히",
+          "reading": "teukhi",
+          "meaningVn": "đặc biệt là",
+          "usage": "특히 + N/V",
+          "register": "trung tính",
+          "nuanceVn": "Nêu trường hợp nổi bật (尤其/特别).",
+          "examples": [
+            {
+              "sentence": "한국 음식을 좋아해요. 특히 김치찌개를 좋아해요.",
+              "translationVn": "Tôi thích đồ ăn Hàn. Đặc biệt là canh kimchi.",
+              "answer": "특히"
+            },
+            {
+              "sentence": "겨울에는 특히 건강에 조심하세요.",
+              "translationVn": "Mùa đông đặc biệt phải giữ sức khỏe.",
+              "answer": "특히"
+            }
+          ],
+          "mnemonicVn": "특 = 特 ĐẶC → 특히 = đặc biệt.",
+          "hanja": "特_"
+        },
+        {
+          "id": "ko-jeuk",
+          "form": "즉",
+          "reading": "jeuk",
+          "meaningVn": "tức là",
+          "usage": "A, 즉 B",
+          "register": "văn viết",
+          "nuanceVn": "Diễn đạt lại / định nghĩa (即/也就是说).",
+          "examples": [
+            {
+              "sentence": "그는 내 어머니의 동생, 즉 외삼촌이에요.",
+              "translationVn": "Ông ấy là em trai mẹ tôi, tức là cậu tôi.",
+              "answer": "즉"
+            },
+            {
+              "sentence": "모레, 즉 수요일에 만나요.",
+              "translationVn": "Ngày kia, tức là thứ Tư, gặp nhau nhé.",
+              "answer": "즉"
+            }
+          ],
+          "mnemonicVn": "즉 = 即 TỨC — y như tiếng Việt \"tức là\"!",
+          "hanja": "即"
+        },
+        {
+          "id": "ko-dasi-malhae",
+          "form": "다시 말해(서)",
+          "reading": "dasi malhae",
+          "meaningVn": "nói cách khác",
+          "usage": "A. 다시 말해 B.",
+          "register": "trung tính",
+          "nuanceVn": "Diễn đạt lại cho rõ hơn (换句话说).",
+          "examples": [
+            {
+              "sentence": "그는 시간을 잘 안 지켜요. 다시 말해 자주 늦어요.",
+              "translationVn": "Anh ấy hay không đúng giờ. Nói cách khác là hay đến muộn.",
+              "answer": "다시 말해"
+            },
+            {
+              "sentence": "다시 말해서, 우리는 준비가 안 됐어요.",
+              "translationVn": "Nói cách khác, chúng ta chưa chuẩn bị xong.",
+              "answer": "다시 말해서"
+            }
+          ],
+          "mnemonicVn": "다시 (lại) + 말하다 (nói) → \"nói lại\"."
+        },
+        {
+          "id": "ko-cheoreom",
+          "form": "-처럼 / -같이",
+          "reading": "-cheoreom / -gachi",
+          "meaningVn": "giống như",
+          "usage": "N처럼, N같이",
+          "register": "trung tính",
+          "nuanceVn": "So sánh, ví von (像…一样).",
+          "examples": [
+            {
+              "sentence": "그는 가수처럼 노래를 잘해요.",
+              "translationVn": "Anh ấy hát hay như ca sĩ.",
+              "answer": "처럼"
+            },
+            {
+              "sentence": "아이같이 웃어요.",
+              "translationVn": "Cười như đứa trẻ.",
+              "answer": "같이"
+            }
+          ],
+          "mnemonicVn": "같다 = giống → 같이 = giống như."
+        }
+      ]
+    },
+    {
+      "id": "sequence",
+      "titleVn": "Trình tự — trước hết, sau đó, cuối cùng",
+      "icon": "🔢",
+      "entries": [
+        {
+          "id": "ko-useon",
+          "form": "우선",
+          "reading": "useon",
+          "meaningVn": "trước hết",
+          "usage": "우선 + việc 1",
+          "register": "trung tính",
+          "nuanceVn": "Mở đầu chuỗi việc; cũng là \"tạm thời\".",
+          "examples": [
+            {
+              "sentence": "우선 손을 씻으세요.",
+              "translationVn": "Trước hết hãy rửa tay.",
+              "answer": "우선"
+            },
+            {
+              "sentence": "우선 이것부터 해 봅시다.",
+              "translationVn": "Trước hết thử làm cái này đã.",
+              "answer": "우선"
+            }
+          ],
+          "mnemonicVn": "우선 = 于先 VU TIÊN / 優先 ƯU TIÊN — làm cái ưu tiên trước.",
+          "hanja": "于先"
+        },
+        {
+          "id": "ko-meonjeo",
+          "form": "먼저",
+          "reading": "meonjeo",
+          "meaningVn": "trước, đầu tiên",
+          "usage": "먼저 V / N보다 먼저",
+          "register": "trung tính",
+          "nuanceVn": "Thứ tự trước sau (先).",
+          "examples": [
+            {
+              "sentence": "먼저 가세요. 저는 나중에 갈게요.",
+              "translationVn": "Bạn đi trước đi. Tôi đi sau.",
+              "answer": "먼저"
+            },
+            {
+              "sentence": "먼저 숙제를 하고 놀아요.",
+              "translationVn": "Làm bài tập trước rồi chơi.",
+              "answer": "먼저"
+            }
+          ],
+          "mnemonicVn": "먼저 ~ \"mở đầu\" — 먼저 ↔ 나중에 (sau)."
+        },
+        {
+          "id": "ko-geu-daeume",
+          "form": "그다음(에)",
+          "reading": "geu daeume",
+          "meaningVn": "sau đó, tiếp theo",
+          "usage": "A. 그다음에 B.",
+          "register": "trung tính",
+          "nuanceVn": "Bước tiếp theo trong chuỗi.",
+          "examples": [
+            {
+              "sentence": "먼저 물을 끓이세요. 그다음에 라면을 넣으세요.",
+              "translationVn": "Trước tiên đun nước. Sau đó cho mì vào.",
+              "answer": "그다음에"
+            },
+            {
+              "sentence": "그다음은 뭐예요?",
+              "translationVn": "Tiếp theo là gì?",
+              "answer": "그다음"
+            }
+          ],
+          "mnemonicVn": "다음 = tiếp theo → 그다음 = cái tiếp theo đó."
+        },
+        {
+          "id": "ko-geureogo-naseo",
+          "form": "그러고 나서",
+          "reading": "geureogo naseo",
+          "meaningVn": "rồi sau đó (xong việc này mới)",
+          "usage": "A. 그러고 나서 B.",
+          "register": "khẩu ngữ",
+          "nuanceVn": "Xong hẳn A rồi mới B (-고 나서).",
+          "examples": [
+            {
+              "sentence": "밥을 먹었어요. 그러고 나서 산책했어요.",
+              "translationVn": "Ăn cơm xong. Rồi sau đó đi dạo.",
+              "answer": "그러고 나서"
+            },
+            {
+              "sentence": "숙제를 끝내고 나서 TV를 봤어요.",
+              "translationVn": "Làm xong bài tập rồi mới xem TV.",
+              "answer": "고 나서"
+            }
+          ],
+          "mnemonicVn": "나다 (ra, xong) → -고 나서 = làm xong rồi."
+        },
+        {
+          "id": "ko-eunhu",
+          "form": "-(으)ㄴ 후에 / -(으)ㄴ 다음에",
+          "reading": "-(eu)n hue",
+          "meaningVn": "sau khi",
+          "usage": "V-(으)ㄴ 후에",
+          "register": "trung tính",
+          "nuanceVn": "Sau khi làm việc gì (…以后).",
+          "examples": [
+            {
+              "sentence": "졸업한 후에 취직했어요.",
+              "translationVn": "Sau khi tốt nghiệp thì đi làm.",
+              "answer": "후에"
+            },
+            {
+              "sentence": "수업이 끝난 다음에 만나요.",
+              "translationVn": "Gặp nhau sau khi tan học nhé.",
+              "answer": "다음에"
+            }
+          ],
+          "mnemonicVn": "후 = 後 HẬU — sau.",
+          "hanja": "後"
+        },
+        {
+          "id": "ko-gi-jeone",
+          "form": "-기 전에",
+          "reading": "-gi jeone",
+          "meaningVn": "trước khi",
+          "usage": "V-기 전에",
+          "register": "trung tính",
+          "nuanceVn": "Trước khi làm việc gì (…以前).",
+          "examples": [
+            {
+              "sentence": "자기 전에 이를 닦으세요.",
+              "translationVn": "Trước khi ngủ hãy đánh răng.",
+              "answer": "전에"
+            },
+            {
+              "sentence": "먹기 전에 손을 씻어요.",
+              "translationVn": "Rửa tay trước khi ăn.",
+              "answer": "전에"
+            }
+          ],
+          "mnemonicVn": "전 = 前 TIỀN — trước.",
+          "hanja": "前"
+        },
+        {
+          "id": "ko-majimageuro",
+          "form": "마지막으로",
+          "reading": "majimageuro",
+          "meaningVn": "cuối cùng",
+          "usage": "마지막으로, …",
+          "register": "trung tính",
+          "nuanceVn": "Bước/ý cuối trong chuỗi liệt kê.",
+          "examples": [
+            {
+              "sentence": "마지막으로 소금을 넣으세요.",
+              "translationVn": "Cuối cùng cho muối vào.",
+              "answer": "마지막으로"
+            },
+            {
+              "sentence": "마지막으로 하고 싶은 말이 있어요?",
+              "translationVn": "Cuối cùng bạn có muốn nói gì không?",
+              "answer": "마지막으로"
+            }
+          ],
+          "mnemonicVn": "마지막 = cuối cùng (막 = chặn lại, hết)."
+        },
+        {
+          "id": "ko-deudieo",
+          "form": "드디어",
+          "reading": "deudieo",
+          "meaningVn": "cuối cùng thì (mong mãi mới tới)",
+          "usage": "드디어 + V",
+          "register": "trung tính",
+          "nuanceVn": "Kết quả tốt sau thời gian chờ (终于). Khác 결국 (thường là kết cục không mong).",
+          "examples": [
+            {
+              "sentence": "드디어 방학이에요!",
+              "translationVn": "Cuối cùng cũng được nghỉ!",
+              "answer": "드디어"
+            },
+            {
+              "sentence": "드디어 시험에 합격했어요.",
+              "translationVn": "Cuối cùng cũng đỗ rồi.",
+              "answer": "드디어"
+            }
+          ],
+          "mnemonicVn": "드디어 → reo \"đi đi rồi!\" khi điều mong đợi tới. 결국 = kết cục (trung tính/xấu)."
+        },
+        {
+          "id": "ko-geuttae",
+          "form": "그때",
+          "reading": "geuttae",
+          "meaningVn": "lúc đó, khi ấy",
+          "usage": "그때 + V",
+          "register": "trung tính",
+          "nuanceVn": "Chỉ thời điểm đã nhắc.",
+          "examples": [
+            {
+              "sentence": "그때 전화가 왔어요.",
+              "translationVn": "Đúng lúc đó điện thoại reo.",
+              "answer": "그때"
+            },
+            {
+              "sentence": "그때는 몰랐어요.",
+              "translationVn": "Hồi đó tôi không biết.",
+              "answer": "그때"
+            }
+          ],
+          "mnemonicVn": "그 (đó) + 때 (thời) = thời đó."
+        },
+        {
+          "id": "ko-najunge",
+          "form": "나중에",
+          "reading": "najunge",
+          "meaningVn": "sau này, lát nữa",
+          "usage": "나중에 + V",
+          "register": "trung tính",
+          "nuanceVn": "Thời điểm sau trong tương lai (以后/后来 tùy văn cảnh).",
+          "examples": [
+            {
+              "sentence": "나중에 다시 전화할게요.",
+              "translationVn": "Lát nữa tôi gọi lại nhé.",
+              "answer": "나중에"
+            },
+            {
+              "sentence": "나중에 한국에 가고 싶어요.",
+              "translationVn": "Sau này tôi muốn đến Hàn.",
+              "answer": "나중에"
+            }
+          ],
+          "mnemonicVn": "나중 ↔ 먼저: sau ↔ trước."
+        }
+      ]
+    },
+    {
+      "id": "purpose",
+      "titleVn": "Mục đích — để, nhằm, để khỏi",
+      "icon": "🎯",
+      "entries": [
+        {
+          "id": "ko-euryeogo",
+          "form": "-(으)려고",
+          "reading": "-(eu)ryeogo",
+          "meaningVn": "để, định (mục đích)",
+          "usage": "V-(으)려고 + V",
+          "register": "trung tính",
+          "nuanceVn": "Ý định của chủ ngữ; KHÔNG đi với mệnh lệnh/rủ rê (dùng -(으)러 / -기 위해).",
+          "examples": [
+            {
+              "sentence": "한국에 가려고 한국어를 배워요.",
+              "translationVn": "Tôi học tiếng Hàn để đi Hàn.",
+              "answer": "가려고"
+            },
+            {
+              "sentence": "살을 빼려고 운동해요.",
+              "translationVn": "Tôi tập thể dục để giảm cân.",
+              "answer": "빼려고"
+            }
+          ],
+          "mnemonicVn": "-려고 하다 = định làm → -려고 + V = định… nên làm."
+        },
+        {
+          "id": "ko-eureo",
+          "form": "-(으)러 가다/오다",
+          "reading": "-(eu)reo",
+          "meaningVn": "đi/đến để",
+          "usage": "V-(으)러 + 가다/오다/다니다",
+          "register": "trung tính",
+          "nuanceVn": "Chỉ đi với động từ di chuyển.",
+          "examples": [
+            {
+              "sentence": "밥 먹으러 가요.",
+              "translationVn": "Đi ăn cơm.",
+              "answer": "먹으러"
+            },
+            {
+              "sentence": "친구를 만나러 왔어요.",
+              "translationVn": "Tôi đến để gặp bạn.",
+              "answer": "만나러"
+            }
+          ],
+          "mnemonicVn": "-러 + 가다/오다 → luôn kèm \"đi/đến\"."
+        },
+        {
+          "id": "ko-gi-wihae",
+          "form": "-기 위해(서) / N을 위해",
+          "reading": "-gi wihae",
+          "meaningVn": "để, vì (mục đích lớn)",
+          "usage": "V-기 위해서, N을/를 위해서",
+          "register": "trung tính",
+          "nuanceVn": "Trang trọng hơn -려고; dùng được với mệnh lệnh.",
+          "examples": [
+            {
+              "sentence": "건강을 지키기 위해 매일 운동해요.",
+              "translationVn": "Để giữ sức khỏe tôi tập thể dục mỗi ngày.",
+              "answer": "위해"
+            },
+            {
+              "sentence": "가족을 위해서 열심히 일해요.",
+              "translationVn": "Tôi làm việc chăm chỉ vì gia đình.",
+              "answer": "위해서"
+            }
+          ],
+          "mnemonicVn": "위 = 爲 VỊ (vì) → 위해 = vì / để (为了).",
+          "hanja": "爲_"
+        },
+        {
+          "id": "ko-dorok",
+          "form": "-도록",
+          "reading": "-dorok",
+          "meaningVn": "để cho, sao cho",
+          "usage": "V-도록 + V",
+          "register": "trung tính",
+          "nuanceVn": "Để (người khác/sự việc) đạt trạng thái; cũng là \"đến mức\".",
+          "examples": [
+            {
+              "sentence": "잊지 않도록 메모하세요.",
+              "translationVn": "Hãy ghi chú để không quên.",
+              "answer": "않도록"
+            },
+            {
+              "sentence": "아이가 잘 수 있도록 조용히 해 주세요.",
+              "translationVn": "Hãy giữ yên lặng để đứa bé ngủ được.",
+              "answer": "있도록"
+            }
+          ],
+          "mnemonicVn": "-도록 ~ \"đến độ\" → làm sao cho tới mức đó."
+        },
+        {
+          "id": "ko-ge",
+          "form": "-게",
+          "reading": "-ge",
+          "meaningVn": "để, cho (kết quả mong muốn)",
+          "usage": "V/A-게 + V",
+          "register": "khẩu ngữ",
+          "nuanceVn": "Gần -도록 nhưng nhẹ, nói hằng ngày.",
+          "examples": [
+            {
+              "sentence": "잘 들리게 크게 말해 주세요.",
+              "translationVn": "Nói to lên cho nghe rõ.",
+              "answer": "들리게"
+            },
+            {
+              "sentence": "늦지 않게 일찍 출발하세요.",
+              "translationVn": "Xuất phát sớm để không muộn.",
+              "answer": "않게"
+            }
+          ],
+          "mnemonicVn": "-게 = -도록 bản ngắn."
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "titleVn": "Tổng kết — tóm lại, dù sao, rốt cuộc",
+      "icon": "📌",
+      "entries": [
+        {
+          "id": "ko-yokeondae",
+          "form": "요컨대",
+          "reading": "yokeondae",
+          "meaningVn": "tóm lại, nói tóm lại",
+          "usage": "요컨대, …",
+          "register": "văn viết",
+          "nuanceVn": "Tóm ý chính (总之).",
+          "examples": [
+            {
+              "sentence": "요컨대 문제는 돈이다.",
+              "translationVn": "Tóm lại vấn đề là tiền.",
+              "answer": "요컨대"
+            },
+            {
+              "sentence": "요컨대 우리가 더 노력해야 한다는 거예요.",
+              "translationVn": "Nói tóm lại là chúng ta phải cố gắng hơn.",
+              "answer": "요컨대"
+            }
+          ],
+          "mnemonicVn": "요 = 要 YẾU (cốt yếu) → nói cái cốt yếu.",
+          "hanja": "要__"
+        },
+        {
+          "id": "ko-gyeolloneun",
+          "form": "결론적으로",
+          "reading": "gyeollonjeogeuro",
+          "meaningVn": "kết luận là",
+          "usage": "결론적으로, …",
+          "register": "văn viết",
+          "nuanceVn": "Mở câu kết luận bài viết.",
+          "examples": [
+            {
+              "sentence": "결론적으로 이 계획은 성공했다.",
+              "translationVn": "Kết luận là kế hoạch này đã thành công.",
+              "answer": "결론적으로"
+            },
+            {
+              "sentence": "결론적으로 말하면, 찬성합니다.",
+              "translationVn": "Nói tóm lại, tôi tán thành.",
+              "answer": "결론적으로"
+            }
+          ],
+          "mnemonicVn": "결론 = 結論 KẾT LUẬN.",
+          "hanja": "結論的__"
+        },
+        {
+          "id": "ko-amuteun",
+          "form": "아무튼 / 어쨌든",
+          "reading": "amuteun / eojjaetdeun",
+          "meaningVn": "dù sao thì, nói chung là",
+          "usage": "아무튼, …",
+          "register": "khẩu ngữ",
+          "nuanceVn": "Gạt chi tiết, quay lại ý chính (反正/总之).",
+          "examples": [
+            {
+              "sentence": "아무튼 내일 다시 이야기해요.",
+              "translationVn": "Dù sao thì mai nói chuyện tiếp nhé.",
+              "answer": "아무튼"
+            },
+            {
+              "sentence": "어쨌든 결과가 좋아서 다행이에요.",
+              "translationVn": "Dù sao kết quả tốt là may rồi.",
+              "answer": "어쨌든"
+            }
+          ],
+          "mnemonicVn": "아무 (bất kỳ) + 튼 → \"thế nào đi nữa\"."
+        },
+        {
+          "id": "ko-hanmadiro",
+          "form": "한마디로",
+          "reading": "hanmadiro",
+          "meaningVn": "nói một câu là, tóm gọn",
+          "usage": "한마디로 + đánh giá",
+          "register": "khẩu ngữ",
+          "nuanceVn": "Tóm gọn trong một lời (一句话).",
+          "examples": [
+            {
+              "sentence": "한마디로 최고였어요!",
+              "translationVn": "Nói gọn một câu là tuyệt nhất!",
+              "answer": "한마디로"
+            },
+            {
+              "sentence": "그 영화는 한마디로 지루했어요.",
+              "translationVn": "Bộ phim đó nói gọn là chán.",
+              "answer": "한마디로"
+            }
+          ],
+          "mnemonicVn": "한 (một) + 마디 (lời) = một lời."
+        },
+        {
+          "id": "ko-gyeolguk-sum",
+          "form": "결국에는",
+          "reading": "gyeolgugeneun",
+          "meaningVn": "xét cho cùng, rốt cuộc là",
+          "usage": "결국에는 + kết luận",
+          "register": "trung tính",
+          "nuanceVn": "Nhấn kết luận cuối cùng của mọi chuyện.",
+          "examples": [
+            {
+              "sentence": "결국에는 노력이 중요해요.",
+              "translationVn": "Xét cho cùng thì nỗ lực là quan trọng.",
+              "answer": "결국에는"
+            },
+            {
+              "sentence": "결국에는 다 잘될 거예요.",
+              "translationVn": "Rốt cuộc mọi chuyện sẽ ổn.",
+              "answer": "결국에는"
+            }
+          ],
+          "mnemonicVn": "결국 = 結局 KẾT CỤC.",
+          "hanja": "結局__"
+        }
+      ]
+    },
+    {
+      "id": "progression",
+      "titleVn": "Tăng tiến — không những, thậm chí, càng…càng",
+      "icon": "📈",
+      "entries": [
+        {
+          "id": "ko-simjieo",
+          "form": "심지어",
+          "reading": "simjieo",
+          "meaningVn": "thậm chí",
+          "usage": "심지어 + V / N까지",
+          "register": "trung tính",
+          "nuanceVn": "Nêu trường hợp cực đoan (甚至).",
+          "examples": [
+            {
+              "sentence": "너무 바빠서 심지어 밥도 못 먹었어요.",
+              "translationVn": "Bận quá, thậm chí cơm cũng không ăn được.",
+              "answer": "심지어"
+            },
+            {
+              "sentence": "심지어 아이들까지 그 노래를 알아요.",
+              "translationVn": "Thậm chí cả trẻ con cũng biết bài hát đó.",
+              "answer": "심지어"
+            }
+          ],
+          "mnemonicVn": "심지어 = 甚至於 THẬM CHÍ Ư — y hệt \"thậm chí\"!",
+          "hanja": "甚至於"
+        },
+        {
+          "id": "ko-kkaji",
+          "form": "-까지 / -조차",
+          "reading": "-kkaji / -jocha",
+          "meaningVn": "đến cả, ngay cả",
+          "usage": "N까지 (thêm), N조차 (tiêu cực)",
+          "register": "trung tính",
+          "nuanceVn": "까지: cả cái đó nữa; 조차: ngay cả (thường với phủ định).",
+          "examples": [
+            {
+              "sentence": "비에 바람까지 불어요.",
+              "translationVn": "Mưa, lại còn cả gió thổi nữa.",
+              "answer": "까지"
+            },
+            {
+              "sentence": "이름조차 기억이 안 나요.",
+              "translationVn": "Ngay cả cái tên cũng không nhớ.",
+              "answer": "조차"
+            }
+          ],
+          "mnemonicVn": "까지 = \"tới tận\"; 조차 = \"chẳng có nổi\" (tiêu cực)."
+        },
+        {
+          "id": "ko-jeomjeom",
+          "form": "점점",
+          "reading": "jeomjeom",
+          "meaningVn": "dần dần, càng ngày càng",
+          "usage": "점점 + A/V",
+          "register": "trung tính",
+          "nuanceVn": "Thay đổi tăng dần (越来越).",
+          "examples": [
+            {
+              "sentence": "날씨가 점점 추워져요.",
+              "translationVn": "Thời tiết càng ngày càng lạnh.",
+              "answer": "점점"
+            },
+            {
+              "sentence": "한국어 실력이 점점 늘고 있어요.",
+              "translationVn": "Trình tiếng Hàn đang dần tiến bộ.",
+              "answer": "점점"
+            }
+          ],
+          "mnemonicVn": "점 = 漸 TIỆM (tiệm tiến) → 점점 = từ từ tăng dần.",
+          "hanja": "漸漸"
+        },
+        {
+          "id": "ko-eulsurok",
+          "form": "-(으)ㄹ수록",
+          "reading": "-(eu)lsurok",
+          "meaningVn": "càng… càng",
+          "usage": "(V-(으)면) V-(으)ㄹ수록",
+          "register": "trung tính",
+          "nuanceVn": "Tương đương 越…越.",
+          "examples": [
+            {
+              "sentence": "한국어는 배울수록 재미있어요.",
+              "translationVn": "Tiếng Hàn càng học càng thú vị.",
+              "answer": "배울수록"
+            },
+            {
+              "sentence": "사람이 많으면 많을수록 좋아요.",
+              "translationVn": "Người càng đông càng tốt.",
+              "answer": "많을수록"
+            }
+          ],
+          "mnemonicVn": "수록 → \"số lớn\" → càng nhiều càng…"
+        },
+        {
+          "id": "ko-mullon",
+          "form": "물론",
+          "reading": "mullon",
+          "meaningVn": "tất nhiên, dĩ nhiên",
+          "usage": "물론 + V / N은 물론이고",
+          "register": "trung tính",
+          "nuanceVn": "N은 물론이고 N도 = không những N mà cả N.",
+          "examples": [
+            {
+              "sentence": "물론이죠! 같이 가요.",
+              "translationVn": "Tất nhiên rồi! Đi cùng nhau nào.",
+              "answer": "물론"
+            },
+            {
+              "sentence": "영어는 물론이고 중국어도 잘해요.",
+              "translationVn": "Tiếng Anh thì dĩ nhiên, tiếng Trung cũng giỏi.",
+              "answer": "물론"
+            }
+          ],
+          "mnemonicVn": "물론 = 勿論 VẬT LUẬN — \"khỏi phải bàn\".",
+          "hanja": "勿論"
+        },
+        {
+          "id": "ko-sasil",
+          "form": "사실(은)",
+          "reading": "sasil(eun)",
+          "meaningVn": "thật ra, sự thật là",
+          "usage": "사실은 + điều thật",
+          "register": "trung tính",
+          "nuanceVn": "Thú nhận / đính chính (其实).",
+          "examples": [
+            {
+              "sentence": "사실은 저도 잘 몰라요.",
+              "translationVn": "Thật ra tôi cũng không rõ lắm.",
+              "answer": "사실은"
+            },
+            {
+              "sentence": "사실 어제 아팠어요.",
+              "translationVn": "Thật ra hôm qua tôi bị ốm.",
+              "answer": "사실"
+            }
+          ],
+          "mnemonicVn": "사실 = 事實 SỰ THỰC.",
+          "hanja": "事實"
+        },
+        {
+          "id": "ko-deouk",
+          "form": "더욱",
+          "reading": "deouk",
+          "meaningVn": "càng thêm, hơn nữa",
+          "usage": "더욱 + A/V",
+          "register": "văn viết",
+          "nuanceVn": "Mức độ tăng thêm (更加).",
+          "examples": [
+            {
+              "sentence": "앞으로 더욱 노력하겠습니다.",
+              "translationVn": "Từ nay tôi sẽ càng nỗ lực hơn.",
+              "answer": "더욱"
+            },
+            {
+              "sentence": "비가 오니 더욱 추워졌다.",
+              "translationVn": "Mưa xuống nên càng lạnh hơn.",
+              "answer": "더욱"
+            }
+          ],
+          "mnemonicVn": "더 (hơn) + 욱 → \"hơn nữa nữa\"."
+        }
+      ]
+    },
+    {
+      "id": "transition",
+      "titleVn": "Chuyển ý — còn về, nhân tiện, thì ra",
+      "icon": "🔄",
+      "entries": [
+        {
+          "id": "ko-hanpyeon",
+          "form": "한편",
+          "reading": "hanpyeon",
+          "meaningVn": "mặt khác, trong khi đó",
+          "usage": "A. 한편 B.",
+          "register": "văn viết",
+          "nuanceVn": "Chuyển sang khía cạnh/sự việc song song (另一方面/与此同时).",
+          "examples": [
+            {
+              "sentence": "서울은 맑았다. 한편 부산에는 비가 왔다.",
+              "translationVn": "Seoul trời quang. Trong khi đó Busan có mưa.",
+              "answer": "한편"
+            },
+            {
+              "sentence": "한편으로는 기쁘고 한편으로는 슬퍼요.",
+              "translationVn": "Một mặt thì vui, mặt khác thì buồn.",
+              "answer": "한편"
+            }
+          ],
+          "mnemonicVn": "한 (một) + 편 = 便/片 phía → \"một phía khác\".",
+          "hanja": "_便"
+        },
+        {
+          "id": "ko-geugeon-geureoko",
+          "form": "그건 그렇고",
+          "reading": "geugeon geureoko",
+          "meaningVn": "nhân tiện, thôi chuyện đó",
+          "usage": "그건 그렇고, + chủ đề mới",
+          "register": "khẩu ngữ",
+          "nuanceVn": "Chuyển chủ đề (对了/话说回来).",
+          "examples": [
+            {
+              "sentence": "그건 그렇고, 밥은 먹었어?",
+              "translationVn": "Thôi chuyện đó, ăn cơm chưa?",
+              "answer": "그건 그렇고"
+            },
+            {
+              "sentence": "그건 그렇고 다음 주 계획은요?",
+              "translationVn": "Nhân tiện, kế hoạch tuần sau thì sao?",
+              "answer": "그건 그렇고"
+            }
+          ],
+          "mnemonicVn": "\"Cái đó thì như thế\" → gác lại, sang chuyện khác."
+        },
+        {
+          "id": "ko-cham",
+          "form": "참",
+          "reading": "cham",
+          "meaningVn": "à này, à phải rồi",
+          "usage": "참, + chuyện chợt nhớ",
+          "register": "khẩu ngữ",
+          "nuanceVn": "Chợt nhớ ra (对了).",
+          "examples": [
+            {
+              "sentence": "참, 내일 회의 있어요.",
+              "translationVn": "À phải rồi, mai có họp.",
+              "answer": "참"
+            },
+            {
+              "sentence": "아 참! 우산을 두고 왔어요.",
+              "translationVn": "À chết! Tôi để quên ô rồi.",
+              "answer": "참"
+            }
+          ],
+          "mnemonicVn": "참 → \"chà!\" — chợt nhớ ra."
+        },
+        {
+          "id": "ko-daman",
+          "form": "다만",
+          "reading": "daman",
+          "meaningVn": "chỉ có điều, có điều",
+          "usage": "A. 다만 B (hạn chế).",
+          "register": "trung tính",
+          "nuanceVn": "Thêm điều kiện/hạn chế nhỏ (只是/不过).",
+          "examples": [
+            {
+              "sentence": "좋은 생각이에요. 다만 돈이 좀 들어요.",
+              "translationVn": "Ý hay đấy. Chỉ có điều hơi tốn tiền.",
+              "answer": "다만"
+            },
+            {
+              "sentence": "가도 돼요. 다만 일찍 들어오세요.",
+              "translationVn": "Đi cũng được. Có điều về sớm nhé.",
+              "answer": "다만"
+            }
+          ],
+          "mnemonicVn": "다만 ~ \"đã mà\" — chỉ có điều."
+        },
+        {
+          "id": "ko-geunajeona",
+          "form": "그나저나",
+          "reading": "geunajeona",
+          "meaningVn": "mà thôi, mà nhân tiện",
+          "usage": "그나저나 + chủ đề mới",
+          "register": "khẩu ngữ",
+          "nuanceVn": "Kết thúc chuyện cũ, chuyển chuyện mới.",
+          "examples": [
+            {
+              "sentence": "그나저나 요즘 어떻게 지내요?",
+              "translationVn": "Mà dạo này bạn thế nào?",
+              "answer": "그나저나"
+            },
+            {
+              "sentence": "그나저나 시간이 벌써 이렇게 됐네요.",
+              "translationVn": "Mà đã muộn thế này rồi.",
+              "answer": "그나저나"
+            }
+          ],
+          "mnemonicVn": "그나 저나 = \"cái này cái kia\" → thôi gác hết."
+        },
+        {
+          "id": "ko-soljikhi",
+          "form": "솔직히 (말하면)",
+          "reading": "soljikhi",
+          "meaningVn": "thật lòng mà nói",
+          "usage": "솔직히 + ý kiến",
+          "register": "khẩu ngữ",
+          "nuanceVn": "Nói thẳng ý kiến (说实话/老实说).",
+          "examples": [
+            {
+              "sentence": "솔직히 말하면 별로예요.",
+              "translationVn": "Thật lòng mà nói thì không hay lắm.",
+              "answer": "솔직히"
+            },
+            {
+              "sentence": "솔직히 잘 모르겠어요.",
+              "translationVn": "Thú thật tôi không biết.",
+              "answer": "솔직히"
+            }
+          ],
+          "mnemonicVn": "솔직 = 率直 SUẤT TRỰC — thẳng thắn.",
+          "hanja": "率直_"
+        },
+        {
+          "id": "ko-daeumeuro",
+          "form": "다음으로",
+          "reading": "daeumeuro",
+          "meaningVn": "tiếp theo (thuyết trình)",
+          "usage": "다음으로, + ý mới",
+          "register": "văn viết",
+          "nuanceVn": "Chuyển ý trong bài phát biểu/báo cáo.",
+          "examples": [
+            {
+              "sentence": "다음으로 두 번째 문제를 보겠습니다.",
+              "translationVn": "Tiếp theo chúng ta xem vấn đề thứ hai.",
+              "answer": "다음으로"
+            },
+            {
+              "sentence": "다음으로 결과를 발표하겠습니다.",
+              "translationVn": "Tiếp theo tôi xin công bố kết quả.",
+              "answer": "다음으로"
+            }
+          ],
+          "mnemonicVn": "다음 (tiếp) + 으로 → chuyển sang cái tiếp."
+        }
+      ]
+    }
+  ],
+  "confusions": [
+    {
+      "id": "ko-cf-or",
+      "titleVn": "또는 / 혹은 / 아니면 / -거나",
+      "entryIds": [
+        "ko-ttoneun",
+        "ko-hokeun",
+        "ko-animyeon",
+        "ko-geona"
+      ],
+      "explanationVn": "또는/혹은: nối DANH TỪ trong câu kể, văn viết. 아니면: câu HỎI lựa chọn, khẩu ngữ (giống 还是). -거나: đuôi gắn vào ĐỘNG/TÍNH TỪ."
+    },
+    {
+      "id": "ko-cf-because",
+      "titleVn": "-아서 vs -(으)니까 vs -기 때문에",
+      "entryIds": [
+        "ko-aseo",
+        "ko-eunikka",
+        "ko-gittaemune",
+        "ko-neun-barame"
+      ],
+      "explanationVn": "-아서: lý do tự nhiên, KHÔNG đi với mệnh lệnh/rủ rê, không chia quá khứ. -(으)니까: lý do chủ quan, ĐI ĐƯỢC với mệnh lệnh. -기 때문에: nhấn mạnh, chia được quá khứ. -는 바람에: sự cố bất ngờ → kết quả xấu."
+    },
+    {
+      "id": "ko-cf-so",
+      "titleVn": "그래서 vs 그러니까 vs 따라서",
+      "entryIds": [
+        "ko-geuraeseo",
+        "ko-geureonikka",
+        "ko-ttaraseo",
+        "ko-geureomeuro"
+      ],
+      "explanationVn": "그래서: kể kết quả, không đi với lệnh. 그러니까: kèm lời khuyên/lệnh hoặc \"ý tôi là\". 따라서/그러므로: văn viết, lập luận."
+    },
+    {
+      "id": "ko-cf-but",
+      "titleVn": "하지만 / 그러나 / 그렇지만 / 그런데",
+      "entryIds": [
+        "ko-hajiman",
+        "ko-geureona",
+        "ko-geureojiman",
+        "ko-geureonde"
+      ],
+      "explanationVn": "하지만: chuẩn mực. 그러나: văn viết. 그렇지만: \"đúng vậy nhưng\". 그런데: tương phản nhẹ HOẶC chuyển chủ đề \"mà này\"."
+    },
+    {
+      "id": "ko-cf-jiman",
+      "titleVn": "-지만 vs -는데",
+      "entryIds": [
+        "ko-jiman",
+        "ko-neunde"
+      ],
+      "explanationVn": "-지만: tương phản rõ ràng. -는데: nêu BỐI CẢNH rồi nói tiếp — có thể tương phản nhẹ hoặc chỉ dẫn dắt (비가 오는데 우산 있어요?)."
+    },
+    {
+      "id": "ko-cf-even-if",
+      "titleVn": "-아도 / -더라도 / 그래도",
+      "entryIds": [
+        "ko-ado",
+        "ko-deorado",
+        "ko-geuraedo"
+      ],
+      "explanationVn": "-아도: dù (thực tế lẫn giả định). -더라도: giả định mạnh hơn \"cho dù… đi nữa\". 그래도: đứng đầu câu \"dù vậy vẫn\"."
+    },
+    {
+      "id": "ko-cf-finally",
+      "titleVn": "결국 vs 드디어",
+      "entryIds": [
+        "ko-gyeolguk",
+        "ko-deudieo"
+      ],
+      "explanationVn": "드디어: điều MONG ĐỢI cuối cùng đã tới (终于). 결국: kết cục sau quá trình, thường không như ý."
+    },
+    {
+      "id": "ko-cf-purpose",
+      "titleVn": "-(으)려고 / -(으)러 / -기 위해 / -도록",
+      "entryIds": [
+        "ko-euryeogo",
+        "ko-eureo",
+        "ko-gi-wihae",
+        "ko-dorok"
+      ],
+      "explanationVn": "-(으)러: CHỈ trước 가다/오다. -(으)려고: ý định, không đi với lệnh. -기 위해: trang trọng, dùng được với lệnh. -도록: để cho (người/sự việc) đạt trạng thái."
+    },
+    {
+      "id": "ko-cf-if",
+      "titleVn": "-(으)면 vs -다면 vs 만약",
+      "entryIds": [
+        "ko-eumyeon",
+        "ko-damyeon",
+        "ko-manyage"
+      ],
+      "explanationVn": "-(으)면: điều kiện thường. -다면: giả định ít khả năng. 만약: trạng từ đầu câu nhấn mạnh, vẫn phải đi với -(으)면/-다면."
+    },
+    {
+      "id": "ko-cf-and",
+      "titleVn": "그리고 / 또한 / 게다가 / 더구나",
+      "entryIds": [
+        "ko-geurigo",
+        "ko-ttohan",
+        "ko-gedaga",
+        "ko-deoguna"
+      ],
+      "explanationVn": "그리고: \"và\" trung tính. 또한: văn viết. 게다가/더구나: chồng thêm ý cùng chiều, làm tình hình mạnh hơn."
+    },
+    {
+      "id": "ko-cf-even",
+      "titleVn": "심지어 / -까지 / -조차",
+      "entryIds": [
+        "ko-simjieo",
+        "ko-kkaji"
+      ],
+      "explanationVn": "심지어: trạng từ \"thậm chí\". -까지: \"cả cái đó nữa\" (cộng thêm). -조차: \"ngay cả… cũng không\" (thường với phủ định)."
+    },
+    {
+      "id": "ko-cf-anyway",
+      "titleVn": "아무튼 / 요컨대 / 한마디로",
+      "entryIds": [
+        "ko-amuteun",
+        "ko-yokeondae",
+        "ko-hanmadiro"
+      ],
+      "explanationVn": "아무튼/어쨌든: khẩu ngữ \"dù sao thì\". 요컨대: văn viết \"tóm lại\". 한마디로: \"nói gọn một câu\"."
+    }
+  ]
+}
