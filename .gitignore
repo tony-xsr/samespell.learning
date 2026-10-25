@@ -41,3 +41,6 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 /ideas
+
+# learntools-api backups tải về bằng ./deploy.sh lt-backup
+/backups-learntools

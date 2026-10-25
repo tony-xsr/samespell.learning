@@ -26,8 +26,9 @@ Project mới: copy `deploy.sh` sang, sửa các chỗ ở mục **"Thêm projec
 | pm.tungtran.dev | 3009 | `solana-tracker` (+ `solana-redis` :6380) | deploy kiểu cũ (git pull + compose) |
 | lingo.tungtran.dev | 3010 | `samespell` (+ `samespell-redis`) | deploy bằng `deploy.sh` |
 | ls.tungtran.dev | 3012 | `tung-livestream` | |
+| api-lwai.tungtran.dev | 3013 | `learntools-api` (+ `learntools-mongo`) | API LeanWithAI, code ở `services/learntools-api/`, deploy bằng `./deploy.sh learntools` |
 
-**Cổng trống tiếp theo: 3013.** Kiểm tra lại trước khi dùng: `ssh root@103.200.20.185 'ss -ltn'`.
+**Cổng trống tiếp theo: 3014.** Kiểm tra lại trước khi dùng: `ssh root@103.200.20.185 'ss -ltn'`.
 
 ---
 
@@ -82,7 +83,7 @@ gửi qua ssh thành `/opt/apps/<tên>/.env`. **Env không bao giờ đi qua git
    SERVER_HOST=103.200.20.185
    SERVER_USER=root
    DOMAIN=<sub>.tungtran.dev
-   APP_PORT=3013            # cổng trống tiếp theo, xem bảng trên
+   APP_PORT=3014            # cổng trống tiếp theo, xem bảng trên
    APP_DIR=/opt/apps/<tên>
    SSL=cloudflare
    ```
